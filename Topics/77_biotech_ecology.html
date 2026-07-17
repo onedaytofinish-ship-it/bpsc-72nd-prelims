@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>77 - Biotech & Ecology Basics | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #77 • TIER A</div>
+  <div class="topic-title">Biotech &amp; Ecology Basics — Applications, Ecosystem Fundamentals</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Biology</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Makhana, Ganga Dolphin, Valmiki TR</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Biotech &amp; Ecology (high-yield Tier A):</strong> Biotechnology: recombinant DNA (restriction enzymes = "molecular scissors", ligase = "molecular glue"), PCR (Kary Mullis, 1983 — amplifies DNA, Nobel 1993), gene cloning (vectors: plasmids, bacteriophages), GMOs (Bt cotton — <em>Bacillus thuringiensis</em> Cry toxin; Golden Rice — β-carotene/vitamin A, genes <em>psy</em> + <em>crtI</em>), recombinant insulin (Humulin, 1982 — first commercial rDNA product), stem cells (embryonic pluripotent, adult multipotent, iPSCs — Yamanaka 2006 Nobel 2012), CRISPR-Cas9 (Doudna &amp; Charpentier, Nobel 2020 — "genetic scissors"), bioremediation (oil spills, heavy metals). Ecology: ecosystem = biotic (producers, consumers, decomposers) + abiotic (light, temperature, water, soil); energy flow = 10% law (Lindemann); food chain vs food web; ecological pyramids (pyramid of numbers, biomass, energy — always upright for energy); biogeochemical cycles (carbon — photosynthesis/respiration; nitrogen — N₂ fixation by <em>Rhizobium</em>, Azotobacter; nitrification by <em>Nitrosomonas</em>/<em>Nitrobacter</em>; denitrification by <em>Pseudomonas denitrificans</em>); ecological succession (primary — bare rock, lichen pioneers; secondary — after disturbance, soil present); biodiversity levels (genetic, species, ecosystem); biodiversity hotspots (Norman Myers, 34 globally; India has 4 — Himalaya, Western Ghats, Indo-Burma, Sundaland); IUCN Red List categories (LC, NT, VU, EN, CR, EW, EX); pollution types (air, water, soil, noise, thermal); eutrophication (algal blooms, BOD↑, DO↓); biomagnification (DDT, mercury); global issues (climate change, ozone depletion — CFCs, Montreal Protocol 1987).
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of biotechnology tools, ecosystem energetics, biogeochemical cycles, biodiversity hotspots, pollution chemistry, and 7 exam predictions:
+    <a href="subpages/77_biotech_ecology_detail.html" target="_blank">Biotech &amp; Ecology Master Detail →</a>
+  </div>
+
+  <div class="img-container">
+    <img src="images/photosynthesis_diagram.png" alt="Photosynthesis and carbon cycle — energy flow in ecosystems">
+    <div class="img-caption">Photosynthesis drives the carbon cycle and energy flow in ecosystems. Producers (plants, algae, cyanobacteria) convert solar energy (~1% fixed) into chemical energy (glucose) via 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. This energy flows through trophic levels with ~10% transfer efficiency (Lindemann's 10% law). Respiration returns CO₂ to atmosphere, completing the carbon cycle.</div>
+  </div>
+
+  <h3>A. Biotechnology — Core Tools &amp; Techniques <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Technique</th><th>Key Enzyme/Tool</th><th>Function</th><th>Key Facts</th></tr>
+    <tr><td><strong>Recombinant DNA</strong></td><td>Restriction enzymes (endonucleases) + DNA ligase</td><td>Cut &amp; paste DNA from different sources</td><td>Restriction enzymes = "molecular scissors" (e.g., EcoRI cuts GAATTC). Ligase = "molecular glue". First rDNA by Cohen &amp; Boyer (1973)</td></tr>
+    <tr><td><strong>PCR (Polymerase Chain Reaction)</strong></td><td>Taq polymerase (thermostable, from <em>Thermus aquaticus</em>)</td><td>Amplify DNA (millions of copies in hours)</td><td>Invented by Kary Mullis (1983, Nobel 1993). 3 steps: Denaturation (95°C), Annealing (55°C), Extension (72°C). Used in COVID-19 testing, DNA fingerprinting, forensics</td></tr>
+    <tr><td><strong>Gene Cloning</strong></td><td>Vectors (plasmids, bacteriophages, BACs)</td><td>Insert gene into host for replication/expression</td><td>Plasmid pBR322 = classic cloning vector. Host = usually <em>E. coli</em>. Selectable markers (antibiotic resistance) identify transformed cells</td></tr>
+    <tr><td><strong>CRISPR-Cas9</strong></td><td>Cas9 nuclease + guide RNA</td><td>Targeted gene editing (cut, insert, replace)</td><td>Doudna &amp; Charpentier (Nobel 2020). "Genetic scissors". Derived from bacterial immune system (adaptive immunity against phages). Precise, cheap, fast</td></tr>
+    <tr><td><strong>Gel Electrophoresis</strong></td><td>Agarose gel + electric field</td><td>Separate DNA fragments by size</td><td>Small fragments move faster/farther. Used in DNA fingerprinting (Alec Jeffreys, 1984)</td></tr>
+    <tr><td><strong>DNA Sequencing</strong></td><td>Sanger method / Next-gen sequencing</td><td>Determine nucleotide order</td><td>Sanger (chain termination, Nobel 1980). Human Genome Project (2003) used Sanger + shotgun sequencing</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — rDNA Tools:</strong><br>
+    <strong>RE</strong>striction enzymes <strong>Cut</strong>, <strong>Ligase</strong> <strong>Paste</strong>, <strong>Polymerase</strong> <strong>Copy</strong> (PCR)<br>
+    <em>"Cut, Paste, Copy" — the 3 operations of genetic engineering, like word processing for DNA.</em>
+  </div>
+
+  <h3>B. GMOs &amp; Applications <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>GMO/Product</th><th>Gene/Modification</th><th>Trait</th><th>Key Facts</th></tr>
+    <tr><td><strong>Bt cotton</strong></td><td><em>cry</em> gene from <em>Bacillus thuringiensis</em></td><td>Insect resistance (bollworm)</td><td>First GM crop approved in India (2002, by GEAC). Produces Cry protein toxin → kills bollworm. NOT a food crop. India's only approved GM crop for commercial cultivation</td></tr>
+    <tr><td><strong>Golden Rice</strong></td><td><em>psy</em> (daffodil) + <em>crtI</em> (bacterium) genes</td><td>β-carotene (pro-vitamin A) enrichment</td><td>Developed by Ingo Potrykus &amp; Peter Beyer (1999). GR2E variety. Tackles vitamin A deficiency (blindness). Approved in Philippines (2021), Bangladesh. Controversial in India</td></tr>
+    <tr><td><strong>Recombinant Insulin (Humulin)</strong></td><td>Human insulin gene in <em>E. coli</em></td><td>Human insulin production</td><td>First commercial rDNA product (Eli Lilly, 1982). Replaced animal insulin (pig/cow). Genentech developed the process</td></tr>
+    <tr><td><strong>Bt brinjal</strong></td><td><em>cry1Ac</em> gene</td><td>Fruit &amp; shoot borer resistance</td><td>Approved by GEAC (2009) but moratorium imposed (2010) by Jairam Ramesh. Cultivated in Bangladesh. NOT approved in India</td></tr>
+    <tr><td><strong>GM Mustard (DMH-11)</strong></td><td>Barnase + Barstar (barnase/barstar system)</td><td>Hybrid seed production</td><td>Developed by Delhi University (Deepak Pental). GEAC approved (2022, conditional). Under review. Would be India's 2nd GM crop &amp; 1st GM food crop if approved</td></tr>
+    <tr><td><strong>Flavr Savr tomato</strong></td><td>Antisense polygalacturonase gene</td><td>Delayed ripening</td><td>First commercialized GM food (1994, USA, Calgene). Withdrawn (1997) due to commercial issues</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/leaf_structure.png" alt="Leaf structure — site of photosynthesis and primary production in ecosystems">
+    <div class="img-caption">Leaf structure — chloroplasts in mesophyll cells are the engines of primary production. Producers fix ~1% of incident solar energy via photosynthesis. This fixed energy flows through the food chain: producers → primary consumers (herbivores) → secondary consumers (carnivores) → tertiary consumers, with only ~10% transferred at each trophic level (Lindemann's 10% law).</div>
+  </div>
+
+  <h3>C. Stem Cells &amp; Regenerative Medicine</h3>
+  <table>
+    <tr><th>Type</th><th>Source</th><th>Potency</th><th>Examples/Uses</th></tr>
+    <tr><td><strong>Totipotent</strong></td><td>Zygote, early morula</td><td>Can form entire organism (embryo + placenta)</td><td>Fertilized egg → complete human</td></tr>
+    <tr><td><strong>Pluripotent</strong></td><td>Inner cell mass of blastocyst (embryonic stem cells)</td><td>Can form all 3 germ layers (ecto, meso, endo) — not placenta</td><td>Embryonic stem cells (ESCs); regenerative medicine, drug testing</td></tr>
+    <tr><td><strong>Multipotent</strong></td><td>Adult tissues (bone marrow, umbilical cord blood)</td><td>Limited to specific cell types</td><td>HSCs (haematopoietic stem cells → all blood cells); MSCs (mesenchymal → bone, cartilage, fat). Bone marrow transplant = HSC transplant</td></tr>
+    <tr><td><strong>Induced Pluripotent (iPSCs)</strong></td><td>Adult cells reprogrammed (Yamanaka factors: Oct4, Sox2, Klf4, c-Myc)</td><td>Pluripotent (like ESCs) but no embryo needed</td><td>Shinya Yamanaka (2006, Nobel 2012). Avoids ethical issues of ESCs. Patient-specific — no rejection</td></tr>
+  </table>
+
+  <h3>D. Ecosystem — Structure &amp; Function <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Component</th><th>Category</th><th>Examples</th><th>Role</th></tr>
+    <tr><td><strong>Producers</strong></td><td>Biotic (autotrophs)</td><td>Green plants, algae, cyanobacteria, phytoplankton</td><td>Fix solar energy via photosynthesis → primary production. Base of food chain</td></tr>
+    <tr><td><strong>Primary consumers</strong></td><td>Biotic (herbivores)</td><td>Grasshopper, deer, cow, zooplankton</td><td>Feed on producers. Second trophic level</td></tr>
+    <tr><td><strong>Secondary consumers</strong></td><td>Biotic (primary carnivores)</td><td>Frog, small fish, snake</td><td>Feed on herbivores. Third trophic level</td></tr>
+    <tr><td><strong>Tertiary consumers</strong></td><td>Biotic (top carnivores)</td><td>Tiger, eagle, shark</td><td>Feed on secondary consumers. Fourth trophic level</td></tr>
+    <tr><td><strong>Decomposers</strong></td><td>Biotic (saprotrophs)</td><td>Bacteria, fungi, earthworms</td><td>Break down dead organic matter → release nutrients back into soil. Critical for nutrient cycling</td></tr>
+    <tr><td><strong>Abiotic</strong></td><td>Non-living</td><td>Sunlight, temperature, water, soil, minerals, air, pH</td><td>Determine which organisms can survive; drive photosynthesis, decomposition</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Trophic Levels (PCSTD):</strong><br>
+    <strong>P</strong>roducer → <strong>C</strong>onsumer (primary) → <strong>S</strong>econdary → <strong>T</strong>ertiary → <strong>D</strong>ecomposers<br>
+    <em>Energy flows: Sun → Producer → Herbivore → Carnivore → Top carnivore. Decomposers recycle nutrients at every level. Only ~10% passes to the next level.</em>
+  </div>
+
+  <h3>E. Energy Flow &amp; 10% Law <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Trophic Level</th><th>Energy Available</th><th>Example</th><th>% of Previous Level</th></tr>
+    <tr><td>Producers (T1)</td><td>10,000 kcal</td><td>Grass</td><td>~1% of solar input fixed</td></tr>
+    <tr><td>Primary consumers (T2)</td><td>1,000 kcal</td><td>Grasshopper</td><td>10% of T1</td></tr>
+    <tr><td>Secondary consumers (T3)</td><td>100 kcal</td><td>Frog</td><td>10% of T2</td></tr>
+    <tr><td>Tertiary consumers (T4)</td><td>10 kcal</td><td>Snake</td><td>10% of T3</td></tr>
+    <tr><td>Top carnivore (T5)</td><td>1 kcal</td><td>Eagle</td><td>10% of T4</td></tr>
+  </table>
+  <ul>
+    <li><strong>Lindemann's 10% Law (1942):</strong> Only ~10% of energy at one trophic level is transferred to the next; ~90% is lost as heat (respiration, metabolism, undigested matter). This limits food chains to 4–5 trophic levels.</li>
+    <li><strong>Energy flow is unidirectional</strong> (Sun → producers → consumers → heat). Nutrients cycle; energy does not cycle.</li>
+    <li><strong>Gross Primary Productivity (GPP):</strong> total photosynthesis. <strong>Net Primary Productivity (NPP):</strong> GPP − respiration = energy available to consumers.</li>
+  </ul>
+
+  <h3>F. Ecological Pyramids</h3>
+  <table>
+    <tr><th>Pyramid Type</th><th>Shape</th><th>Can Be Inverted?</th><th>Notes</th></tr>
+    <tr><td><strong>Pyramid of Numbers</strong></td><td>Usually upright</td><td>Yes (e.g., a single tree feeding many insects → many birds)</td><td>Counts individuals per trophic level. Inverted in parasitic &amp; single-tree ecosystems</td></tr>
+    <tr><td><strong>Pyramid of Biomass</strong></td><td>Usually upright</td><td>Yes (in aquatic ecosystems — phytoplankton reproduce fast but low standing biomass)</td><td>Measures total dry mass per trophic level. Inverted in oceans</td></tr>
+    <tr><td><strong>Pyramid of Energy</strong></td><td><strong>Always upright</strong></td><td><strong>Never inverted</strong></td><td>Energy decreases at each level (10% law). Most fundamental pyramid. Units: kcal/m²/yr</td></tr>
+  </table>
+
+  <h3>G. Biogeochemical Cycles</h3>
+  <table>
+    <tr><th>Cycle</th><th>Key Reservoir</th><th>Key Process(es)</th><th>Key Organisms</th></tr>
+    <tr><td><strong>Carbon</strong></td><td>Atmosphere (CO₂), oceans, fossil fuels, rocks</td><td>Photosynthesis (fix CO₂), respiration (release CO₂), combustion, decomposition</td><td>Producers (photosynthesis), all organisms (respiration), decomposers</td></tr>
+    <tr><td><strong>Nitrogen</strong></td><td>Atmosphere (N₂, 78%)</td><td>N₂ fixation → nitrification → assimilation → ammonification → denitrification</td><td><em>Rhizobium</em> (symbiotic, legume root nodules), <em>Azotobacter</em> (free-living), <em>Nostoc</em> (cyanobacteria); <em>Nitrosomonas</em> (NH₃→NO₂⁻), <em>Nitrobacter</em> (NO₂⁻→NO₃⁻); <em>Pseudomonas denitrificans</em> (denitrification)</td></tr>
+    <tr><td><strong>Water (Hydrological)</strong></td><td>Oceans (97%), ice caps, groundwater, atmosphere</td><td>Evaporation → condensation → precipitation → runoff → infiltration → transpiration</td><td>Plants (transpiration); driven by solar energy</td></tr>
+    <tr><td><strong>Phosphorus</strong></td><td>Rocks/sediments (no atmospheric phase)</td><td>Weathering → uptake → decomposition → sedimentation</td><td>No gaseous phase — slowest cycle. Key for DNA, ATP, bones. Limiting nutrient in many ecosystems</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Nitrogen Cycle Bacteria:</strong><br>
+    <strong>R</strong>hizobium = <strong>R</strong>oot nodules (symbiotic N₂ fixation)<br>
+    <strong>A</strong>zotobacter = <strong>A</strong>ir (free-living N₂ fixation in soil)<br>
+    <strong>N</strong>itrosomonas = <strong>N</strong>itrite (NH₃ → NO₂⁻)<br>
+    <strong>N</strong>itrobacter = <strong>N</strong>itrate (NO₂⁻ → NO₃⁻)<br>
+    <strong>P</strong>seudomonas = <strong>P</strong>ushes back to air (denitrification: NO₃⁻ → N₂)
+  </div>
+
+  <h3>H. Ecological Succession</h3>
+  <table>
+    <tr><th>Feature</th><th>Primary Succession</th><th>Secondary Succession</th></tr>
+    <tr><td>Starting point</td><td>Bare rock, newly formed volcanic island, glacial moraine — no soil</td><td>After disturbance (fire, flood, deforestation, abandoned farmland) — soil present</td></tr>
+    <tr><td>Time</td><td>Very slow (hundreds–thousands of years)</td><td>Faster (decades) — soil &amp; seeds already present</td></tr>
+    <tr><td>Pioneer species</td><td>Lichens (crustose → foliose), then mosses → grasses → shrubs → trees</td><td>Grasses, weeds → shrubs → trees</td></tr>
+    <tr><td>Climax community</td><td>Forest (e.g., oak-hickory forest)</td><td>Forest (reaches climax faster)</td></tr>
+  </table>
+  <ul>
+    <li><strong>Seral community:</strong> intermediate stage in succession. <strong>Climax community:</strong> stable, self-perpetuating final stage.</li>
+    <li><strong>Pioneer species:</strong> first to colonize — lichens (primary), grasses (secondary). Lichens are "soil formers" — secrete acids that weather rock.</li>
+    <li><strong>Hydrarch:</strong> succession in water (pond → marsh → meadow → forest). <strong>Xerarch:</strong> succession in dry areas (rock → lichen → moss → grass → shrub → forest).</li>
+  </ul>
+
+  <h3>I. Biodiversity — Levels &amp; Hotspots <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Level</th><th>Definition</th><th>Example</th></tr>
+    <tr><td><strong>Genetic diversity</strong></td><td>Variation in genes within a species</td><td>1,000+ rice varieties in India; medicinal rice 'Nivara' from Bihar</td></tr>
+    <tr><td><strong>Species diversity</strong></td><td>Variety of species in a region</td><td>Western Ghats: ~5,000 plant species, 139 mammal species</td></tr>
+    <tr><td><strong>Ecosystem diversity</strong></td><td>Variety of habitats/ecosystems</td><td>India: deserts, rainforests, mangroves, alpine meadows, coral reefs</td></tr>
+  </table>
+  <ul>
+    <li><strong>Biodiversity Hotspot concept:</strong> by Norman Myers (1988). Criteria: (1) ≥1,500 endemic vascular plant species, AND (2) ≥30% original natural vegetation lost (threatened). Currently 36 hotspots globally; cover 2.4% of Earth's land but support >50% of endemic plant species.</li>
+    <li><strong>India's 4 biodiversity hotspots:</strong> (1) Himalaya, (2) Western Ghats, (3) Indo-Burma (NE India), (4) Sundaland (Nicobar Islands).</li>
+    <li><strong>Megadiverse countries:</strong> 17 countries hold ~70% of global biodiversity. India is one of them.</li>
+  </ul>
+
+  <h3>J. IUCN Red List Categories</h3>
+  <table>
+    <tr><th>Category</th><th>Abbreviation</th><th>Meaning</th></tr>
+    <tr><td>Least Concern</td><td>LC</td><td>Widespread &amp; abundant</td></tr>
+    <tr><td>Near Threatened</td><td>NT</td><td>Close to qualifying for threatened category</td></tr>
+    <tr><td>Vulnerable</td><td>VU</td><td>High risk of extinction in the wild</td></tr>
+    <tr><td>Endangered</td><td>EN</td><td>Very high risk of extinction</td></tr>
+    <tr><td>Critically Endangered</td><td>CR</td><td>Extremely high risk of extinction</td></tr>
+    <tr><td>Extinct in the Wild</td><td>EW</td><td>Survives only in captivity/cultivation</td></tr>
+    <tr><td>Extinct</td><td>EX</td><td>No individuals surviving anywhere</td></tr>
+  </table>
+  <ul>
+    <li><strong>Threatened species</strong> = Vulnerable + Endangered + Critically Endangered (VU + EN + CR).</li>
+    <li><strong>India examples:</strong> CR — Ganges river dolphin (locally in some stretches), Great Indian Bustard, Asiatic lion (EN), Bengal tiger (EN), snow leopard (VU).</li>
+  </ul>
+
+  <h3>K. Pollution &amp; Environmental Issues</h3>
+  <table>
+    <tr><th>Type</th><th>Cause</th><th>Key Effect/Indicator</th></tr>
+    <tr><td><strong>Air pollution</strong></td><td>PM2.5/PM10, SO₂, NOₓ, CO, VOCs</td><td>AQI; smog; acid rain (SO₂ + NOₓ → H₂SO₄/HNO₃); COPD, asthma</td></tr>
+    <tr><td><strong>Water pollution</strong></td><td>Sewage, industrial effluents, agricultural runoff</td><td>BOD (Biochemical Oxygen Demand)↑ = more organic pollution; DO (Dissolved Oxygen)↓; eutrophication</td></tr>
+    <tr><td><strong>Eutrophication</strong></td><td>Excess N &amp; P from fertilizers/sewage → algal bloom</td><td>Algae block light → death → decomposition consumes O₂ → fish kill. BOD↑, DO↓</td></tr>
+    <tr><td><strong>Biomagnification</strong></td><td>Persistent pollutants (DDT, mercury, PCBs) concentrate up food chain</td><td>Top predators have highest concentration (e.g., DDT in fish-eating birds → eggshell thinning)</td></tr>
+    <tr><td><strong>Ozone depletion</strong></td><td>CFCs (chlorofluorocarbons) release Cl radicals → destroy O₃</td><td>Ozone hole over Antarctica. Montreal Protocol (1987) phased out CFCs — most successful environmental treaty</td></tr>
+    <tr><td><strong>Climate change</strong></td><td>CO₂, CH₄, N₂O, CFCs — greenhouse gases trap heat</td><td>Global warming, sea level rise, extreme weather. CO₂ largest contributor (~76% of GHG). Kyoto Protocol (1997), Paris Agreement (2015)</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Greenhouse Gases (CMNS):</strong><br>
+    <strong>C</strong>O₂ (~76%) → <strong>M</strong>ethane/CH₄ (~16%, 25× warming potential of CO₂) → <strong>N</strong>₂O (~6%, 298× CO₂) → <strong>S</strong>/F-gases (CFCs, SF₆ — very high GWP)<br>
+    <em>CO₂ is most abundant but CH₄ and N₂O are far more potent per molecule.</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>L. Bioremediation &amp; Environmental Biotech</h3>
+  <table>
+    <tr><th>Application</th><th>Organism/Technique</th><th>Pollutant Targeted</th></tr>
+    <tr><td>Oil spill cleanup</td><td><em>Alcanivorax borkumensis</em>, <em>Pseudomonas</em> spp.</td><td>Hydrocarbons (crude oil)</td></tr>
+    <tr><td>Heavy metal removal</td><td>Plants (hyperaccumulators — e.g., <em>Brassica juncea</em> for cadmium)</td><td>Cd, Pb, As, Hg — phytoremediation</td></tr>
+    <tr><td>Plastic degradation</td><td><em>Ideonella sakaiensis</em> (PET-eating bacterium, discovered 2016)</td><td>PET plastic</td></tr>
+    <tr><td>Mercury cleanup</td><td><em>Pseudomonas putida</em> (mer operon — reduces Hg²⁺ → Hg⁰)</td><td>Mercury</td></tr>
+    <tr><td>Sewage treatment</td><td>Activated sludge (mixed bacterial cultures)</td><td>Organic matter → reduces BOD</td></tr>
+  </table>
+
+  <h3>M. Key Ecology Terminology</h3>
+  <table>
+    <tr><th>Term</th><th>Definition</th><th>Key Value/Fact</th></tr>
+    <tr><td>Species richness</td><td>Number of different species in a community</td><td>Higher in tropics (latitudinal gradient)</td></tr>
+    <tr><td>Species evenness</td><td>Relative abundance of species</td><td>High evenness = all species similarly abundant</td></tr>
+    <tr><td>Keystone species</td><td>Species with disproportionate impact on ecosystem</td><td>Tiger (top predator), fig tree (food source), sea otter (keeps urchins in check)</td></tr>
+    <tr><td>Foundation species</td><td>Species that creates/maintains habitat</td><td>Coral (reefs), kelp (kelp forests), beaver (wetlands)</td></tr>
+    <tr><td>Endemism</td><td>Species found in only one geographic area</td><td>India endemics: Lion-tailed macaque (W. Ghats), Hangul (Kashmir)</td></tr>
+    <tr><td>Ecological niche</td><td>Total role of a species in its ecosystem</td><td>Includes habitat, food, interactions — "profession" of the species</td></tr>
+    <tr><td>Carrying capacity</td><td>Maximum population an environment can sustain</td><td>Logistic growth model — population stabilizes at K</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Makhana Biotech, Ganga Ecosystem, Valmiki Tiger Reserve</div>
+    <ul>
+      <li><strong>Makhana (Euryale ferox) Biotech Research:</strong> Bihar produces >85% of India's makhana (fox nut). <strong>NRC Makhana (ICAR-National Research Centre for Makhana), Darbhanga</strong> — established 2002, India's only dedicated makhana research institute. Research areas: tissue culture, variety improvement (Makhana-1, Darbhanga Makhana-1), disease resistance, post-harvest processing. Bihar got <strong>GI tag for Mithila Makhana</strong> (2022). DRDO developed a machine for popping makhana to reduce labour.</li>
+      <li><strong>Ganga River Ecosystem:</strong> Bihar has ~445 km of Ganga (Buxar to Farakka). Key species: <strong>Ganges river dolphin (Platanista gangetica)</strong> — India's National Aquatic Animal (declared 2009), IUCN Endangered. Vikramshila Gangetic Dolphin Sanctuary (Bhagalpur, 50 km stretch) — Asia's only dolphin sanctuary. Gharial (IUCN CR) and various freshwater turtles (nilgai, softshell) also found. Ganga Action Plan &amp; Namami Gange Programme focus on restoring this ecosystem.</li>
+      <li><strong>Valmiki Tiger Reserve (VTR):</strong> Bihar's only tiger reserve, in West Champaran district (Himalayan foothills, near Nepal border). Established 1994. Core area: 335 sq km; buffer: 580 sq km. Tiger population growing (2022 estimate: ~54 tigers). Also hosts leopards, sloth bear, Indian bison (gaur), sambar, chital, 241 bird species. Part of the Terai Arc Landscape. Valmiki Nagar is named after sage Valmiki (author of Ramayana).</li>
+      <li><strong>Bihar Wetlands:</strong> <strong>Kanwar Lake Bird Sanctuary</strong> (Begusarai) — Asia's largest freshwater oxbow lake (~6,000 ha), Ramsar site candidate, hosts migratory birds (Siberian crane historically). <strong>Baraila Lake</strong> (Vaishali), <strong>Udaipur Wildlife Sanctuary</strong> (West Champaran — for migratory birds). Wetlands support biodiversity and flood regulation in the Gangetic plains.</li>
+      <li><strong>Kosi River Ecosystem:</strong> Known as the "Sorrow of Bihar" for devastating floods. The Kosi alluvial fan supports unique floodplain ecology. Kosi embankment system (Kosi Project, 1955) altered the ecosystem — debates on ecological impact vs flood control. <strong>Kosi Tappu Wildlife Reserve</strong> lies in Nepal (upstream) — hosts wild water buffalo (arnaa), migratory birds.</li>
+      <li><strong>Agriculture Biotech at RAU Pusa:</strong> <strong>Dr. Rajendra Prasad Central Agricultural University (RPCAU), Pusa (Samastipur)</strong> — established 1905 (formerly RAU/RAUB). Research on crop improvement (rice, wheat, maize, makhana), tissue culture, biofertilizers, integrated pest management. <strong>ICAR Research Complex for Eastern Region, Patna</strong> — focuses on sustainable agriculture for the Indo-Gangetic plains. Bihar's agro-biodiversity includes medicinal rice 'Nivara', black rice, and indigenous vegetables.</li>
+      <li><strong>Climate/biodiversity note:</strong> Bihar faces arsenic contamination in groundwater (Bhojpur, Buxar, Patna — Gangetic alluvium) — linked to biogeochemical processes. Flood-prone ecology of north Bihar (Kosi, Gandak, Bagmati) shapes both biodiversity and agriculture.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="69_cell_division.html">Topic 69 (Cell &amp; Division):</a></strong> Stem cells derive from mitosis; totipotency of zygote. DNA replication (semi-conservative) underpins PCR and rDNA. Meiosis generates genetic diversity (biodiversity's genetic level).</li>
+    <li><strong><a href="70_human_body_systems.html">Topic 70 (Human Body Systems):</a></strong> Insulin (recombinant) treats diabetes (endocrine system). Bone marrow transplants use haematopoietic stem cells. CRISPR targets genetic diseases (sickle cell — Topic 73/74).</li>
+    <li><strong><a href="72_diseases_pathogens.html">Topic 72 (Diseases &amp; Pathogens):</a></strong> Bt cotton's Cry toxin targets bollworm (pest). Bioremediation cleans pollution-linked diseases. PCR used for pathogen detection (COVID-19, TB). Vaccine development uses biotech (recombinant Hep B vaccine — Topic 73).</li>
+    <li><strong><a href="14_environment_in_news.html">Topic 14 (Environment in News):</a></strong> Biodiversity hotspots, climate summits (COP), Namami Gange, ozone/Montreal Protocol all connect to ecology basics. Valmiki Tiger Reserve tiger counts appear in environment current affairs.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>CRISPR gene therapy approvals (2023–2024):</strong> UK and US approved <strong>Casgevy</strong> (Vertex/CRISPR Therapeutics) — first CRISPR-based therapy, for sickle cell disease &amp; β-thalassemia (Dec 2023). Uses ex vivo CRISPR editing of HSCs. Relevance: Bihar's sickle cell burden (Topic 73).</li>
+    <li><strong>Golden Rice approval:</strong> Philippines approved Golden Rice for cultivation (2021) — first approval in a rice-eating country. Bangladesh approved (2021). In India, GM mustard (DMH-11) under GEAC review (2022) — would be India's first GM food crop if approved.</li>
+    <li><strong>Bt cotton controversy:</strong> Pink bollworm developed resistance to Bt toxin in India (2015–2024). Mahyco's Bollgard II losing efficacy in Gujarat/Maharashtra. Debate on GM crop regulation, seed monopoly.</li>
+    <li><strong>Namami Gange Programme:</strong> Launched 2014 (₹20,000 crore), now Namami Gange 2.0 (2021). Focus on Ganga dolphin conservation, biodiversity, sewage treatment. Vikramshila Dolphin Sanctuary monitoring. Bihar's Ganga stretches show improving dolphin counts.</li>
+    <li><strong>30x30 target (Kunming-Montreal GBF, 2022):</strong> 30% of land &amp; sea protected by 2030. India supports this. Valmiki TR expansion, Bihar wetland conservation align. Convention on Biological Diversity (CBD) COP15 outcome.</li>
+    <li><strong>Montreal Protocol success:</strong> Ozone layer recovering — projected to reach 1980 levels by 2040 (global), 2066 (Antarctica). Kigali Amendment (2016) targets HFCs (climate impact). Model for climate action.</li>
+    <li><strong>mRNA technology beyond COVID:</strong> mRNA vaccines in development for malaria, HIV, cancer. BioNTech mRNA malaria vaccine trials (2023). India's GEMCOVAC-19 (first indigenous mRNA vaccine, 2023).</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">PREDICTION</span>
+  <strong>72nd BPSC Top 5 Predictions — Biotech &amp; Ecology:</strong>
+  <ol style="margin-top: 8px; padding-left: 20px;">
+    <li>10% energy flow law (Lindemann) — calculate energy at a given trophic level (e.g., 10,000 kcal at producers → 100 kcal at T3)</li>
+    <li>Nitrogen cycle bacteria — match function (Rhizobium = fixation, Nitrosomonas = nitrite, Nitrobacter = nitrate, Pseudomonas = denitrification)</li>
+    <li>Ecological pyramids — which can be inverted (numbers, biomass) vs always upright (energy)</li>
+    <li>Bt cotton / Golden Rice / recombinant insulin — match GMO to gene/trait. Bt = insect resistance (India's only GM crop, 2002); Golden Rice = β-carotene/vitamin A</li>
+    <li>Bihar-specific: Ganges dolphin (National Aquatic Animal, Vikramshila Sanctuary) or NRC Makhana Darbhanga or Valmiki Tiger Reserve</li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Restriction enzymes used in recombinant DNA technology are also called:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Molecular glue (this is DNA ligase)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Molecular motors</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Molecular chaperones</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Molecular scissors (restriction endonucleases cut DNA at specific recognition sequences, e.g., EcoRI cuts at GAATTC)</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — Restriction enzymes (restriction endonucleases) are called "molecular scissors" because they cut DNA at specific recognition sites (palindromic sequences). EcoRI cuts between G and A in GAATTC, leaving sticky ends. DNA ligase is the "molecular glue" that joins fragments. Together they enable recombinant DNA (first done by Cohen &amp; Boyer, 1973).</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. PCR (Polymerase Chain Reaction) was invented by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Herbert Boyer</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Stanley Cohen</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Alec Jeffreys (DNA fingerprinting inventor)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Kary Mullis (1983, Nobel Prize 1993 — amplifies DNA using Taq polymerase from Thermus aquaticus)</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (D)</strong> — Kary Mullis invented PCR in 1983 (Nobel Chemistry 1993). PCR uses Taq polymerase (thermostable, from <em>Thermus aquaticus</em> found in Yellowstone hot springs) to amplify DNA through cycles of denaturation (95°C), annealing (55°C), and extension (72°C). Used in COVID-19 RT-PCR testing, DNA fingerprinting, and forensics.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The "Bt" in Bt cotton refers to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Biotechnology</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Bacillus thuringiensis — a soil bacterium whose Cry toxin gene is inserted into cotton for bollworm resistance</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Botanical toxin</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Bengal Tobacco</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — Bt cotton gets its name from <em>Bacillus thuringiensis</em>, a soil bacterium. The <em>cry</em> (crystal) gene from this bacterium produces the Cry protein toxin, which is lethal to bollworm (cotton pest) but safe for humans. Bt cotton was India's first (and so far only) approved GM crop for commercial cultivation (2002, approved by GEAC). It is NOT a food crop.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Golden Rice is genetically modified to produce:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Vitamin C</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Iron</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Protein</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. β-carotene (pro-vitamin A) — using psy (daffodil) and crtI (bacterium) genes; aims to combat vitamin A deficiency and blindness</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — Golden Rice is engineered to produce β-carotene (pro-vitamin A), giving the grains a golden colour. Developed by Ingo Potrykus and Peter Beyer (1999), using the <em>psy</em> gene (from daffodil) and <em>crtI</em> gene (from bacterium <em>Erwinia uredovora</em>). The body converts β-carotene to vitamin A. Aim: combat vitamin A deficiency (leading cause of childhood blindness). Approved in Philippines (2021) and Bangladesh.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Recombinant insulin (Humulin), the first commercial product of rDNA technology, was produced in which organism?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Yeast (Saccharomyces)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Tobacco plant</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Chinese hamster ovary (CHO) cells</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Escherichia coli (E. coli) — Genentech developed the process; Eli Lilly marketed Humulin in 1982, replacing animal insulin</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — Recombinant human insulin (Humulin) was the first commercial product of rDNA technology (1982, Eli Lilly). The human insulin gene was inserted into <em>E. coli</em>, which then produced human insulin. Developed by Genentech. This replaced animal-derived insulin (from pig/cow pancreas), eliminating allergy and supply issues. The A and B chains were produced separately and then joined.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. CRISPR-Cas9 gene editing technology won the Nobel Prize in Chemistry in which year and for whom?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. 2018 — Jennifer Doudna alone</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. 2019 — Emmanuelle Charpentier alone</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. 2021 — Feng Zhang</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. 2020 — Jennifer Doudna &amp; Emmanuelle Charpentier (first all-female science Nobel; "genetic scissors" derived from bacterial immune system)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — Jennifer Doudna and Emmanuelle Charpentier won the Nobel Prize in Chemistry (2020) for developing CRISPR-Cas9 gene editing — the first time two women alone shared a science Nobel. CRISPR-Cas9 acts as "genetic scissors": a guide RNA directs the Cas9 nuclease to a specific DNA sequence, where it makes a precise cut. Derived from a bacterial adaptive immune system against viruses (phages). Note: Feng Zhang (Broad Institute) pioneered mammalian applications but was not on the Nobel.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Induced pluripotent stem cells (iPSCs) were developed by which scientist?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. James Thomson (first human ESC lines)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Robert Edwards (IVF pioneer)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Shinya Yamanaka (2006 — reprogrammed adult mouse fibroblasts using 4 factors: Oct4, Sox2, Klf4, c-Myc; Nobel 2012)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. Ian Wilmut (Dolly the sheep clone)</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — Shinya Yamanaka developed iPSCs in 2006 (Nobel Medicine 2012, shared with John Gurdon). He reprogrammed adult mouse skin cells (fibroblasts) back to pluripotent state using 4 transcription factors (Yamanaka factors: Oct4, Sox2, Klf4, c-Myc). iPSCs behave like embryonic stem cells but avoid ethical issues (no embryo destroyed) and can be patient-specific (no immune rejection). Thomson (1998) derived the first human ESC lines. Wilmut cloned Dolly (1996). Edwards pioneered IVF (Nobel 2010).</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. According to Lindemann's 10% law of energy flow, if producers receive 10,000 kcal of energy, how much reaches the secondary consumer (T3)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. 100 kcal (Producers 10,000 → Primary consumer 1,000 [10%] → Secondary consumer 100 [10% of 1,000])</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. 1,000 kcal</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. 1,000,000 kcal</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. 10 kcal</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Lindemann's 10% law (1942): only ~10% of energy at one trophic level transfers to the next (90% lost as heat, respiration, undigested matter). Producers (T1) = 10,000 kcal → Primary consumers (T2) = 1,000 kcal (10% of 10,000) → Secondary consumers (T3) = 100 kcal (10% of 1,000). This explains why food chains are limited to 4–5 levels — insufficient energy remains at the top.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Which ecological pyramid is ALWAYS upright and can NEVER be inverted?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Pyramid of numbers (inverted in single-tree/parasite ecosystems)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Pyramid of biomass (inverted in aquatic ecosystems — phytoplankton reproduce fast but low standing biomass)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Pyramid of species richness</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Pyramid of energy (energy always decreases at each trophic level due to 10% law — 90% lost as heat; can never be inverted)</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (D)</strong> — The pyramid of energy is always upright because energy decreases at each trophic level (Lindemann's 10% law — only 10% transfers, 90% lost as heat/respiration). Energy flow is unidirectional (Sun → producers → consumers → heat), so it cannot increase at higher levels. Pyramid of numbers can be inverted (one tree → many insects). Pyramid of biomass is inverted in aquatic ecosystems (phytoplankton have high turnover but low standing biomass).</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. In the nitrogen cycle, which bacterium converts ammonia (NH₃) to nitrite (NO₂⁻)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Nitrosomonas (performs nitrification step 1: NH₃ → NO₂⁻; Nitrobacter then converts NO₂⁻ → NO₃⁻)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Rhizobium (performs N₂ fixation in legume root nodules: N₂ → NH₃)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Azotobacter (free-living N₂ fixer in soil)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Pseudomonas denitrificans (performs denitrification: NO₃⁻ → N₂, returning nitrogen to atmosphere)</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — <em>Nitrosomonas</em> performs the first step of nitrification: ammonia (NH₃) → nitrite (NO₂⁻). <em>Nitrobacter</em> performs the second step: nitrite (NO₂⁻) → nitrate (NO₃⁻). Plants absorb nitrate. <em>Rhizobium</em> fixes N₂ symbiotically in legume root nodules. <em>Azotobacter</em> is a free-living N₂ fixer. <em>Pseudomonas denitrificans</em> returns NO₃⁻ to N₂ (denitrification), completing the cycle.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. In primary ecological succession on bare rock, which are the pioneer species?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Grasses</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Mosses</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Shrubs</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Lichens (crustose lichens are first to colonize bare rock — secrete acids that weather rock and initiate soil formation)</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — In primary succession (bare rock, no soil), <strong>lichens</strong> are the pioneer species. Crustose lichens (e.g., <em>Rhizocarpon</em>) attach to rock and secrete acids that weather it, beginning soil formation. Sequence: crustose lichens → foliose lichens → mosses → grasses → shrubs → trees (climax forest). Lichens are "soil formers" — symbiotic association of fungus + algae/cyanobacteria. In secondary succession (soil present), grasses/weeds are pioneers.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The Ganges river dolphin (Platanista gangetica) is classified as India's:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. National Aquatic Animal (declared 2009; IUCN Endangered; Vikramshila Gangetic Dolphin Sanctuary in Bhagalpur, Bihar — Asia's only dolphin sanctuary)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. National Heritage Animal</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. National Marine Animal</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. State Animal of Bihar</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — The Ganges river dolphin (<em>Platanista gangetica</em>) was declared India's National Aquatic Animal in 2009. It is IUCN Endangered, blind (navigates by echolocation), and found in the Ganges-Brahmaputra-Meghna river system. The <strong>Vikramshila Gangetic Dolphin Sanctuary</strong> in Bhagalpur, Bihar (50 km stretch of Ganga) is Asia's only dolphin sanctuary. Bihar's Ganga stretch (~445 km) is a key habitat. Namami Gange Programme focuses on its conservation. It is also the State Animal of... actually, the state animal of Bihar is the ox/gaur, not the dolphin.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Which of the following is India's only GM crop approved for commercial cultivation (as of 2024)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Bt brinjal (moratorium imposed in 2010; approved only in Bangladesh)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Golden Rice (approved in Philippines &amp; Bangladesh, not India)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Bt cotton (approved 2002 by GEAC — carries cry gene from Bacillus thuringiensis for bollworm resistance; India's only approved GM crop)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. GM mustard DMH-11 (GEAC approved conditionally 2022, but final commercial cultivation approval pending)</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — Bt cotton (approved 2002 by GEAC) is India's only GM crop approved for commercial cultivation. It carries the <em>cry</em> gene from <em>Bacillus thuringiensis</em> for bollworm resistance. Bt brinjal was approved by GEAC (2009) but a moratorium was imposed (2010) by then Environment Minister Jairam Ramesh. GM mustard DMH-11 (Delhi University) received GEAC conditional approval (2022) but final commercial cultivation is still pending. Golden Rice is not approved in India.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Eutrophication of water bodies is caused by excessive input of which nutrients?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Nitrogen and phosphorus (from fertilizers &amp; sewage → algal blooms → DO depletion → fish kill)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Carbon and oxygen</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Potassium and calcium</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Iron and magnesium</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — Eutrophication is caused by excessive nitrogen (N) and phosphorus (P) from agricultural fertilizers, sewage, and detergents entering water bodies. This nutrient enrichment triggers algal blooms → algae block sunlight → submerged plants die → algae die &amp; decompose → bacteria consume dissolved O₂ (BOD↑, DO↓) → fish &amp; aquatic life die. Key indicators: high BOD (Biochemical Oxygen Demand) and low DO (Dissolved Oxygen).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Biodiversity hotspots are regions that satisfy which two criteria (as defined by Norman Myers)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. ≥1,500 endemic vascular plant species AND ≥30% original natural vegetation lost (threatened)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. ≥500 endemic animal species AND ≥50% vegetation lost</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. ≥5,000 plant species AND ≥10% vegetation lost</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. ≥10,000 total species AND ≥70% vegetation lost</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Norman Myers (1988) defined biodiversity hotspots by two criteria: (1) ≥1,500 endemic vascular plant species (found nowhere else), AND (2) ≥30% of original natural vegetation lost (threatened by human activity). Currently 36 hotspots globally (updated from original 25), covering just 2.4% of Earth's land but supporting >50% of the world's endemic plant species. India has 4 hotspots: Himalaya, Western Ghats, Indo-Burma (NE India), and Sundaland (Nicobar Islands).</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The ozone layer depletion is primarily caused by which class of chemicals?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Carbon dioxide (greenhouse gas, causes climate change, not ozone depletion)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. CFCs (chlorofluorocarbons — release chlorine radicals that catalytically destroy O₃; phased out by Montreal Protocol 1987)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Methane (greenhouse gas, not primary ozone depleter)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Sulphur dioxide (causes acid rain, not ozone depletion)</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Chlorofluorocarbons (CFCs) are the primary cause of ozone layer depletion. In the stratosphere, UV radiation breaks CFCs, releasing chlorine radicals (Cl•) that catalytically destroy ozone (O₃): one Cl atom can destroy ~100,000 O₃ molecules. The ozone hole is most pronounced over Antarctica (spring). The <strong>Montreal Protocol (1987)</strong> phased out CFCs — the most successful environmental treaty. Ozone layer projected to recover by 2040 (global) and 2066 (Antarctica). CO₂ and CH₄ are greenhouse gases (climate change), not ozone depleters. SO₂ causes acid rain.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Biomagnification refers to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Increase in biomass at higher trophic levels</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Increase in species diversity in an ecosystem</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Increase in population size over generations</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Increase in concentration of persistent pollutants (DDT, mercury) at successively higher trophic levels in a food chain</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — Biomagnification (bioaccumulation) is the increase in concentration of persistent, non-biodegradable pollutants (like DDT, mercury, PCBs) as they move up the food chain. Because these toxins are fat-soluble and not excreted, they accumulate in organisms. Top predators have the highest concentrations. Classic example: DDT in fish-eating birds (e.g., bald eagle) → eggshell thinning → population decline (Rachel Carson's "Silent Spring," 1962). Minamata disease (Japan) = mercury biomagnification in seafood.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Which statement correctly distinguishes a food chain from a food web?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. A food chain is a single linear sequence of organisms (who eats whom), while a food web is an interconnected network of multiple food chains in an ecosystem</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. A food chain includes decomposers, a food web does not</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. A food web is always shorter than a food chain</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. A food chain starts with a carnivore, a food web starts with a producer</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — A food chain is a single linear sequence showing "who eats whom" (e.g., grass → grasshopper → frog → snake → eagle). A food web is a complex, interconnected network of many overlapping food chains in an ecosystem — more realistic because most organisms eat multiple things and are eaten by multiple predators. Food webs show the true complexity of energy flow. Both start with producers. Decomposers operate alongside both (not typically shown in chain). Food chains are usually limited to 4–5 levels (10% energy law).</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. In the IUCN Red List, which three categories collectively constitute "threatened species"?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Least Concern, Near Threatened, Vulnerable</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Near Threatened, Vulnerable, Endangered</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Vulnerable, Endangered, Critically Endangered (VU + EN + CR = threatened; then Extinct in the Wild, then Extinct)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Extinct in the Wild, Extinct, Data Deficient</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — IUCN Red List "threatened species" = Vulnerable (VU) + Endangered (EN) + Critically Endangered (CR). The full sequence from least to most threatened: LC (Least Concern) → NT (Near Threatened) → VU → EN → CR → EW (Extinct in the Wild) → EX (Extinct). Examples: Bengal tiger = EN, Snow leopard = VU, Great Indian Bustard = CR, Ganges dolphin = EN.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. NRC Makhana, India's only dedicated makhana research institute, is located in which Bihar city?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Pusa (Samastipur) — location of RPCAU agricultural university</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Bhagalpur — location of Vikramshila Dolphin Sanctuary</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Patna — location of ICAR Research Complex for Eastern Region</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Darbhanga — ICAR-National Research Centre for Makhana (established 2002; Bihar produces >85% of India's makhana; Mithila Makhana got GI tag 2022)</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — The ICAR-National Research Centre for Makhana (NRC Makhana) is in <strong>Darbhanga</strong>, Bihar (established 2002). It is India's only dedicated makhana (fox nut, <em>Euryale ferox</em>) research institute. Research areas: tissue culture, variety improvement (Makhana-1, Darbhanga Makhana-1), disease resistance, post-harvest processing. Bihar produces >85% of India's makhana. <strong>Mithila Makhana received a GI tag in 2022.</strong> RAU/RPCAU Pusa (Samastipur) is a separate agricultural university.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Valmiki Tiger Reserve, Bihar's only tiger reserve, is located in which district?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. West Champaran (Himalayan foothills, near Nepal border; established 1994; ~54 tigers in 2022; also hosts leopards, gaur, sloth bear)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. East Champaran (Motihari — Gandhi's Champaran Satyagraha district)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Bhagalpur (location of Vikramshila Dolphin Sanctuary)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Begusarai (location of Kanwar Lake Bird Sanctuary)</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Valmiki Tiger Reserve (VTR) is in <strong>West Champaran</strong> district, Bihar, in the Himalayan foothills (Terai region) near the Nepal border. Established as a tiger reserve in 1994. Core area: ~335 sq km; buffer: ~580 sq km. Tiger population ~54 (2022 estimate, growing). Also hosts leopards, sloth bears, Indian bison (gaur), sambar, chital, and 241 bird species. Part of the Terai Arc Landscape. Named after sage Valmiki (author of the Ramayana). It is Bihar's only tiger reserve. East Champaran is Motihari (Champaran Satyagraha, 1917).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The concept of biodiversity hotspots was introduced by which scientist?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. Norman Myers (1988 — defined hotspots by endemic plant species ≥1,500 and ≥30% habitat loss)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. E.O. Wilson (biodiversity expert, "Father of Sociobiology")</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Rachel Carson (author of "Silent Spring," 1962)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Jagadish Chandra Bose (plant physiology pioneer)</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Norman Myers introduced the biodiversity hotspot concept in 1988 (Conservation International later adopted &amp; expanded it). Criteria: ≥1,500 endemic vascular plant species AND ≥30% original habitat lost. Currently 36 hotspots globally. India has 4: Himalaya, Western Ghats, Indo-Burma (NE India), Sundaland (Nicobar). E.O. Wilson coined "biodiversity" and is a conservation icon but did not define hotspots. Rachel Carson raised pesticide awareness (Silent Spring). J.C. Bose pioneered plant physiology.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The phosphorus cycle differs from the carbon and nitrogen cycles because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. It is the fastest cycle</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. It involves only biotic components</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. It has no significant atmospheric/gaseous phase — phosphorus remains mostly in rocks and sediments, making it the slowest biogeochemical cycle</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. It does not involve decomposers</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (C)</strong> — The phosphorus cycle is unique because it has <strong>no significant atmospheric (gaseous) phase</strong>. Phosphorus (P) remains mostly in rocks, sediments, and soil. Weathering releases phosphate (PO₄³⁻) → plants absorb it → moves through food chain → decomposers return it to soil → eventually returns to ocean sediments (long geological timescale). This makes it the <strong>slowest</strong> biogeochemical cycle. Phosphorus is a limiting nutrient in many ecosystems (especially freshwater). Key for DNA, RNA, ATP, phospholipids, bones. Carbon and nitrogen cycles both have major atmospheric phases (CO₂, N₂).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Bioremediation of oil spills utilizes bacteria that break down hydrocarbons. Which bacterium is specifically known for this?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Alcanivorax borkumensis (dominates oil-polluted marine environments; degrades alkanes in crude oil)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Lactobacillus (used in yogurt fermentation, not oil degradation)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Rhizobium (nitrogen-fixing bacterium in legume root nodules)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Nitrosomonas (nitrifying bacterium: ammonia → nitrite)</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — <em>Alcanivorax borkumensis</em> is a marine bacterium that dominates oil-polluted waters and degrades alkanes (a major component of crude oil). It became abundant after the Deepwater Horizon spill (2010, Gulf of Mexico). Other oil-degraders include <em>Pseudomonas</em> species. Bioremediation also uses <em>Ideonella sakaiensis</em> (PET plastic degradation, discovered 2016) and <em>Pseudomonas putida</em> (mercury cleanup). <em>Lactobacillus</em> (dairy), <em>Rhizobium</em> (N₂ fixation), and <em>Nitrosomonas</em> (nitrification) serve other ecological roles.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which of the following correctly lists India's 4 biodiversity hotspots?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Himalaya, Western Ghats, Indo-Burma, Sundaland (Nicobar) — India has 4 of the 36 global hotspots</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Himalaya, Western Ghats, Eastern Ghats, Deccan Plateau</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Western Ghats, Sundarbans, Thar Desert, Indo-Gangetic Plain</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Himalaya, Western Ghats, Andaman, Lakshadweep</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — India's 4 biodiversity hotspots (of 36 globally): (1) <strong>Himalaya</strong> (Eastern Himalaya — high endemism), (2) <strong>Western Ghats</strong> (~5,000 plant species, 139 mammals — UNESCO World Heritage), (3) <strong>Indo-Burma</strong> (NE India — Assam, Manipur, Mizoram, etc.), (4) <strong>Sundaland</strong> (Nicobar Islands — part of the larger Sundaland hotspot including Indonesia/Malaysia). Eastern Ghats, Deccan, Thar, Sundarbans, and Lakshadweep are biodiversity-rich but do NOT meet the hotspot criteria (≥1,500 endemic vascular plants + ≥30% habitat loss). India is also a megadiverse country (1 of 17 globally).</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References &amp; Further Reading</div>
+  <ul class="ref-list">
+    <li><a href="https://www.moef.gov.in">MoEFCC — Ministry of Environment, Forest &amp; Climate Change</a></li>
+    <li><a href="https://www.geac.gov.in">GEAC — Genetic Engineering Appraisal Committee (GM crop approvals)</a></li>
+    <li><a href="https://www.iucnredlist.org">IUCN Red List of Threatened Species</a></li>
+    <li><a href="https://www.icar.org.in">ICAR — Indian Council of Agricultural Research (NRC Makhana, RPCAU Pusa)</a></li>
+    <li><a href="https://nrega.nic.in">Namami Gange Programme — Ganga ecosystem &amp; dolphin conservation</a></li>
+    <li><a href="https://www.cbd.int">Convention on Biological Diversity (CBD) — Kunming-Montreal GBF</a></li>
+    <li><a href="https://ozone.unep.org">UNEP Ozone Secretariat — Montreal Protocol</a></li>
+    <li>NCERT Class 12 Biology — Biotechnology &amp; Its Applications (Ch 12), Organisms &amp; Populations (Ch 13), Ecosystem (Ch 14), Biodiversity &amp; Conservation (Ch 15)</li>
+    <li>Lucent's General Science — Biotechnology, Ecology &amp; Environment</li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 77 — Biotech &amp; Ecology Basics • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'd', q3: 'b', q4: 'd', q5: 'd', q6: 'd', q7: 'c', q8: 'a', q9: 'd', q10: 'a',
+  q11: 'd', q12: 'a', q13: 'c', q14: 'a', q15: 'a', q16: 'b', q17: 'd', q18: 'a', q19: 'c', q20: 'd',
+  q21: 'a', q22: 'a', q23: 'c', q24: 'a', q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

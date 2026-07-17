@@ -1,7 +1,7 @@
 # BPSC 72nd Prelims — Topic Generation System v2 (Efficient, Output-Oriented)
 
 > **Plan date:** 2026-07-16 (21:15 IST) • **Exam:** Sunday 2026-07-26, 12:00–14:00, offline OMR
-> **Remaining:** 9 full study days + exam morning • **Status:** 5/158 topics done
+> **Updated:** 2026-07-18 — Status: 62/158 topics done (39.2%), quality audit completed
 > Supersedes v1 (archived at `implementation_plan_v1_archive.md`).
 
 ---
@@ -190,3 +190,74 @@ Never cut: topics 1–96 Tier A, Bihar-tagged topics (27, 32, 34, 100–102, 104
 ---
 
 *Next action: Day 0 build — v3 template assets, `qa_check.py`, `build_index.py`, `build_mock.py`, and Lane R research cache.*
+
+---
+
+## 11. Quality Standards Audit (Added 2026-07-18)
+
+### Audit Findings — Blocks 7 (Biology), 10 (Ancient History), 15 (Medieval History)
+
+**Issue 1 — Image Relevance (FIXED 2026-07-18):**
+- 17 of 20 files had mismatched images (e.g., Bhimbetka rock art in cell biology topic, Mahabodhi Temple in Delhi Sultanate topic, Mahabodhi Temple in Sher Shah Suri topic)
+- Downloaded 24 new topically-relevant images from Wikimedia Commons
+- Updated all 20 HTML files with correct images matching their topics
+- All files re-verified with `qa_check.py` — 20/20 PASS
+
+**Issue 2 — Content Length & Depth (MONITORING):**
+- Block 10/15 average ~580 lines vs exemplar Topic 8 at 1220 lines
+- Tier B topics (wt 0.7) — some brevity acceptable, but content density should be improved
+- New topics 73-77 generated at ~620-690 lines with fact-dense tables
+
+**Issue 3 — Block 7 Completeness (FIXED 2026-07-18):**
+- 5 missing topics (73-77) generated — all Tier A, wt 1.0
+- All 5 pass `qa_check.py` with MCQ sidecar JSON + subpages
+
+### Quality Standards for All Future Topics (Mandatory)
+
+1. **Image Relevance Rule:** Every image MUST be directly relevant to the topic. No recycling images from unrelated topics. If a relevant image is not available, download one from Wikimedia Commons using `Special:FilePath` approach.
+
+2. **Minimum Content Standards:**
+   - Tier A topics: ≥600 lines, ≥3 tables, ≥2 images, ≥1 mnemonic, ≥1 PYQ box, ≥25 MCQs
+   - Tier B topics: ≥550 lines, ≥2 tables, ≥2 images, ≥1 mnemonic, ≥1 exam tip box, ≥25 MCQs
+   - Lane M (Maths): ≥400 lines, formula table, 10 worked examples, 30 MCQs
+
+3. **MCQ Quality Standards:**
+   - 25 MCQs per standard topic (30 for Lane M)
+   - Difficulty mix: 40% PYQ-inspired / 40% probable / 20% tricky
+   - Every explanation MUST explain WHY the correct answer is right AND WHY trap options are wrong
+   - Answer keys must be shuffled (never all 'A') — use `shuffle_answers_v2.py`
+   - MCQ sidecar JSON mandatory: `Topics/mcq/NN_slug.json`
+   - MCQs must be hardcoded in HTML (not fetched from JSON) for offline use
+
+4. **Bihar Connection Standards:**
+   - Tier A: ≥5 Bihar-specific points with specific data (numbers, institutions, programmes)
+   - Tier B: ≥4 Bihar-specific points
+   - Bihar-tagged topics (27, 32, 34, 100-102, 104, 142, 155-157): ≥6 Bihar points
+
+5. **Structural Requirements:**
+   - 8 sections: Header, Core Content+PYQ box, Fact Matrix, Bihar Connection, Cross-Topic, Current Relevance, MCQ Practice Set, References
+   - Subpage mandatory: `Topics/subpages/NN_slug_detail.html`
+   - Prediction box (72nd BPSC top 5-7 predictions) between Current Relevance and MCQ section
+   - Navbar CSS/JS link in all pages
+   - Print-friendly CSS
+
+6. **Verification Pipeline (no topic marked Done until ALL pass):**
+   - `python3 qa_check.py NN` — structural verification
+   - Answer audit — solver re-solves every MCQ from JSON; 100% match
+   - No placeholder text (TODO/TBD/XXX/Lorem/FIXME)
+   - No broken internal links
+   - All images exist and are topically relevant
+
+### Revised Schedule (2026-07-18, Day 3)
+
+| Day | Date | Production | Status |
+|:--|:--|:--|:--|
+| 0-2 | 16-18 Jul | Lane R (1-23) + image audit + Block 7/10/15 | ✅ DONE (62/158) |
+| 3 | 18 Jul | Polity 38-49 + Lane M 50-54 | In progress |
+| 4 | 19 Jul | Lane M 55-59 + Static GK 60-68 | — |
+| 5 | 20 Jul | Economy 78-87 + Chem 107-114 | — |
+| 6 | 21 Jul | Physics 115-122 + Indian Geo 123-130 | — |
+| 7 | 22 Jul | Bihar Geo 88-96 + Bihar Polity 143-149; regen 1-2 in v3 | — |
+| 8 | 23 Jul | Tier B remainder + World Geo 131-136 + mocks + revision pack | — |
+| 9 | 24 Jul | Practice only: 2 timed mocks, revision, error log | — |
+| 10 | 25 Jul | EXAM (note: exam is 26 Jul per latest info) | — |

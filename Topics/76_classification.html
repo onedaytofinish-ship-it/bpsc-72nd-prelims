@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>76 - Classification | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #76 • TIER A</div>
+  <div class="topic-title">Classification — Five Kingdoms, Plant &amp; Animal Groups</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Biology</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Dolphin, Makhana, Valmiki TR</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Classification (high-yield Tier A):</strong> Binomial nomenclature — <em>Genus species</em> (Latin, italicised) by Carl Linnaeus (1758). Five Kingdom classification — R.H. Whittaker (1969): Monera (prokaryotes, no nucleus), Protista (unicellular eukaryotes), Fungi (heterotrophic, chitin cell wall), Plantae (autotrophic, cellulose), Animalia (heterotrophic, no cell wall). Three Domains — Carl Woese (1990): Archaea, Bacteria, Eukarya (based on rRNA). Plant groups: Bryophyta (mosses, no vascular tissue — "amphibians of plant kingdom"), Pteridophyta (ferns, vascular, spores), Gymnosperms (conifers, naked seeds), Angiosperms (enclosed seeds — Monocots 1 cotyledon/parallel veins vs Dicots 2 cotyledon/reticulate veins). Animal phyla: Porifera (sponges, pores), Cnidaria (hydra, jellyfish, stinging cells), Platyhelminthes (flatworms, tapeworm), Nematoda (roundworms, Ascaris), Annelida (earthworm, segmented), Arthropoda (largest phylum — insects, crabs, spiders; jointed legs), Mollusca (snail, octopus; muscular foot), Echinodermata (starfish; water vascular system), Chordata (notochord). Vertebrate classes: Pisces (fish), Amphibia (frog), Reptilia (lizard, snake), Aves (birds), Mammalia (hair, mammary glands).
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of all five kingdoms, plant divisions, animal phyla, vertebrate classes, Bihar biodiversity, and 7 exam predictions:
+    <a href="subpages/76_classification_detail.html" target="_blank">Classification Master Detail →</a>
+  </div>
+
+  <div class="img-container">
+    <img src="images/bacteria_diagram.png" alt="Prokaryotic cell structure — bacteria (Kingdom Monera)">
+    <div class="img-caption">Prokaryotic cell (bacterium) — Kingdom Monera. No true nucleus (DNA in nucleoid region), no membrane-bound organelles, has cell wall (peptidoglycan), 70S ribosomes, may have plasmids, flagella for locomotion. Bacteria are unicellular prokaryotes — the simplest and most ancient life form. Domain Bacteria + Domain Archaea together make up Kingdom Monera.</div>
+  </div>
+
+  <h3>A. Binomial Nomenclature &amp; Taxonomic Hierarchy <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Rank (Top → Bottom)</th><th>Example (Human)</th><th>Example (Mango)</th></tr>
+    <tr><td><strong>Kingdom</strong></td><td>Animalia</td><td>Plantae</td></tr>
+    <tr><td><strong>Phylum / Division</strong></td><td>Chordata</td><td>Angiospermae (Division)</td></tr>
+    <tr><td><strong>Class</strong></td><td>Mammalia</td><td>Dicotyledonae</td></tr>
+    <tr><td><strong>Order</strong></td><td>Primates</td><td>Sapindales</td></tr>
+    <tr><td><strong>Family</strong></td><td>Hominidae</td><td>Anacardiaceae</td></tr>
+    <tr><td><strong>Genus</strong></td><td><em>Homo</em></td><td><em>Mangifera</em></td></tr>
+    <tr><td><strong>Species</strong></td><td><em>sapiens</em></td><td><em>indica</em></td></tr>
+  </table>
+  <ul>
+    <li><strong>Carl Linnaeus (1707–1778):</strong> "Father of Taxonomy." Introduced binomial nomenclature in <em>Systema Naturae</em> (1735; 10th edition 1758 = starting point of zoological nomenclature). Each organism has a two-part name: <em>Genus</em> (capitalised) + <em>species</em> (lowercase), written in italics (or underlined when handwritten). E.g., <em>Homo sapiens</em>, <em>Mangifera indica</em>, <em>Euryale ferox</em> (makhana).</li>
+    <li><strong>Rules:</strong> Genus is always capitalised, species is always lowercase. Both in Latin (italicised). E.g., <em>Escherichia coli</em> (E. coli after first mention).</li>
+  </ul>
+
+  <h3>B. Five Kingdom Classification — R.H. Whittaker (1969) <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Kingdom</th><th>Cell Type</th><th>Body Organisation</th><th>Mode of Nutrition</th><th>Cell Wall</th><th>Key Examples</th></tr>
+    <tr><td><strong>Monera</strong></td><td>Prokaryotic (no nucleus)</td><td>Unicellular</td><td>Autotrophic (photosynthetic / chemosynthetic) or heterotrophic</td><td>Present (peptidoglycan/murein in bacteria; pseudopeptidoglycan in archaea)</td><td>Bacteria (<em>E. coli</em>), Cyanobacteria (blue-green algae, <em>Nostoc</em>), Archaebacteria (methanogens, halophiles), Mycoplasma (no cell wall)</td></tr>
+    <tr><td><strong>Protista</strong></td><td>Eukaryotic</td><td>Unicellular / colonial</td><td>Autotrophic or heterotrophic</td><td>Present in some (cellulose); absent in others</td><td>Amoeba, Paramecium, Euglena (plant-animal link), <em>Plasmodium</em> (malaria), Diatoms, Slime moulds</td></tr>
+    <tr><td><strong>Fungi</strong></td><td>Eukaryotic</td><td>Multicellular (most) / unicellular (yeast)</td><td>Heterotrophic (saprophytic — absorb nutrients) / parasitic</td><td>Present (<strong>chitin / fungal cellulose</strong>)</td><td>Yeast (unicellular), Mushroom (<em>Agaricus</em>), <em>Penicillium</em> (antibiotic), <em>Rhizopus</em> (bread mould), <em>Puccinia</em> (wheat rust)</td></tr>
+    <tr><td><strong>Plantae</strong></td><td>Eukaryotic</td><td>Multicellular</td><td>Autotrophic (photosynthesis — chlorophyll)</td><td>Present (<strong>cellulose</strong>)</td><td>Algae (red, brown, green), Bryophytes (mosses), Pteridophytes (ferns), Gymnosperms (pines), Angiosperms (mango, rice)</td></tr>
+    <tr><td><strong>Animalia</strong></td><td>Eukaryotic</td><td>Multicellular</td><td>Heterotrophic (ingestive)</td><td><strong>Absent</strong></td><td>Sponges, hydra, worm, earthworm, insect, snail, starfish, fish, frog, snake, bird, mammal</td></tr>
+  </table>
+  <ul>
+    <li><strong>Basis of Whittaker's classification:</strong> (1) Cell structure (prokaryotic vs eukaryotic), (2) Body organisation (unicellular vs multicellular), (3) Mode of nutrition (autotrophic vs heterotrophic), (4) Reproduction, (5) Phylogenetic relationship (evolutionary).</li>
+    <li><strong>Euglena:</strong> "connecting link" between plant and animal — has chloroplasts (photosynthesis, like plants) but also feeds heterotrophically (like animals) and lacks cell wall.</li>
+    <li><strong>Fungi cell wall = chitin</strong> (N-acetylglucosamine); Plant cell wall = cellulose; Bacterial cell wall = peptidoglycan.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Five Kingdoms (Whittaker 1969):</strong><br>
+    <strong>M</strong>onera, <strong>P</strong>rotista, <strong>F</strong>ungi, <strong>P</strong>lantae, <strong>A</strong>nimalia<br>
+    <em>"My Pet Fish Plants Animals" → Monera, Protista, Fungi, Plantae, Animalia.</em><br>
+    Nutrition order: <strong>Auto/Mixo → Auto/Hetero → Hetero (saprophyte) → Auto → Hetero (ingestive)</strong>.
+  </div>
+
+  <div class="img-container">
+    <img src="images/leaf_structure.png" alt="Plant leaf structure — Kingdom Plantae (Angiosperm)">
+    <div class="img-caption">Plant leaf structure — Kingdom Plantae (Angiosperm). The leaf is the site of photosynthesis: chloroplasts (containing chlorophyll) capture sunlight; stomata (pores on lower epidermis) exchange gases (CO₂ in, O₂ out); xylem transports water, phloem transports food. Angiosperms are the most diverse plant group — divided into Monocots (one cotyledon, parallel venation) and Dicots (two cotyledons, reticulate venation).</div>
+  </div>
+
+  <h3>C. Three Domain System — Carl Woese (1990) <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Domain</th><th>Cell Type</th><th>Includes</th><th>Key Feature</th></tr>
+    <tr><td><strong>Archaea</strong></td><td>Prokaryotic</td><td>Archaebacteria</td><td>Distinct cell membrane lipids (ether bonds); histones present; no peptidoglycan. Extremophiles: methanogens, halophiles, thermoacidophiles. More closely related to Eukarya than to Bacteria.</td></tr>
+    <tr><td><strong>Bacteria</strong></td><td>Prokaryotic</td><td>Eubacteria, Cyanobacteria, Mycoplasma</td><td>Cell wall has peptidoglycan (murein). Includes most bacteria — E. coli, Gram-positive/negative, cyanobacteria.</td></tr>
+    <tr><td><strong>Eukarya</strong></td><td>Eukaryotic</td><td>Protista, Fungi, Plantae, Animalia</td><td>True nucleus + membrane-bound organelles (mitochondria, ER, Golgi). 80S ribosomes (cytoplasm).</td></tr>
+  </table>
+  <ul>
+    <li><strong>Carl Woese &amp; George Fox (1977):</strong> proposed Six Kingdom system (splitting Monera into Eubacteria and Archaebacteria). <strong>Woese (1990):</strong> formalised Three Domain system based on 16S/18S rRNA sequence analysis — Archaea and Bacteria are as different from each other as each is from Eukarya.</li>
+    <li><strong>Archaebacteria examples:</strong> Methanogens (in cow rumen and swamps — produce methane), Halophiles (salt lakes — Great Salt Lake), Thermoacidophiles (hot acidic springs — Yellowstone).</li>
+  </ul>
+
+  <h3>D. Plant Kingdom — Major Groups <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Group</th><th>Vascular Tissue</th><th>Seed</th><th>Flower/Fruit</th><th>Reproduction</th><th>Key Examples &amp; Features</th></tr>
+    <tr><td><strong>Thallophyta (Algae)</strong></td><td>Absent</td><td>No</td><td>No</td><td>Spores</td><td>Spirogyra, <em>Ulothrix</em>, <em>Chara</em>, Kelps (brown algae). Body not differentiated into root/stem/leaf (thallus). Chlorophyll present → autotrophic.</td></tr>
+    <tr><td><strong>Bryophyta</strong></td><td>Absent</td><td>No</td><td>No</td><td>Spores</td><td><strong>"Amphibians of plant kingdom"</strong> — need water for fertilisation. Mosses (<em>Funaria</em>), Liverworts (<em>Marchantia</em>). No true root → rhizoids. First land plants.</td></tr>
+    <tr><td><strong>Pteridophyta</strong></td><td>Present (xylem + phloem)</td><td>No</td><td>No</td><td>Spores</td><td>Ferns (<em>Pteris</em>), <em>Selaginella</em>, Horsetail. First vascular plants; first true roots/stem/leaves. Need water for fertilisation (male gametes motile).</td></tr>
+    <tr><td><strong>Gymnosperms</strong></td><td>Present</td><td>Yes (<strong>naked</strong>)</td><td>No</td><td>Seeds (no fruit)</td><td>Pines (<em>Pinus</em>), Cycas, Cedar, Ginkgo. Seeds exposed on cone scales (no fruit wall). Needle-like leaves, thick cuticle (xerophytic).</td></tr>
+    <tr><td><strong>Angiosperms</strong></td><td>Present</td><td>Yes (enclosed in <strong>fruit</strong>)</td><td>Yes</td><td>Seeds + Fruits</td><td>Largest plant group (~3 lakh species). Mango, rice, wheat, rose, sunflower. Divided into <strong>Monocots</strong> &amp; <strong>Dicots</strong>.</td></tr>
+  </table>
+  <table>
+    <tr><th>Feature</th><th>Monocots (Monocotyledonae)</th><th>Dicots (Dicotyledonae)</th></tr>
+    <tr><td>Cotyledons (seed leaves)</td><td><strong>1</strong></td><td><strong>2</strong></td></tr>
+    <tr><td>Leaf venation</td><td>Parallel</td><td>Reticulate (net-like)</td></tr>
+    <tr><td>Root system</td><td>Fibrous</td><td>Taproot</td></tr>
+    <tr><td>Floral parts</td><td>In multiples of 3</td><td>In multiples of 4 or 5</td></tr>
+    <tr><td>Vascular bundles (stem)</td><td>Scattered</td><td>In a ring</td></tr>
+    <tr><td>Examples</td><td>Wheat, rice, maize, sugarcane, onion, bamboo, grass, makhana (aquatic)</td><td>Mango, rose, pea, gram, sunflower, mustard, neem</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Plant Groups Evolution Order:</strong><br>
+    <strong>T</strong>hallophyta → <strong>B</strong>ryophyta → <strong>P</strong>teridophyta → <strong>G</strong>ymnosperms → <strong>A</strong>ngiosperms<br>
+    <em>"The Best Plants Grow Angiosperm-ically" — Thallophyta, Bryophyta, Pteridophyta, Gymnosperms, Angiosperms.</em><br>
+    Key: Bryophytes = "amphibians of plant kingdom"; Pteridophytes = first vascular; Gymnosperms = first seeds; Angiosperms = first flowers &amp; fruits.
+  </div>
+
+  <h3>E. Animal Kingdom — Major Phyla <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Phylum</th><th>Body Plan</th><th>Coelom</th><th>Key Feature</th><th>Examples</th></tr>
+    <tr><td><strong>Porifera</strong></td><td>Cellular (no true tissue)</td><td>No coelom</td><td>Pores (ostia) &amp; canal system; no nervous system; <strong>asexual reproduction by gemmules</strong></td><td>Sponges (<em>Sycon</em>, <em>Spongilla</em>). Only sedentary animals.</td></tr>
+    <tr><td><strong>Cnidaria (Coelenterata)</strong></td><td>Diploblastic</td><td>No coelom (acoelomate)</td><td><strong>Stinging cells (cnidoblasts/nematocysts)</strong> for defence &amp; prey; radial symmetry; body forms — polyp (hydra) &amp; medusa (jellyfish)</td><td>Hydra, Jellyfish, Sea anemone, <em>Obelia</em>, <em>Corals</em> (form coral reefs)</td></tr>
+    <tr><td><strong>Platyhelminthes</strong></td><td>Triploblastic</td><td>Acoelomate (solid body)</td><td><strong>Flat body</strong>; mostly parasites; flame cells (excretion); high regeneration (planaria)</td><td>Planaria (free-living), Tapeworm (<em>Taenia solium</em>), Liver fluke (<em>Fasciola hepatica</em>)</td></tr>
+    <tr><td><strong>Nematoda (Aschelminthes)</strong></td><td>Triploblastic</td><td>Pseudocoelom</td><td><strong>Round/cylindrical body</strong>; parasites; complete digestive tract (mouth + anus)</td><td>Ascaris (roundworm), <em>Wuchereria bancrofti</em> (elephantiasis/filariasis), <em>Enterobius</em> (pinworm)</td></tr>
+    <tr><td><strong>Annelida</strong></td><td>Triploblastic</td><td>True coelom (eucoelomate)</td><td><strong>Segmented body</strong> (metamerism); closed blood circulation; nephridia (excretion); setae for locomotion</td><td>Earthworm (<em>Pheretima</em>), Leech (<em>Hirudinaria</em>), <em>Nereis</em> (sandworm). "Friends of farmers."</td></tr>
+    <tr><td><strong>Arthropoda</strong></td><td>Triploblastic</td><td>True coelom (haemocoel)</td><td><strong>Jointed legs</strong>; exoskeleton of chitin; largest animal phylum (~80% species); open circulation; compound eyes; moulting (ecdysis)</td><td>Insects (butterfly, mosquito, cockroach, honeybee), Crustaceans (crab, prawn), Arachnids (spider, scorpion), Myriapods (centipede, millipede)</td></tr>
+    <tr><td><strong>Mollusca</strong></td><td>Triploblastic</td><td>True coelom (reduced)</td><td><strong>Muscular foot</strong> for locomotion; soft body; calcareous shell (most); mantle; radula (rasping tongue)</td><td>Snail (<em>Pila</em>), Oyster, Octopus (no shell), Pila, <em>Unio</em>, Pearl oyster (produces pearls). Second largest phylum.</td></tr>
+    <tr><td><strong>Echinodermata</strong></td><td>Triploblastic</td><td>True coelom</td><td><strong>Water vascular system</strong> (tube feet for locomotion); radial symmetry in adult, bilateral in larva; regeneration; calcareous plates/spines</td><td>Starfish (<em>Asterias</em>), Sea urchin, Sea cucumber, Brittle star. Only marine.</td></tr>
+    <tr><td><strong>Hemichordata</strong></td><td>Triploblastic</td><td>True coelom</td><td>Worm-like; gill slits; stomochord (not true notochord). Link between non-chordates &amp; chordates.</td><td><em>Balanoglossus</em> (acorn worm)</td></tr>
+    <tr><td><strong>Chordata</strong></td><td>Triploblastic</td><td>True coelom</td><td><strong>Notochord</strong> (at some stage); dorsal hollow nerve cord; pharyngeal gill slits; post-anal tail</td><td>Fish, frog, snake, bird, mammal — see vertebrate classes below</td></tr>
+  </table>
+  <ul>
+    <li><strong>Largest animal phylum = Arthropoda</strong> (~80% of all animal species; ~1.2 million described). Insects alone &gt; 1 million species.</li>
+    <li><strong>Second largest = Mollusca</strong> (~85,000+ species).</li>
+    <li><strong>Porifera = only animals without true tissues</strong> (cellular level of organisation).</li>
+    <li><strong>Body symmetry:</strong> Asymmetrical (sponges/Amoeba), Radial (cnidaria, echinoderm adult), Bilateral (most animals — from flatworms onwards).</li>
+    <li><strong>Coelom types:</strong> Acoelomate (no cavity — Porifera, Cnidaria, Platyhelminthes), Pseudocoelomate (false cavity — Nematoda), Eucoelomate (true coelom — Annelida onwards).</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Animal Phyla Order:</strong><br>
+    <strong>P</strong>orifera, <strong>C</strong>nidaria, <strong>P</strong>latyhelminthes, <strong>N</strong>ematoda, <strong>A</strong>nnelida, <strong>A</strong>rthropoda, <strong>M</strong>ollusca, <strong>E</strong>chinodermata, (Hemi)chordata<br>
+    <em>"P C P N A A M E C" — "Please Come Play Near AArthropod's Monster Elephant, Chordate."</em><br>
+    Key: Porifera=pores, Cnidaria=stinging cells, Platyhelminthes=flat, Nematoda=round, Annelida=segmented, Arthropoda=jointed legs, Mollusca=muscular foot, Echinodermata=water vascular system, Chordata=notochord.
+  </div>
+
+  <h3>F. Chordata — Vertebrate Classes <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Class</th><th>Key Features</th><th>Respiration</th><th>Heart</th><th>Examples</th></tr>
+    <tr><td><strong>Pisces (Fish)</strong></td><td>Streamlined body; scales; fins; gills; cold-blooded (poikilothermic); 2-chambered heart; lateral line system</td><td>Gills</td><td>2-chambered (1 atrium + 1 ventricle)</td><td>Rohu, Catla, <em>Hilsa</em> (Bihar staple), Magur, Singhi. Cartilaginous: Shark, Ray. Bony: Rohu, Seahorse, Tuna.</td></tr>
+    <tr><td><strong>Amphibia</strong></td><td>Live on land &amp; water; moist skin (no scales); webbed toes; 3-chambered heart; external fertilisation; metamorphosis (tadpole→adult)</td><td>Gills (larva) / Lungs + Skin (adult)</td><td>3-chambered</td><td>Frog, Toad, Salamander, Newt</td></tr>
+    <tr><td><strong>Reptilia</strong></td><td>Crawl on belly; dry scaly skin; lay eggs on land (cleidoic eggs); 3-chambered heart (4 in crocodile); cold-blooded; most have 4 legs (snakes legless)</td><td>Lungs</td><td>3-chambered (4 in crocodile)</td><td>Snake, Lizard, Crocodile, Turtle, Tortoise, Gecko</td></tr>
+    <tr><td><strong>Aves (Birds)</strong></td><td>Flight feathers (warm-blooded — homeothermic); beak (no teeth); hollow bones (pneumatic); 4-chambered heart; lay eggs</td><td>Lungs (with air sacs)</td><td>4-chambered</td><td>Peacock (Bihar state bird — <em>Pavo cristatus</em>), Pigeon, Eagle, Sparrow, Ostrich (flightless), Penguin</td></tr>
+    <tr><td><strong>Mammalia</strong></td><td><strong>Hair/fur on body; mammary glands (milk); warm-blooded; 4-chambered heart; viviparous (most — except monotremes which lay eggs); diaphragm; external ear (pinna)</td><td>Lungs (alveoli)</td><td>4-chambered</td><td>Gangetic Dolphin (<em>Platanista gangetica</em> — Bihar's aquatic mammal), Tiger, Elephant, Bat (only flying mammal), Whale, Human, Platypus (lays eggs — monotreme)</td></tr>
+  </table>
+  <ul>
+    <li><strong>Heart chambers progression:</strong> 2-chambered (Pisces) → 3-chambered (Amphibia, Reptilia) → 4-chambered (Aves, Mammalia, Crocodile). Crocodile is the only reptile with a 4-chambered heart.</li>
+    <li><strong>Warm-blooded (homeothermic):</strong> Aves &amp; Mammalia. Cold-blooded (poikilothermic): Pisces, Amphibia, Reptilia.</li>
+    <li><strong>Only flying mammal:</strong> Bat. <strong>Only egg-laying mammals (monotremes):</strong> Platypus &amp; Echidna. <strong>Marsupials (pouched):</strong> Kangaroo, Koala.</li>
+    <li><strong>Gangetic Dolphin (<em>Platanista gangetica gangetica</em>):</strong> National Aquatic Animal of India; blind (uses echolocation); found in Ganga &amp; its tributaries in Bihar; State Animal of city of Patna; endangered (IUCN EN), Schedule I (WPA 1972).</li>
+    <li><strong>Peacock (<em>Pavo cristatus</em>):</strong> National Bird of India. Found in Bihar's Valmiki Tiger Reserve, Rajgir hills, and forested areas.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Vertebrate Heart Chambers:</strong><br>
+    <strong>F</strong>ish (2) → <strong>F</strong>rog (3) → <strong>S</strong>nake (3) → <strong>B</strong>ird (4) → <strong>M</strong>ammal (4)<br>
+    <em>"2-3-3-4-4" — Pisces, Amphibia, Reptilia, Aves, Mammalia.</em><br>
+    Exception: Crocodile (Reptile) has 4-chambered heart.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>G. Quick Fact Matrix — Cell Wall Composition <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Group</th><th>Cell Wall Material</th><th>Distinctive Feature</th></tr>
+    <tr><td>Bacteria (Monera)</td><td><strong>Peptidoglycan (murein)</strong></td><td>Gram-positive (thick peptidoglycan) vs Gram-negative (thin, outer membrane)</td></tr>
+    <tr><td>Archaea</td><td><strong>Pseudopeptidoglycan</strong> (no peptidoglycan)</td><td>Distinct membrane lipids (ether bonds); extremophiles</td></tr>
+    <tr><td>Fungi</td><td><strong>Chitin</strong> (N-acetylglucosamine)</td><td>Same material as arthropod exoskeleton!</td></tr>
+    <tr><td>Plantae</td><td><strong>Cellulose</strong></td><td>Most abundant organic polymer on Earth</td></tr>
+    <tr><td>Animalia</td><td><strong>No cell wall</strong></td><td>Has extracellular matrix (collagen)</td></tr>
+    <tr><td>Mycoplasma</td><td><strong>No cell wall</strong></td><td>Smallest living cell; PPLO; pleomorphic</td></tr>
+  </table>
+
+  <h3>H. Quick Fact Matrix — Mode of Nutrition Across Kingdoms</h3>
+  <table>
+    <tr><th>Mode</th><th>Meaning</th><th>Examples</th></tr>
+    <tr><td>Autotrophic</td><td>Make own food (photosynthesis)</td><td>Plantae, Algae, Cyanobacteria, some Protista (Euglena)</td></tr>
+    <tr><td>Heterotrophic — Saprophytic</td><td>Absorb nutrients from dead matter</td><td>Fungi (most), some bacteria</td></tr>
+    <tr><td>Heterotrophic — Parasitic</td><td>Live on/in host, harm host</td><td><em>Plasmodium</em>, <em>Taenia</em>, <em>Ascaris</em>, <em>Cuscuta</em> (dodder — parasitic plant)</td></tr>
+    <tr><td>Heterotrophic — Holozoic (Ingestive)</td><td>Engulf whole food</td><td>Animalia, <em>Amoeba</em></td></tr>
+    <tr><td>Heterotrophic — Symbiotic</td><td>Mutual benefit</td><td>Lichen (fungus + algae), <em>Rhizobium</em> (legume root nodules — N₂ fixation), Mycorrhiza</td></tr>
+    <tr><td>Chemosynthetic</td><td>Energy from oxidation of chemicals</td><td>Sulphur bacteria, Nitrosomonas, Methanogens</td></tr>
+  </table>
+
+  <h3>I. Key "Firsts" &amp; "Largest" in Classification <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Distinction</th><th>Answer</th></tr>
+    <tr><td>Largest animal phylum</td><td><strong>Arthropoda</strong> (jointed legs; ~80% species; insects dominate)</td></tr>
+    <tr><td>Second largest animal phylum</td><td><strong>Mollusca</strong> (muscular foot)</td></tr>
+    <tr><td>Largest plant group</td><td><strong>Angiosperms</strong> (flowering plants; ~3 lakh species)</td></tr>
+    <tr><td>First land plants</td><td><strong>Bryophytes</strong> (mosses; "amphibians of plant kingdom")</td></tr>
+    <tr><td>First vascular plants</td><td><strong>Pteridophytes</strong> (ferns)</td></tr>
+    <tr><td>First seed plants</td><td><strong>Gymnosperms</strong> (conifers, cycads)</td></tr>
+    <tr><td>First flowering plants</td><td><strong>Angiosperms</strong></td></tr>
+    <tr><td>Only animals without true tissues</td><td><strong>Porifera</strong> (sponges)</td></tr>
+    <tr><td>Only flying mammal</td><td><strong>Bat</strong> (order Chiroptera)</td></tr>
+    <tr><td>Only flying bird-mimic insect</td><td>— (birds are the only true flying vertebrates besides bats)</td></tr>
+    <tr><td>Only egg-laying mammals (monotremes)</td><td><strong>Platypus &amp; Echidna</strong></td></tr>
+    <tr><td>Only reptile with 4-chambered heart</td><td><strong>Crocodile</strong></td></tr>
+    <tr><td>Smallest living organism</td><td><strong>Mycoplasma</strong> (PPLO; no cell wall; ~0.1 μm)</td></tr>
+    <tr><td>Largest cell (single-celled organism)</td><td><em>Plasmodium</em> (egg of ostrich is largest single cell — ~15 cm)</td></tr>
+    <tr><td>"Connecting link" plant-animal</td><td><strong>Euglena</strong> (has chloroplasts + heterotrophic feeding)</td></tr>
+    <tr><td>Connecting link between non-chordates &amp; chordates</td><td><strong>Balanoglossus</strong> (Hemichordata)</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Biodiversity &amp; Classification in Practice</div>
+    <ul>
+      <li><strong>Gangetic Dolphin (<em>Platanista gangetica gangetica</em>):</strong> National Aquatic Animal of India (declared 2009). Found in Ganga, Gandak, Kosi, Son rivers of Bihar. <strong>Vikramshila Gangetic Dolphin Sanctuary</strong> (Bhagalpur district, 50 km stretch of Ganga) — Asia's ONLY dedicated dolphin sanctuary (established 1991). Blind mammal — uses echolocation to navigate and hunt fish. IUCN status: Endangered. Schedule I of Wildlife (Protection) Act, 1972. Bihar celebrates <strong>National Dolphin Day on October 5</strong> annually. Estimated ~3,000 dolphins in Ganga basin (Bihar has ~1,500+).</li>
+      <li><strong>Valmiki Tiger Reserve (VTR):</strong> Bihar's ONLY Tiger Reserve (Bettiah, West Champaran). Declared 1990. ~899 sq km core + buffer. ~40 tigers (2022 census). Part of Someshwar Hills (Himalayan foothills). Also home to leopards, sloth bear, sambar, chital, peafowl, hornbill. Biodiversity hotspot — mixes Terai &amp; Himalayan species.</li>
+      <li><strong>Bhimbandh Wildlife Sanctuary:</strong> Munger district. Famous for hot springs (geothermal) + diverse mammals (tiger, leopard, sloth bear, four-horned antelope). ~682 sq km. One of Bihar's largest sanctuaries.</li>
+      <li><strong>Rajgir Wildlife Sanctuary:</strong> Nalanda district. ~36 sq km. Hills of Rajgir (Rajgriha — ancient capital of Magadha). Home to peafowl (state bird), nilgai, jackal, hyena, leopard. Adjacent to <strong>Pant Wildlife Sanctuary</strong> (Kawal/Kaimur range). Sarus crane sightings in nearby wetlands.</li>
+      <li><strong>Makhana (<em>Euryale ferox</em>):</strong> Bihar's GI-tagged aquatic cash crop. Classified as <strong>Family: Nymphaeaceae (water lily family)</strong>, Kingdom Plantae, Angiosperm — <strong>Dicotyledon</strong>. Cultivated in ponds/wetlands of Darbhanga, Madhubani, Purnia, Katihar. Bihar produces &gt;85% of world's makhana. Makhana processed into popped seeds (fox nuts) — high protein, low fat. <strong>Mithila Makhana</strong> received GI tag (2022). Floating leaves with thorns on lower surface; purple flowers.</li>
+      <li><strong>Bihar Fish Diversity:</strong> ~180+ fish species recorded. Major carp (Rohu, Catla, Mrigal), <em>Hilsa</em> (Tenualosa ilisha — migratory; was abundant in Ganga before Farakka barrage), Singhi, Magur (air-breathing catfish — can survive in low O₂ waterlogged Bihar fields), Koi. Inland fisheries production: Bihar &gt;6 lakh tonnes/year (top 5 in India). <em>Hilsa</em> = State Fish of Bihar (declared). Rohu, Katla = State's staple aquaculture species.</li>
+      <li><strong>Peafowl (State Bird):</strong> Indian Peacock (<em>Pavo cristatus</em>) — National Bird of India and widely found in Bihar's forests (Valmiki TR, Rajgir WS, Bhimbandh WS, Kaimur WS). Class Aves; sexual dimorphism (male has iridescent train). Protected Schedule I (WPA 1972).</li>
+      <li><strong>Sal forests:</strong> <em>Shorea robusta</em> — dominant tree species of Bihar's forests (Valmiki TR, Bhimbandh, Kaimur, Rajgir). Angiosperm, Dicot. Timber used for railway sleepers, furniture. Sal seeds yield vegetable fat. Forest cover in Bihar: ~7% of geographical area (Forest Survey of India).</li>
+      <li><strong>Kaimur Wildlife Sanctuary:</strong> Kaimur range (Rohtas, Kaimur districts). Largest WLS in Bihar (~1,342 sq km). Tigers, leopards, sloth bear, chital, sambar, peafowl. Caves with prehistoric rock paintings.</li>
+      <li><strong>Notable mammals of Bihar:</strong> Tiger (VTR), Leopard, Sloth Bear, Nilgai (largest antelope of Asia — common in Bihar fields), Four-horned Antelope, Chital, Sambar, Wild Boar, Gangetic Dolphin, Indian Fox, Hyena.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="69_cell_division.html">Topic 69 (Cell &amp; Division):</a></strong> Prokaryotes (Monera) lack a true nucleus and reproduce by binary fission (no mitosis/meiosis). Eukaryotes (Protista–Animalia) have a true nucleus with chromosomes, undergo mitosis &amp; meiosis. The cell wall composition (peptidoglycan vs cellulose vs chitin) distinguishes Monera, Plantae, Fungi.</li>
+    <li><strong><a href="70_human_body_systems.html">Topic 70 (Human Body Systems):</a></strong> Humans belong to Phylum Chordata, Class Mammalia. Mammalian features — hair, mammary glands, 4-chambered heart, diaphragm, viviparity. The heart's 4 chambers (covered here) link to the circulatory system.</li>
+    <li><strong><a href="72_diseases_pathogens.html">Topic 72 (Diseases &amp; Pathogens):</a></strong> Pathogens are classified by kingdom: <em>Plasmodium</em> (Protista → malaria), <em>Leishmania</em> (Protista → kala-azar), <em>Mycobacterium</em> (Monera → TB), <em>Ascaris</em> (Nematoda → roundworm), <em>Taenia</em> (Platyhelminthes → tapeworm), <em>Wuchereria</em> (Nematoda → filariasis), <em>Trichophyton</em> (Fungi → ringworm).</li>
+    <li><strong><a href="71_nutrition_vitamins.html">Topic 71 (Nutrition &amp; Vitamins):</a></strong> Autotrophs (Plantae) are the base of all food chains — they convert solar energy into chemical energy (photosynthesis). Heterotrophs (Animalia, Fungi) depend on them. Saprophytic fungi decompose dead matter → recycle nutrients.</li>
+    <li><strong><a href="74_genetics_evolution.html">Topic 74 (Genetics &amp; Evolution):</a></strong> Phylogenetic classification (Whittaker, Woese) reflects evolutionary relationships. Evolutionary trees use rRNA/DNA sequencing. Charles Darwin's theory of natural selection (1859) underlies modern classification.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Gangetic Dolphin conservation:</strong> Project Dolphin (launched 2020, on lines of Project Tiger) — to conserve both river (Ganges + Indus) and oceanic dolphins. Bihar's Vikramshila Dolphin Sanctuary is a key site. National Dolphin Day: October 5. 2024–25: Dolphin census in Ganga using acoustic monitoring (echolocation clicks).</li>
+    <li><strong>Wildlife census Bihar 2024:</strong> Tiger count in VTR rose to ~40 (from 28 in 2018). Leopard sightings increasing. Bihar planning second tiger reserve in Kaimur/Bhimbandh.</li>
+    <li><strong>Makhana GI tag &amp; export:</strong> "Mithila Makhana" received GI tag (2022). Export promotion under ODOP (One District One Product). Makhana processing clusters in Darbhanga/Madhubani. APEDA promoting export to USA, EU, Gulf. Bihar govt's Makhana Mission (2024) — area expansion, processing infrastructure.</li>
+    <li><strong>IPBES / biodiversity reports:</strong> IPBES (Intergovernmental Science-Policy Platform on Biodiversity &amp; Ecosystem Services) 2019 report — 1 million species face extinction. India's National Biodiversity Action Plan. Bihar State Biodiversity Board (BSBB) — biodiversity registers in panchayats.</li>
+    <li><strong>New species discoveries:</strong> 2023–24 — several new frog, fish, and insect species described from Eastern Ghats &amp; Himalayan foothills. Indian scientists revise amphibian &amp; reptile taxonomy using DNA barcoding.</li>
+    <li><strong>CBAM &amp; forest classification:</strong> India's forest cover mapped using satellite data (Forest Survey of India — ISFR biennial). Sal forests of Bihar monitored for carbon sequestration. Mangrove cover (Sundarbans) expansion tracked.</li>
+    <li><strong>MSP for makhana:</strong> Bihar govt considering Minimum Support Price for makhana to boost farmer income. Makhana Cooperative Federation in Darbhanga.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">PREDICTION</span>
+  <strong>72nd BPSC Top 5 Predictions — Classification:</strong>
+  <ol style="margin-top: 8px; padding-left: 20px;">
+    <li>Five Kingdom basis — match organism to kingdom (e.g., yeast=Fungi, Amoeba=Protista, mushroom=Fungi, blue-green algae=Monera). Cell wall composition (cellulose vs chitin vs peptidoglycan) is the key differentiator.</li>
+    <li>Whittaker (1969) vs Woese (Three Domains — Archaea, Bacteria, Eukarya). Know the basis: cell structure + nutrition + body organisation (Whittaker) vs rRNA (Woese).</li>
+    <li>Bryophytes = "amphibians of plant kingdom" (no vascular tissue, need water for fertilisation). Pteridophytes = first vascular plants. Gymnosperms = naked seeds. Angiosperms = enclosed seeds.</li>
+    <li>Animal phyla match — Porifera=pores, Cnidaria=stinging cells, Platyhelminthes=flatworm, Nematoda=roundworm, Annelida=segmented, Arthropoda=jointed legs (largest phylum), Mollusca=muscular foot (2nd largest), Echinodermata=water vascular system, Chordata=notochord.</li>
+    <li>Bihar: Gangetic Dolphin (National Aquatic Animal, Vikramshila Sanctuary Bhagalpur) + Makhana (Euryale ferox, Nymphaeaceae, dicot, GI tag 2022) + Valmiki Tiger Reserve + Peacock (state/national bird).</li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The five kingdom classification of living organisms was proposed by whom and in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Carl Linnaeus (1735)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Ernst Haeckel (1866)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Carl Woese (1990)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. R.H. Whittaker (1969 — classified organisms into Monera, Protista, Fungi, Plantae, Animalia based on cell structure, body organisation, nutrition, reproduction &amp; phylogeny)</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — R.H. Whittaker proposed the Five Kingdom classification in 1969: Monera, Protista, Fungi, Plantae, Animalia. Basis: (1) cell structure (prokaryotic/eukaryotic), (2) body organisation (unicellular/multicellular), (3) mode of nutrition, (4) reproduction, (5) phylogenetic relationship. Linnaeus (1735) proposed Two Kingdom (Plantae, Animalia). Haeckel (1866) added Protista as a third kingdom. Woese (1990) proposed the Three Domain system (Archaea, Bacteria, Eukarya).</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The cell wall of fungi is composed of which substance?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Cellulose (plant cell wall)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Chitin (N-acetylglucosamine — same material as arthropod exoskeleton; unique to fungi among kingdoms)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Peptidoglycan (bacterial cell wall)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Lipids</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — Fungal cell walls are made of <strong>chitin</strong> (a nitrogen-containing polysaccharide, N-acetylglucosamine). Interestingly, the same chitin forms the exoskeleton of arthropods (insects, crabs) — showing an evolutionary connection. Plant cell wall = cellulose. Bacterial cell wall = peptidoglycan (murein). Archaea have pseudopeptidoglycan. Animals have no cell wall. Mycoplasma is the exception among Monera — it lacks a cell wall entirely.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Which kingdom includes organisms that are prokaryotic and lack a true nucleus?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Protista (eukaryotic unicells — Amoeba, Paramecium)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Fungi (eukaryotic, multicellular)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Monera (prokaryotes — bacteria, cyanobacteria, archaebacteria; no nuclear membrane, no membrane-bound organelles, 70S ribosomes)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Plantae (eukaryotic, autotrophic)</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — Kingdom Monera contains all prokaryotes — organisms WITHOUT a true nucleus or membrane-bound organelles. Includes bacteria (e.g., <em>E. coli</em>), cyanobacteria (blue-green algae like <em>Nostoc</em>), archaebacteria (methanogens, halophiles), and Mycoplasma (smallest, no cell wall). They have 70S ribosomes and a nucleoid region (DNA not enclosed by nuclear membrane). Protista, Fungi, Plantae, Animalia are all eukaryotic.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Binomial nomenclature, the system of giving each organism a two-part scientific name (Genus + species), was introduced by which scientist?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. R.H. Whittaker</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Carl Woese</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Carl Linnaeus (1758 — "Father of Taxonomy"; Systema Naturae; Genus capitalised + species lowercase, Latin, italicised)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Charles Darwin</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — Carl Linnaeus introduced binomial nomenclature in <em>Systema Naturae</em> (10th edition, 1758 — the official starting point of zoological nomenclature). Each species gets a two-part Latin name: <em>Genus</em> (capitalised) + <em>species</em> (lowercase), written in italics or underlined. Examples: <em>Homo sapiens</em> (human), <em>Mangifera indica</em> (mango), <em>Euryale ferox</em> (makhana), <em>Platanista gangetica</em> (Gangetic dolphin). Linnaeus is the "Father of Taxonomy." Darwin proposed evolution by natural selection (1859). Whittaker proposed five kingdoms. Woese proposed three domains.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The Three Domain system of classification (Archaea, Bacteria, Eukarya) was proposed by whom and on what basis?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Whittaker (1969), based on cell structure and nutrition</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Linnaeus (1758), based on morphology</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Carl Woese (1990), based on 16S/18S ribosomal RNA (rRNA) sequence analysis — Archaea &amp; Bacteria are as different from each other as each is from Eukarya</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Haeckel (1866), based on body organisation</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Carl Woese (with George Fox, 1977; formalised as Three Domain in 1990) proposed the system based on <strong>ribosomal RNA (rRNA) sequence comparison</strong>. He discovered that Archaea (archaebacteria) are biochemically and genetically as distinct from Bacteria (eubacteria) as they are from Eukarya. Archaea: ether-linked membrane lipids, no peptidoglycan, often extremophiles (methanogens, halophiles, thermoacidophiles). Bacteria: peptidoglycan cell wall. Eukarya: true nucleus, membrane-bound organelles, 80S ribosomes.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Bryophytes (mosses and liverworts) are known as the "amphibians of the plant kingdom" because they:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Live both on land and in water (like frogs)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Have gills for respiration</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Need water for fertilisation (motile male gametes must swim to reach the egg) and lack true vascular tissue — they live on land but depend on water for reproduction</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Have a four-chambered heart</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — Bryophytes (mosses, liverworts, hornworts) are called "amphibians of the plant kingdom" because, although they grow on land, they <strong>require water for sexual reproduction</strong> — the male gametes (antherozoids) are motile (flagellated) and must swim through water to reach the egg (archegonium). They also lack true vascular tissue (no xylem/phloem) and true roots (have rhizoids). They are the first land plants in evolution. Examples: <em>Funaria</em> (moss), <em>Marchantia</em> (liverwort). Pteridophytes (ferns) also need water for fertilisation but have vascular tissue.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Which is the LARGEST animal phylum in terms of number of species?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. Mollusca (second largest — snail, octopus)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Chordata (fish to mammals — ~65,000 species)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Annelida (segmented worms)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. Arthropoda (jointed legs — insects, crustaceans, arachnids; ~80% of all animal species, &gt;1.2 million described; exoskeleton of chitin, jointed appendages)</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (D)</strong> — Arthropoda (Greek: "jointed feet") is the largest animal phylum — ~80% of all described animal species (&gt;1.2 million; insects alone &gt;1 million). Features: jointed appendages, exoskeleton of chitin (moulting/ecdysis), segmented body, open circulatory system (haemocoel), compound eyes. Includes insects (butterfly, mosquito, cockroach, honeybee), crustaceans (crab, prawn, lobster), arachnids (spider, scorpion, tick), myriapods (centipede, millipede). Mollusca is the second largest. Chordata ~65,000 species (fish, amphibians, reptiles, birds, mammals).</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The presence of stinging cells (nematocysts/cnidoblasts) is a characteristic feature of which animal phylum?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Porifera (sponges — have pores/ostia and canal system; no stinging cells)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Platyhelminthes (flatworms — flame cells for excretion)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Cnidaria (Coelenterata — hydra, jellyfish, sea anemone, corals; stinging cells for defence &amp; capturing prey; radial symmetry; diploblastic)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Echinodermata (starfish — water vascular system)</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Phylum Cnidaria (also called Coelenterata) is defined by <strong>cnidoblasts/nematocysts — stinging cells</strong> used for defence and paralysing prey. Cnidaria are diploblastic (two germ layers), radially symmetrical, and have two body forms: polyp (sessile — Hydra, sea anemone) and medusa (free-swimming — jellyfish). Examples: Hydra, Jellyfish, Sea anemone, <em>Obelia</em>, Corals (which build coral reefs — exoskeleton of calcium carbonate). Porifera have canal systems and pores; Platyhelminthes have flame cells; Echinodermata have a water vascular system.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Match the animal with its phylum: 1. Earthworm 2. Tapeworm 3. Ascaris 4. Starfish</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. 1-Annelida, 2-Platyhelminthes, 3-Nematoda, 4-Echinodermata (earthworm=segmented, tapeworm=flatworm, Ascaris=roundworm, starfish=water vascular system)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. 1-Nematoda, 2-Annelida, 3-Platyhelminthes, 4-Mollusca</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. 1-Platyhelminthes, 2-Nematoda, 3-Annelida, 4-Chordata</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. 1-Mollusca, 2-Echinodermata, 3-Annelida, 4-Porifera</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Earthworm (<em>Pheretima</em>) belongs to <strong>Annelida</strong> (segmented body, closed circulation, nephridia for excretion). Tapeworm (<em>Taenia solium</em>) belongs to <strong>Platyhelminthes</strong> (flat body, parasitic, flame cells for excretion). Ascaris (roundworm) belongs to <strong>Nematoda</strong> (cylindrical body, pseudocoelom, parasitic — causes ascariasis). Starfish (<em>Asterias</em>) belongs to <strong>Echinodermata</strong> (water vascular system, tube feet, radial symmetry in adults, only marine).</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The Gangetic Dolphin (Platanista gangetica), found in the Ganga and its tributaries in Bihar, is classified in which class of vertebrates?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Pisces (fish — dolphin is NOT a fish; it is a mammal)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Reptilia</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Aves</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Mammalia (dolphins are mammals — warm-blooded, breathe with lungs, give birth to live young, nurse with mammary glands, have hair at birth; National Aquatic Animal of India)</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — The Gangetic Dolphin (<em>Platanista gangetica gangetica</em>) is a <strong>mammal (Class Mammalia)</strong>, NOT a fish. Like all mammals, it is warm-blooded (homeothermic), breathes air with lungs (must surface), gives birth to live young (viviparous), and nurses calves with mammary glands. It is <strong>blind</strong> (no lens in eye) and uses <strong>echolocation</strong> (sound clicks) to navigate and hunt fish in muddy Ganga waters. It is the National Aquatic Animal of India; IUCN: Endangered; Schedule I (WPA 1972). Bihar's <strong>Vikramshila Gangetic Dolphin Sanctuary</strong> (Bhagalpur) is Asia's only dedicated dolphin sanctuary. Common trap: students confuse dolphins (mammals) with fish — but dolphins have horizontal tail flukes (fish have vertical), lungs (not gills), and 4-chambered heart.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which pair correctly distinguishes monocots from dicots?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Monocots: 2 cotyledons, reticulate venation; Dicots: 1 cotyledon, parallel venation</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Monocots: taproot system; Dicots: fibrous root system</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Monocots: 1 cotyledon, parallel venation, fibrous roots; Dicots: 2 cotyledons, reticulate venation, taproot</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Monocots: floral parts in 4s/5s; Dicots: floral parts in 3s</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (C)</strong> — Monocots (monocotyledons) have: 1 cotyledon, parallel leaf venation, fibrous root system, floral parts in multiples of 3, scattered vascular bundles. Examples: wheat, rice, maize, sugarcane, onion, bamboo, grass, makhana. Dicots (dicotyledons) have: 2 cotyledons, reticulate (net-like) venation, taproot system, floral parts in multiples of 4 or 5, vascular bundles in a ring. Examples: mango, rose, pea, gram, sunflower, mustard, neem, Sal (<em>Shorea robusta</em>). Option A reverses the two. Options B &amp; D also reverse the traits.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Which of the following is a "connecting link" between plants and animals, possessing both plant-like (chloroplasts) and animal-like (heterotrophic feeding) characteristics?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Paramecium (purely animal-like — cilia, holozoic nutrition)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Euglena (has chloroplasts for photosynthesis like plants, but also feeds heterotrophically and lacks a cell wall like animals — connecting link)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Amoeba (purely animal-like — pseudopodia, holozoic)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Spirogyra (purely plant-like — filamentous green alga)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — <em>Euglena</em> is the classic "connecting link" between Plantae and Animalia. It has <strong>chloroplasts</strong> (performs photosynthesis in sunlight — plant-like) but in the dark, it feeds heterotrophically by absorbing organic matter (animal-like). It also lacks a cell wall (animal-like) but has a pellicle. It moves using a flagellum. Kingdom: Protista. Paramecium and Amoeba are purely animal-like (holozoic nutrition). Spirogyra is a green alga (purely plant-like). Other connecting links: <em>Peripatus</em> (Annelida ↔ Arthropoda), <em>Balanoglossus</em> (non-chordata ↔ chordata), <em>Protopterus</em> (fish ↔ amphibian).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The term "Amphibians of the Plant Kingdom" refers to which group of plants?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Thallophyta (algae — fully aquatic; no differentiation)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Gymnosperms (fully terrestrial; naked seeds)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Bryophyta (mosses &amp; liverworts — first land plants but need water for fertilisation; no vascular tissue; rhizoids instead of roots)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Pteridophyta (ferns — first vascular plants; also need water but have xylem/phloem)</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — Bryophytes (mosses, liverworts, hornworts) are the "amphibians of the plant kingdom." They were the <strong>first plants to colonise land</strong>, but they still depend on water for sexual reproduction (motile male gametes swim to the egg). They lack true vascular tissue (no xylem/phloem) and true roots (have rhizoids for anchorage). Examples: <em>Funaria</em> (moss), <em>Marchantia</em> (liverwort). Pteridophytes (ferns) are the first vascular plants and also need water for fertilisation, but the specific phrase "amphibians of the plant kingdom" is reserved for Bryophytes (a common BPSC/UPSC point).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Makhana (Euryale ferox), an important aquatic cash crop of Bihar with a GI tag, belongs to which plant family and group?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Poaceae / Monocot (grass family — incorrect; makhana is not a grass)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Fabaceae / Dicot (legume family)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Nymphaeaceae / Dicot (water lily family; aquatic; floating leaves with thorns; purple flowers; Bihar produces &gt;85% of world's makhana; "Mithila Makhana" GI tag 2022)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Solanaceae / Dicot (nightshade family)</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (C)</strong> — Makhana (<em>Euryale ferox</em>) belongs to the family <strong>Nymphaeaceae (water lily family)</strong> — Kingdom Plantae, Angiosperm, <strong>Dicotyledon</strong>. It is an aquatic plant with large floating leaves (thorns on the lower surface) and purple flowers. The edible part is the popped seed (fox nut). Bihar produces &gt;85% of the world's makhana, mainly in Darbhanga, Madhubani, Purnia, Katihar. <strong>"Mithila Makhana" received the GI tag in 2022</strong>. It is rich in protein, low in fat. The Bihar govt's Makhana Mission promotes its cultivation and export. Trap: students may think makhana is a monocot (aquatic), but it is a dicot (reticulate venation, 2 cotyledons, taproot-like system).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Gymnosperms differ from angiosperms in which key feature?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. Gymnosperms have flowers; angiosperms do not</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Gymnosperms have enclosed seeds (inside fruit); angiosperms have naked seeds</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Gymnosperms have naked seeds (no fruit wall — seeds exposed on cone scales); angiosperms have seeds enclosed in fruit (develop from ovary after fertilisation) and bear flowers</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Gymnosperms are non-vascular; angiosperms are vascular</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (C)</strong> — Gymnosperms (Greek: "gymnos" = naked, "spermos" = seed) have <strong>naked seeds</strong> — seeds are exposed on the surface of cone scales (megasporophylls), NOT enclosed in a fruit. Examples: Pine (<em>Pinus</em>), Cycas, Cedar, Spruce, Ginkgo. They do NOT produce flowers or fruits. They have vascular tissue (xylem/phloem) and needle-like leaves with thick cuticle (xerophytic adaptation). Angiosperms (Greek: "angeion" = vessel) have seeds enclosed in a <strong>fruit</strong> (the ovary develops into fruit after fertilisation) and bear <strong>flowers</strong>. Angiosperms are the largest plant group (~3 lakh species). Both gymnosperms and angiosperms are vascular seed plants; the difference is the flower/fruit and seed enclosure.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The exoskeleton of arthropods (insects, crabs, spiders) is made of which substance?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Cellulose (plant cell wall)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Peptidoglycan (bacterial cell wall)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Chitin (nitrogenous polysaccharide — same material as fungal cell wall; provides rigidity &amp; protection; arthropods moult/ecdysis to grow)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Keratin (found in hair, nails, feathers — vertebrate feature, not arthropod exoskeleton)</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (C)</strong> — The arthropod exoskeleton is made of <strong>chitin</strong> (a nitrogen-containing polysaccharide, N-acetylglucosamine). The same chitin forms the cell wall of <strong>fungi</strong> — a notable biochemical link. The rigid exoskeleton protects and supports the body, but does not stretch — so arthropods must <strong>moult (ecdysis)</strong> periodically to grow, shedding the old exoskeleton and secreting a new larger one. Keratin is found in vertebrate skin derivatives (hair, nails, horns, feathers) — not arthropods. Cellulose = plants. Peptidoglycan = bacteria.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Which of the following is NOT a characteristic of the phylum Echinodermata?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Water vascular system (tube feet for locomotion, feeding, gas exchange — unique to echinoderms)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Calcareous endoskeleton with spines (gives the phylum its name — "echin" = spiny, "derma" = skin)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Radial symmetry in adults, bilateral in larvae; only marine; high regeneration capacity</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Jointed appendages and exoskeleton of chitin (these are features of Arthropoda, NOT Echinodermata — echinoderms have tube feet and calcareous plates)</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — Jointed appendages and chitin exoskeleton are characteristics of <strong>Arthropoda</strong>, not Echinodermata. Echinodermata features: (1) <strong>water vascular system</strong> (tube feet — for locomotion, food capture, respiration), (2) <strong>calcareous endoskeleton</strong> (ossicles with spines — "echino" = spiny, "derma" = skin), (3) <strong>radial symmetry in adults</strong> but bilateral in larvae (a secondary radial symmetry — they evolved from bilaterally symmetrical ancestors), (4) only marine, (5) high regeneration (starfish can regrow arms). Examples: Starfish (<em>Asterias</em>), Sea urchin, Sea cucumber, Brittle star.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Which of the following animals has a FOUR-chambered heart? (Select the most correct option)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Fish (Pisces — 2-chambered: 1 atrium + 1 ventricle)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Frog (Amphibia — 3-chambered: 2 atria + 1 ventricle)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Lizard (Reptilia — most have 3-chambered; crocodile is the exception with 4-chambered)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Crocodile (the ONLY reptile with a 4-chambered heart; birds &amp; mammals also have 4 chambers — 2 atria + 2 ventricles; enables complete separation of oxygenated &amp; deoxygenated blood)</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (D)</strong> — Heart chambers progression: Pisces (2) → Amphibia (3) → Reptilia (3, except crocodile = 4) → Aves (4) → Mammalia (4). The <strong>crocodile is the only reptile with a 4-chambered heart</strong> (2 atria + 2 ventricles) — a notable exception often asked in exams. Birds and mammals have 4-chambered hearts, which completely separate oxygenated and deoxygenated blood → supports warm-blooded (homeothermic) metabolism. Fish have 2-chambered (single circulation). Amphibians &amp; most reptiles have 3-chambered (mixed blood, double circulation incomplete). Mnemonic: "2-3-3-4-4" with crocodile as the reptile exception.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The scientific name of the Indian Peacock, the State/National Bird found in Bihar's Valmiki Tiger Reserve and Rajgir Wildlife Sanctuary, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. <em>Platanista gangetica</em> (Gangetic dolphin — National Aquatic Animal)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. <em>Passer domesticus</em> (house sparrow — State Bird of Delhi/Bihar in some older lists, but not national)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. <em>Pavo cristatus</em> (Indian Peafowl — National Bird of India; Class Aves; sexual dimorphism — male has iridescent blue neck &amp; train; protected Schedule I WPA 1972)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. <em>Grus antigone</em> (Sarus crane — tallest flying bird; found in Bihar wetlands)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — The Indian Peacock (peafowl) is <em>Pavo cristatus</em> — the <strong>National Bird of India</strong> (declared 1963). Class Aves. Features: sexual dimorphism — male has iridescent blue neck and a long ornamental train (used in courtship display — "peacock dance" during monsoon); female (peahen) is dull brown. Found across India's forests, including Bihar's Valmiki Tiger Reserve, Rajgir Wildlife Sanctuary, Bhimbandh, Kaimur. Protected under Schedule I of the Wildlife (Protection) Act, 1972. Binomial nomenclature: <em>Pavo</em> (genus, Latin for peacock) + <em>cristatus</em> (species, "crested"). Trap: <em>Platanista gangetica</em> = Gangetic dolphin (mammal, not bird).</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. In the taxonomic hierarchy, which of the following sequences is correct (from highest to lowest rank)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Kingdom → Phylum → Class → Order → Family → Genus → Species (correct sequence — Kingdom highest, Species lowest; "King Philip Came Over For Good Soup" mnemonic)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Kingdom → Class → Phylum → Order → Family → Species → Genus</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Phylum → Kingdom → Class → Family → Order → Genus → Species</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Kingdom → Phylum → Order → Class → Family → Genus → Species</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — The correct taxonomic hierarchy from highest (most inclusive) to lowest (most specific) is: <strong>Kingdom → Phylum (or Division in plants) → Class → Order → Family → Genus → Species</strong>. Mnemonic: "<strong>K</strong>ing <strong>P</strong>hilip <strong>C</strong>ame <strong>O</strong>ver <strong>F</strong>or <strong>G</strong>ood <strong>S</strong>oup." Example (human): Animalia → Chordata → Mammalia → Primates → Hominidae → <em>Homo</em> → <em>sapiens</em>. Option D swaps Class &amp; Order. Option B swaps Phylum &amp; Class. Option C has Kingdom in wrong position.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Which of the following organisms is the smallest living cell and lacks a cell wall?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. <em>Amoeba</em> (eukaryotic; much larger; has cell membrane)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. <em>Paramecium</em> (eukaryotic; ciliated; larger)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. <em>Euglena</em> (eukaryotic; has pellicle; photosynthetic)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. <em>Mycoplasma</em> (prokaryote; smallest known free-living cell, ~0.1 μm; no cell wall; pleomorphic; causes pleuropneumonia; PPLO — Pleuropneumonia-Like Organisms)</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (D)</strong> — <em>Mycoplasma</em> is the <strong>smallest known free-living organism/cell</strong> (~0.1 μm) and uniquely among Monera, it <strong>completely lacks a cell wall</strong> (hence pleomorphic — irregular shape). It is a prokaryote (Kingdom Monera, Domain Bacteria). Earlier called PPLO (Pleuropneumonia-Like Organisms). Mycoplasma causes plant diseases (witches' broom) and animal diseases (pleuropneumonia in cattle, atypical pneumonia in humans). It has no peptidoglycan — so it is <strong>naturally resistant to penicillin</strong> (which targets cell wall synthesis) but sensitive to tetracycline. Viruses are smaller but are not considered "living cells" (they are obligate parasites, no cellular structure).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The Vikramshila Gangetic Dolphin Sanctuary, Asia's only dedicated dolphin sanctuary, is located in which district of Bihar?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. Patna</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. Bhagalpur (established 1991; 50 km stretch of Ganga between Sultanganj &amp; Kahalgaon; protects Gangetic Dolphin — National Aquatic Animal)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Munger</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Bettiah (Valmiki Tiger Reserve is here, not the dolphin sanctuary)</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — The <strong>Vikramshila Gangetic Dolphin Sanctuary</strong> is in <strong>Bhagalpur district</strong> of Bihar. Established in 1991, it spans a ~50 km stretch of the Ganga (between Sultanganj and Kahalgaon). It is <strong>Asia's only dedicated dolphin sanctuary</strong> — protects the Gangetic Dolphin (<em>Platanista gangetica gangetica</em>), India's National Aquatic Animal (declared 2009). Bihar has ~1,500+ of the ~3,000 Gangetic dolphins in the Ganga basin. The dolphin is blind (echolocation), IUCN Endangered, Schedule I (WPA 1972). <strong>National Dolphin Day is celebrated on October 5</strong> annually. Valmiki Tiger Reserve is in West Champaran (Bettiah), not Bhagalpur.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Sal (Shorea robusta), the dominant tree species of Bihar's forests, is classified as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Gymnosperm (naked seeds — incorrect; Sal has flowers &amp; enclosed seeds)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Pteridophyte (fern — spore-bearing; incorrect)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Angiosperm — Dicotyledon (Family Dipterocarpaceae; has flowers, fruits, enclosed seeds; reticulate venation; 2 cotyledons; timber used for railway sleepers &amp; furniture)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Bryophyte (moss — non-vascular; incorrect)</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (C)</strong> — Sal (<em>Shorea robusta</em>) is an <strong>Angiosperm — Dicotyledon</strong>, belonging to family Dipterocarpaceae. It produces flowers and fruits (enclosed seeds), has reticulate leaf venation and two cotyledons — classic dicot features. Sal is the <strong>dominant tree of Bihar's forests</strong> (Valmiki Tiger Reserve, Bhimbandh, Kaimur, Rajgir). Its timber is highly valued — used for railway sleepers, construction, and furniture. Sal seeds yield vegetable fat (used in chocolates and cosmetics). Sal forests shed leaves in dry season (deciduous). Bihar's forest cover is ~7% of its geographical area (FSI). Trap: Sal is NOT a gymnosperm (it has flowers and enclosed seeds in fruit, unlike pines/cycas).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Which of the following correctly lists organisms belonging to Kingdom Protista?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Bacteria, Cyanobacteria, Mycoplasma (all Monera — prokaryotes)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Mushroom, Yeast, Rhizopus (all Fungi)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Amoeba, Paramecium, Euglena, Plasmodium (all unicellular eukaryotes — Protista; includes protozoans, diatoms, slime moulds)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Moss, Fern, Pine (Plantae — bryophyte, pteridophyte, gymnosperm)</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — Kingdom Protista includes <strong>unicellular eukaryotic organisms</strong>: Amoeba (pseudopodia locomotion), Paramecium (cilia), Euglena (flagella + chloroplasts — connecting link), <em>Plasmodium</em> (causes malaria — sporozoan parasite), diatoms (golden algae — cell walls of silica), slime moulds. Protista are eukaryotic (true nucleus), mostly unicellular, can be autotrophic (Euglena, diatoms) or heterotrophic (Amoeba, Plasmodium). Bacteria/cyanobacteria/Mycoplasma = Monera (prokaryotes). Mushroom/Yeast/Rhizopus = Fungi (chitin cell wall, saprophytic). Moss/Fern/Pine = Plantae (autotrophic, cellulose cell wall).</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Consider the following statements about the Gangetic Dolphin:<br>1. It is the National Aquatic Animal of India.<br>2. It is a blind mammal that uses echolocation.<br>3. It belongs to Class Pisces (fish).<br>4. It is protected under Schedule I of the Wildlife (Protection) Act, 1972.<br>Which of the statements are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. 1, 2 and 4 only (Statement 3 is wrong — dolphin is a mammal, Class Mammalia, NOT a fish/Pisces; it breathes with lungs, gives live birth, nurses young with milk)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. All four are correct</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — Statements 1, 2, and 4 are correct: (1) Gangetic Dolphin (<em>Platanista gangetica</em>) is the National Aquatic Animal of India (declared 2009). (2) It is <strong>blind</strong> (degenerate eyes, no lens) and uses <strong>echolocation</strong> (emitting high-frequency clicks and interpreting echoes) to navigate and hunt in the turbid Ganga waters. (4) It is protected under <strong>Schedule I</strong> of the Wildlife (Protection) Act, 1972 (highest protection) and listed as Endangered on the IUCN Red List. Statement 3 is WRONG — the dolphin is a <strong>mammal (Class Mammalia)</strong>, not a fish. Mammalian features: warm-blooded, lungs (must surface to breathe), viviparous (live birth), mammary glands (nurse calves), hair. It has a 4-chambered heart (fish have 2-chambered). National Dolphin Day = October 5.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References &amp; Further Reading</div>
+  <ul class="ref-list">
+    <li><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/">NCBI Taxonomy — classification database</a></li>
+    <li><a href="https://www.iucnredlist.org">IUCN Red List — Gangetic dolphin, tiger conservation status</a></li>
+    <li><a href="https://wii.gov.in">Wildlife Institute of India — VTR, dolphin census</a></li>
+    <li><a href="https://forest.bihar.gov.in">Bihar Forest Department — sanctuaries, biodiversity</a></li>
+    <li><a href="https://www.bsbbihar.org">Bihar State Biodiversity Board</a></li>
+    <li><a href="https://www.ipbes.net">IPBES — Intergovernmental Platform on Biodiversity</a></li>
+    <li>NCERT Class 9 Science — Diversity in Living Organisms (Chapter 7)</li>
+    <li>NCERT Class 11 Biology — Biological Classification (Chapter 2) &amp; Plant Kingdom (Chapter 3) &amp; Animal Kingdom (Chapter 4)</li>
+    <li>Lucent's General Science — Botany &amp; Zoology (Classification)</li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 76 — Classification (Five Kingdoms, Plant &amp; Animal Groups) • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'b', q3: 'c', q4: 'c', q5: 'c', q6: 'c', q7: 'd', q8: 'c', q9: 'a', q10: 'd',
+  q11: 'c', q12: 'b', q13: 'c', q14: 'c', q15: 'c', q16: 'c', q17: 'd', q18: 'd', q19: 'c', q20: 'a',
+  q21: 'd', q22: 'b', q23: 'c', q24: 'c', q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

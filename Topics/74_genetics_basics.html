@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>74 - Genetics Basics | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #74 • TIER A</div>
+  <div class="topic-title">Genetics Basics — DNA/RNA, Heredity, Mendel Basics</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Biology</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Sickle Cell, Thalassemia, AIIMS Patna</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Genetics Basics (high-yield Tier A):</strong> DNA = deoxyribonucleic acid (double helix, Watson &amp; Crick 1953, Nobel 1962). Nucleotide = sugar + phosphate + nitrogenous base. Bases: Purines (Adenine, Guanine) &amp; Pyrimidines (Cytosine, Thymine in DNA; Uracil replaces Thymine in RNA). Pairing: A=T (2 H-bonds), G≡C (3 H-bonds). Central Dogma: DNA → (transcription) → mRNA → (translation at ribosome) → Protein. Mendel's 3 laws: Dominance, Segregation (purity of gametes), Independent Assortment. Monohybrid ratio 3:1 (phenotypic), 1:2:1 (genotypic); Dihybrid 9:3:3:1. Sex determination: XX (female), XY (male) — father determines sex. Sex-linked disorders: Haemophilia, Colour blindness (X-linked recessive). Chromosomal disorders: Down (Trisomy 21), Turner (45,X0), Klinefelter (47,XXY). Gene disorders: Sickle cell (Glu→Val at position 6 of β-globin, autosomal recessive), Thalassemia.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of DNA/RNA structure, Mendelian genetics, genetic disorders, Bihar genetic disease burden, and 7 exam predictions:
+    <a href="subpages/74_genetics_basics_detail.html" target="_blank">Genetics Basics Master Detail →</a>
+  </div>
+
+  <div class="img-container">
+    <img src="images/cell_structure.png" alt="Cell structure showing nucleus with DNA/chromosomes">
+    <div class="img-caption">Eukaryotic cell structure — the nucleus contains chromosomes (DNA wrapped around histone proteins). Humans have 46 chromosomes (23 pairs: 22 autosomes + 1 sex pair). DNA is packaged into chromatin; during cell division it condenses into visible chromosomes. The central dogma of molecular biology: DNA → mRNA (transcription, in nucleus) → Protein (translation, at ribosomes in cytoplasm).</div>
+  </div>
+
+  <h3>A. DNA &amp; RNA — Structure &amp; Components <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Feature</th><th>DNA</th><th>RNA</th></tr>
+    <tr><td><strong>Full name</strong></td><td>Deoxyribonucleic acid</td><td>Ribonucleic acid</td></tr>
+    <tr><td><strong>Sugar</strong></td><td>Deoxyribose (2′-H)</td><td>Ribose (2′-OH)</td></tr>
+    <tr><td><strong>Bases</strong></td><td>A, T, G, C</td><td>A, U, G, C (Uracil replaces Thymine)</td></tr>
+    <tr><td><strong>Structure</strong></td><td>Double helix (two strands, antiparallel)</td><td>Usually single-stranded</td></tr>
+    <tr><td><strong>Location</strong></td><td>Mainly nucleus (also mitochondria, chloroplasts)</td><td>Nucleus, cytoplasm, ribosomes</td></tr>
+    <tr><td><strong>Function</strong></td><td>Stores genetic information (heredity)</td><td>Protein synthesis (mRNA, tRNA, rRNA)</td></tr>
+    <tr><td><strong>Stability</strong></td><td>More stable (long-term storage)</td><td>Less stable (short-term messenger)</td></tr>
+  </table>
+
+  <h3>B. Nucleotide Bases &amp; Pairing Rules <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Base</th><th>Type</th><th>Pairs With</th><th>H-bonds</th></tr>
+    <tr><td><strong>Adenine (A)</strong></td><td>Purine (2 rings)</td><td>Thymine (T) / Uracil (U)</td><td>2</td></tr>
+    <tr><td><strong>Guanine (G)</strong></td><td>Purine (2 rings)</td><td>Cytosine (C)</td><td>3</td></tr>
+    <tr><td><strong>Cytosine (C)</strong></td><td>Pyrimidine (1 ring)</td><td>Guanine (G)</td><td>3</td></tr>
+    <tr><td><strong>Thymine (T)</strong></td><td>Pyrimidine (1 ring)</td><td>Adenine (A) [DNA only]</td><td>2</td></tr>
+    <tr><td><strong>Uracil (U)</strong></td><td>Pyrimidine (1 ring)</td><td>Adenine (A) [RNA only]</td><td>2</td></tr>
+  </table>
+  <ul>
+    <li><strong>Chargaff's Rule:</strong> A = T and G = C in DNA. Purines (A+G) = Pyrimidines (T+C).</li>
+    <li><strong>GC content</strong> determines DNA stability — more GC = more H-bonds = higher melting temperature (3 H-bonds vs 2 for AT).</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Base Pairing:</strong><br>
+    <strong>AT</strong> = "All Thymine" (Adenine–Thymine, <strong>2</strong> H-bonds) — like "<strong>2</strong> thin threads"<br>
+    <strong>GC</strong> = "Great Chemistry" (Guanine–Cytosine, <strong>3</strong> H-bonds) — "<strong>3</strong> strong bonds"<br>
+    <strong>Purines</strong> (A, G) = "<strong>P</strong>ure <strong>AG</strong>ent" (2 rings — big). <strong>Pyrimidines</strong> (T, C, U) = "<strong>CUT</strong> the pie" (1 ring — small).<br>
+    <em>"PURe AGent, CUT the PY" — Purines = AG (2 rings); Pyrimidines = C, U, T (1 ring).</em>
+  </div>
+
+  <h3>C. Central Dogma — Replication, Transcription, Translation <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Process</th><th>Template → Product</th><th>Location</th><th>Enzyme/Key Molecule</th><th>Description</th></tr>
+    <tr><td><strong>Replication</strong></td><td>DNA → DNA (copy)</td><td>Nucleus</td><td>DNA polymerase (also helicase, ligase)</td><td>Semi-conservative (Meselson–Stahl 1958): each new DNA = 1 old + 1 new strand. Occurs in S-phase of cell cycle.</td></tr>
+    <tr><td><strong>Transcription</strong></td><td>DNA → mRNA</td><td>Nucleus</td><td>RNA polymerase</td><td>Copies a gene's coding strand into mRNA. In eukaryotes, mRNA is processed (5′ cap, 3′ poly-A tail, splicing of introns) before exiting nucleus.</td></tr>
+    <tr><td><strong>Translation</strong></td><td>mRNA → Protein</td><td>Ribosome (cytoplasm)</td><td>Ribosome, tRNA, rRNA</td><td>Codons (3-nucleotide units on mRNA) are read by tRNA anticodons; each codon specifies one amino acid. Start codon AUG (Methionine); Stop codons UAA, UAG, UGA.</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Central Dogma:</strong><br>
+    <strong>"Re-Tr-Tr"</strong> = <strong>Re</strong>plication (DNA→DNA) → <strong>Tr</strong>anscription (DNA→mRNA) → <strong>Tr</strong>anslation (mRNA→Protein)<br>
+    RNA types: <strong>m</strong>RNA = <strong>m</strong>essenger (carries code), <strong>t</strong>RNA = <strong>t</strong>ransfer (carries amino acid), <strong>r</strong>RNA = <strong>r</strong>ibosomal (forms ribosome).<br>
+    Stop codons: <strong>UAA</strong> = "U Are Away", <strong>UAG</strong> = "U Are Gone", <strong>UGA</strong> = "U Go Away". Start = <strong>AUG</strong> (Methionine).
+  </div>
+
+  <h3>D. Mendel's Laws of Inheritance <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Law</th><th>Also Known As</th><th>Statement</th><th>Demonstrated By</th></tr>
+    <tr><td><strong>Law of Dominance</strong></td><td>—</td><td>One allele (dominant) masks the expression of another (recessive) in heterozygotes</td><td>Monohybrid cross — TT × tt → all Tt (tall)</td></tr>
+    <tr><td><strong>Law of Segregation</strong></td><td>Law of Purity of Gametes</td><td>Alleles separate during gamete formation; each gamete receives only one allele</td><td>Monohybrid cross — Tt × Tt → 3:1 phenotype, 1:2:1 genotype</td></tr>
+    <tr><td><strong>Law of Independent Assortment</strong></td><td>—</td><td>Alleles of different genes assort independently during gamete formation (only true for genes on different chromosomes or far apart)</td><td>Dihybrid cross — RrYy × RrYy → 9:3:3:1 phenotype</td></tr>
+  </table>
+  <ul>
+    <li><strong>Gregor Johann Mendel</strong> (1822–1884) — "Father of Genetics". Experiments on <strong>pea plant (Pisum sativum)</strong> in monastery garden, Brunn (Austria, now Brno, Czech Republic). Published 1866; rediscovered in 1900 by de Vries, Correns, von Tschermak.</li>
+    <li><strong>Test cross:</strong> cross unknown genotype with homozygous recessive → reveals if unknown is homozygous dominant (all dominant offspring) or heterozygous (1:1 ratio).</li>
+    <li><strong>Back cross:</strong> cross of offspring with either parent.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Mendel's Ratios:</strong><br>
+    <strong>Monohybrid</strong> (one trait, Tt × Tt): Phenotype <strong>3:1</strong> (3 tall : 1 short), Genotype <strong>1:2:1</strong> (1 TT : 2 Tt : 1 tt)<br>
+    <strong>Dihybrid</strong> (two traits, RrYy × RrYy): Phenotype <strong>9:3:3:1</strong> (9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green)<br>
+    <strong>Test cross</strong> (Tt × tt): <strong>1:1</strong>. <strong>"3-1 mono, 9-3-3-1 di"</strong> — the golden Mendelian ratios.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>E. Sex Determination &amp; Sex-Linked Inheritance <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Feature</th><th>Details</th></tr>
+    <tr><td><strong>Sex chromosomes</strong></td><td>Females: XX (homogametic — all eggs carry X). Males: XY (heterogametic — 50% sperm carry X, 50% carry Y).</td></tr>
+    <tr><td><strong>Who determines sex</strong></td><td><strong>Father</strong> (male) — X sperm → daughter; Y sperm → son. Mother always contributes X.</td></tr>
+    <tr><td><strong>Y chromosome</strong></td><td>Carries <strong>SRY gene</strong> (Sex-determining Region Y) → triggers male development. Absence of SRY → female (default pathway).</td></tr>
+    <tr><td><strong>X-linked recessive</strong></td><td>Males (XY) express the trait if their single X is affected (hemizygous). Females (XX) need two affected Xs to show trait (can be carriers). Males more frequently affected; cannot pass to sons (pass Y), but pass to all daughters (carrier).</td></tr>
+    <tr><td><strong>Haemophilia</strong></td><td>X-linked recessive — deficiency of clotting factor VIII (Haemophilia A, most common) or IX (Haemophilia B). "Royal disease" — spread via Queen Victoria's descendants.</td></tr>
+    <tr><td><strong>Colour blindness</strong></td><td>X-linked recessive — red-green colour blindness most common (defect in opsin genes on X). ~8% males, &lt;1% females.</td></tr>
+  </table>
+
+  <h3>F. Genetic Disorders — Classification <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Disorder</th><th>Type</th><th>Cause/Karyotype</th><th>Key Features</th></tr>
+    <tr><td><strong>Sickle Cell Anaemia</strong></td><td>Gene (autosomal recessive)</td><td>Point mutation: Glu→Val at position 6 of β-globin (chr 11); HbA→HbS</td><td>RBCs sickle under low O₂ → block capillaries, pain crises. Trait (HbAS) confers malaria resistance. Common in tribal populations.</td></tr>
+    <tr><td><strong>Thalassemia</strong></td><td>Gene (autosomal recessive)</td><td>Reduced synthesis of α or β globin chains (α-thalassemia, β-thalassemia)</td><td>Microcytic anaemia, need frequent blood transfusions. Common in Mediterranean, South Asia (including Bihar).</td></tr>
+    <tr><td><strong>Phenylketonuria (PKU)</strong></td><td>Gene (autosomal recessive)</td><td>Deficiency of phenylalanine hydroxylase enzyme</td><td>Phenylalanine accumulates → mental retardation if untreated. Screened at birth (heel-prick test).</td></tr>
+    <tr><td><strong>Down Syndrome</strong></td><td>Chromosomal (aneuploidy)</td><td><strong>Trisomy 21</strong> (47 chromosomes, three copies of chr 21)</td><td>Mental retardation, flat face, epicanthal fold, simian crease, congenital heart defects. Risk increases with maternal age.</td></tr>
+    <tr><td><strong>Turner Syndrome</strong></td><td>Chromosomal (monosomy)</td><td><strong>45, X0</strong> (only one X chromosome)</td><td>Female, short stature, webbed neck, no puberty, sterile, normal intelligence. Only viable human monosomy.</td></tr>
+    <tr><td><strong>Klinefelter Syndrome</strong></td><td>Chromosomal (aneuploidy)</td><td><strong>47, XXY</strong></td><td>Male, tall, long limbs, gynaecomastia, small testes, sterile, low testosterone. Most common sex chromosome aneuploidy.</td></tr>
+    <tr><td><strong>Edwards Syndrome</strong></td><td>Chromosomal</td><td>Trisomy 18</td><td>Severe defects, low survival beyond 1 year.</td></tr>
+    <tr><td><strong>Patau Syndrome</strong></td><td>Chromosomal</td><td>Trisomy 13</td><td>Cleft lip/palate, polydactyly, heart defects; low survival.</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/blood_cells.jpg" alt="Blood cells — normal and sickle-shaped RBCs">
+    <div class="img-caption">Sickle cell anaemia — a single point mutation (glutamic acid → valine at position 6 of the β-globin chain) produces abnormal haemoglobin HbS. Under low oxygen, HbS polymerises, distorting RBCs into elongated "sickle" shapes. These rigid, sickled cells block small blood vessels (vaso-occlusion) → severe pain crises, organ damage, and chronic anaemia. Inherited as autosomal recessive (HbSS = disease; HbAS = trait). The sickle cell trait (HbAS) confers protection against <em>Plasmodium falciparum</em> malaria — a classic example of balanced polymorphism in malaria-endemic regions, including Bihar's tribal populations.</div>
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Chromosomal Disorders:</strong><br>
+    <strong>Down</strong> = <strong>21</strong> ("Down on 21") — Trisomy 21, most common<br>
+    <strong>Edwards</strong> = <strong>18</strong> ("Eighteen Edwards") — Trisomy 18<br>
+    <strong>Patau</strong> = <strong>13</strong> ("Patau 13 — unlucky") — Trisomy 13<br>
+    <strong>Turner</strong> = <strong>45, X0</strong> ("Turner = one X missing, female") — only viable monosomy<br>
+    <strong>Klinefelter</strong> = <strong>47, XXY</strong> ("Extra X, male") — most common sex aneuploidy<br>
+    <em>"Down-21, Edwards-18, Patau-13; Turner-X0, Klinefelter-XXY."</em>
+  </div>
+
+  <h3>G. Pedigree Analysis Symbols</h3>
+  <table>
+    <tr><th>Symbol</th><th>Meaning</th></tr>
+    <tr><td>□ (square)</td><td>Male</td></tr>
+    <tr><td>○ (circle)</td><td>Female</td></tr>
+    <tr><td>Filled (■/●)</td><td>Affected individual (expresses trait)</td></tr>
+    <tr><td>Half-filled (▥/◐)</td><td>Heterozygous carrier (asymptomatic)</td></tr>
+    <tr><td>Horizontal line</td><td>Mating/marriage</td></tr>
+    <tr><td>Vertical line</td><td>Offspring (siblings on horizontal sibship line)</td></tr>
+    <tr><td>Double line</td><td>Consanguineous mating (cousin marriage) — increases recessive disorder risk</td></tr>
+  </table>
+  <ul>
+    <li><strong>Autosomal dominant:</strong> appears in every generation, affects both sexes equally, affected individuals have 50% chance of passing trait.</li>
+    <li><strong>Autosomal recessive:</strong> skips generations, affects both sexes equally, more common with consanguinity.</li>
+    <li><strong>X-linked recessive:</strong> males more affected, no male-to-male transmission, affected males' daughters are carriers, trait can skip generations via carrier females.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Genetic Disorders, Counselling &amp; Research</div>
+    <ul>
+      <li><strong>Sickle Cell Anaemia in Bihar Tribals:</strong> Prevalent among tribal communities — Santhal, Oraon, Munda, Ho — in districts like Jamui, Banka, Bhagalpur, Munger. The HbS mutation (Glu→Val at position 6 of β-globin) is autosomal recessive. Sickle cell trait (HbAS) confers resistance to <em>Plasmodium falciparum</em> malaria — a balanced polymorphism in malaria-endemic zones. <strong>AIIMS Patna and IGIMS</strong> provide sickle cell screening (Hb electrophoresis), genetic counselling, and hydroxyurea treatment. National Sickle Cell Anaemia Elimination Mission (2023, Union Budget) targets screening 7 crore people in 17 high-burden states — Bihar included.</li>
+      <li><strong>Thalassemia in Bihar:</strong> β-thalassemia major is a significant burden — patients require lifelong blood transfusions (every 2–4 weeks) and iron chelation. Bihar Thalassemia Samiti and AIIMS Patna run thalassemia day-care centres. Carrier frequency in Bihar ~3–8%. Prevention: premarital screening, prenatal diagnosis (chorionic villus sampling). Consanguineous marriages (common in some communities) increase risk.</li>
+      <li><strong>Genetic Counselling at AIIMS Patna:</strong> Department of Medical Genetics offers prenatal diagnosis (amniocentesis, CVS), newborn screening (congenital hypothyroidism, PKU), and counselling for families with inherited disorders. IGIMS Patna also has a genetics unit. Key services: karyotyping, Hb electrophoresis, molecular genetic testing.</li>
+      <li><strong>Makhana Genetics Research at Darbhanga:</strong> Makhana (<em>Euryale ferox</em>) — an aquatic crop cultivated in ponds/wetlands of North Bihar (Mithila region, Darbhanga, Madhubani, Saharsa). Bihar produces &gt;85% of India's makhana. <strong>RIU (Research Institute for Makhana), Darbhanga</strong> under ICAR works on germplasm conservation, genetic improvement, and high-yielding varieties. Makhana received <strong>GI tag (2010)</strong> — "Mithila Makhana." Research focuses on polyploidy, seed genetics, and disease-resistant cultivars.</li>
+      <li><strong>Down Syndrome &amp; congenital disorders:</strong> AIIMS Patna and PMCH provide care. Advanced maternal age (≥35) is a risk factor for Down syndrome — relevant given Bihar's high birth rate. Prenatal screening (dual/triple marker test, NT scan) increasingly available.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="69_cell_division.html">Topic 69 (Cell &amp; Division):</a></strong> DNA replication occurs during S-phase of interphase (before mitosis/meiosis). Meiosis is the basis of Mendel's laws — segregation during Anaphase I, independent assortment during Metaphase I. Chromosome number halved in meiosis (46→23 in gametes).</li>
+    <li><strong><a href="70_human_body_systems.html">Topic 70 (Human Body Systems):</a></strong> The reproductive system produces gametes (sperm/egg) via meiosis. Sex chromosomes (XX/XY) determine sex. Genetic disorders affect multiple body systems (sickle cell → blood; Down → nervous system).</li>
+    <li><strong><a href="73_blood_immunity_vaccines.html">Topic 73 (Blood, Immunity &amp; Vaccines):</a></strong> Sickle cell anaemia and thalassemia are genetic disorders of haemoglobin (RBCs). Blood groups (ABO) are genetically inherited (codominance in AB). Rh incompatibility is an immunogenetic condition.</li>
+    <li><strong><a href="72_diseases_pathogens.html">Topic 72 (Diseases &amp; Pathogens):</a></strong> Some diseases are genetic (not infectious) — sickle cell, haemophilia, thalassemia. Balanced polymorphism: sickle cell trait protects against malaria (genetics + infectious disease link).</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>National Sickle Cell Anaemia Elimination Mission (2023):</strong> Launched by PM Modi (July 2023, Shahdol, MP). Target: eliminate sickle cell anaemia by 2047. Screen 7 crore people (3–40 years) in 17 high-burden states (including Bihar, Jharkhand, Odisha, Chhattisgarh). Reduce prevalence through awareness, screening, counselling.</li>
+    <li><strong>CRISPR-Cas9 Gene Editing:</strong> 2020 Nobel Chemistry Prize (Charpentier &amp; Doudna). First FDA-approved CRISPR therapy: <strong>Casgevy (2023)</strong> — treats sickle cell anaemia and β-thalassemia by editing haematopoietic stem cells. Relevant to Bihar's sickle cell burden.</li>
+    <li><strong>Human Genome Project (1990–2003):</strong> Sequenced all ~3 billion base pairs, ~20,000–25,000 genes. Led to personalised medicine, pharmacogenomics. April 2003 — completion announced (50th anniversary of DNA double helix).</li>
+    <li><strong>mRNA technology beyond COVID-19:</strong> mRNA vaccines in development for malaria, sickle cell, cancer. Links genetics (mRNA = central dogma) with immunology (Topic 73).</li>
+    <li><strong>Makhana GI tag &amp; export:</strong> "Mithila Makhana" GI tag (2010) boosted Bihar's makhana economy. APEDA promoting exports. ICAR-RIU Darbhanga developing improved varieties — genetics applied to agriculture.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">PREDICTION</span>
+  <strong>72nd BPSC Top 5 Predictions — Genetics Basics:</strong>
+  <ol style="margin-top: 8px; padding-left: 20px;">
+    <li>DNA/RNA differences + base pairing (A-T 2 H-bonds, G-C 3 H-bonds; Uracil in RNA, Thymine in DNA) — direct PYQ pattern</li>
+    <li>Mendel's laws + ratios: monohybrid 3:1 / 1:2:1, dihybrid 9:3:3:1, test cross 1:1 — matching/statement type</li>
+    <li>Chromosomal disorders: Down=Trisomy 21, Turner=45,X0, Klinefelter=47,XXY — karyotype matching</li>
+    <li>Sex-linked inheritance: haemophilia &amp; colour blindness (X-linked recessive) — why males more affected</li>
+    <li>Bihar-specific: sickle cell anaemia (Glu→Val, β-globin, autosomal recessive, malaria resistance) or thalassemia / AIIMS Patna genetic counselling</li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The double-helix structure of DNA was discovered by which scientists?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Louis Pasteur and Robert Koch</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Gregor Mendel and Hugo de Vries</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Jean-Baptiste Lamarck and Charles Darwin</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. James Watson &amp; Francis Crick (1953, using Rosalind Franklin's X-ray diffraction data; Nobel Prize 1962)</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — James Watson and Francis Crick proposed the DNA double-helix model in 1953 (published in <em>Nature</em>, April 25, 1953). They used X-ray diffraction data from Rosalind Franklin (Photo 51) and Maurice Wilkins. Watson, Crick, and Wilkins shared the Nobel Prize in Medicine (1962); Franklin had died (1958) and Nobels are not awarded posthumously. The model showed two antiparallel strands with A-T and G-C base pairing inside. Pasteur/Koch were microbiologists; Mendel was the father of genetics; Lamarck/Darwin proposed evolutionary theories.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. In a DNA molecule, adenine (A) always pairs with which base?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Guanine</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Cytosine</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Uracil (found in RNA, not DNA)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Thymine (A=T, connected by 2 hydrogen bonds)</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (D)</strong> — In DNA, Adenine (A) pairs with Thymine (T) via 2 hydrogen bonds (A=T). Guanine (G) pairs with Cytosine (C) via 3 hydrogen bonds (G≡C). Uracil (U) replaces Thymine in RNA — it is NOT found in DNA. Chargaff's rule: A=T and G=C. GC pairs are stronger (3 H-bonds) making GC-rich DNA more stable (higher melting temperature).</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Which nitrogenous base is present in RNA but NOT in DNA?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Adenine</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Uracil (replaces thymine in RNA; pairs with adenine)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Guanine</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Cytosine</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — Uracil (U) is a pyrimidine base found only in RNA, where it replaces Thymine (T) and pairs with Adenine (A). DNA contains A, T, G, C; RNA contains A, U, G, C. Both share Adenine, Guanine, and Cytosine. Uracil is energetically cheaper to produce than Thymine, but Thymine's methyl group makes DNA more stable for long-term storage. RNA is more reactive (2′-OH on ribose) and suited for short-term messaging.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The synthesis of mRNA from a DNA template is called:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Replication (DNA→DNA copy)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Translation (mRNA→protein at ribosome)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Transduction (bacterial gene transfer by virus)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Transcription (DNA→mRNA in nucleus, catalysed by RNA polymerase)</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — Transcription is the process of synthesising mRNA from a DNA template, occurring in the nucleus (catalysed by RNA polymerase). The central dogma: DNA → (transcription) → mRNA → (translation, at ribosomes) → Protein. Replication = DNA→DNA (DNA polymerase, S-phase). Translation = mRNA→protein (ribosomes, tRNA). Transduction = gene transfer between bacteria via bacteriophages (not part of central dogma).</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The process of translation (protein synthesis) occurs at which organelle?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Nucleus (site of transcription and replication)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Mitochondria (ATP production)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Ribosome (reads mRNA codons; tRNA brings amino acids; rRNA forms ribosome structure)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Golgi apparatus (protein modification and packaging)</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Translation (protein synthesis) occurs at ribosomes (in cytoplasm or on rough ER). The ribosome reads mRNA codons (3-nucleotide units); tRNA molecules bring the matching amino acids (anticodon pairs with codon); rRNA is a structural component of the ribosome. Nucleus = transcription/replication. Mitochondria = cellular respiration (ATP). Golgi = modifies, sorts, and packages proteins (post-translational).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Mendel's Law of Segregation is also known as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Law of Dominance (one allele masks another)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Law of Independent Assortment (genes on different chromosomes assort independently)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Law of Unit Characters (each trait controlled by a factor/allele)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Law of Purity of Gametes (alleles separate during gamete formation; each gamete gets only one allele)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — Mendel's Law of Segregation is also called the "Law of Purity of Gametes": during gamete formation (meiosis), the two alleles for a gene separate, and each gamete receives only one allele. A Tt heterozygote produces 50% T gametes and 50% t gametes — gametes are "pure" (carry only one allele). This law is demonstrated by the monohybrid cross (Tt × Tt → 3:1 phenotype, 1:2:1 genotype). Law of Dominance = one allele masks another. Independent Assortment = different genes assort independently (dihybrid cross).</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. In a monohybrid cross between two heterozygous tall pea plants (Tt × Tt), the phenotypic ratio of the offspring is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. 1:1 (test cross ratio — Tt × tt)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. 2:1</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. 1:2:1 (this is the GENOTYPIC ratio, TT:Tt:tt)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. 3:1 (3 tall : 1 short — phenotypic ratio of monohybrid cross)</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (D)</strong> — In a monohybrid cross Tt × Tt, offspring genotypes are 1 TT : 2 Tt : 1 tt (genotypic ratio 1:2:1). Since T (tall) is dominant over t (short), TT and Tt both appear tall → phenotypic ratio is 3 tall : 1 short (3:1). The 1:2:1 ratio is genotypic. The 1:1 ratio is seen in a test cross (Tt × tt). Mendel observed this 3:1 ratio in F₂ generation of pea plants for seven traits.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. In a dihybrid cross (RrYy × RrYy), what is the phenotypic ratio in the F₂ generation?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. 9:3:3:1 (9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. 3:1 (monohybrid phenotypic ratio)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. 1:1:1:1 (test cross of dihybrid — RrYy × rryy)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. 9:7 (complementary gene interaction ratio)</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — The dihybrid cross RrYy × RrYy gives a 9:3:3:1 phenotypic ratio in F₂: 9 round-yellow (R_Y_), 3 round-green (R_yy), 3 wrinkled-yellow (rrY_), 1 wrinkled-green (rryy). This ratio demonstrates Mendel's Law of Independent Assortment (alleles of different genes assort independently during gamete formation). 3:1 is the monohybrid ratio. 1:1:1:1 is the test cross of a dihybrid. 9:7 is a modified ratio from complementary gene interaction (gene interaction deviations from Mendelian ratios).</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The genotypic ratio of a monohybrid cross (Tt × Tt) in the F₂ generation is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. 3:1 (phenotypic, not genotypic)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. 1:1 (test cross ratio)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. 1:2:1 (1 TT : 2 Tt : 1 tt — genotypic ratio)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. 9:3:3:1 (dihybrid phenotypic ratio)</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (C)</strong> — The genotypic ratio of a monohybrid cross (Tt × Tt) is 1:2:1 — 1 homozygous dominant (TT), 2 heterozygous (Tt), 1 homozygous recessive (tt). The phenotypic ratio is 3:1 (TT and Tt look the same = tall; tt = short). Many students confuse phenotype (appearance) with genotype (genetic makeup). The 1:2:1 genotypic ratio arises from random fertilisation of T and t gametes in equal proportions.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. In humans, the sex of a child is determined by which parent?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Only autosomes determine sex</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. The mother (always contributes X)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Both parents equally (incorrect — mother always gives X)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. The father (X sperm → daughter; Y sperm → son; mother always contributes X chromosome)</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — In humans, sex is determined by the father. Females are XX (homogametic — all eggs carry X). Males are XY (heterogametic — 50% sperm carry X, 50% carry Y). If an X sperm fertilises the egg → XX → daughter. If a Y sperm fertilises the egg → XY → son. The mother always contributes an X chromosome; the father's sperm determines sex. The Y chromosome carries the SRY gene (Sex-determining Region Y) that triggers male development; its absence leads to female development (default pathway).</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Haemophilia is an example of which type of inheritance?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Autosomal dominant</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Autosomal recessive</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Mitochondrial inheritance</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. X-linked recessive (males more affected; carrier females pass to sons; "Royal disease" via Queen Victoria)</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Haemophilia is X-linked recessive. Males (XY) are hemizygous for X — a single affected X causes disease. Females (XX) need two affected Xs to show disease (one affected X = carrier). Males cannot pass it to sons (pass Y) but pass the affected X to all daughters (carriers). Haemophilia A = factor VIII deficiency (most common); Haemophilia B = factor IX deficiency. Known as the "Royal disease" — spread through European royalty via Queen Victoria (a carrier). Sickle cell and thalassemia are autosomal recessive, not X-linked.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Red-green colour blindness is inherited in which pattern?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Autosomal dominant</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Y-linked (passed father to all sons)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. X-linked recessive (defect in opsin genes on X chromosome; ~8% males, &lt;1% females affected)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Mitochondrial (inherited only from mother)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — Red-green colour blindness is X-linked recessive (defect in red/green opsin genes on the X chromosome). Males (XY) express it with one affected X (~8% of males affected). Females (XX) need two affected Xs to be colour blind (&lt;1% females); one affected X = carrier. A colour-blind father cannot pass it to his sons (passes Y) but all his daughters will be carriers. Same inheritance pattern as haemophilia. Y-linked traits are very rare (passed only father→son, e.g., hairy ears). Mitochondrial traits pass only mother→all children.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Down syndrome is caused by which chromosomal abnormality?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Trisomy 21 (three copies of chromosome 21 — 47 chromosomes total)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Monosomy X (45, X0 — Turner syndrome)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. XXY karyotype (47, XXY — Klinefelter syndrome)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Deletion of chromosome 5 (cri-du-chat syndrome)</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Down syndrome is caused by Trisomy 21 (three copies of chromosome 21 instead of two) — total 47 chromosomes. Features: mental retardation, flat facial profile, epicanthal folds, upward-slanting eyes, single palmar crease (simian crease), congenital heart defects, hypotonia. Risk increases with maternal age (especially ≥35 years). It is the most common autosomal aneuploidy. Turner = 45,X0 (monosomy X). Klinefelter = 47,XXY. Cri-du-chat = deletion of short arm of chromosome 5.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. A person with Turner syndrome has which karyotype?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. 47, XXY (Klinefelter — male, sterile, gynaecomastia)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. 47, Triple-X syndrome (female, mild/normal phenotype)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. 47, XYY (XYY syndrome — male, tall, usually normal)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. 45, X0 (monosomy X — female, short stature, webbed neck, sterile, only viable human monosomy)</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — Turner syndrome = 45, X0 (only one X chromosome; the other sex chromosome is missing). Phenotype: female, short stature, webbed neck, broad chest, no puberty (no ovarian development), sterile, normal intelligence, coarctation of aorta. It is the only viable human monosomy (missing an entire autosome is lethal). Klinefelter = 47,XXY (male). Triple-X = 47, three-X (female, usually mild). XYY = 47,XYY (male, tall, usually normal phenotype).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Klinefelter syndrome is characterised by which karyotype?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. 45, X0 (Turner syndrome — female)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. 47, XYY (XYY syndrome — male, tall)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. 47, XXY (male, tall, long limbs, gynaecomastia, small testes, sterile — most common sex chromosome aneuploidy)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. 46, XX (normal female karyotype)</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (C)</strong> — Klinefelter syndrome = 47, XXY (an extra X chromosome in a male). Features: male phenotype, tall stature, long limbs, gynaecomastia (enlarged breasts), small firm testes, azoospermia (sterile), low testosterone, elevated FSH/LH. It is the most common sex chromosome aneuploidy (~1 in 500–1000 males). Intelligence is usually normal or mildly reduced. Turner = 45,X0 (female). XYY = 47,XYY (male, tall, usually normal). 46,XX = normal female.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Sickle cell anaemia is inherited in which pattern?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Autosomal dominant (one copy causes disease — incorrect)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. X-linked recessive (incorrect — the β-globin gene is on chromosome 11, an autosome)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Mitochondrial inheritance (incorrect — not maternally inherited only)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Autosomal recessive (HbSS = disease; HbAS = trait; both parents must be carriers)</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (D)</strong> — Sickle cell anaemia is autosomal recessive. The β-globin gene is on chromosome 11 (an autosome, not a sex chromosome). HbSS = disease (homozygous recessive); HbAS = sickle cell trait (heterozygous carrier, generally asymptomatic); HbAA = normal. Two carrier parents (HbAS × HbAS) have 25% chance of HbSS child (disease), 50% HbAS (trait), 25% HbAA (normal). The sickle cell trait (HbAS) confers resistance to <em>Plasmodium falciparum</em> malaria — balanced polymorphism. Common in Bihar's tribal populations.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The mutation causing sickle cell anaemia involves substitution of which amino acid?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Glutamic acid → Valine at position 6 of the β-globin chain (GAG→GTG, HbA→HbS)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Valine → Glutamic acid (the reverse — incorrect)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Lysine → Glutamic acid at position 6</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Arginine → Histidine (haemoglobin M mutation)</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Sickle cell anaemia is caused by a single point mutation in the β-globin gene (chromosome 11): the codon GAG (glutamic acid) changes to GTG (valine) at position 6 of the β-globin chain. This produces abnormal haemoglobin HbS (instead of normal HbA). Under low oxygen, HbS polymerises → RBCs distort into sickle shapes → block capillaries (pain crises, organ damage). This is a classic example of a single-nucleotide point mutation causing disease. Linus Pauling identified HbS by electrophoresis (1949) — first molecular disease.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Thalassemia is a genetic disorder affecting which of the following?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Insulin production (diabetes — not genetic haemoglobin disorder)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Blood clotting factors (haemophilia — X-linked)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Vision (colour blindness — X-linked)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Haemoglobin synthesis (reduced α or β globin chain production → microcytic anaemia, transfusion-dependent)</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (D)</strong> — Thalassemia is an autosomal recessive disorder affecting haemoglobin synthesis — either reduced α-globin (α-thalassemia) or β-globin (β-thalassemia) chain production. This results in defective haemoglobin, microcytic hypochromic anaemia, and (in major forms) lifelong blood transfusion dependency + iron chelation. Common in Mediterranean, Middle East, South Asia (including Bihar). Prevention: premarital carrier screening, prenatal diagnosis. Haemophilia = clotting factor deficiency (VIII/IX). Diabetes = insulin. Colour blindness = opsin genes.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. In a pedigree analysis, if a trait appears in every generation and affects both sexes equally, the most likely inheritance pattern is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. X-linked recessive (skips generations, males more affected — incorrect)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Autosomal dominant (every generation, both sexes equally, 50% transmission)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Mitochondrial (passed only mother→all children — not every generation from both sexes)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Y-linked (only males, father→all sons — not both sexes)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — Autosomal dominant traits appear in every generation (no skipping), affect both sexes equally, and affected individuals have a 50% chance of passing the trait to each child. Examples: Huntington's disease, achondroplasia, Marfan syndrome. X-linked recessive skips generations and affects males more. Mitochondrial inheritance passes only from mother to all children (no father-to-child transmission). Y-linked traits affect only males (father→all sons). Recognising pedigree patterns is a key BPSC skill.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which type of RNA carries amino acids to the ribosome during translation?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. mRNA (messenger — carries genetic code from DNA)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. rRNA (ribosomal — forms ribosome structure)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. snRNA (small nuclear — splicing of introns)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. tRNA (transfer — carries specific amino acid; anticodon matches mRNA codon)</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — tRNA (transfer RNA) carries specific amino acids to the ribosome during translation. Each tRNA has an anticodon (3 nucleotides) that is complementary to an mRNA codon. The tRNA matches its anticodon to the codon on mRNA at the ribosome, delivering the correct amino acid to the growing polypeptide chain. mRNA = messenger (carries the genetic code from DNA to ribosome). rRNA = ribosomal (structural + catalytic component of ribosome). snRNA = small nuclear RNA (involved in splicing introns from pre-mRNA).</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. How many chromosomes are present in a normal human somatic (body) cell?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. 46 (23 pairs — 22 pairs of autosomes + 1 pair of sex chromosomes; XX or XY)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. 23 (this is the haploid number — found only in gametes: sperm/egg)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. 48 (chimpanzees have 48; humans have 46)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. 44 (incorrect — this would exclude sex chromosomes)</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Normal human somatic (body) cells are diploid (2n) with 46 chromosomes = 23 pairs: 22 pairs of autosomes (same in males and females) + 1 pair of sex chromosomes (XX in females, XY in males). Gametes (sperm, egg) are haploid (n) with 23 chromosomes (22 autosomes + 1 sex chromosome). Meiosis halves the chromosome number (46→23) during gamete formation; fertilisation restores it (23+23=46). Chimpanzees have 48 chromosomes (24 pairs) — humans have 46 due to a chromosome fusion event during evolution.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. DNA replication is described as "semi-conservative" because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. The original DNA is fully preserved and a completely new copy is made (conservative model)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. DNA is broken into fragments and mixed with new DNA (dispersive model)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Each new DNA molecule has one old (parental) strand and one newly synthesised strand (proven by Meselson–Stahl, 1958)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Only half of the DNA is replicated at a time</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — DNA replication is semi-conservative: each daughter DNA molecule contains one original (parental) strand and one newly synthesised strand. This was proven by the Meselson–Stahl experiment (1958) using <sup>15</sup>N/<sup>14</sup>N labelling of <em>E. coli</em> DNA. The conservative model (option A) proposed one all-old and one all-new molecule. The dispersive model (option B) proposed a mix of old and new in both strands. Semi-conservative replication ensures faithful copying of genetic information and is universal across all life.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Gregor Mendel, the "Father of Genetics," performed his landmark experiments on which organism?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Pea plant (Pisum sativum — 7 traits, monastery garden in Brunn/Brno, published 1866)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Maize (Zea mays — used later by other geneticists)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Fruit fly (Drosophila melanogaster — used by Morgan for chromosome theory)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Garden bean (Phaseolus — Mendel tried but results were complex)</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Gregor Johann Mendel (1822–1884), an Augustinian friar, performed his experiments on the garden pea (<em>Pisum sativum</em>) in the monastery garden at Brunn (now Brno, Czech Republic). He studied 7 contrasting traits (tall/short, round/wrinkled seed, yellow/green cotyledon, etc.) over 8 years (~29,000 pea plants). Published "Experiments on Plant Hybridisation" in 1866 — largely ignored until rediscovered in 1900 by de Vries, Correns, and von Tschermak. Drosophila was used by Thomas Hunt Morgan (chromosome theory of inheritance, Nobel 1933).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. A "test cross" is performed by crossing an organism of unknown genotype with which type of organism?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Homozygous recessive (e.g., tt — if all offspring show dominant trait, unknown was homozygous dominant; if 1:1 ratio, unknown was heterozygous)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Homozygous dominant (all offspring would show dominant trait — cannot distinguish)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Heterozygous (this is not a test cross — gives ambiguous results)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Any random genotype (defeats the purpose — results would be uninterpretable)</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — A test cross crosses an organism of unknown genotype (showing dominant phenotype, could be TT or Tt) with a homozygous recessive organism (tt). If all offspring are tall (dominant) → unknown was TT (homozygous dominant). If offspring are 1:1 tall:short → unknown was Tt (heterozygous). The homozygous recessive parent contributes only recessive alleles, so the offspring's phenotype directly reveals the unknown parent's gametes. This is a classic Mendelian technique to determine genotype.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Makhana (Euryale ferox), genetically researched at Darbhanga (Bihar), is significant because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. It is a major cotton substitute crop in Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. It is the primary silk-producing plant of Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. It is a high-yielding wheat variety developed at Darbhanga</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. It is an aquatic food crop cultivated in ponds/wetlands of North Bihar (Mithila region); Bihar produces &gt;85% of India's makhana; "Mithila Makhana" has GI tag (2010); ICAR-RIU Darbhanga works on germplasm &amp; genetic improvement</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (D)</strong> — Makhana (<em>Euryale ferox</em>) is an aquatic crop cultivated in ponds and wetlands of North Bihar (Mithila region — Darbhanga, Madhubani, Saharsa, Supaul). Bihar produces &gt;85% of India's makhana. "Mithila Makhana" received a GI tag in 2010. The <strong>Research Institute for Makhana (ICAR-RIU), Darbhanga</strong> works on germplasm conservation, genetic improvement, polyploidy, and high-yielding/disease-resistant varieties. Makhana is rich in protein, low in fat, and a premium health food — genetics research (selective breeding, polyploidy) improves yield and quality. It is not cotton, silk, or wheat.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References &amp; Further Reading</div>
+  <ul class="ref-list">
+    <li><a href="https://www.ncbi.nlm.nih.gov">NCBI — GenBank, human genome resources</a></li>
+    <li><a href="https://www.who.int/genomics">WHO — Genomics and human health</a></li>
+    <li><a href="https://www.aiimspatna.org">AIIMS Patna — Department of Medical Genetics</a></li>
+    <li><a href="https://www.icar.org.in">ICAR — Research Institute for Makhana (RIU), Darbhanga</a></li>
+    <li><a href="https://www.nhp.gov.in">National Health Portal — Sickle Cell Anaemia Elimination Mission</a></li>
+    <li>NCERT Class 12 Biology — Principles of Inheritance and Variation (Chapter 5), Molecular Basis of Inheritance (Chapter 6)</li>
+    <li>Lucent's General Science — Genetics, Heredity, Mendel's Laws</li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 74 — Genetics Basics • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'd', q3: 'b', q4: 'd', q5: 'c', q6: 'd', q7: 'd', q8: 'a', q9: 'c', q10: 'd',
+  q11: 'd', q12: 'c', q13: 'a', q14: 'd', q15: 'c', q16: 'd', q17: 'a', q18: 'd', q19: 'b', q20: 'd',
+  q21: 'a', q22: 'c', q23: 'a', q24: 'a', q25: 'd'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

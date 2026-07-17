@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>73 - Blood, Immunity & Vaccines | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #73 • TIER A</div>
+  <div class="topic-title">Blood, Immunity &amp; Vaccines — Blood Groups, Immunity, Vaccination</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Biology</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Kala-azar, Encephalitis, Sickle Cell</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Blood, Immunity &amp; Vaccines (high-yield Tier A):</strong> Blood components: RBCs (haemoglobin, O₂ transport, no nucleus, 120-day lifespan, produced in bone marrow, destroyed in spleen), WBCs (5 types — neutrophils, lymphocytes B &amp; T, monocytes, eosinophils, basophils), platelets (clotting — fibrinogen→fibrin). Blood groups: ABO (A, B, AB, O) + Rh factor (+/−). AB = universal recipient, O− = universal donor. Immunity: innate (born with) vs adaptive (acquired — active: infection/vaccine, passive: mother/antiserum). Vaccines: live attenuated (BCG, OPV, MMR), inactivated (rabies, pertussis), toxoid (tetanus, diphtheria), subunit (Hep B, HPV), mRNA (COVID-19). Universal Immunisation Programme (UIP) — 12 vaccines.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of blood composition, blood groups, immunity types, vaccine schedules, Bihar health programmes, and 7 exam predictions:
+    <a href="subpages/73_blood_immunity_vaccines_detail.html" target="_blank">Blood, Immunity &amp; Vaccines Master Detail →</a>
+  </div>
+
+  <div class="img-container">
+    <img src="images/blood_cells.jpg" alt="Blood cells — RBCs, WBCs, and platelets under microscope">
+    <div class="img-caption">Human blood cells under microscope — RBCs (red blood cells/erythrocytes, ~5 million/μL, biconcave, no nucleus, haemoglobin, carry O₂), WBCs (white blood cells/leucocytes, ~4,000–11,000/μL, 5 types, fight infection), and platelets (thrombocytes, ~150,000–450,000/μL, blood clotting). Blood = 55% plasma + 45% cells. Total blood volume: ~5 litres in adults.</div>
+  </div>
+
+  <h3>A. Blood — Composition &amp; Functions <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Component</th><th>Count/Volume</th><th>Function</th><th>Key Facts</th></tr>
+    <tr><td><strong>Plasma</strong></td><td>55% of blood (~3 L)</td><td>Transport medium</td><td>90% water + proteins (albumin, globulin, fibrinogen) + hormones + nutrients + waste; pH 7.35–7.45</td></tr>
+    <tr><td><strong>RBCs (Erythrocytes)</strong></td><td>~5 million/μL (M: 4.7–6.1M, F: 4.2–5.4M)</td><td>O₂ transport (haemoglobin)</td><td>Biconcave, no nucleus, 120-day lifespan, produced in bone marrow, destroyed in spleen/liver; 12–16 g/dL Hb (M), 12–14 (F)</td></tr>
+    <tr><td><strong>WBCs (Leucocytes)</strong></td><td>4,000–11,000/μL</td><td>Immune defence</td><td>5 types: neutrophils (60%, bacteria), lymphocytes (30%, B &amp; T cells, viruses), monocytes (6%, macrophages), eosinophils (3%, parasites/allergy), basophils (1%, inflammation/histamine)</td></tr>
+    <tr><td><strong>Platelets (Thrombocytes)</strong></td><td>150,000–450,000/μL</td><td>Blood clotting</td><td>Fragments of megakaryocytes; clotting cascade: fibrinogen → fibrin (mesh); lifespan 8–10 days; vitamin K essential for clotting</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/antibody_diagram.png" alt="Antibody (immunoglobulin) structure — Y-shaped defence protein">
+    <div class="img-caption">Antibody (immunoglobulin) — Y-shaped protein produced by plasma cells (derived from B-lymphocytes) in response to specific antigens. Two heavy chains + two light chains. Variable region (antigen-binding site) + constant region (Fc). Each antibody recognises one specific antigen. Vaccines work by stimulating antibody production without causing disease — conferring active immunity.</div>
+  </div>
+
+  <h3>B. Blood Groups — ABO &amp; Rh Systems <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Blood Group</th><th>Antigens on RBC</th><th>Antibodies in Plasma</th><th>Can Donate To</th><th>Can Receive From</th></tr>
+    <tr><td><strong>A</strong></td><td>A</td><td>Anti-B</td><td>A, AB</td><td>A, O</td></tr>
+    <tr><td><strong>B</strong></td><td>B</td><td>Anti-A</td><td>B, AB</td><td>B, O</td></tr>
+    <tr><td><strong>AB</strong></td><td>A &amp; B</td><td>None</td><td>AB only</td><td>All (universal <strong>recipient</strong>)</td></tr>
+    <tr><td><strong>O</strong></td><td>None</td><td>Anti-A &amp; Anti-B</td><td>All (universal <strong>donor</strong>)</td><td>O only</td></tr>
+  </table>
+  <ul>
+    <li><strong>Rh Factor:</strong> Rh+ (antigen present, 85% people) vs Rh− (no antigen, 15%). Rh− person receiving Rh+ blood → anti-Rh antibodies → haemolytic reaction on second exposure.</li>
+    <li><strong>Haemolytic Disease of Newborn (Erythroblastosis fetalis):</strong> Rh− mother + Rh+ father → Rh+ fetus. First delivery: sensitisation. Second Rh+ pregnancy: maternal anti-Rh antibodies cross placenta → fetal RBC destruction. Prevention: Anti-D (RhoGAM) injection to mother within 72 hours of delivery.</li>
+    <li><strong>ABO system discovered by Karl Landsteiner (1900)</strong> — Nobel Prize 1930. Rh factor discovered by Landsteiner &amp; Wiener (1937) using Rhesus monkey blood.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Blood Groups:</strong><br>
+    <strong>AB = Accept Both</strong> (universal recipient — receives from all)<br>
+    <strong>O = Offer to all</strong> (universal donor — donates to all)<br>
+    <em>"AB accepts, O offers" — the golden rule of blood transfusion.</em>
+  </div>
+
+  <h3>C. Immunity — Types &amp; Mechanisms <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Type</th><th>Subtype</th><th>How Acquired</th><th>Examples</th><th>Duration</th></tr>
+    <tr><td rowspan="2"><strong>Innate</strong></td><td>Physical barriers</td><td>Born with (genetic)</td><td>Skin, mucus, stomach acid, tears (lysozyme)</td><td>Lifelong (non-specific)</td></tr>
+    <tr><td>Cellular/chemical</td><td>Born with</td><td>Phagocytes (macrophages, neutrophils), complement system, interferons, inflammation, fever</td><td>Non-specific, immediate</td></tr>
+    <tr><td rowspan="2"><strong>Adaptive (Acquired)</strong></td><td><strong>Active</strong></td><td>Body produces own antibodies</td><td>Natural: infection (e.g., measles → lifelong immunity). Artificial: vaccination (BCG, OPV, COVID-19 vaccine)</td><td>Long-term (memory cells)</td></tr>
+    <tr><td><strong>Passive</strong></td><td>Pre-made antibodies transferred</td><td>Natural: maternal antibodies via placenta/breast milk (IgG, IgA). Artificial: antiserum (snake bite, tetanus toxoid, rabies immunoglobulin, monoclonal antibodies)</td><td>Short-term (weeks–months, no memory)</td></tr>
+  </table>
+
+  <h3>D. Immune System Cells &amp; Organs</h3>
+  <table>
+    <tr><th>Cell/Organ</th><th>Type</th><th>Function</th></tr>
+    <tr><td><strong>B-lymphocytes</strong></td><td>Adaptive (humoral)</td><td>Produce antibodies (plasma cells); form memory B cells; mature in <strong>Bone marrow</strong></td></tr>
+    <tr><td><strong>T-lymphocytes</strong></td><td>Adaptive (cell-mediated)</td><td>Helper T (CD4+: coordinate immune response, HIV target), Cytotoxic T (CD8+: kill infected/cancer cells), Regulatory T (suppress immune response); mature in <strong>Thymus</strong></td></tr>
+    <tr><td><strong>Macrophages</strong></td><td>Innate + adaptive</td><td>Phagocytosis (engulf pathogens); antigen presentation to T cells; derived from monocytes</td></tr>
+    <tr><td><strong>Natural Killer (NK) cells</strong></td><td>Innate</td><td>Kill virus-infected and tumour cells without prior sensitisation</td></tr>
+    <tr><td><strong>Dendritic cells</strong></td><td>Bridge innate→adaptive</td><td>Best antigen-presenting cells (APCs); activate T cells in lymph nodes</td></tr>
+    <tr><td><strong>Thymus</strong></td><td>Primary lymphoid organ</td><td>T-cell maturation; shrinks after puberty (thymic involution)</td></tr>
+    <tr><td><strong>Bone marrow</strong></td><td>Primary lymphoid organ</td><td>B-cell maturation; produces all blood cells (haematopoiesis)</td></tr>
+    <tr><td><strong>Spleen</strong></td><td>Secondary lymphoid organ</td><td>Filters blood; removes old/damaged RBCs; stores platelets; fights blood-borne pathogens</td></tr>
+    <tr><td><strong>Lymph nodes</strong></td><td>Secondary lymphoid organ</td><td>Filter lymph; site of B/T cell activation; swell during infection</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — B &amp; T cells:</strong><br>
+    <strong>B</strong> cells mature in <strong>B</strong>one marrow → produce antibodies (humoral immunity)<br>
+    <strong>T</strong> cells mature in <strong>T</strong>himus → cell-mediated immunity (CD4+ Helper, CD8+ Killer)<br>
+    <em>"B for Bone marrow, T for Thymus" — where lymphocytes get their name.</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>E. Immunoglobulins (Antibody Classes) <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Class</th><th>Abundance</th><th>Key Function</th><th>Notes</th></tr>
+    <tr><td><strong>IgG</strong></td><td>75–80% (most abundant)</td><td>Major antibody of secondary response; crosses placenta</td><td>Only antibody that crosses placenta → protects newborn; monomer</td></tr>
+    <tr><td><strong>IgM</strong></td><td>5–10% (largest)</td><td>First antibody produced in primary response; pentamer</td><td>Largest antibody (pentamer); activates complement efficiently; first to appear in infection</td></tr>
+    <tr><td><strong>IgA</strong></td><td>10–15%</td><td>Mucosal immunity (saliva, tears, breast milk, gut)</td><td>Found in secretions; protects mucosal surfaces; passed to infant via breast milk (colostrum)</td></tr>
+    <tr><td><strong>IgE</strong></td><td>&lt;1%</td><td>Allergy &amp; parasitic worm response</td><td>Triggers histamine release from basophils/mast cells → allergy (asthma, hay fever, anaphylaxis)</td></tr>
+    <tr><td><strong>IgD</strong></td><td>&lt;1%</td><td>B-cell receptor (antigen recognition)</td><td>Function least understood; found on B-cell surface</td></tr>
+  </table>
+
+  <h3>F. Vaccine Types &amp; Mechanisms <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Vaccine Type</th><th>Mechanism</th><th>Examples (in UIP &amp; India)</th><th>Notes</th></tr>
+    <tr><td><strong>Live attenuated</strong></td><td>Weakened pathogen; strong, long-lasting immunity</td><td>BCG (TB), OPV (polio, Sabin), MMR (measles, mumps, rubella), Varicella, Yellow fever</td><td>Not given to immunocompromised; can revert (rare — VDPV from OPV)</td></tr>
+    <tr><td><strong>Inactivated (killed)</strong></td><td>Killed pathogen; safer, booster needed</td><td>IPV (polio, Salk), Rabies (HDCV), Influenza (some), Hepatitis A, Pertussis (whole-cell, wP)</td><td>Cannot cause disease; weaker immunity → boosters required</td></tr>
+    <tr><td><strong>Toxoid</strong></td><td>Inactivated bacterial toxin</td><td>Tetanus (TT), Diphtheria toxoid</td><td>Targets toxin, not the bacterium; given as DPT/DT/Td</td></tr>
+    <tr><td><strong>Subunit/Recombinant</strong></td><td>Specific antigen protein</td><td>Hepatitis B (recombinant DNA), HPV, Pneumococcal (PCV), Haemophilus influenzae type b (Hib)</td><td>Safe (no live pathogen); Hep B = first recombinant vaccine (1986)</td></tr>
+    <tr><td><strong>Conjugate</strong></td><td>Polysaccharide + carrier protein</td><td>Pneumococcal (PCV13), Meningococcal, Hib conjugate</td><td>Effective in infants (T-cell dependent response)</td></tr>
+    <tr><td><strong>mRNA</strong></td><td>mRNA coded for viral spike protein</td><td>COVID-19 (Pfizer-BioNTech, Moderna)</td><td>Newest type (2020); no live pathogen; rapid development; Karikó &amp; Weissman Nobel 2023</td></tr>
+    <tr><td><strong>Viral vector</strong></td><td>Modified virus carries pathogen gene</td><td>COVID-19 (Oxford-AstraZeneca/Covishield, J&amp;J, Sputnik V)</td><td>Adenovirus vector; used in India (Covishield)</td></tr>
+  </table>
+
+  <h3>G. Universal Immunisation Programme (UIP) — India</h3>
+  <table>
+    <tr><th>Vaccine</th><th>Disease(s)</th><th>Type</th><th>Schedule</th></tr>
+    <tr><td><strong>BCG</strong></td><td>Tuberculosis</td><td>Live attenuated</td><td>At birth (or within 1 year)</td></tr>
+    <tr><td><strong>OPV</strong></td><td>Poliomyelitis</td><td>Live attenuated (Sabin)</td><td>Birth, 6, 10, 14 weeks (pulse rounds)</td></tr>
+    <tr><td><strong>Hep B</strong></td><td>Hepatitis B</td><td>Recombinant subunit</td><td>Birth dose, 6, 10, 14 weeks</td></tr>
+    <tr><td><strong>Pentavalent</strong></td><td>DPT + Hep B + Hib</td><td>Mixed (wP + recombinant + conjugate)</td><td>6, 10, 14 weeks</td></tr>
+    <tr><td><strong>Rotavirus</strong></td><td>Diarrhoea (rotavirus)</td><td>Live attenuated</td><td>6, 10, 14 weeks (introduced 2016)</td></tr>
+    <tr><td><strong>PCV</strong></td><td>Pneumococcal pneumonia</td><td>Conjugate</td><td>6, 14 weeks + 9 months booster</td></tr>
+    <tr><td><strong>Measles/MR</strong></td><td>Measles (and Rubella)</td><td>Live attenuated</td><td>9–12 months + 16–24 months</td></tr>
+    <tr><td><strong>JE</strong></td><td>Japanese Encephalitis</td><td>Inactivated/live</td><td>Endemic districts (incl. Bihar)</td></tr>
+    <tr><td><strong>FIPV</strong></td><td>Fractional IPV (polio)</td><td>Inactivated (Salk)</td><td>6 &amp; 14 weeks (introduced 2024–25)</td></tr>
+  </table>
+  <ul>
+    <li><strong>India declared polio-free:</strong> March 27, 2014 (WHO South-East Asia region). Last wild polio case: Howrah, West Bengal, January 13, 2011.</li>
+    <li><strong>Mission Indradhanush (2014):</strong> targets unvaccinated/partially vaccinated children. Intensified Mission Indradhanush (IMI) launched 2017.</li>
+    <li><strong>COVID-19 vaccination:</strong> India launched January 16, 2021. Covishield (Oxford-AstraZeneca, SII Pune) + Covaxin (Bharat Biotech, inactivated whole-virion). >220 crore doses administered (world's largest).</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Antibody Order (GAMDE):</strong><br>
+    <strong>G</strong> (IgG, 75%) → <strong>A</strong> (IgA, 15%) → <strong>M</strong> (IgM, 10%, first produced) → <strong>D</strong> (IgD, &lt;1%) → <strong>E</</strong> (IgE, &lt;1%, allergy)<br>
+    <em>"GAMDE" by abundance. Remember: M first in infection, G crosses placenta, A in secretions, E for allergy.</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Vector-Borne &amp; Infectious Diseases, Vaccination Programmes</div>
+    <ul>
+      <li><strong>Kala-azar (Visceral Leishmaniasis):</strong> Bihar accounts for &gt;70% of India's kala-azar cases. Caused by <em>Leishmania donovani</em>, transmitted by sandfly (<em>Phlebotomus argentipes</em>). Endemic in 33 districts (Muzaffarpur, Vaishali, East Champaran). Symptoms: fever, splenomegaly, pancytopenia, hyperpigmentation ("black fever"). Treatment: Amphotericin B (liposomal), Miltefosine (oral). <strong>Rajendra Memorial Research Institute (RMRI), Patna</strong> — premier kala-azar research centre. India's Kala-azar Elimination target: 2025.</li>
+      <li><strong>Acute Encephalitis Syndrome (AES):</strong> Muzaffarpur and adjoining districts face recurring AES outbreaks (May–July). Multiple causes: litchi toxin (hypoglycin A &amp; MCPG → hypoglycaemia in malnourished children), heat stroke, Japanese Encephalitis (JE) virus. <strong>SKMCH Muzaffarpur</strong> is the main treatment centre. Government response: JE vaccination in endemic districts, nutrition supplementation, awareness campaigns.</li>
+      <li><strong>Sickle Cell Anaemia:</strong> prevalent among tribal populations in Bihar (Santhal, Oraon, Munda). HbS mutation (glutamic acid → valine at position 6 of β-globin chain). Sickle cell trait (HbAS) confers malaria resistance — balanced polymorphism. <strong>AIIMS Patna and IGIMS</strong> provide sickle cell screening and treatment.</li>
+      <li><strong>Tuberculosis (TB):</strong> Bihar is a high-burden state. NTEP (National TB Elimination Programme, formerly RNTCP) — DOTS therapy (Directly Observed Treatment, Short-course). India's TB elimination target: 2025 (SDG target: 2030). Nikshay Poshan Yojana: ₹500/month to TB patients for nutrition.</li>
+      <li><strong>Lymphatic Filariasis (Elephantiasis):</strong> caused by <em>Wuchereria bancrofti</em>, transmitted by <em>Culex</em> mosquito. Bihar is endemic. Mass Drug Administration (MDA) with DEC + Albendazole. Target: elimination by 2027 (revised from 2020).</li>
+      <li><strong>Leprosy:</strong> Bihar is among high-burden states. National Leprosy Eradication Programme (NLEP). Multi-Drug Therapy (MDT): Dapsone + Rifampicin + Clofazimine. Bihar achieved elimination threshold (&lt;1/10,000) but pockets of high prevalence remain.</li>
+      <li><strong>COVID-19 vaccination:</strong> Bihar administered &gt;15 crore doses. Gargi Sansthan and AIIMS Patna were key centres. Rural outreach via Mobile Vaccination Teams.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="69_cell_division.html">Topic 69 (Cell &amp; Division):</a></strong> RBCs are produced by haematopoiesis in bone marrow (mitosis of haematopoietic stem cells). WBCs (lymphocytes) undergo clonal expansion (rapid mitosis) when activated by antigens. Sickle cell anaemia is a genetic disorder (Topic 74) affecting RBC shape.</li>
+    <li><strong><a href="70_human_body_systems.html">Topic 70 (Human Body Systems):</a></strong> Blood is part of the circulatory system. The heart pumps blood; arteries carry oxygenated blood (except pulmonary artery); veins carry deoxygenated blood (except pulmonary vein). The lymphatic system (lymph nodes, spleen, thymus) is part of the immune system.</li>
+    <li><strong><a href="72_diseases_pathogens.html">Topic 72 (Diseases &amp; Pathogens):</a></strong> Immunity is the body's defence against pathogens (bacteria, viruses, protozoa, fungi). Vaccines prevent infectious diseases. Bihar-specific diseases (kala-azar, AES, TB, leprosy, filariasis) are detailed in Topic 72.</li>
+    <li><strong><a href="71_nutrition_vitamins.html">Topic 71 (Nutrition &amp; Vitamins):</a></strong> Iron deficiency → anaemia (reduced haemoglobin). Vitamin K → blood clotting (clotting factors II, VII, IX, X). Vitamin C → immune function (WBC activity). Protein deficiency → reduced antibody production. Bihar's anaemia burden links to nutrition.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>COVID-19 vaccines (2020–2026):</strong> fastest vaccine development in history. mRNA vaccines (Pfizer, Moderna) — Karikó &amp; Weissman won Nobel Prize 2023 for mRNA technology. India: Covishield (viral vector), Covaxin (inactivated), Corbevax (protein subunit), GEMCOVAC-19 (mRNA, first indigenous, 2023).</li>
+    <li><strong>Polio eradication:</strong> India polio-free since 2014. OPV being phased out globally (risk of VDPV — Vaccine-Derived Polio Virus). Switch from trivalent OPV to bivalent OPV (2016). Fractional IPV introduced in India (2024–25).</li>
+    <li><strong>Malaria vaccine:</strong> WHO recommended RTS,S/AS01 (Mosquirix) in 2021 — world's first malaria vaccine. R21/Matrix-M (Oxford-Serum Institute India) approved 2023 — cheaper, higher efficacy (75%). Deployed in Africa. Relevant for Bihar (malaria endemic).</li>
+    <li><strong>HPV vaccination:</strong> Cervavac (Serum Institute India, 2023) — first indigenous HPV vaccine. ₹2,000/dose (vs imported ₹3,500+). India launched HPV vaccination for girls 9–14 years (2024). Prevents cervical cancer (HPV types 16, 18 cause 70% of cases).</li>
+    <li><strong>Universal Immunisation Programme expansion:</strong> Pneumococcal Conjugate Vaccine (PCV) launched nationally 2021. Rotavirus vaccine (2016). JE vaccine in endemic districts. India aims to eliminate measles &amp; rubella by 2025.</li>
+    <li><strong>Bihar kala-azar elimination:</strong> India committed to eliminate kala-azar by 2025 (revised from 2017, 2020). Active case detection, indoor residual spraying (IRS), sandfly control. Cases declined from &gt;77,000 (2007) to &lt;1,000 (2024).</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">PREDICTION</span>
+  <strong>72nd BPSC Top 5 Predictions — Blood, Immunity &amp; Vaccines:</strong>
+  <ol style="margin-top: 8px; padding-left: 20px;">
+    <li>ABO blood group matching — universal donor (O) vs universal recipient (AB) + Rh factor significance (erythroblastosis fetalis, Anti-D injection)</li>
+    <li>Vaccine type classification — match vaccine to type (BCG=live, Tetanus=toxoid, Hep B=recombinant, COVID-19=mRNA/viral vector)</li>
+    <li>WBC types &amp; functions — 5 types (neutrophils, lymphocytes, monocytes, eosinophils, basophils) with percentages and roles</li>
+    <li>Bihar-specific: kala-azar (Leishmania, sandfly, RMRI Patna) or AES (Muzaffarpur, litchi toxin, hypoglycaemia)</li>
+    <li>Immunity type classification — active vs passive, natural vs artificial (examples for each: infection=natural active, vaccine=artificial active, maternal IgG=natural passive, antiserum=artificial passive)</li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Which blood group is known as the "universal donor"?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Blood group A</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Blood group B</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Blood group AB</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Blood group O (no A or B antigens on RBC, so no reaction with recipient's anti-A/anti-B antibodies)</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — Blood group O has no A or B antigens on RBCs, so it does not trigger anti-A or anti-B antibodies in any recipient. O− is the true universal donor (no Rh antigen either). However, O+ can donate to any Rh+ recipient. AB+ is the universal recipient (no anti-A, anti-B, or anti-Rh antibodies).</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The ABO blood group system was discovered by which scientist?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Louis Pasteur</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Karl Landsteiner (1900 — Nobel Prize 1930)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Robert Koch</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Alexander Fleming</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — Karl Landsteiner discovered the ABO blood group system in 1900 (Nobel Prize 1930). He also co-discovered the Rh factor (1937) with Alexander Wiener, using Rhesus monkey blood. Landsteiner's classification enabled safe blood transfusions.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Red blood cells (RBCs) do NOT contain which of the following?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Haemoglobin</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Carbonic anhydrase</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Nucleus (mature mammalian RBCs extrude their nucleus to make room for haemoglobin and maximise O₂ carrying capacity)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Cell membrane</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — Mature mammalian RBCs (including humans) lack a nucleus. They extrude their nucleus during maturation in bone marrow (erythropoiesis) to accommodate more haemoglobin (~270 million Hb molecules per RBC) and increase O₂ carrying capacity. Biconcave shape increases surface area for gas exchange. Lifespan: 120 days. Produced in bone marrow, destroyed in spleen and liver.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Which antibody class crosses the placenta and provides immunity to the newborn?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. IgM (first antibody produced in primary immune response; largest, pentamer)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. IgG (most abundant antibody, 75–80%; only class that crosses placenta via FcRn receptor)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. IgA (found in secretions — saliva, tears, breast milk; mucosal immunity)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. IgE (involved in allergic reactions and parasitic worm responses; triggers histamine release)</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — IgG is the only antibody class that crosses the placenta (via the FcRn receptor on placental cells). This provides passive immunity to the newborn for the first 3–6 months of life. IgG is also the most abundant antibody (75–80% of serum Ig). IgA is passed via breast milk (colostrum) — protects the infant's gut.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Which type of immunity is provided by vaccination?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Natural passive immunity</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Artificial passive immunity</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Artificial active immunity (vaccine stimulates the body to produce its own antibodies and memory cells)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Innate immunity</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Vaccination provides artificial active immunity: the vaccine introduces a weakened/killed pathogen or its antigen → the body produces its own antibodies and memory B/T cells → long-lasting immunity. Natural active = getting the infection. Artificial passive = receiving pre-made antibodies (antiserum, e.g., snake bite, tetanus immunoglobulin). Natural passive = maternal IgG via placenta/IgA via breast milk.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The BCG vaccine provides protection against which disease?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Polio</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Tuberculosis (TB) — BCG = Bacille Calmette-Guérin, live attenuated vaccine made from Mycobacterium bovis</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Measles</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Hepatitis B</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — BCG (Bacille Calmette-Guérin) vaccine protects against tuberculosis (TB). It is a live attenuated vaccine derived from <em>Mycobacterium bovis</em> (attenuated by Albert Calmette and Camille Guérin, 1921). Given at birth (or within first year) in India. BCG also protects against leprosy (cross-protection) and is used in bladder cancer treatment (intravesical BCG).</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. B-lymphocytes mature in which organ?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. Thymus (T-cells mature here)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Spleen</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Lymph nodes</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. Bone marrow (B-cells mature here; "B" originally stood for Bursa of Fabricius in birds, but in mammals B-cells mature in Bone marrow)</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (D)</strong> — B-lymphocytes mature in the bone marrow (in mammals). "B" originally stood for the Bursa of Fabricius (a bird organ where B-cells were first discovered). In mammals, B-cells mature in the bone marrow. T-lymphocytes mature in the thymus. Both originate from haematopoietic stem cells in the bone marrow.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Which WBC type is most abundant in human blood?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Neutrophils (60–70% of WBCs — most abundant; first responders to bacterial infection; phagocytosis)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Lymphocytes (30% — B cells, T cells, NK cells; adaptive immunity)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Monocytes (6% — largest WBC; become macrophages in tissues)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Eosinophils (3% — parasitic infections and allergies)</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Neutrophils are the most abundant WBC (60–70%). They are the first responders to bacterial infection and perform phagocytosis. "Neutrophilia" (high neutrophil count) indicates bacterial infection. Order of abundance: Neutrophils &gt; Lymphocytes &gt; Monocytes &gt; Eosinophils &gt; Basophils. Mnemonic: "Never Let Monkeys Eat Bananas."</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Which vaccine type is the tetanus vaccine (TT)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Live attenuated vaccine</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Inactivated (killed) vaccine</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Toxoid vaccine (inactivated bacterial toxin — tetanus toxoid stimulates antibodies against the toxin, not the bacterium Clostridium tetani)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Recombinant subunit vaccine</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (C)</strong> — Tetanus vaccine is a toxoid vaccine. The tetanus toxoid is an inactivated form of the tetanus toxin (produced by <em>Clostridium tetani</em>). The vaccine stimulates antibodies against the toxin, not the bacterium. Given as DPT (Diphtheria + Pertussis + Tetanus) in infancy, with boosters (Td) at 10 years and pregnancy. Diphtheria vaccine is also a toxoid.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Kala-azar (visceral leishmaniasis), endemic in Bihar, is caused by which pathogen and transmitted by which vector?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Plasmodium vivax (malaria parasite) transmitted by Anopheles mosquito</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Leishmania donovani (protozoan) transmitted by Phlebotomus argentipes (sandfly)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Wuchereria bancrofti (nematode) transmitted by Culex mosquito</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Mycobacterium leprae (bacterium) transmitted by respiratory droplets</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Kala-azar (visceral leishmaniasis) is caused by the protozoan <em>Leishmania donovani</em> and transmitted by the sandfly <em>Phlebotomus argentipes</em>. Bihar accounts for &gt;70% of India's kala-azar cases (33 endemic districts). Symptoms: fever, splenomegaly (enlarged spleen), pancytopenia, hyperpigmentation ("black fever" = kala-azar). Treatment: liposomal Amphotericin B, Miltefosine. RMRI Patna is the premier research centre. India's elimination target: 2025.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which antibody is the FIRST produced during a primary immune response?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. IgG</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. IgM (pentamer — largest antibody; first produced by plasma cells in response to a new antigen)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. IgA</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. IgE</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (B)</strong> — IgM is the first antibody produced in a primary immune response (new infection). It is a pentamer (5 immunoglobulin units) — the largest antibody. IgM is the most efficient activator of the complement system. IgG is produced later (secondary response) and is the most abundant. Diagnosis of recent infection: high IgM. Diagnosis of past infection/vaccination: high IgG.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The Rh factor is named after which animal?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Rabbit</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Rat</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Rhesus monkey (Landsteiner &amp; Wiener discovered Rh factor in 1937 using Rhesus monkey blood)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Reindeer</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — The Rh factor (Rhesus factor) was discovered by Karl Landsteiner and Alexander Wiener in 1937 using blood from Rhesus monkeys. Rh+ (85% of people) have the Rh antigen on their RBCs; Rh− (15%) do not. Rh incompatibility can cause haemolytic disease of the newborn (erythroblastosis fetalis) — prevented by Anti-D (RhoGAM) injection to Rh− mothers.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Match the vaccine with its type: 1. BCG 2. Tetanus 3. Hepatitis B 4. Rabies</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. 1-Live, 2-Toxoid, 3-Recombinant, 4-Inactivated</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. 1-Inactivated, 2-Live, 3-Toxoid, 4-Recombinant</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. 1-Toxoid, 2-Recombinant, 3-Inactivated, 4-Live</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. 1-Recombinant, 2-Inactivated, 3-Live, 4-Toxoid</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — BCG = Live attenuated (Mycobacterium bovis, against TB). Tetanus = Toxoid (inactivated tetanus toxin). Hepatitis B = Recombinant subunit (first recombinant vaccine, 1986 — HBsAg produced in yeast). Rabies = Inactivated (killed virus — HDCV, Human Diploid Cell Vaccine; given post-exposure for dog bite).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Which cells are primarily attacked by the HIV virus?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Red blood cells</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Helper T-lymphocytes (CD4+ T cells — HIV binds to CD4 receptor and CCR5 co-receptor, destroying the immune system's coordinator cells)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Platelets</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Neutrophils</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — HIV (Human Immunodeficiency Virus) primarily attacks Helper T-lymphocytes (CD4+ T cells) by binding to the CD4 receptor and CCR5/CXCR4 co-receptors. Destruction of CD4+ T cells cripples the immune system → AIDS (Acquired Immunodeficiency Syndrome). Normal CD4 count: 500–1,500/μL. AIDS diagnosis: CD4 &lt;200/μL or opportunistic infection. ART (Anti-Retroviral Therapy) controls but does not cure HIV.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. What is erythroblastosis fetalis (haemolytic disease of the newborn)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. A genetic disorder of RBC shape (sickle cell)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Rh incompatibility between Rh− mother and Rh+ fetus — maternal anti-Rh antibodies cross placenta and destroy fetal RBCs</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Iron deficiency anaemia in newborns</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. A congenital heart defect</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — Erythroblastosis fetalis occurs when an Rh− mother carries an Rh+ fetus (inherited from Rh+ father). During first delivery (or miscarriage), fetal Rh+ blood enters maternal circulation → mother produces anti-Rh IgG. In subsequent Rh+ pregnancies, maternal anti-Rh IgG crosses placenta → destroys fetal RBCs → severe anaemia, jaundice, hydrops fetalis. Prevention: Anti-D (RhoGAM) injection to Rh− mother within 72 hours of delivery.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Which immunity type is provided by maternal antibodies transferred through breast milk?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Artificial active immunity</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Artificial passive immunity</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Natural passive immunity (IgA in colostrum/breast milk protects the infant's gut; IgG via placenta protects systemically — both are pre-made maternal antibodies, no memory formed)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Natural active immunity</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (C)</strong> — Maternal antibodies provide natural passive immunity: IgG crosses the placenta (protects fetus/newborn systemically for 3–6 months), and IgA in colostrum (first breast milk) protects the infant's mucosal surfaces (gut, respiratory tract). This is "passive" because the infant receives pre-made antibodies (no memory cells formed) — protection is temporary (weeks to months).</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The polio vaccine used in India's pulse polio programme (oral drops) is which type?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Inactivated polio vaccine (IPV — Salk, injection)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Oral polio vaccine (OPV — Sabin, live attenuated, given as oral drops)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Toxoid vaccine</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Recombinant subunit vaccine</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (B)</strong> — India's Pulse Polio programme uses OPV (Oral Polio Vaccine, Sabin) — a live attenuated vaccine given as oral drops. OPV is easier to administer (no injection), provides gut immunity (stops person-to-person transmission), and is cheaper. However, OPV carries a tiny risk of VDPV (Vaccine-Derived Polio Virus) — rare reversion to virulence. IPV (Salk, inactivated, injection) is now being introduced alongside OPV for safer transition. India was declared polio-free on March 27, 2014.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Which vitamin is essential for blood clotting?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Vitamin A (vision, night blindness)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Vitamin C (collagen synthesis, scurvy, immunity)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Vitamin K (essential for synthesis of clotting factors II, VII, IX, X in liver; deficiency → bleeding)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Vitamin D (calcium absorption, bone health, rickets)</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — Vitamin K is essential for blood clotting. It is required for the synthesis of clotting factors II (prothrombin), VII, IX, and X in the liver (these are "vitamin K-dependent" factors). Vitamin K deficiency → excessive bleeding. Newborns are given vitamin K injection at birth (they lack gut bacteria that produce vitamin K). Vitamin K is fat-soluble; produced by gut bacteria (E. coli); found in green leafy vegetables (spinach, kale).</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The thymus gland, where T-lymphocytes mature, is located in which part of the human body?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Abdomen (behind the stomach)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Brain (hypothalamus region)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Chest (upper chest, behind the sternum/breastbone, between the lungs — just above the heart)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Neck (thyroid region)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — The thymus is located in the upper chest (mediastinum), behind the sternum (breastbone), between the lungs, just above the heart. It is where T-lymphocytes (T-cells) mature — "T" stands for Thymus. The thymus is largest and most active during childhood and puberty; it shrinks after puberty (thymic involution) and is mostly replaced by fat in adults. Thymosin hormone promotes T-cell maturation.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which of the following is an example of artificial passive immunity?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Recovering from a measles infection (natural active — body makes own antibodies)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Receiving the BCG vaccine (artificial active — vaccine stimulates own antibody production)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Maternal IgG crossing the placenta (natural passive — pre-made antibodies from mother)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Receiving anti-rabies immunoglobulin after a dog bite (artificial passive — pre-made antibodies injected, immediate but temporary protection)</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — Anti-rabies immunoglobulin (RIG) after a dog bite is artificial passive immunity: pre-made antibodies are injected directly, providing immediate protection while the body mounts its own active immune response (via the rabies vaccine given simultaneously). Passive immunity is immediate but temporary (no memory cells). Other examples of artificial passive: snake antivenom, tetanus immunoglobulin (TIG), monoclonal antibodies.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Acute Encephalitis Syndrome (AES), seen in Muzaffarpur (Bihar), has been linked to which factor?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Consumption of arsenic-contaminated water</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Litchi fruit toxin (hypoglycin A and MCPG) causing hypoglycaemia in malnourished children, combined with JE virus and heat</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Industrial pollution from leather tanneries</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Excessive fluoride in groundwater</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — AES in Muzaffarpur (Bihar) occurs in May–June (litchi harvesting season). Unripe litchi contains hypoglycin A and MCPG (methylenecyclopropylglycine) — toxins that inhibit fatty acid β-oxidation and gluconeogenesis → severe hypoglycaemia in undernourished children (who have low glycogen reserves). Other contributing factors: Japanese Encephalitis (JE) virus and extreme heat. SKMCH Muzaffarpur is the main treatment centre. Government response: nutrition supplementation, JE vaccination, awareness to avoid unripe litchi on empty stomach.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The clotting of blood involves the conversion of which protein?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. Fibrinogen → Fibrin (soluble fibrinogen is converted to insoluble fibrin mesh by thrombin; traps RBCs to form clot)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. Haemoglobin → Bilirubin</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Albumin → Globulin</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Collagen → Elastin</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Blood clotting (coagulation) involves converting soluble fibrinogen (plasma protein) into insoluble fibrin threads. The cascade: Prothrombin → Thrombin (enzyme) → Fibrinogen → Fibrin (mesh) → traps RBCs and platelets → clot. Platelets initiate the process. Haemophilia is a genetic disorder where clotting factors (VIII or IX) are deficient → uncontrolled bleeding. Vitamin K is needed for factors II, VII, IX, X.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. India was declared polio-free by WHO in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. 2011</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. 2012</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. 2013</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. 2014 (March 27, 2014 — WHO declared India and the entire South-East Asia region polio-free)</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (D)</strong> — India was declared polio-free on March 27, 2014 (WHO South-East Asia Region certification). The last wild polio case in India was reported on January 13, 2011 (Howrah, West Bengal). India's Pulse Polio Immunisation Programme (launched 1995) used OPV in mass campaigns. India's success was remarkable given the high population density, poor sanitation, and tropical climate — all risk factors for polio transmission.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Sickle cell anaemia is caused by a mutation affecting which molecule?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. DNA polymerase</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Haemoglobin (single amino acid substitution: glutamic acid → valine at position 6 of the β-globin chain; HbA → HbS)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Insulin</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Collagen</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (B)</strong> — Sickle cell anaemia is caused by a single point mutation in the β-globin gene (chromosome 11): glutamic acid (GAG) → valine (GTG) at position 6. This produces abnormal haemoglobin HbS (instead of normal HbA). Under low O₂, HbS polymerises → RBCs sickle (elongated, rigid) → block capillaries → pain crises, organ damage. Inherited as autosomal recessive (HbSS = disease, HbAS = trait). Sickle cell trait (HbAS) confers resistance to malaria — balanced polymorphism in malaria-endemic regions (including Bihar's tribal populations).</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which of the following statements about COVID-19 mRNA vaccines is correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. They contain live attenuated SARS-CoV-2 virus</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. They use a viral vector (adenovirus) to deliver the spike protein gene</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. They contain mRNA that codes for the viral spike protein; host cells produce the spike protein, triggering antibody production (Karikó &amp; Weissman, Nobel Prize 2023)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. They contain inactivated whole SARS-CoV-2 virus</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (C)</strong> — mRNA vaccines (Pfizer-BioNTech, Moderna) contain messenger RNA that codes for the SARS-CoV-2 spike protein. The mRNA is delivered in lipid nanoparticles → enters host cells → host cells produce the spike protein → immune system recognises it as foreign → produces antibodies and memory cells. The mRNA is degraded after use (does not enter the nucleus or alter DNA). Katalin Karikó and Drew Weissman won the Nobel Prize in Medicine (2023) for the mRNA technology that enabled COVID-19 vaccines. India's Covishield = viral vector (adenovirus), Covaxin = inactivated whole-virion.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References &amp; Further Reading</div>
+  <ul class="ref-list">
+    <li><a href="https://www.who.int/immunization/en">WHO Immunization — global vaccine information</a></li>
+    <li><a href="https://www.nhp.gov.in">National Health Portal (NHP) India — UIP schedule, vaccines</a></li>
+    <li><a href="https://nhm.gov.in">National Health Mission — immunisation programmes, Mission Indradhanush</a></li>
+    <li><a href="https://www.ncdc.gov.in">NCDC — National Centre for Disease Control (kala-azar, AES, vector-borne)</a></li>
+    <li><a href="https://www.rmriindia.org">Rajendra Memorial Research Institute (RMRI), Patna — kala-azar research</a></li>
+    <li><a href="https://nvin_india.gov.in">National Vector Borne Disease Control Programme (NVBDCP)</a></li>
+    <li>NCERT Class 12 Biology — Human Health and Disease (Chapter 8)</li>
+    <li>Lucent's General Science — Blood, Immunity, Vaccines</li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 73 — Blood, Immunity &amp; Vaccines • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'b', q3: 'c', q4: 'b', q5: 'c', q6: 'b', q7: 'd', q8: 'a', q9: 'c', q10: 'b',
+  q11: 'b', q12: 'c', q13: 'a', q14: 'b', q15: 'b', q16: 'c', q17: 'b', q18: 'c', q19: 'c', q20: 'd',
+  q21: 'b', q22: 'a', q23: 'd', q24: 'b', q25: 'c'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

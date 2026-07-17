@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>75 - Plant Physiology | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #75 • TIER A</div>
+  <div class="topic-title">Plant Physiology — Photosynthesis, Respiration, Transport</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Biology</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Rice, Makhana, RAU Pusa</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Plant Physiology (high-yield Tier A):</strong> Photosynthesis: 6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O (chloroplast, thylakoid + stroma). Light reaction (thylakoid): photophosphorylation (cyclic &amp; non-cyclic), PS-I (P700, far-red 700 nm) &amp; PS-II (P680, 680 nm), Hill reaction (O₂ evolution), Z-scheme electron flow. Dark reaction (stroma): Calvin cycle (C₃) — RuBisCO fixes CO₂ to RuBP → 3-PGA → G3P → glucose; 3 ATP + 2 NADPH per CO₂. C₄ pathway (Hatch-Slack, Kranz anatomy, maize/sugarcane) — CO₂ concentrator, no photorespiration. CAM (pineapple, cacti) — night CO₂ fixation. Respiration: glycolysis (cytoplasm, 2 ATP), Krebs cycle (mitochondrial matrix, 2 ATP + CO₂), ETS (inner mitochondrial membrane, ~32-34 ATP). Total aerobic: ~36-38 ATP/glucose. Transport: xylem (water+minerals, transpiration pull, cohesion-tension), phloem (translocation, pressure-flow hypothesis, source→sink). Transpiration: stomata, guard cells (K⁺ influx → opening). Guttation (hydathodes, root pressure). Plant hormones: auxin (apical dominance, phototropism), gibberellin (stem elongation, GA₃), cytokinin (cell division), ethylene (fruit ripening, senescence), abscisic acid (stomatal closure, dormancy). Photoperiodism: short-day, long-day, day-neutral.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of photosynthesis pathways, respiration biochemistry, transport mechanisms, plant hormones, Bihar crop physiology, and 7 exam predictions:
+    <a href="subpages/75_plant_physiology_detail.html" target="_blank">Plant Physiology Master Detail →</a>
+  </div>
+
+  <div class="img-container">
+    <img src="images/photosynthesis_diagram.png" alt="Photosynthesis — light and dark reactions in chloroplast">
+    <div class="img-caption">Photosynthesis overview — Light reactions occur in thylakoid membranes (PS-II → PS-I → ATP synthase, producing ATP + NADPH + O₂). Dark reactions (Calvin cycle) occur in the stroma, using ATP + NADPH to fix CO₂ via RuBisCO into glucose. Chlorophyll-a (absorbs red 660 nm &amp; blue 430 nm) is the primary photosynthetic pigment; chlorophyll-b, carotenoids, xanthophylls are accessory pigments.</div>
+  </div>
+
+  <h3>A. Photosynthesis — Overview &amp; Equation <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Aspect</th><th>Detail</th></tr>
+    <tr><td><strong>Overall equation</strong></td><td>6CO₂ + 12H₂O —light→ C₆H₁₂O₆ + 6O₂ + 6H₂O (Van Niel; Ruben &amp; Kamen proved O₂ comes from water using ¹⁸O isotope)</td></tr>
+    <tr><td><strong>Site</strong></td><td>Chloroplast — thylakoid (light reaction) + stroma (dark reaction)</td></tr>
+    <tr><td><strong>Pigments</strong></td><td>Chlorophyll-a (Chl-a, primary, blue-green, C₅₅H₇₂O₅N₄Mg), chlorophyll-b (accessory, yellow-green), carotenoids (orange), xanthophylls (yellow), phycobilins (red/blue in algae)</td></tr>
+    <tr><td><strong>Chl-a absorption peaks</strong></td><td>Red (660 nm) + Blue (430 nm); reflects green → leaves appear green</td></tr>
+    <tr><td><strong>Light reaction products</strong></td><td>O₂ (from water photolysis), ATP (photophosphorylation), NADPH (reducing power)</td></tr>
+    <tr><td><strong>Dark reaction products</strong></td><td>Glucose (via Calvin cycle); uses ATP + NADPH</td></tr>
+    <tr><td><strong>Efficiency</strong></td><td>~1–2% of incident solar energy fixed into biomass; photosynthetically active radiation (PAR) = 400–700 nm</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/leaf_structure.png" alt="Leaf internal structure — stomata, palisade and spongy mesophyll">
+    <div class="img-caption">Leaf internal structure — the photosynthetic factory. Upper epidermis (transparent, no chloroplasts) → palisade mesophyll (columnar, chloroplast-rich, primary photosynthesis site) → spongy mesophyll (loose, air spaces for gas exchange) → lower epidermis with stomata (pores flanked by guard cells). Stomata open when guard cells take up K⁺ and water (turgid); close when K⁺ leaves (flaccid). ~90% of transpiration occurs through stomata.</div>
+  </div>
+
+  <h3>B. Light Reaction — Photophosphorylation, Z-Scheme, Hill Reaction <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Component</th><th>Location</th><th>Function / Key Fact</th></tr>
+    <tr><td><strong>Photosystem II (PS-II)</strong></td><td>Thylakoid (grana)</td><td>Reaction centre P680 (absorbs ≤680 nm); splits water (photolysis) → O₂ + H⁺ + e⁻; the "Hill reaction" = light-dependent O₂ evolution from water (discovered by Robert Hill, 1937)</td></tr>
+    <tr><td><strong>Photosystem I (PS-I)</strong></td><td>Thylakoid (grana + stroma lamellae)</td><td>Reaction centre P700 (absorbs ≤700 nm, far-red); passes e⁻ to NADP⁺ → NADPH</td></tr>
+    <tr><td><strong>Non-cyclic photophosphorylation</strong></td><td>Thylakoid</td><td>Z-scheme: H₂O → PS-II → plastoquinone → cytochrome b₆f → plastocyanin → PS-I → ferredoxin → NADP⁺ → NADPH. Produces ATP + NADPH + O₂. e⁻ flow is unidirectional (water to NADP⁺)</td></tr>
+    <tr><td><strong>Cyclic photophosphorylation</strong></td><td>Thylakoid</td><td>Only PS-I involved; e⁻ return from ferredoxin → cytochrome b₆f → plastocyanin → back to P700. Produces only ATP (no O₂, no NADPH). Occurs when NADP⁺ is scarce; supplements ATP for Calvin cycle</td></tr>
+    <tr><td><strong>Photolysis of water</strong></td><td>PS-II (Mn-cluster / oxygen-evolving complex)</td><td>2H₂O → 4H⁺ + 4e⁻ + O₂; source of atmospheric O₂; O₂ released is from water (proved by Ruben &amp; Kamen with ¹⁸O)</td></tr>
+    <tr><td><strong>ATP synthase (CF₀-CF₁)</td><td>Thylakoid membrane</td><td>H⁺ gradient (proton motive force) drives ADP + Pi → ATP (chemiosmotic hypothesis, Peter Mitchell, Nobel 1978)</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Z-scheme flow:</strong><br>
+    <strong>W</strong>ater → <strong>P</strong>S-<strong>II</strong> (P680) → <strong>P</strong>lastoquinone → Cytochrome <strong>b₆f</strong> → <strong>P</strong>lastocyanin → <strong>P</strong>S-<strong>I</strong> (P700) → <strong>F</strong>erredoxin → <strong>N</strong>ADP⁺<br>
+    <em>"Water Powers Photosynthesis: PQ-b₆f-PC passes electrons to PSI then Ferredoxin to NADPH." Mnemonic for photosystems: P<strong>680</strong> = PS-<strong>II</strong> (680 looks like "II"), P<strong>700</strong> = PS-<strong>I</strong>.</em>
+  </div>
+
+  <h3>C. Dark Reaction — Calvin Cycle, C₃/C₄/CAM, RuBisCO <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Pathway</th><th>Discoverer</th><th>First Product</th><th>Anatomy</th><th>Photorespiration</th><th>Examples</th></tr>
+    <tr><td><strong>C₃ (Calvin)</strong></td><td>Melvin Calvin (Nobel 1961; ¹⁴C tracer)</td><td>3-PGA (3C)</td><td>Normal (no Kranz)</td><td>Yes (high — wastes CO₂ &amp; ATP)</td><td>Rice, wheat, barley, potato, soybean, spinach</td></tr>
+    <tr><td><strong>C₄ (Hatch-Slack)</strong></td><td>Hatch &amp; Slack (1966)</td><td>Oxaloacetate (4C)</td><td>Kranz anatomy (wreath-like bundle sheath)</td><td>Minimal (CO₂ concentrator)</td><td>Maize, sugarcane, sorghum, pearl millet, amaranthus</td></tr>
+    <tr><td><strong>CAM</strong></td><td>Ranson &amp; Thomas</td><td>Oxaloacetate (4C, night)</td><td>No Kranz; succulent</td><td>Minimal (night fixation)</td><td>Pineapple, cacti, orchids, <em>Agave</em>, <em>Bryophyllum</em></td></tr>
+  </table>
+  <ul>
+    <li><strong>Calvin cycle (C₃) — 3 phases:</strong> (1) Carboxylation: RuBisCO fixes CO₂ to 5C RuBP → unstable 6C → 2× 3-PGA. (2) Reduction: 3-PGA → G3P (uses ATP + NADPH). (3) Regeneration: G3P → RuBP (uses ATP). Net: 3 CO₂ → 1 G3P (3C) using 9 ATP + 6 NADPH per G3P; per glucose (2 G3P): 18 ATP + 12 NADPH.</li>
+    <li><strong>RuBisCO (Ribulose-1,5-bisphosphate Carboxylase-Oxygenase):</strong> most abundant protein on Earth; dual enzyme — carboxylase (photosynthesis) &amp; oxygenase (photorespiration). At high temperature &amp; high O₂/low CO₂, oxygenase activity dominates → photorespiration (wasteful: releases CO₂, no ATP sugar, only in C₃ plants).</li>
+    <li><strong>C₄ mechanism:</strong> PEPC (PEP carboxylase) in mesophyll fixes CO₂ to PEP → oxaloacetate (4C) → malate → transported to bundle sheath → decarboxylated → releases CO₂ → Calvin cycle (high CO₂ suppresses photorespiration). PEPC has high affinity for CO₂ and no oxygenase activity.</li>
+    <li><strong>CAM (Crassulacean Acid Metabolism):</strong> stomata open at night (minimise transpiration) → CO₂ fixed into malic acid (stored in vacuole). Day: stomata closed, malic acid decarboxylated → CO₂ → Calvin cycle. Adaptation to arid climates.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — C₃ vs C₄ crops (Bihar-relevant):</strong><br>
+    <strong>C₃ = Cool Climate Crops</strong>: Rice, Wheat, Potato, Soybean (temperate, high photorespiration)<br>
+    <strong>C₄ = Hot Hardy Crops</strong>: Maize, Sugarcane, Sorghum, Pearl millet (tropical, low photorespiration, higher productivity)<br>
+    <em>"3 for temperate (RiWhPoSo), 4 for fierce heat (MaSuSoPM)." Makhana (Bihar) is an aquatic C₃ plant.</em>
+  </div>
+
+  <h3>D. Respiration — Glycolysis, Krebs Cycle, ETS, ATP <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Stage</th><th>Location</th><th>Input</th><th>Output (per glucose)</th><th>Key Points</th></tr>
+    <tr><td><strong>Glycolysis (EMP pathway)</strong></td><td>Cytoplasm</td><td>Glucose (6C)</td><td>2 Pyruvate (3C) + 2 ATP (net) + 2 NADH</td><td>Anaerobic (no O₂ needed); discovered by Embden-Meyerhof-Parnas; net gain 2 ATP; first step of both aerobic &amp; anaerobic respiration</td></tr>
+    <tr><td><strong>Pyruvate oxidation</strong></td><td>Mitochondrial matrix</td><td>2 Pyruvate</td><td>2 Acetyl-CoA + 2 NADH + 2 CO₂</td><td>Pyruvate dehydrogenase complex; link reaction between glycolysis &amp; Krebs</td></tr>
+    <tr><td><strong>Krebs cycle (TCA / citric acid)</strong></td><td>Mitochondrial matrix</td><td>Acetyl-CoA (2C)</td><td>2 ATP (GTP) + 6 NADH + 2 FADH₂ + 4 CO₂</td><td>Discovered by Hans Krebs (Nobel 1953); cycle starts with oxaloacetate (4C) + acetyl-CoA → citrate (6C); amphibolic (both catabolic &amp; anabolic)</td></tr>
+    <tr><td><strong>ETS (Electron Transport System)</strong></td><td>Inner mitochondrial membrane</td><td>NADH, FADH₂</td><td>~32–34 ATP + H₂O</td><td>e⁻ passed through complexes I→IV; O₂ is final e⁻ acceptor → H₂O; ATP synthase (F₀-F₁) uses proton gradient (oxidative phosphorylation); NADH≈3 ATP, FADH₂≈2 ATP</td></tr>
+    <tr><td><strong>Total aerobic respiration</strong></td><td>Cytoplasm + mitochondria</td><td>1 Glucose</td><td>~36–38 ATP + 6 CO₂ + 6 H₂O</td><td>Reverse of photosynthesis (energy release); ~40% energy trapped in ATP, rest as heat</td></tr>
+    <tr><td><strong>Anaerobic (fermentation)</strong></td><td>Cytoplasm</td><td>Glucose</td><td>2 ATP + ethanol + CO₂ (yeast) OR lactic acid (muscle)</td><td>Incomplete oxidation; yeast = alcoholic fermentation (brewing, baking); muscle = lactic acid (oxygen debt)</td></tr>
+  </table>
+
+  <h3>E. Transpiration &amp; Guttation <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Aspect</th><th>Transpiration</th><th>Guttation</th></tr>
+    <tr><td><strong>Definition</strong></td><td>Loss of water vapour from aerial parts (mainly leaves)</td><td>Loss of liquid water (xylem sap) from leaf margins</td></tr>
+    <tr><td><strong>Exit point</strong></td><td>Stomata (90%), cuticle, lenticels</td><td>Hydathodes (water pores at leaf tips/margins)</td></tr>
+    <tr><td><strong>Driving force</strong></td><td>Transpiration pull (cohesion-tension, negative pressure)</td><td>Root pressure (positive hydrostatic pressure)</td></tr>
+    <tr><td><strong>Time</strong></td><td>Day (when stomata open, light present)</td><td>Night / early morning (high humidity, low transpiration)</td></tr>
+    <tr><td><strong>Water state</strong></td><td>Vapour (pure water)</td><td>Liquid (contains dissolved minerals — not pure)</td></tr>
+    <tr><td><strong>Significance</strong></td><td>Cools plant, pulls water/minerals, maintains turgor</td><td>Relieves excess root pressure; indicates active water absorption</td></tr>
+  </table>
+  <ul>
+    <li><strong>Stomatal regulation:</strong> Guard cells open stomata by pumping K⁺ in (followed by water → turgid → stomatal pore opens). Close by pumping K⁺ out (flaccid → pore closes). <strong>ABA (abscisic acid)</strong> triggers K⁺ efflux → stomatal closure during water stress. <strong>Blue light</strong> stimulates opening.</li>
+    <li><strong>Factors affecting transpiration:</strong> temperature (↑), light (↑), wind (↑), humidity (↓), soil water (↑ supply). Anti-transpirants (e.g., PMA, abscisic acid, coatings) reduce water loss.</li>
+  </ul>
+
+  <h3>F. Transport — Xylem &amp; Phloem <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Feature</th><th>Xylem</th><th>Phloem</td></tr>
+    <tr><td><strong>Transports</strong></td><td>Water + dissolved minerals (unidirectional: root → shoot)</td><td>Organic solutes (sucrose, amino acids) — bidirectional (source → sink)</td></tr>
+    <tr><td><strong>Cells</strong></td><td>Tracheids + vessel elements (dead, hollow, lignified walls)</td><td>Sieve tube elements (living, no nucleus) + companion cells</td></tr>
+    <tr><td><strong>Mechanism</strong></td><td>Transpiration-pull cohesion-tension (Dixon &amp; Joly, 1894); mass flow under tension</td><td>Pressure-flow hypothesis (Münch, 1930); source (leaf) loads sucrose → high turgor → pushes to sink (low turgor)</td></tr>
+    <tr><td><strong>Energy</strong></td><td>Passive (no ATP; driven by transpiration)</td><td>Active (loading/unloading sucrose needs ATP at companion cells)</td></tr>
+    <tr><td><strong>Cohesion</strong></td><td>Water molecules stick together (H-bonds) → continuous water column</td><td>—</td></tr>
+  </table>
+  <ul>
+    <li><strong>Root pressure:</strong> active mineral absorption by roots → water follows osmotically → positive pressure pushes xylem sap upward. Evident at night (guttation). Limited height (~10–20 m); tall trees rely mainly on transpiration pull.</li>
+    <li><strong>Translocation (phloem):</strong> Source = photosynthesising leaf (or storage organ during germination); Sink = growing roots, fruits, seeds, storage organs. Sucrose is main translocated sugar (non-reducing). Aphid stylet technique proved phloem transport.</li>
+  </ul>
+
+  <h3>G. Plant Hormones (Phytohormones) <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Hormone</th><th>Site of Synthesis</th><th>Key Functions</th><th>Practical Use</th></tr>
+    <tr><td><strong>Auxin (IAA)</strong></td><td>Shoot apical meristem, young leaves</td><td>Cell elongation, apical dominance, phototropism (bends toward light), gravitropism, root initiation</td><td>NAA, 2,4-D (synthetic) — rooting hormones, weedicide; prevents fruit/leaf drop</td></tr>
+    <tr><td><strong>Gibberellin (GA₃)</strong></td><td>Young leaves, roots, embryos</td><td>Stem elongation (bolting), seed germination (breaks dormancy), fruit enlargement, delays senescence</td><td>Spray on grapes (Thompson seedless) to enlarge fruit; malting in brewing</td></tr>
+    <tr><td><strong>Cytokinin (Kinetin)</strong></td><td>Roots (synthesised in root apex, translocated via xylem)</td><td>Cell division (cytokinesis), delays senescence (anti-ageing), lateral bud growth (counter apical dominance)</td><td>Tissue culture, shelf-life extension of cut flowers/vegetables</td></tr>
+    <tr><td><strong>Ethylene (C₂H₄)</strong></td><td>All tissues (esp. ripening fruit, senescing organs)</td><td>Fruit ripening, senescence, abscission (leaf/fruit fall), epinasty, break seed/bud dormancy; only gaseous hormone</td><td>Ethephon / Ethrel — artificial ripening of fruits (banana, mango); not permitted above 100 ppm in India</td></tr>
+    <tr><td><strong>Abscisic acid (ABA)</strong></td><td>Leaves, stems, seeds</td><td>Stomatal closure (water stress), seed/bud dormancy, inhibits growth, abscission; "stress hormone"</td><td>Anti-transpirant; dormancy induction in seeds</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — 5 plant hormones &amp; functions:</strong><br>
+    <strong>A</strong>uxin = <strong>A</strong>pical dominance &amp; tropism<br>
+    <strong>G</strong>ibberellin = <strong>G</strong>rowth (stem elongation) &amp; germination<br>
+    <strong>C</strong>ytokinin = <strong>C</strong>ell division &amp; <strong>C</strong>ounter-senescence<br>
+    <strong>E</strong>thylene = <strong>E</strong>nd fruit (ripening) &amp; abscission (only gas)<br>
+    <strong>A</strong>BA = <strong>A</strong>nti-stress (stomatal closure, dormancy)<br>
+    <em>"All Good Crops Eat Apples." Ethylene = only gaseous hormone; ABA = stress hormone; Auxin = first discovered (Went, 1928).</em>
+  </div>
+
+  <h3>H. Photoperiodism <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Type</th><th>Flowering Trigger</th><th>Examples</th></tr>
+    <tr><td><strong>Short-day plants (SDP / long-night)</strong></td><td>Flower when night length &gt; critical duration (dark period matters)</td><td>Rice, soybean, tobacco, chrysanthemum, cotton, maize (some), <em>Xanthium</em></td></tr>
+    <tr><td><strong>Long-day plants (LDP / short-night)</strong></td><td>Flower when night length &lt; critical duration</td><td>Wheat, barley, spinach, radish, sugar beet, hibiscus</td></tr>
+    <tr><td><strong>Day-neutral plants (DNP)</strong></td><td>Flowering unaffected by day length (depends on maturity/age)</td><td>Tomato, cucumber, sunflower, maize, cotton, dandelion</td></tr>
+  </table>
+  <ul>
+    <li><strong>Photoperiodism discovered by Garner &amp; Allard (1920).</strong> The critical factor is the <strong>length of uninterrupted dark period (night)</strong>, not day length — proved by night-break experiments.</li>
+    <li><strong>Phytochrome:</strong> pigment (Pᵣ ↔ P_fᵣ) that perceives light duration; P_fᵣ (far-red absorbing, 730 nm) is active form, accumulates in light; reverts to Pᵣ (red, 660 nm) in dark. Controls flowering, germination, etiolation.</li>
+    <li><strong>Vernalisation:</strong> induction of flowering by cold treatment (low temperature) — e.g., winter wheat, biennials (carrot, cabbage). Discovered by Lysenko (USSR). Application: convert winter → spring varieties.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>I. Photosynthesis vs Respiration — Quick Comparison <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Feature</th><th>Photosynthesis</th><th>Respiration</th></tr>
+    <tr><td>Process</td><td>Anabolic (builds glucose)</td><td>Catabolic (breaks glucose)</td></tr>
+    <tr><td>Energy</td><td>Stores energy (endergonic, +686 kcal/mol)</td><td>Releases energy (exergonic, −686 kcal/mol)</td></tr>
+    <tr><td>Site</td><td>Chloroplast (autotrophs)</td><td>Mitochondria + cytoplasm (all cells)</td></tr>
+    <tr><td>Reactants</td><td>CO₂ + H₂O + light</td><td>Glucose + O₂</td></tr>
+    <tr><td>Products</td><td>Glucose + O₂</td><td>CO₂ + H₂O + ATP</td></tr>
+    <tr><td>ATP</td><td>Consumes (photophosphorylation makes ATP for dark rxn)</td><td>Produces (~36–38 ATP/glucose)</td></tr>
+    <tr><td>O₂</td><td>Released (from water)</td><td>Consumed (final e⁻ acceptor in ETS)</td></tr>
+    <tr><td>Occurs in</td><td>Green plants, algae, cyanobacteria</td><td>All living cells (aerobic/anaerobic)</td></tr>
+  </table>
+
+  <h3>J. Key Scientists &amp; Discoveries <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Scientist</th><th>Contribution</th><th>Year</th></tr>
+    <tr><td>Jan Ingenhousz</td><td>Showed light essential for photosynthesis; O₂ released by green parts</td><td>1779</td></tr>
+    <tr><td>Julius von Sachs</td><td>Proved glucose produced; starch is stored product; chloroplast site</td><td>1854</td></tr>
+    <tr><td>Robert Hill</td><td>Hill reaction — isolated chloroplasts produce O₂ in light with H₂O + acceptor</td><td>1937</td></tr>
+    <tr><td>Ruben &amp; Kamen</td><td>Used ¹⁸O to prove O₂ released in photosynthesis comes from water, not CO₂</td><td>1941</td></tr>
+    <tr><td>Melvin Calvin</td><td>Calvin cycle (C₃ pathway) using ¹⁴C tracer — Nobel Prize 1961</td><td>1954</td></tr>
+    <tr><td>Hatch &amp; Slack</td><td>C₄ pathway</td><td>1966</td></tr>
+    <tr><td>Emerson</td><td>Emerson enhancement effect (red + far-red light synergistic) → evidence for two photosystems</td><td>1957</td></tr>
+    <tr><td>Arnon</td><td>Discovered photophosphorylation (ATP synthesis in chloroplasts)</td><td>1954</td></tr>
+    <tr><td>F.W. Went</td><td>Isolated auxin (from oat coleoptile tips) — "Went's auxin"</td><td>1928</td></tr>
+    <tr><td>Kurosawa</td><td>Discovered gibberellin (from fungus <em>Gibberella fujikuroi</em>, "foolish seedling" disease of rice)</td><td>1926</td></tr>
+    <tr><td>Hans Krebs</td><td>Krebs/TCA cycle — Nobel Prize 1953</td><td>1937</td></tr>
+    <tr><td>Peter Mitchell</td><td>Chemiosmotic hypothesis (proton gradient → ATP) — Nobel 1978</td><td>1961</td></tr>
+    <tr><td>Garner &amp; Allard</td><td>Photoperiodism</td><td>1920</td></tr>
+    <tr><td>Lysenko</td><td>Vernalisation</td><td>1928</td></tr>
+  </table>
+
+  <h3>K. ATP Yield Summary (Aerobic Respiration)</h3>
+  <table>
+    <tr><th>Stage</th><th>NADH</th><th>FADH₂</th><th>Substrate-level ATP</th><th>Total ATP (approx)</th></tr>
+    <tr><td>Glycolysis</td><td>2</td><td>0</td><td>2 (net)</td><td>2 + 2×2.5 = 7</td></tr>
+    <tr><td>Pyruvate oxidation</td><td>2</td><td>0</td><td>0</td><td>2×2.5 = 5</td></tr>
+    <tr><td>Krebs cycle</td><td>6</td><td>2</td><td>2</td><td>6×2.5 + 2×1.5 + 2 = 20</td></tr>
+    <tr><td><strong>Total</strong></td><td>10</td><td>2</td><td>4</td><td><strong>~32 (modern) / 36–38 (classical)</strong></td></tr>
+  </table>
+  <ul>
+    <li><strong>Note:</strong> older textbooks give 36–38 ATP (counting NADH=3, FADH₂=2). Modern estimates ~30–32 ATP due to shuttle costs (malate-aspartate, glycerol-P) and proton leakage. BPSC usually accepts 36–38.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Agriculture, Crop Physiology &amp; Research Institutes</div>
+    <ul>
+      <li><strong>Rice (paddy) — Bihar's staple:</strong> Rice is a <strong>C₃ plant</strong> and a <strong>short-day plant (SDP)</strong>. Bihar is a major rice-producing state (Kharif, June–October). Varieties: Rajendra Bhagwati, Rajendra Mansuri, CSR-36 (salt-tolerant). Productivity limited by photorespiration (C₃ physiology) — contrast with C₄ maize. South Bihar plateaus use SRI (System of Rice Intensification) to boost yields.</li>
+      <li><strong>Maize — the "white gold" of Bihar:</strong> Maize is a <strong>C₄ plant</strong> (Hatch-Slack, Kranz anatomy) → higher photosynthetic efficiency, no photorespiration. Bihar is among India's top maize producers (Khagaria, Katihar, Purnia, Begusarai). Grown in 3 seasons: Rabi, Kharif, and spring/summer (unique to Bihar). Used for poultry feed, starch, biofuel. C₄ physiology explains higher water-use &amp; nitrogen-use efficiency.</li>
+      <li><strong>Wheat — Rabi crop:</strong> Wheat is a <strong>C₃ plant</strong> and a <strong>long-day plant (LDP)</strong>. Bihar produces ~6 million tonnes annually. Varieties: HD-2967, PBW-343, Rajendra Wheat-4. Grown November–April. Cool-season C₃ crop (lower photorespiration than in heat).</li>
+      <li><strong>Makhana (Euryale ferox):</strong> Bihar produces &gt;80% of India's (and world's) makhana. Cultivated in ponds/wetlands of <strong>Darbhanga, Madhubani, Purnia, Katihar</strong>. Makhana is an <strong>aquatic C₃ plant</strong> (water lily family, Nymphaeaceae). GI tag sought. Rich in protein, low fat. Popping of seeds is the value-addition. <strong>Makhana Research Centre</strong> at Darbhanga (under RAU) develops varieties &amp; popping technology.</li>
+      <li><strong>Dr. Rajendra Prasad Central Agricultural University (RPCAU / RAU), Pusa, Samastipur:</strong> premier agricultural university of Bihar (originally Imperial Agricultural Research Institute est. 1905; shifted to New Delhi in 1936 becoming IARI). Pusa focuses on crop improvement for Bihar agro-climatic zones: rice, wheat, maize, makhana, pulses, oilseeds. Runs research on drought-tolerant &amp; flood-tolerant rice (Sub1 gene — Swarna-Sub1).</li>
+      <li><strong>ICAR Research Complex for Eastern Region (ICAR-RCER), Patna:</strong> established 2001; multi-disciplinary research for eastern India agro-ecosystems. Focus: rainfed agriculture, waterlogging ( Bihar plains), rice-fallow management, climate-resilient agriculture. Houses <strong>Rice Research Station</strong> &amp; work on submergence-tolerant rice.</li>
+      <li><strong>Mango &amp; Litchi cultivation:</strong> Bihar is a leading litchi producer (Muzaffarpur "Shahi" litchi — GI tag). Litchi ripening involves <strong>ethylene</strong>-driven climacteric rise. Muzaffarpur litchi linked to AES (hypoglycin A, MCPG — see Topic 73). Mango (Bhagalpur, Darbhanga — "Banganapalli", "Langra") is also climacteric — ethylene treatment (Ethrel) used for uniform ripening.</li>
+      <li><strong>Sugarcane (C₄) in Bihar:</strong> Gaya, Muzaffarpur, West Champaran have sugar mills. Sugarcane's C₄ physiology → high biomass. Bihar was once India's sugar heartland (pre-1950s shift to Maharashtra/UP).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="69_cell_division.html">Topic 69 (Cell &amp; Division):</a></strong> Photosynthesis/respiration occur in chloroplasts/mitochondria (semi-autonomous organelles with own DNA, endosymbiotic origin). Cell division (mitosis) in meristems is stimulated by cytokinin &amp; auxin. Plant growth = cell division + elongation (auxin-driven).</li>
+    <li><strong><a href="71_nutrition_vitamins.html">Topic 71 (Nutrition &amp; Vitamins):</a></strong> Photosynthesis is the source of all food energy (carbohydrates → glucose → ATP via respiration). Plants are autotrophs (self-nourishing); humans are heterotrophs. Mineral nutrients (N, P, K, Mg, Fe) are transported via xylem — Mg is central atom of chlorophyll; Fe is in cytochromes of ETS.</li>
+    <li><strong><a href="72_diseases_pathogens.html">Topic 72 (Diseases &amp; Pathogens):</a></strong> Plant diseases (rust, smut, wilt) disrupt transport (phloem/xylem). Citrus canker, late blight of potato (Phytophthora → Irish famine) affect photosynthetic tissue. Plant defence includes phytoalexins, hypersensitive response.</li>
+    <li><strong><a href="70_human_body_systems.html">Topic 70 (Human Body Systems):</a></strong> Respiration in plants (cellular) parallels human respiration (Krebs, ETS in mitochondria). Both use O₂ as final e⁻ acceptor. Gas exchange: plants via stomata/lenticels, humans via lungs/alveoli.</li>
+    <li><strong>Economy (Topics 78–87):</strong> Bihar's economy is agriculture-driven (~20% GSDP, ~50% workforce). Crop physiology determines productivity → food security, MSP, farm income. Makhana, litchi, maize are Bihar's cash crops with export potential.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>C₄ rice engineering:</strong> International C₄ Rice Consortium (IRRI) aims to engineer C₄ photosynthesis into rice (C₃) to boost yield by 30–50%. Still experimental — would be a transformative achievement for Bihar/India rice production.</li>
+    <li><strong>Submergence-tolerant rice (Swarna-Sub1):</strong> developed using <em>Sub1A</em> gene from <em>FR13A</em> landrace — survives 2 weeks underwater. Deployed in flood-prone Bihar. ICAR &amp; IRRI collaboration. Reduces flood-induced crop loss in Bihar's lowlands.</li>
+    <li><strong>Drought-tolerant maize:</strong> DT maize hybrids (by CIMMYT/ICAR) use C₄ water-use efficiency + drought traits; relevant for rainfed Bihar maize.</li>
+    <li><strong>Climate change &amp; photosynthesis:</strong> Rising CO₂ boosts C₃ photosynthesis (CO₂ fertilisation) but also raises photorespiration threshold; rising temperatures hurt C₃ crops more (wheat yields decline ~5%/°C above optimum). C₄ crops (maize) more resilient. Bihar's wheat harvest is shifting earlier due to heat.</li>
+    <li><strong>Makhana GI &amp; nutraceutical boom:</strong> Makhana gaining superfood status globally; Bihar's Darbhanga/Madhubani clusters leading. Organic makhana, flavoured makhana snacks. National Horticulture Mission support. Makhana processing clusters under PMFME.</li>
+    <li><strong>Vertical farming / controlled-environment agriculture:</strong> uses LED lighting tuned to chlorophyll absorption (red 660 nm + blue 430 nm) to maximise photosynthesis. Relevant to urban Bihar. Hydroponics uses mineral transport physiology (xylem nutrients supplied directly).</li>
+    <li><strong>Ethylene management in litchi/mango supply chains:</strong> Controlled-atmosphere storage, 1-MCP (ethylene blocker) to extend shelf life. Ethephon-based ripening regulated by FSSAI (max 100 ppm) due to carcinogenic risk from calcium carbide.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">PREDICTION</span>
+  <strong>72nd BPSC Top 7 Predictions — Plant Physiology:</strong>
+  <ol style="margin-top: 8px; padding-left: 20px;">
+    <li>Photosynthesis equation &amp; site of light/dark reaction (thylakoid vs stroma); O₂ comes from water (Ruben &amp; Kamen ¹⁸O)</li>
+    <li>C₃ vs C₄ vs CAM comparison — first product (3-PGA / OAA / OAA-night), Kranz anatomy, photorespiration, examples (rice=C₃, maize=C₄, pineapple=CAM)</li>
+    <li>RuBisCO dual activity (carboxylase + oxygenase); photorespiration is wasteful process unique to C₃ plants</li>
+    <li>Respiration stages &amp; ATP yield — glycolysis (2 ATP, cytoplasm), Krebs (mitochondrial matrix), ETS (inner membrane, O₂ final acceptor); total 36–38 ATP</li>
+    <li>Plant hormone matching — auxin (apical dominance), gibberellin (bolting, GA₃), cytokinin (cell division), ethylene (ripening, only gas), ABA (stomatal closure, stress)</li>
+    <li>Xylem vs phloem transport — transpiration pull (cohesion-tension, passive) vs pressure-flow (Münch, active, source→sink)</li>
+    <li>Bihar: makhana (aquatic C₃, Euryale ferox, Darbhanga), maize (C₄, Kranz), RAU Pusa Samastipur, ICAR-RCER Patna, litchi/mango ethylene ripening</li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The overall balanced equation of photosynthesis shows that the oxygen (O₂) released comes from which reactant?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Water (H₂O) — proved by Ruben &amp; Kamen (1941) using ¹⁸O isotope tracer; O₂ evolved is from water photolysis at PS-II, not from CO₂</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Carbon dioxide (CO₂)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Glucose</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Chlorophyll</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Ruben and Kamen (1941) used the heavy isotope ¹⁸O to label either water or CO₂. When H₂₂¹⁸O was used, the released O₂ was ¹⁸O₂ (heavy); when C¹⁸O₂ was used, the released O₂ was normal. This proved the oxygen released in photosynthesis comes from water (photolysis at PS-II), not from CO₂. CO₂ is fixed into glucose (dark reaction). Earlier, Van Helmont (willow tree experiment) and Ingenhousz had hinted at water's role.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The "Hill reaction" in photosynthesis refers to which phenomenon?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. CO₂ fixation in the Calvin cycle</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. ATP synthesis by ATP synthase</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Light-dependent evolution of oxygen (O₂) from isolated chloroplasts in the presence of an electron acceptor (Robert Hill, 1937)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Conversion of light energy to heat</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — Robert Hill (1937) showed that isolated chloroplasts, when illuminated in the presence of an artificial electron acceptor (Hill reagent, e.g., ferricyanide), release O₂ — even without CO₂. This "Hill reaction" proved that (1) O₂ evolution is a light reaction independent of CO₂ fixation, and (2) the source of O₂ is water. CO₂ is not required for O₂ release. ATP synthase (option B) is chemiosmosis, not Hill reaction.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. In the Z-scheme (non-cyclic photophosphorylation), the electron flows in which sequence?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. NADP⁺ → PS-I → PS-II → water</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. PS-I → PS-II → water → NADP⁺</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Water → PS-I → PS-II → NADP⁺</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Water → PS-II (P680) → plastoquinone → cytochrome b₆f → plastocyanin → PS-I (P700) → ferredoxin → NADP⁺ (→ NADPH)</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (D)</strong> — In non-cyclic photophosphorylation (Z-scheme, named for the zig-zag energy diagram), electrons flow unidirectionally: water (split at PS-II/P680) → PS-II → plastoquinone (PQ) → cytochrome b₆f complex → plastocyanin (PC) → PS-I (P700) → ferredoxin (Fd) → NADP⁺ reductase → NADPH. This produces ATP (via proton gradient) + NADPH + O₂. The "Z" shape comes from the energy drops and boosts at the two photosystems. PS-II comes first (P680) because it splits water; PS-I (P700) comes second.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Which photosystem has a reaction centre absorbing light at the longest wavelength (far-red, 700 nm)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Photosystem II (P680)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Both photosystems absorb at the same wavelength</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Photosystem I (P700) — reaction centre chlorophyll-a absorbs at 700 nm (far-red)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. The accessory pigments (carotenoids)</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — Photosystem I (PS-I) has the reaction centre P700, whose chlorophyll-a absorbs light at 700 nm (far-red). PS-II has P680 (absorbs at 680 nm, red). The Emerson Enhancement Effect (1957) — that red (660 nm) + far-red (700 nm) light together give more photosynthesis than the sum of each alone — was the key evidence that TWO photosystems exist. Mnemonic: P<strong>700</strong> = PS-<strong>I</strong>, P<strong>680</strong> = PS-<strong>II</strong>.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Cyclic photophosphorylation differs from non-cyclic photophosphorylation in that it:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Produces both NADPH and O₂</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Involves only PS-II</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Produces only ATP (no NADPH, no O₂); electrons return to PS-I — supplements ATP when Calvin cycle demand is high</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Occurs in the stroma</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Cyclic photophosphorylation involves ONLY PS-I. Electrons from PS-I (excited P700) pass to ferredoxin → cytochrome b₆f → plastocyanin → BACK to P700 (cycle). This pumps protons → ATP synthesis, but produces NO NADPH and NO O₂ (water is not split). It occurs when the cell needs extra ATP (Calvin cycle consumes 3 ATP : 2 NADPH ratio). Non-cyclic (option A trap) produces ATP + NADPH + O₂. Both occur in thylakoid membranes, not stroma (option D wrong).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. RuBisCO, the enzyme that fixes CO₂ in the Calvin cycle, is also known to act as an oxygenase. This dual activity leads to which process?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Nitrogen fixation</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Photophosphorylation</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Cyclic electron transport</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Photorespiration (O₂ binds RuBisCO instead of CO₂ → wastes energy, releases CO₂; significant in C₃ plants at high temperature/high O₂)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — RuBisCO (Ribulose-1,5-bisphosphate carboxylase-oxygenase) is the most abundant protein on Earth. It has dual activity: carboxylase (fixes CO₂ → photosynthesis) and oxygenase (binds O₂ → photorespiration). Photorespiration: O₂ binds RuBP → phosphoglycolate → glycolate → in peroxisomes/mitochondria → releases CO₂ (no ATP or sugar made; wastes fixed carbon &amp; ATP). It is significant in C₃ plants (rice, wheat) under high temperature &amp; high O₂/low CO₂. C₄ &amp; CAM plants suppress photorespiration by concentrating CO₂ at RuBisCO.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The first stable product of CO₂ fixation in the C₄ (Hatch-Slack) pathway is which 4-carbon compound?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. 3-Phosphoglycerate (3-PGA, 3C)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Glucose (6C)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Ribulose bisphosphate (5C)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. Oxaloacetate (4C) — PEP carboxylase fixes CO₂ to PEP (3C) → oxaloacetate (4C), later converted to malate/aspartate</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (D)</strong> — In the C₄ (Hatch-Slack) pathway, the primary CO₂ acceptor is PEP (phosphoenolpyruvate, 3C), and the first stable product is oxaloacetate (4C) — formed by PEP carboxylase (PEPC). Oxaloacetate is converted to malate or aspartate (4C acids), transported to bundle-sheath cells, decarboxylated to release CO₂, which then enters the Calvin cycle (RuBisCO). In C₃, the first product is 3-PGA (3C) — hence the names C₃ and C₄. C₄ plants (maize, sugarcane) have Kranz anatomy and minimal photorespiration.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Glycolysis, the first stage of respiration, occurs in which part of the cell?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Cytoplasm (cytosol) — glycolysis is anaerobic; glucose → 2 pyruvate + 2 ATP (net) + 2 NADH; no mitochondria or O₂ required</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Mitochondrial matrix</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Inner mitochondrial membrane</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Chloroplast stroma</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Glycolysis (EMP pathway) occurs in the cytoplasm (cytosol) and does not require oxygen (anaerobic). It splits one glucose (6C) into two pyruvate (3C) molecules, yielding a net 2 ATP (substrate-level phosphorylation) + 2 NADH. It is the common first step of both aerobic and anaerobic respiration. The Krebs cycle occurs in the mitochondrial matrix (option B), and the ETS on the inner mitochondrial membrane (option C). Chloroplast stroma (option D) is the site of the Calvin cycle (photosynthesis), not respiration.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Krebs (TCA) cycle takes place in which location, and was elucidated by which scientist?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Cytoplasm, by Embden-Meyerhof</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Chloroplast, by Calvin</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Nucleus, by Krebs</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Mitochondrial matrix, by Hans Krebs (Nobel Prize 1953); acetyl-CoA is oxidised, producing CO₂, NADH, FADH₂, and GTP/ATP</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (D)</strong> — The Krebs cycle (tricarboxylic acid / citric acid cycle) occurs in the mitochondrial matrix. It was elucidated by Hans Krebs (Nobel Prize in Physiology/Medicine, 1953). Acetyl-CoA (2C, from pyruvate) condenses with oxaloacetate (4C) → citrate (6C); through a series of oxidations, 2 CO₂, 3 NADH, 1 FADH₂, and 1 GTP (=ATP) are produced per acetyl-CoA (so doubled per glucose). The cycle is amphibolic (serves both catabolism and anabolism). Glycolysis (option A) is Embden-Meyerhof-Parnas in cytoplasm.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. In the electron transport system (ETS) of aerobic respiration, the final acceptor of electrons is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. NAD⁺</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. FAD</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Oxygen (O₂) — at complex IV, O₂ accepts electrons + H⁺ → forms water (H₂O); without O₂, ETS stops (basis of anaerobic fermentation)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Cytochrome c</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — In the ETS (on the inner mitochondrial membrane), electrons from NADH and FADH₂ pass through complexes I→IV. The final electron acceptor is molecular oxygen (O₂) at Complex IV (cytochrome c oxidase): O₂ + 4e⁻ + 4H⁺ → 2H₂O. This is why the process is "aerobic." Without O₂, the ETS backs up, the Krebs cycle stops, and only glycolysis continues (with fermentation regenerating NAD⁺). NAD⁺ and FAD (options A, B) are electron CARRIERS, not final acceptors. Cytochrome c (D) is an intermediate carrier.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. How many ATP molecules are approximately produced by the complete aerobic oxidation of one molecule of glucose (classical estimate used in most Indian textbooks)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. 2 ATP</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. 12 ATP</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. 18 ATP</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. 36–38 ATP (glycolysis 2 + Krebs 2 + ETS from 10 NADH and 2 FADH₂; classical P/O ratios: NADH=3, FADH₂=2)</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — The classical textbook value for complete aerobic oxidation of one glucose is 36–38 ATP (depending on shuttle system used to transfer cytoplasmic NADH into mitochondria): Glycolysis = 2 ATP (net) + 2 NADH; Pyruvate oxidation = 2 NADH; Krebs cycle = 2 ATP (GTP) + 6 NADH + 2 FADH₂. Total 10 NADH × 3 = 30 ATP + 2 FADH₂ × 2 = 4 ATP + 4 substrate-level ATP = 38 (or 36 with glycerol-P shuttle). Modern estimates revise this to ~30–32 ATP (NADH≈2.5, FADH₂≈1.5), but BPSC/NCERT accept 36–38. Option A (2) is glycolysis only.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The upward transport of water and minerals from roots to leaves in tall trees is primarily explained by which mechanism?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Root pressure alone (limited to ~10–20 m, effective mainly at night)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Capillary action in xylem vessels</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Active transport using ATP</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Transpiration-pull cohesion-tension theory (Dixon &amp; Joly, 1894) — evaporation from leaves creates negative pressure (tension); water's cohesion (H-bonds) maintains a continuous column pulled upward</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — The transpiration-pull cohesion-tension theory (Dixon &amp; Joly, 1894) is the accepted mechanism for ascent of sap in tall trees. Water evaporates from mesophyll cell walls into intercellular spaces → exits via stomata → creates a negative pressure (tension) at the top → water is PULLED up the xylem. The cohesion of water molecules (hydrogen bonds) and adhesion to xylem walls maintain an unbroken water column. Root pressure (option A) is a minor positive push, effective only at night and in small plants/herbs, causing guttation. Xylem transport is passive (no ATP, option C wrong).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Translocation of organic solutes (sucrose) in the phloem is best explained by which hypothesis?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Transpiration-cohesion-tension theory</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Diffusion alone</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Active transport of sucrose through xylem</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Pressure-flow (Münch) hypothesis — sucrose actively loaded into phloem at source (leaf) → water enters osmotically → high turgor pressure → pushes sap to sink (roots/fruits) where sucrose is unloaded</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (D)</strong> — The pressure-flow hypothesis (Münch, 1930) explains phloem translocation. At the SOURCE (photosynthetic leaf), sucrose is actively loaded (uses ATP at companion cells) into sieve tubes → lowers water potential → water enters osmotically from xylem → high turgor pressure. At the SINK (growing roots, fruits, seeds), sucrose is unloaded (used or stored) → water leaves → low turgor. Sap flows from high-pressure source to low-pressure sink. Phloem transport is bidirectional (unlike xylem). Option A is xylem (water), not phloem. Diffusion (B) is too slow; active transport alone (C) doesn't explain bulk flow.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Stomata open when guard cells:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Lose K⁺ and become flaccid</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Lose water and shrink</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Take up K⁺ ions (followed by water) → become turgid → curved shape opens the stomatal pore (blue light stimulates K⁺ influx)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Are stimulated by abscisic acid (ABA)</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (C)</strong> — Stomata open when guard cells actively pump K⁺ ions IN (using ATP-driven proton pumps). K⁺ accumulation lowers water potential → water enters osmotically → guard cells become turgid. The guard cells have thicker inner walls and thinner outer walls, so turgidity causes them to curve outward, opening the pore. Blue light stimulates this K⁺ influx (stomata open in light). Conversely, ABA (abscisic acid, option D) triggers K⁺ EFFLUX → guard cells become flaccid → stomata CLOSE during water stress. Options A and B describe closing, not opening.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The loss of liquid water (containing dissolved salts) from leaf margins, especially at night/early morning during high humidity, is called:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. Guttation — water exits through hydathodes (water pores) at leaf tips/margins, driven by root pressure (positive hydrostatic pressure); the droplets contain dissolved minerals (not pure)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Transpiration</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Condensation</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Bleeding</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Guttation is the loss of liquid water (xylem sap, containing dissolved minerals — NOT pure) from leaf tips/margins through specialised pores called hydathodes. It occurs at night or early morning when transpiration is low (high humidity) but roots are actively absorbing water → root pressure builds up → pushes xylem sap out through hydathodes. Transpiration (option B) is loss of water VAPOUR (pure) through stomata, driven by transpiration pull (negative pressure), and occurs mainly during the day. Common guttating plants: grasses, tomato, strawberry, Colocasia.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Apical dominance (suppression of lateral bud growth by the shoot tip) is caused primarily by which hormone?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Auxin (IAA) — produced at the shoot apex, it suppresses lateral bud growth; cytokinin counteracts this (promotes lateral bud growth)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Gibberellin</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Ethylene</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Abscisic acid</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Apical dominance is the suppression of lateral (axillary) bud growth by the terminal/apical bud. It is caused by auxin (IAA), produced in the shoot apical meristem and transported downward (polar transport). Auxin inhibits lateral bud growth. When the shoot tip is cut (decapitation/pruning), lateral buds grow out (bushier plant) because auxin supply is removed. Cytokinin (applied externally) COUNTERACTS auxin and promotes lateral bud growth — the two hormones are antagonistic in apical dominance. Gibberellin promotes stem elongation, not apical dominance specifically.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The hormone gibberellin was discovered in connection with which plant disease?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. "Foolish seedling" (Bakanae) disease of rice — caused by fungus Gibberella fujikuroi; Kurosawa (1926) showed fungal extract caused elongation; active compound named gibberellin (GA)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Late blight of potato</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Citrus canker</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Rust of wheat</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Gibberellin was discovered through the "Bakanae" (foolish seedling) disease of rice, in which infected seedlings grow abnormally tall and spindly. Japanese scientist Kurosawa (1926) showed that a culture filtrate of the fungus <em>Gibberella fujikuroi</em> (now <em>Fusarium fujikuroi</em>) caused the same elongation in healthy rice — proving a chemical (later named gibberellic acid, GA₃) was responsible. GA₃ is now used commercially to elongate grape stems (Thompson seedless) and induce malting in brewing. Auxin was discovered by F.W. Went (1928) from oat coleoptile tips.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Which is the ONLY gaseous plant hormone, primarily responsible for fruit ripening and senescence?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Auxin</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Ethylene (C₂H₄) — a simple gaseous hydrocarbon; promotes fruit ripening (climacteric fruits like banana, mango, tomato), senescence, abscission; synthesised from methionine via ACC</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Cytokinin</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Gibberellin</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — Ethylene (C₂H₄) is the only gaseous plant hormone (a simple two-carbon alkene). It promotes fruit ripening (especially in climacteric fruits — banana, mango, tomato, apple, which show a respiratory burst), senescence (ageing) of leaves and flowers, abscission (leaf/fruit drop), and epinasty (downward bending). Commercially, ethylene-releasing compounds like Ethephon/Ethrel are used to ripen fruits artificially. FSSAI limits ethephon use to ≤100 ppm; calcium carbide (carcinogenic) is banned. 1-MCP blocks ethylene action to extend shelf life. Auxin/cytokinin/gibberellin are not gases.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Abscisic acid (ABA) is known as the "stress hormone" because it:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Promotes cell division</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Promotes fruit ripening</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Stimulates stem elongation</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Causes stomatal closure during water stress (triggers K⁺ efflux from guard cells) and induces seed/bud dormancy — helps the plant survive drought</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — Abscisic acid (ABA) is called the "stress hormone" because it helps plants cope with water/drought stress. Under water stress, ABA is synthesised in leaves → triggers K⁺ efflux from guard cells → guard cells become flaccid → stomata CLOSE → reduces water loss (transpiration). ABA also induces seed and bud dormancy (prevents germination under unfavourable conditions) and inhibits growth. Despite its name ("abscisic," suggesting abscission), its main role is stomatal regulation and dormancy, not abscission (which is ethylene's role). Options A, B, C are functions of cytokinin, ethylene, and gibberellin respectively.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The phenomenon by which plants flower in response to the relative length of day and night is called:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Vernalisation</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Phototropism</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Heliotropism</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Photoperiodism (discovered by Garner &amp; Allard, 1920) — the critical factor is the length of the uninterrupted DARK period (night); plants classified as short-day, long-day, or day-neutral</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — Photoperiodism is the response of plants to the relative lengths of light and dark periods (discovered by Garner &amp; Allard, 1920). Plants are classified as: Short-day plants (SDP) — flower when night exceeds a critical length (rice, soybean, chrysanthemum, tobacco); Long-day plants (LDP) — flower when night is shorter than critical length (wheat, barley, spinach, radish); Day-neutral plants (DNP) — flowering unaffected by day length (tomato, cucumber, maize, sunflower). Crucially, the determining factor is the length of the UNINTERRUPTED DARK PERIOD (night), not day length — a flash of light in the middle of the night can prevent flowering in SDP. Vernalisation (A) is flowering induced by cold. Phototropism (B) is growth toward light (auxin).</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Vernalisation refers to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Induction of flowering by exposure to low temperature (cold treatment) — e.g., winter wheat, biennials like carrot, cabbage; discovered by Lysenko</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Induction of flowering by long days</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Ripening of fruit by ethylene</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Loss of water from leaves</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Vernalisation is the induction of flowering by exposure to prolonged low temperature (cold treatment). Winter varieties of wheat and biennial plants (carrot, cabbage, beetroot) require a period of cold (typically 0–5°C for weeks) to flower. Without vernalisation, they remain vegetative or flower late. Discovered/developed by Trofim Lysenko (USSR) — who applied it to convert winter wheat into spring-sown crops ("jarovisation"). Practical application: cold treatment of seeds/seedlings to induce early flowering, breeding programmes. It is distinct from photoperiodism (B) — vernalisation is about temperature, photoperiodism about day length.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Makhana (Euryale ferox), a major cash crop of Bihar (Darbhanga, Madhubani, Purnia), belongs to which plant family and physiological category?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. Poaceae (grass family), C₄ plant</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. Solanaceae, CAM plant</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Fabaceae, legume (N-fixing)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Nymphaeaceae (water lily family), aquatic C₃ plant — Bihar produces &gt;80% of world's makhana; cultivated in ponds/wetlands; seeds popped for food; rich in protein</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (D)</strong> — Makhana (<em>Euryale ferox</em>) belongs to the family Nymphaeaceae (water lily family). It is an AQUATIC C₃ plant (not C₄ — it lacks Kranz anatomy and the Hatch-Slack pathway). Bihar produces &gt;80% of India's and the world's makhana, cultivated in ponds and wetlands of Darbhanga, Madhubani, Purnia, and Katihar districts. The seeds are popped (roasted + pressed) to produce the edible puffed makhana — rich in protein, low in fat, with nutraceutical value. The Makhana Research Centre at Darbhanga (under RPCAU/RAU Pusa) develops improved varieties and processing technology. It is NOT a grass (Poaceae, option A — that's rice/maize/wheat).</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Which institution, located at Pusa in Samastipur district of Bihar, is the premier agricultural university of the state?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Dr. Rajendra Prasad Central Agricultural University (RPCAU / RAU), Pusa, Samastipur — originally the Imperial Agricultural Research Institute (est. 1905), which later shifted to New Delhi (became IARI) in 1936</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Indian Agricultural Research Institute (IARI), New Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. ICAR Research Complex, Patna</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Birsa Agricultural University, Ranchi</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Dr. Rajendra Prasad Central Agricultural University (RPCAU, formerly RAU) is located at Pusa in Samastipur district, Bihar. It is the premier agricultural university of Bihar. Historically, Pusa was the site of the Imperial Agricultural Research Institute (established 1905), which was shifted to New Delhi in 1936 (after the 1934 Bihar earthquake damaged the campus) and became IARI ("Pusa" campus in Delhi). The Pusa, Bihar campus continued as a research station and later became RAU/RPCAU (named after Dr. Rajendra Prasad, India's first President, who was from Bihar). ICAR-RCER (option C) is a separate ICAR research complex in Patna. IARI (B) is now in New Delhi.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Match the plant hormone with its primary function: 1. Auxin 2. Gibberellin 3. Cytokinin 4. Ethylene 5. Abscisic acid</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. 1-ripening, 2-dormancy, 3-elongation, 4-division, 5-tropism</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. 1-elongation/phototropism, 2-bolting/germination, 3-cell division, 4-ripening, 5-stomatal closure/dormancy</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. 1-dormancy, 2-ripening, 3-elongation, 4-division, 5-tropism</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. 1-division, 2-tropism, 3-ripening, 4-dormancy, 5-elongation</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (B)</strong> — 1. Auxin = cell elongation, phototropism (bending toward light), apical dominance. 2. Gibberellin = stem elongation (bolting), seed germination (breaks dormancy), fruit enlargement. 3. Cytokinin = cell division (cytokinesis), delays senescence, promotes lateral bud growth. 4. Ethylene = fruit ripening, senescence, abscission (only gaseous hormone). 5. Abscisic acid (ABA) = stomatal closure (drought stress), seed/bud dormancy, growth inhibition. Mnemonic: "All Good Crops Eat Apples" — Auxin (apical), Gibberellin (growth), Cytokinin (cell division), Ethylene (end/ripening), ABA (anti-stress). All other options mismatch the hormones with wrong functions.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. CAM (Crassulacean Acid Metabolism) plants, such as pineapple and cacti, are adapted to arid conditions because they:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Open stomata during the day to maximise CO₂ uptake</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Use the Calvin cycle only at night</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Do not perform photosynthesis at all</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Open stomata at NIGHT (to minimise transpiration) and fix CO₂ into organic acids (malic acid) stored in vacuoles; during the DAY, stomata close and the acids are decarboxylated to release CO₂ for the Calvin cycle</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (D)</strong> — CAM (Crassulacean Acid Metabolism) plants adapt to arid/desert conditions by a temporal separation of CO₂ fixation. Stomata open at NIGHT (when temperatures are cooler and humidity higher → less water loss) → CO₂ is fixed by PEP carboxylase into organic acids (malic acid/oxaloacetate), stored in vacuoles. During the DAY, stomata CLOSE (to prevent transpiration) → malic acid is decarboxylated → releases CO₂ internally → Calvin cycle operates using this CO₂ (with light providing ATP/NADPH). This temporal separation (night fixation, day Calvin cycle) minimises water loss. Examples: pineapple, cacti, orchids, <em>Agave</em>, <em>Bryophyllum</em>, <em>Kalanchoe</em>. C₄ plants (option trap) use SPATIAL separation (mesophyll vs bundle sheath). CAM plants have high water-use efficiency but slow growth.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References &amp; Further Reading</div>
+  <ul class="ref-list">
+    <li><a href="https://www.ncbi.nlm.nih.gov/books/">NCBI — Plant physiology textbooks (Taiz &amp; Zeiger)</a></li>
+    <li><a href="https://www.icar.org.in">ICAR — Indian Council of Agricultural Research</a></li>
+    <li><a href="https://www.rpcau.ac.in">Dr. Rajendra Prasad Central Agricultural University (RPCAU), Pusa, Samastipur</a></li>
+    <li><a href="https://www.icar.org.in/en/icar-research-complex-eastern-region-patna">ICAR Research Complex for Eastern Region (ICAR-RCER), Patna</a></li>
+    <li><a href="https://www.irri.org">IRRI — International Rice Research Institute (C₄ rice, Sub1 flood-tolerant rice)</a></li>
+    <li>NCERT Class 11 Biology — Photosynthesis in Higher Plants (Chapter 13)</li>
+    <li>NCERT Class 11 Biology — Respiration in Plants (Chapter 14)</li>
+    <li>NCERT Class 11 Biology — Plant Growth and Development (Chapter 15)</li>
+    <li>Lucent's General Science — Plant Physiology</li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 75 — Plant Physiology (Photosynthesis, Respiration, Transport) • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'c', q3: 'd', q4: 'c', q5: 'c', q6: 'd', q7: 'd', q8: 'a', q9: 'd', q10: 'c',
+  q11: 'd', q12: 'd', q13: 'd', q14: 'c', q15: 'a', q16: 'a', q17: 'a', q18: 'b', q19: 'd', q20: 'd',
+  q21: 'a', q22: 'd', q23: 'a', q24: 'b', q25: 'd'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>
