@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>69 Deep Dive — Cell & Division | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .header { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 24px 28px; border-radius: 14px; margin-bottom: 24px; }
+  .header h1 { font-size: 22px; font-weight: 800; margin-bottom: 6px; }
+  .header .subtitle { font-size: 13px; opacity: 0.85; }
+  .section { margin-bottom: 24px; }
+  .section h2 { font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 14px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 14px 0 8px; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .info-box { background: #f0f9ff; border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0, #ffe8dd); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+  .back-link { display: inline-block; margin-bottom: 16px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px; }
+</style>
+</head>
+<body>
+<style>.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }</style>
+<a href="../index.html" class="home-btn">🏠 Home</a>
+<a href="../69_cell_division.html" class="back-link">← Back to Topic 69</a>
+
+<div class="header">
+  <h1>Topic 69 — Cell & Division: Deep Dive</h1>
+  <div class="subtitle">Cell structure, organelles, cell cycle, mitosis/meiosis, Bihar connections</div>
+</div>
+
+<div class="section">
+  <h2>1. Cell Theory — Historical Development</h2>
+  <table>
+    <tr><th>Year</th><th>Scientist</th><th>Contribution</th></tr>
+    <tr><td><strong>1665</strong></td><td>Robert Hooke</td><td>Discovered 'cell' (cork under microscope) — Micrographia</td></tr>
+    <tr><td><strong>1670s</strong></td><td>Antonie van Leeuwenhoek</td><td>First to see living cells (bacteria, protozoa) — Father of Microbiology</td></tr>
+    <tr><td><strong>1838</strong></td><td>Matthias Schleiden</td><td>All plants are made of cells (botanist)</td></tr>
+    <tr><td><strong>1839</strong></td><td>Theodore Schwann</td><td>All animals are made of cells (zoologist) — co-founded Cell Theory</td></tr>
+    <tr><td><strong>1855</strong></td><td>Rudolf Virchow</td><td>'Omnis cellula e cellula' — every cell from a pre-existing cell</td></tr>
+    <tr><td><strong>1880s</strong></td><td>August Weismann</td><td>Cell line continuity — germ cells vs somatic cells</td></tr>
+    <tr><td><strong>1955</strong></td><td>Christian de Duve</td><td>Discovered lysosomes</td></tr>
+    <tr><td><strong>1972</strong></td><td>Singer &amp; Nicolson</td><td>Fluid Mosaic Model of plasma membrane</td></tr>
+    <tr><td><strong>1967</strong></td><td>Lynn Margulis</td><td>Endosymbiotic theory (mitochondria &amp; chloroplasts origin)</td></tr>
+  </table>
+
+  <div class="info-box">
+    <strong>Three Principles of Cell Theory:</strong>
+    <ol>
+      <li>All living organisms are composed of one or more cells</li>
+      <li>The cell is the basic structural and functional unit of life</li>
+      <li>All cells arise from pre-existing cells (omnis cellula e cellula — Virchow, 1855)</li>
+    </ol>
+  </div>
+</div>
+
+<div class="section">
+  <h2>2. Cell Organelles — Detailed Functions</h2>
+
+  <h3>The Nucleus</h3>
+  <ul>
+    <li><strong>Structure:</strong> largest organelle in animal cells (~5-10 μm). Double membrane (nuclear envelope) with nuclear pores (selective transport). Contains chromatin (DNA + proteins) and the nucleolus.</li>
+    <li><strong>Nucleolus:</strong> dense region inside the nucleus — site of ribosome assembly (rRNA synthesis). No membrane.</li>
+    <li><strong>Function:</strong> stores genetic information (DNA); controls all cell activities (growth, metabolism, protein synthesis, reproduction); transcribes DNA into mRNA.</li>
+    <li><strong>Exceptions:</strong> mature RBCs (no nucleus — to carry more haemoglobin), sieve tube cells in plants (no nucleus — companion cells support them).</li>
+  </ul>
+
+  <h3>Mitochondria — The Powerhouse</h3>
+  <ul>
+    <li><strong>Structure:</strong> double membrane — outer (smooth) + inner (folded into cristae, increasing surface area). Matrix (fluid inside). Contains own circular DNA (mtDNA) and 70S ribosomes.</li>
+    <li><strong>Function:</strong> ATP production via aerobic respiration: glucose + O₂ → CO₂ + H₂O + ATP (36-38 ATP per glucose molecule). Krebs cycle (in matrix) + electron transport chain (on cristae).</li>
+    <li><strong>Endosymbiotic theory:</strong> mitochondria were once free-living bacteria (α-proteobacteria) engulfed by a host cell ~2 billion years ago. Evidence: own DNA (circular, like bacteria), double membrane, 70S ribosomes, reproduce by binary fission.</li>
+    <li><strong>Maternal inheritance:</strong> mtDNA is inherited only from the mother (sperm mitochondria do not enter the egg). This makes mtDNA useful for tracing maternal ancestry.</li>
+  </ul>
+
+  <h3>Ribosomes — The Protein Factory</h3>
+  <ul>
+    <li><strong>Structure:</strong> two subunits (large + small) made of rRNA and proteins. No membrane. 70S in prokaryotes (30S + 50S), 80S in eukaryotes (40S + 60S). 'S' = Svedberg units.</li>
+    <li><strong>Location:</strong> free in cytoplasm (proteins for cell's own use) or attached to rough ER (proteins for secretion/membrane). Also found in mitochondria and chloroplasts (70S).</li>
+    <li><strong>Function:</strong> protein synthesis (translation) — reads mRNA codons (3-nucleotide sequences) and assembles amino acids into polypeptide chains using tRNA.</li>
+    <li><strong>Antibiotic target:</strong> many antibiotics (tetracycline, streptomycin, chloramphenicol) target bacterial 70S ribosomes without affecting eukaryotic 80S ribosomes.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>3. Cell Division — Mitosis Deep Dive</h2>
+  <table>
+    <tr><th>Phase</th><th>Key Events</th></tr>
+    <tr><td><strong>Interphase (S phase)</strong></td><td>DNA replicated (each chromosome → 2 sister chromatids joined at centromere). Cell grows and prepares for division.</td></tr>
+    <tr><td><strong>Prophase</strong></td><td>Chromatin condenses into visible chromosomes. Nuclear membrane dissolves. Centrioles move to poles. Spindle fibers form.</td></tr>
+    <tr><td><strong>Metaphase</strong></td><td>Chromosomes align at the cell's equator (metaphase plate). Spindle fibers from both poles attach to centromeres. Best phase for karyotyping (chromosome analysis).</td></tr>
+    <tr><td><strong>Anaphase</strong></td><td>Sister chromatids separate at centromere. Each chromatid (now a chromosome) is pulled to opposite poles by spindle fibers. Cell elongates.</td></tr>
+    <tr><td><strong>Telophase</strong></td><td>Chromosomes reach poles and decondense. Nuclear membrane reforms around each set. Nucleolus reappears. Spindle dissolves.</td></tr>
+    <tr><td><strong>Cytokinesis</strong></td><td>Division of cytoplasm. In animal cells: cleavage furrow (contractile ring). In plant cells: cell plate (new cell wall forms). Result: 2 identical daughter cells.</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>4. Cell Division — Meiosis Deep Dive</h2>
+  <table>
+    <tr><th>Phase</th><th>Key Events</th></tr>
+    <tr><td><strong>Meiosis I (Reductional)</strong></td><td>Homologous chromosomes separate. Diploid (2n) → Haploid (n). Crossing over occurs.</td></tr>
+    <tr><td>— Prophase I</td><td>5 sub-stages: leptotene (chromosomes appear), zygotene (synapsis/pairing), <strong>pachytene (crossing over)</strong>, diplotene (chiasmata visible), diakinesis (terminalisation).</td></tr>
+    <tr><td>— Metaphase I</td><td>Homologous chromosome pairs align at equator. Independent assortment (random orientation) → genetic variation.</td></tr>
+    <tr><td>— Anaphase I</td><td>Homologous chromosomes separate (not sister chromatids). One chromosome from each pair goes to each pole.</td></tr>
+    <tr><td>— Telophase I</td><td>2 cells formed, each with haploid number (n) — but each chromosome still has 2 sister chromatids.</td></tr>
+    <tr><td><strong>Meiosis II (Equational)</strong></td><td>Sister chromatids separate (similar to mitosis). No DNA replication between Meiosis I and II.</td></tr>
+    <tr><td>— Prophase II → Metaphase II → Anaphase II → Telophase II</td><td>Same as mitosis but starting with haploid cells. Result: 4 haploid (n) gametes, each with one chromatid per chromosome.</td></tr>
+  </table>
+
+  <div class="info-box">
+    <strong>Why Meiosis Matters:</strong>
+    <ul>
+      <li><strong>Genetic variation:</strong> crossing over (Prophase I) + independent assortment (Metaphase I) → siblings look different</li>
+      <li><strong>Chromosome number:</strong> halving (2n → n) ensures zygote gets correct number when sperm (n) + egg (n) = 2n</li>
+      <li><strong>Sexual reproduction:</strong> produces gametes (sperm in testes, egg in ovaries) — basis of sexual reproduction and evolution</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h2>5. Quick Revision — Key Facts for BPSC</h2>
+  <table>
+    <tr><th>Category</th><th>Key Fact</th></tr>
+    <tr><td>Cell discovered</td><td>Robert Hooke, 1665 (cork, Micrographia)</td></tr>
+    <tr><td>Living cells first seen</td><td>Leeuwenhoek, 1670s (bacteria, protozoa)</td></tr>
+    <tr><td>Cell Theory</td><td>Schleiden (1838) + Schwann (1839) + Virchow (1855)</td></tr>
+    <tr><td>Nucleus</td><td>Control center, DNA, largest organelle (animal cells)</td></tr>
+    <tr><td>Mitochondria</td><td>Powerhouse, ATP, double membrane, own DNA</td></tr>
+    <tr><td>Ribosomes</td><td>Protein factory, 70S (prokaryotes) / 80S (eukaryotes)</td></tr>
+    <tr><td>Chloroplasts</td><td>Photosynthesis, chlorophyll, plant cells only</td></tr>
+    <tr><td>Lysosomes</td><td>Suicide bags, digestive enzymes, animal cells</td></tr>
+    <tr><td>Golgi</td><td>Packaging/post office, modifies &amp; secretes proteins</td></tr>
+    <tr><td>Cell wall</td><td>Cellulose (plants), chitin (fungi), peptidoglycan (bacteria)</td></tr>
+    <tr><td>Plasma membrane</td><td>Phospholipid bilayer, fluid mosaic model (1972)</td></tr>
+    <tr><td>Prokaryotic</td><td>No nucleus, no membrane organelles, bacteria</td></tr>
+    <tr><td>Eukaryotic</td><td>Nucleus + organelles, plants/animals/fungi/protists</td></tr>
+    <tr><td>Mitosis</td><td>2 identical diploid cells, PMAT, somatic cells</td></tr>
+    <tr><td>Meiosis</td><td>4 haploid gametes, 2 divisions, crossing over (Prophase I)</td></tr>
+    <tr><td>Crossing over</td><td>Prophase I, pachytene, chiasmata, genetic variation</td></tr>
+    <tr><td>DNA replication</td><td>S phase of interphase</td></tr>
+    <tr><td>RBCs</td><td>No nucleus (expelled for more haemoglobin), no mitochondria</td></tr>
+    <tr><td>Endosymbiotic theory</td><td>Lynn Margulis (1967) — mitochondria &amp; chloroplasts from bacteria</td></tr>
+    <tr><td>Bihar</td><td>RAU Pusa, BASU Patna, NRC Makhana Darbhanga, AIIMS Patna</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>6. Exam Prediction Summary</h2>
+  <ul>
+    <li><strong>Most likely (HIGH):</strong> Organelle nicknames &amp; functions (mitochondria=powerhouse, ribosomes=protein factory, lysosomes=suicide bags), Cell Theory scientists, mitosis vs meiosis comparison</li>
+    <li><strong>Likely (MEDIUM):</strong> Prokaryotic vs eukaryotic, plant vs animal cell differences, cell wall composition (cellulose/chitin/peptidoglycan), PMAT phases, crossing over</li>
+    <li><strong>Possible (LOW):</strong> Fluid mosaic model, endosymbiotic theory, cell cycle phases (G1/S/G2/M), RBCs no nucleus, Bihar research institutions</li>
+  </ul>
+</div>
+
+</body>
+</html>

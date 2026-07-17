@@ -1,0 +1,327 @@
+[
+  {
+    "q": "Who discovered the cell in 1665?",
+    "options": [
+      "Rudolf Virchow (proposed 'omnis cellula e cellula' — every cell from a cell)",
+      "Antonie van Leeuwenhoek (first to observe living cells/microorganisms)",
+      "Theodore Schwann (proposed cell theory with animals)",
+      "Robert Hooke (observed cork slices under a primitive microscope, saw 'little boxes' he called 'cells')"
+    ],
+    "answer": 3,
+    "explanation": "Robert Hooke discovered the cell in 1665 by observing thin slices of cork under a primitive compound microscope. The cork's structure reminded him of the small rooms ('cells') in a monastery — hence the name 'cell.' Hooke described his findings in his book 'Micrographia' (1665). However, what Hooke saw were actually dead cell walls of plant tissue, not living cells.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the first to observe living cells (microorganisms) under a microscope?",
+    "options": [
+      "Theodore Schwann",
+      "Matthias Schleiden",
+      "Antonie van Leeuwenhoek (1670s — observed bacteria, protozoa, sperm cells with a single-lens microscope)",
+      "Robert Hooke"
+    ],
+    "answer": 2,
+    "explanation": "Antonie van Leeuwenhoek (1632-1723), a Dutch draper and amateur scientist, was the first to observe living cells under a microscope (1670s). He used a powerful single-lens microscope (magnifying ~300x) to observe bacteria ('animalcules'), protozoa, sperm cells, and blood cells. Leeuwenhoek is called the 'Father of Microbiology.' He reported his findings to the Royal Society of London in a series of letters over 50 years.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Cell Theory was proposed by which scientists?",
+    "options": [
+      "Robert Hooke and Leeuwenhoek",
+      "Charles Darwin and Gregor Mendel",
+      "Louis Pasteur and Robert Koch",
+      "Matthias Schleiden (1838, plants) and Theodore Schwann (1839, animals), later expanded by Rudolf Virchow (1855)"
+    ],
+    "answer": 3,
+    "explanation": "Cell Theory was proposed by Matthias Schleiden (German botanist, 1838 — all plants are made of cells) and Theodore Schwann (German zoologist, 1839 — all animals are made of cells). In 1855, Rudolf Virchow added the third tenet: 'Omnis cellula e cellula' (every cell arises from a pre-existing cell). The three principles: (1) all living organisms are composed of cells, (2) the cell is the basic unit of life, (3) all cells arise from pre-existing cells.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT a principle of the Cell Theory?",
+    "options": [
+      "All living organisms are composed of one or more cells",
+      "The cell is the basic structural and functional unit of life",
+      "All cells contain a nucleus (this is NOT a principle — prokaryotic cells like bacteria do NOT have a nucleus)",
+      "All cells arise from pre-existing cells (omnis cellula e cellula)"
+    ],
+    "answer": 2,
+    "explanation": "The three principles of Cell Theory are: (1) all living organisms are composed of cells, (2) the cell is the basic unit of life, (3) all cells arise from pre-existing cells (Virchow, 1855). 'All cells contain a nucleus' is NOT a principle — prokaryotic cells (bacteria, archaea) do NOT have a nucleus. Only eukaryotic cells (plants, animals, fungi, protists) have a true nucleus.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The powerhouse of the cell (site of ATP production via cellular respiration) is:",
+    "options": [
+      "Chloroplasts (site of photosynthesis in plant cells)",
+      "Ribosomes (site of protein synthesis)",
+      "Golgi apparatus (packaging and secretion)",
+      "Mitochondria (produce ATP through the Krebs cycle and oxidative phosphorylation)"
+    ],
+    "answer": 3,
+    "explanation": "Mitochondria are called the 'powerhouse of the cell' — they produce ATP (adenosine triphosphate), the energy currency of the cell, through aerobic respiration (Krebs cycle + electron transport chain). Mitochondria have a double membrane: an outer smooth membrane and an inner folded membrane (cristae, which increase surface area). They contain their own DNA (mtDNA) — supporting the endosymbiotic theory that mitochondria were once free-living bacteria engulfed by a host cell.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which organelle is the 'site of photosynthesis' in plant cells?",
+    "options": [
+      "Mitochondria",
+      "Endoplasmic reticulum",
+      "Ribosomes",
+      "Chloroplasts (contain chlorophyll — convert light energy to chemical energy via photosynthesis)"
+    ],
+    "answer": 3,
+    "explanation": "Chloroplasts are the site of photosynthesis in plant cells (and some protists like algae). They contain chlorophyll (green pigment) which captures light energy. Photosynthesis converts CO₂ + H₂O + light → glucose (C₆H₁₂O₆) + O₂. Chloroplasts have a double membrane and contain thylakoids (stacked into grana) where the light reactions occur. Like mitochondria, chloroplasts have their own DNA — supporting the endosymbiotic theory.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'control center' of the cell, containing genetic material (DNA), is:",
+    "options": [
+      "The ribosomes",
+      "The mitochondria",
+      "The nucleus (contains chromosomes/DNA, controls cell activities and reproduction)",
+      "The Golgi apparatus"
+    ],
+    "answer": 2,
+    "explanation": "The nucleus is the 'control center' of the cell. It contains the cell's genetic material (DNA organized into chromosomes). The nucleus controls all cellular activities — including growth, metabolism, protein synthesis, and reproduction (cell division). It is surrounded by the nuclear membrane (a double membrane with nuclear pores). Inside the nucleus is the nucleolus (site of ribosome assembly). The nucleus is present in all eukaryotic cells except mature red blood cells (RBCs) and sieve tube cells.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Ribosomes are the site of which cellular process?",
+    "options": [
+      "Cellular respiration (ATP production)",
+      "DNA replication",
+      "Protein synthesis (translation of mRNA into polypeptide chains — amino acids linked together)",
+      "Photosynthesis"
+    ],
+    "answer": 2,
+    "explanation": "Ribosomes are the site of protein synthesis (translation). They read messenger RNA (mRNA) and assemble amino acids into polypeptide chains (proteins) according to the genetic code. Ribosomes can be free in the cytoplasm (making proteins for the cell's own use) or attached to the rough endoplasmic reticulum (making proteins for secretion or membrane). Ribosomes are found in ALL cells — both prokaryotic and eukaryotic. They are made of ribosomal RNA (rRNA) and proteins.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The endoplasmic reticulum (ER) exists in two forms. What is the function of the rough ER?",
+    "options": [
+      "Protein synthesis and transport (rough ER has ribosomes attached, giving it a 'rough' appearance)",
+      "ATP production",
+      "Lipid synthesis (smooth ER has no ribosomes)",
+      "DNA replication"
+    ],
+    "answer": 0,
+    "explanation": "The rough endoplasmic reticulum (RER) has ribosomes attached to its surface — giving it a 'rough' appearance under a microscope. The RER is involved in protein synthesis (via its ribosomes) and protein folding/transport. Proteins synthesized on the RER are sent to the Golgi apparatus for packaging. The smooth ER (SER) has no ribosomes — it is involved in lipid synthesis, detoxification, and calcium storage.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Golgi apparatus (Golgi body) is responsible for:",
+    "options": [
+      "ATP production",
+      "DNA replication",
+      "Packaging, modifying, and secreting cellular products (proteins and lipids)",
+      "Protein synthesis"
+    ],
+    "answer": 2,
+    "explanation": "The Golgi apparatus (discovered by Camillo Golgi, 1898) is the cell's 'packaging center.' It receives proteins and lipids from the ER, modifies them (e.g., adding carbohydrate groups — glycosylation), packages them into vesicles, and secretes them to their destination (inside or outside the cell). The Golgi has a stack of flattened membranous sacs (cisternae). It also produces lysosomes (the cell's 'digestive bags'). The Golgi is like the cell's post office — sorting, packaging, and shipping.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Lysosomes are called the 'suicide bags' of the cell because:",
+    "options": [
+      "They synthesize proteins",
+      "They produce ATP",
+      "They control the cell's genes",
+      "They contain digestive enzymes (hydrolases) that can break down the cell itself if damaged — autolysis"
+    ],
+    "answer": 3,
+    "explanation": "Lysosomes are called 'suicide bags' (or 'digestive bags') because they contain powerful digestive enzymes (hydrolases) that can break down cellular waste, damaged organelles, and even the cell itself. When a cell is damaged or old, lysosomes can rupture and release their enzymes — digesting the cell from within (autolysis). This is a form of programmed cell death. Lysosomes are produced by the Golgi apparatus. They are found mainly in animal cells (rare in plant cells). Christian de Duve discovered lysosomes (1955).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which cell organelle is known as the 'protein factory' of the cell?",
+    "options": [
+      "Vacuole",
+      "Nucleus",
+      "Mitochondria",
+      "Ribosomes (they manufacture/assemble proteins from amino acids)"
+    ],
+    "answer": 3,
+    "explanation": "Ribosomes are called the 'protein factory' of the cell because they are the site of protein synthesis. They read the genetic code from mRNA and assemble amino acids into proteins. A single cell can have millions of ribosomes. Ribosomes consist of two subunits (large and small) made of rRNA and proteins. In prokaryotes: 70S ribosomes (30S + 50S). In eukaryotes: 80S ribosomes (40S + 60S). The 'S' refers to Svedberg units (sedimentation rate).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The cell wall in plant cells is primarily composed of which substance?",
+    "options": [
+      "Lipids (found in cell membranes)",
+      "Chitin (found in fungal cell walls and insect exoskeletons)",
+      "Cellulose (a complex carbohydrate / polysaccharide — provides structural support and rigidity)",
+      "Peptidoglycan (found in bacterial cell walls)"
+    ],
+    "answer": 2,
+    "explanation": "The plant cell wall is primarily composed of cellulose — a complex polysaccharide made of β-glucose units linked in long chains. Cellulose provides structural support, rigidity, and shape to plant cells. It is the most abundant organic polymer on Earth. Fungal cell walls are made of chitin. Bacterial cell walls are made of peptidoglycan. Animal cells do NOT have a cell wall — they have only a cell membrane (plasma membrane).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The plasma membrane (cell membrane) is composed of which type of molecule?",
+    "options": [
+      "A protein-only structure",
+      "A lipid monolayer",
+      "A single layer of cellulose",
+      "A phospholipid bilayer with embedded proteins (fluid mosaic model — Singer and Nicolson, 1972)"
+    ],
+    "answer": 3,
+    "explanation": "The plasma membrane is composed of a phospholipid bilayer with embedded proteins — described by the 'Fluid Mosaic Model' (Singer and Nicolson, 1972). The phospholipids have hydrophilic (water-loving) heads facing outward and hydrophobic (water-fearing) tails facing inward. Proteins embedded in the bilayer include channels, receptors, and enzymes. The membrane is 'fluid' (lipids and proteins can move laterally) and 'mosaic' (diverse proteins scattered throughout). The membrane is selectively permeable — controlling what enters and exits the cell.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which structure is found in plant cells but NOT in animal cells?",
+    "options": [
+      "Cell wall and chloroplasts (both unique to plant cells — animal cells have neither)",
+      "Nucleus and mitochondria (found in both)",
+      "Plasma membrane (found in both)",
+      "Ribosomes (found in both)"
+    ],
+    "answer": 0,
+    "explanation": "Plant cells have TWO structures that animal cells lack: (1) Cell wall (outer layer of cellulose, provides rigidity) and (2) Chloroplasts (site of photosynthesis, contain chlorophyll). Plant cells also have a large central vacuole (animal cells have small vacuoles or none). Animal cells have centrioles (involved in cell division) and lysosomes — which are rare in plant cells. Both have: nucleus, mitochondria, ribosomes, ER, Golgi, plasma membrane.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which type of cell division produces two identical daughter cells with the same number of chromosomes as the parent cell?",
+    "options": [
+      "Budding (a form of asexual reproduction in yeast)",
+      "Mitosis (somatic/body cell division — produces 2 identical diploid daughter cells)",
+      "Binary fission (bacterial division — not technically mitosis)",
+      "Meiosis (gamete/sex cell division — produces 4 non-identical haploid daughter cells)"
+    ],
+    "answer": 1,
+    "explanation": "Mitosis is the type of cell division that produces two identical daughter cells, each with the same number of chromosomes as the parent cell (diploid → 2 diploid). Mitosis occurs in somatic (body) cells — for growth, repair, and replacement. The stages of mitosis: Prophase → Metaphase → Anaphase → Telophase (PMAT). Before mitosis, DNA is replicated during interphase (S phase). Cytokinesis (division of cytoplasm) follows mitosis.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Meiosis results in how many daughter cells, and with what chromosome number?",
+    "options": [
+      "2 daughter cells, each with the same chromosome number (diploid/2n)",
+      "1 daughter cell with no chromosomes",
+      "8 daughter cells, each with double the chromosome number",
+      "4 daughter cells, each with half the chromosome number (haploid/n) — gametes for sexual reproduction"
+    ],
+    "answer": 3,
+    "explanation": "Meiosis produces 4 daughter cells, each with half the chromosome number (haploid, n) of the parent cell (diploid, 2n). Meiosis involves two divisions: Meiosis I (reductional — homologous chromosomes separate, diploid → haploid) and Meiosis II (equational — sister chromatids separate, similar to mitosis). Meiosis occurs in germ cells (in testes and ovaries) to produce gametes (sperm and egg). The halving of chromosomes ensures that when sperm (n) and egg (n) fuse, the zygote has the correct diploid number (2n).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The correct order of phases in mitosis is:",
+    "options": [
+      "Metaphase → Prophase → Telophase → Anaphase",
+      "Anaphase → Telophase → Metaphase → Prophase",
+      "Prophase → Metaphase → Anaphase → Telophase (PMAT)",
+      "Telophase → Anaphase → Prophase → Metaphase"
+    ],
+    "answer": 2,
+    "explanation": "The stages of mitosis in order: (1) Prophase — chromosomes condense, nuclear membrane dissolves, spindle forms; (2) Metaphase — chromosomes align at the cell's equator (metaphase plate), attached to spindle fibers; (3) Anaphase — sister chromatids separate and move to opposite poles; (4) Telophase — nuclear membrane reforms, chromosomes decondense. Cytokinesis (cytoplasm division) follows. Mnemonic: PMAT — 'PMAT: Please Make A Test' or 'Pour Me Another Tea.'",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Crossing over (exchange of genetic material between homologous chromosomes) occurs during which phase of meiosis?",
+    "options": [
+      "Telophase II",
+      "Anaphase I",
+      "Metaphase II",
+      "Prophase I of meiosis (specifically during the pachytene sub-stage — creates genetic variation)"
+    ],
+    "answer": 3,
+    "explanation": "Crossing over (genetic recombination) occurs during Prophase I of meiosis — specifically during the pachytene sub-stage. Homologous chromosomes pair up (synapsis) and exchange segments of DNA at points called chiasmata. This creates new combinations of genes on chromosomes — the basis of genetic variation in offspring. Crossing over is why siblings (except identical twins) look different from each other. Prophase I has 5 sub-stages: leptotene, zygotene, pachytene, diplotene, diakinesis.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The difference between prokaryotic and eukaryotic cells is that prokaryotic cells:",
+    "options": [
+      "Lack a true nucleus and membrane-bound organelles (DNA is free in the cytoplasm — e.g., bacteria)",
+      "Have a nucleus and all organelles",
+      "Are always larger than eukaryotic cells",
+      "Can only be found in plants"
+    ],
+    "answer": 0,
+    "explanation": "Prokaryotic cells (bacteria, archaea) lack a true nucleus — their DNA is free in the cytoplasm (nucleoid region) and not enclosed in a nuclear membrane. They also lack membrane-bound organelles (no mitochondria, ER, Golgi, lysosomes). They DO have: ribosomes (70S), cell wall (peptidoglycan in bacteria), and a plasma membrane. Eukaryotic cells (plants, animals, fungi, protists) have a true nucleus (DNA enclosed in nuclear membrane) and membrane-bound organelles (mitochondria, ER, Golgi, etc.). Eukaryotic ribosomes are 80S.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The largest organelle in a typical animal cell is:",
+    "options": [
+      "The nucleus (contains the cell's DNA, visible under a light microscope)",
+      "The ribosome",
+      "The lysosome",
+      "The mitochondrion"
+    ],
+    "answer": 0,
+    "explanation": "The nucleus is the largest organelle in a typical animal cell (~5-10 μm in diameter). It is visible under a light microscope. The nucleus contains the cell's genetic material (DNA, organized into chromosomes) and the nucleolus (site of ribosome assembly). In plant cells, the largest organelle is the central vacuole (can occupy up to 90% of the cell's volume). The nucleus is surrounded by a double membrane (nuclear envelope) with nuclear pores that allow selective transport.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "In which phase of the cell cycle does DNA replication occur?",
+    "options": [
+      "S phase (Synthesis phase) of interphase — DNA is copied before cell division begins",
+      "M phase (Mitosis — actual cell division)",
+      "G2 phase (Gap 2 — preparation for division)",
+      "G1 phase (Gap 1 — cell growth)"
+    ],
+    "answer": 0,
+    "explanation": "DNA replication occurs during the S phase (Synthesis phase) of interphase. The cell cycle has two main parts: Interphase (G1 → S → G2) and M phase (mitosis + cytokinesis). During S phase, the cell's DNA is precisely duplicated — each chromosome is copied so that each daughter cell gets an identical set. G1 = cell growth and protein synthesis; S = DNA replication; G2 = final preparation for division (checking for DNA errors, making proteins needed for mitosis).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Vacuoles in plant cells serve which primary function?",
+    "options": [
+      "Protein synthesis",
+      "DNA replication",
+      "ATP production",
+      "Storage of water, nutrients, and waste — maintaining turgor pressure (keeps plant cells firm)"
+    ],
+    "answer": 3,
+    "explanation": "Plant cell vacuoles are large membrane-bound sacs that store water, nutrients (sugars, amino acids, minerals), and waste products. The central vacuole in plant cells can occupy up to 90% of the cell's volume. It maintains turgor pressure (water pressure against the cell wall) — which keeps the plant cell firm and the plant upright. When a plant wilts, it's because the vacuoles have lost water and turgor pressure has decreased. Animal cells have small vacuoles or none.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The endosymbiotic theory explains the origin of which organelles?",
+    "options": [
+      "Golgi apparatus and lysosomes",
+      "Endoplasmic reticulum and vacuoles",
+      "Mitochondria and chloroplasts (both were once free-living bacteria engulfed by a host cell billions of years ago)",
+      "Nucleus and ribosomes"
+    ],
+    "answer": 2,
+    "explanation": "The endosymbiotic theory (proposed by Lynn Margulis, 1967) explains that mitochondria and chloroplasts were once free-living prokaryotes (bacteria) that were engulfed by a larger host cell billions of years ago. Instead of being digested, they formed a symbiotic relationship with the host. Evidence: (1) both have their own DNA (circular, like bacteria), (2) both have double membranes (the inner membrane is from the original bacterium), (3) both reproduce independently (binary fission), (4) both have 70S ribosomes (like bacteria, not 80S like eukaryotes).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which human cells do NOT have a nucleus?",
+    "options": [
+      "Nerve cells (neurons)",
+      "Mature red blood cells (RBCs/erythrocytes) — they lose their nucleus to make more room for haemoglobin and oxygen transport",
+      "White blood cells (leukocytes)",
+      "Muscle cells"
+    ],
+    "answer": 1,
+    "explanation": "Mature red blood cells (RBCs/erythrocytes) do NOT have a nucleus. During their development (in the bone marrow), RBCs expel their nucleus to make more room for haemoglobin — the protein that carries oxygen. This allows each RBC to carry more oxygen (~270 million haemoglobin molecules per RBC). However, the lack of a nucleus means RBCs cannot divide or repair themselves — they live only ~120 days. RBCs also lack mitochondria (they produce ATP anaerobically, so they don't consume the oxygen they carry). Sieve tube cells in plants also lack a nucleus.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
+]

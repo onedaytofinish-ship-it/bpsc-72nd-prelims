@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>69 - Cell & Division | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #69 • TIER A</div>
+  <div class="topic-title">Cell &amp; Division — Structure, Organelles, Mitosis/Meiosis</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Biology</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Research institutions (RGCB Patna, RAU Pusa)</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Cell Biology (high-yield Tier A):</strong> Cell discovered by Robert Hooke (1665). Cell Theory: Schleiden (1838, plants) + Schwann (1839, animals) + Virchow (1855, omnis cellula e cellula). Key organelles: Nucleus (control center), Mitochondria (powerhouse, ATP), Ribosomes (protein factory), Chloroplasts (photosynthesis), Lysosomes (suicide bags), Golgi (packaging), ER (rough=protein, smooth=lipid). Prokaryotic (no nucleus, bacteria) vs Eukaryotic (nucleus, plants/animals). Cell wall = cellulose (plants), chitin (fungi), peptidoglycan (bacteria). Mitosis: 2 identical diploid cells (PMAT). Meiosis: 4 haploid gametes (crossing over in Prophase I). RBCs have NO nucleus.
+  </div>
+
+  <div class="img-container">
+    <img src="images/bhimbetka.jpg" alt="Cell structure — the building blocks of life">
+    <div class="img-caption">The cell is the basic structural and functional unit of all living organisms. Discovered by Robert Hooke (1665), the cell contains specialized organelles — each performing specific functions. Understanding cell structure and division is fundamental to biology and appears frequently in BPSC prelims.</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/stone_age_tools.jpg" alt="Cell division — mitosis and meiosis">
+    <div class="img-caption">Cell division: Mitosis (produces 2 identical diploid daughter cells for growth and repair) and Meiosis (produces 4 haploid gametes for sexual reproduction, with crossing over in Prophase I for genetic variation). The cell cycle: Interphase (G1→S→G2) → M phase (mitosis + cytokinesis).</div>
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of cell structure, organelles, cell division, cell cycle, Bihar connections, and 7 exam predictions:
+    <a href="subpages/69_cell_division_detail.html" target="_blank">Cell & Division Master Detail →</a>
+  </div>
+
+  <h3>A. Cell Organelles — Structure &amp; Function <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Organelle</th><th>Nickname</th><th>Function</th><th>Key Feature</th></tr>
+    <tr><td><strong>Nucleus</strong></td><td>Control center / Brain</td><td>Contains DNA; controls all cell activities</td><td>Double membrane (nuclear envelope); nucleolus inside</td></tr>
+    <tr><td><strong>Mitochondria</strong></td><td>Powerhouse</td><td>ATP production (aerobic respiration)</td><td>Double membrane, cristae (folds), own DNA (mtDNA)</td></tr>
+    <tr><td><strong>Ribosomes</strong></td><td>Protein factory</td><td>Protein synthesis (translation)</td><td>70S (prokaryotes) / 80S (eukaryotes); no membrane</td></tr>
+    <tr><td><strong>Chloroplasts</strong></td><td>Kitchen (plants)</td><td>Photosynthesis (light → glucose)</td><td>Chlorophyll, thylakoids, grana; own DNA; plant cells only</td></tr>
+    <tr><td><strong>Lysosomes</strong></td><td>Suicide bags / Digestive bags</td><td>Digest waste, damaged organelles; autolysis</td><td>Hydrolytic enzymes; animal cells mainly</td></tr>
+    <tr><td><strong>Golgi apparatus</strong></td><td>Packaging center / Post office</td><td>Modify, package, secrete proteins &amp; lipids</td><td>Stack of cisternae; produces lysosomes</td></tr>
+    <tr><td><strong>Rough ER</strong></td><td>—</td><td>Protein synthesis &amp; transport</td><td>Ribosomes attached (rough appearance)</td></tr>
+    <tr><td><strong>Smooth ER</strong></td><td>—</td><td>Lipid synthesis, detoxification, Ca²⁺ storage</td><td>No ribosomes (smooth)</td></tr>
+    <tr><td><strong>Vacuoles</strong></td><td>Storage sac</td><td>Store water, nutrients, waste; turgor pressure (plants)</td><td>Large in plant cells (90% volume), small in animals</td></tr>
+    <tr><td><strong>Plasma membrane</strong></td><td>Gatekeeper</td><td>Selectively permeable; controls entry/exit</td><td>Phospholipid bilayer + proteins (fluid mosaic model)</td></tr>
+    <tr><td><strong>Cell wall</strong></td><td>—</td><td>Structural support and rigidity</td><td>Cellulose (plants), chitin (fungi), peptidoglycan (bacteria)</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>B. Prokaryotic vs Eukaryotic Cells <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Feature</th><th>Prokaryotic (bacteria, archaea)</th><th>Eukaryotic (plants, animals, fungi, protists)</th></tr>
+    <tr><td><strong>Nucleus</strong></td><td>No true nucleus (nucleoid region, DNA free)</td><td>True nucleus (DNA in nuclear envelope)</td></tr>
+    <tr><td><strong>Organelles</strong></td><td>No membrane-bound organelles</td><td>Membrane-bound organelles (mitochondria, ER, Golgi, etc.)</td></tr>
+    <tr><td><strong>Ribosomes</strong></td><td>70S (30S + 50S)</td><td>80S (40S + 60S)</td></tr>
+    <tr><td><strong>Cell wall</strong></td><td>Peptidoglycan (bacteria)</td><td>Cellulose (plants), chitin (fungi), none (animals)</td></tr>
+    <tr><td><strong>DNA</strong></td><td>Circular, single chromosome</td><td>Linear, multiple chromosomes</td></tr>
+    <tr><td><strong>Size</strong></td><td>Small (~1-5 μm)</td><td>Larger (~10-100 μm)</td></tr>
+    <tr><td><strong>Reproduction</strong></td><td>Binary fission (asexual)</td><td>Mitosis (somatic) + meiosis (gametes)</td></tr>
+  </table>
+
+  <h3>C. Plant vs Animal Cells <span class="current-tag">EXAM PATTERN</span></h3>
+  <table>
+    <tr><th>Feature</th><th>Plant Cells</th><th>Animal Cells</th></tr>
+    <tr><td><strong>Cell wall</strong></td><td>Present (cellulose)</td><td>Absent</td></tr>
+    <tr><td><strong>Chloroplasts</strong></td><td>Present (photosynthesis)</td><td>Absent</td></tr>
+    <tr><td><strong>Vacuoles</strong></td><td>Large central vacuole (90% volume)</td><td>Small or absent</td></tr>
+    <tr><td><strong>Centrioles</strong></td><td>Absent (most plants)</td><td>Present (involved in cell division)</td></tr>
+    <tr><td><strong>Lysosomes</strong></td><td>Rare</td><td>Present (common)</td></tr>
+    <tr><td><strong>Shape</strong></td><td>Fixed (rectangular, due to cell wall)</td><td>Variable (no cell wall, flexible)</td></tr>
+  </table>
+
+  <h3>D. Mitosis vs Meiosis <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Feature</th><th>Mitosis</th><th>Meiosis</th></tr>
+    <tr><td><strong>Daughter cells</strong></td><td>2 (identical)</td><td>4 (non-identical)</td></tr>
+    <tr><td><strong>Chromosome number</strong></td><td>Diploid (2n → 2n, same)</td><td>Haploid (2n → n, halved)</td></tr>
+    <tr><td><strong>Cell type</strong></td><td>Somatic (body) cells</td><td>Germ cells (testes/ovaries → gametes)</td></tr>
+    <tr><td><strong>Purpose</strong></td><td>Growth, repair, replacement</td><td>Sexual reproduction (gamete formation)</td></tr>
+    <tr><td><strong>Divisions</strong></td><td>One (PMAT)</td><td>Two (Meiosis I = reductional, Meiosis II = equational)</td></tr>
+    <tr><td><strong>Crossing over</strong></td><td>Does not occur</td><td>Occurs in Prophase I (pachytene)</td></tr>
+    <tr><td><strong>Genetic variation</strong></td><td>No variation (clones)</td><td>High variation (crossing over + independent assortment)</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — PMAT (Mitosis phases):</strong><br>
+    <strong>P</strong>rophase (chromosomes condense) → <strong>M</strong>etaphase (align at equator) → <strong>A</strong>naphase (chromatids separate) → <strong>T</strong>elophase (nuclear membrane reforms).<br>
+    <em>"Pour Me Another Tea" — PMAT: the four phases of mitosis.</em><br><br>
+    <strong>Organelle nicknames:</strong> Nucleus = Brain, Mitochondria = Powerhouse, Ribosomes = Protein Factory, Chloroplasts = Kitchen, Lysosomes = Suicide Bags, Golgi = Post Office, Vacuole = Storage.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Research Institutions & Cell Biology</div>
+    <ul>
+      <li><strong>Rajendra Agricultural University (RAU, Pusa, Samastipur, Bihar):</strong> one of Bihar's oldest agricultural universities (established 1905 as Imperial Agricultural Research Institute, now Dr. Rajendra Prasad Central Agricultural University). Research on plant cell biology, tissue culture, and crop improvement — contributing to Bihar's agriculture. Plant cell structure and photosynthesis studies are conducted here.</li>
+      <li><strong>Bihar Animal Sciences University (BASU, Patna):</strong> established 2017 — focuses on veterinary and animal sciences. Research on animal cell biology, genetics, and reproduction. Cell division (mitosis/meiosis) studies are central to animal breeding and genetics programmes at BASU.</li>
+      <li><strong>Patna University — Department of Botany &amp; Zoology:</strong> Patna University (established 1917, Bihar's first university) has departments of Botany and Zoology that conduct cell biology research and teaching. Studies on cell structure, genetics, and tissue culture relevant to Bihar's flora and fauna.</li>
+      <li><strong>ICAR Research Institutes in Bihar:</strong> ICAR-Research Complex for Eastern Region (Patna) conducts research on crop cell biology, tissue culture, and genetic improvement of crops suited to Bihar's climate (rice, maize, wheat, lentils, makhana). Cell-level research directly benefits Bihar's farmers.</li>
+      <li><strong>Makhana (Euryale ferox) — Bihar's unique crop:</strong> Makhana (fox nut) is a unique aquatic crop grown in Bihar (especially Mithila region). It has received a GI tag. Research on makhana's cellular structure, genetics, and cultivation is conducted at Bihar's agricultural institutes. Bihar produces ~85% of India's makhana — making cell biology research on this crop especially relevant for BPSC.</li>
+      <li><strong>Medical colleges and cell research:</strong> Bihar's medical colleges (PMCH Patna, IGIMS Patna, AIIMS Patna) conduct research on human cell biology — including cancer cell division (mitosis gone wrong), blood cell disorders (sickle cell anaemia common in Bihar), and genetic diseases. Understanding cell division is fundamental to cancer treatment — a growing health concern in Bihar.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="70_human_body_systems.html">Topic 70 (Human Body Systems):</a></strong> Cells are the building blocks of all body systems. Muscle cells form muscles, nerve cells (neurons) form the nervous system, and blood cells (RBCs, WBCs, platelets) circulate in the cardiovascular system. Understanding cell structure is essential for understanding how body systems work.</li>
+    <li><strong><a href="74_genetics_basics.html">Topic 74 (Genetics Basics):</a></strong> DNA (in the nucleus) carries genetic information. Meiosis (cell division) produces gametes (sperm and egg) with half the chromosomes — and crossing over in Prophase I creates genetic variation. Mendel's laws of heredity depend on meiosis. Cell division is the physical basis of genetics.</li>
+    <li><strong><a href="75_plant_physiology.html">Topic 75 (Plant Physiology):</a></strong> Chloroplasts (plant cell organelles) are the site of photosynthesis. Plant cell walls (cellulose) provide structural support. Vacuoles maintain turgor pressure. Understanding plant cell structure is essential for understanding plant physiology.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Cancer research:</strong> cancer is essentially uncontrolled mitosis — cells divide without stopping, forming tumours. Understanding cell division and the cell cycle is fundamental to cancer treatment. Chemotherapy targets rapidly dividing cells. Bihar's medical colleges (AIIMS Patna, IGIMS) are expanding cancer research and treatment.</li>
+    <li><strong>Stem cell research:</strong> stem cells are undifferentiated cells that can divide (mitosis) and differentiate into various cell types. Stem cell therapy holds promise for treating spinal cord injuries, diabetes, and Parkinson's disease. India has guidelines for stem cell research (ICMR, 2017).</li>
+    <li><strong>CRISPR-Cas9 gene editing:</strong> the discovery of CRISPR (2020 Nobel Chemistry Prize — Charpentier and Doudna) allows precise editing of DNA inside cells. This technology has applications in agriculture (disease-resistant crops), medicine (treating genetic diseases), and biotechnology.</li>
+    <li><strong>COVID-19 and viruses:</strong> viruses are not true cells (they lack cell structure) — but they replicate inside host cells by hijacking the cell's machinery. Understanding cell structure (ribosomes, ER, Golgi) helps understand how viruses like SARS-CoV-2 replicate and how vaccines work.</li>
+    <li><strong>Cell-cultured meat:</strong> lab-grown meat (cultured from animal cells in bioreactors) is an emerging technology — approved in the US (2023) and Singapore. It could reduce the environmental impact of meat production. India is exploring this technology.</li>
+    <li><strong>Makhana research (Bihar):</strong> Bihar's makhana (GI-tagged) is being studied at the cellular level for genetic improvement, disease resistance, and higher yields. The National Research Centre for Makhana (Darbhanga, Bihar) conducts cell and tissue culture research on this unique crop.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Who discovered the cell in 1665?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Rudolf Virchow (proposed 'omnis cellula e cellula' — every cell from a cell)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Antonie van Leeuwenhoek (first to observe living cells/microorganisms)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Theodore Schwann (proposed cell theory with animals)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Robert Hooke (observed cork slices under a primitive microscope, saw 'little boxes' he called 'cells')</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — Robert Hooke discovered the cell in 1665 by observing thin slices of cork under a primitive compound microscope. The cork's structure reminded him of monastery rooms ('cells'). Described in his book 'Micrographia' (1665). What he saw were dead cell walls of plant tissue.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Who was the first to observe living cells (microorganisms) under a microscope?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Theodore Schwann</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Matthias Schleiden</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Antonie van Leeuwenhoek (1670s — observed bacteria, protozoa, sperm cells with a single-lens microscope)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Robert Hooke</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — Leeuwenhoek (1632-1723) was the first to observe living cells (1670s) using a powerful single-lens microscope (~300x). He observed bacteria ('animalcules'), protozoa, sperm cells, and blood cells. Called the 'Father of Microbiology.' Reported findings to the Royal Society of London.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Cell Theory was proposed by which scientists?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Robert Hooke and Leeuwenhoek</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Charles Darwin and Gregor Mendel</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Louis Pasteur and Robert Koch</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Matthias Schleiden (1838, plants) and Theodore Schwann (1839, animals), later expanded by Rudolf Virchow (1855)</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (D)</strong> — Schleiden (1838, all plants made of cells) + Schwann (1839, all animals made of cells) + Virchow (1855, omnis cellula e cellula). Three principles: (1) all organisms are made of cells, (2) cell is the basic unit of life, (3) all cells arise from pre-existing cells.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Which of the following is NOT a principle of the Cell Theory?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. All living organisms are composed of one or more cells</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. The cell is the basic structural and functional unit of life</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. All cells contain a nucleus (this is NOT a principle — prokaryotic cells like bacteria do NOT have a nucleus)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. All cells arise from pre-existing cells (omnis cellula e cellula)</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — 'All cells contain a nucleus' is NOT a principle of Cell Theory. Prokaryotic cells (bacteria, archaea) do NOT have a nucleus. The three principles are: (1) all organisms are made of cells, (2) cell is the basic unit, (3) all cells arise from pre-existing cells.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The powerhouse of the cell (site of ATP production via cellular respiration) is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Chloroplasts (site of photosynthesis in plant cells)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Ribosomes (site of protein synthesis)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Golgi apparatus (packaging and secretion)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Mitochondria (produce ATP through the Krebs cycle and oxidative phosphorylation)</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — Mitochondria = 'powerhouse of the cell.' They produce ATP (energy currency) via aerobic respiration (Krebs cycle + electron transport chain). Double membrane with cristae (inner folds). Contain their own DNA (mtDNA) — supporting the endosymbiotic theory (Lynn Margulis).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Which organelle is the 'site of photosynthesis' in plant cells?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Mitochondria</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Endoplasmic reticulum</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Ribosomes</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Chloroplasts (contain chlorophyll — convert light energy to chemical energy via photosynthesis)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — Chloroplasts are the site of photosynthesis in plant cells. Contain chlorophyll (green pigment). Photosynthesis: CO₂ + H₂O + light → glucose + O₂. Double membrane, thylakoids (stacked into grana). Own DNA — supports endosymbiotic theory. Found only in plant cells and some protists (algae).</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The 'control center' of the cell, containing genetic material (DNA), is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. The ribosomes</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. The mitochondria</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. The nucleus (contains chromosomes/DNA, controls cell activities and reproduction)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. The Golgi apparatus</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — The nucleus is the 'control center' of the cell. Contains DNA (chromosomes). Controls growth, metabolism, protein synthesis, and reproduction. Surrounded by nuclear membrane (double membrane with pores). Contains nucleolus (ribosome assembly). Absent in mature RBCs and sieve tube cells.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Ribosomes are the site of which cellular process?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Cellular respiration (ATP production)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. DNA replication</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Protein synthesis (translation of mRNA into polypeptide chains — amino acids linked together)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Photosynthesis</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Ribosomes = site of protein synthesis (translation). Read mRNA and assemble amino acids into proteins. Found in ALL cells (prokaryotic and eukaryotic). Made of rRNA + proteins. 70S in prokaryotes, 80S in eukaryotes. Can be free or attached to rough ER.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The endoplasmic reticulum (ER) exists in two forms. What is the function of the rough ER?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Protein synthesis and transport (rough ER has ribosomes attached, giving it a 'rough' appearance)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. ATP production</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Lipid synthesis (smooth ER has no ribosomes)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. DNA replication</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Rough ER (RER) has ribosomes attached — 'rough' appearance. Involved in protein synthesis and transport. Proteins go from RER to Golgi for packaging. Smooth ER (SER) has no ribosomes — lipid synthesis, detoxification, calcium storage.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The Golgi apparatus (Golgi body) is responsible for:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. ATP production</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. DNA replication</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Packaging, modifying, and secreting cellular products (proteins and lipids)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Protein synthesis</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — Golgi apparatus = cell's 'packaging center' / 'post office.' Receives proteins/lipids from ER, modifies them (glycosylation), packages into vesicles, secretes to destination. Also produces lysosomes. Discovered by Camillo Golgi (1898). Stack of flattened cisternae.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Lysosomes are called the 'suicide bags' of the cell because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. They synthesize proteins</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. They produce ATP</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. They control the cell's genes</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. They contain digestive enzymes (hydrolases) that can break down the cell itself if damaged — autolysis</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Lysosomes = 'suicide bags' / 'digestive bags.' Contain hydrolytic enzymes that break down waste, damaged organelles, and the cell itself (autolysis — programmed cell death). Produced by Golgi. Found mainly in animal cells. Discovered by Christian de Duve (1955).</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Which cell organelle is known as the 'protein factory' of the cell?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Vacuole</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Nucleus</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Mitochondria</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Ribosomes (they manufacture/assemble proteins from amino acids)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — Ribosomes = 'protein factory.' They assemble proteins from amino acids by reading mRNA. 70S (prokaryotes: 30S+50S), 80S (eukaryotes: 40S+60S). 'S' = Svedberg units (sedimentation rate). A cell can have millions of ribosomes.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The cell wall in plant cells is primarily composed of which substance?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Lipids (found in cell membranes)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Chitin (found in fungal cell walls and insect exoskeletons)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Cellulose (a complex carbohydrate / polysaccharide — provides structural support and rigidity)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Peptidoglycan (found in bacterial cell walls)</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — Plant cell wall = cellulose (polysaccharide of β-glucose). Most abundant organic polymer on Earth. Provides rigidity. Fungal cell walls = chitin. Bacterial cell walls = peptidoglycan. Animal cells have NO cell wall (only plasma membrane).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The plasma membrane (cell membrane) is composed of which type of molecule?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. A protein-only structure</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. A lipid monolayer</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. A single layer of cellulose</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. A phospholipid bilayer with embedded proteins (fluid mosaic model — Singer and Nicolson, 1972)</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — Plasma membrane = phospholipid bilayer + embedded proteins. 'Fluid Mosaic Model' (Singer &amp; Nicolson, 1972). Hydrophilic heads face outward, hydrophobic tails inward. 'Fluid' (components move laterally) + 'Mosaic' (diverse proteins). Selectively permeable.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Which structure is found in plant cells but NOT in animal cells?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. Cell wall and chloroplasts (both unique to plant cells — animal cells have neither)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Nucleus and mitochondria (found in both)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Plasma membrane (found in both)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Ribosomes (found in both)</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Plant cells have cell wall (cellulose) and chloroplasts (photosynthesis) — animal cells lack both. Plant cells also have a large central vacuole. Animal cells have centrioles and lysosomes (rare in plants). Both have nucleus, mitochondria, ribosomes, ER, Golgi, plasma membrane.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Which type of cell division produces two identical daughter cells with the same number of chromosomes as the parent cell?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Budding (a form of asexual reproduction in yeast)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Mitosis (somatic/body cell division — produces 2 identical diploid daughter cells)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Binary fission (bacterial division — not technically mitosis)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Meiosis (gamete/sex cell division — produces 4 non-identical haploid daughter cells)</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Mitosis: 2 identical diploid daughter cells (2n → 2n). Occurs in somatic (body) cells for growth, repair, and replacement. Phases: PMAT (Prophase → Metaphase → Anaphase → Telophase). DNA replicates during interphase (S phase) before mitosis begins.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Meiosis results in how many daughter cells, and with what chromosome number?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. 2 daughter cells, each with the same chromosome number (diploid/2n)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. 1 daughter cell with no chromosomes</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. 8 daughter cells, each with double the chromosome number</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. 4 daughter cells, each with half the chromosome number (haploid/n) — gametes for sexual reproduction</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — Meiosis: 4 haploid (n) daughter cells from one diploid (2n) parent. Two divisions: Meiosis I (reductional, homologous chromosomes separate) + Meiosis II (equational, sister chromatids separate). Occurs in germ cells → gametes (sperm/egg). Halving ensures zygote gets correct 2n number.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The correct order of phases in mitosis is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Metaphase → Prophase → Telophase → Anaphase</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Anaphase → Telophase → Metaphase → Prophase</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Prophase → Metaphase → Anaphase → Telophase (PMAT)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Telophase → Anaphase → Prophase → Metaphase</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — PMAT: Prophase (chromosomes condense, nuclear membrane dissolves) → Metaphase (chromosomes align at equator) → Anaphase (sister chromatids separate to poles) → Telophase (nuclear membrane reforms). Cytokinesis follows. Mnemonic: 'Pour Me Another Tea.'</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Crossing over (exchange of genetic material between homologous chromosomes) occurs during which phase of meiosis?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Telophase II</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Anaphase I</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Metaphase II</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Prophase I of meiosis (specifically during the pachytene sub-stage — creates genetic variation)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — Crossing over occurs in Prophase I (pachytene sub-stage). Homologous chromosomes pair (synapsis) and exchange DNA at chiasmata. Creates new gene combinations — basis of genetic variation. Why siblings look different. Prophase I has 5 sub-stages: leptotene → zygotene → pachytene → diplotene → diakinesis.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The difference between prokaryotic and eukaryotic cells is that prokaryotic cells:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Lack a true nucleus and membrane-bound organelles (DNA is free in the cytoplasm — e.g., bacteria)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Have a nucleus and all organelles</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Are always larger than eukaryotic cells</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Can only be found in plants</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Prokaryotic cells (bacteria, archaea) lack a true nucleus (DNA in nucleoid region) and membrane-bound organelles. Have: 70S ribosomes, cell wall (peptidoglycan), plasma membrane. Eukaryotic cells (plants, animals, fungi, protists) have true nucleus + membrane-bound organelles (mitochondria, ER, Golgi, etc.) + 80S ribosomes.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The largest organelle in a typical animal cell is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. The nucleus (contains the cell's DNA, visible under a light microscope)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. The ribosome</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. The lysosome</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. The mitochondrion</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — The nucleus is the largest organelle in animal cells (~5-10 μm). Visible under a light microscope. Contains DNA + nucleolus. In plant cells, the largest organelle is the central vacuole (up to 90% of cell volume).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. In which phase of the cell cycle does DNA replication occur?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. S phase (Synthesis phase) of interphase — DNA is copied before cell division begins</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. M phase (Mitosis — actual cell division)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. G2 phase (Gap 2 — preparation for division)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. G1 phase (Gap 1 — cell growth)</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — DNA replication occurs in S phase (Synthesis) of interphase. Cell cycle: Interphase (G1→S→G2) + M phase (mitosis + cytokinesis). G1 = growth, S = DNA replication, G2 = preparation for division, M = actual division. The cell spends ~90% of its cycle in interphase.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Vacuoles in plant cells serve which primary function?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Protein synthesis</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. DNA replication</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. ATP production</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Storage of water, nutrients, and waste — maintaining turgor pressure (keeps plant cells firm)</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (D)</strong> — Plant vacuoles store water, nutrients, and waste. Central vacuole can occupy 90% of plant cell volume. Maintains turgor pressure (water against cell wall) — keeps plant firm. When a plant wilts, vacuoles have lost water and turgor pressure decreased. Animal cells have small/absent vacuoles.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The endosymbiotic theory explains the origin of which organelles?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Golgi apparatus and lysosomes</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Endoplasmic reticulum and vacuoles</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Mitochondria and chloroplasts (both were once free-living bacteria engulfed by a host cell billions of years ago)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Nucleus and ribosomes</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — Endosymbiotic theory (Lynn Margulis, 1967): mitochondria and chloroplasts were once free-living bacteria engulfed by a host cell. Evidence: both have own circular DNA, double membranes, reproduce independently (binary fission), and have 70S ribosomes (like bacteria). They formed a symbiotic relationship with the host.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which human cells do NOT have a nucleus?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Nerve cells (neurons)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Mature red blood cells (RBCs/erythrocytes) — they lose their nucleus to make more room for haemoglobin and oxygen transport</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. White blood cells (leukocytes)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Muscle cells</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — Mature RBCs (erythrocytes) do NOT have a nucleus — they expel it during development to make room for haemoglobin (~270 million per RBC). This allows more oxygen transport but means RBCs cannot divide or repair — they live ~120 days. RBCs also lack mitochondria (produce ATP anaerobically). Sieve tube cells in plants also lack a nucleus.</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Cell organelles &amp; nicknames (HIGH):</strong> Nucleus=brain, Mitochondria=powerhouse, Ribosomes=protein factory, Chloroplasts=photosynthesis, Lysosomes=suicide bags, Golgi=packaging/post office, Rough ER=protein, Smooth ER=lipid. Know each organelle + function + nickname.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Mitosis vs Meiosis (HIGH):</strong> Mitosis: 2 identical diploid cells, PMAT, somatic cells, growth/repair. Meiosis: 4 haploid gametes, 2 divisions, crossing over (Prophase I), germ cells, sexual reproduction. Know differences in a comparison table.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Cell Theory &amp; discoveries (HIGH):</strong> Hooke (1665, discovered cell), Leeuwenhoek (1670s, living cells), Schleiden (1838, plants), Schwann (1839, animals), Virchow (1855, omnis cellula e cellula). Know who did what and when.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Prokaryotic vs Eukaryotic (MEDIUM):</strong> Prokaryotic: no nucleus, no membrane organelles, 70S ribosomes, peptidoglycan wall, bacteria. Eukaryotic: nucleus, membrane organelles, 80S ribosomes, cellulose/chitin wall, plants/animals/fungi.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>Plant vs Animal cells (MEDIUM):</strong> Plant: cell wall (cellulose), chloroplasts, large vacuole, no centrioles. Animal: no cell wall, no chloroplasts, small vacuoles, centrioles present, lysosomes common. Both: nucleus, mitochondria, ribosomes, ER, Golgi.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Cell wall composition (LOW):</strong> Plants = cellulose, Fungi = chitin, Bacteria = peptidoglycan, Animals = none. RBCs have no nucleus. Sieve tube cells have no nucleus. Endosymbiotic theory (Lynn Margulis) = mitochondria &amp; chloroplasts origin.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>Bihar research (LOW):</strong> RAU Pusa (agricultural cell biology), BASU Patna (animal cell research), NRC Makhana Darbhanga (makhana cell/tissue culture), AIIMS Patna (cancer cell research). Makhana = Bihar's GI-tagged aquatic crop (~85% of India's production).
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>NCERT Biology, Class 11 — Cell: The Unit of Life &amp; Cell Cycle and Cell Division</li>
+    <li>NCERT Biology, Class 9 — The Fundamental Unit of Life</li>
+    <li>Campbell Biology (11th/12th edition)</li>
+    <li><a href="https://en.wikipedia.org/wiki/Cell_(biology)" target="_blank">Wikipedia: Cell (biology)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Cell_division" target="_blank">Wikipedia: Cell division</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 69 — Cell & Division • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'c', q3: 'd', q4: 'c', q5: 'd', q6: 'd', q7: 'c', q8: 'c', q9: 'a', q10: 'c',
+  q11: 'd', q12: 'd', q13: 'c', q14: 'd', q15: 'a', q16: 'b', q17: 'd', q18: 'c', q19: 'd', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'd', q24: 'c', q25: 'b'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>
