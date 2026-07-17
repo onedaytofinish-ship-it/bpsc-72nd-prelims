@@ -1,0 +1,327 @@
+[
+  {
+    "q": "The Chola Empire reached its greatest extent under which ruler?",
+    "options": [
+      "Rajaraja Chola I (985-1014 CE)",
+      "Vijayalaya Chola",
+      "Rajendra Chola I (1014-1044 CE)",
+      "Kulottunga Chola"
+    ],
+    "answer": 0,
+    "explanation": "Rajaraja Chola I (985-1014 CE) was the greatest Chola ruler — he expanded the empire to include most of South India, Sri Lanka, and the Maldives. He built the famous Brihadisvara Temple at Thanjavur (1010 CE, a UNESCO World Heritage Site). His son Rajendra Chola I (1014-1044 CE) further expanded the empire — he conquered Bengal (ganga-yamna expedition), founded Gangaikondacholapuram, and sent a naval expedition to Southeast Asia (Srivijaya).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Brihadisvara Temple at Thanjavur was built by which Chola ruler?",
+    "options": [
+      "Rajaraja Chola I",
+      "Rajendra Chola I",
+      "Vijayalaya",
+      "Kulottunga"
+    ],
+    "answer": 0,
+    "explanation": "The Brihadisvara Temple (Rajarajeshvara Temple) at Thanjavur was built by Rajaraja Chola I (completed 1010 CE). It is a UNESCO World Heritage Site (1987) and one of the largest temples in India. The temple is dedicated to Lord Shiva and features a 66m vimana (tower). It is considered the finest example of Chola architecture. The temple was built in the Dravida (South Indian) style.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Chola ruler conquered Bengal and took the title 'Gangaikonda Chola'?",
+    "options": [
+      "Rajendra Chola I (1014-1044 CE)",
+      "Rajaraja Chola I",
+      "Vijayalaya",
+      "Kulottunga"
+    ],
+    "answer": 0,
+    "explanation": "Rajendra Chola I (1014-1044 CE) conquered Bengal (up to the Ganga river) in his 'ganga-yamna' (expedition to the Ganga) campaign (~1021-1023 CE). He took the title 'Gangaikonda Chola' (the Chola who conquered the Ganga) and founded a new capital, Gangaikondacholapuram. He also sent a naval expedition to Srivijaya (Sumatra/Malaya) — demonstrating the Chola navy's power. Rajendra was perhaps the greatest Chola conqueror.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Chola administration is famous for which system of village governance?",
+    "options": [
+      "Ur and Sabha (village assemblies with elected members)",
+      "Panchayat system with hereditary headmen",
+      "Zamindari system with landlords",
+      "Iqta system with military governors"
+    ],
+    "answer": 0,
+    "explanation": "The Chola administration is famous for its system of village self-government — the Ur (non-brahmin village assembly) and the Sabha (brahmin village assembly, also called Mahasabha). Members were elected by lot (kudavolai system — names drawn from a pot). The assemblies managed land disputes, taxation, irrigation, and justice. The Chola system is considered one of the finest examples of local self-government in ancient India. Uttaramerur inscriptions (Parantaka I, 10th century) detail the election process.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Rajputs are traditionally divided into how many main clans?",
+    "options": [
+      "36 (Chauhans, Solankis, Tomars, etc.)",
+      "12",
+      "24",
+      "108"
+    ],
+    "answer": 0,
+    "explanation": "The Rajputs are traditionally divided into 36 royal clans (36 Rajkul). The main clans include: Chauhans (Ajmer/Delhi), Solankis/Chalukyas (Gujarat), Tomars (Delhi), Pratiharas (Kanauj), Rathores (Marwar), Sisodias (Mewar/Udaipur), Kachwahas (Amber/Jaipur). The Rajputs ruled parts of North and Western India from the 6th-12th centuries. The four main Rajput dynasties: Pratihara, Chauhan, Solanki/Chalukya, Parmar — claim descent from the Agnikula (fire lineage) or Suryavansha (solar) / Chandravansha (lunar) lineages.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Rajput dynasty ruled from Kanauj and was a major power in North India from the 8th-10th centuries?",
+    "options": [
+      "Pratihara dynasty",
+      "Chauhan dynasty",
+      "Solanki dynasty",
+      "Parmar dynasty"
+    ],
+    "answer": 0,
+    "explanation": "The Pratihara dynasty (also called Gurjara-Pratihara) ruled from Kanauj and was a major power in North India from the 8th-10th centuries. The greatest Pratihara ruler was Mihira Bhoja (c. 836-885 CE) — his empire extended from Punjab to Bengal. The Pratiharas resisted Arab (Muslim) invasions from the west — they acted as a bulwark against Islamic expansion into India for over 300 years. The Pratiharas declined in the 10th century after attacks by the Rashtrakutas and the Turk invasions.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The famous Prithviraj Chauhan (who defeated Muhammad Ghori in the First Battle of Tarain, 1191) ruled from which city?",
+    "options": [
+      "Delhi and Ajmer",
+      "Kanauj",
+      "Gwalior",
+      "Jodhpur"
+    ],
+    "answer": 0,
+    "explanation": "Prithviraj Chauhan (c. 1178-1192 CE) ruled from Delhi (Lal Kot/Qila Rai Pithora) and Ajmer. He defeated Muhammad Ghori in the First Battle of Tarain (1191) — but was defeated and killed in the Second Battle of Tarain (1192), which marked the beginning of Muslim rule in North India. Prithviraj is a legendary figure in Rajput history — his court poet Chand Bardai wrote the 'Prithviraj Raso' (an epic poem about his life). The Chauhans of Ajmer/Delhi were the most powerful Rajput dynasty of the 12th century.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Second Battle of Tarain (1192) was significant because:",
+    "options": [
+      "It marked the beginning of Muslim rule in North India",
+      "It marked the end of the Gupta empire",
+      "It marked the beginning of the Mauryan empire",
+      "It marked the end of British rule in India"
+    ],
+    "answer": 0,
+    "explanation": "The Second Battle of Tarain (1192) was significant because it marked the beginning of Muslim rule in North India. Muhammad Ghori defeated and killed Prithviraj Chauhan. Ghori's victory opened the gates of India to Muslim conquest — leading to the Delhi Sultanate (1206 CE). The First Battle of Tarain (1191) was won by Prithviraj, but he let Ghori go free — a mistake he paid for with his life in 1192. Tarain is near Karnal (Haryana).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Chola navy was the strongest in ancient India. Which ruler sent a naval expedition to Srivijaya (Sumatra)?",
+    "options": [
+      "Rajendra Chola I",
+      "Rajaraja Chola I",
+      "Vijayalaya",
+      "Kulottunga"
+    ],
+    "answer": 0,
+    "explanation": "Rajendra Chola I sent a naval expedition to Srivijaya (Sumatra/Malaya, ~1025 CE) — demonstrating the Chola navy's power. The expedition was sent to secure trade routes to China and to curb Srivijaya's piracy. The Chola navy was the strongest in ancient India — it controlled the Bay of Bengal, the Maldives, and parts of Southeast Asia. The Cholas were the only Indian dynasty to project naval power beyond the Indian subcontinent.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Uttaramerur inscription, which details the Chola system of village self-government, was issued during the reign of which ruler?",
+    "options": [
+      "Parantaka Chola I (10th century)",
+      "Rajaraja Chola I",
+      "Rajendra Chola I",
+      "Vijayalaya"
+    ],
+    "answer": 0,
+    "explanation": "The Uttaramerur inscription (Parantaka Chola I, c. 919-922 CE, 10th century) details the Chola system of village self-government. It describes the election of members to the Sabha (village assembly) by lot (kudavolai system), qualifications for membership, and the committees that managed the village. The Uttaramerur inscription is considered the 'Magnac Carta of village self-government' — it is the most detailed record of local democracy in ancient India.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which dynasty founded the Chola Empire in the 9th century?",
+    "options": [
+      "Vijayalaya Chola (c. 850 CE)",
+      "Rajaraja Chola I",
+      "Rajendra Chola I",
+      "Parantaka Chola I"
+    ],
+    "answer": 0,
+    "explanation": "Vijayalaya Chola (c. 850 CE) founded the Chola Empire in the 9th century by capturing Thanjavur from the Muttaraiyar chiefs (who were feudatories of the Pallavas). Vijayalaya was a feudatory of the Pallavas who declared independence. The Chola Empire lasted from c. 850 CE to 1279 CE — over 400 years. The early Cholas were mentioned in Sangam literature (1st-3rd century CE), but the imperial Cholas were founded by Vijayalaya.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange the Chola rulers in chronological order: 1. Vijayalaya 2. Rajaraja I 3. Rajendra I 4. Kulottunga",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4"
+    ],
+    "answer": 0,
+    "explanation": "Vijayalaya (c. 850, founder) → Rajaraja I (985-1014, greatest expansion) → Rajendra I (1014-1044, conquered Bengal, Srivijaya) → Kulottunga (1070-1122, last great ruler). The Chola Empire declined after the 12th century — the Pandyas and the Hoysalas weakened them, and the Cholas were finally defeated by the Pandyas in 1279 CE.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Rajputs claimed descent from which mythological lineages?",
+    "options": [
+      "Suryavansha (Solar) and Chandravansha (Lunar) and Agnikula (Fire)",
+      "Suryavansha only",
+      "Chandravansha only",
+      "Nagavansha (Snake) only"
+    ],
+    "answer": 0,
+    "explanation": "The Rajputs claimed descent from three mythological lineages: (1) Suryavansha (Solar lineage) — e.g., Sisodias of Mewar; (2) Chandravansha (Lunar lineage) — e.g., Rathores; (3) Agnikula (Fire lineage) — the four Agnikula clans: Pratihara, Chauhan, Solanki/Chalukya, Parmar — who were believed to have been created from the fire pit at Mount Abu. These mythological lineages legitimized Rajput rule and created a sense of warrior aristocracy.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Chola empire was finally overthrown by which dynasty?",
+    "options": [
+      "Pandya dynasty (1279 CE)",
+      "Hoysala dynasty",
+      "Kakatiya dynasty",
+      "Delhi Sultanate"
+    ],
+    "answer": 0,
+    "explanation": "The Chola empire was finally overthrown by the Pandya dynasty in 1279 CE. The Pandyas (of Madurai) had been the Cholas' traditional rivals. In the 12th-13th centuries, the Cholas were weakened by attacks from the Pandyas (from the south) and the Hoysalas (from the west). The final blow came when the Pandyas defeated the last Chola ruler, Rajendra III, in 1279 CE. After the Cholas, the Pandyas briefly dominated South India until the Delhi Sultanate's invasion (1311 CE).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Chola bronze sculptures (Nataraja, etc.) are considered masterpieces of Indian art. Which ruler's reign is most associated with them?",
+    "options": [
+      "Rajaraja Chola I and Rajendra Chola I",
+      "Vijayalaya",
+      "Kulottunga",
+      "Parantaka I"
+    ],
+    "answer": 0,
+    "explanation": "The Chola bronze sculptures (especially the Nataraja — the dancing Shiva) are masterpieces of Indian art, most associated with the reigns of Rajaraja Chola I and Rajendra Chola I (10th-11th century). The Chola bronzes are made using the lost-wax (cire perdue) technique. The most famous Chola bronze is the Nataraja (dancing Shiva) — it symbolises the cosmic dance of creation and destruction. Chola bronzes are displayed in museums worldwide.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT a feature of Chola administration?",
+    "options": [
+      "Iqta system (military governors)",
+      "Ur and Sabha (village assemblies)",
+      "Kudavolai (election by lot)",
+      "Strong navy controlling the Bay of Bengal"
+    ],
+    "answer": 0,
+    "explanation": "The Iqta system (military governors) is NOT a feature of Chola administration — it was a feature of the Delhi Sultanate. The Cholas had: (1) Ur and Sabha (village assemblies); (2) Kudavolai (election by lot); (3) a strong navy; (4) a well-organised bureaucracy; (5) nadu (district) and valanadu (province) administration. The Iqta system was introduced by the Delhi Sultans (13th century) — it was a system of land revenue assignments to military commanders.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Pratihara ruler Mihira Bhoja (c. 836-885 CE) is known for:",
+    "options": [
+      "Resisting Arab invasions and expanding the empire to its greatest extent",
+      "Building the Brihadisvara Temple",
+      "Conquering Bengal",
+      "Sending a naval expedition to Srivijaya"
+    ],
+    "answer": 0,
+    "explanation": "Mihira Bhoja (c. 836-885 CE) was the greatest Pratihara ruler — he expanded the empire to its greatest extent (from Punjab to Bengal) and resisted Arab (Muslim) invasions from the west. He was known as 'Adivaraha' (from his coins). The Pratiharas acted as a bulwark against Islamic expansion into India for over 300 years. Mihira Bhoja's reign was a golden age for the Pratiharas — he patronised art, literature, and religion (Hinduism).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Cholas maintained close trade relations with which Southeast Asian empire?",
+    "options": [
+      "Srivijaya (Sumatra/Malaya)",
+      "Khmer Empire (Cambodia)",
+      "Sailendra dynasty (Java)",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "The Cholas maintained close trade relations with Southeast Asian empires — Srivijaya (Sumatra/Malaya), the Khmer Empire (Cambodia), and the Sailendra dynasty (Java). The Chola navy controlled the Bay of Bengal trade routes. Rajendra Chola I sent a naval expedition to Srivijaya (~1025 CE) to secure trade routes to China. The Chola trade with Southeast Asia included Indian textiles, spices, and gems (exports) and Chinese silk and porcelain (imports). The Chola influence on Southeast Asian art and architecture is still visible.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's connection with early medieval India was through:",
+    "options": [
+      "Pala dynasty (8th-12th century) — Buddhist rulers of Bihar and Bengal",
+      "Chola dynasty",
+      "Rajput dynasty of Kanauj",
+      "Delhi Sultanate"
+    ],
+    "answer": 0,
+    "explanation": "Bihar's connection with early medieval India was through the Pala dynasty (8th-12th century CE). The Palas were Buddhist rulers who controlled Bihar, Bengal, and parts of Odisha. The greatest Pala rulers: Dharmapala (c. 770-810, founded Vikramashila University) and Devapala (c. 810-850, expanded the empire). The Palas patronised Buddhism — they built the Odantapuri and Vikramashila universities in Bihar. The Pala dynasty was a major power in Eastern India for nearly 400 years. The Palas were succeeded by the Senas (12th century).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Pala dynasty of Bihar and Bengal was founded by:",
+    "options": [
+      "Gopala (c. 750 CE)",
+      "Dharmapala",
+      "Devapala",
+      "Mahipala"
+    ],
+    "answer": 0,
+    "explanation": "The Pala dynasty was founded by Gopala (c. 750 CE). He was elected as king by the leaders of Bihar and Bengal (the first recorded democratic election in India — to end the Matsyanyaya, a period of anarchy). His son Dharmapala (c. 770-810) expanded the empire and founded the Vikramashila University (Bihar). His grandson Devapala (c. 810-850) further expanded the empire. The Pala dynasty lasted for nearly 400 years (750-1161 CE) — one of the longest-reigning dynasties in Indian history.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which university was founded by the Pala ruler Dharmapala in Bihar?",
+    "options": [
+      "Vikramashila University",
+      "Nalanda University",
+      "Takshashila University",
+      "Udayagiri University"
+    ],
+    "answer": 0,
+    "explanation": "Vikramashila University was founded by the Pala ruler Dharmapala (c. 770-810 CE) in Bihar (near present-day Bhagalpur). It was a major Buddhist centre of learning — second only to Nalanda. Vikramashila specialised in Tantric Buddhism. It was destroyed by the Turkish invader Bakhtiyar Khalji (c. 1200 CE) — the same invader who destroyed Nalanda. The ruins of Vikramashila were excavated in the 1960s and are now an archaeological site in Bihar.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Pallava dynasty, which preceded the Cholas in South India, had their capital at:",
+    "options": [
+      "Kanchipuram",
+      "Thanjavur",
+      "Madurai",
+      "Kumbakonam"
+    ],
+    "answer": 0,
+    "explanation": "The Pallava dynasty (c. 4th-9th century CE) had their capital at Kanchipuram (Tamil Nadu). The Pallavas were the predecessors of the Cholas in South India. The greatest Pallava ruler was Narasimhavarman I (c. 630-668 CE) — he defeated the Chalukya king Pulakeshin II and destroyed his capital Badami. The Pallavas are known for their rock-cut temples at Mahabalipuram (UNESCO World Heritage Site) and their contribution to Dravidian temple architecture. The Cholas overthrew the Pallavas in the 9th century.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The famous Rajput fort of Chittorgarh (in Rajasthan) is associated with which dynasty?",
+    "options": [
+      "Sisodia (Mewar) dynasty",
+      "Chauhan dynasty",
+      "Solanki dynasty",
+      "Parmar dynasty"
+    ],
+    "answer": 0,
+    "explanation": "Chittorgarh Fort (in Rajasthan) is associated with the Sisodia dynasty of Mewar (Udaipur). The Sisodias (who claimed Suryavanshi descent) were the most prestigious Rajput dynasty. Famous Sisodia rulers: Rana Kumbha (built the Vijay Stambh), Rana Sanga (fought Babur at Khanwa, 1527), Maharana Pratap (fought Akbar, 1576-1597). Chittorgarh is famous for three jauhars (mass self-immolation by Rajput women to avoid capture) — 1303 (Alauddin Khalji), 1535 (Bahadur Shah of Gujarat), 1568 (Akbar).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Chola empire was divided into how many administrative units called 'valanadu' (provinces)?",
+    "options": [
+      "8-9 valanadu",
+      "2 valanadu",
+      "20 valanadu",
+      "100 valanadu"
+    ],
+    "answer": 0,
+    "explanation": "The Chola empire was divided into 8-9 valanadu (provinces). Each valanadu was further divided into nadu (districts), which were further divided into kurram (groups of villages) and individual villages (ur or brahmadeya). The valanadu was headed by a royal official appointed by the king. The system of administration was hierarchical: king → valanadu (province) → nadu (district) → kurram (group of villages) → ur/sabha (village). This well-organised administrative structure was key to the Chola empire's success.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Khajuraho temples (UNESCO World Heritage Site) were built by which Rajput dynasty?",
+    "options": [
+      "Chandela dynasty (Bundelkhand)",
+      "Chauhan dynasty",
+      "Pratihara dynasty",
+      "Solanki dynasty"
+    ],
+    "answer": 0,
+    "explanation": "The Khajuraho temples (Madhya Pradesh, UNESCO World Heritage Site, 1986) were built by the Chandela dynasty (Bundelkhand, 950-1050 CE). The temples are famous for their Nagara-style architecture and erotic sculptures. The Chandelas were a Rajput dynasty that ruled Bundelkhand from their capital at Khajuraho. The most famous Chandela ruler was Dhanga (c. 950-1008 CE). The Khajuraho group has about 25 surviving temples out of an original 85.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
+]
