@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>101 - Buddhism and Jainism | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #101 • TIER B</div>
+  <div class="topic-title">Buddhism and Jainism — Bihar: Bodh Gaya, Vaishali, Pawapuri</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Ancient History</span>
+    <span class="meta-tag">⚖️ Weight: 0.7</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Bodh Gaya (enlightenment), Vaishali (Mahavira birth), Pawapuri (Mahavira death), Nalanda, Buddhist Councils</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Buddha's 4 key sites:</strong> Lumbini (birth, Nepal), Bodh Gaya (enlightenment, Bihar), Sarnath (first sermon, UP), Kushinagar (death, UP). Mahavira's sites: Kundagrama/Vaishali (birth, Bihar), Pawapuri (death, Bihar). Bihar = enlightenment (Buddhism) + birth + death (Jainism) + all first 3 Buddhist Councils + Nalanda University.
+  </div>
+
+  <div class="img-container">
+    <img src="images/mahabodhi_temple.jpg" alt="Mahabodhi Temple, Bodh Gaya (Bihar) — UNESCO World Heritage Site (2002), site of Buddha's enlightenment">
+    <div class="img-caption">Mahabodhi Temple, Bodh Gaya (Bihar) — site of the Buddha's enlightenment (c. 528 BCE). UNESCO World Heritage Site (2002).</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/mahavir_mandir_patna.jpg" alt="Mahavir Mandir, Patna (Bihar) — Jain heritage in Bihar">
+    <div class="img-caption">Mahavir Mandir, Patna (Bihar) — Jain heritage. Mahavira was born at Vaishali (Bihar) and attained Nirvana at Pawapuri (Bihar).</div>
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of Buddhism, Jainism, Buddha's life, Mahavira's life, Bihar connections, and 7 exam predictions:
+    <a href="subpages/101_buddhism_jainism_detail.html" target="_blank">Buddhism &amp; Jainism Master Detail →</a>
+  </div>
+
+  <h3>A. Buddhism vs Jainism — Comparison <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Feature</th><th>Buddhism</th><th>Jainism</th></tr>
+    <tr><td><strong>Founder</strong></td><td>Gautama Buddha (c. 563-483 BCE)</td><td>Mahavira (c. 599-527 BCE) — 24th Tirthankara</td></tr>
+    <tr><td><strong>Birthplace</strong></td><td>Lumbini (Nepal)</td><td>Kundagrama/Vaishali (Bihar) 🔶</td></tr>
+    <tr><td><strong>Enlightenment</strong></td><td>Bodh Gaya (Bihar) 🔶 — under Bodhi tree, c. 528 BCE</td><td>Kevala Jnana at Jrimbhakagrama (near Rajgir, Bihar) 🔶 — c. 557 BCE, after 12 years of asceticism</td></tr>
+    <tr><td><strong>Death (Nirvana)</strong></td><td>Kushinagar (UP) — c. 483 BCE, age 80</td><td>Pawapuri (Bihar) 🔶 — c. 527 BCE, age 72</td></tr>
+    <tr><td><strong>First sermon</strong></td><td>Sarnath (UP) — Dharmachakra Pravartana</td><td>Rajgir (Bihar) 🔶 — first Jain council</td></tr>
+    <tr><td><strong>Sacred text</strong></td><td>Tripitaka (Sutta, Vinaya, Abhidhamma) — in Pali</td><td>Agamas (12 Angas + others) — in Ardhamagadhi Prakrit</td></tr>
+    <tr><td><strong>Core teaching</strong></td><td>Four Noble Truths + Eightfold Path</td><td>Three Jewels (Right faith, knowledge, conduct) + Five Vows</td></tr>
+    <tr><td><strong>Ahimsa</strong></td><td>Non-violence (moderate — allows meat)</td><td>Non-violence (strictest — masks, filtering, sweeping)</td></tr>
+    <tr><td><strong>Sects</strong></td><td>Hinayana (Theravada) + Mahayana + Vajrayana</td><td>Digambara (sky-clad, South) + Svetambara (white-clad, West)</td></tr>
+    <tr><td><strong>God</strong></td><td>No creator god (Buddha = teacher, not god)</td><td>No creator god (Tirthankaras = teachers, not gods)</td></tr>
+    <tr><td><strong>Karma</strong></td><td>Mental action (intention) = karma</td><td>Material particles (dravya) = karma (sticks to the soul)</td></tr>
+    <tr><td><strong>Sangha</strong></td><td>Bhikkhus, Bhikkhunis, Upasakas, Upasikas</td><td>Monks, nuns, Sravakas (laymen), Sravikas (laywomen)</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>B. Buddha's Life — Key Events <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Event</th><th>Location</th><th>Modern State</th><th>Year</th></tr>
+    <tr><td><strong>Birth</strong></td><td>Lumbini (Sakya republic)</td><td>Nepal</td><td>c. 563 BCE</td></tr>
+    <tr><td><strong>Renunciation</strong> (Great Departure)</td><td>Kapilavastu</td><td>Nepal/UP</td><td>c. 533 BCE (age 29)</td></tr>
+    <tr><td><strong>Enlightenment</strong> (Bodhi)</td><td>Bodh Gaya (under Bodhi tree)</td><td>Bihar 🔶</td><td>c. 528 BCE (age 35)</td></tr>
+    <tr><td><strong>First sermon</strong> (Dharmachakra Pravartana)</td><td>Sarnath (Deer Park, near Varanasi)</td><td>UP</td><td>c. 528 BCE</td></tr>
+    <tr><td><strong>Death</strong> (Mahaparinirvana)</td><td>Kushinagar</td><td>UP</td><td>c. 483 BCE (age 80)</td></tr>
+  </table>
+
+  <h3>C. Four Buddhist Councils — Bihar Connection <span class="current-tag">BIHAR SPECIFIC</span></h3>
+  <table>
+    <tr><th>Council</th><th>Year</th><th>Location</th><th>Patron</th><th>Outcome</th></tr>
+    <tr><td><strong>First</strong></td><td>c. 483 BCE</td><td>Rajgir (Saptaparni cave) 🔶</td><td>Ajatashatru</td><td>Sutta Pitaka + Vinaya Pitaka; presided by Mahakassapa</td></tr>
+    <tr><td><strong>Second</strong></td><td>c. 383 BCE</td><td>Vaishali 🔶</td><td>Kalashoka</td><td>Schism: Sthaviras vs Mahasanghikas (over monastic rules)</td></tr>
+    <tr><td><strong>Third</strong></td><td>c. 250 BCE</td><td>Pataliputra 🔶</td><td>Ashoka</td><td>Abhidhamma Pitaka; Buddhist missionaries sent abroad</td></tr>
+    <tr><td><strong>Fourth</strong></td><td>c. 72 CE</td><td>Kashmir</td><td>Kanishka</td><td>Split: Hinayana (Theravada) vs Mahayana; Sanskrit commentaries</td></tr>
+  </table>
+  <p><strong>Note:</strong> all first three Buddhist Councils were held in Bihar! Only the fourth was in Kashmir.</p>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — L-B-S-K:</strong><br>
+    <strong>L</strong>umbini (birth) → <strong>B</strong>odh Gaya (enlightenment, Bihar) → <strong>S</strong>arnath (first sermon) → <strong>K</strong>ushinagar (death).<br>
+    <em>"LBSK: the four key events of the Buddha's life."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Cradle of Both Buddhism AND Jainism</div>
+    <h3>Buddhism in Bihar:</h3>
+    <ul>
+      <li><strong>Bodh Gaya:</strong> the Buddha attained enlightenment (c. 528 BCE) under the Bodhi tree. Mahabodhi Temple = UNESCO World Heritage Site (2002). The most important Buddhist pilgrimage site in the world.</li>
+      <li><strong>Rajgir:</strong> First Buddhist Council (c. 483 BCE, Saptaparni cave); Veluvana monastery (first Buddhist monastery, given by Bimbisara); Gridhakuta (Vulture Peak, where the Buddha preached the Lotus Sutra).</li>
+      <li><strong>Vaishali:</strong> Second Buddhist Council (c. 383 BCE); the Buddha's last sermon before his death.</li>
+      <li><strong>Pataliputra:</strong> Third Buddhist Council (c. 250 BCE, under Ashoka); the capital of the Mauryan Empire — where Ashoka ruled and promoted Buddhism.</li>
+      <li><strong>Nalanda:</strong> the great Buddhist university (5th-12th century CE) — one of the world's first residential universities. Founded by Kumargupta I (c. 427 CE). Destroyed by Bakhtiyar Khalji (~1200 CE). UNESCO (2016).</li>
+    </ul>
+    <h3>Jainism in Bihar:</h3>
+    <ul>
+      <li><strong>Vaishali (Kundagrama):</strong> birthplace of Mahavira (c. 599 BCE). Mahavira was born in the Jnatrika clan — a subordinate of the Licchavi confederacy of Vaishali.</li>
+      <li><strong>Rajgir (Jrimbhakagrama):</strong> Mahavira attained Kevala Jnana (omniscience) near Rajgir — after 12 years of severe asceticism.</li>
+      <li><strong>Pawapuri (Nalanda district):</strong> Mahavira attained Nirvana (death) at Pawapuri (c. 527 BCE). The Jal Mandir (a temple in a lotus pond) marks the cremation site — a major Jain pilgrimage destination.</li>
+      <li><strong>First Jain Council:</strong> held at Pataliputra (Bihar) — c. 527 BCE, presided by Sthulabhadra. Compiled the 12 Angas (the core Jain texts) — in Ardhamagadhi Prakrit.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="100_mahajanapadas.html">Topic 100 (Mahajanapadas):</a></strong> Both Buddhism and Jainism originated in the Mahajanapada period (6th century BCE). The Buddha and Mahavira preached in Magadha, Kosala, and Vajji (all in Bihar/UP). The first three Buddhist Councils were held in Bihar.</li>
+    <li><strong><a href="102_mauryan_empire.html">Topic 102 (Mauryan Empire):</a></strong> Ashoka (268-232 BCE) promoted Buddhism — he convened the Third Buddhist Council (Pataliputra), sent Buddhist missionaries abroad, and built stupas (including the Great Stupa at Sanchi). Chandragupta Maurya embraced Jainism in his later years — he abdicated and became a Jain monk, fasting to death (Sallekhana) at Shravanabelagola (Karnataka).</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Bodh Gaya:</strong> the most important Buddhist pilgrimage site in the world — the Mahabodhi Temple is a UNESCO World Heritage Site (2002). Dalai Lama visits regularly. International Buddhist conferences held here.</li>
+    <li><strong>Nalanda:</strong> UNESCO World Heritage Site (2016). A new Nalanda University has been established near the ruins (2014) — as an international university, reviving the ancient legacy.</li>
+    <li><strong>Pawapuri:</strong> a major Jain pilgrimage site — the Jal Mandir attracts thousands of Jain pilgrims every year, especially during Mahavir Jayanti.</li>
+    <li><strong>Buddhism globally:</strong> ~500 million Buddhists worldwide (mostly in China, Japan, SE Asia, Sri Lanka, Tibet). Buddhism spread from Bihar (via Ashoka's missionaries, 250 BCE) to become a world religion.</li>
+    <li><strong>Jainism globally:</strong> ~4-5 million Jains (mostly in India — Gujarat, Rajasthan, Maharashtra, Karnataka). Jainism's principle of ahimsa influenced Gandhi and the Indian freedom movement.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Gautama Buddha was born in which place (in modern Nepal)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Lumbini (in the Sakya republic, modern Nepal)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Bodh Gaya (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Sarnath (UP)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Kushinagar (UP)</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Lumbini (Nepal, c. 563 BCE). UNESCO World Heritage Site (1997). Father: Suddhodana (Sakya king). Mother: Mahamaya. Personal name: Siddhartha; clan: Gautama.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Gautama Buddha attained enlightenment (Bodhi) under which tree and at which place?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Bodhi tree at Bodh Gaya (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Banyan tree at Lumbini</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Peepal tree at Sarnath</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Mango tree at Kushinagar</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Bodhi tree (peepal) at Bodh Gaya (Bihar), c. 528 BCE, age 35. 49 days of meditation. Mahabodhi Temple = UNESCO (2002). Bihar = enlightenment.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Buddha delivered his first sermon (Dharmachakra Pravartana) at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Sarnath (near Varanasi, UP)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Bodh Gaya (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Rajgir (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Vaishali (Bihar)</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — Sarnath (Deer Park, near Varanasi, UP), c. 528 BCE. Taught Four Noble Truths + Eightfold Path to first 5 disciples. Dhamek Stupa marks the spot.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Buddha attained Mahaparinirvana (death/final liberation) at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Kushinagar (in modern UP)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Bodh Gaya (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Lumbini (Nepal)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Sarnath (UP)</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — Kushinagar (UP), c. 483 BCE, age 80. Last words: 'All conditioned things are impermanent.' Relics divided among 8 kingdoms → stupas.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The Four Noble Truths (Arya Satya) of Buddhism are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Dukkha (suffering), Samudaya (cause), Nirodha (cessation), Magga (path)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Dharma, Artha, Kama, Moksha</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Brahman, Atman, Karma, Samsara</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Right view, right intention, right speech, right action</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — Dukkha (suffering exists), Samudaya (cause = desire), Nirodha (cessation possible), Magga (path = Eightfold Path). Core teachings, first sermon at Sarnath.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The Eightfold Path (Astangika Magga) of Buddhism includes:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, right concentration</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Four Noble Truths only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Five Precepts only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Ten Commandments</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — 8 steps: right view, intention, speech, action, livelihood, effort, mindfulness, concentration. Grouped: wisdom (1-2), morality (3-5), meditation (6-8).</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Mahavira, the 24th Tirthankara of Jainism, was born at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. Kundagrama (near Vaishali, Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Lumbini (Nepal)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Bodh Gaya (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. Pawapuri (Bihar)</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Kundagrama (suburb of Vaishali, Bihar), c. 599 BCE. Father: Siddhartha (Jnatrika clan leader). Mother: Trishala (Licchavi princess). Personal name: Vardhamana. Bihar = birthplace of Mahavira.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Mahavira attained Nirvana (death) at which place (in Bihar)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Pawapuri (in modern Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Kundagrama (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Bodh Gaya (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Rajgir (Bihar)</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Pawapuri (Nalanda district, Bihar), c. 527 BCE, age 72. Jal Mandir (temple in lotus pond) marks cremation site. Major Jain pilgrimage. After death: Jainism split into Digambara + Svetambara.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Buddhism and Jainism both emerged in which century BCE?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. 6th century BCE (c. 600-500 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. 4th century BCE</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. 8th century BCE</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. 3rd century BCE</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — 6th century BCE. Both as a reaction against Vedic ritualism + caste system. Buddha (563-483 BCE) and Mahavira (599-527 BCE) = contemporaries. 'Sramana movement.'</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The Tripitaka ('Three Baskets') is the sacred text of which religion?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Buddhism</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Jainism</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Hinduism</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Sikhism</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — Tripitaka = Buddhism. Three baskets: Sutta Pitaka (discourses), Vinaya Pitaka (monastic rules), Abhidhamma Pitaka (philosophy). In Pali. Compiled at First Council (483 BCE).</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The sacred texts of Jainism are called:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Agamas</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Vedas</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Tripitaka</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Puranas</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — Agamas (Jainism). 12 Angas + 12 Upangas + others. In Ardhamagadhi Prakrit. Svetambaras accept 45 Agamas; Digambaras believe original texts were lost.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The principle of 'Ahimsa' (non-violence) is most strictly followed in which religion?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Jainism (the strictest form of non-violence)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Buddhism</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Hinduism</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Sikhism</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — Jainism = strictest ahimsa. Monks wear masks (avoid inhaling insects), sweep ground (avoid stepping), filter water (avoid microorganisms), avoid root vegetables. Buddhism allows meat (if not killed for the monk).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. How many Tirthankaras are there in Jainism?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. 24 (Mahavira being the 24th and last)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. 12</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. 36</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. 48</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — 24 Tirthankaras. First: Rishabhanatha (Adinatha). 23rd: Parshvanatha (c. 8th century BCE). 24th: Mahavira (c. 599-527 BCE). Not founders — they rediscover and teach Jainism in each cosmic cycle.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Buddhist Sangha (monastic community) consisted of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Bhikkhus (monks), Bhikkhunis (nuns), Upasakas (laymen), Upasikas (laywomen)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Only monks</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Only Brahmins</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Only Kshatriyas</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — 4 groups: monks, nuns, laymen, laywomen. Open to all — regardless of caste, gender, social status. Revolutionary in caste-ridden Vedic society. Governed by Vinaya Pitaka.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Five Precepts (Pancha Sila) of Buddhism are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. No killing, no stealing, no sexual misconduct, no lying, no intoxication</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. The Eightfold Path</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. The Four Noble Truths</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. The Ten Commandments</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — 5 precepts: no killing, no stealing, no sexual misconduct, no lying, no intoxication. For lay followers. Monks follow additional Vinaya rules (227 for monks, 311 for nuns).</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Buddhism split into two main branches at the Fourth Buddhist Council (c. 72 CE). These are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Hinayana (Theravada) and Mahayana</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Svetambara and Digambara</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Northern and Southern</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Vajrayana and Tantrayana</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Hinayana (Theravada, 'Way of the Elders' — individual liberation, Pali, Sri Lanka/SE Asia) vs Mahayana ('Greater Vehicle' — Bodhisattva, Sanskrit, East Asia). Split at Fourth Council (Kashmir, c. 72 CE, Kanishka).</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Jainism split into two main sects after Mahavira's death. These are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Digambara ('sky-clad') and Svetambara ('white-clad')</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Hinayana and Mahayana</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Northern and Southern</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Theravada and Mahayana</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Digambara (sky-clad, no clothes, South India) vs Svetambara (white-clad, white robes, West India). Digambaras: women cannot achieve moksha. Svetambaras: women can. Different Agamas.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The three jewels (Triratna) of Buddhism are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Buddha (teacher), Dharma (teaching), Sangha (community)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Four Noble Truths, Eightfold Path, Five Precepts</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Wisdom, morality, meditation</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Dukkha, Samudaya, Nirodha</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Triratna: Buddha (teacher), Dharma (teaching), Sangha (community). 'I take refuge in the Buddha, Dharma, Sangha.' Core declaration of Buddhist faith.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The three jewels (Triratna) of Jainism are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Right faith (Samyak Darshana), Right knowledge (Samyak Jnana), Right conduct (Samyak Charitra)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Ahimsa, Satya, Aparigraha</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Buddha, Dharma, Sangha</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Tirthankara, Agama, Sangha</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — Jain Triratna: Right faith (Samyak Darshana), Right knowledge (Samyak Jnana), Right conduct (Samyak Charitra). All three together = path to moksha.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The Five Vows (Pancha Mahavrata) of Jainism are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Ahimsa (non-violence), Satya (truth), Asteya (non-stealing), Brahmacharya (celibacy), Aparigraha (non-possession)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. The Eightfold Path</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. The Five Precepts of Buddhism</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. The Four Noble Truths</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — 5 vows: ahimsa (non-violence), satya (truth), asteya (non-stealing), brahmacharya (celibacy), aparigraha (non-possession). Stricter for monks (Mahavrata); less strict for lay (Anuvrata). Aparigraha uniquely Jain.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Bihar's connection with Buddhism includes which of the following sites?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. All of the above (Bodh Gaya enlightenment, Rajgir first council, Vaishali second council, Nalanda university, Pataliputra third council)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Bodh Gaya only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Nalanda only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Vaishali only</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Bihar = cradle of Buddhism: Bodh Gaya (enlightenment), Rajgir (First Council), Vaishali (Second Council + last sermon), Pataliputra (Third Council + Ashoka), Nalanda (university). All first 3 Councils in Bihar!</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Bihar's connection with Jainism includes which of the following sites?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. All of the above (Vaishali birthplace of Mahavira, Pawapuri death of Mahavira, Rajgir first Jain council)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. Vaishali only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Pawapuri only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Bodh Gaya only</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Bihar = cradle of Jainism: Vaishali/Kundagrama (Mahavira birth, c. 599 BCE), Pawapuri (Mahavira death, c. 527 BCE), Rajgir (Kevala Jnana + first Jain council, Pataliputra).</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Nalanda University, the great Buddhist centre of learning, was located in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Bihar (near Rajgir)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. UP (near Varanasi)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Tamil Nadu</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Nalanda (Bihar, near Rajgir). Founded by Kumargupta I (c. 427 CE). 10,000 students, 2,000 teachers. Subjects: Buddhism, logic, medicine, astronomy. Destroyed by Bakhtiyar Khalji (~1200 CE). UNESCO (2016).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Which Buddhist council was held at Pataliputra (Bihar) under Ashoka?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Third Buddhist Council (c. 250 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. First (Rajgir)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Second (Vaishali)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Fourth (Kashmir)</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — Third Council: Pataliputra (Bihar, c. 250 BCE), Ashoka. Presided by Moggaliputta Tissa. Compiled Abhidhamma Pitaka. Sent Buddhist missionaries abroad — Buddhism became a world religion.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The Buddha and Mahavira were contemporaries. Which statement about them is correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Both preached in the Magadha-Kosala region (primarily in modern Bihar and UP)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. They never lived in the same region</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. They were enemies</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. They were teacher and student</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — Both preached in Magadha-Kosala (Bihar + UP). Contemporaries (Buddha 563-483 BCE, Mahavira 599-527 BCE). Both: rejected Vedas + caste; used vernacular; emphasised ahimsa; attracted merchants. 'Sramana movement' — reaction against Vedic Brahmanism.</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Buddha's 4 sites (HIGH):</strong> Lumbini (birth, Nepal), Bodh Gaya (enlightenment, Bihar), Sarnath (first sermon, UP), Kushinagar (death, UP). L-B-S-K mnemonic. Know location + modern state for each.</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Bihar — cradle of both (HIGH):</strong> Buddhism: Bodh Gaya + Rajgir + Vaishali + Pataliputra + Nalanda (all in Bihar). Jainism: Vaishali (birth) + Pawapuri (death) + Rajgir (Kevala Jnana). All first 3 Buddhist Councils in Bihar!</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Four Noble Truths + Eightfold Path (MEDIUM):</strong> Dukkha, Samudaya, Nirodha, Magga. Eightfold Path: right view, intention, speech, action, livelihood, effort, mindfulness, concentration. Core Buddhist teachings.</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Jainism basics (MEDIUM):</strong> Mahavira = 24th Tirthankara. 5 vows: ahimsa, satya, asteya, brahmacharya, aparigraha. Triratna: right faith, knowledge, conduct. Sects: Digambara (sky-clad) + Svetambara (white-clad). Strictest ahimsa.</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>Buddhist Councils (MEDIUM):</strong> First (Rajgir, 483, Ajatashatru), Second (Vaishali, 383, Kalashoka), Third (Pataliputra, 250, Ashoka), Fourth (Kashmir, 72, Kanishka). All first 3 in Bihar!</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Sects + texts (LOW):</strong> Buddhism: Hinayana/Mahayana, Tripitaka (Pali). Jainism: Digambara/Svetambara, Agamas (Ardhamagadhi). Know the splits and their distinguishing features.</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>Nalanda + Pawapuri (LOW):</strong> Nalanda (Bihar, Buddhist university, 5th-12th c., UNESCO 2016, destroyed by Bakhtiyar Khalji). Pawapuri (Bihar, Mahavira death, Jal Mandir). Both in Bihar!</div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>R.S. Sharma, <em>Ancient India</em>, Chapter 8 (Buddhism and Jainism)</li>
+    <li>D.N. Jha, <em>Ancient India</em>, Chapter 8</li>
+    <li><a href="https://en.wikipedia.org/wiki/Gautama_Buddha" target="_blank">Wikipedia: Gautama Buddha</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Mahavira" target="_blank">Wikipedia: Mahavira</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 101 — Buddhism and Jainism • Generated 2026-07-17</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'a', q4: 'a', q5: 'a', q6: 'a', q7: 'a', q8: 'a', q9: 'a', q10: 'a',
+  q11: 'a', q12: 'a', q13: 'a', q14: 'a', q15: 'a', q16: 'a', q17: 'a', q18: 'a', q19: 'a', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'a', q24: 'a', q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

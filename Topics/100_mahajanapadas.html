@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>100 - Mahajanapadas | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #100 • TIER B</div>
+  <div class="topic-title">Mahajanapadas — 16 States &amp; Rise of Magadha (Bihar)</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Ancient History</span>
+    <span class="meta-tag">⚖️ Weight: 0.7</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Magadha, Vajji (Vaishali), Anga (Champa)</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>16 Mahajanapadas (~600 BCE):</strong> 4 powerful — Magadha (Bihar), Kosala, Vatsa, Avanti. Magadha = most powerful (capital: Rajgir → Pataliputra). 3 in Bihar: Magadha, Vajji (republic, Vaishali), Anga (Champa). Magadha dynasties: Haryanka → Shishunaga → Nanda → Maurya. Bimbisara, Ajatashatru, Mahapadma Nanda.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of the 16 Mahajanapadas, rise of Magadha, Vajji republic, Buddhist councils, Bihar connection, and 7 exam predictions:
+    <a href="subpages/100_mahajanapadas_detail.html" target="_blank">Mahajanapadas Master Detail →</a>
+  </div>
+
+  <h3>A. The 16 Mahajanapadas — Overview <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>#</th><th>Mahajanapada</th><th>Capital</th><th>Modern Region</th><th>Govt</th><th>Notes</th></tr>
+    <tr><td>1</td><td><strong>Magadha</strong> 🔶</td><td>Rajgir → Pataliputra</td><td>Bihar</td><td>Monarchy</td><td>Most powerful; Haryanka→Shishunaga→Nanda→Maurya</td></tr>
+    <tr><td>2</td><td><strong>Kosala</strong></td><td>Sravasti</td><td>UP</td><td>Monarchy</td><td>King Prasenajit (Buddha's contemporary)</td></tr>
+    <tr><td>3</td><td><strong>Vatsa</strong> (Vamsa)</td><td>Kausambi</td><td>UP (Allahabad)</td><td>Monarchy</td><td>King Udayana</td></tr>
+    <tr><td>4</td><td><strong>Avanti</strong></td><td>Ujjain/ Mahismati</td><td>MP</td><td>Monarchy</td><td>Conquered by Shishunaga of Magadha</td></tr>
+    <tr><td>5</td><td><strong>Vajji</strong> 🔶</td><td>Vaishali</td><td>Bihar (Muzaffarpur)</td><td>Republic (gana-sangha)</td><td>Confederacy of clans (Licchavi); birthplace of Mahavira</td></tr>
+    <tr><td>6</td><td><strong>Anga</strong> 🔶</td><td>Champa</td><td>Bihar (Bhagalpur)</td><td>Monarchy</td><td>Conquered by Bimbisara of Magadha</td></tr>
+    <tr><td>7</td><td><strong>Kasi</strong></td><td>Varanasi</td><td>UP</td><td>Monarchy</td><td>Cotton textiles; conquered by Kosala</td></tr>
+    <tr><td>8</td><td><strong>Malla</strong></td><td>Kusinara/Pava</td><td>UP</td><td>Republic</td><td>Buddha's death at Kusinara</td></tr>
+    <tr><td>9</td><td><strong>Chedi</strong></td><td>Suktimati</td><td>MP/Bundelkhand</td><td>Monarchy</td><td>King Shishupala (Mahabharata)</td></tr>
+    <tr><td>10</td><td><strong>Kuru</strong></td><td>Indraprastha/Hastinapur</td><td>Delhi/UP</td><td>Monarchy</td><td>Mahabharata kingdom</td></tr>
+    <tr><td>11</td><td><strong>Panchala</strong></td><td>Ahichchhatra/Kampilya</td><td>UP (Bareilly)</td><td>Monarchy</td><td>Divided into North + South Panchala</td></tr>
+    <tr><td>12</td><td><strong>Matsya</strong></td><td>Viratanagara</td><td>Rajasthan (Alwar)</td><td>Monarchy</td><td>Mahabharata (Pandavas' exile)</td></tr>
+    <tr><td>13</td><td><strong>Surasena</strong></td><td>Mathura</td><td>UP (Mathura)</td><td>Monarchy</td><td>Krishna's Yadava clan</td></tr>
+    <tr><td>14</td><td><strong>Assaka</strong></td><td>Pratishthana (Paithan)</td><td>Maharashtra/Gujarat</td><td>Monarchy</td><td>Southernmost Mahajanapada</td></tr>
+    <tr><td>15</td><td><strong>Gandhara</strong></td><td>Takshashila</td><td>Pakistan/Afghanistan</td><td>Monarchy</td><td>University of Takshashila</td></tr>
+    <tr><td>16</td><td><strong>Kamboja</strong></td><td>Rajapura</td><td>Kashmir/Afghanistan</td><td>Monarchy/Republic</td><td>Famous for horses</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/bhimbetka.jpg" alt="Ancient Indian heritage">
+    <div class="img-caption">The Mahajanapadas (~600 BCE) emerged from the Later Vedic janapadas. Magadha (Bihar) became the most powerful — its capital Rajgir (surrounded by 5 hills) was naturally defended, and its later capital Pataliputra (at the confluence of Ganga, Son, and Punpun rivers) controlled the Ganga valley trade.</div>
+  </div>
+
+  <h3>B. Magadha — Rise to Power <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Dynasty</th><th>Period</th><th>Founder</th><th>Key Rulers</th><th>Key Events</th></tr>
+    <tr><td><strong>Haryanka</strong></td><td>c. 543-412 BCE</td><td>Bimbisara</td><td>Bimbisara (543-492), Ajatashatru (492-460)</td><td>Conquered Anga + Vajji; capital Rajgir → Pataliputra; First Buddhist Council (483)</td></tr>
+    <tr><td><strong>Shishunaga</strong></td><td>c. 412-344 BCE</td><td>Shishunaga (an amatya)</td><td>Shishunaga, Kalashoka</td><td>Conquered Avanti; capital to Pataliputra; Second Buddhist Council (383, Vaishali)</td></tr>
+    <tr><td><strong>Nanda</strong></td><td>c. 344-322 BCE</td><td>Mahapadma Nanda (Shudra)</td><td>Mahapadma Nanda, Dhana Nanda</td><td>'Destroyer of Kshatriyas'; first standing army; overthrown by Chandragupta Maurya (322)</td></tr>
+  </table>
+
+  <h3>C. Factors for Magadha's Rise <span class="current-tag">EXAM CORE</span></h3>
+  <ul>
+    <li><strong>Fertile land:</strong> Ganga valley agriculture → surplus → taxes → large army</li>
+    <li><strong>Iron deposits:</strong> Magadha controlled the iron-producing areas (Singhbhum/Gaya) → weapons</li>
+    <li><strong>Elephants:</strong> access to elephant forests → war elephants (advantage in battle)</li>
+    <li><strong>Ambitious kings:</strong> Bimbisara (expansion through conquest + marriages), Ajatashatru (conquered Vajji + Kosala), Mahapadma Nanda (conquered all Kshatriya kingdoms)</li>
+    <li><strong>Strategic location:</strong> Rajgir (surrounded by 5 hills — natural defence) → Pataliputra (at the confluence of Ganga, Son, Punpun — trade + defence)</li>
+    <li><strong>River trade:</strong> the Ganga enabled trade with the east (Bengal) and west (UP) — revenue from trade</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>D. Buddhist Councils — Bihar Connection <span class="current-tag">BIHAR SPECIFIC</span></h3>
+  <table>
+    <tr><th>Council</th><th>Year</th><th>Location</th><th>Patron</th><th>Outcome</th></tr>
+    <tr><td><strong>First</strong></td><td>c. 483 BCE</td><td>Rajgir (Saptaparni cave, Bihar)</td><td>Ajatashatru (Magadha)</td><td>Compiled Sutta Pitaka (Ananda) + Vinaya Pitaka (Upali); presided by Mahakassapa</td></tr>
+    <tr><td><strong>Second</strong></td><td>c. 383 BCE</td><td>Vaishali (Bihar)</td><td>Kalashoka (Shishunaga)</td><td>Dispute over monastic rules; schism: Sthaviras vs Mahasanghikas</td></tr>
+    <tr><td><strong>Third</strong></td><td>c. 250 BCE</td><td>Pataliputra (Bihar)</td><td>Ashoka (Maurya)</td><td>Compiled Abhidhamma Pitaka; Buddhism spread; presided by Moggaliputta Tissa</td></tr>
+    <tr><td><strong>Fourth</strong></td><td>c. 72 CE</td><td>Kashmir</td><td>Kanishka (Kushana)</td><td>Split into Hinayana and Mahayana; Sanskrit commentaries</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/stone_age_tools.jpg" alt="Iron tools — key to Magadha's power">
+    <div class="img-caption">Iron tools — key to Magadha's rise. Iron weapons gave Magadha's army a technological edge; iron ploughshares enabled intensive agriculture in the Ganga valley. Magadha controlled the iron-producing areas of Singhbhum and Gaya (both in Bihar).</div>
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — H-S-N-M:</strong><br>
+    <strong>H</strong>aryanka (Bimbisara, Ajatashatru) → <strong>S</strong>hishunaga (Shishunaga, Kalashoka) → <strong>N</strong>anda (Mahapadma, Dhana) → <strong>M</strong>aurya (Chandragupta).<br>
+    <em>"HSNM: the four dynasties of Magadha, from Bimbisara to the Mauryan Empire."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — The Heartland of the Mahajanapadas</div>
+    <ul>
+      <li><strong>Magadha (Rajgir/Pataliputra):</strong> the most powerful Mahajanapada — eventually conquered all others and became the nucleus of the Mauryan Empire. Capital: Rajgir (surrounded by 5 hills) → Pataliputra (confluence of Ganga, Son, Punpun). Key rulers: Bimbisara (founder Haryanka), Ajatashatru (conquered Vajji), Mahapadma Nanda (destroyer of Kshatriyas).</li>
+      <li><strong>Vajji (Vaishali):</strong> a republic (gana-sangha) — confederacy of clans (Licchavi). One of the world's earliest republics. Birthplace of Mahavira (Jainism). Site of the Second Buddhist Council (383 BCE). Conquered by Ajatashatru after a 16-year war.</li>
+      <li><strong>Anga (Champa, Bhagalpur):</strong> conquered by Bimbisara — the first major expansion of Magadha. Champa was a major port on the Ganga — controlling trade with the east.</li>
+      <li><strong>Buddhist Councils:</strong> all four Buddhist councils were associated with Bihar (First at Rajgir, Second at Vaishali, Third at Pataliputra, Fourth related to Kashmir but Buddhism's heart was Bihar). Bihar was the cradle of Buddhism.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="99_vedic_age.html">Topic 99 (Vedic Age):</a></strong> The Later Vedic janapadas evolved into the 16 Mahajanapadas (~600 BCE). The Videha kingdom (Mithila, Bihar) was absorbed by the Vajji confederacy, which was then conquered by Magadha.</li>
+    <li><strong>Topic 101 (Buddhism &amp; Jainism):</strong> Both Buddhism and Jainism originated in the Mahajanapada period (6th century BCE). The Buddha and Mahavira were contemporaries — both preached in the Mahajanapada kingdoms (especially Magadha, Kosala, Vajji). The first three Buddhist councils were held in Bihar.</li>
+    <li><strong><a href="102_mauryan_empire.html">Topic 102 (Mauryan Empire):</a></strong> Chandragupta Maurya overthrew the last Nanda king (Dhana Nanda, 322 BCE) and founded the Mauryan Empire — the first pan-Indian empire. The Mauryan capital was Pataliputra (Bihar).</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Rajgir:</strong> a major tourist and pilgrimage destination — site of the Saptaparni cave (First Buddhist Council), Gridhakuta (Vulture Peak, where the Buddha preached), and hot springs.</li>
+    <li><strong>Vaishali:</strong> one of the world's earliest republics — a heritage site in Bihar, with the Ashokan pillar (Lion Capital) and the relic stupa of the Buddha.</li>
+    <li><strong>Pataliputra (Patna):</strong> modern Patna — the capital of Bihar — was one of the largest cities in the ancient world. It was described by Megasthenes (the Greek ambassador, c. 300 BCE) in his 'Indica'.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. How many Mahajanapadas existed in ancient India around 600 BCE?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. 16 (solasa mahajanapadas)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. 12</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. 20</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. 8</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — 16 Mahajanapadas (~600 BCE). Listed in Buddhist text Anguttara Nikaya + Jain text Bhagavati Sutra. Most powerful: Magadha, Kosala, Vatsa, Avanti.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Which of the following was the most powerful Mahajanapada?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Magadha (capital: Rajgir → Pataliputra, Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Kosala (capital: Sravasti)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Vatsa (capital: Kausambi)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Avanti (capital: Ujjain)</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Magadha (Bihar) = most powerful. Capital: Rajgir → Pataliputra. Advantages: fertile land, iron, elephants, ambitious kings, strategic location. Eventually became the Mauryan Empire.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Magadha's first capital was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Rajgir (Girivraja)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Pataliputra</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Vaishali</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Champa</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — Rajgir (Girivraja, 'surrounded by hills') = first capital. Surrounded by 5 hills = natural defence. Bimbisara's capital. Later shifted to Pataliputra (Ajatashatru/Udayin).</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Who was the founder of the Haryanka dynasty of Magadha?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Bimbisara (c. 543-492 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Ajatashatru</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Shishunaga</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Mahapadma Nanda</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — Bimbisara (543-492 BCE) founded the Haryanka dynasty. Expanded through conquest (Anga) + marriages. Patron of Buddhism. Imprisoned and killed by son Ajatashatru.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Ajatashatru (c. 492-460 BCE) is known for:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Conquering Vaishali (Vajji confederacy) and Kosala; sponsoring the First Buddhist Council</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Building the Qutub Minar</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Conquering the Deccan</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Introducing iron to Magadha</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — Ajatashatru: conquered Vaishali (16-year war, c. 485 BCE) + Kosala; sponsored First Buddhist Council (Rajgir, 483 BCE); shifted capital to Pataliputra. Killed his father Bimbisara.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The three dynasties that ruled Magadha before the Mauryas were:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Haryanka, Shishunaga, Nanda</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Maurya, Gupta, Kushana</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Haryanka, Gupta, Nanda</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Shishunaga, Maurya, Nanda</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — Haryanka (543-412, Bimbisara/Ajatashatru) → Shishunaga (412-344) → Nanda (344-322, Mahapadma/Dhana). Nandas overthrown by Chandragupta Maurya (322 BCE).</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Mahapadma Nanda, the founder of the Nanda dynasty, was known as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. The 'destroyer of Kshatriyas' (conquered many Kshatriya kingdoms)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. The 'builder of Pataliputra'</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. The 'patron of Buddhism'</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. The 'iron king'</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Mahapadma Nanda = 'destroyer of Kshatriyas.' Shudra background. First standing army (200,000 infantry, 20,000 cavalry, 3,000 elephants). Overthrown by Chandragupta Maurya (322 BCE).</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Which Mahajanapada was a republic (gana-sangha) rather than a monarchy?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Vajji (Vajji confederacy, capital: Vaishali)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Magadha</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Kosala</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Vatsa</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Vajji (Vaishali, Bihar) = republic (gana-sangha). Confederacy of clans (Licchavi). One of world's earliest republics. Birthplace of Mahavira. Conquered by Ajatashatru (c. 485 BCE).</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Vaishali, the capital of the Vajji confederacy, is in which modern state?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Bihar (near Muzaffarpur)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Uttar Pradesh</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Punjab</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Vaishali is in Bihar (Muzaffarpur/Vaishali district). Birthplace of Mahavira. Site of Second Buddhist Council (383 BCE). Buddha's last sermon. One of world's earliest republics.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The Vajji confederacy was conquered by which Magadhan king after a 16-year war?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Ajatashatru (c. 485 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Bimbisara</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Mahapadma Nanda</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Chandragupta Maurya</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — Ajatashatru conquered Vaishali after a 16-year war (c. 485 BCE). Used minister Vassakara to sow dissension + mahashilakantaka (catapult) + war elephant. Made Magadha dominant in Bihar.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which Mahajanapada was known for its cotton textiles and trade?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Kasi (capital: Varanasi)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Magadha</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Gandhara</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Kamboja</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — Kasi (Varanasi) = cotton textiles + trade. Banarsi silk legacy. Holiest city in Hinduism. Conquered by Kosala (King Prasenajit).</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Kosala, one of the four powerful Mahajanapadas, had its capital at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Sravasti (in modern UP)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Ayodhya</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Varanasi</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Pataliputra</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — Kosala capital: Sravasti (UP). King Prasenajit (Buddha's contemporary). Buddha spent time at Jetavana monastery. Conquered by Magadha (Ajatashatru).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The Second Buddhist Council was held at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Vaishali (c. 383 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Rajgir</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Pataliputra</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Kashmir</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Second Council: Vaishali (c. 383 BCE), during Kalashoka (Shishunaga). Dispute over monastic rules (gold/silver). Schism: Sthaviras (Theravada) vs Mahasanghikas (Mahayana).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The First Buddhist Council was held at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Rajgir (c. 483 BCE, at the Saptaparni cave)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Vaishali</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Pataliputra</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Kashmir</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — First Council: Rajgir (Saptaparni cave, c. 483 BCE), sponsored by Ajatashatru. Presided by Mahakassapa. Compiled Sutta Pitaka (Ananda) + Vinaya Pitaka (Upali). Established Buddhist canon (Tripitaka).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Magadha's rise to power was due to which factors?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. All of the above (fertile land, iron deposits, elephants, ambitious kings, strategic location)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Fertile land only</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Iron deposits only</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Elephants only</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Multiple factors: fertile Ganga valley (surplus → taxes → army), iron (weapons, Singhbhum/Gaya), elephants (war), ambitious kings (Bimbisara, Ajatashatru, Mahapadma Nanda), strategic location (Rajgir hills, Pataliputra rivers).</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The Anga Mahajanapada (capital: Champa, in modern Bihar) was conquered by which Magadhan king?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Bimbisara (c. 543-492 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Ajatashatru</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Shishunaga</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Mahapadma Nanda</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Bimbisara conquered Anga (capital: Champa, Bhagalpur, Bihar). First major expansion of Magadha. Champa was a major Ganga port — controlling trade with the east.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Pataliputra (modern Patna) was founded as Magadha's capital by which king?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Ajatashatru (c. 492-460 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Bimbisara</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Udayin (Shishunaga dynasty)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Chandragupta Maurya</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Ajatashatru founded Pataliputra (as a fort); Udayin made it the permanent capital. At confluence of Ganga, Son, Punpun. One of the largest cities in the ancient world (Megasthenes' Indica).</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Arrange the Magadhan dynasties in chronological order: 1. Haryanka 2. Shishunaga 3. Nanda 4. Maurya</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. 1, 2, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. 2, 1, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. 1, 3, 2, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. 3, 1, 2, 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Haryanka (543-412) → Shishunaga (412-344) → Nanda (344-322) → Maurya (322-185). HSNM mnemonic. Nandas overthrown by Chandragupta Maurya (322 BCE) with Chanakya.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Which Mahajanapada was located in modern Gujarat/Maharashtra?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Assaka (capital: Potana/Pratishthana)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Magadha</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Kosala</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Vajji</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — Assaka (Asmaka) = southernmost Mahajanapada (Gujarat/Maharashtra). Capital: Pratishthana (Paithan, on Godavari). Only Mahajanapada south of Vindhyas. Conquered by Satavahanas.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The Shishunaga dynasty was founded by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Shishunaga (c. 412 BCE, an amatya/official who overthrew the Haryanka dynasty)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Bimbisara</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Mahapadma Nanda</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Kalashoka</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Shishunaga (an amatya/official) overthrew the last Haryanka king (Nagadasaka). Conquered Avanti (Ujjain) — unifying north India under Magadha. Son Kalashoka: Second Buddhist Council (Vaishali, 383 BCE).</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The Nanda dynasty was overthrown by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Chandragupta Maurya (322 BCE, with the help of Chanakya)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Bimbisara</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Ashoka</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Pushyamitra Shunga</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Chandragupta Maurya (322 BCE) overthrew the last Nanda king (Dhana Nanda) with Chanakya (Kautilya, author of Arthashastra). Founded the Mauryan Empire — first pan-Indian empire.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Bihar's connection with the Mahajanapadas was through:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. Magadha (most powerful, Rajgir/Pataliputra) + Vajji (republic, Vaishali) + Anga (Champa)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. Kosala only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Avanti only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Gandhara only</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — 3 Mahajanapadas in Bihar: Magadha (most powerful, Rajgir/Pataliputra), Vajji (republic, Vaishali, birthplace of Mahavira), Anga (Champa, Bhagalpur). Bihar = heartland of Mahajanapadas + Buddhism + Jainism.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Bimbisara was a patron of which religion?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Buddhism (he met the Buddha and became his follower)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Jainism only</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Hinduism only</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Ajivika only</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Bimbisara = patron of Buddhism. Met the Buddha (c. 528 BCE), became follower. Gave Veluvana monastery (first Buddhist monastery, near Rajgir). Also patronised Jainism (Mahavira was contemporary).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The Vajji confederacy was praised by the Buddha for which of its practices?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Its democratic system (decisions by council, meetings, harmony)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Its military power</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Its wealth</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Its temples</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — Buddha praised Vajji's democratic system (Mahaparinibbana Sutta): 'seven conditions of welfare' — regular meetings, concord, traditions, respect for elders/women/shrines/Dharma. Ajatashatru undermined these before conquering.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which Magadhan king is associated with the shift of capital from Rajgir to Pataliputra?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Udayin (c. 460-444 BCE, Shishunaga dynasty)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Bimbisara</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Mahapadma Nanda</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Ashoka</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — Udayin (c. 460-444 BCE, Shishunaga) formally shifted capital to Pataliputra. Ajatashatru founded it as a fort. Pataliputra at confluence of Ganga/Son/Punpun = trade + defence. Capital of Magadha/Mauryas/Guptas for 800+ years.</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>16 Mahajanapadas + 4 powerful (HIGH):</strong> 16 total. 4 most powerful: Magadha (Bihar), Kosala, Vatsa, Avanti. Know the list (from Anguttara Nikaya + Bhagavati Sutra). 3 in Bihar: Magadha, Vajji, Anga.</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Magadha — rise + dynasties (HIGH):</strong> Haryanka (Bimbisara, Ajatashatru) → Shishunaga → Nanda (Mahapadma) → Maurya. Capital: Rajgir → Pataliputra. Factors: fertile land, iron, elephants, kings, location. HSNM mnemonic.</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Bihar — 3 Mahajanapadas (HIGH):</strong> Magadha (Rajgir/Pataliputra, most powerful), Vajji (Vaishali, republic, Mahavira), Anga (Champa, Bhagalpur). Bihar = heartland of Mahajanapadas + Buddhism + Jainism.</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Vajji republic (MEDIUM):</strong> Gana-sangha (republic). Confederacy of clans (Licchavi). Vaishali (Bihar). Birthplace of Mahavira. Buddha praised democratic system. Conquered by Ajatashatru (16-year war).</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>Buddhist Councils (MEDIUM):</strong> First (Rajgir, 483 BCE, Ajatashatru), Second (Vaishali, 383 BCE, Kalashoka), Third (Pataliputra, 250 BCE, Ashoka). All three in Bihar! Fourth (Kashmir, Kanishka).</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Key rulers (LOW):</strong> Bimbisara (founder Haryanka, patron of Buddhism, conquered Anga), Ajatashatru (conquered Vajji+Kosala, First Buddhist Council), Mahapadma Nanda ('destroyer of Kshatriyas', first standing army).</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>Nandas → Mauryas (LOW):</strong> Mahapadma Nanda (Shudra, first standing army). Dhana Nanda (last, overthrown by Chandragupta Maurya 322 BCE with Chanakya). Beginning of Mauryan Empire.</div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>R.S. Sharma, <em>Ancient India</em>, Chapter 7 (Mahajanapadas)</li>
+    <li>D.N. Jha, <em>Ancient India</em>, Chapter 7</li>
+    <li><a href="https://en.wikipedia.org/wiki/Mahajanapadas" target="_blank">Wikipedia: Mahajanapadas</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Magadha" target="_blank">Wikipedia: Magadha</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 100 — Mahajanapadas • Generated 2026-07-17</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'a', q4: 'a', q5: 'a', q6: 'a', q7: 'a', q8: 'a', q9: 'a', q10: 'a',
+  q11: 'a', q12: 'a', q13: 'a', q14: 'a', q15: 'a', q16: 'a', q17: 'a', q18: 'a', q19: 'a', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'a', q24: 'a', q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

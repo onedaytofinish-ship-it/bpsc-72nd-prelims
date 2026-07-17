@@ -71,7 +71,7 @@
 
     // Progress indicator
     var progress = '<div class="bpsc-navbar-progress">';
-    progress += '<span class="progress-val">40</span>/158 topics • 25.3%';
+    progress += '<span class="progress-val">43</span>/158 topics • 27.2%';
     progress += '</div>';
 
     navbar.innerHTML = brand + links + progress;

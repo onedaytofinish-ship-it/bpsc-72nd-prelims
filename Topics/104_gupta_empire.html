@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>104 - Gupta Empire | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #104 • TIER B</div>
+  <div class="topic-title">Gupta Empire — Golden Age — PATALIPUTRA</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Ancient History</span>
+    <span class="meta-tag">⚖️ Weight: 0.7</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Pataliputra (capital), Nalanda University, Gupta heartland</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Gupta Empire (c. 320-550 CE, ~230 years):</strong> Founded by Srigupta, real founder = Chandragupta I (Gupta Era 319-320 CE). Peak under Samudragupta (Napoleon of India) + Chandragupta II Vikramaditya (Navaratna, defeated Shakas 409 CE). Capital: Pataliputra (Bihar). 'Golden Age' — Kalidasa, Aryabhata, Ajanta paintings, Nalanda University (Kumargupta I, 427 CE). Decline: Hun invasions (5th-6th c.), Skandagupta fought them. Fa-Hien visited (405-411 CE).
+  </div>
+
+  <div class="img-container">
+    <img src="images/mahabodhi_temple.jpg" alt="Gupta-era temple architecture — Bodh Gaya (Bihar), near the Gupta capital Pataliputra">
+    <div class="img-caption">Bodh Gaya (Bihar) — near the Gupta capital Pataliputra. The Guptas patronised Buddhist sites and built the original Mahabodhi Temple complex.</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/chola_temple.jpg" alt="Gupta-era temple architecture — Golden Age of Indian art and architecture">
+    <div class="img-caption">Gupta 'Golden Age' saw the emergence of early Hindu temple architecture — the template for all later Indian temples.</div>
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of the Gupta Empire, rulers, Golden Age achievements, Bihar connections, and 7 exam predictions:
+    <a href="subpages/104_gupta_empire_detail.html" target="_blank">Gupta Empire Master Detail →</a>
+  </div>
+
+  <h3>A. Gupta Rulers — Key Facts <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Ruler</th><th>Reign</th><th>Key Facts</th></tr>
+    <tr><td><strong>Srigupta</strong></td><td>c. 240-280 CE</td><td>Founder. First Gupta king. Ruled from Pataliputra (Bihar).</td></tr>
+    <tr><td><strong>Chandragupta I</strong></td><td>c. 319-334 CE</td><td>Real founder. Started Gupta Era (319-320 CE). Title: 'Maharajadhiraja.' Married Kumaradevi (Lichchhavi princess).</td></tr>
+    <tr><td><strong>Samudragupta</strong></td><td>c. 335-380 CE</td><td>'Napoleon of India.' Allahabad Pillar inscription (by Harisena). Conquered Aryavarta + Dakshinapatha. Musician (veena on coins), poet ('Kaviraja').</td></tr>
+    <tr><td><strong>Chandragupta II Vikramaditya</strong></td><td>c. 380-415 CE</td><td>Defeated Shakas (409 CE, Gujarat). Navaratna (Nine Gems including Kalidasa). Fa-Hien visited. Iron Pillar of Delhi. Peak of Golden Age.</td></tr>
+    <tr><td><strong>Kumargupta I</strong></td><td>c. 415-455 CE</td><td>Founded Nalanda University (c. 427 CE, Bihar). Maintained empire. Last stable Gupta king before Hun invasions.</td></tr>
+    <tr><td><strong>Skandagupta</strong></td><td>c. 455-467 CE</td><td>Last great Gupta. Defeated Huns. Restored Sudarshana Lake (Junagadh inscription). Treasury exhausted. Empire declined after him.</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>B. Golden Age Achievements <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Field</th><th>Achievement</th><th>Key Person</th></tr>
+    <tr><td><strong>Literature</strong></td><td>Shakuntala, Meghaduta, Raghuvamsha, Kumarasambhava (Sanskrit)</td><td>Kalidasa (Navaratna of Chandragupta II)</td></tr>
+    <tr><td><strong>Mathematics/Astronomy</strong></td><td>Aryabhatiya — pi, Earth rotation, eclipses, sine table, place-value</td><td>Aryabhata (c. 476-550 CE)</td></tr>
+    <tr><td><strong>Medicine</strong></td><td>Sushruta Samhita (surgery), Charaka Samhita (medicine)</td><td>Sushruta, Charaka (compiled/refined)</td></tr>
+    <tr><td><strong>Astronomy</strong></td><td>Brihat Samhita, Panchasiddhantika</td><td>Varahamihira (Navaratna)</td></tr>
+    <tr><td><strong>Lexicography</strong></td><td>Amarakosha (Sanskrit thesaurus/lexicon)</td><td>Amarasimha (Navaratna)</td></tr>
+    <tr><td><strong>Art</strong></td><td>Ajanta Caves paintings (frescoes, Jataka tales)</td><td>Gupta artists (caves 16-27)</td></tr>
+    <tr><td><strong>Architecture</strong></td><td>First Hindu temples (flat-roofed → shikhara), Dashavatara Temple (Deogarh)</td><td>Gupta architects</td></tr>
+    <tr><td><strong>Metallurgy</strong></td><td>Iron Pillar of Delhi (rust-free for ~1600 years)</td><td>Gupta metallurgists (Chandragupta II)</td></tr>
+    <tr><td><strong>Education</strong></td><td>Nalanda University (10,000 students, 2,000 teachers)</td><td>Kumargupta I (founder, c. 427 CE)</td></tr>
+  </table>
+
+  <h3>C. Foreign Visitors <span class="current-tag">EXAM PATTERN</span></h3>
+  <table>
+    <tr><th>Visitor</th><th>Period</th><th>Reign</th><th>Account</th></tr>
+    <tr><td><strong>Fa-Hien (Faxian)</strong></td><td>c. 405-411 CE</td><td>Chandragupta II</td><td>'Fo-kwo-ki' (Record of Buddhist Kingdoms). Peaceful, prosperous, low taxes, no capital punishment. Visited Lumbini, Bodh Gaya, Sarnath, Kushinagar.</td></tr>
+    <tr><td><strong>Hiuen Tsang (Xuanzang)</strong></td><td>c. 630-645 CE</td><td>Harsha (post-Gupta)</td><td>'Si-yu-ki.' Visited Nalanda (Bihar). Studied 5 years. Met Harsha. Crucial source for post-Gupta India.</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — S-C-S-C-K-S:</strong><br>
+    <strong>S</strong>rigupta (founder) → <strong>C</strong>handragupta I (real founder, Gupta Era) → <strong>S</strong>amudragupta (Napoleon) → <strong>C</strong>handragupta II (Vikramaditya, Golden Age peak) → <strong>K</strong>umargupta I (Nalanda) → <strong>S</strong>kandagupta (Huns, last great).<br>
+    <em>"S-C-S-C-K-S: six Gupta kings in order."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Gupta Heartland and Golden Age Centre</div>
+    <ul>
+      <li><strong>Pataliputra (Patna):</strong> the Gupta capital — administrative and cultural centre of the 'Golden Age.' Chandragupta I, Samudragupta, and Chandragupta II all ruled from Pataliputra (Bihar). The Allahabad Pillar (originally at Prayag) records Samudragupta's conquests.</li>
+      <li><strong>Nalanda University:</strong> founded by Kumargupta I (c. 427 CE) in Bihar — near Rajgir. It became the world's greatest centre of Buddhist learning (10,000 students, 2,000 teachers from China, Korea, Tibet, Central Asia). Destroyed by Bakhtiyar Khalji (~1200 CE). UNESCO World Heritage Site (2016).</li>
+      <li><strong>Gupta origin:</strong> the Guptas likely originated from the Magadha region (Bihar) — they were initially a local family that rose to power. Pataliputra had been the capital of the Mauryas and Shungas before the Guptas.</li>
+      <li><strong>Buddhist sites:</strong> the Guptas patronised Buddhist sites in Bihar — Bodh Gaya, Nalanda, Rajgir. Although Hindu (Vaishnavite), they were tolerant of Buddhism. Nalanda flourished under Gupta patronage.</li>
+      <li><strong>Hiuen Tsang at Nalanda:</strong> the Chinese pilgrim Hiuen Tsang studied at Nalanda (Bihar) for 5 years (c. 630-645 CE) — during the post-Gupta period (Harsha's reign). His account is a crucial source for Nalanda and Bihar.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="103_post_mauryan.html">Topic 103 (Post-Mauryan):</a></strong> After the Post-Mauryan fragmentation (Shungas, Kushanas, Satavahanas), the Guptas reunified north India from Pataliputra (c. 320 CE). The Guptas inherited the Mauryan capital and restored centralized rule.</li>
+    <li><strong><a href="101_buddhism_jainism.html">Topic 101 (Buddhism & Jainism):</a></strong> The Guptas (Hindu/Vaishnavite) patronised Buddhism — founding Nalanda University (Bihar). Buddhist art flourished (Ajanta caves). Kalidasa wrote Buddhist-influenced literature. Hinduism was state religion but Buddhism was tolerated.</li>
+    <li><strong><a href="102_mauryan_empire.html">Topic 102 (Mauryan Empire):</a></strong> Both the Mauryas and Guptas ruled from Pataliputra (Bihar). The Mauryas (321-185 BCE) and Guptas (320-550 CE) were the two greatest empires of ancient India — both centred in Bihar.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Nalanda University:</strong> a new Nalanda University was established (2014) near the ancient ruins — as an international university, reviving the ancient legacy. UNESCO World Heritage Site (2016). A symbol of India's educational heritage.</li>
+    <li><strong>Aryabhata's legacy:</strong> India's first satellite was named 'Aryabhata' (1975). Aryabhata's calculation of pi and his heliocentric insights are celebrated as foundational to Indian mathematics and astronomy.</li>
+    <li><strong>Kalidasa's Shakuntala:</strong> translated into English by William Jones (1789) — it created a sensation in Europe. Goethe admired it. Kalidasa is often called the 'Shakespeare of India.'</li>
+    <li><strong>Iron Pillar of Delhi:</strong> a testament to Gupta-era metallurgy — it has not rusted in ~1600 years. It is a major tourist attraction at Mehrauli (Delhi) and a subject of scientific research.</li>
+    <li><strong>Ajanta Caves:</strong> UNESCO World Heritage Site (1983). The Gupta-era frescoes are considered some of the finest art of ancient India — inspiring artists and scholars worldwide.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Who founded the Gupta Empire and when?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Srigupta (c. 240-280 CE), the first Gupta king</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Chandragupta II</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Samudragupta</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Skandagupta</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Srigupta (c. 240-280 CE) was the founder. First Gupta king, ruled from Pataliputra (Bihar). Son Ghatotkacha succeeded. Gupta Era from Chandragupta I (319-320 CE).</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Chandragupta I (c. 319-334 CE) is considered the real founder of the Gupta Empire. What was his key achievement?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. He started the Gupta Era (c. 319-320 CE) and assumed the title 'Maharajadhiraja'</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. He conquered the Deccan</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. He defeated the Huns</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. He built Nalanda University</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Chandragupta I: started Gupta Era (319-320 CE), title 'Maharajadhiraja,' married Kumaradevi (Lichchhavi princess). Ruled from Pataliputra (Bihar).</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Samudragupta (c. 335-380 CE), the greatest Gupta conqueror, is known by which title?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. 'Napoleon of India' (for his military conquests across India)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. 'Golden Age King'</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. 'Dhamma Raja'</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. 'Silk Route King'</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — Samudragupta = 'Napoleon of India' (V.A. Smith). Allahabad Pillar (by Harisena) records conquests: Aryavarta (direct rule), Dakshinapatha (12 kings defeated, released), frontier kings (tribute). Also musician, poet.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Allahabad Pillar Inscription, which records Samudragupta's conquests, was composed by which poet?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Harisena (Samudragupta's court poet and minister)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Kalidasa</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Ashvaghosha</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Banabhatta</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — Harisena (court poet, minister, commander). Allahabad Pillar = 'Prayag Prasasti.' Records Samudragupta's conquests and his skills (music, poetry, scholarship).</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Chandragupta II Vikramaditya (c. 380-415 CE) is famous for defeating which foreign tribe?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. The Shakas (Western Kshatrapas, c. 409 CE — he defeated Rudrasimha III and annexed Gujarat)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. The Huns</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. The Kushanas</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. The Indo-Greeks</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — Chandragupta II defeated Shakas (409 CE), killed Rudrasimha III, annexed Gujarat + Malwa. Title 'Sakari' + 'Vikramaditya.' Access to western ports (Broach, Kalyan, Sopara) and Roman trade.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The 'Navaratna' (Nine Gems) — a council of nine scholars — adorned whose court?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Chandragupta II Vikramaditya's court (c. 380-415 CE)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Samudragupta's court</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Ashoka's court</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Harsha's court</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — Navaratna (Nine Gems) in Chandragupta II's court. Famous: Kalidasa (poet), Varahamihira (astronomer), Dhanvantari (physician), Amarasimha (lexicographer), Shanku (architecture). Peak of Golden Age.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Kalidasa, the greatest Sanskrit poet and dramatist, lived during which period?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. The Gupta period (c. 4th-5th century CE, court poet of Chandragupta II)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. The Mauryan period</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. The Shunga period</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. The Kushana period</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Kalidasa (Gupta period, 4th-5th c. CE). Navaratna of Chandragupta II. Works: Shakuntala, Meghaduta, Raghuvamsha, Kumarasambhava, Ritusamhara. Sanskrit. 'Shakespeare of India.'</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The Gupta Empire's capital was at which city (in modern Bihar)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Pataliputra (modern Patna, Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Ujjain</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Kannauj</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Mathura</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Pataliputra (Patna, Bihar) — continuing Mauryan and Shunga tradition. Chandragupta II also had Ujjain as second capital (after conquering Malwa). Centre of Golden Age.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Nalanda University, the great Buddhist centre of learning, was founded during the Gupta period by which ruler?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Kumargupta I (c. 427 CE)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Chandragupta II</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Samudragupta</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Skandagupta</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Kumargupta I founded Nalanda (c. 427 CE, near Rajgir, Bihar). 10,000 students, 2,000 teachers from China, Korea, Tibet, Central Asia. Destroyed by Bakhtiyar Khalji (~1200 CE). UNESCO (2016).</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Fa-Hien (Faxian), the Chinese Buddhist pilgrim, visited India during which Gupta king's reign?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Chandragupta II Vikramaditya (c. 405-411 CE)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Samudragupta</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Kumargupta I</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Skandagupta</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — Fa-Hien visited during Chandragupta II's reign (405-411 CE). 'Fo-kwo-ki' describes Gupta India: peaceful, prosperous, low taxes, no capital punishment. Visited Lumbini, Bodh Gaya, Sarnath, Kushinagar.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The Gupta period is called the 'Golden Age' of ancient India. Which of the following is a key reason?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. All of the above (extraordinary achievements in art, literature, science, mathematics, and religion)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Only military conquests</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Only trade</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Only territorial expansion</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — Golden Age: literature (Kalidasa), science (Aryabhata), medicine (Sushruta, Charaka), art (Ajanta), architecture (temples), metallurgy (Iron Pillar), religion (Hinduism + Buddhism). Extraordinary achievements across all fields.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Aryabhata, the great mathematician and astronomer, lived during the Gupta period. Which of the following is his contribution?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. All of the above (he wrote the Aryabhatiya, calculated pi, stated the earth rotates on its axis, and explained eclipses)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Only the concept of zero</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Only the decimal system</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Only the heliocentric theory</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — Aryabhata (c. 476-550 CE), Aryabhatiya (499 CE): pi (~3.1416), Earth rotation, eclipses (shadows), place-value, sine table. Age 23 when wrote it. India's first satellite named 'Aryabhata' (1975).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The famous Ajanta Caves (Buddhist rock-cut caves with magnificent paintings) were mostly built during which period?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. The Gupta period (c. 4th-6th century CE, though some earlier)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. The Mauryan period</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. The Kushana period</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. The Shunga period</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Ajanta Caves (Maharashtra, 29 caves) mostly Gupta period (4th-6th c. CE). Caves 16-27 have magnificent frescoes (Jataka tales). Some earlier (2nd c. BCE). UNESCO (1983).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Iron Pillar of Delhi (Mehrauli) — famous for not rusting — was built during which period?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. The Gupta period (c. 4th century CE, during Chandragupta II's reign)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. The Mauryan period</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. The Kushana period</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. The Delhi Sultanate</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — Iron Pillar of Delhi (Mehrauli) — Gupta period (Chandragupta II). ~7m tall, ~6 tons. Not rusted in ~1600 years. Sanskrit inscription praises 'Chandra' (Chandragupta II). Originally at Udayagiri.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Gupta Empire declined due to invasions by which foreign tribe?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. The Huns (White Huns, c. 5th-6th century CE, from Central Asia)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. The Kushanas</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. The Shakas</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. The Indo-Greeks</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Huns (White Huns / Hephthalites) from Central Asia (5th-6th c. CE). Skandagupta defeated them but treasury exhausted. Toramana and Mihirakula (c. 510-530 CE) finally broke Gupta power.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Skandagupta (c. 455-467 CE), the last great Gupta emperor, is known for which achievement?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Defeating the Huns (White Huns) and restoring the Sudarshana Lake</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Building Nalanda University</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Conquering the Deccan</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Starting the Gupta Era</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Skandagupta (455-467 CE) defeated Huns + restored Sudarshana Lake (Junagadh inscription). But wars exhausted treasury (gold coins lighter). Empire fragmented after him.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The Gupta Empire followed which religion as its state religion?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Brahminical Hinduism (especially Vaishnavism)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Buddhism</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Jainism</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Ajivika</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Guptas = Brahminical Hinduism (Vaishnavism). Chandragupta II = 'Paramabhagavata' (supreme devotee of Vishnu). But tolerant — patronised Buddhism (Nalanda), Jainism.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The Gupta administration was characterized by which feature?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Decentralized administration with feudatories (samantas) and land grants to Brahmins and temples</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. A highly centralized bureaucracy like the Mauryas</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. A republic system</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. A military dictatorship</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Gupta admin = decentralized. Feudatories (samantas), land grants (agraharas) to Brahmins/temples, provinces (bhuktis), districts (vishayas). This feudal structure eventually weakened the empire.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Hiuen Tsang (Xuanzang), the Chinese Buddhist pilgrim, visited India during which period?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Harsha's reign (c. 630-645 CE, post-Gupta period)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Chandragupta II's reign</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Samudragupta's reign</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. The Mauryan period</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — Hiuen Tsang visited during Harsha's reign (c. 630-645 CE, post-Gupta). 'Si-yu-ki.' Studied at Nalanda (Bihar) for 5 years. Met Harsha. Crucial source for post-Gupta India.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The position of women during the Gupta period was characterized by which feature?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Decline in status (no property rights, child marriage, sati practice began, no education)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Women had equal rights to men</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Women ruled kingdoms</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Women were priests</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Women's status declined: no property rights (except stridhana), child marriage, sati began (first record: Eran, 510 CE), no education. Upper-class women (queens) were educated (Kumaradevi).</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The caste system during the Gupta period was characterized by which feature?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Proliferation of sub-castes (jatis) and rigidification of the varna system</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. The caste system was abolished</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. The caste system became flexible</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Only two castes existed</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Caste system proliferated: new sub-castes (jatis) emerged (varna-sankara, occupational groups, absorption of foreigners). Untouchability increased (chandalas). Number of castes multiplied.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Bihar's connection with the Gupta Empire is primarily through which fact?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. All of the above (Pataliputra was the Gupta capital, Nalanda University was founded in Bihar, the Guptas originated from Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. Only Pataliputra was the capital</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Only Nalanda was in Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. The Guptas never ruled Bihar</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Bihar = Gupta heartland: (1) Pataliputra (Patna) was the Gupta capital. (2) Nalanda University founded by Kumargupta I (427 CE) in Bihar. (3) Guptas likely originated from Magadha (Bihar). Golden Age centred in Bihar!</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The Guptas issued which type of coins primarily?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Gold coins (dinaras) with portraits of kings and their titles</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Silver punch-marked coins</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Lead coins</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Paper currency</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Guptas issued gold coins (dinaras) — largest gold coinage in ancient India. Portraits of kings (archer, tiger-slayer, lute-player) + titles. Silver (rupaka) after conquering Gujarat. Later coins became lighter (decline).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Which Gupta king is known as the 'musician king' — depicted playing the veena (lute) on his coins?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Samudragupta (c. 335-380 CE)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Chandragupta II</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Kumargupta I</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Skandagupta</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — Samudragupta = 'musician king' (depicted playing veena on coins). Polymath: warrior (Napoleon of India), poet ('Kaviraja'), musician (veena), scholar. Allahabad inscription describes his talents.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The Gupta Era (starting c. 319-320 CE) is still used in India for which purpose?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. It is used as the basis for the Indian National Calendar (Saka Era is separate, but the Gupta Era was historically significant for dating)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. It is the official calendar of India today</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. It is used by ISRO</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. It is used in banking</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — Gupta Era (319-320 CE) was historically significant for dating inscriptions, grants, and texts for ~300+ years. While Saka Era (78 CE) is the official National Calendar today, the Gupta Era was widely used in ancient India.</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Samudragupta + Chandragupta II (HIGH):</strong> Samudragupta = Napoleon of India, Allahabad Pillar (Harisena), musician. Chandragupta II = Vikramaditya, Navaratna (Kalidasa), defeated Shakas (409 CE), Iron Pillar.</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Bihar = Gupta heartland (HIGH):</strong> Pataliputra = Gupta capital. Nalanda University (Kumargupta I, 427 CE). Guptas originated from Magadha (Bihar). Golden Age centred in Bihar.</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Golden Age achievements (HIGH):</strong> Kalidasa (Shakuntala), Aryabhata (mathematics, Aryabhatiya), Ajanta paintings, Iron Pillar, Nalanda. Navaratna (Nine Gems).</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Fa-Hien + Hiuen Tsang (MEDIUM):</strong> Fa-Hien (Chandragupta II, 405-411 CE, peaceful Gupta India). Hiuen Tsang (Harsha, 630-645 CE, post-Gupta, Nalanda).</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>Decline + Huns (MEDIUM):</strong> Huns (White Huns) invaded. Skandagupta defeated them but treasury exhausted. Toramana + Mihirakula broke Gupta power (510-530 CE).</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Society + caste (LOW):</strong> Women's status declined (sati began, Eran 510 CE). Caste proliferated (sub-castes/jatis). Decentralized admin (samantas, land grants = feudalism).</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>Nalanda University (LOW):</strong> Founded by Kumargupta I (427 CE, Bihar). 10,000 students, 2,000 teachers. Destroyed by Bakhtiyar Khalji (~1200 CE). UNESCO (2016). New Nalanda University (2014).</div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>R.S. Sharma, <em>Ancient India</em>, Chapter 11 (The Gupta Empire)</li>
+    <li>D.N. Jha, <em>Ancient India</em>, Chapter 11</li>
+    <li><a href="https://en.wikipedia.org/wiki/Gupta_Empire" target="_blank">Wikipedia: Gupta Empire</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Nalanda_University" target="_blank">Wikipedia: Nalanda University</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 104 — Gupta Empire • Generated 2026-07-17</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'a', q4: 'a', q5: 'a', q6: 'a', q7: 'a', q8: 'a', q9: 'a', q10: 'a',
+  q11: 'a', q12: 'a', q13: 'a', q14: 'a', q15: 'a', q16: 'a', q17: 'a', q18: 'a', q19: 'a', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'a', q24: 'a', q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>
