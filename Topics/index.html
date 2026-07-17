@@ -244,19 +244,15 @@
   }
   .topic-sub { font-size: 11px; color: #94a3b8; font-weight: 500; margin-top: -8px; margin-bottom: 12px; padding-right: 40px; }
 </style>
-<link rel="stylesheet" href="_assets/navbar.css">
 </head>
 <body>
-<div class="bpsc-navbar">
-  <div class="bpsc-navbar-brand">
-    <span class="brand-icon">🎯</span>
-    <a href="index.html">BPSC 72nd Prelims</a>
-  </div>
-  <div class="bpsc-navbar-links">
-    <a href="index.html" class="active">🏠 Dashboard</a>
-  </div>
-  <div class="bpsc-navbar-progress"><span class="progress-val">36</span>/158 topics • 22.8%</div>
-</div>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
 <div class="dashboard-container">
   <div class="header">
     <div style="font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #e94560; margin-bottom: 8px;">BPSC 72nd Prelims Prep Portal</div>
@@ -1505,6 +1501,5 @@
     });
   }
 </script>
-<script src="_assets/navbar.js"></script>
 </body>
 </html>
