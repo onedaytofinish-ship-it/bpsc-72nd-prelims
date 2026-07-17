@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>37 - Independence and Partition | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  h3 a { color: #16213e; text-decoration: none; }
+  h3 a:hover { color: #e94560; text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #37 • TIER A</div>
+  <div class="topic-title">Independence and Partition — Mountbatten Plan, 1947 &amp; Integration</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Modern Indian History</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Rajendra Prasad — first President of Constituent Assembly</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>'Divide and Quit' slogan (Q89):</strong> M.A. Jinnah raised the cry "Divide and Quit" — a play on the "Quit India" slogan. Jinnah demanded the partition of India and the creation of Pakistan. The Lahore Resolution (1940) demanded separate Muslim states. Answer: (A) M.A. Jinnah.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Bose resigned 1939 (Q73):</strong> Subhash Chandra Bose resigned as INC President in April 1939. Who succeeded him? Dr. Rajendra Prasad. The BPSC answer was (D) "More than one of the above" due to the question's framing. Bose then formed the Forward Bloc (1939).
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of the Cabinet Mission, Mountbatten Plan, Indian Independence Act, Radcliffe Line, integration of princely states, Bihar connections, and 7 exam predictions:
+    <a href="subpages/37_independence_partition_detail.html" target="_blank">Independence &amp; Partition Master Detail →</a>
+  </div>
+
+  <h3>A. The Road to Independence (1945-1947) <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Event</th><th>Date</th><th>Key Details</th></tr>
+    <tr><td><strong>Wavell Plan / Simla Conference</strong></td><td>June-July 1945</td><td>Proposed executive council with Indian members; failed because the Muslim League insisted on nominating all Muslim members</td></tr>
+    <tr><td><strong>INA Trials</strong></td><td>1945-46</td><td>Red Fort trials of INA officers (Shah Nawaz, Dhillon, Sahgal); massive public sympathy; contributed to the naval mutiny (Feb 1946)</td></tr>
+    <tr><td><strong>Cabinet Mission</strong></td><td>March 1946</td><td>Pethick-Lawrence, Cripps, Alexander; proposed united India with weak centre + provincial groupings; INC and ML both initially accepted; ML withdrew (July 1946)</td></tr>
+    <tr><td><strong>Direct Action Day</strong></td><td>August 16, 1946</td><td>Jinnah declared "Direct Action Day"; massive communal violence in Calcutta (Great Calcutta Killing); 4,000+ killed; spread to other cities</td></tr>
+    <tr><td><strong>Interim Government</strong></td><td>September 1946</td><td>Nehru as Vice President; Liaquat Ali Khan (ML) as Finance Member; coalition of INC and ML but dysfunctional</td></tr>
+    <tr><td><strong>Constituent Assembly</strong></td><td>December 9, 1946</td><td>First meeting; Sachchidananda Sinha (temporary president); Rajendra Prasad (permanent president, Dec 11)</td></tr>
+    <tr><td><strong>Mountbatten Plan</strong></td><td>June 3, 1947</td><td>Partition into India and Pakistan; transfer of power by August 15, 1947 (advanced from June 1948)</td></tr>
+    <tr><td><strong>Indian Independence Act</strong></td><td>July 18, 1947</td><td>Passed by British Parliament; created two dominions; came into effect August 15, 1947</td></tr>
+    <tr><td><strong>Independence</strong></td><td>August 15, 1947</td><td>India independent; Nehru's "Tryst with Destiny" speech; Pakistan independent August 14</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/mountbatten.jpg" alt="Lord Mountbatten">
+    <div class="img-caption">Lord Mountbatten (1900-1979) — last Viceroy of British India (March-August 1947) and first Governor-General of independent India (1947-1948). Announced the Mountbatten Plan (June 3, 1947) which partitioned India and advanced the transfer of power to August 15, 1947.</div>
+  </div>
+
+  <h3>B. The Cabinet Mission Plan (1946) <span class="current-tag">PYQ PATTERN</span></h3>
+  <ul>
+    <li><strong>Members:</strong> Lord Pethick-Lawrence (Secretary of State), Sir Stafford Cripps, A.V. Alexander</li>
+    <li><strong>Key proposals:</strong> (1) united India with a weak centre (only defence, foreign affairs, communications); (2) provincial groupings (Group A: Hindu-majority, Group B: NW Muslim-majority, Group C: Bengal+Assam); (3) constituent assembly; (4) interim government</li>
+    <li><strong>INC reaction:</strong> initially accepted; later disagreed over interpretations (especially the grouping clause)</li>
+    <li><strong>Muslim League reaction:</strong> accepted, then withdrew acceptance (July 1946) and declared "Direct Action Day" (August 16, 1946)</li>
+    <li><strong>Significance:</strong> the Cabinet Mission was the last attempt to keep India united. Its failure led directly to partition.</li>
+  </ul>
+
+  <h3>C. The Mountbatten Plan (June 3, 1947)</h3>
+  <ul>
+    <li><strong>Announced:</strong> June 3, 1947, by Lord Mountbatten</li>
+    <li><strong>Key features:</strong> (1) partition of India into two dominions — India and Pakistan; (2) transfer of power by August 15, 1947 (advanced from June 1948); (3) princely states free to join India, Pakistan, or remain independent; (4) Bengal and Punjab to be partitioned; (5) a boundary commission (Radcliffe) to demarcate the border</li>
+    <li><strong>Accepted by:</strong> both the INC (Nehru, Patel) and the Muslim League (Jinnah)</li>
+    <li><strong>Indian Independence Act (July 18, 1947):</strong> implemented the Mountbatten Plan; created two dominions; came into effect August 15, 1947</li>
+  </ul>
+
+  <h3>D. Integration of Princely States</h3>
+  <table>
+    <tr><th>State</th><th>Ruler</th><th>Integration Method</th><th>Year</th></tr>
+    <tr><td><strong>Junagadh</strong></td><td>Nawab Muhammad Mahabat Khan</td><td>Plebiscite (people voted to join India)</td><td>1947-48</td></tr>
+    <tr><td><strong>Hyderabad</strong></td><td>Nizam Osman Ali Khan</td><td>Operation Polo (military action, Sept 1948)</td><td>1948</td></tr>
+    <tr><td><strong>Jammu &amp; Kashmir</strong></td><td>Maharaja Hari Singh</td><td>Instrument of Accession (Oct 26, 1947) after tribal raid from Pakistan</td><td>1947</td></tr>
+    <tr><td><strong>Travancore</strong></td><td>Maharaja Chithira Thirunal</td><td>Accession (diplomacy by Patel)</td><td>1947</td></tr>
+    <tr><td><strong>Bhopal</strong></td><td>Nawab Hamidullah Khan</td><td>Accession (diplomacy by Patel)</td><td>1947</td></tr>
+  </table>
+  <p><strong>Sardar Patel</strong> (Deputy PM + Home Minister, 1947-1950) integrated 562 princely states into the Indian Union — using diplomacy, persuasion, and military action. Assisted by V.P. Menon. Known as the "Iron Man of India."</p>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+  <h3>Key Personalities</h3>
+  <table>
+    <tr><th>Person</th><th>Role</th></tr>
+    <tr><td><strong>Lord Mountbatten</strong></td><td>Last Viceroy (Mar-Aug 1947); first Governor-General of India (1947-48)</td></tr>
+    <tr><td><strong>M.A. Jinnah</strong></td><td>Leader of Muslim League; first Governor-General of Pakistan (Aug 14, 1947 - Sep 11, 1948); "Quaid-e-Azam"</td></tr>
+    <tr><td><strong>Jawaharlal Nehru</strong></td><td>First PM of India (Aug 15, 1947 - May 27, 1964); "Tryst with Destiny" speech</td></tr>
+    <tr><td><strong>Sardar Patel</strong></td><td>Deputy PM + Home Minister; integrated 562 princely states; "Iron Man of India"</td></tr>
+    <tr><td><strong>Dr. Rajendra Prasad</strong></td><td>President of Constituent Assembly (1946); first President of India (1950-1962); from Bihar</td></tr>
+    <tr><td><strong>C. Rajagopalachari</strong></td><td>First Indian Governor-General (1948-1950)</td></tr>
+    <tr><td><strong>Sir Cyril Radcliffe</strong></td><td>Drew the Radcliffe Line (India-Pakistan border) in 5 weeks</td></tr>
+    <tr><td><strong>Lord Wavell</strong></td><td>Viceroy 1943-1947; Wavell Plan (1945); Simla Conference</td></tr>
+    <tr><td><strong>V.P. Menon</strong></td><td>Secretary, States Ministry; assisted Patel in integration</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/gandhi_portrait.jpg" alt="Mahatma Gandhi">
+    <div class="img-caption">Mahatma Gandhi (1869-1948) — "Father of the Nation." Gandhi did not celebrate independence on August 15, 1947 — he was in Calcutta, fasting to stop communal violence during the partition riots. He was assassinated on January 30, 1948, by Nathuram Godse.</div>
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — P-A-R-T-I:</strong><br>
+    <strong>P</strong>lan (Cabinet Mission, 1946) → <strong>A</strong>ction Day (Direct Action, Aug 1946) → <strong>R</strong>adcliffe Line (border) → <strong>T</strong>ransfer of power (Aug 15, 1947) → <strong>I</strong>ntegration of princely states (Patel).<br>
+    <em>"PARTI: the five key events from Cabinet Mission to integration."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Rajendra Prasad &amp; Sachchidananda Sinha</div>
+    <ul>
+      <li><strong>Dr. Rajendra Prasad:</strong> the first President of the Constituent Assembly (December 11, 1946) and the first President of independent India (January 26, 1950 - May 13, 1962). He was from Bihar (Siwan district). He was a key Congress leader from Bihar — participated in Champaran (1917), Non-Cooperation, Civil Disobedience, and Quit India movements.</li>
+      <li><strong>Dr. Sachchidananda Sinha:</strong> the first temporary President of the Constituent Assembly (December 9, 1946). He was from Bihar (Arrah). He was a Congress leader and educationist — founder of the Patna University (1917).</li>
+      <li><strong>Sri Krishna Singh:</strong> became the first Chief Minister of Bihar (1946-1961) — the longest-serving CM of Bihar. He had participated in the Quit India Movement (1942).</li>
+      <li><strong>Anugrah Narayan Sinha:</strong> became the first Deputy Chief Minister of Bihar (1946-1957). He was the key finance and development minister.</li>
+      <li><strong>Bihar during partition:</strong> Bihar was NOT affected by the Radcliffe Line — it remained part of India. Unlike Punjab and Bengal, Bihar had no Muslim-majority districts that could be claimed by Pakistan. Bihar's main contribution to independence was through its leaders (Rajendra Prasad, Sachchidananda Sinha) and its participation in the freedom movements.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>Cross-Topic Links:</strong>
+    <ul>
+      <li><a href="34_quit_india_1942.html">Topic 34 (Quit India 1942)</a>: Quit India was the last mass movement before independence. The failure of the Cripps Mission (1942) led to Quit India; the failure of the Cabinet Mission (1946) led to partition. JP's escape from Hazaribagh Jail, the Azad Dasta — Bihar's Quit India contributions.</li>
+      <li><a href="36_constitutional_acts.html">Topic 36 (Constitutional Acts)</a>: The Indian Independence Act 1947 replaced the Government of India Act 1935 as India's constitutional framework. The Constituent Assembly (formed under the Cabinet Mission, 1946) drafted the Indian Constitution (1950).</li>
+      <li><a href="35_revolutionaries.html">Topic 35 (Revolutionaries)</a>: Subhash Chandra Bose's INA trials (1945-46) generated massive public sympathy and contributed to the British decision to leave India. The naval mutiny (February 1946) was partly inspired by the INA trials.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>August 15:</strong> celebrated as Independence Day across India. The Prime Minister addresses the nation from the Red Fort.</li>
+    <li><strong>January 26:</strong> celebrated as Republic Day (Constitution came into force, 1950). Chosen because the INC declared Purna Swaraj on January 26, 1930.</li>
+    <li><strong>November 26:</strong> celebrated as Constitution Day (Constitution adopted, 1949).</li>
+    <li><strong>Partition legacy:</strong> the India-Pakistan border (Radcliffe Line) remains a flashpoint — Kashmir dispute, Indo-Pak wars (1947, 1965, 1971, Kargil 1999). The partition's communal violence (10+ million displaced, 1+ million killed) remains a traumatic memory.</li>
+    <li><strong>Integration of princely states:</strong> Sardar Patel's integration is considered one of the greatest administrative achievements. His statue (Statue of Unity, 182m, Gujarat) is the world's tallest statue.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Cabinet Mission Plan was proposed in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. 1946</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. 1945</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. 1947</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. 1944</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — The Cabinet Mission (Pethick-Lawrence, Cripps, Alexander) came in March 1946. Proposed a united India with weak centre + provincial groupings. INC and ML initially accepted; ML withdrew July 1946.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Who was the last Viceroy of British India and the first Governor-General of independent India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Lord Mountbatten</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Lord Wavell</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Lord Linlithgow</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. C. Rajagopalachari</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Mountbatten: last Viceroy (Mar-Aug 1947) + first Governor-General of India (1947-48). C. Rajagopalachari was the first Indian Governor-General (1948-50).</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Mountbatten Plan (June 3 Plan) was announced on which date?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. June 3, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. June 3, 1946</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. August 15, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. July 18, 1947</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — June 3, 1947. Proposed partition into India + Pakistan; transfer of power by August 15, 1947 (advanced from June 1948). Accepted by both INC and ML.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Indian Independence Act 1947 was passed by the British Parliament on which date?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. July 18, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. June 3, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. August 15, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. August 14, 1947</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — July 18, 1947 (royal assent). Came into effect August 15, 1947. Based on the Mountbatten Plan. Created two dominions: India and Pakistan.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. India became independent on which date?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. August 15, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. August 14, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. July 18, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. January 26, 1950</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — August 15, 1947. Pakistan became independent on August 14 (one day earlier). January 26, 1950 = Republic Day (Constitution came into force).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Who gave the famous 'Tryst with Destiny' speech at midnight on August 14-15, 1947?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Mahatma Gandhi</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Sardar Patel</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Lord Mountbatten</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — Nehru gave the "Tryst with Destiny" speech at the Constituent Assembly at midnight August 14-15, 1947. He became the first PM of independent India.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Who was the first Governor-General of Pakistan?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. M.A. Jinnah</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Liaquat Ali Khan</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Lord Mountbatten</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. Lord Wavell</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Jinnah was the first Governor-General of Pakistan (Aug 14, 1947 - Sep 11, 1948). "Quaid-e-Azam." Liaquat Ali Khan was the first PM of Pakistan.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Who was the first Indian Governor-General of independent India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. C. Rajagopalachari</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Sardar Patel</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — C. Rajagopalachari (Rajaji) was the first Indian Governor-General (1948-50). Mountbatten was the first Governor-General but was British. After Rajaji, the office was replaced by the President (Rajendra Prasad, 1950).</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Radcliffe Line that partitioned India and Pakistan was drawn by whom?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Sir Cyril Radcliffe</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Lord Mountbatten</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Lord Wavell</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Sir Stafford Cripps</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Sir Cyril Radcliffe, a British lawyer who had never been to India, drew the boundary in 5 weeks. Announced August 17, 1947 (2 days AFTER independence) — causing massive confusion and violence.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Who raised the cry 'Divide and Quit' during India's independence movement?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. M.A. Jinnah</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. V.D. Savarkar</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. M.A. Ansari</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Jawaharlal Nehru</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — Jinnah raised "Divide and Quit" — a play on the "Quit India" slogan. He demanded partition (Pakistan). 71st BPSC Q89.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The Lahore Resolution (1940), also known as the Pakistan Resolution, was passed by which party?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Muslim League</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Indian National Congress</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Hindu Mahasabha</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Unionist Party</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — The Lahore Resolution (March 23, 1940) was passed by the Muslim League at its Lahore session, presided by Jinnah. Demanded separate Muslim states. March 23 = Pakistan Day.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The Cabinet Mission Plan (1946) proposed which key feature?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. A united India with a weak centre and provincial groupings</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Immediate partition into India and Pakistan</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. A federal system with a strong centre</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Dominion status after 10 years</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — The Cabinet Mission proposed a united India with a weak centre (only defence, foreign affairs, communications) and provincial groupings (A, B, C). The last attempt to keep India united — it failed.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Arrange in chronological order: 1. Cabinet Mission Plan 2. Mountbatten Plan 3. Indian Independence Act 4. Lahore Resolution</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. 4, 1, 2, 3</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. 1, 4, 2, 3</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. 4, 2, 1, 3</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. 1, 2, 3, 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Lahore Resolution (Mar 1940) → Cabinet Mission (Mar 1946) → Mountbatten Plan (Jun 3, 1947) → Indian Independence Act (Jul 18, 1947).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Who was the first Home Minister of independent India, responsible for the integration of princely states?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Sardar Vallabhbhai Patel</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. C. Rajagopalachari</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — Sardar Patel (Deputy PM + Home Minister, 1947-50) integrated 562 princely states into the Indian Union — using diplomacy, persuasion, and military action. "Iron Man of India." Assisted by V.P. Menon.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Which princely state was integrated into India through a military action (police action) in 1948?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. Hyderabad</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Junagadh</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Kashmir</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Travancore</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Hyderabad was integrated through "Operation Polo" (Sept 13-18, 1948) after the Nizam refused to accede and his Razakars unleashed violence. Junagadh = plebiscite. Kashmir = Instrument of Accession (Oct 1947).</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The accession of Jammu and Kashmir to India took place in which year and under what instrument?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. 1947, Instrument of Accession signed by Maharaja Hari Singh</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. 1948, UN resolution</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. 1949, special status under Article 370</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. 1950, the Indian Constitution</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Kashmir acceded to India on October 26, 1947, through the Instrument of Accession signed by Maharaja Hari Singh (after tribal raiders from Pakistan invaded). Led to the first India-Pakistan war (1947-48).</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The Constituent Assembly of India was formed under which plan?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Cabinet Mission Plan (1946)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Mountbatten Plan (1947)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Indian Independence Act (1947)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Wavell Plan (1945)</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — The Constituent Assembly was formed under the Cabinet Mission Plan (1946). Elections July 1946; first meeting December 9, 1946. Drafted the Indian Constitution (1946-1949).</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Who was the first President of the Constituent Assembly?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Dr. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Dr. Sachchidananda Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Sardar Patel</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — Dr. Sachchidananda Sinha was the first (temporary) President (Dec 9, 1946). Dr. Rajendra Prasad was elected permanent President (Dec 11, 1946). "First President" can be ambiguous — Sinha presided first.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Who presided over the first session of the Constituent Assembly?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Dr. Sachchidananda Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Dr. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Sardar Patel</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — Dr. Sachchidananda Sinha (from Arrah, Bihar) presided over the first session (Dec 9, 1946) as temporary president. Rajendra Prasad was elected permanent President on Dec 11.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Who was the first President of independent India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Dr. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. C. Rajagopalachari</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Sardar Patel</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Dr. Rajendra Prasad was the first President of India (Jan 26, 1950 - May 13, 1962). Served two terms. From Bihar (Siwan district). Before that, President of the Constituent Assembly.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The Indian Constitution came into force on which date?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. January 26, 1950</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. August 15, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. November 26, 1949</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. July 18, 1947</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — January 26, 1950 (Republic Day). Adopted Nov 26, 1949 (Constitution Day). Jan 26 chosen because INC declared Purna Swaraj on Jan 26, 1930 (Lahore session).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Who was the first Prime Minister of independent India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. Sardar Patel</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. C. Rajagopalachari</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Nehru was the first PM (Aug 15, 1947 - May 27, 1964). Served 17 years until his death. "Tryst with Destiny" speech. Architect of modern India (Non-Aligned Movement, Five-Year Plans).</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Bihar's connection with independence and partition was through:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Dr. Rajendra Prasad as first President of the Constituent Assembly (and later President of India)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. The partition of Bihar into Bihar and Jharkhand</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Bihar joining Pakistan</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Bihar becoming a Union Territory</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Bihar's connection: Dr. Rajendra Prasad — first President of the Constituent Assembly (1946) and first President of India (1950). From Bihar (Siwan). Also Dr. Sachchidananda Sinha (Arrah, Bihar) — first temporary president of the Constituent Assembly.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Subhash Chandra Bose resigned from the presidency of the INC in 1939. Who succeeded him?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Abul Kalam Azad</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. More than one of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (D)</strong> — The BPSC answer was (D) "More than one of the above." Bose resigned Apr 1939; Rajendra Prasad succeeded. Bose then formed the Forward Bloc (1939). 69th/70th/71st BPSC Q73.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Who was the last Viceroy of India before Mountbatten?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Lord Wavell</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Lord Linlithgow</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Lord Reading</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Lord Irwin</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — Lord Wavell (Viceroy 1943-1947) was the last Viceroy before Mountbatten. He attempted the Wavell Plan (1945) and Simla Conference (June-July 1945) — both failed. Replaced by Mountbatten in March 1947.</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Mountbatten Plan (HIGH):</strong> June 3, 1947; partition into India + Pakistan; transfer of power Aug 15, 1947 (advanced from June 1948). Indian Independence Act July 18, 1947. Know dates, features, and acceptance by INC + ML.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Key personalities (HIGH):</strong> Mountbatten (last Viceroy + first GG India); Jinnah (first GG Pakistan); Nehru (first PM, "Tryst with Destiny"); Patel (integration of states, "Iron Man"); Rajaji (first Indian GG); Rajendra Prasad (first President).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Cabinet Mission (MEDIUM):</strong> March 1946; united India with weak centre + provincial groupings; INC and ML both initially accepted; ML withdrew July 1946; Direct Action Day Aug 16, 1946 (Great Calcutta Killing). Last attempt to keep India united.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Integration of princely states (MEDIUM):</strong> Sardar Patel integrated 562 states. Hyderabad = Operation Polo (1948). Junagadh = plebiscite. Kashmir = Instrument of Accession (Oct 26, 1947, Maharaja Hari Singh). Patel = "Iron Man of India."
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>Radcliffe Line (LOW):</strong> Sir Cyril Radcliffe drew the India-Pakistan border in 5 weeks. Announced Aug 17, 1947 (2 days AFTER independence) — caused massive confusion and communal violence.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Constituent Assembly (LOW):</strong> Formed under Cabinet Mission (1946). First meeting Dec 9, 1946 (Sachchidananda Sinha, temporary). Rajendra Prasad (permanent president, Dec 11). Constitution adopted Nov 26, 1949; came into force Jan 26, 1950.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>Bihar connections (LOW):</strong> Rajendra Prasad (first President, from Siwan Bihar); Sachchidananda Sinha (first temporary president of Constituent Assembly, from Arrah Bihar); Sri Krishna Singh (first CM Bihar, 1946-61). Bihar unaffected by Radcliffe Line.</div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>Bipan Chandra et al., <em>India's Struggle for Independence</em>, Chapters 25-27 (Independence and Partition)</li>
+    <li>Sumit Sarkar, <em>Modern India 1885-1947</em>, pp. 440-470 (Cabinet Mission, Partition)</li>
+    <li>71st BPSC PYQ Q73 (Bose resigned 1939), Q89 (Divide and Quit)</li>
+    <li><a href="https://en.wikipedia.org/wiki/Indian_independence_movement" target="_blank">Wikipedia: Indian Independence Movement</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Partition_of_India" target="_blank">Wikipedia: Partition of India</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 37 — Independence and Partition • Generated 2026-07-17</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'a', q4: 'a', q5: 'a', q6: 'a', q7: 'a', q8: 'a', q9: 'a', q10: 'a',
+  q11: 'a', q12: 'a', q13: 'a', q14: 'a', q15: 'a', q16: 'a', q17: 'a', q18: 'b', q19: 'a', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'a', q24: 'd', q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option', 'wrong-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>
