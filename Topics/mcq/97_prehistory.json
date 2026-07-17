@@ -1,0 +1,327 @@
+[
+  {
+    "q": "The Paleolithic Age in India is also known as the:",
+    "options": [
+      "Old Stone Age",
+      "New Stone Age",
+      "Middle Stone Age",
+      "Copper Stone Age"
+    ],
+    "answer": 0,
+    "explanation": "The Paleolithic Age is also known as the Old Stone Age (from Greek 'palaios' = old, 'lithos' = stone). It lasted from about 2 million years ago to around 10,000 BCE. Humans were hunter-gatherers; tools were made of rough stone (hand axes, cleavers). The Paleolithic Age is divided into Lower, Middle, and Upper Paleolithic. Key Indian site: Bhimbetka (Madhya Pradesh) — rock paintings from the Paleolithic period.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which site in India is famous for prehistoric rock paintings spanning the Paleolithic to Mesolithic periods?",
+    "options": [
+      "Bhimbetka (Madhya Pradesh)",
+      "Mehrgarh (Balochistan)",
+      "Burzahom (Kashmir)",
+      "Inamgaon (Maharashtra)"
+    ],
+    "answer": 0,
+    "explanation": "Bhimbetka (near Bhopal, Madhya Pradesh) is a UNESCO World Heritage Site famous for prehistoric rock paintings spanning the Paleolithic to Mesolithic periods (over 750 rock shelters). The paintings depict hunting, dancing, animals, and daily life. Bhimbetka is the most important prehistoric art site in India. The rock paintings show continuity from the Stone Age to early historical periods.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Mesolithic Age in India is also known as the:",
+    "options": [
+      "Middle Stone Age",
+      "Old Stone Age",
+      "New Stone Age",
+      "Iron Age"
+    ],
+    "answer": 0,
+    "explanation": "The Mesolithic Age is the Middle Stone Age (from Greek 'mesos' = middle). It lasted from about 10,000 BCE to 6,000 BCE. Key features: (1) transition from Paleolithic to Neolithic; (2) climate change (end of Ice Age); (3) microliths — small stone tools (arrowheads, blades); (4) hunter-gatherer lifestyle but more diversified; (5) beginning of domestication of animals. Key sites: Bagor (Rajasthan), Adamgarh (MP), Bhimbetka (MP — later paintings).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Neolithic Age in India began approximately in which period?",
+    "options": [
+      "Around 6,000 BCE",
+      "Around 10,000 BCE",
+      "Around 2,000 BCE",
+      "Around 500 BCE"
+    ],
+    "answer": 0,
+    "explanation": "The Neolithic Age (New Stone Age) in India began around 6,000 BCE. Key features: (1) agriculture — beginning of farming; (2) domestication of animals (cattle, sheep, goats); (3) settled life in villages; (4) polished stone tools; (5) pottery; (6) burial of the dead. The Neolithic Revolution was the transition from hunting-gathering to farming — the most important revolution in human history. Key sites: Mehrgarh (Balochistan, ~7000 BCE), Burzahom (Kashmir), Chirand (Bihar).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which site is considered the earliest Neolithic settlement in the Indian subcontinent?",
+    "options": [
+      "Mehrgarh (Balochistan, ~7000 BCE)",
+      "Burzahom (Kashmir, ~3000 BCE)",
+      "Chirand (Bihar, ~2000 BCE)",
+      "Inamgaon (Maharashtra, ~1700 BCE)"
+    ],
+    "answer": 0,
+    "explanation": "Mehrgarh (Balochistan, now in Pakistan) is the earliest Neolithic settlement in the Indian subcontinent (~7000 BCE). It shows the transition from hunting-gathering to farming — wheat and barley cultivation, domestication of cattle/sheep/goats, mud-brick houses, and burial practices. Mehrgarh is considered a precursor to the Indus Valley Civilisation. It was discovered in 1974 by French archaeologist Jean-Francois Jarrige.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which period is known as the Chalcolithic Age?",
+    "options": [
+      "Copper-Stone Age (when copper and stone tools were used together)",
+      "Iron Age",
+      "Bronze Age",
+      "Pure Stone Age"
+    ],
+    "answer": 0,
+    "explanation": "The Chalcolithic Age is the Copper-Stone Age (from Greek 'chalkos' = copper, 'lithos' = stone) — when both copper and stone tools were used together. It lasted from about 2,500 BCE to 700 BCE in India. Key features: (1) copper tools (axes, chisels) alongside stone tools; (2) rural communities; (3) distinctive pottery (black-and-red ware); (4) cultivation of cereals; (5) burial practices. Key sites: Ahar (Rajasthan), Malwa (MP), Jorwe (Maharashtra), Chirand (Bihar).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange the Stone Ages in chronological order: 1. Paleolithic 2. Mesolithic 3. Neolithic 4. Chalcolithic",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4"
+    ],
+    "answer": 0,
+    "explanation": "Paleolithic (Old Stone Age, ~2 million - 10,000 BCE) → Mesolithic (Middle Stone Age, ~10,000 - 6,000 BCE) → Neolithic (New Stone Age, ~6,000 - 2,500 BCE) → Chalcolithic (Copper-Stone Age, ~2,500 - 700 BCE). Each stage represents a technological and social advancement — from hunting-gathering to farming to metal tools.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Indus Valley Civilisation is generally placed in which period?",
+    "options": [
+      "2,500 - 1,750 BCE",
+      "1,500 - 500 BCE",
+      "3,000 - 1,500 BCE",
+      "5,000 - 2,000 BCE"
+    ],
+    "answer": 0,
+    "explanation": "The Indus Valley Civilisation (Harappan Civilisation) is generally placed in 2,500 - 1,750 BCE (Bronze Age). It was a contemporary of the Egyptian and Mesopotamian civilisations. The IVC was discovered in 1921 (Harappa by Daya Ram Sahni) and 1922 (Mohenjodaro by R.D. Banerjee). It was the first urban civilisation in India — with cities, writing, trade, and standardised weights. It is discussed in detail in Topic 98.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT a feature of the Paleolithic Age?",
+    "options": [
+      "Agriculture and settled villages",
+      "Hunting and gathering",
+      "Use of rough stone tools",
+      "Cave paintings and rock art"
+    ],
+    "answer": 0,
+    "explanation": "Agriculture and settled villages are NOT features of the Paleolithic Age — they belong to the Neolithic Age. The Paleolithic Age was characterised by hunting and gathering, rough stone tools (hand axes, cleavers), cave paintings and rock art (Bhimbetka), and a nomadic lifestyle. Agriculture and settled village life began in the Neolithic Age (from ~6,000 BCE) — the 'Neolithic Revolution.'",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is a key Neolithic site in Bihar?",
+    "options": [
+      "Chirand (Saran district, Bihar)",
+      "Mehrgarh (Balochistan)",
+      "Burzahom (Kashmir)",
+      "Ahar (Rajasthan)"
+    ],
+    "answer": 0,
+    "explanation": "Chirand (Saran district, Bihar, on the banks of the Ganga) is a key Neolithic site in Bihar (~2,000 BCE). Excavations at Chirand revealed: (1) Neolithic tools (stone axes, celts); (2) pottery (red ware, black-and-red ware); (3) bone tools; (4) evidence of agriculture and animal domestication; (5) burial sites. Chirand is the most important Neolithic site in Bihar — showing that the Ganga valley was inhabited by farming communities in the Neolithic period.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The term 'microlith' refers to:",
+    "options": [
+      "Small stone tools of the Mesolithic Age",
+      "Large stone tools of the Paleolithic Age",
+      "Copper tools of the Chalcolithic Age",
+      "Bronze tools of the Harappan Age"
+    ],
+    "answer": 0,
+    "explanation": "Microliths are small stone tools (typically 1-5 cm) characteristic of the Mesolithic Age (Middle Stone Age). They were made from flint, chert, and agate. Types: arrowheads, blades, points, lunates, triangles. Microliths were often hafted (mounted) onto wood or bone handles to create composite tools (arrows, sickles, knives). Key microlith sites: Bagor (Rajasthan), Adamgarh (MP), Teri (Tamil Nadu).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which age is known for the beginning of agriculture in India?",
+    "options": [
+      "Neolithic Age (~6,000 BCE)",
+      "Paleolithic Age (~2 million BCE)",
+      "Mesolithic Age (~10,000 BCE)",
+      "Chalcolithic Age (~2,500 BCE)"
+    ],
+    "answer": 0,
+    "explanation": "The Neolithic Age (~6,000 BCE) is known for the beginning of agriculture in India — the 'Neolithic Revolution.' The first crops: wheat and barley (Mehrgarh, ~7000 BCE); rice cultivation began later (in the Ganga valley). The domestication of animals (cattle, sheep, goats) also began in the Neolithic Age. Agriculture led to settled village life, population growth, and eventually urbanisation (Indus Valley Civilisation).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which prehistoric site in Kashmir is known for pit dwellings?",
+    "options": [
+      "Burzahom (Kashmir)",
+      "Mehrgarh (Balochistan)",
+      "Chirand (Bihar)",
+      "Inamgaon (Maharashtra)"
+    ],
+    "answer": 0,
+    "explanation": "Burzahom (near Srinagar, Kashmir) is a Neolithic site known for pit dwellings — houses were built in pits dug into the ground (for insulation against the cold). Burzahom also yielded: (1) polished stone tools; (2) bone tools (harpoons, needles); (3) pottery; (4) evidence of barley cultivation; (5) burial sites (dogs buried with humans). Burzahom is dated to ~3,000 BCE. It is unique in India for its pit-dwelling architecture.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which metal was first used by humans in India?",
+    "options": [
+      "Copper",
+      "Iron",
+      "Gold",
+      "Bronze"
+    ],
+    "answer": 0,
+    "explanation": "Copper was the first metal used by humans in India. The Chalcolithic Age (Copper-Stone Age, ~2,500-700 BCE) saw the first use of copper tools (axes, chisels, bangles). Copper was preferred because it is found in a relatively pure state and is easy to work. Bronze (copper + tin) was used later — the Indus Valley Civilisation used bronze tools. Iron came to India around 1,000 BCE (Iron Age). Gold was known but was used mainly for ornaments, not tools.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Iron Age in India began approximately in which period?",
+    "options": [
+      "Around 1,000 BCE",
+      "Around 2,500 BCE",
+      "Around 6,000 BCE",
+      "Around 500 BCE"
+    ],
+    "answer": 0,
+    "explanation": "The Iron Age in India began around 1,000 BCE (some scholars say 1,200 BCE). The use of iron revolutionised agriculture (iron ploughshares) and warfare (iron weapons). The Iron Age in India is associated with: (1) the Painted Grey Ware (PGW) culture; (2) the second urbanisation (after the decline of the IVC); (3) the rise of the Mahajanapadas (600 BCE); (4) the Vedic period (later Vedic). Key Iron Age sites: Atranjikhera, Hastinapur, Ahichchhatra (UP).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following correctly matches the site with its state?",
+    "options": [
+      "Bhimbetka - Madhya Pradesh",
+      "Mehrgarh - Bihar",
+      "Burzahom - Rajasthan",
+      "Chirand - Kashmir"
+    ],
+    "answer": 0,
+    "explanation": "Bhimbetka is in Madhya Pradesh (near Bhopal) — UNESCO World Heritage Site for rock paintings. The other options are wrong: Mehrgarh is in Balochistan (Pakistan), not Bihar. Burzahom is in Kashmir, not Rajasthan. Chirand is in Bihar (Saran district), not Kashmir. Correct matches: Bhimbetka-MP, Mehrgarh-Balochistan, Burzahom-Kashmir, Chirand-Bihar.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The people of the Paleolithic Age survived primarily by:",
+    "options": [
+      "Hunting and gathering",
+      "Agriculture",
+      "Trade",
+      "Pastoralism"
+    ],
+    "answer": 0,
+    "explanation": "The people of the Paleolithic Age survived primarily by hunting and gathering. They hunted wild animals (deer, elephant, rhinoceros) and gathered wild fruits, roots, and honey. They were nomadic — moving from place to place in search of food. They did not practice agriculture or keep domesticated animals (these began in the Neolithic Age). They lived in caves and rock shelters (Bhimbetka). The Paleolithic lifestyle was the longest period of human history — over 99% of human existence.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which period is associated with the 'Neolithic Revolution'?",
+    "options": [
+      "The transition from hunting-gathering to farming",
+      "The transition from stone to iron tools",
+      "The transition from rural to urban life",
+      "The transition from monarchy to democracy"
+    ],
+    "answer": 0,
+    "explanation": "The 'Neolithic Revolution' (term coined by Gordon Childe) refers to the transition from hunting-gathering to farming (agriculture and animal domestication), which began around 10,000 BCE globally and ~6,000 BCE in India. It was the most important revolution in human history — it led to: (1) settled village life; (2) population growth; (3) surplus food production; (4) specialisation of labour; (5) eventually urbanisation (Indus Valley Civilisation). In India, Mehrgarh (~7000 BCE) is the earliest evidence of the Neolithic Revolution.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following was a feature of the Chalcolithic Age but NOT of the Neolithic Age?",
+    "options": [
+      "Use of copper tools alongside stone tools",
+      "Agriculture",
+      "Domestication of animals",
+      "Polished stone tools"
+    ],
+    "answer": 0,
+    "explanation": "The use of copper tools alongside stone tools was a feature of the Chalcolithic Age but NOT the Neolithic Age. The Chalcolithic Age (Copper-Stone Age, ~2,500-700 BCE) is named after this feature — copper + stone. Agriculture, domestication of animals, and polished stone tools were features of the Neolithic Age and continued into the Chalcolithic Age. The Chalcolithic people also used distinctive black-and-red ware pottery and lived in rural communities.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which archaeological site in Bihar shows continuous occupation from the Neolithic to the Chalcolithic period?",
+    "options": [
+      "Chirand (Saran district, Bihar)",
+      "Rajgir (Bihar)",
+      "Vaishali (Bihar)",
+      "Pataliputra (Bihar)"
+    ],
+    "answer": 0,
+    "explanation": "Chirand (Saran district, Bihar, on the banks of the Ganga) shows continuous occupation from the Neolithic to the Chalcolithic period. Excavations revealed: (1) Neolithic stone tools and pottery; (2) Chalcolithic copper tools and black-and-red ware; (3) bone tools; (4) evidence of agriculture (rice cultivation) and animal domestication; (5) burial sites. Chirand is the most important prehistoric site in Bihar — it shows that the Ganga valley in Bihar was inhabited by farming communities from the Neolithic period.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The rock paintings at Bhimbetka depict:",
+    "options": [
+      "Hunting scenes, dancing, animals, and daily life",
+      "Buddhist religious themes",
+      "Royal court scenes",
+      "Islamic calligraphy"
+    ],
+    "answer": 0,
+    "explanation": "The rock paintings at Bhimbetka (Madhya Pradesh, UNESCO World Heritage Site) depict hunting scenes, dancing, animals (elephants, deer, tigers, boars), and daily life of prehistoric people. The paintings span from the Paleolithic to the Mesolithic periods (over 750 rock shelters). They are the most important prehistoric art in India — showing how early humans lived, hunted, and socialised. Some paintings also show group dancing, which suggests early social organisation.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who discovered the Indus Valley site of Harappa in 1921?",
+    "options": [
+      "Daya Ram Sahni",
+      "R.D. Banerjee",
+      "John Marshall",
+      "M.S. Vats"
+    ],
+    "answer": 0,
+    "explanation": "Daya Ram Sahni discovered the Indus Valley site of Harappa in 1921. R.D. Banerjee discovered Mohenjodaro in 1922. Sir John Marshall (Director-General of the Archaeological Survey of India) announced the discovery of the Indus Valley Civilisation in 1924. The IVC is dated to 2,500-1,750 BCE (Bronze Age). It was the first urban civilisation in India — with cities, writing, trade, and standardised weights.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following statements about prehistoric Bihar is correct?",
+    "options": [
+      "Chirand in Bihar is an important Neolithic site on the banks of the Ganga",
+      "Bihar had no prehistoric sites",
+      "Bihar's prehistoric sites are all from the Iron Age",
+      "Bihar's prehistoric sites are all from the Paleolithic Age"
+    ],
+    "answer": 0,
+    "explanation": "Chirand (Saran district, Bihar, on the banks of the Ganga) is an important Neolithic site. It shows continuous occupation from the Neolithic to the Chalcolithic period — with stone tools, copper tools, pottery, and evidence of rice cultivation. Chirand is the most important prehistoric site in Bihar. Other prehistoric sites in Bihar include: Senuar (Neolithic) and Chechar-Kutubpur (Chalcolithic). Bihar's prehistoric heritage is significant but less well-known than its historical heritage (Buddhist, Mauryan, Gupta).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The transition from the Chalcolithic Age to the Iron Age in India is associated with which pottery culture?",
+    "options": [
+      "Painted Grey Ware (PGW) culture",
+      "Black and Red Ware culture",
+      "Northern Black Polished Ware (NBPW)",
+      "Red Ware culture"
+    ],
+    "answer": 0,
+    "explanation": "The transition from the Chalcolithic Age to the Iron Age in India is associated with the Painted Grey Ware (PGW) culture (~1,200-600 BCE). PGW is a distinctive pottery with grey colour and painted designs (geometric patterns, birds, animals). It is found in the Ganga-Yamuna doab and is associated with the later Vedic period. Key PGW sites: Hastinapur, Atranjikhera, Ahichchhatra (UP). PGW marks the beginning of the second urbanisation (after the decline of the IVC) and the rise of the Mahajanapadas.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Black and Red Ware pottery is a characteristic of which age in India?",
+    "options": [
+      "Chalcolithic Age",
+      "Neolithic Age",
+      "Iron Age",
+      "Paleolithic Age"
+    ],
+    "answer": 0,
+    "explanation": "Black and Red Ware (BRW) pottery is a characteristic of the Chalcolithic Age (Copper-Stone Age, ~2500-700 BCE). The pottery has a black interior and red exterior, made by inverted firing. BRW is found at Chalcolithic sites: Ahar (Rajasthan), Malwa (MP), Jorwe (Maharashtra), Chirand (Bihar). It is distinct from the Painted Grey Ware (PGW) of the Iron Age and the Northern Black Polished Ware (NBPW) of the Mauryan period.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  }
+]

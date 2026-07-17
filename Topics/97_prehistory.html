@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>97 - Prehistory | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #97 • TIER B</div>
+  <div class="topic-title">Prehistory — Stone Ages &amp; Key Sites</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Ancient History</span>
+    <span class="meta-tag">⚖️ Weight: 0.7</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Chirand (Neolithic, Saran district)</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of the Stone Ages, key sites, Bihar connection, and 7 exam predictions:
+    <a href="subpages/97_prehistory_detail.html" target="_blank">Prehistory Master Detail →</a>
+  </div>
+
+  <h3>A. The Four Stone Ages — Comparison <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Age</th><th>Period</th><th>Key Features</th><th>Tools</th><th>Lifestyle</th></tr>
+    <tr><td><strong>Paleolithic</strong> (Old Stone Age)</td><td>~2M - 10,000 BCE</td><td>Hunting, gathering; cave paintings; nomadic</td><td>Rough stone (hand axes, cleavers, flakes)</td><td>Nomadic hunter-gatherers; caves (Bhimbetka)</td></tr>
+    <tr><td><strong>Mesolithic</strong> (Middle Stone Age)</td><td>~10,000 - 6,000 BCE</td><td>Climate change (end of Ice Age); diversified hunting</td><td>Microliths (small stone tools: arrowheads, blades)</td><td>Hunter-gatherers; beginning of animal domestication</td></tr>
+    <tr><td><strong>Neolithic</strong> (New Stone Age)</td><td>~6,000 - 2,500 BCE</td><td>Agriculture; settled villages; pottery; animal domestication</td><td>Polished stone tools (axes, celts)</td><td>Settled farmers; villages (Mehrgarh, Chirand)</td></tr>
+    <tr><td><strong>Chalcolithic</strong> (Copper-Stone Age)</td><td>~2,500 - 700 BCE</td><td>Copper + stone tools; rural communities; distinctive pottery</td><td>Copper (axes, chisels) + stone</td><td>Rural farming communities (Ahar, Jorwe, Chirand)</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/bhimbetka.jpg" alt="Bhimbetka rock paintings">
+    <div class="img-caption">Rock paintings at Bhimbetka (Madhya Pradesh) — UNESCO World Heritage Site. Over 750 rock shelters with paintings spanning the Paleolithic to Mesolithic periods. The paintings depict hunting scenes, dancing, animals (elephants, deer, tigers), and daily life of prehistoric people.</div>
+  </div>
+
+  <h3>B. Key Prehistoric Sites in India <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Site</th><th>State/Region</th><th>Age</th><th>Key Findings</th></tr>
+    <tr><td><strong>Bhimbetka</strong></td><td>Madhya Pradesh</td><td>Paleolithic-Mesolithic</td><td>Rock paintings (750+ shelters); hunting, dancing scenes; UNESCO site</td></tr>
+    <tr><td><strong>Mehrgarh</strong></td><td>Balochistan (Pakistan)</td><td>Neolithic (~7000 BCE)</td><td>Earliest Neolithic settlement; wheat/barley farming; mud-brick houses; precursor to IVC</td></tr>
+    <tr><td><strong>Burzahom</strong></td><td>Kashmir</td><td>Neolithic (~3000 BCE)</td><td>Pit dwellings; bone tools; barley cultivation; dog burials</td></tr>
+    <tr><td><strong>Chirand</strong> 🔶</td><td>Bihar (Saran)</td><td>Neolithic-Chalcolithic</td><td>Stone + copper tools; pottery; rice cultivation; bone tools; most important prehistoric site in Bihar</td></tr>
+    <tr><td><strong>Bagor</strong></td><td>Rajasthan</td><td>Mesolithic</td><td>Microliths; hunter-gatherer camp; animal domestication</td></tr>
+    <tr><td><strong>Inamgaon</strong></td><td>Maharashtra</td><td>Chalcolithic</td><td>Rural farming community; copper tools; pottery; burial sites</td></tr>
+    <tr><td><strong>Ahar</strong></td><td>Rajasthan</td><td>Chalcolithic</td><td>Copper tools; black-and-red ware pottery</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/stone_age_tools.jpg" alt="Stone Age tools">
+    <div class="img-caption">Stone Age tools — from rough Paleolithic hand axes (left) to polished Neolithic axes and microliths. The evolution of stone tools reflects the technological advancement from hunting-gathering (Paleolithic) to farming (Neolithic).</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>C. The Iron Age in India</h3>
+  <ul>
+    <li><strong>Period:</strong> ~1,000 BCE (some say 1,200 BCE)</li>
+    <li><strong>Impact:</strong> iron ploughshares revolutionised agriculture; iron weapons changed warfare</li>
+    <li><strong>Associated with:</strong> Painted Grey Ware (PGW) culture; later Vedic period; rise of Mahajanapadas (600 BCE)</li>
+    <li><strong>Key sites:</strong> Hastinapur, Atranjikhera, Ahichchhatra (UP)</li>
+    <li><strong>Second urbanisation:</strong> after the decline of the IVC (~1750 BCE), the Iron Age saw the re-emergence of cities in the Ganga valley</li>
+  </ul>
+
+  <h3>D. Key Terms</h3>
+  <table>
+    <tr><th>Term</th><th>Meaning</th></tr>
+    <tr><td><strong>Microliths</strong></td><td>Small stone tools (1-5 cm) of the Mesolithic Age — arrowheads, blades, points</td></tr>
+    <tr><td><strong>Neolithic Revolution</strong></td><td>Transition from hunting-gathering to farming (term by Gordon Childe)</td></tr>
+    <tr><td><strong>Black-and-Red Ware (BRW)</strong></td><td>Characteristic pottery of the Chalcolithic Age — black interior, red exterior</td></tr>
+    <tr><td><strong>Painted Grey Ware (PGW)</strong></td><td>Pottery of the Iron Age / later Vedic period (~1,200-600 BCE)</td></tr>
+    <tr><td><strong>Northern Black Polished Ware (NBPW)</strong></td><td>Pottery of the Mauryan period (~700-200 BCE)</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/mehrgarh.jpg" alt="Mehrgarh pottery">
+    <div class="img-caption">Mehrgarh (Balochistan, ~7000 BCE) — the earliest Neolithic settlement in the Indian subcontinent. Shows the transition from hunting-gathering to farming: wheat/barley cultivation, domestication of cattle/sheep/goats, mud-brick houses, and pottery. Mehrgarh is a precursor to the Indus Valley Civilisation.</div>
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — P-M-N-C-I:</strong><br>
+    <strong>P</strong>aleolithic (hunting) → <strong>M</strong>esolithic (microliths) → <strong>N</strong>eolithic (farming) → <strong>C</strong>halcolithic (copper) → <strong>I</strong>ron Age.<br>
+    <em>"PMNCI: the five stages from stone to iron."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Chirand: The Neolithic Site on the Ganga</div>
+    <ul>
+      <li><strong>Chirand (Saran district, Bihar):</strong> the most important prehistoric site in Bihar. Located on the northern bank of the Ganga, near the confluence of the Ganga and the Ghaghra.</li>
+      <li><strong>Period:</strong> continuous occupation from the Neolithic to the Chalcolithic period (~2,000 BCE onwards)</li>
+      <li><strong>Key findings:</strong> (1) Neolithic stone tools (axes, celts); (2) Chalcolithic copper tools; (3) pottery (red ware, black-and-red ware); (4) bone tools (harpoons, needles); (5) evidence of rice cultivation and animal domestication; (6) burial sites</li>
+      <li><strong>Significance:</strong> Chirand shows that the Ganga valley in Bihar was inhabited by farming communities from the Neolithic period. It is the earliest evidence of settled life in Bihar.</li>
+      <li><strong>Other prehistoric sites in Bihar:</strong> Senuar (Neolithic, Rohtas district), Chechar-Kutubpur (Chalcolithic, Patna district), Maner (Chalcolithic)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="98_indus_valley.html">Topic 98 (Indus Valley Civilisation):</a></strong> The IVC (~2,500 BCE) emerged after the Neolithic period. Mehrgarh (~7,000 BCE) was the Neolithic precursor to the IVC. The IVC used bronze (copper + tin) — the Bronze Age. The Chalcolithic Age overlapped with the late IVC and continued after its decline.</li>
+    <li><strong>Topic 99 (Vedic Age):</strong> The Iron Age (~1,000 BCE) is associated with the later Vedic period. Iron tools enabled the expansion of agriculture into the Ganga valley — leading to the rise of the Mahajanapadas.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Bhimbetka:</strong> UNESCO World Heritage Site (2003) — one of the most important prehistoric art sites in the world. Attracts researchers and tourists from around the world.</li>
+    <li><strong>Mehrgarh:</strong> now in Pakistan (Balochistan) — but culturally part of the Indian subcontinent's prehistoric heritage. It shows the earliest evidence of farming in South Asia.</li>
+    <li><strong>Neolithic Revolution:</strong> the transition from hunting-gathering to farming is still studied as the most important revolution in human history — it led to settled life, cities, civilisations, and eventually modern society.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Paleolithic Age in India is also known as the:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Old Stone Age</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. New Stone Age</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Middle Stone Age</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Copper Stone Age</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Paleolithic = Old Stone Age (Greek 'palaios' = old, 'lithos' = stone). ~2 million - 10,000 BCE. Hunter-gatherers; rough stone tools; cave paintings (Bhimbetka).</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Which site in India is famous for prehistoric rock paintings spanning the Paleolithic to Mesolithic periods?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Bhimbetka (Madhya Pradesh)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Mehrgarh (Balochistan)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Burzahom (Kashmir)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Inamgaon (Maharashtra)</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Bhimbetka (MP) is a UNESCO World Heritage Site with 750+ rock shelters and paintings spanning Paleolithic to Mesolithic. Depicts hunting, dancing, animals, daily life.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Mesolithic Age in India is also known as the:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Middle Stone Age</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Old Stone Age</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. New Stone Age</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Iron Age</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — Mesolithic = Middle Stone Age (Greek 'mesos' = middle). ~10,000-6,000 BCE. Microliths (small stone tools); climate change; diversified hunting.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Neolithic Age in India began approximately in which period?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Around 6,000 BCE</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Around 10,000 BCE</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Around 2,000 BCE</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Around 500 BCE</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — The Neolithic Age began ~6,000 BCE in India. Key features: agriculture, settled villages, pottery, animal domestication, polished stone tools. The 'Neolithic Revolution.'</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Which site is considered the earliest Neolithic settlement in the Indian subcontinent?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Mehrgarh (Balochistan, ~7000 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Burzahom (Kashmir, ~3000 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Chirand (Bihar, ~2000 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Inamgaon (Maharashtra, ~1700 BCE)</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — Mehrgarh (~7000 BCE) is the earliest Neolithic settlement in the subcontinent. Wheat/barley farming, cattle/sheep/goat domestication, mud-brick houses. Precursor to the IVC. Discovered by J.F. Jarrige (1974).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Which period is known as the Chalcolithic Age?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Copper-Stone Age (when copper and stone tools were used together)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Iron Age</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Bronze Age</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Pure Stone Age</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — Chalcolithic = Copper-Stone Age (Greek 'chalkos' = copper). ~2,500-700 BCE. Copper + stone tools used together. Black-and-red ware pottery. Rural farming communities.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Arrange the Stone Ages in chronological order: 1. Paleolithic 2. Mesolithic 3. Neolithic 4. Chalcolithic</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. 1, 2, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. 2, 1, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. 1, 3, 2, 4</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. 3, 1, 2, 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Paleolithic (~2M-10,000 BCE) → Mesolithic (~10,000-6,000 BCE) → Neolithic (~6,000-2,500 BCE) → Chalcolithic (~2,500-700 BCE). From hunting-gathering to farming to metal tools.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The Indus Valley Civilisation is generally placed in which period?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. 2,500 - 1,750 BCE</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. 1,500 - 500 BCE</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. 3,000 - 1,500 BCE</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. 5,000 - 2,000 BCE</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — The IVC (Harappan) is dated 2,500-1,750 BCE (Bronze Age). First urban civilisation in India. Discovered 1921 (Harappa, Daya Ram Sahni) and 1922 (Mohenjodaro, R.D. Banerjee).</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Which of the following is NOT a feature of the Paleolithic Age?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Agriculture and settled villages</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Hunting and gathering</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Use of rough stone tools</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Cave paintings and rock art</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Agriculture and settled villages are Neolithic features, NOT Paleolithic. Paleolithic = hunting-gathering, rough stone tools, cave paintings (Bhimbetka), nomadic lifestyle.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Which of the following is a key Neolithic site in Bihar?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Chirand (Saran district, Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Mehrgarh (Balochistan)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Burzahom (Kashmir)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Ahar (Rajasthan)</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — Chirand (Saran district, Bihar, on the Ganga) is the most important prehistoric site in Bihar. Stone + copper tools, pottery, rice cultivation, bone tools, burial sites. Continuous occupation from Neolithic to Chalcolithic.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The term 'microlith' refers to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Small stone tools of the Mesolithic Age</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Large stone tools of the Paleolithic Age</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Copper tools of the Chalcolithic Age</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Bronze tools of the Harappan Age</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — Microliths are small stone tools (1-5 cm) characteristic of the Mesolithic Age. Types: arrowheads, blades, points, lunates. Made from flint, chert, agate. Often hafted onto wood/bone handles as composite tools.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Which age is known for the beginning of agriculture in India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Neolithic Age (~6,000 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Paleolithic Age (~2 million BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Mesolithic Age (~10,000 BCE)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Chalcolithic Age (~2,500 BCE)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — The Neolithic Age (~6,000 BCE) is known for the beginning of agriculture — the 'Neolithic Revolution.' First crops: wheat and barley (Mehrgarh ~7000 BCE). Rice cultivation began later in the Ganga valley.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Which prehistoric site in Kashmir is known for pit dwellings?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Burzahom (Kashmir)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Mehrgarh (Balochistan)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Chirand (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Inamgaon (Maharashtra)</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Burzahom (Kashmir, ~3000 BCE) is a Neolithic site known for pit dwellings — houses built in pits (for insulation against cold). Also: polished stone tools, bone tools, barley cultivation, dog burials.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Which metal was first used by humans in India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Copper</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Iron</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Gold</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Bronze</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — Copper was the first metal used in India (Chalcolithic Age, ~2,500 BCE). Copper is found in a relatively pure state and is easy to work. Bronze (copper+tin) was used by the IVC. Iron came ~1,000 BCE.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Iron Age in India began approximately in which period?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. Around 1,000 BCE</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Around 2,500 BCE</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Around 6,000 BCE</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Around 500 BCE</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — The Iron Age began ~1,000 BCE in India. Iron revolutionised agriculture (ploughshares) and warfare (weapons). Associated with PGW culture, later Vedic period, rise of Mahajanapadas, second urbanisation.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Which of the following correctly matches the site with its state?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Bhimbetka - Madhya Pradesh</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Mehrgarh - Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Burzahom - Rajasthan</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Chirand - Kashmir</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Bhimbetka is in Madhya Pradesh. Correct matches: Bhimbetka-MP, Mehrgarh-Balochistan, Burzahom-Kashmir, Chirand-Bihar.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The people of the Paleolithic Age survived primarily by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Hunting and gathering</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Agriculture</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Trade</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Pastoralism</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Paleolithic people survived by hunting wild animals and gathering wild fruits, roots, honey. They were nomadic — moving in search of food. Agriculture and domestication came in the Neolithic Age.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Which period is associated with the 'Neolithic Revolution'?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. The transition from hunting-gathering to farming</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. The transition from stone to iron tools</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. The transition from rural to urban life</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. The transition from monarchy to democracy</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — The Neolithic Revolution (term by Gordon Childe) = transition from hunting-gathering to farming (~6,000 BCE in India). Most important revolution in human history — led to settled life, population growth, surplus food, urbanisation.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Which of the following was a feature of the Chalcolithic Age but NOT of the Neolithic Age?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Use of copper tools alongside stone tools</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Agriculture</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Domestication of animals</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Polished stone tools</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — Copper tools alongside stone tools = Chalcolithic feature (not Neolithic). Agriculture, domestication, and polished stone tools were Neolithic features that continued into the Chalcolithic Age.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which archaeological site in Bihar shows continuous occupation from the Neolithic to the Chalcolithic period?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Chirand (Saran district, Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Rajgir (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Vaishali (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Pataliputra (Bihar)</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Chirand (Saran district, Bihar, on the Ganga) shows continuous occupation from Neolithic to Chalcolithic. Stone + copper tools, pottery, rice cultivation, bone tools, burial sites. Most important prehistoric site in Bihar.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The rock paintings at Bhimbetka depict:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Hunting scenes, dancing, animals, and daily life</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Buddhist religious themes</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Royal court scenes</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Islamic calligraphy</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Bhimbetka paintings depict hunting scenes, dancing, animals (elephants, deer, tigers, boars), and daily life of prehistoric people. 750+ rock shelters, spanning Paleolithic to Mesolithic. UNESCO World Heritage Site (2003).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Who discovered the Indus Valley site of Harappa in 1921?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. Daya Ram Sahni</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. R.D. Banerjee</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. John Marshall</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. M.S. Vats</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Daya Ram Sahni discovered Harappa (1921). R.D. Banerjee discovered Mohenjodaro (1922). John Marshall (DG, ASI) announced the IVC in 1924. IVC dated 2,500-1,750 BCE.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Which of the following statements about prehistoric Bihar is correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Chirand in Bihar is an important Neolithic site on the banks of the Ganga</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Bihar had no prehistoric sites</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Bihar's prehistoric sites are all from the Iron Age</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Bihar's prehistoric sites are all from the Paleolithic Age</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Chirand (Saran district, Bihar, on the Ganga) is an important Neolithic site. Stone tools, copper tools, pottery, rice cultivation, bone tools. Most important prehistoric site in Bihar. Other sites: Senuar, Chechar-Kutubpur.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The transition from the Chalcolithic Age to the Iron Age in India is associated with which pottery culture?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Painted Grey Ware (PGW) culture</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Black and Red Ware culture</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Northern Black Polished Ware (NBPW)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Red Ware culture</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — Painted Grey Ware (PGW) culture (~1,200-600 BCE) marks the transition from Chalcolithic to Iron Age. Grey pottery with painted designs. Associated with later Vedic period. Key sites: Hastinapur, Atranjikhera, Ahichchhatra.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The Black and Red Ware pottery is a characteristic of which age in India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Chalcolithic Age</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Neolithic Age</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Iron Age</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Paleolithic Age</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — Black and Red Ware (BRW) is characteristic of the Chalcolithic Age (~2,500-700 BCE). Black interior, red exterior (inverted firing). Found at Ahar (Rajasthan), Malwa (MP), Jorwe (Maharashtra), Chirand (Bihar).</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Stone Age chronology (HIGH):</strong> Paleolithic → Mesolithic → Neolithic → Chalcolithic → Iron Age. Know periods, key features, and tools for each. PMNCI mnemonic.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Key sites (MEDIUM):</strong> Bhimbetka (MP, rock paintings), Mehrgarh (Balochistan, earliest Neolithic ~7000 BCE), Burzahom (Kashmir, pit dwellings), Chirand (Bihar, Neolithic-Chalcolithic).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Bihar connection (MEDIUM):</strong> Chirand (Saran district, on the Ganga) — most important prehistoric site in Bihar. Continuous occupation from Neolithic to Chalcolithic. Stone + copper tools, rice cultivation, bone tools.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Neolithic Revolution (LOW):</strong> Transition from hunting-gathering to farming (~6,000 BCE). Term by Gordon Childe. Led to settled life, population growth, urbanisation. Mehrgarh = earliest evidence.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>Iron Age + PGW (LOW):</strong> Iron Age ~1,000 BCE. Painted Grey Ware (PGW) marks the transition. Later Vedic period. Second urbanisation. Sites: Hastinapur, Atranjikhera.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Bhimbetka (LOW):</strong> UNESCO World Heritage Site (2003). 750+ rock shelters. Paintings depict hunting, dancing, animals, daily life. Spanning Paleolithic to Mesolithic.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>First metal (LOW):</strong> Copper was the first metal used in India (Chalcolithic Age, ~2,500 BCE). Bronze (copper+tin) used by IVC. Iron came ~1,000 BCE.</div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>R.S. Sharma, <em>Ancient India</em>, Chapters 1-3 (Stone Ages)</li>
+    <li>D.N. Jha, <em>Ancient India</em>, Chapters 2-4 (Prehistory)</li>
+    <li><a href="https://en.wikipedia.org/wiki/Prehistory_of_India" target="_blank">Wikipedia: Prehistory of India</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Bhimbetka_rock_shelters" target="_blank">Wikipedia: Bhimbetka Rock Shelters</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 97 — Prehistory • Generated 2026-07-17</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'a', q4: 'a', q5: 'a', q6: 'a', q7: 'a', q8: 'a', q9: 'a', q10: 'a',
+  q11: 'a', q12: 'a', q13: 'a', q14: 'a', q15: 'a', q16: 'a', q17: 'a', q18: 'a', q19: 'a', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'a', q24: 'a', q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>
