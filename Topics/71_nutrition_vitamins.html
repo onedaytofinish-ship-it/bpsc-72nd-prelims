@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>71 - Nutrition & Vitamins | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #71 • TIER A</div>
+  <div class="topic-title">Nutrition & Vitamins — Vitamins, Deficiency Diseases, Diet</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Biology</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">🎯 Expected: 2-3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Malnutrition, ICDS, Mid-Day Meal, POSHAN Abhiyan</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Nutrition & Vitamins: Macronutrients (carbs, proteins, fats) + Micronutrients (vitamins, minerals). Fat-soluble vitamins: A (night blindness), D (rickets), E, K (blood clotting). Water-soluble: B-complex (beriberi B1, pellagra B3, pernicious anaemia B12), C (scurvy). Key minerals: Calcium (bones), Iron (haemoglobin/anaemia), Iodine (goitre), Zinc (immunity). Balanced diet, BMI, malnutrition. Bihar: high malnutrition, stunting, ICDS/Anganwadi, Mid-Day Meal, POSHAN Abhiyan.</strong>
+  </div>
+
+  <div class="img-container">
+    <img src="images/bhimbetka.jpg" alt="Biology and nutrition — the science of life">
+    <div class="img-caption">Nutrition and vitamins are fundamental to human health. Understanding macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins, minerals) — and their deficiency diseases — is essential for BPSC and for public health awareness.</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/mahavir_mandir_patna.jpg" alt="Bihar's nutrition programmes — ICDS, Mid-Day Meal, POSHAN">
+    <div class="img-caption">Bihar faces significant malnutrition challenges — high rates of stunting, wasting, anaemia, and iodine deficiency. Government programmes like ICDS (Anganwadi), Mid-Day Meal, and POSHAN Abhiyan are working to address these challenges across Bihar.</div>
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of all vitamins, minerals, deficiency diseases, Bihar nutrition programmes, and 7 exam predictions:
+    <a href="subpages/71_nutrition_vitamins_detail.html" target="_blank">Nutrition & Vitamins Master Detail →</a>
+  </div>
+
+  <h3>A. Macronutrients — Carbohydrates, Proteins, Fats <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Nutrient</th><th>Function</th><th>Sources</th><th>Daily Need</th></tr>
+    <tr><td>Carbohydrates</td><td>Main energy source (4 kcal/g)</td><td>Rice, wheat, potatoes, sugar</td><td>~55-60% of calories</td></tr>
+    <tr><td>Proteins</td><td>Building blocks (4 kcal/g), enzymes, muscles</td><td>Meat, fish, eggs, pulses, dairy, soy</td><td>~10-15% of calories</td></tr>
+    <tr><td>Fats</td><td>Energy storage (9 kcal/g), insulation, hormones</td><td>Oil, ghee, butter, nuts, fish</td><td>~20-30% of calories</td></tr>
+  </table>
+
+  <h3>B. Fat-Soluble Vitamins (A, D, E, K) <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Vitamin</th><th>Function</th><th>Deficiency Disease</th><th>Sources</th></tr>
+    <tr><td>A (Retinol)</td><td>Vision, skin, immunity</td><td>Night blindness, xerophthalmia</td><td>Carrot, liver, milk, eggs, yellow vegetables</td></tr>
+    <tr><td>D (Calciferol)</td><td>Calcium absorption, bone health</td><td>Rickets (children), osteomalacia (adults)</td><td>Sunlight, fish liver oil, milk, eggs</td></tr>
+    <tr><td>E (Tocopherol)</td><td>Antioxidant, skin health</td><td>Rare — neurological issues</td><td>Vegetable oils, nuts, seeds, leafy greens</td></tr>
+    <tr><td>K (Phylloquinone)</td><td>Blood clotting</td><td>Excessive bleeding</td><td>Leafy greens (spinach), cabbage, liver</td></tr>
+  </table>
+
+  <h3>C. Water-Soluble Vitamins (B-Complex, C) <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Vitamin</th><th>Function</th><th>Deficiency Disease</th><th>Sources</th></tr>
+    <tr><td>B1 (Thiamine)</td><td>Carbohydrate metabolism, nerves</td><td>Beriberi (nerve/heart damage)</td><td>Whole grains, pulses, pork, yeast</td></tr>
+    <tr><td>B2 (Riboflavin)</td><td>Energy metabolism</td><td>Ariboflavinosis (mouth sores)</td><td>Milk, eggs, green vegetables</td></tr>
+    <tr><td>B3 (Niacin)</td><td>Energy metabolism</td><td>Pellagra (3 Ds: dermatitis, diarrhoea, dementia)</td><td>Meat, fish, peanuts, whole grains</td></tr>
+    <tr><td>B6 (Pyridoxine)</td><td>Amino acid metabolism</td><td>Anaemia, skin issues</td><td>Meat, fish, potatoes, bananas</td></tr>
+    <tr><td>B9 (Folic acid)</td><td>DNA synthesis, RBC formation</td><td>Megaloblastic anaemia, birth defects</td><td>Leafy greens, legumes, liver</td></tr>
+    <tr><td>B12 (Cobalamin)</td><td>Nerve function, RBC formation</td><td>Pernicious anaemia</td><td>Meat, fish, eggs, dairy (NOT in plants)</td></tr>
+    <tr><td>C (Ascorbic acid)</td><td>Collagen synthesis, immunity, antioxidant</td><td>Scurvy (bleeding gums, weak immunity)</td><td>Citrus fruits, amla, guava, peppers</td></tr>
+  </table>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>E. Key Minerals <span class="current-tag">EXAM PATTERN</span></h3>
+  <table>
+    <tr><th>Mineral</th><th>Function</th><th>Deficiency</th><th>Sources</th></tr>
+    <tr><td>Calcium</td><td>Bones/teeth, muscle contraction</td><td>Osteoporosis, rickets</td><td>Milk, cheese, leafy greens, fish</td></tr>
+    <tr><td>Iron</td><td>Haemoglobin (O2 transport)</td><td>Anaemia (fatigue, pale skin)</td><td>Red meat, spinach, lentils, jaggery</td></tr>
+    <tr><td>Iodine</td><td>Thyroid hormones (metabolism)</td><td>Goitre (enlarged thyroid)</td><td>Iodised salt, seafood, seaweed</td></tr>
+    <tr><td>Zinc</td><td>Immunity, wound healing</td><td>Growth retardation, weak immunity</td><td>Meat, nuts, seeds, legumes</td></tr>
+    <tr><td>Phosphorus</td><td>Bones/teeth, ATP, DNA</td><td>Rare (weak bones)</td><td>Milk, meat, nuts, legumes</td></tr>
+    <tr><td>Potassium</td><td>Nerve/muscle function</td><td>Weakness, heart issues</td><td>Bananas, potatoes, beans</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Vitamin Deficiency Diseases:</strong><br>
+    <strong>A</strong> = Night blindness (vision), <strong>B1</strong> = Beriberi (nerves), <strong>B3</strong> = Pellagra (3 Ds), <strong>B12</strong> = Pernicious anaemia (blood), <strong>C</strong> = Scurvy (gums), <strong>D</strong> = Rickets (bones), <strong>K</strong> = Bleeding (clotting).<br>
+    <em>"A-B-C-D-K: All Body Conditions Need Daily Knowledge."</em><br><br>
+    <strong>Fat-soluble</strong> = A, D, E, K (stored in fat). <strong>Water-soluble</strong> = B-complex, C (not stored, need daily). Iron = Anaemia, Iodine = Goitre, Calcium = Bones.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Malnutrition, ICDS, POSHAN Abhiyan</div>
+    <ul>
+      <li><strong>Malnutrition in Bihar:</strong> Bihar has high rates of child malnutrition — stunting (~42%), wasting (~22%), underweight (~33%) (NFHS-5, 2019-21). These rates are above the national average. Malnutrition affects cognitive development, immunity, and future productivity.</li>
+      <li><strong>ICDS in Bihar:</strong> ICDS provides supplementary nutrition, health check-ups, immunisation, and pre-school education to children 0-6 years through ~80,000+ Anganwadi centres. ICDS is the world's largest early childhood development programme.</li>
+      <li><strong>Mid-Day Meal Scheme (Bihar):</strong> Bihar serves mid-day meals to ~1.5 crore children in government schools (~450-700 kcal per child/day). In 2013, a tragedy in Saran district (23 children died from contaminated mid-day meal) led to stronger safety protocols.</li>
+      <li><strong>POSHAN Abhiyan in Bihar:</strong> Bihar is a high-priority state for POSHAN Abhiyan (launched 2018). Targets reducing stunting, undernutrition, and anaemia. March is celebrated as POSHAN Maah in Bihar.</li>
+      <li><strong>Anaemia in Bihar:</strong> ~63% of children 6-59 months and ~63% of women 15-49 are anaemic (NFHS-5). Iron deficiency is the main cause. Programmes: Iron-Folic Acid (IFA) supplementation, weekly IFA tablets in schools.</li>
+      <li><strong>Iodine deficiency in Bihar:</strong> several northern/Gangetic districts are iodine-deficient. Goitre was historically common. NIDDCP promotes iodised salt in Bihar.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="70_human_body_systems.html">Topic 70 (Human Body Systems):</a></strong> The digestive system absorbs all nutrients (vitamins, minerals, proteins, fats) from food. Understanding body systems is essential for understanding how nutrients are processed and used.</li>
+    <li><strong><a href="72_diseases_pathogens.html">Topic 72 (Diseases &amp; Pathogens):</a></strong> Many deficiency diseases (anaemia, goitre, rickets, beriberi, scurvy) are caused by nutritional deficiencies — linking nutrition to disease. Malnutrition weakens immunity, increasing susceptibility to infectious diseases.</li>
+    <li><strong><a href="73_blood_immunity_vaccines.html">Topic 73 (Blood, Immunity, Vaccines):</a></strong> Iron deficiency causes anaemia (blood disorder). Vitamin K is essential for blood clotting. Vitamin C and zinc boost immunity. Nutrition and blood/immunity are deeply interconnected.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>POSHAN Abhiyan (2018):</strong> India's flagship nutrition mission — targets reducing stunting, undernutrition, and anaemia. Bihar is a high-priority state. March is POSHAN Maah.</li>
+    <li><strong>Mid-Day Meal Scheme:</strong> world's largest school feeding programme (~12 crore children). Provides nutrition and improves school enrolment. Bihar serves ~1.5 crore children.</li>
+    <li><strong>Food Fortification:</strong> India is promoting fortified rice (with iron, folic acid, vitamin B12) to combat anaemia. Bihar has been included in the pilot fortification programme.</li>
+    <li><strong>Vitamin D deficiency in India:</strong> despite abundant sunlight, 70-90% of Indians have VDD (cultural/clothing factors, indoor lifestyle). AIIMS Patna researches VDD in Bihar's population.</li>
+    <li><strong>Anaemia eradication:</strong> Anaemia Mukt Bharat (AMB) strategy — IFA supplementation, deworming, fortified foods. Bihar's high anaemia rates make AMB implementation critical.</li>
+    <li><strong>Millets (2023 = International Year of Millets):</strong> India promoted millets (bajra, jowar, ragi) as nutrient-rich, climate-resilient crops. Bihar grows ragi and bajra — which are rich in iron, calcium, and fibre. Millets can help combat malnutrition in Bihar.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Which vitamin deficiency causes night blindness?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Vitamin D</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Vitamin C</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Vitamin B12</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Vitamin A (retinol — essential for vision, especially night vision)</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — Vitamin A deficiency causes night blindness (nyctalopia) — difficulty seeing in low light. Severe deficiency → xerophthalmia (dry eyes) → blindness. Vitamin A is found in: carrots, liver, milk, eggs, yellow/orange vegetables (beta-carotene). WHO considers Vitamin A deficiency a major public health problem in developing countries.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Which vitamin deficiency causes rickets (soft, weak bones in children)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Vitamin B1</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Vitamin C</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Vitamin D (calciferol — needed for calcium absorption)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Vitamin A</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — Vitamin D deficiency causes rickets in children (soft, weak, deformed bones) and osteomalacia in adults (bone pain, fractures). Vitamin D helps the body absorb calcium from food. Source: sunlight (skin synthesises Vitamin D when exposed to UV), fish liver oil, fortified milk, eggs. India has high VDD despite abundant sunlight (cultural/ clothing factors).</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Scurvy is caused by the deficiency of which vitamin?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Vitamin B1</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Vitamin K</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Vitamin D</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Vitamin C (ascorbic acid — collagen synthesis, immunity)</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (D)</strong> — Scurvy is caused by Vitamin C (ascorbic acid) deficiency. Symptoms: bleeding gums, loose teeth, skin haemorrhages, weak immunity, poor wound healing. Vitamin C is essential for collagen synthesis (the main structural protein in connective tissue). Sources: citrus fruits (oranges, lemons), amla (Indian gooseberry — richest source), guava, peppers. Scurvy was common among sailors (no fresh fruits on long voyages).</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The disease 'beriberi' is caused by the deficiency of which vitamin?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Vitamin B12</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Vitamin C</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Vitamin B1 (thiamine — carbohydrate metabolism, nerve function)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Vitamin A</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — Beriberi is caused by Vitamin B1 (thiamine) deficiency. Two types: (1) wet beriberi (heart failure, oedema), (2) dry beriberi (nerve damage, muscle wasting). Common in populations eating polished white rice (thiamine is in the outer husk, removed during polishing). Found in: whole grains, pulses, pork, yeast. Eijkman discovered the cause (1929 Nobel Prize).</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Pellagra is caused by the deficiency of which vitamin?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Vitamin B1</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Vitamin C</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Vitamin D</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Vitamin B3 (niacin — characterised by the '3 Ds': dermatitis, diarrhoea, dementia)</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — Pellagra is caused by Vitamin B3 (niacin) deficiency. Classic '3 Ds': Dermatitis (skin rash, especially on sun-exposed areas), Diarrhoea, Dementia (confusion, memory loss). If untreated, the 4th D = Death. Common in maize-eating populations (maize has niacin in a bound form not easily absorbed). Sources: meat, fish, peanuts, whole grains. Pellagra was epidemic in the US South (early 1900s).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Pernicious anaemia is caused by the deficiency of which vitamin?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Vitamin B9 (folic acid)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Vitamin C</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Iron</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Vitamin B12 (cobalamin — needed for RBC formation; absorption requires intrinsic factor)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — Pernicious anaemia is caused by Vitamin B12 (cobalamin) deficiency. B12 is needed for RBC formation and nerve function. It's only found in animal products (meat, fish, eggs, dairy) — NOT in plant foods. Vegans are at risk. B12 absorption requires 'intrinsic factor' (produced by the stomach). Without it, B12 cannot be absorbed → pernicious anaemia (large, immature RBCs). Treatment: B12 injections.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Goitre (enlarged thyroid gland) is caused by the deficiency of which mineral?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. Calcium</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Iron</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Iodine (needed for thyroid hormone synthesis — regulates metabolism)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. Zinc</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — Goitre (enlarged thyroid gland) is caused by iodine deficiency. Iodine is essential for the thyroid gland to produce hormones (T3, T4) that regulate metabolism. Without enough iodine, the thyroid enlarges (goitre) trying to compensate. Severe deficiency in pregnancy → cretinism (mental retardation in baby). Prevention: iodised salt (National Iodine Deficiency Disorders Control Programme, 1992). Sources: iodised salt, seafood, seaweed.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Iron deficiency in the human body leads to which condition?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Goitre</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Scurvy</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Anaemia (low haemoglobin → fatigue, pale skin, shortness of breath)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Rickets</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Iron deficiency causes anaemia — the most common nutritional deficiency worldwide. Iron is the core component of haemoglobin (the protein in RBCs that carries oxygen). Without enough iron, the body cannot produce enough haemoglobin → RBCs are small and pale → reduced oxygen transport → fatigue, pale skin, shortness of breath. Sources: red meat, liver, spinach, lentils, jaggery, dates. Vitamin C enhances iron absorption.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Vitamin K is essential for which bodily function?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Blood clotting (coagulation — activates clotting factors)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Bone growth</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Vision</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Immunity</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Vitamin K is essential for blood clotting (coagulation). It activates clotting factors (proteins that stop bleeding). Without Vitamin K, even small cuts would bleed excessively. Vitamin K is also important for bone health. Sources: leafy green vegetables (spinach, kale, cabbage), liver, vegetable oils. Newborns are given Vitamin K injections at birth (they don't have enough yet). 'K' comes from the German 'Koagulation.'</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Which vitamin is produced by the human skin when exposed to sunlight?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Vitamin C</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Vitamin E</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Vitamin D (skin synthesises calciferol when exposed to UV-B radiation)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Vitamin A</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — Vitamin D is synthesised by the skin when exposed to sunlight (UV-B radiation). The skin converts 7-dehydrocholesterol to Vitamin D3 (cholecalciferol). ~15-30 minutes of sunlight exposure on face and arms, 2-3 times/week, is usually sufficient. Despite abundant sunlight in India, Vitamin D deficiency is common (cultural clothing, indoor lifestyle, pollution). Vitamin D is both a vitamin and a hormone.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which of the following is the richest source of Vitamin C?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Lemon</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Orange</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Apple</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Amla (Indian gooseberry — ~600-700 mg/100g, one of the richest natural sources)</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Amla (Indian gooseberry, Phyllanthus emblica) is one of the richest natural sources of Vitamin C (~600-700 mg per 100g — ~20 times more than an orange). Amla is used in Ayurveda (Chyawanprash) and is a key ingredient in many Indian remedies. Other good sources: guava (~228 mg), peppers, citrus fruits. Vitamin C is water-soluble, cannot be stored, must be consumed daily.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. How many calories are produced per gram of fat in the human body?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. 2 kcal/g</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. 7 kcal/g</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. 4 kcal/g</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. 9 kcal/g (fats provide the most energy per gram — more than 2x carbs/proteins)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — Fats provide 9 kcal per gram — the highest energy density of all macronutrients. Carbohydrates and proteins each provide 4 kcal/g. Alcohol provides 7 kcal/g (not a nutrient). This is why high-fat foods (oil, ghee, nuts, butter) are calorie-dense. Fats are essential for: energy storage, insulation, hormone production, absorption of fat-soluble vitamins (A, D, E, K).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The BMI (Body Mass Index) is calculated using which formula?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Weight × Height</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Weight / Height</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Weight (kg) / Height² (m²) — normal range is 18.5-24.9</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Height / Weight²</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — BMI = Weight (kg) / Height (m)². Categories: Underweight <18.5, Normal 18.5-24.9, Overweight 25-29.9, Obese ≥30. BMI is a quick screening tool but doesn't distinguish between muscle and fat. A very muscular person may have high BMI but low body fat. BMI is widely used in health assessments, insurance, and public health surveys.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Which vitamin deficiency in pregnant women can cause neural tube defects (spina bifida) in the baby?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Vitamin D</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Vitamin B12</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Vitamin C</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Vitamin B9 / Folic acid (essential for neural tube development in early pregnancy)</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — Folic acid (Vitamin B9) deficiency in early pregnancy can cause neural tube defects (NTDs) — such as spina bifida (spine doesn't close properly) and anencephaly (brain doesn't develop). The neural tube closes in the first 28 days of pregnancy (often before a woman knows she's pregnant). WHO recommends 400 μg folic acid daily for women of childbearing age. Sources: leafy greens, legumes, fortified grains.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Which mineral is most important for bone and teeth formation?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. Calcium (the most abundant mineral in the body — 99% stored in bones/teeth)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Iron</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Sodium</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Iodine</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Calcium is the most abundant mineral in the human body (~1.2 kg in an adult). 99% is stored in bones and teeth (providing structural strength). Calcium is also essential for: muscle contraction, nerve signalling, blood clotting, and enzyme activation. Vitamin D is needed for calcium absorption. Sources: milk, cheese, yogurt, leafy greens, fish with bones. Deficiency → osteoporosis (brittle bones).</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Proteins are made up of which smaller building blocks?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Nucleotides</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Amino acids (20 standard amino acids; 9 are 'essential' — must come from diet)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Glucose molecules</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Fatty acids</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Proteins are made of amino acids. There are 20 standard amino acids. 9 are 'essential' (the body cannot synthesise them — must come from diet): histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine. Animal proteins (meat, eggs, dairy) are 'complete' (all 9 essential amino acids). Most plant proteins are 'incomplete' (lack one or more) — exception: soy and quinoa are complete.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Which of the following is a 'complete protein' (containing all 9 essential amino acids)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Rice</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Lentils</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Wheat</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Eggs (animal protein — complete; soy and quinoa are the main plant-based complete proteins)</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — Eggs are a 'complete protein' — containing all 9 essential amino acids in the right proportions. Animal proteins (meat, fish, eggs, dairy) are generally complete. Most plant proteins are 'incomplete' (lacking one or more essential amino acids). EXCEPTIONS: soy (and soy products like tofu) and quinoa are complete plant proteins. Combining grains + legumes (e.g., rice + dal) also provides all essential amino acids.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The National Iodine Deficiency Disorders Control Programme (NIDDCP) in India primarily promotes:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Iron supplementation</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Calcium supplementation</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Use of iodised salt (to prevent goitre and cretinism)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Vitamin A supplementation</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — The NIDDCP (launched 1992, revised name) promotes the use of iodised salt to prevent iodine deficiency disorders (IDD): goitre, cretinism (mental retardation), and hypothyroidism. India mandates iodised salt for direct human consumption. Despite this, IDD remains a problem in some areas (especially hilly regions where soil iodine is low). Bihar has IDD-prone districts. Universal Salt Iodisation (USI) is the global strategy.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The '3 Ds' of pellagra (Vitamin B3/niacin deficiency) are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Deformity, Diarrhoea, Deafness</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Diabetes, Dental decay, Dementia</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Dryness, Dizziness, Deafness</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Dermatitis, Diarrhoea, Dementia (the 4th D is Death if untreated)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — The '3 Ds' of pellagra: Dermatitis (skin rash on sun-exposed areas), Diarrhoea (gastrointestinal), Dementia (confusion, memory loss). The 4th D = Death (if untreated). Pellagra is caused by Vitamin B3 (niacin) deficiency. Common in maize-eating populations. The disease was epidemic in the US South (1900s) until Goldberger discovered the dietary cause (niacin). Sources: meat, fish, peanuts, whole grains.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which vitamin is a powerful antioxidant that protects cells from oxidative damage?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Vitamin E (tocopherol — protects cell membranes from free radical damage)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Vitamin B1</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Vitamin K</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Vitamin B12</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Vitamin E (tocopherol) is a powerful antioxidant. It protects cell membranes from oxidative damage caused by free radicals (reactive oxygen species). Free radicals damage cells and are linked to ageing, cancer, and heart disease. Vitamin E is fat-soluble — stored in fat tissues. Sources: vegetable oils (sunflower, safflower), nuts (almonds), seeds, leafy greens. Vitamin C is also an antioxidant (water-soluble).</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The Mid-Day Meal Scheme in India provides meals to which group?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. School children (Class 1-8 in government and government-aided schools)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Elderly people</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Hospital patients</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Pregnant women</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — The Mid-Day Meal Scheme (MDMS) provides free meals to school children (Class 1-8) in government and government-aided schools. Launched in 1995 (revised 2004), it is the world's largest school feeding programme (~12 crore children). Objectives: (1) improve nutrition, (2) increase school enrolment and attendance, (3) reduce dropout rates. Bihar implemented MDMS across all schools. The meal provides ~450 kcal (primary) and ~700 kcal (upper primary) per child per day.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. POSHAN Abhiyan (National Nutrition Mission) was launched in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. 2018 (by PM Modi — aims to reduce stunting, undernutrition, and anaemia in children and women)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. 2020</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. 2015</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. 2010</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — POSHAN Abhiyan (Prime Minister's Overarching Scheme for Holistic Nutrition) was launched in March 2018. Targets (by 2022): reduce stunting in children 0-6 years (from 38.4% to 25%), reduce undernutrition, reduce anaemia in children and women. It uses a 'convergence' approach — bringing together ICDS, Health, Water/Sanitation, and Agriculture departments. Bihar is a high-priority state for POSHAN (high malnutrition rates). March is celebrated as POSHAN Maah (nutrition month).</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Which Indian food is the richest plant-based source of iron?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Rice</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Apple</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Wheat</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Jaggery (gur — traditional unrefined sugar, ~11 mg iron/100g)</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (D)</strong> — Jaggery (gur) is one of the richest plant-based sources of iron (~11 mg per 100g). It is a traditional Indian sweetener made from sugarcane juice (or date palm). Jaggery also contains other minerals (calcium, magnesium, potassium). In Bihar and other states, jaggery is traditionally given to anaemic women and children. Other good plant sources of iron: spinach, lentils, dates, raisins. Vitamin C enhances iron absorption from plant sources.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The condition 'kwashiorkor' is caused by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Excess fat consumption</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Iron deficiency</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Severe protein deficiency (adequate calories but insufficient protein — swollen belly, oedema)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Vitamin A deficiency</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — Kwashiorkor is a form of severe malnutrition caused by protein deficiency (with adequate calorie intake). Symptoms: swollen belly (oedema — fluid accumulation), fatty liver, hair depigmentation, skin lesions, apathy. It typically occurs in children aged 1-4 (weaned from breast milk to a starch-only diet). The name comes from the Ga language of Ghana ('the sickness the older child gets when the next baby is born'). Treatment: gradual refeeding with protein. Marasmus = combined protein + calorie deficiency.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The condition 'marasmus' differs from kwashiorkor in that marasmus is caused by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Vitamin deficiency only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Deficiency of both calories AND protein (severe weight loss, 'old person' appearance)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Protein deficiency only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Excess calorie intake</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — Marasmus is caused by deficiency of BOTH calories and protein (energy-protein malnutrition). Symptoms: severe weight loss, muscle wasting, 'old person' face, dry skin, no oedema (unlike kwashiorkor). Occurs in infants (often <1 year) who are weaned early or given diluted food. Kwashiorkor = protein deficiency with adequate calories (swollen belly). Marasmus = both protein and calorie deficiency (wasted appearance). Both are forms of Severe Acute Malnutrition (SAM).</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>NCERT Biology, Class 10 &amp; 11 — Nutrition, Digestion</li>
+    <li>NCERT Science, Class 7 &amp; 9 — Nutrition in Animals and Plants</li>
+    <li>WHO Nutrition Guidelines</li>
+    <li><a href="https://en.wikipedia.org/wiki/Vitamin" target="_blank">Wikipedia: Vitamins</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 71 — Nutrition & Vitamins • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'c', q3: 'd', q4: 'c', q5: 'd', q6: 'd', q7: 'c', q8: 'c', q9: 'a', q10: 'c',
+  q11: 'd', q12: 'd', q13: 'c', q14: 'd', q15: 'a', q16: 'b', q17: 'd', q18: 'c', q19: 'd', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'd', q24: 'c', q25: 'b'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

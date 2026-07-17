@@ -1,0 +1,327 @@
+[
+  {
+    "q": "Which vitamin deficiency causes night blindness?",
+    "options": [
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin B12",
+      "Vitamin A (retinol — essential for vision, especially night vision)"
+    ],
+    "answer": 3,
+    "explanation": "Vitamin A deficiency causes night blindness (nyctalopia) — difficulty seeing in low light. Severe deficiency → xerophthalmia (dry eyes) → blindness. Vitamin A is found in: carrots, liver, milk, eggs, yellow/orange vegetables (beta-carotene). WHO considers Vitamin A deficiency a major public health problem in developing countries.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which vitamin deficiency causes rickets (soft, weak bones in children)?",
+    "options": [
+      "Vitamin B1",
+      "Vitamin C",
+      "Vitamin D (calciferol — needed for calcium absorption)",
+      "Vitamin A"
+    ],
+    "answer": 2,
+    "explanation": "Vitamin D deficiency causes rickets in children (soft, weak, deformed bones) and osteomalacia in adults (bone pain, fractures). Vitamin D helps the body absorb calcium from food. Source: sunlight (skin synthesises Vitamin D when exposed to UV), fish liver oil, fortified milk, eggs. India has high VDD despite abundant sunlight (cultural/ clothing factors).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Scurvy is caused by the deficiency of which vitamin?",
+    "options": [
+      "Vitamin B1",
+      "Vitamin K",
+      "Vitamin D",
+      "Vitamin C (ascorbic acid — collagen synthesis, immunity)"
+    ],
+    "answer": 3,
+    "explanation": "Scurvy is caused by Vitamin C (ascorbic acid) deficiency. Symptoms: bleeding gums, loose teeth, skin haemorrhages, weak immunity, poor wound healing. Vitamin C is essential for collagen synthesis (the main structural protein in connective tissue). Sources: citrus fruits (oranges, lemons), amla (Indian gooseberry — richest source), guava, peppers. Scurvy was common among sailors (no fresh fruits on long voyages).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The disease 'beriberi' is caused by the deficiency of which vitamin?",
+    "options": [
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin B1 (thiamine — carbohydrate metabolism, nerve function)",
+      "Vitamin A"
+    ],
+    "answer": 2,
+    "explanation": "Beriberi is caused by Vitamin B1 (thiamine) deficiency. Two types: (1) wet beriberi (heart failure, oedema), (2) dry beriberi (nerve damage, muscle wasting). Common in populations eating polished white rice (thiamine is in the outer husk, removed during polishing). Found in: whole grains, pulses, pork, yeast. Eijkman discovered the cause (1929 Nobel Prize).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Pellagra is caused by the deficiency of which vitamin?",
+    "options": [
+      "Vitamin B1",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin B3 (niacin — characterised by the '3 Ds': dermatitis, diarrhoea, dementia)"
+    ],
+    "answer": 3,
+    "explanation": "Pellagra is caused by Vitamin B3 (niacin) deficiency. Classic '3 Ds': Dermatitis (skin rash, especially on sun-exposed areas), Diarrhoea, Dementia (confusion, memory loss). If untreated, the 4th D = Death. Common in maize-eating populations (maize has niacin in a bound form not easily absorbed). Sources: meat, fish, peanuts, whole grains. Pellagra was epidemic in the US South (early 1900s).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Pernicious anaemia is caused by the deficiency of which vitamin?",
+    "options": [
+      "Vitamin B9 (folic acid)",
+      "Vitamin C",
+      "Iron",
+      "Vitamin B12 (cobalamin — needed for RBC formation; absorption requires intrinsic factor)"
+    ],
+    "answer": 3,
+    "explanation": "Pernicious anaemia is caused by Vitamin B12 (cobalamin) deficiency. B12 is needed for RBC formation and nerve function. It's only found in animal products (meat, fish, eggs, dairy) — NOT in plant foods. Vegans are at risk. B12 absorption requires 'intrinsic factor' (produced by the stomach). Without it, B12 cannot be absorbed → pernicious anaemia (large, immature RBCs). Treatment: B12 injections.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Goitre (enlarged thyroid gland) is caused by the deficiency of which mineral?",
+    "options": [
+      "Calcium",
+      "Iron",
+      "Iodine (needed for thyroid hormone synthesis — regulates metabolism)",
+      "Zinc"
+    ],
+    "answer": 2,
+    "explanation": "Goitre (enlarged thyroid gland) is caused by iodine deficiency. Iodine is essential for the thyroid gland to produce hormones (T3, T4) that regulate metabolism. Without enough iodine, the thyroid enlarges (goitre) trying to compensate. Severe deficiency in pregnancy → cretinism (mental retardation in baby). Prevention: iodised salt (National Iodine Deficiency Disorders Control Programme, 1992). Sources: iodised salt, seafood, seaweed.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Iron deficiency in the human body leads to which condition?",
+    "options": [
+      "Goitre",
+      "Scurvy",
+      "Anaemia (low haemoglobin → fatigue, pale skin, shortness of breath)",
+      "Rickets"
+    ],
+    "answer": 2,
+    "explanation": "Iron deficiency causes anaemia — the most common nutritional deficiency worldwide. Iron is the core component of haemoglobin (the protein in RBCs that carries oxygen). Without enough iron, the body cannot produce enough haemoglobin → RBCs are small and pale → reduced oxygen transport → fatigue, pale skin, shortness of breath. Sources: red meat, liver, spinach, lentils, jaggery, dates. Vitamin C enhances iron absorption.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Vitamin K is essential for which bodily function?",
+    "options": [
+      "Blood clotting (coagulation — activates clotting factors)",
+      "Bone growth",
+      "Vision",
+      "Immunity"
+    ],
+    "answer": 0,
+    "explanation": "Vitamin K is essential for blood clotting (coagulation). It activates clotting factors (proteins that stop bleeding). Without Vitamin K, even small cuts would bleed excessively. Vitamin K is also important for bone health. Sources: leafy green vegetables (spinach, kale, cabbage), liver, vegetable oils. Newborns are given Vitamin K injections at birth (they don't have enough yet). 'K' comes from the German 'Koagulation.'",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which vitamin is produced by the human skin when exposed to sunlight?",
+    "options": [
+      "Vitamin C",
+      "Vitamin E",
+      "Vitamin D (skin synthesises calciferol when exposed to UV-B radiation)",
+      "Vitamin A"
+    ],
+    "answer": 2,
+    "explanation": "Vitamin D is synthesised by the skin when exposed to sunlight (UV-B radiation). The skin converts 7-dehydrocholesterol to Vitamin D3 (cholecalciferol). ~15-30 minutes of sunlight exposure on face and arms, 2-3 times/week, is usually sufficient. Despite abundant sunlight in India, Vitamin D deficiency is common (cultural clothing, indoor lifestyle, pollution). Vitamin D is both a vitamin and a hormone.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is the richest source of Vitamin C?",
+    "options": [
+      "Lemon",
+      "Orange",
+      "Apple",
+      "Amla (Indian gooseberry — ~600-700 mg/100g, one of the richest natural sources)"
+    ],
+    "answer": 3,
+    "explanation": "Amla (Indian gooseberry, Phyllanthus emblica) is one of the richest natural sources of Vitamin C (~600-700 mg per 100g — ~20 times more than an orange). Amla is used in Ayurveda (Chyawanprash) and is a key ingredient in many Indian remedies. Other good sources: guava (~228 mg), peppers, citrus fruits. Vitamin C is water-soluble, cannot be stored, must be consumed daily.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "How many calories are produced per gram of fat in the human body?",
+    "options": [
+      "2 kcal/g",
+      "7 kcal/g",
+      "4 kcal/g",
+      "9 kcal/g (fats provide the most energy per gram — more than 2x carbs/proteins)"
+    ],
+    "answer": 3,
+    "explanation": "Fats provide 9 kcal per gram — the highest energy density of all macronutrients. Carbohydrates and proteins each provide 4 kcal/g. Alcohol provides 7 kcal/g (not a nutrient). This is why high-fat foods (oil, ghee, nuts, butter) are calorie-dense. Fats are essential for: energy storage, insulation, hormone production, absorption of fat-soluble vitamins (A, D, E, K).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The BMI (Body Mass Index) is calculated using which formula?",
+    "options": [
+      "Weight × Height",
+      "Weight / Height",
+      "Weight (kg) / Height² (m²) — normal range is 18.5-24.9",
+      "Height / Weight²"
+    ],
+    "answer": 2,
+    "explanation": "BMI = Weight (kg) / Height (m)². Categories: Underweight <18.5, Normal 18.5-24.9, Overweight 25-29.9, Obese ≥30. BMI is a quick screening tool but doesn't distinguish between muscle and fat. A very muscular person may have high BMI but low body fat. BMI is widely used in health assessments, insurance, and public health surveys.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which vitamin deficiency in pregnant women can cause neural tube defects (spina bifida) in the baby?",
+    "options": [
+      "Vitamin D",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin B9 / Folic acid (essential for neural tube development in early pregnancy)"
+    ],
+    "answer": 3,
+    "explanation": "Folic acid (Vitamin B9) deficiency in early pregnancy can cause neural tube defects (NTDs) — such as spina bifida (spine doesn't close properly) and anencephaly (brain doesn't develop). The neural tube closes in the first 28 days of pregnancy (often before a woman knows she's pregnant). WHO recommends 400 μg folic acid daily for women of childbearing age. Sources: leafy greens, legumes, fortified grains.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which mineral is most important for bone and teeth formation?",
+    "options": [
+      "Calcium (the most abundant mineral in the body — 99% stored in bones/teeth)",
+      "Iron",
+      "Sodium",
+      "Iodine"
+    ],
+    "answer": 0,
+    "explanation": "Calcium is the most abundant mineral in the human body (~1.2 kg in an adult). 99% is stored in bones and teeth (providing structural strength). Calcium is also essential for: muscle contraction, nerve signalling, blood clotting, and enzyme activation. Vitamin D is needed for calcium absorption. Sources: milk, cheese, yogurt, leafy greens, fish with bones. Deficiency → osteoporosis (brittle bones).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Proteins are made up of which smaller building blocks?",
+    "options": [
+      "Nucleotides",
+      "Amino acids (20 standard amino acids; 9 are 'essential' — must come from diet)",
+      "Glucose molecules",
+      "Fatty acids"
+    ],
+    "answer": 1,
+    "explanation": "Proteins are made of amino acids. There are 20 standard amino acids. 9 are 'essential' (the body cannot synthesise them — must come from diet): histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine. Animal proteins (meat, eggs, dairy) are 'complete' (all 9 essential amino acids). Most plant proteins are 'incomplete' (lack one or more) — exception: soy and quinoa are complete.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is a 'complete protein' (containing all 9 essential amino acids)?",
+    "options": [
+      "Rice",
+      "Lentils",
+      "Wheat",
+      "Eggs (animal protein — complete; soy and quinoa are the main plant-based complete proteins)"
+    ],
+    "answer": 3,
+    "explanation": "Eggs are a 'complete protein' — containing all 9 essential amino acids in the right proportions. Animal proteins (meat, fish, eggs, dairy) are generally complete. Most plant proteins are 'incomplete' (lacking one or more essential amino acids). EXCEPTIONS: soy (and soy products like tofu) and quinoa are complete plant proteins. Combining grains + legumes (e.g., rice + dal) also provides all essential amino acids.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The National Iodine Deficiency Disorders Control Programme (NIDDCP) in India primarily promotes:",
+    "options": [
+      "Iron supplementation",
+      "Calcium supplementation",
+      "Use of iodised salt (to prevent goitre and cretinism)",
+      "Vitamin A supplementation"
+    ],
+    "answer": 2,
+    "explanation": "The NIDDCP (launched 1992, revised name) promotes the use of iodised salt to prevent iodine deficiency disorders (IDD): goitre, cretinism (mental retardation), and hypothyroidism. India mandates iodised salt for direct human consumption. Despite this, IDD remains a problem in some areas (especially hilly regions where soil iodine is low). Bihar has IDD-prone districts. Universal Salt Iodisation (USI) is the global strategy.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The '3 Ds' of pellagra (Vitamin B3/niacin deficiency) are:",
+    "options": [
+      "Deformity, Diarrhoea, Deafness",
+      "Diabetes, Dental decay, Dementia",
+      "Dryness, Dizziness, Deafness",
+      "Dermatitis, Diarrhoea, Dementia (the 4th D is Death if untreated)"
+    ],
+    "answer": 3,
+    "explanation": "The '3 Ds' of pellagra: Dermatitis (skin rash on sun-exposed areas), Diarrhoea (gastrointestinal), Dementia (confusion, memory loss). The 4th D = Death (if untreated). Pellagra is caused by Vitamin B3 (niacin) deficiency. Common in maize-eating populations. The disease was epidemic in the US South (1900s) until Goldberger discovered the dietary cause (niacin). Sources: meat, fish, peanuts, whole grains.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which vitamin is a powerful antioxidant that protects cells from oxidative damage?",
+    "options": [
+      "Vitamin E (tocopherol — protects cell membranes from free radical damage)",
+      "Vitamin B1",
+      "Vitamin K",
+      "Vitamin B12"
+    ],
+    "answer": 0,
+    "explanation": "Vitamin E (tocopherol) is a powerful antioxidant. It protects cell membranes from oxidative damage caused by free radicals (reactive oxygen species). Free radicals damage cells and are linked to ageing, cancer, and heart disease. Vitamin E is fat-soluble — stored in fat tissues. Sources: vegetable oils (sunflower, safflower), nuts (almonds), seeds, leafy greens. Vitamin C is also an antioxidant (water-soluble).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Mid-Day Meal Scheme in India provides meals to which group?",
+    "options": [
+      "School children (Class 1-8 in government and government-aided schools)",
+      "Elderly people",
+      "Hospital patients",
+      "Pregnant women"
+    ],
+    "answer": 0,
+    "explanation": "The Mid-Day Meal Scheme (MDMS) provides free meals to school children (Class 1-8) in government and government-aided schools. Launched in 1995 (revised 2004), it is the world's largest school feeding programme (~12 crore children). Objectives: (1) improve nutrition, (2) increase school enrolment and attendance, (3) reduce dropout rates. Bihar implemented MDMS across all schools. The meal provides ~450 kcal (primary) and ~700 kcal (upper primary) per child per day.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "POSHAN Abhiyan (National Nutrition Mission) was launched in which year?",
+    "options": [
+      "2018 (by PM Modi — aims to reduce stunting, undernutrition, and anaemia in children and women)",
+      "2020",
+      "2015",
+      "2010"
+    ],
+    "answer": 0,
+    "explanation": "POSHAN Abhiyan (Prime Minister's Overarching Scheme for Holistic Nutrition) was launched in March 2018. Targets (by 2022): reduce stunting in children 0-6 years (from 38.4% to 25%), reduce undernutrition, reduce anaemia in children and women. It uses a 'convergence' approach — bringing together ICDS, Health, Water/Sanitation, and Agriculture departments. Bihar is a high-priority state for POSHAN (high malnutrition rates). March is celebrated as POSHAN Maah (nutrition month).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Indian food is the richest plant-based source of iron?",
+    "options": [
+      "Rice",
+      "Apple",
+      "Wheat",
+      "Jaggery (gur — traditional unrefined sugar, ~11 mg iron/100g)"
+    ],
+    "answer": 3,
+    "explanation": "Jaggery (gur) is one of the richest plant-based sources of iron (~11 mg per 100g). It is a traditional Indian sweetener made from sugarcane juice (or date palm). Jaggery also contains other minerals (calcium, magnesium, potassium). In Bihar and other states, jaggery is traditionally given to anaemic women and children. Other good plant sources of iron: spinach, lentils, dates, raisins. Vitamin C enhances iron absorption from plant sources.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The condition 'kwashiorkor' is caused by:",
+    "options": [
+      "Excess fat consumption",
+      "Iron deficiency",
+      "Severe protein deficiency (adequate calories but insufficient protein — swollen belly, oedema)",
+      "Vitamin A deficiency"
+    ],
+    "answer": 2,
+    "explanation": "Kwashiorkor is a form of severe malnutrition caused by protein deficiency (with adequate calorie intake). Symptoms: swollen belly (oedema — fluid accumulation), fatty liver, hair depigmentation, skin lesions, apathy. It typically occurs in children aged 1-4 (weaned from breast milk to a starch-only diet). The name comes from the Ga language of Ghana ('the sickness the older child gets when the next baby is born'). Treatment: gradual refeeding with protein. Marasmus = combined protein + calorie deficiency.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The condition 'marasmus' differs from kwashiorkor in that marasmus is caused by:",
+    "options": [
+      "Vitamin deficiency only",
+      "Deficiency of both calories AND protein (severe weight loss, 'old person' appearance)",
+      "Protein deficiency only",
+      "Excess calorie intake"
+    ],
+    "answer": 1,
+    "explanation": "Marasmus is caused by deficiency of BOTH calories and protein (energy-protein malnutrition). Symptoms: severe weight loss, muscle wasting, 'old person' face, dry skin, no oedema (unlike kwashiorkor). Occurs in infants (often <1 year) who are weaned early or given diluted food. Kwashiorkor = protein deficiency with adequate calories (swollen belly). Marasmus = both protein and calorie deficiency (wasted appearance). Both are forms of Severe Acute Malnutrition (SAM).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]
