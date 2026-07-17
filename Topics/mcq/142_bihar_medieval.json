@@ -1,0 +1,327 @@
+[
+  {
+    "q": "Sher Shah Suri, the Afghan ruler who interrupted Mughal rule (1540-1555), was born at which place in Bihar?",
+    "options": [
+      "Bhagalpur",
+      "Patna",
+      "Gaya",
+      "Sasaram (Rohtas district, Bihar — his grand tomb is located here)"
+    ],
+    "answer": 3,
+    "explanation": "Sher Shah Suri (original name: Farid Khan) was born at Sasaram (Rohtas district, Bihar) in 1486 CE. His father, Hasan Khan Suri, was an Afghan jagirdar in the service of the Lodi Sultans. Sasaram is also the site of Sher Shah's magnificent tomb — built 1540-1545 by architect Mir Muhammad Aliwal Khan, set in the middle of an artificial lake. It is one of the finest examples of Indo-Afghan architecture.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri defeated Humayun at which two battles to establish the Sur Dynasty?",
+    "options": [
+      "Battle of Plassey (1757) and Battle of Buxar (1764)",
+      "Second Battle of Panipat (1556) and Battle of Haldighati (1576)",
+      "Battle of Chausa (1539) and Battle of Kannauj/Bilgram (1540)",
+      "First Battle of Panipat (1526) and Battle of Khanwa (1527)"
+    ],
+    "answer": 2,
+    "explanation": "Sher Shah Suri defeated Humayun at two key battles: (1) Battle of Chausa (June 1539, near Buxar in Bihar) — Humayun was outmanoeuvred and barely escaped; (2) Battle of Kannauj/Bilgram (May 1540) — Humayun's army was routed without a fight, and he fled to Persia. The Sur Dynasty ruled from 1540 to 1555 (15 years). Chausa is in Bihar — making it a key Bihar connection.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's most famous administrative reform, later adopted by Akbar, was:",
+    "options": [
+      "The Mansabdari system",
+      "The Suba system",
+      "The Iqta system",
+      "The Zabt system (land revenue system based on measurement and classification of land)"
+    ],
+    "answer": 3,
+    "explanation": "Sher Shah Suri introduced the Zabt system — a land revenue system based on measurement of land and classification by productivity. Land was measured in bighas and classified into three categories: polaj (cultivated annually), parauti (fallow for a year), and banjar (uncultivated). Tax was set at one-third of the produce, payable in cash or kind. This system was later perfected by Raja Todarmal under Akbar (1582-1589). Sher Shah's Zabt was the foundation of Mughal land revenue administration.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Grand Trunk Road (GT Road / Sadak-e-Azam) built by Sher Shah Suri ran from where to where?",
+    "options": [
+      "From Delhi to Mumbai",
+      "From Patna to Kolkata",
+      "From Sonargaon (Bengal) to Peshawar (now ~2,500 km from Chittagong to Kabul)",
+      " From Agra to Lahore only"
+    ],
+    "answer": 2,
+    "explanation": "Sher Shah Suri built the Grand Trunk Road (Sadak-e-Azam) from Sonargaon (near Dhaka, Bengal) to Peshawar (now in Pakistan, near the Khyber Pass) — approximately 2,500 km. The road passed through Bengal, Bihar (Patna, Aurangabad, Sasaram), UP, Delhi, Punjab, and the NWFP. He planted trees on both sides, built 1,700 sarais (rest houses), and established a postal system with horse couriers. The modern NH-19 follows parts of this route. It is one of Asia's oldest and longest major roads.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri introduced which currency reform that forms the basis of modern Indian currency?",
+    "options": [
+      "The Tanka (silver coin of the Delhi Sultanate)",
+      "The Mohur (gold coin of the Mughals)",
+      "The Dinara (gold coin of the Guptas)",
+      "The Rupiah (silver coin, ~178 grains) and Paisa (copper coin)"
+    ],
+    "answer": 3,
+    "explanation": "Sher Shah Suri introduced the Rupiah (silver coin, weighing ~178 grains / 11.5 grams) and the Paisa (copper coin). The term 'Rupiah' comes from the Sanskrit 'rupya' (wrought silver). This silver-based currency standard was adopted by the Mughals and continued through British rule until 1947. The modern Indian Rupee is a direct descendant of Sher Shah's Rupiah. He also introduced gold coins (mohur) but the silver Rupiah was the standard unit.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's tomb at Sasaram (Bihar) is notable for which architectural feature?",
+    "options": [
+      "It is a cave temple carved into a hillside",
+      "It is a Mughal-style marble mausoleum",
+      "It is a wooden structure",
+      "It is built in the middle of an artificial lake — one of the finest Indo-Afghan architectural works, 122 feet high"
+    ],
+    "answer": 3,
+    "explanation": "Sher Shah Suri's tomb at Sasaram (Bihar) was built 1540-1545 by architect Mir Muhammad Aliwal Khan. It is set on a stone platform in the middle of an artificial lake — accessible by a causeway. The tomb is 122 feet (37 meters) high, with a large dome and four chhatris (pavilions) at the corners. It is one of the finest examples of Indo-Afghan (Pathan) architecture — blending Afghan, Persian, and Indian elements. It is a potential UNESCO World Heritage Site and one of Bihar's most important monuments.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri died in 1545 during the siege of which fort?",
+    "options": [
+      "Gwalior Fort",
+      "Chittorgarh Fort",
+      "Kalinjar Fort (in Bundelkhand, UP — killed in a gunpowder explosion)",
+      "Ranthambore Fort"
+    ],
+    "answer": 2,
+    "explanation": "Sher Shah Suri died in May 1545 during the siege of Kalinjar Fort (in Bundelkhand, modern UP). He was killed when a gunpowder explosion accidentally set fire to his own ammunition store. He was 59 years old. After his death, his son Islam Shah Suri (also known as Salim Shah) ruled until 1554. The Sur Dynasty collapsed in 1555, allowing Humayun to return from Persia and recapture Delhi. Sher Shah's brief 5-year reign was one of the most consequential in Indian history.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Before becoming emperor, Sher Shah Suri gained administrative experience in which region?",
+    "options": [
+      "Bengal",
+      "Punjab",
+      "Bihar — he was the deputy governor (and later governor) of Bihar under the Mughals",
+      "Gujarat"
+    ],
+    "answer": 2,
+    "explanation": "Before becoming emperor, Sher Shah Suri gained crucial administrative and military experience in Bihar. He served as the deputy governor (vakil) of Bihar under the Mughals (during Babur and Humayun's early reign). He also served the Lodi Sultans. His experience in Bihar — managing land revenue, maintaining an army, and governing a province — gave him the skills to later reform the entire empire. Bihar was Sher Shah's power base — he built his career here before challenging Humayun.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's spy system was known for:",
+    "options": [
+      "An efficient network of informers (barids) who reported directly to the Sultan on all matters",
+      "A postal system only",
+      "A system of village panchayats",
+      "A military intelligence division"
+    ],
+    "answer": 0,
+    "explanation": "Sher Shah Suri maintained an efficient spy system — barids (spies/informers) were posted throughout the empire and reported directly to the Sultan on all matters: military movements, official corruption, public opinion, and foreign affairs. This system was later adopted by Akbar. Sher Shah's philosophy was: 'It is the duty of a king to know what is happening in his kingdom.' The spy system ensured that officials remained honest and that rebellions were detected early.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's military reform included which key innovation to prevent corruption?",
+    "options": [
+      "Mercenary armies",
+      "Private armies of nobles",
+      "Direct payment of soldiers by the state (branding of horses — dagh — to verify ownership)",
+      "Hereditary military positions"
+    ],
+    "answer": 2,
+    "explanation": "Sher Shah Suri reformed the military by: (1) paying soldiers directly from the state treasury (not through intermediaries/nobles); (2) branding of horses (dagh) — each horse was branded with the royal mark to prevent substitution of inferior animals; (3) maintaining a descriptive roll (chihra) of each soldier to prevent ghost soldiers; (4) a large standing army (~150,000 cavalry, 25,000 infantry, 5,000 elephants). These reforms ensured military efficiency and reduced corruption. Akbar later adopted the dagh and chihra systems.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Sur Dynasty (1540-1555) was founded by Sher Shah and lasted for how many years?",
+    "options": [
+      "100 years",
+      "50 years",
+      "5 years only",
+      "15 years (1540-1555) — Sher Shah 1540-1545, Islam Shah 1545-1554, then collapse"
+    ],
+    "answer": 3,
+    "explanation": "The Sur Dynasty lasted 15 years (1540-1555): (1) Sher Shah Suri (1540-1545) — the founder and greatest ruler; (2) Islam Shah Suri / Salim Shah (1545-1554) — Sher Shah's son, competent ruler who maintained the empire; (3) Muhammad Shah Adil (1554-1555) — weak ruler, the dynasty collapsed. In 1555, Humayun returned from Persia with a Persian army and recaptured Delhi. The Sur interregnum was brief but profoundly influential — Sher Shah's reforms were adopted by Akbar and shaped Mughal administration for 300 years.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's concept of justice was expressed in which famous statement?",
+    "options": [
+      "'Justice should be delayed for the poor'",
+      "'Justice is only for Muslims'",
+      "'A king should be kind only to nobles'",
+      "'Justice is the most excellent of religious acts' — impartial justice for all, regardless of status"
+    ],
+    "answer": 3,
+    "explanation": "Sher Shah Suri was famous for his impartial justice. His stated philosophy: 'Justice is the most excellent of religious acts.' He established a efficient judicial system — the Sultan was the highest court of appeal. Qazis (judges) were appointed in every province. Sher Shah personally heard cases and was known for his fairness — regardless of whether the disputants were rich or poor, Hindu or Muslim. Stories of his justice (like the case of a poor widow vs a noble) are part of folklore. His justice system influenced later Mughal judicial practices.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri built how many sarais (rest houses) along the Grand Trunt Road?",
+    "options": [
+      "500 sarais",
+      "100 sarais",
+      "1,700 sarais (also serving as postal stations — one every 2 kos / ~4 km)",
+      "10 sarais"
+    ],
+    "answer": 2,
+    "explanation": "Sher Shah Suri built 1,700 sarais (rest houses) along the Grand Trunk Road — approximately one every 2 kos (~4 km). Each sarai had rooms for travellers, a mosque, a well, and stables for horses. The sarais also served as postal stations (dak chowkis) — horse couriers carried messages between them. This postal system was one of the most efficient in the medieval world — a message could travel from Bengal to Delhi (1,500 km) in just a few days. The sarais also provided free food and lodging for travellers.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's son Islam Shah Suri (1545-1554) is known for which contribution?",
+    "options": [
+      "He conquered South India",
+      "He built the Taj Mahal",
+      "He founded the Mughal Empire",
+      "He maintained his father's administrative system and built the Grand Trunk Road's eastern extension"
+    ],
+    "answer": 3,
+    "explanation": "Islam Shah Suri (also known as Salim Shah, 1545-1554) was Sher Shah's son and successor. He was a competent ruler who: (1) maintained his father's administrative system (Zabt, Rupiah, GT Road); (2) reorganised the army; (3) built the Shergarh fort in Delhi (now the Purana Qila area); (4) attempted to standardise weights and measures. However, he died young (1554) — and the Sur Dynasty collapsed within a year. After his death, rival claimants fought among themselves, allowing Humayun to return (1555). Islam Shah's tomb is also at Sasaram (the Sukha Rauza).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Battle of Chausa (1539), where Sher Shah defeated Humayun, took place in which modern Indian state?",
+    "options": [
+      "Bihar (Chausa is near Buxar, in Buxar district of Bihar)",
+      "Uttar Pradesh",
+      "Bengal",
+      "Rajasthan"
+    ],
+    "answer": 0,
+    "explanation": "The Battle of Chausa (June 1539) took place at Chausa — which is near Buxar, in modern Buxar district of Bihar. This is a key Bihar connection: the battle that began Humayun's downfall was fought on Bihar soil. Sher Shah used clever tactics — he flooded Humayun's camp by breaching the embankment of the Ganges. Humayun barely escaped (by floating on a water skin). After Chausa, Sher Shah marched to Bengal and then defeated Humayun again at Kannauj (1540). Chausa is sometimes confused with the Battle of Buxar (1764), but they are separate events — both in the same region of Bihar.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's original name was:",
+    "options": [
+      "Salim Khan",
+      "Farid Khan (he took the title 'Sher Shah' after killing a tiger — 'sher' = tiger)",
+      "Bahram Khan",
+      "Hasan Khan"
+    ],
+    "answer": 1,
+    "explanation": "Sher Shah Suri's original name was Farid Khan. He earned the title 'Sher Shah' (Lion King) after he killed a tiger (sher) single-handedly — an act of bravery in the service of the Lodi Sultan. The story goes that the Lodi Sultan was hunting when a tiger attacked — Farid Khan killed it with his sword. The Sultan was so impressed that he gave him the title 'Sher Khan' (later 'Sher Shah' when he became emperor). This episode is recorded in the Tarikh-i-Sher Shahi by Abbas Khan Sarwani.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Mughal emperor adopted Sher Shah Suri's administrative reforms?",
+    "options": [
+      "Babur",
+      "Aurangzeb",
+      "Jahangir",
+      "Akbar (1556-1605) — adopted the Zabt system, Rupiah, dagh, chihra, and spy system"
+    ],
+    "answer": 3,
+    "explanation": "Akbar (1556-1605) adopted and perfected Sher Shah Suri's administrative reforms: (1) the Zabt land revenue system (perfected by Todarmal, 1582-1589); (2) the Rupiah currency standard; (3) the dagh (branding of horses) and chihra (soldier roll) system; (4) the spy system (barids); (5) the Suba (province) system. Akbar recognised the efficiency of Sher Shah's systems and built on them. Todarmal, who served under both Sher Shah and Akbar, was the key link — he implemented Sher Shah's revenue system at the Mughal imperial level.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's empire was divided into how many administrative units (sarkars)?",
+    "options": [
+      "10 sarkars",
+      "5 sarkars",
+      "47 sarkars (districts), each divided into parganas — the foundation of Mughal provincial administration",
+      "100 sarkars"
+    ],
+    "answer": 2,
+    "explanation": "Sher Shah Suri divided his empire into 47 sarkars (districts). Each sarkar was further divided into parganas (tehsils/sub-divisions). At the sarkar level: a shiqdar (military/police), a munsif (revenue/judicial), and a treasurer. At the pargana level: a shiqdar, a munsif-amil (revenue collector), a karkun (accountant), and a qazi (judge). This hierarchical system (sarkar → pargana → village) was adopted by Akbar as the basis of Mughal provincial administration. Bihar was one of the key sarkars.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Raja Todarmal, who perfected Akbar's land revenue system, previously served under which ruler?",
+    "options": [
+      "Ibrahim Lodi",
+      "Humayun",
+      "Babur",
+      "Sher Shah Suri — Todarmal gained revenue experience under Sher Shah before serving Akbar"
+    ],
+    "answer": 3,
+    "explanation": "Raja Todarmal first served under Sher Shah Suri (as a revenue official in Bihar and other provinces). After Sher Shah's death and the Mughal restoration (1555), Todarmal joined Akbar's service. He used his experience with Sher Shah's Zabt system to design Akbar's land revenue system (1582-1589). This makes Todarmal the key link between Sher Shah's reforms and Mughal administration — he was the bridge who carried Sher Shah's innovations from Bihar to the Mughal imperial system. Todarmal became one of Akbar's Navaratna (Nine Gems).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's rule, though brief (5 years, 1540-1545), is considered significant because:",
+    "options": [
+      "His administrative reforms became the foundation of Mughal administration under Akbar",
+      "He conquered all of India",
+      "He established the British Empire",
+      "He built the Taj Mahal"
+    ],
+    "answer": 0,
+    "explanation": "Despite ruling for only 5 years (1540-1545), Sher Shah Suri is one of the most consequential rulers in Indian history. His administrative reforms — the Zabt land revenue system, the Rupiah currency, the Grand Trunk Road with sarais and postal system, the dagh/chihra military reforms, the spy system, the sarkar-pargana administrative structure, and impartial justice — were all adopted by Akbar and formed the foundation of Mughal administration for 300 years. The British also retained many of his systems. Sher Shah proved that effective administration, not military conquest, is the true measure of a ruler's greatness.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Rohtas Fort in Bihar (Rohtas district) was built during which period?",
+    "options": [
+      "Sher Shah Suri built it (after capturing it from the Hindu Raja of Rohtas, c. 1538-1540)",
+      "The British built it",
+      "The Mauryas built it",
+      "The Mughals built it under Akbar"
+    ],
+    "answer": 0,
+    "explanation": "Rohtas Fort (Rohtasgarh, in Rohtas district, Bihar) was originally a Hindu hill fort. Sher Shah Suri captured it from the local Hindu raja (c. 1538) by sending women into the fort disguised as dancing girls — who then opened the gates. Sher Shah strengthened and expanded the fort as a key defensive position. The fort covers 4 km in circumference, with massive walls, gates, and buildings. It is one of the largest forts in India and a protected monument (ASI). Rohtas Fort is near Sasaram (Sher Shah's birthplace and tomb) — both in Rohtas district, Bihar.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri's sarais along the GT Road also served which important function?",
+    "options": [
+      "Postal stations (dak chowkis) — horse couriers carried messages between sarais, creating an efficient postal system",
+      "Tax collection points only",
+      "Religious centres",
+      "Military barracks only"
+    ],
+    "answer": 0,
+    "explanation": "Sher Shah's sarais (rest houses) along the Grand Trunk Road served a dual purpose: (1) they provided free food and lodging for travellers; (2) they functioned as postal stations (dak chowkis) — horse couriers (qasids) carried messages between sarais. This created one of the most efficient postal systems in the medieval world — a message could travel from Bengal to Delhi (1,500 km) in just 2-3 days. The sarais were spaced one every 2 kos (~4 km). Akbar and later the British adopted and expanded this postal system.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "After Sher Shah's death (1545) and the collapse of the Sur Dynasty (1555), who returned to recapture Delhi?",
+    "options": [
+      "Babur",
+      "Aurangzeb",
+      "Akbar",
+      "Humayun (returned from Persia in 1555 with a Persian army provided by Shah Tahmasp)"
+    ],
+    "answer": 3,
+    "explanation": "After the Sur Dynasty collapsed (1554-1555) due to infighting among Sher Shah's successors, Humayun returned from Persia (where he had been in exile since 1540) with a Persian army provided by Shah Tahmasp of the Safavid dynasty. Humayun recaptured Delhi in July 1555 — 15 years after losing it. However, he died just 6 months later (January 1556, falling from the stairs of his library in Delhi). His young son Akbar (age 13) became emperor, with Bairam Khan as regent. The Mughal Empire was restored — but it built on Sher Shah's administrative foundation.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The term 'Suri' in Sher Shah Suri refers to:",
+    "options": [
+      "A title given by the Mughals",
+      "A Persian word for 'king'",
+      "His Afghan tribe/clan (the Suri tribe of Pashtuns, from the Sulaiman Mountains of Afghanistan)",
+      "His birthplace in Bihar"
+    ],
+    "answer": 2,
+    "explanation": "'Suri' refers to Sher Shah's Afghan tribe — the Suri (or Sur) clan of Pashtuns, originally from the Sulaiman Mountains of Afghanistan. The Suri tribe migrated to India during the Delhi Sultanate period and settled in Bihar (Sasaram area). Sher Shah's grandfather, Ibrahim Khan Suri, migrated from Afghanistan to Bihar during the Lodi period. The Suri tribe provided soldiers and administrators to the Lodi Sultans. Sher Shah's rise from a provincial Afghan jagirdar's son in Bihar to the emperor of India is one of the most remarkable stories in Indian history.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is the most important legacy of Sher Shah Suri for modern India?",
+    "options": [
+      "The Mughal Empire",
+      "The Indian Rupee (his Rupiah silver coin is the direct ancestor of the modern ₹), the GT Road (NH-19), and the Zabt land revenue system",
+      "The Taj Mahal",
+      "The British Raj"
+    ],
+    "answer": 1,
+    "explanation": "Sher Shah Suri's most enduring legacies for modern India: (1) The Indian Rupee (₹) — his Rupiah silver coin (178 grains) is the direct ancestor of the modern Indian currency; the term 'Rupiah' is still used. (2) The Grand Trunk Road — parts of the original GT Road are now NH-19 (passing through Bihar: Patna, Aurangabad, Sasaram). (3) The Zabt land revenue system — the foundation of Indian land revenue administration for 400+ years. (4) Administrative concepts (sarkar-pargana structure) that influenced Indian district administration. Sher Shah, from Sasaram (Bihar), shaped India's administrative and economic systems more than almost any other medieval ruler.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
+]
