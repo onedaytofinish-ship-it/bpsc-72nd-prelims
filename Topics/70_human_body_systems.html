@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>70 - Human Body Systems | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #70 • TIER A</div>
+  <div class="topic-title">Human Body Systems — Digestive, Circulatory, Respiratory, Nervous</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Biology</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: AIIMS Patna, PMCH, IGIMS (medical education)</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Four major body systems (Tier A, high-yield):</strong> (1) Digestive: mouth→oesophagus→stomach→small intestine (absorption, villi)→large intestine. Liver (largest gland, bile), pancreas (insulin), salivary amylase (starch), pepsin (protein, stomach, HCl pH 1.5). (2) Circulatory: heart (4 chambers), arteries (away, oxygenated except pulmonary artery), veins (toward), capillaries (exchange). 60-100 bpm. Blood pH 7.35-7.45. WBCs fight infection, RBCs carry O₂ (haemoglobin), platelets clot. (3) Respiratory: nose→trachea (C-shaped cartilage)→bronchi→alveoli (gas exchange, ~300-500 million). Diaphragm (main muscle). (4) Nervous: neuron (functional unit, ~86 billion in brain), cerebrum (thinking), cerebellum (balance), medulla (breathing/heart rate).
+  </div>
+
+  <div class="img-container">
+    <img src="images/mahabodhi_temple.jpg" alt="Human body systems — the complexity of the human body">
+    <div class="img-caption">The human body has 11 major organ systems working together to maintain life. The four most exam-relevant systems for BPSC are: digestive (nutrition absorption), circulatory (blood and heart), respiratory (gas exchange), and nervous (brain and neurons). Understanding these systems is fundamental to biology and medicine.</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/mahavir_mandir_patna.jpg" alt="Medical education in Bihar — AIIMS Patna, PMCH, IGIMS">
+    <div class="img-caption">Bihar's medical institutions — AIIMS Patna (established 2012), PMCH (Patna Medical College Hospital, est. 1925 — Bihar's oldest medical college), and IGIMS (Indira Gandhi Institute of Medical Sciences, Patna) — are centres of excellence for studying human body systems, anatomy, and physiology.</div>
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of all four body systems, organs, functions, Bihar medical connections, and 7 exam predictions:
+    <a href="subpages/70_human_body_systems_detail.html" target="_blank">Human Body Systems Master Detail →</a>
+  </div>
+
+  <h3>A. Digestive System — Key Organs &amp; Enzymes <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Organ</th><th>Function</th><th>Key Enzyme/Secretion</th></tr>
+    <tr><td><strong>Mouth</strong></td><td>Chewing, initial starch digestion</td><td>Salivary amylase (ptyalin) — breaks starch → maltose</td></tr>
+    <tr><td><strong>Oesophagus</strong></td><td>Food transport (peristalsis)</td><td>Mucus (lubrication)</td></tr>
+    <tr><td><strong>Stomach</strong></td><td>Protein digestion, acid killing</td><td>HCl (pH 1.5-3.5) + pepsin (protein → peptides)</td></tr>
+    <tr><td><strong>Liver</strong> 🔶</td><td>Largest gland (~1.5 kg). Produces bile, detoxifies, stores glycogen</td><td>Bile (emulsifies fats, NOT an enzyme)</td></tr>
+    <tr><td><strong>Gallbladder</strong></td><td>Stores and concentrates bile</td><td>Releases bile into duodenum</td></tr>
+    <tr><td><strong>Pancreas</strong></td><td>Produces digestive enzymes + insulin</td><td>Trypsin (protein), lipase (fat), amylase (starch), insulin (blood sugar)</td></tr>
+    <tr><td><strong>Small intestine</strong></td><td>Main absorption site (~90%). Villi + microvilli (600x surface area)</td><td>Final digestion + absorption. 3 parts: duodenum, jejunum, ileum</td></tr>
+    <tr><td><strong>Large intestine</strong></td><td>Water absorption, waste formation</td><td>Colon → rectum → anus. Gut bacteria (produce vitamin K)</td></tr>
+  </table>
+
+  <h3>B. Circulatory System — Heart &amp; Blood <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Component</th><th>Function</th><th>Key Fact</th></tr>
+    <tr><td><strong>Heart</strong></td><td>Pumps blood</td><td>4 chambers (2 atria + 2 ventricles). Left ventricle = thickest wall. 60-100 bpm. Size of fist</td></tr>
+    <tr><td><strong>Arteries</strong></td><td>Carry blood AWAY from heart</td><td>Oxygenated (exception: pulmonary artery = deoxygenated). Aorta = largest</td></tr>
+    <tr><td><strong>Veins</strong></td><td>Carry blood TOWARD heart</td><td>Deoxygenated (exception: pulmonary vein = oxygenated). Have valves</td></tr>
+    <tr><td><strong>Capillaries</strong></td><td>Gas &amp; nutrient exchange</td><td>Smallest blood vessels. One cell thick. Site of O₂/CO₂ exchange</td></tr>
+    <tr><td><strong>RBCs (erythrocytes)</strong></td><td>Carry oxygen</td><td>Haemoglobin (iron-containing protein). No nucleus. ~120-day lifespan</td></tr>
+    <tr><td><strong>WBCs (leukocytes)</strong></td><td>Fight infection, immunity</td><td>5 types: neutrophils, lymphocytes (B/T cells), monocytes, eosinophils, basophils</td></tr>
+    <tr><td><strong>Platelets (thrombocytes)</strong></td><td>Blood clotting</td><td>Form clots to stop bleeding. Activate fibrinogen → fibrin mesh</td></tr>
+    <tr><td><strong>Plasma</strong></td><td>Liquid part (~55% of blood)</td><td>Water + proteins + hormones + nutrients + waste. Blood pH 7.35-7.45</td></tr>
+  </table>
+
+  <h3>C. Heart Valves <span class="current-tag">EXAM PATTERN</span></h3>
+  <table>
+    <tr><th>Valve</th><th>Location</th><th>Function</th></tr>
+    <tr><td><strong>Tricuspid</strong></td><td>Right atrium → right ventricle</td><td>Prevents backflow to right atrium</td></tr>
+    <tr><td><strong>Pulmonary</strong></td><td>Right ventricle → pulmonary artery</td><td>Prevents backflow to right ventricle</td></tr>
+    <tr><td><strong>Mitral (Bicuspid)</strong></td><td>Left atrium → left ventricle</td><td>Prevents backflow to left atrium</td></tr>
+    <tr><td><strong>Aortic</strong></td><td>Left ventricle → aorta</td><td>Prevents backflow to left ventricle</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>D. Respiratory System — Pathway &amp; Gas Exchange <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Structure</th><th>Function</th><th>Key Feature</th></tr>
+    <tr><td><strong>Nose/Nasal cavity</strong></td><td>Air filtration, warming, humidification</td><td>Cilia + mucus trap particles</td></tr>
+    <tr><td><strong>Pharynx (throat)</strong></td><td>Air and food passage</td><td>Shared by respiratory and digestive systems</td></tr>
+    <tr><td><strong>Larynx (voice box)</strong></td><td>Sound production</td><td>Contains vocal cords. Epiglottis prevents food entering trachea</td></tr>
+    <tr><td><strong>Trachea (windpipe)</strong></td><td>Air passage to lungs</td><td>16-20 C-shaped cartilage rings (keep it open)</td></tr>
+    <tr><td><strong>Bronchi</strong></td><td>Air distribution to lungs</td><td>Divide into smaller bronchioles → terminal bronchioles</td></tr>
+    <tr><td><strong>Alveoli</strong></td><td>Gas exchange (O₂ in, CO₂ out)</td><td>~300-500 million. Surface area ~70 m². One cell thick. Surrounded by capillaries</td></tr>
+    <tr><td><strong>Diaphragm</strong></td><td>Main muscle of respiration</td><td>Dome-shaped. Separates thoracic from abdominal cavity. Contracts = inhale, relaxes = exhale</td></tr>
+  </table>
+
+  <h3>E. Nervous System — Brain &amp; Neurons <span class="current-tag">EXAM PATTERN</span></h3>
+  <table>
+    <tr><th>Part</th><th>Function</th><th>Key Fact</th></tr>
+    <tr><td><strong>Cerebrum</strong></td><td>Thinking, memory, voluntary movement</td><td>Largest part (~85%). 4 lobes: frontal, parietal, temporal, occipital</td></tr>
+    <tr><td><strong>Cerebellum</strong></td><td>Balance, coordination, fine movement</td><td>'Little brain' at the back. Damage = ataxia</td></tr>
+    <tr><td><strong>Medulla oblongata</strong></td><td>Involuntary: breathing, heart rate, BP</td><td>Part of brain stem. Damage is fatal</td></tr>
+    <tr><td><strong>Hypothalamus</strong></td><td>Hormones, temperature, hunger, thirst</td><td>Links nervous and endocrine systems (via pituitary)</td></tr>
+    <tr><td><strong>Spinal cord</strong></td><td>Reflexes, message relay</td><td>Extends from medulla to lower back. 31 pairs of spinal nerves</td></tr>
+    <tr><td><strong>Neuron</strong></td><td>Functional unit — transmits impulses</td><td>~86 billion in brain. Parts: dendrites, cell body, axon. Speed up to 120 m/s</td></tr>
+    <tr><td><strong>Synapse</strong></td><td>Junction between neurons</td><td>Neurotransmitters carry signals across the gap</td></tr>
+  </table>
+
+  <h3>F. Skeletal System — Key Facts <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Fact</th><th>Detail</th></tr>
+    <tr><td><strong>Total bones (adult)</strong></td><td>206 (270 at birth — some fuse)</td></tr>
+    <tr><td><strong>Axial skeleton</strong></td><td>80 bones (skull, vertebral column, rib cage)</td></tr>
+    <tr><td><strong>Appendicular skeleton</strong></td><td>126 bones (limbs, pectoral girdle, pelvic girdle)</td></tr>
+    <tr><td><strong>Largest bone</strong></td><td>Femur (thigh bone, ~48 cm)</td></tr>
+    <tr><td><strong>Smallest bone</strong></td><td>Stapes (middle ear, ~3 mm)</td></tr>
+    <tr><td><strong>Bone functions</strong></td><td>Structure, organ protection, blood cell production (marrow), mineral storage (Ca, P)</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Body Systems:</strong><br>
+    <strong>D</strong>igestive (stomach, liver, intestines) → <strong>C</strong>irculatory (heart, blood) → <strong>R</strong>espiratory (lungs, alveoli) → <strong>N</strong>ervous (brain, neurons).<br>
+    <em>"DCRN: the four most exam-relevant body systems."</em><br><br>
+    <strong>Heart valves (blood flow):</strong> Tricuspid → Pulmonary → Mitral → Aortic. <em>"Tri-Pul-Mit-Ao: blood flows right to left."</em><br><br>
+    <strong>Brain parts:</strong> Cerebrum (think) + Cerebellum (balance) + Medulla (involuntary). <em>"CCM: Think-Balance-Breathe."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Medical Education & Health Infrastructure</div>
+    <ul>
+      <li><strong>AIIMS Patna (All India Institute of Medical Sciences):</strong> established 2012 (under the Pradhan Mantri Swasthya Suraksha Yojana). One of India's premier medical institutes — teaching human anatomy, physiology, and all body systems. AIIMS Patna has a state-of-the-art anatomy department with cadaver dissection and digital anatomy labs. It also conducts research on diseases common in Bihar (encephalitis, kala-azar, tuberculosis).</li>
+      <li><strong>PMCH (Patna Medical College Hospital):</strong> established 1925 (originally Prince of Wales Medical College). Bihar's oldest and largest medical college. Has trained thousands of doctors who serve across Bihar and India. PMCH's anatomy and physiology departments are foundational to understanding human body systems. PMCH is being upgraded to AIIMS-level facilities (2024-2027).</li>
+      <li><strong>IGIMS (Indira Gandhi Institute of Medical Sciences, Patna):</strong> established 1983. A tertiary care hospital and medical institute. Known for cardiology (heart-related studies — circulatory system), neurology (nervous system), and gastroenterology (digestive system). IGIMS conducts research on liver diseases (hepatitis, cirrhosis — relevant to the liver, the largest gland).</li>
+      <li><strong>SKMCH (Sri Krishna Medical College, Muzaffarpur):</strong> known for researching Acute Encephalitis Syndrome (AES) — a disease affecting the nervous system (brain). The AES outbreaks in Muzaffarpur (Bihar) have been linked to litchi consumption (hypoglycin toxin) and malnutrition. SKMCH's research on AES contributes to understanding the nervous system and brain function.</li>
+      <li><strong>Bihar's health challenges and body systems:</strong> Bihar faces several health challenges directly related to body systems: (1) Encephalitis (nervous system — Muzaffarpur AES), (2) Kala-azar/leishmaniasis (immune system — common in Bihar), (3) Sickle cell anaemia (blood/circulatory — tribal populations), (4) Tuberculosis (respiratory — high prevalence), (5) Hepatitis (liver/digestive — waterborne). Understanding body systems is essential for addressing Bihar's health challenges.</li>
+      <li><strong>Organ donation in Bihar:</strong> AIIMS Patna and IGIMS have organ donation programmes — primarily for kidney transplants (related to the excretory system). ROTTO (Regional Organ and Tissue Transplant Organisation) East is based in Kolkata but serves Bihar. Understanding human body systems is crucial for organ transplantation programmes.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="69_cell_division.html">Topic 69 (Cell &amp; Division):</a></strong> Cells are the building blocks of all body systems. Muscle cells form the heart (circulatory), neurons form the brain (nervous), and epithelial cells line the digestive tract. Mitosis replaces damaged cells in all body systems.</li>
+    <li><strong><a href="71_nutrition_vitamins.html">Topic 71 (Nutrition &amp; Vitamins):</a></strong> The digestive system absorbs nutrients (carbohydrates, proteins, fats, vitamins, minerals) from food. Deficiency diseases (scurvy, rickets, anaemia) result when the digestive system cannot absorb enough nutrients — or when the diet is deficient.</li>
+    <li><strong><a href="72_diseases_pathogens.html">Topic 72 (Diseases &amp; Pathogens):</a></strong> Diseases affect specific body systems: pneumonia (respiratory), heart disease (circulatory), hepatitis (digestive/liver), meningitis (nervous). Understanding body systems is essential for understanding how diseases affect the body.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Organ donation and transplantation:</strong> India has a severe organ shortage — ~500,000 people die each year waiting for organs. Kidney, liver, heart, and lung transplants are the most common. AIIMS Patna is developing transplant capabilities. The Transplantation of Human Organs Act (THOA, 1994, amended 2011) regulates organ donation in India.</li>
+    <li><strong>COVID-19 and the respiratory system:</strong> COVID-19 (SARS-CoV-2) primarily affects the respiratory system — attacking the alveoli and causing pneumonia and acute respiratory distress syndrome (ARDS). Understanding the respiratory system is crucial for understanding how respiratory viruses cause disease and how ventilators help.</li>
+    <li><strong>Heart disease in India:</strong> cardiovascular disease is the leading cause of death in India (~28% of all deaths). Risk factors: hypertension, diabetes, smoking, obesity, sedentary lifestyle. Bihar has rising rates of heart disease — AIIMS Patna and IGIMS provide cardiac care. Knowing the circulatory system helps understand heart disease.</li>
+    <li><strong>Diabetes and the pancreas:</strong> India has ~77 million diabetics (second highest in the world after China). Diabetes results from the pancreas not producing enough insulin (Type 1) or cells becoming insulin-resistant (Type 2). Understanding the pancreas and insulin is essential for managing diabetes.</li>
+    <li><strong>Brain research and neuroscience:</strong> the human brain (nervous system) is the least understood organ. India's National Brain Research Centre (NBRC, Manesar) conducts neuroscience research. Understanding the brain helps treat Alzheimer's, Parkinson's, stroke, and mental health conditions.</li>
+    <li><strong>Bihar's encephalitis (AES) challenge:</strong> Muzaffarpur (Bihar) has seen recurrent AES outbreaks affecting children's nervous systems. Research at SKMCH and AIIMS Patna aims to understand the causes (litchi toxins, heat, malnutrition) and develop prevention strategies. This is a Bihar-specific health challenge directly related to the nervous system.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Which organ is the largest in the human digestive system and performs over 500 functions including detoxification?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Pancreas</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Stomach</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Small intestine</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Liver (largest internal organ — produces bile, detoxifies blood, stores glycogen, synthesises proteins)</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — Liver = largest internal organ (~1.5 kg) + largest gland. 500+ functions: bile production, detoxification, glycogen storage, protein synthesis. Only organ that can regenerate. Also metabolises carbohydrates, fats, and proteins.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. In the human digestive system, where does most of the nutrient absorption take place?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Mouth</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Large intestine (colon)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Small intestine (villi and microvilli absorb nutrients into the bloodstream — ~90% of absorption occurs here)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Stomach</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — Small intestine = ~90% absorption. Villi (finger-like projections) + microvilli increase surface area ~600-fold. 3 parts: duodenum (bile/pancreatic enzymes), jejunum (main absorption), ileum (B12/bile salts). Large intestine mainly absorbs water.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Bile, which emulsifies fats in the digestive system, is produced by which organ and stored in which organ?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Produced by the pancreas, stored in the liver</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Produced by the small intestine, stored in the liver</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Produced by the stomach, stored in the pancreas</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Produced by the liver, stored and concentrated in the gallbladder</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (D)</strong> — Bile produced by liver (continuously), stored/concentrated in gallbladder. Released into duodenum when fat enters. Emulsifies fats (breaks large globules into small droplets). Bile is NOT an enzyme — it's an emulsifying agent. Also neutralises acidic chyme from stomach.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The largest gland in the human body is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Pancreas</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Salivary glands</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Liver (the largest gland — also the largest internal organ, ~1.5 kg)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Thyroid gland</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — Liver = largest gland AND largest internal organ (~1.5 kg). Classified as a gland because it secretes bile. Skin is the largest organ overall (by surface area), but liver is the largest internal organ and largest gland.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The human heart has how many chambers?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Three chambers</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Two chambers</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Five chambers</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Four chambers (2 atria + 2 ventricles — left and right)</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — 4 chambers: right atrium (deoxy blood from body) → right ventricle (to lungs), left atrium (oxy blood from lungs) → left ventricle (to body). Left ventricle = thickest wall (pumps to whole body). Heart size = closed fist.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Which blood vessels carry blood AWAY from the heart?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Veins (carry blood toward the heart)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Venules (small veins)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Capillaries (site of gas/nutrient exchange)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Arteries (carry oxygenated blood away from the heart — exception: pulmonary artery carries deoxygenated blood to lungs)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — Arteries carry blood AWAY from heart. Most carry oxygenated blood (aorta = largest). EXCEPTION: pulmonary artery = deoxygenated (to lungs). Veins carry blood TOWARD heart. EXCEPTION: pulmonary vein = oxygenated (from lungs). Capillaries = gas exchange.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The normal resting heart rate of a healthy adult is approximately:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. 150-200 beats per minute</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. 30-40 beats per minute</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. 60-100 beats per minute (average ~72 bpm)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. 200-250 beats per minute</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — Normal resting HR: 60-100 bpm (average ~72). Athletes: 40-60 (stronger heart). >100 = tachycardia. <60 = bradycardia. Heart pumps ~5 litres/minute at rest (cardiac output). Increases during exercise to deliver more O₂ to muscles.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The exchange of oxygen and carbon dioxide in the human body occurs at which site?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Trachea (windpipe)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Nose</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Alveoli (tiny air sacs in the lungs — gas exchange between air and blood)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Bronchi (large air passages)</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Alveoli = gas exchange site. ~300-500 million in lungs. Surface area ~70 m² (tennis court size). One cell thick. Surrounded by capillaries. O₂ diffuses into blood (binds haemoglobin), CO₂ diffuses out to be exhaled.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The functional unit of the human kidney (the basic filtering unit) is called:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Nephron (each kidney has ~1 million nephrons — filters blood and produces urine)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Alveolus (functional unit of the lungs)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Neuron (functional unit of the nervous system)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Hepatocyte (liver cell)</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Nephron = functional unit of kidney (~1 million per kidney). Parts: glomerulus (filters blood) → Bowman's capsule → proximal tubule → Loop of Henle → distal tubule → collecting duct. Filters ~180L blood/day → ~1.5L urine. Reabsorbs useful substances, excretes waste (urea).</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The basic functional unit of the nervous system is the:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Axon (part of a neuron, not the whole unit)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Synapse (junction between neurons, not a cell)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Neuron (nerve cell — transmits electrical impulses; the human brain has ~86 billion neurons)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Nephron (kidney unit)</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — Neuron = functional unit of nervous system. ~86 billion in brain. Parts: dendrites (receive signals), cell body/soma (nucleus, processes), axon (transmits impulses). Communicate at synapses via neurotransmitters. Speed up to 120 m/s.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which part of the human brain controls balance, coordination, and fine motor movements?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Medulla oblongata (controls involuntary functions — breathing, heart rate)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Cerebrum (largest part — controls thinking, memory, voluntary movement)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Hypothalamus (controls hormones, temperature, hunger)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Cerebellum (located at the back of the brain — controls balance, posture, and coordinated movement)</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Cerebellum ('little brain') at back of brain, below cerebrum. Controls balance, posture, coordination, fine motor movement. Damage = ataxia (loss of coordination, shaky movements). Cerebrum = thinking. Medulla = breathing/HR. Hypothalamus = hormones/temp.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The largest part of the human brain, responsible for thinking, memory, and voluntary movement, is the:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Brain stem</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Medulla oblongata</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Cerebellum</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Cerebrum (largest part — divided into left and right hemispheres, 4 lobes: frontal, parietal, temporal, occipital)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — Cerebrum = largest part (~85% brain weight). Left + right hemispheres (corpus callosum connects). 4 lobes: frontal (thinking, personality), parietal (sensation), temporal (hearing, memory), occipital (vision). Outer layer = cerebral cortex (grey matter).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Which part of the brain controls involuntary functions such as breathing, heart rate, and blood pressure?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Hypothalamus</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Cerebrum</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Medulla oblongata (part of the brain stem — controls breathing, heart rate, BP, reflexes like swallowing and vomiting)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Cerebellum</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — Medulla oblongata (brain stem) controls involuntary functions: breathing, heart rate, BP, digestion, reflexes (swallowing, vomiting, coughing). Damage is fatal. Brain stem = medulla + pons + midbrain. Most primitive part of brain. Connects brain to spinal cord.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. How many bones are there in the adult human body?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. 150 bones</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. 500 bones</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. 300 bones</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. 206 bones (270 at birth, some fuse together as we grow)</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — 206 bones in adults (270 at birth — many fuse during growth). Axial skeleton: 80 (skull, spine, ribs). Appendicular: 126 (limbs, girdles). Smallest = stapes (ear, ~3mm). Largest = femur (thigh, ~48cm). Bones provide structure, protect organs, produce blood cells (marrow), store minerals.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Which enzyme in the saliva begins the digestion of starch in the mouth?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. Salivary amylase (ptyalin — breaks down starch into maltose, a disaccharide)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Pepsin (protein digestion in the stomach)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Lipase (fat digestion)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Trypsin (protein digestion in the small intestine)</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Salivary amylase (ptyalin) in saliva breaks starch → maltose (disaccharide). Works in slightly alkaline mouth. Starch digestion continues in small intestine (pancreatic amylase). Protein digestion begins in stomach (pepsin). Fat digestion mainly in small intestine (pancreatic lipase).</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The stomach produces which acid that helps in protein digestion and kills bacteria?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Acetic acid</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Hydrochloric acid (HCl — activates pepsinogen to pepsin, kills bacteria, pH ~1.5-3.5)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Nitric acid</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Sulphuric acid</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — HCl (pH 1.5-3.5) produced by parietal cells. Functions: (1) activates pepsinogen → pepsin (protein digestion), (2) kills bacteria/pathogens. Stomach lining protected by mucus. Damage to mucus → ulcers. HCl is one of the strongest acids in the body.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The enzyme pepsin, which digests proteins in the stomach, is secreted in an inactive form called:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Trypsinogen (inactive form of trypsin, from the pancreas)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Lipase (fat-digesting enzyme)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Amylase (starch-digesting enzyme)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Pepsinogen (inactive — activated by HCl to become pepsin in the stomach)</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — Pepsin secreted as inactive pepsinogen (by chief cells) to prevent self-digestion of stomach. HCl activates pepsinogen → pepsin. Similarly, pancreas secretes trypsinogen (inactive) → activated to trypsin in small intestine. This safety mechanism prevents organs from digesting themselves.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The diaphragm, the main muscle of respiration, separates which two body cavities?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Cranial cavity from the spinal cavity</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Upper and lower body</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Thoracic cavity (chest, containing heart and lungs) from the abdominal cavity (containing stomach, liver, intestines)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Left and right halves of the chest</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — Diaphragm = dome-shaped muscle separating thoracic (chest: heart, lungs) from abdominal cavity (stomach, liver, intestines). Contracts (flattens) → chest expands → air drawn in (inhalation). Relaxes (domes up) → air pushed out (exhalation). Hiccups = diaphragm spasms.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The pH of human blood is approximately:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. 8.5-9.0 (strongly alkaline)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. 1.5-2.0 (very acidic, like stomach acid)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. 6.5-6.8 (slightly acidic)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. 7.35-7.45 (slightly alkaline — maintained by the bicarbonate buffer system)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — Blood pH 7.35-7.45 (slightly alkaline). Below 7.35 = acidosis (coma). Above 7.45 = alkalosis (seizures). Maintained by bicarbonate buffer system (HCO₃⁻/H₂CO₃), respiratory regulation (CO₂), and renal regulation (kidneys excrete acid/base). Narrow range is critical for survival.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which type of muscle is found in the walls of internal organs (stomach, intestines, blood vessels) and is involuntary?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Smooth muscle (involuntary — found in walls of hollow organs, blood vessels, and ducts)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Skeletal muscle (voluntary — attached to bones, moves the skeleton)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Cardiac muscle (involuntary — found only in the heart)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Striated muscle (another name for skeletal muscle)</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Smooth muscle = involuntary, non-striated, in walls of internal organs (stomach, intestines, blood vessels, bladder, uterus). 3 muscle types: (1) skeletal = voluntary, striated, attached to bones; (2) smooth = involuntary, non-striated, internal organs; (3) cardiac = involuntary, striated, heart only.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The hormone insulin, which regulates blood glucose levels, is produced by which organ?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Pancreas (specifically by the beta cells of the Islets of Langerhans)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Thyroid gland</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Adrenal gland</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Liver</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Insulin produced by beta (β) cells of Islets of Langerhans in the pancreas. Lowers blood glucose: promotes glucose uptake into cells, glycogen storage, inhibits glucose production. Deficiency/resistance → diabetes mellitus. Alpha (α) cells produce glucagon (raises blood glucose — opposite of insulin).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Which blood cells are responsible for fighting infections and providing immunity?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. White blood cells (leukocytes — include neutrophils, lymphocytes, monocytes, eosinophils, basophils)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. Plasma (liquid part of blood)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Platelets (thrombocytes — blood clotting)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Red blood cells (erythrocytes — carry oxygen)</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — WBCs (leukocytes) fight infections. 5 types: neutrophils (bacteria), lymphocytes (B cells=antibodies, T cells=destroy infected cells), monocytes (macrophages), eosinophils (parasites/allergies), basophils (histamine/allergies). Normal: 4,000-11,000/μL. High = infection/leukaemia. Low = weak immunity.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The longest bone in the human body is the:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Tibia (shin bone)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Fibula (calf bone)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Humerus (upper arm bone)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Femur (thigh bone — ~48 cm in an average adult, strongest and longest bone)</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (D)</strong> — Femur (thigh bone) = longest, strongest, heaviest bone (~48 cm). Connects hip to knee. Supports ~30x body weight. Smallest bone = stapes (middle ear, ~3mm). Femur fractures require significant force and can cause life-threatening blood loss (femoral artery nearby).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The human respiratory system's trachea (windpipe) is kept open by which structures?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Muscle fibres only</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Ligaments</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. C-shaped cartilage rings (keep the trachea open for air passage, even when the neck moves or during eating)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Bone rings</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — 16-20 C-shaped cartilage rings keep trachea open. 'C' shape (open at back) allows oesophagus (behind trachea) to expand during swallowing without compressing the trachea. Trachea divides into left and right bronchi → bronchioles → alveoli (gas exchange).</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which valve in the human heart prevents backflow of blood from the left ventricle to the left atrium?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Aortic valve (between left ventricle and aorta)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Mitral valve (bicuspid valve — between left atrium and left ventricle)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Tricuspid valve (between right atrium and right ventricle)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Pulmonary valve (between right ventricle and pulmonary artery)</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — Mitral (bicuspid) valve = between left atrium and left ventricle. Prevents backflow when left ventricle contracts. 4 valves: tricuspid (R atrium→R ventricle), pulmonary (R ventricle→pulmonary artery), mitral (L atrium→L ventricle), aortic (L ventricle→aorta). Valve defects → heart murmurs.</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Digestive system (HIGH):</strong> Liver (largest gland, bile, detox), small intestine (villi, 90% absorption), salivary amylase (starch), pepsin/HCl (stomach, protein), bile (liver→gallbladder, emulsifies fat). Know the enzyme, organ, and function for each.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Circulatory system (HIGH):</strong> Heart 4 chambers, arteries (away, oxygenated except pulmonary artery), veins (toward, deoxygenated except pulmonary vein), 60-100 bpm, RBCs (O₂, haemoglobin), WBCs (immunity, 5 types), platelets (clotting), blood pH 7.35-7.45.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Nervous system (HIGH):</strong> Neuron (functional unit, ~86 billion), cerebrum (thinking, 4 lobes), cerebellum (balance), medulla (breathing/HR/BP). Know which brain part does what. Synapse = junction between neurons.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Respiratory system (MEDIUM):</strong> Alveoli (gas exchange, ~300-500 million, 70 m²), trachea (C-shaped cartilage), diaphragm (main muscle, separates thoracic/abdominal). Pathway: nose→trachea→bronchi→alveoli.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>Skeletal &amp; muscle (MEDIUM):</strong> 206 bones (adult), femur (longest), stapes (smallest). 3 muscle types: skeletal (voluntary, striated), smooth (involuntary, non-striated, organs), cardiac (involuntary, striated, heart).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Heart valves (LOW):</strong> 4 valves: tricuspid (R atrium→R ventricle), pulmonary (R ventricle→pulmonary artery), mitral/bicuspid (L atrium→L ventricle), aortic (L ventricle→aorta). Mnemonic: Tri-Pul-Mit-Ao.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>Bihar medical (LOW):</strong> AIIMS Patna (est. 2012), PMCH (est. 1925, Bihar's oldest medical college), IGIMS (cardiology/neurology), SKMCH Muzaffarpur (AES/nervous system research). Bihar health challenges: encephalitis, kala-azar, TB, sickle cell anaemia.</div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>NCERT Biology, Class 10 &amp; 11 — Life Processes, Digestion, Circulation, Respiration, Neural Control</li>
+    <li>NCERT Science, Class 7 — Human Body and Organ Systems</li>
+    <li>Campbell Biology (latest edition)</li>
+    <li><a href="https://en.wikipedia.org/wiki/Human_body" target="_blank">Wikipedia: Human body</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Digestive_system" target="_blank">Wikipedia: Digestive system</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 70 — Human Body Systems • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'c', q3: 'd', q4: 'c', q5: 'd', q6: 'd', q7: 'c', q8: 'c', q9: 'a', q10: 'c',
+  q11: 'd', q12: 'd', q13: 'c', q14: 'd', q15: 'a', q16: 'b', q17: 'd', q18: 'c', q19: 'd', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'd', q24: 'c', q25: 'b'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

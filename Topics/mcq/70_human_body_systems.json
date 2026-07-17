@@ -1,0 +1,327 @@
+[
+  {
+    "q": "Which organ is the largest in the human digestive system and performs over 500 functions including detoxification?",
+    "options": [
+      "Pancreas",
+      "Stomach",
+      "Small intestine",
+      "Liver (largest internal organ — produces bile, detoxifies blood, stores glycogen, synthesises proteins)"
+    ],
+    "answer": 3,
+    "explanation": "The liver is the largest internal organ in the human body (~1.5 kg). It performs over 500 functions: (1) produces bile (emulsifies fats), (2) detoxifies blood (removes toxins, drugs, alcohol), (3) stores glycogen (energy reserve), (4) synthesises plasma proteins (albumin, clotting factors), (5) metabolises carbohydrates, fats, and proteins. The liver is the only human organ that can regenerate (regrow after partial removal).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the human digestive system, where does most of the nutrient absorption take place?",
+    "options": [
+      "Mouth",
+      "Large intestine (colon)",
+      "Small intestine (villi and microvilli absorb nutrients into the bloodstream — ~90% of absorption occurs here)",
+      "Stomach"
+    ],
+    "answer": 2,
+    "explanation": "The small intestine is where ~90% of nutrient absorption occurs. Its inner surface is lined with villi (finger-like projections) and microvilli (tiny hair-like structures on villi cells) — which increase the surface area for absorption by ~600-fold. Nutrients (amino acids, sugars, fatty acids, vitamins, minerals) are absorbed through the villi into the bloodstream. The small intestine has three parts: duodenum (first 25 cm — receives bile and pancreatic enzymes), jejunum (middle — main absorption), ileum (last — absorbs B12 and bile salts).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bile, which emulsifies fats in the digestive system, is produced by which organ and stored in which organ?",
+    "options": [
+      "Produced by the pancreas, stored in the liver",
+      "Produced by the small intestine, stored in the liver",
+      "Produced by the stomach, stored in the pancreas",
+      "Produced by the liver, stored and concentrated in the gallbladder"
+    ],
+    "answer": 3,
+    "explanation": "Bile is produced by the liver (continuously) and stored/concentrated in the gallbladder. When fat enters the duodenum (small intestine), the gallbladder releases bile through the bile duct. Bile emulsifies fats — breaking large fat globules into smaller droplets, increasing surface area for lipase (fat-digesting enzyme from the pancreas) to act. Bile is NOT an enzyme — it's a emulsifying agent. It also neutralises acidic chyme from the stomach.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The largest gland in the human body is:",
+    "options": [
+      "Pancreas",
+      "Salivary glands",
+      "Liver (the largest gland — also the largest internal organ, ~1.5 kg)",
+      "Thyroid gland"
+    ],
+    "answer": 2,
+    "explanation": "The liver is the largest gland in the human body (~1.5 kg in adults). It is also the largest internal organ. The liver is classified as a gland because it secretes substances (bile) that are used elsewhere in the body. The skin is the largest organ overall (by surface area and weight if including skin), but the liver is the largest internal organ and the largest gland.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The human heart has how many chambers?",
+    "options": [
+      "Three chambers",
+      "Two chambers",
+      "Five chambers",
+      "Four chambers (2 atria + 2 ventricles — left and right)"
+    ],
+    "answer": 3,
+    "explanation": "The human heart has 4 chambers: 2 atria (upper, receiving chambers) and 2 ventricles (lower, pumping chambers). Right atrium receives deoxygenated blood from the body → right ventricle pumps it to the lungs (pulmonary circulation). Left atrium receives oxygenated blood from the lungs → left ventricle pumps it to the entire body (systemic circulation). The left ventricle has the thickest wall (pumps blood to the whole body). The heart is about the size of a closed fist.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which blood vessels carry blood AWAY from the heart?",
+    "options": [
+      "Veins (carry blood toward the heart)",
+      "Venules (small veins)",
+      "Capillaries (site of gas/nutrient exchange)",
+      "Arteries (carry oxygenated blood away from the heart — exception: pulmonary artery carries deoxygenated blood to lungs)"
+    ],
+    "answer": 3,
+    "explanation": "Arteries carry blood AWAY from the heart. Most arteries carry oxygenated blood (e.g., aorta — the largest artery, carries oxygenated blood from left ventricle to body). EXCEPTION: the pulmonary artery carries deoxygenated blood from the right ventricle to the lungs. Veins carry blood TOWARD the heart. Most veins carry deoxygenated blood. EXCEPTION: the pulmonary vein carries oxygenated blood from the lungs to the left atrium. Capillaries are the smallest blood vessels — site of gas and nutrient exchange between blood and tissues.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The normal resting heart rate of a healthy adult is approximately:",
+    "options": [
+      "150-200 beats per minute",
+      "30-40 beats per minute",
+      "60-100 beats per minute (average ~72 bpm)",
+      "200-250 beats per minute"
+    ],
+    "answer": 2,
+    "explanation": "The normal resting heart rate for a healthy adult is 60-100 beats per minute (average ~72 bpm). Athletes may have lower resting rates (40-60 bpm) due to stronger heart muscles. Heart rate above 100 bpm at rest = tachycardia. Below 60 bpm at rest = bradycardia. The heart pumps ~5 litres of blood per minute at rest (cardiac output). During exercise, heart rate and cardiac output increase significantly to deliver more oxygen to muscles.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The exchange of oxygen and carbon dioxide in the human body occurs at which site?",
+    "options": [
+      "Trachea (windpipe)",
+      "Nose",
+      "Alveoli (tiny air sacs in the lungs — gas exchange between air and blood)",
+      "Bronchi (large air passages)"
+    ],
+    "answer": 2,
+    "explanation": "Gas exchange (O₂ in, CO₂ out) occurs at the alveoli — tiny, thin-walled air sacs in the lungs. The lungs contain ~300-500 million alveoli, providing a massive surface area (~70 m², about the size of a tennis court) for gas exchange. Each alveolus is surrounded by capillaries. Oxygen diffuses from alveolar air into the blood (binds to haemoglobin in RBCs), while CO₂ diffuses from blood into the alveoli (to be exhaled). The thin alveolar membrane (one cell thick) allows efficient diffusion.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The functional unit of the human kidney (the basic filtering unit) is called:",
+    "options": [
+      "Nephron (each kidney has ~1 million nephrons — filters blood and produces urine)",
+      "Alveolus (functional unit of the lungs)",
+      "Neuron (functional unit of the nervous system)",
+      "Hepatocyte (liver cell)"
+    ],
+    "answer": 0,
+    "explanation": "The nephron is the functional unit of the kidney. Each kidney has ~1 million nephrons. A nephron consists of: (1) glomerulus (ball of capillaries where blood is filtered), (2) Bowman's capsule (collects filtrate), (3) proximal convoluted tubule, (4) Loop of Henle, (5) distal convoluted tubule, (6) collecting duct. The nephron filters blood, reabsorbs useful substances (water, glucose, amino acids), and excretes waste (urea, excess salts) as urine. Kidneys filter ~180 litres of blood per day, producing ~1.5 litres of urine.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The basic functional unit of the nervous system is the:",
+    "options": [
+      "Axon (part of a neuron, not the whole unit)",
+      "Synapse (junction between neurons, not a cell)",
+      "Neuron (nerve cell — transmits electrical impulses; the human brain has ~86 billion neurons)",
+      "Nephron (kidney unit)"
+    ],
+    "answer": 2,
+    "explanation": "The neuron (nerve cell) is the basic functional unit of the nervous system. The human brain has ~86 billion neurons. A neuron has three main parts: (1) dendrites (receive signals from other neurons), (2) cell body/soma (contains nucleus, processes signals), (3) axon (transmits electrical impulses to other cells). Neurons communicate at synapses (junctions where neurotransmitters transfer signals). Neurons transmit signals as electrical impulses (action potentials) at speeds up to 120 m/s.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which part of the human brain controls balance, coordination, and fine motor movements?",
+    "options": [
+      "Medulla oblongata (controls involuntary functions — breathing, heart rate)",
+      "Cerebrum (largest part — controls thinking, memory, voluntary movement)",
+      "Hypothalamus (controls hormones, temperature, hunger)",
+      "Cerebellum (located at the back of the brain — controls balance, posture, and coordinated movement)"
+    ],
+    "answer": 3,
+    "explanation": "The cerebellum ('little brain') is located at the back of the brain, below the cerebrum. It controls balance, posture, coordination, and fine motor movements. Damage to the cerebellum causes ataxia (loss of coordination — shaky movements, difficulty walking). The cerebrum (largest part) controls thinking, memory, and voluntary movement. The medulla oblongata controls involuntary functions (breathing, heart rate, blood pressure). The hypothalamus controls hormones, body temperature, hunger, and thirst.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The largest part of the human brain, responsible for thinking, memory, and voluntary movement, is the:",
+    "options": [
+      "Brain stem",
+      "Medulla oblongata",
+      "Cerebellum",
+      "Cerebrum (largest part — divided into left and right hemispheres, 4 lobes: frontal, parietal, temporal, occipital)"
+    ],
+    "answer": 3,
+    "explanation": "The cerebrum is the largest part of the human brain (~85% of brain weight). It is divided into left and right hemispheres connected by the corpus callosum. The cerebrum has 4 lobes: (1) frontal lobe (thinking, planning, personality, voluntary movement), (2) parietal lobe (sensation, spatial awareness), (3) temporal lobe (hearing, language, memory), (4) occipital lobe (vision). The outer layer of the cerebrum is the cerebral cortex (grey matter — where conscious processing occurs). The cerebrum is responsible for higher functions: thinking, memory, language, reasoning, and voluntary movement.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which part of the brain controls involuntary functions such as breathing, heart rate, and blood pressure?",
+    "options": [
+      "Hypothalamus",
+      "Cerebrum",
+      "Medulla oblongata (part of the brain stem — controls breathing, heart rate, BP, reflexes like swallowing and vomiting)",
+      "Cerebellum"
+    ],
+    "answer": 2,
+    "explanation": "The medulla oblongata (part of the brain stem, at the base of the brain) controls involuntary (autonomic) functions: breathing, heart rate, blood pressure, digestion, and reflexes (swallowing, vomiting, coughing, sneezing). Damage to the medulla is fatal — it controls the essential life-sustaining functions. The brain stem (medulla + pons + midbrain) connects the brain to the spinal cord and is the most primitive part of the brain.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "How many bones are there in the adult human body?",
+    "options": [
+      "150 bones",
+      "500 bones",
+      "300 bones",
+      "206 bones (270 at birth, some fuse together as we grow)"
+    ],
+    "answer": 3,
+    "explanation": "The adult human body has 206 bones. At birth, humans have ~270 bones — but many fuse together during growth and development, resulting in 206 bones in adults. The skeleton is divided into: (1) axial skeleton (80 bones — skull, vertebral column, rib cage) and (2) appendicular skeleton (126 bones — limbs, pectoral girdle, pelvic girdle). The smallest bone is the stapes (in the middle ear, ~3mm). The largest bone is the femur (thigh bone). Bones provide structure, protect organs, produce blood cells (in bone marrow), and store minerals (calcium, phosphorus).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which enzyme in the saliva begins the digestion of starch in the mouth?",
+    "options": [
+      "Salivary amylase (ptyalin — breaks down starch into maltose, a disaccharide)",
+      "Pepsin (protein digestion in the stomach)",
+      "Lipase (fat digestion)",
+      "Trypsin (protein digestion in the small intestine)"
+    ],
+    "answer": 0,
+    "explanation": "Salivary amylase (also called ptyalin) is the enzyme in saliva that begins the digestion of starch (complex carbohydrate) in the mouth. It breaks down starch into maltose (a disaccharide sugar). Salivary amylase works in the slightly alkaline environment of the mouth. Digestion of starch continues in the small intestine (pancreatic amylase). Protein digestion begins in the stomach (pepsin). Fat digestion occurs mainly in the small intestine (pancreatic lipase).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The stomach produces which acid that helps in protein digestion and kills bacteria?",
+    "options": [
+      "Acetic acid",
+      "Hydrochloric acid (HCl — activates pepsinogen to pepsin, kills bacteria, pH ~1.5-3.5)",
+      "Nitric acid",
+      "Sulphuric acid"
+    ],
+    "answer": 1,
+    "explanation": "The stomach produces hydrochloric acid (HCl) — which makes the stomach very acidic (pH ~1.5-3.5). HCl has two main functions: (1) it activates pepsinogen (inactive) into pepsin (active enzyme that digests proteins), and (2) it kills most bacteria and pathogens that enter with food. The stomach lining is protected from HCl by a thick mucus layer. When this mucus layer is damaged, stomach acid can cause ulcers. HCl is produced by parietal cells (oxyntic cells) in the stomach lining.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The enzyme pepsin, which digests proteins in the stomach, is secreted in an inactive form called:",
+    "options": [
+      "Trypsinogen (inactive form of trypsin, from the pancreas)",
+      "Lipase (fat-digesting enzyme)",
+      "Amylase (starch-digesting enzyme)",
+      "Pepsinogen (inactive — activated by HCl to become pepsin in the stomach)"
+    ],
+    "answer": 3,
+    "explanation": "Pepsin is secreted by the stomach's chief cells in an INACTIVE form called pepsinogen. This prevents the enzyme from digesting the stomach's own proteins. When pepsinogen reaches the stomach lumen, HCl (from parietal cells) activates it — converting pepsinogen to active pepsin. Pepsin then digests proteins into smaller peptides. Similarly, the pancreas secretes trypsinogen (inactive) which is activated to trypsin in the small intestine — preventing self-digestion of the pancreas.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The diaphragm, the main muscle of respiration, separates which two body cavities?",
+    "options": [
+      "Cranial cavity from the spinal cavity",
+      "Upper and lower body",
+      "Thoracic cavity (chest, containing heart and lungs) from the abdominal cavity (containing stomach, liver, intestines)",
+      "Left and right halves of the chest"
+    ],
+    "answer": 2,
+    "explanation": "The diaphragm is a dome-shaped muscle that separates the thoracic cavity (chest — contains heart and lungs) from the abdominal cavity (contains stomach, liver, intestines, kidneys). It is the main muscle of respiration: when it contracts (flattens), it increases the volume of the chest cavity → creating negative pressure → air is drawn into the lungs (inhalation). When it relaxes (domes up), chest volume decreases → air is pushed out (exhalation). Hiccups are caused by involuntary spasms of the diaphragm.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The pH of human blood is approximately:",
+    "options": [
+      "8.5-9.0 (strongly alkaline)",
+      "1.5-2.0 (very acidic, like stomach acid)",
+      "6.5-6.8 (slightly acidic)",
+      "7.35-7.45 (slightly alkaline — maintained by the bicarbonate buffer system)"
+    ],
+    "answer": 3,
+    "explanation": "The normal pH of human blood is 7.35-7.45 (slightly alkaline). This narrow range is critical — blood pH below 7.35 = acidosis (can cause coma); above 7.45 = alkalosis (can cause seizures). The body maintains blood pH through the bicarbonate buffer system (HCO₃⁻/H₂CO₃), respiratory regulation (breathing adjusts CO₂ levels), and renal regulation (kidneys excrete acids/bases). Blood is slightly alkaline because of the bicarbonate ions (HCO₃⁻) dissolved in it.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which type of muscle is found in the walls of internal organs (stomach, intestines, blood vessels) and is involuntary?",
+    "options": [
+      "Smooth muscle (involuntary — found in walls of hollow organs, blood vessels, and ducts)",
+      "Skeletal muscle (voluntary — attached to bones, moves the skeleton)",
+      "Cardiac muscle (involuntary — found only in the heart)",
+      "Striated muscle (another name for skeletal muscle)"
+    ],
+    "answer": 0,
+    "explanation": "Smooth muscle is involuntary (not under conscious control) and is found in the walls of internal organs: stomach, intestines, blood vessels, bladder, uterus, and airways. It is called 'smooth' because it lacks the striations (stripes) seen in skeletal and cardiac muscle. Skeletal muscle is voluntary (conscious control) — attached to bones, moves the body. Cardiac muscle is involuntary — found only in the heart, it is striated but operates automatically. Three muscle types: skeletal (voluntary, striated), smooth (involuntary, non-striated), cardiac (involuntary, striated).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The hormone insulin, which regulates blood glucose levels, is produced by which organ?",
+    "options": [
+      "Pancreas (specifically by the beta cells of the Islets of Langerhans)",
+      "Thyroid gland",
+      "Adrenal gland",
+      "Liver"
+    ],
+    "answer": 0,
+    "explanation": "Insulin is produced by the pancreas — specifically by the beta (β) cells of the Islets of Langerhans (clusters of endocrine cells in the pancreas). Insulin lowers blood glucose by: (1) promoting glucose uptake into cells (muscle, fat, liver), (2) promoting glucose storage as glycogen (in liver and muscles), (3) inhibiting glucose production. When insulin is deficient or cells become resistant, blood glucose rises → diabetes mellitus. The alpha (α) cells of the pancreas produce glucagon (raises blood glucose — opposite of insulin).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which blood cells are responsible for fighting infections and providing immunity?",
+    "options": [
+      "White blood cells (leukocytes — include neutrophils, lymphocytes, monocytes, eosinophils, basophils)",
+      "Plasma (liquid part of blood)",
+      "Platelets (thrombocytes — blood clotting)",
+      "Red blood cells (erythrocytes — carry oxygen)"
+    ],
+    "answer": 0,
+    "explanation": "White blood cells (leukocytes/WBCs) are responsible for fighting infections and providing immunity. There are 5 types: (1) neutrophils (most common — fight bacterial infections), (2) lymphocytes (B cells produce antibodies, T cells destroy infected cells — adaptive immunity), (3) monocytes (become macrophages — engulf pathogens), (4) eosinophils (fight parasites and allergies), (5) basophils (release histamine in allergic reactions). Normal WBC count: 4,000-11,000 per μL of blood. High WBC count = infection or leukaemia. Low WBC count = weakened immunity.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The longest bone in the human body is the:",
+    "options": [
+      "Tibia (shin bone)",
+      "Fibula (calf bone)",
+      "Humerus (upper arm bone)",
+      "Femur (thigh bone — ~48 cm in an average adult, strongest and longest bone)"
+    ],
+    "answer": 3,
+    "explanation": "The femur (thigh bone) is the longest, strongest, and heaviest bone in the human body (~48 cm in an average adult). It connects the hip to the knee. The femur can support ~30 times the body's weight. The smallest bone is the stapes (in the middle ear, ~3 mm). The femur is part of the appendicular skeleton (lower limb). Fractures of the femur require significant force — and can cause life-threatening blood loss (the femoral artery runs nearby).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The human respiratory system's primary function is to exchange oxygen and carbon dioxide. The trachea (windpipe) is kept open by which structures?",
+    "options": [
+      "Muscle fibres only",
+      "Ligaments",
+      "C-shaped cartilage rings (keep the trachea open for air passage, even when the neck moves or during eating)",
+      "Bone rings"
+    ],
+    "answer": 2,
+    "explanation": "The trachea (windpipe) is kept open by 16-20 C-shaped rings of hyaline cartilage. The 'C' shape (open at the back) allows the oesophagus (food pipe, behind the trachea) to expand during swallowing — without compressing the trachea. The cartilage rings prevent the trachea from collapsing during breathing. The trachea divides into the left and right bronchi (one for each lung). The bronchi further divide into bronchioles, which end in the alveoli (gas exchange sacs).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which valve in the human heart prevents backflow of blood from the left ventricle to the left atrium?",
+    "options": [
+      "Aortic valve (between left ventricle and aorta)",
+      "Mitral valve (bicuspid valve — between left atrium and left ventricle)",
+      "Tricuspid valve (between right atrium and right ventricle)",
+      "Pulmonary valve (between right ventricle and pulmonary artery)"
+    ],
+    "answer": 1,
+    "explanation": "The mitral valve (also called the bicuspid valve) is located between the left atrium and the left ventricle. It prevents backflow of blood from the left ventricle to the left atrium when the ventricle contracts. The four heart valves: (1) tricuspid (right atrium → right ventricle), (2) pulmonary (right ventricle → pulmonary artery), (3) mitral/bicuspid (left atrium → left ventricle), (4) aortic (left ventricle → aorta). Valve defects cause heart murmurs (abnormal sounds heard with a stethoscope).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]
