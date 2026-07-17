@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>10 - Sports | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .flow-node a:hover {
+    text-decoration: underline;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #10 • TIER A</div>
+  <div class="topic-title">Sports — Winners, Hosts &amp; Venues 2025–26</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs &amp; Sports GK</span>
+    <span class="meta-tag">⚖️ Weight: 1.7 (Tier A)</span>
+    <span class="meta-tag">📊 Mapped Questions: 12</span>
+    <span class="meta-tag">🎯 Expected: 2-4 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content &amp; PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Host-country one-liners are BPSC's favourite sports question:</strong> "Which country is going to host the 20th Asian Games in 2026?" — answer: <strong>Japan</strong> (Aichi–Nagoya, 19 Sep–4 Oct 2026). Same paper asked "Which country hosted the 2022 Winter Olympics?" — <strong>China</strong> (Beijing). 2026 Winter edition: <strong>Milano–Cortina, Italy</strong> (6–22 Feb 2026; mascots Milo &amp; Tina).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>"Which game is NOT included in the (Paris 2024) Olympics?"</strong> — answer: <strong>Cricket</strong> (Fencing, Modern Pentathlon and Triathlon are all Olympic sports). Payoff for 72nd: cricket <strong>RETURNS at LA28</strong> (T20, 6 teams per gender, venue Fairplex, Pomona — confirmed 15 Apr 2025) after 128 years (last played Paris 1900).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Sports venue ↔ tournament matching:</strong> the 69th asked which pairs are correctly matched — trap: "Flushing Meadows : French Open". Correct bank: <strong>Flushing Meadows ↔ US Open</strong> • Roland Garros ↔ French Open • All England Club ↔ Wimbledon • Melbourne Park ↔ Australian Open.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st + 70th BPSC PYQ</span>
+    <strong>GI + Books crossover:</strong> 71st asked "The art of crafting which item in Meerut has received a GI tag?" — <strong>Sports Goods</strong>. 70th asked the author of <em>"I Have the Streets: A Kutti Cricket Story"</em> — <strong>R. Ashwin (with S. Monga)</strong>. Sports GK hides inside GI-tag and book questions.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Champions Trophy 2025, WTC Final 2025, T20 World Cup 2026 ball-by-ball context, IPL 2025 + 2026, U19 &amp; Women's World Cups, Asia Cup, retirements, and domestic-trophy statics:
+    <a href="subpages/10_cricket_2025_26_detail.html" target="_blank">Cricket 2025–26 Master Detail →</a>
+  </div>
+
+  <h3>A. India's Golden Cricket Window (Mar 2025 – Mar 2026) <span class="current-tag">HOTTEST</span></h3>
+  <p>India won <strong>four ICC titles in ~12 months</strong> across men's, women's and U19 cricket — plus a maiden IPL crown. Learn winner ↔ runner-up ↔ venue ↔ margin cold.</p>
+  <table>
+    <tr><th>Event</th><th>Winner</th><th>Final: beat (margin)</th><th>Venue / Date</th><th>Key Man</th></tr>
+    <tr><td><strong>ICC Champions Trophy 2025</strong></td><td>India (3rd CT title)</td><td>New Zealand by 4 wickets</td><td>Dubai, 9 Mar 2025</td><td>Rohit Sharma 76 (POTM)</td></tr>
+    <tr><td><strong>WTC Final 2025</strong></td><td><strong>South Africa</strong> (1st WTC)</td><td>Australia by 5 wickets</td><td>Lord's, 11–14 Jun 2025</td><td>Aiden Markram 136 (POTM)</td></tr>
+    <tr><td><strong>Asia Cup 2025</strong> (T20, UAE)</td><td>India (9th title)</td><td>Pakistan by 5 wickets (PAK 146)</td><td>Dubai, 28 Sep 2025</td><td>Tilak Varma 69*; Kuldeep 4 wkts</td></tr>
+    <tr><td><strong>ICC Women's ODI WC 2025</strong></td><td><strong>India — MAIDEN title</strong></td><td>South Africa by 52 runs (298/7 v 246)</td><td>DY Patil, Navi Mumbai, 2 Nov 2025</td><td>Shafali 87+2/36 (POTM); Deepti POT (22 wkts)</td></tr>
+    <tr><td><strong>ICC U19 World Cup 2026</strong></td><td>India (record 6th title)</td><td>England by 100 runs (411/9 v 311)</td><td>Harare, 6 Feb 2026</td><td>Vaibhav Sooryavanshi 175 off 80 (POTM + POT)</td></tr>
+    <tr><td><strong>ICC Men's T20 WC 2026</strong></td><td><strong>India (3rd title; back-to-back; first host winner)</strong></td><td>New Zealand by 96 runs</td><td>Narendra Modi Stadium, Ahmedabad, 8 Mar 2026</td><td>Bumrah 4/15 (POTM); Sanju Samson POT</td></tr>
+  </table>
+  <ul>
+    <li><strong>T20 WC 2026 colour:</strong> co-hosted by India + Sri Lanka (20 teams, 7 Feb–8 Mar 2026); SF — India beat England by 7 runs (Wankhede); India's only loss: South Africa by 76 runs (Super 8); the India–Pakistan match was moved to <strong>Colombo (15 Feb)</strong> after government-level drama — India won by 61 runs (Ishan Kishan 77); <strong>Bangladesh withdrew</strong> (refused to travel) and was replaced by <strong>Scotland</strong>.</li>
+    <li><strong>IPL 2025:</strong> <strong>RCB — maiden title</strong>, beat Punjab Kings by 6 runs at Ahmedabad (3 Jun 2025); Orange Cap: Sai Sudharsan (GT, 759 runs); MVP: Suryakumar Yadav.</li>
+    <li><strong>IPL 2026:</strong> <strong>RCB again — back-to-back</strong>, beat Gujarat Titans by 5 wickets at Ahmedabad (31 May 2026); <strong>Kohli 75*</strong> (POTM). Awards sweep by 15-year-old <strong>Vaibhav Sooryavanshi (RR)</strong>: Orange Cap + MVP + Emerging Player (776 runs, SR 237.30); Purple Cap: Kagiso Rabada (29 wkts).</li>
+    <li><strong>Retirements:</strong> Rohit Sharma (Tests, 7 May 2025) and Virat Kohli (Tests, ~12 May 2025; 123 Tests, 9,230 runs, 30 hundreds) — both had quit T20Is in Jun 2024; R. Ashwin quit all international cricket on 18 Dec 2024.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/narendra_modi_stadium.jpg" alt="Narendra Modi Stadium, Ahmedabad">
+    <div class="img-caption">Narendra Modi Stadium, Ahmedabad — venue of the T20 World Cup 2026 final (India d. NZ) and the IPL 2025 &amp; 2026 finals (RCB). Photo: Wikimedia Commons (CC0).</div>
+  </div>
+
+  <h3>B. Multi-Sport Games — Hosts, Mascots, Toppers <span class="current-tag">VERIFIED JUL 2026</span></h3>
+  <table>
+    <tr><th>Games</th><th>Host / Dates</th><th>Result / Topper</th><th>Memorable Detail</th></tr>
+    <tr><td><strong>Asian Winter Games 2025</strong> (9th)</td><td>Harbin, China; 7–14 Feb 2025</td><td>China topped tally</td><td>Winter-Asiad returned after 2017 (Sapporo)</td></tr>
+    <tr><td><strong>National Games 2025</strong> (38th)</td><td>Uttarakhand; 28 Jan–14 Feb 2025</td><td><strong>Services (SSCB)</strong> — Raja Bhalindra Singh Trophy (121 medals, 68G); 2. Maharashtra, 3. Haryana</td><td>Mascot <strong>Mauli</strong> (monal); torch <strong>Tejaswini</strong>; Green Games (e-waste medals); opened at Dehradun by PM Modi</td></tr>
+    <tr><td><strong>Khelo India Youth Games 2025</strong> (7th)</td><td><strong>BIHAR (first time)</strong> + New Delhi; 4–15 May 2025</td><td>Maharashtra 158 (58G) — 3rd straight title; Haryana 2nd, Rajasthan 3rd (best-ever)</td><td>Mascot <strong>Gajasimha</strong>; ~8,500 athletes; 28 sports; sepak takraw debut</td></tr>
+    <tr><td><strong>Winter Olympics 2026</strong></td><td>Milano–Cortina, Italy; 6–22 Feb 2026</td><td>—</td><td>Mascots <strong>Milo &amp; Tina</strong> (stoats)</td></tr>
+    <tr><td><strong>Commonwealth Games 2026</strong> (23rd) — UPCOMING</td><td>Glasgow; 23 Jul–2 Aug 2026</td><td>—</td><td><strong>Only 10 sports</strong>; hockey, cricket, wrestling, badminton, squash, TT, shooting DROPPED; ~3,000 athletes / 74 nations</td></tr>
+    <tr><td><strong>Asian Games 2026</strong> (20th) — UPCOMING</td><td>Aichi–Nagoya, Japan; 19 Sep–4 Oct 2026</td><td>—</td><td>Slogan "Imagine One Asia"; 41 sports; 3rd time in Japan</td></tr>
+    <tr><td><strong>LA28 Olympics</strong></td><td>Los Angeles; 14–30 Jul 2028</td><td>—</td><td>3rd LA Games (1932, 1984); 5 new sports: <strong>cricket T20</strong>, flag football, squash, lacrosse sixes, baseball/softball</td></tr>
+    <tr><td><strong>National Games 2027</strong> (39th)</td><td><strong>Meghalaya</strong> (first time)</td><td>—</td><td>Flag handed over at Uttarakhand closing ceremony</td></tr>
+  </table>
+  <ul>
+    <li><strong>Paris 2024 (background, still asked):</strong> India won <strong>6 medals (1S, 5B)</strong> — Neeraj Chopra javelin Silver (89.45m); <strong>Manu Bhaker 2 Bronze</strong> (10m air pistol + mixed team with Sarabjot Singh) — <strong>first Indian post-1947 with two medals at one Games</strong>; Swapnil Kusale (50m rifle 3P), Aman Sehrawat (wrestling 57kg), men's hockey — all Bronze.</li>
+    <li><strong>India's 2030 CWG bid:</strong> official proposal submitted (30 Aug 2025) to host the <strong>2030 Commonwealth Games at Ahmedabad</strong> — proposal stage only; award decision not yet announced at cutoff.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Games-Host Ladder "H-U-B-M-G-N-L"</strong><br>
+    <strong>H</strong>arbin (Asian Winter 2025) → <strong>U</strong>ttarakhand (National Games 2025) → <strong>B</strong>ihar (Khelo India Youth 2025) → <strong>M</strong>ilano-Cortina (Winter Oly 2026) → <strong>G</strong>lasgow (CWG 2026) → <strong>N</strong>agoya (Asian Games 2026) → <strong>L</strong>A (Olympics 2028). Winter chain: Beijing 2022 → Milano-Cortina 2026 → French Alps 2030.
+  </div>
+
+  <h3>C. Football — FIFA WC 2026 in Progress <span class="current-tag">LIVE AT CUTOFF</span></h3>
+  <ul>
+    <li><strong>FIFA World Cup 2026 (USA/Canada/Mexico):</strong> first <strong>48-team</strong> edition, <strong>104 matches, 16 venues</strong>; opened <strong>11 Jun 2026 at Estadio Azteca</strong> (Mexico City — first stadium to host 3 World Cups); <strong>FINAL: 19 Jul, MetLife Stadium, New Jersey</strong> — after the 15 Jul research cutoff but <strong>before the 26 Jul exam — re-check the winner 2-3 days before the paper</strong>. Verified at cutoff: SF1 Spain 2-0 France (14 Jul, AT&amp;T Stadium); SF2 England v Argentina (15 Jul, Atlanta) was reported 1-2 to Argentina from a single source — treat the finalist pairing as provisional.</li>
+    <li><strong>UEFA Champions League 2025:</strong> <strong>PSG — first title</strong>, 5-0 v Inter Milan (Allianz Arena, Munich, 31 May 2025). <strong>UCL 2026: PSG retained</strong> — 1-1 v Arsenal, 4-3 on penalties (Puskás Aréna, Budapest, 30 May 2026; first UCL final in Hungary).</li>
+    <li><strong>Indian football:</strong> <strong>ISL 2024-25 — Mohun Bagan SG</strong> (beat Bengaluru FC 2-1 aet, Salt Lake, 12 Apr 2025 — completed the league double); <strong>ISL 2025-26 — East Bengal, maiden ISL title</strong> (21 May 2026, first national league crown in ~22 years); <strong>Durand Cup 2025 (134th) — NorthEast United</strong> (6-1 v Diamond Harbour, defended title); <strong>Santosh Trophy 2025-26 — Services</strong> (1-0 v Kerala, 8th title; final round hosted by Assam).</li>
+    <li><strong>Statics:</strong> Durand Cup (1888, Kolkata) = world's <strong>3rd-oldest</strong> surviving football tournament; Santosh Trophy = state teams, since 1941.</li>
+  </ul>
+
+  <h3>D. Hockey — India's Asian Crown Won in Bihar <span class="current-tag">BIHAR ANCHOR</span></h3>
+  <ul>
+    <li><strong>Men's Asia Cup 2025 (12th) — INDIA champion at RAJGIR, BIHAR:</strong> beat Korea <strong>4-1</strong> in the final (7 Sep 2025) — <strong>4th title</strong>; qualified for the FIH World Cup 2026; Malaysia 3rd; Pakistan withdrew. Rajgir Sports Academy received <strong>Asian Hockey Federation affiliation</strong> (FIH President Tayyab Ikram).</li>
+    <li><strong>Hockey India League:</strong> HIL 2024-25 (men) — Shrachi Rarh Bengal Tigers (4-3 v Hyderabad Toofans, Rourkela, 1 Feb 2025); inaugural Women's HIL 2024-25 — Odisha Warriors (Ranchi). HIL 2025-26 (men) — <strong>Vedanta Kalinga Lancers</strong> (3-2 v Ranchi Royals, Bhubaneswar, 26 Jan 2026); Women's HIL 2025-26 — <strong>SG Pipers</strong> (shootout v Shrachi Bengal Tigers, Ranchi, 10 Jan 2026).</li>
+    <li><strong>Upcoming:</strong> FIH World Cup 2026 — Belgium/Netherlands, 15–30 Aug 2026 (men + women). India women's team: Sjoerd Marijne re-appointed chief coach (14 Jan 2026).</li>
+  </ul>
+
+  <h3>E. Badminton • Tennis • Chess • Athletics — Quick Bank <span class="current-tag">MATCHING BANK</span></h3>
+  <ul>
+    <li><strong>Badminton:</strong> BWF Worlds 2025 (Paris) — India 1 medal: <strong>Satwiksairaj–Chirag BRONZE</strong> (14-year medal streak alive since 2011). 2026: Satwik–Chirag <strong>won Singapore Open (S750)</strong>; Lakshya Sen won <strong>Australian Open 2025</strong>; Ayush Shetty won US Open 2025. <strong>Thomas Cup 2026: China (13th); India BRONZE</strong>; Uber Cup 2026: Korea. <strong>BWF Worlds 2026: NEW DELHI</strong>, 17–23 Aug, Indira Gandhi Stadium — first Worlds in India since 2009 (Hyderabad).</li>
+    <li><strong>Tennis 2026 Slams (so far):</strong> <strong>AO 2026 — Alcaraz d. Djokovic</strong> (maiden AO; <strong>youngest career-slam of the Open Era at 22</strong>; 9th man overall); women's: <strong>Rybakina</strong> d. Sabalenka. <strong>RG 2026 — Zverev</strong> d. Cobolli (maiden slam); women's: <strong>Mirra Andreeva</strong>. <strong>Wimbledon 2026 — Sinner d. Zverev</strong> (defended title); women's: <strong>Noskova</strong> d. Muchova (all-Czech final; youngest Wimbledon women's champion in 15 years). US Open 2026: 24 Aug–13 Sep (UPCOMING).</li>
+    <li><strong>Chess:</strong> <strong>D. Gukesh</strong> = reigning World Champion (d. Ding Liren, Singapore, Dec 2024); <strong>Praggnanandhaa won Tata Steel Masters 2025</strong> (2nd Indian after Anand 2006); <strong>Javokhir Sindarov (UZB)</strong> won FIDE World Cup 2025 (Goa) AND <strong>Candidates 2026</strong> (Cyprus, 10/14 — youngest-ever) → challenges Gukesh late 2026 in the <strong>youngest World Championship match ever</strong> (both 20). <strong>Divya Deshmukh</strong> won the <strong>FIDE Women's World Cup 2025</strong> (beat Koneru Humpy in an all-Indian final, Batumi) → became <strong>India's 88th GM, 4th Indian woman GM</strong>.</li>
+    <li><strong>Athletics:</strong> <strong>Neeraj Chopra crossed 90m — 90.23m NR at Doha Diamond League (16 May 2025)</strong>, first Indian over 90m — but finished <strong>2nd</strong> behind Julian Weber (GER, 91.06m); won Paris DL (88.16m); 2nd at DL Final, Zurich. <strong>World Athletics C'ships 2025 (Tokyo): India ZERO medals</strong> — Neeraj 8th; gold: Keshorn Walcott (TTO).</li>
+    <li><strong>Other individual honours:</strong> World Boxing C'ships 2025 (Liverpool) — India 4 medals, all women: <strong>GOLD Jaismine Lamboria (57kg), GOLD Minakshi Hooda (48kg)</strong>; Wrestling Worlds 2025 (Zagreb) — Antim Panghal bronze (53kg); ISSF Worlds 2025 (Cairo) — <strong>Samrat Rana GOLD</strong> (10m air pistol); <strong>F1 2025 — Lando Norris champion</strong> (McLaren, 423 v Verstappen 421, decided at Abu Dhabi).</li>
+    <li><strong>Sports awards:</strong> Laureus 2026 — Sportsman Alcaraz, Sportswoman Sabalenka, Breakthrough Norris. <strong>Padma Awards 2026 (sports): Padma Shri — Rohit Sharma, Harmanpreet Kaur, Savita Punia; Padma Bhushan — Vijay Amritraj</strong> (announced 25 Jan 2026).</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/neeraj_chopra_javelin.jpg" alt="Neeraj Chopra, javelin">
+    <div class="img-caption">Neeraj Chopra — first Indian over 90m (90.23m national record, Doha Diamond League, 16 May 2025). Photo: Wikimedia Commons (CC BY-SA 4.0).</div>
+  </div>
+</div>
+
+<!-- ====== FLOWCHART: INDIA'S ICC TROPHY LADDER ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> India's ICC Trophy Ladder (12 Months, 4 Titles)
+  </div>
+  <p style="margin-bottom: 12px;">One calendar sweep across formats, genders and age-groups — BPSC will test at least one rung.</p>
+
+  <div class="flowchart">
+    <div class="flow-node">Mar 2025 — Champions Trophy: India d. New Zealand, Dubai (3rd CT)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Nov 2025 — Women's ODI World Cup: India d. South Africa, Navi Mumbai (MAIDEN)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Feb 2026 — U19 World Cup: India d. England, Harare (6th title — Sooryavanshi 175)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Mar 2026 — Men's T20 World Cup: India d. New Zealand, Ahmedabad (3rd title, back-to-back, 1st host winner)</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Event | Winner / Key Fact | Venue &amp; Date
+  </div>
+
+  <table>
+    <tr><th>Event</th><th>Winner / Key Fact</th><th>Venue / Date</th></tr>
+    <tr><td><strong>Champions Trophy 2025</strong></td><td>India (3rd CT; Rohit 76 POTM)</td><td>Dubai; final 9 Mar 2025</td></tr>
+    <tr><td><strong>WTC Final 2025</strong></td><td>South Africa — first WTC title (Markram 136)</td><td>Lord's; 11–14 Jun 2025</td></tr>
+    <tr><td><strong>Asia Cup 2025 (T20)</strong></td><td>India — 9th title (Tilak 69*)</td><td>Dubai; 9–28 Sep 2025</td></tr>
+    <tr><td><strong>Women's ODI WC 2025</strong></td><td>India — MAIDEN; Deepti POT (22 wkts, 5/39 final)</td><td>DY Patil, Navi Mumbai; 30 Sep–2 Nov 2025</td></tr>
+    <tr><td><strong>U19 WC 2026</strong></td><td>India — record 6th; Sooryavanshi 175 off 80</td><td>Harare, Zimbabwe; 6 Feb 2026</td></tr>
+    <tr><td><strong>Men's T20 WC 2026</strong></td><td>India — 3rd title, back-to-back, first host winner</td><td>Ahmedabad final; 7 Feb–8 Mar 2026</td></tr>
+    <tr><td><strong>IPL 2025 / IPL 2026</strong></td><td>RCB maiden (d. PBKS, 6 runs) / RCB again (d. GT, 5 wkts; Kohli 75*)</td><td>Ahmedabad; 3 Jun 2025 / 31 May 2026</td></tr>
+    <tr><td><strong>National Games 2025 (38th)</strong></td><td>Services — Raja Bhalindra Singh Trophy (121 medals)</td><td>Uttarakhand; 28 Jan–14 Feb 2025</td></tr>
+    <tr><td><strong>National Games 2027 (39th)</strong></td><td>Host: Meghalaya (first time)</td><td>2027</td></tr>
+    <tr><td><strong>Khelo India Youth Games 2025 (7th)</strong></td><td>Maharashtra 1st (158 medals); Bihar 15th — best-ever 36 (7G-11S-18B)</td><td>Bihar (5 cities) + Delhi; 4–15 May 2025</td></tr>
+    <tr><td><strong>Men's Hockey Asia Cup 2025</strong></td><td>India 4-1 Korea — 4th title; Rajgir Sports Academy gets AHF affiliation</td><td>Rajgir, Bihar; 29 Aug–7 Sep 2025</td></tr>
+    <tr><td><strong>Sepak Takraw World Cup 2025</strong></td><td>India men's regu — first-ever GOLD (d. Japan 2-1); India 7 medals</td><td>Patliputra Indoor Stadium, Patna; 20–25 Mar 2025</td></tr>
+    <tr><td><strong>FIFA WC 2026</strong></td><td>48 teams, 104 matches, 16 venues; final 19 Jul (UPCOMING at cutoff)</td><td>USA/Canada/Mexico; 11 Jun–19 Jul 2026</td></tr>
+    <tr><td><strong>UCL 2025 / 2026</strong></td><td>PSG first title (5-0 Inter) / PSG retained (pens v Arsenal)</td><td>Munich / Budapest</td></tr>
+    <tr><td><strong>ISL 2024-25 / 2025-26</strong></td><td>Mohun Bagan SG (league double) / East Bengal — maiden</td><td>Kolkata; Apr 2025 / May 2026</td></tr>
+    <tr><td><strong>AO 2026 (tennis)</strong></td><td>Alcaraz — youngest career-slam (Open Era); Rybakina (W)</td><td>Melbourne; Jan–Feb 2026</td></tr>
+    <tr><td><strong>RG 2026 / Wimbledon 2026</strong></td><td>Zverev + M. Andreeva / Sinner (defended) + Noskova</td><td>Paris / London</td></tr>
+    <tr><td><strong>Chess: Candidates 2026</strong></td><td>Sindarov (10/14, youngest) → challenges Gukesh (late 2026)</td><td>Cyprus; Mar–Apr 2026</td></tr>
+    <tr><td><strong>FIDE Women's World Cup 2025</strong></td><td>Divya Deshmukh (all-Indian final v Humpy) — India's 88th GM</td><td>Batumi; Jul 2025</td></tr>
+    <tr><td><strong>Neeraj Chopra 90m</strong></td><td>90.23m NR — first Indian over 90m; finished 2nd (Weber 91.06)</td><td>Doha Diamond League; 16 May 2025</td></tr>
+    <tr><td><strong>BWF Worlds 2026</strong></td><td>NEW DELHI hosts — first Worlds in India since 2009</td><td>IG Stadium; 17–23 Aug 2026</td></tr>
+    <tr><td><strong>CWG 2026 (23rd)</strong></td><td>Only 10 sports; hockey/cricket/wrestling/badminton/shooting dropped</td><td>Glasgow; 23 Jul–2 Aug 2026</td></tr>
+    <tr><td><strong>Asian Games 2026 (20th)</strong></td><td>"Imagine One Asia"; 41 sports; 3rd time in Japan</td><td>Aichi–Nagoya; 19 Sep–4 Oct 2026</td></tr>
+    <tr><td><strong>LA28 Olympics</strong></td><td>Cricket T20 returns (6 teams; Fairplex, Pomona) + 4 other new sports</td><td>Los Angeles; 14–30 Jul 2028</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar = India's Sports-Host Story of 2025 — The Safest BPSC Angle</div>
+    <ul>
+      <li><strong>Khelo India Youth Games 2025 (7th) — Bihar's FIRST national multi-sport event:</strong> 4–15 May 2025 across <strong>Patna, Rajgir, Gaya, Bhagalpur, Begusarai</strong> (+ New Delhi for shooting/gymnastics/track cycling); ~8,500 athletes, 28 sports (+ esports demo); <strong>sepak takraw debuted</strong>; mascot <strong>Gajasimha</strong> (Pala-era/Nalanda motif, unveiled by CM Nitish Kumar + Union Minister Mandaviya); opened virtually by PM Modi on 4 May at <strong>Patliputra Sports Complex</strong>. <strong>Bihar finished 15th with 36 medals (7G-11S-18B) — best-ever</strong> (jumped from 28th; doubled its all-time tally); Khushi Yadav won girls' 2000m steeplechase gold (9:52.10).</li>
+      <li><strong>Men's Hockey Asia Cup 2025 — Rajgir:</strong> India beat Korea 4-1 in the final (7 Sep 2025) on Bihar soil — 4th title + FIH World Cup 2026 qualification; <strong>Rajgir Sports Academy received Asian Hockey Federation affiliation</strong>. Earlier, Rajgir also hosted the Women's Asian Champions Trophy (Nov 2024 — India won).</li>
+      <li><strong>Sepak Takraw World Cup 2025 (5th ISTAF) — Patna:</strong> Patliputra Indoor Stadium, 20–25 Mar 2025, 21 nations; <strong>India men's regu team won its first-ever World Cup GOLD</strong> (d. Japan 2-1); India 4th in the medal tally (7 medals); praised by PM Modi.</li>
+      <li><strong>Vaibhav Sooryavanshi (Tajpur, Samastipur district; b. 27 Mar 2011):</strong> youngest-ever IPL signing (₹1.1 cr, RR, age 13); youngest IPL debutant (19 Apr 2025, 14y 23d); <strong>youngest T20 centurion</strong> (101 off 38 v GT, 28 Apr 2025); <strong>IPL 2026 Orange Cap + MVP + Emerging Player</strong> (776 runs, age 15); <strong>U19 WC 2026 Player of the Tournament</strong> (175 in the final); <strong>₹50 lakh Bihar govt reward</strong> (Feb 2026).</li>
+      <li><strong>Ranji Trophy 2025-26 — Bihar Plate champions:</strong> beat Manipur by <strong>568 runs</strong> in the Plate final → <strong>promoted to the Elite group</strong> for 2026-27 (reported 27 Jan 2026).</li>
+      <li><strong>National Games 2025 (Uttarakhand):</strong> Bihar's <strong>women's lawn bowls triples GOLD</strong> (Khushboo Kumari, Nikhat Khatoon, Payal Preeti — d. West Bengal 15-14) = <strong>Bihar's first National Games gold in 25 years</strong>.</li>
+      <li><strong>Shreyasi Singh:</strong> international shooter (Paris Olympics 2024) and BJP <strong>MLA from Jamui</strong> — the 70th BPSC asked her constituency directly.</li>
+      <li><strong>Infrastructure:</strong> <strong>45,000-seat international cricket stadium inaugurated at Rajgir (~Oct 2025)</strong> — Bihar's first world-class cricket venue; Bihar Budget 2025-26 allocated <strong>₹574.33 crore</strong> for a 100-acre international stadium at Punpun block (Patna); Rajgir Sports Complex spans ~90 acres.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #19 (Bihar Sports):</strong> This page's Bihar box IS Topic #19's backbone — KIYG 2025, Rajgir hockey, Patna sepak takraw, Sooryavanshi, Ranji promotion, Shreyasi Singh, stadium projects. Revise both together.<br>
+    <strong>↔ Topic #62 (Sports Static):</strong> Trophy ↔ sport bank (Ranji/Duleep/Irani/Vijay Hazare/Syed Mushtaq Ali — cricket; Durand/Santosh — football; Thomas/Uber — badminton; Beighton Cup/Aga Khan Cup — hockey), Grand Slam venues, Olympic motto ("Citius, Altius, Fortius – Communiter" — "Together" added 2021).<br>
+    <strong>↔ Topic #9 (Awards &amp; Honours):</strong> Padma 2026 sports awardees (Rohit Sharma, Harmanpreet Kaur, Savita Punia — Padma Shri; Vijay Amritraj — Padma Bhushan); Laureus 2026 (Alcaraz, Sabalenka, Norris); Arjuna/Khel Ratna statics.<br>
+    <strong>↔ Topic #13 (Books &amp; Authors):</strong> R. Ashwin + S. Monga, <em>"I Have the Streets: A Kutti Cricket Story"</em> (70th BPSC PYQ).<br>
+    <strong>↔ Topic #22 (GI Tags &amp; Culture):</strong> Meerut <strong>sports goods</strong> GI tag (71st BPSC PYQ) — sports hides inside the GI list.<br>
+    <strong>↔ Topic #12 (Important Days):</strong> National Sports Day = <strong>29 August</strong> (Major Dhyan Chand's birth anniversary); International Olympic Day = 23 June.<br>
+    <strong>↔ Topic #4 (Summits &amp; Groupings):</strong> IOC Session, Mumbai (Oct 2023) approved the 5 new LA28 sports — India's sports-diplomacy moment alongside the 2030 CWG (Ahmedabad) bid.<br>
+    <strong>↔ Topic #20 (Bihar Infra &amp; Projects):</strong> Rajgir 45,000-seat stadium and the ₹574.33 cr Punpun stadium figure in both sports and infrastructure questions.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance &amp; Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Near-certain one-liner:</strong> India won the <strong>men's T20 World Cup 2026</strong> — beat New Zealand by <strong>96 runs</strong> at <strong>Narendra Modi Stadium, Ahmedabad</strong> (8 Mar 2026). Traps: it was India's <strong>3rd</strong> T20WC title (2007, 2024, 2026); <strong>first team to win back-to-back</strong>; <strong>first host to win</strong>. Bumrah = final POTM (4/15); Sanju Samson = Player of the Tournament — don't swap them.</li>
+    <li><strong>New Zealand lost TWO ICC finals to India in 12 months</strong> — Champions Trophy 2025 (Dubai) and T20 WC 2026 (Ahmedabad). Venue swap is the classic trap.</li>
+    <li><strong>Women's WC 2025:</strong> India's <strong>maiden</strong> ODI World Cup — beat South Africa by 52 runs, DY Patil Stadium, Navi Mumbai; Harmanpreet became the 3rd Indian World-Cup-winning captain (Kapil Dev '83, Dhoni '11). Deepti Sharma = POT (22 wickets incl. 5/39 in the final); Wolvaardt's 571 runs = tournament record.</li>
+    <li><strong>Tennis year-swap trap:</strong> Wimbledon 2025 = Sinner (1st title) + Swiatek; Wimbledon 2026 = Sinner (defended) + Noskova. AO 2026: Alcaraz completed the career slam at 22 (youngest, Open Era) beating Djokovic; RG 2026: Zverev's maiden slam (Alcaraz was out injured) — do NOT assign Alcaraz the 2026 French Open.</li>
+    <li><strong>Neeraj trap:</strong> 90.23m at Doha (16 May 2025) was a NATIONAL RECORD but only SILVER (Julian Weber threw 91.06m). At the Tokyo Worlds (Sep 2025) Neeraj finished 8th and India won ZERO medals — gold went to Keshorn Walcott (Trinidad &amp; Tobago).</li>
+    <li><strong>Glasgow CWG 2026 (23 Jul–2 Aug) — starts 3 days BEFORE the exam:</strong> trimmed to <strong>10 sports</strong>; hockey, cricket, wrestling, badminton, squash, table tennis and shooting are DROPPED. India officially proposed <strong>Ahmedabad for CWG 2030</strong> (proposal stage only — no host decision yet).</li>
+    <li><strong>FIFA WC 2026 (11 Jun–19 Jul):</strong> the final (MetLife Stadium, 19 Jul) falls AFTER the 15 Jul research cutoff but BEFORE the 26 Jul exam — <strong>re-check the champion in exam week</strong>. Verified facts safe to answer: hosts USA/Canada/Mexico; 48 teams; 104 matches; opener at Estadio Azteca.</li>
+    <li><strong>Chess upcoming:</strong> Gukesh v Sindarov World Championship match (late 2026) — youngest title match ever (both 20). Sindarov's route: World Cup 2025 (Goa) → Candidates 2026 (Cyprus, 10/14 record). Divya Deshmukh = 2025 Women's World Cup champion, India's 88th GM.</li>
+    <li><strong>Statics that never age:</strong> Durand Cup 1888 (world's 3rd-oldest football tournament); Santosh Trophy since 1941; Ranji Trophy since 1934-35; Khelo India scheme revamped 2018 (1st KIYG: Delhi); TOPS = Target Olympic Podium Scheme; National Games overall champion = Raja Bhalindra Singh Trophy; BWF Worlds in India: 2009 Hyderabad → 2026 New Delhi.</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (25 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Which country will host the 20th Asian Games in 2026? (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) China</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Japan</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) South Korea</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Indonesia</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — The 20th Asian Games (19 Sep–4 Oct 2026) will be hosted by Aichi–Nagoya, Japan — the third time Japan hosts the Asiad (Tokyo 1958, Hiroshima 1994). The 70th BPSC asked exactly this host question; (A) China hosted the 19th edition (Hangzhou 2023).</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. At the Paris 2024 Olympics, which of the following games was NOT included? (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Fencing</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Modern Pentathlon</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Cricket</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Triathlon</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — Cricket was last played at the 1900 Paris Olympics and returns only at LA28 (T20, 6 teams per gender, Fairplex, Pomona — confirmed April 2025). Fencing, Modern Pentathlon and Triathlon are all core Olympic sports.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Match List-I (Grand Slam) with List-II (Venue): (69th BPSC pattern)
+    <br>a) Australian Open — 1) All England Club
+    <br>b) French Open — 2) Melbourne Park
+    <br>c) Wimbledon — 3) Roland Garros
+    <br>d) US Open — 4) Flushing Meadows</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) a-2, b-3, c-1, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) a-3, b-2, c-4, d-1</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) a-2, b-4, c-1, d-3</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) a-4, b-3, c-2, d-1</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — Australian Open ↔ Melbourne Park; French Open ↔ Roland Garros (Paris); Wimbledon ↔ All England Club (London); US Open ↔ Flushing Meadows (New York). The 69th BPSC trap was pairing Flushing Meadows with the French Open.</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The art of crafting which item in Meerut has received a GI tag? (71st BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Sports Goods</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Musical Instruments</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Laddoo</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Scissors</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">Meerut <strong>Scissors</strong> is the registered GI — "Meerut Scissors" holds GI Registration Application No. 389, registered by the GI Registry in April 2015. Meerut's celebrated sports goods are the district's <strong>ODOP (One District One Product)</strong> product, <em>not</em> a registered GI, so option (A) is technically incorrect even though it is a widely repeated recall. ⚠️ Expert keys for this real 71st BPSC question are split: Drishti/Genius key it as <strong>Scissors</strong>, while StudyIQ (claiming to mirror the official key) says <strong>Sports Goods</strong> — recognize this question if it is repeated. ✅ <strong>Correct Answer: (D)</strong></div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Who is the author of the autobiography "I Have the Streets: A Kutti Cricket Story"? (70th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Suresh Raina</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) S. Sreesanth</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) R. Ashwin and S. Monga</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Rahul Dravid</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Off-spinner R. Ashwin co-wrote the memoir with journalist Sidharth Monga. Ashwin retired from all international cricket on 18 December 2024 — a date worth pairing with the book question.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Shreyasi Singh, MLA, who represented India in shooting at the Paris Olympics 2024, was elected from which constituency in Bihar? (70th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Gidhaur</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Sugauli</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Kesaria</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Jamui</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — Shreyasi Singh, an international trap/double-trap shooter and Paris 2024 Olympian, is the BJP MLA from Jamui. A signature BPSC crossover: Bihar polity × sports.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Which field game is the most popular in the world? (70th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Soccer (Football)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Cricket</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Volleyball</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Hockey</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Football (soccer) is the world's most popular field game by following and participation — fitting, with the 48-team FIFA World Cup 2026 underway in USA/Canada/Mexico.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Which country hosted the 2022 Winter Olympics, and which hosts the 2026 edition? (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Canada; France</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Japan; Switzerland</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) South Korea; Austria</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) China; Italy</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (D)</strong> — Beijing (China) hosted the 2022 Winter Olympics; Milano–Cortina (Italy) hosted the 2026 edition (6–22 Feb 2026; mascots Milo &amp; Tina). Next: French Alps 2030. South Korea hosted 2018 (Pyeongchang).</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. At the Paris 2024 Olympics, who became the first Indian since Independence to win two medals at a single Olympic Games? (70th BPSC theme)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Neeraj Chopra</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Manu Bhaker</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Swapnil Kusale</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Aman Sehrawat</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — Manu Bhaker won bronze in the 10m air pistol AND the 10m air pistol mixed team (with Sarabjot Singh) — the first Indian post-1947 with two medals at one Games. Neeraj won javelin silver (89.45m); India's total was 6 medals (1S, 5B).</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Match List-I (Trophy) with List-II (Sport): (69th BPSC matching pattern)
+    <br>a) Durand Cup — 1) Cricket
+    <br>b) Ranji Trophy — 2) Football
+    <br>c) Thomas Cup — 3) Badminton
+    <br>d) Beighton Cup — 4) Hockey</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) a-1, b-2, c-4, d-3</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) a-2, b-4, c-3, d-1</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) a-2, b-1, c-3, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) a-4, b-1, c-2, d-3</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — Durand Cup (1888, world's 3rd-oldest football tournament) ↔ Football; Ranji Trophy (1934-35) ↔ Cricket; Thomas Cup ↔ Badminton (men's team); Beighton Cup ↔ Hockey. Static bank that BPSC rotates every few years.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Consider the following statements about the ICC Champions Trophy 2025:
+    <br>1. India defeated New Zealand by 4 wickets in the final.
+    <br>2. The final was played at Dubai.
+    <br>3. It was India's third Champions Trophy title.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — All three hold: final on 9 Mar 2025 at Dubai (Rohit Sharma 76, POTM); India's CT titles: 2002 (shared with Sri Lanka), 2013, 2025. Remember New Zealand lost BOTH ICC white-ball finals to India in this window.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The ICC World Test Championship Final 2025 at Lord's was won by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Australia, beating South Africa by 5 wickets</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) South Africa, beating Australia by 5 wickets</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) India, beating New Zealand</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) England, beating Australia at The Oval</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — South Africa chased 282 (283/4) to beat Australia by 5 wickets (11–14 Jun 2025) — their FIRST WTC title; Aiden Markram's 136 earned Player of the Match. Option (A) reverses the teams — the classic trap.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The ICC Men's T20 World Cup 2026 final was decided by which result?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) India beat New Zealand by 96 runs at Narendra Modi Stadium, Ahmedabad</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) India beat England by 7 runs at Wankhede Stadium, Mumbai</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) South Africa beat India by 76 runs in Ahmedabad</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) New Zealand beat India in Colombo</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Final: 8 Mar 2026, Ahmedabad — India d. New Zealand by 96 runs; Bumrah 4/15 (POTM). (B) was the SEMI-final (India d. England by 7 runs, Wankhede); (C) was India's only loss (Super 8). India = 3rd title, first back-to-back winner, first host winner.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. India's ICC Women's ODI World Cup 2025 triumph is best described as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) India's third women's World Cup title, won against Australia</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) A title won on English soil at Lord's</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) India's MAIDEN women's ODI World Cup, beating South Africa by 52 runs at DY Patil, Navi Mumbai</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) A shared title after a rain-washed final</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (C)</strong> — 2 Nov 2025: India 298/7 (Shafali Verma 87 + 2/36) beat South Africa 246 — maiden title. Deepti Sharma was Player of the Tournament (22 wickets, incl. 5/39 in the final). Harmanpreet = 3rd Indian World-Cup-winning captain after Kapil (1983) and Dhoni (2011).</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The ICC U19 World Cup 2026 final (Harare) saw India:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Win a 5th title, beating Australia</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Win a record 6th title, beating England by 100 runs, powered by Vaibhav Sooryavanshi's 175</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Lose to England despite Sooryavanshi's century</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Win on reserve day after rain in Bulawayo</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — 6 Feb 2026, Harare: IND 411/9 (Sooryavanshi 175 off 80 — highest in a U19 WC final; captain Ayush Mhatre 53) beat England 311. Sooryavanshi (from Samastipur, Bihar) was POTM and Player of the Tournament (439 runs). India's 6th U19 crown is the most by any nation.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Which statement correctly captures IPL 2025 and IPL 2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) RCB won their maiden title in 2025 (d. Punjab Kings) and defended it in 2026 (d. Gujarat Titans) — both finals at Ahmedabad</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Chennai Super Kings won both editions</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Gujarat Titans won 2025 and Royal Challengers Bengaluru won 2026</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Mumbai Indians ended their title drought in 2026</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — IPL 2025: RCB d. PBKS by 6 runs (3 Jun 2025); IPL 2026: RCB d. GT by 5 wickets (31 May 2026; Kohli 75* POTM). Bonus: 15-year-old Vaibhav Sooryavanshi swept IPL 2026's Orange Cap + MVP + Emerging Player awards; Purple Cap: Kagiso Rabada (29).</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Consider the following statements about the Khelo India Youth Games 2025:
+    <br>1. It was hosted by Bihar for the first time.
+    <br>2. Its mascot was Gajasimha, inspired by Pala-era/Nalanda art.
+    <br>3. Bihar finished 15th with 36 medals — its best-ever performance.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — All three are correct: 7th KIYG (4–15 May 2025) ran in Patna, Rajgir, Gaya, Bhagalpur, Begusarai (+ New Delhi); Maharashtra topped (158 medals, 3rd straight title); Bihar's 36 medals (7G-11S-18B) doubled its all-time KIYG tally.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The final of the Men's Hockey Asia Cup 2025 — won by India — was played at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Chennai — India beat Pakistan 4-1</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Rajgir (Bihar) — India beat Korea 4-1</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Bhubaneswar — India beat Malaysia 3-2</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Ranchi — India beat Japan 2-1</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — Rajgir, Bihar hosted the 12th Men's Asia Cup (29 Aug–7 Sep 2025); India beat Korea 4-1 for a 4th title and FIH World Cup 2026 qualification. Pakistan withdrew; Malaysia finished 3rd. Traps: (A) wrong opponent (Pakistan didn't play) and (C)/(D) wrong cities.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Regarding the National Games of India, pick the correct statement:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Maharashtra topped the 38th National Games held in Goa</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) The 39th National Games (2027) will be hosted by Uttarakhand</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Services (SSCB) topped the 38th National Games (Uttarakhand, 2025) to lift the Raja Bhalindra Singh Trophy; Meghalaya hosts the 39th edition in 2027</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) The 2025 edition was the 40th National Games</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — 38th National Games: Uttarakhand, 28 Jan–14 Feb 2025; Services won 121 medals (68 gold) for the Raja Bhalindra Singh Trophy (5th time); mascot Mauli, torch Tejaswini, Green Games theme. Meghalaya hosts the 39th (2027) — its first time. (A) and (B) swap host/topper; (D) miscounts the edition.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. At the Sepak Takraw World Cup 2025 held in Patna, India achieved which milestone?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) The men's regu team won its first-ever World Cup gold, defeating Japan 2-1</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) India topped the medal tally with 21 golds</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) India won silver in all team events</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) The event marked sepak takraw's removal from the Asian Games roster</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — 5th ISTAF World Cup, Patliputra Indoor Stadium, Patna (20–25 Mar 2025), 21 nations: India men's regu beat Japan 2-1 for a historic first gold; India won 7 medals overall (4th in the tally). Sepak takraw also debuted at KIYG 2025 in Bihar the same year.</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Consider the following statements about the Australian Open 2026 men's singles:
+    <br>1. Carlos Alcaraz defeated Novak Djokovic in the final.
+    <br>2. Alcaraz became the youngest man in the Open Era to complete the career Grand Slam.
+    <br>3. He is the 9th man overall to complete a career Grand Slam.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (D)</strong> — All three: Alcaraz d. Djokovic 2-6 6-2 6-3 7-5 for his maiden AO and 7th slam; at 22 he is the youngest career-slammer of the Open Era and the 9th man overall. Trap to avoid: he did NOT win Roland Garros 2026 (out with a wrist injury — Zverev won it).</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Consider the following statements about Wimbledon 2026:
+    <br>1. Jannik Sinner defeated Alexander Zverev to defend his men's title.
+    <br>2. Linda Noskova won the women's title in an all-Czech final.
+    <br>3. Iga Swiatek defended the women's singles title.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — Statements 1 and 2 are correct: Sinner d. Zverev in 4 sets (back-to-back titles); Noskova d. Muchova — youngest Wimbledon women's champion in 15 years. Statement 3 is the trap: Swiatek won in 2025 (6-0 6-0 v Anisimova) but did not defend in 2026.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Consider the following statements about chess (2025–26):
+    <br>1. Javokhir Sindarov won the 2026 Candidates and will challenge D. Gukesh for the World Championship.
+    <br>2. Divya Deshmukh won the 2025 FIDE Women's World Cup, defeating Koneru Humpy in an all-Indian final.
+    <br>3. R. Praggnanandhaa is the reigning classical World Champion.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (C)</strong> — 1 and 2 are correct (Sindarov scored a record 10/14 in Cyprus; Divya became India's 88th GM after the Batumi final). Statement 3 is the trap: GUKESH is the reigning champion (d. Ding Liren, Dec 2024); Pragg's 2025 headline was winning the Tata Steel Masters.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. What precisely happened when Neeraj Chopra threw 90.23m at the Doha Diamond League (16 May 2025)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) He became the first Indian to cross 90m (national record) but finished second behind Germany's Julian Weber (91.06m)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) He won gold with a world-leading throw</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) He crossed 90m at the Tokyo World Championships</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) He broke the Olympic record set in Tokyo 2020</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — The 90m barrier fell at Doha, yet it was a SILVER — Weber's 91.06m won. (B) is the natural trap. (C) is doubly wrong: at the Tokyo Worlds (Sep 2025) Neeraj was 8th and India won zero medals (gold: Keshorn Walcott, TTO).</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Consider the following statements about the Glasgow Commonwealth Games 2026:
+    <br>1. The Games will feature only 10 sports.
+    <br>2. Hockey, cricket, wrestling and badminton are among the sports dropped from the programme.
+    <br>3. The Games run from 23 July to 2 August 2026.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (D)</strong> — All three: the 23rd CWG (Glasgow) is a slimmed-down edition with ~3,000 athletes from 74 nations across 10 sports; shooting, squash and table tennis are also dropped. It opens 23 Jul 2026 — three days before the BPSC paper, so expect a question. (India's 2030 CWG bid is for Ahmedabad — proposal stage.)</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/25</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/2025_Khelo_India_Youth_Games" target="_blank">2025 Khelo India Youth Games (Wikipedia)</a> <span class="ref-desc">— 7th KIYG: Bihar host cities, mascot Gajasimha, full medal tally (Maharashtra 158; Bihar 36, best-ever).</span></li>
+    <li><a href="https://fih.hockey" target="_blank">FIH — Hero Men's Asia Cup Rajgir 2025</a> <span class="ref-desc">— India 4-1 Korea final (7 Sep 2025), 4th title, FIH World Cup 2026 qualification; AHF affiliation for Rajgir Sports Academy.</span></li>
+    <li><a href="https://hockeyindialeague.com" target="_blank">Hockey India League</a> <span class="ref-desc">— HIL 2024-25 (Bengal Tigers; Odisha Warriors women) and 2025-26 (Vedanta Kalinga Lancers; SG Pipers women) results.</span></li>
+    <li><a href="https://www.drishtiias.com/state-pcs-current-affairs/sepak-takraw-world-cup-2025" target="_blank">Drishti IAS — Sepak Takraw World Cup 2025</a> <span class="ref-desc">— Patna hosting; India men's regu first-ever gold (d. Japan 2-1); also Drishti's U19 WC 2026 coverage.</span></li>
+    <li><a href="https://www.espncricinfo.com" target="_blank">ESPNcricinfo</a> <span class="ref-desc">— IPL 2026 awards (Sooryavanshi Orange Cap + MVP + Emerging Player; Rabada Purple Cap); BGT 2024-25; Sooryavanshi profile.</span></li>
+    <li><a href="https://www.fifa.com" target="_blank">FIFA — World Cup 2026</a> <span class="ref-desc">— USA/Canada/Mexico: 48 teams, 104 matches, 16 venues; opener Estadio Azteca 11 Jun; final MetLife 19 Jul 2026.</span></li>
+    <li><a href="https://www.olympics.com" target="_blank">Olympics.com / IOC</a> <span class="ref-desc">— LA28 five new sports (cricket T20 at Fairplex, Pomona); Paris 2024 India medals; Milano-Cortina 2026.</span></li>
+    <li><a href="https://www.espn.com" target="_blank">ESPN</a> <span class="ref-desc">— Neeraj Chopra 90.23m (Doha DL) and Tokyo Worlds 2025; India 2030 CWG (Ahmedabad) bid proposal (30 Aug 2025); Padma Awards 2026 sports list.</span></li>
+    <li><a href="https://bwfbadminton.com" target="_blank">BWF — Badminton World Federation</a> <span class="ref-desc">— Worlds 2025 (Paris: Satwik–Chirag bronze); Thomas/Uber Cup 2026 (Horsens); BWF Worlds 2026, New Delhi, 17–23 Aug.</span></li>
+    <li><a href="https://www.worldcup2025.fide.com" target="_blank">FIDE — World Cup 2025 (Goa) &amp; Women's World Cup 2025</a> <span class="ref-desc">— Sindarov champion (youngest); Divya Deshmukh champion, all-Indian final v Koneru Humpy.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #10: Sports | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #4, #9, #12, #13, #19, #20, #22, #62
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'b', q2: 'c', q3: 'a', q4: 'd', q5: 'c',
+  q6: 'd', q7: 'a', q8: 'd', q9: 'b', q10: 'c',
+  q11: 'd', q12: 'b', q13: 'a', q14: 'c', q15: 'b',
+  q16: 'a', q17: 'd', q18: 'b', q19: 'c', q20: 'a',
+  q21: 'd', q22: 'b', q23: 'c', q24: 'a', q25: 'd'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Sports 2025-26!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Double check winner↔venue↔margin pairs, host cities, and 2025-vs-2026 tennis champions.';
+
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

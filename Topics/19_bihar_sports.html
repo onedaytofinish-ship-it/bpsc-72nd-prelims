@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>19 - Bihar Sports | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #19 • TIER A</div>
+  <div class="topic-title">Bihar Sports — KIYG 2025, Hockey Asia Cup, Sooryavanshi &amp; Stadiums</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Bihar Current Affairs</span>
+    <span class="meta-tag">⚖️ Weight: 1.3 (Tier A)</span>
+    <span class="meta-tag">🔗 Sister Topic: #10 Sports (National)</span>
+    <span class="meta-tag">🎯 Expected: 1-2 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content &amp; PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Shreyasi Singh question (verbatim theme):</strong> "Shreyasi Singh, MLA, who has represented India in shooting in Paris Olympics 2024 was elected from which constituency in Bihar?" — answer: <strong>Jamui</strong>. Trap option: <strong>Gidhaur</strong> (her home village in Jamui district). BPSC loves the athlete-politician: she is now Bihar's <strong>Sports &amp; IT Minister</strong> (Nov 2025 cabinet).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Games-host one-liners:</strong> "Which country is going to host the 20th Asian Games in 2026?" — answer: <strong>Japan</strong> (Aichi–Nagoya); "Which country hosted the 2022 Winter Olympics?" — answer: <strong>China</strong>. Same template now applies to: <strong>KIYG 2025 → Bihar</strong>, <strong>National Games 2025 → Uttarakhand</strong>, <strong>National Games 2027 → Meghalaya</strong>, <strong>Hockey Asia Cup 2025 → Rajgir</strong>.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Venue ↔ trophy matching:</strong> Flushing Meadows ↔ US Open (tennis), Venus Rosewater Dish ↔ Wimbledon women's singles. Keep a mascot/symbol bank ready — BPSC can mirror this with <strong>Gajasimha ↔ KIYG 2025 (Bihar)</strong> and <strong>Mauli ↔ National Games 2025 (Uttarakhand)</strong>.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Khelo India scheme statics, all 7 KIYG editions, National Games history 1924→2027, Bihar's big-event chronology, and the mascot bank:
+    <a href="subpages/19_khelo_india_national_games_detail.html" target="_blank">Khelo India &amp; National Games Detail →</a>
+  </div>
+
+  <h3>A. Khelo India Youth Games 2025 (7th) — Bihar's Coming-Out Party <span class="current-tag">MOST LIKELY</span></h3>
+  <p>Bihar hosted the Khelo India Youth Games for the <strong>first time</strong> — the single biggest sporting event ever staged in the state. Learn the numbers cold; every row below is a potential one-liner.</p>
+  <table>
+    <tr><th>Item</th><th>Fact</th></tr>
+    <tr><td>Edition / Dates</td><td><strong>7th KIYG</strong>, <strong>4–15 May 2025</strong></td></tr>
+    <tr><td>Host cities</td><td><strong>Patna, Rajgir, Gaya, Bhagalpur, Begusarai</strong> (5 Bihar cities) + <strong>New Delhi</strong> (shooting, gymnastics, track cycling)</td></tr>
+    <tr><td>Scale</td><td>~<strong>8,500 athletes</strong>; <strong>28 sports</strong> + esports as demonstration; <strong>sepak takraw made its KIYG debut</strong></td></tr>
+    <tr><td>Mascot</td><td><strong>Gajasimha</strong> — elephant-lion figure from the <strong>Pala-era / Nalanda</strong> motif; unveiled by CM Nitish Kumar + Union Sports Minister Mansukh Mandaviya</td></tr>
+    <tr><td>Opening</td><td>PM Narendra Modi opened the Games <strong>virtually on 4 May 2025</strong>; ceremony at <strong>Patliputra Sports Complex, Patna</strong></td></tr>
+    <tr><td>Bihar's finish</td><td><strong>15th rank — 36 medals (7 Gold, 11 Silver, 18 Bronze)</strong>, best-ever (up from 28th; doubled its all-time KIYG tally); golds in <strong>athletics, Thang-Ta and rugby</strong></td></tr>
+    <tr><td>Star Bihar athlete</td><td><strong>Khushi Yadav</strong> — girls' <strong>2000m steeplechase gold</strong> (9:52.10)</td></tr>
+  </table>
+
+  <table>
+    <tr><th>KIYG 2025 Medal Tally — Top 5 + Bihar</th><th>Total</th><th>Gold</th><th>Note</th></tr>
+    <tr><td><strong>1. Maharashtra</strong></td><td>158</td><td>58</td><td><strong>3rd straight KIYG title</strong></td></tr>
+    <tr><td>2. Haryana</td><td>117</td><td>39</td><td>Perennial top-2 finisher</td></tr>
+    <tr><td>3. Rajasthan</td><td>60</td><td>24</td><td>Best-ever finish</td></tr>
+    <tr><td>4. Karnataka</td><td>58</td><td>17</td><td>—</td></tr>
+    <tr><td>5. Delhi</td><td>68</td><td>16</td><td>—</td></tr>
+    <tr><td><strong>15. Bihar (host)</strong></td><td><strong>36</strong></td><td><strong>7</strong></td><td>Best-ever; 28th → 15th jump</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — 5 KIYG cities "P-R-G-B-B":</strong><br>
+    <strong>P</strong>atna → <strong>R</strong>ajgir → <strong>G</strong>aya → <strong>B</strong>hagalpur → <strong>B</strong>egusarai ("Patna-Rajgir-Gaya, Bhagalpur-Begusarai"). And remember the 6th "shadow venue": <strong>New Delhi</strong> (shooting/gymnastics/track cycling) — the standard NOT-true trap.
+  </div>
+
+  <div class="img-container">
+    <img src="images/patliputra_sports_complex.jpg" alt="Patliputra Sports Complex, Patna" loading="lazy">
+    <div class="img-caption">Patliputra Sports Complex, Patna — venue of the KIYG 2025 opening ceremony (4 May 2025). Image: Wikimedia Commons, CC BY-SA 4.0.</div>
+  </div>
+
+  <h3>B. Hockey in Rajgir — Men's Asia Cup 2025 + Women's ACT 2024 <span class="current-tag">HOT</span></h3>
+  <ul>
+    <li><strong>Men's Hockey Asia Cup 2025 (12th edition), Rajgir — 29 Aug to 7 Sep 2025:</strong> India beat <strong>Korea 4-1</strong> in the final (7 Sep 2025) to win its <strong>4th Asia Cup title</strong>; Malaysia finished 3rd; <strong>Pakistan withdrew</strong>; the win qualified India for the <strong>FIH World Cup 2026</strong>.</li>
+    <li><strong>Rajgir Sports Academy</strong> received <strong>Asian Hockey Federation affiliation</strong> during the event (announced with FIH President Tayyab Ikram) — institutionalising Rajgir as India's new hockey hub.</li>
+    <li><strong>Women's Asian Champions Trophy 2024 (Nov 2024):</strong> India won the title in <strong>Rajgir</strong> — Bihar hosted back-to-back international hockey across 2024-25.</li>
+  </ul>
+
+  <h3>C. Sepak Takraw World Cup 2025 — Patna's First World Cup <span class="current-tag">VERIFIED</span></h3>
+  <ul>
+    <li><strong>5th ISTAF Sepak Takraw World Cup, 20–25 Mar 2025, Patliputra Indoor Stadium, Patna</strong> — 21 nations took part.</li>
+    <li><strong>India's men's regu team won its first-ever World Cup GOLD</strong>, beating <strong>Japan 2-1</strong>; India ended with <strong>7 medals, 4th in the tally</strong>; the win was praised by PM Modi.</li>
+    <li>Why it matters for BPSC: sepak takraw then <strong>debuted at KIYG 2025</strong> — the Patna World Cup + KIYG debut is a classic "sequence" question.</li>
+  </ul>
+
+  <h3>D. National Games 2025 (38th, Uttarakhand) — Bihar's Lawn Bowls Gold <span class="current-tag">PYQ THEME</span></h3>
+  <ul>
+    <li><strong>38th National Games, 28 Jan – 14 Feb 2025, Uttarakhand:</strong> opened by PM Modi (Rajiv Gandhi Intl Stadium, Dehradun), closed at Haldwani; mascot <strong>Mauli</strong> (Himalayan monal); torch <strong>Tejaswini</strong>; theme <strong>Green Games</strong> (e-waste medals).</li>
+    <li><strong>Tally:</strong> <strong>Services (SSCB) topped with 121 medals (68 gold)</strong> — won the <strong>Raja Bhalindra Singh Trophy</strong> for the 5th time; Maharashtra 2nd; Haryana 3rd (153 medals, 48 gold).</li>
+    <li><strong>Bihar's moment (8 Feb 2025):</strong> GOLD in <strong>women's lawn bowls triples</strong> — <strong>Khushboo Kumari, Nikhat Khatoon and Payal Preeti</strong> beat West Bengal <strong>15-14</strong> — <strong>Bihar's first National Games gold in 25 years</strong>. (Bihar's overall tally figures conflict across sources — learn the gold, not the total.)</li>
+    <li><strong>39th National Games 2027:</strong> to be hosted by <strong>Meghalaya</strong> (first time; host agreement signed 30 May 2026).</li>
+  </ul>
+
+  <h3>E. Vaibhav Sooryavanshi — The 15-Year-Old Phenomenon <span class="current-tag">BANKABLE</span></h3>
+  <ul>
+    <li><strong>Who:</strong> born <strong>27 Mar 2011</strong> at <strong>Tajpur village, Samastipur district, Bihar</strong> — left-handed opener.</li>
+    <li><strong>Youngest-ever IPL signing:</strong> <strong>₹1.1 crore</strong> by <strong>Rajasthan Royals</strong> at age 13.</li>
+    <li><strong>Youngest IPL debutant:</strong> <strong>19 Apr 2025, aged 14 years 23 days</strong>.</li>
+    <li><strong>Youngest T20 centurion:</strong> <strong>101 off 38 balls v Gujarat Titans, 28 Apr 2025</strong> — a 35-ball hundred, <strong>2nd-fastest in IPL history</strong>.</li>
+    <li><strong>IPL 2026 sweep:</strong> <strong>MVP + Orange Cap + Emerging Player</strong> (+ Super Striker, Most Sixes — 72) with <strong>776 runs at SR 237.30</strong>, aged 15 — first-ever MVP + Emerging double. RCB won the title (back-to-back).</li>
+    <li><strong>ICC U19 World Cup 2026 (6 Feb 2026, Harare):</strong> <strong>175 off 80 balls</strong> in the final v England (15 fours + 15 sixes — highest score in a U19 WC final); <strong>Player of the Tournament</strong> (439 runs @ 62.71); India won a record <strong>6th U19 title</strong>.</li>
+    <li><strong>Bihar government reward:</strong> <strong>₹50 lakh</strong> announced for him (Feb 2026).</li>
+  </ul>
+
+  <h3>F. Cricket Structure — Ranji Plate → Elite Promotion <span class="current-tag">NEW</span></h3>
+  <ul>
+    <li><strong>Ranji Trophy 2025-26:</strong> Bihar won the <strong>Plate group</strong>, crushing <strong>Manipur by 568 runs</strong> in the Plate final (reported 27 Jan 2026) → <strong>promoted to the Elite group for 2026-27</strong>.</li>
+    <li>Domestic trophy bank (static): <strong>Ranji Trophy</strong> (first-class, since 1934-35), <strong>Duleep Trophy</strong> (zonal FC), <strong>Irani Cup</strong> (Ranji champion v Rest of India), <strong>Vijay Hazare Trophy</strong> (List A), <strong>Syed Mushtaq Ali Trophy</strong> (T20).</li>
+  </ul>
+
+  <h3>G. Stadiums &amp; Sports Infrastructure <span class="current-tag">CROSS-LINK #20</span></h3>
+  <ul>
+    <li><strong>Rajgir International Cricket Stadium (~Oct 2025):</strong> <strong>45,000 seats</strong> — <strong>Bihar's first world-class international cricket stadium</strong>, inside the ~90-acre Rajgir sports hub that also hosts the hockey academy.</li>
+    <li><strong>Punpun stadium project:</strong> <strong>₹574.33 crore</strong> allocated in the <strong>Bihar Budget 2025-26</strong> for a <strong>100-acre international stadium</strong> in Punpun block (Patna district).</li>
+    <li><strong>Patliputra Sports Complex, Patna:</strong> KIYG 2025 opening-ceremony venue; the adjacent <strong>Patliputra Indoor Stadium</strong> hosted the Sepak Takraw World Cup 2025.</li>
+    <li><strong>Moin-ul-Haq Stadium, Patna:</strong> Bihar's historic cricket ground — hosted <strong>1996 Cricket World Cup ODIs</strong> (Kenya v Zimbabwe); originally Rajendra Nagar Stadium, renamed in 1970 after <strong>Moin-ul-Haq</strong>, IOA general secretary and India's Olympic chef-de-mission (1948 London, 1952 Helsinki). BCA took a long-term lease (Mar 2024) and began reconstruction (Sep 2024).</li>
+  </ul>
+
+  <h3>H. Shreyasi Singh — Olympian → MLA → Sports Minister <span class="current-tag">70th PYQ ANCHOR</span></h3>
+  <ul>
+    <li><strong>Shooting record:</strong> from <strong>Gidhaur, Jamui district</strong>; <strong>CWG 2018 GOLD</strong> (women's double trap, Gold Coast), CWG 2014 silver (Glasgow); <strong>Arjuna Award</strong>; competed at <strong>Paris 2024 Olympics</strong> (trap) — Bihar's first shooter at the Olympics and the first sitting MLA to compete at an Olympics.</li>
+    <li><strong>Politics:</strong> BJP <strong>MLA from Jamui</strong> (2020, re-elected 2025); in <strong>Nov 2025 sworn in as minister</strong> in the Nitish Kumar cabinet and given <strong>Sports + Information Technology</strong> portfolios — an Olympian now running Bihar's sports department.</li>
+  </ul>
+</div>
+
+<!-- ====== FLOWCHART: BIHAR'S SPORTS TIMELINE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> Bihar's 2024-26 Sports Ladder at a Glance
+  </div>
+  <p style="margin-bottom: 12px;">Twelve months that turned Bihar into a host state — memorise the rungs in order.</p>
+
+  <div class="flowchart">
+    <div class="flow-node">Nov 2024 — India wins Women's Asian Champions Trophy, Rajgir</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Mar 2025 — Sepak Takraw World Cup, Patna (India men's regu first GOLD)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">4–15 May 2025 — 7th Khelo India Youth Games hosted by BIHAR (mascot Gajasimha)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">29 Aug–7 Sep 2025 — India wins Men's Hockey Asia Cup 4-1 v Korea, Rajgir</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">~Oct 2025 — 45,000-seat Rajgir International Cricket Stadium inaugurated</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Jan 2026 — Bihar wins Ranji Plate final (568 runs v Manipur) → Elite promotion</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Item | Value | As-Of
+  </div>
+
+  <table>
+    <tr><th>Item</th><th>Value</th><th>As-Of Date</th></tr>
+    <tr><td><strong>KIYG 2025 (7th) host</strong></td><td>Bihar (first time) — 5 cities + New Delhi events</td><td>4–15 May 2025</td></tr>
+    <tr><td><strong>KIYG 2025 mascot</strong></td><td>Gajasimha (Pala-era/Nalanda elephant-lion motif)</td><td>Unveiled pre-Games 2025</td></tr>
+    <tr><td><strong>KIYG 2025 topper</strong></td><td>Maharashtra — 158 medals (58G), 3rd straight title</td><td>May 2025</td></tr>
+    <tr><td><strong>Bihar at KIYG 2025</strong></td><td>15th — 36 medals (7G-11S-18B), best-ever</td><td>May 2025</td></tr>
+    <tr><td><strong>Khushi Yadav (Bihar)</strong></td><td>Girls' 2000m steeplechase gold, 9:52.10</td><td>KIYG, May 2025</td></tr>
+    <tr><td><strong>Men's Hockey Asia Cup 2025</strong></td><td>India champion (4-1 v Korea), Rajgir — 4th title</td><td>7 Sep 2025</td></tr>
+    <tr><td><strong>Women's ACT 2024</strong></td><td>India champion, Rajgir</td><td>Nov 2024</td></tr>
+    <tr><td><strong>Sepak Takraw World Cup 2025</strong></td><td>Patliputra Indoor Stadium, Patna; India men's regu first GOLD (2-1 v Japan); India 7 medals, 4th</td><td>20–25 Mar 2025</td></tr>
+    <tr><td><strong>National Games 2025 (38th)</strong></td><td>Uttarakhand; mascot Mauli; Services 121 (68G) — Raja Bhalindra Singh Trophy</td><td>28 Jan–14 Feb 2025</td></tr>
+    <tr><td><strong>Bihar's NG 2025 gold</strong></td><td>Women's lawn bowls triples (Khushboo Kumari, Nikhat Khatoon, Payal Preeti) 15-14 v West Bengal — first NG gold in 25 yrs</td><td>8 Feb 2025</td></tr>
+    <tr><td><strong>NG 2027 (39th) host</strong></td><td>Meghalaya (first time)</td><td>Agreement signed 30 May 2026</td></tr>
+    <tr><td><strong>Sooryavanshi — IPL debut</strong></td><td>Youngest ever: 14y 23d (Rajasthan Royals)</td><td>19 Apr 2025</td></tr>
+    <tr><td><strong>Sooryavanshi — T20 hundred</strong></td><td>101 off 38 v GT (35-ball ton, 2nd-fastest IPL) — youngest T20 centurion</td><td>28 Apr 2025</td></tr>
+    <tr><td><strong>Sooryavanshi — U19 WC final</strong></td><td>175 off 80 v England, Harare; Player of Tournament (439 runs); India's 6th title</td><td>6 Feb 2026</td></tr>
+    <tr><td><strong>Sooryavanshi — IPL 2026</strong></td><td>MVP + Orange Cap + Emerging Player; 776 runs, SR 237.30</td><td>May–Jun 2026</td></tr>
+    <tr><td><strong>Bihar govt reward</strong></td><td>₹50 lakh to Sooryavanshi</td><td>Feb 2026</td></tr>
+    <tr><td><strong>Ranji Trophy 2025-26</strong></td><td>Bihar = Plate champions (568-run win v Manipur) → Elite group 2026-27</td><td>27 Jan 2026</td></tr>
+    <tr><td><strong>Rajgir intl cricket stadium</strong></td><td>45,000 seats — Bihar's first world-class cricket stadium</td><td>Inaugurated ~Oct 2025</td></tr>
+    <tr><td><strong>Punpun stadium</strong></td><td>₹574.33 crore, 100-acre site, Punpun block (Patna)</td><td>Bihar Budget 2025-26</td></tr>
+    <tr><td><strong>Shreyasi Singh</strong></td><td>MLA Jamui; Paris 2024 shooter; CWG 2018 gold; Bihar Sports + IT Minister</td><td>Minister since Nov 2025</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Why This Whole Page IS the Bihar Connection</div>
+    <ul>
+      <li><strong>Host-state year:</strong> in 2025 Bihar staged its first Khelo India Youth Games (5 cities), its first Sepak Takraw World Cup (Patna) and the Men's Hockey Asia Cup (Rajgir) — a hat-trick of firsts within seven months, after hosting the Women's Asian Champions Trophy in Nov 2024.</li>
+      <li><strong>Olympic-administration legacy:</strong> <strong>Moin-ul-Haq</strong> of Bihar was general secretary of the Indian Olympic Association and India's chef-de-mission at the <strong>1948 London and 1952 Helsinki Olympics</strong>; Patna's stadium (renamed from Rajendra Nagar Stadium in 1970) honours him and hosted <strong>1996 World Cup ODIs</strong>.</li>
+      <li><strong>Home-grown icons 2025-26:</strong> <strong>Vaibhav Sooryavanshi</strong> (Samastipur) — youngest IPL debutant/centurion, U19 WC 2026 hero; <strong>Khushi Yadav</strong> (steeplechase gold, KIYG); the <strong>women's lawn bowls triples</strong> team (Bihar's first National Games gold in 25 years).</li>
+      <li><strong>The Dhoni trap (static):</strong> M.S. Dhoni was born in <strong>Ranchi on 7 July 1981</strong> — Ranchi was then in <strong>Bihar</strong>; <strong>Jharkhand was carved out only on 15 Nov 2000</strong> (Bihar Reorganisation Act, 2000). BPSC can twist "which state" questions this way.</li>
+      <li><strong>Athlete-politician:</strong> <strong>Shreyasi Singh</strong> — CWG 2018 gold medallist, Paris 2024 Olympian, MLA from <strong>Jamui</strong> (70th BPSC question), and since Nov 2025 Bihar's <strong>Sports Minister</strong> — the state literally put an Olympian in charge of sports.</li>
+    </ul>
+  </div>
+
+  <div class="img-container">
+    <img src="images/moin_ul_haq_stadium.jpg" alt="Moin-ul-Haq Stadium, Patna" loading="lazy">
+    <div class="img-caption">Moin-ul-Haq Stadium, Patna — hosted 1996 Cricket World Cup ODIs (Kenya v Zimbabwe); named after the IOA general secretary from Bihar. Image: Wikimedia Commons, public domain.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #10 (Sports — National CA):</strong> The same events appear in national framing there — KIYG 2025 tally, National Games 2025 (Services' Raja Bhalindra Singh Trophy), Asia Cup hockey, Sooryavanshi's IPL/U19 records, T20 WC 2026. Revise both pages together.<br>
+    <strong>↔ Topic #16 (Bihar State Budget):</strong> the <strong>₹574.33 crore</strong> Punpun international-stadium allocation is a Budget 2025-26 figure — expect it in budget-highlight questions too.<br>
+    <strong>↔ Topic #17 (Appointments in Bihar):</strong> <strong>Shreyasi Singh</strong> entering the cabinet (Nov 2025) as Sports + IT Minister is an appointment fact as much as a sports fact.<br>
+    <strong>↔ Topic #20 (Infra &amp; Projects):</strong> Rajgir's 45,000-seat international cricket stadium (~Oct 2025), the ~90-acre Rajgir sports hub and the Punpun stadium site belong on the infrastructure map.<br>
+    <strong>↔ Topic #62 (Sports Static):</strong> trophy bank — Ranji/Duleep/Irani/Vijay Hazare/Syed Mushtaq Ali (cricket), Raja Bhalindra Singh Trophy (National Games), Durand Cup (1888) and Santosh Trophy (football), Venus Rosewater Dish (Wimbledon — 69th BPSC).<br>
+    <strong>↔ Topic #18 (Bihar Awards &amp; Honours):</strong> state rewards to sportspersons — the <strong>₹50 lakh</strong> announced for Sooryavanshi (Feb 2026) — and Arjuna awardees from Bihar (Shreyasi Singh).
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance &amp; Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Near-certain one-liner:</strong> "Which state hosted the 7th Khelo India Youth Games (2025)?" → <strong>Bihar</strong> (4–15 May 2025, first time). Mascot <strong>Gajasimha</strong>; opened virtually by PM Modi at <strong>Patliputra Sports Complex</strong>.</li>
+    <li><strong>Trap — "all events in Bihar":</strong> FALSE. Shooting, gymnastics and track cycling were held in <strong>New Delhi</strong>. Bihar had 5 cities: Patna, Rajgir, Gaya, Bhagalpur, Begusarai.</li>
+    <li><strong>Trap — mascot swap:</strong> <strong>Gajasimha</strong> = KIYG 2025 (Bihar); <strong>Mauli</strong> (Himalayan monal) = National Games 2025 (Uttarakhand); <strong>Tejaswini</strong> = NG 2025 torch; <strong>Veera Mangai</strong> = KIYG 2024 (Tamil Nadu). Do not interchange.</li>
+    <li><strong>Trap — Bihar's KIYG numbers:</strong> rank <strong>15th</strong> (up from 28th), <strong>36 medals = 7G-11S-18B</strong>. Distractors will swap 15↔28 or quote Maharashtra's 158/58 for Bihar.</li>
+    <li><strong>Hockey double:</strong> Women's Asian Champions Trophy (<strong>Nov 2024</strong>) and Men's Asia Cup (<strong>29 Aug–7 Sep 2025</strong>, India 4-1 Korea) — <strong>both at Rajgir</strong>. Pakistan withdrew from the men's event; India qualified for the FIH World Cup 2026.</li>
+    <li><strong>Sepak takraw sequence:</strong> World Cup at Patna (<strong>Mar 2025</strong>, India men's regu first gold, 2-1 v Japan) → KIYG debut (<strong>May 2025</strong>). Order matters in statement questions.</li>
+    <li><strong>Sooryavanshi numbers to memorise:</strong> born 27 Mar 2011, <strong>Tajpur, Samastipur</strong>; ₹1.1 cr RR signing (age 13); debut 19 Apr 2025 (<strong>14y 23d</strong>); <strong>101 off 38 v GT</strong> (28 Apr 2025); U19 final <strong>175 off 80</strong> (6 Feb 2026, Harare, India's 6th title); IPL 2026 <strong>776 runs, SR 237.30</strong>, MVP + Orange Cap + Emerging; ₹50 lakh state reward (Feb 2026).</li>
+    <li><strong>Numbers left deliberately out (source conflicts):</strong> Haryana's KIYG 2025 total (117 vs 107) and Bihar's National Games 2025 total tally (18 vs 12) — learn the golds (Haryana 39G; Bihar's lawn-bowls gold), not the disputed totals.</li>
+    <li><strong>Fresh 2026 hooks:</strong> Ranji <strong>Plate → Elite</strong> promotion (568-run win v Manipur, Jan 2026); Rajgir <strong>45,000-seat</strong> stadium (~Oct 2025); Punpun <strong>₹574.33 cr</strong> (Budget 2025-26); Shreyasi Singh as Sports Minister (Nov 2025) — all "what happened recently in Bihar sports" bait.</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (25 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Shreyasi Singh, Member of the Legislative Assembly, who represented India in shooting at the Paris Olympics 2024, was elected from which constituency in Bihar? (70th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Gidhaur</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Sugauli</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Jamui</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Kesaria</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (C)</strong> — Shreyasi Singh (CWG 2018 double-trap gold medallist) was elected BJP MLA from <strong>Jamui</strong> in 2020 and re-elected in 2025. (A) is the trap: Gidhaur is her ancestral village in Jamui district, not her constituency. In Nov 2025 she became Bihar's Sports + IT Minister.</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The mascot of the Khelo India Youth Games 2025, hosted by Bihar, was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Mauli</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Veera Mangai</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Gajasimha</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Tejaswini</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — <strong>Gajasimha</strong>, the elephant-lion figure from the Pala-era/Nalanda motif, was unveiled by CM Nitish Kumar and Union Minister Mandaviya. Traps: Mauli = National Games 2025 mascot (Himalayan monal); Tejaswini = NG 2025 torch; Veera Mangai = KIYG 2024 (Tamil Nadu) mascot.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The 7th Khelo India Youth Games in Bihar were held during:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) 4–15 May 2025</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) 28 January – 14 February 2025</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) 29 August – 7 September 2025</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) 20–25 March 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — KIYG 2025 ran 4–15 May 2025, opened virtually by PM Modi at Patliputra Sports Complex. The distractors are the sibling events: (B) = National Games 2025 (Uttarakhand), (C) = Men's Hockey Asia Cup (Rajgir), (D) = Sepak Takraw World Cup (Patna).</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Which of the following cities was NOT a venue of the Khelo India Youth Games 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Patna</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Rajgir</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Bhagalpur</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Muzaffarpur</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — The five Bihar venues were Patna, Rajgir, Gaya, Bhagalpur and Begusarai; New Delhi hosted shooting, gymnastics and track cycling. Muzaffarpur hosted nothing. Mnemonic: P-R-G-B-B.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Which state topped the medal tally at the Khelo India Youth Games 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Haryana</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Rajasthan</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Maharashtra</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — Maharashtra won with <strong>158 medals (58 gold)</strong>, a <strong>third consecutive KIYG title</strong>. Haryana was second and Rajasthan third (its best-ever, 24 gold). Host Bihar finished 15th.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. At KIYG 2025, host Bihar finished:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 7th with 36 medals</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 28th with 36 medals</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 15th with 36 medals (7 gold, 11 silver, 18 bronze)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 15th with 58 medals</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — Bihar rose from 28th to <strong>15th</strong> with <strong>36 medals (7G-11S-18B)</strong>, its best-ever KIYG performance, roughly doubling its all-time tally. Traps: 28th was the previous rank; 7 is the edition number; 58 was Maharashtra's gold count.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Consider the following statements about KIYG 2025:
+    <br>1. It was the first Khelo India Youth Games hosted by Bihar.
+    <br>2. Sepak takraw made its KIYG debut at these Games.
+    <br>3. All events were held within the state of Bihar.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) 1 only</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (B)</strong> — Statements 1 and 2 are correct. Statement 3 is false: <strong>New Delhi</strong> hosted the shooting, gymnastics and track-cycling events; Bihar had five cities (Patna, Rajgir, Gaya, Bhagalpur, Begusarai). The "all events within the host state" line is BPSC's favourite absolute-word trap.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. In the Men's Hockey Asia Cup 2025 final at Rajgir, India defeated which team 4-1 to win its 4th title?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Malaysia</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Pakistan</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Korea</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Japan</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — India beat <strong>Korea 4-1</strong> on 7 Sep 2025 in Rajgir for its 4th Asia Cup crown, qualifying for the FIH World Cup 2026. Traps: Malaysia finished third; Pakistan <em>withdrew</em> from the tournament, so it could not have played the final.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Women's Asian Champions Trophy 2024, which India won, was hosted at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Ranchi</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Patna</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Rajgir</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Bhubaneswar</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (C)</strong> — Rajgir (Bihar) hosted the women's ACT in November 2024, a year before the men's Asia Cup came to the same city — establishing Rajgir as India's newest international hockey hub (its academy received Asian Hockey Federation affiliation in 2025).</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. At the Sepak Takraw World Cup 2025 held in Patna, India's men's regu team won its first-ever World Cup gold by defeating:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Thailand</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Myanmar</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Korea</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Japan</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — India beat <strong>Japan 2-1</strong> in the final at Patliputra Indoor Stadium (20–25 Mar 2025, 21 nations); India won 7 medals to finish 4th. (A) Thailand is the global sepak takraw powerhouse and the natural-but-wrong guess.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Bihar's first National Games gold medal in 25 years (38th National Games, 2025) came in which event?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Women's lawn bowls triples</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Women's rugby sevens</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) 10m air pistol shooting</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Wrestling (freestyle)</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — <strong>Khushboo Kumari, Nikhat Khatoon and Payal Preeti</strong> edged West Bengal <strong>15-14</strong> in the women's lawn bowls triples final on 8 Feb 2025 — Bihar's first National Games gold in 25 years.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The 38th National Games of 2025 were hosted by: (70th BPSC host-state pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Goa</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Gujarat</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Uttarakhand</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Meghalaya</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — Uttarakhand hosted the 38th Games (28 Jan–14 Feb 2025; mascot Mauli; "Green Games" theme). Sequence to memorise: Gujarat 2022 (36th) → Goa 2023 (37th) → Uttarakhand 2025 (38th) → <strong>Meghalaya 2027 (39th)</strong> — Meghalaya is the forward-looking trap.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The 39th National Games, scheduled for 2027, will be hosted for the first time by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Meghalaya</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Assam</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Manipur</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Sikkim</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Meghalaya hosts the 2027 National Games (first time); the flag was handed over at the 2025 closing ceremony and the host agreement was signed on 30 May 2026.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Raja Bhalindra Singh Trophy is awarded to: (69th BPSC trophy-matching pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) The champion state of the Khelo India Youth Games</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) The overall champion of the National Games</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) The Ranji Trophy winner</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) The Durand Cup winner</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — The Raja Bhalindra Singh Trophy goes to the overall champion (most golds) of the National Games; <strong>Services (SSCB)</strong> won it in 2025 for the 5th time with 121 medals (68 gold). KIYG has no such named trophy.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Vaibhav Sooryavanshi, the teenage batting sensation, hails from which district of Bihar? (70th BPSC district-of-athlete pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Patna</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Gaya</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Samastipur</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Muzaffarpur</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (C)</strong> — He was born on 27 March 2011 in <strong>Tajpur village, Samastipur district</strong>. The pattern mirrors the 70th BPSC's Shreyasi Singh (Jamui) question — learn Bihar athletes with their districts.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Vaibhav Sooryavanshi became the youngest-ever IPL debutant on 19 April 2025, aged:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) 14 years 23 days</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) 15 years 23 days</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) 13 years 11 months</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) 16 years 2 months</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Born 27 Mar 2011, he debuted for Rajasthan Royals on 19 Apr 2025 at <strong>14 years 23 days</strong>. He had earlier become the youngest IPL signing ever — ₹1.1 crore at age 13.</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Sooryavanshi became the youngest centurion in T20 cricket with a 101 off 38 balls (28 April 2025) against which IPL team?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Chennai Super Kings</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Mumbai Indians</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) Royal Challengers Bengaluru</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) Gujarat Titans</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — The 101 off 38 came against <strong>Gujarat Titans</strong>; the 35-ball hundred is the second-fastest in IPL history. (C) is the 2026 trap — RCB won the IPL 2026 title while Sooryavanshi swept the individual awards for RR.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. In the ICC U19 World Cup 2026 final (Harare, 6 Feb 2026), Vaibhav Sooryavanshi scored:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) 175 off 80 balls against England</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) 101 off 38 balls against Australia</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) 439 runs in the final against Pakistan</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) 76 runs against New Zealand</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — His 175 off 80 (15 fours, 15 sixes) v England is the highest score in a U19 WC final; he was Player of the Tournament with <strong>439 runs</strong> as India won a record 6th title. Traps: 101 off 38 was his IPL knock (v GT); 439 is the tournament aggregate, not one innings.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. In IPL 2026, Vaibhav Sooryavanshi (Rajasthan Royals) achieved which sweep?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) MVP + Orange Cap + Emerging Player</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Purple Cap + MVP</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Only the Emerging Player award</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Orange Cap + Purple Cap</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — At 15 he became the first player to win MVP + Orange Cap + Emerging Player together (776 runs, SR 237.30, 72 sixes — also Super Striker and Most Sixes). Purple Cap went to Kagiso Rabada; RCB won the title (back-to-back).</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Bihar earned promotion to the Ranji Trophy Elite group for 2026-27 by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Winning the 2025-26 Plate final against Manipur by 568 runs</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Topping the Elite group points table</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Defeating Mumbai in the quarter-final</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Winning the Vijay Hazare Trophy</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Bihar were crowned <strong>Plate group champions</strong> after a 568-run demolition of Manipur in the final (reported 27 Jan 2026), earning Elite-group status for 2026-27. Ranji Trophy (since 1934-35) is India's premier first-class championship.</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The international cricket stadium inaugurated at Rajgir (~October 2025) — Bihar's first world-class cricket venue — has a seating capacity of about:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 25,000</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 86,000</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 10,000</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 45,000</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (D)</strong> — <strong>45,000 seats</strong>, within the ~90-acre Rajgir sports hub. Traps: 25,000 ≈ Moin-ul-Haq Stadium's capacity; 86,000+ was the T20 WC 2026 final crowd in Ahmedabad; don't confuse with the 100-acre Punpun stadium site (an area figure, not capacity).</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The Bihar Budget 2025-26 allocated which sum for a 100-acre international stadium at Punpun block (Patna)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) ₹274.33 crore</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) ₹574.33 crore</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) ₹774.33 crore</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) ₹1,574.33 crore</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — <strong>₹574.33 crore</strong> was earmarked in Budget 2025-26 for the 100-acre Punpun international stadium (cross-link Topic #16). BPSC loves digit-swapped distractors — anchor the "574".</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Moin-ul-Haq Stadium in Patna is historically significant because it:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Hosted One-Day Internationals during the 1996 Cricket World Cup</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Hosted the 2011 World Cup final</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Is the IPL home ground of Rajasthan Royals</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Is named after Bihar's first Chief Minister</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — It staged the Kenya v Zimbabwe matches of the 1996 World Cup. Originally Rajendra Nagar Stadium, it was renamed in 1970 after <strong>Moin-ul-Haq</strong>, IOA general secretary and India's Olympic chef-de-mission (1948, 1952). The 2011 final was at Wankhede; Bihar's first CM was Shri Krishna Sinha.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. M.S. Dhoni was born in Ranchi on 7 July 1981. At the time of his birth, Ranchi lay in which state?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Jharkhand</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) West Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Uttar Pradesh</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — Jharkhand was carved out of Bihar only on <strong>15 November 2000</strong> (Bihar Reorganisation Act, 2000); in 1981 Ranchi was in Bihar. (A) is the obvious-but-wrong present-day answer — a classic BPSC time-frame trap.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Match List-I (Mascot/Symbol) with List-II (Event):
+    <br>a) Gajasimha — 1) 38th National Games 2025 (Uttarakhand)
+    <br>b) Mauli — 2) Khelo India Youth Games 2025 (Bihar)
+    <br>c) Milo &amp; Tina — 3) Winter Olympics 2026 (Milano–Cortina)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) a-1, b-2, c-3</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) a-2, b-1, c-3</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) a-3, b-2, c-1</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) a-2, b-3, c-1</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — Gajasimha = KIYG 2025 (Bihar); Mauli (Himalayan monal) = National Games 2025; Milo &amp; Tina = Milano–Cortina Winter Olympics (6–22 Feb 2026). The Gajasimha↔Mauli swap is the exact trap BPSC will plant.</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/25</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/2025_Khelo_India_Youth_Games" target="_blank">2025 Khelo India Youth Games (Wikipedia)</a> <span class="ref-desc">— 7th KIYG, Bihar, 4–15 May 2025: venues, Gajasimha mascot, 28 sports + esports, sepak takraw debut, full medal tally (Maharashtra 158/58G; Bihar 15th, 36 medals).</span></li>
+    <li><a href="https://fih.hockey" target="_blank">FIH — Hero Asia Cup Rajgir 2025</a> <span class="ref-desc">— India 4-1 Korea in the final (7 Sep 2025), 4th title; Rajgir Sports Academy's Asian Hockey Federation affiliation.</span></li>
+    <li><a href="https://drishtiias.com/state-pcs-current-affairs/sepak-takraw-world-cup-2025" target="_blank">Drishti IAS — Sepak Takraw World Cup 2025, Patna</a> <span class="ref-desc">— 5th ISTAF World Cup, Patliputra Indoor Stadium, 20–25 Mar 2025; India men's regu first gold (2-1 v Japan); India 7 medals, 4th.</span></li>
+    <li><a href="https://affairscloud.com/uttarakhand-host-the-38th-national-games-services-topped-medal-tally-with-121-medals/" target="_blank">AffairsCloud — 38th National Games 2025</a> <span class="ref-desc">— Uttarakhand, 28 Jan–14 Feb 2025; mascot Mauli; Services 121 (68G) — Raja Bhalindra Singh Trophy; Bihar's lawn-bowls gold context.</span></li>
+    <li><a href="https://www.espncricinfo.com/story/ipl-2026-vaibhav-sooryavanshi-wins-orange-cap-mvp-and-emerging-player-awards-1539063" target="_blank">ESPNcricinfo — Sooryavanshi's IPL 2026 Awards</a> <span class="ref-desc">— MVP + Orange Cap + Emerging Player, 776 runs at SR 237.30; his profile page covers the 14y-23d debut and 101 off 38 v GT.</span></li>
+    <li><a href="https://www.thedailyjagran.com/cricket/icc-u19-world-cup-2026-list-of-all-award-winners-player-of-the-tournament-best-batter-best-bowler-all-you-need-to-know-10298892" target="_blank">Daily Jagran — ICC U19 World Cup 2026 Awards</a> <span class="ref-desc">— India beat England by 100 runs (Harare, 6 Feb 2026); Sooryavanshi 175 off 80, Player of Tournament (439 runs); India's 6th title.</span></li>
+    <li><a href="https://news24online.com/india/who-is-shreyasi-singh-golden-girl-of-bihar-from-shooting-champion-to-cabinet-minister/671745/" target="_blank">News24 — Shreyasi Singh, Cabinet Minister (Nov 2025)</a> <span class="ref-desc">— Jamui MLA (re-elected 2025), sworn into Nitish Kumar cabinet 20 Nov 2025; Sports + IT portfolios; CWG 2018 gold, Paris 2024 Olympian (re-verified for this page).</span></li>
+    <li><a href="https://biharsay.com/2024/10/24/moin-ul-haq-stadium-reconstruction-bihars-sports-hub-reimagined/" target="_blank">Bihar Say — Moin-ul-Haq Stadium History &amp; Reconstruction</a> <span class="ref-desc">— Rajendra Nagar Stadium renamed 1970 after IOA general secretary Moin-ul-Haq; 1996 World Cup ODIs; BCA lease (Mar 2024) and rebuild (Sep 2024) (re-verified for this page).</span></li>
+    <li><a href="https://kheloindia.gov.in" target="_blank">Khelo India — Official Portal</a> <span class="ref-desc">— Scheme revamped 2018; KIYG annual since 2018 (1st: Delhi); Winter Games, Para Games (1st: 2023), University Games.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #19: Bihar Sports | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #10, #16, #17, #20, #62
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'c', q2: 'c', q3: 'a', q4: 'd', q5: 'd',
+  q6: 'c', q7: 'b', q8: 'c', q9: 'c', q10: 'd',
+  q11: 'a', q12: 'c', q13: 'a', q14: 'b', q15: 'c',
+  q16: 'a', q17: 'd', q18: 'a', q19: 'a', q20: 'a',
+  q21: 'd', q22: 'b', q23: 'a', q24: 'c', q25: 'b'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Bihar Sports!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Double check KIYG numbers, mascots, venues, and Sooryavanshi records.';
+
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

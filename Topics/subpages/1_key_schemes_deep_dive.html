@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1 — Key Central Schemes Deep Dive | BPSC 72nd Prelims</title>
+<link rel="stylesheet" href="../_assets/navbar.css">
+<script src="../_assets/navbar.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .header { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 24px 28px; border-radius: 16px; margin-bottom: 24px; }
+  .header h1 { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
+  .header p { font-size: 13px; opacity: 0.85; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { font-size: 17px; font-weight: 700; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 14px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4, #dcfce7); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0, #ffe8dd); border-left: 5px solid #ff6b35; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .bihar-box strong { color: #c2410c; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .back-link { display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px; }
+  .footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  .scheme-card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin: 16px 0; background: #fafbfc; }
+  .scheme-card h3 { border-left: 4px solid #e94560; padding-left: 12px; margin-top: 0; }
+  .scheme-tag { display: inline-block; background: #e94560; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-left: 8px; text-transform: uppercase; }
+  @media print { body { padding: 0; font-size: 12px; } .header { border-radius: 0; } .section { page-break-inside: avoid; } }
+</style>
+</head>
+<body>
+<a href="../1_govt_schemes_and_policies.html" class="back-link">← Back to Topic 1: Government Schemes</a>
+
+<div class="header">
+  <h1>📋 Key Central Schemes — Deep Dive</h1>
+  <p>Detailed breakdown of PM-KISAN, Ayushman Bharat, PMJDY, MGNREGA, PMAY, and other high-yield schemes with Bihar-specific data and exam predictions</p>
+</div>
+
+<div class="section">
+  <div class="section-header">💰 PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)</div>
+  <div class="scheme-card" id="pm-kisan">
+    <h3>PM-KISAN — Complete Fact Sheet <span class="scheme-tag">HIGH YIELD</span></h3>
+    <table>
+      <tr><th>Attribute</th><th>Detail</th></tr>
+      <tr><td><strong>Launch date</strong></td><td>24 February 2019 (by PM Modi at Gorakhpur, UP)</td></tr>
+      <tr><td><strong>Ministry</strong></td><td>Ministry of Agriculture &amp; Farmers Welfare</td></tr>
+      <tr><td><strong>Type</strong></td><td>Central Sector Scheme (100% Centre-funded)</td></tr>
+      <tr><td><strong>Benefit</strong></td><td>₹6,000/year per family in 3 equal installments of ₹2,000 each</td></tr>
+      <tr><td><strong>Eligibility</strong></td><td>All landholding farmer families (individual or joint ownership); cultivable land</td></tr>
+      <tr><td><strong>Exclusions</strong></td><td>Institutional landholders; former/current holders of constitutional posts; govt employees (Group A/B); PSUs employees; income tax payees; professionals (doctors, engineers, lawyers, CAs) earning >₹10,000/month</td></tr>
+      <tr><td><strong>Transfer mode</strong></td><td>DBT (Direct Benefit Transfer) to Aadhaar-linked bank accounts</td></tr>
+      <tr><td><strong>Installment cycle</strong></td><td>1st: Apr–Jul | 2nd: Aug–Nov | 3rd: Dec–Mar</td></tr>
+      <tr><td><strong>Total beneficiaries (pan-India)</strong></td><td>~11 crore farmer families (as of 2026)</td></tr>
+      <tr><td><strong>Budget allocation FY27</strong></td><td>₹60,000 crore (approx.)</td></tr>
+    </table>
+    <div class="bihar-box">
+      <strong>🟠 Bihar-specific PM-KISAN data:</strong>
+      <ul>
+        <li><strong>Bihar beneficiaries:</strong> 73.88 lakh farmers (as of 2026)</li>
+        <li><strong>Total disbursed in Bihar:</strong> exceeds ₹12,000 crore cumulatively</li>
+        <li><strong>Implementation:</strong> Bihar uses the PM-KISAN portal integrated with state land records (Bhulekh Bihar)</li>
+        <li><strong>State complement:</strong> Bihar's own <strong>Mukhyamantri Kisan Kalyan Yojana</strong> adds an additional ₹2,000/year on top of PM-KISAN's ₹6,000 — making Bihar farmers eligible for ₹8,000/year total</li>
+      </ul>
+    </div>
+    <div class="pyq-box">
+      <span class="pyq-tag">PYQ PATTERN</span> BPSC asks: (1) "PM-KISAN provides how much per year?" → ₹6,000. (2) "How many installments?" → 3. (3) "Which ministry?" → Agriculture. (4) "What type of scheme?" → Central Sector (100% Centre). (5) Bihar-specific: "How many Bihar farmers benefit?" → 73.88 lakh.
+    </div>
+    <div class="prediction-box">
+      <span class="prediction-tag">72nd PREDICTION</span> <strong>High probability:</strong> "PM-KISAN is a _______ scheme" → Central Sector (not Centrally Sponsored). <strong>Medium probability:</strong> "What is the Bihar total for a farmer under PM-KISAN + Mukhyamantri Kisan Kalyan?" → ₹8,000/year. <strong>Low probability:</strong> "Which installment covers April–July?" → 1st installment.
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">🏥 Ayushman Bharat (PM-JAY)</div>
+  <div class="scheme-card" id="ayushman">
+    <h3>Ayushman Bharat — Complete Fact Sheet <span class="scheme-tag">HIGH YIELD</span></h3>
+    <table>
+      <tr><th>Attribute</th><th>Detail</th></tr>
+      <tr><td><strong>Launch date</strong></td><td>23 September 2018 (Jharkhand, by PM Modi)</td></tr>
+      <tr><td><strong>Ministry</strong></td><td>Ministry of Health &amp; Family Welfare</td></tr>
+      <tr><td><strong>Two components</strong></td><td>(1) PM-JAY (health insurance) (2) Health &amp; Wellness Centres (HWCs)</td></tr>
+      <tr><td><strong>PM-JAY cover</strong></td><td>₹5 lakh/family/year for secondary &amp; tertiary care</td></tr>
+      <tr><td><strong>Beneficiary base</strong></td><td>~55 crore individuals (10.74 crore families from SECC 2011)</td></tr>
+      <tr><td><strong>2024 expansion</strong></td><td><strong>Extended to all senior citizens aged 70+ years</strong> (regardless of income) — Cabinet approved Sept 2024</td></tr>
+      <tr><td><strong>Funding</strong></td><td>Central Sector (60:40 Centre:State for most states; 90:10 for NE/Himalayan states)</td></tr>
+      <tr><td><strong>Cashless</strong></td><td>Paperless, cashless treatment at any empanelled hospital (portable across India)</td></tr>
+      <tr><td><strong>Ayushman Card</strong></td><td>Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) card</td></tr>
+    </table>
+    <div class="bihar-box">
+      <strong>🟠 Bihar-specific Ayushman Bharat data:</strong>
+      <ul>
+        <li><strong>Bihar implementation:</strong> Bihar adopted PM-JAY; also has its own <strong>Mukhyamantri Chhatra Yogyya Yojana</strong> and <strong>Mukhyamantri Jan Kalyan Yojana</strong></li>
+        <li><strong>Bihar empanelled hospitals:</strong> 500+ hospitals (government and private)</li>
+        <li><strong>Bihar beneficiaries:</strong> ~1.13 crore families (based on SECC 2011)</li>
+        <li><strong>70+ expansion:</strong> Bihar's elderly population (~60 lakh) newly eligible from 2024</li>
+      </ul>
+    </div>
+    <div class="pyq-box">
+      <span class="pyq-tag">PYQ PATTERN</span> BPSC asks: (1) "Ayushman Bharat cover per family?" → ₹5 lakh/year. (2) "Which ministry?" → Health. (3) "2024 expansion?" → all senior citizens 70+. (4) "Beneficiary identification based on?" → SECC 2011. (5) "What type of treatment?" → cashless, paperless, portable.
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">🏦 PM Jan Dhan Yojana (PMJDY)</div>
+  <div class="scheme-card" id="pmjdy">
+    <h3>PMJDY — Complete Fact Sheet <span class="scheme-tag">HIGH YIELD</span></h3>
+    <table>
+      <tr><th>Attribute</th><th>Detail</th></tr>
+      <tr><td><strong>Launch date</strong></td><td>28 August 2014 (by PM Modi)</td></tr>
+      <tr><td><strong>Ministry</strong></td><td>Ministry of Finance (Department of Financial Services)</td></tr>
+      <tr><td><strong>Objective</strong></td><td>Universal access to banking facilities — financial inclusion</td></tr>
+      <tr><td><strong>Key features</strong></td><td>Zero-balance account; RuPay debit card; ₹10,000 overdraft (after 6 months); accident insurance cover ₹2 lakh; life cover ₹30,000 (for accounts opened before 2015)</td></tr>
+      <tr><td><strong>Total accounts (2026)</strong></td><td>53+ crore accounts; ₹2.3+ lakh crore balance</td></tr>
+      <tr><td><strong>Women account holders</strong></td><td>~55% of all PMJDY accounts</td></tr>
+    </table>
+    <div class="mnemonic-box">
+      <strong>🧠 Mnemonic — PMJDY Benefits "CARD-O":</strong><br>
+      <strong>C</strong>ard (RuPay debit) → <strong>A</strong>ccident insurance (₹2L) → <strong>R</strong>uPay → <strong>D</strong>eposit zero balance → <strong>O</strong>verdraft (₹10K after 6 months)
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">⚒️ MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act)</div>
+  <div class="scheme-card" id="mgnrega">
+    <h3>MGNREGA — Complete Fact Sheet <span class="scheme-tag">HIGH YIELD</span></h3>
+    <table>
+      <tr><th>Attribute</th><th>Detail</th></tr>
+      <tr><td><strong>Enacted</strong></td><td>2005 (NREG Act); renamed MGNREGA in 2009</td></tr>
+      <tr><td><strong>Ministry</strong></td><td>Ministry of Rural Development</td></tr>
+      <tr><td><strong>Type</strong></td><td>Centrally Sponsored Scheme (60:40 for implementation; 100% Centre for wages)</td></tr>
+      <tr><td><strong>Legal guarantee</strong></td><td>100 days of wage employment per household per year</td></tr>
+      <tr><td><strong>Wage rate</strong></td><td>State-specific; revised annually; average ~₹250/day (2025-26)</td></tr>
+      <tr><td><strong>Bihar wage rate (2025-26)</strong></td><td>₹222/day (unskilled workers)</td></tr>
+      <tr><td><strong>Key feature</strong></td><td>Gram Sabha recommends works; Gram Panchayat executes; 33% reservation for women</td></tr>
+      <tr><td><strong>Wage payment mode</strong></td><td>DBT to Aadhaar-linked bank/post office accounts</td></tr>
+    </table>
+    <div class="bihar-box">
+      <strong>🟠 Bihar MGNREGA data:</strong>
+      <ul>
+        <li><strong>Bihar persondays generated (FY25):</strong> ~28 crore persondays</li>
+        <li><strong>Bihar households demanded work:</strong> ~1.2 crore</li>
+        <li><strong>Bihar average days of work/household:</strong> ~42 days (below 100-day guarantee — a known implementation gap)</li>
+        <li><strong>Bihar women participation:</strong> ~35% (below 33% reservation target in some districts)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">🏠 PM Awas Yojana (PMAY)</div>
+  <div class="scheme-card" id="pmay">
+    <h3>PMAY — Complete Fact Sheet <span class="scheme-tag">HIGH YIELD</span></h3>
+    <table>
+      <tr><th>Attribute</th><th>PMAY-G (Gramin)</th><th>PMAY-U (Urban)</th></tr>
+      <tr><td><strong>Launch</strong></td><td>2016</td><td>2015</td></tr>
+      <tr><td><strong>Ministry</strong></td><td>Rural Development</td><td>Housing &amp; Urban Affairs</td></tr>
+      <tr><td><strong>Beneficiary</strong></td><td>Rural households without pucca house</td><td>Urban poor (EWS/LIG)</td></tr>
+      <tr><td><strong>Assistance</strong></td><td>₹1.20 lakh (plains) / ₹1.30 lakh (hilly/NE)</td><td>₹2.5–7.5 lakh (credit-linked subsidy)</td></tr>
+      <tr><td><strong>Funding</strong></td><td>60:40 Centre:State (90:10 for NE/Himalayan)</td><td>Central Sector (subsidy portion)</td></tr>
+      <tr><td><strong>2024 update</strong></td><td><strong>PMAY-G 2.0</strong> — 2 crore additional houses (2024-29)</td><td><strong>PMAY-U 2.0</strong> — 1 crore additional houses (2024-29)</td></tr>
+    </table>
+    <div class="bihar-box">
+      <strong>🟠 Bihar PMAY data:</strong>
+      <ul>
+        <li><strong>Bihar PMAY-G houses sanctioned:</strong> ~1.1 crore (cumulative)</li>
+        <li><strong>Bihar completion rate:</strong> ~85% (above national average)</li>
+        <li><strong>Bihar PMAY-U houses:</strong> ~3.5 lakh sanctioned</li>
+        <li><strong>Bihar pucca house coverage:</strong> Saat Nischay Yojana complemented PMAY to push Bihar's pucca housing rate above 90%</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">📊 Scheme Classification — Exam Cheat Sheet</div>
+  <table>
+    <tr><th>Scheme</th><th>Type</th><th>Ministry</th><th>Bihar Angle</th></tr>
+    <tr><td>PM-KISAN</td><td>Central Sector</td><td>Agriculture</td><td>73.88L farmers; +₹2K from state = ₹8K total</td></tr>
+    <tr><td>Ayushman Bharat</td><td>Centrally Sponsored (60:40)</td><td>Health</td><td>1.13 Cr families; 60L elderly newly eligible</td></tr>
+    <tr><td>PMJDY</td><td>Central Sector</td><td>Finance</td><td>Universal; Bihar has high unbanked coverage</td></tr>
+    <tr><td>MGNREGA</td><td>Centrally Sponsored</td><td>Rural Dev</td><td>₹222/day; 28 Cr persondays; 42 avg days</td></tr>
+    <tr><td>PMAY-G</td><td>Centrally Sponsored (60:40)</td><td>Rural Dev</td><td>1.1 Cr sanctioned; 85% completion</td></tr>
+    <tr><td>Jal Jeevan Mission</td><td>Centrally Sponsored (50:50)</td><td>Jal Shakti</td><td>1.57 Cr tap connections in Bihar</td></tr>
+    <tr><td>Swachh Bharat</td><td>Central Sector</td><td>Jal Shakti</td><td>Bihar declared ODF in 2019</td></tr>
+    <tr><td>PM Ujjwala</td><td>Central Sector</td><td>Petroleum</td><td>~1.5 Cr LPG connections in Bihar</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Central vs Centrally Sponsored "CASH-PRO":</strong><br>
+    <strong>C</strong>entral Sector (100% Centre) = <strong>ASH</strong>: Ayushman (partly), Schemes like PM-KISAN/PMJDY/Ujjwala, Health (some)<br>
+    <strong>PRO</strong> = Centrally Sponsored (shared) = <strong>P</strong>MAY, <strong>R</strong>ural Dev (MGNREGA), <strong>O</strong>ther CSS (JJM, SBM)<br>
+    <em>Exam trap: PM-KISAN is Central Sector (100% Centre), NOT Centrally Sponsored!</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">🎯 Exam Predictions for 72nd BPSC — Schemes</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">PREDICTION 1</span>
+    <strong>PM-KISAN amount and type:</strong> "PM-KISAN provides ₹X/year in Y installments. It is a ______ scheme." → ₹6,000, 3 installments, Central Sector. The trap: "Centrally Sponsored" (wrong — it's 100% Centre-funded).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">PREDICTION 2</span>
+    <strong>Ayushman Bharat 2024 expansion:</strong> "Ayushman Bharat was expanded in 2024 to cover which new category?" → All senior citizens aged 70+ (regardless of income). This is the freshest update and high-probability for the 72nd.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">PREDICTION 3</span>
+    <strong>MGNREGA legal guarantee:</strong> "MGNREGA guarantees how many days of wage employment?" → 100 days/household/year. Bihar-specific: "What is the Bihar wage rate?" → ₹222/day (2025-26). Bihar-specific: "Average days actually provided in Bihar?" → ~42 (implementation gap).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">PREDICTION 4</span>
+    <strong>Bihar complement scheme:</strong> "Bihar's Mukhyamantri Kisan Kalyan Yojana adds how much to PM-KISAN?" → ₹2,000/year, making the total ₹8,000/year. This Bihar-specific layering is exactly the kind of question the 71st BPSC trend suggests.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">PREDICTION 5</span>
+    <strong>PMAY 2.0 (2024):</strong> "PMAY-G 2.0 targets how many additional houses?" → 2 crore (2024-29). PMAY-U 2.0 → 1 crore. Bihar completion rate ~85% is a possible Bihar-specific angle.
+  </div>
+</div>
+
+<div class="footer">
+  BPSC 72nd Prelims • Topic 1 Subpage — Key Central Schemes Deep Dive • Generated 2026-07-17
+</div>
+</body>
+</html>

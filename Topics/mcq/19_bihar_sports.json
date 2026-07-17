@@ -1,0 +1,202 @@
+[
+  {
+    "q": "Shreyasi Singh, Member of the Legislative Assembly, who represented India in shooting at the Paris Olympics 2024, was elected from which constituency in Bihar?",
+    "options": ["Gidhaur", "Sugauli", "Jamui", "Kesaria"],
+    "answer": 2,
+    "explanation": "Shreyasi Singh (CWG 2018 double-trap gold medallist) was elected BJP MLA from Jamui in 2020 and re-elected in 2025. Gidhaur is her ancestral village in Jamui district, not her constituency — the classic trap. In Nov 2025 she became Bihar's Sports + IT Minister.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.18"
+  },
+  {
+    "q": "The mascot of the Khelo India Youth Games 2025, hosted by Bihar, was:",
+    "options": ["Mauli", "Veera Mangai", "Gajasimha", "Tejaswini"],
+    "answer": 2,
+    "explanation": "Gajasimha, the elephant-lion figure from the Pala-era/Nalanda motif, was unveiled by CM Nitish Kumar and Union Minister Mandaviya. Mauli = National Games 2025 mascot (Himalayan monal); Tejaswini = NG 2025 torch; Veera Mangai = KIYG 2024 (Tamil Nadu) mascot.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 7th Khelo India Youth Games in Bihar were held during:",
+    "options": ["4–15 May 2025", "28 January – 14 February 2025", "29 August – 7 September 2025", "20–25 March 2025"],
+    "answer": 0,
+    "explanation": "KIYG 2025 ran 4–15 May 2025, opened virtually by PM Modi at Patliputra Sports Complex. Distractors: 28 Jan–14 Feb = National Games 2025 (Uttarakhand); 29 Aug–7 Sep = Men's Hockey Asia Cup (Rajgir); 20–25 Mar = Sepak Takraw World Cup (Patna).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following cities was NOT a venue of the Khelo India Youth Games 2025?",
+    "options": ["Patna", "Rajgir", "Bhagalpur", "Muzaffarpur"],
+    "answer": 3,
+    "explanation": "The five Bihar venues were Patna, Rajgir, Gaya, Bhagalpur and Begusarai; New Delhi hosted shooting, gymnastics and track cycling. Muzaffarpur hosted nothing. Mnemonic: P-R-G-B-B.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which state topped the medal tally at the Khelo India Youth Games 2025?",
+    "options": ["Haryana", "Rajasthan", "Delhi", "Maharashtra"],
+    "answer": 3,
+    "explanation": "Maharashtra won with 158 medals (58 gold), a third consecutive KIYG title. Haryana was second and Rajasthan third (its best-ever, 24 gold). Host Bihar finished 15th.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "At KIYG 2025, host Bihar finished:",
+    "options": ["7th with 36 medals", "28th with 36 medals", "15th with 36 medals (7 gold, 11 silver, 18 bronze)", "15th with 58 medals"],
+    "answer": 2,
+    "explanation": "Bihar rose from 28th to 15th with 36 medals (7G-11S-18B), its best-ever KIYG performance, roughly doubling its all-time tally. Traps: 28th was the previous rank; 7 is the edition number; 58 was Maharashtra's gold count.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about KIYG 2025: 1. It was the first Khelo India Youth Games hosted by Bihar. 2. Sepak takraw made its KIYG debut at these Games. 3. All events were held within the state of Bihar. Which of the statements given above are correct?",
+    "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+    "answer": 1,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is false: New Delhi hosted the shooting, gymnastics and track-cycling events; Bihar had five cities. The 'all events within the host state' line is BPSC's favourite absolute-word trap.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the Men's Hockey Asia Cup 2025 final at Rajgir, India defeated which team 4-1 to win its 4th title?",
+    "options": ["Malaysia", "Pakistan", "Korea", "Japan"],
+    "answer": 2,
+    "explanation": "India beat Korea 4-1 on 7 Sep 2025 in Rajgir for its 4th Asia Cup crown, qualifying for the FIH World Cup 2026. Traps: Malaysia finished third; Pakistan withdrew from the tournament, so it could not have played the final.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Women's Asian Champions Trophy 2024, which India won, was hosted at:",
+    "options": ["Ranchi", "Patna", "Rajgir", "Bhubaneswar"],
+    "answer": 2,
+    "explanation": "Rajgir (Bihar) hosted the women's ACT in November 2024, a year before the men's Asia Cup came to the same city — establishing Rajgir as India's newest international hockey hub.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "At the Sepak Takraw World Cup 2025 held in Patna, India's men's regu team won its first-ever World Cup gold by defeating:",
+    "options": ["Thailand", "Myanmar", "Korea", "Japan"],
+    "answer": 3,
+    "explanation": "India beat Japan 2-1 in the final at Patliputra Indoor Stadium (20–25 Mar 2025, 21 nations); India won 7 medals to finish 4th. Thailand is the global sepak takraw powerhouse and the natural-but-wrong guess.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's first National Games gold medal in 25 years (38th National Games, 2025) came in which event?",
+    "options": ["Women's lawn bowls triples", "Women's rugby sevens", "10m air pistol shooting", "Wrestling (freestyle)"],
+    "answer": 0,
+    "explanation": "Khushboo Kumari, Nikhat Khatoon and Payal Preeti edged West Bengal 15-14 in the women's lawn bowls triples final on 8 Feb 2025 — Bihar's first National Games gold in 25 years.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 38th National Games of 2025 were hosted by:",
+    "options": ["Goa", "Gujarat", "Uttarakhand", "Meghalaya"],
+    "answer": 2,
+    "explanation": "Uttarakhand hosted the 38th Games (28 Jan–14 Feb 2025; mascot Mauli; 'Green Games' theme). Sequence: Gujarat 2022 (36th) → Goa 2023 (37th) → Uttarakhand 2025 (38th) → Meghalaya 2027 (39th).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.20"
+  },
+  {
+    "q": "The 39th National Games, scheduled for 2027, will be hosted for the first time by:",
+    "options": ["Meghalaya", "Assam", "Manipur", "Sikkim"],
+    "answer": 0,
+    "explanation": "Meghalaya hosts the 2027 National Games (first time); the flag was handed over at the 2025 closing ceremony and the host agreement was signed on 30 May 2026.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Raja Bhalindra Singh Trophy is awarded to:",
+    "options": ["The champion state of the Khelo India Youth Games", "The overall champion of the National Games", "The Ranji Trophy winner", "The Durand Cup winner"],
+    "answer": 1,
+    "explanation": "The Raja Bhalindra Singh Trophy goes to the overall champion (most golds) of the National Games; Services (SSCB) won it in 2025 for the 5th time with 121 medals (68 gold). KIYG has no such named trophy.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.9"
+  },
+  {
+    "q": "Vaibhav Sooryavanshi, the teenage batting sensation, hails from which district of Bihar?",
+    "options": ["Patna", "Gaya", "Samastipur", "Muzaffarpur"],
+    "answer": 2,
+    "explanation": "He was born on 27 March 2011 in Tajpur village, Samastipur district. The pattern mirrors the 70th BPSC's Shreyasi Singh (Jamui) question — learn Bihar athletes with their districts.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Vaibhav Sooryavanshi became the youngest-ever IPL debutant on 19 April 2025, aged:",
+    "options": ["14 years 23 days", "15 years 23 days", "13 years 11 months", "16 years 2 months"],
+    "answer": 0,
+    "explanation": "Born 27 Mar 2011, he debuted for Rajasthan Royals on 19 Apr 2025 at 14 years 23 days. He had earlier become the youngest IPL signing ever — ₹1.1 crore at age 13.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sooryavanshi became the youngest centurion in T20 cricket with a 101 off 38 balls (28 April 2025) against which IPL team?",
+    "options": ["Chennai Super Kings", "Mumbai Indians", "Royal Challengers Bengaluru", "Gujarat Titans"],
+    "answer": 3,
+    "explanation": "The 101 off 38 came against Gujarat Titans; the 35-ball hundred is the second-fastest in IPL history. RCB is the 2026 trap — RCB won the IPL 2026 title while Sooryavanshi swept the individual awards for RR.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the ICC U19 World Cup 2026 final (Harare, 6 Feb 2026), Vaibhav Sooryavanshi scored:",
+    "options": ["175 off 80 balls against England", "101 off 38 balls against Australia", "439 runs in the final against Pakistan", "76 runs against New Zealand"],
+    "answer": 0,
+    "explanation": "His 175 off 80 (15 fours, 15 sixes) v England is the highest score in a U19 WC final; he was Player of the Tournament with 439 runs as India won a record 6th title. Traps: 101 off 38 was his IPL knock (v GT); 439 is the tournament aggregate, not one innings.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "In IPL 2026, Vaibhav Sooryavanshi (Rajasthan Royals) achieved which sweep?",
+    "options": ["MVP + Orange Cap + Emerging Player", "Purple Cap + MVP", "Only the Emerging Player award", "Orange Cap + Purple Cap"],
+    "answer": 0,
+    "explanation": "At 15 he became the first player to win MVP + Orange Cap + Emerging Player together (776 runs, SR 237.30, 72 sixes — also Super Striker and Most Sixes). Purple Cap went to Kagiso Rabada; RCB won the title (back-to-back).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar earned promotion to the Ranji Trophy Elite group for 2026-27 by:",
+    "options": ["Winning the 2025-26 Plate final against Manipur by 568 runs", "Topping the Elite group points table", "Defeating Mumbai in the quarter-final", "Winning the Vijay Hazare Trophy"],
+    "answer": 0,
+    "explanation": "Bihar were crowned Plate group champions after a 568-run demolition of Manipur in the final (reported 27 Jan 2026), earning Elite-group status for 2026-27. Ranji Trophy (since 1934-35) is India's premier first-class championship.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The international cricket stadium inaugurated at Rajgir (~October 2025) — Bihar's first world-class cricket venue — has a seating capacity of about:",
+    "options": ["25,000", "86,000", "10,000", "45,000"],
+    "answer": 3,
+    "explanation": "45,000 seats, within the ~90-acre Rajgir sports hub. Traps: 25,000 ≈ Moin-ul-Haq Stadium's capacity; 86,000+ was the T20 WC 2026 final crowd in Ahmedabad; don't confuse with the 100-acre Punpun stadium site (an area figure, not capacity).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bihar Budget 2025-26 allocated which sum for a 100-acre international stadium at Punpun block (Patna)?",
+    "options": ["₹274.33 crore", "₹574.33 crore", "₹774.33 crore", "₹1,574.33 crore"],
+    "answer": 1,
+    "explanation": "₹574.33 crore was earmarked in Budget 2025-26 for the 100-acre Punpun international stadium (cross-link Topic #16). BPSC loves digit-swapped distractors — anchor the '574'.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Moin-ul-Haq Stadium in Patna is historically significant because it:",
+    "options": ["Hosted One-Day Internationals during the 1996 Cricket World Cup", "Hosted the 2011 World Cup final", "Is the IPL home ground of Rajasthan Royals", "Is named after Bihar's first Chief Minister"],
+    "answer": 0,
+    "explanation": "It staged the Kenya v Zimbabwe matches of the 1996 World Cup. Originally Rajendra Nagar Stadium, it was renamed in 1970 after Moin-ul-Haq, IOA general secretary and India's Olympic chef-de-mission (1948, 1952). The 2011 final was at Wankhede; Bihar's first CM was Shri Krishna Sinha.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "M.S. Dhoni was born in Ranchi on 7 July 1981. At the time of his birth, Ranchi lay in which state?",
+    "options": ["Jharkhand", "West Bengal", "Bihar", "Uttar Pradesh"],
+    "answer": 2,
+    "explanation": "Jharkhand was carved out of Bihar only on 15 November 2000 (Bihar Reorganisation Act, 2000); in 1981 Ranchi was in Bihar. Jharkhand is the obvious-but-wrong present-day answer — a classic BPSC time-frame trap.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match List-I (Mascot/Symbol) with List-II (Event): a) Gajasimha — 1) 38th National Games 2025 (Uttarakhand); b) Mauli — 2) Khelo India Youth Games 2025 (Bihar); c) Milo & Tina — 3) Winter Olympics 2026 (Milano–Cortina)",
+    "options": ["a-1, b-2, c-3", "a-2, b-1, c-3", "a-3, b-2, c-1", "a-2, b-3, c-1"],
+    "answer": 1,
+    "explanation": "Gajasimha = KIYG 2025 (Bihar); Mauli (Himalayan monal) = National Games 2025; Milo & Tina = Milano–Cortina Winter Olympics (6–22 Feb 2026). The Gajasimha↔Mauli swap is the exact trap BPSC will plant.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
+]

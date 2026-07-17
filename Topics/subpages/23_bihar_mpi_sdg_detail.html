@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>23 — Bihar MPI & SDG Master Detail | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .header { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 24px 28px; border-radius: 16px; margin-bottom: 24px; }
+  .header h1 { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
+  .header p { font-size: 13px; opacity: 0.85; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { font-size: 17px; font-weight: 700; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 14px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4, #dcfce7); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .back-link { display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px; }
+  .footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .header { border-radius: 0; } .section { page-break-inside: avoid; } }
+</style>
+<link rel="stylesheet" href="../_assets/navbar.css">
+</head>
+<body>
+<a href="../23_bihar_in_national_reports.html" class="back-link">← Back to Topic 23</a>
+
+<div class="header">
+  <h1>🔶 Bihar MPI & SDG Index — Master Detail</h1>
+  <p>Complete methodology, indicator breakdown, NFHS-4 vs NFHS-5 comparison, and Bihar's indicator-by-indicator MPI contribution</p>
+</div>
+
+<div class="section">
+  <div class="section-header">📖 Core Concepts — What Is the SDG India Index?</div>
+  <ul>
+    <li><strong>SDG India Index:</strong> NITI Aayog's biennial (every 2 years) state-level dashboard measuring progress on the UN Sustainable Development Goals. First edition: 2018. Latest: 2023-24 (4th edition).</li>
+    <li><strong>Scope:</strong> 16 SDGs ranked (SDG 17 excluded — treated as a shared national goal). Each state gets a composite score (0–100) and a per-SDG score.</li>
+    <li><strong>Performance bands:</strong> Aspirant (0–49), Performer (50–64), Front Runner (65–99), Achiever (100).</li>
+    <li><strong>Bihar's position:</strong> consistently the lowest-ranked state. In 2023-24: composite score <strong>57</strong> (Performer band). The two weakest goals are SDG 2 (Zero Hunger) = <strong>24</strong> and SDG 4 (Quality Education) = <strong>32</strong>.</li>
+    <li><strong>Publisher:</strong> NITI Aayog — NOT UNDP (which publishes the global SDG report), NOT MoSPI.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header">📖 Core Concepts — What Is the National MPI?</div>
+  <ul>
+    <li><strong>MPI (Multidimensional Poverty Index):</strong> measures overlapping deprivations across <strong>3 dimensions</strong> and <strong>12 indicators</strong>. It goes beyond income poverty to capture the multiple ways people experience deprivation.</li>
+    <li><strong>Publisher:</strong> NITI Aayog (India's National MPI). The Global MPI is separately published by UNDP &amp; OPHI (Oxford) — different methodology, different publisher.</li>
+    <li><strong>Data source:</strong> NFHS (National Family Health Survey). NFHS-4 (2015-16) and NFHS-5 (2019-21) are the two directly observed reference periods. NFHS-6 has not been conducted.</li>
+    <li><strong>Three key measures:</strong> Headcount ratio (H) = % of people who are multidimensionally poor; Intensity (A) = average share of deprivations experienced by the poor; MPI value = H × A.</li>
+  </ul>
+  <h3>MPI Dimensions and 12 Indicators</h3>
+  <table>
+    <tr><th>Dimension</th><th>Indicators</th><th>Weight</th></tr>
+    <tr><td><strong>Health</strong></td><td>Nutrition, Child &amp; adolescent mortality</td><td>1/3</td></tr>
+    <tr><td><strong>Education</strong></td><td>Years of schooling, School attendance</td><td>1/3</td></tr>
+    <tr><td><strong>Standard of Living</strong></td><td>Cooking fuel, Sanitation, Drinking water, Electricity, Housing, Assets, Bank account</td><td>1/3</td></tr>
+  </table>
+  <div class="pyq-box">
+    <span class="pyq-tag">KEY FACT</span> In Bihar's 2019-21 MPI profile, the <strong>largest single indicator contribution was Nutrition at 27.95%</strong> — meaning nutrition deprivation is the biggest driver of Bihar's multidimensional poverty. This directly explains Bihar's low SDG 2 (Zero Hunger) score of 24.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">📊 Bihar MPI — NFHS-4 vs NFHS-5 Full Comparison</div>
+  <table>
+    <tr><th>Measure</th><th>NFHS-4 (2015-16)</th><th>NFHS-5 (2019-21)</th><th>Change</th></tr>
+    <tr><td><strong>Headcount ratio (H)</strong></td><td>51.89%</td><td>33.76%</td><td>−18.13 pp</td></tr>
+    <tr><td><strong>Intensity (A)</strong></td><td>51.01%</td><td>47.40%</td><td>−3.61 pp</td></tr>
+    <tr><td><strong>MPI value (H×A)</strong></td><td>0.265</td><td>0.160</td><td>−0.105 (−40%)</td></tr>
+    <tr><td><strong>Rural headcount</strong></td><td>—</td><td>36.95%</td><td>—</td></tr>
+    <tr><td><strong>Urban headcount</strong></td><td>—</td><td>16.67%</td><td>—</td></tr>
+  </table>
+  <ul>
+    <li><strong>Decline magnitude:</strong> Bihar's headcount fell by 18.13 percentage points — one of the largest declines among major Indian states.</li>
+    <li><strong>MPI value fell by 40%</strong> (0.265 → 0.160) — a substantial improvement, reflecting state scheme impacts (Saat Nischay, MNREGA, PDS, housing, electrification).</li>
+    <li><strong>Rural vs Urban:</strong> Rural H (36.95%) is more than double Urban H (16.67%). The state total (33.76%) is a weighted average, skewed toward rural because Bihar is >85% rural.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header">📊 Bihar's MPI Indicator Contributions (2019-21)</div>
+  <p>The 12 indicators contribute unequally to Bihar's MPI. Nutrition is the largest — meaning nutrition deprivation is the single biggest driver of multidimensional poverty in Bihar.</p>
+  <table>
+    <tr><th>Indicator</th><th>Contribution to Bihar MPI</th><th>Dimension</th></tr>
+    <tr><td><strong>Nutrition</strong></td><td><strong>27.95%</strong> (largest)</td><td>Health</td></tr>
+    <tr><td>Years of schooling</td><td>High (2nd largest)</td><td>Education</td></tr>
+    <tr><td>School attendance</td><td>Significant</td><td>Education</td></tr>
+    <tr><td>Cooking fuel</td><td>Moderate</td><td>Living standard</td></tr>
+    <tr><td>Sanitation</td><td>Moderate</td><td>Living standard</td></tr>
+    <tr><td>Drinking water</td><td>Lower (improved by schemes)</td><td>Living standard</td></tr>
+    <tr><td>Electricity</td><td>Lower (improved by schemes)</td><td>Living standard</td></tr>
+    <tr><td>Housing</td><td>Moderate</td><td>Living standard</td></tr>
+    <tr><td>Assets</td><td>Lower</td><td>Living standard</td></tr>
+    <tr><td>Bank account</td><td>Low (Jan Dhan impact)</td><td>Living standard</td></tr>
+    <tr><td>Child &amp; adolescent mortality</td><td>Moderate</td><td>Health</td></tr>
+  </table>
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM ANGLE</span> The <strong>nutrition → SDG 2 → MPI</strong> chain is the key narrative: Bihar's largest MPI indicator is nutrition (27.95%), which is also why Bihar's SDG 2 (Zero Hunger) score is the lowest (24). BPSC can chain these facts in a multi-statement question.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">📊 NITI 2024 Progress Report — The Extrapolated Estimate</div>
+  <table>
+    <tr><th>Measure</th><th>Value</th><th>Nature</th><th>Period</th></tr>
+    <tr><td>Bihar MPI headcount (observed)</td><td><strong>33.76%</strong></td><td>Direct survey observation (NFHS-5)</td><td>2019-21</td></tr>
+    <tr><td>Bihar MPI headcount (estimated)</td><td><strong>26.59%</strong></td><td><strong>Extrapolated estimate</strong></td><td>2022-23</td></tr>
+    <tr><td>People escaped MPI poverty</td><td><strong>377.09 lakh</strong></td><td>Estimated cumulative decline</td><td>2013-14 to 2022-23</td></tr>
+  </table>
+  <div class="pyq-box">
+    <span class="pyq-tag">CRITICAL TRAP</span> The 26.59% figure is <strong>NOT a direct NFHS-5 observation</strong>. NITI's 2024 progress report explicitly labels it as an extrapolated estimate. NFHS-6 has not been conducted. The directly observed NFHS-5 (2019-21) figure is 33.76%. BPSC's "which statement is false" format will claim 26.59% is a direct survey result — that is the false statement.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">📊 SDG India Index 2023-24 — Bihar's Full Goal-by-Goal Scorecard</div>
+  <table>
+    <tr><th>SDG</th><th>Goal Name</th><th>Bihar Score</th><th>Notes</th></tr>
+    <tr><td><strong>SDG 2</strong></td><td>Zero Hunger</td><td><strong>24 (lowest)</strong></td><td>Tied to nutrition MPI contribution (27.95%)</td></tr>
+    <tr><td><strong>SDG 4</strong></td><td>Quality Education</td><td><strong>32</strong></td><td>Low school attendance and years of schooling</td></tr>
+    <tr><td>SDG 1</td><td>No Poverty</td><td>Low</td><td>Reflects MPI headcount 33.76%</td></tr>
+    <tr><td>SDG 3</td><td>Good Health &amp; Well-being</td><td>Moderate</td><td>Improving but below national average</td></tr>
+    <tr><td>SDG 6</td><td>Clean Water &amp; Sanitation</td><td>Moderate</td><td>Improved by state schemes (Saat Nischay)</td></tr>
+    <tr><td>SDG 7</td><td>Affordable &amp; Clean Energy</td><td>Better</td><td>Electrification progress</td></tr>
+    <tr><td><strong>Composite</strong></td><td><strong>All 16 SDGs</strong></td><td><strong>57</strong></td><td><strong>Lowest state, Performer band (50–64)</strong></td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Bihar SDG "H-E-L-P"</strong><br>
+    <strong>H</strong>unger (SDG 2) = <strong>24</strong> (worst) • <strong>E</strong>ducation (SDG 4) = <strong>32</strong> (2nd worst) • <strong>L</strong>owest state at <strong>57</strong> • <strong>P</strong>erformer band (50–64).<br>
+    <em>"H before E, lower number first: 24 then 32."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">📊 National vs Global MPI — The Publisher Distinction</div>
+  <table>
+    <tr><th>Attribute</th><th>National MPI (India)</th><th>Global MPI</th></tr>
+    <tr><td><strong>Publisher</strong></td><td>NITI Aayog</td><td>UNDP &amp; OPHI (Oxford)</td></tr>
+    <tr><td><strong>Indicators</strong></td><td>12 (includes bank account)</td><td>10 (no bank account)</td></tr>
+    <tr><td><strong>Data source</strong></td><td>NFHS</td><td>Various surveys (DHS/MICS)</td></tr>
+    <tr><td><strong>Bihar figures</strong></td><td>H=33.76%, A=47.40%, MPI=0.160</td><td>Different values (different methodology)</td></tr>
+    <tr><td><strong>BPSC tests</strong></td><td>"National MPI published by?" → NITI Aayog</td><td>"Global MPI published by?" → UNDP+OPHI</td></tr>
+  </table>
+  <div class="pyq-box">
+    <span class="pyq-tag">TRAP</span> When BPSC asks "Bihar's MPI headcount was X%", the answer comes from <strong>NITI's National MPI</strong> (using NFHS-5 data), NOT from the Global MPI. The two use different indicator sets and produce different numbers for the same state.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">📊 Background — Why Bihar Ranks Low</div>
+  <ul>
+    <li><strong>Historical context:</strong> Bihar's economic decline began with the partition of Bengal (1905) and the permanent settlement land revenue system. Post-independence, slow industrialisation and infrastructure gaps persisted.</li>
+    <li><strong>Demographic pressure:</strong> Bihar has India's highest TFR (total fertility rate, ~3.0 as per NFHS-5), putting pressure on health, education, and employment systems.</li>
+    <li><strong>Rural predominance:</strong> >85% of Bihar's population is rural, and rural MPI headcount (36.95%) is more than double urban (16.67%). Infrastructure and service delivery gaps are worse in rural areas.</li>
+    <li><strong>Nutrition crisis:</strong> Bihar's nutrition indicator contributes 27.95% to MPI — the single largest factor. High stunting (32.9% per GHI) and wasting (18.7%) rates drive SDG 2 down to 24.</li>
+    <li><strong>Improvement trajectory:</strong> Despite being lowest, Bihar's MPI fell from 51.89% to 33.76% (NFHS-4 → NFHS-5) — an 18.13 pp drop. NITI estimates a further decline to 26.59% by 2022-23. State schemes (Saat Nischay, MMRY, free power, housing) are credited with the improvement.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header">📊 Current Relevance 2025-26</div>
+  <ul>
+    <li><strong>SDG India Index 2023-24 is the latest edition.</strong> The next edition (2025-26) may not be published before the July 2026 exam — so Bihar's score of 57 is the exam-relevant figure.</li>
+    <li><strong>NITI MPI 2024 progress report:</strong> provides the extrapolated 26.59% estimate for 2022-23. This is the latest MPI-related publication — but it is explicitly labelled as an estimate, not a survey.</li>
+    <li><strong>NFHS-6 timeline:</strong> not yet conducted as of July 2026. The next directly observed MPI data will come from NFHS-6, but it will not be available for this exam.</li>
+    <li><strong>Census 2027:</strong> planned as a two-phase census with caste enumeration (cross-link Topic #21). This will provide fresh demographic data but is post-exam.</li>
+    <li><strong>Bihar budget FY27:</strong> education allocation ₹68,216 cr and social welfare spending directly target Bihar's weakest SDG areas (SDG 2, SDG 4) — cross-link Topic #16.</li>
+  </ul>
+</div>
+
+<div class="footer">
+  BPSC 72nd Prelims • Topic 23 Subpage — Bihar MPI &amp; SDG Master Detail • Generated 2026-07-17
+</div>
+<script src="../_assets/navbar.js"></script>
+</body>
+</html>

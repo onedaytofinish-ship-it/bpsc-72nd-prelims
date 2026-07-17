@@ -1,0 +1,1424 @@
+[
+  {
+    "id": 1,
+    "num": 1,
+    "text": "Govt schemes and policies - New/modified central schemes, beneficiaries, ministries",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 2,
+    "num": 2,
+    "text": "National appointments - CJI, CEC, RBI Gov, CAG, CDS, Governors",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 3,
+    "num": 3,
+    "text": "Intl appointments and orgs - UN/WHO/IMF/World Bank heads; new members",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 4,
+    "num": 4,
+    "text": "Summits and groupings - G20, BRICS, SCO, QUAD, ASEAN, COP",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 5,
+    "num": 5,
+    "text": "Bilateral relations - Key visits, agreements, MoUs",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 6,
+    "num": 6,
+    "text": "Defence and security - Missiles, exercises, indigenous systems",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 7,
+    "num": 7,
+    "text": "Economy in news - RBI policy rates, GDP data, key reports and indices",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 8,
+    "num": 8,
+    "text": "Science and tech in news - ISRO missions, AI, space, health breakthroughs",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 9,
+    "num": 9,
+    "text": "Awards and honours - Nobel, Bharat Ratna, Padma, Jnanpith, Oscars, Booker",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 10,
+    "num": 10,
+    "text": "Sports - Winners, hosts, venues - Olympics, Asian Games, cricket",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 11,
+    "num": 11,
+    "text": "Reports and indices - HDI, Hunger, EoDB - India rank + publisher",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 12,
+    "num": 12,
+    "text": "Important days and themes - UN/national days + yearly theme",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 13,
+    "num": 13,
+    "text": "Books and authors / obituaries - In-news books; eminent persons who passed",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 14,
+    "num": 14,
+    "text": "Environment in news - COP outcomes, new species, Ramsar/tiger reserves",
+    "group": "Current Affairs",
+    "wt": 1.7,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 15,
+    "num": 15,
+    "text": "Bihar govt schemes/yojanas - New state schemes, beneficiaries, launch dates",
+    "group": "Bihar Current Affairs",
+    "wt": 1.3,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 16,
+    "num": 16,
+    "text": "State budget highlights - Allocations, focus sectors, key figures",
+    "group": "Bihar Current Affairs",
+    "wt": 1.3,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 17,
+    "num": 17,
+    "text": "Appointments in Bihar - CM, Governor, DGP, Chief Secy",
+    "group": "Bihar Current Affairs",
+    "wt": 1.3,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 18,
+    "num": 18,
+    "text": "Bihar awards and honours - State awards, Biharis in national awards",
+    "group": "Bihar Current Affairs",
+    "wt": 1.3,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 19,
+    "num": 19,
+    "text": "Bihar sports - State athletes, events hosted, medals",
+    "group": "Bihar Current Affairs",
+    "wt": 1.3,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 20,
+    "num": 20,
+    "text": "Infra and projects - Bridges, expressways, airports, metro, power",
+    "group": "Bihar Current Affairs",
+    "wt": 1.3,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 21,
+    "num": 21,
+    "text": "Surveys and data - Caste survey, census, state rankings",
+    "group": "Bihar Current Affairs",
+    "wt": 1.3,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 22,
+    "num": 22,
+    "text": "Festivals and culture in news - Events, GI tags, heritage in news",
+    "group": "Bihar Current Affairs",
+    "wt": 1.3,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 23,
+    "num": 23,
+    "text": "Bihar in national reports - Bihar rank/mention in indices and reports",
+    "group": "Bihar Current Affairs",
+    "wt": 1.3,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 24,
+    "num": 24,
+    "text": "Advent of Europeans - Portuguese, Dutch, French, British",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 25,
+    "num": 25,
+    "text": "Plassey and Buxar - Dates, parties, significance",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 26,
+    "num": 26,
+    "text": "Economic impact - Drain of wealth, land revenue systems",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 27,
+    "num": 27,
+    "text": "Revolt of 1857 - Causes, leaders - BIHAR: Kunwar Singh",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 28,
+    "num": 28,
+    "text": "Socio-religious reforms - Brahmo/Arya Samaj, reformers and acts",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 29,
+    "num": 29,
+    "text": "INC formation - 1885, Moderates vs Extremists",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 30,
+    "num": 30,
+    "text": "Bengal Partition and Swadeshi - 1905, movement features",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 31,
+    "num": 31,
+    "text": "Home Rule and Lucknow Pact - Tilak/Besant, 1916 pact",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 32,
+    "num": 32,
+    "text": "Gandhian movements - CHAMPARAN (Bihar), Kheda, Non-Cooperation",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 33,
+    "num": 33,
+    "text": "Civil Disobedience - Dandi March, Round Table, GoI Act 1935",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 34,
+    "num": 34,
+    "text": "Quit India 1942 - Causes, spread - Bihar hotspot",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 35,
+    "num": 35,
+    "text": "Revolutionaries - Bhagat Singh, HSRA, Bengal revolutionaries",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "done"
+  },
+  {
+    "id": 36,
+    "num": 36,
+    "text": "Constitutional Acts - 1909, 1919, 1935 - key features",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 37,
+    "num": 37,
+    "text": "Independence and Partition - Mountbatten plan, 1947, integration",
+    "group": "Modern Indian History",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 38,
+    "num": 38,
+    "text": "Making of Constitution - Constituent Assembly, sources, borrowed features",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 39,
+    "num": 39,
+    "text": "Preamble - Keywords, philosophy, amendability",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 40,
+    "num": 40,
+    "text": "Fundamental Rights - Art 12-35, writs, key cases",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 41,
+    "num": 41,
+    "text": "DPSP and Fundamental Duties - Art 36-51, Part IVA",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 42,
+    "num": 42,
+    "text": "Union Executive - President, VP, PM, CoM - powers",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 43,
+    "num": 43,
+    "text": "Parliament - LS/RS, lawmaking, bills, committees",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 44,
+    "num": 44,
+    "text": "Judiciary - SC/HC, judicial review, PIL, collegium",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 45,
+    "num": 45,
+    "text": "Federalism - Centre-state relations, schedules, lists",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 46,
+    "num": 46,
+    "text": "Emergency provisions - Art 352/356/360 - types and effects",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 47,
+    "num": 47,
+    "text": "Constitutional bodies - EC, UPSC, CAG, Finance Commission",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 48,
+    "num": 48,
+    "text": "Local government - 73rd and 74th amendments, PRIs",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 49,
+    "num": 49,
+    "text": "Amendments and elections - Important amendments; electoral process",
+    "group": "Indian Polity",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 50,
+    "num": 50,
+    "text": "Number system and simplification - BODMAS, LCM/HCF, divisibility",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 51,
+    "num": 51,
+    "text": "Percentage - Conversions, increase/decrease",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 52,
+    "num": 52,
+    "text": "Ratio and proportion - Partnership, mixtures basics",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 53,
+    "num": 53,
+    "text": "Average - Weighted average, age problems",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 54,
+    "num": 54,
+    "text": "Profit and loss - Discount, marked price",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 55,
+    "num": 55,
+    "text": "SI and CI - Formulas, 2-3 year problems",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 56,
+    "num": 56,
+    "text": "Time and work - Pipes and cisterns, efficiency",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 57,
+    "num": 57,
+    "text": "Speed, time and distance - Trains, boats and streams",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 58,
+    "num": 58,
+    "text": "Number/letter series - Pattern recognition",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 59,
+    "num": 59,
+    "text": "Reasoning - Coding, blood relations, direction, syllogism",
+    "group": "Maths and Mental Ability",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 60,
+    "num": 60,
+    "text": "Awards (static) - Major awards and their fields",
+    "group": "Static GK",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 61,
+    "num": 61,
+    "text": "Books and authors (classic) - Famous works and writers",
+    "group": "Static GK",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 62,
+    "num": 62,
+    "text": "Sports static - Cups/trophies, terms, players",
+    "group": "Static GK",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 63,
+    "num": 63,
+    "text": "First in India/World - Notable firsts",
+    "group": "Static GK",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 64,
+    "num": 64,
+    "text": "Superlatives - Largest/longest/highest",
+    "group": "Static GK",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 65,
+    "num": 65,
+    "text": "National symbols - Emblem, anthem, animal, etc.",
+    "group": "Static GK",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 66,
+    "num": 66,
+    "text": "Organisations and HQ - UN bodies, intl orgs and HQ",
+    "group": "Static GK",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 67,
+    "num": 67,
+    "text": "Dances/festivals/GI - State dances, festivals, GI tags",
+    "group": "Static GK",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 68,
+    "num": 68,
+    "text": "Abbreviations and days - Common abbreviations, days",
+    "group": "Static GK",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 69,
+    "num": 69,
+    "text": "Cell and division - Structure, organelles, mitosis/meiosis",
+    "group": "Biology",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 70,
+    "num": 70,
+    "text": "Human body systems - Digestive, circulatory, respiratory, nervous",
+    "group": "Biology",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 71,
+    "num": 71,
+    "text": "Nutrition and vitamins - Vitamins, deficiency diseases, diet",
+    "group": "Biology",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 72,
+    "num": 72,
+    "text": "Diseases and pathogens - Communicable vs non-communicable",
+    "group": "Biology",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 73,
+    "num": 73,
+    "text": "Blood, immunity, vaccines - Blood groups, immunity, vaccination",
+    "group": "Biology",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 74,
+    "num": 74,
+    "text": "Genetics basics - DNA/RNA, heredity, Mendel basics",
+    "group": "Biology",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 75,
+    "num": 75,
+    "text": "Plant physiology - Photosynthesis, respiration, transport",
+    "group": "Biology",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 76,
+    "num": 76,
+    "text": "Classification - Five kingdoms, plant and animal groups",
+    "group": "Biology",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 77,
+    "num": 77,
+    "text": "Biotech and ecology basics - Applications, ecosystem fundamentals",
+    "group": "Biology",
+    "wt": 1,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 78,
+    "num": 78,
+    "text": "Basic concepts - GDP/GNP/NNP, inflation, business cycle",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 79,
+    "num": 79,
+    "text": "National income - Methods, measurement bodies",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 80,
+    "num": 80,
+    "text": "Banking and RBI - Functions, rates (repo/CRR/SLR)",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 81,
+    "num": 81,
+    "text": "Financial markets - Money vs capital market, SEBI, indices",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 82,
+    "num": 82,
+    "text": "Public finance - Budget, deficits, taxation, GST",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 83,
+    "num": 83,
+    "text": "Planning - NITI Aayog, Five-Year Plans history",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 84,
+    "num": 84,
+    "text": "Agriculture - MSP, Green Revolution, schemes",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 85,
+    "num": 85,
+    "text": "Industry and infra - Sectors, policies, infrastructure",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 86,
+    "num": 86,
+    "text": "Poverty and employment - Poverty lines, unemployment, HDI",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 87,
+    "num": 87,
+    "text": "International economy - IMF, World Bank, WTO, BoP, forex",
+    "group": "Indian Economy",
+    "wt": 0.8,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 88,
+    "num": 88,
+    "text": "Location and physical divisions - North plain, South plain, plateau",
+    "group": "Bihar Geography",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 89,
+    "num": 89,
+    "text": "Rivers and drainage - Ganga, Kosi, Gandak, Son, Bagmati",
+    "group": "Bihar Geography",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 90,
+    "num": 90,
+    "text": "Climate and rainfall - Monsoon pattern, temperature zones",
+    "group": "Bihar Geography",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 91,
+    "num": 91,
+    "text": "Soils - Soil types and distribution",
+    "group": "Bihar Geography",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 92,
+    "num": 92,
+    "text": "Agriculture and crops - Major crops, cropping pattern, regions",
+    "group": "Bihar Geography",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 93,
+    "num": 93,
+    "text": "Minerals and resources - Mineral belts, resources",
+    "group": "Bihar Geography",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 94,
+    "num": 94,
+    "text": "Forests and wildlife - Sanctuaries, Valmiki Tiger Reserve",
+    "group": "Bihar Geography",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 95,
+    "num": 95,
+    "text": "Industries - Major industries and locations",
+    "group": "Bihar Geography",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 96,
+    "num": 96,
+    "text": "Districts and demography - Divisions, districts, population",
+    "group": "Bihar Geography",
+    "wt": 0.9,
+    "tier": "A",
+    "status": "pending"
+  },
+  {
+    "id": 97,
+    "num": 97,
+    "text": "Prehistory - Stone ages, key sites",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 98,
+    "num": 98,
+    "text": "Indus Valley Civilisation - Town planning, sites, decline",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 99,
+    "num": 99,
+    "text": "Vedic age - Early vs later Vedic, society, texts",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 100,
+    "num": 100,
+    "text": "Mahajanapadas - 16 states, RISE OF MAGADHA (Bihar)",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 101,
+    "num": 101,
+    "text": "Buddhism and Jainism - BIHAR: Bodh Gaya, Vaishali, Pawapuri",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 102,
+    "num": 102,
+    "text": "Mauryan empire - Chandragupta, Ashoka - PATALIPUTRA",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 103,
+    "num": 103,
+    "text": "Post-Mauryan - Sungas, Kushanas, Satavahanas",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 104,
+    "num": 104,
+    "text": "Gupta empire - Golden age - Pataliputra",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 105,
+    "num": 105,
+    "text": "Post-Gupta and Sangam - Harsha, southern dynasties, Sangam",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 106,
+    "num": 106,
+    "text": "Art and literature - Architecture, sculpture, texts",
+    "group": "Ancient History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 107,
+    "num": 107,
+    "text": "Matter and atomic structure - States, atom, isotopes",
+    "group": "Chemistry",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 108,
+    "num": 108,
+    "text": "Elements and periodic table - Classification, trends basics",
+    "group": "Chemistry",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 109,
+    "num": 109,
+    "text": "Bonding and reactions - Ionic/covalent, reaction types",
+    "group": "Chemistry",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 110,
+    "num": 110,
+    "text": "Acids, bases, salts - pH, indicators, common salts",
+    "group": "Chemistry",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 111,
+    "num": 111,
+    "text": "Metals and non-metals - Properties, reactivity, alloys",
+    "group": "Chemistry",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 112,
+    "num": 112,
+    "text": "Carbon compounds - Hydrocarbons, functional groups",
+    "group": "Chemistry",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 113,
+    "num": 113,
+    "text": "Everyday chemistry - Fuels, polymers, food chemistry",
+    "group": "Chemistry",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 114,
+    "num": 114,
+    "text": "Gases and radioactivity - Important gases, radioactivity basics",
+    "group": "Chemistry",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 115,
+    "num": 115,
+    "text": "Units and measurement - SI units, instruments",
+    "group": "Physics",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 116,
+    "num": 116,
+    "text": "Motion and force - Newton laws, gravitation",
+    "group": "Physics",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 117,
+    "num": 117,
+    "text": "Work, energy, power - Forms of energy, conservation",
+    "group": "Physics",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 118,
+    "num": 118,
+    "text": "Heat and thermodynamics - Temperature, heat transfer",
+    "group": "Physics",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 119,
+    "num": 119,
+    "text": "Light and optics - Reflection, refraction, lenses, eye",
+    "group": "Physics",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 120,
+    "num": 120,
+    "text": "Sound - Properties, applications",
+    "group": "Physics",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 121,
+    "num": 121,
+    "text": "Electricity and magnetism - Current, Ohm law, magnetic effects",
+    "group": "Physics",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 122,
+    "num": 122,
+    "text": "Modern physics - Atom, nucleus, applications",
+    "group": "Physics",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 123,
+    "num": 123,
+    "text": "Physiographic divisions - Himalayas, plains, plateau, coasts",
+    "group": "Indian Geography",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 124,
+    "num": 124,
+    "text": "Rivers and drainage - Himalayan vs peninsular systems",
+    "group": "Indian Geography",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 125,
+    "num": 125,
+    "text": "Climate and monsoon - Mechanism, seasons, distribution",
+    "group": "Indian Geography",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 126,
+    "num": 126,
+    "text": "Soils and vegetation - Soil types, forest types",
+    "group": "Indian Geography",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 127,
+    "num": 127,
+    "text": "Agriculture - Crops, seasons, regions",
+    "group": "Indian Geography",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 128,
+    "num": 128,
+    "text": "Minerals and energy - Distribution, conventional and renewable",
+    "group": "Indian Geography",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 129,
+    "num": 129,
+    "text": "Industries and transport - Major industries, transport networks",
+    "group": "Indian Geography",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 130,
+    "num": 130,
+    "text": "Population and census - Distribution, density, census data",
+    "group": "Indian Geography",
+    "wt": 0.9,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 131,
+    "num": 131,
+    "text": "Universe and solar system - Planets, earth motions",
+    "group": "World Geography",
+    "wt": 0.8,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 132,
+    "num": 132,
+    "text": "Latitudes and longitudes - Time zones, IDL",
+    "group": "World Geography",
+    "wt": 0.8,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 133,
+    "num": 133,
+    "text": "Continents and oceans - Major facts, locations",
+    "group": "World Geography",
+    "wt": 0.8,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 134,
+    "num": 134,
+    "text": "Atmosphere and climate - Layers, climate zones, winds",
+    "group": "World Geography",
+    "wt": 0.8,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 135,
+    "num": 135,
+    "text": "Major landforms - Mountains, plateaus, deserts",
+    "group": "World Geography",
+    "wt": 0.8,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 136,
+    "num": 136,
+    "text": "Key physical features - Rivers, ranges, lakes",
+    "group": "World Geography",
+    "wt": 0.8,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 137,
+    "num": 137,
+    "text": "Early medieval - Rajputs, Cholas administration",
+    "group": "Medieval History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 138,
+    "num": 138,
+    "text": "Delhi Sultanate - Five dynasties, key rulers",
+    "group": "Medieval History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 139,
+    "num": 139,
+    "text": "Bhakti and Sufi - Saints, ideas, impact",
+    "group": "Medieval History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 140,
+    "num": 140,
+    "text": "Mughal empire - Babur to Aurangzeb, administration",
+    "group": "Medieval History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 141,
+    "num": 141,
+    "text": "South and Marathas - Vijayanagara, Bahmani, Shivaji",
+    "group": "Medieval History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 142,
+    "num": 142,
+    "text": "Bihar in medieval - SHER SHAH SURI (Sasaram) - reforms",
+    "group": "Medieval History",
+    "wt": 0.7,
+    "tier": "B",
+    "status": "pending"
+  },
+  {
+    "id": 143,
+    "num": 143,
+    "text": "State legislature and executive - Vidhan Sabha/Parishad, Governor, CM",
+    "group": "Bihar Polity",
+    "wt": 1,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 144,
+    "num": 144,
+    "text": "Local self-government - PRIs and urban bodies in Bihar",
+    "group": "Bihar Polity",
+    "wt": 1,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 145,
+    "num": 145,
+    "text": "State commissions/governance - Key state bodies and initiatives",
+    "group": "Bihar Polity",
+    "wt": 1,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 146,
+    "num": 146,
+    "text": "State income and budget - Key figures, growth",
+    "group": "Bihar Economy",
+    "wt": 0.8,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 147,
+    "num": 147,
+    "text": "Agriculture and allied - Crops, dairy, fisheries",
+    "group": "Bihar Economy",
+    "wt": 0.8,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 148,
+    "num": 148,
+    "text": "Industry and schemes - Industries, state economic schemes",
+    "group": "Bihar Economy",
+    "wt": 0.8,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 149,
+    "num": 149,
+    "text": "Poverty and HDI - State human development indicators",
+    "group": "Bihar Economy",
+    "wt": 0.8,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 150,
+    "num": 150,
+    "text": "Ecosystem and food chain - Components, energy flow",
+    "group": "Environment",
+    "wt": 0.4,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 151,
+    "num": 151,
+    "text": "Biodiversity and conservation - Hotspots, protected areas, species",
+    "group": "Environment",
+    "wt": 0.4,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 152,
+    "num": 152,
+    "text": "Climate change - Global warming, COP, agreements",
+    "group": "Environment",
+    "wt": 0.4,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 153,
+    "num": 153,
+    "text": "Pollution - Types, effects, control",
+    "group": "Environment",
+    "wt": 0.4,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 154,
+    "num": 154,
+    "text": "Conventions and renewables - CITES, Ramsar; solar/wind basics",
+    "group": "Environment",
+    "wt": 0.4,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 155,
+    "num": 155,
+    "text": "Ancient Bihar - Magadha, Maurya, Gupta, Nalanda",
+    "group": "Bihar History",
+    "wt": 0.5,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 156,
+    "num": 156,
+    "text": "Medieval Bihar - Sher Shah Suri, Sasaram",
+    "group": "Bihar History",
+    "wt": 0.5,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 157,
+    "num": 157,
+    "text": "Modern Bihar - 1857 Kunwar Singh, Champaran, Quit India",
+    "group": "Bihar History",
+    "wt": 0.5,
+    "tier": "C",
+    "status": "pending"
+  },
+  {
+    "id": 158,
+    "num": 158,
+    "text": "Cultural heritage - Monuments, art, fairs of Bihar",
+    "group": "Bihar History",
+    "wt": 0.5,
+    "tier": "C",
+    "status": "pending"
+  }
+]

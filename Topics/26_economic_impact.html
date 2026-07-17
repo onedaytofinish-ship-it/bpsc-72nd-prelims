@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>26 - Economic Impact | BPSC 72nd Prelims</title>
+<link rel="stylesheet" href="_assets/navbar.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  h3 a { color: #16213e; text-decoration: none; }
+  h3 a:hover { color: #e94560; text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 200px; }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #26 • TIER A</div>
+  <div class="topic-title">Economic Impact — Drain of Wealth &amp; Land Revenue Systems</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Modern Indian History</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC PATTERN</span>
+    <strong>Three systems matching:</strong> BPSC consistently asks "Match the land revenue system with the region/introducer/year." The three systems — Zamindari (1793), Ryotwari (1800s), Mahalwari (1822) — are the highest-yield facts in this topic. Know all three columns: system, introducer, region.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC PATTERN</span>
+    <strong>Drain of Wealth + book matching:</strong> BPSC asks "Who wrote 'Poverty and Un-British Rule in India'?" → Dadabhai Naoroji. "Who wrote 'Economic History of India'?" → R.C. Dutt. "Who propounded the Drain of Wealth theory?" → Dadabhai Naoroji. Book-to-author matching is a high-probability question format.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BIHAR ANGLE</span>
+    <strong>Bihar under the Permanent Settlement:</strong> Bihar was under the Zamindari System (1793) — its zamindars became hereditary landowners who exploited peasants. This led to the <strong>Bakasht movement</strong> (1930s–50s) led by Swami Sahajanand Saraswati, and Bihar was one of the first states to abolish zamindari (1950). The Bihar connection is exam-critical.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of all three land revenue systems with the drain of wealth theory, Bihar's zamindari experience and the Bakasht movement, comparative tables, and 7 exam predictions:
+    <a href="subpages/26_land_revenue_detail.html" target="_blank">Land Revenue Systems &amp; Drain of Wealth Detail →</a>
+  </div>
+
+  <h3>A. The Three Land Revenue Systems — Master Comparison <span class="current-tag">EXAM CORE</span></h3>
+  <p>BPSC tests this table more than any other in this topic. Learn every column: system, introducer, year, region, and settlement made with whom.</p>
+  <table>
+    <tr><th>Attribute</th><th>Permanent Settlement (Zamindari)</th><th>Ryotwari System</th><th>Mahalwari System</th></tr>
+    <tr><td><strong>Introduced by</strong></td><td>Lord Cornwallis</td><td>Thomas Munro &amp; Alexander Read</td><td>Holt Mackenzie</td></tr>
+    <tr><td><strong>Year</strong></td><td>1793</td><td>Late 1790s–1820</td><td>1822</td></tr>
+    <tr><td><strong>Region</strong></td><td>Bengal, Bihar, Orissa</td><td>South India (Madras, Bombay)</td><td>North-Western Provinces (UP, Punjab, Delhi)</td></tr>
+    <tr><td><strong>Settlement with</strong></td><td>Zamindar (landlord)</td><td>Ryot (individual peasant)</td><td>Village community (mahal)</td></tr>
+    <tr><td><strong>Revenue fixed?</strong></td><td><strong>Permanently</strong> (never changed)</td><td>Revised every 30 years (later 5)</td><td>Revised periodically</td></tr>
+    <tr><td><strong>Land ownership</strong></td><td>Zamindar = owner</td><td>Peasant = owner (govt collects directly)</td><td>Village = owner (collectively)</td></tr>
+    <tr><td><strong>Government share</strong></td><td>10/11th (zamindar keeps 1/11th)</td><td>Direct from peasant (~50% of produce)</td><td>From village collectively (~50%)</td></tr>
+    <tr><td><strong>Peasant protection</strong></td><td><strong>None</strong> — zamindar raises rent at will</td><td>Direct settlement but high assessment</td><td>Collective responsibility</td></tr>
+    <tr><td><strong>Key flaw</strong></td><td>Peasant exploitation; zamindar profited from rising output while government share was frozen</td><td>Over-assessment; peasants couldn't pay during famines</td><td>Village elite captured the system</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — "Z-R-M: East-South-North"</strong><br>
+    <strong>Z</strong>amindari → <strong>E</strong>ast (Bengal-Bihar-Orissa, Cornwallis 1793)<br>
+    <strong>R</strong>yotwari → <strong>S</strong>outh (Madras-Bombay, Munro 1820)<br>
+    <strong>M</strong>ahalwari → <strong>N</strong>orth (NW Provinces, Mackenzie 1822)<br>
+    <em>"East-South-North: Z-R-M" — three systems, three regions, three decades (1793, ~1800, 1822).</em>
+  </div>
+
+  <div class="img-container">
+    <img src="images/lord_cornwallis_india.jpg" alt="Lord Cornwallis statue in India">
+    <div class="img-caption">Lord Cornwallis — the Governor-General who introduced the Permanent Settlement (Zamindari System) in 1793. The Cornwallis statue at Fort St. George, Chennai.</div>
+  </div>
+
+  <h3>B. The Permanent Settlement (Zamindari System, 1793) — Detailed</h3>
+  <ul>
+    <li><strong>Introduced by:</strong> Lord Cornwallis in 1793, covering Bengal, Bihar, and Orissa (the Diwani territories).</li>
+    <li><strong>Key principle:</strong> the zamindar was made the hereditary <strong>owner</strong> of the land. The government's revenue demand was fixed <strong>permanently</strong> — it would never change regardless of the actual agricultural output.</li>
+    <li><strong>Revenue split:</strong> the zamindar paid 10/11th of the collected revenue to the government and kept 1/11th (~9%) for himself.</li>
+    <li><strong>The zamindar's incentive:</strong> since the government's share was fixed, any increase in agricultural output went entirely to the zamindar. This encouraged zamindars to increase production — but NOT to share the gains with peasants.</li>
+    <li><strong>The peasant's fate:</strong> the ryot (peasant cultivator) had <strong>no legal protection</strong>. The zamindar could raise the peasant's rent at will, evict the peasant, or use coercive methods. The peasant became a tenant-at-will on land he had traditionally cultivated.</li>
+    <li><strong>Default and auction:</strong> if the zamindar failed to pay the fixed revenue, his land was auctioned. This led to frequent transfers of zamindari and further instability for peasants.</li>
+    <li><strong>Historical impact:</strong> the Permanent Settlement created a class of loyal zamindar collaborators for the British — the zamindars became a political support base for colonial rule. It also impoverished the peasantry, especially in Bihar where the <strong>Bakasht movement</strong> (1930s–50s) demanded the abolition of zamindari.</li>
+  </ul>
+
+  <h3>C. The Ryotwari System — Detailed</h3>
+  <ul>
+    <li><strong>Introduced by:</strong> Captain Alexander Read and Sir Thomas Munro (later Governor of Madras) in the late 1790s–early 1800s.</li>
+    <li><strong>Region:</strong> Madras Presidency, Bombay Presidency, parts of Assam and Coorg.</li>
+    <li><strong>Key principle:</strong> the revenue settlement was made <strong>directly with the ryot</strong> (individual peasant cultivator) — no zamindar intermediary. The peasant was recognised as the landowner.</li>
+    <li><strong>Revenue revision:</strong> the revenue was <strong>not</strong> permanently fixed — it was revised every 30 years (later reduced to 5 years). The government assessed the productivity of the land and set the revenue accordingly.</li>
+    <li><strong>Assessment:</strong> the revenue was typically set at 50% of the gross produce (in cash or kind). This was often excessive and left peasants struggling, especially during famines.</li>
+    <li><strong>Advantage over Zamindari:</strong> the peasant was not at the mercy of a zamindar — the settlement was with the government directly. But over-assessment still caused hardship.</li>
+    <li><strong>Thomas Munro's role:</strong> Munro argued that the ryotwari system was more aligned with traditional Indian land tenure and that it would be fairer to peasants. He became Governor of Madras in 1820 and extended the system.</li>
+  </ul>
+
+  <h3>D. The Mahalwari System (1822) — Detailed</h3>
+  <ul>
+    <li><strong>Introduced by:</strong> Holt Mackenzie in 1822 in the North-Western Provinces (later UP; also extended to Punjab and Delhi).</li>
+    <li><strong>Region:</strong> North-Western Provinces, Punjab, Delhi, parts of Central India.</li>
+    <li><strong>Key principle:</strong> the revenue settlement was made with the <strong>mahal</strong> (village) as a unit. The village community was collectively responsible for the revenue — if one villager defaulted, others had to cover the shortfall.</li>
+    <li><strong>Compromise system:</strong> it was a hybrid — like the Zamindari (it had an intermediary, the village), and like the Ryotwari (the revenue was revised periodically, not permanently fixed).</li>
+    <li><strong>Revenue revision:</strong> revised periodically (not permanently fixed like the Zamindari system).</li>
+    <li><strong>Assessment:</strong> based on the total produce of the village, with the village elders responsible for distribution among individual cultivators.</li>
+    <li><strong>Flaw:</strong> the village elite (landlords, headmen) often captured the system, exploiting smaller cultivators while the collective responsibility masked individual exploitation.</li>
+  </ul>
+
+  <h3>E. The Drain of Wealth — Dadabhai Naoroji's Theory</h3>
+  <ul>
+    <li><strong>The theory:</strong> Dadabhai Naoroji (the "Grand Old Man of India") argued that British rule was draining India's wealth to Britain without any economic return — a unilateral transfer of wealth that impoverished India and caused famines.</li>
+    <li><strong>The book:</strong> 'Poverty and Un-British Rule in India' (1901) — Naoroji estimated India was losing <strong>£30–40 million per year</strong> (in 19th-century values) through the drain.</li>
+    <li><strong>Three channels of drain:</strong>
+      <ol>
+        <li><strong>Home Charges:</strong> salaries and pensions of British officials, dividends to EIC shareholders, military costs (including wars outside India), interest on railway loans, cost of the India Office in London. This was the largest component.</li>
+        <li><strong>Unilateral transfer of profits:</strong> British companies operating in India (plantations, railways, trade) remitted their profits to Britain without reinvesting in India.</li>
+        <li><strong>Remittance of savings:</strong> British officials who served in India saved part of their salaries and remitted them to Britain when they retired — taking wealth out of India permanently.</li>
+      </ol>
+    </li>
+    <li><strong>Key argument:</strong> the drain was not just a transfer — it was a <strong>structural</strong> extraction. The wealth India lost was not compensated by any investment or trade return. This was the fundamental cause of India's poverty and recurring famines.</li>
+    <li><strong>Other contributors:</strong> R.C. Dutt ('Economic History of India', 2 vols, 1901–03), M.G. Ranade, G.V. Joshi, and William Digby all contributed to the economic critique of colonialism, but Naoroji was the primary architect of the Drain theory.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Drain Channels "H-U-R":</strong><br>
+    <strong>H</strong>ome charges (salaries, pensions, military, interest) → largest component<br>
+    <strong>U</strong>nilateral profit transfer (British companies) → no reinvestment in India<br>
+    <strong>R</strong>emittance of savings (retiring officials) → wealth leaves permanently<br>
+    <em>"Naoroji said H-U-R: Home, Unilateral, Remittance — three channels draining India."</em>
+  </div>
+
+  <div class="img-container">
+    <img src="images/trade.png" alt="Colonial trade and economic exploitation">
+    <div class="img-caption">The drain of wealth: India's raw materials (cotton, indigo, opium) were exported to Britain, processed into manufactured goods, and sold back to India — a one-way flow of wealth.</div>
+  </div>
+</div>
+
+<!-- FLOWCHART: THREE SYSTEMS BY REGION -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📊</span> Land Revenue Systems by Region — Visual Map</div>
+  <p style="margin-bottom: 12px;">The three systems map to three regions of British India — East, South, and North. Know the geography.</p>
+  <div class="flowchart">
+    <div class="flow-node">EAST: Bengal-Bihar-Orissa → Zamindari (Cornwallis, 1793)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">SOUTH: Madras-Bombay → Ryotwari (Munro, ~1800–1820)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">NORTH: NW Provinces-Punjab-Delhi → Mahalwari (Mackenzie, 1822)</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📋</span> Fact Matrix — Economic Impact</div>
+  <table>
+    <tr><th>Item</th><th>Value</th><th>Notes</th></tr>
+    <tr><td><strong>Permanent Settlement year</strong></td><td>1793</td><td>Lord Cornwallis; Bengal-Bihar-Orissa</td></tr>
+    <tr><td><strong>Zamindar's share</strong></td><td>1/11th (~9%)</td><td>Govt got 10/11th; fixed permanently</td></tr>
+    <tr><td><strong>Ryotwari introducer</strong></td><td>Thomas Munro &amp; Alexander Read</td><td>South India; settlement with individual ryot</td></tr>
+    <tr><td><strong>Ryotwari revision</strong></td><td>Every 30 years (later 5)</td><td>NOT permanently fixed</td></tr>
+    <tr><td><strong>Mahalwari year</strong></td><td>1822</td><td>Holt Mackenzie; NW Provinces</td></tr>
+    <tr><td><strong>Mahalwari settlement with</strong></td><td>Village (mahal)</td><td>Collective responsibility</td></tr>
+    <tr><td><strong>Drain of Wealth author</strong></td><td>Dadabhai Naoroji</td><td>'Poverty and Un-British Rule in India' (1901)</td></tr>
+    <tr><td><strong>Drain estimate</strong></td><td>£30–40 million/year</td><td>Three channels: Home charges, Profit transfer, Savings remittance</td></tr>
+    <tr><td><strong>Economic History author</strong></td><td>R.C. Dutt</td><td>'Economic History of India' (2 vols, 1901–03)</td></tr>
+    <tr><td><strong>Bihar land system</strong></td><td>Zamindari (1793)</td><td>Led to Bakasht movement; zamindari abolished 1950</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar &amp; the Permanent Settlement — From Zamindari to Bakasht</div>
+    <ul>
+      <li><strong>Bihar under Zamindari:</strong> Bihar was part of the Bengal Presidency and thus under the Permanent Settlement (1793). Bihar's zamindars became hereditary landowners who collected rent from peasants with no legal protection. The system created a class of powerful zamindars (the Darbhanga Raj, the Bettiah Raj, the Hathwa Raj) who dominated Bihar's agrarian economy for over 150 years.</li>
+      <li><strong>Peasant exploitation:</strong> the Permanent Settlement allowed zamindars to raise rent at will, evict peasants, and extract arbitrary dues (abwabs). Bihar's peasants were among the most exploited in India — the zamindar's share of the peasant's produce often exceeded 50%.</li>
+      <li><strong>The Bakasht movement (1930s–50s):</strong> a landmark peasant movement in Bihar led by <strong>Swami Sahajanand Saraswati</strong> and the Kisan Sabha. "Bakasht" land was land cultivated by the tenant but owned by the zamindar. The movement demanded that bakasht land be transferred to the cultivating tenant. This was one of India's most powerful anti-zamindari movements.</li>
+      <li><strong>Zamindari abolition (1950):</strong> Bihar was one of the <strong>first states</strong> to abolish the zamindari system after Independence (the Bihar Land Reforms Act, 1950). This was a direct consequence of the Permanent Settlement's legacy of peasant exploitation and the decades of peasant movements.</li>
+      <li><strong>Bihar zamindars and the British:</strong> the major zamindars of Bihar (Darbhanga, Bettiah, Hathwa) were loyal supporters of the British — they provided political and financial support for colonial rule. This zamindar-British alliance was the social basis of the Permanent Settlement.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>↔ Topic 24 (Advent of Europeans):</strong> The English EIC's commercial expansion (factories, Farman of 1717) created the economic foundation that the land revenue systems formalised. The Diwani of 1765 (Topic 25) was the legal basis for the Permanent Settlement.<br>
+    <strong>↔ Topic 25 (Plassey and Buxar):</strong> The Diwani of 1765 gave the EIC the right to collect revenue in Bengal-Bihar-Orissa — directly leading to the Permanent Settlement (1793) as the mechanism for extraction.<br>
+    <strong>↔ Topic 27 (Revolt of 1857):</strong> The economic exploitation caused by the land revenue systems (over-assessment, peasant dispossession, zamindar oppression) was a major cause of the 1857 Revolt. Bihar's Kunwar Singh led the revolt partly in response to zamindari exploitation.<br>
+    <strong>↔ Topic 29 (INC Formation):</strong> Dadabhai Naoroji, who articulated the Drain of Wealth theory, was a founding member and thrice President of the INC. The economic critique of colonialism was the INC's earliest ideological foundation.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance &amp; Potential Traps</div>
+  <ul>
+    <li><strong>System ↔ region trap:</strong> Zamindari = East (Bengal-Bihar-Orissa), NOT South. Ryotwari = South (Madras-Bombay), NOT Bengal. Mahalwari = North (NW Provinces), NOT South. BPSC swaps these constantly.</li>
+    <li><strong>System ↔ introducer trap:</strong> Cornwallis = Zamindari (NOT Ryotwari). Munro = Ryotwari (NOT Zamindari). Mackenzie = Mahalwari (NOT Ryotwari). Don't swap the names.</li>
+    <li><strong>Year trap:</strong> Zamindari = 1793 (NOT 1765 or 1772). 1765 = Diwani; 1772 = Hastings' reforms. Ryotwari = ~1800–1820 (not a single year). Mahalwari = 1822.</li>
+    <li><strong>Settlement-with trap:</strong> Zamindari = zamindar (landlord). Ryotwari = ryot (individual peasant). Mahalwari = mahal (village community). Don't confuse who the settlement is made with.</li>
+    <li><strong>Book-author trap:</strong> Naoroji = 'Poverty and Un-British Rule in India' (NOT 'Economic History'). Dutt = 'Economic History of India' (NOT 'Poverty and Un-British Rule'). Don't swap the books and authors.</li>
+    <li><strong>Drain amount trap:</strong> Naoroji estimated £30–40 million/year (NOT £3–4 million or £300–400 million). The order of magnitude matters.</li>
+  </ul>
+
+  <div class="prediction-box">
+    <span class="prediction-tag">72nd Prediction</span>
+    <strong>Top 5 Predictions (72nd BPSC — Economic Impact):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) System ↔ region matching (HIGH):</strong> "Match: Permanent Settlement—Bengal-Bihar-Orissa, Ryotwari—Madras-Bombay, Mahalwari—NW Provinces." Classic BPSC matching format.</li>
+      <li><strong>(2) Drain of Wealth + author (HIGH):</strong> "Who propounded the Drain of Wealth theory?" → Dadabhai Naoroji. "Which book?" → 'Poverty and Un-British Rule in India' (1901).</li>
+      <li><strong>(3) Bihar under Zamindari (MEDIUM):</strong> "Bihar was under which land revenue system?" → Permanent Settlement (Zamindari). "Which movement demanded zamindari abolition in Bihar?" → Bakasht movement (Swami Sahajanand Saraswati).</li>
+      <li><strong>(4) Introducer matching (MEDIUM):</strong> "Permanent Settlement was introduced by?" → Lord Cornwallis. "Ryotwari by?" → Thomas Munro. "Mahalwari by?" → Holt Mackenzie.</li>
+      <li><strong>(5) "Not correctly matched" (LOW):</strong> Likely trap: "Ryotwari — Lord Cornwallis — Bengal" (WRONG — Ryotwari was Munro, South India) or "Economic History of India — Dadabhai Naoroji" (WRONG — by R.C. Dutt).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Permanent Settlement (Zamindari System) was introduced by whom and in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Lord Cornwallis, 1793</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Warren Hastings, 1772</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Lord Wellesley, 1798</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Thomas Munro, 1820</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Lord Cornwallis introduced the Permanent Settlement in 1793 in Bengal-Bihar-Orissa. Zamindars became landowners; revenue fixed permanently. Hastings (1772) and Wellesley (1798) preceded/followed with different reforms; Munro introduced Ryotwari.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Under the Permanent Settlement of 1793, what fraction of the revenue did the zamindar keep?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) 1/11 (about 9%)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) 1/5 (20%)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) 1/3 (33%)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) 1/2 (50%)</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — The zamindar kept 1/11th (~9%) and paid 10/11th to the government. This was fixed permanently. The zamindar's profit increased as output grew, but the peasant got no share of the gains.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Permanent Settlement was applicable to which provinces?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Bengal, Bihar, and Orissa</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Madras and Bombay</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Punjab and North-West Provinces</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) All of India</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — The Permanent Settlement applied to Bengal, Bihar, and Orissa — the EIC's Diwani territories. Bihar was part of the Bengal Presidency and thus under the Zamindari system, which led to the Bakasht movement later.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Ryotwari System was introduced by whom?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Lord Cornwallis</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Thomas Munro and Alexander Read</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Lord Wellesley</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Holt Mackenzie</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — The Ryotwari System was introduced by Captain Alexander Read and developed by Sir Thomas Munro in the late 18th–early 19th century. Settlement was made directly with the ryot (peasant), not zamindars.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Under the Ryotwari System, the revenue settlement was made with whom?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) The zamindar (landlord)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) The ryot (individual peasant cultivator)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) The village community as a whole</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) The village headman only</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — Under Ryotwari, the settlement was made directly with the individual peasant (ryot). No zamindar intermediary. The government collected revenue directly. Revenue was revised every 30 years (later 5), not permanently fixed.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The Mahalwari System was introduced by whom and in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Lord Cornwallis, 1793</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Thomas Munro, 1820</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Holt Mackenzie, 1822</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Lord Bentinck, 1833</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — Holt Mackenzie introduced the Mahalwari System in 1822 in the North-Western Provinces. Settlement was made with the village (mahal) collectively — a compromise between Zamindari and Ryotwari.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Under the Mahalwari System, the revenue settlement was made with whom?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Individual zamindars</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Individual peasants (ryots)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) The village community (mahal) collectively</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) The village headman only</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — Under Mahalwari, the settlement was made with the mahal (village community) collectively. The village was responsible for the revenue — a hybrid of Zamindari (intermediary) and Ryotwari (periodic revision).</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Match the land revenue system with the region where it was primarily implemented.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Permanent Settlement — South India</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Ryotwari — Bengal-Bihar-Orissa</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Mahalwari — North-Western Provinces</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Ryotwari — Punjab</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Mahalwari → North-Western Provinces (UP, Punjab, Delhi). Permanent Settlement was Bengal-Bihar-Orissa (NOT South); Ryotwari was South India (NOT Bengal or Punjab). Three systems, three regions: East-South-North.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The concept of 'Drain of Wealth' from India was most prominently articulated by which leader?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Dadabhai Naoroji</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) R.C. Dutt</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) M.G. Ranade</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) G.V. Joshi</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Dadabhai Naoroji articulated the Drain of Wealth theory in 'Poverty and Un-British Rule in India' (1901). He estimated India lost £30–40 million/year through home charges, profit transfers, and savings remittances. R.C. Dutt, Ranade, and Joshi contributed but Naoroji was the primary architect.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The book 'Poverty and Un-British Rule in India' was written by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) R.C. Dutt</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Dadabhai Naoroji</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) M.G. Ranade</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) B.M. Malabari</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Naoroji wrote 'Poverty and Un-British Rule in India' (1901). R.C. Dutt wrote 'Economic History of India' (2 vols, 1901–03). Both are exam-relevant: Naoroji = Drain theory; Dutt = Economic History. Don't swap the books.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The 'Home Charges' under British rule referred to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) The cost of maintaining the British army in India</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) The cost of British civil administration in India</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) The amount India paid to Britain for salaries, pensions, military costs, and interest on railways</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) The cost of Indian imports from Britain</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (C)</strong> — Home Charges included salaries/pensions of British officials, EIC dividends, military costs (including wars outside India), railway interest, and India Office costs. This was the largest component of the 'drain' — wealth extracted without economic return.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Which of the following was NOT a channel of the 'Drain of Wealth' from India to Britain?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Home charges (salaries, pensions, military costs)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Unilateral transfer of profits by British businesses</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Remittance of savings by British officials</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Tax revenue spent on Indian infrastructure (roads, canals, schools)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — Tax revenue spent on Indian infrastructure was domestic spending within India, NOT a channel of drain. The three channels were: Home charges, unilateral profit transfers, and savings remittances — all unilateral transfers of wealth to Britain without economic return.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Consider about the Permanent Settlement: 1. The zamindar became the owner of the land. 2. The revenue was fixed permanently. 3. The ryot (peasant) was protected from arbitrary rent increases. Which is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Statements 1 and 2 are correct. Statement 3 is WRONG — the Permanent Settlement did NOT protect the ryot. The zamindar could raise rent at will. The absence of peasant protection was a major flaw of the system.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Permanent Settlement is also known as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) The Ryotwari System</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) The Zamindari System</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) The Mahalwari System</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) The Jagirdari System</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — The Permanent Settlement (1793) is also known as the Zamindari System because it made the zamindar the hereditary owner. The zamindar was the intermediary who collected from peasants and paid a fixed amount to the government.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Which land revenue system was a compromise between the Zamindari and Ryotwari systems?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Permanent Settlement</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Ryotwari System</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Mahalwari System</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Jagirdari System</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (C)</strong> — The Mahalwari System (1822) was a compromise: like Zamindari (had an intermediary — the village), and like Ryotwari (revenue revised periodically, not permanently fixed). The village was collectively responsible.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Who was the Governor-General who introduced the Permanent Settlement?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Warren Hastings</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Lord Cornwallis</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Lord Wellesley</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Lord William Bentinck</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Lord Cornwallis (GG 1786–1793) introduced the Permanent Settlement in 1793. He also introduced the Cornwallis Code (separation of revenue and judiciary) and civil service reforms.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Arrange in chronological order: 1. Permanent Settlement 2. Ryotwari System 3. Mahalwari System</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 1, 2, 3</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 2, 1, 3</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 1, 3, 2</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 3, 2, 1</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Correct order: Permanent Settlement (1793) → Ryotwari (~1800–1820) → Mahalwari (1822). Zamindari in East first, then Ryotwari in South, then Mahalwari in North.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The 'Deprived Peasant' under the Permanent Settlement was most vulnerable because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) The government could raise revenue at any time</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) The zamindar could raise rent at will with no legal protection for the peasant</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) The peasant had to pay revenue directly to the government</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) The village community was collectively responsible</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — Under the Permanent Settlement, the government's revenue was fixed, but the zamindar could raise the peasant's rent at will. The peasant had no legal protection and was at the mercy of the zamindar — the most exploited class.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The Economic History of India (two volumes) was written by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Dadabhai Naoroji</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) R.C. Dutt</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) M.G. Ranade</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) William Digby</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — Romesh Chunder Dutt (R.C. Dutt) wrote 'Economic History of India' (2 vols, 1901–03). Naoroji wrote 'Poverty and Un-British Rule in India'. Don't swap: Naoroji = Drain theory; Dutt = Economic History.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which of the following is NOT correctly matched?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Permanent Settlement — Lord Cornwallis — 1793</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Ryotwari System — Thomas Munro — South India</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Mahalwari System — Holt Mackenzie — North-Western Provinces</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Ryotwari System — Lord Cornwallis — Bengal</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — The last option is wrongly matched: Ryotwari was introduced by Thomas Munro (NOT Cornwallis) in South India (NOT Bengal). Cornwallis introduced the Permanent Settlement (Zamindari) in Bengal (1793). The other three are correctly matched.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Under the Ryotwari System, the revenue was revised every:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Permanently fixed (never revised)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Every 30 years (later revised to 5 years)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Every year</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) Every 50 years</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — Under Ryotwari, the revenue was revised every 30 years (later reduced to 5). Unlike the Permanent Settlement (fixed forever), Ryotwari revenue was NOT permanent — the government could adjust it based on productivity.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Bihar was under which land revenue system during British rule?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Ryotwari System</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Mahalwari System</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Permanent Settlement (Zamindari)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Jagirdari System</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — Bihar was under the Permanent Settlement (Zamindari, 1793) because it was part of the Bengal Presidency under the Diwani of 1765. Bihar's zamindars became hereditary landowners. This led to the Bakasht movement and zamindari abolition (1950).</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Dadabhai Naoroji estimated that India was losing approximately how much per year through the 'Drain of Wealth'?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) £3–4 million</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) £30–40 million</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) £300–400 million</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) £3–4 billion</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — Naoroji estimated India lost approximately £30–40 million per year (19th-century values) through the drain. This was a massive sum relative to India's GDP. He argued this unilateral transfer was the primary cause of India's poverty and famines.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Which of the following was a major consequence of the Permanent Settlement for Bihar's peasantry?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Peasants became landowners</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Zamindars became powerful intermediaries who exploited peasants; led to the Bakasht movement later</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Revenue was collected directly from peasants by the government</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) The village community was collectively responsible for revenue</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (B)</strong> — In Bihar under the Permanent Settlement, zamindars became powerful hereditary landowners who exploited peasants with no legal protection. This led to the Bakasht movement (1930s–50s) led by Swami Sahajanand Saraswati, and Bihar abolished zamindari in 1950.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The Bakasht movement in Bihar was led by which leader?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) Swami Sahajanand Saraswati</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) Sri Krishna Sinha</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — Swami Sahajanand Saraswati led the Bakasht movement in Bihar (1930s–50s), demanding that bakasht land (tenant-cultivated but zamindar-owned) be transferred to the cultivating tenant. He founded the Kisan Sabha and was one of India's most powerful peasant leaders.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Permanent_Settlement" target="_blank">Permanent Settlement — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Lord Cornwallis, 1793; Zamindari system in Bengal-Bihar-Orissa</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Ryotwari" target="_blank">Ryotwari System — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Thomas Munro; South India; settlement with individual peasant</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Mahalwari" target="_blank">Mahalwari System — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Holt Mackenzie, 1822; NW Provinces; village settlement</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Dadabhai_Naoroji" target="_blank">Dadabhai Naoroji — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Drain of Wealth theory; 'Poverty and Un-British Rule in India' (1901)</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Romesh_Chunder_Dutt" target="_blank">R.C. Dutt — Wikipedia</a> <span style="color:#64748b;font-size:12px;">'Economic History of India' (2 vols, 1901–03)</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Swami_Sahajanand_Saraswati" target="_blank">Swami Sahajanand Saraswati — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Bakasht movement leader; Kisan Sabha; Bihar</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 26 — Economic Impact • Generated 2026-07-17 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'a', q4: 'b', q5: 'b',
+  q6: 'c', q7: 'c', q8: 'c', q9: 'a', q10: 'b',
+  q11: 'c', q12: 'd', q13: 'a', q14: 'b', q15: 'c',
+  q16: 'b', q17: 'a', q18: 'b', q19: 'b', q20: 'd',
+  q21: 'b', q22: 'c', q23: 'b', q24: 'b', q25: 'b'
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

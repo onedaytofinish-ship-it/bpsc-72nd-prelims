@@ -1,0 +1,327 @@
+[
+ {
+  "q": "World famous Madhubani (Mithila) painting is found in which district of Bihar? (70th BPSC PYQ)",
+  "options": [
+   "Darbhanga",
+   "Samastipur",
+   "Madhepura",
+   "Madhubani"
+  ],
+  "answer": 3,
+  "explanation": "The GI-tagged Mithila painting tradition takes its name from Madhubani district; the 70th BPSC asked this with exactly these four options. Darbhanga is the cultural capital of the Mithila region and the classic distractor.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th p.38"
+ },
+ {
+  "q": "The first edition of the Nalanda Literature Festival (December 2025) was organised at: (71st BPSC venue pattern)",
+  "options": [
+   "Rajgir",
+   "Madhubani",
+   "Vaishali",
+   "Gaya"
+  ],
+  "answer": 0,
+  "explanation": "The 1st Nalanda Literature Festival ran 21-25 Dec 2025 at the Rajgir Convention Centre, inaugurated by Governor Arif Mohammad Khan. The 71st BPSC used this '2025 event organised where?' venue format with Bihar towns as options.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st p.4"
+ },
+ {
+  "q": "In Chhath Mahaparva 2025, the Sandhya Arghya (evening offering to the setting Sun) was offered on:",
+  "options": [
+   "25 October 2025",
+   "26 October 2025",
+   "27 October 2025",
+   "28 October 2025"
+  ],
+  "answer": 2,
+  "explanation": "Sequence: Nahay Khay 25 Oct, Kharna/Lohanda 26 Oct, Sandhya Arghya 27 Oct, Usha Arghya 28 Oct 2025. 28 Oct is the dawn Usha Arghya to the rising Sun, not the evening Sandhya Arghya.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st p.4"
+ },
+ {
+  "q": "Consider the following statements about Chhath Mahaparva: 1. It is dedicated to the Sun God (Surya) and Chhathi Maiya. 2. It is a four-day festival that begins with Nahay Khay. 3. In 2025, the concluding Usha Arghya was offered on 28 October. Which of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct. Chhath worships Surya and Chhathi Maiya across four days (Nahay Khay, Kharna, Sandhya Arghya, Usha Arghya); the 2025 Usha Arghya fell on 28 October, when the 36-hour fast is broken (paran).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "As of 15 July 2026, the status of 'Chhath Mahaparva' on UNESCO's Representative List of Intangible Cultural Heritage is:",
+  "options": [
+   "Inscribed in December 2025 at the Red Fort session",
+   "Inscribed in 2023, the same year as Garba",
+   "Not yet inscribed - a multinational nomination has been initiated for the 2026-27 cycle",
+   "Rejected by UNESCO in 2025"
+  ],
+  "answer": 2,
+  "explanation": "India initiated a multinational nomination (IGNCA consultations of 15 Sep 2025, chaired by Culture Secretary Vivek Aggarwal) for the 2026-27 cycle; as of mid-July 2026 Chhath is still in process, NOT on the list. Deepavali, not Chhath, was inscribed at the Dec 2025 Red Fort session; Garba was inscribed in 2023.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The September 2025 consultations for the multinational UNESCO nomination of Chhath Mahaparva, chaired by the Culture Secretary at IGNCA, initially involved which group of countries besides India?",
+  "options": [
+   "UAE, Suriname and the Netherlands",
+   "USA, UK and Canada",
+   "Bangladesh, Sri Lanka and Bhutan",
+   "Brazil, South Africa and Indonesia"
+  ],
+  "answer": 0,
+  "explanation": "The 15 Sep 2025 IGNCA consultations involved the UAE, Suriname and the Netherlands; Mauritius, Fiji and Nepal joined later. The common thread is the Bhojpuri diaspora that celebrates Chhath abroad, hence a multinational nomination.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In December 2025, 'Deepavali' was inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity at:",
+  "options": [
+   "The 19th session of the ICH Committee in Paris",
+   "The 20th session of the ICH Committee, hosted by India at the Red Fort, New Delhi",
+   "The 20th session of the ICH Committee in Jaipur",
+   "The 18th session of the ICH Committee in Kyoto"
+  ],
+  "answer": 1,
+  "explanation": "The 20th ICH Committee session (8-13 Dec 2025) was hosted by India at the Red Fort, New Delhi - the first time India hosted the session - and inscribed Deepavali as India's 16th ICH element.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements: 1. Chhath was inscribed on UNESCO's ICH Representative List in December 2025. 2. Deepavali became India's 16th element on the ICH Representative List. 3. The December 2025 ICH Committee session was the first ever hosted by India. Which of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "explanation": "Statement 1 is false: Chhath is only nominated (2026-27 multinational cycle), not inscribed. Statements 2 and 3 are correct: Deepavali took India's tally from 15 to 16 at the Red Fort session (Dec 2025), the first ICH session hosted by India.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Sonepur Mela (Harihar Kshetra Mela) is held: (70th BPSC venue pattern)",
+  "options": [
+   "At the confluence of the Ganga and the Son, near Arrah",
+   "On the banks of the Kosi in Saharsa district",
+   "At the confluence of the Ganga and the Gandak in Saran district",
+   "On the banks of the Bagmati in Muzaffarpur district"
+  ],
+  "answer": 2,
+  "explanation": "Sonepur sits at the Ganga-Gandak sangam in Saran district (Harihar Kshetra). It begins around Kartik Purnima (early Nov-early Dec in 2025) and is billed as Asia's largest cattle fair. The Son-Arrah pairing is the geography trap.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th p.40"
+ },
+ {
+  "q": "Consider the following statements about the Sonepur Mela: 1. It is traditionally described as Asia's largest cattle fair. 2. It is associated with the legend of Gajendra Moksha. 3. The sale of elephants at the fair has been banned since 2004 under the Wildlife (Protection) Act, 1972. Which of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct. Legend: Vishnu rescued the elephant-king Gajendra from a crocodile at this kshetra. Since the 2004 ban (Wildlife Protection Act, 1972), elephants may be displayed but not sold at the fair.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th p.40"
+ },
+ {
+  "q": "The Pitru Paksha Mela, where lakhs perform pind daan for ancestors, is centred on the Vishnupad Temple at:",
+  "options": [
+   "Buxar",
+   "Gaya",
+   "Sasaram",
+   "Rajgir"
+  ],
+  "answer": 1,
+  "explanation": "The ~16-day Pitru Paksha fair runs at the Vishnupad Temple, Gaya (on the Falgu river); in 2025 Pitru Paksha fell on 7-21 September (Sarva Pitru Amavasya 21 Sep). Gaya is India's pre-eminent site for ancestral rites.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th p.40"
+ },
+ {
+  "q": "During the Shravani Mela (Kanwar Yatra), kanwariyas carry Ganga water from Ajgaibinath Dham, Sultanganj (Bhagalpur) to:",
+  "options": [
+   "Kashi Vishwanath, Varanasi (~250 km)",
+   "Trimbakeshwar, Nashik",
+   "Baidyanath Dham, Deoghar (~105 km)",
+   "Vaidyanath Jyotirlinga, Parli"
+  ],
+  "answer": 2,
+  "explanation": "The Sawan kanwar route runs from Sultanganj to Baidyanath Dham, Deoghar (Jharkhand), about 105 km; Sawan 2025 ran 11 Jul - 9 Aug. Parli and Trimbakeshwar are Maharashtra jyotirlingas - pure distractors.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Prakash Parv celebrations at Takht Sri Patna Sahib in January 2026 marked which-numbered birth anniversary of Guru Gobind Singh?",
+  "options": [
+   "356th",
+   "357th",
+   "358th",
+   "359th"
+  ],
+  "answer": 3,
+  "explanation": "January 2025 saw the 358th Prakash Parv; January 2026 (~5 Jan) was therefore the 359th. Takht Sri Patna Sahib is the Guru's birthplace (1666) and one of the five Takhts. Trap: naive subtraction (2026-1666=360); the traditional count gave 358th in 2025.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st p.4"
+ },
+ {
+  "q": "Bihar Diwas, celebrated on 22 March every year, commemorates:",
+  "options": [
+   "The creation of Jharkhand in 2000",
+   "The carving of Bihar out of the Bengal Presidency in 1912",
+   "Bihar's first elected government in 1937",
+   "The establishment of Patna University in 1917"
+  ],
+  "answer": 1,
+  "explanation": "Bihar was separated from Bengal on 22 March 1912; Bihar Diwas 2026 was therefore the 114th edition. Jharkhand was carved out on 15 November 2000 - the standard date-swap trap.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The theme of Bihar Diwas 2026 (114th edition), inaugurated at Gandhi Maidan, Patna, was:",
+  "options": [
+   "'Naya Bihar, Saksham Bihar'",
+   "'Unnat Bihar, Ujjwal Bihar'",
+   "'Sushasan aur Samriddhi'",
+   "'Bihar: Gaurav ki Gatha'"
+  ],
+  "answer": 1,
+  "explanation": "The official theme of the 114th Bihar Diwas (22 Mar 2026, Gandhi Maidan, Patna) was 'Unnat Bihar, Ujjwal Bihar' (Developed Bihar, Bright Bihar), as reported by GKToday and Akashvani - widely noted as Nitish Kumar's last Bihar Day as CM before he moved to the Rajya Sabha (Samrat Chaudhary became CM on 15 Apr 2026). The earlier-circulated 'Pragatishil Bihar, Ujjwal Bihar' formulation was not the official theme.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following statements about Geographical Indication (GI) tags of Bihar is correct as of July 2026?",
+  "options": [
+   "Bihar received three new GI tags in 2025, including one for Bhojpuri folk art",
+   "Mithila Makhana (2022) remains Bihar's most recent GI tag - no new Bihar GI was confirmed in the Jan 2025-Jul 2026 window",
+   "Madhubani paintings lost their GI status in 2025",
+   "Bihar has no GI-tagged agricultural product"
+  ],
+  "answer": 0,
+  "explanation": "As of July 2026, Bihar DID receive three new GI tags, granted in January 2025: Bawan Buti Saree & Fabric (Nalanda), Patharkatti Stone Craft (Gaya) and Pidiya Painting (Bhojpur) - the last a Bhojpuri folk-art tradition (S.S. Rana & Co.; Drishti IAS, 15 Jun 2026). Option (B) is wrong: Mithila Makhana (2022) is no longer the most recent Bihar GI. (C) and (D) are fabricated - Madhubani paintings retain GI status and Bihar has several GI-tagged agri products (Shahi litchi, Katarni rice, Jardalu mango, Magahi paan, Mithila Makhana).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match List-I (GI-tagged product) with List-II (Associated region): a) Shahi Litchi - 1) Magadh region; b) Magahi Paan - 2) Muzaffarpur; c) Bhagalpur Silk - 3) Mithila region; d) Madhubani Paintings - 4) Bhagalpur",
+  "options": [
+   "a-2, b-1, c-4, d-3",
+   "a-1, b-2, c-3, d-4",
+   "a-2, b-1, c-3, d-4",
+   "a-3, b-4, c-1, d-2"
+  ],
+  "answer": 0,
+  "explanation": "Shahi litchi - Muzaffarpur; Magahi paan - Magadh region; Bhagalpur silk - Bhagalpur; Madhubani paintings - Mithila region. Mnemonic: Ma-Bha-Su-Si-Kha crafts + Sha-Ka-Ja-Ma-Ma foods covers the full Bihar GI list.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In September 2025, APEDA's first regional office in Bihar was inaugurated at Patna, and a 7-MT trial consignment of GI-tagged Mithila Makhana was flagged off to:",
+  "options": [
+   "China, Japan and South Korea",
+   "UAE, Saudi Arabia and Qatar",
+   "UK, France and Germany",
+   "New Zealand, Canada and the USA"
+  ],
+  "answer": 3,
+  "explanation": "Union Minister Piyush Goyal inaugurated the office on 11 Sep 2025 (Bihar Idea Festival) and flagged the 7-MT consignment to New Zealand, Canada and the USA. Days later (15-16 Sep 2025) the PM launched the National Makhana Board from Purnia - HQ Purnea.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about UNESCO World Heritage Sites in Bihar: 1. The Mahabodhi Temple Complex at Bodh Gaya was inscribed in 2002. 2. The Archaeological Site of Nalanda Mahavihara was inscribed in 2016. 3. Bihar has three UNESCO World Heritage Sites. Which of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "explanation": "Bihar has exactly TWO World Heritage Sites: Mahabodhi Temple Complex (2002) and Nalanda Mahavihara (2016). Statement 3 is false. Sarnath (UP) is only nominated for the 2025-26 cycle - not a Bihar site and not yet inscribed.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which pairing of site and UNESCO World Heritage inscription year is correct?",
+  "options": [
+   "Mahabodhi Temple - 2016; Nalanda Mahavihara - 2002",
+   "Mahabodhi Temple - 2002; Nalanda Mahavihara - 2016",
+   "Mahabodhi Temple - 2004; Nalanda Mahavihara - 2014",
+   "Mahabodhi Temple - 1983; Nalanda Mahavihara - 2016"
+  ],
+  "answer": 1,
+  "explanation": "Mahabodhi = 2002, Nalanda = 2016. The reversed option is the classic year-swap trap. Memory hook: Bodh Gaya got its tag in the early 2000s; Nalanda joined 14 years later.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Vishnupad Temple (Gaya) and Mahabodhi Temple (Bodh Gaya) corridor projects, modelled on the Kashi Vishwanath Corridor, were announced in:",
+  "options": [
+   "The Union Budget of July 2024",
+   "The Union Budget of February 2025",
+   "The Bihar State Budget 2025-26",
+   "The PRASAD scheme list of 2026"
+  ],
+  "answer": 0,
+  "explanation": "The corridors were announced in the Union Budget of July 2024 (with a Rajgir-Nalanda tourism push), explicitly on the Kashi Vishwanath Corridor model. The Feb 2025 Budget's Bihar headlines were Makhana Board, greenfield airports, IIT Patna expansion and NIFTEM.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who inaugurated the first Nalanda Literature Festival held at Rajgir in December 2025?",
+  "options": [
+   "President Droupadi Murmu",
+   "Chief Minister Nitish Kumar",
+   "Governor Arif Mohammad Khan",
+   "Nalanda University VC Sachin Chaturvedi"
+  ],
+  "answer": 2,
+  "explanation": "The festival (21-25 Dec 2025, Rajgir Convention Centre) was inaugurated by Governor Arif Mohammad Khan; VC Sachin Chaturvedi participated but did not inaugurate. Khan was succeeded by Lt Gen (Retd) Syed Ata Hasnain as the 43rd Governor on 14 Mar 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "'Patna Kalam: A Heritage', the closing exhibition of the Bihar Museum Biennale 2025 (17 Dec 2025 - 28 Feb 2026), is associated with the Bihar Museum. The Director-General of the Bihar Museum is:",
+  "options": [
+   "Sachin Chaturvedi",
+   "Anjani Kumar Singh",
+   "Pratyaya Amrit",
+   "Arun Shankar Prasad"
+  ],
+  "answer": 1,
+  "explanation": "Anjani Kumar Singh is the DG of the Bihar Museum. Distractors are role-swaps: Sachin Chaturvedi is Nalanda University VC, Pratyaya Amrit is Chief Secretary (since 4 Aug 2025), and Arun Shankar Prasad is the Art, Culture & Tourism minister who opened the exhibition.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In India, which city has been declared the first 'City of Literature' by UNESCO? (70th BPSC PYQ)",
+  "options": [
+   "Kolkata, West Bengal",
+   "Varanasi, Uttar Pradesh",
+   "Kozhikode, Kerala",
+   "Jaipur, Rajasthan"
+  ],
+  "answer": 2,
+  "explanation": "Kozhikode became India's first UNESCO 'City of Literature' (Creative Cities Network, 2023); the 70th BPSC asked this verbatim. No Bihar city is in the UCCN literature list yet - the first Nalanda Literature Festival (Rajgir, Dec 2025) is the state's literary-branding push.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th p.38"
+ },
+ {
+  "q": "Consider the following statements: 1. India has nominated the ancient Buddhist site of Sarnath for the UNESCO World Heritage List (2025-26 cycle). 2. The 'Maratha Military Landscapes of India' became India's 44th World Heritage Site in 2025. 3. Sarnath was inscribed as a World Heritage Site in 2025. Which of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "explanation": "Statements 1 and 2 are correct; statement 3 is the trap: Sarnath is only nominated (2025-26 cycle), not inscribed. The same 'nominated is not inscribed' logic governs the Chhath question.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ }
+]

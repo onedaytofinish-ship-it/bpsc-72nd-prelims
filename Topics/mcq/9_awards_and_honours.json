@@ -1,0 +1,202 @@
+[
+  {
+    "q": "What is the title of the book by Banu Mushtaq that won the 2025 International Booker Prize? (71st BPSC PYQ)",
+    "options": ["Light of the Heart", "Heart Lamp", "Soul Lantern", "More than one of the above"],
+    "answer": 1,
+    "explanation": "Heart Lamp, a Kannada short-story collection translated by Deepa Bhasthi, won on 20 May 2025 at Tate Modern — the first Kannada work and first short-story collection to win. The other titles are invented decoys; a single book won, so 'More than one' is wrong.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.10"
+  },
+  {
+    "q": "Awarded the Nobel Prize in Literature in 2024, Han Kang's novel 'The Vegetarian' won which other prestigious award? (71st BPSC PYQ)",
+    "options": ["Pulitzer Prize", "PEN America Literary Awards", "International Booker Prize", "More than one of the above"],
+    "answer": 2,
+    "explanation": "The Vegetarian (tr. Deborah Smith) won the 2016 Man Booker International Prize (now International Booker). The Pulitzer is a US journalism/arts prize Han Kang never won. BPSC chains Nobel winners to their other awards.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.8"
+  },
+  {
+    "q": "At the 96th Academy Awards (2024), Emma Stone won the Oscar for Actress in a Leading Role for her performance in which film? (71st BPSC PYQ)",
+    "options": ["La La Land", "Poor Things", "The Favourite", "More than one of the above"],
+    "answer": 1,
+    "explanation": "Poor Things earned Emma Stone her second Best Actress Oscar at the 96th Academy Awards (2024). La La Land is the trap — her first win, at the 89th Awards (2017).",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.8"
+  },
+  {
+    "q": "What is the title of the film by Payal Kapadia for which she became the first Indian filmmaker to win the Grand Prix Award at the Cannes Film Festival in May 2024? (70th BPSC PYQ)",
+    "options": ["The Shameless", "All We Imagine as Light", "Sunflowers Were the First Ones to Know", "The Man Who Could Not Remain Silent"],
+    "answer": 1,
+    "explanation": "All We Imagine as Light won the Grand Prix (second prize) at Cannes 2024. The distractors are fellow Cannes 2024 titles in other categories (La Cinef; Palme d'Or short film).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.46"
+  },
+  {
+    "q": "Who won the Nobel Peace Prize in 2025? (70th BPSC pattern)",
+    "options": ["Nihon Hidankyo", "Narges Mohammadi", "María Corina Machado", "World Food Programme"],
+    "answer": 2,
+    "explanation": "Venezuelan opposition leader María Corina Machado (announced 10 Oct 2025) for promoting democratic rights and a peaceful transition from dictatorship. Traps: Nihon Hidankyo (2024), Narges Mohammadi (2023), World Food Programme (2020).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.24"
+  },
+  {
+    "q": "The Nobel Prize in Literature for 2025 was awarded to:",
+    "options": ["Han Kang", "Jon Fosse", "Abdulrazak Gurnah", "László Krasznahorkai"],
+    "answer": 3,
+    "explanation": "Hungarian novelist László Krasznahorkai (announced 9 Oct 2025). Traps: Han Kang (2024 — the 71st BPSC question), Jon Fosse (2023), Abdulrazak Gurnah (2021). Only one Literature Nobel per year — the 71st BPSC answer key itself rejected a 'more than one in 2024' claim.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.56"
+  },
+  {
+    "q": "Consider the following statements about the Bharat Ratna awards for 2024: 1. Five personalities received the award, including L.K. Advani and P.V. Narasimha Rao. 2. Karpoori Thakur of Bihar was honoured posthumously. 3. The awards were announced on the eve of Republic Day 2025. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "The five 2024 Bharat Ratnas (Karpoori Thakur, Advani, P.V. Narasimha Rao, Charan Singh, Swaminathan) were announced Jan–Mar 2024 and conferred on 30 Mar 2024. Statement 3 is the trap: no Bharat Ratna was announced on R-Day eve 2025 or 2026.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.8"
+  },
+  {
+    "q": "Consider the following statements about the Nobel Prizes: 1. The Peace Prize is awarded in Oslo; all other prizes are awarded in Stockholm. 2. Rabindranath Tagore (Literature, 1913) was the first Asian Nobel laureate. 3. A Nobel Prize can be shared by a maximum of three persons. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct statics. Also: first prizes 1901, Economics added 1968 (Sveriges Riksbank), ceremony on 10 December, posthumous awards barred since 1974.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match List-I (Major Dhyan Chand Khel Ratna awardee, 2024 cycle) with List-II (Sport): a) D. Gukesh — 1) Shooting; b) Manu Bhaker — 2) Chess; c) Harmanpreet Singh — 3) Para-Athletics; d) Praveen Kumar — 4) Hockey",
+    "options": ["a-2, b-1, c-4, d-3", "a-1, b-2, c-4, d-3", "a-2, b-1, c-3, d-4", "a-3, b-1, c-4, d-2"],
+    "answer": 0,
+    "explanation": "Gukesh (chess), Manu Bhaker (shooting), Harmanpreet Singh (hockey), Praveen Kumar (para-athletics) — all four Khel Ratnas of the 2024 cycle, conferred 17 Jan 2025. Note the name trap: Harmanpreet Singh is hockey; Harmanpreet Kaur (cricket) got the Padma Shri 2026.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Dadasaheb Phalke Award for 2023, conferred at the 71st National Film Awards ceremony on 23 September 2025, was given to:",
+    "options": ["Mithun Chakraborty", "Mohanlal", "Waheeda Rehman", "Asha Parekh"],
+    "answer": 1,
+    "explanation": "Mohanlal received the 2023 Dadasaheb Phalke Award at the 71st NFA ceremony. Trap: Mithun Chakraborty received the 2022 award (conferred 2024). Waheeda Rehman (2021) and Asha Parekh (2020) are earlier recipients. Instituted 1969; first recipient Devika Rani.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 2025 Nobel Prize in Physiology or Medicine was awarded for discoveries concerning:",
+    "options": ["microRNA and its role in gene regulation", "nucleoside base modifications enabling mRNA vaccines", "peripheral immune tolerance — regulatory T cells as immune 'security guards'", "CRISPR-Cas9 gene editing"],
+    "answer": 2,
+    "explanation": "Brunkow, Ramsdell and Sakaguchi won for peripheral immune tolerance. Traps: microRNA (2024 Medicine), mRNA vaccines (2023), CRISPR (2020 Chemistry).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 2025 Nobel Prize in Physics honoured John Clarke, Michel H. Devoret and John M. Martinis for:",
+    "options": ["foundational work in machine learning with artificial neural networks", "macroscopic quantum tunnelling and energy quantisation in superconducting electric circuits", "attosecond pulses of light for studying electron dynamics", "experiments with entangled photons establishing quantum information science"],
+    "answer": 1,
+    "explanation": "Superconducting-circuit quantum tunnelling. Traps: machine learning (2024), attosecond physics (2023), entangled photons (2022).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 2025 Nobel Prize in Chemistry was awarded to Susumu Kitagawa, Richard Robson and Omar M. Yaghi for the development of:",
+    "options": ["click chemistry and bioorthogonal chemistry", "quantum dots", "a method for genome editing", "metal–organic frameworks (MOFs)"],
+    "answer": 3,
+    "explanation": "MOFs are porous crystalline structures used in gas storage and water harvesting. Traps: click chemistry (2022), quantum dots (2023), genome editing/CRISPR (2020).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the 2025 Nobel Prize in Economic Sciences: 1. Joel Mokyr received one half of the prize for identifying prerequisites for sustained growth through technological progress. 2. Philippe Aghion and Peter Howitt shared the other half for the theory of creative destruction. 3. The prize carried a cash award of 11 million SEK. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct (announced 13 Oct 2025). The Economics prize was not one of the original 1901 prizes — added in 1968 by Sveriges Riksbank.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Padma Awards 2025 (announced on the eve of the 76th Republic Day) comprised:",
+    "options": ["131 awards — 5 Vibhushan, 13 Bhushan, 113 Shri", "128 awards — 4 Vibhushan, 12 Bhushan, 112 Shri", "139 awards — 7 Vibhushan, 19 Bhushan, 113 Shri", "145 awards — 9 Vibhushan, 21 Bhushan, 115 Shri"],
+    "answer": 2,
+    "explanation": "139 total in 2025 (23 women, 13 posthumous, 10 foreigners/NRI/PIO/OCI). Option A is the 2026 figure (131 = 5+13+113) — the year-swap trap. Shri count (113) was identical in both years.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the Padma Awards 2026: 1. A total of 131 awards were approved — 5 Padma Vibhushan, 13 Padma Bhushan and 113 Padma Shri. 2. They were announced on 25 January 2026, the eve of the 77th Republic Day. 3. The first conferment ceremony at Rashtrapati Bhavan was held on 25 May 2026. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "1, 2 and 3", "2 and 3 only", "1 only"],
+    "answer": 1,
+    "explanation": "All three are correct. 2026 markers: 19 women, 16 posthumous, 45 'unsung heroes', 2 duo cases; 66 recipients honoured in Phase-1 on 25 May 2026 by President Murmu.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 59th Jnanpith Award (for the year 2024) was conferred on:",
+    "options": ["Gulzar — Urdu", "Jagadguru Rambhadracharya — Sanskrit", "Vairamuthu — Tamil", "Vinod Kumar Shukla — Hindi"],
+    "answer": 3,
+    "explanation": "Vinod Kumar Shukla of Rajnandgaon, Chhattisgarh (Naukar ki Kameez) — 12th Hindi winner, first from Chhattisgarh, announced March 2025. Traps: Gulzar & Rambhadracharya shared the 58th (2023); Vairamuthu won the 60th (2025).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 60th Jnanpith Award (for the year 2025), announced in March 2026, went to:",
+    "options": ["Perumal Murugan — Tamil", "Mamta Kalia — Hindi", "Vairamuthu — Tamil", "Easterine Kire — English"],
+    "answer": 2,
+    "explanation": "Lyricist-poet Vairamuthu, the 3rd Tamil winner after Akilan (1975) and Jayakanthan (2002). Mamta Kalia (Sahitya Akademi 2025 Hindi) and Easterine Kire (SA 2024 English) are award-swap decoys.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the 98th Academy Awards (15 March 2026): 1. One Battle After Another won Best Picture with 6 wins from 13 nominations. 2. Sinners set an all-time record of 16 nominations. 3. Jessie Buckley (Hamnet) became the first Irish winner of Best Actress. Which of the statements given above are correct?",
+    "options": ["1, 2 and 3", "1 and 2 only", "2 and 3 only", "1 only"],
+    "answer": 0,
+    "explanation": "All three are correct. Also: new Best Casting category (first in 25 years, won by Cassandra Kulukundis); Michael B. Jordan Best Actor (Sinners); India's Homebound reached only the top-15 shortlist, not the final 5.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the 71st National Film Awards (films of 2023): 1. 12th Fail won the Best Feature Film award. 2. The Best Actor award was shared by Shah Rukh Khan (Jawan) and Vikrant Massey (12th Fail). 3. Rani Mukerji won Best Actress for Mrs. Chatterjee vs Norway. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1, 2 and 3", "1 only"],
+    "answer": 2,
+    "explanation": "All three are correct (announced 1 Aug 2025; ceremony 23 Sep 2025, Vigyan Bhawan). Sudipto Sen won Best Direction (The Kerala Story). The shared Best Actor is itself classic BPSC bait.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the Ramon Magsaysay Award 2025: 1. The Foundation to Educate Girls Globally ('Educate Girls') became the first Indian organisation to win the award. 2. The foundation was founded by Safeena Husain. 3. It is the first Indian recipient of the Ramon Magsaysay Award. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "1, 2 and 3", "2 and 3 only", "1 only"],
+    "answer": 0,
+    "explanation": "Statement 3 is the person-vs-organisation trap: the first Indian individual winner was Vinoba Bhave (1958); Mother Teresa (1962) and Jayaprakash Narayan (1965) also won earlier. Educate Girls is only the first Indian organisation.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the Ashoka Chakra announced on Republic Day 2026: 1. It was awarded to Group Captain Shubhanshu Shukla, the Axiom-4 mission pilot and first Indian on the ISS. 2. The Ashoka Chakra is India's highest peacetime gallantry award. 3. In the order of precedence, the Ashoka Chakra ranks above the Param Vir Chakra. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "1, 2 and 3", "2 and 3 only", "1 only"],
+    "answer": 0,
+    "explanation": "Statement 3 is the trap: precedence is PVC > Ashoka Chakra > MVC > Kirti Chakra > Vir Chakra > Shaurya Chakra — the wartime PVC outranks the peacetime Ashoka Chakra.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match List-I (Prize) with List-II (Winning work): a) Booker Prize 2025 — 1) Taiwan Travelogue; b) International Booker Prize 2025 — 2) Flesh; c) International Booker Prize 2026 — 3) Heart Lamp",
+    "options": ["a-2, b-3, c-1", "a-3, b-2, c-1", "a-2, b-1, c-3", "a-1, b-3, c-2"],
+    "answer": 0,
+    "explanation": "Booker 2025: David Szalay's Flesh (first Hungarian-origin winner). Int'l Booker 2025: Banu Mushtaq's Heart Lamp (first Kannada). Int'l Booker 2026: Yáng Shuāng-zǐ's Taiwan Travelogue, tr. Lin King (first Mandarin). The Booker (English original) vs International Booker (translation) distinction is the trap.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following Padma award pairings is WRONG?",
+    "options": ["Sharda Sinha — Padma Vibhushan 2025 (posthumous)", "Sushil Kumar Modi — Padma Bhushan 2025 (posthumous)", "Dharmendra — Padma Vibhushan 2026 (posthumous)", "Mammootty — Padma Vibhushan 2026"],
+    "answer": 3,
+    "explanation": "Mammootty received the Padma Bhushan 2026, not the Vibhushan — the class-swap trap. The other three pairings are exactly right (Sharda Sinha and Sushil Modi in 2025; Dharmendra in 2026).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the 67th Grammy Awards (2 February 2025): 1. Chandrika Tandon won Best New Age, Ambient or Chant Album for Triveni. 2. Ricky Kej won the same category for Break of Dawn. 3. Chandrika Tandon is the sister of former PepsiCo chief Indra Nooyi. Which of the statements given above are correct?",
+    "options": ["1 and 3 only", "1, 2 and 3", "1 and 2 only", "2 and 3 only"],
+    "answer": 0,
+    "explanation": "Statement 2 is the nominee-vs-winner trap: Ricky Kej and Anoushka Shankar were nominees in the category — only Chandrika Tandon won (with Wouter Kellerman & Éru Matsumoto). Chennai-born, IIM-A alumna, sister of Indra Nooyi.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

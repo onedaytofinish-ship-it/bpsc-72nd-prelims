@@ -1,0 +1,202 @@
+[
+  {
+    "q": "Which community was categorized as Scheduled Caste (SC) by a 2015 Bihar government notification that was quashed in July 2024 by the Supreme Court, which ruled that states cannot change the SC list published under Article 341?",
+    "options": ["Lal Begi", "Dabgar", "Tanti-Tantwa", "Pano"],
+    "answer": 2,
+    "explanation": "Bihar's 1 July 2015 resolution merged the Tanti-Tantwa community (earlier EBC) with Pan/Sawasi in the SC list; the Supreme Court (Dr. Bhim Rao Ambedkar Vichar Manch Bihar v. State of Bihar, 2024) called it 'mala fide' and held only Parliament can alter the Article 341 list. Lal Begi, Dabgar and Pano are trap options — all three are genuine SC entries in Bihar's notified list.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.34"
+  },
+  {
+    "q": "Saat Nischay-3, the flagship framework announced in the Bihar Budget 2026-27, covers which period?",
+    "options": ["2020–2025", "2025–2030", "2024–2029", "2026–2031"],
+    "answer": 1,
+    "explanation": "Saat Nischay-3 runs 2025–2030 (doubling per-capita income, industrialisation, farmer income, education/health, new planned cities, ease of living). 2020–25 is the trap — that was Saat Nischay-2; Part-1 ran 2015–20.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.12 (pattern)"
+  },
+  {
+    "q": "Under the Mukhyamantri Mahila Rojgar Yojana (MMRY), the first instalment of ₹10,000 released by PM Narendra Modi on 26 September 2025 reached how many women?",
+    "options": ["25 lakh women", "50 lakh women", "1 crore women", "75 lakh women"],
+    "answer": 3,
+    "explanation": "The 26 Sep 2025 launch transfer covered 75 lakh women in one day; further tranches (3/6/17/24/31 Oct 2025) took the total to 1.56 crore women. 1 crore is a round-number trap; remember: 75 lakh day-one, 1.56 crore cumulative.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following Bihar pension schemes whose monthly amount was raised to ₹1,100 in June 2025: 1. Mukhyamantri Vriddhajan Pension Yojana (old-age) 2. Laxmibai Social Security Pension Yojana (widow) 3. Bihar Nishakta Pension Yojana (disability). Which of the above are covered by the hike?",
+    "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three social-security pensions (old-age Vriddhajan, widow Laxmibai, disability Nishakta) were raised from ₹400 to ₹1,100/month, effective June 2025, via DBT — 1.16 crore pensioners. The trap is assuming only the old-age pension was hiked; the announcement covered all six pension schemes of the Social Welfare Dept.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's free electricity scheme (up to 125 units/month for all domestic consumers) became effective from:",
+    "options": ["17 July 2025", "18 July 2025", "1 August 2025", "1 January 2026"],
+    "answer": 2,
+    "explanation": "The scheme applies from the July 2025 bill, i.e., effective 1 August 2025. 17 Jul was the CM's announcement (on X) and 18 Jul the Cabinet approval — both deliberate traps; BPSC tests announcement vs approval vs effective dates separately.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under the Mukhyamantri Kanya Utthan Yojana, the incentive paid on graduation is:",
+    "options": ["₹25,000", "₹50,000", "₹1,00,000", "₹10,000"],
+    "answer": 1,
+    "explanation": "Kanya Utthan pays ₹50,000 on graduation (for unmarried girls) and ₹25,000 on passing Class 12. ₹25,000 is the Class-12 amount — the classic stage-swap trap; ₹10,000 is the MMRY first grant, a different scheme.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under Bihar's SC/ST Civil Seva Protsahan Yojana (applications on e-Kalyan from 28 March 2025), the one-time incentive for clearing the UPSC prelims is:",
+    "options": ["₹1,00,000", "₹75,000", "₹50,000", "₹25,000"],
+    "answer": 0,
+    "explanation": "The scheme pays ₹1,00,000 for clearing the UPSC prelims and ₹50,000 for clearing the BPSC prelims (SC/ST, Bihar domicile). ₹50,000 is the BPSC amount — the swap trap. The new Divyangjan Civil Seva Protsahan Yojana (13 Dec 2025) mirrors the same ₹50k/₹1L structure for disabled male aspirants.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match the Saat Nischay parts with their signature components: 1. Part-1 (2015–20) — Bijli, Sadak, Pani; 2. Part-2 (2020–25) — Har Ghar Nal Ka Jal; 3. Part-3 (2025–30) — 65% reservation hike. Which of the above pairs are correctly matched?",
+    "options": ["1 and 2 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Pairs 1 and 2 are correct: Part-1 was bijli-sadak-pani/shauchalay/aarogya; Part-2 carried Har Ghar Nal Ka Jal, ghar tak pakki sadak, yuva shakti, mahila sashaktikaran. Pair 3 is wrong — Part-3's themes are doubling per-capita income, industrialisation and new planned cities; the 65% quota hike (Nov 2023) was a separate legislative move struck down by the Patna HC (Jun 2024).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under Article 341 of the Constitution, the list of Scheduled Castes can be modified (inclusion or exclusion) only by:",
+    "options": ["The state legislature through a resolution", "The Governor by notification", "Parliament by law", "The state Cabinet with President's approval"],
+    "answer": 2,
+    "explanation": "Article 341(1) lets the President specify the SC list (in consultation with the Governor); Article 341(2) reserves any subsequent inclusion/exclusion to Parliament by law. The other options are exactly the routes Bihar tried in 2015 — all void, as the Supreme Court reaffirmed in July 2024 (70th BPSC theme).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.34 (theme)"
+  },
+  {
+    "q": "JEEViKA (Bihar Rural Livelihoods Promotion Society), the rural delivery arm of MMRY, was established in 2006 with the support of:",
+    "options": ["International Monetary Fund", "World Bank", "Asian Development Bank", "NABARD"],
+    "answer": 1,
+    "explanation": "JEEViKA/BRLPS (est. 2006) is a World Bank-supported SHG livelihoods mission that has mobilised ~1.4+ crore rural households. ADB finances several Bihar road/urban projects and NABARD refinances farm credit — plausible-sounding traps, but JEEViKA's parentage is the World Bank.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "A Bihar domestic household consumes 130 units of electricity in a month (post 1 August 2025). Its energy charge will be:",
+    "options": ["Zero — first 125 units are free", "Billed for only 5 units beyond the free limit", "Billed for all 130 units — the scheme is non-telescopic", "A flat ₹100 monthly charge"],
+    "answer": 1,
+    "explanation": "The 125-unit benefit IS telescopic: the Bihar Electricity Department clarified (SE Purnia, Dainik Jagran, 30 Jul 2025) that a consumer using 126 units gets the first 125 free and is billed only for the extra unit(s) — at the pre-existing subsidised slab rate (plus duty and fixed charges), NOT a flat ₹5.52/unit. The 'non-telescopic, pay-for-all' option is the Delhi scheme confusion — crossing 125 units does NOT make all units billable in Bihar.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "According to the PRS analysis of the Bihar Budget 2026-27, the total number of women who received the ₹10,000 initial grant under MMRY is:",
+    "options": ["75 lakh", "1 crore", "1.56 crore", "2 crore"],
+    "answer": 2,
+    "explanation": "PRS records 1.56 crore women receiving the ₹10,000 initial grant. 75 lakh is the trap — that was only the first day's (26 Sep 2025) transfer; cumulative coverage across the October tranches reached 1.56 crore.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Jannayak Karpoori Thakur Kisan Samman Nidhi, announced in the Bihar Budget 2026-27, provides:",
+    "options": ["₹6,000 per year, replacing PM-KISAN in Bihar", "₹3,000 per year as a state top-up over PM-KISAN's ₹6,000", "₹10,000 one-time grant to every farmer", "Free diesel subsidy of ₹750 per acre"],
+    "answer": 1,
+    "explanation": "It is a ₹3,000/year state top-up layered on PM-KISAN's central ₹6,000 (Bihar farmer thus gets ₹9,000/year). The replacement option is a trap — states can't 'replace' a central scheme; the diesel option mixes in the separate Diesel Anudan (₹75/litre, max ₹750/acre, kharif 2025).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's Diesel Anudan for kharif 2025 (window: August–30 October 2025) gave farmers:",
+    "options": ["₹50/litre subsidy, max ₹500/acre", "₹100/litre subsidy, max ₹1,000/acre", "Free diesel up to 10 litres/acre", "₹75/litre subsidy, max ₹750/acre, via DBT"],
+    "answer": 3,
+    "explanation": "The kharif 2025 diesel subsidy was ₹75 per litre, capped at ₹750 per acre, paid by DBT to the farmer's bank account for pumpset irrigation. The ₹50/₹100 per-litre options are invented rate traps; remember the 75–750 pair.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following statements about Bihar's Divyangjan Civil Seva Protsahan Yojana is correct?",
+    "options": ["It was launched on 13 December 2025 by the Social Welfare Department's disability empowerment directorate", "It provides a one-time incentive of only ₹10,000", "It is run by the Education Department for college admissions", "It applies only to UPSC aspirants, not BPSC"],
+    "answer": 0,
+    "explanation": "Launched 13 Dec 2025 by the Directorate of Empowerment of Persons with Disabilities (Social Welfare Dept), it pays ₹50,000 (BPSC prelims) / ₹1,00,000 (UPSC prelims) to disabled male aspirants — mirroring the SC/ST scheme. The other options understate the amount, name the wrong department, or wrongly exclude BPSC.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The headline land incentive of the Bihar Semiconductor Policy 2026 is:",
+    "options": ["100-acre free plots for every investor", "1 acre of land at a token ₹1 per ₹100 crore of project cost", "50% capital subsidy with no land support", "A 20-year income-tax holiday"],
+    "answer": 1,
+    "explanation": "The cabinet-approved policy (end-Jan/early-Feb 2026) offers 1 acre at a token ₹1 for every ₹100 crore of project cost, plus stamp-duty/registration waivers — Bihar's pitch to become a tech hub under Saat Nischay-3. The other options are exaggerated/invented incentives not in the policy.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "From 1 April 2026, Bihar began doorstep property registration (via mobile units) for citizens aged:",
+    "options": ["60 years and above", "65 years and above", "75 years and above", "80 years and above"],
+    "answer": 3,
+    "explanation": "The Prohibition, Excise & Registration Dept's mobile units serve citizens aged 80+ from 1 Apr 2026. The lower age thresholds (60/65/75) are senior-citizen convention traps — this specific service is for the 80-plus cohort.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following targets of Saat Nischay-3 (2025–30): 1. Doubling Bihar's per-capita income; 2. Accelerated industrialisation; 3. Development of new planned cities. Which of the above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are stated Saat Nischay-3 targets in the Budget 2026-27 framework, alongside higher farmer income, better education/medical services and ease of living. With per-capita GSDP at ₹76,490 (about one-third of India's average), doubling income is the centrepiece.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under the Bihar Student Credit Card Yojana, the concessional interest rate for girl students (also disabled and transgender students) is:",
+    "options": ["4% simple interest", "2% simple interest", "1% simple interest", "0% (interest-free)"],
+    "answer": 3,
+    "explanation": "The September 2025 Bihar cabinet decision made BSCC loans interest-free (0%) for ALL students — girls, disabled and transgender students included. The 1% concessional rate (and 4% general rate) applies only to pre-Sept-2025 sanctions — that old regime is the trap; the scheme got ₹1,000 cr in Budget 2025-26.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Samrat Chaudhary, who took oath as Chief Minister of Bihar on 15 April 2026, is:",
+    "options": ["The 23rd CM and the first BJP CM of Bihar", "The 24th CM and the first BJP CM of Bihar", "The 24th CM and the second BJP CM of Bihar", "The 25th CM and the first BJP CM of Bihar"],
+    "answer": 1,
+    "explanation": "He is Bihar's 24th CM and the FIRST from the BJP; oath was administered by Governor Syed Ata Hasnain at Lok Bhavan after Nitish Kumar resigned on 14 Apr 2026. The 23rd/25th options miscount the ordinal; 'second BJP CM' is wrong — no BJP CM existed before him.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following statements about MMRY is NOT correct?",
+    "options": ["The ₹10,000 first instalment is a non-refundable grant", "The benefit is for one woman per family", "Further support of up to ₹2 lakh follows an enterprise assessment", "The ₹10,000 is a collateral-free loan repayable over five years"],
+    "answer": 3,
+    "explanation": "The 'repayable loan' statement is NOT correct: MMRY's ₹10,000 is an outright grant, not a loan. This is the exam's favourite confusion — central schemes like PM Vishwakarma and PMEGP give loans, while Bihar's MMRY gives a grant. The other three statements are true features.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "In June 2025, Bihar's social security pensions were raised to ₹1,100 per month. What was the earlier monthly amount?",
+    "options": ["₹400", "₹500", "₹700", "₹1,000"],
+    "answer": 0,
+    "explanation": "Pensions went from ₹400 straight to ₹1,100/month (announced 21 Jun 2025, effective June 2025) — a 2.75× jump. ₹500/₹700 are incremental-sounding traps, and ₹1,000 reverses the before/after figures.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's 125-units free-electricity decision operates under the umbrella of which scheme?",
+    "options": ["Mukhyamantri Vidyut Upbhokta Sahayata Yojana", "Pradhan Mantri Sahaj Bijli Har Ghar Yojana (Saubhagya)", "Deen Dayal Upadhyaya Gram Jyoti Yojana", "PM Surya Ghar Muft Bijli Yojana"],
+    "answer": 0,
+    "explanation": "The free-power benefit is delivered through the state's Mukhyamantri Vidyut Upbhokta Sahayata Yojana, with ₹3,797 cr sanctioned to BSPHCL for FY 2025-26. PM Surya Ghar is the sharpest trap — it is the CENTRE's rooftop-solar scheme; Saubhagya was a household-electrification (connection) scheme, not a billing subsidy.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which statement about the November 2025 Bihar Assembly results is correct as per the final ECI-derived figures?",
+    "options": ["BJP won 88 seats and JDU won 84 seats", "The NDA won 202 of 243 seats; BJP (89) became the single largest party for the first time", "The RJD won 35 seats, remaining the single largest party", "The majority mark in the 243-member House is 124"],
+    "answer": 1,
+    "explanation": "ECI-final: NDA 202/243 (BJP 89, JDU 85, LJP(RV) 19, HAM 5, RLM 4); BJP single largest for the first time. 88/84 were same-day media tallies later revised to 89/85. RJD won 25 seats (35 was the Mahagathbandhan's combined tally); the majority mark is 122, not 124.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match the scheme with its launch year: 1. Mukhyamantri Mahila Rojgar Yojana — 2025; 2. Bihar Student Credit Card Yojana — 2016; 3. Mukhyamantri Kanya Utthan Yojana — 2018; 4. Saat Nischay Part-2 — 2015. Which of the above pairs are correctly matched?",
+    "options": ["1 and 2 only", "1, 2 and 3 only", "2 and 4 only", "1, 2, 3 and 4"],
+    "answer": 1,
+    "explanation": "Pairs 1–3 are correct: MMRY launched Sept 2025; Student Credit Card came with Saat Nischay-1 (2016); Kanya Utthan began in 2018. Pair 4 is the deliberate error — Saat Nischay Part-2 covered 2020–25 (Part-1 was 2015–20). Launch-year matching is a BPSC staple; the decade-old schemes are exactly where the trap sits.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

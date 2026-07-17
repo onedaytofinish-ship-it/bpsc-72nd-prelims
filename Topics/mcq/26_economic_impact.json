@@ -1,0 +1,202 @@
+[
+  {
+    "q": "The Permanent Settlement (Zamindari System) was introduced by whom and in which year?",
+    "options": ["Lord Cornwallis, 1793", "Warren Hastings, 1772", "Lord Wellesley, 1798", "Thomas Munro, 1820"],
+    "answer": 0,
+    "explanation": "Lord Cornwallis introduced the Permanent Settlement in 1793 in Bengal, Bihar, and Orissa. The zamindars were made the owners of the land, required to pay a fixed revenue (10/11th to the government, 1/11th to themselves). The revenue was fixed permanently — it never changed regardless of the actual produce. This was the first major British land revenue system.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under the Permanent Settlement of 1793, what fraction of the revenue did the zamindar keep?",
+    "options": ["1/11 (about 9%)", "1/5 (20%)", "1/3 (33%)", "1/2 (50%)"],
+    "answer": 0,
+    "explanation": "Under the Permanent Settlement, the zamindar kept 1/11th (about 9%) of the revenue collected and paid 10/11th to the government. This ratio was fixed permanently. The zamindar became the landowner but had to pay the fixed amount — if he failed, his land was auctioned. The 1/11 share was later reduced further as zamindars sublet to undertenants.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Permanent Settlement was applicable to which provinces?",
+    "options": ["Bengal, Bihar, and Orissa", "Madras and Bombay", "Punjab and North-West Provinces", "All of India"],
+    "answer": 0,
+    "explanation": "The Permanent Settlement of 1793 applied to Bengal, Bihar, and Orissa — the territories under the EIC's Diwani (granted in 1765). It was NOT extended to Madras, Bombay, or Punjab, which later adopted the Ryotwari and Mahalwari systems. The Bihar connection: Bihar was part of the Bengal Presidency and thus under the Permanent Settlement — zamindars of Bihar became hereditary landowners.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Ryotwari System was introduced by whom?",
+    "options": ["Lord Cornwallis", "Thomas Munro and Alexander Read", "Lord Wellesley", "Holt Mackenzie"],
+    "answer": 1,
+    "explanation": "The Ryotwari System was introduced by Captain Alexander Read and developed by Sir Thomas Munro (later Governor of Madras) in the late 18th–early 19th century. It was first implemented in Baramahal (Madras Presidency) and later extended to most of South India. Under this system, the settlement was made directly with the ryot (peasant cultivator), not with zamindars.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under the Ryotwari System, the revenue settlement was made with whom?",
+    "options": ["The zamindar (landlord)", "The ryot (individual peasant cultivator)", "The village community as a whole", "The village headman only"],
+    "answer": 1,
+    "explanation": "Under the Ryotwari System, the revenue settlement was made directly with the ryot (individual peasant cultivator). There was no intermediary zamindar — the government collected revenue directly from the farmer. The revenue was NOT fixed permanently — it was revised every 30 years (later 5 years). This system covered most of South India (Madras, Bombay, parts of Assam and Coorg).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Mahalwari System was introduced by whom and in which year?",
+    "options": ["Lord Cornwallis, 1793", "Thomas Munro, 1820", "Holt Mackenzie, 1822", "Lord Bentinck, 1833"],
+    "answer": 2,
+    "explanation": "The Mahalwari System was introduced by Holt Mackenzie in 1822 in the North-Western Provinces (later UP, parts of Punjab, Delhi). Under this system, the revenue settlement was made with the village (mahal) as a unit — the village community was collectively responsible for the revenue. It was a compromise between the Permanent Settlement (zamindari) and the Ryotwari (individual).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under the Mahalwari System, the revenue settlement was made with whom?",
+    "options": ["Individual zamindars", "Individual peasants (ryots)", "The village community (mahal) collectively", "The village headman only"],
+    "answer": 2,
+    "explanation": "Under the Mahalwari System, the revenue settlement was made with the mahal (village community). The villagers were collectively responsible for paying the revenue. The revenue was revised periodically (not permanently fixed). It was a hybrid of the zamindari (zamindar as intermediary) and ryotwari (direct settlement with cultivator) — here the village itself was the intermediary.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match the land revenue system with the region where it was primarily implemented.",
+    "options": ["Permanent Settlement — South India", "Ryotwari — Bengal-Bihar-Orissa", "Mahalwari — North-Western Provinces", "Ryotwari — Punjab"],
+    "answer": 2,
+    "explanation": "Correct: Mahalwari → North-Western Provinces (UP, parts of Punjab, Delhi). The traps: Permanent Settlement was Bengal-Bihar-Orissa (NOT South India); Ryotwari was South India (Madras, Bombay — NOT Bengal or Punjab). Mahalwari was the North Indian system. The three systems map to three regions: East (zamindari), South (ryotwari), North (mahalwari).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The concept of 'Drain of Wealth' from India was most prominently articulated by which leader?",
+    "options": ["Dadabhai Naoroji", "R.C. Dutt", "M.G. Ranade", "G.V. Joshi"],
+    "answer": 0,
+    "explanation": "Dadabhai Naoroji articulated the 'Drain of Wealth' theory in his book 'Poverty and Un-British Rule in India' (1901). He calculated that India was losing £30–40 million per year to Britain through various channels: home charges (salaries of British officials, pensions, military costs, interest on railways), unilateral transfer of profits, and the remittance of savings by British officials. R.C. Dutt, Ranade, and Joshi also contributed but Naoroji was the primary architect of the theory.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The book 'Poverty and Un-British Rule in India' was written by:",
+    "options": ["R.C. Dutt", "Dadabhai Naoroji", "M.G. Ranade", "B.M. Malabari"],
+    "answer": 1,
+    "explanation": "Dadabhai Naoroji wrote 'Poverty and Un-British Rule in India' (1901) — the foundational text on the Drain of Wealth theory. He estimated India was losing £30–40 million/year to Britain. R.C. Dutt wrote 'Economic History of India' (two volumes, 1901–03). Both are exam-relevant: Naoroji = Drain theory; Dutt = Economic History.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Home Charges' under British rule referred to:",
+    "options": ["The cost of maintaining the British army in India", "The cost of British civil administration in India", "The amount India paid to Britain for salaries, pensions, military costs, and interest on railways", "The cost of Indian imports from Britain"],
+    "answer": 2,
+    "explanation": "Home Charges were the amounts India paid to Britain for: (1) salaries and pensions of British officials serving in India, (2) dividends to shareholders of the EIC, (3) military costs (wars fought outside India, e.g., in Afghanistan), (4) interest on railway loans, (5) cost of the India Office in London. This was the largest component of the 'drain' — wealth extracted from India without any economic return.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following was NOT a channel of the 'Drain of Wealth' from India to Britain?",
+    "options": ["Home charges (salaries, pensions, military costs)", "Unilateral transfer of profits by British businesses", "Remittance of savings by British officials", "Tax revenue spent on Indian infrastructure (roads, canals, schools)"],
+    "answer": 3,
+    "explanation": "Tax revenue spent on Indian infrastructure was NOT a channel of drain — it was domestic spending within India (though much of it was for railways to facilitate extraction). The three main channels of drain were: (1) home charges, (2) unilateral transfer of profits (by British companies operating in India), (3) remittance of savings by British officials who retired to Britain. The 'drain' was the unilateral transfer of wealth without any economic return to India.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about the Permanent Settlement of 1793: 1. The zamindar became the owner of the land. 2. The revenue was fixed permanently. 3. The ryot (peasant) was protected from arbitrary rent increases. Which is/are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct: the zamindar became the landowner and the revenue was fixed permanently (never to change). Statement 3 is WRONG — the Permanent Settlement did NOT protect the ryot. The zamindar could raise rent on the peasant at will, and the peasant had no legal protection. The absence of peasant protection was a major flaw of the system — the zamindar profited while the peasant suffered.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Permanent Settlement is also known as:",
+    "options": ["The Ryotwari System", "The Zamindari System", "The Mahalwari System", "The Jagirdari System"],
+    "answer": 1,
+    "explanation": "The Permanent Settlement (1793) is also known as the Zamindari System because it made the zamindar the hereditary owner of the land. The zamindar was the intermediary who collected revenue from peasants and paid a fixed amount to the government. The system was 'permanent' because the government's share was fixed forever — but the zamindar's share of peasant rent was unregulated.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which land revenue system was a compromise between the Zamindari and Ryotwari systems?",
+    "options": ["Permanent Settlement", "Ryotwari System", "Mahalwari System", "Jagirdari System"],
+    "answer": 2,
+    "explanation": "The Mahalwari System (1822, Holt Mackenzie) was a compromise: like the Zamindari System, it had an intermediary (the village community/mahal); like the Ryotwari System, the revenue was revised periodically (not permanently fixed). The village was collectively responsible for the revenue — making it a hybrid of the two other systems.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who among the following was the Governor-General who introduced the Permanent Settlement?",
+    "options": ["Warren Hastings", "Lord Cornwallis", "Lord Wellesley", "Lord William Bentinck"],
+    "answer": 1,
+    "explanation": "Lord Cornwallis (Governor-General 1786–1793, later 1805) introduced the Permanent Settlement in 1793. He also introduced the Cornwallis Code (separation of revenue and judicial functions) and the civil service reforms. Warren Hastings preceded him and laid the administrative foundation; Wellesley followed with the Subsidiary Alliance; Bentinck came later with social reforms.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange in chronological order: 1. Permanent Settlement 2. Ryotwari System 3. Mahalwari System",
+    "options": ["1, 2, 3", "2, 1, 3", "1, 3, 2", "3, 2, 1"],
+    "answer": 0,
+    "explanation": "Correct order: Permanent Settlement (1793) → Ryotwari System (late 1790s–1820) → Mahalwari System (1822). The Zamindari came first in Bengal, then Ryotwari in the South (Munro), then Mahalwari in the North (Mackenzie). All three were British experiments in land revenue extraction.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Deprived Peasant' under the Permanent Settlement was most vulnerable because:",
+    "options": ["The government could raise revenue at any time", "The zamindar could raise rent at will with no legal protection for the peasant", "The peasant had to pay revenue directly to the government", "The village community was collectively responsible"],
+    "answer": 1,
+    "explanation": "Under the Permanent Settlement, the government's revenue was fixed permanently — so the zamindar's profit increased as agricultural output grew. But the zamindar could raise the peasant's rent at will, and the peasant had no legal protection. The zamindar also often used coercive methods to extract more. The peasant was at the mercy of the zamindar — the most exploited class in the system.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Economic History of India (two volumes) was written by:",
+    "options": ["Dadabhai Naoroji", "R.C. Dutt", "M.G. Ranade", "William Digby"],
+    "answer": 1,
+    "explanation": "Romesh Chunder Dutt (R.C. Dutt) wrote 'Economic History of India' (two volumes, 1901–03) — documenting how British economic policies (land revenue, trade, industrial destruction) impoverished India. Dutt, a civil servant and economic historian, complemented Naoroji's 'Drain' theory with historical analysis. Exam tip: Naoroji = 'Poverty and Un-British Rule' (Drain theory); Dutt = 'Economic History of India'.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT correctly matched?",
+    "options": ["Permanent Settlement — Lord Cornwallis — 1793", "Ryotwari System — Thomas Munro — South India", "Mahalwari System — Holt Mackenzie — North-Western Provinces", "Ryotwari System — Lord Cornwallis — Bengal"],
+    "answer": 3,
+    "explanation": "The last option is wrongly matched: the Ryotwari System was introduced by Thomas Munro (NOT Cornwallis) in South India (NOT Bengal). Cornwallis introduced the Permanent Settlement (Zamindari) in Bengal (1793). The other three are correctly matched. This is the classic BPSC 'not correctly matched' format.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under the Ryotwari System, the revenue was revised every:",
+    "options": ["Permanently fixed (never revised)", "Every 30 years (later revised to 5 years)", "Every year", "Every 50 years"],
+    "answer": 1,
+    "explanation": "Under the Ryotwari System, the revenue was revised every 30 years (later reduced to 5 years). Unlike the Permanent Settlement (where revenue was fixed forever), the Ryotwari revenue was NOT permanent — the government could adjust it based on the productivity of the land. This gave the government flexibility but also made peasants vulnerable to excessive assessments.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar was under which land revenue system during British rule?",
+    "options": ["Ryotwari System", "Mahalwari System", "Permanent Settlement (Zamindari)", "Jagirdari System"],
+    "answer": 2,
+    "explanation": "Bihar was under the Permanent Settlement (Zamindari System, 1793) — because it was part of the Bengal Presidency and the Diwani of 1765 covered Bengal-Bihar-Orissa. The zamindars of Bihar became hereditary landowners. This Bihar connection is exam-critical: Bihar's zamindari system led to widespread tenant exploitation, the Bakasht movement (1930s–50s), and eventually zamindari abolition after Independence (Bihar was one of the first states to abolish zamindari, in 1950).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Dadabhai Naoroji estimated that India was losing approximately how much per year through the 'Drain of Wealth'?",
+    "options": ["£3–4 million", "£30–40 million", "£300–400 million", "£3–4 billion"],
+    "answer": 1,
+    "explanation": "Naoroji estimated India was losing approximately £30–40 million per year (in 19th-century currency values) through the drain — via home charges, profit transfers, and savings remittances by British officials. This was a massive sum relative to India's GDP. Naoroji argued that this unilateral transfer, without any economic return, was the primary cause of India's poverty and famines. The drain continued until Independence in 1947.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following was a major consequence of the Permanent Settlement for Bihar's peasantry?",
+    "options": ["Peasants became landowners", "Zamindars became powerful intermediaries who exploited peasants; led to the Bakasht movement later", "Revenue was collected directly from peasants by the government", "The village community was collectively responsible for revenue"],
+    "answer": 1,
+    "explanation": "In Bihar (under the Permanent Settlement), zamindars became powerful hereditary landowners who extracted rent from peasants with no legal protection. This exploitation led to the <strong>Bakasht movement</strong> (1930s–50s) — a peasant movement in Bihar led by Swami Sahajanand Saraswati, demanding the abolition of zamindari and the restoration of tenants' rights. Bihar was one of the first states to abolish zamindari after Independence (1950), a direct consequence of the Permanent Settlement's legacy.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bakasht movement in Bihar was led by which leader?",
+    "options": ["Rajendra Prasad", "Swami Sahajanand Saraswati", "Jayaprakash Narayan", "Sri Krishna Sinha"],
+    "answer": 1,
+    "explanation": "Swami Sahajanand Saraswati led the Bakasht movement in Bihar (1930s–50s), demanding that bakasht land (tenant-cultivated but zamindar-owned) be transferred to the cultivating tenant. He founded the Kisan Sabha and was one of India's most powerful peasant leaders. His movement directly led to Bihar's zamindari abolition (1950).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

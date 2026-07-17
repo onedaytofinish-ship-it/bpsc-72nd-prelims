@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>11 - Reports & Indices | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #11 • TIER A</div>
+  <div class="topic-title">Reports &amp; Indices — India in 2025–26</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs</span>
+    <span class="meta-tag">⚖️ Weight: 1.7</span>
+    <span class="meta-tag">📊 Mapped Questions: 11</span>
+    <span class="meta-tag">🎯 Expected: 2–4 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content &amp; PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>HDR 2025 — Life Expectancy:</strong> The 71st asked India's life expectancy in 2023 as per HDR 2025. Answer: <strong>72 years</strong>. The trap was the wrong year or rounding. Learn a report as a bundle: <em>publisher → report year → data year → rank/value</em>.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Publisher Matching:</strong> "The Global Gender Gap Report is released by —" Answer: <strong>World Economic Forum</strong>. BPSC loves direct publisher → report matching (69th p.7). These are one-mark factual traps — memorise the publisher with the report name.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>SDG India Index Topper:</strong> "Which Indian State topped the NITI Aayog's SDG India Index 2023?" Answer: <strong>Kerala</strong> (joint with Uttarakhand at 79). BPSC also asks the bottom state — Bihar at 57 (cross-link Topic #23).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>PLFS 2023-24:</strong> The 71st asked about the Annual PLFS report — LFPR of rural females 35.5% vs urban females 22.3%. Know that PLFS is conducted by <strong>NSO under MoSPI</strong> (not NITI, not RBI).
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete report-by-report breakdown with methodology, indicator lists, edition history, and all India/Bihar figures in one place:
+    <a href="subpages/11_reports_indices_detail.html" target="_blank">Reports &amp; Indices Master Detail →</a>
+  </div>
+
+  <h3>A. The Big Six Reports — Master Table <span class="current-tag">VERIFIED JUL 2026</span></h3>
+  <p>BPSC asks "who publishes X" and "what is India's rank in Y" — one-mark factual traps. Learn this table cold: publisher, edition, India rank, and the trap that comes with each.</p>
+  <table>
+    <tr><th>Report (Edition)</th><th>Publisher</th><th>India Figure</th><th>Common Trap</th></tr>
+    <tr><td><strong>Human Development Report 2025</strong></td><td>UNDP</td><td>Rank 130/193; HDI 0.685; life expectancy 72.0 (2023 data)</td><td>0.685 is medium, not high (≥0.700); data year is 2023, not 2025</td></tr>
+    <tr><td><strong>Global Hunger Index 2025</strong></td><td>Concern Worldwide &amp; Welthungerhilfe</td><td>Rank 102/123; score 25.8; "serious"</td><td>105/127 is 2024 edition — don't mix editions; components change yearly</td></tr>
+    <tr><td><strong>Global Gender Gap 2025</strong></td><td>World Economic Forum (WEF)</td><td>Rank 131/148; parity 64.4%</td><td>118/147 is WHR 2025 — different report; 148 economies (2025) vs 147 (2024)</td></tr>
+    <tr><td><strong>Global Innovation Index 2025</strong></td><td>WIPO</td><td>Rank 38/139; 1st in lower-middle-income; output 32, input 52</td><td>Output rank (32) is better than input (52) — unusual; 39 is 2024 rank</td></tr>
+    <tr><td><strong>World Happiness Report 2026</strong></td><td>Wellbeing Research Centre (Oxford), Gallup &amp; UN SDSN</td><td>Rank 116; score 4.536</td><td>WHR 2025 was rank 118 — don't mix years; NOT published by WIPO or UNDP</td></tr>
+    <tr><td><strong>SDG India Index 2023–24</strong></td><td>NITI Aayog</td><td>India score 71; Kerala &amp; Uttarakhand 79 (top); Bihar 57 (bottom)</td><td>16 SDGs ranked (not 17 — SDG 17 excluded); 66 was previous edition</td></tr>
+  </table>
+
+  <h3>B. GHI 2025 — Component Breakdown <span class="current-tag">COMPONENT TRAP</span></h3>
+  <p>The GHI combines four equally-weighted indicators. BPSC tests whether you know which is which — wasting and stunting are the most commonly swapped pair.</p>
+  <table>
+    <tr><th>Indicator</th><th>What it Measures</th><th>India 2025 Value</th></tr>
+    <tr><td><strong>Undernourishment</strong></td><td>Share of population with insufficient calorie intake</td><td>12.0%</td></tr>
+    <tr><td><strong>Child Wasting</strong></td><td>Low weight-for-height (acute malnutrition)</td><td>18.7%</td></tr>
+    <tr><td><strong>Child Stunting</strong></td><td>Low height-for-age (chronic malnutrition)</td><td>32.9%</td></tr>
+    <tr><td><strong>Under-5 Mortality</strong></td><td>Probability of dying before age 5</td><td>2.8%</td></tr>
+  </table>
+  <ul>
+    <li><strong>Severity bands:</strong> Low &lt;5; Moderate 5–9.9; <strong>Serious 10–34.9</strong> (India = 25.8); Alarming 35–49.9; Extremely Alarming ≥50.</li>
+    <li><strong>Key warning:</strong> The publisher explicitly states that ranks and scores are <strong>comparable only within the same edition</strong> — country coverage, data sources and methodology change yearly.</li>
+  </ul>
+
+  <h3>C. GII 2025 — The Innovation Deep Dive <span class="current-tag">RISING</span></h3>
+  <ul>
+    <li><strong>Trend:</strong> India rose from 81st (2015) → 40th (2023) → 39th (2024) → <strong>38th (2025)</strong> — a steady upward trajectory BPSC loves.</li>
+    <li><strong>Income group:</strong> 1st among <strong>lower-middle-income</strong> economies (not high-income — India is not in that group).</li>
+    <li><strong>Regional:</strong> 1st in <strong>Central and Southern Asia</strong>.</li>
+    <li><strong>Output vs Input:</strong> Output rank <strong>32</strong> (better) vs input rank <strong>52</strong> (weaker) — India produces more innovation per unit of investment than expected.</li>
+    <li><strong>GII pillars:</strong> Institutions, Human capital &amp; research, Infrastructure, Market sophistication, Business sophistication, Knowledge &amp; technology outputs, Creative outputs.</li>
+  </ul>
+
+  <h3>D. Other High-Yield Reports &amp; Indices</h3>
+  <table>
+    <tr><th>Report</th><th>Publisher</th><th>Key Fact</th></tr>
+    <tr><td>National MPI (2023)</td><td>NITI Aayog</td><td>Based on NFHS-5 (2019-21); national H = 14.96%; uses 12 indicators in 3 dimensions</td></tr>
+    <tr><td>PLFS (Annual)</td><td>NSO under MoSPI</td><td>LFPR, WPR, unemployment rate; 71st PYQ: rural female LFPR 35.5%, urban female 22.3%</td></tr>
+    <tr><td>India State of Forest Report (ISFR)</td><td>Forest Survey of India (MoEFCC)</td><td>ISFR 2023: total forest + tree cover 25.17% of geographic area (71st PYQ)</td></tr>
+    <tr><td>Global MPI</td><td>UNDP &amp; OPHI (Oxford)</td><td>Separate from NITI's National MPI — different methodology, different publisher</td></tr>
+  </table>
+  <ul>
+    <li><strong>Publisher trap — National vs Global MPI:</strong> NITI Aayog publishes India's <em>National</em> MPI; UNDP + OPHI publish the <em>Global</em> MPI. Both use the Alkire-Foster method but with different indicators and reference populations.</li>
+    <li><strong>PLFS vs Periodic Labour Force Survey:</strong> same thing — conducted by NSO (National Statistical Office) under MoSPI. Not NITI, not RBI, not Labour Bureau alone.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — "H-G-G-I-S-W" (6 Big Reports)</strong><br>
+    <strong>H</strong>DR → UNDP (rank 130) • <strong>G</strong>HI → Concern+Welthungerhilfe (102/123) • <strong>G</strong>ender Gap → WEF (131/148) • <strong>I</strong>nnovation → WIPO (38/139) • <strong>S</strong>DG India → NITI Aayog (score 71) • <strong>W</strong>HR → Oxford+Gallup+SDSN (rank 116).<br>
+    <em>Publisher chain: UNDP, NGO, WEF, WIPO, NITI, Oxford — six different publishers, never confuse!</em>
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — GHI Severity Ladder "L-M-S-A-E"</strong><br>
+    <strong>L</strong>ow (&lt;5) → <strong>M</strong>oderate (5–9.9) → <strong>S</strong>erious (10–34.9) ← <em>India is here (25.8)</em> → <strong>A</strong>larming (35–49.9) → <strong>E</strong>xtremely Alarming (≥50).
+  </div>
+
+  <div class="img-container">
+    <img src="images/un_assembly.png" alt="United Nations General Assembly">
+    <div class="img-caption">UN system reports: distinguish UNDP's HDR from NITI's SDG India Index — different publishers, different scopes.</div>
+  </div>
+</div>
+
+<!-- ====== FLOWCHART: REPORT → PUBLISHER → INDIA RANK ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> Report → Publisher → India Rank (Quick Recall Ladder)
+  </div>
+  <p style="margin-bottom: 12px;">The single most tested pattern: match report to publisher to India's figure. Walk down this ladder in the exam hall.</p>
+
+  <div class="flowchart">
+    <div class="flow-node">HDR 2025 → UNDP → India 130/193, HDI 0.685</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">GHI 2025 → Concern Worldwide + Welthungerhilfe → India 102/123, score 25.8</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Gender Gap 2025 → WEF → India 131/148, parity 64.4%</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">GII 2025 → WIPO → India 38/139, 1st in lower-middle-income</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">WHR 2026 → Oxford + Gallup + UN SDSN → India 116</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">SDG India Index 2023-24 → NITI Aayog → India 71, Kerala 79, Bihar 57</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Item | Value | As-Of
+  </div>
+
+  <table>
+    <tr><th>Item</th><th>Value</th><th>As-Of / Edition</th></tr>
+    <tr><td><strong>HDR — India rank</strong></td><td>130/193</td><td>HDR 2025 (2023 data)</td></tr>
+    <tr><td><strong>HDR — India HDI value</strong></td><td>0.685 (medium)</td><td>HDR 2025 (2023 data)</td></tr>
+    <tr><td><strong>HDR — India life expectancy</strong></td><td>72.0 years</td><td>HDR 2025 (2023 data)</td></tr>
+    <tr><td><strong>GHI — India rank &amp; score</strong></td><td>102/123; 25.8 (serious)</td><td>GHI 2025</td></tr>
+    <tr><td><strong>GHI — India wasting / stunting</strong></td><td>18.7% / 32.9%</td><td>GHI 2025</td></tr>
+    <tr><td><strong>Gender Gap — India rank</strong></td><td>131/148; parity 64.4%</td><td>GGGR 2025 (WEF)</td></tr>
+    <tr><td><strong>GII — India rank</strong></td><td>38/139; output 32, input 52</td><td>GII 2025 (WIPO)</td></tr>
+    <tr><td><strong>WHR — India rank</strong></td><td>116; score 4.536</td><td>WHR 2026</td></tr>
+    <tr><td><strong>SDG India Index — India score</strong></td><td>71 (up from 66)</td><td>2023-24 (NITI Aayog)</td></tr>
+    <tr><td><strong>SDG India Index — top states</strong></td><td>Kerala &amp; Uttarakhand = 79</td><td>2023-24</td></tr>
+    <tr><td><strong>SDG India Index — Bihar (lowest)</strong></td><td>57 (Performer band)</td><td>2023-24</td></tr>
+    <tr><td><strong>SDG India Index — SDGs ranked</strong></td><td>16 (SDG 17 excluded)</td><td>2023-24</td></tr>
+    <tr><td><strong>National MPI publisher</strong></td><td>NITI Aayog (NFHS-5 data)</td><td>National MPI 2023</td></tr>
+    <tr><td><strong>PLFS publisher</strong></td><td>NSO under MoSPI</td><td>Annual PLFS 2023-24</td></tr>
+    <tr><td><strong>ISFR — forest + tree cover</strong></td><td>25.17% of geographic area</td><td>ISFR 2023 (FSI/MoEFCC)</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar in National Reports — The Bridge to Topic 23</div>
+    <ul>
+      <li><strong>SDG India Index 2023-24:</strong> Bihar scored <strong>57</strong> — the <strong>lowest among all states</strong>, yet falls in the <strong>Performer</strong> band (50–64), not Aspirant. India's national score is 71; Kerala &amp; Uttarakhand topped at 79.</li>
+      <li><strong>Bihar's weakest SDGs:</strong> SDG 2 (Zero Hunger) = <strong>24</strong> and SDG 4 (Quality Education) = <strong>32</strong> — these drag down the composite. Nutrition is the largest MPI indicator contribution (27.95%).</li>
+      <li><strong>National MPI (NFHS-5, 2019-21):</strong> Bihar's multidimensionally poor headcount = <strong>33.76%</strong> (down from 51.89% in NFHS-4). Rural H = 36.95%; urban H = 16.67%. MPI value = 0.160.</li>
+      <li><strong>NITI MPI 2024 progress estimate:</strong> Bihar's 2022-23 headcount = <strong>26.59%</strong> (extrapolated, not directly observed); 377.09 lakh escaped multidimensional poverty 2013-14 to 2022-23.</li>
+      <li><strong>Why this matters for Topic 11:</strong> BPSC can frame a Bihar-specific question from any national report — the SDG Index and MPI are the two highest-yield Bihar angles. Cross-link to <strong>Topic 23</strong> for the full Bihar-in-reports deep dive.</li>
+    </ul>
+  </div>
+  <div class="img-container">
+    <img src="images/bihar_in_india.png" alt="Bihar map in India">
+    <div class="img-caption">Bihar questions convert a national report figure into a state-specific number — always bind the figure to its edition and data period.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic 7 (Economy in News):</strong> PLFS, IIP, GDP data, and macro indicators are economic reports that overlap with this topic — know the publisher (MoSPI/NSO) and the latest figures.<br>
+    <strong>↔ Topic 14 (Environment in News):</strong> ISFR (Forest Survey), UNEP emissions reports, and climate indices cross over — the 71st BPSC asked ISFR 2023 verbatim.<br>
+    <strong>↔ Topic 23 (Bihar in National Reports):</strong> Bihar-specific SDG and MPI figures — the dedicated Bihar companion to this topic.<br>
+    <strong>↔ Topics 15–16 (Bihar Schemes &amp; Budget):</strong> Bihar's schemes address the deprivations identified by the SDG Index and MPI — nutrition, education, and living standards.<br>
+    <strong>↔ Topic 21 (Bihar Surveys &amp; Data):</strong> Caste survey, NFHS-5 state data, and census — all feed into the same NITI/MoSPI reporting ecosystem.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance &amp; Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>HDR 2025:</strong> India moved from 133 (2022 data) to <strong>130 (2023 data)</strong>; HDI reached <strong>0.685</strong>. The report year (2025) ≠ the data year (2023) — BPSC can trap on either. Life expectancy <strong>72.0</strong> was the 71st PYQ answer.</li>
+    <li><strong>GHI 2025:</strong> India <strong>102/123, score 25.8</strong>. The 2024 edition had 127 countries (India 105/127) — don't mix editions. The publisher warns against cross-edition comparisons.</li>
+    <li><strong>Gender Gap 2025:</strong> India <strong>131/148</strong>. The number of economies rose from 147 (2024) to 148 (2025). WEF publishes this — not UN Women, not UNDP.</li>
+    <li><strong>GII 2025:</strong> India <strong>38/139</strong>, up from 39 (2024) and 40 (2023). Output rank 32 beats input rank 52 — a rare and memorable fact. WIPO publishes this — not WEF, not World Bank.</li>
+    <li><strong>WHR 2026:</strong> India <strong>116</strong> (score 4.536). WHR 2025 was 118 — a 2-rank improvement. Published by Oxford + Gallup + UN SDSN — <strong>not</strong> WIPO, <strong>not</strong> UNDP, <strong>not</strong> WEF.</li>
+    <li><strong>SDG India Index 2023-24:</strong> India <strong>71</strong>; Kerala &amp; Uttarakhand <strong>79</strong> (joint top); Bihar <strong>57</strong> (lowest). 16 SDGs ranked (SDG 17 excluded). Previous score was 66.</li>
+    <li><strong>Edition-mixing is the #1 trap:</strong> Every report changes its country count, methodology, or data year between editions. Never compare a rank from one edition with a score from another — always cite the edition year.</li>
+    <li><strong>Publisher-matching is the #2 trap:</strong> BPSC's favourite format: "Which is wrongly matched?" Know all six publishers cold: UNDP, Concern+Welthungerhilfe, WEF, WIPO, Oxford+Gallup+SDSN, NITI Aayog.</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (25 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Human Development Report 2025 placed India at which rank? (71st BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 118 of 147</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 130 of 193</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 131 of 148</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 102 of 123</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — UNDP's HDR 2025 places India 130th of 193 countries, with HDI 0.685 based on 2023 data. Trap: 131/148 is the Global Gender Gap rank (WEF), 102/123 is GHI, 118/147 was WHR 2025 — all different reports.</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. India's HDI value in HDR 2025 was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) 0.585</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) 0.644</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) 0.685</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) 0.715</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — India's HDI rose from 0.676 (2022 data) to 0.685 (2023 data), remaining in the medium-development category (0.550–0.699). 0.715 would place India in the high-development group, which it has not yet reached.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. HDR 2025 reports India's life expectancy at birth (2023) as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) 67.2 years</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) 70 years</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) 72 years</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) 75 years</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — The UNDP figure is 72.0 years, up from 58.6 in 1990 — the exact fact asked in the 71st BPSC. 70 and 75 are common rounding traps; 67.2 is an older estimate.</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Human Development Report is published by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) UNDP</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) UNESCO</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) UNICEF</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) World Bank</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — UNDP publishes the HDR. UNESCO publishes education reports (e.g., GEM Report); UNICEF focuses on children; the World Bank produces World Development Indicators — a separate database.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. HDI combines which three broad dimensions?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Health, education, standard of living</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Inflation, trade, investment</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Poverty, hunger, mortality</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Gender, climate, governance</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — HDI measures a long and healthy life (life expectancy), knowledge (expected and mean years of schooling), and a decent standard of living (GNI per capita). It does not capture inflation, gender, or governance directly.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. India's Global Hunger Index 2025 rank and score were:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 102/123; 25.8</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 105/127; 27.3</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 130/193; 0.685</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 131/148; 64.4%</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — GHI 2025 lists India 102 of 123 with a score of 25.8 (serious). 105/127 is the 2024 edition figure — the number of countries and methodology change yearly, so mixing editions is a trap. 130/193 is HDR; 131/148 is Gender Gap.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. India's GHI 2025 hunger-severity category was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Low</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Moderate</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Serious</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Alarming</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — GHI severity bands: low (&lt;5), moderate (5–9.9), serious (10–34.9), alarming (35–49.9), extremely alarming (≥50). India's 25.8 falls squarely in 'serious'. 'Alarming' would need ≥35; 'moderate' needs &lt;10.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Which is NOT a component of the Global Hunger Index?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Undernourishment</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Child wasting</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Child stunting</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Maternal mortality</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (D)</strong> — GHI combines four indicators: undernourishment, child wasting, child stunting, and under-five mortality. Maternal mortality is not part of GHI — it belongs to MMR/MMIH reports.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Global Hunger Index 2025 gave India a child wasting figure of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) 12.0%</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) 18.7%</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) 32.9%</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) 2.8%</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — India's GHI 2025 components: wasting 18.7%, stunting 32.9%, undernourishment 12.0%, under-five mortality 2.8%. Wasting (low weight-for-height) and stunting (low height-for-age) are often swapped in traps — wasting is the acute, stunting the chronic condition.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. A correct caution while comparing GHI results across years is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Ranks are directly comparable every year</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Only scores are comparable across editions</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Rankings and scores are comparable only within the same edition</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) GHI uses the same country set every year</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — GHI's publisher explicitly warns that revised data, methodology changes, and varying country coverage make cross-edition rank/score comparisons invalid. Each edition is self-contained — comparing 102/123 (2025) with 105/127 (2024) is meaningless.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The Global Gender Gap Report is released by: (69th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) UN Women</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) World Economic Forum</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) UNDP</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) The World Bank</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (B)</strong> — The World Economic Forum (WEF, Geneva) releases the Global Gender Gap Report — a direct 69th BPSC question. UN Women is a UN entity for gender equality but does not publish this index; UNDP publishes HDR; the World Bank produces separate development databases.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. India's Global Gender Gap Report 2025 position was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) 118/147</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) 131/148</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) 102/123</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) 38/139</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — WEF ranked India 131st among 148 economies in 2025, with an overall parity score of 64.4%. 118/147 was the 2024 edition (147 countries); the number of economies rose to 148 in 2025. 38/139 is GII; 102/123 is GHI.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Match the report to the publisher: HDR, GII, SDG India Index.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) UNDP, WIPO, NITI Aayog</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) UNESCO, WEF, RBI</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) World Bank, UNDP, MoSPI</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) UNDP, WEF, NITI Aayog</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — HDR → UNDP; Global Innovation Index → WIPO; SDG India Index → NITI Aayog. WEF publishes the Gender Gap Report (not GII); the World Bank does not publish any of these three; MoSPI publishes PLFS.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Global Innovation Index 2025 placed India at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 38/139</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 39/139</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 40/139</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 48/139</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — WIPO's GII 2025 ranks India 38th of 139, improving from 39th (2024) and 40th (2023). The upward trajectory is a favourite BPSC angle. 48 is a trap from an older edition.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. In GII 2025, India ranked first among:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) High-income economies</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Lower-middle-income economies</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) G7 economies</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) BRICS economies only</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — India was first among lower-middle-income economies and also first in the Central and Southern Asia region. It is not a high-income economy (that group is led by Switzerland, Singapore, the US). 'BRICS only' is a trap — the ranking is global, not BRICS-specific.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. India's GII 2025 output rank was better than its input rank. The pair (output, input) is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) 32, 52</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) 52, 32</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) 38, 32</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) 32, 38</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — India's innovation output rank was 32 (better) and input rank was 52 (weaker) — a rare case where output outperforms input, meaning India extracts more innovation per unit of investment. 38 is the overall GII rank, not a sub-rank.</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The World Happiness Report 2026 placed India at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 95</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 116</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 118</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 131</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (B)</strong> — India ranks 116 in WHR 2026 (score 4.536). WHR 2025 had India at 118 — a 2-rank improvement. Report year matters: mixing 118 (2025) with 116 (2026) is the classic BPSC trap. 131 is the Gender Gap rank.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The World Happiness Report is published by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) WIPO</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) UNDP</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Wellbeing Research Centre (Oxford), Gallup &amp; UN SDSN</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) World Economic Forum</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — WHR is produced by the Wellbeing Research Centre at the University of Oxford, in partnership with Gallup and the UN Sustainable Development Solutions Network (SDSN). WIPO publishes GII; WEF publishes Gender Gap; UNDP publishes HDR — all separate.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. India's SDG India Index 2023-24 composite score was: (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) 57</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) 66</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) 71</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) 79</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — NITI Aayog reported India's composite score at 71, up from 66 in 2020-21. 57 is Bihar's score (lowest state); 79 is the top state score (Kerala &amp; Uttarakhand). 66 is the previous edition — all four options are real numbers from the same index, making this a classic BPSC trap.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which states jointly topped the SDG India Index 2023-24? (70th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Tamil Nadu and Kerala</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Kerala and Uttarakhand</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Gujarat and Maharashtra</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Goa and Sikkim</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — Kerala and Uttarakhand jointly led with a score of 79. The 70th BPSC asked 'which state topped' with Kerala as the answer; the 2023-24 edition was the first to have a joint topper. Bihar was last at 57.</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The SDG India Index 2023-24 assesses progress on how many SDGs?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 15</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 16</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 17</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 18</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — It assesses 16 SDGs; SDG 17 (Partnerships for the Goals) is not ranked — it is treated as a common goal across all states. The UN has 17 SDGs total, so '17' is the obvious trap. 15 is an older edition count.</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The SDG India Index is published by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) MoSPI</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) UNDP</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) NITI Aayog</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) World Economic Forum</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — NITI Aayog publishes the SDG India Index — India's own state-level SDG dashboard. UNDP publishes the global HDR; MoSPI publishes PLFS; WEF publishes Gender Gap. All four are distinct publishers with distinct indices.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The National Multidimensional Poverty Index in India is published by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) RBI</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) NITI Aayog</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) NABARD</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) UNDP</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — NITI Aayog publishes India's National MPI, using NFHS data. UNDP co-publishes the global MPI with OPHI (Oxford) — a separate product. RBI focuses on monetary policy; NABARD on rural credit. The national vs global MPI distinction is a BPSC trap.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Consider the following statements: 1. GII is published by WIPO. 2. Global Gender Gap Report is published by WEF. 3. HDR is published by UNDP. How many are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) 1 only</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (D)</strong> — All three publisher-report pairs are correct. These are high-frequency BPSC matching facts: WIPO→GII, WEF→Gender Gap, UNDP→HDR. Students often confuse one of the three, so BPSC bundles them into a statement question.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which pair is WRONGLY matched?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) GHI — Concern Worldwide and Welthungerhilfe</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) SDG India Index — NITI Aayog</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) World Happiness Report — WIPO</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) Global Innovation Index — WIPO</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (C)</strong> — WIPO publishes GII (Global Innovation Index), not the World Happiness Report. WHR is produced by the Wellbeing Research Centre (Oxford), Gallup &amp; UN SDSN. The other three pairs are all correctly matched.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.undp.org/india/press-releases/indias-human-development-continues-make-progress-ranks-130-out-193-countries" target="_blank">UNDP — HDR 2025 India</a> <span class="ref-desc">India rank 130, HDI 0.685, life expectancy 72.0</span></li>
+    <li><a href="https://www.globalhungerindex.org/india.html" target="_blank">Global Hunger Index 2025 — India</a> <span class="ref-desc">Rank 102/123, score 25.8, serious</span></li>
+    <li><a href="https://reports.weforum.org/docs/WEF_GGGR_2025.pdf" target="_blank">WEF — Global Gender Gap Report 2025</a> <span class="ref-desc">India 131/148, parity 64.4%</span></li>
+    <li><a href="https://www.wipo.int/gii-ranking/en/india" target="_blank">WIPO — Global Innovation Index 2025: India</a> <span class="ref-desc">Rank 38/139, 1st in lower-middle-income</span></li>
+    <li><a href="https://files.worldhappiness.report/WHR26.pdf" target="_blank">World Happiness Report 2026</a> <span class="ref-desc">India rank 116, score 4.536</span></li>
+    <li><a href="https://www.niti.gov.in/whats-new/sdg-india-index2023-24" target="_blank">NITI Aayog — SDG India Index 2023–24</a> <span class="ref-desc">India 71, Kerala &amp; Uttarakhand 79, Bihar 57</span></li>
+    <li><a href="https://www.niti.gov.in/sites/default/files/2023-07/National-Multidimentional-Poverty-Index-2023-Final-17th-July.pdf" target="_blank">NITI Aayog — National MPI 2023</a> <span class="ref-desc">Based on NFHS-5 (2019-21)</span></li>
+    <li><a href="https://www.mospi.gov.in/" target="_blank">MoSPI — PLFS Publications</a> <span class="ref-desc">Periodic Labour Force Survey, NSO</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 11 — Reports &amp; Indices • Generated 2026-07-17 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'b', q2: 'c', q3: 'c', q4: 'a', q5: 'a',
+  q6: 'a', q7: 'c', q8: 'd', q9: 'b', q10: 'c',
+  q11: 'b', q12: 'b', q13: 'a', q14: 'a', q15: 'b',
+  q16: 'a', q17: 'b', q18: 'c', q19: 'c', q20: 'b',
+  q21: 'b', q22: 'c', q23: 'b', q24: 'd', q25: 'c'
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    
+    // Reset classes
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    
+    // Show explanation
+    explanation.classList.add('show');
+    
+    // Highlight correct option
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) {
+        input.parentElement.classList.add('correct-option');
+      }
+    });
+    
+    // Check if selected answer is correct
+    if (selected) {
+      if (selected.value === correctAnswer) {
+        score++;
+        block.classList.add('correct');
+      } else {
+        block.classList.add('wrong');
+        selected.parentElement.classList.add('wrong-option');
+      }
+    }
+  }
+  
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

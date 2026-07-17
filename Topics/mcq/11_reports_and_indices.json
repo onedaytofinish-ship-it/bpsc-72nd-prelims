@@ -1,0 +1,202 @@
+[
+  {
+    "q": "The Human Development Report 2025 placed India at which rank? (71st BPSC pattern)",
+    "options": ["118 of 147", "130 of 193", "131 of 148", "102 of 123"],
+    "answer": 1,
+    "explanation": "UNDP's HDR 2025 places India 130th of 193 countries, with HDI 0.685 based on 2023 data. Trap: 131/148 is the Global Gender Gap rank (WEF), 102/123 is GHI, 118/147 was WHR 2025 — all different reports.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.8"
+  },
+  {
+    "q": "India's HDI value in HDR 2025 was:",
+    "options": ["0.585", "0.644", "0.685", "0.715"],
+    "answer": 2,
+    "explanation": "India's HDI rose from 0.676 (2022 data) to 0.685 (2023 data), remaining in the medium-development category (0.550–0.699). 0.644 was an older value; 0.715 would place India in the high-development group, which it has not yet reached.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.8"
+  },
+  {
+    "q": "HDR 2025 reports India's life expectancy at birth (2023) as:",
+    "options": ["67.2 years", "70 years", "72 years", "75 years"],
+    "answer": 2,
+    "explanation": "The UNDP figure is 72.0 years, up from 58.6 in 1990 — the exact fact asked in the 71st BPSC. 70 and 75 are common rounding traps; 67.2 is an older estimate.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.8"
+  },
+  {
+    "q": "The Human Development Report is published by:",
+    "options": ["UNDP", "UNESCO", "UNICEF", "World Bank"],
+    "answer": 0,
+    "explanation": "UNDP publishes the HDR. UNESCO publishes education reports (e.g., GEM Report); UNICEF focuses on children; the World Bank produces World Development Indicators — a separate database.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "HDI combines which three broad dimensions?",
+    "options": ["Health, education, standard of living", "Inflation, trade, investment", "Poverty, hunger, mortality", "Gender, climate, governance"],
+    "answer": 0,
+    "explanation": "HDI measures a long and healthy life (life expectancy), knowledge (expected and mean years of schooling), and a decent standard of living (GNI per capita). It does not capture inflation, gender, or governance directly.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "India's Global Hunger Index 2025 rank and score were:",
+    "options": ["102/123; 25.8", "105/127; 27.3", "130/193; 0.685", "131/148; 64.4%"],
+    "answer": 0,
+    "explanation": "GHI 2025 lists India 102 of 123 with a score of 25.8 (serious). 105/127 is the 2024 edition figure — the number of countries and methodology change yearly, so mixing editions is a trap. 130/193 is HDR; 131/148 is Gender Gap.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "India's GHI 2025 hunger-severity category was:",
+    "options": ["Low", "Moderate", "Serious", "Alarming"],
+    "answer": 2,
+    "explanation": "GHI severity bands: low (<5), moderate (5–9.9), serious (10–34.9), alarming (35–49.9), extremely alarming (≥50). India's 25.8 falls squarely in 'serious'. 'Alarming' would need ≥35; 'moderate' needs <10.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which is NOT a component of the Global Hunger Index?",
+    "options": ["Undernourishment", "Child wasting", "Child stunting", "Maternal mortality"],
+    "answer": 3,
+    "explanation": "GHI combines four indicators: undernourishment (share of undernourished population), child wasting, child stunting, and under-five mortality. Maternal mortality is not part of GHI — it belongs to MMR/MMIH reports.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Global Hunger Index 2025 gave India a child wasting figure of:",
+    "options": ["12.0%", "18.7%", "32.9%", "2.8%"],
+    "answer": 1,
+    "explanation": "India's GHI 2025 components: wasting 18.7%, stunting 32.9%, undernourishment 12.0%, under-five mortality 2.8%. Wasting (low weight-for-height) and stunting (low height-for-age) are often swapped in traps — wasting is the acute, stunting the chronic condition.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "A correct caution while comparing GHI results across years is:",
+    "options": ["Ranks are directly comparable every year", "Only scores are comparable across editions", "Rankings and scores are comparable only within the same edition", "GHI uses the same country set every year"],
+    "answer": 2,
+    "explanation": "GHI's publisher explicitly warns that revised data, methodology changes, and varying country coverage make cross-edition rank/score comparisons invalid. Each edition is self-contained — comparing 102/123 (2025) with 105/127 (2024) is meaningless.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Global Gender Gap Report is released by: (69th BPSC PYQ)",
+    "options": ["UN Women", "World Economic Forum", "UNDP", "The World Bank"],
+    "answer": 1,
+    "explanation": "The World Economic Forum (WEF, Geneva) releases the Global Gender Gap Report — a direct 69th BPSC question. UN Women is a UN entity for gender equality but does not publish this index; UNDP publishes HDR; the World Bank produces separate development databases.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.7"
+  },
+  {
+    "q": "India's Global Gender Gap Report 2025 position was:",
+    "options": ["118/147", "131/148", "102/123", "38/139"],
+    "answer": 1,
+    "explanation": "WEF ranked India 131st among 148 economies in 2025, with an overall parity score of 64.4%. 118/147 was the 2024 edition (147 countries); the number of economies rose to 148 in 2025. 38/139 is GII; 102/123 is GHI.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match the report to the publisher: HDR, GII, SDG India Index.",
+    "options": ["UNDP, WIPO, NITI Aayog", "UNESCO, WEF, RBI", "World Bank, UNDP, MoSPI", "UNDP, WEF, NITI Aayog"],
+    "answer": 0,
+    "explanation": "HDR → UNDP; Global Innovation Index → WIPO; SDG India Index → NITI Aayog. WEF publishes the Gender Gap Report (not GII); the World Bank does not publish any of these three; MoSPI publishes PLFS.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Global Innovation Index 2025 placed India at:",
+    "options": ["38/139", "39/139", "40/139", "48/139"],
+    "answer": 0,
+    "explanation": "WIPO's GII 2025 ranks India 38th of 139, improving from 39th (2024) and 40th (2023). The upward trajectory is a favourite BPSC angle — 'which is correct about India's GII trend'. 48 is a trap from an older edition.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "In GII 2025, India ranked first among:",
+    "options": ["High-income economies", "Lower-middle-income economies", "G7 economies", "BRICS economies only"],
+    "answer": 1,
+    "explanation": "India was first among lower-middle-income economies and also first in the Central and Southern Asia region. It is not a high-income economy (that group is led by Switzerland, Singapore, the US). 'BRICS only' is a trap — the ranking is global, not BRICS-specific.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "India's GII 2025 output rank was better than its input rank. The pair (output, input) is:",
+    "options": ["32, 52", "52, 32", "38, 32", "32, 38"],
+    "answer": 0,
+    "explanation": "India's innovation output rank was 32 (better) and input rank was 52 (weaker) — a rare case where output outperforms input, meaning India extracts more innovation per unit of investment. 38 is the overall GII rank, not a sub-rank.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The World Happiness Report 2026 placed India at:",
+    "options": ["95", "116", "118", "131"],
+    "answer": 1,
+    "explanation": "India ranks 116 in WHR 2026 (score 4.536). WHR 2025 had India at 118 — a 2-rank improvement. Report year matters: mixing 118 (2025) with 116 (2026) is the classic BPSC trap. 131 is the Gender Gap rank.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The World Happiness Report is published by:",
+    "options": ["WIPO", "UNDP", "Wellbeing Research Centre (Oxford), Gallup & UN SDSN", "World Economic Forum"],
+    "answer": 2,
+    "explanation": "WHR is produced by the Wellbeing Research Centre at the University of Oxford, in partnership with Gallup and the UN Sustainable Development Solutions Network (SDSN). WIPO publishes GII; WEF publishes Gender Gap; UNDP publishes HDR — all separate.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "India's SDG India Index 2023-24 composite score was: (70th BPSC pattern)",
+    "options": ["57", "66", "71", "79"],
+    "answer": 2,
+    "explanation": "NITI Aayog reported India's composite score at 71, up from 66 in 2020-21. 57 is Bihar's score (lowest state); 79 is the top state score (Kerala & Uttarakhand). 66 is the previous edition — all four options are real numbers from the same index, making this a classic BPSC trap.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.32"
+  },
+  {
+    "q": "Which states jointly topped the SDG India Index 2023-24? (70th BPSC PYQ)",
+    "options": ["Tamil Nadu and Kerala", "Kerala and Uttarakhand", "Gujarat and Maharashtra", "Goa and Sikkim"],
+    "answer": 1,
+    "explanation": "Kerala and Uttarakhand jointly led with a score of 79. The 70th BPSC asked 'which state topped' with Kerala as the answer; the 2023-24 edition was the first to have a joint topper. Bihar was last at 57.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.32"
+  },
+  {
+    "q": "The SDG India Index 2023-24 assesses progress on how many SDGs?",
+    "options": ["15", "16", "17", "18"],
+    "answer": 1,
+    "explanation": "It assesses 16 SDGs; SDG 17 (Partnerships for the Goals) is not ranked — it is treated as a common goal across all states. The UN has 17 SDGs total, so '17' is the obvious trap. 15 is an older edition count.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The SDG India Index is published by:",
+    "options": ["MoSPI", "UNDP", "NITI Aayog", "World Economic Forum"],
+    "answer": 2,
+    "explanation": "NITI Aayog publishes the SDG India Index — India's own state-level SDG dashboard. UNDP publishes the global HDR; MoSPI publishes PLFS; WEF publishes Gender Gap. All four are distinct publishers with distinct indices.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.32"
+  },
+  {
+    "q": "The National Multidimensional Poverty Index in India is published by:",
+    "options": ["RBI", "NITI Aayog", "NABARD", "UNDP"],
+    "answer": 1,
+    "explanation": "NITI Aayog publishes India's National MPI, using NFHS data. UNDP co-publishes the global MPI with OPHI (Oxford) — a separate product. RBI focuses on monetary policy; NABARD on rural credit. The national vs global MPI distinction is a BPSC trap.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements: 1. GII is published by WIPO. 2. Global Gender Gap Report is published by WEF. 3. HDR is published by UNDP. How many are correct?",
+    "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three publisher-report pairs are correct. These are high-frequency BPSC matching facts: WIPO→GII, WEF→Gender Gap, UNDP→HDR. Students often confuse one of the three, so BPSC bundles them into a statement question.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which pair is WRONGLY matched?",
+    "options": ["GHI — Concern Worldwide and Welthungerhilfe", "SDG India Index — NITI Aayog", "World Happiness Report — WIPO", "Global Innovation Index — WIPO"],
+    "answer": 2,
+    "explanation": "WIPO publishes GII (Global Innovation Index), not the World Happiness Report. WHR is produced by the Wellbeing Research Centre (Oxford), Gallup & UN SDSN. The other three pairs are all correctly matched.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

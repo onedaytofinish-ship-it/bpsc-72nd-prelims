@@ -1,0 +1,13 @@
+# Exclude large/unnecessary folders
+Resources/
+BPSC PYQ/
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/

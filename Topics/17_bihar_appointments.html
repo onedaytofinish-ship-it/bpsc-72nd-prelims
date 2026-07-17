@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>17 - Appointments in Bihar | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .flow-node a:hover {
+    text-decoration: underline;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #17 • TIER A</div>
+  <div class="topic-title">Appointments in Bihar — CM, Governor, Judiciary &amp; Bureaucracy Churn</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs &amp; Bihar Special</span>
+    <span class="meta-tag">⚖️ Weight: 1.3 (Tier A)</span>
+    <span class="meta-tag">📊 Mapped PYQ: 1 (71st, 1939 CM)</span>
+    <span class="meta-tag">🎯 Expected: 1-2 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content &amp; PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ (2025)</span>
+    <strong>"Who became Chief Minister of Bihar in March 1939?"</strong> — options: (A) Anugraha Narain Singh (B) Rajendra Prasad (C) Shri Krishna Singh (D) None of the above. Answer: <strong>(C) Shri Krishna Singh</strong> ("Bihar Kesari" / "Sri Babu"), Premier of Bihar's first Congress ministry under the Government of India Act 1935 (tenure 20 Jul 1937 – 31 Oct 1939). BPSC loves "who became CM of Bihar in [year]" one-liners — the 2026 echo is <strong>"who became CM in April 2026?" → Samrat Chaudhary</strong>.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC THEME BANK</span>
+    <strong>Bihar's "firsts" &amp; constitutional appointments:</strong> first Premier <strong>Mohammad Yunus</strong> (Apr 1937); first CM <strong>Shri Krishna Sinha</strong>; first woman CM <strong>Rabri Devi</strong>; shortest CM <strong>Satish Prasad Singh (5 days)</strong>. Matching-style questions pair posts with constitutional articles — Governor (Art 155/156), HC Chief Justice (Art 217/219/223), State PSC chairman (Art 316), State Election Commissioner (Art 243K).
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Full Bihar CM lineage (1937→2026), Governors 2013→2026, Patna HC CJ churn, constitutional appointment articles and all the static "firsts":
+    <a href="subpages/17_bihar_cm_governor_lists_detail.html" target="_blank">Bihar CM &amp; Governor Lists — Detail →</a>
+  </div>
+
+  <h3>A. The 2026 Power Transition — Nitish Era Ends, First BJP CM <span class="current-tag">HIGHEST PRIORITY</span></h3>
+  <p>Bihar changed Chief Ministers in the exam window for the first time in ~20 years. Learn the date-chain cold — every link is a potential one-liner.</p>
+  <table>
+    <tr><th>Date</th><th>Event</th><th>Key Detail</th></tr>
+    <tr><td><strong>6 &amp; 11 Nov 2025</strong></td><td>Assembly polls (2 phases); counting 14 Nov</td><td><strong>NDA 202/243</strong> (majority mark 122); record turnout <strong>67.25%</strong>; <strong>BJP 89</strong> (single-largest party for the first time), JD(U) 85, LJP(RV) 19, HAM(S) 5, RLM 4; MGB 35 (RJD 25 — highest vote share 23%)</td></tr>
+    <tr><td><strong>20 Nov 2025</strong></td><td><strong>Nitish Kumar sworn in as CM for a record 10th time</strong></td><td>Gandhi Maidan, Patna; oath by <strong>Governor Arif Mohammed Khan</strong>; 26 ministers — BJP 14, JD(U) 9 (incl CM), HAM(S) 1, LJP(RV) 1, RLM 1; Dy CMs: <strong>Samrat Chaudhary (Home)</strong> &amp; <strong>Vijay Kumar Sinha</strong> (Revenue &amp; Land Reforms + Mines)</td></tr>
+    <tr><td><strong>14–16 Dec 2025</strong></td><td>Nitin Nabin named BJP National Working President</td><td>Resigned Bihar cabinet (Road Construction + Urban Development) on 16 Dec 2025 — "one person, one post"</td></tr>
+    <tr><td><strong>5 Mar 2026</strong></td><td>Nitish Kumar files <strong>Rajya Sabha nomination</strong></td><td>In Amit Shah's presence; remains JD(U) national president</td></tr>
+    <tr><td><strong>14 Apr 2026</strong></td><td>Nitish Kumar resigns as CM</td><td>Bihar's longest-serving CM — 10 oaths, ~20 years in office; moves to the Rajya Sabha</td></tr>
+    <tr><td><strong>15 Apr 2026</strong></td><td><strong>Samrat Chaudhary sworn in as 24th CM of Bihar — the state's FIRST BJP CM</strong></td><td>Oath administered by <strong>Governor Syed Ata Hasnain at Lok Bhavan</strong>, Patna; MLA from <strong>Tarapur</strong>; Dy CM 2024–26; new Dy CMs: <strong>Vijay Kumar Chaudhary &amp; Bijendra Prasad Yadav (both JD-U)</strong></td></tr>
+    <tr><td><strong>Apr–May 2026</strong></td><td>Portfolios allotted</td><td><strong>CM keeps 29 departments — including HOME, Agriculture, Health and Tourism</strong> (in Nov 2025–Apr 2026 Home was with Samrat as Dy CM)</td></tr>
+    <tr><td><strong>7 May 2026</strong></td><td><strong>Cabinet expansion at Gandhi Maidan</strong></td><td><strong>32 ministers</strong> sworn in by Governor Hasnain; PM Modi present; BJP 15, JD(U) 13, LJP(RV) 2, HAM 1, RLM 1; <strong>Nishant Kumar (Nitish's son) inducted — first political entry</strong></td></tr>
+  </table>
+  <ul>
+    <li><strong>Two Deputy CMs, both JD(U):</strong> <strong>Vijay Kumar Chaudhary</strong> (Education, Transport, Water Resources) and <strong>Bijendra Prasad Yadav</strong> (Finance, Energy, Planning) — note: ex-Dy CM <strong>Vijay Kumar Sinha (BJP)</strong> is OUT of the Dy-CM slot; B.P. Yadav also presented Budget 2026-27 as FM (cross-link Topic #16).</li>
+    <li><strong>Why it matters:</strong> first BJP CM in Bihar's history after ~20 years of the Nitish era; BJP's organisational sweep continues — Bihar face <strong>Nitin Nabin</strong> now heads the party nationally.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/samrat_chaudhary.jpg" alt="Bihar CM Samrat Chaudhary with PM Narendra Modi">
+    <div class="img-caption">Samrat Chaudhary — 24th Chief Minister of Bihar and the state's first BJP CM (sworn in 15 Apr 2026, Lok Bhavan). Image: Wikimedia Commons.</div>
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — "24-43-47" (the 2026 triad)</strong><br>
+    <strong>24</strong>th CM = <strong>Samrat Chaudhary</strong> (15 Apr 2026) • <strong>43</strong>rd Governor = <strong>Syed Ata Hasnain</strong> (14 Mar 2026) • <strong>47</strong>th Patna HC Chief Justice = <strong>Sangam Kumar Sahoo</strong> (7 Jan 2026). Governor came first — that's why <em>he</em> swore in the new CM.
+  </div>
+
+  <h3>B. Governor — From Arif Khan to Lt Gen (Retd) Syed Ata Hasnain <span class="current-tag">NEW MAR 2026</span></h3>
+  <ul>
+    <li><strong>Outgoing:</strong> <strong>Arif Mohammed Khan</strong> — transferred from Kerala to Bihar (Dec 2024; oath <strong>2 Jan 2025</strong>, replacing R. V. Arlekar who moved to Kerala); departed Mar 2026.</li>
+    <li><strong>Incoming:</strong> <strong>Lt Gen (Retd) Syed Ata Hasnain — 43rd Governor of Bihar</strong>; named by President Droupadi Murmu in the <strong>5–6 Mar 2026 nine-state reshuffle</strong>; oath <strong>14 Mar 2026</strong> at Lok Bhavan, administered by <strong>Patna HC Chief Justice Sangam Kumar Sahoo</strong>.</li>
+    <li><strong>Profile:</strong> former GOC of <strong>XV Corps (Chinar Corps), Srinagar (2010–12)</strong>; ex-member of the <strong>NDMA</strong> (member — not chairperson); former Chancellor, Central University of Kashmir.</li>
+    <li><strong>Same reshuffle:</strong> former Bihar Assembly Speaker <strong>Nand Kishore Yadav appointed Governor of Nagaland</strong> (6 Mar 2026).</li>
+    <li><strong>Constitutional base:</strong> Governor appointed by the President (<strong>Art 155</strong>), holds office during the President's pleasure (<strong>Art 156</strong>); appoints the CM (<strong>Art 164</strong>); is <strong>Chancellor of state universities</strong> — in Oct 2025 the Chancellor sent the Patna University VC on leave pending enquiry.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/syed_ata_hasnain.jpg" alt="Lt Gen (Retd) Syed Ata Hasnain, 43rd Governor of Bihar">
+    <div class="img-caption">Lt Gen (Retd) Syed Ata Hasnain — 43rd Governor of Bihar (oath 14 Mar 2026). Image: Wikimedia Commons.</div>
+  </div>
+
+  <h3>C. Bureaucracy &amp; Constitutional Posts — Who Holds What (as of Jul 2026) <span class="current-tag">VERIFIED</span></h3>
+  <table>
+    <tr><th>Post</th><th>Incumbent</th><th>Since / Note</th></tr>
+    <tr><td>Chief Minister</td><td><strong>Samrat Chaudhary (BJP)</strong> — 24th CM, first BJP CM</td><td>15 Apr 2026; Home + 28 more departments</td></tr>
+    <tr><td>Deputy CMs</td><td><strong>Vijay Kumar Chaudhary &amp; Bijendra Prasad Yadav (both JD-U)</strong></td><td>15 Apr 2026</td></tr>
+    <tr><td>Governor</td><td><strong>Lt Gen (Retd) Syed Ata Hasnain</strong> — 43rd</td><td>14 Mar 2026</td></tr>
+    <tr><td>Chief Secretary</td><td><strong>Pratyaya Amrit (IAS 1991, Bihar cadre)</strong></td><td>4 Aug 2025 — replaced <strong>Amrit Lal Meena</strong></td></tr>
+    <tr><td>DGP</td><td><strong>Vinay Kumar (IPS 1991)</strong></td><td>Appointed 13 Dec 2024 for a <strong>2-year fixed term</strong> (per SC directions); succeeded officiating DGP Alok Raj; term runs to ~Dec 2026</td></tr>
+    <tr><td>BPSC Chairman</td><td><strong>Parmar Ravi Manubhai</strong></td><td>Survived the paper-leak era — <strong>SC dismissed the challenge to his appointment on 18 Jul 2025</strong>; chaired the 20 Jun 2026 press conference</td></tr>
+    <tr><td>Assembly Speaker</td><td><strong>Prem Kumar (BJP)</strong></td><td>In office since the new assembly's 2025-26 sessions (predecessor Nand Kishore Yadav → Governor of Nagaland)</td></tr>
+    <tr><td>Legislative Council Chairman</td><td><strong>Awadhesh Narain Singh</strong></td><td>Continues</td></tr>
+    <tr><td>Bihar BJP state president</td><td><strong>Sanjay Saraogi</strong> (Darbhanga MLA)</td><td>~Dec 2025 — replaced <strong>Dilip Jaiswal</strong> (~1.5-yr tenure)</td></tr>
+    <tr><td>Patna HC Chief Justice</td><td><strong>Sangam Kumar Sahoo</strong> — 47th CJ</td><td>Oath 7 Jan 2026 (from Orissa HC)</td></tr>
+    <tr><td>State Election Commissioner</td><td><strong>Dipak Prasad</strong></td><td>In office as of the June 2025 municipal by-polls (Art 243K)</td></tr>
+    <tr><td>Nalanda University VC</td><td><strong>Prof. Sachin Chaturvedi</strong></td><td>Active through 2025-26 (international MoUs, IKS conferences)</td></tr>
+  </table>
+  <ul>
+    <li><strong>Trivia trap:</strong> ex-DGP <strong>Alok Raj</strong> was made full-time <strong>BSSC chairman w.e.f. 1 Jan 2026 — and resigned on 6 Jan 2026</strong> (a 5-day tenure; single-source, remember the concept not the detail).</li>
+    <li><strong>Not in the exam's safe zone (flagged UNVERIFIED in research):</strong> Bihar Lokayukta's current name; the Advocate-General under the Samrat government; the Patna University VC's name — BPSC rarely asks what cannot be confirmed; skip these.</li>
+  </ul>
+
+  <h3>D. Patna High Court — Four Chief Justices in ~One Year <span class="current-tag">EXAM TRAP</span></h3>
+  <table>
+    <tr><th>#</th><th>Chief Justice</th><th>Tenure at Patna HC</th></tr>
+    <tr><td>45th</td><td><strong>Vipul M. Pancholi</strong></td><td>Jul 2025 → <strong>elevated to the Supreme Court on 29 Aug 2025</strong></td></tr>
+    <tr><td>46th</td><td><strong>P. B. Bajanthri</strong></td><td>Acting CJ 27 Aug 2025; full CJ oath ~Sep 2025; <strong>retired 22 Oct 2025</strong></td></tr>
+    <tr><td>Acting</td><td><strong>Sudhir Singh</strong></td><td>23 Oct 2025 – 6 Jan 2026 (Art 223)</td></tr>
+    <tr><td>47th</td><td><strong>Sangam Kumar Sahoo</strong></td><td>From <strong>Orissa HC</strong>; collegium recommendation 18 Dec 2025; approved 1 Jan 2026; <strong>oath 7 Jan 2026</strong> — he administered the Governor's oath (14 Mar 2026)</td></tr>
+  </table>
+  <ul>
+    <li><strong>Statics:</strong> Patna HC established <strong>3 Feb 1916</strong> (Government of India Act 1915); first CJ Sir Edward Maynard Des Champs; centenary celebrated 2015-16.</li>
+    <li><strong>Articles:</strong> HC judges appointed by the President (<strong>Art 217(1)</strong>); oath under <strong>Art 219</strong>; Acting CJ under <strong>Art 223</strong> — a retired HC judge can also be requested to sit (Art 224A, in the news nationally).</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/patna_high_court.jpg" alt="Patna High Court gate">
+    <div class="img-caption">Patna High Court (est. 3 Feb 1916) saw four Chief Justices within about a year — 45th Pancholi → 46th Bajanthri → (Acting) Sudhir Singh → 47th Sahoo. Image: Wikimedia Commons.</div>
+  </div>
+
+  <h3>E. Biharis in the Union Government &amp; National Posts <span class="current-tag">MATCHING BANK</span></h3>
+  <table>
+    <tr><th>Name</th><th>Party / Seat</th><th>Portfolio / Post</th></tr>
+    <tr><td><strong>Nitin Nabin</strong></td><td>BJP — Bankipur (Patna) MLA, 5-term</td><td><strong>BJP National Working President (14 Dec 2025) → BJP National President</strong> — youngest-ever at 45; Kayastha face; resigned state cabinet 16 Dec 2025</td></tr>
+    <tr><td><strong>Chirag Paswan</strong></td><td>LJP(RV) — Hajipur</td><td>Union Minister, <strong>Food Processing Industries</strong></td></tr>
+    <tr><td><strong>Jitan Ram Manjhi</strong></td><td>HAM(S) — Gaya</td><td>Union Minister, <strong>MSME</strong></td></tr>
+    <tr><td><strong>Rajiv Ranjan 'Lalan' Singh</strong></td><td>JD(U) — Munger</td><td>Union Minister, <strong>Panchayati Raj</strong> + <strong>Fisheries, Animal Husbandry &amp; Dairying</strong></td></tr>
+    <tr><td><strong>Giriraj Singh</strong></td><td>BJP — Begusarai</td><td>Union Minister, <strong>Textiles</strong> (Bharat Tex 2026, Mar 2026)</td></tr>
+    <tr><td><strong>Nityanand Rai</strong></td><td>BJP — Ujiarpur</td><td>MoS, <strong>Home Affairs</strong></td></tr>
+    <tr><td>Ram Nath Thakur</td><td>JD(U) — RS</td><td>MoS, Agriculture &amp; Farmers Welfare (per latest council list)</td></tr>
+    <tr><td>Raj Bhushan Choudhary</td><td>BJP — Muzaffarpur</td><td>MoS, Jal Shakti (per latest council list)</td></tr>
+    <tr><td>Satish Chandra Dubey</td><td>BJP — RS</td><td>MoS, Coal &amp; Mines (per latest council list)</td></tr>
+    <tr><td><strong>Nitish Kumar</strong></td><td>JD(U)</td><td><strong>Rajya Sabha MP (from Apr 2026)</strong>; JD(U) national president — joined neither the Union cabinet nor the new state ministry</td></tr>
+  </table>
+
+  <h3>F. Historical Statics — The 1937–47 Premiership (PYQ Fuel) <span class="current-tag">71st BPSC</span></h3>
+  <ul>
+    <li><strong>Government of India Act 1935</strong> introduced provincial autonomy; Bihar's head of government was titled <strong>Premier</strong>.</li>
+    <li><strong>Mohammad Yunus</strong> (Independent Party) — <strong>first Premier of Bihar, 1 Apr – 19 Jul 1937</strong>; led a minority ministry after Congress (the largest party) initially declined office.</li>
+    <li><strong>Shri Krishna Sinha</strong> ("Bihar Kesari" / "Sri Babu") — Premier <strong>20 Jul 1937 – 31 Oct 1939</strong> (first Congress ministry; resigned with all Congress ministries over India being dragged into WWII without consultation); again Premier in 1946 and <strong>first CM of Bihar (1946–61)</strong>. The 71st BPSC asked: "Who became CM of Bihar in March 1939?" → <strong>Shri Krishna Singh</strong>.</li>
+    <li><strong>Dr. Anugraha Narayan Sinha</strong> ("Bihar Vibhuti") — <strong>Deputy Premier &amp; Finance Minister (1937–39)</strong>; later Bihar's <strong>first Deputy CM (1946–57)</strong>; Rajendra Prasad (Bihar's son) became India's first President — never CM.</li>
+    <li><strong>CM records:</strong> first woman CM <strong>Rabri Devi</strong> (1997); shortest-serving CM <strong>Satish Prasad Singh (5 days, 1968)</strong>; President's Rule imposed 8 times; <strong>Nitish Kumar = longest-serving</strong> (10 oaths, ~20 yrs, till 14 Apr 2026); <strong>Samrat Chaudhary = 24th CM &amp; first BJP CM (15 Apr 2026)</strong>.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Premiership ladder "Y-S-A: Yunus Started, Anugrah Assisted"</strong><br>
+    <strong>Y</strong>unus (Apr–Jul 1937, minority) → <strong>S</strong>hri Krishna Sinha (Jul 1937–Oct 1939, first Congress ministry) with <strong>A</strong>nugraha Narayan Sinha as Deputy Premier. Post-independence chain: SK Sinha → ... → Lalu (1990) → Rabri (1997, first woman) → Nitish (2005, 10 oaths) → <strong>Samrat (2026, 24th &amp; first BJP)</strong>.
+  </div>
+</div>
+
+<!-- ====== FLOWCHART: THE 2026 TRANSITION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> The 2026 Transition at a Glance
+  </div>
+  <p style="margin-bottom: 12px;">Ten months that rewrote Bihar's power map — memorise the chain; BPSC will test the dates and the "who swore in whom" pairing.</p>
+
+  <div class="flowchart">
+    <div class="flow-node">20 Nov 2025 — Nitish Kumar's record 10th oath (Gandhi Maidan; Gov. Arif Khan)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">5 Mar 2026 — Nitish files Rajya Sabha nomination</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">14 Mar 2026 — Lt Gen (Retd) S. A. Hasnain sworn in as 43rd Governor (by CJ Sahoo)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">15 Apr 2026 — Samrat Chaudhary: 24th CM, first BJP CM (Lok Bhavan; Gov. Hasnain)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">7 May 2026 — 32-minister expansion, Gandhi Maidan; Nishant Kumar debuts</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Post | Person | As-Of
+  </div>
+
+  <table>
+    <tr><th>Item</th><th>Value</th><th>As-Of Date</th></tr>
+    <tr><td><strong>Chief Minister</strong></td><td>Samrat Chaudhary (BJP) — 24th CM, first BJP CM; MLA Tarapur</td><td>15 Apr 2026</td></tr>
+    <tr><td><strong>CM's departments</strong></td><td>29 incl. Home, Agriculture, Health, Tourism</td><td>Apr–May 2026</td></tr>
+    <tr><td><strong>Deputy CMs</strong></td><td>Vijay Kumar Chaudhary &amp; Bijendra Prasad Yadav (both JD-U)</td><td>15 Apr 2026</td></tr>
+    <tr><td><strong>Cabinet expansion</strong></td><td>32 ministers (BJP 15, JD-U 13, LJP-RV 2, HAM 1, RLM 1); Nishant Kumar inducted</td><td>7 May 2026, Gandhi Maidan</td></tr>
+    <tr><td><strong>Governor</strong></td><td>Lt Gen (Retd) Syed Ata Hasnain — 43rd; ex-XV Corps, ex-NDMA member</td><td>14 Mar 2026</td></tr>
+    <tr><td><strong>Ex-Governor</strong></td><td>Arif Mohammed Khan (oath 2 Jan 2025; departed Mar 2026)</td><td>Dec 2024 – Mar 2026</td></tr>
+    <tr><td><strong>Chief Secretary</strong></td><td>Pratyaya Amrit, IAS 1991 (replaced Amrit Lal Meena)</td><td>4 Aug 2025</td></tr>
+    <tr><td><strong>DGP</strong></td><td>Vinay Kumar, IPS 1991 — 2-yr fixed term</td><td>13 Dec 2024 → ~Dec 2026</td></tr>
+    <tr><td><strong>BPSC Chairman</strong></td><td>Parmar Ravi Manubhai — SC dismissed challenge 18 Jul 2025</td><td>Current (Jul 2026)</td></tr>
+    <tr><td><strong>Patna HC Chief Justice</strong></td><td>Sangam Kumar Sahoo — 47th (from Orissa HC)</td><td>Oath 7 Jan 2026</td></tr>
+    <tr><td><strong>Assembly Speaker</strong></td><td>Prem Kumar (BJP)</td><td>2025-26 session onward</td></tr>
+    <tr><td><strong>Council Chairman</strong></td><td>Awadhesh Narain Singh</td><td>Continuing</td></tr>
+    <tr><td><strong>Bihar BJP president</strong></td><td>Sanjay Saraogi (Darbhanga MLA; replaced Dilip Jaiswal)</td><td>~Dec 2025</td></tr>
+    <tr><td><strong>BJP National President</strong></td><td>Nitin Nabin (Bankipur MLA) — youngest at 45; Working President 14 Dec 2025</td><td>Dec 2025 – 2026</td></tr>
+    <tr><td><strong>Nov 2025 result</strong></td><td>NDA 202/243 — BJP 89, JD(U) 85; RJD 25 (23% votes); turnout 67.25%</td><td>Counting 14 Nov 2025</td></tr>
+    <tr><td><strong>Nitish Kumar</strong></td><td>RS MP; JD(U) national president; 10-time CM (~20 yrs)</td><td>Resigned CM 14 Apr 2026</td></tr>
+    <tr><td><strong>Bihari Governors outside</strong></td><td>Nand Kishore Yadav (ex-Speaker) → Governor of Nagaland</td><td>6 Mar 2026 reshuffle</td></tr>
+    <tr><td><strong>Union cabinet (Bihar)</strong></td><td>Chirag—Food Processing; Manjhi—MSME; Lalan—Panchayati Raj + Fisheries/AHD; Giriraj—Textiles; Nityanand Rai—MoS Home</td><td>2024 allocation, current</td></tr>
+    <tr><td><strong>First Premier / First CM</strong></td><td>Mohammad Yunus (1937) / Shri Krishna Sinha (1946)</td><td>Static</td></tr>
+    <tr><td><strong>First woman CM / Shortest CM</strong></td><td>Rabri Devi (1997) / Satish Prasad Singh (5 days, 1968)</td><td>Static</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Why This Churn Matters — The Bihar-First Angle</div>
+    <ul>
+      <li><strong>Your exam's own commission:</strong> the 72nd BPSC is being conducted under Chairman <strong>Parmar Ravi Manubhai</strong> — the Supreme Court (18 Jul 2025) dismissed the challenge to his appointment and rebuked the petitioner, settling the post-paper-leak leadership question.</li>
+      <li><strong>Home with the CM:</strong> since Apr 2026 the Home (Police) portfolio sits with CM Samrat Chaudhary himself — directly linking this topic to prohibition enforcement, police modernisation and the <strong>₹16,840 cr Police allocation in Budget 2026-27</strong> (Topic #16).</li>
+      <li><strong>Governor as Chancellor:</strong> Bihar's Governor is Chancellor of state universities — the Oct 2025 decision to send the Patna University VC on leave (upheld by Patna HC) shows the post's real executive bite; new Governor Hasnain now fills that role.</li>
+      <li><strong>First BJP CM after ~20 years:</strong> the 15 Apr 2026 transition ended the Nitish era and completed the BJP's rise from junior ally to the state's top post — with a Bihar face, <strong>Nitin Nabin (Bankipur)</strong>, simultaneously becoming the BJP's youngest national president.</li>
+      <li><strong>Bihar exports Governors too:</strong> ex-Speaker <strong>Nand Kishore Yadav → Governor of Nagaland</strong> (Mar 2026); earlier, Bihar Governor <strong>Ram Nath Kovind</strong> (2015–17) went on to become the 14th President of India.</li>
+      <li><strong>Delhi's Bihar bench:</strong> Bihar's 40 Lok Sabha seats keep its leaders in key Union portfolios — Food Processing (Chirag), MSME (Manjhi), Panchayati Raj + Fisheries (Lalan), Textiles (Giriraj), MoS Home (Nityanand Rai) — and <strong>Nitish Kumar now sits in the Rajya Sabha</strong> as JD(U) president.</li>
+    </ul>
+  </div>
+
+  <div class="img-container">
+    <img src="images/nitish_kumar.jpg" alt="Nitish Kumar, former CM of Bihar, now Rajya Sabha MP">
+    <div class="img-caption">Nitish Kumar — 10-time CM (~20 years), resigned 14 Apr 2026 and moved to the Rajya Sabha; remains JD(U) national president. Image: Wikimedia Commons.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #2 (National Appointments):</strong> The 5–6 Mar 2026 nine-state Governor reshuffle (Hasnain to Bihar, Nand Kishore Yadav to Nagaland) and Vipul M. Pancholi's elevation to the Supreme Court (29 Aug 2025) are national-appointments fare; Nitin Nabin as BJP president doubles up there.<br>
+    <strong>↔ Topic #15 (Bihar Schemes) &amp; #16 (Bihar Budget):</strong> Dy CM &amp; FM <strong>Bijendra Prasad Yadav</strong> presented the ₹3,47,589.76 cr Budget 2026-27 (3 Feb 2026, largest in state history) and the Saat Nischay-3 rollout is the new government's programme — appointments explain <em>who</em> delivers the schemes.<br>
+    <strong>↔ Topic #20 (Infra &amp; Projects):</strong> the CM's 29 departments include the very ministries driving Patna Metro, Amas–Darbhanga Expressway and the new airports — portfolio-holder questions ("Road Construction minister?") trace back to the Nov 2025 → May 2026 council lists.<br>
+    <strong>↔ Topic #21 (Surveys &amp; Data):</strong> the SIR-driven Nov 2025 election (turnout 67.25%, NDA 202/243) is the mandate behind every 2026 appointment on this page.<br>
+    <strong>↔ Topic #22 (Festivals &amp; Culture):</strong> Bihar Diwas 2026 (114th, 22 Mar 2026, theme 'Unnat Bihar, Ujjwal Bihar') was Nitish Kumar's last Bihar Day as CM — a date-anchored culture × polity crossover.<br>
+    <strong>↔ Topics #88–96 (Bihar Geography statics):</strong> pair polity numbers with geography — 38 districts, 9 divisions, 243+75 legislature, 40 LS + 16 RS seats.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance &amp; Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Near-certain one-liner:</strong> "First BJP CM of Bihar" = <strong>Samrat Chaudhary</strong>, the <strong>24th CM</strong>, sworn in <strong>15 Apr 2026</strong> by <strong>Governor Hasnain at Lok Bhavan</strong>. Traps: "23rd CM", oath by Arif Khan, venue Gandhi Maidan (that was the 20 Nov 2025 oath and the 7 May 2026 expansion).</li>
+    <li><strong>Time-stamp your Home answer:</strong> Nov 2025–Apr 2026 → Home with <em>Dy CM</em> Samrat Chaudhary; since 15 Apr 2026 → Home with the <em>CM himself</em> (29 departments). A stale answer is the classic setter's trap.</li>
+    <li><strong>Deputy CM swap:</strong> the new Dy CMs are <strong>both JD(U)</strong> — Vijay Kumar Chaudhary &amp; Bijendra Prasad Yadav. Ex-Dy CM <strong>Vijay Kumar Sinha (BJP)</strong> continues as a minister but no longer holds the Dy-CM title — BPSC will bank on the similar names.</li>
+    <li><strong>Governor facts:</strong> Hasnain = <strong>43rd Governor</strong>, oath <strong>14 Mar 2026</strong>, administered by <strong>CJ Sangam Kumar Sahoo</strong>; he is a <strong>retired Lt General</strong> (XV Corps) and ex-<strong>NDMA member</strong> — not a former Army Chief, not NDMA chairman.</li>
+    <li><strong>Patna HC churn:</strong> four CJs in ~a year — Pancholi (→SC, 29 Aug 2025), Bajanthri (retired 22 Oct 2025), Acting Sudhir Singh, then <strong>47th CJ Sahoo (7 Jan 2026, from Orissa HC)</strong>. "Current CJ of Patna HC" is a live question.</li>
+    <li><strong>Result numbers (ECI final):</strong> BJP <strong>89</strong>, JD(U) <strong>85</strong>, NDA <strong>202/243</strong>; turnout <strong>67.25%</strong> (record). Same-day media tallies of 88/84 are the trap — use ECI-final figures.</li>
+    <li><strong>Nitin Nabin:</strong> BJP National Working President (14 Dec 2025) → national president, <strong>youngest at 45</strong>; he <strong>resigned his Bihar cabinet portfolios on 16 Dec 2025</strong> ("one person, one post") — "still Bihar's Road Construction minister" is false.</li>
+    <li><strong>Nitish Kumar:</strong> RS nomination 5 Mar 2026 → resigned CM 14 Apr 2026 → <strong>Rajya Sabha MP + JD(U) national president</strong>. He did <em>not</em> join the Union cabinet — a tempting distractor.</li>
+    <li><strong>Kept out of MCQs (unconfirmed):</strong> current Bihar Lokayukta; post-Apr-2026 Advocate General; Patna University VC's name; Arif Khan's next posting — research flags these UNVERIFIED.</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (25 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Who became Chief Minister of Bihar in March 1939? (71st BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Anugraha Narain Singh</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Shri Krishna Singh</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (C)</strong> — Shri Krishna Singh ("Bihar Kesari") headed Bihar's first Congress ministry as Premier (20 Jul 1937 – 31 Oct 1939) under the Government of India Act 1935. Anugraha Narain Singh was his Deputy Premier — the trap — and Rajendra Prasad became India's first President, never CM of Bihar.</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The first Premier of Bihar under the Government of India Act, 1935 was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Mohammad Yunus</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Shri Krishna Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Anugraha Narayan Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) K. B. Sahay</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Mohammad Yunus (Independent Party) led a minority ministry from 1 April to 19 July 1937, after Congress — the largest party — initially declined to form the government. Shri Krishna Sinha became Premier only on 20 July 1937, making (B) the trap.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. In Shri Krishna Sinha's 1937 Bihar ministry, the Deputy Premier and Finance Minister was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Dr. Anugraha Narayan Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Abdul Bari</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Jayaprakash Narayan</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — Dr. Anugraha Narayan Sinha ("Bihar Vibhuti") was Deputy Premier &amp; Finance Minister (1937–39) and later Bihar's first Deputy Chief Minister (1946–57). Rajendra Prasad never held office in the Bihar ministry.</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The first woman Chief Minister of Bihar was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Rabri Devi</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Lesi Singh</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Rama Nishad</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Shreyasi Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — Rabri Devi became Bihar's first woman CM in 1997 after Lalu Prasad Yadav resigned in the fodder-scam case; she served three terms (1997–2005). The other names are present-day Bihar ministers — a recency trap.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The shortest-serving Chief Minister of Bihar, with a tenure of just five days (1968), was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Karpoori Thakur</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Satish Prasad Singh</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Bhola Paswan Shastri</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Daroga Prasad Rai</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — Satish Prasad Singh held office for only five days in 1968 — Bihar's shortest CM tenure. Contrast with Nitish Kumar, the longest-serving (10 oaths, ~20 years). Bhola Paswan Shastri also had short stints but not the shortest.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Who became the Chief Minister of Bihar in April 2026? (mirrors the 71st BPSC "March 1939" pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Samrat Chaudhary</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Vijay Kumar Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Nitin Nabin</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — Samrat Chaudhary was sworn in on 15 April 2026 as the 24th CM and Bihar's first BJP CM, after Nitish Kumar resigned on 14 April 2026. Vijay Kumar Sinha was the outgoing Deputy CM and Nitin Nabin had moved to national BJP organisational duty — both are traps.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Samrat Chaudhary was administered the oath of office as Chief Minister:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) By Governor Arif Mohammed Khan at Gandhi Maidan</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) By Governor Syed Ata Hasnain at Lok Bhavan, Patna</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) By Patna HC Chief Justice Sangam Kumar Sahoo at Raj Bhavan</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) By President Droupadi Murmu at Gandhi Maidan</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (B)</strong> — Governor Hasnain swore in the new CM at Lok Bhavan (the renamed Raj Bhavan) on 15 Apr 2026. Trap (A): Arif Khan administered Nitish Kumar's 10th oath (20 Nov 2025) but had departed by March 2026. Trap (C): CJ Sahoo swore in the <em>Governor</em>, not the CM.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. After the April 2026 transition, the two Deputy Chief Ministers of Bihar are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Vijay Kumar Sinha &amp; Dilip Jaiswal</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Samrat Chaudhary &amp; Vijay Kumar Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Vijay Kumar Chaudhary &amp; Bijendra Prasad Yadav</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Rajiv Ranjan Singh &amp; Jitan Ram Manjhi</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Both new Dy CMs are from JD(U): Vijay Kumar Chaudhary (Education, Transport, Water Resources) and Bijendra Prasad Yadav (Finance, Energy, Planning). Trap (B) reproduces the Nov 2025 pairing — and "Vijay Kumar Sinha vs Vijay Kumar Chaudhary" is the deliberate name-swap trap.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. In the Samrat Chaudhary ministry formed in April 2026, the Home Department is held by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Deputy CM Vijay Kumar Chaudhary</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Nityanand Rai</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Dilip Jaiswal</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) The Chief Minister himself</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (D)</strong> — The CM kept 29 departments, including Home, Agriculture, Health and Tourism. The trap is the outdated 2025 arrangement in which Samrat Chaudhary held Home <em>as Deputy CM</em> — time-stamp the question before answering.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Consider the following statements about the Bihar cabinet expansion of 7 May 2026:
+    <br>1. Thirty-two ministers were sworn in at Gandhi Maidan, Patna.
+    <br>2. Nishant Kumar, son of Nitish Kumar, was inducted — his first political entry.
+    <br>3. Prime Minister Narendra Modi was present at the ceremony.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — All three are correct: Governor Hasnain swore in 32 ministers (BJP 15, JD-U 13, LJP-RV 2, HAM 1, RLM 1) at Gandhi Maidan with PM Modi in attendance, and Nishant Kumar's induction marked his formal political debut.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Nitish Kumar was sworn in as Chief Minister of Bihar for a record 10th time on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) 20 November 2025, at Gandhi Maidan, Patna</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) 14 November 2025, at Lok Bhavan, Patna</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) 26 January 2026, at Gandhi Maidan, Patna</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) 15 April 2026, at Lok Bhavan, Patna</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — The 10th oath was administered by Governor Arif Mohammed Khan at Gandhi Maidan on 20 Nov 2025, after the NDA's 202/243 win (counting day: 14 Nov). Option (D) is Samrat Chaudhary's oath date — the sequencing trap.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Match the party with its final (ECI) seat tally in the November 2025 Bihar Assembly election:
+    <br>a) BJP — 1) 85
+    <br>b) JD(U) — 2) 89
+    <br>c) RJD — 3) 25
+    <br>d) NDA total — 4) 202</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) a-1, b-2, c-3, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) a-2, b-1, c-3, d-3</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) a-2, b-1, c-3, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) a-1, b-2, c-4, d-3</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — ECI-final: BJP 89 (single-largest for the first time), JD(U) 85, RJD 25, NDA 202/243. Trap (A) swaps BJP and JD(U); note that same-day media tallies (BJP 88/JDU 84) were later revised to 89/85 — BPSC prefers the final figures.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. After resigning as Bihar's Chief Minister in April 2026, Nitish Kumar:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Was inducted into the Union Cabinet</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Was appointed Governor of a state</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Moved to the Rajya Sabha while continuing as JD(U) national president</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Announced retirement from active politics</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — He filed his Rajya Sabha nomination on 5 Mar 2026, resigned as CM on 14 Apr 2026, and took his RS seat — staying on as JD(U) national president. Options (A) and (B) are the classic "where did he go?" traps; he joined neither the Union cabinet nor the Raj Bhavan circuit.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Syed Ata Hasnain, who took oath on 14 March 2026, is which-numbered Governor of Bihar?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 41st</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 43rd</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 44th</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 46th</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — He is the 43rd Governor of Bihar, appointed by President Murmu in the 5–6 March 2026 nine-state reshuffle, succeeding Arif Mohammed Khan. Pair it with the mnemonic: 24th CM (Samrat) — 43rd Governor (Hasnain) — 47th CJ (Sahoo).</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Consider the following statements about Bihar Governor Syed Ata Hasnain:
+    <br>1. He is a retired Lieutenant General who commanded the XV (Chinar) Corps in Srinagar.
+    <br>2. He has served as a member of the National Disaster Management Authority (NDMA).
+    <br>3. His oath was administered by the Chief Justice of Patna High Court, Sangam Kumar Sahoo.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (D)</strong> — All three are correct. Note the precision: he was an NDMA <em>member</em> (not chairperson) and a Corps Commander (not Army Chief) — exaggerations of a profile are standard BPSC bait.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Match List-I (Constitutional Article) with List-II (Provision):
+    <br>a) Article 155 — 1) Council of Ministers to aid and advise the Governor
+    <br>b) Article 156 — 2) Governor appointed by the President
+    <br>c) Article 163 — 3) Governor holds office during the pleasure of the President
+    <br>d) Article 164 — 4) Chief Minister appointed by the Governor</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) a-2, b-3, c-1, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) a-3, b-2, c-1, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) a-2, b-1, c-3, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) a-4, b-3, c-1, d-2</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Art 155: appointment by President; Art 156: pleasure of the President; Art 163: CoM aids and advises; Art 164: Governor appoints the CM (ministers hold office during the Governor's pleasure). The 155↔156 swap in (B) is the intended trap.</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Who took over as the Chief Secretary of Bihar on 4 August 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Amrit Lal Meena</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Pratyaya Amrit</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) Vinay Kumar</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) Dipak Prasad</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (B)</strong> — Pratyaya Amrit (IAS, 1991 batch, Bihar cadre) replaced Amrit Lal Meena as Chief Secretary. Trap (A) is the predecessor; (C) is the DGP; (D) is the State Election Commissioner — keep the four names in separate boxes.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The Director General of Police (DGP) of Bihar, appointed on 13 December 2024 for a fixed two-year term in line with Supreme Court directions, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Alok Raj</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Pratyaya Amrit</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Vinay Kumar</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Parmar Ravi Manubhai</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — Vinay Kumar (IPS, 1991 batch) succeeded officiating DGP Alok Raj; his two-year tenure runs to about December 2026. Trap (A): Alok Raj was only officiating (and later had a 5-day stint as BSSC chairman in Jan 2026); (D) heads the BPSC.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. What is correct about the chairmanship of the Bihar Public Service Commission (BPSC) as of mid-2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) The chairman was removed after the paper-leak controversies</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) The chairman is appointed by the President under Article 315</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Alok Raj is the current BPSC chairman</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Parmar Ravi Manubhai continues as chairman; the Supreme Court dismissed the challenge to his appointment in July 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — The SC (18 Jul 2025) dismissed the challenge and rebuked the petitioner; Manubhai chaired the 20 Jun 2026 presser. Trap (B): a State PSC chairman is appointed by the <em>Governor</em> under Art 316 — Art 315 only mandates setting up the commissions. Trap (C): Alok Raj's Jan 2026 post was BSSC, not BPSC.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Consider the following statements about the Patna High Court:
+    <br>1. It was established on 3 February 1916 under the Government of India Act, 1915.
+    <br>2. Sangam Kumar Sahoo is its 47th Chief Justice.
+    <br>3. It has seen four Chief Justices (including an Acting CJ) within about one year up to January 2026.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — All three are correct. The rapid churn — Pancholi (elevated to SC), Bajanthri (retired Oct 2025), Acting Sudhir Singh, then Sahoo (oath 7 Jan 2026) — is precisely why "current CJ of Patna HC" is a live exam question.</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Arrange the Patna High Court's 2025–26 chief-justice sequence correctly:
+    <br>1. Sudhir Singh (Acting)
+    <br>2. Vipul M. Pancholi
+    <br>3. P. B. Bajanthri
+    <br>4. Sangam Kumar Sahoo</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 1 → 2 → 3 → 4</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 3 → 2 → 1 → 4</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 2 → 1 → 3 → 4</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 2 → 3 → 1 → 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (D)</strong> — Pancholi (Jul–Aug 2025, elevated to SC on 29 Aug 2025) → Bajanthri (Sep–22 Oct 2025, retired) → Sudhir Singh as Acting CJ (23 Oct 2025–6 Jan 2026) → Sahoo (oath 7 Jan 2026). The trap options place the Acting CJ before Bajanthri — remember: an Acting CJ fills a <em>vacancy</em>, so he must come after a departure.</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Match List-I (Post in Bihar) with List-II (Incumbent):
+    <br>a) Assembly Speaker — 1) Sanjay Saraogi
+    <br>b) Legislative Council Chairman — 2) Prem Kumar
+    <br>c) BJP state president — 3) Awadhesh Narain Singh</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) a-1, b-2, c-3</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) a-3, b-2, c-1</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) a-2, b-3, c-1</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) a-2, b-1, c-3</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — Speaker: Prem Kumar (BJP); Council Chairman: Awadhesh Narain Singh (continuing); BJP state president: Sanjay Saraogi, the Darbhanga MLA who replaced Dilip Jaiswal (~Dec 2025). Ex-Speaker Nand Kishore Yadav is now Governor of Nagaland.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Justice Sangam Kumar Sahoo, sworn in as the 47th Chief Justice of the Patna High Court in January 2026, came from which High Court?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Allahabad High Court</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Orissa High Court</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Calcutta High Court</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Jharkhand High Court</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — He was transferred from the Orissa HC (collegium recommendation 18 Dec 2025; approval 1 Jan 2026; oath 7 Jan 2026) — the 4th judge from Odisha to head the Patna HC. HC judges are appointed by the President under Art 217(1) and take oath under Art 219.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Match List-I (Union Minister from Bihar) with List-II (Portfolio):
+    <br>a) Chirag Paswan — 1) Textiles
+    <br>b) Jitan Ram Manjhi — 2) Food Processing Industries
+    <br>c) Rajiv Ranjan 'Lalan' Singh — 3) MSME
+    <br>d) Giriraj Singh — 4) Panchayati Raj &amp; Fisheries, Animal Husbandry and Dairying</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) a-2, b-3, c-4, d-1</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) a-3, b-2, c-4, d-1</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) a-2, b-4, c-3, d-1</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) a-1, b-3, c-4, d-2</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — Chirag (LJP-RV, Hajipur): Food Processing; Manjhi (HAM-S, Gaya): MSME; Lalan Singh (JD-U, Munger): Panchayati Raj + Fisheries/AH&amp;D; Giriraj Singh (BJP, Begusarai): Textiles. Also keep Nityanand Rai (BJP, Ujiarpur) = MoS Home Affairs on the list.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Consider the following statements about Nitin Nabin:
+    <br>1. He was named BJP National Working President on 14 December 2025.
+    <br>2. At 45, he is the youngest person to head the BJP nationally.
+    <br>3. He is a five-term MLA from Bankipur, Patna.
+    <br>4. He continues to hold Bihar's Road Construction portfolio alongside party work.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 1, 2 and 4 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 1, 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 1, 2, 3 and 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (C)</strong> — Statement 4 is false: he resigned from the Bihar cabinet on 16 Dec 2025 under the "one person, one post" principle after his elevation. Statements 1–3 are correct — he is the BJP's youngest national president and a Kayastha face from Patna's Bankipur seat.</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/25</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.thehindubusinessline.com/news/nitish-kumar-era-ends-in-bihar-bjps-samrat-chaudhary-sworn-in-as-chief-minister/article70864021.ece" target="_blank">The Hindu BusinessLine — Samrat Chaudhary sworn in as Bihar CM</a> <span class="ref-desc">— 15 Apr 2026 oath; 24th CM, first BJP CM; end of the Nitish era.</span></li>
+    <li><a href="https://newsonair.gov.in/bihar-chief-minister-samrat-chaudhary-expands-his-cabinet-32-ministers-including-nitish-kumars-son-take-oath-as-new-ministers/" target="_blank">News on Air — Bihar cabinet expansion (7 May 2026)</a> <span class="ref-desc">— 32 ministers at Gandhi Maidan; Nishant Kumar's induction; party-wise break-up.</span></li>
+    <li><a href="https://www.etvbharat.com/en/state/lieutenant-general-syed-ata-hasnain-takes-oath-as-bihar-governor-enn26031401666" target="_blank">ETV Bharat — Syed Ata Hasnain takes oath as Bihar Governor</a> <span class="ref-desc">— 14 Mar 2026 oath by CJ Sahoo; Speaker Prem Kumar &amp; Council Chairman Awadhesh Narain Singh references.</span></li>
+    <li><a href="https://www.drishtiias.com/state-pcs-current-affairs/syed-ata-hasnain-new-governor-of-bihar" target="_blank">Drishti IAS — Syed Ata Hasnain, new Governor of Bihar</a> <span class="ref-desc">— 43rd Governor; XV Corps and NDMA profile; March 2026 reshuffle.</span></li>
+    <li><a href="https://www.jagranjosh.com/general-knowledge/bihar-cabinet-minister-list-1820008636-1" target="_blank">Jagran Josh — Bihar cabinet minister list (2026)</a> <span class="ref-desc">— CM's 29 departments incl. Home; Dy CMs' portfolios; full May-2026 council.</span></li>
+    <li><a href="https://www.drishtiias.com/state-pcs-current-affairs/pratyaya-amrit-new-chief-secretary-of-bihar" target="_blank">Drishti IAS — Pratyaya Amrit, new Chief Secretary of Bihar</a> <span class="ref-desc">— 4 Aug 2025 appointment; replaced Amrit Lal Meena.</span></li>
+    <li><a href="https://indianmasterminds.com/news/senior-ips-vinay-kumar-appointed-as-bihars-new-dgp-101945/" target="_blank">Indian Masterminds — Vinay Kumar appointed Bihar DGP</a> <span class="ref-desc">— 13 Dec 2024 appointment; 2-year fixed term per SC directions.</span></li>
+    <li><a href="https://www.livelaw.in/top-stories/supreme-court-weekly-round-up-july-14-2025-to-july-20-2025-298940" target="_blank">LiveLaw — SC dismisses challenge to BPSC chairman's appointment</a> <span class="ref-desc">— 18 Jul 2025; Parmar Ravi Manubhai continues as BPSC chairman.</span></li>
+    <li><a href="https://www.drishtiias.com/state-pcs/71st-bpsc-pre-2025-answer-key" target="_blank">Drishti IAS — 71st BPSC Prelims Answer Key</a> <span class="ref-desc">— "Who became CM of Bihar in March 1939?" → Shri Krishna Singh (Premier, 1937–39).</span></li>
+    <li><a href="https://www.pmindia.gov.in/en/news_updates/portfolios-of-the-union-council-of-ministers-2/" target="_blank">PMIndia — Portfolios of the Union Council of Ministers</a> <span class="ref-desc">— Chirag (Food Processing), Manjhi (MSME), Lalan (Panchayati Raj + Fisheries/AHD), Giriraj (Textiles), Nityanand Rai (MoS Home).</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #17: Appointments in Bihar | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #2, #15, #16, #20, #21, #22
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'c', q2: 'a', q3: 'b', q4: 'a', q5: 'b',
+  q6: 'a', q7: 'b', q8: 'c', q9: 'd', q10: 'd',
+  q11: 'a', q12: 'c', q13: 'c', q14: 'b', q15: 'd',
+  q16: 'a', q17: 'b', q18: 'c', q19: 'd', q20: 'd',
+  q21: 'd', q22: 'c', q23: 'b', q24: 'a', q25: 'c'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Bihar Appointments!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Recheck the 2026 transition dates, who-swore-in-whom, and the 24-43-47 triad.';
+
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

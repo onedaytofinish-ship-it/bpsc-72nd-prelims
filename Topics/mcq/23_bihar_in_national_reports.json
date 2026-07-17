@@ -1,0 +1,202 @@
+[
+  {
+    "q": "Bihar's SDG India Index 2023-24 composite score was: (70th BPSC pattern)",
+    "options": ["57", "62", "71", "79"],
+    "answer": 0,
+    "explanation": "NITI Aayog gave Bihar 57, the lowest state score in the 2023-24 edition. 71 is India's national composite score — not Bihar's. 79 is the top state score (Kerala & Uttarakhand). 62 is a distractor. All four are real SDG Index numbers, making this a classic BPSC number-matching trap.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.32"
+  },
+  {
+    "q": "Bihar's overall category in the SDG India Index with a score of 57 is:",
+    "options": ["Aspirant", "Performer", "Front Runner", "Achiever"],
+    "answer": 1,
+    "explanation": "SDG Index bands: Aspirant (0–49), Performer (50–64), Front Runner (65–99), Achiever (100). Bihar's 57 falls in the Performer band (50–64). Trap: 'Aspirant' requires a score below 50, and 'Front Runner' requires 65+. Bihar is the lowest state but still a Performer, not an Aspirant.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which states jointly topped the SDG India Index 2023-24? (70th BPSC PYQ)",
+    "options": ["Kerala and Uttarakhand", "Bihar and Jharkhand", "Tamil Nadu and Goa", "Gujarat and Maharashtra"],
+    "answer": 0,
+    "explanation": "Kerala and Uttarakhand jointly topped at 79. The 70th BPSC asked 'which state topped' (answer: Kerala). Bihar was last at 57. The 2023-24 edition was the first to produce a joint topper — a fresh fact BPSC can exploit.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.32"
+  },
+  {
+    "q": "Bihar's especially low SDG 2 (Zero Hunger) score in the 2023-24 Index was:",
+    "options": ["24", "32", "57", "71"],
+    "answer": 0,
+    "explanation": "Bihar scored 24 on SDG 2 (Zero Hunger) — its weakest goal. 32 is Bihar's SDG 4 (Quality Education) score; 57 is Bihar's composite; 71 is India's national composite. BPSC swaps SDG numbers to create traps — memorise the pair: SDG 2 = 24, SDG 4 = 32.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's SDG 4 (Quality Education) score in the 2023-24 Index was:",
+    "options": ["24", "32", "57", "79"],
+    "answer": 1,
+    "explanation": "Bihar's SDG 4 score was 32. The high-yield pair is SDG 2 = 24 and SDG 4 = 32 — do not interchange them. 24 is Zero Hunger; 32 is Quality Education. 57 is Bihar's composite; 79 is the top state score.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's multidimensionally poor headcount ratio in NFHS-5 (2019-21) was:",
+    "options": ["16.67%", "26.59%", "33.76%", "51.89%"],
+    "answer": 2,
+    "explanation": "The directly observed NFHS-5 headcount was 33.76%. 51.89% is NFHS-4 (2015-16) — the previous survey round. 26.59% is a later extrapolated estimate (2022-23), not a survey observation. 16.67% is Bihar's urban headcount. All four are real Bihar MPI numbers from different periods — the ultimate BPSC trap.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's MPI headcount in NFHS-4 (2015-16) was:",
+    "options": ["33.76%", "47.40%", "51.89%", "56.34%"],
+    "answer": 2,
+    "explanation": "Bihar's MPI headcount declined from 51.89% (NFHS-4, 2015-16) to 33.76% (NFHS-5, 2019-21) — a 18.13 percentage-point drop. 47.40% is the NFHS-5 intensity (A), not headcount (H). 33.76% is the NFHS-5 headcount.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The source period for the directly observed 33.76% Bihar MPI figure is:",
+    "options": ["NSS 2011-12", "NFHS-4 (2015-16)", "NFHS-5 (2019-21)", "Census 2021"],
+    "answer": 2,
+    "explanation": "NITI's National MPI Progress Review uses NFHS-5 (2019-21) for the 33.76% Bihar headcount — a direct household survey observation. NFHS-4 (2015-16) gives 51.89%. Census 2021 was never conducted (postponed). NSS 2011-12 is a different survey entirely.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's MPI intensity (A) in 2019-21 was:",
+    "options": ["33.76%", "47.40%", "51.01%", "0.265"],
+    "answer": 1,
+    "explanation": "Headcount H = 33.76%, intensity A = 47.40%, and MPI = H×A = 0.160. 51.01% is the NFHS-4 intensity (2015-16); 0.265 is the NFHS-4 MPI value. Intensity measures the average share of deprivations experienced by poor households.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's MPI value (H × A) in 2019-21 was:",
+    "options": ["0.077", "0.160", "0.265", "0.377"],
+    "answer": 1,
+    "explanation": "Bihar's 2019-21 MPI = H (33.76%) × A (47.40%) = 0.160. 0.265 is the NFHS-4 (2015-16) MPI value when headcount was 51.89% and intensity 51.01%. The MPI value fell by 40% between the two survey rounds.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Bihar area had the higher MPI headcount in NFHS-5 (2019-21)?",
+    "options": ["Urban, 36.95%", "Rural, 36.95%", "Urban, 16.67%", "Both equal"],
+    "answer": 1,
+    "explanation": "Bihar's rural headcount was 36.95%, versus 16.67% urban — rural poverty was more than double urban. The question tests rural-urban reversal: students may swap the two figures. The state total (33.76%) is a weighted average, not a simple mean.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's urban MPI headcount in NFHS-5 (2019-21) was:",
+    "options": ["16.67%", "26.59%", "33.76%", "36.95%"],
+    "answer": 0,
+    "explanation": "Urban Bihar was 16.67%; rural Bihar was 36.95%; the state total was 33.76%. BPSC often swaps urban and rural figures — the urban number is always much lower because cities have better access to services and living standards.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 2022-23 Bihar MPI headcount estimate of 26.59% should be described as:",
+    "options": ["Census result", "NFHS-6 direct survey result", "Extrapolated estimate, not a direct survey", "PLFS unemployment rate"],
+    "answer": 2,
+    "explanation": "NITI's 2024 progress report explicitly labels the 26.59% figure as extrapolated from earlier survey data — it is not a direct household-survey observation. NFHS-6 has not been conducted yet; Census 2021 was postponed; PLFS measures employment, not multidimensional poverty.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Estimated people escaping multidimensional poverty in Bihar, 2013-14 to 2022-23, were:",
+    "options": ["37.709 lakh", "377.09 lakh", "26.59 lakh", "51.89 lakh"],
+    "answer": 1,
+    "explanation": "NITI estimates 377.09 lakh (3.77 crore) people in Bihar escaped multidimensional poverty over that interval — one of the largest declines among major states. 37.709 lakh is the same number divided by 10 (decimal trap). 26.59 lakh uses the headcount percentage; 51.89 lakh uses the NFHS-4 percentage.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "In Bihar's 2019-21 MPI profile, the largest listed indicator contribution was:",
+    "options": ["Nutrition (27.95%)", "Electricity", "Drinking water", "Bank account"],
+    "answer": 0,
+    "explanation": "Nutrition contributed 27.95% — the largest single indicator contribution to Bihar's MPI. This is why Bihar's SDG 2 (Zero Hunger) score is so low (24). Electricity, drinking water and bank account deprivations have been addressed more aggressively by state schemes.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The National MPI is published by:",
+    "options": ["NITI Aayog", "RBI", "Bihar Finance Department", "UNDP"],
+    "answer": 0,
+    "explanation": "NITI Aayog publishes India's National MPI, using NFHS data. UNDP co-publishes the global MPI with OPHI (Oxford) — a separate product with different methodology. RBI focuses on monetary policy; state finance departments do not publish national indices.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about Bihar MPI: 1. Headcount fell from 51.89% to 33.76%. 2. Intensity fell from 51.01% to 47.40%. Which statement(s) is/are correct?",
+    "options": ["1 only", "2 only", "Both 1 and 2", "Neither"],
+    "answer": 2,
+    "explanation": "Both statements are correct for NFHS-4 (2015-16) versus NFHS-5 (2019-21). Headcount fell by 18.13 pp and intensity by 3.61 pp. BPSC's multi-statement format tests whether you know both H and A declined — not just headcount.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "A score of 57 in the SDG India Index must NOT be confused with:",
+    "options": ["Bihar's SDG composite score", "Bihar's Performer band classification", "India's national score of 71", "Bihar's rank in an international HDI table"],
+    "answer": 3,
+    "explanation": "57 is Bihar's NITI SDG composite score — a domestic index number, not an international rank. India's national score is 71 (a different number in the same index). Bihar does not appear in the global HDI table (HDI ranks countries, not states). All four seem plausible but only the international HDI table is a category error.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which pair is correctly matched?",
+    "options": ["Bihar SDG 2 — 24", "Bihar SDG 4 — 24", "Bihar MPI 2019-21 — 51.89%", "Bihar SDG composite — 71"],
+    "answer": 0,
+    "explanation": "Bihar SDG 2 = 24 (correct). The traps: SDG 4 = 32 (not 24); MPI 2019-21 = 33.76% (51.89% is NFHS-4); Bihar SDG composite = 57 (71 is India's national score). Only option A has the right pairing.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The SDG India Index is published by:",
+    "options": ["NITI Aayog", "MoSPI", "UNDP", "World Economic Forum"],
+    "answer": 0,
+    "explanation": "NITI Aayog publishes the SDG India Index, while UNDP publishes HDR and WEF publishes the Gender Gap Report. MoSPI publishes PLFS. All four are distinct publishers — BPSC's favourite 'wrongly matched' format tests exactly this confusion.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.32"
+  },
+  {
+    "q": "The SDG India Index 2023-24 tracks state progress against how many SDGs?",
+    "options": ["16 ranked SDGs", "17 ranked SDGs", "8 Millennium Development Goals", "Only climate goals"],
+    "answer": 0,
+    "explanation": "It ranks progress on 16 SDGs; SDG 17 (Partnerships for the Goals) is excluded from scoring/ranking — it is treated as a shared national goal. The UN has 17 SDGs, so '17' is the trap. Millennium Development Goals were replaced by SDGs in 2015.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's MPI calculations combine deprivations across which dimensions?",
+    "options": ["Health, education and standard of living", "Income only", "Agriculture and industry only", "Crime and justice only"],
+    "answer": 0,
+    "explanation": "MPI is multidimensional: health (nutrition, child mortality), education (years of schooling, attendance), and living standards (cooking fuel, sanitation, water, electricity, housing, assets). It is not income-based — that is the key distinction from poverty-line measures.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which is the correct order for Bihar MPI 2019-21: urban H, rural H, state H?",
+    "options": ["16.67%, 36.95%, 33.76%", "36.95%, 16.67%, 33.76%", "33.76%, 36.95%, 16.67%", "26.59%, 33.76%, 51.89%"],
+    "answer": 0,
+    "explanation": "Urban H = 16.67% (lowest), rural H = 36.95% (highest), and overall Bihar H = 33.76% (weighted average, closer to rural because Bihar is predominantly rural). Option B swaps urban and rural; option C jumbles all three; option D uses figures from different periods.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which statement about Bihar's reports profile is FALSE?",
+    "options": ["Bihar was the lowest-ranked state in SDG India Index 2023-24", "Bihar's SDG score of 57 falls in the Performer band", "Bihar's 26.59% 2022-23 MPI figure is directly observed NFHS-5 data", "Bihar's NFHS-5 MPI headcount was 33.76%"],
+    "answer": 2,
+    "explanation": "The 26.59% figure is an extrapolated estimate from NITI's 2024 progress report — it is NOT directly observed NFHS-5 data. The directly observed NFHS-5 (2019-21) figure is 33.76%. The other three statements are all true: Bihar was lowest (57), in Performer band, and NFHS-5 H = 33.76%.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The best exam-safe description of Bihar's reports profile is:",
+    "options": ["Use report year, publisher and data period together", "Use any old rank because reports never revise", "Treat national and state scores as interchangeable", "Call every MPI estimate a Census count"],
+    "answer": 0,
+    "explanation": "BPSC traps mix editions, publishers and data years. Always bind a number to its report name, publisher, and reference period — e.g., 'Bihar MPI headcount 33.76%, NITI Aayog National MPI, NFHS-5 (2019-21)'. The other options are all common student errors that BPSC exploits.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

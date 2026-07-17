@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3 - International Appointments & Organizations | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 220px;
+    position: relative;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #3 • TIER A</div>
+  <div class="topic-title">International Appointments & Organisations</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs & International Relations</span>
+    <span class="meta-tag">⚖️ Weight: 1.7</span>
+    <span class="meta-tag">📊 Mapped Questions: 54</span>
+    <span class="meta-tag">🎯 Expected: 3-5 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content & PYQ Alignment
+  </div>
+
+  <div class="img-container">
+    <img src="images/diplomacy.png" alt="International organizations & global governance infographic" style="max-width:100%; border-radius:8px; max-height: 350px;">
+    <div style="font-size:11px; color:#64748b; margin-top:6px; font-style:italic;">UN and Global Governance structures: Security Council, General Assembly, and International Law foundations.</div>
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 13 Dec PYQ</span>
+    <strong>UN Security Council Resolution voting details:</strong> BPSC asked about the exact voting count in the 15-member UNSC regarding Palestine's full membership in April 2024.
+    <br>• <strong>Result of Vote:</strong> 12 in favor, 1 against (US veto), 2 abstained (United Kingdom, Switzerland). Total that either rejected or abstained was 3.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 13 Dec PYQ</span>
+    <strong>Indian Diplomatic Appointments:</strong> Ruchira Kamboj's tenure as India's first female Permanent Representative to the UN (retired June 2024) was tested. She was succeeded by <strong>Parvathaneni Harish</strong> in September 2024.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Global Indices & Publishers:</strong> The "Global Gender Gap Report" is released annually by the <strong>World Economic Forum (WEF)</strong>, a key static-dynamic mapping area.
+  </div>
+
+  <h3><a href="subpages/3_intl_orgs_detail.html" target="_blank">A. Heads of Major Global Bodies (2025-2026 updates) 🔗</a></h3>
+  <table>
+    <tr><th>Organization</th><th>Current Head</th><th>Country</th><th>Key Information</th></tr>
+    <tr><td><strong>United Nations (UN)</strong></td><td>António Guterres</td><td>Portugal</td><td>9th Secretary-General; serving second 5-year term (ends Dec 31, 2026)</td></tr>
+    <tr><td><strong>UN General Assembly (UNGA)</strong></td><td>Annalena Baerbock</td><td>Germany</td><td>President of the 80th Session (Sep 2025 – Sep 2026) <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>UNGA 81st Session President-elect</strong></td><td>Khalilur Rahman</td><td>Bangladesh</td><td>Elected to head the 81st session starting September 8, 2026 <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>World Bank Group</strong></td><td>Ajay Banga</td><td>USA (Indian-origin)</td><td>14th President; assumed office June 2023 for 5-year term</td></tr>
+    <tr><td><strong>International Monetary Fund (IMF)</strong></td><td>Kristalina Georgieva</td><td>Bulgaria</td><td>Managing Director; re-appointed for a 2nd 5-year term (starting Oct 2024) <span class="current-tag">EXTENDED</span></td></tr>
+    <tr><td><strong>World Trade Organization (WTO)</strong></td><td>Dr. Ngozi Okonjo-Iweala</td><td>Nigeria</td><td>Director-General; serving her second 4-year term (started Sep 1, 2025) <span class="current-tag">EXTENDED</span></td></tr>
+  </table>
+
+  <h3>B. Key International Security & Geopolitical Appointments</h3>
+  <ul>
+    <li><strong>NATO Secretary General:</strong> <strong>Mark Rutte</strong> (former PM of Netherlands) succeeded Jens Stoltenberg on <strong>October 1, 2024</strong>. He led the landmark NATO Ankara Summit in July 2026. <span class="current-tag">NEW</span></li>
+    <li><strong>International Court of Justice (ICJ):</strong> **Nawaf Salam** (Lebanon) was elected President, and **Julia Sebutinde** (Uganda) as Vice-President in February 2024 for a 3-year term.</li>
+    <li><strong>INTERPOL Secretary General:</strong> **Valdecy Urquiza** (Brazil) was elected in late 2024 to succeed Jürgen Stock. He is the first head of INTERPOL from a developing country. <span class="current-tag">NEW</span></li>
+  </ul>
+
+  <h3>C. International Solar Alliance (ISA) — India Nodal Body</h3>
+  <ul>
+    <li><strong>Director General:</strong> **Ashish Khanna** assumed office as the third DG of ISA on <strong>March 17, 2025</strong>, succeeding Dr. Ajay Mathur. The election took place during the 7th ISA Assembly in New Delhi. <span class="current-tag">NEW</span></li>
+  </ul>
+</div>
+
+<!-- ====== FLOWCHART ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> Structure of the United Nations Security Council (UNSC)
+  </div>
+
+  <div class="flowchart">
+    <div class="flow-node l1">UN SECURITY COUNCIL (15 Members)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-row">
+      <div class="flow-node highlight" style="min-width:180px;">Permanent Members (5)<br><small>US, UK, France, Russia, China<br>(Hold Veto Power)</small></div>
+      <div class="flow-node green" style="min-width:180px;">Non-Permanent Members (10)<br><small>Elected for 2-year terms by UNGA</small></div>
+    </div>
+    <div class="flow-arrow"></div>
+    <div class="flow-row">
+      <div class="flow-node-sm"><strong>2025–2026 Term:</strong><br>Denmark, Greece, Pakistan, Panama, Somalia</div>
+      <div class="flow-node-sm"><strong>2026–2027 Term:</strong><br>Bahrain, Colombia, DRC, Latvia, Liberia</div>
+    </div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node" style="background:#4f46e5;">2027–2028 Term (Elected June 2026):<br><small>Austria, Kyrgyzstan, Portugal, Trinidad & Tobago, Zimbabwe</small></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Flagship Reports and Publishers
+  </div>
+
+  <table>
+    <tr><th>Report Name</th><th>Publishing Organization</th><th>Frequency</th><th>India's Key Trend / Relevance</th></tr>
+    <tr><td><strong>Global Gender Gap Report</strong></td><td>World Economic Forum (WEF)</td><td>Annual</td><td>PYQ release; measures economic, political, education, health gaps</td></tr>
+    <tr><td><strong>Human Development Report (HDI)</strong></td><td>UN Development Programme (UNDP)</td><td>Annual</td><td>Key composite index (Life expectancy, Education, GNI per capita)</td></tr>
+    <tr><td><strong>World Economic Outlook</strong></td><td>International Monetary Fund (IMF)</td><td>Bi-annual</td><td>Provides global and national GDP growth projections</td></tr>
+    <tr><td><strong>World Development Report</strong></td><td>World Bank</td><td>Annual</td><td>Focuses on major structural themes (e.g. migration, labor)</td></tr>
+    <tr><td><strong>Global Hunger Index</strong></td><td>Concern Worldwide & Welthungerhilfe</td><td>Annual</td><td>Regularly debated; based on undernourishment, stunting, wasting, child mortality</td></tr>
+  </table>
+
+  <h3>New Member States Admissions (2024-2026)</h3>
+  <table>
+    <tr><th>Organization</th><th>New Members Added</th><th>Date / Summit</th><th>Total Strength</th></tr>
+    <tr><td><strong>NATO</strong></td><td>Sweden (32nd member)</td><td>March 2024</td><td>32 Member States</td></tr>
+    <tr><td><strong>BRICS</strong></td><td>Egypt, Ethiopia, Iran, Saudi Arabia, UAE</td><td>January 1, 2024</td><td>10 Member States (Argentina declined invitation)</td></tr>
+    <tr><td><strong>Shanghai Cooperation Org (SCO)</strong></td><td>Belarus (10th member)</td><td>Astana Summit (July 4, 2024)</td><td>10 Member States</td></tr>
+    <tr><td><strong>G20</strong></td><td>African Union (permanent member)</td><td>New Delhi Summit (Sep 2023)</td><td>G21 (19 countries + EU + AU)</td></tr>
+  </table>
+</div>
+
+<!-- ====== IMAGE ====== -->
+<div class="section">
+  <div class="img-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/1280px-Flag_of_the_United_Nations.svg.png" alt="United Nations Flag" loading="lazy">
+    <div class="img-caption">The United Nations, where India's representation transitioned from Ruchira Kamboj to Parvathaneni Harish in 2024.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ International Visits & Global Recognitions from Bihar</div>
+    <ul>
+      <li><strong>Patna's International Ties:</strong> In March 2026, foreign delegates visited Patna for bilateral discussions under the framework of NITI Aayog's state cooperation initiatives.</li>
+      <li><strong>International Awards in news:</strong> BPSC frequently tests global awards won by people from Bihar/neighboring states. In May 2024, the prestigious <strong>Amal Clooney Women's Empowerment Award</strong> was conferred by King Charles III to Arti, a young E-rickshaw driver from UP, which is adjoining Bihar and highly relevant for regional geography/economy current affairs.</li>
+      <li><strong>Goldman Environmental Prize 2024:</strong> **Alok Shukla** of India (Chhattisgarh) won the award for his community campaign to save Hasdeo Arand forests. This is highly relevant for state-level general studies questions on forest preservation.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #4 (Summits & Groupings):</strong> G20 New Delhi declaration, G7, BRICS summits, and their geopolitical declarations.<br>
+    <strong>↔ Topic #11 (Reports & Indices):</strong> Detailed breakdown of India's rank and indicator-level scores in HDI, GGI, and Hunger Index.<br>
+    <strong>↔ Topic #87 (International Economy):</strong> Structure, voting quotas, and Special Drawing Rights (SDR) basket of the IMF and World Bank.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE & TRAPS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance (2024-2026)
+  </div>
+  <ul>
+    <li><strong>The BRICS Expansion Trap:</strong> Note that Argentina was invited at the Johannesburg Summit in 2023 but officially declined under President Javier Milei. Ensure you do not count Argentina in the final 10 members.</li>
+    <li><strong>NATO 32nd Member:</strong> Sweden's accession in March 2024 followed Finland's in 2023. BPSC statement questions may confuse the order of their accession.</li>
+    <li><strong>UNGA Session Presidents:</strong> Philemon Yang headed the 79th session. Annalena Baerbock heads the 80th session (ends Sep 2026). Do not confuse them.</li>
+  </ul>
+
+  <h3>🎯 Exam Predictions for 72nd BPSC</h3>
+  <div style="background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px;">
+    <strong style="color: #92400e;">📋 Top 5 Predictions (72nd BPSC — Intl Appointments &amp; Orgs):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) WHO Director-General (HIGH):</strong> "Who is the current DG of WHO?" → Dr. Tedros Adhanom Ghebreyesus (re-elected 2022–2027).</li>
+      <li><strong>(2) BRICS members (HIGH):</strong> "How many members does BRICS have in 2026?" → 11 (original 5 + Egypt, Ethiopia, Iran, UAE, Saudi Arabia + Indonesia in 2025). Argentina DECLINED. Cross-link Topic #4.</li>
+      <li><strong>(3) UN Security Council (MEDIUM):</strong> "How many permanent members does the UNSC have?" → 5 (USA, UK, France, Russia, China). Non-permanent: 10.</li>
+      <li><strong>(4) NATO expansion (MEDIUM):</strong> "Which country joined NATO most recently?" → Sweden (March 2024), making NATO 32 members. Finland joined in 2023.</li>
+      <li><strong>(5) IMF/World Bank heads (LOW):</strong> IMF MD = Kristalina Georgieva; World Bank President = Ajay Banga (Indian-American). BPSC matches org → head.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (25 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍js</span> MCQ Practice Set — 25 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. In April 2024, a resolution to recommend admitting Palestine as a full member of the United Nations was vetoed by the United States in the 15-member UN Security Council. How many members of the council either rejected or abstained from voting?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 1 member</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 2 members</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 3 members</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 5 members</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (C)</strong> — 12 members voted in favor, 1 against (US veto), and 2 abstained (UK, Switzerland). Thus, a total of 3 members rejected or abstained. (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Who succeeded Ruchira Kamboj as India's Permanent Representative to the United Nations in New York in September 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Syed Akbaruddin</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Parvathaneni Harish</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) T.S. Tirumurti</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Harsh Vardhan Shringla</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — Parvathaneni Harish assumed charge as India's Permanent Representative to the UN on September 1, 2024, succeeding Ruchira Kamboj who retired in June 2024.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Global Gender Gap Report, a frequent subject in BPSC, is released annually by which organization?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) World Bank</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) UN Women</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) World Economic Forum (WEF)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) UNDP</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — The Global Gender Gap Report is published by the World Economic Forum. (69th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. What was the theme of the International Olympic Day celebrated on 23rd June 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) "Let's Move"</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) "Together, For a Peaceful World"</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) "Let's Move and Celebrate"</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) "Move, Learn, Discover"</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — The theme of the International Olympic Day 2024 was "Let's Move and Celebrate". (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Which country became the 32nd member state of NATO in March 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Finland</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Sweden</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Ukraine</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Switzerland</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — Sweden officially joined NATO as its 32nd member on March 7, 2024. Finland joined as the 31st member in April 2023.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Which country became the 10th full member state of the Shanghai Cooperation Organisation (SCO) at the Astana Summit in July 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Iran</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Belarus</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Mongolia</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Pakistan</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — Belarus officially became the 10th member of the SCO on July 4, 2024. Iran was admitted as the 9th member in 2023.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Who assumed office as the Secretary General of NATO on October 1, 2024, succeeding Jens Stoltenberg?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Mark Rutte</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Ursula von der Leyen</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Antonio Costa</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Emmanuel Macron</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Mark Rutte, the former Prime Minister of the Netherlands, assumed office as NATO Secretary General on October 1, 2024.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Who is the current President of the 80th session of the United Nations General Assembly (UNGA), running from September 2025 to September 2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Dennis Francis</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Philemon Yang</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Annalena Baerbock</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Khalilur Rahman</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Annalena Baerbock (Germany) is the President of the 80th session. Dennis Francis headed the 78th session, and Philemon Yang headed the 79th session.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Which five countries officially joined BRICS as permanent members on January 1, 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Egypt, Ethiopia, Iran, Saudi Arabia, UAE</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Egypt, Argentina, Iran, Saudi Arabia, UAE</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) South Africa, Egypt, Iran, Turkey, Saudi Arabia</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Brazil, Russia, India, China, South Africa</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Egypt, Ethiopia, Iran, Saudi Arabia, and the UAE joined BRICS on Jan 1, 2024. Argentina was invited but declined.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Who assumed office as the Director General of the International Solar Alliance (ISA) on March 17, 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Dr. Ajay Mathur</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Ashish Khanna</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Upendra Tripathy</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Gurdeep Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Ashish Khanna took charge as the 3rd DG of the ISA on March 17, 2025, succeeding Dr. Ajay Mathur.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which of the following groups of countries were elected as non-permanent members of the UN Security Council for the 2025–2026 term?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Denmark, Greece, Pakistan, Panama, Somalia</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Bahrain, Colombia, DRC, Latvia, Liberia</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) India, Brazil, Germany, Japan, South Africa</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Austria, Portugal, Spain, Italy, Sweden</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — Denmark, Greece, Pakistan, Panama, and Somalia serve the 2025-2026 term. Bahrain, Colombia, DRC, Latvia, and Liberia serve the 2026-2027 term.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. In the 2024-2025 period, who serves as the President of the International Court of Justice (ICJ)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Joan Donoghue</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Nawaf Salam</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Julia Sebutinde</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Dalveer Bhandari</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — Nawaf Salam (Lebanon) was elected President of the ICJ in Feb 2024. Julia Sebutinde (Uganda) is the Vice-President.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Who is the current Managing Director of the International Monetary Fund (IMF), re-appointed for a second 5-year term starting October 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Christine Lagarde</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Kristalina Georgieva</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Gita Gopinath</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Ngozi Okonjo-Iweala</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (B)</strong> — Kristalina Georgieva (Bulgaria) was approved for a second 5-year term as MD of the IMF, starting October 1, 2024.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The 14th President of the World Bank Group is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) David Malpass</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) Ajay Banga</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Jim Yong Kim</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) Gita Gopinath</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — Ajay Banga (Indian-American) assumed charge as World Bank President on June 2, 2023.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Who is the Director-General of the World Trade Organization (WTO), serving a second term starting September 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Roberto Azevêdo</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Dr. Ngozi Okonjo-Iweala</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Pascal Lamy</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Tedros Adhanom</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — Dr. Ngozi Okonjo-Iweala of Nigeria began her second 4-year term as WTO DG on September 1, 2025. She is the first woman and first African to lead the WTO.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Who is the first Brazilian to be elected as the Secretary General of INTERPOL, taking charge in late 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Jürgen Stock</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Valdecy Urquiza</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Dilma Rousseff</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Tedros Adhanom</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Valdecy Urquiza was elected to head INTERPOL, succeeding Germany's Jürgen Stock. He is the first head of INTERPOL from a developing nation.</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Which organization admitted the African Union as a permanent member during its summit in New Delhi in September 2023?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) G7</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) G20</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) BRICS</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) Shanghai Cooperation Organisation</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (B)</strong> — The G20 admitted the African Union as a permanent member, effectively turning the group into G21.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The President of the New Development Bank (NDB), established by BRICS, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) K.V. Kamath</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Dilma Rousseff</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Masatsugu Asakawa</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Marcos Troyjo</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — Dilma Rousseff, former President of Brazil, heads the NDB. NDB is headquartered in Shanghai.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Consider the following statements about the UN Security Council:
+    <br>1. It consists of 15 members, of which 5 are permanent and 10 are non-permanent.
+    <br>2. Non-permanent members are elected for a term of three years by the General Assembly.
+    <br>3. Decisions on procedural matters require the affirmative vote of at least 9 members.
+    <br>Which of the statements given above is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — Statement 2 is incorrect. Non-permanent members are elected for a term of two years, not three.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Who won the Amal Clooney Women's Empowerment Award in May 2024 from King Charles III?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Alok Shukla</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Arti (E-rickshaw driver)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Ruchira Kamboj</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Sima Bahous</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — Arti, an E-rickshaw driver from Uttar Pradesh, was conferred this award for promoting women's safety and mobility. (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The head of Russia's Wagner Mercenary Group, who died in a plane crash in 2023, was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Sergei Shoigu</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Yevgeny Prigozhin</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Aleksandr Lukashenko</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) Valery Gerasimov</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — Yevgeny Prigozhin was the head of the Wagner Group. (69th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The winner of the prestigious Goldman Environmental Prize 2024 from the region of Asia is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Alok Shukla (India)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Thai Van Nguyen (Vietnam)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Delima Silalahi (Indonesia)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Chibeze Ezekiel (Ghana)</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Alok Shukla won the prize for his campaign to save the Hasdeo Arand forests in Chhattisgarh, India. (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Which of the following organizations is headquartered in Manila, Philippines?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) New Development Bank (NDB)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Asian Development Bank (ADB)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Asian Infrastructure Investment Bank (AIIB)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Shanghai Cooperation Organisation (SCO)</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — The ADB (headed by Masatsugu Asakawa) is headquartered in Mandaluyong, Manila, Philippines. NDB is in Shanghai, and AIIB is in Beijing.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Who was the first female Indian Ambassador to the United Nations, who retired in June 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Ruchira Kamboj</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Vijaya Lakshmi Pandit</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Nirupama Rao</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Sujatha Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — Ruchira Kamboj was India's first woman Permanent Representative to the UN. Note: Vijaya Lakshmi Pandit was the first woman President of the UN General Assembly (1953), but Kamboj was the first female PR. (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Argentina was formally invited to join BRICS at the 2023 Johannesburg Summit. However, it declined the invitation. Who is the current President of Argentina who made this decision?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Alberto Fernández</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) Javier Milei</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Mauricio Macri</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — President Javier Milei withdrew Argentina from joining BRICS upon taking office, citing shifts in foreign policy.</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+  
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/25</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.un.org" target="_blank">United Nations — Official</a> <span class="ref-desc">— Official portal of the UN, including UNGA and Security Council databases.</span></li>
+    <li><a href="https://www.worldbank.org" target="_blank">World Bank Group</a> <span class="ref-desc">— Institutional details and news releases regarding President Ajay Banga.</span></li>
+    <li><a href="https://www.imf.org" target="_blank">International Monetary Fund</a> <span class="ref-desc">— Reports on global economies and structural governance indicators.</span></li>
+    <li><a href="https://www.wto.org" target="_blank">World Trade Organization</a> <span class="ref-desc">— Dr. Ngozi Okonjo-Iweala's terms and trade updates.</span></li>
+    <li><a href="https://www.nato.int" target="_blank">North Atlantic Treaty Organization</a> <span class="ref-desc">— NATO member list and Secretary General Mark Rutte's official agenda.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #3: International Appointments & Organisations | Template v2.1 (PYQ-Anchored)<br>
+  📌 Cross-reference with Topics #4, #11, #87
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'c', q2: 'b', q3: 'c', q4: 'c', q5: 'b',
+  q6: 'b', q7: 'a', q8: 'c', q9: 'a', q10: 'b',
+  q11: 'a', q12: 'b', q13: 'b', q14: 'b', q15: 'b',
+  q16: 'b', q17: 'b', q18: 'b', q19: 'b', q20: 'b',
+  q21: 'b', q22: 'a', q23: 'b', q24: 'a', q25: 'b'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+  
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+  
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+  
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+  
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered international appointments!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Focus on the details of UN Security Council votes and BRICS/NATO lists.';
+  
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

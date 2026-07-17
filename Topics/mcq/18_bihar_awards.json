@@ -1,0 +1,202 @@
+[
+  {
+    "q": "How many awardees from Bihar figured in the Padma Awards 2025 list announced on 25 January 2025?",
+    "options": ["Five", "Six", "Seven", "Nine"],
+    "answer": 2,
+    "explanation": "Seven Bihar awardees in 2025: Sharda Sinha (Vibhushan), Sushil Kumar Modi (Bhushan), Kishore Kunal, Bhim Singh Bhavesh, Hemant Kumar, Nirmala Devi, Vijay Nityanand Surishwar Ji Maharaj (all Shri). 2026 had only three — don't carry that number back to 2025.",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (71st BPSC): award-list count one-liner"
+  },
+  {
+    "q": "Dr. Sharda Sinha, the \"Bihar Kokila\", was honoured in the Padma Awards 2025 with:",
+    "options": ["Padma Shri", "Padma Bhushan", "Padma Vibhushan (posthumous)", "Bharat Ratna (posthumous)"],
+    "answer": 2,
+    "explanation": "She received the Padma Vibhushan posthumously in 2025 (Art — folk music). Trap: Padma Bhushan was her 2018 honour; Padma Shri was 1991. She never got the Bharat Ratna.",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (71st BPSC): winner↔award match"
+  },
+  {
+    "q": "Which former Chief Minister of Bihar was awarded the Bharat Ratna in 2024, announced on the eve of his birth centenary?",
+    "options": ["Dr. Sri Krishna Sinha", "Karpoori Thakur", "B. P. Mandal", "Anugrah Narayan Sinha"],
+    "answer": 1,
+    "explanation": "Karpoori Thakur (\"Jan Nayak\", born Pitaunjhia village, Samastipur) got the Bharat Ratna announced 23 Jan 2024 and conferred 30 Mar 2024. Sri Krishna Sinha was Bihar's first CM but never a Bharat Ratna recipient.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Sushil Kumar Modi was awarded which Padma honour, and in which field, in 2025?",
+    "options": ["Padma Vibhushan — Art", "Padma Bhushan — Public Affairs (posthumous)", "Padma Shri — Civil Service", "Padma Bhushan — Trade & Industry"],
+    "answer": 1,
+    "explanation": "The former Bihar Deputy CM (Patna) received the Padma Bhushan posthumously in 2025 for Public Affairs. Padma Shri — Civil Service describes Kishore Kunal; Padma Vibhushan — Art describes Sharda Sinha.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Consider the following statements about Kishore Kunal: 1. He was an Indian Police Service officer. 2. He chaired the Mahavir Mandir Trust, Patna. 3. He received the Padma Shri posthumously in 2025 for Civil Service. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct: the ex-IPS officer who headed Patna's Mahavir Mandir Trust was given the Padma Shri (Civil Service) posthumously in 2025. The trap options each drop one true statement.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Bhim Singh Bhavesh of Bhojpur received the Padma Shri 2025 for:",
+    "options": ["Medicine — kidney-care awareness", "Social Work — journalism for the Musahar community", "Art — Bhojpuri folk singing", "Art — Sujni embroidery"],
+    "answer": 1,
+    "explanation": "He is a journalist honoured for Social Work among the Musahar community (Bhojpur). Medicine is Hemant Kumar's field and Sujni embroidery is Nirmala Devi's craft — classic same-list swaps. (71st BPSC asked the profession of an award winner — same pattern.)",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which Bihar-linked awardee received the Padma Shri 2026 in the field of Science & Engineering?",
+    "options": ["Gopal Ji Trivedi", "Hemant Kumar", "Bharat Singh Bharti", "Bishwa Bandhu"],
+    "answer": 0,
+    "explanation": "Gopal Ji Trivedi (Padma Shri 2026, Science & Engineering). Trap: Hemant Kumar is a 2025 awardee in Medicine; Bharat Singh Bharti and Bishwa Bandhu are the other two 2026 names but in Art.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The correct order of precedence of India's top civilian honours is:",
+    "options": ["Bharat Ratna > Padma Bhushan > Padma Vibhushan > Padma Shri", "Bharat Ratna > Padma Vibhushan > Padma Bhushan > Padma Shri", "Padma Vibhushan > Bharat Ratna > Padma Bhushan > Padma Shri", "Bharat Ratna > Padma Vibhushan > Padma Shri > Padma Bhushan"],
+    "answer": 1,
+    "explanation": "Bharat Ratna tops, then Vibhushan, Bhushan, Shri. The first option swaps Vibhushan and Bhushan — the single most common error; remember V-B-S = \"Very Big Salute\".",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (static awards order, recurring BPSC bank)"
+  },
+  {
+    "q": "The Bharat Ratna, instituted in 1954, was first awarded to:",
+    "options": ["C. Rajagopalachari, S. Radhakrishnan and C. V. Raman", "Jawaharlal Nehru, Sardar Patel and Maulana Azad", "Rajendra Prasad, Zakir Husain and V. V. Giri", "B. R. Ambedkar, J. R. D. Tata and Satyajit Ray"],
+    "answer": 0,
+    "explanation": "The first 1954 trio was Rajagopalachari, Radhakrishnan and C.V. Raman. Nehru (1955), Patel (1991) and Azad (1992) came later; the Ambedkar-JRD-Ray trio spans 1990-92 — plausible-sounding decoys.",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (first-recipients static)"
+  },
+  {
+    "q": "The Padma Awards Committee, which recommends names for the awards, is headed by the:",
+    "options": ["Prime Minister", "Union Home Minister", "Cabinet Secretary", "Vice-President of India"],
+    "answer": 2,
+    "explanation": "The Padma Awards Committee is constituted each year and headed by the Cabinet Secretary; the President approves and confers the awards. PM/Home Minister are tempting but wrong.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Consider the following statements: 1. Government servants are not eligible for Padma awards, except doctors and scientists. 2. A maximum of three Bharat Ratnas can be awarded in a year. 3. Bharat Ratna and Padma titles may be used as prefixes before a recipient's name under Article 18(1). Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong: Article 18(1) bars titles, and the Supreme Court has held these honours cannot be used as prefixes/suffixes to names.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The Padma Awards 2025 (139 total) were split as:",
+    "options": ["7 Vibhushan + 19 Bhushan + 113 Shri", "5 Vibhushan + 13 Bhushan + 113 Shri", "7 Vibhushan + 19 Bhushan + 115 Shri", "6 Vibhushan + 18 Bhushan + 115 Shri"],
+    "answer": 0,
+    "explanation": "2025: 7 + 19 + 113 = 139. The 5+13+113 split is 2026 (131 total) — the shared \"113 Shri\" tail makes the years easy to confuse.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Consider the following statements about the Padma Awards 2026: 1. A total of 131 awards were announced on 25 January 2026. 2. Five Padma Vibhushan were awarded. 3. The Phase-1 conferment ceremony (66 recipients) was held at Rashtrapati Bhavan on 25 May 2026. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three hold: 131 = 5 Vibhushan + 13 Bhushan + 113 Shri, announced on the eve of the 77th Republic Day; President Murmu conferred the first phase on 25 May 2026. Multi-statement format mirrors the 71st BPSC style.",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (71st BPSC): multi-statement which-correct"
+  },
+  {
+    "q": "At the Khel Samman 2025, Chief Minister Nitish Kumar felicitated 153 para athletes and 24 coaches at:",
+    "options": ["Patliputra Sports Complex, Patna", "Rajgir Sports Complex", "Moin-ul-Haq Stadium, Patna", "Bihar Vidhan Sabha premises"],
+    "answer": 1,
+    "explanation": "The October 2025 ceremony was held at the Rajgir Sports Complex (Nalanda district) — Bihar's new sports hub. Patliputra Sports Complex and Moin-ul-Haq Stadium are Patna venues used as decoys.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "At Khel Samman 2025, para athlete Shailesh Kumar received a cash award of:",
+    "options": ["₹10 lakh", "₹25 lakh", "₹75 lakh", "₹1 crore"],
+    "answer": 2,
+    "explanation": "Shailesh Kumar received ₹75 lakh; the ₹10 lakh figure belongs to Gauri Kumari at the same ceremony — the classic amount-swap trap. ₹25 lakh is the Khel Ratna purse, a cross-award distractor.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Sharda Sinha's singing is most famously associated with which Bihar festival tradition?",
+    "options": ["Chhath geet", "Sama-Chakeva songs", "Karma festival songs", "Bihar Diwas anthems"],
+    "answer": 0,
+    "explanation": "The \"Bihar Kokila\" is synonymous with Chhath geet, played across the world during Chhath Puja. The other festivals are Bihar/Jharkhand traditions but not her signature — BPSC pairs her name only with Chhath.",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (Bihar culture one-liner)"
+  },
+  {
+    "q": "Arrange Sharda Sinha's Padma honours in correct chronological order:",
+    "options": ["Padma Shri (1991) → Padma Bhushan (2018) → Padma Vibhushan (2025)", "Padma Shri (1998) → Padma Bhushan (2015) → Padma Vibhushan (2025)", "Padma Bhushan (1991) → Padma Shri (2018) → Padma Vibhushan (2025)", "Padma Shri (1991) → Padma Vibhushan (2018) → Bharat Ratna (2025)"],
+    "answer": 0,
+    "explanation": "Shri 1991, Bhushan 2018, Vibhushan 2025 (posth.). One option inverts Shri/Bhushan; another upgrades 2018 to Vibhushan and invents a Bharat Ratna; the third tampers with the years.",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (chronology arrangement)"
+  },
+  {
+    "q": "Bharat Singh Bharti, honoured with the Padma Shri 2026, is:",
+    "options": ["A 90-year-old folk artist from the Bhojpur region", "A hockey coach from Patna", "A Sujni embroidery artisan", "A kidney-disease awareness doctor"],
+    "answer": 0,
+    "explanation": "He is a 90-year-old folk artist of the Bhojpur region (Art). The Sujni artisan is Nirmala Devi and the kidney-care doctor is Hemant Kumar — both Padma Shri 2025, so wrong year and wrong field.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The Major Dhyan Chand Khel Ratna Award carries a cash prize of:",
+    "options": ["₹15 lakh", "₹25 lakh", "₹10 lakh", "₹1 crore"],
+    "answer": 1,
+    "explanation": "Khel Ratna = ₹25 lakh (+ medallion + certificate). ₹15 lakh is the Arjuna/Dronacharya purse and ₹10 lakh the Dhyan Chand lifetime award — the standard amount-confusion set. Khel Ratna was instituted 1991-92 (first: Viswanathan Anand) and renamed for Dhyan Chand in Aug 2021.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "How many sportspersons received the Arjuna Award for 2024 (conferred on 17 January 2025)?",
+    "options": ["24", "30", "32", "40"],
+    "answer": 2,
+    "explanation": "32 Arjuna awardees for 2024, of whom 17 were para-athletes. 24 is the number recommended for Arjuna 2025 (announced 24 Dec 2025) — a year-swap trap.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "What is true of Sushil Kumar Modi? (71st BPSC \"more than one\" pattern)",
+    "options": ["He served as Deputy Chief Minister of Bihar", "He was awarded the Padma Bhushan posthumously in 2025", "His award field was Public Affairs", "More than one of the above"],
+    "answer": 3,
+    "explanation": "All of (A), (B) and (C) are true, so \"More than one of the above\" — the 71st BPSC used this exact construction when multiple bundled facts hold. Never pick the single true statement when several hold.",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (71st BPSC): \"More than one of the above\""
+  },
+  {
+    "q": "Match the Bihar Padma Shri 2025 awardees with their fields: 1. Nirmala Devi — Sujni embroidery (Art); 2. Hemant Kumar — Medicine (kidney-care awareness); 3. Vijay Nityanand Surishwar Ji Maharaj — Spiritualism (Jain leader). Which pairs are correctly matched?",
+    "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three pairs match the 2025 list. The distractor sets each drop a correct pair — BPSC's matching questions often hide \"all correct\" behind that pattern.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Consider the following statements about Karpoori Thakur: 1. His Bharat Ratna was announced on 23 January 2024, the eve of his birth centenary. 2. He is popularly remembered as \"Jan Nayak\". 3. He was the first Chief Minister of Bihar. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "1 and 2 are correct (born Pitaunjhia, Samastipur; CM twice in the 1970s). 3 is wrong: Bihar's first Chief Minister was Dr. Sri Krishna Sinha — the planted falsehood.",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (71st BPSC): statement with planted falsehood"
+  },
+  {
+    "q": "Which of these civilian honours did Sharda Sinha NOT receive in her lifetime or posthumously?",
+    "options": ["Padma Shri", "Padma Bhushan", "Padma Vibhushan", "Bharat Ratna"],
+    "answer": 3,
+    "explanation": "She held all three Padma grades (1991, 2018, 2025) but never the Bharat Ratna. \"NOT received\" questions invert the usual reflex — read the stem twice.",
+    "difficulty": "pyq",
+    "pyq_ref": "PYQ theme (NOT-type inversion)"
+  },
+  {
+    "q": "Consider the following statements about the Bharat Ratna in the 2025-26 window: 1. No Bharat Ratna was announced in 2025. 2. No Bharat Ratna was announced in 2026 (up to 15 July 2026). 3. The most recent set was for 2024, with five recipients including Karpoori Thakur. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct: the 2024 set (Karpoori Thakur, Advani, P.V. Narasimha Rao, Charan Singh, Swaminathan) is the latest; any option naming a 2025/2026 Bharat Ratna winner is fabricated.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  }
+]

@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BPSC 72nd Prelims — Study Portal Dashboard</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+    font-size: 14px;
+    padding: 30px;
+  }
+
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Header Section */
+  .header {
+    background: linear-gradient(135deg, #1e1e38 0%, #0f0f1e 100%);
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 400px;
+    height: 400px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+  }
+  .header p {
+    font-size: 15px;
+    opacity: 0.85;
+    margin-bottom: 20px;
+    max-width: 600px;
+  }
+  
+  /* Progress Cards */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .stat-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    display: flex;
+    flex-direction: column;
+  }
+  .stat-val {
+    font-size: 32px;
+    font-weight: 800;
+    color: #e94560;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat-label {
+    font-size: 13px;
+    color: #64748b;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* Filters */
+  .filter-bar {
+    background: #fff;
+    padding: 16px 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .filter-label {
+    font-weight: 700;
+    color: #475569;
+    font-size: 13px;
+  }
+  .filter-btn {
+    background: #f1f5f9;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #475569;
+    font-size: 13px;
+    transition: all 0.2s;
+  }
+  .filter-btn.active {
+    background: #e94560;
+    color: #fff;
+  }
+  .filter-btn:hover:not(.active) {
+    background: #e2e8f0;
+  }
+
+  /* Block Sections */
+  .block-section {
+    margin-bottom: 35px;
+  }
+  .block-header {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1e1e38;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .block-icon {
+    background: #ffe4e6;
+    color: #e94560;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Grid of Topics */
+  .topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  /* Topic Cards */
+  .topic-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .topic-card.active {
+    border-color: #e94560;
+    cursor: pointer;
+  }
+  .topic-card.active:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(233, 69, 96, 0.08);
+  }
+  .topic-card.locked {
+    opacity: 0.65;
+    background: #fcfdfe;
+    cursor: not-allowed;
+  }
+  .topic-badge {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+  .topic-badge.completed {
+    background: #dcfce7;
+    color: #166534;
+  }
+  .topic-badge.pending {
+    background: #f1f5f9;
+    color: #475569;
+  }
+  
+  .topic-num {
+    font-size: 11px;
+    font-weight: 700;
+    color: #94a3b8;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .topic-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+    padding-right: 40px;
+  }
+  .topic-card.locked .topic-name {
+    color: #64748b;
+  }
+  .topic-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 10px;
+    margin-top: auto;
+    font-size: 12px;
+    color: #64748b;
+  }
+  .meta-tier {
+    font-weight: 600;
+    background: #f1f5f9;
+    padding: 1px 6px;
+    border-radius: 4px;
+  }
+
+  /* Responsive styling */
+  @media(max-width: 768px) {
+    body { padding: 15px; }
+    .header { padding: 25px; }
+    .header h1 { font-size: 24px; }
+  }
+  .topic-sub { font-size: 11px; color: #94a3b8; font-weight: 500; margin-top: -8px; margin-bottom: 12px; padding-right: 40px; }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+<div class="bpsc-navbar">
+  <div class="bpsc-navbar-brand">
+    <span class="brand-icon">🎯</span>
+    <a href="index.html">BPSC 72nd Prelims</a>
+  </div>
+  <div class="bpsc-navbar-links">
+    <a href="index.html" class="active">🏠 Dashboard</a>
+  </div>
+  <div class="bpsc-navbar-progress"><span class="progress-val">35</span>/158 topics • 22.2%</div>
+</div>
+<div class="dashboard-container">
+  <div class="header">
+    <div style="font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #e94560; margin-bottom: 8px;">BPSC 72nd Prelims Prep Portal</div>
+    <h1>Syllabus & Topic Tracker Dashboard</h1>
+    <p>Comprehensive, fact-dense study sheets, interactive practice sets, and detailed static-concept subpages mapped directly to the latest BPSC 69th, 70th, and 71st Prelims exam trends.</p>
+    <div style="font-size: 12px; opacity: 0.85; font-weight: 500;">📅 Exam Date: July 26, 2026 • 9 Days Remaining</div>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card"><span class="stat-val">158</span><span class="stat-label">Total Topics</span></div>
+    <div class="stat-card"><span class="stat-val" style="color: #22c55e;">32</span><span class="stat-label">Topics Completed</span></div>
+    <div class="stat-card"><span class="stat-val" style="color: #64748b;">126</span><span class="stat-label">Pending Topics</span></div>
+    <div class="stat-card"><span class="stat-val" style="color: #0284c7;">20.3%</span><span class="stat-label">Completion Rate</span></div>
+  </div>
+  <div class="filter-bar">
+    <span class="filter-label">Filter View:</span>
+    <button class="filter-btn active" onclick="filterCategory('all')">All Blocks (158)</button>
+    <button class="filter-btn" onclick="filterCategory('current-affairs')">Current Affairs (1–14)</button>
+    <button class="filter-btn" onclick="filterCategory('bihar-current-affairs')">Bihar Current Affairs (15–23)</button>
+    <button class="filter-btn" onclick="filterCategory('modern-indian-history')">Modern Indian History (24–37)</button>
+    <button class="filter-btn" onclick="filterCategory('indian-polity')">Indian Polity (38–49)</button>
+    <button class="filter-btn" onclick="filterCategory('maths-and-mental-ability')">Maths and Mental Ability (50–59)</button>
+    <button class="filter-btn" onclick="filterCategory('static-gk')">Static GK (60–68)</button>
+    <button class="filter-btn" onclick="filterCategory('biology')">Biology (69–77)</button>
+    <button class="filter-btn" onclick="filterCategory('indian-economy')">Indian Economy (78–87)</button>
+    <button class="filter-btn" onclick="filterCategory('bihar-geography')">Bihar Geography (88–96)</button>
+    <button class="filter-btn" onclick="filterCategory('ancient-history')">Ancient History (97–106)</button>
+    <button class="filter-btn" onclick="filterCategory('chemistry')">Chemistry (107–114)</button>
+    <button class="filter-btn" onclick="filterCategory('physics')">Physics (115–122)</button>
+    <button class="filter-btn" onclick="filterCategory('indian-geography')">Indian Geography (123–130)</button>
+    <button class="filter-btn" onclick="filterCategory('world-geography')">World Geography (131–136)</button>
+    <button class="filter-btn" onclick="filterCategory('medieval-history')">Medieval History (137–142)</button>
+    <button class="filter-btn" onclick="filterCategory('bihar-polity')">Bihar Polity (143–145)</button>
+    <button class="filter-btn" onclick="filterCategory('bihar-economy')">Bihar Economy (146–149)</button>
+    <button class="filter-btn" onclick="filterCategory('environment')">Environment (150–154)</button>
+    <button class="filter-btn" onclick="filterCategory('bihar-history')">Bihar History (155–158)</button>
+  </div>
+  <div class="block-section" data-category="current-affairs">
+    <div class="block-header"><span class="block-icon">🌍</span>
+      <span>Block 1: Current Affairs (14 topics)</span></div>
+    <div class="topics-grid">
+      <a href="1_govt_schemes_and_policies.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #1</div>
+          <div class="topic-name">Government Schemes &amp; Policies</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="2_national_appointments.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #2</div>
+          <div class="topic-name">National Appointments</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="3_intl_appointments_and_orgs.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #3</div>
+          <div class="topic-name">International Appointments &amp; Organisations</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="4_summits_and_groupings.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #4</div>
+          <div class="topic-name">Summits &amp; Groupings</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="5_bilateral_relations.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #5</div>
+          <div class="topic-name">Bilateral Relations</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="6_defence_and_security.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #6</div>
+          <div class="topic-name">Defence &amp; Security — Missiles, Exercises, Indigenous Systems</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="7_economy_in_news.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #7</div>
+          <div class="topic-name">Economy in News — RBI Rates, GDP, Reports &amp; Indices</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="8_science_and_tech_in_news.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #8</div>
+          <div class="topic-name">Science &amp; Tech in News — ISRO, AI, Space, Biotech</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="9_awards_and_honours.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #9</div>
+          <div class="topic-name">Awards and honours</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="10_sports.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #10</div>
+          <div class="topic-name">Sports</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="11_reports_and_indices.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #11</div>
+          <div class="topic-name">Reports and indices</div>
+          <div class="topic-sub">HDI, Hunger, EoDB - India rank + publisher</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="12_important_days_and_themes.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #12</div>
+          <div class="topic-name">Important days and themes</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="13_books_authors_obituaries.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #13</div>
+          <div class="topic-name">Books and authors / obituaries</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+      <a href="14_environment_in_news.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #14</div>
+          <div class="topic-name">Environment in news</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.7</span></div>
+      </a>
+    </div>
+  </div>
+  <div class="block-section" data-category="bihar-current-affairs">
+    <div class="block-header"><span class="block-icon">🔶</span>
+      <span>Block 2: Bihar Current Affairs (9 topics)</span></div>
+    <div class="topics-grid">
+      <a href="15_bihar_govt_schemes.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #15</div>
+          <div class="topic-name">Bihar govt schemes/yojanas</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.3</span></div>
+      </a>
+      <a href="16_bihar_state_budget.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #16</div>
+          <div class="topic-name">State budget highlights</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.3</span></div>
+      </a>
+      <a href="17_bihar_appointments.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #17</div>
+          <div class="topic-name">Appointments in Bihar</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.3</span></div>
+      </a>
+      <a href="18_bihar_awards.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #18</div>
+          <div class="topic-name">Bihar awards and honours</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.3</span></div>
+      </a>
+      <a href="19_bihar_sports.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #19</div>
+          <div class="topic-name">Bihar sports</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.3</span></div>
+      </a>
+      <a href="20_bihar_infra_projects.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #20</div>
+          <div class="topic-name">Infra and projects</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.3</span></div>
+      </a>
+      <a href="21_bihar_surveys_data.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #21</div>
+          <div class="topic-name">Surveys and data</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.3</span></div>
+      </a>
+      <a href="22_bihar_festivals_culture.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #22</div>
+          <div class="topic-name">Festivals and culture in news</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.3</span></div>
+      </a>
+      <a href="23_bihar_in_national_reports.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #23</div>
+          <div class="topic-name">Bihar in national reports</div>
+          <div class="topic-sub">Bihar rank/mention in indices and reports</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1.3</span></div>
+      </a>
+    </div>
+  </div>
+  <div class="block-section" data-category="modern-indian-history">
+    <div class="block-header"><span class="block-icon">📜</span>
+      <span>Block 3: Modern Indian History (14 topics)</span></div>
+    <div class="topics-grid">
+      <a href="24_advent_of_europeans.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #24</div>
+          <div class="topic-name">Advent of Europeans</div>
+          <div class="topic-sub">Portuguese, Dutch, French, British</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="25_plassey_and_buxar.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #25</div>
+          <div class="topic-name">Plassey and Buxar</div>
+          <div class="topic-sub">Dates, parties, significance</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="26_economic_impact.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #26</div>
+          <div class="topic-name">Economic impact</div>
+          <div class="topic-sub">Drain of wealth, land revenue systems</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="27_revolt_of_1857.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #27</div>
+          <div class="topic-name">Revolt of 1857</div>
+          <div class="topic-sub">Causes, leaders - BIHAR: Kunwar Singh</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="28_socio_religious_reforms.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #28</div>
+          <div class="topic-name">Socio-religious reforms</div>
+          <div class="topic-sub">Brahmo/Arya Samaj, reformers and acts</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="29_inc_formation.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #29</div>
+          <div class="topic-name">INC formation</div>
+          <div class="topic-sub">1885, Moderates vs Extremists</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="30_bengal_partition_swadeshi.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #30</div>
+          <div class="topic-name">Bengal Partition and Swadeshi</div>
+          <div class="topic-sub">1905, movement features</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="31_home_rule_lucknow_pact.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #31</div>
+          <div class="topic-name">Home Rule and Lucknow Pact</div>
+          <div class="topic-sub">Tilak/Besant, 1916 pact</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="32_gandhian_movements.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #32</div>
+          <div class="topic-name">Gandhian movements</div>
+          <div class="topic-sub">CHAMPARAN (Bihar), Kheda, Non-Cooperation</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="33_civil_disobedience.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #33</div>
+          <div class="topic-name">Civil Disobedience</div>
+          <div class="topic-sub">Dandi March, Round Table, GoI Act 1935</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="34_quit_india_1942.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #34</div>
+          <div class="topic-name">Quit India 1942</div>
+          <div class="topic-sub">Causes, spread - Bihar hotspot</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <a href="35_revolutionaries.html" class="topic-card active">
+        <span class="topic-badge completed">Completed</span>
+        <div><div class="topic-num">Topic #35</div>
+          <div class="topic-name">Revolutionaries</div>
+          <div class="topic-sub">Bhagat Singh, HSRA, Bengal revolutionaries</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </a>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #36</div>
+          <div class="topic-name">Constitutional Acts</div>
+          <div class="topic-sub">1909, 1919, 1935 - key features</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #37</div>
+          <div class="topic-name">Independence and Partition</div>
+          <div class="topic-sub">Mountbatten plan, 1947, integration</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="indian-polity">
+    <div class="block-header"><span class="block-icon">⚖️</span>
+      <span>Block 4: Indian Polity (12 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #38</div>
+          <div class="topic-name">Making of Constitution</div>
+          <div class="topic-sub">Constituent Assembly, sources, borrowed features</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #39</div>
+          <div class="topic-name">Preamble</div>
+          <div class="topic-sub">Keywords, philosophy, amendability</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #40</div>
+          <div class="topic-name">Fundamental Rights</div>
+          <div class="topic-sub">Art 12-35, writs, key cases</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #41</div>
+          <div class="topic-name">DPSP and Fundamental Duties</div>
+          <div class="topic-sub">Art 36-51, Part IVA</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #42</div>
+          <div class="topic-name">Union Executive</div>
+          <div class="topic-sub">President, VP, PM, CoM - powers</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #43</div>
+          <div class="topic-name">Parliament</div>
+          <div class="topic-sub">LS/RS, lawmaking, bills, committees</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #44</div>
+          <div class="topic-name">Judiciary</div>
+          <div class="topic-sub">SC/HC, judicial review, PIL, collegium</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #45</div>
+          <div class="topic-name">Federalism</div>
+          <div class="topic-sub">Centre-state relations, schedules, lists</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #46</div>
+          <div class="topic-name">Emergency provisions</div>
+          <div class="topic-sub">Art 352/356/360 - types and effects</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #47</div>
+          <div class="topic-name">Constitutional bodies</div>
+          <div class="topic-sub">EC, UPSC, CAG, Finance Commission</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #48</div>
+          <div class="topic-name">Local government</div>
+          <div class="topic-sub">73rd and 74th amendments, PRIs</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #49</div>
+          <div class="topic-name">Amendments and elections</div>
+          <div class="topic-sub">Important amendments; electoral process</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="maths-and-mental-ability">
+    <div class="block-header"><span class="block-icon">🔢</span>
+      <span>Block 5: Maths and Mental Ability (10 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #50</div>
+          <div class="topic-name">Number system and simplification</div>
+          <div class="topic-sub">BODMAS, LCM/HCF, divisibility</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #51</div>
+          <div class="topic-name">Percentage</div>
+          <div class="topic-sub">Conversions, increase/decrease</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #52</div>
+          <div class="topic-name">Ratio and proportion</div>
+          <div class="topic-sub">Partnership, mixtures basics</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #53</div>
+          <div class="topic-name">Average</div>
+          <div class="topic-sub">Weighted average, age problems</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #54</div>
+          <div class="topic-name">Profit and loss</div>
+          <div class="topic-sub">Discount, marked price</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #55</div>
+          <div class="topic-name">SI and CI</div>
+          <div class="topic-sub">Formulas, 2-3 year problems</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #56</div>
+          <div class="topic-name">Time and work</div>
+          <div class="topic-sub">Pipes and cisterns, efficiency</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #57</div>
+          <div class="topic-name">Speed, time and distance</div>
+          <div class="topic-sub">Trains, boats and streams</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #58</div>
+          <div class="topic-name">Number/letter series</div>
+          <div class="topic-sub">Pattern recognition</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #59</div>
+          <div class="topic-name">Reasoning</div>
+          <div class="topic-sub">Coding, blood relations, direction, syllogism</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="static-gk">
+    <div class="block-header"><span class="block-icon">📚</span>
+      <span>Block 6: Static GK (9 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #60</div>
+          <div class="topic-name">Awards (static)</div>
+          <div class="topic-sub">Major awards and their fields</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #61</div>
+          <div class="topic-name">Books and authors (classic)</div>
+          <div class="topic-sub">Famous works and writers</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #62</div>
+          <div class="topic-name">Sports static</div>
+          <div class="topic-sub">Cups/trophies, terms, players</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #63</div>
+          <div class="topic-name">First in India/World</div>
+          <div class="topic-sub">Notable firsts</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #64</div>
+          <div class="topic-name">Superlatives</div>
+          <div class="topic-sub">Largest/longest/highest</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #65</div>
+          <div class="topic-name">National symbols</div>
+          <div class="topic-sub">Emblem, anthem, animal, etc.</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #66</div>
+          <div class="topic-name">Organisations and HQ</div>
+          <div class="topic-sub">UN bodies, intl orgs and HQ</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #67</div>
+          <div class="topic-name">Dances/festivals/GI</div>
+          <div class="topic-sub">State dances, festivals, GI tags</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #68</div>
+          <div class="topic-name">Abbreviations and days</div>
+          <div class="topic-sub">Common abbreviations, days</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="biology">
+    <div class="block-header"><span class="block-icon">🧬</span>
+      <span>Block 7: Biology (9 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #69</div>
+          <div class="topic-name">Cell and division</div>
+          <div class="topic-sub">Structure, organelles, mitosis/meiosis</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #70</div>
+          <div class="topic-name">Human body systems</div>
+          <div class="topic-sub">Digestive, circulatory, respiratory, nervous</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #71</div>
+          <div class="topic-name">Nutrition and vitamins</div>
+          <div class="topic-sub">Vitamins, deficiency diseases, diet</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #72</div>
+          <div class="topic-name">Diseases and pathogens</div>
+          <div class="topic-sub">Communicable vs non-communicable</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #73</div>
+          <div class="topic-name">Blood, immunity, vaccines</div>
+          <div class="topic-sub">Blood groups, immunity, vaccination</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #74</div>
+          <div class="topic-name">Genetics basics</div>
+          <div class="topic-sub">DNA/RNA, heredity, Mendel basics</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #75</div>
+          <div class="topic-name">Plant physiology</div>
+          <div class="topic-sub">Photosynthesis, respiration, transport</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #76</div>
+          <div class="topic-name">Classification</div>
+          <div class="topic-sub">Five kingdoms, plant and animal groups</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #77</div>
+          <div class="topic-name">Biotech and ecology basics</div>
+          <div class="topic-sub">Applications, ecosystem fundamentals</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 1</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="indian-economy">
+    <div class="block-header"><span class="block-icon">📈</span>
+      <span>Block 8: Indian Economy (10 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #78</div>
+          <div class="topic-name">Basic concepts</div>
+          <div class="topic-sub">GDP/GNP/NNP, inflation, business cycle</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #79</div>
+          <div class="topic-name">National income</div>
+          <div class="topic-sub">Methods, measurement bodies</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #80</div>
+          <div class="topic-name">Banking and RBI</div>
+          <div class="topic-sub">Functions, rates (repo/CRR/SLR)</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #81</div>
+          <div class="topic-name">Financial markets</div>
+          <div class="topic-sub">Money vs capital market, SEBI, indices</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #82</div>
+          <div class="topic-name">Public finance</div>
+          <div class="topic-sub">Budget, deficits, taxation, GST</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #83</div>
+          <div class="topic-name">Planning</div>
+          <div class="topic-sub">NITI Aayog, Five-Year Plans history</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #84</div>
+          <div class="topic-name">Agriculture</div>
+          <div class="topic-sub">MSP, Green Revolution, schemes</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #85</div>
+          <div class="topic-name">Industry and infra</div>
+          <div class="topic-sub">Sectors, policies, infrastructure</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #86</div>
+          <div class="topic-name">Poverty and employment</div>
+          <div class="topic-sub">Poverty lines, unemployment, HDI</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #87</div>
+          <div class="topic-name">International economy</div>
+          <div class="topic-sub">IMF, World Bank, WTO, BoP, forex</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.8</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="bihar-geography">
+    <div class="block-header"><span class="block-icon">🗺️</span>
+      <span>Block 9: Bihar Geography (9 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #88</div>
+          <div class="topic-name">Location and physical divisions</div>
+          <div class="topic-sub">North plain, South plain, plateau</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #89</div>
+          <div class="topic-name">Rivers and drainage</div>
+          <div class="topic-sub">Ganga, Kosi, Gandak, Son, Bagmati</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #90</div>
+          <div class="topic-name">Climate and rainfall</div>
+          <div class="topic-sub">Monsoon pattern, temperature zones</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #91</div>
+          <div class="topic-name">Soils</div>
+          <div class="topic-sub">Soil types and distribution</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #92</div>
+          <div class="topic-name">Agriculture and crops</div>
+          <div class="topic-sub">Major crops, cropping pattern, regions</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #93</div>
+          <div class="topic-name">Minerals and resources</div>
+          <div class="topic-sub">Mineral belts, resources</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #94</div>
+          <div class="topic-name">Forests and wildlife</div>
+          <div class="topic-sub">Sanctuaries, Valmiki Tiger Reserve</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #95</div>
+          <div class="topic-name">Industries</div>
+          <div class="topic-sub">Major industries and locations</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #96</div>
+          <div class="topic-name">Districts and demography</div>
+          <div class="topic-sub">Divisions, districts, population</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier A</span><span>Wt: 0.9</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="ancient-history">
+    <div class="block-header"><span class="block-icon">🏺</span>
+      <span>Block 10: Ancient History (10 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #97</div>
+          <div class="topic-name">Prehistory</div>
+          <div class="topic-sub">Stone ages, key sites</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #98</div>
+          <div class="topic-name">Indus Valley Civilisation</div>
+          <div class="topic-sub">Town planning, sites, decline</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #99</div>
+          <div class="topic-name">Vedic age</div>
+          <div class="topic-sub">Early vs later Vedic, society, texts</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #100</div>
+          <div class="topic-name">Mahajanapadas</div>
+          <div class="topic-sub">16 states, RISE OF MAGADHA (Bihar)</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #101</div>
+          <div class="topic-name">Buddhism and Jainism</div>
+          <div class="topic-sub">BIHAR: Bodh Gaya, Vaishali, Pawapuri</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #102</div>
+          <div class="topic-name">Mauryan empire</div>
+          <div class="topic-sub">Chandragupta, Ashoka - PATALIPUTRA</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #103</div>
+          <div class="topic-name">Post-Mauryan</div>
+          <div class="topic-sub">Sungas, Kushanas, Satavahanas</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #104</div>
+          <div class="topic-name">Gupta empire</div>
+          <div class="topic-sub">Golden age - Pataliputra</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #105</div>
+          <div class="topic-name">Post-Gupta and Sangam</div>
+          <div class="topic-sub">Harsha, southern dynasties, Sangam</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #106</div>
+          <div class="topic-name">Art and literature</div>
+          <div class="topic-sub">Architecture, sculpture, texts</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="chemistry">
+    <div class="block-header"><span class="block-icon">🧪</span>
+      <span>Block 11: Chemistry (8 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #107</div>
+          <div class="topic-name">Matter and atomic structure</div>
+          <div class="topic-sub">States, atom, isotopes</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #108</div>
+          <div class="topic-name">Elements and periodic table</div>
+          <div class="topic-sub">Classification, trends basics</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #109</div>
+          <div class="topic-name">Bonding and reactions</div>
+          <div class="topic-sub">Ionic/covalent, reaction types</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #110</div>
+          <div class="topic-name">Acids, bases, salts</div>
+          <div class="topic-sub">pH, indicators, common salts</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #111</div>
+          <div class="topic-name">Metals and non-metals</div>
+          <div class="topic-sub">Properties, reactivity, alloys</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #112</div>
+          <div class="topic-name">Carbon compounds</div>
+          <div class="topic-sub">Hydrocarbons, functional groups</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #113</div>
+          <div class="topic-name">Everyday chemistry</div>
+          <div class="topic-sub">Fuels, polymers, food chemistry</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #114</div>
+          <div class="topic-name">Gases and radioactivity</div>
+          <div class="topic-sub">Important gases, radioactivity basics</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="physics">
+    <div class="block-header"><span class="block-icon">⚛️</span>
+      <span>Block 12: Physics (8 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #115</div>
+          <div class="topic-name">Units and measurement</div>
+          <div class="topic-sub">SI units, instruments</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #116</div>
+          <div class="topic-name">Motion and force</div>
+          <div class="topic-sub">Newton laws, gravitation</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #117</div>
+          <div class="topic-name">Work, energy, power</div>
+          <div class="topic-sub">Forms of energy, conservation</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #118</div>
+          <div class="topic-name">Heat and thermodynamics</div>
+          <div class="topic-sub">Temperature, heat transfer</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #119</div>
+          <div class="topic-name">Light and optics</div>
+          <div class="topic-sub">Reflection, refraction, lenses, eye</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #120</div>
+          <div class="topic-name">Sound</div>
+          <div class="topic-sub">Properties, applications</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #121</div>
+          <div class="topic-name">Electricity and magnetism</div>
+          <div class="topic-sub">Current, Ohm law, magnetic effects</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #122</div>
+          <div class="topic-name">Modern physics</div>
+          <div class="topic-sub">Atom, nucleus, applications</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="indian-geography">
+    <div class="block-header"><span class="block-icon">🌏</span>
+      <span>Block 13: Indian Geography (8 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #123</div>
+          <div class="topic-name">Physiographic divisions</div>
+          <div class="topic-sub">Himalayas, plains, plateau, coasts</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #124</div>
+          <div class="topic-name">Rivers and drainage</div>
+          <div class="topic-sub">Himalayan vs peninsular systems</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #125</div>
+          <div class="topic-name">Climate and monsoon</div>
+          <div class="topic-sub">Mechanism, seasons, distribution</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #126</div>
+          <div class="topic-name">Soils and vegetation</div>
+          <div class="topic-sub">Soil types, forest types</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #127</div>
+          <div class="topic-name">Agriculture</div>
+          <div class="topic-sub">Crops, seasons, regions</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #128</div>
+          <div class="topic-name">Minerals and energy</div>
+          <div class="topic-sub">Distribution, conventional and renewable</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #129</div>
+          <div class="topic-name">Industries and transport</div>
+          <div class="topic-sub">Major industries, transport networks</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #130</div>
+          <div class="topic-name">Population and census</div>
+          <div class="topic-sub">Distribution, density, census data</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.9</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="world-geography">
+    <div class="block-header"><span class="block-icon">🧭</span>
+      <span>Block 14: World Geography (6 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #131</div>
+          <div class="topic-name">Universe and solar system</div>
+          <div class="topic-sub">Planets, earth motions</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #132</div>
+          <div class="topic-name">Latitudes and longitudes</div>
+          <div class="topic-sub">Time zones, IDL</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #133</div>
+          <div class="topic-name">Continents and oceans</div>
+          <div class="topic-sub">Major facts, locations</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #134</div>
+          <div class="topic-name">Atmosphere and climate</div>
+          <div class="topic-sub">Layers, climate zones, winds</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #135</div>
+          <div class="topic-name">Major landforms</div>
+          <div class="topic-sub">Mountains, plateaus, deserts</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #136</div>
+          <div class="topic-name">Key physical features</div>
+          <div class="topic-sub">Rivers, ranges, lakes</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.8</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="medieval-history">
+    <div class="block-header"><span class="block-icon">🏯</span>
+      <span>Block 15: Medieval History (6 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #137</div>
+          <div class="topic-name">Early medieval</div>
+          <div class="topic-sub">Rajputs, Cholas administration</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #138</div>
+          <div class="topic-name">Delhi Sultanate</div>
+          <div class="topic-sub">Five dynasties, key rulers</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #139</div>
+          <div class="topic-name">Bhakti and Sufi</div>
+          <div class="topic-sub">Saints, ideas, impact</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #140</div>
+          <div class="topic-name">Mughal empire</div>
+          <div class="topic-sub">Babur to Aurangzeb, administration</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #141</div>
+          <div class="topic-name">South and Marathas</div>
+          <div class="topic-sub">Vijayanagara, Bahmani, Shivaji</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #142</div>
+          <div class="topic-name">Bihar in medieval</div>
+          <div class="topic-sub">SHER SHAH SURI (Sasaram) - reforms</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier B</span><span>Wt: 0.7</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="bihar-polity">
+    <div class="block-header"><span class="block-icon">🏛️</span>
+      <span>Block 16: Bihar Polity (3 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #143</div>
+          <div class="topic-name">State legislature and executive</div>
+          <div class="topic-sub">Vidhan Sabha/Parishad, Governor, CM</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #144</div>
+          <div class="topic-name">Local self-government</div>
+          <div class="topic-sub">PRIs and urban bodies in Bihar</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 1</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #145</div>
+          <div class="topic-name">State commissions/governance</div>
+          <div class="topic-sub">Key state bodies and initiatives</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 1</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="bihar-economy">
+    <div class="block-header"><span class="block-icon">💰</span>
+      <span>Block 17: Bihar Economy (4 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #146</div>
+          <div class="topic-name">State income and budget</div>
+          <div class="topic-sub">Key figures, growth</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #147</div>
+          <div class="topic-name">Agriculture and allied</div>
+          <div class="topic-sub">Crops, dairy, fisheries</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #148</div>
+          <div class="topic-name">Industry and schemes</div>
+          <div class="topic-sub">Industries, state economic schemes</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.8</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #149</div>
+          <div class="topic-name">Poverty and HDI</div>
+          <div class="topic-sub">State human development indicators</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.8</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="environment">
+    <div class="block-header"><span class="block-icon">🌿</span>
+      <span>Block 18: Environment (5 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #150</div>
+          <div class="topic-name">Ecosystem and food chain</div>
+          <div class="topic-sub">Components, energy flow</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.4</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #151</div>
+          <div class="topic-name">Biodiversity and conservation</div>
+          <div class="topic-sub">Hotspots, protected areas, species</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.4</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #152</div>
+          <div class="topic-name">Climate change</div>
+          <div class="topic-sub">Global warming, COP, agreements</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.4</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #153</div>
+          <div class="topic-name">Pollution</div>
+          <div class="topic-sub">Types, effects, control</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.4</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #154</div>
+          <div class="topic-name">Conventions and renewables</div>
+          <div class="topic-sub">CITES, Ramsar; solar/wind basics</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.4</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="block-section" data-category="bihar-history">
+    <div class="block-header"><span class="block-icon">🏰</span>
+      <span>Block 19: Bihar History (4 topics)</span></div>
+    <div class="topics-grid">
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #155</div>
+          <div class="topic-name">Ancient Bihar</div>
+          <div class="topic-sub">Magadha, Maurya, Gupta, Nalanda</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.5</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #156</div>
+          <div class="topic-name">Medieval Bihar</div>
+          <div class="topic-sub">Sher Shah Suri, Sasaram</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.5</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #157</div>
+          <div class="topic-name">Modern Bihar</div>
+          <div class="topic-sub">1857 Kunwar Singh, Champaran, Quit India</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.5</span></div>
+      </div>
+      <div class="topic-card locked">
+        <span class="topic-badge pending">Locked</span>
+        <div><div class="topic-num">Topic #158</div>
+          <div class="topic-name">Cultural heritage</div>
+          <div class="topic-sub">Monuments, art, fairs of Bihar</div></div>
+        <div class="topic-meta"><span class="meta-tier">Tier C</span><span>Wt: 0.5</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="doc-footer">
+  BPSC 72nd Prelims Preparatory Portal • Mapped to 69th-71st PYQs • Active Rules: v2.3 • All 158 topics indexed
+</div>
+<script>
+  function filterCategory(cat) {
+    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+    document.querySelectorAll('.block-section').forEach(sect => {
+      sect.style.display = (cat === 'all' || sect.getAttribute('data-category') === cat) ? 'block' : 'none';
+    });
+  }
+</script>
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>13 - Books &amp; Authors / Obituaries | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #13 • TIER A</div>
+  <div class="topic-title">Books &amp; Authors / Obituaries — In-News Books, Literary Awards, Eminent Deaths</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs</span>
+    <span class="meta-tag">⚖️ Weight: High (Tier A, 1.7)</span>
+    <span class="meta-tag">📊 PYQ Excerpts Mapped: 14</span>
+    <span class="meta-tag">🎯 Expected: 2-4 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content &amp; PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Autobiography matching:</strong> "Who is the author of <em>I Have the Streets: A Kutti Cricket Story</em>?" — answer: <strong>R. Ashwin and S. Monga</strong> (options were Suresh Raina, Sreesanth, Dravid). Same paper also asked <strong>'Gulamgiri' → Jyotiba Phule</strong> and <strong>'Poverty and Un-British Rule in India' (1901) → Dadabhai Naoroji</strong>. Book ↔ author one-liners are a guaranteed BPSC format.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Obituaries ARE exam fare:</strong> the 69th asked a statement question on <strong>Queen Elizabeth II — she reigned 70 years and died at 96</strong> (8 Sep 2022), and a death-in-news item on <strong>Yevgeny Prigozhin</strong> (Wagner chief, killed in the Aug 2023 plane crash). Expect 1 obituary question from the 2025–26 window: date, age and "who succeeded" are the testable angles.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Same-title trap + Bihar angle:</strong> "'Tarikh-i-Firuz Shahi' was written by" — official key was <strong>Shams Siraj Afif</strong> because Ziauddin Barani (who wrote the famous work of the same name) was <em>not among the options</em>. Same paper: "'Gharib Hindustan' — the book critical of British policies, banned in <strong>Bihar in 1930</strong> — was written by <strong>Mohd. Wali Hassan</strong>."
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Static author bank:</strong> "<em>Nitisara</em>, an early book of politics, was written by <strong>Kamandaka</strong>" (trap: Kautilya) and the answer-key line "<em>Futuhat-e-Alamgiri</em> was written by <strong>Ishwar Das Nagar</strong>". Medieval chronicle ↔ author matching recurs every cycle.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> The full PYQ-proven static bank — ancient texts, Sultanate/Mughal chronicles, modern political books, sports autobiographies, Jnanpith/Booker firsts and Bihar's literary heritage:
+    <a href="subpages/13_books_authors_static_bank.html" target="_blank">Books &amp; Authors Static Bank →</a>
+  </div>
+
+  <h3>A. Notable Books Released (Jan 2025 – Jul 2026) <span class="current-tag">CACHE-VERIFIED</span></h3>
+  <p>Learn title ↔ author ↔ why-in-news. BPSC picks the political memoir and the award-winner first.</p>
+  <table>
+    <tr><th>Book</th><th>Author</th><th>Why in news</th><th>Date</th></tr>
+    <tr><td><strong>The Emergency Diaries — Years That Forged a Leader</strong></td><td>BlueKraft Digital Foundation (compiler); foreword by ex-PM H.D. Deve Gowda</td><td>On PM Modi's role as a young RSS pracharak in the anti-Emergency movement; released by Home Minister <strong>Amit Shah on "Samvidhan Hatya Diwas"</strong> (50 years of the Emergency)</td><td>25 Jun 2025</td></tr>
+    <tr><td><strong>Hope: The Autobiography</strong></td><td>Pope Francis (with Carlo Musso)</td><td><strong>First autobiography ever published by a reigning Pope</strong>; released in ~80 countries for the 2025 Jubilee Year of Hope, three months before his death</td><td>14 Jan 2025</td></tr>
+    <tr><td><strong>Mother Mary Comes to Me</strong></td><td>Arundhati Roy</td><td>First memoir by the 1997 Booker winner; on her mother Mary Roy (educator; 1986 Mary Roy v. State of Kerala case); launched at Kochi</td><td>Sep 2025</td></tr>
+    <tr><td><strong>107 Days</strong></td><td>Kamala Harris</td><td>Memoir of her 107-day 2024 US presidential campaign (Biden's withdrawal → loss to Trump); Simon &amp; Schuster</td><td>23 Sep 2025</td></tr>
+    <tr><td><strong>The Loneliness of Sonia and Sunny</strong></td><td>Kiran Desai</td><td><strong>Booker Prize 2025 shortlist</strong> (shortlist announced 23 Sep 2025) — her first novel in 19 years since the Booker-winning <em>The Inheritance of Loss</em> (2006)</td><td>2025</td></tr>
+    <tr><td><strong>Flesh</strong></td><td>David Szalay</td><td><strong>Booker Prize 2025 WINNER</strong> — first Hungarian-origin winner; £50,000; judges chaired by Roddy Doyle</td><td>10 Nov 2025</td></tr>
+    <tr><td><strong>Heart Lamp</strong> (tr. from Kannada)</td><td>Banu Mushtaq; tr. Deepa Bhasthi</td><td><strong>International Booker Prize 2025 WINNER</strong> — first Kannada work and first short-story collection to win; Mushtaq = 2nd Indian winner; Bhasthi = 1st Indian translator to win</td><td>20 May 2025</td></tr>
+    <tr><td><strong>Taiwan Travelogue</strong> (tr. from Mandarin)</td><td>Yáng Shuāng-zǐ; tr. Lin King</td><td><strong>International Booker Prize 2026 WINNER</strong> — first Mandarin-language winner; £50,000 split author/translator</td><td>19 May 2026</td></tr>
+    <tr><td>India: 5000 Years of History on the Subcontinent</td><td>Audrey Truschke</td><td>Big narrative history of the subcontinent</td><td>2025</td></tr>
+    <tr><td>Indira Gandhi and the Years That Transformed India</td><td>TCA Srinivasa Raghavan</td><td>Indira tenure &amp; 1975–77 Emergency analysis; timed to Emergency@50</td><td>Jun 2025</td></tr>
+    <tr><td>The New World: 21st Century Global Order and India</td><td>Ram Madhav</td><td>Geopolitics and India's role (trap: NOT Shashi Tharoor)</td><td>2025</td></tr>
+    <tr><td>The One: Cricket, My Life and More</td><td>Shikhar Dhawan</td><td>Cricketer's autobiography — pairs with Ashwin's <em>I Have the Streets</em> (70th BPSC PYQ)</td><td>2025</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — The 2025–26 Booker line "Flesh ❤️ Taiwan"</strong><br>
+    Booker 2025 = <strong>Flesh</strong> (Szalay) → Int'l Booker 2025 = <strong>❤️ Heart Lamp</strong> (Banu Mushtaq, Kannada) → Int'l Booker 2026 = <strong>Taiwan Travelogue</strong> (Yáng Shuāng-zǐ, first Mandarin win). Dates: <strong>10 Nov '25 • 20 May '25 • 19 May '26</strong>.
+  </div>
+
+  <h3>B. Literary Awards 2025–26 <span class="current-tag">HOT</span></h3>
+  <table>
+    <tr><th>Award</th><th>Winner</th><th>Key fact</th><th>Announced</th></tr>
+    <tr><td><strong>59th Jnanpith (for 2024)</strong></td><td><strong>Vinod Kumar Shukla</strong> (Hindi; Rajnandgaon, Chhattisgarh)</td><td><strong>1st winner from Chhattisgarh; 12th Hindi winner</strong>; works: <em>Naukar Ki Kameez</em>, <em>Deewar Mein Ek Khidki Rehti Thi</em>; he died 23 Dec 2025 (88) — months <em>after</em> the honour</td><td>Mar 2025</td></tr>
+    <tr><td><strong>60th Jnanpith (for 2025)</strong></td><td><strong>R. Vairamuthu</strong> (Tamil lyricist-author)</td><td><strong>3rd Tamil winner</strong> after Akilan (1975) and Jayakanthan (2002); 1st for Tamil poetry; his novel <em>Kallikkaattu Ithihasam</em> won the Sahitya Akademi in 2003</td><td>Mar 2026</td></tr>
+    <tr><td>Sahitya Akademi Awards 2024</td><td>23 recipients; English: <strong>Easterine Kire</strong> — <em>Spirit Nights</em>; Hindi: <strong>Gagan Gill</strong> — <em>Main Jab Tak Aai Bahar</em></td><td>Announced Dec 2024; ceremony 8 Mar 2025, Sahityotsav, New Delhi</td><td>Dec 2024</td></tr>
+    <tr><td><strong>Sahitya Akademi Awards 2025</strong></td><td>24 books; English: <strong>Navtej Sarna</strong> — <em>Crimson Spring</em> (novel); Hindi: <strong>Mamta Kalia</strong> — <em>Jeete Jee Allahabad</em> (memoir); Urdu: <strong>Pritpal Singh Betab</strong> — <em>Safar Jaari Hai</em></td><td>Announced <strong>16 Mar 2026</strong> after a temporary halt per Culture Ministry directives; ceremony 31 Mar 2026; ₹1 lakh + copper plaque + shawl</td><td>16 Mar 2026</td></tr>
+    <tr><td>Nobel Prize in Literature 2025</td><td><strong>László Krasznahorkai</strong> (Hungary)</td><td>"Compelling and visionary oeuvre that, in the midst of apocalyptic terror, reaffirms the power of art"</td><td>9 Oct 2025</td></tr>
+    <tr><td>Pulitzer Fiction 2025 / 2026</td><td><em>James</em> — Percival Everett / <em>Angel Down</em> — Daniel Kraus</td><td>Everett retold Huckleberry Finn from Jim's POV (also won National Book Award 2024); Kraus wrote a WWI novel in a single sentence</td><td>5 May 2025 / 4 May 2026</td></tr>
+  </table>
+  <ul>
+    <li><strong>Jnanpith statics:</strong> instituted <strong>1961</strong> (Bharatiya Jnanpith); first award <strong>1965 — G. Sankara Kurup</strong> (Malayalam, <em>Odakkuzhal</em>); <strong>₹11 lakh + bronze Vagdevi (Saraswati) statuette</strong>; <strong>never posthumous</strong> (only living Indian citizens). 58th (2023) = Gulzar (Urdu) + Jagadguru Rambhadracharya (Sanskrit).</li>
+    <li><strong>Booker statics:</strong> est. <strong>1969</strong>, £50,000; Indian winners — Rushdie (1981), Roy (1997), Desai (2006), Adiga (2008). International Booker 2022 = <em>Tomb of Sand</em> (Geetanjali Shree, tr. Daisy Rockwell) — first Hindi/Indian winner.</li>
+  </ul>
+</div>
+
+<!-- ====== OBITUARIES (still Section 2 flow) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🕯️</span> Obituaries (Jan 2025 – 15 Jul 2026) — Name | Field | Date | Age
+  </div>
+  <p>BPSC's obituary question is usually a one-liner on <strong>who died / when / age / claim to fame</strong>, or a statement question (the 69th did this for Queen Elizabeth II). Rows marked ⚠️ are single-source compiled-list entries — prioritise the bolded, multi-verified rows.</p>
+
+  <h3>C.1 India — Politics &amp; Governance <span class="current-tag">EDGE CASES FIRST</span></h3>
+
+  <div class="img-container">
+    <img src="images/manmohan_singh_portrait.jpg" alt="Official portrait of Dr. Manmohan Singh">
+    <div class="img-caption">Dr. Manmohan Singh — Prime Minister 2004–2014; died 26 December 2024, aged 92. The "edge case": just outside the Jan-2025 window, but exactly the kind of death BPSC still asks. (Photo: Wikimedia Commons)</div>
+  </div>
+
+  <table>
+    <tr><th>Name</th><th>Field</th><th>Died</th><th>Age</th></tr>
+    <tr><td><strong>Dr. Manmohan Singh</strong></td><td>Former PM (2004–14); economist; ex-RBI Governor &amp; 1991-reforms FM — <strong>EDGE CASE, just before window</strong></td><td>26 Dec 2024</td><td>92</td></tr>
+    <tr><td><strong>Ajit Pawar</strong></td><td>Maharashtra Dy CM &amp; NCP chief (longest-serving DyCM, 6 terms) — <strong>Learjet 45 crash at Baramati airport</strong>; 5 dead; 3-day state mourning; Sunetra Pawar later became DyCM (Baramati bypoll, Apr 2026)</td><td>28 Jan 2026</td><td>66</td></tr>
+    <tr><td>Vijay Rupani</td><td>Former Gujarat CM — died in the <strong>Air India AI171 Ahmedabad crash</strong> ⚠️</td><td>12 Jun 2025</td><td>68</td></tr>
+    <tr><td>Shibu Soren</td><td>JMM founder, former Jharkhand CM ("Dishom Guru") ⚠️</td><td>4 Aug 2025</td><td>81</td></tr>
+    <tr><td>Satya Pal Malik</td><td>Former Governor (J&amp;K, Goa, <strong>Bihar</strong>, Meghalaya) ⚠️</td><td>1 Aug 2025</td><td>79</td></tr>
+    <tr><td>V.S. Achuthanandan</td><td>Former <strong>Kerala</strong> CM (CPI(M) veteran) ⚠️</td><td>21 Jul 2025</td><td>101</td></tr>
+    <tr><td>Shivraj Patil</td><td>Former Union Home Minister, Lok Sabha Speaker ⚠️</td><td>12 Dec 2025</td><td>90</td></tr>
+    <tr><td>Suresh Kalmadi</td><td>Former Union Minister, ex-IOA president ⚠️</td><td>17 Jan 2026</td><td>81</td></tr>
+    <tr><td>Navin Chawla</td><td>Former Chief Election Commissioner ⚠️</td><td>1 Feb 2025</td><td>79</td></tr>
+    <tr><td>Girija Vyas</td><td>Former Union Minister (Congress) ⚠️</td><td>8 May 2025</td><td>79</td></tr>
+    <tr><td>Sukhdev Singh Dhindsa</td><td>Veteran Akali leader ⚠️</td><td>28 May 2025</td><td>89</td></tr>
+    <tr><td>D.D. Lapang</td><td>Former Meghalaya CM ⚠️</td><td>15 Sep 2025</td><td>91</td></tr>
+    <tr><td>Ravi Naik</td><td>Former Goa CM ⚠️</td><td>15 Oct 2025</td><td>79</td></tr>
+    <tr><td>Mukul Roy</td><td>Bengal politician (ex-TMC/BJP) ⚠️</td><td>17 Feb 2026</td><td>71</td></tr>
+    <tr><td>R. Nallakannu</td><td>CPI veteran, freedom fighter ⚠️</td><td>5 Feb 2026</td><td>101</td></tr>
+    <tr><td>B.C. Khanduri</td><td>Former Uttarakhand CM (Maj. Gen. retd.) ⚠️</td><td>17 May 2026</td><td>91</td></tr>
+  </table>
+
+  <h3>C.2 India — Science, Literature, Arts, Cinema, Sports</h3>
+  <table>
+    <tr><th>Name</th><th>Field</th><th>Died</th><th>Age</th></tr>
+    <tr><td><strong>Dr. Jayant V. Narlikar</strong></td><td>Astrophysicist (Hoyle–Narlikar theory; IUCAA founder; Padma Vibhushan 2004); <strong>posthumous Vigyan Ratna — Rashtriya Vigyan Puraskar 2025</strong> (announced 26 Oct 2025)</td><td>20 May 2025</td><td>86</td></tr>
+    <tr><td><strong>Asha Bhosle</strong></td><td>Legendary playback singer (~12,000 songs in 20+ languages; Dadasaheb Phalke Award 2000; Padma Vibhushan 2008; sister of Lata Mangeshkar); state honours</td><td>12 Apr 2026</td><td>92</td></tr>
+    <tr><td>Dharmendra</td><td>Bollywood legend ("He-Man"; Padma Bhushan 2012) ⚠️ (date widely reported)</td><td>24 Nov 2025</td><td>89</td></tr>
+    <tr><td>Manoj Kumar</td><td>Actor ("Bharat Kumar" patriotic films; Dadasaheb Phalke 2015) ⚠️</td><td>4 Apr 2025</td><td>87</td></tr>
+    <tr><td>Dr. K. Kasturirangan</td><td>Former ISRO chairman (Chandrayaan-1 era) ⚠️</td><td>25 Apr 2025</td><td>84</td></tr>
+    <tr><td>Dr. Rajagopala Chidambaram</td><td>Nuclear scientist (former PSA &amp; AEC chairman; Pokhran tests) ⚠️</td><td>4 Jan 2025</td><td>88</td></tr>
+    <tr><td>Dr. Madhav Gadgil</td><td>Ecologist (WGEEP / "Gadgil report" on Western Ghats) ⚠️</td><td>7 Jan 2026</td><td>83</td></tr>
+    <tr><td>Prof. V. Rajaraman</td><td>"Father of computer science education in India" ⚠️</td><td>8 Nov 2025</td><td>92</td></tr>
+    <tr><td><strong>Vinod Kumar Shukla</strong></td><td>Hindi writer; <strong>59th Jnanpith (Mar 2025)</strong> — won the award, then died the same year (Jnanpith is never posthumous)</td><td>23 Dec 2025</td><td>88</td></tr>
+    <tr><td>S.L. Bhyrappa</td><td>Kannada novelist (<em>Parva</em>, <em>Aavarana</em>) ⚠️</td><td>24 Sep 2025</td><td>94</td></tr>
+    <tr><td>Zubeen Garg</td><td>Assamese singer ("Voice of Assam"; <em>Ya Ali</em>); died in Singapore ⚠️</td><td>19 Sep 2025</td><td>52</td></tr>
+    <tr><td>Piyush Pandey</td><td>Legendary adman (Ogilvy; Padma Shri) ⚠️</td><td>24 Oct 2025</td><td>70</td></tr>
+    <tr><td>Sreenivasan</td><td>Malayalam actor-writer-filmmaker ⚠️</td><td>20 Dec 2025</td><td>69</td></tr>
+    <tr><td>Govardhan Asrani</td><td>Actor (comedy veteran) ⚠️</td><td>20 Oct 2025</td><td>84</td></tr>
+    <tr><td>Pankaj Dheer</td><td>Actor (Karna in BR Chopra's <em>Mahabharat</em>) ⚠️</td><td>15 Oct 2025</td><td>68</td></tr>
+    <tr><td>Kamini Kaushal</td><td>Actress ⚠️</td><td>14 Nov 2025</td><td>98</td></tr>
+    <tr><td>Kumudini Lakhia</td><td>Kathak legend (Kadamb) ⚠️</td><td>11 Apr 2025</td><td>94</td></tr>
+    <tr><td>Pandit Chhannulal Mishra</td><td>Hindustani classical vocalist (Padma Vibhushan) ⚠️</td><td>2 Oct 2025</td><td>89</td></tr>
+    <tr><td>Ramakanta Rath</td><td>Odia poet (Sahitya Akademi winner) ⚠️</td><td>22 Mar 2025</td><td>90</td></tr>
+    <tr><td>Pritish Nandy</td><td>Poet, journalist, former RS MP ⚠️</td><td>8 Jan 2025</td><td>73</td></tr>
+    <tr><td><strong>Ram Vanji Sutar</strong></td><td>Sculptor — <strong>Statue of Unity creator</strong> (Padma Bhushan) ⚠️</td><td>17 Dec 2025</td><td>100</td></tr>
+    <tr><td>Ratan Thiyam</td><td>Theatre doyen (Theatre of Roots; Chorus Repertory) ⚠️</td><td>23 Jul 2025</td><td>77</td></tr>
+    <tr><td>Saalumarada Thimmakka</td><td>Environmentalist ("tree mother", Padma Shri) ⚠️</td><td>14 Nov 2025</td><td>114</td></tr>
+    <tr><td>Gopichand Hinduja</td><td>Industrialist — Hinduja Group chairman ⚠️</td><td>4 Nov 2025</td><td>85</td></tr>
+    <tr><td>Sir Mark Tully</td><td>Veteran journalist (ex-BBC India chief) ⚠️</td><td>25 Jan 2026</td><td>90</td></tr>
+    <tr><td>Sankarshan Thakur</td><td>Senior journalist (Editor, The Telegraph) ⚠️</td><td>8 Sep 2025</td><td>63</td></tr>
+    <tr><td>H.K. Dua</td><td>Veteran journalist, diplomat, former RS MP ⚠️</td><td>4 Mar 2026</td><td>88</td></tr>
+    <tr><td>Fauja Singh</td><td>Centenarian marathon runner (hit-and-run, Punjab) ⚠️</td><td>14 Jul 2025</td><td>114</td></tr>
+    <tr><td>Dr. Vece Paes</td><td>Hockey — 1972 Munich Olympic bronze; father of Leander Paes ⚠️</td><td>14 Aug 2025</td><td>80</td></tr>
+    <tr><td>Inderjit Singh Bindra</td><td>Former BCCI president, cricket administrator ⚠️</td><td>25 Jan 2026</td><td>84</td></tr>
+    <tr><td>Dilip Doshi</td><td>Cricketer (left-arm spinner) ⚠️</td><td>23 Jun 2025</td><td>77</td></tr>
+    <tr><td>Syed Abid Ali</td><td>Former India cricketer ⚠️</td><td>12 Mar 2025</td><td>83</td></tr>
+  </table>
+
+  <h3>C.3 International — Heads of State, Nobel Laureates, Culture</h3>
+
+  <div class="img-container">
+    <img src="images/pope_francis_2021.jpg" alt="Portrait of Pope Francis (2021)">
+    <div class="img-caption">Pope Francis — 266th Pope (first Latin American &amp; first Jesuit); died 21 April 2025, aged 88; succeeded by Pope Leo XIV. His <em>Hope: The Autobiography</em> (Jan 2025) was the first autobiography by a reigning Pope. (Photo: Wikimedia Commons)</div>
+  </div>
+
+  <table>
+    <tr><th>Name</th><th>Field</th><th>Died</th><th>Age</th></tr>
+    <tr><td><strong>Pope Francis</strong></td><td>266th Pope (first Latin American &amp; first Jesuit pope); died Casa Santa Marta, Easter Monday; succeeded by <strong>Pope Leo XIV</strong> (Robert Prevost, first American pope — conclave May 2025)</td><td>21 Apr 2025</td><td>88</td></tr>
+    <tr><td><strong>Ayatollah Ali Khamenei</strong></td><td>Iran's Supreme Leader (1989–2026) — <strong>killed in US–Israeli strike</strong> amid Middle East war; succeeded by son <strong>Mojtaba Khamenei</strong> (~8 Mar 2026); 7-day national mourning</td><td>28 Feb 2026</td><td>86</td></tr>
+    <tr><td>Muhammadu Buhari</td><td>Former Nigeria President (2015–23) ⚠️</td><td>13 Jul 2025</td><td>82</td></tr>
+    <tr><td>Raila Odinga</td><td>Former Kenya PM; ODM leader ⚠️</td><td>15 Oct 2025</td><td>80</td></tr>
+    <tr><td>Tomiichi Murayama</td><td>Former Japan PM (1994–96; Murayama Statement) ⚠️</td><td>17 Oct 2025</td><td>101</td></tr>
+    <tr><td>José Mujica</td><td>Former Uruguay President ("world's humblest president") ⚠️</td><td>13 May 2025</td><td>89</td></tr>
+    <tr><td>Sam Nujoma</td><td>Namibia's founding President ⚠️</td><td>8 Feb 2025</td><td>95</td></tr>
+    <tr><td>Horst Köhler</td><td>Former German President ⚠️</td><td>1 Feb 2025</td><td>81</td></tr>
+    <tr><td>Edgar Lungu</td><td>Former Zambia President ⚠️</td><td>5 Jun 2025</td><td>68</td></tr>
+    <tr><td>Abdullah Ahmad Badawi</td><td>Former Malaysia PM ⚠️</td><td>14 Apr 2025</td><td>85</td></tr>
+    <tr><td>Dick Cheney</td><td>Former US Vice-President ⚠️</td><td>3 Nov 2025</td><td>84</td></tr>
+    <tr><td>Jesse Jackson</td><td>US civil rights leader ⚠️</td><td>17 Feb 2026</td><td>84</td></tr>
+    <tr><td>Queen Sirikit</td><td>Thailand's Queen Mother ⚠️</td><td>24 Oct 2025</td><td>93</td></tr>
+    <tr><td><strong>Mario Vargas Llosa</strong></td><td><strong>Nobel laureate (Literature 2010)</strong>, Peru ⚠️</td><td>13 Apr 2025</td><td>89</td></tr>
+    <tr><td><strong>James D. Watson</strong></td><td><strong>Nobel laureate</strong> — DNA double-helix co-discoverer ⚠️</td><td>6 Nov 2025</td><td>97</td></tr>
+    <tr><td>David Baltimore</td><td><strong>Nobel laureate</strong> (Medicine 1975) ⚠️</td><td>6 Sep 2025</td><td>87</td></tr>
+    <tr><td>Tom Stoppard</td><td>Playwright (Oscar, <em>Shakespeare in Love</em>) ⚠️</td><td>29 Nov 2025</td><td>88</td></tr>
+    <tr><td>Sophie Kinsella</td><td>Author (<em>Shopaholic</em> series) ⚠️</td><td>10 Dec 2025</td><td>55</td></tr>
+    <tr><td>Robert Redford</td><td>Actor-director (Sundance founder) ⚠️</td><td>16 Sep 2025</td><td>89</td></tr>
+    <tr><td>Diane Keaton</td><td>Actor (Oscar, <em>Annie Hall</em>) ⚠️</td><td>11 Oct 2025</td><td>79</td></tr>
+    <tr><td>Gene Hackman</td><td>Actor (2× Oscar) ⚠️</td><td>~26 Feb 2025</td><td>95</td></tr>
+    <tr><td>David Lynch</td><td>Filmmaker (<em>Mulholland Drive</em>) ⚠️</td><td>15 Jan 2025</td><td>78</td></tr>
+    <tr><td>Val Kilmer</td><td>Actor ⚠️</td><td>1 Apr 2025</td><td>65</td></tr>
+    <tr><td>Giorgio Armani</td><td>Fashion designer ⚠️</td><td>4 Sep 2025</td><td>91</td></tr>
+    <tr><td>Valentino Garavani</td><td>Fashion designer ⚠️</td><td>19 Jan 2026</td><td>93</td></tr>
+    <tr><td>Frank Gehry</td><td>Architect (Pritzker; Guggenheim Bilbao) ⚠️</td><td>5 Dec 2025</td><td>96</td></tr>
+    <tr><td>Boris Spassky</td><td>Chess world champion (1972 "Match of the Century" vs Fischer) ⚠️</td><td>27 Feb 2025</td><td>88</td></tr>
+    <tr><td>Ágnes Keleti</td><td>Oldest Olympic champion (10 medals), Holocaust survivor ⚠️</td><td>2 Jan 2025</td><td>103</td></tr>
+    <tr><td>Dickie Bird</td><td>Legendary cricket umpire ⚠️</td><td>22 Sep 2025</td><td>92</td></tr>
+    <tr><td>Hulk Hogan</td><td>WWE wrestling legend ⚠️</td><td>24 Jul 2025</td><td>71</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Big deaths timeline "M-P-A-K-A"</strong><br>
+    <strong>M</strong>anmohan Singh (26 Dec '24, edge) → <strong>P</strong>ope Francis (21 Apr '25) → <strong>A</strong>jit Pawar (28 Jan '26, Baramati) → <strong>K</strong>hamenei (28 Feb '26, strike) → <strong>A</strong>sha Bhosle (12 Apr '26). Anchor the five, then hang the rest of the table on them.
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Item | Value | As-Of
+  </div>
+
+  <table>
+    <tr><th>Item</th><th>Value</th><th>As-Of Date</th></tr>
+    <tr><td><strong>Booker Prize 2025</strong></td><td><em>Flesh</em> — David Szalay (first Hungarian-origin winner; chair Roddy Doyle; £50,000)</td><td>10 Nov 2025, London</td></tr>
+    <tr><td><strong>International Booker 2025</strong></td><td><em>Heart Lamp</em> — Banu Mushtaq, tr. Deepa Bhasthi (1st Kannada + 1st short-story win)</td><td>20 May 2025, Tate Modern</td></tr>
+    <tr><td><strong>International Booker 2026</strong></td><td><em>Taiwan Travelogue</em> — Yáng Shuāng-zǐ, tr. Lin King (1st Mandarin-language win)</td><td>19 May 2026, Tate Modern</td></tr>
+    <tr><td><strong>59th Jnanpith (2024)</strong></td><td>Vinod Kumar Shukla — Hindi; 1st from Chhattisgarh; 12th Hindi winner</td><td>Announced Mar 2025</td></tr>
+    <tr><td><strong>60th Jnanpith (2025)</strong></td><td>Vairamuthu — Tamil; 3rd Tamil winner (Akilan 1975, Jayakanthan 2002)</td><td>Announced Mar 2026</td></tr>
+    <tr><td><strong>Sahitya Akademi Awards 2025</strong></td><td>24 languages; English: Navtej Sarna — <em>Crimson Spring</em>; Hindi: Mamta Kalia — <em>Jeete Jee Allahabad</em></td><td>Announced 16 Mar 2026; ceremony 31 Mar 2026</td></tr>
+    <tr><td><strong>Nobel Literature 2025</strong></td><td>László Krasznahorkai (Hungary)</td><td>9 Oct 2025</td></tr>
+    <tr><td><strong>The Emergency Diaries</strong></td><td>BlueKraft Digital Foundation; foreword Deve Gowda; released by Amit Shah</td><td>25 Jun 2025 (Samvidhan Hatya Diwas)</td></tr>
+    <tr><td><strong>Hope: The Autobiography</strong></td><td>Pope Francis — first autobiography by a reigning pope</td><td>14 Jan 2025</td></tr>
+    <tr><td><strong>Mother Mary Comes to Me</strong></td><td>Arundhati Roy — her first memoir (on mother Mary Roy)</td><td>Sep 2025</td></tr>
+    <tr><td><strong>107 Days</strong></td><td>Kamala Harris — 2024 campaign memoir (Simon &amp; Schuster)</td><td>23 Sep 2025</td></tr>
+    <tr><td><strong>Dr. Manmohan Singh (92)</strong></td><td>Former PM (2004–14) — edge case just outside window</td><td>d. 26 Dec 2024</td></tr>
+    <tr><td><strong>Pope Francis (88)</strong></td><td>266th pope; succeeded by Leo XIV (first American pope)</td><td>d. 21 Apr 2025</td></tr>
+    <tr><td><strong>Ajit Pawar (66)</strong></td><td>Maharashtra DyCM; Learjet 45 crash, Baramati airport</td><td>d. 28 Jan 2026</td></tr>
+    <tr><td><strong>Ali Khamenei (86)</strong></td><td>Iran's Supreme Leader; killed in US–Israeli strike; → son Mojtaba</td><td>d. 28 Feb 2026</td></tr>
+    <tr><td><strong>Asha Bhosle (92)</strong></td><td>Playback legend; Dadasaheb Phalke 2000; Padma Vibhushan 2008</td><td>d. 12 Apr 2026</td></tr>
+    <tr><td><strong>Dharmendra (89)</strong></td><td>Bollywood "He-Man"; Padma Bhushan 2012</td><td>d. 24 Nov 2025</td></tr>
+    <tr><td><strong>Dr. Jayant V. Narlikar (86)</strong></td><td>Astrophysicist; posthumous Vigyan Ratna (Rashtriya Vigyan Puraskar 2025)</td><td>d. 20 May 2025</td></tr>
+    <tr><td><strong>Vinod Kumar Shukla (88)</strong></td><td>Hindi writer; won 59th Jnanpith in Mar 2025, died the same year (award is never posthumous)</td><td>d. 23 Dec 2025</td></tr>
+    <tr><td><strong>Ram Vanji Sutar (100)</strong></td><td>Sculptor of the Statue of Unity</td><td>d. 17 Dec 2025</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar &amp; Books/Obituaries — The Safe BPSC Angle</div>
+    <ul>
+      <li><strong>George Orwell was born in Bihar:</strong> Eric Arthur Blair — author of <em>1984</em> and <em>Animal Farm</em> — was born in <strong>Motihari (East Champaran) on 25 June 1903</strong>; his birthplace is a protected heritage site. BPSC's favourite "world author ↔ Bihar" one-liner.</li>
+      <li><strong>Bihar-linked obituary edge cases (just outside window):</strong> <strong>Sharda Sinha</strong> — "Bihar Kokila", the voice of Chhath geet, Padma Bhushan 2018 — died <strong>5 Nov 2024 (age 72)</strong>; <strong>Sushil Kumar Modi</strong> — former Bihar Deputy CM — died <strong>13 May 2024 (age 72)</strong>.</li>
+      <li><strong>70th BPSC PYQ — banned book:</strong> <em>Gharib Hindustan</em>, critical of British policies, was <strong>banned in Bihar in 1930</strong>; author <strong>Mohd. Wali Hassan</strong>. Bihar's proscribed-literature history is directly examinable.</li>
+      <li><strong>Satya Pal Malik (d. 1 Aug 2025):</strong> the former Governor's roster included <strong>Bihar</strong> (2017-18) alongside J&amp;K, Goa and Meghalaya — a 2025-26 obituary with a Bihar hook.</li>
+      <li><strong>Literary giants of Bihar:</strong> Rashtrakavi <strong>Ramdhari Singh Dinkar</strong> (Simaria, Begusarai — <em>Rashmirathi</em>, <em>Kurukshetra</em>, <em>Urvashi</em>); <strong>Phanishwar Nath Renu</strong> (Araria — <em>Maila Anchal</em>); Maithili poet <strong>Vidyapati</strong> ("Maithil Kokil", Madhubani); <strong>Nagarjun</strong> ("Baba Nagarjun", Mithila).</li>
+      <li><strong>Khuda Bakhsh Oriental Public Library, Patna:</strong> founded <strong>1891</strong>; declared an <strong>Institution of National Importance by an Act of Parliament (1969)</strong> — famed for Persian and Arabic manuscripts; the standard "Bihar library" static.</li>
+      <li><strong>Writers-President:</strong> Dr. <strong>Rajendra Prasad</strong> (Ziradei, Siwan) wrote <em>Atmakatha</em> and <em>India Divided</em>; Jayaprakash Narayan's <em>Prison Diary</em> came out of the Emergency years.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #9 (Awards &amp; Honours):</strong> Nobel Literature 2025 (Krasznahorkai), Jnanpith, Booker, Pulitzer, Sahitya Akademi and Padma cross-references (Asha Bhosle — Padma Vibhushan 2008; Dharmendra — Padma Bhushan 2012; Narlikar's posthumous Vigyan Ratna) live on both pages — awards page carries the full rosters, this page carries the works and winners' context.<br>
+    <strong>↔ Topic #12 (Important Days &amp; Themes):</strong> World Book and Copyright Day = <strong>23 April</strong> (UNESCO; marks the 1616 death anniversary of Shakespeare and Cervantes); Samvidhan Hatya Diwas = <strong>25 June</strong> (book release hook: <em>The Emergency Diaries</em>, 2025).<br>
+    <strong>↔ Topic #14 (Environment in News):</strong> obituaries of <strong>Madhav Gadgil</strong> (WGEEP/"Gadgil report", d. 7 Jan 2026) and <strong>Saalumarada Thimmakka</strong> ("tree mother", d. 14 Nov 2025, aged 114) bridge books/obits with environment personalities.<br>
+    <strong>↔ Topic #8 (Science &amp; Tech):</strong> scientist obituaries — <strong>Narlikar</strong> (posthumous Vigyan Ratna), <strong>K. Kasturirangan</strong> (ex-ISRO chairman), <strong>R. Chidambaram</strong> &amp; <strong>M.R. Srinivasan</strong> (nuclear establishment), <strong>V. Rajaraman</strong> (computer-science education).<br>
+    <strong>↔ Topic #3 (Intl Appointments &amp; Orgs):</strong> successions after deaths — Pope Francis → <strong>Pope Leo XIV</strong> (May 2025 conclave); Ayatollah Khamenei → son <strong>Mojtaba Khamenei</strong> (Mar 2026).<br>
+    <strong>↔ Bihar static (Topics #88–96) &amp; #15–23:</strong> Orwell (Motihari), Dinkar (Begusarai), Khuda Bakhsh Library (Patna), Sharda Sinha and Sushil Kumar Modi edge cases.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance &amp; Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Near-certain one-liner:</strong> "International Booker 2025" = <em>Heart Lamp</em> — <strong>first Kannada work AND first short-story collection</strong> to win; Banu Mushtaq = <strong>2nd</strong> Indian winner (Geetanjali Shree was 1st, 2022); Deepa Bhasthi = <strong>1st Indian translator</strong> to win. Don't upgrade her to "first Indian winner".</li>
+    <li><strong>Booker vs International Booker:</strong> 2025 Booker = <em>Flesh</em> (David Szalay, 10 Nov 2025); 2026 International = <em>Taiwan Travelogue</em> (first Mandarin-language winner, 19 May 2026). Kiran Desai was only <strong>shortlisted</strong> — shortlisted ≠ winner is the classic trap.</li>
+    <li><strong>Jnanpith pair:</strong> 59th = Vinod Kumar Shukla (Hindi, 1st from Chhattisgarh, announced Mar 2025); 60th = Vairamuthu (Tamil, 3rd Tamil winner, announced Mar 2026). Remember: <strong>Jnanpith is never posthumous</strong> — Shukla won in March 2025 and died 23 Dec 2025, so any "posthumously awarded" statement is false.</li>
+    <li><strong>Two aviation deaths — do not swap:</strong> Vijay Rupani (ex-Gujarat CM) died in the <strong>Air India AI171 crash, Ahmedabad, 12 Jun 2025</strong>; Ajit Pawar (Maharashtra DyCM) died in a <strong>Learjet 45 crash at Baramati airport, 28 Jan 2026</strong>. Crash ↔ person ↔ date is the testable triple.</li>
+    <li><strong>Succession tracking:</strong> Pope Francis (d. 21 Apr 2025, 88; first Latin American &amp; first Jesuit pope) → <strong>Leo XIV</strong> (Robert Prevost, first American pope); Khamenei (killed 28 Feb 2026) → son <strong>Mojtaba Khamenei</strong>. BPSC asks "who succeeded" as often as "who died".</li>
+    <li><strong>Edge cases that still get asked:</strong> Manmohan Singh (d. 26 Dec 2024, 92) sits just before the window but was the biggest Indian obituary of the cycle — the 69th asked Queen Elizabeth II (reigned 70 years, died at 96) in the same spirit.</li>
+    <li><strong>Books with event hooks:</strong> <em>The Emergency Diaries</em> (released by Amit Shah on 25 Jun 2025, Samvidhan Hatya Diwas; compiled by BlueKraft, foreword by Deve Gowda — he is NOT the author/subject); <em>Hope: The Autobiography</em> (first by a reigning pope, Jan 2025); <em>107 Days</em> (Kamala Harris, Sep 2025); <em>The One</em> (Shikhar Dhawan) pairs with Ashwin's <em>I Have the Streets</em> (70th BPSC PYQ).</li>
+    <li><strong>Same-title &amp; state-swap traps from PYQs:</strong> <em>Tarikh-i-Firuz Shahi</em> — Barani AND Shams Siraj Afif; Achuthanandan = <strong>Kerala</strong> (not Tamil Nadu); <em>Gharib Hindustan</em> banned in <strong>Bihar 1930</strong> — Mohd. Wali Hassan.</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (25 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Who is the author of the autobiography "I Have the Streets: A Kutti Cricket Story"? (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Suresh Raina</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) S. Sreesanth</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) R. Ashwin and S. Monga</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Rahul Dravid</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (C)</strong> — A 70th BPSC verbatim question: off-spinner R. Ashwin co-wrote it with cricket journalist Sidharth Monga. Trap (A): Suresh Raina's memoir is <em>Believe: What Life and Cricket Taught Me</em>.</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Who is the author of the famous book 'Gulamgiri'? (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) B. R. Ambedkar</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Jyotiba Phule</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Ramaswami Naicker 'Periyar'</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) More than one of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — Jyotiba Phule wrote <em>Gulamgiri</em> (1873), dedicating it to American abolitionists. Trap (A): Ambedkar's signature work is <em>Annihilation of Caste</em>; (D) fails because the book has a single author.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. In 1901, who published the book 'Poverty and Un-British Rule in India'? (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) R. C. Dutt</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) M. G. Ranade</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Dadabhai Naoroji</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Gopal Krishna Gokhale</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — Dadabhai Naoroji's 1901 classic laid out the drain-of-wealth thesis. Trap (A): R. C. Dutt wrote <em>The Economic History of India</em> — same theme, different book.</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. 'Nitisara', an early book of politics, was written by: (69th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Kautilya</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Charaka</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Banabhatta</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Kamandaka</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — Kamandaka authored the <em>Nitisara</em>. Trap (A): Kautilya wrote the <em>Arthashastra</em> — the default distractor for every ancient political-text question.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Which of the following statements regarding Queen Elizabeth II of the United Kingdom is correct? (69th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) She reigned for 70 years and died at the age of 96</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) She reigned for 68 years and died at the age of 94</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) She reigned for 72 years and died at the age of 92</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) She reigned for 66 years and died at the age of 98</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — Elizabeth II died on 8 September 2022 at Balmoral, aged 96, after 70 years on the throne — the longest-reigning British monarch, succeeded by Charles III. BPSC shuffles the reign-length/age pair; memorise <strong>70 &amp; 96</strong>.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. 'Tarikh-i-Firuz Shahi' was written by: (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Minhaj Siraj</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Ziauddin Barani</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Yahya Sarhindi</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) More than one of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — <em>Tarikh-i-Firuz Shahi</em> was written by <strong>Ziauddin Barani</strong>, the only qualifying choice among the listed options. Shams Siraj Afif also wrote a like-named work, but Afif is <em>not</em> among the options here (in the original 70th BPSC paper Afif was an option and Barani was absent — this option set has been edited), so "More than one of the above" is logically impossible. Minhaj Siraj = <em>Tabaqat-i Nasiri</em>; Yahya Sarhindi = <em>Tarikh-i-Mubarak Shahi</em>.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. 'Futuhat-e-Alamgiri' was written by: (69th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Ishwar Das Nagar</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Abul Fazl</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Abdul Hamid Lahori</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Khafi Khan</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Ishwar Das Nagar chronicled Aurangzeb's reign in <em>Futuhat-e-Alamgiri</em>. The traps are the Mughal shelf: Abul Fazl = <em>Akbarnama</em>, Lahori = <em>Badshahnama</em>, Khafi Khan = <em>Muntakhab-ul Lubab</em>.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Who was awarded the Nobel Peace Prize in 2023? (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Narges Mohammadi</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Maria Ressa</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Nadia Murad</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Abiy Ahmed</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Jailed Iranian activist Narges Mohammadi won the 2023 Peace Prize. The others are year-swaps: Ressa (2021), Murad (2018), Abiy Ahmed (2019).</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Yevgeny Prigozhin, whose death in an August 2023 plane crash was in news, was the chief of: (69th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Blackwater</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Wagner Group</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Gazprom</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Roscosmos</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — Prigozhin headed the Wagner mercenary group and died two months after his mutiny against Russia's defence establishment. Global obituaries ("who died + who were they") are a standing BPSC format — expect one from the 2025–26 window.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The first Jnanpith Award (1965) was given to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Mahadevi Verma</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) G. Sankara Kurup</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Sumitranandan Pant</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Tarashankar Bandyopadhyay</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Malayalam poet G. Sankara Kurup won the first Jnanpith (for <em>Odakkuzhal</em>); the award was instituted in 1961. Trap (C): Sumitranandan Pant was the first <em>Hindi</em> winner (1968), not the first overall.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The International Booker Prize 2025 was won by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Heart Lamp — Banu Mushtaq, translated by Deepa Bhasthi</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Tomb of Sand — Geetanjali Shree, translated by Daisy Rockwell</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) The Loneliness of Sonia and Sunny — Kiran Desai</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Flesh — David Szalay</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — <em>Heart Lamp</em> (20 May 2025, Tate Modern) is the first Kannada work and first short-story collection to win. Trap (B): <em>Tomb of Sand</em> won in <strong>2022</strong>; trap (D): <em>Flesh</em> won the <strong>Booker Prize</strong> 2025, not the International Booker.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The Booker Prize 2025 was won by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Kiran Desai</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) David Szalay</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Banu Mushtaq</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Percival Everett</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — David Szalay won for <em>Flesh</em> (announced 10 Nov 2025, London; judges chaired by Roddy Doyle) — the first Hungarian-origin winner. Trap (A): Kiran Desai was only <strong>shortlisted</strong> (<em>The Loneliness of Sonia and Sunny</em>); Percival Everett won the <strong>Pulitzer</strong> Fiction 2025 (<em>James</em>).</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The International Booker Prize 2026 was won by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Heart Lamp — Banu Mushtaq</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) We Do Not Part — Han Kang</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Taiwan Travelogue — Yáng Shuāng-zǐ, translated by Lin King</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Tomb of Sand — Geetanjali Shree</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — <em>Taiwan Travelogue</em> (announced 19 May 2026, Tate Modern) is the <strong>first Mandarin-language winner</strong>; the £50,000 is split between author and translator. (A) and (D) are earlier winners (2025, 2022); Han Kang's book was a 2025 shortlisted title.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The 59th Jnanpith Award (for 2024), announced in March 2025, was given to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Gulzar</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) Jagadguru Rambhadracharya</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Vairamuthu</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) Vinod Kumar Shukla</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — Hindi writer Vinod Kumar Shukla (Rajnandgaon) — the <strong>first Jnanpith laureate from Chhattisgarh</strong> and 12th Hindi winner (<em>Naukar Ki Kameez</em>). Traps: (A) and (B) shared the <strong>58th</strong> (2023); (C) Vairamuthu won the <strong>60th</strong> (2025).</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Vairamuthu's 60th Jnanpith Award (for 2025), announced in March 2026, is significant because he is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) the first Tamil winner of the Jnanpith</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) the third Tamil winner, after Akilan (1975) and Jayakanthan (2002)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) the first Malayalam winner of the Jnanpith</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) the first Jnanpith winner honoured for film lyrics alone</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — Vairamuthu is the 3rd Tamil Jnanpith laureate and the first for Tamil poetry; his novel <em>Kallikkaattu Ithihasam</em> had won the Sahitya Akademi in 2003. Trap (A): the first Tamil winner was Akilan (1975).</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. For the year 2025, the Sahitya Akademi Award in English went to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Easterine Kire — Spirit Nights</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Navtej Sarna — Crimson Spring</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Mamta Kalia — Jeete Jee Allahabad</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Gagan Gill — Main Jab Tak Aai Bahar</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Diplomat-author Navtej Sarna won for the novel <em>Crimson Spring</em> (announced 16 Mar 2026; ceremony 31 Mar 2026). Traps: Kire is the <strong>2024</strong> English winner; Mamta Kalia is the <strong>2025 Hindi</strong> winner — the language-swap; Gagan Gill is the 2024 Hindi winner.</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Which statement about Dr. Manmohan Singh is correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) He died on 26 December 2024, aged 92; he was Prime Minister from 2004 to 2014</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) He died on 26 December 2025, aged 92</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) He was Prime Minister from 1998 to 2004</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) He died at the age of 95</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — India's first Sikh PM (two terms, 2004–14), earlier RBI Governor and the Finance Minister of the 1991 reforms, died at AIIMS Delhi on 26 Dec 2024. It sits just before the Jan-2025 window — exactly the borderline death BPSC still asks (trap (B) shifts the year).</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Consider the following statements about Pope Francis:
+    <br>1. He was the first Latin American and the first Jesuit pope.
+    <br>2. He died on 21 April 2025 at the age of 88.
+    <br>3. He was succeeded by Pope Leo XIV (Robert Prevost), the first American pope.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (D)</strong> — All three are correct. Bonus book link: his <em>Hope: The Autobiography</em> (Jan 2025) was the first autobiography ever published by a reigning pope; the May 2025 conclave elected Leo XIV.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Maharashtra Deputy Chief Minister Ajit Pawar died in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) the Air India AI171 crash at Ahmedabad</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) a helicopter crash near Pune</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) a Learjet 45 crash at Baramati airport on 28 January 2026</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) a road accident on the Mumbai–Pune Expressway</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — The Learjet 45 crashed at Baramati on 28 Jan 2026, killing all five on board; Maharashtra observed 3-day state mourning. Trap (A): the AI171 crash (12 Jun 2025) killed former Gujarat CM <strong>Vijay Rupani</strong> — do not swap the two aviation deaths.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The book "The Emergency Diaries — Years That Forged a Leader", in news in 2025, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) an autobiography written by PM Narendra Modi</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) a compilation by BlueKraft Digital Foundation, released by Amit Shah on 25 June 2025 (Samvidhan Hatya Diwas)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) a book released on Constitution Day, 26 November 2025</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) a biography of former PM H. D. Deve Gowda</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — It documents PM Modi's role as a young RSS pracharak in the anti-Emergency movement and was released on the 50th anniversary of the Emergency. Trap (D): Deve Gowda wrote the <strong>foreword</strong> — he is neither author nor subject.</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Consider the following statements about Hindi writer Vinod Kumar Shukla:
+    <br>1. He won the 59th Jnanpith Award, announced in March 2025.
+    <br>2. He was the first Jnanpith laureate from Chhattisgarh.
+    <br>3. He was awarded the Jnanpith posthumously.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Statements 1 and 2 are correct. Statement 3 is the trap: he died on 23 Dec 2025 (aged 88, AIIMS Raipur) — months <em>after</em> winning; the Jnanpith goes only to living Indian citizens and is <strong>never given posthumously</strong>.</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Consider the following statements about the International Booker Prize 2025:
+    <br>1. Heart Lamp is the first short-story collection to win the prize.
+    <br>2. Banu Mushtaq is the first Indian to win the International Booker Prize.
+    <br>3. Deepa Bhasthi is the first Indian translator to win the prize.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — Statements 1 and 3 are correct. Statement 2 is the trap: <strong>Geetanjali Shree</strong> (<em>Tomb of Sand</em>, tr. Daisy Rockwell, 2022) was the first Indian winner — Banu Mushtaq is the second (and the first for Kannada).</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Match the 2025 books with their authors. Which pair is INCORRECTLY matched?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) 107 Days — Kamala Harris</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Hope: The Autobiography — Pope Francis</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) The One: Cricket, My Life and More — Shikhar Dhawan</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) The New World: 21st Century Global Order and India — Shashi Tharoor</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (D)</strong> — <em>The New World</em> is by <strong>Ram Madhav</strong>, not Shashi Tharoor. The other three pairs are correct: Harris's campaign memoir (23 Sep 2025), the Pope's historic autobiography (14 Jan 2025), and Dhawan's cricket autobiography (2025).</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Consider the following statements about eminent Indians who died in 2025:
+    <br>1. Dharmendra died on 24 November 2025.
+    <br>2. Shibu Soren was the founder of the Jharkhand Mukti Morcha (JMM).
+    <br>3. V. S. Achuthanandan was a former Chief Minister of Tamil Nadu.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — Statements 1 and 2 are correct (Soren, "Dishom Guru", died 4 Aug 2025). Statement 3 is the state-swap trap: Achuthanandan (d. 21 Jul 2025, aged 101) was the CPI(M) veteran and former CM of <strong>Kerala</strong>, not Tamil Nadu.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Consider the following statements about Kiran Desai:
+    <br>1. She was shortlisted for the Booker Prize 2025 for The Loneliness of Sonia and Sunny.
+    <br>2. She won the Booker Prize 2025.
+    <br>3. She won the Booker Prize 2006 for The Inheritance of Loss.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (C)</strong> — Statements 1 and 3 are correct (the 2025 shortlist was announced on 23 Sep 2025). Statement 2 is the trap: the Booker Prize 2025 went to <strong>David Szalay's <em>Flesh</em></strong> — "shortlisted" is not "won".</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/25</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://thebookerprizes.com" target="_blank">The Booker Prizes — Official Site</a> <span class="ref-desc">— Booker 2025: <em>Flesh</em> (David Szalay); International Booker 2025: <em>Heart Lamp</em>; International Booker 2026: <em>Taiwan Travelogue</em>.</span></li>
+    <li><a href="https://www.andotherstories.org/2025/05/21/banu-mushtaqs-heart-lamp-translated-by-deepa-bhasthi-awarded-the-international-booker-prize-2025/" target="_blank">And Other Stories — Heart Lamp Wins International Booker 2025</a> <span class="ref-desc">— Publisher's announcement: first Kannada work, first short-story collection; first Indian translator (Deepa Bhasthi).</span></li>
+    <li><a href="https://www.drishtiias.com/daily-updates/daily-news-analysis/60th-jnanpith-award" target="_blank">Drishti IAS / The Hindu — 60th Jnanpith Award</a> <span class="ref-desc">— Vairamuthu (Tamil), 3rd Tamil winner after Akilan (1975) and Jayakanthan (2002); announced Mar 2026.</span></li>
+    <li><a href="https://sahitya-akademi.gov.in" target="_blank">Sahitya Akademi — Official Site</a> <span class="ref-desc">— 2025 awards (24 languages) announced 16 Mar 2026; English: Navtej Sarna — <em>Crimson Spring</em>; est. 1954, ₹1 lakh + copper plaque.</span></li>
+    <li><a href="https://scroll.in/latest/1089527/renowned-hindi-writer-vinod-kumar-shukla-dies-at-88" target="_blank">Scroll.in — Vinod Kumar Shukla Obituary</a> <span class="ref-desc">— 59th Jnanpith winner (Mar 2025) died 23 Dec 2025, aged 88, AIIMS Raipur; the award is never posthumous.</span></li>
+    <li><a href="https://twas.org/article/obituary-jayant-vishnu-narlikar-1938-2025" target="_blank">TWAS — Dr. Jayant V. Narlikar Obituary</a> <span class="ref-desc">— Astrophysicist (d. 20 May 2025, 86); posthumous Vigyan Ratna, Rashtriya Vigyan Puraskar 2025.</span></li>
+    <li><a href="https://www.thehindubusinessline.com/news/maharashtra-deputy-cm-ajit-pawar-dies-plane-crash-live-updates/article70559443.ece" target="_blank">The Hindu BusinessLine — Ajit Pawar Plane Crash</a> <span class="ref-desc">— Learjet 45 crash at Baramati airport, 28 Jan 2026; 5 dead; 3-day state mourning.</span></li>
+    <li><a href="https://apnews.com/article/iran-us-us-israel-trump-979a41042f073f8f4004e34e67b470f5" target="_blank">AP News — Ayatollah Ali Khamenei Killed</a> <span class="ref-desc">— Iran's Supreme Leader (1989–2026) killed in US–Israeli strike, 28 Feb 2026; succeeded by son Mojtaba.</span></li>
+    <li><a href="https://www.nobelprize.org/prizes/literature/" target="_blank">NobelPrize.org — Literature</a> <span class="ref-desc">— 2025 Literature laureate László Krasznahorkai (Hungary), announced 9 Oct 2025.</span></li>
+    <li><a href="https://upscsociology.in/q-the-book-critical-of-the-british-policies-gharib-hindustan-was-banned-in-bihar-in-1930-by-the-british-was-written-by/" target="_blank">70th BPSC Solved — 'Gharib Hindustan' (re-verified)</a> <span class="ref-desc">— Book banned in Bihar in 1930; official answer: Mohd. Wali Hassan. Re-verified via web search for this page.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #13: Books &amp; Authors / Obituaries | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #3, #8, #9, #12, #14 | Obituary rows marked ⚠️ are single-source compiled-list entries — revise the bolded rows first.
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'c', q2: 'b', q3: 'c', q4: 'd', q5: 'a',
+  q6: 'b', q7: 'a', q8: 'a', q9: 'b', q10: 'b',
+  q11: 'a', q12: 'b', q13: 'c', q14: 'd', q15: 'b',
+  q16: 'b', q17: 'a', q18: 'd', q19: 'c', q20: 'b',
+  q21: 'a', q22: 'c', q23: 'd', q24: 'a', q25: 'c'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Books, Authors & Obituaries!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Re-check book↔author pairs, award years, and death dates/ages.';
+
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

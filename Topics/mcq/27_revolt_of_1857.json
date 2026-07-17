@@ -1,0 +1,202 @@
+[
+  {
+    "q": "The Revolt of 1857 started from which place on May 10, 1857?",
+    "options": ["Delhi", "Meerut", "Barrackpore", "Kanpur"],
+    "answer": 1,
+    "explanation": "The Revolt of 1857 began at Meerut on May 10, 1857, when sepoys of the 3rd Native Cavalry broke out in open rebellion after 85 of their comrades were court-martialled and imprisoned for refusing to use the greased cartridges. The sepoys marched to Delhi the next day (May 11). Barrackpore was where Mangal Pandey had attacked British officers on March 29, 1857 — the precursor event.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the first sepoy to revolt against the British, at Barrackpore on March 29, 1857?",
+    "options": ["Kunwar Singh", "Mangal Pandey", "Nana Saheb", "Tantia Tope"],
+    "answer": 1,
+    "explanation": "Mangal Pandey, a sepoy of the 34th Native Infantry at Barrackpore (near Calcutta), attacked British officers on March 29, 1857 — the first act of open rebellion. He was hanged on April 8, 1857. His name became the rallying cry of the revolt. Barrackpore was the precursor; Meerut (May 10) was the full-scale outbreak.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The immediate cause of the Revolt of 1857 was:",
+    "options": ["The greased cartridges incident", "The Doctrine of Lapse", "The Permanent Settlement", "The Subsidiary Alliance"],
+    "answer": 0,
+    "explanation": "The immediate cause was the introduction of the Enfield rifle, whose cartridges were greased with cow and pig fat — offensive to both Hindu and Muslim sepoys. When sepoys at Meerut refused to use them (May 1857), 85 were court-martialled, sparking the revolt. The deeper causes included the Doctrine of Lapse, economic exploitation, and political annexation.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Enfield rifle cartridges were greased with fat from which animals?",
+    "options": ["Cow and pig", "Sheep and goat", "Horse and camel", "Buffalo and chicken"],
+    "answer": 0,
+    "explanation": "The cartridges were greased with cow fat (offensive to Hindus, for whom the cow is sacred) and pig fat (offensive to Muslims, for whom the pig is forbidden). When sepoys had to bite the cartridge to open it, they ingested the forbidden fat. This was the immediate trigger — the religious grievance that united Hindu and Muslim sepoys.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "After capturing Delhi on May 11, 1857, the sepoys declared which Mughal Emperor as the symbolic leader of the revolt?",
+    "options": ["Akbar II", "Bahadur Shah Zafar", "Shah Alam II", "Bahadur Shah I"],
+    "answer": 1,
+    "explanation": "Bahadur Shah Zafar (the last Mughal Emperor, reigned 1837–1857) was declared the symbolic head of the revolt. The sepoys marched from Meerut to Delhi and appealed to him to lead the rebellion. He was a reluctant 82-year-old figurehead — the revolt was actually led by regional leaders (Kunwar Singh, Rani Lakshmibai, Nana Saheb, etc.). After the revolt was suppressed, Bahadur Shah Zafar was exiled to Rangoon (Burma), where he died in 1862.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Kunwar Singh, a key leader of the 1857 Revolt, was the zamindar of which place in Bihar?",
+    "options": ["Darbhanga", "Jagdishpur", "Bettiah", "Hathwa"],
+    "answer": 1,
+    "explanation": "Kunwar Singh (born 1777) was the 80-year-old zamindar of Jagdishpur (in Ara/Bhojpur district, Bihar). He led the revolt in Bihar with remarkable military skill, defeating British forces at multiple engagements. Despite his age, he fought across Bihar, UP, and MP. He was mortally wounded in battle and died on April 26, 1858. He is one of the most important Bihar-specific figures for BPSC.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Rani Lakshmibai led the revolt from which princely state?",
+    "options": ["Jhansi", "Gwalior", "Awadh", "Bharatpur"],
+    "answer": 0,
+    "explanation": "Rani Lakshmibai led the revolt from Jhansi. Her state had been annexed by Lord Dalhousie under the Doctrine of Lapse (1853) after the death of her husband, the Raja of Jhansi, with no natural heir (only an adopted son). She fought valiantly, dressed as a man, and died in battle at Gwalior on June 17, 1858. She became one of the most iconic figures of Indian nationalism.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Nana Saheb, another key leader of the 1857 Revolt, was the adopted son of the last Peshwa. From which place did he lead the revolt?",
+    "options": ["Kanpur (Cawnpore)", "Jhansi", "Lucknow", "Delhi"],
+    "answer": 0,
+    "explanation": "Nana Saheb (Nana Saheb Peshwa) led the revolt from Kanpur (Cawnpore). His father, the last Peshwa Baji Rao II, had been exiled to Bithur (near Kanpur) with a pension. After the Peshwa's death, the British refused to continue the pension to the adopted son Nana Saheb — a key grievance. He led the Kanpur revolt and declared himself Peshwa. His general, Tantia Tope, continued the fight even after Nana Saheb disappeared.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Begum Hazrat Mahal led the revolt from which place?",
+    "options": ["Awadh (Lucknow)", "Delhi", "Bareilly", "Bihar"],
+    "answer": 0,
+    "explanation": "Begum Hazrat Mahal led the revolt from Awadh (Lucknow). She was the wife of the deposed Nawab Wajid Ali Shah of Awadh, who had been exiled to Calcutta by Lord Dalhousie (1856). She led the revolt in Lucknow, which saw some of the fiercest fighting. She eventually escaped to Nepal, where she died in 1879. Awadh was annexed under the Doctrine of Lapse (technically misgovernance) — a major grievance.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Doctrine of Lapse was introduced by which Governor-General?",
+    "options": ["Lord William Bentinck", "Lord Dalhousie", "Lord Wellesley", "Lord Canning"],
+    "answer": 1,
+    "explanation": "Lord Dalhousie (Governor-General 1848–1856) introduced the Doctrine of Lapse — if an Indian ruler died without a natural male heir, his kingdom would 'lapse' (be annexed) to the British. The adopted son could not inherit. States annexed: Satara (1848), Jhansi (1853), Nagpur (1853), Jaitpur, Sambalpur, Baghat, Udaipur, and Awadh (1856, though Awadh was annexed on grounds of misgovernance, not strictly Lapse).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following states was NOT annexed under the Doctrine of Lapse?",
+    "options": ["Jhansi", "Satara", "Nagpur", "Mysore"],
+    "answer": 3,
+    "explanation": "Mysore was NOT annexed under the Doctrine of Lapse — it was restored to its adopted ruler (Krishnaraja Wodeyar III) in 1799 after the defeat of Tipu Sultan. Jhansi, Satara, and Nagpur were all annexed under the Doctrine of Lapse by Dalhousie. Mysore was a 'restored' princely state, not an annexed one.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the Governor-General of India at the time of the Revolt of 1857?",
+    "options": ["Lord Dalhousie", "Lord Canning", "Lord William Bentinck", "Lord Mayo"],
+    "answer": 1,
+    "explanation": "Lord Canning (Governor-General 1856–1858; Viceroy 1858–1862) was the head of British India during the 1857 Revolt. He succeeded Dalhousie, whose annexationist policies had created the conditions for the revolt. Canning is known for the 'Clemency of Canning' (clemency to rebel leaders after the revolt) and for the Government of India Act 1858, which ended Company rule and transferred power to the Crown.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Revolt of 1857 is also known by which of the following names?",
+    "options": ["First War of Indian Independence", "Sepoy Mutiny", "The Great Rebellion", "All of the above"],
+    "answer": 3,
+    "explanation": "The Revolt of 1857 is known by multiple names: 'First War of Indian Independence' (used by V.D. Savarkar and Indian nationalists — the 70th BPSC referred to it this way); 'Sepoy Mutiny' (British colonial term, emphasising the military aspect); 'The Great Rebellion' or 'The Great Revolt' (neutral term). BPSC uses all three — know that they all refer to the same event.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.46"
+  },
+  {
+    "q": "Match the 1857 leader with the place of revolt: Kunwar Singh, Rani Lakshmibai, Nana Saheb, Begum Hazrat Mahal.",
+    "options": ["Jagdishpur, Jhansi, Kanpur, Lucknow", "Kanpur, Jhansi, Jagdishpur, Lucknow", "Jhansi, Kanpur, Jagdishpur, Lucknow", "Lucknow, Kanpur, Jhansi, Jagdishpur"],
+    "answer": 0,
+    "explanation": "Correct matching: Kunwar Singh → Jagdishpur (Bihar); Rani Lakshmibai → Jhansi; Nana Saheb → Kanpur (Cawnpore); Begum Hazrat Mahal → Lucknow (Awadh). The Bihar connection: Kunwar Singh → Jagdishpur (Ara/Bhojpur district). This is a high-probability BPSC matching question.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Government of India Act 1858, which ended EIC rule and transferred power to the British Crown, was a direct consequence of:",
+    "options": ["The Battle of Plassey", "The Revolt of 1857", "The Battle of Buxar", "The Permanent Settlement"],
+    "answer": 1,
+    "explanation": "The Government of India Act 1858 (also called the Queen's Proclamation) was a direct consequence of the 1857 Revolt. It ended the East India Company's rule and transferred governance to the British Crown. The post of Governor-General was replaced by Viceroy (Lord Canning became the first Viceroy). The Act also ended the Doctrine of Lapse and promised religious neutrality and non-interference in Indian customs.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the last Mughal Emperor, who became the symbolic head of the 1857 Revolt and was exiled to Rangoon?",
+    "options": ["Bahadur Shah Zafar", "Akbar Shah II", "Shah Alam II", "Alamgir II"],
+    "answer": 0,
+    "explanation": "Bahadur Shah Zafar (reigned 1837–1857) was the last Mughal Emperor. The sepoys at Delhi (May 11, 1857) appealed to him to lead the revolt. He was a reluctant 82-year-old figurehead. After the British recaptured Delhi (September 1857), he was tried, exiled to Rangoon (Burma), and died in 1862. He was also a noted Urdu poet — his famous ghazal 'Lagta nahin dil jara' is exam-relevant for BPSC's culture questions.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Kunwar Singh died on which date, after being mortally wounded in battle?",
+    "options": ["April 26, 1858", "June 17, 1858", "September 21, 1857", "May 10, 1857"],
+    "answer": 0,
+    "explanation": "Kunwar Singh died on April 26, 1858, at Jagdishpur, after being mortally wounded in his final battle against the British. Despite being 80 years old, he had fought across Bihar, UP (he relieved Azamgarh), and MP. June 17, 1858 is the death of Rani Lakshmibai at Gwalior. September 21, 1857 is the British recapture of Delhi.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Queen's Proclamation of 1858 promised all of the following EXCEPT:",
+    "options": ["Religious neutrality and non-interference in customs", "End of the Doctrine of Lapse", "Equal opportunity for Indians in government service", "Immediate self-government (swaraj) for India"],
+    "answer": 3,
+    "explanation": "The Queen's Proclamation (November 1, 1858) promised religious neutrality, end of the Doctrine of Lapse, and equal opportunity for Indians in government service. It did NOT promise self-government — India remained a British colony for another 89 years. The Proclamation was Lord Canning's attempt to reassure Indians after the trauma of 1857, but it did not address the fundamental demand for self-rule.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The revolt of Birsa Munda took place in which region? (70th BPSC PYQ)",
+    "options": ["Champaran (Bihar)", "Chhotanagpur (Jharkhand/Bihar)", "Buxar (Bihar)", "Munger (Bihar)"],
+    "answer": 1,
+    "explanation": "The revolt of Birsa Munda (1895–1900) took place in the Chhotanagpur region (now Jharkhand, then part of Bihar Presidency). Birsa Munda led the Munda tribal rebellion against British colonial exploitation and forced labour. The 70th BPSC asked this — note that Champaran is a DIFFERENT Bihar revolt (Gandhi's Champaran Satyagraha, 1917). Don't confuse Birsa Munda's revolt (Chhotanagpur) with Champaran.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.20"
+  },
+  {
+    "q": "Which of the following was NOT a cause of the Revolt of 1857?",
+    "options": ["The Doctrine of Lapse and annexations", "Economic exploitation and land revenue pressure", "Religious grievance over greased cartridges", "The Partition of Bengal (1905)"],
+    "answer": 3,
+    "explanation": "The Partition of Bengal (1905) was NOT a cause of the 1857 Revolt — it happened 48 years later, under Lord Curzon. The causes of 1857 were: (1) the Doctrine of Lapse and annexations (Dalhousie), (2) economic exploitation and land revenue pressure, (3) religious grievance over greased cartridges, (4) political grievances of deposed rulers, (5) the general resentment against British interference in Indian customs.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange in chronological order: 1. Mangal Pandey at Barrackpore 2. Sepoy revolt at Meerut 3. Capture of Delhi by sepoys 4. Bahadur Shah Zafar exiled to Rangoon",
+    "options": ["1, 2, 3, 4", "2, 1, 3, 4", "1, 3, 2, 4", "3, 1, 2, 4"],
+    "answer": 0,
+    "explanation": "Correct order: Mangal Pandey at Barrackpore (March 29, 1857) → Sepoy revolt at Meerut (May 10, 1857) → Capture of Delhi by sepoys (May 11, 1857) → Bahadur Shah Zafar exiled to Rangoon (October 1858, after British recaptured Delhi in September 1857). The revolt unfolded over 18 months.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about Kunwar Singh: 1. He was the zamindar of Jagdishpur (Bihar). 2. He was 80 years old during the revolt. 3. He fought only in Bihar and never outside the state. Which is/are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct: Kunwar Singh was the zamindar of Jagdishpur (Ara, Bhojpur district, Bihar) and was approximately 80 years old during the revolt. Statement 3 is WRONG — he did NOT fight only in Bihar; he also fought in UP (he relieved Azamgarh) and MP before returning to Jagdishpur where he was mortally wounded. His military campaigns spanned multiple provinces.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT correctly matched?",
+    "options": ["Mangal Pandey — Barrackpore", "Kunwar Singh — Jagdishpur", "Rani Lakshmibai — Kanpur", "Begum Hazrat Mahal — Lucknow"],
+    "answer": 2,
+    "explanation": "Rani Lakshmibai is wrongly matched — she led the revolt from Jhansi, NOT Kanpur. Kanpur was the base of Nana Saheb. The other three are correctly matched: Mangal Pandey → Barrackpore; Kunwar Singh → Jagdishpur (Bihar); Begum Hazrat Mahal → Lucknow (Awadh). This is the classic BPSC 'not correctly matched' format for 1857.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "After the Revolt of 1857, the British ended the rule of which entity in India?",
+    "options": ["The Mughal Empire", "The East India Company", "The princely states", "The British Crown"],
+    "answer": 1,
+    "explanation": "After the Revolt of 1857, the British government ended the rule of the East India Company (which had governed India since the Diwani of 1765) and transferred power directly to the British Crown. The Government of India Act 1858 (Queen's Proclamation, November 1, 1858) formalised this — the Governor-General became the Viceroy (Lord Canning was the first Viceroy), and the India Office was created in London to oversee Indian affairs.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Revolt of 1857 failed primarily because:",
+    "options": ["The British had superior military technology and reinforcements", "The revolt was confined to north India and lacked all-India coordination", "The Indian leaders were divided and lacked a unified plan", "All of the above"],
+    "answer": 3,
+    "explanation": "The revolt failed due to all three reasons: (1) The British had superior military technology, artillery, and were able to bring reinforcements from Britain (and from the Sikh and Gurkha regiments which stayed loyal). (2) The revolt was confined to north India (Bihar, UP, MP, Delhi) — South India, Punjab, and most of Bengal remained quiet. (3) The Indian leaders (Kunwar Singh, Rani Lakshmibai, Nana Saheb, Begum Hazrat Mahal) were regional and lacked a unified command structure or common political programme.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

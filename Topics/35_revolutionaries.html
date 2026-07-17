@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>35 - Revolutionaries | BPSC 72nd Prelims</title>
+<link rel="stylesheet" href="_assets/navbar.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  h3 a { color: #16213e; text-decoration: none; }
+  h3 a:hover { color: #e94560; text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 200px; }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #35 • TIER A</div>
+  <div class="topic-title">Revolutionaries — Bhagat Singh, HSRA &amp; Bengal Revolutionaries</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Modern Indian History</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Muzaffarpur bomb case (Khudiram Bose, 1908)</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Organization ↔ Headquarters matching (Q130):</strong> Swadeshi Sevak Home → Vancouver (Canada); United India House → Seattle (USA); Yugantar Ashram → San Francisco (USA); INA/Azad Hind Fauj → Rangoon (Burma). Correct code: I-d, II-c, III-a, IV-b. These were overseas revolutionary organizations — showing the global spread of the Indian freedom movement.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Who was NOT associated with Azad Hind Fauz (INA)?</strong> Answer: <strong>Bhagat Singh</strong> — he was hanged in 1931; the INA was formed in 1942. The INA was led by Rash Behari Bose (first President), then Subhash Chandra Bose (1943-1945), initially formed by Captain Mohan Singh.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>'Young India' newspaper started by (Q46):</strong> Answer: <strong>Mahatma Gandhi</strong> (1919). He used it to propagate satyagraha and non-violence. Note: Annie Besant started 'New India'; Tilak started 'Kesari'; Azad started 'Al Hilal.'
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>First Muslim President of INC (Q87):</strong> Answer: <strong>Badruddin Taiyabji</strong> (1887, Madras session). Maulana Azad was the youngest INC President (1923, age 35) — also Muslim, but not the first. The 71st BPSC answer was (D) "More than one of the above" due to framing.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of the revolutionary movement (Anushilan Samiti → HRA → HSRA → INA), Bhagat Singh's martyrdom, Bengal revolutionaries (Surya Sen, Khudiram Bose), Subhash Chandra Bose &amp; INA, Bihar connection (Muzaffarpur bomb case), and 7 exam predictions:
+    <a href="subpages/35_revolutionaries_detail.html" target="_blank">Revolutionaries Master Detail →</a>
+  </div>
+
+  <h3>A. The Revolutionary Movement — Overview <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Phase</th><th>Period</th><th>Key Organizations</th><th>Key Events</th></tr>
+    <tr><td><strong>Phase 1: Early</strong></td><td>1902–1910</td><td>Anushilan Samiti (Bengal, 1902), Jugantar (Bengal, 1906), Gadar Party (USA, 1913)</td><td>Alipore Bomb Case (1908), Muzaffarpur bomb case (1908), Khudiram Bose hanged</td></tr>
+    <tr><td><strong>Phase 2: HRA</strong></td><td>1924–1928</td><td>Hindustan Republican Association (HRA, 1924)</td><td>Kakori Conspiracy (1925) — Bismil, Ashfaqulla hanged</td></tr>
+    <tr><td><strong>Phase 3: HSRA</strong></td><td>1928–1931</td><td>Hindustan Socialist Republican Association (HSRA, 1928)</td><td>Saunders assassination (1928), Assembly Bomb case (1929), Bhagat Singh hanged (1931)</td></tr>
+    <tr><td><strong>Phase 4: Chittagong &amp; INA</strong></td><td>1930–1945</td><td>Surya Sen's group (Bengal), Azad Hind Fauj (1942)</td><td>Chittagong Armoury Raid (1930), INA formed (1942), Bose's "Give me blood" (1944)</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/bhagat_singh.jpg" alt="Bhagat Singh">
+    <div class="img-caption">Bhagat Singh (1907–1931) — revolutionary icon. Founded HSRA (1928) with Azad. Threw bombs in Central Legislative Assembly (April 8, 1929) with Batukeshwar Dutt, shouting "Inquilab Zindabad!" Hanged on March 23, 1931, for the assassination of J.P. Saunders.</div>
+  </div>
+
+  <h3>B. Key Revolutionary Organizations</h3>
+  <table>
+    <tr><th>Organization</th><th>Year</th><th>Founder(s)</th><th>Region</th><th>Key Actions</th></tr>
+    <tr><td><strong>Anushilan Samiti</strong></td><td>1902</td><td>Satish Chandra Basu, Barindra Ghosh</td><td>Bengal (Calcutta)</td><td>Alipore Bomb Case (1908)</td></tr>
+    <tr><td><strong>Jugantar</strong></td><td>1906</td><td>Barindra Kumar Ghosh, Aurobindo Ghosh</td><td>Bengal (Calcutta)</td><td>Alipore Bomb Case, Muzaffarpur case</td></tr>
+    <tr><td><strong>Gadar Party</strong></td><td>1913</td><td>Lala Hardayal, Sohan Singh Bhakna</td><td>San Francisco, USA</td><td>Newspaper 'Gadar'; WWI armed revolt attempt</td></tr>
+    <tr><td><strong>HRA</strong></td><td>1924</td><td>Sachindra Nath Sanyal, Ram Prasad Bismil</td><td>North India</td><td>Kakori Conspiracy (1925)</td></tr>
+    <tr><td><strong>HSRA</strong></td><td>1928</td><td>Bhagat Singh, Chandrashekhar Azad</td><td>North India (Delhi/Lahore)</td><td>Saunders assassination (1928), Assembly Bomb (1929)</td></tr>
+    <tr><td><strong>INA (Azad Hind Fauj)</strong></td><td>1942</td><td>Rash Behari Bose → Subhash Chandra Bose</td><td>Southeast Asia (Singapore/Rangoon)</td><td>Fought alongside Japan against British in WWII</td></tr>
+  </table>
+
+  <h3>C. Key Events Timeline</h3>
+  <table>
+    <tr><th>Date</th><th>Event</th></tr>
+    <tr><td><strong>1902</strong></td><td>Anushilan Samiti founded (Bengal)</td></tr>
+    <tr><td><strong>1906</strong></td><td>Jugantar group formed (Bengal)</td></tr>
+    <tr><td><strong>April 30, 1908</strong></td><td>Muzaffarpur bomb case — Khudiram Bose and Prafulla Chaki (Khudiram hanged Aug 11, 1908)</td></tr>
+    <tr><td><strong>May 1908</strong></td><td>Alipore Bomb Case — Aurobindo Ghosh, Barindra Ghosh (Aurobindo acquitted)</td></tr>
+    <tr><td><strong>1913</strong></td><td>Gadar Party founded (San Francisco)</td></tr>
+    <tr><td><strong>1924</strong></td><td>HRA founded by Sachindra Nath Sanyal</td></tr>
+    <tr><td><strong>August 9, 1925</strong></td><td>Kakori Conspiracy — Bismil, Ashfaqulla, Azad (4 hanged)</td></tr>
+    <tr><td><strong>1928</strong></td><td>HSRA founded by Bhagat Singh and Azad (Delhi)</td></tr>
+    <tr><td><strong>December 17, 1928</strong></td><td>Saunders assassination (Lahore) — Bhagat Singh, Rajguru, Azad</td></tr>
+    <tr><td><strong>April 8, 1929</strong></td><td>Assembly Bomb Case — Bhagat Singh &amp; Batukeshwar Dutt ("Inquilab Zindabad!")</td></tr>
+    <tr><td><strong>September 13, 1929</strong></td><td>Jatindra Nath Das died after 63-day hunger strike (Lahore Jail)</td></tr>
+    <tr><td><strong>February 27, 1931</strong></td><td>Chandrashekhar Azad shot himself (Alfred Park, Allahabad)</td></tr>
+    <tr><td><strong>March 23, 1931</strong></td><td>Bhagat Singh, Rajguru, Sukhdev hanged (Lahore Jail)</td></tr>
+    <tr><td><strong>April 18, 1930</strong></td><td>Chittagong Armoury Raid — Surya Sen ("Masterda")</td></tr>
+    <tr><td><strong>January 12, 1934</strong></td><td>Surya Sen hanged (Chittagong)</td></tr>
+    <tr><td><strong>1939</strong></td><td>Subhash Chandra Bose founded Forward Bloc</td></tr>
+    <tr><td><strong>January 17, 1941</strong></td><td>Bose escaped from India (disguised as Pathan "Ziauddin")</td></tr>
+    <tr><td><strong>1942</strong></td><td>INA (Azad Hind Fauj) formed in Singapore (Rash Behari Bose)</td></tr>
+    <tr><td><strong>1943</strong></td><td>Subhash Chandra Bose took over INA; "Give me blood" slogan</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+  <h3>Key Revolutionary Personalities</h3>
+  <table>
+    <tr><th>Person</th><th>Organization</th><th>Key Action</th><th>Fate</th></tr>
+    <tr><td><strong>Bhagat Singh</strong></td><td>HSRA</td><td>Saunders assassination (1928), Assembly Bomb (1929)</td><td>Hanged March 23, 1931 (age 23)</td></tr>
+    <tr><td><strong>Chandrashekhar Azad</strong></td><td>HSRA</td><td>Mentor to Bhagat Singh; strategist; Kakori (1925)</td><td>Shot himself Feb 27, 1931 (Alfred Park, Allahabad)</td></tr>
+    <tr><td><strong>Surya Sen</strong></td><td>Chittagong group</td><td>Chittagong Armoury Raid (April 18, 1930)</td><td>Hanged Jan 12, 1934</td></tr>
+    <tr><td><strong>Khudiram Bose</strong></td><td>Jugantar</td><td>Muzaffarpur bomb case (April 30, 1908)</td><td>Hanged Aug 11, 1908 (age 18)</td></tr>
+    <tr><td><strong>Ram Prasad Bismil</strong></td><td>HRA</td><td>Kakori Conspiracy (1925)</td><td>Hanged 1927</td></tr>
+    <tr><td><strong>Ashfaqulla Khan</strong></td><td>HRA</td><td>Kakori Conspiracy (1925)</td><td>Hanged 1927</td></tr>
+    <tr><td><strong>Jatindra Nath Das</strong></td><td>HSRA</td><td>63-day hunger strike (Lahore Jail, 1929)</td><td>Died Sep 13, 1929</td></tr>
+    <tr><td><strong>Subhash Chandra Bose</strong></td><td>INA / Forward Bloc</td><td>Escaped 1941; led INA; "Give me blood" slogan</td><td>Died in plane crash (Aug 18, 1945, Taiwan)</td></tr>
+    <tr><td><strong>Rash Behari Bose</strong></td><td>INA / Gadar</td><td>Delhi-Lahore Conspiracy (1912); founded INA (1942)</td><td>Died 1945 (Japan)</td></tr>
+    <tr><td><strong>Pritilata Waddedar</strong></td><td>Surya Sen's group</td><td>Pahartali European Club attack (Sep 1932)</td><td>Consumed cyanide (age 21)</td></tr>
+    <tr><td><strong>Aurobindo Ghosh</strong></td><td>Anushilan/Jugantar</td><td>Alipore Bomb Case (1908)</td><td>Acquitted; turned to spirituality (Sri Aurobindo)</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/subhash_bose.jpg" alt="Subhash Chandra Bose">
+    <div class="img-caption">Subhash Chandra Bose (1897–1945) — "Netaji." Escaped India (January 1941, disguised as Pathan "Ziauddin"). Led the INA (Azad Hind Fauj) from 1943. Famous slogans: "Give me blood, I shall give you freedom," "Dilli Chalo," "Jai Hind." Died in a plane crash on August 18, 1945 (Taiwan).</div>
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — R-E-V-O-L-T:</strong><br>
+    <strong>R</strong> (Revolutionary orgs: Anushilan → HRA → HSRA → INA) → <strong>E</strong> (Events: Alipore 1908, Kakori 1925, Saunders 1928, Assembly Bomb 1929, Chittagong 1930) → <strong>V</strong> (Visionaries: Bhagat Singh, Azad, Surya Sen, Bose) → <strong>O</strong> (Overseas: Gadar Party, INA) → <strong>L</strong> (Lahore Conspiracy → Bhagat Singh hanged 1931) → <strong>T</strong> (Timeline: 1902 to 1945).<br>
+    <em>"REVOLT: the six pillars of the revolutionary movement."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Muzaffarpur Bomb Case (1908)</div>
+    <ul>
+      <li><strong>Muzaffarpur Bomb Case (April 30, 1908):</strong> Khudiram Bose and Prafulla Chaki threw a bomb at Muzaffarpur (Bihar) targeting Judge Kingsford (who was notorious for his harsh sentences against nationalists). The bomb hit the wrong carriage — killing Mrs. Kennedy and her daughter (wife and daughter of barrister Pringle Kennedy).</li>
+      <li><strong>Khudiram Bose:</strong> arrested at Muzaffarpur railway station (he was only 18). Tried and hanged on August 11, 1908 — one of the youngest revolutionaries to be martyred.</li>
+      <li><strong>Prafulla Chaki:</strong> shot himself to avoid arrest while fleeing from Muzaffarpur.</li>
+      <li><strong>Significance:</strong> the Muzaffarpur bomb case is the Bihar-specific revolutionary event. It shocked the nation and made Khudiram Bose a martyr. The case is directly relevant to BPSC exams because of its Bihar connection.</li>
+      <li><strong>Note:</strong> Bhagat Singh, Surya Sen, and most other revolutionaries were NOT from Bihar — Bihar's main revolutionary connection is through the Muzaffarpur case (Khudiram Bose). Bihar's main contribution to the freedom movement was through the Gandhian movements (Champaran 1917, Quit India 1942) rather than the revolutionary movement.</li>
+    </ul>
+  </div>
+
+  <div class="img-container">
+    <img src="images/surya_sen.jpg" alt="Surya Sen">
+    <div class="img-caption">Surya Sen ("Masterda") — led the Chittagong Armoury Raid on April 18, 1930. He and 65 revolutionaries captured the armoury and declared Chittagong independent for four days. Surya Sen was arrested in 1933, tortured, and hanged on January 12, 1934.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>Cross-Topic Links:</strong>
+    <ul>
+      <li><a href="32_gandhian_movements.html">Topic 32 (Gandhian Movements)</a>: The revolutionary movement was the alternative to Gandhian non-violence. While Gandhi led mass movements (Non-Cooperation, Civil Disobedience, Quit India), the revolutionaries believed in armed struggle. Both approaches contributed to the freedom movement.</li>
+      <li><a href="34_quit_india_1942.html">Topic 34 (Quit India 1942)</a>: The Quit India Movement saw a convergence of Gandhian and revolutionary approaches — underground activity (JP, Ram Manohar Lohia) borrowed tactics from the revolutionaries. Subhash Chandra Bose's INA was fighting alongside, creating pressure from multiple fronts.</li>
+      <li><a href="28_socio_religious_reforms.html">Topic 28 (Socio-Religious Reforms)</a>: Aurobindo Ghosh, who was tried in the Alipore Bomb Case (1908), later became Sri Aurobindo — a philosopher and spiritual reformer. His journey from revolutionary to spiritual leader illustrates the intersection of the freedom movement and the reform movement.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Bhagat Singh's legacy:</strong> March 23 is observed as "Martyrs' Day" (Shaheed Diwas) across India — the anniversary of Bhagat Singh, Rajguru, and Sukhdev's hanging (1931).</li>
+    <li><strong>Chandrashekhar Azad Park:</strong> Alfred Park in Allahabad (Prayagraj) was renamed Chandrashekhar Azad Park — the site where he shot himself on February 27, 1931.</li>
+    <li><strong>INA trials:</strong> the Red Fort INA trials (1945-1946) — of officers like Shah Nawaz Khan, Gurbaksh Singh Dhillon, and Prem Sahgal — generated massive public sympathy and contributed to the naval mutiny of 1946.</li>
+    <li><strong>Bose's mystery:</strong> the circumstances of Subhash Chandra Bose's death (plane crash, August 18, 1945, Taiwan) remain a subject of debate and multiple commissions of inquiry. His legacy continues to inspire.</li>
+    <li><strong>'Jai Hind':</strong> Bose's slogan "Jai Hind" is now the official greeting of the Indian armed forces and appears on Indian currency and official communications.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Bhagat Singh, along with Rajguru and Sukhdev, was hanged on March 23, 1931, for which incident?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. The assassination of J.P. Saunders (Lahore Conspiracy Case)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. The Kakori Conspiracy</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. The Chittagong Armoury Raid</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. The Assembly Bomb Case</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Bhagat Singh, Rajguru, and Sukhdev were hanged on March 23, 1931, for the assassination of J.P. Saunders (Lahore Conspiracy Case). Saunders was killed in retaliation for the death of Lala Lajpat Rai.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Who founded the Hindustan Socialist Republican Association (HSRA) in 1928?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Bhagat Singh, Chandrashekhar Azad, and others</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Subhash Chandra Bose</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Surya Sen</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Sachindra Nath Sanyal</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — HSRA was founded in 1928 at Ferozeshah Kotla (Delhi) by Bhagat Singh, Azad, and others. It evolved from the HRA (founded 1924 by Sanyal).</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Who threw bombs in the Central Legislative Assembly on April 8, 1929, with the slogan 'Inquilab Zindabad'?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Bhagat Singh and Batukeshwar Dutt</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Bhagat Singh and Sukhdev</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Chandrashekhar Azad and Bhagat Singh</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Rajguru and Bhagat Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — Bhagat Singh and Batukeshwar Dutt threw bombs in the Central Legislative Assembly (April 8, 1929) shouting "Inquilab Zindabad!" They courted arrest to use the trial as a platform.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Who was the leader of the Chittagong Armoury Raid (April 18, 1930)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Surya Sen</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Bhagat Singh</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Chandrashekhar Azad</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Subhash Chandra Bose</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — Surya Sen ("Masterda") led the Chittagong Armoury Raid (April 18, 1930). He and 65 revolutionaries captured the armoury and declared Chittagong independent for four days.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The Kakori Conspiracy (1925) was associated with which revolutionary organization?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Hindustan Republican Association (HRA)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Anushilan Samiti</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. HSRA</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Gadar Party</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — The Kakori Conspiracy (August 9, 1925) was carried out by the HRA. Ram Prasad Bismil, Ashfaqulla Khan, and others looted a government train. 4 were hanged.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The slogan 'Inquilab Zindabad' (Long Live Revolution) was popularized by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Bhagat Singh</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Subhash Chandra Bose</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Maulana Hasrat Mohani</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Hasrat Mohani</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — "Inquilab Zindabad" was coined by Maulana Hasrat Mohani in 1921. It was later popularized by Bhagat Singh and the HSRA during the Assembly Bomb case (1929).</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Who was the first President of the Azad Hind Fauj (Indian National Army)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. Subhash Chandra Bose</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Rash Behari Bose</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Mohan Singh</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. Captain Mohan Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (B)</strong> — Rash Behari Bose was the first President of the INA (founded 1942, Singapore). He handed over leadership to Subhash Chandra Bose in 1943.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Subhash Chandra Bose escaped from India in 1941 disguised as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. A Pathan (Ziauddin)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. A Sikh</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. A British officer</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. A Muslim priest</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Bose escaped from house arrest in Calcutta (January 17, 1941) disguised as a Pathan named "Ziauddin." He traveled through Peshawar, Kabul, and Germany before reaching Japan by submarine.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Which revolutionary organization was founded by Sachindra Nath Sanyal in 1924?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Hindustan Republican Association (HRA)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Anushilan Samiti</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Gadar Party</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. HSRA</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — The HRA was founded in 1924 by Sanyal, Bismil, and others. It was renamed HSRA in 1928 by Bhagat Singh and Azad.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Who among the following was NOT associated with Azad Hind Fauz (INA)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Subhash Chandra Bose</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Rash Behari Bose</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Mohan Singh</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Bhagat Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — Bhagat Singh was hanged in 1931; the INA was formed in 1942. He was NOT associated with the INA. 71st BPSC Q83.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The Anushilan Samiti was a revolutionary organization based in which region?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Punjab</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Maharashtra</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Bihar</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — Anushilan Samiti was based in Bengal (founded 1902). It carried out the Alipore Bomb Case (1908) and inspired later revolutionary groups.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The Alipore Bomb Case (1908) involved which revolutionary leaders?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Aurobindo Ghosh and Barindra Kumar Ghosh</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Bhagat Singh and Batukeshwar Dutt</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Surya Sen and Pritilata Waddedar</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Ram Prasad Bismil and Ashfaqulla Khan</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — The Alipore Bomb Case (1908) involved Aurobindo Ghosh and Barindra Ghosh. Khudiram Bose was hanged. Aurobindo was acquitted and later became Sri Aurobindo.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Who was hanged on August 11, 1908, at the age of 18, becoming one of the youngest revolutionaries to be martyred?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Khudiram Bose</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Bhagat Singh</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Surya Sen</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Jatindra Nath Das</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Khudiram Bose was hanged on August 11, 1908, at age 18. He was involved in the Muzaffarpur bomb case (Bihar). One of the youngest martyrs.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Jatindra Nath Das died on September 13, 1929, after a 63-day hunger strike in Lahore Jail. What was the purpose of the hunger strike?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. To protest against the inhuman treatment of political prisoners</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. To demand independence for India</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. To protest against the British salt tax</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. To demand better food for prisoners</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — Jatindra Nath Das died after a 63-day hunger strike to protest against the inhuman treatment of political prisoners (British prisoners got better facilities than Indian political prisoners).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Gadar Party was founded in 1913 in which country?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. United States (San Francisco)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Canada (Vancouver)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. Japan (Tokyo)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. England (London)</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — The Gadar Party was founded in 1913 in San Francisco, USA, by Lala Hardayal and others. Its goal was armed rebellion against British rule.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The 71st BPSC PYQ (Q130) matched organizations with headquarters. Which of the following is the correct matching?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Swadeshi Sevak Home-Vancouver, United India House-Seattle, Yugantar Ashram-San Francisco, INA/Azad Hind Fauj-Rangoon</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Swadeshi Sevak Home-Seattle, United India House-Vancouver, Yugantar Ashram-Rangoon, INA-San Francisco</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Swadeshi Sevak Home-San Francisco, United India House-Vancouver, Yugantar Ashram-Seattle, INA-Rangoon</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Swadeshi Sevak Home-Rangoon, United India House-San Francisco, Yugantar Ashram-Vancouver, INA-Seattle</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — 71st BPSC Q130: Swadeshi Sevak Home → Vancouver; United India House → Seattle; Yugantar Ashram → San Francisco; INA → Rangoon. Code: I-d, II-c, III-a, IV-b.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Chandrashekhar Azad died on February 27, 1931, at which location, shooting himself with the last bullet?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Alfred Park, Allahabad</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Lahore Jail</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Chittagong</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Lal Chowk, Srinagar</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Azad shot himself at Alfred Park, Allahabad (February 27, 1931). His pledge was to never be captured alive. The park was later renamed Chandrashekhar Azad Park.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Who was the first Muslim President of the Indian National Congress?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Badruddin Taiyabji</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Maulana Azad</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Hasrat Mohani</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Syed Ahmad Khan</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Badruddin Taiyabji was the first Muslim President of the INC (1887, Madras session). Maulana Azad was the youngest INC President (1923, age 35). 71st BPSC Q87.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Subhash Chandra Bose resigned from the presidency of the INC in 1939. Who succeeded him?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Abul Kalam Azad</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. More than one of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — The 69th/70th/71st BPSC answer was (D) "More than one of the above" due to the question's framing. Bose resigned in April 1939; Rajendra Prasad succeeded him.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The famous slogan 'Give me blood, I shall give you freedom' was given by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Subhash Chandra Bose</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Bhagat Singh</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Mahatma Gandhi</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Maulana Hasrat Mohani</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Subhash Chandra Bose gave "Give me blood, I shall give you freedom" (1944, Burma, to INA soldiers). He also gave "Dilli Chalo" and "Jai Hind."</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The 'Young India' newspaper was started by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Mahatma Gandhi</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Annie Besant</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Bal Gangadhar Tilak</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Maulana Abul Kalam Azad</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — 'Young India' was started by Gandhi (1919). Annie Besant started 'New India'; Tilak started 'Kesari'; Azad started 'Al Hilal.' 71st BPSC Q46.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Who raised the cry 'Divide and Quit' during India's independence movement?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. M.A. Jinnah</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. V.D. Savarkar</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. M.A. Ansari</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Jawaharlal Nehru</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — M.A. Jinnah raised "Divide and Quit" — a play on the "Quit India" slogan. He demanded the partition of India (Pakistan). 71st BPSC Q89.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Bihar's connection with the revolutionary movement was through:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Khudiram Bose's association with Muzaffarpur bomb case (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Bhagat Singh's birth in Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Surya Sen's operations in Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. The Kakori train robbery in Bihar</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Bihar's connection is through the Muzaffarpur bomb case (1908). Khudiram Bose and Prafulla Chaki threw a bomb at Muzaffarpur (Bihar). Khudiram was hanged (age 18).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Who founded the Forward Bloc in 1939?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Subhash Chandra Bose</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Bhagat Singh</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Rajendra Prasad</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — Subhash Chandra Bose founded the Forward Bloc in 1939 after resigning from the INC presidency. It advocated a more militant approach to the freedom struggle.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The revolutionary women who played a prominent role in the Chittagong Armoury Raid included:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Pritilata Waddedar and Kalpana Datta</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Aruna Asaf Ali and Sucheta Kripalani</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Sarojini Naidu and Vijaya Lakshmi Pandit</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Matangini Hazra and Bina Das</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — Pritilata Waddedar and Kalpana Datta played prominent roles in the Chittagong Armoury Raid (1930). Pritilata led the Pahartali European Club attack (1932) and consumed cyanide. Kalpana Datta was arrested for manufacturing bombs.</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Bhagat Singh (HIGH):</strong> HSRA founder (1928); Assembly Bomb case (April 8, 1929) with Batukeshwar Dutt; "Inquilab Zindabad"; hanged March 23, 1931 (Saunders assassination); "Inquilab Zindabad" was coined by Hasrat Mohani (1921).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Organization ↔ HQ matching (HIGH):</strong> 71st BPSC Q130: Swadeshi Sevak Home-Vancouver, United India House-Seattle, Yugantar Ashram-San Francisco, INA-Rangoon. Know all four.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>INA / Subhash Bose (MEDIUM):</strong> INA formed 1942 (Rash Behari Bose first President); Bose took over 1943; "Give me blood" slogan (1944); Bose escaped 1941 (Pathan "Ziauddin"); Forward Bloc 1939; "Jai Hind."
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Muzaffarpur / Khudiram Bose (MEDIUM):</strong> Bihar connection — Khudiram Bose threw bomb at Muzaffarpur (April 30, 1908) targeting Judge Kingsford; hanged August 11, 1908 (age 18). Prafulla Chaki shot himself.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>Key events chronology (LOW):</strong> Anushilan (1902) → Alipore (1908) → Kakori (1925) → HSRA (1928) → Saunders (1928) → Assembly Bomb (1929) → Chittagong (1930) → Bhagat Singh hanged (1931) → INA (1942).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Not associated with INA (LOW):</strong> 71st BPSC: Bhagat Singh NOT associated with INA (hanged 1931). Know who WAS: Rash Behari Bose, Subhash Bose, Mohan Singh.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>Sloganes (LOW):</strong> "Inquilab Zindabad" = Hasrat Mohani (1921), popularized by Bhagat Singh; "Give me blood" = Bose (1944); "Do or Die" = Gandhi (1942); "Jai Hind" = Bose; "Vande Mataram" = Bankim Chandra Chattopadhyay (1882).
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>Bipan Chandra et al., <em>India's Struggle for Independence</em>, Chapters 15–18 (Revolutionaries)</li>
+    <li>Sumit Sarkar, <em>Modern India 1885-1947</em>, pp. 140–155 (Revolutionary movement)</li>
+    <li>71st BPSC PYQ Q46 (Young India), Q83 (INA), Q87 (first Muslim INC President), Q89 (Divide and Quit), Q130 (org-HQ matching)</li>
+    <li>69th BPSC PYQ Q73 (Bose resigned 1939)</li>
+    <li><a href="https://en.wikipedia.org/wiki/Bhagat_Singh" target="_blank">Wikipedia: Bhagat Singh</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Chandra_Shekhar_Azad" target="_blank">Wikipedia: Chandrashekhar Azad</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 35 — Revolutionaries • Generated 2026-07-17</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'a', q4: 'a', q5: 'a', q6: 'c', q7: 'b', q8: 'a', q9: 'a', q10: 'd',
+  q11: 'a', q12: 'a', q13: 'a', q14: 'a', q15: 'a', q16: 'a', q17: 'a', q18: 'a', q19: 'd', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'a', q24: 'a', q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option', 'wrong-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

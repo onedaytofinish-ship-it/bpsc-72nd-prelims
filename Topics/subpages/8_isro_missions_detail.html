@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>8 - ISRO Missions &amp; Statics Detail | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .flow-node a:hover {
+    text-decoration: underline;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="../_assets/navbar.css">
+</head>
+<body>
+
+<a href="../8_science_and_tech_in_news.html" style="display: inline-block; margin-bottom: 12px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Topic #8: Science &amp; Tech in News</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #8 • DEEP DIVE</div>
+  <div class="topic-title">ISRO Milestones 1969–2026, Launch Vehicles &amp; Statics</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Space — Master Tables</span>
+    <span class="meta-tag">🎯 Static + Current Fusion</span>
+  </div>
+</div>
+
+<!-- ====== MASTER MILESTONE TABLE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🛰️</span> ISRO Master Milestone Table (1963–2026)
+  </div>
+
+  <table>
+    <tr><th>Year</th><th>Milestone</th><th>One-liner for BPSC</th></tr>
+    <tr><td>1962</td><td><strong>INCOSPAR</strong> set up</td><td>Indian National Committee for Space Research, under Dr. Vikram Sarabhai — ISRO's predecessor</td></tr>
+    <tr><td>1963</td><td>First sounding rocket from <strong>Thumba</strong></td><td>Nov 21, 1963 (American Nike-Apache); Thumba Equatorial Rocket Launching Station (TERLS), near the magnetic equator</td></tr>
+    <tr><td>1969</td><td><strong>ISRO formed</strong> (Aug 15)</td><td>HQ Bengaluru; founder Vikram Sarabhai — "Father of the Indian space programme"</td></tr>
+    <tr><td>1972</td><td>Department of Space &amp; Space Commission</td><td>ISRO brought under the newly created DoS</td></tr>
+    <tr><td>1975</td><td><strong>Aryabhata</strong></td><td>India's first satellite (Apr 19, 1975) — launched by the Soviet Union (Kosmos-3M, Kapustin Yar)</td></tr>
+    <tr><td>1980</td><td><strong>SLV-3 / Rohini</strong></td><td>July 18, 1980 — India became the <strong>6th nation</strong> to launch its own satellite; project led by A.P.J. Abdul Kalam</td></tr>
+    <tr><td>1984</td><td><strong>Rakesh Sharma</strong> in space</td><td>First Indian in space — Soviet Soyuz T-11 to Salyut-7 (April 1984)</td></tr>
+    <tr><td>1993/94</td><td><strong>PSLV</strong> first flight / first success</td><td>1993 maiden flight failed; 1994 success — became the workhorse</td></tr>
+    <tr><td>2001</td><td><strong>GSLV Mk-I</strong> first flight</td><td>Geosynchronous capability with (then) Russian cryogenic stage</td></tr>
+    <tr><td>2008</td><td><strong>Chandrayaan-1</strong> (PSLV-C11)</td><td>Confirmed water molecules on the Moon (Moon Impact Probe + NASA's M3)</td></tr>
+    <tr><td>2013</td><td><strong>Mangalyaan / MOM</strong> (PSLV-C25)</td><td>Mars orbiter — India the <strong>first nation to reach Mars in its maiden attempt</strong> (Sep 2014), first Asian nation to do so</td></tr>
+    <tr><td>2014</td><td>GSLV Mk-III suborbital test (CARE)</td><td>Crew-module re-entry experiment — precursor of LVM3/Gaganyaan</td></tr>
+    <tr><td>2017</td><td><strong>PSLV-C37 — 104 satellites</strong></td><td>Then a world record for most satellites on a single rocket (broken by SpaceX's 143 in 2021)</td></tr>
+    <tr><td>2017</td><td><strong>LVM3 (GSLV Mk-III)</strong> first orbital flight</td><td>GSAT-19 — India's heaviest rocket with indigenous CE-20 cryogenic stage</td></tr>
+    <tr><td>2019</td><td>Chandrayaan-2</td><td>Orbiter successful; Vikram lander crashed during descent</td></tr>
+    <tr><td>2023</td><td><strong>Chandrayaan-3</strong> lands (Aug 23)</td><td>First soft landing near the lunar south pole; India 4th nation to soft-land on the Moon; site = <strong>Shiv Shakti Point</strong>; Aug 23 = <strong>National Space Day</strong></td></tr>
+    <tr><td>2023</td><td><strong>Aditya-L1</strong> (PSLV-C57, Sep 2)</td><td>First Indian solar observatory; halo orbit around Sun-Earth L1 (~1.5 million km) reached Jan 6, 2024</td></tr>
+    <tr><td>2024</td><td>XPoSat (Jan 1) • INSAT-3DS (Feb 17) • Proba-3 (Dec 5)</td><td>X-ray polarimeter (2nd globally after IXPE); weather satellite; ESA formation-flying mission on PSLV-C59</td></tr>
+    <tr><td>2024</td><td><strong>SpaDeX launched</strong> (Dec 30, PSLV-C60)</td><td>Space-docking demonstration — docked <strong>Jan 16, 2025</strong>; India the <strong>4th nation</strong> to dock in space</td></tr>
+    <tr><td>2025</td><td><strong>GSLV-F15 / NVS-02</strong> (Jan 29)</td><td><strong>100th launch from Sriharikota</strong>; 2nd-generation NavIC satellite (71st BPSC PYQ)</td></tr>
+    <tr><td>2025</td><td><strong>Shubhanshu Shukla — Axiom-4</strong> (June)</td><td>First Indian on the ISS; second Indian in space after Rakesh Sharma</td></tr>
+    <tr><td>2025</td><td><strong>NISAR</strong> (Jul 30, GSLV-F16)</td><td>NASA-ISRO L+S band radar — world's most advanced civilian Earth-imaging radar</td></tr>
+    <tr><td>2026</td><td>PSLV-C62 anomaly (Jan) → return-to-flight (May)</td><td>Rare upper-stage failure of the workhorse; corrective action announced by Chairman V. Narayanan</td></tr>
+    <tr><td>2026</td><td>Gaganyaan G-1 (slated)</td><td>First uncrewed Gaganyaan flight with humanoid <strong>Vyommitra</strong> on human-rated LVM3</td></tr>
+  </table>
+</div>
+
+<!-- ====== LAUNCH VEHICLE SPECS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🚀</span> Launch-Vehicle Specification Bank
+  </div>
+
+  <table>
+    <tr><th>Vehicle</th><th>Stages / Engines</th><th>Payload</th><th>Notes</th></tr>
+    <tr><td><strong>SSLV</strong></td><td>3 solid stages + liquid velocity-trimming module</td><td>~500 kg to LEO</td><td>On-demand, low-cost, minimal launch infrastructure; will also fly from the new Kulasekarapattinam spaceport (Tamil Nadu)</td></tr>
+    <tr><td><strong>PSLV</strong></td><td>4 stages (solid-liquid-solid-liquid); Vikas engine in stage 2</td><td>~1,750 kg to SSO</td><td>Workhorse; variants PSLV-CA / -DL / -XL (strap-ons); flew Chandrayaan-1, MOM, Aditya-L1, SpaDeX; C62 anomaly Jan 2026</td></tr>
+    <tr><td><strong>GSLV Mk-II</strong></td><td>3 stages; indigenous cryogenic <strong>CE-7.5</strong> (CUS)</td><td>~2,250 kg to GTO</td><td>Flew NVS-02 (F15, 100th launch) and NISAR (F16)</td></tr>
+    <tr><td><strong>LVM3</strong></td><td>2 solid S200 boosters + L110 liquid core + C25 cryo (<strong>CE-20</strong>)</td><td>~4,000 kg to GTO; 8-10 t to LEO</td><td>Heaviest operational; human-rated <strong>HLVM3</strong> for Gaganyaan; flew Chandrayaan-2 &amp; 3, OneWeb 72 satellites</td></tr>
+    <tr><td><strong>NGLV "Soorya"</strong></td><td>Reusable first stage (approved design)</td><td>~30 t to LEO class</td><td>Approved Sep 2024 — backbone for BAS, crewed lunar missions; green propulsion goals</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Cryo Pair:</strong> "<strong>7.5 is Small, 20 is Tall</strong>" — CE-7.5 flies on GSLV Mk-II, CE-20 on LVM3. Vikas = the liquid workhorse engine (PSLV stage 2, GSLV/LVM3 liquid core) named after Vikram Ambalal Sarabhai.
+  </div>
+</div>
+
+<!-- ====== CENTRES & INSTITUTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🏢</span> ISRO Centres &amp; Space Institutions (Matching Bank)
+  </div>
+
+  <table>
+    <tr><th>Centre</th><th>Location</th><th>Role</th></tr>
+    <tr><td><strong>VSSC</strong> (Vikram Sarabhai Space Centre)</td><td>Thiruvananthapuram</td><td>Launch-vehicle design &amp; development</td></tr>
+    <tr><td><strong>URSC</strong> (U R Rao Satellite Centre, ex-ISAC)</td><td>Bengaluru</td><td>Satellite design &amp; integration</td></tr>
+    <tr><td><strong>SAC</strong> (Space Applications Centre)</td><td>Ahmedabad</td><td>Payloads &amp; applications</td></tr>
+    <tr><td><strong>LPSC</strong> (Liquid Propulsion Systems Centre)</td><td>Valiamala / Bengaluru</td><td>Liquid &amp; cryogenic engines</td></tr>
+    <tr><td><strong>SDSC-SHAR</strong> (Satish Dhawan Space Centre)</td><td>Sriharikota, Andhra Pradesh</td><td>India's launch port — all 100+ launches</td></tr>
+    <tr><td><strong>NRSC</strong> (National Remote Sensing Centre)</td><td>Hyderabad</td><td>Earth-observation data, Bhuvan portal</td></tr>
+    <tr><td><strong>HSFC</strong> (Human Space Flight Centre)</td><td>Bengaluru</td><td>Gaganyaan programme</td></tr>
+    <tr><td><strong>IPRC</strong></td><td>Mahendragiri, Tamil Nadu</td><td>Propulsion testing</td></tr>
+    <tr><td><strong>MCF</strong> (Master Control Facility)</td><td>Hassan (Karnataka) &amp; Bhopal (MP)</td><td>Satellite control</td></tr>
+    <tr><td><strong>IN-SPACe</strong></td><td>Ahmedabad</td><td>Regulator/promoter for private space sector (2020)</td></tr>
+    <tr><td><strong>NSIL</strong></td><td>Bengaluru</td><td>Commercial arm (2019) — launch services, industry-built PSLV</td></tr>
+    <tr><td><strong>Antrix Corporation</strong></td><td>Bengaluru</td><td>Older commercial arm (1992) — now defunct/absorbed role into NSIL</td></tr>
+  </table>
+</div>
+
+<!-- ====== CHAIRMEN & FIRSTS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">👤</span> ISRO Chairmen &amp; Static "Firsts"
+  </div>
+
+  <h3>ISRO Chairmen (select)</h3>
+  <table>
+    <tr><th>Chairman</th><th>Tenure</th><th>Known for</th></tr>
+    <tr><td>Vikram Sarabhai</td><td>1963–1971 (INCOSPAR/ISRO)</td><td>Founder; Thumba, Aryabhata vision</td></tr>
+    <tr><td>Satish Dhawan</td><td>1972–1984</td><td>SLV-3 era; SHAR named after him</td></tr>
+    <tr><td>U. R. Rao</td><td>1984–1994</td><td>Satellite programme expansion; PSLV initiated</td></tr>
+    <tr><td>K. Kasturirangan</td><td>1994–2003</td><td>PSLV operationalisation; Chandrayaan-1 approval; later NEP 2020 drafting chair</td></tr>
+    <tr><td>G. Madhavan Nair</td><td>2003–2009</td><td>Chandrayaan-1 launch</td></tr>
+    <tr><td>K. Radhakrishnan</td><td>2009–2014</td><td>Mangalyaan, GSLV Mk-III development</td></tr>
+    <tr><td>A. S. Kiran Kumar</td><td>2015–2018</td><td>104-satellite record (PSLV-C37)</td></tr>
+    <tr><td>K. Sivan</td><td>2018–2022</td><td>Chandrayaan-2; Gaganyaan announcement</td></tr>
+    <tr><td>S. Somanath</td><td>2022–2025</td><td>Chandrayaan-3 landing, Aditya-L1</td></tr>
+    <tr><td><strong>V. Narayanan</strong></td><td><strong>Jan 2025 – present</strong></td><td>100th launch, NISAR, Gaganyaan G-1, PSLV return-to-flight</td></tr>
+  </table>
+
+  <h3>Static "Firsts &amp; Onlys" Rapid Bank</h3>
+  <ul>
+    <li>First satellite: <strong>Aryabhata (1975)</strong> • First Indian-built launcher success: <strong>SLV-3 (1980)</strong> • First Indian in space: <strong>Rakesh Sharma (1984)</strong> • First Indian on the ISS: <strong>Shubhanshu Shukla (2025)</strong>.</li>
+    <li>India = 4th nation to soft-land on the Moon (2023) and <strong>1st near the south pole</strong>; 4th to dock in space (2025); 4th with anti-satellite capability (Mission Shakti, 2019); 6th to launch own satellite (1980); 1st to reach Mars in maiden attempt (2014).</li>
+    <li>NavIC/IRNSS: <strong>7 satellites</strong> (regional, India + 1,500 km); NVS = 2nd generation. GAGAN: aviation augmentation with AAI.</li>
+    <li>Second Indian spaceport: <strong>Kulasekarapattinam, Thoothukudi district, Tamil Nadu</strong> (foundation 2024; SSLV-focused).</li>
+    <li>Private firsts: <strong>Skyroot Vikram-S</strong> (Nov 2022, first private Indian rocket) • <strong>Agnikul Agnibaan SOrTeD</strong> (May 2024, first semi-cryogenic 3D-printed-engine flight) • <strong>Pixxel</strong> (hyperspectral constellation).</li>
+    <li>Space economy: ~$8 bn today, target <strong>$44 bn by 2033</strong>; Indian Space Policy 2023; FDI liberalisation (2024) for the space sector.</li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #8 Deep Dive: ISRO Missions &amp; Statics<br>
+  📌 Return to <a href="../8_science_and_tech_in_news.html" style="color:#2563eb;">Topic #8 main page</a> for the Fact Matrix, Bihar Connection and MCQ set.
+</div>
+
+<script src="../_assets/navbar.js"></script>
+</body>
+</html>

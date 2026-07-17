@@ -1,0 +1,202 @@
+[
+  {
+    "q": "Who presented the Bihar Budget 2026-27 in the State Assembly?",
+    "options": ["Shri Nitish Kumar", "Shri Samrat Chaudhary", "Shri Bijendra Prasad Yadav", "Shri Vijay Kumar Sinha"],
+    "answer": 2,
+    "explanation": "Bijendra Prasad Yadav (JDU), Finance Minister in the post-election Nitish Kumar government, presented the FY 2026-27 budget on 3 Feb 2026. Samrat Chaudhary presented the 2024-25 and 2025-26 budgets — the 70th BPSC asked exactly this for 2024-25.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.40"
+  },
+  {
+    "q": "Which sector received the highest allocation in the Bihar Budget 2026-27?",
+    "options": ["Health", "Agriculture", "Education", "Infrastructure"],
+    "answer": 2,
+    "explanation": "Education got ₹68,216 cr = 19.63% of the FY27 budget, the highest of any sector. The 70th BPSC asked the same question for 2024-25 (answer: Education), and FY26 also topped with education (₹60,964.87 cr, 19.24%). Agriculture got only ₹8,463 cr (2.6%).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.50"
+  },
+  {
+    "q": "The total outlay of the Bihar Budget 2026-27 is:",
+    "options": ["₹3,16,895.02 crore", "₹3,47,589.76 crore", "₹2,78,725.72 crore", "₹3,24,925 crore"],
+    "answer": 1,
+    "explanation": "₹3,47,589.76 crore, the largest budget in Bihar's history. ₹3,16,895.02 cr is FY 2025-26, ₹2,78,725.72 cr is FY 2024-25 BE, and ₹3,24,925 cr is the trap — FY27 expenditure EXCLUDING debt repayment of ₹22,665 cr, not the total outlay.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bihar Budget 2026-27 was presented on:",
+    "options": ["1 February 2026", "28 February 2026", "3 March 2026", "3 February 2026"],
+    "answer": 3,
+    "explanation": "3 February 2026. 1 Feb 2026 is the Union Budget / 16th Finance Commission tabling date; the FY26 Bihar budget was presented on 3 March 2025 — BPSC mixes the two dates.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the Bihar Budget 2026-27: 1. It is the largest budget in Bihar's history. 2. The fiscal deficit is estimated at 3% of GSDP. 3. It estimates a revenue deficit of ₹1,143 crore. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct (outlay ₹3,47,589.76 cr; fiscal deficit ₹39,112 cr = 3% of GSDP). Statement 3 is the trap: FY27 estimates a revenue SURPLUS of ₹1,143 cr (0.1% of GSDP), not a revenue deficit.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "As per the Bihar Economic Survey 2025-26, the contribution of agriculture to Bihar's GSDP (2024-25) is approximately:",
+    "options": ["17%", "19%", "23%", "33%"],
+    "answer": 2,
+    "explanation": "The 2024-25 sector split is Agriculture 23% : Manufacturing 23% : Services 54%. The 70th BPSC asked this exact theme ('contribution of agriculture in the GDP of Bihar') with a similar option spread.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.40"
+  },
+  {
+    "q": "Bihar's per-capita GSDP for 2024-25, per the Economic Survey 2025-26, is:",
+    "options": ["₹68,624", "₹76,490", "₹1,05,600", "₹2,41,220"],
+    "answer": 1,
+    "explanation": "₹76,490 (+13% YoY), roughly one-third of the national average (₹2,34,859). ₹68,624 is the 2023-24 figure; ₹2,41,220 is Patna district's per-capita income (highest); ₹1,05,600 is Begusarai's.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's GSDP growth in 2024-25 at constant (real) prices was:",
+    "options": ["6.5%", "8.6%", "13.1%", "7.4%"],
+    "answer": 1,
+    "explanation": "8.6% real growth, well above India's 6.5%. 13.1% is the CURRENT-price (nominal) growth — the classic real-vs-nominal trap; 6.5% is India's real growth.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about Bihar's GSDP in 2024-25 (Economic Survey 2025-26): 1. It grew 13.1% at current prices. 2. It grew 8.6% at constant prices. 3. Bihar's real growth rate was lower than India's. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is false: Bihar's real growth (8.6%) was HIGHER than India's (6.5%) — the Survey's headline boast.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about education in the Bihar Budget 2026-27: 1. Education received the highest sectoral allocation — ₹68,216 crore (19.63%). 2. School education accounts for ₹60,204 crore. 3. Higher education accounts for ₹8,012 crore. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct: ₹60,204 cr (school) + ₹8,012 cr (higher) = ₹68,216 cr, the largest sectoral allocation; PRS's wider Education+Sports+Arts club is ₹70,141 cr (21.7% of sectoral spend, vs the 14.5% all-state average).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Jannayak Karpoori Thakur Kisan Samman Nidhi, announced in the Bihar Budget 2026-27, provides:",
+    "options": ["₹6,000 per year to farmers, replacing PM-KISAN", "₹3,000 per year per farmer as a state top-up over PM-KISAN's ₹6,000", "A one-time ₹10,000 grant to one woman per family", "Up to ₹2 lakh of enterprise support to women"],
+    "answer": 1,
+    "explanation": "It is a state top-up of ₹3,000/yr OVER the Centre's PM-KISAN ₹6,000 (total ₹9,000/yr), named after former CM Karpoori Thakur. The other two options describe the Mukhyamantri Mahila Rojgar Yojana — the classic scheme-swap trap.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match List-I (Sector, Bihar Budget 2026-27) with List-II (Allocation): a) Rural Development — 1) ₹16,840 crore; b) Health & Family Welfare — 2) ₹30,387 crore; c) Police (Home) — 3) ₹20,230 crore",
+    "options": ["a-1, b-2, c-3", "a-3, b-1, c-2", "a-2, b-1, c-3", "a-2, b-3, c-1"],
+    "answer": 3,
+    "explanation": "Rural Development ₹30,387 cr (2nd largest; includes MGNREGS ₹3,192 cr); Health & FW ₹20,230 cr (6.3%; PM-ABHIM ₹1,495 cr); Police ₹16,840 cr (5.2%). Learn the descending order E-R-S-H-E-P to kill matching questions.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Saat Nischay-3, the resolve programme flagged in the Bihar Budget 2026-27, covers the period:",
+    "options": ["2020-2025", "2025-2030", "2024-2029", "2026-2031"],
+    "answer": 1,
+    "explanation": "Saat Nischay-3 runs 2025-2030 (Part-1: 2015-20; Part-2: 2020-25). 2026-31 is the 16th Finance Commission award period — a deliberate lookalike.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about Bihar and the 16th Finance Commission (report tabled 1 Feb 2026): 1. Bihar's tax-devolution share is 9.95% for 2026-31. 2. Bihar's share has increased from 10.06%. 3. Bihar's share is the second highest among states, after Uttar Pradesh. Which of the statements given above are correct?",
+    "options": ["1 only", "1 and 2 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 2,
+    "explanation": "Statements 1 and 3 are correct (UP tops with 17.62%). Statement 2 is the trap: Bihar's share DECREASED from 10.06% to 9.95% — BPSC flips the direction of change.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who presented the Bihar Budget 2025-26 (3 March 2025) in the State Assembly?",
+    "options": ["Shri Nitish Kumar", "Shri Vijay Sinha", "Shri Samrat Choudhary", "Shri Vijay Kumar Choudhary"],
+    "answer": 2,
+    "explanation": "Samrat Chaudhary, then Dy CM & Finance Minister (BJP), presented the ₹3,16,895.02 cr FY26 budget. These are the 70th BPSC's own options (asked then for 2024-25 — same answer); Vijay Kumar Sinha is the other Dy CM, not the FM.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.40"
+  },
+  {
+    "q": "The education allocation in the Bihar Budget 2025-26 was:",
+    "options": ["₹68,216 crore", "₹60,964.87 crore", "₹20,035.80 crore", "₹5,972 crore"],
+    "answer": 1,
+    "explanation": "₹60,964.87 cr (19.24% of the FY26 budget), the highest sectoral allocation that year. ₹68,216 cr is the FY27 figure; ₹20,035.80 cr is FY26 health; ₹5,972 cr is the FY26 Saat Nischay-2 provision.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following was NOT announced in the Bihar Budget 2026-27 speech?",
+    "options": ["Construction of five new expressways", "Integrated Manufacturing Cluster Phase-2 at Gaya", "Free electricity up to 125 units per month for domestic consumers", "A defence corridor and a pharma park"],
+    "answer": 2,
+    "explanation": "The 125-units free-electricity scheme was announced on 17 Jul 2025 (cabinet approval 18 Jul 2025, effective 1 Aug 2025) — a pre-election decision, NOT an FY27 budget announcement (the budget only carries the ₹15,702 cr power subsidy that funds it). The other three are FY27 speech items.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's GSDP for 2026-27 (budget estimate, current prices) is projected at:",
+    "options": ["₹9.92 lakh crore", "₹11.40 lakh crore", "₹13.09 lakh crore", "₹3.74 lakh crore"],
+    "answer": 2,
+    "explanation": "₹13.09 lakh cr, +15% over the 2025-26 revised estimate. The trajectory: 2024-25 ₹9.92 lakh cr → 2025-26 RE ₹11.40 lakh cr → 2026-27 BE ₹13.09 lakh cr. ₹3.74 lakh cr is the total outstanding DEBT.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "As per the Economic Survey 2025-26, Bihar's total outstanding debt (₹3.74 lakh crore) is approximately what share of GSDP?",
+    "options": ["26%", "37.7%", "3%", "19.6%"],
+    "answer": 1,
+    "explanation": "37.7% of GSDP. The distractors are the page's other percentages: 26% = Bihar's own-tax share of revenue receipts; 3% = FY27 fiscal deficit; 19.6% ≈ education's share of the FY27 budget.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the Bihar Economic Survey 2025-26: 1. It is the 20th edition of the Bihar Economic Survey. 2. Bihar's per-capita GDP in 2023-24 (₹68,624) was the lowest among all Indian states. 3. Sheohar has the highest per-capita income among Bihar's districts. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is inverted: Sheohar has the LOWEST district PCI (₹38,214); PATNA is the highest (₹2,41,220). Highest-lowest swaps are a BPSC staple.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Mahila Sashaktikaran' (women empowerment) allocation in the Bihar Budget 2026-27 is:",
+    "options": ["₹21,050 crore", "₹9,052 crore", "₹24,710 crore", "₹12,107 crore"],
+    "answer": 1,
+    "explanation": "₹9,052 cr in FY27, within Social Welfare & Nutrition (₹24,710 cr). ₹21,050 cr is the FY 2025-26 REVISED estimate — inflated by MMRY's ₹10,000 grants to 1.56 crore women; ₹12,107 cr is Samagra Shiksha.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Integrated Manufacturing Cluster (IMC) Phase-2 under the Amritsar-Kolkata Industrial Corridor, announced in the Bihar Budget 2026-27, is located at:",
+    "options": ["Gaya", "Patna", "Muzaffarpur", "Bhagalpur"],
+    "answer": 0,
+    "explanation": "Gaya. The FY27 industrial slate also includes a defence corridor, pharma park and fintech city — all part of the Saat Nischay-3 industrialisation plank.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The total capital outlay in the Bihar Budget 2026-27 is:",
+    "options": ["₹39,377 crore", "₹22,665 crore", "₹5,034 crore", "₹5,814 crore"],
+    "answer": 0,
+    "explanation": "₹39,377 cr total capital outlay. The traps are its neighbours: ₹22,665 cr is debt repayment; ₹5,034 cr is capital outlay on roads & bridges alone; ₹5,814 cr is capital outlay on irrigation & flood control.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Annual Financial Statement (state budget) is laid before the State Legislature under which Article of the Constitution?",
+    "options": ["Article 112", "Article 202", "Article 280", "Article 368"],
+    "answer": 1,
+    "explanation": "Article 202 mandates the Annual Financial Statement for states; Article 112 is the Union-Budget equivalent. Article 280 constitutes the Finance Commission; Article 368 governs constitutional amendment.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's budget in 2005-06 — the baseline from which the present budget has grown roughly 15 times — was approximately:",
+    "options": ["₹22,568 crore", "₹52,000 crore", "₹1.1 lakh crore", "₹2.2 lakh crore"],
+    "answer": 0,
+    "explanation": "₹22,568 cr in 2005-06. From there to ₹3,47,589.76 cr (2026-27) is the ~15x expansion routinely cited in Bihar budget analyses — and a favourite 'how many times' framing.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  }
+]

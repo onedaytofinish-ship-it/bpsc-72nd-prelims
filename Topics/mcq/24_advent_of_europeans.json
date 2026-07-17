@@ -1,0 +1,202 @@
+[
+  {
+    "q": "Vasco da Gama reached the port of Calicut (Kozhikode) in which year?",
+    "options": ["1492", "1498", "1500", "1505"],
+    "answer": 1,
+    "explanation": "Vasco da Gama arrived at Calicut on the Malabar Coast in May 1498, after sailing around the Cape of Good Hope. 1492 is Columbus reaching the Americas — a classic date-swap trap. 1500 is when Cabral arrived (second Portuguese expedition). 1505 is when Almeida became the first Portuguese viceroy.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Vasco da Gama's sea route to India went around which cape?",
+    "options": ["Cape of Good Hope (Africa)", "Cape Horn (South America)", "Strait of Malacca", "Suez Canal"],
+    "answer": 0,
+    "explanation": "Da Gama sailed around the Cape of Good Hope (southern tip of Africa), then north through the Indian Ocean to Calicut. Cape Horn is in South America (Magellan's route). The Suez Canal was not opened until 1869 — centuries later. BPSC tests whether you know the geographic route.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The first European power to arrive in India and the last to leave were respectively:",
+    "options": ["Portuguese and British", "Portuguese and Portuguese", "British and British", "Dutch and French"],
+    "answer": 1,
+    "explanation": "The Portuguese were the first to arrive (1498, Vasco da Gama) AND the last to leave (Goa, Daman and Diu remained Portuguese until 1961, when India liberated them by military action). The British left in 1947, the French left in 1954 (Pondicherry), but the Portuguese held on for 14 more years. This 'first to come, last to leave' formulation is a BPSC favourite.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Portuguese established their first factory (trading post) in India at:",
+    "options": ["Goa", "Calicut", "Cochin", "Daman"],
+    "answer": 1,
+    "explanation": "The Portuguese established their first factory at Calicut in 1500 (after Cabral's arrival), but soon shifted their commercial HQ to Cochin (1503) and their political HQ to Goa (1510, captured by Albuquerque). The trap is Goa — it became the capital in 1510, but the first factory was at Calicut.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Alfonso de Albuquerque captured Goa in which year?",
+    "options": ["1498", "1505", "1510", "1530"],
+    "answer": 2,
+    "explanation": "Albuquerque captured Goa in 1510 from the Bijapur Sultanate (Adil Shah). He is also known for introducing the 'Blue Water Policy' (maritime dominance). 1498 is da Gama's arrival; 1505 is Almeida's appointment as viceroy; 1530 is when the Portuguese moved their capital to Goa officially (though captured in 1510).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Dutch East India Company (VOC) was established in:",
+    "options": ["1600", "1602", "1608", "1612"],
+    "answer": 1,
+    "explanation": "The Dutch East India Company (Vereenigde Oost-Indische Compagnie, VOC) was established in 1602 — the first joint-stock company in the world. 1600 is the English EIC; 1608 is when the English arrived in India (Hawkins at Surat); 1612 is the English victory at Swally. The Dutch formed their company 2 years before the English.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Dutch East India Company established its factory at Patna in which year? (69th BPSC PYQ)",
+    "options": ["1632", "1635", "1648", "1664"],
+    "answer": 0,
+    "explanation": "The Dutch established a factory at Patna in 1632 — a direct 69th BPSC question. The Dutch had trading posts in Bihar (Patna, Rajmahal) for saltpetre, indigo and opium. 1635 is a common distractor (the Dutch were expanding in Bengal around this time); 1648 and 1664 are later dates. This is a Bihar-specific PYQ fact.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.27"
+  },
+  {
+    "q": "The English East India Company was established in the year:",
+    "options": ["1599", "1600", "1602", "1608"],
+    "answer": 1,
+    "explanation": "The English East India Company was chartered by Queen Elizabeth I on December 31, 1600 — making it older than the Dutch VOC (1602) by 2 years in terms of the royal charter, though the Dutch company was the first joint-stock company. 1599 is the year the English first discussed the idea; 1608 is Hawkins' arrival at Surat.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the first English ambassador to the Mughal court (arrived at Surat in 1608)?",
+    "options": ["Sir Thomas Roe", "William Hawkins", "Captain Best", "Josiah Child"],
+    "answer": 1,
+    "explanation": "William Hawkins arrived at Surat in 1608 and reached the court of Jahangir, becoming the first English ambassador. He was given the title 'English Khan' by Jahangir. The trap is Sir Thomas Roe — he came later (1615) as the official ambassador and succeeded in getting a farman for trade. Hawkins came first but Roe was more successful diplomatically.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sir Thomas Roe came to the court of which Mughal emperor, and in which year?",
+    "options": ["Akbar, 1605", "Jahangir, 1615", "Shah Jahan, 1632", "Aurangzeb, 1666"],
+    "answer": 1,
+    "explanation": "Sir Thomas Roe arrived at the court of Jahangir in 1615 as the official ambassador of King James I. He stayed until 1619 and secured trading concessions (farman) for the English East India Company. His success laid the diplomatic foundation for English factories at Surat, Agra, Ahmedabad and Broach.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The English East India Company established its first factory in India at:",
+    "options": ["Madras (Fort St. George)", "Surat", "Bombay", "Calcutta (Fort William)"],
+    "answer": 1,
+    "explanation": "The first English factory was established at Surat in 1613, after Sir Thomas Roe's diplomatic success. Madras (Fort St. George) came in 1639 (purchased from the Raja of Chandragiri); Bombay was acquired in 1661 (as part of Catherine of Braganza's dowry); Calcutta (Fort William) came in 1690 (Job Charnock). Surat was the first foothold.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The English acquired Bombay as part of the dowry of which royal?",
+    "options": ["Catherine of Braganza (1661)", "Mary of Modena (1685)", "Queen Victoria (1837)", "Anne Hyde (1660)"],
+    "answer": 0,
+    "explanation": "Bombay (given to King Charles II in 1661 as part of the dowry of Catherine of Braganza, a Portuguese princess) was transferred to the East India Company in 1668 for an annual rent of £10. The Portuguese had been the previous owners. BPSC tests the dowry connection — Bombay went from Portugal → England (crown) → EIC.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match the European power with its main headquarters in India:",
+    "options": ["Portuguese-Goa, Dutch-Pulicat, French-Pondicherry, English-Madras", "Portuguese-Cochin, Dutch-Surat, French-Masulipatnam, English-Bombay", "Portuguese-Daman, Dutch-Calicut, French-Chandernagore, English-Calcutta", "Portuguese-Goa, Dutch-Cochin, French-Madras, English-Surat"],
+    "answer": 0,
+    "explanation": "Portuguese HQ: Goa (from 1510). Dutch HQ: Pulicat (1610, later shifted to Cochin). French HQ: Pondicherry (1674, founded by Martin). English HQ: initially Surat, then Madras (Fort St. George, 1639). The key traps: Dutch HQ was Pulicat (not Cochin initially); French HQ was Pondicherry (not Chandernagore, which was a subordinate French post in Bengal).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The French East India Company was founded by:",
+    "options": ["Colbert (1664)", "Louis XIV personally", "Dupleix", "François Martin"],
+    "answer": 0,
+    "explanation": "The French East India Company was founded in 1664 by Jean-Baptiste Colbert, the finance minister of Louis XIV. François Martin founded Pondicherry in 1674 (the French HQ). Dupleix was the governor who initiated the Anglo-French Carnatic Wars in the 1740s. The company was state-sponsored, unlike the English and Dutch which were joint-stock.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The French founded their headquarters at Pondicherry in which year?",
+    "options": ["1664", "1674", "1690", "1725"],
+    "answer": 1,
+    "explanation": "François Martin founded Pondicherry in 1674, which became the French headquarters in India. 1664 is the founding of the French East India Company by Colbert. Pondicherry remained French until 1954 (de facto transfer to India), making it the second-longest European presence after the Portuguese in Goa.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Danes (Danish East India Company) established their main settlement at:",
+    "options": ["Tranquebar (Tamil Nadu)", "Serampore (Bengal)", "Both Tranquebar and Serampore", "Nicobar Islands only"],
+    "answer": 2,
+    "explanation": "The Danes established Tranquebar (Tarangambadi, Tamil Nadu) in 1620 as their HQ, and Serampore (Bengal, 1755) as a secondary post. They also held the Nicobar Islands. The Danish presence is important because Serampore became the base of William Carey, Joshua Marshman and William Ward — the Serampore Mission (1799) and the first printing press in Indian languages. The Danes sold their Indian possessions to the British in 1845.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which European power was associated with the 'Blue Water Policy'?",
+    "options": ["Portuguese", "Dutch", "French", "English"],
+    "answer": 0,
+    "explanation": "The 'Blue Water Policy' (Estado da India) was introduced by Alfonso de Albuquerque — it aimed at establishing Portuguese naval supremacy over the Indian Ocean rather than territorial conquest. The idea was to control sea trade routes and choke points (Hormuz, Malacca, Goa) rather than hold large inland territories. No other European power used this maritime-first strategy.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following chronological order of European arrival in India: 1. Portuguese 2. English 3. Dutch 4. French. The correct sequence is:",
+    "options": ["1, 3, 2, 4", "1, 2, 3, 4", "3, 1, 2, 4", "1, 3, 4, 2"],
+    "answer": 0,
+    "explanation": "Correct order: Portuguese (1498, Vasco da Gama) → Dutch (1595, first voyage; VOC 1602) → English (1600, EIC charter; 1608, Hawkins at Surat) → French (1664, company founded; 1674, Pondicherry). The English company was chartered in 1600 (before Dutch VOC in 1602), but the Dutch reached India first (1595). BPSC tests this distinction between company formation and actual arrival.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Battle of Swally (1612) was fought between the English and which power?",
+    "options": ["Portuguese", "Dutch", "French", "Mughals"],
+    "answer": 0,
+    "explanation": "The Battle of Swally (Suvali, near Surat, 1612) was a naval battle where the English (under Captain Thomas Best) defeated the Portuguese. This victory broke the Portuguese naval monopoly and established English credibility on the western coast, leading to the Mughal farman allowing the English to set up a factory at Surat (1613).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The English East India Company's factory at Surat was established in which year?",
+    "options": ["1608", "1611", "1613", "1615"],
+    "answer": 2,
+    "explanation": "The English factory at Surat was established in 1613, after the Mughal emperor Jahangir granted a farman following Sir Thomas Roe's diplomatic mission (1615–1619) and the Battle of Swally (1612). 1608 is Hawkins' arrival; 1611 is sometimes confused with the factory at Masulipatnam; 1615 is Roe's arrival. Surat (1613) was the first English factory in India.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Mughal emperor granted the farman allowing the English to trade at Surat?",
+    "options": ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
+    "answer": 1,
+    "explanation": "Jahangir granted the farman allowing the English to establish a factory at Surat (1613). Sir Thomas Roe's embassy (1615–1619) secured additional trading concessions. Akbar died in 1605 (before the English arrived in 1608). Shah Jahan later attacked the English at Hooghly (1686), and Aurangzeb's reign saw the English driven from Bengal temporarily.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which European power introduced the 'Policy of Imperialism' through the Carnatic Wars?",
+    "options": ["Portuguese", "Dutch", "French", "English"],
+    "answer": 2,
+    "explanation": "The French (under Dupleix) introduced the policy of using Indian troops (sepoys) under European officers and interfering in Indian succession disputes — the 'Policy of Imperialism' or political intervention. This was a shift from pure trade to political control. The English copied this strategy and eventually defeated the French in the Carnatic Wars (1746–1763), paving the way for British conquest of India.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which European power was the first to be eliminated from the Indian trade rivalry?",
+    "options": ["Portuguese", "Dutch", "French", "Danes"],
+    "answer": 1,
+    "explanation": "The Dutch were the first to be effectively eliminated from the Indian trade rivalry after their defeat in the Battle of Bidara (1759) by the English. The Dutch focused on the East Indies (Indonesia) and ceded the Indian field to the English. The Portuguese held Goa until 1961; the French were defeated in the Carnatic Wars but held Pondicherry until 1954; the Danes sold out in 1845.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Farman of 1717' granted by Farrukhsiyar to the English was significant because it:",
+    "options": ["Allowed free trade in Bengal for an annual payment of ₹3,000", "Gave the English the right to mint coins", "Transferred Bengal to the English", "Allowed the English to fortify Calcutta"],
+    "answer": 0,
+    "explanation": "The Farman of 1717, granted by Mughal emperor Farrukhsiyar (at the request of the English embassy led by John Surman), allowed the English East India Company to carry on duty-free trade in Bengal for an annual payment of ₹3,000. It also permitted them to rent 38 villages around Calcutta and mint coins at Madras. This farman was the commercial foundation that made Bengal the most profitable English trading post — and eventually led to political control after Plassey (1757).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT correctly matched?",
+    "options": ["Portuguese — Blue Water Policy", "French — Policy of Imperialism", "Dutch — Battle of Swally", "English — Farman of 1717"],
+    "answer": 2,
+    "explanation": "The Battle of Swally (1612) was fought between the English and the Portuguese, NOT the Dutch. The Dutch were defeated at the Battle of Bidara (1759). The other three pairings are correct: Portuguese → Blue Water Policy, French → Policy of Imperialism, English → Farman of 1717.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

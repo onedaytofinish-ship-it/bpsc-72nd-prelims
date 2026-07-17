@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5 - Bilateral Relations | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 220px;
+    position: relative;
+  }
+  .flow-node a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .flow-node a:hover {
+    text-decoration: underline;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #5 • TIER A</div>
+  <div class="topic-title">Bilateral Relations</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs & Diplomacy</span>
+    <span class="meta-tag">⚖️ Weight: 1.7</span>
+    <span class="meta-tag">📊 Mapped Questions: 5</span>
+    <span class="meta-tag">🎯 Expected: 3-5 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content & PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>India-Australia ECTA:</strong> BPSC tested trade agreements. India signed the landmark Economic Cooperation and Trade Agreement (ECTA) with <strong>Australia</strong> in 2022, which entered into force in December 2022, eliminating tariffs on over 85% of trade lines.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Plain Language Act:</strong> Tested foreign domestic legislation. The "Plain Language Act" was passed by **New Zealand** to mandate simple language in official government communications.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 13 Dec PYQ</span>
+    <strong>Bilateral Exercises:</strong> The Japan-India Bilateral Maritime Exercise (**JIMEX-24**) was held in <strong>Yokosuka, Japan</strong>, reflecting deep bilateral security ties.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">72nd BPSC Alert</span>
+    <strong>India-UK CETA in Force:</strong> The Comprehensive Economic and Trade Agreement was signed on <strong>24 July 2025</strong> in London (Modi-Starmer) and <strong>entered into force on 15 July 2026</strong> — the freshest date question of this cycle.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">72nd BPSC Alert</span>
+    <strong>Pahalgam, IWT Abeyance & Op Sindoor:</strong> After the <strong>Pahalgam terror attack (22 April 2025, 26 killed)</strong>, India held the <strong>Indus Waters Treaty in abeyance (23 April 2025)</strong> and launched <strong>Operation Sindoor (6/7-10 May 2025)</strong> — the biggest bilateral story of the 72nd exam cycle.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Click on the Section Headers below to open detailed fact pages for each treaty!</strong>
+  </div>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">A. India-UK CETA — In Force July 15, 2026 🔗</a></h3>
+  <p>The Comprehensive Economic and Trade Agreement (CETA) is India's deepest trade pact with a Western economy. Negotiations launched <strong>January 2022</strong>, concluded after <strong>14 rounds on 6 May 2025</strong>, signed in London on <strong>24 July 2025</strong> (PM Modi - PM Keir Starmer), and <strong>entered into force on 15 July 2026</strong>.</p>
+  <table>
+    <tr><th>Parameter</th><th>CETA Term</th></tr>
+    <tr><td><strong>Indian exports to UK</strong></td><td>99% of exports get duty-free access</td></tr>
+    <tr><td><strong>UK exports to India</strong></td><td>Zero duty on 64% of tariff lines from day one → 85% over 10 years</td></tr>
+    <tr><td><strong>Cars</strong></td><td>Tariff cut from 100%+ to 10% under a quota</td></tr>
+    <tr><td><strong>Scotch whisky</strong></td><td>150% → 75% on day one → 40% over 10 years</td></tr>
+    <tr><td><strong>Excluded</strong></td><td>Dairy and cereals (India's sensitive sectors protected)</td></tr>
+    <tr><td><strong>Social security</strong></td><td>Double Contributions Convention from 10 Feb 2026 (exemption extended 3 → 5 years)</td></tr>
+    <tr><td><strong>Targets & extras</strong></td><td>$120 billion trade target by 2030; steel fix (85% quota for India); Vision 2035 framework</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — "99-64-85 & 150-75-40":</strong> UK opens <strong>99%</strong> of Indian exports duty-free; India opens <strong>64%</strong> of UK lines on day one, rising to <strong>85%</strong> in 10 years; Scotch slides <strong>150 → 75 → 40</strong>. Say it: "UK 99 free, India 64-now-85, Scotch 150-75-40."
+  </div>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">B. India-EU FTA — "Mother of All Deals" (Concluded Jan 27, 2026) 🔗</a></h3>
+  <p>Concluded at the <strong>16th India-EU Summit, Hyderabad House, New Delhi, on 27 January 2026</strong>, with Commission President Ursula von der Leyen and Council President Antonio Costa — both <strong>Republic Day 2026 chief guests</strong>. Dubbed the <strong>"mother of all deals"</strong>, it covers ~2 billion people and ~25% of global GDP. <strong>Ratification is pending; expected in force around early 2027.</strong></p>
+  <ul>
+    <li><strong>Goods:</strong> India cuts tariffs on ~96.6% of EU goods by value; the EU gives preferential access to 99.5% of Indian exports by value (90.7% immediate).</li>
+    <li><strong>Autos & wine:</strong> Cars slashed 110% → 10%; wines 150% → 40%; machinery, chemicals and pharma mostly zero-duty.</li>
+    <li><strong>Services & green:</strong> 144 services sub-sectors opened; €500 million EU support for India's green transition.</li>
+    <li><strong>Protected:</strong> Agriculture excluded — beef, chicken, rice, sugar and dairy stay out. Investment Protection and Geographical Indications (GI) agreements are still pending.</li>
+    <li><strong>Strategic add-on:</strong> The <strong>EU-India Security & Defence Partnership</strong> was signed the same day (27 Jan 2026).</li>
+  </ul>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">C. India-US — Tariff Deal, COMPACT & iCET 🔗</a></h3>
+  <p>After a turbulent 2025 in which US "reciprocal" tariffs on India rose to <strong>50%</strong> (25% reciprocal + 25% penalty for Russian oil purchases), the <strong>2 February 2026 interim framework</strong> (Trump-Modi call) cut the reciprocal tariff from 25% to <strong>18%</strong> and removed the extra 25% Russian-oil penalty. India committed to stop Russian oil purchases and to buy $100-500 billion of US energy, aircraft and technology; the US gained sorghum and soybean access while <strong>India's dairy stayed protected</strong>. This sits inside the Bilateral Trade Agreement (BTA) talks and <strong>Mission 500</strong> ($500 billion bilateral trade by 2030).</p>
+  <ul>
+    <li><strong>COMPACT (Feb 2025):</strong> Catalyzing Opportunities for Military Partnership, Accelerated Commerce & Technology — the umbrella framework launched during PM Modi's Washington visit.</li>
+    <li><strong>iCET:</strong> Initiative on Critical and Emerging Technology — the NSA-led tech roadmap (launched 2023; 2nd annual meeting in New Delhi, June 2024) covering semiconductors, joint fabrication, and space.</li>
+    <li><strong>Defence & Space:</strong> GE F414 engine co-production for Tejas Mk2; NISAR joint NASA-ISRO radar satellite; ISRO astronaut training at NASA for an ISS mission.</li>
+  </ul>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">D. India-Pakistan — Pahalgam, IWT Abeyance & Operation Sindoor 🔗</a></h3>
+  <p>The defining bilateral crisis of the cycle. On <strong>22 April 2025</strong>, terrorists of The Resistance Front (TRF, an LeT proxy) killed <strong>26 people at Pahalgam</strong>, J&K. India responded by holding the <strong>Indus Waters Treaty (IWT) in abeyance on 23 April 2025</strong> — "terror and water cannot flow together" — and launching <strong>Operation Sindoor (night of 6/7 May to 10 May 2025)</strong>.</p>
+  <ul>
+    <li><strong>Operation Sindoor:</strong> Strikes on <strong>9 terror sites</strong>, including <strong>Bahawalpur (JeM HQ)</strong> and <strong>Muridke (LeT HQ)</strong> — India's deepest strikes inside Pakistan since 1971.</li>
+    <li><strong>S-400 air defence:</strong> Starred in blunting Pakistan's retaliation, with a claimed <strong>314 km</strong> kill — among the longest recorded air-defence engagements.</li>
+    <li><strong>Ceasefire:</strong> Agreed on <strong>10 May 2025</strong> via the DGMO hotline.</li>
+    <li><strong>Status as of mid-2026:</strong> IWT <strong>still in abeyance</strong>; Permanent Court of Arbitration supplemental award (15 May 2026) rejected by India as "null and void"; Track-2 rounds (London, Muscat, Bangkok, Doha, Colombo) through June 2026 but no formal dialogue.</li>
+    <li><strong>Links frozen:</strong> Attari-Wagah border closed; Kartarpur corridor shut by Pakistan; Pakistan announced suspension of the Simla Agreement.</li>
+  </ul>
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — "9-2-314":</strong> Op Sindoor hit <strong>9</strong> terror sites, including <strong>2</strong> terror HQs (Bahawalpur = JeM, Muridke = LeT), and the S-400 logged a <strong>314</strong> km kill claim. Date chain: Pahalgam 22 Apr → IWT abeyance 23 Apr → Sindoor 6/7-10 May 2025.
+  </div>
+  <div class="img-container">
+    <img src="images/diplomacy.png" alt="Operation Sindoor and India-Pakistan diplomacy" loading="lazy">
+    <div class="img-caption">Operation Sindoor (May 2025): India's deepest strikes since 1971 reshaped the bilateral template with Pakistan.</div>
+  </div>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">E. India-Russia — 23rd Annual Summit (Dec 4-5, 2025) 🔗</a></h3>
+  <p>President Putin visited <strong>New Delhi on 4-5 December 2025</strong> — his first India visit since 2021 — as the Strategic Partnership completed <strong>25 years</strong>. This built on the 22nd Annual Summit (Moscow, July 2024), which had first set the $100 billion trade target for 2030.</p>
+  <ul>
+    <li><strong>Economics:</strong> $100 billion trade target by 2030 reaffirmed; <strong>Programme 2030</strong> economic roadmap adopted; progress on an India-EAEU FTA; new consulates in <strong>Yekaterinburg and Kazan</strong>.</li>
+    <li><strong>Connectivity:</strong> Push on the INSTC, the Chennai-Vladivostok maritime corridor, and the Northern Sea Route.</li>
+    <li><strong>Defence:</strong> Su-30MKI upgrade worth <strong>₹63,000 crore (84 jets)</strong>; India requested 5 more S-400 squadrons plus ₹10,000 crore of missiles; Su-57 under evaluation.</li>
+    <li><strong>Strategic:</strong> Russia reiterated backing for India's permanent UNSC seat. Watch the trade imbalance — India imports ~$63.8 billion (largely oil) vs exports of only ~$4.9 billion.</li>
+  </ul>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">F. India-Japan — 16th Annual Summit (July 2, 2026) 🔗</a></h3>
+  <p>PM Modi and Japan's PM <strong>Sanae Takaichi</strong> met in <strong>New Delhi on 2 July 2026</strong>, delivering the biggest package in years under the "Free and Open Indo-Pacific" (FOIP) vision.</p>
+  <ul>
+    <li><strong>Investment:</strong> $10 billion+ in new investment (~120 pacts, ~¥2 trillion); the <strong>¥10 trillion decade target</strong> reaffirmed. Japan is India's 5th-largest investor (~$48 billion cumulative); bilateral trade crossed $27 billion (FY26).</li>
+    <li><strong>Defence first:</strong> First-ever India-Japan defence co-development — the <strong>UNICORN naval radio antenna</strong> for Indian warships.</li>
+    <li><strong>New areas:</strong> Joint statement on AI; Bio-Gas Initiative (1,000 plants); metals/energy security pact.</li>
+    <li><strong>Legacy:</strong> JIMEX-24 maritime exercise was held at Yokosuka, Japan (70th BPSC PYQ); high naval interoperability continues.</li>
+  </ul>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">G. India-Oman CEPA (Signed Dec 18, 2025) 🔗</a></h3>
+  <p>India signed a Comprehensive Economic Partnership Agreement with <strong>Oman on 18 December 2025</strong> — India's second major FTA in the Gulf after the UAE CEPA (2022). It deepens market access for goods and services and matters directly to the large Indian diaspora in Oman.</p>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">H. India-Australia — ECTA in Force, CECA Next 🔗</a></h3>
+  <p>The Economic Cooperation and Trade Agreement (ECTA), signed April 2022, entered into force on <strong>29 December 2022</strong> (69th BPSC PYQ), eliminating tariffs on over 85% of trade lines. Talks to upgrade it into a comprehensive CECA continue — a stocktake was held in 2025, with agriculture and dairy remaining the sticking points.</p>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">I. India-China — Managed Thaw After Kazan 🔗</a></h3>
+  <p>Against the backdrop of the <strong>Galwan clash (June 2020, 20 Indian soldiers)</strong>, ties began thawing after disengagement at Depsang and Demchok and the <strong>Modi-Xi meeting at Kazan (October 2024)</strong> on the BRICS sidelines. In 2025: the Kailash Mansarovar Yatra resumed (June), Wang Yi visited Delhi for the 24th Special Representatives talks (August), PM Modi visited China for the SCO Tianjin summit (his first visit since 2018), and direct flights resumed (October).</p>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">J. India-EFTA TEPA Agreement 🔗</a></h3>
+  <p>India and the European Free Trade Association (Switzerland, Norway, Iceland, Liechtenstein) signed the historic TEPA in March 2024. Click the header above for detailed terms, the $100B FDI target, and job creation rules.</p>
+  <table>
+    <tr><th>Pact Name</th><th>Date of Enforcement</th><th>FDI Target</th><th>Sensitive Exclusions</th></tr>
+    <tr><td><strong>India-EFTA TEPA</strong></td><td>October 1, 2025</td><td>$100 Billion over 15 years</td><td>Dairy, soya, coal, agricultural items excluded</td></tr>
+  </table>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">K. India-UAE Strategic Agreements (2024) 🔗</a></h3>
+  <p>Click the header above to check details of the India-UAE Bilateral Investment Treaty (BIT), Local Currency Settlement System, and payment interlinkages.</p>
+  <table>
+    <tr><th>Agreement</th><th>Significance / Feature</th><th>Date Signed</th></tr>
+    <tr><td><strong>Bilateral Investment Treaty (BIT)</strong></td><td>Replaces 2013 BIPPA; secures foreign investments</td><td>February 2024</td></tr>
+    <tr><td><strong>Payment Interlinking</strong></td><td>Links India's UPI to UAE's AANI payment system</td><td>February 2024</td></tr>
+    <tr><td><strong>Local Currency Settlement</strong></td><td>Direct Rupee-Dirham transactions for oil purchases</td><td>Ongoing</td></tr>
+  </table>
+
+  <h3><a href="subpages/5_india_us_relations_detail.html" target="_blank">L. India-Maldives Strategic Shift (2024) 🔗</a></h3>
+  <p>Under President Mohamed Muizzu's "India Out" campaign, bilateral ties saw a strategic recalibration.</p>
+  <ul>
+    <li><strong>Troop Withdrawal:</strong> Indian military personnel operating aviation platforms (Dornier aircraft, helicopters) were replaced by <strong>civilian technical experts</strong> by mid-2024.</li>
+    <li><strong>Development Aid:</strong> Despite political strains, India remained a key development partner, extending quotas for essential commodities.</li>
+  </ul>
+</div>
+
+<!-- ====== FLOWCHART ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> Types of Economic Integration Agreements
+  </div>
+  <p style="margin-bottom: 12px;">Understanding the hierarchy of trade agreements is crucial for BPSC Polity and Economy. Click the flowchart nodes to read detailed pact terms.</p>
+
+  <div class="flowchart">
+    <div class="flow-node"><a href="subpages/5_india_us_relations_detail.html" target="_blank">1. PTA (Preferential Trade Agreement)</a></div>
+    <div class="flow-label">Lowest integration; tariff cuts on a limited positive list of goods</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight"><a href="subpages/5_india_us_relations_detail.html" target="_blank">2. FTA (Free Trade Agreement) / TEPA</a></div>
+    <div class="flow-label">Eliminates tariffs on a wide range of goods (e.g., India-EFTA TEPA)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green"><a href="subpages/5_india_us_relations_detail.html" target="_blank">3. CEPA / CECA</a></div>
+    <div class="flow-label">Deepest integration; covers trade in goods, services, investment, and IP (e.g., India-UAE CEPA)</div>
+  </div>
+</div>
+
+<!-- ====== FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🗂️</span> Fact Matrix — Deals, Dates & Flashpoints (2022-2026)
+  </div>
+  <table>
+    <tr><th>Partner</th><th>Pact / Event</th><th>Key Date(s)</th><th>Status / Core Fact</th></tr>
+    <tr><td><strong>United Kingdom</strong></td><td>CETA</td><td>Signed 24 Jul 2025; <strong>in force 15 Jul 2026</strong></td><td>99% of Indian exports duty-free; $120bn target by 2030</td></tr>
+    <tr><td><strong>European Union</strong></td><td>FTA ("mother of all deals")</td><td>Concluded 27 Jan 2026</td><td>Ratification pending; expected in force ~early 2027; Security & Defence Partnership signed same day</td></tr>
+    <tr><td><strong>United States</strong></td><td>Interim trade framework</td><td>2 Feb 2026</td><td>Reciprocal tariff 25% → 18%; Russian-oil penalty removed; Mission 500 ($500bn by 2030)</td></tr>
+    <tr><td><strong>Pakistan</strong></td><td>Pahalgam / IWT abeyance / Op Sindoor</td><td>22 Apr 2025 / 23 Apr 2025 / 6/7-10 May 2025</td><td>IWT still in abeyance as of mid-2026; ceasefire via DGMO hotline on 10 May 2025</td></tr>
+    <tr><td><strong>Russia</strong></td><td>23rd Annual Summit, New Delhi</td><td>4-5 Dec 2025</td><td>25 years of Strategic Partnership; Programme 2030; $100bn trade target by 2030</td></tr>
+    <tr><td><strong>Japan</strong></td><td>16th Annual Summit, New Delhi</td><td>2 Jul 2026</td><td>PM Sanae Takaichi; UNICORN antenna co-development; ¥10 trillion decade target</td></tr>
+    <tr><td><strong>Oman</strong></td><td>CEPA</td><td>Signed 18 Dec 2025</td><td>India's second Gulf FTA after UAE CEPA (2022)</td></tr>
+    <tr><td><strong>Australia</strong></td><td>ECTA → CECA</td><td>ECTA in force 29 Dec 2022</td><td>CECA talks continue (2025 stocktake; agri/dairy sticking points)</td></tr>
+    <tr><td><strong>EFTA</strong></td><td>TEPA</td><td>In force 1 Oct 2025</td><td>$100bn FDI + 1 million jobs over 15 years; dairy/soya/coal excluded</td></tr>
+    <tr><td><strong>UAE</strong></td><td>CEPA + BIT</td><td>CEPA Feb 2022; BIT Feb 2024</td><td>UPI-AANI and RuPay-JAYWAN interlinks; local currency settlement</td></tr>
+    <tr><td><strong>China</strong></td><td>Thaw after Kazan</td><td>Modi-Xi Oct 2024; flights resumed Oct 2025</td><td>Depsang/Demchok disengagement; SR talks Aug 2025; SCO Tianjin visit</td></tr>
+  </table>
+  <div class="img-container">
+    <img src="images/trade.png" alt="India FTA wave 2025-26" loading="lazy">
+    <div class="img-caption">India's FTA wave of 2025-26: UK CETA in force, EU FTA concluded, Oman CEPA signed.</div>
+  </div>
+</div>
+
+<!-- ====== IMAGE ====== -->
+<div class="section">
+  <div class="img-container">
+    <img src="images/bilateral.png" alt="Bilateral Summit" loading="lazy">
+    <div class="img-caption">Bilateral Summit 2024: Expanding partnerships in technology, defense, and economic trade.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar's Global Economic Footprint</div>
+    <ul>
+      <li><strong>Remittance Economy:</strong> Bilateral relations with Gulf countries (especially UAE, Saudi Arabia) directly impact Bihar. The state is one of the highest recipients of international remittances in India, which fuels household consumption in rural Bihar.</li>
+      <li><strong>Gulf Diaspora & Oman CEPA:</strong> Bihar's large migrant workforce in the Gulf means the <strong>India-Oman CEPA (Dec 2025)</strong> and UAE CEPA directly affect Bihari households through jobs, wages, and safer migration/remittance channels.</li>
+      <li><strong>Export of GI Tagged Items:</strong> Under bilateral trade pacts (like ECTA with Australia and CEPA with UAE), agricultural products of Bihar with GI tags (like <strong>Shahi Litchi</strong>, <strong>Jardalu Mango</strong>, and <strong>Katarni Rice</strong>) have seen rising export volumes.</li>
+      <li><strong>Mithila Makhana & FTA Market Access:</strong> <strong>Mithila Makhana</strong> got its GI tag in 2022 — Bihar grows roughly <strong>80-90% of the world's makhana</strong> — and Bihar's litchi is another GI star. New FTAs decide how far these reach premium markets: UK CETA is now in force, while the <strong>EU's GI agreement is still pending</strong> — a direct GI trade angle for Bihar.</li>
+      <li><strong>Border-State Security Angle:</strong> Operation Sindoor (May 2025) and the IWT abeyance matter for eastern India too: Bihar shares an open ~726 km border with Nepal, so India-Pakistan escalation raises alert levels, troop movement, and border-management pressure across the eastern grid.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #3 (International Appointments):</strong> Ambassador appointments to key trading partners.<br>
+    <strong>↔ Topic #4 (Summits & Groupings):</strong> Bilateral dialogues on the sidelines of G20, G7, and BRICS.<br>
+    <strong>↔ Topic #87 (International Trade):</strong> Free Trade Agreement models, tariffs, and rules of origin.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance & Potential Traps
+  </div>
+  <ul>
+    <li><strong>UK CETA In Force (Jul 15, 2026):</strong> Entered into force just yesterday — the freshest exam hook. Know the numbers cold: 99% of Indian exports duty-free; India 64% → 85%; Scotch 150 → 75 → 40; cars 100%+ → 10% under quota; $120bn target by 2030.</li>
+    <li><strong>India-Japan Summit (Jul 2, 2026):</strong> PM Sanae Takaichi's first annual summit with PM Modi; UNICORN naval radio antenna = first-ever defence co-development; $10bn+ new investment.</li>
+    <li><strong>EU FTA Ratification Track:</strong> Concluded Jan 27, 2026 ("mother of all deals") at Hyderabad House; ratification is pending with entry into force expected around early 2027. Do NOT write "in force" — a classic trap.</li>
+    <li><strong>US Tariff Deal:</strong> The Feb 2, 2026 interim framework cut the reciprocal tariff from 25% to 18% and scrapped the 25% Russian-oil penalty; Mission 500 targets $500bn bilateral trade by 2030.</li>
+    <li><strong>IWT Still in Abeyance:</strong> Since Apr 23, 2025, after the Pahalgam attack (Apr 22, 2025). Op Sindoor (6/7-10 May 2025) hit 9 terror sites incl. Bahawalpur (JeM HQ) and Muridke (LeT HQ); ceasefire via DGMO hotline on May 10, 2025.</li>
+    <li><strong>EFTA Member States Trap:</strong> Ensure you do not include general EU states in EFTA. EFTA has only 4 members: Switzerland, Norway, Iceland, Liechtenstein.</li>
+    <li><strong>India-Maldives Transition:</strong> Pay attention to the shift of military personnel to civilian technical operators in mid-2024.</li>
+    <li><strong>iCET Co-Chairs:</strong> It is led by the National Security Advisors (NSAs), not the Foreign Ministers or Trade Ministers.</li>
+  </ul>
+
+  <h3>🎯 Exam Predictions for 72nd BPSC</h3>
+  <div style="background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px;">
+    <strong style="color: #92400e;">📋 Top 5 Predictions (72nd BPSC — Bilateral Relations):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) UK-India CETA (HIGH):</strong> "When did the UK-India CETA enter into force?" → July 15, 2026. "What % of Indian exports become duty-free?" → 99%. Trade target: $120bn by 2030.</li>
+      <li><strong>(2) India-EU FTA (HIGH):</strong> "When was the India-EU FTA concluded?" → January 27, 2026. Trap: NOT yet "in force" — ratification pending. Called "mother of all deals."</li>
+      <li><strong>(3) US tariff framework (MEDIUM):</strong> "The Feb 2026 US-India tariff deal cut reciprocal tariff from X% to Y%" → 25% to 18%. Mission 500: $500bn trade by 2030.</li>
+      <li><strong>(4) Op Sindoor (MEDIUM):</strong> "Operation Sindoor was launched in response to which attack?" → Pahalgam attack (Apr 22, 2025). It targeted 9 terror sites including Bahawalpur (JeM) and Muridke (LeT).</li>
+      <li><strong>(5) Bihar angle — Mithila Makhana GI (LOW):</strong> "Which Bihar product got GI tag and features in bilateral trade discussions?" → Mithila Makhana. Also: Bihar diaspora in Gulf countries (~20 lakh) is a bilateral angle.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (34 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 34 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. With which country did India sign the landmark Economic Cooperation and Trade Agreement (ECTA) in April 2022, which entered into force in December 2022?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Japan</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Australia</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) United Kingdom</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) United Arab Emirates</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — India signed the ECTA with Australia, eliminating tariffs on over 85% of Australian exports to India. (69th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Which country passed the "Plain Language Act" mandating simple and easily understandable language in official government documents and websites?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Australia</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) New Zealand</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Canada</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) United Kingdom</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — The Plain Language Act was enacted by New Zealand. (69th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Where was the Japan-India Bilateral Maritime Exercise (JIMEX-24) conducted?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Bay of Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Yokosuka, Japan</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Visakhapatnam, India</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Western Pacific Ocean</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — JIMEX-24 was hosted by Japan at Yokosuka in June 2024. (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Consider the following statements regarding the India-EFTA Trade and Economic Partnership Agreement (TEPA):
+    <br>1. EFTA comprises Switzerland, Norway, Iceland, and Liechtenstein.
+    <br>2. It officially came into force on October 1, 2025.
+    <br>3. It features a legally binding commitment to facilitate $100 billion in FDI into India over 15 years.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — All three statements are correct. EFTA has 4 member states; the agreement took effect on Oct 1, 2025, and includes a first-of-its-kind binding $100 billion FDI target.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Which of the following sensitive sectors has been excluded from tariff concessions under the India-EFTA TEPA?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Pharmaceuticals</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Dairy products</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Medical devices</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Machinery</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — India excluded sensitive sectors like dairy, soya, and coal to protect domestic industries. EFTA gains access in industrial products.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The Initiative on Critical and Emerging Technology (iCET), co-chaired by National Security Advisors, is a bilateral framework between India and which country?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Russia</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Japan</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) United States</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) United Kingdom</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — iCET is a strategic technology dialogue launched between India and the United States in 2023.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Where was the second annual meeting of the India-US iCET held in June 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Washington D.C.</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) New York</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) New Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Bengaluru</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — The second annual iCET review meeting was held in New Delhi, co-chaired by Ajit Doval and Jake Sullivan.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. During PM Modi's visit to Abu Dhabi in February 2024, India and UAE signed a Bilateral Investment Treaty (BIT). Which previous agreement does it succeed?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 2013 BIPPA</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) 1999 DTAA</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 2022 CEPA</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — The 2024 BIT succeeds the 2013 Bilateral Investment Promotion and Protection Agreement (BIPPA).</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. With which country's national card payment network (JAYWAN) did India agree to interlink its RuPay card system in February 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Saudi Arabia</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Oman</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) United Arab Emirates (UAE)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Qatar</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (C)</strong> — India and UAE signed agreements to link RuPay with JAYWAN and UPI with UAE's AANI system.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. What is the target bilateral trade volume agreed between India and Russia to be achieved by the year 2030?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) $50 billion</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) $75 billion</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) $100 billion</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) $150 billion</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — The $100 billion by 2030 target was set at the 22nd Annual Summit (Moscow, July 2024) and reaffirmed at the 23rd Annual Summit in New Delhi (Dec 4-5, 2025) under the Programme 2030 roadmap.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Match the following terms of trade integration with their definitions:
+    <br>a) PTA — 1) Highest integration; covers goods, services, investments
+    <br>b) FTA — 2) Reduces tariffs on a positive list of goods
+    <br>c) CEPA — 3) Eliminates tariffs on a wide list of goods</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) a-2, b-3, c-1</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) a-1, b-3, c-2</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) a-2, b-1, c-3</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) a-3, b-2, c-1</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — PTA is tariff cuts on positive list (a-2); FTA is eliminating tariffs on wide list (b-3); CEPA is highest integration covering services & investment (c-1).</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. In mid-2024, India replaced its military personnel operating aviation platforms in which country with civilian technical experts?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Sri Lanka</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Seychelles</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Maldives</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Mauritius</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — Following the transition of government in Maldives, military personnel operating helicopters & Dornier planes were replaced by Indian civilian technicians.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. In which sector did India and the US agree to co-develop the GE F414 jet engine inside India under the iCET framework?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Civil Aviation</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Defence Space</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Military Aviation / Defense</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — The co-development of GE F414 jet engines for the Tejas Mark 2 aircraft is a key defense deal under iCET.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The India-EFTA trade agreement aims to directly generate how many jobs in India within a 15-year period?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 500,000 jobs</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 1 million jobs</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 2 million jobs</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 5 million jobs</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — The EFTA countries legally committed to facilitate creating 1 million direct jobs in India.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Under India-UAE agreements, what is the significance of the "Local Currency Settlement" (LCS) system?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Restricting foreign bank branches</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Direct trade transaction in Rupees and Dirhams bypassing US Dollars</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Capping diaspora remittances</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Fixing a pegged exchange rate</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — The LCS allows importers and exporters to transact in domestic currencies, saving foreign exchange conversion rates.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Which country is adjoining Bihar and represents the largest destination of illegal migrants under border management discussions?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Nepal</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Bangladesh</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Bhutan</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Myanmar</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Bangladesh shares borders with West Bengal (near Bihar). Bihar shares an open border with Nepal, but illegal migration and transit debates are centered on Bangladesh.</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. With which country does Bihar share an international land border of approximately 726 kilometers?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Bangladesh</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Bhutan</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) Nepal</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) China</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (C)</strong> — Bihar shares its only international land border with Nepal, stretching around 726 km. Open border management is a key bilateral topic.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The CECA (Comprehensive Economic Cooperation Agreement) currently under negotiation to expand the ECTA is being discussed with which country?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) United Kingdom</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Australia</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Canada</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) European Union</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — CECA negotiations with Australia continue (stocktake held in 2025; agri/dairy sticking points) to build upon the interim India-Australia ECTA in force since Dec 29, 2022.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Which of the following is NOT a member of the European Free Trade Association (EFTA)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Switzerland</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Sweden</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Norway</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Iceland</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — Sweden is a member of the European Union, not EFTA. EFTA has Switzerland, Norway, Iceland, and Liechtenstein. Common trap!</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. In Feb 2024, India and UAE linked RuPay cards with UAE's domestic card network. What is the name of UAE's card network?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) AANI</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) JAYWAN</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) DirhamCard</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) GulfPay</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — UAE's domestic card payment network is JAYWAN. AANI is their instant fast payment platform (linked to UPI).</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Under the India-US iCET space cooperation agreements, who is scheduled to launch the NISAR satellite?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) NASA only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) ISRO only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Jointly by NASA and ISRO</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) European Space Agency</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (C)</strong> — NISAR (NASA-ISRO Synthetic Aperture Radar) is a joint radar satellite project for earth observation.</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Which country signed a Comprehensive Economic Partnership Agreement (CEPA) with India in 2022, which saw bilateral trade exceed $80 billion?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Australia</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) UAE</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Japan</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) South Korea</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — India signed a historic CEPA with UAE in February 2022.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Which state in India is the largest recipient of remittances from the Gulf Cooperation Council (GCC) countries, contributing to its domestic consumer demand?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Kerala</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Uttar Pradesh</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) More than one of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (D)</strong> — While Kerala was historically the highest, recent trends show Uttar Pradesh and Bihar have become massive recipients of GCC remittances, representing "More than one of the above".</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. With which country does India have a "2+2 Ministerial Dialogue" involving the Defence and Foreign Ministers?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) United States</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Japan</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Australia</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) All the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (D)</strong> — India holds 2+2 Ministerial Dialogues with the US, Japan, Australia, Russia, and the UK. Thus, "All the above" is correct.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The India-EFTA trade treaty signed in 2024 is officially known as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) CECA</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) CEPA</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) TEPA</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) PTA</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (C)</strong> — It is formally named the Trade and Economic Partnership Agreement (TEPA).</div>
+  </div>
+
+  <!-- Q26 -->
+  <div class="mcq-block" id="q26">
+    <div class="mcq-q">Q26. The India-UK Comprehensive Economic and Trade Agreement (CETA), signed in London on 24 July 2025, entered into force on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q26" value="a"> (A) 6 May 2025</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="b"> (B) 24 July 2025</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="c"> (C) 15 July 2026</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="d"> (D) 1 October 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp26">✅ <strong>Correct Answer: (C)</strong> — CETA entered into force on 15 July 2026. Trap: 6 May 2025 was the conclusion of negotiations; 24 July 2025 was the signing.</div>
+  </div>
+
+  <!-- Q27 -->
+  <div class="mcq-block" id="q27">
+    <div class="mcq-q">Q27. Under the India-UK CETA, the tariff on Scotch whisky follows which path?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q27" value="a"> (A) 150% → 0% immediately</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="b"> (B) 150% → 75% on day one → 40% over 10 years</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="c"> (C) 150% → 100% → 50% over 5 years</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="d"> (D) Unchanged at 150%</label>
+    </div>
+    <div class="mcq-explanation" id="exp27">✅ <strong>Correct Answer: (B)</strong> — Scotch duties drop from 150% to 75% on day one, then to 40% over 10 years. Cars similarly fall from 100%+ to 10% under a quota.</div>
+  </div>
+
+  <!-- Q28 -->
+  <div class="mcq-block" id="q28">
+    <div class="mcq-q">Q28. The India-EU Free Trade Agreement, dubbed the "mother of all deals", was concluded on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q28" value="a"> (A) 24 July 2025</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="b"> (B) 18 December 2025</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="c"> (C) 27 January 2026</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="d"> (D) 2 February 2026</label>
+    </div>
+    <div class="mcq-explanation" id="exp28">✅ <strong>Correct Answer: (C)</strong> — Concluded at the 16th India-EU Summit, Hyderabad House, on 27 January 2026 (von der Leyen and Costa were Republic Day 2026 chief guests). Ratification is pending; entry into force expected around early 2027.</div>
+  </div>
+
+  <!-- Q29 -->
+  <div class="mcq-block" id="q29">
+    <div class="mcq-q">Q29. Under the India-US interim trade framework of 2 February 2026, the US "reciprocal" tariff on India was cut from 25% to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q29" value="a"> (A) 10%</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="b"> (B) 15%</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="c"> (C) 18%</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="d"> (D) 21%</label>
+    </div>
+    <div class="mcq-explanation" id="exp29">✅ <strong>Correct Answer: (C)</strong> — The reciprocal tariff fell to 18% and the extra 25% Russian-oil penalty was removed, after tariffs had peaked at 50% in 2025. Mission 500 targets $500 billion trade by 2030.</div>
+  </div>
+
+  <!-- Q30 -->
+  <div class="mcq-block" id="q30">
+    <div class="mcq-q">Q30. Following the Pahalgam terror attack (22 April 2025), India held the Indus Waters Treaty in abeyance on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q30" value="a"> (A) 22 April 2025</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="b"> (B) 23 April 2025</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="c"> (C) 6 May 2025</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="d"> (D) 10 May 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp30">✅ <strong>Correct Answer: (B)</strong> — The IWT was held in abeyance on 23 April 2025, a day after the attack ("terror and water cannot flow together"). It remains in abeyance as of mid-2026.</div>
+  </div>
+
+  <!-- Q31 -->
+  <div class="mcq-block" id="q31">
+    <div class="mcq-q">Q31. During Operation Sindoor (May 2025), which pair of cities hosting the JeM and LeT headquarters respectively was struck by India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q31" value="a"> (A) Bahawalpur (JeM) and Muridke (LeT)</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="b"> (B) Karachi and Lahore</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="c"> (C) Muzaffarabad and Rawalpindi</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="d"> (D) Peshawar and Quetta</label>
+    </div>
+    <div class="mcq-explanation" id="exp31">✅ <strong>Correct Answer: (A)</strong> — Op Sindoor hit 9 terror sites including Bahawalpur (JeM HQ) and Muridke (LeT HQ) — the deepest strikes since 1971. Ceasefire came via the DGMO hotline on 10 May 2025.</div>
+  </div>
+
+  <!-- Q32 -->
+  <div class="mcq-block" id="q32">
+    <div class="mcq-q">Q32. The 23rd India-Russia Annual Summit (4-5 December 2025) — President Putin's first India visit since 2021 — was held in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q32" value="a"> (A) Moscow</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="b"> (B) New Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="c"> (C) Sochi</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="d"> (D) Vladivostok</label>
+    </div>
+    <div class="mcq-explanation" id="exp32">✅ <strong>Correct Answer: (B)</strong> — Held in New Delhi as the Strategic Partnership completed 25 years; outcomes included Programme 2030, the $100bn by 2030 trade target, and new consulates in Yekaterinburg and Kazan.</div>
+  </div>
+
+  <!-- Q33 -->
+  <div class="mcq-block" id="q33">
+    <div class="mcq-q">Q33. UNICORN, announced at the 16th India-Japan Annual Summit (2 July 2026) as the first-ever India-Japan defence co-development project, is a:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q33" value="a"> (A) Fighter jet engine</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="b"> (B) Bullet train corridor</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="c"> (C) Naval radio antenna system</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="d"> (D) Reconnaissance satellite</label>
+    </div>
+    <div class="mcq-explanation" id="exp33">✅ <strong>Correct Answer: (C)</strong> — UNICORN is a naval radio antenna co-developed for Indian warships. The summit with PM Sanae Takaichi also delivered $10bn+ new investment and reaffirmed the ¥10 trillion decade target.</div>
+  </div>
+
+  <!-- Q34 -->
+  <div class="mcq-block" id="q34">
+    <div class="mcq-q">Q34. India signed a Comprehensive Economic Partnership Agreement (CEPA) with Oman on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q34" value="a"> (A) 6 May 2025</label>
+      <label class="mcq-option"><input type="radio" name="q34" value="b"> (B) 24 July 2025</label>
+      <label class="mcq-option"><input type="radio" name="q34" value="c"> (C) 18 December 2025</label>
+      <label class="mcq-option"><input type="radio" name="q34" value="d"> (D) 27 January 2026</label>
+    </div>
+    <div class="mcq-explanation" id="exp34">✅ <strong>Correct Answer: (C)</strong> — The India-Oman CEPA was signed on 18 December 2025 — India's second major Gulf FTA after the UAE CEPA (2022), significant for the diaspora and remittances (incl. from Bihar).</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+  
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/34</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.commerce.gov.in" target="_blank">Ministry of Commerce & Industry — Trade Agreements</a> <span class="ref-desc">— Official texts and summaries of EFTA TEPA, Australia ECTA, and UAE CEPA.</span></li>
+    <li><a href="https://www.mea.gov.in" target="_blank">Ministry of External Affairs — Bilateral Briefs</a> <span class="ref-desc">— Official state-wise relationship history and summit outcomes.</span></li>
+    <li><a href="https://www.state.gov" target="_blank">US Department of State — India Relations</a> <span class="ref-desc">— Institutional details of iCET and joint technology roadmaps.</span></li>
+    <li><a href="https://www.efta.int" target="_blank">European Free Trade Association Portal</a> <span class="ref-desc">— Direct indicators and trade data under the TEPA.</span></li>
+    <li><a href="https://www.rbi.org.in" target="_blank">Reserve Bank of India — Local Currency Settlement</a> <span class="ref-desc">— Policy guidelines on Rupee-Dirham and UPI-AANI integrations.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #5: Bilateral Relations | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #3, #4, #87, #150
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'b', q2: 'b', q3: 'b', q4: 'd', q5: 'b',
+  q6: 'c', q7: 'c', q8: 'a', q9: 'c', q10: 'c',
+  q11: 'a', q12: 'c', q13: 'c', q14: 'b', q15: 'b',
+  q16: 'b', q17: 'c', q18: 'b', q19: 'b', q20: 'b',
+  q21: 'c', q22: 'b', q23: 'd', q24: 'd', q25: 'c',
+  q26: 'c', q27: 'b', q28: 'c', q29: 'c', q30: 'b',
+  q31: 'a', q32: 'b', q33: 'c', q34: 'c'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+  
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+  
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+  
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+  
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Bilateral Relations!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Focus on the details of UK CETA, EU FTA, Op Sindoor, EFTA TEPA, and iCET.';
+  
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

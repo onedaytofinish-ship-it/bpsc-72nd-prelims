@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4 - Summits & Groupings | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .flow-node a:hover {
+    text-decoration: underline;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #4 • TIER A</div>
+  <div class="topic-title">Summits & Groupings</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs & International Relations</span>
+    <span class="meta-tag">⚖️ Weight: 1.7</span>
+    <span class="meta-tag">📊 Mapped Questions: 11</span>
+    <span class="meta-tag">🎯 Expected: 3-5 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content & PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>G20 Structural Shares:</strong> BPSC tested G20 parameters. G20 members represent about <strong>85% of global GDP</strong>, <strong>75% of global trade</strong>, and about <strong>two-thirds of the world population</strong>.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 13 Dec PYQ</span>
+    <strong>BRICS Chairmanship:</strong> Focus on rotating summit chairs. Russia took over the BRICS chairmanship on <strong>January 1, 2024</strong>, and hosted the 16th summit in Kazan.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>AI Action Summit (Paris, Feb 2025):</strong> BPSC tested this specific summit venue. France hosted the Global AI Action Summit in <strong>Paris</strong> in February 2025, co-chaired by PM Modi and President Macron.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Click on the Section Headers below to open detailed fact pages for each grouping!</strong>
+  </div>
+
+  <h3><a href="subpages/4_g20_rio_declaration_detail.html" target="_blank">A. G20 (G21) Summits & Calendar 🔗</a></h3>
+  <p>The G20 comprises 19 countries, the European Union, and the newly admitted African Union. Click the header above for detailed outcomes of the New Delhi, Rio, and Johannesburg declarations.</p>
+  <table>
+    <tr><th>Edition</th><th>Year</th><th>Host City / Country</th><th>Key Theme & Outcomes</th></tr>
+    <tr><td><strong>18th</strong></td><td>2023</td><td>New Delhi, India</td><td><em>Vasudhaiva Kutumbakam</em>; admitted African Union (making it G21); launched Global Biofuels Alliance</td></tr>
+    <tr><td><strong>19th</strong></td><td>2024</td><td>Rio de Janeiro, Brazil</td><td>"Building a Just World and a Sustainable Planet"; launched Global Alliance Against Hunger and Poverty</td></tr>
+    <tr><td><strong>20th</strong></td><td>2025</td><td>Johannesburg, South Africa (Nasrec Expo Centre, Nov 22–23)</td><td>"Solidarity, Equality, Sustainability" (Ubuntu spirit); <strong>first G20 summit on African soil</strong>; 122-paragraph Leaders' Declaration adopted on <strong>Day One</strong>; <strong>US (Trump) boycotted</strong> (Argentina too; Xi/Putin absent); launched <strong>Mission 300</strong> (electricity to 300 million Africans by 2030); $1.3 trillion climate-finance goal by 2035; Cost of Capital Commission <span class="current-tag">UPDATED</span></td></tr>
+    <tr><td><strong>21st</strong></td><td>2026</td><td>Doral, Florida, United States (Trump's Doral resort)</td><td>US presidency; Troika = South Africa–US–UK <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>22nd</strong></td><td>2027</td><td>United Kingdom</td><td>Upcoming <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>23rd</strong></td><td>2028</td><td>South Korea</td><td>Upcoming <span class="current-tag">NEW</span></td></tr>
+  </table>
+  <ul>
+    <li><strong>India's 6-Point Proposal at Johannesburg 2025:</strong> G20–Africa Skills Multiplier (1 million trainers over 10 years); drug-terror nexus/Fentanyl initiative; urban mining; G20 health response team; traditional knowledge repository; satellite data for all.</li>
+    <li><strong>Other Johannesburg outcomes:</strong> ACITI tech partnership launched; IBSA (India–Brazil–South Africa) met on the sidelines.</li>
+  </ul>
+
+  <h3><a href="subpages/4_brics_detail.html" target="_blank">B. BRICS Summit Updates 🔗</a></h3>
+  <p>BRICS now has <strong>11 full members</strong> — Indonesia joined in January 2025 — plus a new <strong>"partner country"</strong> tier. Click the header above to view details of the expansion, country lists, and the 2024 Kazan Summit in Russia.</p>
+  <ul>
+    <li><strong>15th Summit (2023 - Johannesburg):</strong> Formally invited 6 new countries to join. Argentina later declined the invite under President Javier Milei.</li>
+    <li><strong>16th Summit (2024 - Kazan, Russia):</strong> First summit after expansion — the 2024 intake was <strong>Egypt, Ethiopia, Iran, Saudi Arabia, UAE</strong>. Focus on local currency trade.</li>
+    <li><strong>17th Summit (2025 - Rio de Janeiro, Brazil, Jul 6–7):</strong> Brazil chaired; <strong>Indonesia participated as the 11th full member</strong> (joined Jan 2025). Focus on sustainable development and multilateral financial system reforms. <span class="current-tag">UPDATED</span></li>
+    <li><strong>Partner Countries (new tier):</strong> Belarus, Bolivia, Cuba, Kazakhstan, Malaysia, Nigeria, Thailand, Uganda, Uzbekistan, Vietnam (<strong>Vietnam joined Jun 2025</strong>). <span class="current-tag">NEW</span></li>
+    <li><strong>India chairs BRICS in 2026</strong> — the 4th time after 2012, 2016, and 2021. <span class="current-tag">NEW</span></li>
+  </ul>
+
+  <h3><a href="subpages/4_sco_detail.html" target="_blank">C. Shanghai Cooperation Organisation (SCO) 🔗</a></h3>
+  <p>Click the header above to explore the SCO institutional profile, Tashkent RATS details, and the accession of Belarus as the 10th member.</p>
+  <ul>
+    <li><strong>Astana Summit (July 2024):</strong> Belarus officially admitted as the <strong>10th member state</strong>.</li>
+    <li><strong>25th Summit (Tianjin, China, Aug 31–Sep 1, 2025):</strong> Theme "Upholding the Shanghai Spirit"; adopted the <strong>Tianjin Declaration</strong> and <strong>Development Strategy 2035</strong>; <strong>condemned the Pahalgam terror attack</strong>; endorsed an <strong>SCO Development Bank</strong>; <strong>BeiDou</strong> navigation opened to members; member/observer/dialogue-partner statuses merged into a single <strong>"SCO partner"</strong> category (Laos became a partner); <strong>PM Modi attended</strong> — his first China visit since 2018. <span class="current-tag">NEW</span></li>
+    <li><strong>Chairmanship:</strong> Rotating annually. Kazakhstan chaired in 2024, China hosted the 2025 summit; <strong>Kyrgyzstan chairs 2025–26 and hosts the 2026 summit</strong>. <span class="current-tag">UPDATED</span></li>
+    <li><strong>Structure:</strong> 10 members; permanent Secretariat in <strong>Beijing</strong>; RATS (Regional Anti-Terrorist Structure) HQ in <strong>Tashkent</strong>.</li>
+  </ul>
+
+  <h3><a href="subpages/4_g7_detail.html" target="_blank">D. G7 Summits (2024-2026) 🔗</a></h3>
+  <p>Click the header above to explore G7 summit locations (Apulia, Kananaskis, Évian-les-Bains) and the detailed outreach agenda.</p>
+  <table>
+    <tr><th>Summit</th><th>Year</th><th>Location</th><th>Focus Area</th></tr>
+    <tr><td><strong>50th</strong></td><td>2024</td><td>Borgo Egnazia, Apulia, Italy</td><td>AI ethics, migration corridors, and Africa-Mediterranean partnership</td></tr>
+    <tr><td><strong>51st</strong></td><td>2025</td><td>Kananaskis, Alberta, Canada</td><td>inclusive economies, energy security, and 50th G7 anniversary</td></tr>
+    <tr><td><strong>52nd</strong></td><td>2026</td><td>Évian-les-Bains, France</td><td>Global supply chains, critical minerals, and digital governance <span class="current-tag">NEW</span></td></tr>
+  </table>
+
+  <h3>E. ASEAN & ASEAN–India Summits <span class="current-tag">NEW</span></h3>
+  <table>
+    <tr><th>Summit</th><th>Year</th><th>Host / Chair</th><th>Key Outcomes</th></tr>
+    <tr><td><strong>47th ASEAN Summit</strong></td><td>Oct 26–29, 2025</td><td>Kuala Lumpur, Malaysia</td><td>Theme "Inclusivity and Sustainability"; <strong>Timor-Leste admitted as the 11th member on Oct 26, 2025</strong> — first expansion since Cambodia (1999)</td></tr>
+    <tr><td><strong>48th ASEAN Summit</strong></td><td>2026</td><td>Philippines</td><td>Theme "Navigate our Future, Together" (Singapore chairs 2027)</td></tr>
+    <tr><td><strong>22nd ASEAN–India Summit</strong></td><td>Oct 26, 2025</td><td>Kuala Lumpur (PM Modi attended virtually)</td><td>Adopted <strong>Plan of Action 2026–30</strong>; declared <strong>2026 = ASEAN–India Year of Maritime Cooperation</strong>; proposed <strong>Centre for Southeast Asian Studies at Nalanda University</strong>; sought AITIGA (ASEAN–India Trade in Goods Agreement) review</td></tr>
+  </table>
+
+  <h3>F. QUAD (India–US–Japan–Australia) <span class="current-tag">NEW</span></h3>
+  <ul>
+    <li><strong>India chaired the Quad in 2025;</strong> the leaders' summit planned for late 2025 was <strong>cancelled and never held</strong> (as of May 2026).</li>
+    <li><strong>Foreign Ministers' Meeting (Jul 1, 2025, Washington):</strong> 4 pillars — maritime security, supply chains, critical technology, and HADR (Humanitarian Assistance & Disaster Relief).</li>
+    <li><strong>Quad FMM (May 26, 2026, New Delhi):</strong> US Secretary of State Marco Rubio attended — the <strong>first Quad ministerial hosted by India since 2023</strong>.</li>
+  </ul>
+
+  <h3>G. NATO <span class="current-tag">NEW</span></h3>
+  <ul>
+    <li><strong>Members: 32</strong> — Finland became the 31st (2023) and Sweden the 32nd (2024). Secretary General: <strong>Mark Rutte</strong> (since Oct 2024). HQ: Brussels.</li>
+    <li><strong>Hague Summit (Jun 24–25, 2025):</strong> Members agreed to spend <strong>5% of GDP on defence by 2035</strong> (3.5% core defence + 1.5% related spending); all 32 members met the earlier 2% target.</li>
+    <li><strong>Ankara Summit (Jul 7–8, 2026):</strong> Approved a <strong>€70 billion Ukraine aid package</strong>. <span class="current-tag">NEW</span></li>
+    <li><strong>Article 5</strong> (collective defence) has been invoked <strong>only once</strong> — after the 9/11 attacks (2001).</li>
+  </ul>
+
+  <h3>H. Global AI Summit Chain (2023 → 2027) <span class="current-tag">MAJOR</span></h3>
+  <table>
+    <tr><th>Summit</th><th>Year</th><th>Venue</th><th>Significance</th></tr>
+    <tr><td><strong>AI Safety Summit</strong></td><td>2023</td><td>Bletchley Park, UK</td><td>First global AI safety summit; Bletchley Declaration</td></tr>
+    <tr><td><strong>AI Seoul Summit</strong></td><td>2024</td><td>Seoul, South Korea</td><td>Frontier AI safety commitments</td></tr>
+    <tr><td><strong>AI Action Summit</strong></td><td>Feb 2025</td><td>Paris, France</td><td>Co-chaired by PM Modi & President Macron <strong>(71st BPSC PYQ)</strong></td></tr>
+    <tr><td><strong>India AI Impact Summit</strong></td><td>Feb 16–20, 2026</td><td>Bharat Mandapam, New Delhi</td><td><strong>First AI summit in the Global South</strong> — details below</td></tr>
+    <tr><td><strong>Next Summit</strong></td><td>2027</td><td>Geneva, Switzerland</td><td>Upcoming</td></tr>
+  </table>
+  <ul>
+    <li><strong>New Delhi Declaration on AI Impact (Feb 18–19, 2026):</strong> Endorsed by ~88–89 countries, including the US, UK, China, Russia, and the EU.</li>
+    <li><strong>Theme:</strong> "Sarvajan Hitaya, Sarvajan Sukhaya" (welfare and happiness of all); PM Modi unveiled the <strong>MANAV vision</strong>; structured around <strong>7 "Chakra" pillars</strong> and the trio <strong>People–Planet–Progress</strong>.</li>
+    <li><strong>Scale:</strong> ~5 lakh visitors, 118 nations; Macron and Lula attended; <strong>$250 billion+</strong> infrastructure commitments announced.</li>
+    <li><strong>Indian models showcased:</strong> Sarvam AI and BharatGen Param2 17B; India AI Mission outlay: <strong>₹10,370 crore</strong>.</li>
+  </ul>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">72nd BPSC Alert</span>
+    <strong>India AI Impact Summit (Feb 2026):</strong> Venue = <strong>Bharat Mandapam, New Delhi</strong>; outcome document = <strong>New Delhi Declaration on AI Impact</strong>; first AI summit hosted in the Global South. Expect a direct venue/host question.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">72nd BPSC Alert</span>
+    <strong>Timor-Leste joins ASEAN:</strong> Admitted as the <strong>11th member on Oct 26, 2025</strong> at the 47th ASEAN Summit in Kuala Lumpur — ASEAN's first expansion since Cambodia in 1999.
+  </div>
+</div>
+
+<!-- ====== FLOWCHART ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> <a href="subpages/4_cop_detail.html" target="_blank">COP Climate Summits Chain (2024-2026) 🔗</a>
+  </div>
+  <p style="margin-bottom: 12px;">Click the header above to view detailed negotiations, Loss and Damage fund setups, and the New Collective Quantified Goal (NCQG) targets.</p>
+
+  <div class="flowchart">
+    <div class="flow-node"><a href="subpages/4_cop_detail.html" target="_blank">COP29 (Baku, Azerbaijan — Nov 2024)</a></div>
+    <div class="flow-label">Theme: "Investing in a livable planet for all" • Outcome: NCQG — $300 bn/yr climate finance by 2035 (71st BPSC PYQ)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight"><a href="subpages/4_cop_detail.html" target="_blank">COP30 (Belém, Brazil — Nov 10–22, 2025)</a></div>
+    <div class="flow-label">"Implementation COP" • Outcome: "Global Mutirão" + Belém Package (29 decisions) • TFFF launched</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green"><a href="subpages/4_cop_detail.html" target="_blank">COP31 (Antalya, Türkiye — Nov 2026)</a></div>
+    <div class="flow-label">Türkiye hosts • Australia = "President of Negotiations" • Pacific pre-COP</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node"><a href="subpages/4_cop_detail.html" target="_blank">COP32 (Ethiopia — 2027)</a></div>
+    <div class="flow-label">Next host after COP31</div>
+  </div>
+
+  <h3>COP30 Belém — Key Outcomes (Nov 2025) <span class="current-tag">NEW</span></h3>
+  <ul>
+    <li><strong>"Global Mutirão"</strong> outcome document and the <strong>Belém Package</strong> (29 decisions); also a Belém Action Mechanism and a Gender Action Plan.</li>
+    <li><strong>Adaptation finance to be tripled by 2035</strong> (~$120 bn/yr); <strong>Belém Health Action Plan</strong> adopted.</li>
+    <li><strong>Tropical Forests Forever Facility (TFFF):</strong> $125 bn target; Brazil the first contributor ($1 bn); ≥20% of funds earmarked for Indigenous peoples.</li>
+    <li><strong>No fossil-fuel phase-out roadmap</strong> — despite 82–88 nations demanding one (a classic exam trap).</li>
+    <li><strong>COP29 reminder:</strong> Baku's NCQG = <strong>$300 bn/yr by 2035</strong> (tested in 71st BPSC).</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Quick Member Counter
+  </div>
+
+  <table>
+    <tr><th>Group</th><th>Member Count</th><th>Establishment Year</th><th>Permanent Secretariat</th></tr>
+    <tr><td><strong>G20 (G21)</strong></td><td>21 (19 nations + EU + African Union)</td><td>1999</td><td>No permanent secretariat (runs on Troika)</td></tr>
+    <tr><td><strong>BRICS</strong></td><td>11 full members + 10 partner countries</td><td>2006 (BRIC), 2010 (BRICS)</td><td>No permanent secretariat</td></tr>
+    <tr><td><strong>SCO</strong></td><td>10 member states</td><td>2001</td><td>Beijing, China (RATS is in Tashkent)</td></tr>
+    <tr><td><strong>G7</strong></td><td>7 (US, UK, France, Germany, Japan, Italy, Canada + EU)</td><td>1975</td><td>No permanent secretariat</td></tr>
+    <tr><td><strong>NATO</strong></td><td>32 member states</td><td>1949</td><td>Brussels, Belgium</td></tr>
+    <tr><td><strong>ASEAN</strong></td><td>11 member states (Timor-Leste joined Oct 2025)</td><td>1967</td><td>Jakarta, Indonesia</td></tr>
+    <tr><td><strong>QUAD</strong></td><td>4 (India, US, Japan, Australia)</td><td>2007 (revived 2017)</td><td>No permanent secretariat</td></tr>
+  </table>
+
+  <h3>2025–26 Summit Tracker — One-Liner Table <span class="current-tag">NEW</span></h3>
+  <table>
+    <tr><th>Summit</th><th>Date</th><th>Venue</th><th>Headline Fact</th></tr>
+    <tr><td><strong>17th BRICS</strong></td><td>Jul 6–7, 2025</td><td>Rio de Janeiro, Brazil</td><td>Indonesia debuted as 11th member; India chairs next (2026)</td></tr>
+    <tr><td><strong>25th SCO</strong></td><td>Aug 31–Sep 1, 2025</td><td>Tianjin, China</td><td>Tianjin Declaration; condemned Pahalgam attack; SCO Development Bank endorsed</td></tr>
+    <tr><td><strong>47th ASEAN</strong></td><td>Oct 26–29, 2025</td><td>Kuala Lumpur, Malaysia</td><td>Timor-Leste = 11th member (first expansion since 1999)</td></tr>
+    <tr><td><strong>20th G20</strong></td><td>Nov 22–23, 2025</td><td>Johannesburg, South Africa</td><td>First on African soil; US boycotted; Day-One 122-para Declaration</td></tr>
+    <tr><td><strong>COP30</strong></td><td>Nov 10–22, 2025</td><td>Belém, Brazil</td><td>"Global Mutirão"; adaptation finance ×3 by 2035; TFFF $125 bn</td></tr>
+    <tr><td><strong>NATO Hague</strong></td><td>Jun 24–25, 2025</td><td>The Hague, Netherlands</td><td>5% of GDP defence target by 2035</td></tr>
+    <tr><td><strong>India AI Impact Summit</strong></td><td>Feb 16–20, 2026</td><td>Bharat Mandapam, New Delhi</td><td>First AI summit in Global South; New Delhi Declaration (~88 nations)</td></tr>
+    <tr><td><strong>Quad FMM</strong></td><td>May 26, 2026</td><td>New Delhi, India</td><td>Rubio attended; first Quad ministerial in India since 2023</td></tr>
+    <tr><td><strong>NATO Ankara</strong></td><td>Jul 7–8, 2026</td><td>Ankara, Türkiye</td><td>€70 bn Ukraine aid package</td></tr>
+    <tr><td><strong>COP31</strong></td><td>Nov 2026</td><td>Antalya, Türkiye</td><td>Australia = President of Negotiations; Pacific pre-COP</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — BRICS Expansion Members (Jan 2024): "DOUBLE E, I-U-S"</strong><br>
+    <strong>E</strong>gypt + <strong>E</strong>thiopia + <strong>I</strong>ran + <strong>U</strong>AE + <strong>S</strong>audi Arabia (Argentina declined! Indonesia joined later, Jan 2025, as the 11th member.)
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — G7 Member Countries: "JUICE WG"</strong><br>
+    <strong>J</strong>apan, <strong>U</strong>S, <strong>I</strong>taly, <strong>C</strong>anada, <strong>E</strong>ngland (UK), <strong>W</strong>est Germany (Germany), plus France.
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — BRICS Partner Countries: "B²C-KM-NT-U²-V"</strong><br>
+    <strong>B</strong>elarus, <strong>B</strong>olivia, <strong>C</strong>uba — <strong>K</strong>azakhstan, <strong>M</strong>alaysia — <strong>N</strong>igeria, <strong>T</strong>hailand — <strong>U</strong>ganda, <strong>U</strong>zbekistan — <strong>V</strong>ietnam.
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — 2026 Chairs & Hosts: "I-U-P-K-T"</strong><br>
+    <strong>I</strong>ndia (BRICS), <strong>U</strong>SA (G20, Doral), <strong>P</strong>hilippines (ASEAN), <strong>K</strong>yrgyzstan (SCO), <strong>T</strong>ürkiye (COP31 Antalya + NATO Ankara).
+  </div>
+</div>
+
+<!-- ====== IMAGE ====== -->
+<div class="section">
+  <div class="img-container">
+    <img src="images/g20.png" alt="G20 Summit" loading="lazy">
+    <div class="img-caption">18th G20 Summit in New Delhi, India (Sept 2023) — where the African Union was admitted as a permanent member.</div>
+  </div>
+  <div class="img-container">
+    <img src="images/un_assembly.png" alt="UN General Assembly" loading="lazy">
+    <div class="img-caption">UN General Assembly, New York — the multilateral stage where summit groupings (G20, BRICS, SCO) position themselves on global governance reform.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ G20 & ASEAN Links to Bihar</div>
+    <ul>
+      <li><strong>G20 L20 (Labour 20) Meeting:</strong> Held in <strong>Patna, Bihar</strong> in June 2023 under India's G20 presidency. Delegates from G20 nations visited historical monuments in Nalanda and Patna.</li>
+      <li><strong>Nalanda University — ASEAN Centre:</strong> At the 22nd ASEAN–India Summit (Oct 2025), India proposed a <strong>Centre for Southeast Asian Studies at Nalanda University</strong> — reviving Nalanda's ancient role as Asia's knowledge hub. <span class="current-tag">NEW</span></li>
+      <li><strong>Buddhist Circuit & ASEAN Tourism:</strong> Bihar's Buddhist circuit (Bodh Gaya, Nalanda, Rajgir, Vaishali) is central to India's cultural outreach to majority-Buddhist ASEAN states such as Thailand, Myanmar, Laos, Cambodia, and Vietnam. <span class="current-tag">NEW</span></li>
+      <li><strong>Bihar Climate Goals (Jal-Jeevan-Hariyali):</strong> The decisions of COP29 (Baku) and COP30 (Belém) on emission cuts align with Bihar's state policy target of achieving carbon neutrality by 2040, implemented through the Jal-Jeevan-Hariyali Mission.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #3 (International Appointments):</strong> SGs of NATO, SCO, and UNGA session presidents.<br>
+    <strong>↔ Topic #14 (Environment in News):</strong> Climate finance and forest preservation outcomes of COP29 and COP30.<br>
+    <strong>↔ Topic #87 (International Economy):</strong> IMF quota reforms and structural adjustments.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance & Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Hottest areas for 72nd BPSC:</strong> India AI Impact Summit (New Delhi, Feb 2026), India's 2026 BRICS chairmanship, Timor-Leste's ASEAN entry, G20 Johannesburg (US boycott + Day-One declaration), COP30 Belém outcomes, and the NATO Hague 5% target.</li>
+    <li><strong>SCO RATS Headquarters:</strong> While the main SCO secretariat is in Beijing, the Regional Anti-Terrorist Structure (RATS) is located in <strong>Tashkent, Uzbekistan</strong>. BPSC frequently uses this mismatch in options.</li>
+    <li><strong>BRICS Count Trap:</strong> BRICS now has <strong>11 full members</strong> (Indonesia joined Jan 2025) plus 10 partner countries — do not answer "10", and do not list Argentina (it declined under President Javier Milei).</li>
+    <li><strong>ASEAN Count Trap:</strong> ASEAN now has <strong>11 members</strong> — Timor-Leste was admitted on Oct 26, 2025 (first expansion since Cambodia, 1999).</li>
+    <li><strong>COP31 Hosting Model:</strong> Türkiye hosts in Antalya (Nov 2026), but Australia is the <strong>"President of Negotiations"</strong> with a Pacific pre-COP. COP32 goes to Ethiopia (2027).</li>
+    <li><strong>G20 2026 Venue Trap:</strong> The US hosts the 2026 G20 at Trump's <strong>Doral resort, Florida</strong> — not Miami. Troika = South Africa–US–UK.</li>
+    <li><strong>Quad Trap:</strong> India chaired the Quad in 2025, but <strong>no leaders' summit was held</strong> (cancelled). The latest ministerial was the <strong>May 26, 2026 FMM in New Delhi</strong> (Rubio attended).</li>
+  </ul>
+
+  <h3>🎯 Exam Predictions for 72nd BPSC</h3>
+  <div style="background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px;">
+    <strong style="color: #92400e;">📋 Top 5 Predictions (72nd BPSC — Summits &amp; Groupings):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) BRICS 2026 chair (HIGH):</strong> "Which country chairs BRICS in 2026?" → India. BRICS has 11 members (Indonesia joined Jan 2025; Argentina declined).</li>
+      <li><strong>(2) AI Impact Summit (HIGH):</strong> "Where was the India AI Impact Summit held in Feb 2026?" → New Delhi. First major AI summit in the Global South; New Delhi Declaration (~88 endorsers). Cross-link Topic #8.</li>
+      <li><strong>(3) ASEAN expansion (MEDIUM):</strong> "Which country became ASEAN's 11th member in 2025?" → Timor-Leste (Oct 26, 2025).</li>
+      <li><strong>(4) COP30 (MEDIUM):</strong> "Where was COP30 held?" → Belém, Brazil (Nov 2025). Key outcome: wealth-to-poor climate finance. COP31 → Türkiye (Antalya, 2026).</li>
+      <li><strong>(5) G20 2026 (LOW):</strong> "Who hosts G20 2026?" → USA (Trump's Doral resort, Florida). Troika: South Africa–US–UK.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (33 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 33 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Consider the following statements regarding G20 members:
+    <br>1. G20 members represent around 85% of the global GDP.
+    <br>2. G20 members represent about 75% of global trade.
+    <br>3. G20 members represent about 50% of the world population.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — G20 members represent 85% of global GDP and 75% of global trade, but about two-thirds (66%) of the world population, not 50%. (69th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Which country officially took over the chairmanship of BRICS on January 1, 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Russia</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Brazil</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) India</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) South Africa</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Russia took over the BRICS chairmanship on January 1, 2024. (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. In which city was the Global AI Action Summit held in February 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) New Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Bengaluru</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Paris</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Rome</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — France hosted the Global AI Action Summit in Paris on Feb 10–11, 2025. (71st BPSC PYQ)</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Under whose presidency did the G20 admit the African Union as a permanent member at the 18th summit in September 2023?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Indonesia</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) India</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Brazil</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) South Africa</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — The permanent admission of the African Union occurred under India's presidency during the New Delhi Summit.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Which country hosted the 19th G20 Summit in November 2024 under the theme "Building a Just World and a Sustainable Planet"?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) India</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Brazil</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) South Africa</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) United States</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — Brazil hosted the 19th G20 Summit in Rio de Janeiro in November 2024.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Which country held the G20 presidency in 2025, representing the first time the summit was hosted by an African nation?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Egypt</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Ethiopia</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) South Africa</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Nigeria</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — South Africa assumed the G20 presidency for 2025, hosting the summit in Johannesburg.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The 21st G20 Summit is scheduled to be held in which country in 2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) United States</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) France</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Canada</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Australia</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — The G20 Summit in 2026 will be hosted by the United States at Trump's Doral resort in Florida. (2027 = UK; 2028 = South Korea.)</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Which city hosted the 16th BRICS Summit in October 2024, the first summit after the official expansion of the grouping?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Johannesburg, South Africa</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Kazan, Russia</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Beijing, China</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Rio de Janeiro, Brazil</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (B)</strong> — The 16th BRICS Summit was held in Kazan, Russia, under Russia's 2024 chairmanship.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Which of the following countries declined the invitation to join BRICS in January 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Iran</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) UAE</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Argentina</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Egypt</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (C)</strong> — Under President Javier Milei, Argentina declined the invitation to join BRICS.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. How many full member states does the BRICS grouping have as of 2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) 5</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) 9</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) 10</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) 11</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — BRICS has 11 full members: the original 5 + Egypt, Ethiopia, Iran, Saudi Arabia, UAE (joined Jan 2024) + Indonesia (joined Jan 2025). Argentina declined; a separate 10-country "partner" tier also exists.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which country hosted the 24th SCO Summit in July 2024, where Belarus was formally admitted as a member?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) India</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Kazakhstan</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Uzbekistan</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Tajikistan</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (B)</strong> — The 2024 SCO summit was held in Astana, Kazakhstan.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Where is the permanent headquarters of the Regional Anti-Terrorist Structure (RATS) of the SCO located?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Beijing, China</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Tashkent, Uzbekistan</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Astana, Kazakhstan</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Dushanbe, Tajikistan</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — SCO RATS is headquartered in Tashkent, Uzbekistan. The main SCO Secretariat is in Beijing. Common exam trap!</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. In which city was the 50th G7 Summit held in June 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Hiroshima, Japan</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Borgo Egnazia, Italy</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Biarritz, France</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Cornwall, United Kingdom</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (B)</strong> — The 50th G7 Summit was hosted by Italy at Borgo Egnazia in Apulia.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The 51st G7 Summit was hosted in June 2025 by which country?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Germany</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) Canada</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) United States</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) France</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — Canada hosted the 51st G7 Summit in Kananaskis, Alberta, in June 2025.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. COP29, the 2024 UN Climate Change Conference, was held in which city?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Dubai, UAE</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Baku, Azerbaijan</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Sharm El Sheikh, Egypt</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Glasgow, United Kingdom</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — COP29 was hosted in Baku, Azerbaijan, in November 2024.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Which city in Brazil hosted the milestone COP30 climate summit in November 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Rio de Janeiro</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Belém</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) São Paulo</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Brasília</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — COP30 was held in Belém, Brazil (Nov 10–22, 2025), near the mouth of the Amazon. Outcomes: "Global Mutirão" document, Belém Package, and the Tropical Forests Forever Facility (TFFF).</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Under the hosting arrangement for COP31 in November 2026, which country handles the logistics in Antalya, and which leads the formal negotiations?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Turkey (logistics) and Australia (negotiations)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Australia (logistics) and Turkey (negotiations)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) United Kingdom (logistics) and Egypt (negotiations)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — COP31 features a unique model where Turkey hosts the logistics in Antalya, but Australia leads the negotiations, focusing on the Pacific region.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. In which city of Bihar was the G20 Labour 20 (L20) engagement group meeting held in June 2023?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Gaya</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Patna</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Nalanda</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Rajgir</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — The G20 L20 meeting was held in Patna, the capital of Bihar.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Match the following summits with their corresponding host countries for the year 2024:
+    <br>a) G20 Summit — 1) Italy
+    <br>b) G7 Summit — 2) Russia
+    <br>c) BRICS Summit — 3) Brazil
+    <br>d) SCO Summit — 4) Kazakhstan</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) a-3, b-1, c-2, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) a-1, b-3, c-2, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) a-3, b-1, c-4, d-2</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) a-4, b-1, c-2, d-3</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — In 2024, G20 was hosted by Brazil, G7 by Italy, BRICS by Russia, and SCO by Kazakhstan.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which country declined joining BRICS but remains a member of the G20?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Saudi Arabia</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Argentina</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Iran</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Egypt</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — Argentina declined BRICS membership but is an active member of G20. Saudi Arabia, Iran, and Egypt joined BRICS.</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The Global Alliance Against Hunger and Poverty is a signature initiative launched by which country during its G20 presidency?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) India</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Brazil</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) South Africa</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) United States</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — The Alliance was launched as Brazil's key G20 initiative in Rio in 2024.</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. In which year was the G7 group founded, and which of the following is NOT an original member?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) 1975 — Russia</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) 1975 — European Union</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) 1999 — India</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — G7 was founded in 1975. The EU is a participant but not one of the original 7 national members. Russia joined later (G8) but was suspended in 2014.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Which international grouping has a rotating "Troika" system instead of a permanent secretariat?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) SCO</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) G20</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) NATO</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) United Nations</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — The G20 has no permanent secretariat. Its operations are guided by the "Troika" (previous, current, and upcoming presidencies).</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Belarus's admission as the 10th member of SCO was completed at which summit?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Samarkand Summit 2022</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Astana Summit 2024</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) New Delhi Summit 2023</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Beijing Summit 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (B)</strong> — Formal procedures started in Samarkand, but admission was finalized and signed at Astana in July 2024.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which of the following is correct regarding G21 members?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) It includes 20 countries plus the EU</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) It includes 19 countries plus the EU and the African Union</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) It includes 21 sovereign nations</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — The G21 comprises 19 individual countries, the European Union, and the African Union.</div>
+  </div>
+
+  <!-- Q26 -->
+  <div class="mcq-block" id="q26">
+    <div class="mcq-q">Q26. Which country was admitted as the 11th member of ASEAN at the 47th Summit in Kuala Lumpur on October 26, 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q26" value="a"> (A) Papua New Guinea</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="b"> (B) Timor-Leste</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="c"> (C) Fiji</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="d"> (D) Sri Lanka</label>
+    </div>
+    <div class="mcq-explanation" id="exp26">✅ <strong>Correct Answer: (B)</strong> — Timor-Leste (East Timor) became ASEAN's 11th member on Oct 26, 2025 — the grouping's first expansion since Cambodia joined in 1999.</div>
+  </div>
+
+  <!-- Q27 -->
+  <div class="mcq-block" id="q27">
+    <div class="mcq-q">Q27. Which country holds the BRICS chairmanship in 2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q27" value="a"> (A) Brazil</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="b"> (B) India</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="c"> (C) China</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="d"> (D) South Africa</label>
+    </div>
+    <div class="mcq-explanation" id="exp27">✅ <strong>Correct Answer: (B)</strong> — India chairs BRICS in 2026, taking over from Brazil (2025). It is India's 4th BRICS chairmanship after 2012, 2016, and 2021.</div>
+  </div>
+
+  <!-- Q28 -->
+  <div class="mcq-block" id="q28">
+    <div class="mcq-q">Q28. The 25th SCO Summit (2025), which adopted the Tianjin Declaration and Development Strategy 2035, was held in which city?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q28" value="a"> (A) Astana</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="b"> (B) Samarkand</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="c"> (C) Tianjin</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="d"> (D) Qingdao</label>
+    </div>
+    <div class="mcq-explanation" id="exp28">✅ <strong>Correct Answer: (C)</strong> — The 25th SCO Summit was held in Tianjin, China (Aug 31–Sep 1, 2025), themed "Upholding the Shanghai Spirit". It condemned the Pahalgam terror attack; PM Modi attended — his first China visit since 2018.</div>
+  </div>
+
+  <!-- Q29 -->
+  <div class="mcq-block" id="q29">
+    <div class="mcq-q">Q29. At the NATO Hague Summit (June 2025), member countries agreed to spend what share of GDP on defence by 2035?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q29" value="a"> (A) 2%</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="b"> (B) 3%</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="c"> (C) 5%</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="d"> (D) 7%</label>
+    </div>
+    <div class="mcq-explanation" id="exp29">✅ <strong>Correct Answer: (C)</strong> — NATO members agreed to reach 5% of GDP by 2035 (3.5% core defence + 1.5% defence-related spending). All 32 members had already met the older 2% target.</div>
+  </div>
+
+  <!-- Q30 -->
+  <div class="mcq-block" id="q30">
+    <div class="mcq-q">Q30. Under the COP30 Belém outcomes, countries agreed to triple adaptation finance by which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q30" value="a"> (A) 2028</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="b"> (B) 2030</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="c"> (C) 2035</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="d"> (D) 2040</label>
+    </div>
+    <div class="mcq-explanation" id="exp30">✅ <strong>Correct Answer: (C)</strong> — COP30 agreed to triple adaptation finance by 2035 (~$120 bn/yr). Belém also launched the Tropical Forests Forever Facility (TFFF, $125 bn target), but no fossil-fuel phase-out roadmap was adopted.</div>
+  </div>
+
+  <!-- Q31 -->
+  <div class="mcq-block" id="q31">
+    <div class="mcq-q">Q31. The India AI Impact Summit (February 2026) — the first global AI summit hosted in the Global South — was held at which venue?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q31" value="a"> (A) Bharat Mandapam, New Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="b"> (B) Vigyan Bhawan, New Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="c"> (C) Jio World Convention Centre, Mumbai</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="d"> (D) HICC, Hyderabad</label>
+    </div>
+    <div class="mcq-explanation" id="exp31">✅ <strong>Correct Answer: (A)</strong> — The India AI Impact Summit was held at Bharat Mandapam, New Delhi (Feb 16–20, 2026). It produced the New Delhi Declaration on AI Impact, endorsed by ~88 countries, under the theme "Sarvajan Hitaya, Sarvajan Sukhaya".</div>
+  </div>
+
+  <!-- Q32 -->
+  <div class="mcq-block" id="q32">
+    <div class="mcq-q">Q32. Consider the following statements about the 2025 Johannesburg G20 Summit:
+    <br>1. It was the first G20 summit held on African soil.
+    <br>2. The Leaders' Declaration was adopted on the very first day of the summit.
+    <br>3. The United States attended at the Presidential level.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q32" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp32">✅ <strong>Correct Answer: (A)</strong> — Johannesburg (Nasrec, Nov 22–23, 2025) was the first G20 summit on African soil and adopted a 122-paragraph Leaders' Declaration on Day One. Statement 3 is wrong — the US (Trump) boycotted the summit; Argentina also stayed away, and Xi/Putin were absent.</div>
+  </div>
+
+  <!-- Q33 -->
+  <div class="mcq-block" id="q33">
+    <div class="mcq-q">Q33. The Quad Foreign Ministers' Meeting hosted by India on May 26, 2026, was attended by which US Secretary of State?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q33" value="a"> (A) Marco Rubio</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="b"> (B) Antony Blinken</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="c"> (C) Mike Pompeo</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="d"> (D) John Kerry</label>
+    </div>
+    <div class="mcq-explanation" id="exp33">✅ <strong>Correct Answer: (A)</strong> — Marco Rubio attended the New Delhi Quad FMM (May 26, 2026) — the first Quad ministerial hosted by India since 2023. Note: India chaired the Quad in 2025 but the planned leaders' summit was cancelled.</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+  
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/33</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.g20.org" target="_blank">G20 Official Portal</a> <span class="ref-desc">— Official documentation of declarations and presidency priorities.</span></li>
+    <li><a href="http://eng.sectsco.org" target="_blank">SCO Secretariat Beijing</a> <span class="ref-desc">— Official news regarding member accessions and summits.</span></li>
+    <li><a href="https://infobrics.org" target="_blank">InfoBRICS Portal</a> <span class="ref-desc">— Complete records of BRICS summits and ministerial dialogues.</span></li>
+    <li><a href="https://unfccc.int" target="_blank">UNFCCC Climate Portal</a> <span class="ref-desc">— Negotiation texts, declarations, and host lists for COP29-COP31.</span></li>
+    <li><a href="https://www.g7italy.it" target="_blank">G7 Italy Presidency</a> <span class="ref-desc">— Official details of the 50th summit in Apulia.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #4: Summits & Groupings | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #3, #11, #87, #150
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'c', q4: 'b', q5: 'b',
+  q6: 'c', q7: 'a', q8: 'b', q9: 'c', q10: 'd',
+  q11: 'b', q12: 'b', q13: 'b', q14: 'b', q15: 'b',
+  q16: 'b', q17: 'a', q18: 'b', q19: 'a', q20: 'b',
+  q21: 'b', q22: 'b', q23: 'b', q24: 'b', q25: 'b',
+  q26: 'b', q27: 'b', q28: 'c', q29: 'c', q30: 'c',
+  q31: 'a', q32: 'a', q33: 'a'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+  
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+  
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+  
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+  
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Summits & Groupings!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Double check member counts, locations, and G20/BRICS/SCO changes.';
+  
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

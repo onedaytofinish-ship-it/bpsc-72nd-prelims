@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>6 - Defence & Security | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .flow-node a:hover {
+    text-decoration: underline;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #6 • TIER A</div>
+  <div class="topic-title">Defence & Security</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs & Internal Security</span>
+    <span class="meta-tag">⚖️ Weight: 1.7</span>
+    <span class="meta-tag">📊 Mapped Questions: 7</span>
+    <span class="meta-tag">🎯 Expected: 2-4 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content & PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 13 Dec PYQ</span>
+    <strong>JIMEX-24 Venue:</strong> BPSC asked where the Japan-India Maritime Exercise (JIMEX-24) was held — answer: <strong>Yokosuka, Japan</strong>. Exercise↔country↔venue matching is a proven BPSC pattern for this topic.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Akashteer:</strong> BPSC tested the Army's new air-defence brain. <strong>Akashteer</strong> is the core of the Indian Army's Air Defence system; it seamlessly integrates India's larger <strong>C4ISR</strong> network and reflects the shift from passive defence to proactive retaliation (all three statements were true).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Indigenous Platforms:</strong> "Which defence platforms are part of India's indigenous military ecosystem?" — <strong>MBT Arjun</strong> and <strong>ATAGS</strong> are Indian; the <strong>F-35 Lightning II is American (NOT indigenous)</strong> — so the answer was "More than one of the above". Learn the indigenous/imported split cold.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>DefExpo 2022 Theme:</strong> Held at Gandhinagar, Gujarat — the theme was <strong>"Path to Pride"</strong> (12th DefExpo; first edition reserved exclusively for Indian companies).
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Every Indian missile & strategic system — type, range, propulsion, user service — on one page:
+    <a href="subpages/6_missiles_detail.html" target="_blank">Missiles & Strategic Systems Detail →</a>
+  </div>
+
+  <h3>A. Operation Sindoor — The Lead Story (Apr–May 2025) <span class="current-tag">MAJOR</span></h3>
+  <ul>
+    <li><strong>Pahalgam terror attack (Apr 22, 2025):</strong> Terrorists of <strong>The Resistance Front (TRF)</strong>, a proxy of <strong>Lashkar-e-Taiba (LeT)</strong>, killed <strong>26 people</strong> (25 tourists and a local pony operator) at Baisaran meadow, Pahalgam (J&K) — the deadliest attack on civilians in India since 26/11.</li>
+    <li><strong>Operation Sindoor launched (night of May 6–7, 2025):</strong> Precision strikes on <strong>9 terror infrastructure sites</strong> in Pakistan and PoK — including <strong>Markaz Subhan Allah, Bahawalpur (JeM headquarters)</strong> and <strong>Markaz Taiba, Muridke (LeT headquarters)</strong>. These were the <strong>deepest Indian strikes inside Pakistan since the 1971 war</strong>.</li>
+    <li><strong>The 4-day conflict (May 7–10):</strong> Pakistan retaliated with drones and missiles, largely blunted by India's layered air defence — <strong>S-400 Triumf ("Sudarshan Chakra"), Akash, and legacy guns</strong>. India then struck Pakistani military infrastructure, including the <strong>Nur Khan air base (Rawalpindi)</strong> and other airfields.</li>
+    <li><strong>S-400's star turn:</strong> India claimed an S-400 kill of a Pakistani AEW&C aircraft at ~<strong>314 km</strong> — among the longest recorded surface-to-air kills ever.</li>
+    <li><strong>Ceasefire understanding (May 10, 2025):</strong> Reached after <strong>DGMO-level hotline talks</strong> — India consistently framed it as a bilateral military-to-military understanding, not third-party mediation.</li>
+    <li><strong>Key lessons / reform push:</strong> Integrated air defence grids, counter-drone warfare, and a renewed push for <strong>jointness under the CDS</strong> and Integrated Theatre Commands; the armed forces received fresh <strong>Emergency Procurement (EP) powers</strong> post-Sindoor.</li>
+    <li><strong>One year on (May 2026):</strong> Defence Minister Rajnath Singh released a commemorative volume <strong>"Operation Sindoor"</strong> documenting testimonies of 100 participating personnel, at a ceremony attended by the CDS and all three service chiefs. <span class="current-tag">NEW</span></li>
+  </ul>
+
+  <table>
+    <tr><th>Op Sindoor — Key Facts</th><th>Detail</th></tr>
+    <tr><td><strong>Trigger</strong></td><td>Pahalgam terror attack, <strong>Apr 22, 2025</strong> — 26 killed; TRF (LeT proxy)</td></tr>
+    <tr><td><strong>Launch</strong></td><td>Night of <strong>May 6–7, 2025</strong> — missiles/stand-off weapons on 9 terror sites</td></tr>
+    <tr><td><strong>Headline targets</strong></td><td>Bahawalpur (JeM HQ) • Muridke (LeT HQ) • sites in Muzaffarabad, Kotli, Bhimber, Rawalakot, Sialkot sectors</td></tr>
+    <tr><td><strong>Duration</strong></td><td>May 7–10, 2025 (≈87-88 hours of military action)</td></tr>
+    <tr><td><strong>Star system</strong></td><td>S-400 Triumf (claimed ~314 km kill); Akash SAMs; counter-drone grid</td></tr>
+    <tr><td><strong>End</strong></td><td>Ceasefire understanding <strong>May 10, 2025</strong> via DGMO hotline</td></tr>
+    <tr><td><strong>Significance</strong></td><td>Deepest Indian strikes in Pakistan since 1971; new "normal" of punitive response to terror</td></tr>
+  </table>
+
+  <h3><a href="subpages/6_missiles_detail.html" target="_blank">B. Missiles & Strategic Systems — The Statics Bank 🔗</a></h3>
+  <p>BPSC loves missile↔range matching. Learn the ladder below, then drill every system (propulsion, user service, status) on the <a href="subpages/6_missiles_detail.html" target="_blank">detailed missiles subpage</a>.</p>
+  <table>
+    <tr><th>System</th><th>Type</th><th>Range / Key Fact</th><th>Status (mid-2026)</th></tr>
+    <tr><td><strong>Agni-I</strong></td><td>Short-range ballistic (SRBM)</td><td>700 km</td><td>In service — Strategic Forces Command (SFC)</td></tr>
+    <tr><td><strong>Agni-II</strong></td><td>Medium-range ballistic (MRBM)</td><td>2,000+ km</td><td>In service — SFC</td></tr>
+    <tr><td><strong>Agni-III</strong></td><td>Intermediate-range ballistic (IRBM)</td><td>3,000+ km</td><td>In service — SFC</td></tr>
+    <tr><td><strong>Agni-IV</strong></td><td>IRBM</td><td>4,000 km</td><td>In service — SFC</td></tr>
+    <tr><td><strong>Agni-V</strong></td><td>ICBM-class (canister-launched)</td><td>5,000+ km; <strong>MIRV-tested under Mission Divyastra (Mar 2024)</strong></td><td>Induction phase — SFC</td></tr>
+    <tr><td><strong>Agni-P (Prime)</strong></td><td>New-gen canisterised MRBM</td><td>1,000–2,000 km</td><td>Successfully tested</td></tr>
+    <tr><td><strong>Prithvi-II</strong></td><td>SRBM (liquid-fuel)</td><td>350 km</td><td>In service — SFC</td></tr>
+    <tr><td><strong>BrahMos</strong></td><td>Supersonic cruise (Mach ~2.8–3)</td><td>290 km baseline; extended ~450–800 km variants; India–Russia JV (BrahMos Aerospace)</td><td>In service (Army, Navy, IAF); first export: Philippines (2022, $375 mn)</td></tr>
+    <tr><td><strong>Akash / Akash-NG</strong></td><td>Surface-to-air missile (SAM)</td><td>25–30 km / 70–80 km (NG)</td><td>Akash in service (starred in Op Sindoor); Akash-NG in trials</td></tr>
+    <tr><td><strong>MRSAM</strong></td><td>SAM (DRDO–IAI Israel JV)</td><td>70 km</td><td>In service (Army, IAF, Navy as Barak-8)</td></tr>
+    <tr><td><strong>Astra (Mk1)</strong></td><td>Beyond-visual-range air-to-air (BVRAAM)</td><td>100+ km</td><td>In service (Su-30MKI, Tejas); Mk2/Mk3 in development</td></tr>
+    <tr><td><strong>Pinaka</strong></td><td>Multi-barrel rocket launcher (MBRL)</td><td>40–75 km (guided Pinaka 75+ km)</td><td>In service; exported to Armenia</td></tr>
+    <tr><td><strong>Pralay</strong></td><td>Quasi-ballistic tactical missile</td><td>150–500 km</td><td>Cleared for induction (Army & IAF orders)</td></tr>
+    <tr><td><strong>Nirbhay</strong></td><td>Subsonic cruise missile</td><td>~1,000 km</td><td>Tested; technology feeds Long-Range LACM programme</td></tr>
+    <tr><td><strong>VSHORADS</strong></td><td>Man-portable air defence (MANPADS)</td><td>~6 km</td><td>Successfully tested (DRDO)</td></tr>
+    <tr><td><strong>ET-LDHCM</strong></td><td>Long-range hypersonic cruise missile</td><td>~1,500 km; scramjet-powered</td><td>Tested <strong>Nov 16, 2024</strong> (Dr APJ Abdul Kalam Island)</td></tr>
+    <tr><td><strong>S-400 Triumf</strong></td><td>Long-range SAM (Russia)</td><td>Engages targets up to ~400 km</td><td>5 squadrons ordered (Oct 2018, <strong>$5.43 bn</strong>); deliveries ongoing; starred in Op Sindoor; India seeks additional squadrons + missiles (~₹10,000 cr) post-Sindoor</td></tr>
+  </table>
+  <ul>
+    <li><strong>Mission Shakti (Mar 27, 2019):</strong> ASAT test destroyed the live Microsat-R satellite in low Earth orbit (~300 km) — India became the <strong>4th country</strong> (after US, Russia, China) to demonstrate ASAT capability.</li>
+    <li><strong>Ballistic Missile Defence (BMD):</strong> Two-tier shield — Prithvi Air Defence (PAD, exo-atmospheric) + Advanced Air Defence (AAD, endo-atmospheric); Phase-II interceptor <strong>AD-1 tested Nov 2022</strong> and <strong>AD-2 tested Jul 2024</strong>.</li>
+    <li><strong>Hypersonics:</strong> HSTDV scramjet demonstrated (Sep 2020); DRDO's long-range hypersonic cruise missile (ET-LDHCM) tested <strong>Nov 2024</strong>; <strong>Project Kusha</strong> — DRDO's indigenous long-range SAM (S-400-class) — cleared for development. <span class="current-tag">NEW</span></li>
+    <li><strong>MIRV = Mission Divyastra:</strong> Agni-V's first flight with Multiple Independently targetable Re-entry Vehicles (Mar 2024) — one missile, several warheads aimed at different targets. <span class="current-tag">NEW</span></li>
+  </ul>
+
+  <h3>C. Indigenous Platforms — Atmanirbhar Arsenal <span class="current-tag">HOT (71st PYQ)</span></h3>
+  <table>
+    <tr><th>Platform</th><th>Category</th><th>Key Fact</th></tr>
+    <tr><td><strong>Tejas Mk1A / Mk2</strong></td><td>Light combat aircraft (HAL)</td><td>Mk1A: GE <strong>F404</strong> engines, 83 ordered; Mk2: GE <strong>F414 with ~80% Transfer of Technology</strong> (deal signed during PM's 2023 US visit)</td></tr>
+    <tr><td><strong>LCH Prachand</strong></td><td>Light combat helicopter (HAL)</td><td>Inductions from 2022; 156 ordered (Army 90 + IAF 66, ~₹62,700 cr cleared Mar 2025)</td></tr>
+    <tr><td><strong>Dhruv (ALH)</strong></td><td>Advanced light helicopter (HAL)</td><td>Backbone utility helicopter of all three services</td></tr>
+    <tr><td><strong>MBT Arjun</strong></td><td>Main battle tank (DRDO–CVRDE)</td><td>71st BPSC PYQ: indigenous (unlike F-35); Arjun Mk1A ordered (118 units)</td></tr>
+    <tr><td><strong>ATAGS</strong></td><td>155 mm/52-cal towed artillery (DRDO–Bharat Forge/Tata)</td><td>71st BPSC PYQ; ~40+ km range; 307 guns ordered (₹6,900 cr, Mar 2025)</td></tr>
+    <tr><td><strong>Dhanush</strong></td><td>155 mm/45-cal towed gun</td><td>Indigenised Bofors derivative; in Army service</td></tr>
+    <tr><td><strong>Zorawar</strong></td><td>25-tonne light tank (DRDO + L&T)</td><td>Designed for high-altitude Ladakh deployment; trials under way</td></tr>
+    <tr><td><strong>INS Vikrant (IAC-1)</strong></td><td>Aircraft carrier (Cochin Shipyard)</td><td>Commissioned <strong>Sep 2, 2022</strong>; ~45,000 t; first indigenously designed & built carrier</td></tr>
+    <tr><td><strong>Project 17A frigates</strong></td><td>Stealth frigates (GRSE/MDL)</td><td>Lead ship <strong>INS Nilgiri commissioned Jan 15, 2025</strong>; 7 ships planned</td></tr>
+    <tr><td><strong>Kalvari (Scorpene) class</strong></td><td>Diesel-electric submarines (MDL + Naval Group)</td><td>6 boats; 6th — <strong>INS Vaghsheer commissioned Jan 15, 2025</strong></td></tr>
+    <tr><td><strong>Arihant-class SSBN</strong></td><td>Nuclear-powered ballistic-missile subs</td><td>INS Arihant + <strong>INS Arighaat (commissioned Aug 29, 2024)</strong> — sea leg of the nuclear triad</td></tr>
+    <tr><td><strong>C-295 transport</strong></td><td>Tata–Airbus, Vadodara FAL</td><td>56 aircraft; first private-sector military aircraft plant in India (Vadodara, Gujarat)</td></tr>
+    <tr><td><strong>Project 75I</strong></td><td>Next-gen conventional submarines</td><td>6 AIP-equipped boats — pending final contract (MDL–TKMS bid)</td></tr>
+  </table>
+  <ul>
+    <li><strong>Positive indigenisation lists:</strong> MoD has issued multiple lists (5,000+ items across line-replaceable units, sub-systems and platforms) that can only be procured from Indian industry after notified timelines.</li>
+    <li><strong>Defence production (FY 2024-25):</strong> record <strong>₹1,50,590 crore</strong> — up 18% over FY24 (₹1.27 lakh cr) and 90% over FY20 (₹79,071 cr); DPSUs ≈77%, private sector ≈23%. <span class="current-tag">VERIFIED</span></li>
+    <li><strong>Defence exports (FY 2024-25):</strong> record <strong>₹23,622 crore</strong> (+12% over ₹21,083 cr in FY24); exported to 80+ countries; target <strong>₹50,000 crore by 2029</strong>. <span class="current-tag">VERIFIED</span></li>
+  </ul>
+
+  <h3>D. Recent Big-Ticket Developments (2025–26) <span class="current-tag">NEW</span></h3>
+  <ul>
+    <li><strong>Su-30MKI upgrade:</strong> CCS cleared the ~<strong>₹63,000 crore</strong> upgrade of <strong>84 Su-30MKI</strong> fighters by HAL — new radar, avionics, electronic-warfare suite and indigenous weapons integration.</li>
+    <li><strong>5th-gen fighter race:</strong> Russia's <strong>Su-57</strong> and the US <strong>F-35</strong> are both under Indian evaluation even as the indigenous <strong>AMCA</strong> programme advances (CCS approval ~₹15,000 cr for AMCA development, 2024).</li>
+    <li><strong>Emergency Procurement (EP) powers:</strong> Post-Op Sindoor, the forces fast-tracked emergency purchases of munitions, drones, counter-drone systems and air-defence missiles; the 2026-27 budget explicitly funds these EP commitments.</li>
+    <li><strong>Defence Budget 2026-27:</strong> record <strong>₹7.85 lakh crore</strong> (₹7,84,678 cr) — <strong>+15.19%</strong> over BE 2025-26 (₹6.81 lakh cr); ~2% of GDP; 14.67% of total central expenditure (highest of all ministries); capital outlay crosses <strong>₹2.19 lakh cr</strong>; 75% of capital acquisition (<strong>₹1.39 lakh cr</strong>) reserved for domestic industry; DRDO gets <strong>₹29,100 cr</strong>. First budget presented after Op Sindoor. <span class="current-tag">VERIFIED</span></li>
+    <li><strong>Theatre commands:</strong> Jointness accelerated after Sindoor — plan for Integrated Theatre Commands (western, northern and maritime) under CDS-led Department of Military Affairs is in advanced consultation.</li>
+    <li><strong>Agnipath scheme (Jun 2022):</strong> recruits <strong>Agniveers</strong> for <strong>4 years</strong>; up to <strong>25% retained</strong> for regular service; exit package <strong>Seva Nidhi (~₹11.71 lakh, tax-free)</strong>; no pension for the 4-year tenure.</li>
+    <li><strong>Military Quantum Mission Policy Framework (Jan 22, 2026):</strong> released by CDS Gen Anil Chauhan — tri-service roadmap for quantum technologies, aligned with the National Quantum Mission. <span class="current-tag">NEW</span></li>
+  </ul>
+
+  <h3>E. Military Exercises — The Matching Bank <span class="current-tag">HOT (70th PYQ)</span></h3>
+  <table>
+    <tr><th>Exercise</th><th>Partner(s)</th><th>Service / Type</th><th>Latest Edition Note</th></tr>
+    <tr><td><strong>Malabar</strong></td><td>Quad: US, Japan, Australia</td><td>Naval</td><td>2024: Visakhapatnam/Bay of Bengal; 2025: hosted by US off Guam</td></tr>
+    <tr><td><strong>Yudh Abhyas</strong></td><td>United States</td><td>Army</td><td>2025 (21st): Fort Wainwright, Alaska</td></tr>
+    <tr><td><strong>JIMEX</strong></td><td>Japan</td><td>Naval</td><td><strong>JIMEX-24: Yokosuka, Japan (70th BPSC PYQ)</strong></td></tr>
+    <tr><td><strong>Dharma Guardian</strong></td><td>Japan</td><td>Army</td><td>Annual; alternates India/Japan</td></tr>
+    <tr><td><strong>Varuna</strong></td><td>France</td><td>Naval</td><td>2025 (23rd): off Goa — carriers INS Vikrant & Charles de Gaulle</td></tr>
+    <tr><td><strong>Garuda</strong></td><td>France</td><td>Air</td><td>2024: Mont-de-Marsan AFB, France</td></tr>
+    <tr><td><strong>Shakti</strong></td><td>France</td><td>Army</td><td>2024: Umroi, Meghalaya</td></tr>
+    <tr><td><strong>Surya Kiran</strong></td><td>Nepal</td><td>Army</td><td>18th (Dec 2024–Jan 2025): Saljhandi, Nepal</td></tr>
+    <tr><td><strong>Mitra Shakti</strong></td><td>Sri Lanka</td><td>Army</td><td>10th (2024): Pune</td></tr>
+    <tr><td><strong>Khanjar</strong></td><td>Kyrgyzstan</td><td>Special Forces</td><td>12th (Mar 2025): Tokmok, Kyrgyzstan</td></tr>
+    <tr><td><strong>KAZIND</strong></td><td>Kazakhstan</td><td>Army</td><td>Annual (8th ed 2024: Auli, Uttarakhand)</td></tr>
+    <tr><td><strong>Desert Cyclone</strong></td><td>UAE</td><td>Army</td><td>1st (Jan 2024): Mahajan, Rajasthan</td></tr>
+    <tr><td><strong>Indra</strong></td><td>Russia</td><td>Army / tri-service</td><td>2025: Mahajan Field Firing Range, Rajasthan</td></tr>
+    <tr><td><strong>Ajeya Warrior</strong></td><td>United Kingdom</td><td>Army</td><td>Biennial; alternates India/UK (7th ed 2023: Salisbury Plain, UK)</td></tr>
+    <tr><td><strong>Hand-in-Hand</strong></td><td>China</td><td>Army (counter-terror)</td><td><strong>Suspended since 2020</strong> (last: 2019, Umroi, Meghalaya)</td></tr>
+    <tr><td><strong>Nomadic Elephant</strong></td><td>Mongolia</td><td>Army</td><td>Annual</td></tr>
+    <tr><td><strong>Ekuverin</strong></td><td>Maldives</td><td>Army</td><td>Annual</td></tr>
+    <tr><td><strong>Sampriti</strong></td><td>Bangladesh</td><td>Army</td><td>Annual</td></tr>
+    <tr><td><strong>Tarang Shakti</strong></td><td>Multilateral (~11 nations)</td><td>IAF — air exercise</td><td><strong>1st edition (Aug–Sep 2024): Sulur (TN) & Jodhpur (Raj)</strong> — largest air exercise hosted by India</td></tr>
+    <tr><td><strong>Milan</strong></td><td>Multilateral (~50 navies)</td><td>Naval</td><td>Biennial; 2024: Visakhapatnam</td></tr>
+  </table>
+
+  <h3>F. Tri-Services Leadership & Policy Structure (mid-2026) <span class="current-tag">VERIFIED</span></h3>
+  <table>
+    <tr><th>Post</th><th>Incumbent</th><th>In Office Since</th></tr>
+    <tr><td><strong>Chief of Defence Staff (CDS)</strong></td><td>General Anil Chauhan (2nd CDS; also Secretary, Dept of Military Affairs)</td><td>Sep 30, 2022</td></tr>
+    <tr><td><strong>Chief of the Army Staff (COAS)</strong></td><td>General Upendra Dwivedi</td><td>Jun 30, 2024</td></tr>
+    <tr><td><strong>Chief of the Naval Staff (CNS)</strong></td><td>Admiral Dinesh K. Tripathi</td><td>Apr 30, 2024</td></tr>
+    <tr><td><strong>Chief of the Air Staff (CAS)</strong></td><td>Air Chief Marshal A.P. Singh</td><td>Sep 30, 2024</td></tr>
+    <tr><td><strong>DRDO Chairman</strong></td><td>Dr Samir V. Kamat</td><td>Aug 2022</td></tr>
+  </table>
+  <ul>
+    <li><strong>MoD structure (one-liner):</strong> Headed by the Raksha Mantri (Rajnath Singh) — comprises the Departments of <strong>Defence, Defence Production, Military Affairs (DMA, headed by the CDS), DRDO (Defence R&D)</strong> and <strong>Ex-Servicemen Welfare</strong>.</li>
+    <li><strong>Integrated Theatre Commands:</strong> the biggest pending reform — joint commands replacing 17 single-service commands; momentum built after Op Sindoor exposed the value of joint air-defence and targeting.</li>
+  </ul>
+</div>
+
+<!-- ====== FLOWCHART ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> Operation Sindoor — Timeline (Apr–May 2025)
+  </div>
+  <p style="margin-bottom: 12px;">The 72nd BPSC's single most probable defence question. Memorise dates and pairings (TRF↔LeT, Bahawalpur↔JeM, Muridke↔LeT).</p>
+
+  <div class="flowchart">
+    <div class="flow-node">Apr 22, 2025 — Pahalgam Attack</div>
+    <div class="flow-label">TRF (LeT proxy) kills 26 at Baisaran meadow, Pahalgam, J&K</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">May 6–7, 2025 — Operation Sindoor Launched</div>
+    <div class="flow-label">9 terror sites struck — Bahawalpur (JeM HQ) & Muridke (LeT HQ) • deepest strikes since 1971</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">May 7–10 — Pakistan Retaliates; Air Battle</div>
+    <div class="flow-label">Drones/missiles blunted by S-400 + Akash grid • claimed ~314 km S-400 kill • Nur Khan air base hit</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">May 10, 2025 — Ceasefire Understanding</div>
+    <div class="flow-label">DGMO-level hotline talks • bilateral, no third-party mediation</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — System | Type | Range | Status
+  </div>
+
+  <table>
+    <tr><th>System</th><th>Type</th><th>Range / Key Fact</th><th>Status</th></tr>
+    <tr><td><strong>Agni-I</strong></td><td>SRBM</td><td>700 km</td><td>In service</td></tr>
+    <tr><td><strong>Agni-III</strong></td><td>IRBM</td><td>3,000+ km</td><td>In service</td></tr>
+    <tr><td><strong>Agni-V</strong></td><td>ICBM-class</td><td>5,000+ km; MIRV (Mission Divyastra, Mar 2024)</td><td>Induction phase</td></tr>
+    <tr><td><strong>Prithvi-II</strong></td><td>SRBM</td><td>350 km</td><td>In service</td></tr>
+    <tr><td><strong>BrahMos</strong></td><td>Supersonic cruise</td><td>290 km → 450–800 km extended; Mach ~3</td><td>In service; exported</td></tr>
+    <tr><td><strong>Akash-NG</strong></td><td>SAM</td><td>70–80 km</td><td>Trials</td></tr>
+    <tr><td><strong>MRSAM</strong></td><td>SAM (DRDO–IAI)</td><td>70 km</td><td>In service</td></tr>
+    <tr><td><strong>Astra Mk1</strong></td><td>BVRAAM</td><td>100+ km</td><td>In service</td></tr>
+    <tr><td><strong>Pinaka (guided)</strong></td><td>MBRL</td><td>75+ km</td><td>In service; Armenia export</td></tr>
+    <tr><td><strong>Pralay</strong></td><td>Quasi-ballistic</td><td>150–500 km</td><td>Induction cleared</td></tr>
+    <tr><td><strong>Nirbhay</strong></td><td>Subsonic cruise</td><td>~1,000 km</td><td>Tested</td></tr>
+    <tr><td><strong>S-400 Triumf</strong></td><td>Long-range SAM (Russia)</td><td>~400 km envelope; $5.43 bn / 5 squadrons (2018)</td><td>Deliveries ongoing; Op Sindoor star</td></tr>
+    <tr><td><strong>ET-LDHCM</strong></td><td>Hypersonic cruise</td><td>~1,500 km, scramjet</td><td>Tested Nov 2024</td></tr>
+    <tr><td><strong>Mission Shakti (ASAT)</strong></td><td>Anti-satellite (PDV-Mk II)</td><td>~300 km LEO intercept, Mar 27, 2019</td><td>4th nation to demo ASAT</td></tr>
+    <tr><td><strong>BMD Phase-II (AD-1/AD-2)</strong></td><td>Ballistic-missile interceptors</td><td>Exo + endo-atmospheric shield</td><td>AD-1 (Nov 2022) & AD-2 (Jul 2024) tested</td></tr>
+    <tr><td><strong>INS Vikrant</strong></td><td>Aircraft carrier (IAC-1)</td><td>~45,000 t; Cochin Shipyard</td><td>Commissioned Sep 2022</td></tr>
+    <tr><td><strong>INS Arighaat</strong></td><td>SSBN (Arihant class)</td><td>Nuclear triad sea leg</td><td>Commissioned Aug 2024</td></tr>
+    <tr><td><strong>INS Nilgiri (P17A)</strong></td><td>Stealth frigate</td><td>Lead ship of Project 17A</td><td>Commissioned Jan 2025</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Agni Range Ladder: "7-20-30-40-50"</strong><br>
+    Agni-<strong>I</strong> = <strong>7</strong>00 km • Agni-<strong>II</strong> = <strong>20</strong>00 km • Agni-<strong>III</strong> = <strong>30</strong>00 km • Agni-<strong>IV</strong> = <strong>40</strong>00 km • Agni-<strong>V</strong> = <strong>50</strong>00+ km. (Prithvi-II sits below at 350 km.)
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Exercise↔Country Pairs: "Sun, Friend, Dagger, Desert"</strong><br>
+    <strong>Sun</strong> (Surya Kiran) rises in <strong>Nepal</strong> • <strong>Friend</strong> (Mitra Shakti) lives in <strong>Sri Lanka</strong> • <strong>Dagger</strong> (Khanjar) is drawn in <strong>Kyrgyzstan</strong> • <strong>Desert</strong> Cyclone spins in the <strong>UAE</strong> • Nomads (Nomadic Elephant) roam <strong>Mongolia</strong>.
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — France Trio: "Varuna swims, Garuda flies, Shakti marches"</strong><br>
+    <strong>Varuna</strong> = Navy (sea god) • <strong>Garuda</strong> = Air Force (divine eagle) • <strong>Shakti</strong> = Army. Japan pair: <strong>JIMEX</strong> (sea) + <strong>Dharma Guardian</strong> (army).
+  </div>
+</div>
+
+<!-- ====== IMAGE ====== -->
+<div class="section">
+  <div class="img-container">
+    <img src="images/defence.png" alt="Submarine at sea" loading="lazy">
+    <div class="img-caption">Undersea deterrence: nuclear-powered ballistic-missile submarines (SSBNs) like INS Arihant and INS Arighaat form the most survivable leg of India's nuclear triad.</div>
+  </div>
+  <div class="img-container">
+    <img src="images/bilateral.png" alt="Bilateral cooperation" loading="lazy">
+    <div class="img-caption">Bilateral defence diplomacy: joint exercises (Yudh Abhyas, Varuna, JIMEX, Ajeya Warrior) anchor India's strategic partnerships — and BPSC's favourite matching questions.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Defence Footprint in Bihar</div>
+    <ul>
+      <li><strong>Officers Training Academy (OTA), Gaya:</strong> One of the Indian Army's two OTAs (the other is in Chennai); commissioned in <strong>2011</strong>; trains Short Service Commission officers and Technical Entry Scheme (TES) cadets.</li>
+      <li><strong>Bihar Regiment — Danapur, Patna:</strong> The regimental centre of the Bihar Regiment (raised 1941) is at <strong>Danapur Cantonment</strong>. Its battalions have served in 1971, Kargil (1999) and on the LAC — <strong>16 Bihar's commanding officer Col. B. Santosh Babu</strong> was martyred leading his men in the Galwan clash (Jun 2020).</li>
+      <li><strong>Danapur Cantonment:</strong> Among the <strong>oldest cantonments in India</strong> (established 1766) — a living link between Bihar and the Indian Army's institutional history.</li>
+      <li><strong>Kargil Chowk, Patna:</strong> War memorial at the heart of Patna (near Gandhi Maidan) honouring Bihar's soldiers martyred in the 1999 Kargil War — a standard BPSC Bihar-GK landmark.</li>
+      <li><strong>Soldiers & Agniveers from Bihar:</strong> Bihar is a traditional recruiting ground for the armed forces; Agnipath recruitment rallies draw massive participation across the state, and OTA Gaya keeps Bihar on the officer-training map.</li>
+      <li><strong>Bihta air base:</strong> The IAF station at Bihta (Patna district) is being developed as Patna's second airport (civil enclave) — defence infrastructure doubling as Bihar's growth asset.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #3 (International Appointments & Orgs):</strong> CDS/service-chief appointments parallel the international appointments list; SCO RATS and NATO defence dimensions overlap.<br>
+    <strong>↔ Topic #5 (Bilateral Relations):</strong> Op Sindoor diplomacy (India–Pakistan), S-400 from Russia, GE F414 engines from the US, and the UNICORN mast/JIMEX with Japan.<br>
+    <strong>↔ Topic #8 (Science & Tech in News):</strong> DRDO–ISRO overlap — scramjet/hypersonics, ASAT debris physics, defence satellites, and the Military Quantum Mission framework.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance & Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Top-3 probability for 72nd BPSC:</strong> Operation Sindoor facts — trigger (Pahalgam, Apr 22, 2025), launch night (May 6–7), <strong>9 sites</strong>, Bahawalpur↔JeM and Muridke↔LeT pairings, ceasefire (May 10, DGMO hotline), and the S-400's role.</li>
+    <li><strong>Exercise matching is near-certain:</strong> after JIMEX-24 (70th BPSC), expect one pair from the bank — Varuna/Garuda/Shakti (France), Surya Kiran (Nepal), Mitra Shakti (Sri Lanka), Khanjar (Kyrgyzstan), Desert Cyclone (UAE), Tarang Shakti (IAF multilateral, 2024), Milan (Visakhapatnam).</li>
+    <li><strong>Missile↔range matching:</strong> Agni ladder (700/2,000/3,000/4,000/5,000+ km), Prithvi-II 350 km, BrahMos 290→450–800 km, Astra 100+ km, Pralay 150–500 km, Nirbhay ~1,000 km.</li>
+    <li><strong>Service chiefs one-liner:</strong> CDS Gen Anil Chauhan • Army Gen Upendra Dwivedi • Navy Adm Dinesh K. Tripathi • IAF ACM A.P. Singh • DRDO Dr Samir V. Kamat (all verified mid-2026).</li>
+    <li><strong>Numbers to memorise:</strong> Defence budget 2026-27 = <strong>₹7.85 lakh cr</strong> (+15.19%); production FY25 = <strong>₹1,50,590 cr</strong>; exports FY25 = <strong>₹23,622 cr</strong>; Su-30MKI upgrade = <strong>₹63,000 cr (84 jets)</strong>; S-400 deal = <strong>$5.43 bn / 5 squadrons (2018)</strong>.</li>
+    <li><strong>Indigenous vs imported trap:</strong> F-35 and Su-57 are <em>foreign</em>; Arjun, ATAGS, Tejas, LCH Prachand, INS Vikrant, Dhanush, Zorawar, Pinaka, Akash are <em>indigenous</em> (71st BPSC pattern).</li>
+    <li><strong>Classic traps:</strong> Agni-V range is <strong>5,000+ km, not 10,000 km</strong>; Malabar is now a <strong>4-nation Quad</strong> exercise (not bilateral India-US); Hand-in-Hand (China) is <strong>suspended since 2020</strong>; Mission Shakti made India the <strong>4th</strong> ASAT power (not 3rd).</li>
+  </ul>
+
+  <h3>🎯 Exam Predictions for 72nd BPSC</h3>
+  <div style="background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px;">
+    <strong style="color: #92400e;">📋 Top 5 Predictions (72nd BPSC — Defence &amp; Security):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) Operation Sindoor (HIGH):</strong> "Op Sindoor targeted how many terror sites?" → 9. "Which groups were targeted?" → JeM (Bahawalpur) and LeT (Muridke). Ceasefire via DGMO hotline on May 10, 2025.</li>
+      <li><strong>(2) Exercise matching (HIGH):</strong> Match exercise ↔ country. Likely pair: Varuna (France), Surya Kiran (Nepal), Mitra Shakti (Sri Lanka), Khanjar (Kyrgyzstan), Desert Cyclone (UAE). JIMEX was asked in 70th BPSC.</li>
+      <li><strong>(3) Missile range matching (MEDIUM):</strong> Agni-V = 5,000+ km; BrahMos = 290→450–800 km (upgraded); Prithvi-II = 350 km; Pralay = 150–500 km. Cross-link: <a href="subpages/6_missiles_detail.html" target="_blank" style="color:#e94560;">Missiles Detail →</a></li>
+      <li><strong>(4) Defence budget (MEDIUM):</strong> "What is the FY27 defence budget?" → ₹7.85 lakh crore (+15.19%). Defence exports FY25 = ₹23,622 crore.</li>
+      <li><strong>(5) Bihar angle (LOW):</strong> "Where is the Officers Training Academy in Bihar?" → Gaya. "Which regiment is associated with Bihar?" → Bihar Regiment (JIMEX-24 context).</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (33 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 33 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Pahalgam terror attack of 2025, which triggered Operation Sindoor, took place on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 26 January 2025</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 22 April 2025</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 10 May 2025</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 14 February 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — The attack occurred on April 22, 2025, at Baisaran meadow, Pahalgam (J&K); 26 people were killed. The Resistance Front (TRF), an LeT proxy, was responsible.</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Consider the following statements about Operation Sindoor:
+    <br>1. It was launched on the night of May 6–7, 2025.
+    <br>2. It struck 9 terror infrastructure sites, including Bahawalpur (JeM HQ) and Muridke (LeT HQ).
+    <br>3. A ceasefire understanding was reached on May 10, 2025, after DGMO-level talks.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (D)</strong> — All three statements are correct. These were the deepest Indian strikes inside Pakistan since 1971, and the conflict ended with a bilateral DGMO-hotline understanding on May 10, 2025.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. During Operation Sindoor, which Indian air-defence system was credited with a claimed ~314 km long-range kill — among the longest recorded surface-to-air engagements?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Akash-NG</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) MRSAM</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) S-400 Triumf</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) SPYDER</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — The Russian-origin S-400 Triumf (Indian call-sign "Sudarshan Chakra") anchored the air-defence grid and was credited with a ~314 km kill of a Pakistani AEW&C aircraft. India ordered 5 squadrons in 2018 for $5.43 bn.</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. "Mission Divyastra", conducted in March 2024, refers to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) The first MIRV (multiple independently targetable re-entry vehicle) test of Agni-V</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) India's second ASAT test</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) The maiden test of a hypersonic cruise missile</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) The first submarine launch of K-4 missile</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — Mission Divyastra (Mar 2024) was Agni-V's first flight with MIRV technology — a single missile carrying multiple warheads that can hit different targets.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The approximate range of the Agni-V ballistic missile is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) 700 km</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) 2,500 km</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) 5,000+ km</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) 10,000 km</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Agni-V covers 5,000+ km (ICBM-class, canister-launched). Classic trap: it is NOT 10,000 km. Ladder: Agni-I 700, II 2,000, III 3,000, IV 4,000, V 5,000+.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Consider the following statements about the BrahMos missile:
+    <br>1. It is a supersonic cruise missile.
+    <br>2. It is produced by BrahMos Aerospace, an India–Russia joint venture.
+    <br>3. Its first export order was signed with the Philippines.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — BrahMos flies at Mach ~2.8–3, is built by the India–Russia JV BrahMos Aerospace, and its first export contract (2022, ~$375 mn) was with the Philippines. Extended-range variants now reach 450–800 km.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Match the following systems with their descriptions:
+    <br>a) Prithvi-II — 1) Beyond-visual-range air-to-air missile
+    <br>b) Astra — 2) 350 km surface-to-surface ballistic missile
+    <br>c) Pinaka — 3) Multi-barrel rocket launcher
+    <br>d) Nirbhay — 4) Subsonic cruise missile</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) a-2, b-1, c-3, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) a-1, b-2, c-4, d-3</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) a-2, b-3, c-1, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) a-4, b-1, c-3, d-2</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Prithvi-II (350 km SSM), Astra (100+ km BVRAAM), Pinaka (MBRL, 40–75+ km), Nirbhay (~1,000 km subsonic cruise missile).</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Consider the following statements about "Mission Shakti":
+    <br>1. It was conducted on March 27, 2019.
+    <br>2. It made India the fourth country to demonstrate anti-satellite (ASAT) capability.
+    <br>3. The target satellite was destroyed in geostationary orbit.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Statement 3 is wrong: the Microsat-R satellite was hit in LOW Earth orbit (~300 km altitude), not geostationary orbit. India became the 4th ASAT power after the US, Russia and China.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Which of the following statements are true about "Akashteer"?
+    <br>1. Akashteer is the core of the Indian Army's Air Defence system.
+    <br>2. It seamlessly integrates India's larger C4ISR network.
+    <br>3. It reflects a strategic shift from passive defence to proactive retaliation.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) 1 only</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (D)</strong> — All three statements were true in the 71st BPSC paper. Akashteer is the Army's automated air-defence control and reporting system, networked with C4ISR for sensor-to-shooter response.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Which of the following defence platforms are part of India's growing indigenous military ecosystem supporting the Make in India initiative?
+    <br>(A) F-35 Lightning II (B) Main Battle Tank (MBT) Arjun (C) Advanced Towed Artillery Gun System (ATAGS)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) F-35 Lightning II only</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) MBT Arjun only</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) ATAGS only</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) More than one of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — Verbatim 71st BPSC question. Arjun AND ATAGS are indigenous, so "More than one of the above". The F-35 Lightning II is an American (Lockheed Martin) fighter — NOT indigenous.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. What was the theme of DefExpo 2022, held in Gandhinagar, Gujarat?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) India: The Emerging Defence Manufacturing Hub</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Path to Pride</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Synergy for Defence</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Secure India, Self-Reliant India</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (B)</strong> — 69th BPSC PYQ. The 12th DefExpo (Oct 2022, Gandhinagar) carried the theme "Path to Pride" and was the first edition reserved exclusively for Indian companies.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Where was the Japan-India bilateral Maritime Exercise (JIMEX-24) held?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Bay of Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Yokosuka, Japan</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Visakhapatnam, India</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Western Pacific Ocean</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — Verbatim 70th BPSC (13 Dec) question. JIMEX-24 was hosted at Yokosuka, Japan. JIMEX pairs with Dharma Guardian (India–Japan army exercise).</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Match the following exercises with their partner countries:
+    <br>a) Malabar — 1) France
+    <br>b) Varuna — 2) Quad navies (US, Japan, Australia)
+    <br>c) Surya Kiran — 3) Kyrgyzstan
+    <br>d) Khanjar — 4) Nepal</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) a-2, b-1, c-4, d-3</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) a-1, b-2, c-3, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) a-2, b-4, c-1, d-3</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) a-3, b-1, c-4, d-2</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Malabar = Quad navies (started as India–US bilateral, now 4-nation); Varuna = France (naval); Surya Kiran = Nepal; Khanjar = Kyrgyzstan (special forces).</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. "Tarang Shakti", whose first edition was held in 2024, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) A bilateral air exercise with France</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) A multilateral naval exercise at Visakhapatnam</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) The IAF's first multilateral air exercise hosted by India</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) A counter-terrorism exercise with Mongolia</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (C)</strong> — Tarang Shakti (Aug–Sep 2024), held at Sulur (Tamil Nadu) and Jodhpur (Rajasthan), was the largest air exercise ever hosted by India, with ~11 nations participating with aircraft.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Exercise "Milan" is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) A bilateral naval exercise with Sri Lanka</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) A biennial multilateral naval exercise held at Visakhapatnam</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) An IAF exercise in Rajasthan</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) An Army exercise with the UK</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — Milan ("meeting" in Hindi) is the Indian Navy's biennial multilateral gathering of ~50 navies, hosted at Visakhapatnam (2024 edition). It began in 1995 in the Andaman & Nicobar Islands.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Exercise "Yudh Abhyas" is conducted between India and which country?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Russia</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) United States</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) United Kingdom</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) France</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Yudh Abhyas is the India–US army exercise; the 2025 (21st) edition was held at Fort Wainwright, Alaska. (Russia = Indra; UK = Ajeya Warrior; France = Shakti.)</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The "Hand-in-Hand" joint exercise, suspended since 2020, is held between India and:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Nepal</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Bangladesh</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) China</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) Maldives</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (C)</strong> — Hand-in-Hand is the India–China counter-terrorism exercise, last held in 2019 (Umroi, Meghalaya) and suspended after the 2020 Ladakh standoff.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. "Desert Cyclone", whose first edition was held at Mahajan (Rajasthan) in January 2024, is a joint army exercise between India and:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Oman</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) United Arab Emirates</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Saudi Arabia</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Egypt</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — Desert Cyclone is the India–UAE army exercise, launched in 2024 — reflecting deepening Gulf defence ties. (Oman = Al Najah; Egypt = Cyclone special-forces exercise.)</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Consider the following statements about INS Vikrant:
+    <br>1. It was commissioned on September 2, 2022.
+    <br>2. It was built by Cochin Shipyard Limited.
+    <br>3. It is India's first indigenously designed and built aircraft carrier.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — All correct. INS Vikrant (IAC-1, ~45,000 tonnes) was commissioned at Kochi on Sep 2, 2022 — making India one of the few nations that can design and build its own aircraft carriers.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. INS Arighaat, commissioned in August 2024, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) The first Project 17A stealth frigate</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) India's second Arihant-class nuclear-powered ballistic missile submarine (SSBN)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) The sixth Scorpene-class submarine</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) An indigenous aircraft carrier</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — INS Arighaat (commissioned Aug 29, 2024, Visakhapatnam) is the second Arihant-class SSBN, strengthening the sea leg of India's nuclear triad. (P17A lead ship = INS Nilgiri; 6th Scorpene = INS Vaghsheer — both Jan 2025.)</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. INS Nilgiri, commissioned in January 2025, is the lead ship of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Project 17A stealth frigates</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Project 75 Scorpene submarines</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Project 15B destroyers</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) The Arihant-class SSBNs</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — INS Nilgiri is the first of seven Project 17A stealth frigates, commissioned Jan 15, 2025, alongside INS Vaghsheer (6th Kalvari-class) and INS Surat (4th P15B destroyer) in the same ceremony.</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. INS Vaghsheer, commissioned in January 2025, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) A nuclear-powered attack submarine</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) The lead ship of Project 17A frigates</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) The sixth and final Kalvari-class (Scorpene) diesel-electric submarine</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) An anti-submarine warfare corvette</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — INS Vaghsheer completes the six-boat Kalvari class built by Mazagon Dock (MDL) with France's Naval Group under Project 75. The follow-on Project 75I (6 AIP submarines) is pending.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The Tejas Mk2 light combat aircraft will be powered by which engine, under a deal involving ~80% Transfer of Technology to India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) GE F404</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) GE F414</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Kaveri</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) AL-31F</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — The GE F414 deal (announced during PM Modi's 2023 US visit) includes ~80% ToT for co-production by HAL — powering Tejas Mk2 (and early AMCA). Tejas Mk1/Mk1A use the F404.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. "Zorawar", developed by DRDO with Larsen & Toubro, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) A light tank designed for high-altitude deployment in Ladakh</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) A long-range artillery gun</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) An unmanned combat aerial vehicle</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) A mine-protected infantry vehicle</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — Zorawar is a ~25-tonne light tank (named after Gen Zorawar Singh) built for mountain warfare in Ladakh, where heavy MBTs like the Arjun/T-90 cannot operate effectively.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The CCS-cleared upgrade of 84 Su-30MKI fighters by HAL is valued at approximately:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) ₹11,000 crore</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) ₹63,000 crore</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) ₹7,800 crore</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) ₹1.5 lakh crore</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — The ~₹63,000 crore "Super Sukhoi" upgrade of 84 Su-30MKIs adds new radars, avionics, electronic-warfare suites and indigenous weapons (Astra, BrahMos-NG class integration).</div>
+  </div>
+
+  <!-- Q26 -->
+  <div class="mcq-block" id="q26">
+    <div class="mcq-q">Q26. In the Union Budget 2026-27, the total allocation for the Ministry of Defence is approximately:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q26" value="a"> (A) ₹6.81 lakh crore</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="b"> (B) ₹5.94 lakh crore</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="c"> (C) ₹7.85 lakh crore</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="d"> (D) ₹9.2 lakh crore</label>
+    </div>
+    <div class="mcq-explanation" id="exp26">✅ <strong>Correct Answer: (C)</strong> — ₹7.85 lakh crore (₹7,84,678 cr) — a 15.19% jump over BE 2025-26 (₹6.81 lakh cr), ~2% of GDP and 14.67% of total central expenditure; the first budget after Operation Sindoor. Trap: ₹6.81 lakh cr was the PREVIOUS year.</div>
+  </div>
+
+  <!-- Q27 -->
+  <div class="mcq-block" id="q27">
+    <div class="mcq-q">Q27. India's annual defence production in FY 2024-25 reached a record:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q27" value="a"> (A) ₹1,27,000 crore</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="b"> (B) ₹1,50,590 crore</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="c"> (C) ₹23,622 crore</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="d"> (D) ₹79,071 crore</label>
+    </div>
+    <div class="mcq-explanation" id="exp27">✅ <strong>Correct Answer: (B)</strong> — ₹1,50,590 crore (+18% over FY24's ₹1.27 lakh cr; +90% over FY20's ₹79,071 cr). Don't confuse: ₹23,622 cr = defence EXPORTS FY25; ₹79,071 cr = FY20 production.</div>
+  </div>
+
+  <!-- Q28 -->
+  <div class="mcq-block" id="q28">
+    <div class="mcq-q">Q28. India's defence exports in FY 2024-25 stood at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q28" value="a"> (A) ₹23,622 crore</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="b"> (B) ₹21,083 crore</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="c"> (C) ₹50,000 crore</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="d"> (D) ₹15,920 crore</label>
+    </div>
+    <div class="mcq-explanation" id="exp28">✅ <strong>Correct Answer: (A)</strong> — ₹23,622 crore (+12% over ₹21,083 cr in FY24), with exports to 80+ countries. ₹50,000 crore is the TARGET for 2029, not a current figure.</div>
+  </div>
+
+  <!-- Q29 -->
+  <div class="mcq-block" id="q29">
+    <div class="mcq-q">Q29. Match the following appointments (as of mid-2026):
+    <br>a) Chief of the Army Staff — 1) Admiral Dinesh K. Tripathi
+    <br>b) Chief of the Naval Staff — 2) General Anil Chauhan
+    <br>c) Chief of the Air Staff — 3) General Upendra Dwivedi
+    <br>d) Chief of Defence Staff — 4) Air Chief Marshal A.P. Singh</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q29" value="a"> (A) a-3, b-1, c-4, d-2</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="b"> (B) a-1, b-3, c-2, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="c"> (C) a-3, b-2, c-4, d-1</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="d"> (D) a-4, b-1, c-3, d-2</label>
+    </div>
+    <div class="mcq-explanation" id="exp29">✅ <strong>Correct Answer: (A)</strong> — COAS: Gen Upendra Dwivedi (Jun 2024); CNS: Adm Dinesh K. Tripathi (Apr 2024); CAS: ACM A.P. Singh (Sep 2024); CDS: Gen Anil Chauhan (since Sep 2022, 2nd CDS).</div>
+  </div>
+
+  <!-- Q30 -->
+  <div class="mcq-block" id="q30">
+    <div class="mcq-q">Q30. Who is the current Chairman of DRDO (as of mid-2026)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q30" value="a"> (A) G. Satheesh Reddy</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="b"> (B) Samir V. Kamat</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="c"> (C) S. Somanath</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="d"> (D) V.K. Saraswat</label>
+    </div>
+    <div class="mcq-explanation" id="exp30">✅ <strong>Correct Answer: (B)</strong> — Dr Samir V. Kamat has headed DRDO since August 2022. (G. Satheesh Reddy = predecessor; S. Somanath = former ISRO chief; V.K. Saraswat = DRDO chief 2009–2013, now NITI Aayog member.)</div>
+  </div>
+
+  <!-- Q31 -->
+  <div class="mcq-block" id="q31">
+    <div class="mcq-q">Q31. Consider the following statements about the Agnipath scheme:
+    <br>1. It recruits "Agniveers" for a four-year tenure.
+    <br>2. Up to 25% of each batch is retained for regular service.
+    <br>3. It was announced in June 2022.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q31" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp31">✅ <strong>Correct Answer: (D)</strong> — All correct. Agniveers serve 4 years; up to 25% are retained; the rest exit with the tax-free Seva Nidhi package (~₹11.71 lakh) and no pension. Scheme announced June 2022.</div>
+  </div>
+
+  <!-- Q32 -->
+  <div class="mcq-block" id="q32">
+    <div class="mcq-q">Q32. The ET-LDHCM, tested by DRDO in November 2024, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q32" value="a"> (A) An anti-tank guided missile</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="b"> (B) A submarine-launched ballistic missile</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="c"> (C) A long-range hypersonic cruise missile</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="d"> (D) An exo-atmospheric interceptor</label>
+    </div>
+    <div class="mcq-explanation" id="exp32">✅ <strong>Correct Answer: (C)</strong> — The Extended Trajectory–Long Duration Hypersonic Cruise Missile (range ~1,500 km, scramjet-powered) was tested on Nov 16, 2024, from Dr APJ Abdul Kalam Island, Odisha — putting India in the hypersonic club.</div>
+  </div>
+
+  <!-- Q33 -->
+  <div class="mcq-block" id="q33">
+    <div class="mcq-q">Q33. The Officers Training Academy (OTA) of the Indian Army located in Bihar is at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q33" value="a"> (A) Danapur</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="b"> (B) Gaya</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="c"> (C) Patna</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="d"> (D) Bhagalpur</label>
+    </div>
+    <div class="mcq-explanation" id="exp33">✅ <strong>Correct Answer: (B)</strong> — OTA Gaya (commissioned 2011) is one of the Army's two OTAs (the other at Chennai). Danapur hosts the Bihar Regimental Centre — a classic Bihar-GK confusion pair.</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+  
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/33</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.drdo.gov.in" target="_blank">DRDO Official Portal</a> <span class="ref-desc">— Missile programmes, test announcements (Agni, ET-LDHCM, BMD, Project Kusha).</span></li>
+    <li><a href="https://pib.gov.in" target="_blank">PIB — Ministry of Defence Releases</a> <span class="ref-desc">— Op Sindoor briefings, budget figures, production & export data, exercise communiqués.</span></li>
+    <li><a href="https://www.indianarmy.nic.in" target="_blank">Indian Army Official Site</a> <span class="ref-desc">— Exercise details (Yudh Abhyas, Surya Kiran, Khanjar) and Agnipath scheme.</span></li>
+    <li><a href="https://www.indiannavy.nic.in" target="_blank">Indian Navy Official Site</a> <span class="ref-desc">— INS Vikrant, P17A, Kalvari class, Milan & JIMEX editions.</span></li>
+    <li><a href="https://www.mod.gov.in" target="_blank">Ministry of Defence — Annual Report</a> <span class="ref-desc">— Departmental structure, indigenisation lists, defence budget documents.</span></li>
+    <li><a href="https://www.sipri.org" target="_blank">SIPRI Military Expenditure Database</a> <span class="ref-desc">— Global defence-spending comparisons (India = 4th largest spender).</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #6: Defence & Security | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #3, #5, #8
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'b', q2: 'd', q3: 'c', q4: 'a', q5: 'c',
+  q6: 'd', q7: 'a', q8: 'a', q9: 'd', q10: 'd',
+  q11: 'b', q12: 'b', q13: 'a', q14: 'c', q15: 'b',
+  q16: 'b', q17: 'c', q18: 'b', q19: 'd', q20: 'b',
+  q21: 'a', q22: 'c', q23: 'b', q24: 'a', q25: 'b',
+  q26: 'c', q27: 'b', q28: 'a', q29: 'a', q30: 'b',
+  q31: 'd', q32: 'c', q33: 'b'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+  
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+  
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+  
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+  
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Defence & Security!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Double check Op Sindoor dates, exercise pairings, and missile ranges.';
+  
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

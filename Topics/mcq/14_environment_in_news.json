@@ -1,0 +1,202 @@
+[
+  {
+    "q": "Which organisation recognized the Nagi Bird Sanctuary site (Jamui, Bihar) as an Important Bird and Biodiversity Area (IBA)?",
+    "options": ["UNESCO", "BirdLife International", "World Wildlife Fund", "UNEP"],
+    "answer": 1,
+    "explanation": "Important Bird and Biodiversity Areas are identified globally by BirdLife International. Nagi and neighbouring Nakti (both in Jamui, Bihar) also became Ramsar sites in 2024. UNESCO administers World Heritage Sites — the classic trap here.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.4"
+  },
+  {
+    "q": "According to the India State of Forest Report 2023 (ISFR 2023), the total forest AND tree cover of the country is what percentage of its geographical area?",
+    "options": ["21.76%", "24.62%", "25.17%", "33.00%"],
+    "answer": 2,
+    "explanation": "ISFR 2023 (18th edn., FRI Dehradun, released 21 Dec 2024): forest + tree cover = 25.17% (8,27,357 sq km). 21.76% (7,15,343 sq km) is forest cover alone (trap); 24.62% was the ISFR 2021 figure; 33% is the National Forest Policy target.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.12"
+  },
+  {
+    "q": "Which of the following parks/sanctuaries comes under Project Tiger in Bihar?",
+    "options": ["Valmiki National Park", "Udaypur Wildlife Sanctuary", "Bhimbandh Wildlife Sanctuary", "None of these"],
+    "answer": 0,
+    "explanation": "Valmiki NP (with Valmiki WLS) forms Valmiki Tiger Reserve in West Champaran — Bihar's only tiger reserve (tigers 8 in 2010 → 54 in 2022). Bhimbandh (Munger) and Udaypur are wildlife sanctuaries, not tiger reserves; Kaimur's upgrade (state approval Dec 2025) is still pending NTCA notification.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.36"
+  },
+  {
+    "q": "As per IUCN, species facing a very high risk of extinction in the near future are termed:",
+    "options": ["Vulnerable", "Endangered", "Rare", "Extinct"],
+    "answer": 1,
+    "explanation": "'Endangered' = very high risk of extinction in the near future. 'Vulnerable' species are only likely to become endangered if nothing is done (trap). Risk ladder: Vulnerable → Endangered → Critically Endangered.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.48"
+  },
+  {
+    "q": "Which State first launched the State-Level Committee for Vulture Conservation (SLCVC), proposed under the national action plan for the protection of vultures in India?",
+    "options": ["Sikkim", "Assam", "Tamil Nadu", "Meghalaya"],
+    "answer": 2,
+    "explanation": "Tamil Nadu was the first State to constitute an SLCVC under the Action Plan for Vulture Conservation (Moyar valley / Nilgiris landscape is a key vulture habitat). The north-eastern options are distractors from the 69th BPSC paper itself.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.10"
+  },
+  {
+    "q": "The 'Lisbon Declaration' is associated with:",
+    "options": ["Protection of the ozone layer", "Combating desertification", "Eliminating single-use plastics", "The conservation of oceans"],
+    "answer": 3,
+    "explanation": "The Lisbon Declaration came out of the 2022 UN Ocean Conference ('Our ocean, our future, our responsibility'). The ocean thread continues: UNOC3 at Nice (Jun 2025) and the BBNJ High Seas Treaty entering into force on 17 Jan 2026.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.37"
+  },
+  {
+    "q": "The Himalayan Forest Research Institute (HFRI), which handles temperate-forestry research under ICFRE, is located in which city?",
+    "options": ["Shimla", "Ranchi", "Srinagar", "Dehradun"],
+    "answer": 0,
+    "explanation": "HFRI is at Shimla (Himachal Pradesh). Dehradun is the trap: it hosts the Forest Research Institute (FRI), which publishes the ISFR. Tropical forestry research sits at TFRI, Jabalpur.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.36"
+  },
+  {
+    "q": "Match List-I (Protected Area / Wetland) with List-II (State): a) Gajner Wildlife Sanctuary — 1) Sikkim; b) Bhimbandh Wildlife Sanctuary — 2) Rajasthan; c) Khecheopalri Wetland — 3) Bihar",
+    "options": ["a-1, b-2, c-3", "a-2, b-3, c-1", "a-3, b-2, c-1", "a-2, b-1, c-3"],
+    "answer": 1,
+    "explanation": "Gajner WLS is in Rajasthan (Bikaner); Bhimbandh WLS is in Bihar (Munger); Khecheopalri is a sacred lake-wetland in Sikkim, designated a Ramsar site in Feb 2025. Sanctuary↔state matching is a recurring 69th/71st BPSC format.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.17"
+  },
+  {
+    "q": "Kanha National Park — among the first nine reserves brought under Project Tiger in 1973 — is located in:",
+    "options": ["Maharashtra", "Chhattisgarh", "Rajasthan", "Madhya Pradesh"],
+    "answer": 3,
+    "explanation": "Kanha (Mandla–Balaghat districts, MP) inspired Kipling's 'Jungle Book' country and is famous for the hard-ground barasingha. Project Tiger was launched on 1 Apr 1973 from Corbett with 9 reserves; MP today has the most tigers (785, 2022 census).",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.36"
+  },
+  {
+    "q": "What is the state animal of Bihar?",
+    "options": ["Gaur (Indian bison)", "Nilgai (blue bull)", "Asian elephant", "Swamp deer (barasingha)"],
+    "answer": 0,
+    "explanation": "Bihar's state animal is the Gaur. Barasingha is tied to Kanha/Dudhwa; the Asian elephant is the state animal of Jharkhand and Kerala. Pair with: state bird = house sparrow, state tree = peepal.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.36"
+  },
+  {
+    "q": "The COP30 climate conference (10–22 November 2025) was held at:",
+    "options": ["Baku, Azerbaijan", "Dubai, United Arab Emirates", "Sharm el-Sheikh, Egypt", "Belém, Brazil"],
+    "answer": 3,
+    "explanation": "Belém, gateway to the Amazon, hosted COP30 (the 'implementation COP'). Baku = COP29 (2024), Dubai = COP28 (2023), Sharm el-Sheikh = COP27 (2022) — the host sequence is the standard trap.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the outcomes of COP30 (Belém, 2025): 1. The 'Mutirão' decision called for tripling adaptation finance by 2035. 2. 59 indicators for the Global Goal on Adaptation were adopted. 3. A binding, consensus roadmap to transition away from fossil fuels was adopted. Which of the statements given above are correct?",
+    "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+    "answer": 1,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is the trap: despite 80+ countries backing a fossil-fuel transition roadmap, none was agreed — Brazil will lead voluntary roadmaps on fossil fuels and deforestation outside the COP text.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The New Collective Quantified Goal (NCQG) agreed at COP29 (Baku, 2024) commits to mobilising at least:",
+    "options": ["$100 billion per year by 2030", "$1.3 trillion per year by 2030", "$300 billion per year by 2035 for developing countries", "$20 billion per year by 2025"],
+    "answer": 2,
+    "explanation": "NCQG = ≥$300 bn/yr by 2035, replacing the old $100 bn goal. $1.3 tn/yr by 2035 is the wider 'Baku to Belém Roadmap' call on all actors, not the NCQG (trap); $20 bn figures belong to biodiversity finance (COP16).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the BBNJ (High Seas) Treaty: 1. It was adopted on 19 June 2023 under UNCLOS. 2. It entered into force on 17 January 2026 after crossing 60 ratifications. 3. India has signed but not yet ratified it. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct. Morocco's 60th ratification (19 Sep 2025) triggered the 120-day rule → entry into force 17 Jan 2026. The treaty covers Areas Beyond National Jurisdiction (~61% of the ocean) and rests on four pillars: marine genetic resources, area-based management tools/MPAs, EIAs, and capacity-building/tech transfer.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Cali Fund', launched at the resumed COP16 session (Rome, February 2025), is associated with:",
+    "options": ["Loss and damage payments for climate disasters", "Private-sector benefit-sharing from Digital Sequence Information (DSI) on genetic resources", "Replenishment of the Montreal Protocol fund", "Compensation for plastic-pollution victims"],
+    "answer": 1,
+    "explanation": "The Cali Fund (with UNDP + UNEP) channels private-sector DSI benefit-sharing — firms using genetic sequence data contribute to biodiversity conservation. COP16.2 (Rome) also adopted the KMGBF Monitoring Framework and a path to $200 bn/yr by 2030. Loss & damage belongs to the UNFCCC track, not the CBD.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Gogabeel Lake, designated a Ramsar site in November 2025 and Bihar's 6th Ramsar site, is located in which district?",
+    "options": ["Begusarai", "Jamui", "Katihar", "Buxar"],
+    "answer": 2,
+    "explanation": "Gogabeel is an oxbow lake in Katihar district, between the Mahananda and the Ganga. The distractors are Bihar's other Ramsar districts: Begusarai = Kanwar/Kabar Tal (2020); Jamui = Nagi & Nakti (2024); Buxar = Gokul Jalashay (Sep 2025).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "With the notification of Madhav National Park (Madhya Pradesh) in March 2025, the total number of tiger reserves in India became:",
+    "options": ["55", "56", "57", "58"],
+    "answer": 3,
+    "explanation": "Madhav NP (Shivpuri, MP) is the 58th tiger reserve; the 56th was Guru Ghasidas–Tamor Pingla (Chhattisgarh, Nov 2024 — India's 3rd-largest at 2,829.38 sq km) and the 57th Ratapani (MP, Dec 2024). Madhav contains the Sakhya Sagar Ramsar site — a favourite two-in-one fact.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "In February 2026, nine cheetahs that arrived in India under Project Cheetah were sourced from:",
+    "options": ["Namibia", "South Africa", "Botswana", "Kenya"],
+    "answer": 2,
+    "explanation": "Botswana (9 cheetahs: 6 female, 3 male) became the third source country after Namibia (8, Sep 2022) and South Africa (12, Feb 2023). As of May 2026 India had 57 cheetahs — 54 at Kuno NP and 3 at Gandhi Sagar WLS (both MP); two Botswana animals entered the open forest on 10 May 2026.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "India achieved 50% of its cumulative installed electricity capacity from non-fossil sources in:",
+    "options": ["January 2026, five months after the 2030 deadline", "November 2024, at COP29", "June 2025 — five years ahead of the 2030 NDC target", "April 2023, when the CCTS was notified"],
+    "answer": 2,
+    "explanation": "The 50% non-fossil milestone came in June 2025, five years ahead of the Panchamrit/NDC target. By Nov 2025 non-fossil capacity stood at 262.74 GW (51.5% of 509.64 GW); the 2030 goal is 500 GW non-fossil. The CCTS was notified in June 2023, not April.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under India's Carbon Credit Trading Scheme (CCTS), whose compliance obligations took effect from FY 2025-26, the designated administrator is:",
+    "options": ["Central Electricity Regulatory Commission (CERC)", "Bureau of Energy Efficiency (BEE)", "Grid Controller of India", "MoEFCC"],
+    "answer": 1,
+    "explanation": "BEE administers the CCTS (notified 28 Jun 2023, Ministry of Power). The traps swap roles: CERC is the regulator of the carbon market and the Grid Controller of India is the registry. 490 obligated entities are now covered (282 in Oct 2025 + 208 in Jan 2026).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The WMO State of the Global Climate 2025 report (released 23 March 2026) concluded that:",
+    "options": ["2025 was the hottest year on record, at +1.55 °C above pre-industrial levels", "2025 was the second or third hottest year on record (~+1.43 °C above 1850–1900), and 2015–2025 were the 11 hottest years on record", "Global warming paused in 2025 owing to La Niña conditions", "Earth's energy imbalance fell to a record low in 2025"],
+    "answer": 1,
+    "explanation": "2024 remains the hottest year (trap A); La Niña did not stop 2025 from ranking second/third hottest (trap C); and Earth's energy imbalance hit a record high, not low (trap D inverted). Ocean heat content also set a record; sea level is ~11 cm above 1993.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which statement about Kaimur (Bihar) and India's tiger-reserve list is correct?",
+    "options": ["Kaimur was notified as India's 58th tiger reserve in March 2025", "Bihar currently has two notified tiger reserves", "The Centre gave in-principle approval (Oct 2024) and the Bihar government approved the upgrade (Dec 2025), but formal NTCA notification was still pending as of mid-2026", "The NTCA rejected the Kaimur proposal in 2025"],
+    "answer": 2,
+    "explanation": "Kaimur's upgrade is approved at state level but NOT yet notified — so Bihar still has only one notified tiger reserve (Valmiki TR). Option A misassigns the 58th slot, which belongs to Madhav NP (MP); option D is false — the proposal is with NTCA, not rejected. Kaimur TR will be ~4× the area of VTR.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Kanwar Lake (Kabar Tal, Begusarai) is best described as:",
+    "options": ["Asia's largest freshwater oxbow lake and Bihar's first Ramsar site (2020)", "India's largest freshwater lake", "Bihar's newest Ramsar site, designated in 2025", "A saltwater lagoon on the Montreux Record"],
+    "answer": 0,
+    "explanation": "Kanwar/Kabar Tal is Asia's largest freshwater oxbow lake and a key wintering ground for migratory waterbirds (incl. bar-headed geese); it became Bihar's first Ramsar site in 2020. Wular (J&K) is India's largest freshwater lake (trap B); the newest Bihar site is Gogabeel (Nov 2025); India's Montreux Record sites are Keoladeo NP and Loktak Lake, not Kanwar.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "What was the outcome of the INC-5.2 session (Geneva, August 2025) on the proposed global plastics treaty?",
+    "options": ["It adopted a binding treaty capping virgin-plastic production", "It was postponed and shifted to Busan", "It created the Cali Fund for plastic recycling", "It ended without an agreed text — deadlock between production-cap supporters and a waste-management-only bloc"],
+    "answer": 3,
+    "explanation": "INC-5.2 collapsed over the core split: binding caps on virgin-plastic production (EU/High-Ambition Coalition) vs a waste-management-only approach (oil-producing states). Option B reverses the sequence — INC-5 at Busan (Dec 2024) had already adjourned without a deal; option C mixes up the Cali Fund, which is about biodiversity DSI. INC-5.3 (Feb 2026) elected Julio Cordano (Chile) as the new chair.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "India's first comprehensive river-dolphin survey (released March 2025, WII-led under Project Dolphin) estimated the national river-dolphin population at:",
+    "options": ["6,327 dolphins — 6,324 Ganges + 3 Indus", "3,682 dolphins in the Ganga basin", "1,289 dolphins across 8 states", "6,327 Gangetic + 635 Indus dolphins"],
+    "answer": 0,
+    "explanation": "6,327 total: 6,324 Ganges-system + just 3 Indus dolphins, across 8 states (Assam 635 was the state tally, not the Indus count — trap D). Option B is the cross-number trap: 3,682 is India's 2022 tiger census. The Gangetic dolphin is the National Aquatic Animal; Bihar hosts the Vikramshila sanctuary and the National Dolphin Research Centre, Patna.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

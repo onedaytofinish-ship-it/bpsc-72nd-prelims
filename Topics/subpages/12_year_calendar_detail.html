@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>12 - Year Calendar of Important Days — Master Statics | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .flow-node a:hover {
+    text-decoration: underline;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="../_assets/navbar.css">
+</head>
+<body>
+
+<a href="../12_important_days_and_themes.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Topic #12 Main Page</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #12 • DEEP DIVE</div>
+  <div class="topic-title">Year Calendar of Important Days — Master Statics (Jan–Dec)</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Statics + Background</span>
+    <span class="meta-tag">🎯 Fixed dates, first-observance years, theme-setters</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧭</span> Core Concepts — How an "Important Day" Is Born</div>
+  <ul>
+    <li><strong>UN international days/weeks/years</strong> are proclaimed by a <strong>UN General Assembly resolution</strong> (sometimes by specialised agencies — UNESCO, WHO, FAO, UNEP — for their own domains). The proclamation fixes the date permanently; the <strong>annual theme</strong> is then chosen each year by the lead agency. Example: UNGA proclaimed the International Day of Yoga in 2014 (resolution piloted by India, adopted by consensus); the Ministry of Ayush announces each year's theme.</li>
+    <li><strong>National days (India)</strong> are declared by the Union Government (gazette notification / cabinet decision) — e.g., Constitution Day (2015), National Space Day (2023), Samvidhan Hatya Diwas (2024), Good Governance Day (2014).</li>
+    <li><strong>Theme-issuing bodies (matching bank):</strong> UNEP → World Environment Day • WHO → World Health Day • UN-Water → World Water Day • UNESCO → International Literacy Day • FAO → World Food Day • IOC → Olympic Day • EARTHDAY.ORG (NGO) → Earth Day • ECI → National Voters' Day • DST → National Science Day • Ministry of Ayush → IDY • IEI → Engineers' Day.</li>
+    <li><strong>BPSC pattern:</strong> (1) exact date of a day ("Ozone day is celebrated on:" — 71st); (2) year-specific theme ("theme of International Olympic Day 2024" — 70th); (3) day↔date or day↔theme matching; (4) "which pair is incorrect" traps using adjacent-year themes.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📅</span> Month-Wise Master Calendar</div>
+
+  <h3>January</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>4 Jan</td><td>World Braille Day</td><td>Louis Braille's birthday (b. 1809)</td></tr>
+    <tr><td>9 Jan</td><td>Pravasi Bharatiya Divas (NRI Day)</td><td>Gandhi's return from South Africa (1915); since 2003</td></tr>
+    <tr><td>12 Jan</td><td>National Youth Day</td><td>Swami Vivekananda's birth (1863); since 1984</td></tr>
+    <tr><td>15 Jan</td><td>Army Day</td><td>Gen. K.M. Cariappa became first Indian C-in-C (1949)</td></tr>
+    <tr><td>23 Jan</td><td>Parakram Diwas</td><td>Netaji Subhas Chandra Bose's birth (1897); since 2021</td></tr>
+    <tr><td>24 Jan</td><td>National Girl Child Day</td><td>Since 2008 (MWCD)</td></tr>
+    <tr><td>25 Jan</td><td>National Voters' Day • National Tourism Day (India)</td><td>ECI founded 25 Jan 1950; NVD since 2011</td></tr>
+    <tr><td>26 Jan</td><td>Republic Day • International Customs Day</td><td>Constitution in force 1950; 2026 = 77th RD</td></tr>
+    <tr><td>30 Jan</td><td>Martyrs' Day (Shaheed Diwas)</td><td>Mahatma Gandhi assassinated 1948</td></tr>
+  </table>
+
+  <h3>February</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>2 Feb</td><td>World Wetlands Day</td><td>Ramsar Convention signed 1971 (Ramsar, Iran)</td></tr>
+    <tr><td>4 Feb</td><td>World Cancer Day</td><td>UICC-led; since 2000</td></tr>
+    <tr><td>10 Feb</td><td>National Deworming Day</td><td>MoHFW initiative</td></tr>
+    <tr><td>13 Feb</td><td>World Radio Day</td><td>UNESCO 2011; UN Radio's birth (1946)</td></tr>
+    <tr><td>20 Feb</td><td>World Day of Social Justice</td><td>UNGA 2007</td></tr>
+    <tr><td>21 Feb</td><td>International Mother Language Day</td><td>UNESCO; honours 1952 Bengali Language Movement martyrs (Dhaka)</td></tr>
+    <tr><td>28 Feb</td><td>National Science Day</td><td>Raman Effect discovered 28 Feb 1928; NSD since 1986</td></tr>
+  </table>
+
+  <h3>March</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>3 Mar</td><td>World Wildlife Day</td><td>CITES signed 1973; UNGA 2013</td></tr>
+    <tr><td>8 Mar</td><td>International Women's Day</td><td>UN observance since 1975</td></tr>
+    <tr><td>15 Mar</td><td>World Consumer Rights Day</td><td>JFK's consumer-rights address, 1962</td></tr>
+    <tr><td>20 Mar</td><td>International Day of Happiness • World Sparrow Day</td><td>UNGA 2012 / Nature Forever Society</td></tr>
+    <tr><td>21 Mar</td><td>World Forestry Day • World Poetry Day • Int'l Day for Elimination of Racial Discrimination • <strong>World Glacier Day (first: 2025)</strong></td><td>Sharpeville massacre 1960 (racial discrimination day)</td></tr>
+    <tr><td>22 Mar</td><td>World Water Day • <strong>Bihar Diwas</strong></td><td>UN 1993 / Bihar separated from Bengal, 22 Mar 1912</td></tr>
+    <tr><td>23 Mar</td><td>Shaheed Diwas • World Meteorological Day</td><td>Bhagat Singh, Rajguru, Sukhdev hanged 1931 / WMO 1950</td></tr>
+    <tr><td>24 Mar</td><td>World TB Day</td><td>Koch announced the TB bacillus, 1882</td></tr>
+  </table>
+
+  <h3>April</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>2 Apr</td><td>World Autism Awareness Day</td><td>UNGA 2007</td></tr>
+    <tr><td>7 Apr</td><td>World Health Day</td><td>WHO constitution in force, 1948</td></tr>
+    <tr><td>14 Apr</td><td>Ambedkar Jayanti</td><td>Dr. B.R. Ambedkar born 1891</td></tr>
+    <tr><td>18 Apr</td><td>World Heritage Day</td><td>ICOMOS 1982</td></tr>
+    <tr><td>21 Apr</td><td>National Civil Services Day</td><td>Sardar Patel's address to probationers, 1947 ("steel frame")</td></tr>
+    <tr><td>22 Apr</td><td>Earth Day</td><td>First observed 1970 (USA); 2025 = 55th anniversary</td></tr>
+    <tr><td>23 Apr</td><td>World Book and Copyright Day</td><td>UNESCO 1995; Cervantes-Shakespeare anniversary</td></tr>
+    <tr><td>24 Apr</td><td>National Panchayati Raj Day</td><td>73rd Constitutional Amendment in force, 1993</td></tr>
+    <tr><td>25 Apr</td><td>World Malaria Day</td><td>WHO</td></tr>
+  </table>
+
+  <h3>May</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>1 May</td><td>International Labour Day • Maharashtra &amp; Gujarat Day</td><td>Haymarket affair, Chicago 1886 / states formed 1960</td></tr>
+    <tr><td>3 May</td><td>World Press Freedom Day</td><td>UNGA 1993 (Windhoek Declaration)</td></tr>
+    <tr><td>8 May</td><td>World Red Cross Day</td><td>Henry Dunant's birth (1828)</td></tr>
+    <tr><td>11 May</td><td>National Technology Day</td><td>Pokhran-II tests, 11 May 1998</td></tr>
+    <tr><td>17 May</td><td>World Telecommunication Day</td><td>ITU founded 1865</td></tr>
+    <tr><td>21 May</td><td>Anti-Terrorism Day (India)</td><td>Rajiv Gandhi assassinated 1991</td></tr>
+    <tr><td>22 May</td><td>International Day for Biological Diversity</td><td>CBD text adopted 1992</td></tr>
+    <tr><td>25 May</td><td><strong>World Football Day</strong></td><td>New — first observed 2024 (centenary of football at the 1924 Paris Olympics)</td></tr>
+    <tr><td>29 May</td><td>International Everest Day</td><td>Hillary–Tenzing ascent, 1953</td></tr>
+    <tr><td>30 May</td><td><strong>International Day of Potato</strong></td><td>New — first observed 2024 (FAO, championed by Peru)</td></tr>
+    <tr><td>31 May</td><td>World No Tobacco Day</td><td>WHO 1987</td></tr>
+  </table>
+
+  <h3>June</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>5 Jun</td><td>World Environment Day</td><td>Stockholm Conference 1972; UN-led since 1973</td></tr>
+    <tr><td>8 Jun</td><td>World Oceans Day</td><td>Proposed at Rio Earth Summit 1992; UN 2008</td></tr>
+    <tr><td>12 Jun</td><td>World Day Against Child Labour</td><td>ILO 2002</td></tr>
+    <tr><td>14 Jun</td><td>World Blood Donor Day</td><td>Karl Landsteiner's birth (1868)</td></tr>
+    <tr><td>20 Jun</td><td>World Refugee Day</td><td>UNGA 2000 (50 years of the 1951 Convention)</td></tr>
+    <tr><td>21 Jun</td><td><strong>International Day of Yoga</strong></td><td>UNGA resolution Dec 2014 (India's proposal, record co-sponsorship); first observed 2015; summer solstice</td></tr>
+    <tr><td>23 Jun</td><td>International Olympic Day • UN Public Service Day</td><td>IOC founded at Sorbonne, Paris, 23 Jun 1894</td></tr>
+    <tr><td>25 Jun</td><td><strong>Samvidhan Hatya Diwas (India)</strong></td><td>Emergency proclaimed 25 Jun 1975; notified July 2024; Emergency@50: 25 Jun 2024 → 25 Jun 2026</td></tr>
+    <tr><td>26 Jun</td><td>International Day Against Drug Abuse and Illicit Trafficking</td><td>UNGA 1987</td></tr>
+  </table>
+
+  <h3>July</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>1 Jul</td><td>National Doctors' Day (India)</td><td>Dr. Bidhan Chandra Roy (b. 1882) — physician &amp; 2nd CM of West Bengal, Bharat Ratna</td></tr>
+    <tr><td>11 Jul</td><td>World Population Day</td><td>"Day of Five Billion", 1987</td></tr>
+    <tr><td>17 Jul</td><td>World Day for International Justice</td><td>Rome Statute adopted 1998 (ICC)</td></tr>
+    <tr><td>26 Jul</td><td>Kargil Vijay Diwas</td><td>Operation Vijay, 1999 — <em>also the BPSC 72nd Prelims exam date</em></td></tr>
+    <tr><td>28 Jul</td><td>World Hepatitis Day</td><td>Dr. Baruch Blumberg's birth (Nobel laureate)</td></tr>
+    <tr><td>29 Jul</td><td>International Tiger Day</td><td>St. Petersburg Tiger Summit, 2010</td></tr>
+  </table>
+
+  <h3>August</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>6 Aug</td><td>Hiroshima Day</td><td>Atomic bombing, 1945</td></tr>
+    <tr><td>9 Aug</td><td>Nagasaki Day • Quit India Day • Int'l Day of World's Indigenous Peoples</td><td>1945 / 1942 (August Kranti, Bombay's Gowalia Tank)</td></tr>
+    <tr><td>12 Aug</td><td>International Youth Day • World Elephant Day</td><td>UNGA 1999 / 2012</td></tr>
+    <tr><td>15 Aug</td><td>Independence Day</td><td>1947; 2025 = 79th ID, theme "Naya Bharat"</td></tr>
+    <tr><td>19 Aug</td><td>World Humanitarian Day • World Photography Day</td><td>Baghdad UN HQ bombing, 2003</td></tr>
+    <tr><td>20 Aug</td><td>Sadbhavana Diwas</td><td>Rajiv Gandhi's birth (1944)</td></tr>
+    <tr><td>23 Aug</td><td><strong>National Space Day (India)</strong></td><td>Chandrayaan-3 landing, 23 Aug 2023; first observed 2024</td></tr>
+    <tr><td>29 Aug</td><td>National Sports Day</td><td>Major Dhyan Chand born 1905; since 2012; 2025 = 120th anniversary</td></tr>
+  </table>
+
+  <h3>September</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>2 Sep</td><td>World Coconut Day</td><td>APCC</td></tr>
+    <tr><td>5 Sep</td><td>Teachers' Day (India)</td><td>Dr. S. Radhakrishnan born 1888 (first VP, 2nd President); since 1962</td></tr>
+    <tr><td>8 Sep</td><td>International Literacy Day</td><td>UNESCO 1966</td></tr>
+    <tr><td>14 Sep</td><td>Hindi Diwas</td><td>Constituent Assembly adopted Hindi (Devanagari) as official language, 1949</td></tr>
+    <tr><td>15 Sep</td><td>Engineers' Day • International Day of Democracy</td><td>Sir M. Visvesvaraya born 1861 / UNGA 2007</td></tr>
+    <tr><td>16 Sep</td><td><strong>World Ozone Day</strong></td><td>Montreal Protocol signed 16 Sep 1987 — 71st BPSC PYQ</td></tr>
+    <tr><td>21 Sep</td><td>International Day of Peace • World Alzheimer's Day</td><td>UNGA 1981</td></tr>
+    <tr><td>27 Sep</td><td>World Tourism Day</td><td>UNWTO statutes adopted 1970; since 1980</td></tr>
+    <tr><td>28 Sep</td><td>World Rabies Day</td><td>Louis Pasteur's death anniversary</td></tr>
+  </table>
+
+  <h3>October</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>2 Oct</td><td>Gandhi Jayanti • International Day of Non-Violence</td><td>Gandhi born 1869; UNGA 2007</td></tr>
+    <tr><td>8 Oct</td><td>Indian Air Force Day</td><td>IAF raised 1932</td></tr>
+    <tr><td>9 Oct</td><td>World Post Day</td><td>UPU established 1874</td></tr>
+    <tr><td>10 Oct</td><td>World Mental Health Day</td><td>WFMH 1992</td></tr>
+    <tr><td>11 Oct</td><td>International Day of the Girl Child</td><td>UNGA 2011</td></tr>
+    <tr><td>15 Oct</td><td>World Students' Day (APJ Abdul Kalam's birth, 1931) • Global Handwashing Day</td><td>Kalam link is Indian observance</td></tr>
+    <tr><td>16 Oct</td><td>World Food Day</td><td>FAO founded 1945 — the Ozone-Day trap date</td></tr>
+    <tr><td>23 Oct</td><td><strong>International Snow Leopard Day</strong></td><td>UNGA-resolution observance since 2024 (Kyrgyz-led)</td></tr>
+    <tr><td>24 Oct</td><td><strong>United Nations Day</strong> • World Development Information Day</td><td>UN Charter in force 1945; 2025 = UN@80</td></tr>
+    <tr><td>31 Oct</td><td>National Unity Day (Rashtriya Ekta Diwas)</td><td>Sardar Patel born 1875; since 2014; Statue of Unity unveiled 2018</td></tr>
+  </table>
+
+  <h3>November</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>9 Nov</td><td>National Legal Services Day</td><td>Legal Services Authorities Act commenced, 1995</td></tr>
+    <tr><td>11 Nov</td><td>National Education Day</td><td>Maulana Abul Kalam Azad born 1888 (first Education Minister)</td></tr>
+    <tr><td>12 Nov</td><td>World Pneumonia Day</td><td>Since 2009</td></tr>
+    <tr><td>14 Nov</td><td>Children's Day • World Diabetes Day</td><td>Nehru born 1889 / Banting's birth (insulin co-discoverer)</td></tr>
+    <tr><td>19 Nov</td><td>World Toilet Day</td><td>UNGA 2013</td></tr>
+    <tr><td>25 Nov</td><td>Int'l Day for Elimination of Violence Against Women</td><td>Mirabal sisters assassinated 1960</td></tr>
+    <tr><td>26 Nov</td><td><strong>Constitution Day (Samvidhan Divas)</strong> • National Milk Day</td><td>Constitution adopted 1949; day since 2015 / Dr. Verghese Kurien born 1921</td></tr>
+  </table>
+
+  <h3>December</h3>
+  <table>
+    <tr><th>Date</th><th>Day</th><th>Hook / First Observed</th></tr>
+    <tr><td>1 Dec</td><td>World AIDS Day</td><td>Since 1988</td></tr>
+    <tr><td>2 Dec</td><td>National Pollution Control Day</td><td>Bhopal gas tragedy, 2-3 Dec 1984</td></tr>
+    <tr><td>3 Dec</td><td>International Day of Persons with Disabilities</td><td>UNGA 1992</td></tr>
+    <tr><td>4 Dec</td><td>Navy Day</td><td>Operation Trident, 1971 (missile boats hit Karachi)</td></tr>
+    <tr><td>7 Dec</td><td>Armed Forces Flag Day • International Civil Aviation Day</td><td>Since 1949 / ICAO 1944</td></tr>
+    <tr><td>9 Dec</td><td>International Anti-Corruption Day</td><td>UNCAC opened for signature, 2003</td></tr>
+    <tr><td>10 Dec</td><td>Human Rights Day</td><td>UDHR adopted 1948; 2025 theme "Human Rights, Our Everyday Essentials"</td></tr>
+    <tr><td>11 Dec</td><td>International Mountain Day • UNICEF Day</td><td>UNGA 2003 / UNICEF created 1946</td></tr>
+    <tr><td>14 Dec</td><td>National Energy Conservation Day</td><td>BEE-led</td></tr>
+    <tr><td>16 Dec</td><td>Vijay Diwas</td><td>1971 surrender at Dhaka (~93,000 troops); 2025 = 54th anniversary</td></tr>
+    <tr><td>18 Dec</td><td>Minorities Rights Day (India)</td><td>UN Minorities Declaration, 1992</td></tr>
+    <tr><td>21 Dec</td><td><strong>World Meditation Day</strong> • <strong>World Basketball Day</strong></td><td>Both new: Meditation first 2024 (India co-sponsored); Basketball first 2023 (game invented 21 Dec 1891)</td></tr>
+    <tr><td>22 Dec</td><td>National Mathematics Day</td><td>Srinivasa Ramanujan born 1887; since 2012</td></tr>
+    <tr><td>23 Dec</td><td>Kisan Diwas</td><td>Chaudhary Charan Singh (5th PM) born 1902; since 2001</td></tr>
+    <tr><td>24 Dec</td><td>National Consumer Rights Day (India)</td><td>Consumer Protection Act assent, 1986</td></tr>
+    <tr><td>25 Dec</td><td>Good Governance Day</td><td>Atal Bihari Vajpayee born 1924; since 2014</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Mnemonic &amp; Trap Bank</div>
+  <div class="mnemonic-box">
+    <strong>🧠 The Twin-Date Traps BPSC Loves</strong><br>
+    • 21 June = <strong>Yoga</strong> vs 21 December = <strong>Meditation + Basketball</strong><br>
+    • 16 September = <strong>Ozone</strong> vs 16 October = <strong>Food</strong><br>
+    • 23 June = <strong>Olympic</strong> vs 23 October = <strong>Snow Leopard</strong><br>
+    • 25 January = <strong>Voters'</strong> vs 25 June = <strong>Samvidhan Hatya</strong> vs 25 December = <strong>Good Governance</strong><br>
+    • 22 March = <strong>Water + Bihar Diwas</strong> vs 22 April = <strong>Earth</strong> vs 22 December = <strong>Mathematics</strong>
+  </div>
+  <ul>
+    <li><strong>First-observance years worth memorising:</strong> Earth Day 1970 • WED 1973 • Women's Day (UN) 1975 • NVD 2011 • Sports Day 2012 • IDY 2015 • Constitution Day 2015 • Unity Day 2014 • Space Day 2024 • Meditation Day 2024 • Football/Potato Days 2024 • Snow Leopard Day 2024 • Basketball Day 2023 • Glacier Day 2025.</li>
+    <li><strong>Theme-setter traps:</strong> Earth Day's theme comes from EARTHDAY.ORG (an NGO), not UNEP; Olympic Day's theme from the IOC; NVD's theme from the ECI. BPSC can ask "who announces the theme".</li>
+    <li><strong>Ordinal arithmetic:</strong> Nth edition in year Y = Y − (first year) + 1. Republic Day: 2026 − 1950 + 1 = 77th. Independence Day: 2025 − 1947 + 1 = 79th. UN Day: 2025 − 1945 = 80th (anniversaries don't add 1).</li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #12 Deep Dive: Year Calendar of Important Days<br>
+  📌 Return to <a href="../12_important_days_and_themes.html" style="color:#2563eb;">Topic #12 main page</a> for the Fact Matrix, Bihar Connection and MCQ set.
+</div>
+
+<script src="../_assets/navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+[
+  {
+    "q": "The Civil Disobedience Movement was launched by Gandhi with the Dandi Salt March in which year?",
+    "options": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "answer": 1,
+    "explanation": "The Civil Disobedience Movement was launched on March 12, 1930, with the Dandi Salt March from Sabarmati Ashram to Dandi (Gujarat coast), 240 miles. Gandhi reached Dandi on April 6, 1930, and broke the salt law by making salt from seawater. This symbolic act launched the Civil Disobedience Movement, which lasted until 1934.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Purna Swaraj (complete independence) was demanded at which INC session, leading to the Civil Disobedience Movement?",
+    "options": [
+      "1929 Lahore session (Nehru presided)",
+      "1928 Calcutta session",
+      "1930 Lahore session",
+      "1931 Karachi session"
+    ],
+    "answer": 0,
+    "explanation": "The Purna Swaraj (complete independence) was demanded at the 1929 Lahore session of the INC, presided over by Jawaharlal Nehru. January 26, 1930 was declared 'Independence Day.' This was a shift from dominion status to complete independence. The Civil Disobedience Movement (1930) followed. January 26 was later chosen as India's Republic Day (1950).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Simon Commission was boycotted by Indians because it had no Indian member. In which year was it appointed?",
+    "options": [
+      "1927",
+      "1928",
+      "1929",
+      "1930"
+    ],
+    "answer": 0,
+    "explanation": "The Simon Commission was appointed in 1927 (arrived in India February 1928) to review the Government of India Act 1919 and recommend constitutional reforms. It was boycotted by all Indian parties because it had NO Indian member (7 British members). The slogan 'Simon Go Back' was raised. The boycott was led by the INC, Muslim League, and Hindu Mahasabha. The Commission's report (1930) led to the Round Table Conferences.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "How many Round Table Conferences were held, and in which years?",
+    "options": [
+      "Three: 1930-31, 1931, 1932",
+      "Two: 1930, 1931",
+      "Three: 1929, 1930, 1931",
+      "One: 1931"
+    ],
+    "answer": 0,
+    "explanation": "Three Round Table Conferences were held in London: (1) First Round Table Conference (November 1930 - January 1931) — the INC boycotted it (Civil Disobedience was on); (2) Second Round Table Conference (September - December 1931) — Gandhi attended as the sole INC representative; (3) Third Round Table Conference (November - December 1932) — the INC boycotted (Civil Disobedience resumed). The conferences discussed constitutional reforms, leading to the Government of India Act 1935.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Round Table Conference was attended by Gandhi as the sole INC representative?",
+    "options": [
+      "First (1930-31)",
+      "Second (1931)",
+      "Third (1932)",
+      "All three"
+    ],
+    "answer": 1,
+    "explanation": "Gandhi attended the Second Round Table Conference (September - December 1931) as the sole INC representative. He was sent after the Gandhi-Irwin Pact (March 1931). The conference was inconclusive — Gandhi's demand for a unified India was opposed by the Muslim League, the Ambedkar group, and the princes. Gandhi returned disappointed. The Civil Disobedience Movement was resumed in January 1932.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Gandhi-Irwin Pact (1931) led to which outcome?",
+    "options": [
+      "Gandhi's participation in the Second Round Table Conference",
+      "The withdrawal of the Non-Cooperation Movement",
+      "The Poona Pact",
+      "The August Offer"
+    ],
+    "answer": 0,
+    "explanation": "The Gandhi-Irwin Pact (March 5, 1931) was signed between Gandhi and Lord Irwin (Viceroy). Gandhi agreed to suspend the Civil Disobedience Movement and participate in the Second Round Table Conference (London, September 1931). In return, the British agreed to release political prisoners and allow salt collection by coastal villagers. The Second Round Table Conference (1931) was inconclusive — Gandhi returned disappointed.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Nehru Report (1928) was a response to which event?",
+    "options": [
+      "The Simon Commission",
+      "The Government of India Act 1919",
+      "The Round Table Conference",
+      "The August Offer"
+    ],
+    "answer": 0,
+    "explanation": "The Nehru Report (1928) was a response to the Simon Commission's lack of Indian members. Drafted by a committee headed by Motilal Nehru (with his son Jawaharlal Nehru and Subhash Chandra Bose), it was the first Indian attempt to draft a constitution for India. It recommended dominion status, fundamental rights, and a unified electorate (no separate electorates). The Muslim League rejected it (Jinnah's 14 points were a counter). The report was a milestone in Indian constitutional thinking.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Government of India Act 1935 was based on the recommendations of which commission/conference?",
+    "options": [
+      "Simon Commission and Round Table Conferences",
+      "Simon Commission only",
+      "Round Table Conferences only",
+      "Cripps Mission"
+    ],
+    "answer": 0,
+    "explanation": "The Government of India Act 1935 was based on the Simon Commission report (1930) and the three Round Table Conferences (1930-1932). It was the longest Act of the British Parliament (475 sections). Key features: provincial autonomy (diarchy abolished in provinces), diarchy at the centre (never implemented), the Reserve Bank of India, federal court, and the Joint Parliamentary Committee. It was the constitutional framework for India until 1950.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following was NOT a key feature of the Government of India Act 1935?",
+    "options": [
+      "Provincial autonomy with diarchy at the centre",
+      "All-India Federation (never implemented)",
+      "Universal adult franchise",
+      "Reserve Bank of India established"
+    ],
+    "answer": 2,
+    "explanation": "The Government of India Act 1935 did NOT introduce universal adult franchise — voting was limited to about 10% of the population (based on property and education qualifications). Its key features were: (1) provincial autonomy (diarchy abolished in provinces); (2) diarchy at the centre (never implemented); (3) All-India Federation (never implemented); (4) Reserve Bank of India (1935); (5) Federal Court (1937); (6) Joint Parliamentary Committee.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Poona Pact (1932) was signed between Gandhi and whom?",
+    "options": [
+      "B.R. Ambedkar",
+      "Lord Irwin",
+      "Lord Linlithgow",
+      "Motilal Nehru"
+    ],
+    "answer": 0,
+    "explanation": "The Poona Pact (September 24, 1932) was signed between Gandhi (on hunger strike in Yerwada Jail) and B.R. Ambedkar. The British had announced the 'Communal Award' (August 1932) with separate electorates for the Depressed Classes. Gandhi opposed this (he believed it would divide Hindu society) and went on a fast unto death. Ambedkar relented and signed the Poona Pact — replacing separate electorates with reserved seats for the Depressed Classes within the Hindu electorate.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Communal Award (August 1932) was announced by which British Prime Minister?",
+    "options": [
+      "Ramsay MacDonald",
+      "Stanley Baldwin",
+      "Winston Churchill",
+      "Neville Chamberlain"
+    ],
+    "answer": 0,
+    "explanation": "The Communal Award was announced by British Prime Minister Ramsay MacDonald on August 16, 1932. It granted separate electorates to the Depressed Classes (Dalits) and other minorities. Gandhi opposed this for the Depressed Classes (he went on a fast unto death at Yerwada Jail), leading to the Poona Pact (September 1932) with Ambedkar. The Communal Award was part of the broader British strategy of divide-and-rule through separate electorates.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the Viceroy of India during the Civil Disobedience Movement (1930-1934)?",
+    "options": [
+      "Lord Irwin",
+      "Lord Willingdon",
+      "Lord Linlithgow",
+      "Lord Reading"
+    ],
+    "answer": 0,
+    "explanation": "Lord Irwin (Viceroy 1926-1931) was the Viceroy during the early Civil Disobedience Movement (1930-1931). He signed the Gandhi-Irwin Pact (March 1931). Lord Willingdon (1931-1936) succeeded him and handled the later phase of the movement. Lord Linlithgow (1936-1943) was Viceroy during WWII and the Quit India Movement.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Civil Disobedience Movement was suspended after the Gandhi-Irwin Pact (1931) and resumed in which year?",
+    "options": [
+      "January 1932",
+      "1933",
+      "1934",
+      "1935"
+    ],
+    "answer": 0,
+    "explanation": "The Civil Disobedience Movement was suspended after the Gandhi-Irwin Pact (March 1931) for Gandhi to attend the Second Round Table Conference (September 1931). The conference was inconclusive; Gandhi returned disappointed. The movement was resumed in January 1932 and continued until 1934 (formally withdrawn in April 1934).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The First Round Table Conference (November 1930 - January 1931) was boycotted by which party?",
+    "options": [
+      "Indian National Congress",
+      "Muslim League",
+      "Hindu Mahasabha",
+      "British Conservative Party"
+    ],
+    "answer": 0,
+    "explanation": "The First Round Table Conference (November 1930 - January 1931) was boycotted by the Indian National Congress — the Civil Disobedience Movement was on (Gandhi was in jail). The Muslim League, Hindu Mahasabha, the Depressed Classes (Ambedkar), and the princes attended. The conference discussed federal structure and constitutional reforms, but without the INC it was inconclusive. It was inaugurated by King George V.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Jinnah's 'Fourteen Points' (1929) were a response to which event?",
+    "options": [
+      "The Nehru Report",
+      "The Simon Commission",
+      "The Government of India Act 1919",
+      "The Round Table Conference"
+    ],
+    "answer": 0,
+    "explanation": "Jinnah's 'Fourteen Points' (1929) were a response to the Nehru Report (1928), which had recommended a unified electorate (no separate electorates). Jinnah's 14 Points demanded: separate electorates for Muslims, one-third Muslim representation in legislatures, federal system with provincial autonomy, and other Muslim safeguards. The 14 Points became the basis of the Muslim League's future demands, culminating in the Pakistan demand (1940).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about the Government of India Act 1935: 1. It granted provincial autonomy. 2. It introduced diarchy at the centre. 3. It introduced universal adult franchise. Which is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is WRONG — the Act did NOT introduce universal adult franchise; voting was limited to about 10% of the population (based on property and education qualifications). The Act granted provincial autonomy (diarchy abolished in provinces) and introduced diarchy at the centre (which was never implemented). Universal adult franchise came only with the Indian Constitution (1950).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange in chronological order: 1. Simon Commission 2. Nehru Report 3. Civil Disobedience Movement 4. Government of India Act 1935",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4"
+    ],
+    "answer": 0,
+    "explanation": "Simon Commission (1927, arrived 1928) → Nehru Report (1928) → Civil Disobedience Movement (March 1930) → Government of India Act 1935. The Simon Commission triggered the Nehru Report (Indian counter); the Civil Disobedience Movement pressured the British; the Government of India Act 1935 was the constitutional outcome.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the Chairman of the Simon Commission?",
+    "options": [
+      "Sir John Simon",
+      "Lord Irwin",
+      "Ramsay MacDonald",
+      "Lord Reading"
+    ],
+    "answer": 0,
+    "explanation": "Sir John Simon was the Chairman of the Simon Commission (officially the Indian Statutory Commission, appointed 1927, arrived in India February 1928). It had 7 British members and NO Indian member — which is why it was boycotted by all Indian parties. The slogan 'Simon Go Back' was raised at its arrival. Its report (1930) led to the Round Table Conferences.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Karachi Resolution (1931) of the INC is famous for what?",
+    "options": [
+      "It committed the INC to fundamental rights and economic programme",
+      "It demanded Purna Swaraj",
+      "It launched the Civil Disobedience Movement",
+      "It signed the Poona Pact"
+    ],
+    "answer": 0,
+    "explanation": "The Karachi Resolution (March 1931, at the Karachi INC session, presided by Vallabhbhai Patel) committed the INC to fundamental rights (including freedom of speech, equality before law, and the protection of minorities) and an economic programme (including land reforms, living wages, and workers' rights). It was the first INC resolution to outline a vision for post-independence India. Gandhi was released from jail to attend this session after the Gandhi-Irwin Pact.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's connection with the Civil Disobedience Movement was through:",
+    "options": [
+      "Bihar's salt satyagraha at Patna and the no-tax campaigns in Bihar",
+      "The Champaran Satyagraha",
+      "The Quit India underground movement",
+      "The Alipore Bomb Case"
+    ],
+    "answer": 0,
+    "explanation": "Bihar's connection with the Civil Disobedience Movement (1930-1934) was through salt satyagrahas (including at Patna, where salt law was violated on the banks of the Ganga) and no-tax campaigns in Bihar's villages. The Bihar Congress, led by Rajendra Prasad and Anugrah Narayan Sinha, organised these campaigns. Bihar also had tribal satyagrahas in the Chhotanagpur region.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who presided over the 1931 Karachi session of the INC (where the fundamental rights resolution was passed)?",
+    "options": [
+      "Vallabhbhai Patel",
+      "Jawaharlal Nehru",
+      "Gandhi",
+      "Rajendra Prasad"
+    ],
+    "answer": 0,
+    "explanation": "Vallabhbhai Patel presided over the 1931 Karachi session of the INC. The session is famous for the Karachi Resolution — committing the INC to fundamental rights and an economic programme. Gandhi was released from jail (after the Gandhi-Irwin Pact, March 1931) to attend this session. The Karachi Resolution was the first INC document to outline a vision for post-independence India's governance.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Government of India Act 1935 was described by Jawaharlal Nehru as:",
+    "options": [
+      "'A new charter of slavery'",
+      "'A post-dated cheque on a crashing bank'",
+      "'A Magna Carta for India'",
+      "'A step toward dominion status'"
+    ],
+    "answer": 0,
+    "explanation": "Jawaharlal Nehru described the Government of India Act 1935 as 'a new charter of slavery' — because it gave limited provincial autonomy but retained British control at the centre. The Act was a disappointment to the nationalists who wanted Purna Swaraj. Gandhi called the Cripps Mission (1942) 'a post-dated cheque on a crashing bank' — a different quote for a different event. The 1935 Act was the longest British parliamentary Act.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Government of India Act 1935 established which institution?",
+    "options": [
+      "Reserve Bank of India (1935)",
+      "Federal Court (1937)",
+      "Both (A) and (B)",
+      "Election Commission of India"
+    ],
+    "answer": 2,
+    "explanation": "The Government of India Act 1935 established BOTH the Reserve Bank of India (1935) and the Federal Court (1937). The RBI was established in April 1935 (before the Act came into full force) based on the RBI Act 1934. The Federal Court was established in 1937 (under the 1935 Act) with jurisdiction over constitutional disputes — the predecessor of the Supreme Court of India (1950).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who said 'Simon Go Back' during the Simon Commission protests?",
+    "options": [
+      "Indian nationalists (the slogan was raised by all Indian parties)",
+      "B.G. Tilak",
+      "Gandhi",
+      "Subhash Chandra Bose"
+    ],
+    "answer": 0,
+    "explanation": "The slogan 'Simon Go Back' was raised by Indian nationalists across all parties — the INC, Muslim League, and Hindu Mahasabha all boycotted the Simon Commission. The slogan was raised at the Commission's arrival in Bombay (February 3, 1928). A nationwide hartal was observed. Lala Lajpat Rai was lathi-charged during a protest against the Simon Commission in Lahore (October 1928) and died of his injuries (November 17, 1928).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who presided over the first session of the Round Table Conference in London?",
+    "options": [
+      "King George V",
+      "Lord Irwin",
+      "Ramsay MacDonald",
+      "Lord Reading"
+    ],
+    "answer": 0,
+    "explanation": "The First Round Table Conference (November 1930) was inaugurated by King George V in London. This was a rare royal opening for a constitutional conference. The conference was held at the House of Lords. The INC boycotted it (Civil Disobedience was on). Ambedkar attended as a representative of the Depressed Classes.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  }
+]

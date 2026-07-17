@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>10 - Cricket 2025-26 Master Detail | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+  }
+</style>
+<link rel="stylesheet" href="../_assets/navbar.css">
+</head>
+<body>
+
+<a href="../10_sports.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Topic #10: Sports</a>
+
+<!-- ====== HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #10 • DEEP DIVE</div>
+  <div class="topic-title">Cricket 2025–26 Master Detail — Champions Trophy, WTC, IPL, T20 WC</div>
+  <div class="topic-meta">
+    <span class="meta-tag">🏏 Core Concepts + Statics + Background</span>
+    <span class="meta-tag">📅 Window: Jan 2025 – 15 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ====== SECTION: ICC MEN'S EVENTS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🏆</span> ICC Men's Events — Champions Trophy 2025, WTC 2025, T20 WC 2026
+  </div>
+
+  <h3>1. ICC Champions Trophy 2025 — India's 3rd Crown <span class="current-tag">9 MAR 2025</span></h3>
+  <ul>
+    <li><strong>Final (Dubai, 9 Mar 2025):</strong> India beat <strong>New Zealand by 4 wickets</strong>; captain <strong>Rohit Sharma scored 76 (Player of the Match)</strong>.</li>
+    <li><strong>Context:</strong> the tournament was hosted by Pakistan, but India played all its matches in <strong>Dubai</strong> under the hybrid model — a venue detail BPSC can twist ("final was in Lahore" = wrong).</li>
+    <li><strong>India's CT titles:</strong> 2002 (shared with Sri Lanka), 2013 (d. England), <strong>2025</strong> — three in all.</li>
+  </ul>
+
+  <h3>2. WTC Final 2025 — South Africa Break the Jinx <span class="current-tag">LORD'S</span></h3>
+  <ul>
+    <li><strong>Scorecard (11–14 Jun 2025, Lord's):</strong> Australia 212 &amp; 207; South Africa 138 &amp; <strong>283/4</strong> — SA won by <strong>5 wickets</strong>, chasing 282.</li>
+    <li><strong>Aiden Markram 136</strong> (Player of the Match); it was <strong>South Africa's first WTC title</strong> and a rare ICC trophy for the Proteas.</li>
+    <li><strong>WTC roll of honour:</strong> 2021 New Zealand (d. India), 2023 Australia (d. India), 2025 South Africa (d. Australia). India lost TWO WTC finals — a fact-pattern BPSC can probe.</li>
+  </ul>
+
+  <h3>3. ICC Men's T20 World Cup 2026 — India's Home Coronation <span class="current-tag">MOST IMPORTANT</span></h3>
+  <table>
+    <tr><th>Item</th><th>Detail</th></tr>
+    <tr><td><strong>Hosts / teams / dates</strong></td><td>India + Sri Lanka (co-hosts); <strong>20 teams</strong>; 7 Feb – 8 Mar 2026</td></tr>
+    <tr><td><strong>Final</strong></td><td>India beat <strong>New Zealand by 96 runs</strong>, Narendra Modi Stadium, Ahmedabad (86,000+ crowd), 8 Mar 2026</td></tr>
+    <tr><td><strong>Awards</strong></td><td>POTM (final): <strong>Jasprit Bumrah 4/15</strong>; Player of the Tournament: <strong>Sanju Samson</strong></td></tr>
+    <tr><td><strong>Records</strong></td><td>India's <strong>3rd T20WC title</strong> (2007, 2024, 2026); <strong>first team to win back-to-back</strong>; <strong>first host nation to win</strong> the men's T20 WC</td></tr>
+    <tr><td><strong>Semi-finals</strong></td><td>India beat England by <strong>7 runs</strong> (Wankhede); New Zealand beat South Africa</td></tr>
+    <tr><td><strong>India's only loss</strong></td><td>South Africa by <strong>76 runs</strong> (Super 8 stage)</td></tr>
+    <tr><td><strong>Ind v Pak drama</strong></td><td>Pakistan's government initially barred the fixture (2 Feb); after ICC intervention it was played on <strong>15 Feb at Colombo</strong> — India 175/7 (Ishan Kishan 77, POTM) beat Pakistan 114 by <strong>61 runs</strong></td></tr>
+    <tr><td><strong>Bangladesh replaced</strong></td><td>Bangladesh withdrew (refused to travel to India); <strong>Scotland</strong> drafted into Group C (Jan 2026)</td></tr>
+    <tr><td><strong>Venues</strong></td><td>Ahmedabad, Mumbai, Kolkata, Chennai, Delhi + Colombo (Premadasa, SSC), Kandy</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — India's T20WC Treble "7-24-26"</strong><br>
+    200<strong>7</strong> (Jo'burg, d. Pakistan) → 20<strong>24</strong> (Barbados, d. South Africa) → 20<strong>26</strong> (Ahmedabad, d. New Zealand). Three finals, three different beaten opponents — BPSC loves the "who did India beat in which final" grid.
+  </div>
+</div>
+
+<!-- ====== SECTION: BILATERAL TEST CRICKET ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🏟️</span> Bilateral Tests &amp; Retirements (2024-25 → 2025-26)
+  </div>
+
+  <h3>Border-Gavaskar Trophy 2024-25 — Australia 3-1</h3>
+  <ul>
+    <li>22 Nov 2024 – 5 Jan 2025; Australia won the 5th Test at the SCG by 6 wickets (<strong>Scott Boland POTM</strong>) — <strong>India lost the BGT after a decade</strong> of holding it (wins in 2016-17 and 2023 at home; 2018-19 and 2020-21 away).</li>
+    <li>Fallout: the defeat ended India's WTC 2023-25 final hopes, clearing the way for the Australia v South Africa final at Lord's.</li>
+  </ul>
+
+  <h3>Anderson–Tendulkar Trophy 2025 (India tour of England) — Drawn 2-2 <span class="current-tag">NEW NAME</span></h3>
+  <ul>
+    <li>The Pataudi Trophy was rebranded the <strong>Anderson–Tendulkar Trophy</strong> (Jun–Aug 2025) — honouring James Anderson and Sachin Tendulkar; note the name change for "firsts/renames" questions.</li>
+    <li><strong>Edgbaston:</strong> India won by <strong>336 runs</strong> — Shubman Gill amassed <strong>430 runs in the match</strong>; Akash Deep took 10 wickets.</li>
+    <li><strong>The Oval:</strong> India won by <strong>6 runs</strong> — Mohammed Siraj 5-104; England fell short at 367 chasing 374.</li>
+    <li><strong>Shubman Gill</strong> — top scorer + <strong>Player of the Series</strong> in his first series as Test captain.</li>
+  </ul>
+
+  <h3>Retirement Wave — The End of an Era</h3>
+  <table>
+    <tr><th>Player</th><th>Format retired</th><th>Date</th><th>Career marker</th></tr>
+    <tr><td><strong>R. Ashwin</strong></td><td>All international cricket</td><td>18 Dec 2024</td><td>Announced mid-BGT at Brisbane; IPL retired after the 2025 season</td></tr>
+    <tr><td><strong>Rohit Sharma</strong></td><td>Tests</td><td>7 May 2025</td><td>Had quit T20Is in Jun 2024 (after the T20WC win); led India to CT 2025 + T20WC 2026 titles</td></tr>
+    <tr><td><strong>Virat Kohli</strong></td><td>Tests</td><td>~12 May 2025</td><td><strong>123 Tests, 9,230 runs, 30 centuries</strong>; quit T20Is Jun 2024; IPL 2026 final POTM (75*)</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION: FRANCHISE CRICKET ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">💰</span> IPL 2025 &amp; IPL 2026 — The RCB Double
+  </div>
+
+  <h3>IPL 2025 — RCB's Maiden Title (18th Season)</h3>
+  <ul>
+    <li><strong>Final (Narendra Modi Stadium, Ahmedabad, 3 Jun 2025):</strong> Royal Challengers Bengaluru beat <strong>Punjab Kings by 6 runs</strong> — RCB's first IPL trophy after three lost finals (2009, 2011, 2016).</li>
+    <li><strong>Awards:</strong> Orange Cap — <strong>Sai Sudharsan (GT), 759 runs</strong>; Purple Cap — Prasidh Krishna (GT); MVP — Suryakumar Yadav (MI).</li>
+  </ul>
+
+  <h3>IPL 2026 — RCB Go Back-to-Back <span class="current-tag">VERIFIED</span></h3>
+  <ul>
+    <li><strong>Final (Ahmedabad, 31 May 2026):</strong> GT 155/8 (Rasikh Salam 3/27) v <strong>RCB 161/5 — Virat Kohli 75*</strong> (POTM); RCB won by <strong>5 wickets</strong>.</li>
+    <li><strong>The Vaibhav Sooryavanshi sweep (RR, age 15):</strong> Orange Cap + MVP + Emerging Player + Super Striker + Most Sixes (72) — <strong>776 runs at SR 237.30</strong>; first-ever MVP + Emerging double. Purple Cap: <strong>Kagiso Rabada (29 wickets)</strong>.</li>
+  </ul>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🔶 Sooryavanshi = Bihar's Cricket Face (feeds Topic #19)</div>
+    <ul>
+      <li>Born <strong>27 Mar 2011, Tajpur, Samastipur district, Bihar</strong>.</li>
+      <li><strong>Youngest-ever IPL signing</strong> — ₹1.1 crore by Rajasthan Royals at age 13 (2025 auction).</li>
+      <li><strong>Youngest IPL debutant</strong> — 19 Apr 2025, aged 14 years 23 days.</li>
+      <li><strong>Youngest T20 centurion</strong> — 101 off 38 balls v Gujarat Titans, 28 Apr 2025 (35-ball hundred = 2nd-fastest in IPL history).</li>
+      <li><strong>U19 WC 2026:</strong> 175 off 80 in the final (highest in a U19 WC final) + Player of the Tournament (439 runs @ 62.71).</li>
+      <li><strong>₹50 lakh reward</strong> announced by the Bihar government (Feb 2026).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION: WOMEN'S & AGE-GROUP & ASIA CUP ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🌍</span> Women's World Cup 2025, U19 WC 2026, Asia Cup 2025
+  </div>
+
+  <h3>ICC Women's ODI World Cup 2025 — India's Maiden Title <span class="current-tag">HISTORIC</span></h3>
+  <ul>
+    <li><strong>Final (DY Patil Stadium, Navi Mumbai, 2 Nov 2025):</strong> IND <strong>298/7</strong> (Shafali Verma <strong>87 + 2/36</strong>, POTM; Smriti Mandhana 45) beat SA 246 — margin <strong>52 runs</strong>. Co-hosted by India + Sri Lanka (30 Sep – 2 Nov 2025).</li>
+    <li><strong>Deepti Sharma — Player of the Tournament:</strong> 22 wickets including <strong>5/39 in the final</strong>.</li>
+    <li><strong>Laura Wolvaardt (SA):</strong> 101 in the final; <strong>571 runs = single-edition tournament record</strong>.</li>
+    <li><strong>Harmanpreet Kaur</strong> = 3rd Indian World-Cup-winning captain after Kapil Dev (1983) and M.S. Dhoni (2011) — and the first woman. She received the <strong>Padma Shri in 2026</strong>.</li>
+  </ul>
+
+  <h3>ICC U19 World Cup 2026 — Record 6th Title</h3>
+  <ul>
+    <li><strong>Final (Harare Sports Club, Zimbabwe, 6 Feb 2026):</strong> IND <strong>411/9</strong> beat ENG 311 by <strong>100 runs</strong>; captain <strong>Ayush Mhatre</strong> (53 in the final); Ambrish 3-56; England's Falconer made 115.</li>
+    <li><strong>Vaibhav Sooryavanshi: 175 off 80</strong> (15 fours + 15 sixes) — highest individual score in a U19 WC final; POTM + <strong>Player of the Tournament (439 runs @ 62.71)</strong>.</li>
+    <li>India's U19 titles: 2000, 2008, 2012, 2018, 2022, <strong>2026</strong> — six, the most by any country.</li>
+  </ul>
+
+  <h3>Asia Cup 2025 (T20, UAE) — 9th Title</h3>
+  <ul>
+    <li><strong>Final (Dubai, 28 Sep 2025):</strong> Pakistan 146 (Kuldeep Yadav 4 wickets) — India chased it with <strong>Tilak Varma 69* off 53</strong>, winning by <strong>5 wickets</strong>.</li>
+    <li>India's <strong>9th Asia Cup</strong> (ODI + T20 combined) — extend the count: 1984, 1988, 1990-91, 1995, 2010, 2016, 2018, 2023, 2025.</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION: STATICS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📌</span> Cricket Statics — Trophies, Firsts &amp; India at LA28
+  </div>
+
+  <h3>Indian Domestic Trophies (Matching Bank)</h3>
+  <table>
+    <tr><th>Trophy</th><th>Format / Detail</th></tr>
+    <tr><td><strong>Ranji Trophy</strong></td><td>First-class, since <strong>1934-35</strong>; named after Ranjitsinhji. Bihar won the 2025-26 <strong>Plate</strong> title (d. Manipur by 568 runs) → Elite promotion</td></tr>
+    <tr><td><strong>Duleep Trophy</strong></td><td>Zonal first-class tournament</td></tr>
+    <tr><td><strong>Irani Cup</strong></td><td>Ranji champion v Rest of India</td></tr>
+    <tr><td><strong>Vijay Hazare Trophy</strong></td><td>List A (50-over) domestic tournament</td></tr>
+    <tr><td><strong>Syed Mushtaq Ali Trophy</strong></td><td>Domestic T20 tournament</td></tr>
+  </table>
+
+  <h3>India's Senior ICC Men's Titles (Full Count)</h3>
+  <ul>
+    <li><strong>ODI World Cup:</strong> 1983 (Lord's, d. West Indies), 2011 (Wankhede, d. Sri Lanka) — 2 titles.</li>
+    <li><strong>T20 World Cup:</strong> 2007 (d. Pakistan), 2024 (d. South Africa), 2026 (d. New Zealand) — 3 titles.</li>
+    <li><strong>Champions Trophy:</strong> 2002 (shared), 2013 (d. England), 2025 (d. New Zealand) — 3 titles.</li>
+    <li><strong>Women's ODI World Cup:</strong> 2025 (d. South Africa) — maiden. <strong>U19 World Cup:</strong> 6 titles incl. 2026.</li>
+  </ul>
+
+  <h3>Cricket at LA28 Olympics</h3>
+  <ul>
+    <li>Approved at the <strong>IOC Session in Mumbai (Oct 2023)</strong> — cricket returns after <strong>128 years</strong> (last: Paris 1900, where Great Britain beat France).</li>
+    <li>Format: <strong>T20, 6 teams per gender</strong>; venue confirmed 15 Apr 2025: <strong>Fairplex, Pomona</strong> (Los Angeles County).</li>
+    <li>Fellow newcomers: flag football, squash, lacrosse sixes, baseball/softball.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Final-Venue Chain 2025-26 "D-L-D-D-H-A"</strong><br>
+    <strong>D</strong>ubai (CT 2025) → <strong>L</strong>ord's (WTC 2025) → <strong>D</strong>ubai (Asia Cup 2025) → <strong>D</strong>Y Patil (Women's WC 2025) → <strong>H</strong>arare (U19 2026) → <strong>A</strong>hmedabad (T20 WC 2026 + both IPL finals). "Double-D in the middle, A for Ahmedabad at the end."
+  </div>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #10 Deep Dive: Cricket 2025-26<br>
+  📌 Return to <a href="../10_sports.html" style="color:#2563eb;">Topic #10 main page</a> for the Fact Matrix, Bihar Connection and the 25-question MCQ set.
+</div>
+
+<script src="../_assets/navbar.js"></script>
+</body>
+</html>

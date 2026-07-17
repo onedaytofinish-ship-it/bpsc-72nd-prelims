@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1 - Govt Schemes and Policies | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  /* Section Styling */
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon {
+    font-size: 22px;
+  }
+
+  /* Content Elements */
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin-bottom: 12px;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+  li strong {
+    color: #0f3460;
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) {
+    background: #f8f9fa;
+  }
+  tr:hover {
+    background: #fff3f5;
+  }
+
+  /* Special Boxes */
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong {
+    color: #0369a1;
+  }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong {
+    color: #7c3aed;
+  }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  /* MCQ Section */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 14px;
+    page-break-inside: avoid;
+  }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .mcq-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 20px;
+    font-size: 13px;
+  }
+  .mcq-option {
+    padding: 4px 0;
+  }
+  .mcq-option span {
+    font-weight: 600;
+    color: #e94560;
+    margin-right: 6px;
+  }
+
+  .answer-key {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
+  .answer-key h3 {
+    color: #e94560;
+    border-left-color: #e94560;
+    margin-top: 0;
+  }
+  .answer-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .answer-item {
+    text-align: center;
+    padding: 6px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  .answer-item .q-num {
+    font-weight: 700;
+    color: #e94560;
+  }
+
+  .explanation {
+    margin-top: 14px;
+    font-size: 12.5px;
+    line-height: 1.6;
+  }
+  .explanation p {
+    margin-bottom: 6px;
+    padding-left: 8px;
+    border-left: 2px solid #334155;
+  }
+
+  /* Footer */
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+  }
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #1 • TIER A</div>
+  <div class="topic-title">Government Schemes & Policies</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs</span>
+    <span class="meta-tag">⚖️ Weight: 1.7</span>
+    <span class="meta-tag">📊 PYQ Frequency: Very High</span>
+    <span class="meta-tag">🎯 Expected: 3-5 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content
+  </div>
+
+  <div class="img-container">
+    <img src="images/schemes.png" alt="Government initiatives infographic" style="max-width:100%; border-radius:8px; max-height: 350px;">
+    <div style="font-size:11px; color:#64748b; margin-top:6px; font-style:italic;">Government growth sectors: Welfare schemes, rural infrastructure development, and digital services.</div>
+  </div>
+
+  <h3><a href="subpages/1_schemes_detail.html" target="_blank">Classification of Schemes 🔗</a></h3>
+  <div style="background: #fef3c7; border: 1px solid #fde68a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px;">
+    <strong>💡 Scheme Deep Dives:</strong> Click any <a href="subpages/1_key_schemes_deep_dive.html" target="_blank" style="color:#e94560; font-weight:700;">📖 Deep Dive →</a> link in the tables below for detailed fact sheets with Bihar-specific data, PYQ patterns, and exam predictions. Full deep-dive page: <a href="subpages/1_key_schemes_deep_dive.html" target="_blank" style="color:#e94560; font-weight:700;">Key Central Schemes Deep Dive →</a>
+  </div>
+  <table>
+    <tr>
+      <th>Type</th>
+      <th>Funding</th>
+      <th>Examples</th>
+    </tr>
+    <tr>
+      <td><strong>Central Sector Schemes</strong></td>
+      <td>100% by Centre</td>
+      <td>PM-KISAN, PMJDY, Ayushman Bharat</td>
+    </tr>
+    <tr>
+      <td><strong>Centrally Sponsored Schemes</strong></td>
+      <td>Centre + State (60:40 / 75:25)</td>
+      <td>MGNREGA, PMAY, Swachh Bharat</td>
+    </tr>
+    <tr>
+      <td><strong>State Schemes</strong></td>
+      <td>100% by State</td>
+      <td>Mukhyamantri schemes of Bihar</td>
+    </tr>
+  </table>
+
+  <h3>A. Financial Inclusion Schemes</h3>
+  <table>
+    <tr><th>Scheme</th><th>Launch</th><th>Ministry</th><th>Key Feature</th></tr>
+    <tr><td><strong>PM Jan Dhan Yojana (PMJDY)</strong></td><td>2014</td><td>Finance</td><td>Zero-balance bank accounts; ₹10,000 OD; RuPay card; life cover ₹30,000 — <a href="subpages/1_key_schemes_deep_dive.html#pmjdy" target="_blank" style="color:#e94560; font-weight:600;">📖 Deep Dive →</a></td></tr>
+    <tr><td><strong>PM Mudra Yojana (PMMY)</strong></td><td>2015</td><td>Finance</td><td>Loans: Shishu (≤₹50K), Kishore (₹50K–5L), Tarun (₹5L–10L)</td></tr>
+    <tr><td><strong>Atal Pension Yojana (APY)</strong></td><td>2015</td><td>Finance</td><td>Guaranteed pension ₹1,000–₹5,000/month; age 18-40</td></tr>
+    <tr><td><strong>Stand-Up India</strong></td><td>2016</td><td>Finance</td><td>₹10L–1Cr loans for SC/ST/Women entrepreneurs</td></tr>
+  </table>
+
+  <h3>B. Social Security & Insurance</h3>
+  <table>
+    <tr><th>Scheme</th><th>Launch</th><th>Premium</th><th>Cover</th></tr>
+    <tr><td><strong>PM Jeevan Jyoti Bima (PMJJBY)</strong></td><td>2015</td><td>₹436/year</td><td>₹2 Lakh life insurance (18-55 yrs)</td></tr>
+    <tr><td><strong>PM Suraksha Bima (PMSBY)</strong></td><td>2015</td><td>₹20/year</td><td>₹2 Lakh accidental death; ₹1L partial disability</td></tr>
+    <tr><td><strong>PM Shram Yogi Maan-Dhan</strong></td><td>2019</td><td>₹55-200/month</td><td>₹3,000/month pension after 60; unorganised workers</td></tr>
+  </table>
+
+  <h3>C. Health & Nutrition Schemes</h3>
+  <table>
+    <tr><th>Scheme</th><th>Launch</th><th>Ministry</th><th>Key Feature</th></tr>
+    <tr><td><strong>Ayushman Bharat (PM-JAY)</strong></td><td>2018</td><td>Health</td><td>₹5 Lakh/family/year health cover; 10.74 Cr families; <strong>2024: Expanded to all 70+ seniors</strong> <span class="current-tag">UPDATED</span> — <a href="subpages/1_key_schemes_deep_dive.html#ayushman" target="_blank" style="color:#e94560; font-weight:600;">📖 Deep Dive →</a></td></tr>
+    <tr><td><strong>PM Matritva Vandana (PMMVY)</strong></td><td>2017</td><td>WCD</td><td>₹5,000 to pregnant/lactating women (1st child)</td></tr>
+    <tr><td><strong>Poshan Abhiyaan 2.0</strong></td><td>2021</td><td>WCD</td><td>Integrated nutrition; target: stunting, wasting reduction</td></tr>
+    <tr><td><strong>Mission Indradhanush</strong></td><td>2014</td><td>Health</td><td>Full immunization of children; 12 vaccine-preventable diseases</td></tr>
+  </table>
+
+  <h3>D. Housing & Rural Development</h3>
+  <table>
+    <tr><th>Scheme</th><th>Launch</th><th>Ministry</th><th>Key Feature</th></tr>
+    <tr><td><strong>PM Awas Yojana – Gramin</strong></td><td>2016</td><td>Rural Dev</td><td>₹1.20 Lakh (plains) / ₹1.30 Lakh (hilly) per house — <a href="subpages/1_key_schemes_deep_dive.html#pmay" target="_blank" style="color:#e94560; font-weight:600;">📖 Deep Dive →</a></td></tr>
+    <tr><td><strong>PM Awas Yojana – Urban</strong></td><td>2015</td><td>Housing</td><td>Credit-linked subsidy; affordable housing in 500 cities</td></tr>
+    <tr><td><strong>Swachh Bharat Mission</strong></td><td>2014</td><td>Jal Shakti</td><td>ODF (Open Defecation Free) India; SBM 2.0 for sustainability</td></tr>
+    <tr><td><strong>Jal Jeevan Mission</strong></td><td>2019</td><td>Jal Shakti</td><td>Tap water to every rural household (Har Ghar Jal); <strong>Bihar: 1.57 Cr connections</strong> <span class="current-tag">UPDATED</span></td></tr>
+    <tr><td><strong>SVAMITVA</strong></td><td>2020</td><td>Panchayati Raj</td><td>Property cards via drone survey in rural areas</td></tr>
+  </table>
+
+  <h3>E. Agriculture & Farmer Welfare</h3>
+  <table>
+    <tr><th>Scheme</th><th>Launch</th><th>Ministry</th><th>Key Feature</th></tr>
+    <tr><td><strong>PM-KISAN</strong></td><td>2019</td><td>Agriculture</td><td>₹6,000/year in 3 installments; <strong>Bihar: 73.88 lakh farmers</strong> <span class="current-tag">UPDATED</span> — <a href="subpages/1_key_schemes_deep_dive.html#pm-kisan" target="_blank" style="color:#e94560; font-weight:600;">📖 Deep Dive →</a></td></tr>
+    <tr><td><strong>PM Fasal Bima Yojana</strong></td><td>2016</td><td>Agriculture</td><td>Crop insurance; Premium: 2% Kharif, 1.5% Rabi; <strong>Bihar adopting from Rabi 2026-27</strong> <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>Namo Drone Didi</strong></td><td>2024</td><td>Agriculture</td><td>Drones to 15,000 women SHGs for agri use <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>Soil Health Card</strong></td><td>2015</td><td>Agriculture</td><td>Soil testing → nutrient recommendations</td></tr>
+    <tr><td><strong>PM Krishi Sinchai Yojana</strong></td><td>2015</td><td>Agriculture</td><td>"Har Khet Ko Pani" — micro-irrigation, watershed</td></tr>
+  </table>
+
+  <h3>F. Education & Skill Development</h3>
+  <table>
+    <tr><th>Scheme</th><th>Launch</th><th>Ministry</th><th>Key Feature</th></tr>
+    <tr><td><strong>Samagra Shiksha Abhiyan</strong></td><td>2018</td><td>Education</td><td>Unified pre-school to Class 12; merged SSA + RMSA + TE</td></tr>
+    <tr><td><strong>PM Vishwakarma</strong></td><td>2023</td><td>MSME</td><td>Support to 18 traditional crafts; ₹15,000 toolkit; loans up to ₹3L <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>Skill India Mission</strong></td><td>2015</td><td>Skill Dev</td><td>PMKVY, DDU-GKY — skilling, reskilling, upskilling</td></tr>
+    <tr><td><strong>NEP 2020 Implementation</strong></td><td>2020</td><td>Education</td><td>5+3+3+4 structure; multi-disciplinary; mother tongue medium <span class="current-tag">ONGOING</span></td></tr>
+  </table>
+
+  <h3>G. Energy, Environment & Infrastructure</h3>
+  <table>
+    <tr><th>Scheme</th><th>Launch</th><th>Key Feature</th></tr>
+    <tr><td><strong>PM Ujjwala Yojana</strong></td><td>2016</td><td>Free LPG connections to BPL women; 10 Cr+ connections</td></tr>
+    <tr><td><strong>PM Surya Ghar Muft Bijli</strong></td><td>2024</td><td>Free 300 units/month via rooftop solar; 1 Cr homes target <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>National Green Hydrogen Mission</strong></td><td>2023</td><td>5 MMT green H₂ production by 2030 <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>PM Gati Shakti</strong></td><td>2021</td><td>Integrated infra planning; multi-modal connectivity</td></tr>
+    <tr><td><strong>ADITI (iDEX)</strong></td><td>2024</td><td>Indigenise defence tech; deep-tech startups <span class="current-tag">NEW</span></td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — "JAMS" for Insurance Trinity:</strong><br>
+    <strong>J</strong>eevan Jyoti (Life) → <strong>A</strong>tal Pension → <strong>M</strong>aan-Dhan (Workers) → <strong>S</strong>uraksha Bima (Accident)<br>
+    Premium trick: ₹20 (PMSBY) → ₹436 (PMJJBY) → ₹55-200 (Maan-Dhan)
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — MUDRA Categories: "SKT"</strong><br>
+    <strong>S</strong>hishu (≤50K) → <strong>K</strong>ishore (50K-5L) → <strong>T</strong>arun (5L-10L) — ascending order of loan amount
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> Fact Matrix — Quick Reference
+  </div>
+
+  <h3>Key Numbers to Remember</h3>
+  <table>
+    <tr><th>Scheme</th><th>Critical Number</th><th>What It Means</th></tr>
+    <tr><td>PM-KISAN</td><td>₹6,000/year</td><td>3 installments of ₹2,000 each</td></tr>
+    <tr><td>Ayushman Bharat</td><td>₹5 Lakh/family</td><td>Annual health cover; cashless</td></tr>
+    <tr><td>PMJDY</td><td>₹10,000 OD</td><td>Overdraft after 6 months</td></tr>
+    <tr><td>PMJJBY</td><td>₹436/year</td><td>Life cover ₹2 Lakh</td></tr>
+    <tr><td>PMSBY</td><td>₹20/year</td><td>Accident cover ₹2 Lakh</td></tr>
+    <tr><td>PMAY-G</td><td>₹1.20 Lakh</td><td>Per house (plains)</td></tr>
+    <tr><td>Ujjwala</td><td>10 Cr+</td><td>LPG connections given</td></tr>
+    <tr><td>Surya Ghar</td><td>300 units/month</td><td>Free electricity target</td></tr>
+  </table>
+
+  <h3>Ministry-Scheme Mapping (Exam Favorite)</h3>
+  <table>
+    <tr><th>Ministry</th><th>Key Schemes</th></tr>
+    <tr><td>Finance</td><td>PMJDY, MUDRA, APY, PMJJBY, PMSBY, Stand-Up India</td></tr>
+    <tr><td>Agriculture</td><td>PM-KISAN, PMFBY, Soil Health Card, PM Krishi Sinchai</td></tr>
+    <tr><td>Health</td><td>Ayushman Bharat, Mission Indradhanush, PMMVY</td></tr>
+    <tr><td>Jal Shakti</td><td>Jal Jeevan Mission, Swachh Bharat, Namami Gange</td></tr>
+    <tr><td>Housing & Urban</td><td>PMAY-Urban, Smart Cities Mission, AMRUT</td></tr>
+    <tr><td>Rural Development</td><td>PMAY-Gramin, MGNREGA, DAY-NRLM</td></tr>
+    <tr><td>WCD</td><td>Beti Bachao Beti Padhao, Poshan 2.0, PMMVY</td></tr>
+    <tr><td>MSME</td><td>PM Vishwakarma, ECLGS, CGTMSE</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar-Specific Implementation & State Schemes</div>
+    <ul>
+      <li><strong>PM-KISAN in Bihar:</strong> 73.88 lakh farmers enrolled — one of the highest beneficiary states</li>
+      <li><strong>Jal Jeevan Mission:</strong> Bihar has provided 1.57 Cr+ tap water connections under "Har Ghar Nal Ka Jal"</li>
+      <li><strong>PMAY-G:</strong> Millions of rural houses sanctioned; "Awas Plus 2.0" survey completed for remaining beneficiaries</li>
+      <li><strong>PMFBY:</strong> Bihar Cabinet approved adoption of PM Fasal Bima Yojana from <strong>Rabi 2026-27</strong> season (replaces state crop assistance scheme)</li>
+    </ul>
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🟠 Bihar's Own Mukhyamantri (CM) Schemes</div>
+    <table>
+      <tr><th>Scheme</th><th>Focus</th><th>Key Detail</th></tr>
+      <tr><td><strong>Mukhyamantri Kanya Utthan Yojana</strong></td><td>Girl child empowerment</td><td>₹54,100 from birth to graduation</td></tr>
+      <tr><td><strong>Bihar Student Credit Card</strong></td><td>Higher education</td><td>Loan up to ₹4 Lakh for 12th-pass students</td></tr>
+      <tr><td><strong>Mukhyamantri Gramin Awas Yojana</strong></td><td>Housing</td><td>For BPL families NOT covered under PMAY-G</td></tr>
+      <tr><td><strong>Mukhyamantri Udyami Yojana</strong></td><td>Entrepreneurship</td><td>₹10 Lakh loan (50% subsidy) for SC/ST/Women/Youth</td></tr>
+      <tr><td><strong>Mukhyamantri Vridhajan Pension</strong></td><td>Old age pension</td><td>₹400/month for 60+ citizens</td></tr>
+      <tr><td><strong>Mukhyamantri Solar Yojana</strong></td><td>Energy</td><td>Free 125 units via rooftop solar</td></tr>
+      <tr><td><strong>Jal-Jeevan-Hariyali Mission</strong></td><td>Climate/water</td><td>State flagship — water conservation + afforestation</td></tr>
+      <tr><td><strong>Mukhyamantri Prakhand Parivahan</strong></td><td>Transport</td><td>Entrepreneurship in transport for SC/ST</td></tr>
+    </table>
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">⚡ New: Viksit Bharat-Ji Ram Ji Yojana (July 2026)</div>
+    <ul>
+      <li>125 days guaranteed employment (vs MGNREGA's 100 days)</li>
+      <li>Aimed at strengthening rural economy</li>
+      <li>Implementation starting July 2026</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #7 (Economy in News):</strong> Scheme budgets, funding patterns, fiscal impact of welfare spending<br>
+    <strong>↔ Topic #11 (Reports & Indices):</strong> Scheme outcomes measured by HDI, MPI, SDG tracking<br>
+    <strong>↔ Topic #15 (Bihar Govt Schemes):</strong> Deeper dive into CM schemes — state budget allocations<br>
+    <strong>↔ Topic #16 (Bihar State Budget):</strong> Scheme-wise allocation data from Bihar Budget 2026-27<br>
+    <strong>↔ Topic #82 (Public Finance):</strong> Central vs Centrally Sponsored Scheme classification<br>
+    <strong>↔ Topic #84 (Agriculture):</strong> MSP mechanism, PM-KISAN structure, Green Revolution legacy<br>
+    <strong>↔ Topic #76 (Local Government):</strong> PRI role in scheme implementation at grassroot level
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance (2024-2026)
+  </div>
+
+  <h3>Major Updates — High Exam Probability</h3>
+  <table>
+    <tr><th>Update</th><th>Year</th><th>Details</th></tr>
+    <tr><td><strong>Ayushman Bharat expanded to 70+ seniors</strong></td><td>2024</td><td>All citizens aged 70+ eligible regardless of income — universal coverage for elderly</td></tr>
+    <tr><td><strong>PM Surya Ghar Muft Bijli</strong></td><td>2024</td><td>New scheme: 1 Cr homes to get 300 units/month free via rooftop solar</td></tr>
+    <tr><td><strong>Namo Drone Didi</strong></td><td>2024</td><td>15,000 women SHGs to get drones for agricultural spraying</td></tr>
+    <tr><td><strong>PM Vishwakarma</strong></td><td>2023</td><td>18 traditional crafts supported; ₹13,000 Cr outlay</td></tr>
+    <tr><td><strong>PMAY-U 2.0</strong></td><td>2024-25</td><td>New phase with extended urban housing targets</td></tr>
+    <tr><td><strong>National Green Hydrogen Mission</strong></td><td>2023</td><td>₹19,744 Cr; target 5 MMT by 2030</td></tr>
+    <tr><td><strong>India Semiconductor Mission 2.0</strong></td><td>2025</td><td>Fab manufacturing push; ₹76,000 Cr+</td></tr>
+    <tr><td><strong>Bihar adopts PMFBY</strong></td><td>2026</td><td>Replaces state crop assistance scheme from Rabi 2026-27</td></tr>
+    <tr><td><strong>Viksit Bharat-Ji Ram Ji Yojana</strong></td><td>2026</td><td>125 days employment guarantee — Bihar implementation begins</td></tr>
+  </table>
+
+  <h3>Potential "Twist" Question Areas</h3>
+  <ul>
+    <li><strong>Central vs CSS confusion:</strong> "Which scheme is 100% centrally funded?" (PM-KISAN = Central Sector; MGNREGA = CSS)</li>
+    <li><strong>Ministry mismatch:</strong> "Which ministry runs Swachh Bharat?" (Jal Shakti, NOT Environment)</li>
+    <li><strong>Updated benefits:</strong> "What is the premium for PMJJBY?" (₹436, NOT ₹330 — was revised upward)</li>
+    <li><strong>Bihar-specific:</strong> "Which Bihar scheme provides housing to families NOT covered under PMAY?" (CM Gramin Awas Yojana)</li>
+  </ul>
+
+  <h3>🎯 Exam Predictions for 72nd BPSC</h3>
+  <div style="background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px;">
+    <strong style="color: #92400e;">📋 Top 5 Predictions (72nd BPSC — Schemes):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) Ayushman 70+ expansion (HIGH):</strong> "Ayushman Bharat was expanded in 2024 to cover which group?" → All senior citizens 70+ regardless of income.</li>
+      <li><strong>(2) PM-KISAN type trap (HIGH):</strong> "PM-KISAN is a _______ scheme" → Central Sector (100% Centre), NOT Centrally Sponsored.</li>
+      <li><strong>(3) Bihar PMFBY adoption (MEDIUM):</strong> "Bihar adopted PMFBY from which season?" → Rabi 2026-27. Bihar had withdrawn from PMFBY in 2018 and ran its own scheme; now rejoining.</li>
+      <li><strong>(4) PM Surya Ghar (MEDIUM):</strong> "How many free units under PM Surya Ghar?" → 300 units/month via rooftop solar; 1 Cr homes target.</li>
+      <li><strong>(5) Bihar complement scheme (MEDIUM):</strong> "Bihar's Mukhyamantri Kisan Kalyan adds how much to PM-KISAN?" → ₹2,000/year, total ₹8,000. <a href="subpages/1_key_schemes_deep_dive.html#pm-kisan" target="_blank" style="color:#e94560; font-weight:600;">📖 Full deep dive →</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 7: MCQ PRACTICE SET ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 20 Questions
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q1. Under PM-KISAN scheme, what is the annual financial benefit provided to eligible farmer families?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> ₹4,000 in 2 installments</div>
+      <div class="mcq-option"><span>(B)</span> ₹6,000 in 3 installments</div>
+      <div class="mcq-option"><span>(C)</span> ₹8,000 in 4 installments</div>
+      <div class="mcq-option"><span>(D)</span> ₹10,000 in 5 installments</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q2. Which of the following is NOT a category under PM Mudra Yojana?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> Shishu</div>
+      <div class="mcq-option"><span>(B)</span> Kishore</div>
+      <div class="mcq-option"><span>(C)</span> Tarun</div>
+      <div class="mcq-option"><span>(D)</span> Yuva</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q3. The annual premium for Pradhan Mantri Suraksha Bima Yojana (PMSBY) is:</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> ₹12/year</div>
+      <div class="mcq-option"><span>(B)</span> ₹20/year</div>
+      <div class="mcq-option"><span>(C)</span> ₹330/year</div>
+      <div class="mcq-option"><span>(D)</span> ₹436/year</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q4. Ayushman Bharat (PM-JAY) was expanded in 2024 to include which additional category?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> All children below 5 years</div>
+      <div class="mcq-option"><span>(B)</span> All senior citizens aged 70 and above</div>
+      <div class="mcq-option"><span>(C)</span> All pregnant women</div>
+      <div class="mcq-option"><span>(D)</span> All government employees</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q5. Which ministry is responsible for the implementation of Swachh Bharat Mission?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> Ministry of Environment</div>
+      <div class="mcq-option"><span>(B)</span> Ministry of Housing & Urban Affairs</div>
+      <div class="mcq-option"><span>(C)</span> Ministry of Jal Shakti</div>
+      <div class="mcq-option"><span>(D)</span> Ministry of Rural Development</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q6. Under PMAY-Gramin, the financial assistance provided per house in plain areas is:</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> ₹70,000</div>
+      <div class="mcq-option"><span>(B)</span> ₹1,00,000</div>
+      <div class="mcq-option"><span>(C)</span> ₹1,20,000</div>
+      <div class="mcq-option"><span>(D)</span> ₹1,50,000</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q7. Which of the following Bihar schemes provides financial assistance to girls from birth to graduation?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> Beti Bachao Beti Padhao</div>
+      <div class="mcq-option"><span>(B)</span> Mukhyamantri Kanya Utthan Yojana</div>
+      <div class="mcq-option"><span>(C)</span> Sukanya Samriddhi Yojana</div>
+      <div class="mcq-option"><span>(D)</span> PM Matritva Vandana Yojana</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q8. "Namo Drone Didi" scheme aims to provide drones to:</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> Defence forces for border surveillance</div>
+      <div class="mcq-option"><span>(B)</span> Women Self-Help Groups for agricultural purposes</div>
+      <div class="mcq-option"><span>(C)</span> Police departments for traffic monitoring</div>
+      <div class="mcq-option"><span>(D)</span> Forest departments for wildlife tracking</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q9. Which of the following is a Central Sector Scheme (100% funded by Centre)?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> MGNREGA</div>
+      <div class="mcq-option"><span>(B)</span> PM-KISAN</div>
+      <div class="mcq-option"><span>(C)</span> Samagra Shiksha</div>
+      <div class="mcq-option"><span>(D)</span> National Health Mission</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q10. The Jal Jeevan Mission aims to provide:</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> Irrigation to all farms</div>
+      <div class="mcq-option"><span>(B)</span> Tap water connection to every rural household</div>
+      <div class="mcq-option"><span>(C)</span> Free water tankers in urban areas</div>
+      <div class="mcq-option"><span>(D)</span> Bottled water to tribal areas</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q11. Bihar's "Jal-Jeevan-Hariyali" mission primarily focuses on:</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> Industrial water supply</div>
+      <div class="mcq-option"><span>(B)</span> Climate change, water conservation and afforestation</div>
+      <div class="mcq-option"><span>(C)</span> Urban flood management</div>
+      <div class="mcq-option"><span>(D)</span> River interlinking</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q12. PM Vishwakarma Yojana supports how many traditional crafts?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> 10</div>
+      <div class="mcq-option"><span>(B)</span> 14</div>
+      <div class="mcq-option"><span>(C)</span> 18</div>
+      <div class="mcq-option"><span>(D)</span> 25</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q13. What is the maximum loan amount under the "Tarun" category of MUDRA scheme?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> ₹50,000</div>
+      <div class="mcq-option"><span>(B)</span> ₹5 Lakh</div>
+      <div class="mcq-option"><span>(C)</span> ₹10 Lakh</div>
+      <div class="mcq-option"><span>(D)</span> ₹20 Lakh</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q14. The "Bihar Student Credit Card Scheme" provides loans up to:</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> ₹1 Lakh</div>
+      <div class="mcq-option"><span>(B)</span> ₹2 Lakh</div>
+      <div class="mcq-option"><span>(C)</span> ₹4 Lakh</div>
+      <div class="mcq-option"><span>(D)</span> ₹10 Lakh</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q15. Which scheme was launched to provide free LPG connections to women from BPL families?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> PM Ujjwala Yojana</div>
+      <div class="mcq-option"><span>(B)</span> PM Ujjala Yojana</div>
+      <div class="mcq-option"><span>(C)</span> PM Grihini Yojana</div>
+      <div class="mcq-option"><span>(D)</span> PM Annapurna Yojana</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q16. The National Green Hydrogen Mission targets production of how much green hydrogen annually by 2030?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> 1 MMT</div>
+      <div class="mcq-option"><span>(B)</span> 3 MMT</div>
+      <div class="mcq-option"><span>(C)</span> 5 MMT</div>
+      <div class="mcq-option"><span>(D)</span> 10 MMT</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q17. Under PM Surya Ghar Muft Bijli Yojana (2024), how many units of free electricity per month is the target?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> 100 units</div>
+      <div class="mcq-option"><span>(B)</span> 200 units</div>
+      <div class="mcq-option"><span>(C)</span> 300 units</div>
+      <div class="mcq-option"><span>(D)</span> 500 units</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q18. Stand-Up India scheme provides loans between ₹10 Lakh to ₹1 Crore to:</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> All first-generation entrepreneurs</div>
+      <div class="mcq-option"><span>(B)</span> SC/ST and Women entrepreneurs</div>
+      <div class="mcq-option"><span>(C)</span> Only SC/ST entrepreneurs</div>
+      <div class="mcq-option"><span>(D)</span> Ex-servicemen only</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q19. Mukhyamantri Udyami Yojana (Bihar) provides what percentage subsidy on loans?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> 25%</div>
+      <div class="mcq-option"><span>(B)</span> 35%</div>
+      <div class="mcq-option"><span>(C)</span> 50%</div>
+      <div class="mcq-option"><span>(D)</span> 75%</div>
+    </div>
+  </div>
+
+  <div class="mcq-block">
+    <div class="mcq-q">Q20. Which of the following correctly matches scheme with its launch year?</div>
+    <div class="mcq-options">
+      <div class="mcq-option"><span>(A)</span> PM-KISAN — 2017</div>
+      <div class="mcq-option"><span>(B)</span> Ayushman Bharat — 2019</div>
+      <div class="mcq-option"><span>(C)</span> PMJDY — 2014</div>
+      <div class="mcq-option"><span>(D)</span> Ujjwala — 2018</div>
+    </div>
+  </div>
+
+  <!-- Answer Key -->
+  <div class="answer-key">
+    <h3>📋 Answer Key</h3>
+    <div class="answer-grid">
+      <div class="answer-item"><span class="q-num">Q1.</span> B</div>
+      <div class="answer-item"><span class="q-num">Q2.</span> D</div>
+      <div class="answer-item"><span class="q-num">Q3.</span> B</div>
+      <div class="answer-item"><span class="q-num">Q4.</span> B</div>
+      <div class="answer-item"><span class="q-num">Q5.</span> C</div>
+      <div class="answer-item"><span class="q-num">Q6.</span> C</div>
+      <div class="answer-item"><span class="q-num">Q7.</span> B</div>
+      <div class="answer-item"><span class="q-num">Q8.</span> B</div>
+      <div class="answer-item"><span class="q-num">Q9.</span> B</div>
+      <div class="answer-item"><span class="q-num">Q10.</span> B</div>
+      <div class="answer-item"><span class="q-num">Q11.</span> B</div>
+      <div class="answer-item"><span class="q-num">Q12.</span> C</div>
+      <div class="answer-item"><span class="q-num">Q13.</span> C</div>
+      <div class="answer-item"><span class="q-num">Q14.</span> C</div>
+      <div class="answer-item"><span class="q-num">Q15.</span> A</div>
+      <div class="answer-item"><span class="q-num">Q16.</span> C</div>
+      <div class="answer-item"><span class="q-num">Q17.</span> C</div>
+      <div class="answer-item"><span class="q-num">Q18.</span> B</div>
+      <div class="answer-item"><span class="q-num">Q19.</span> C</div>
+      <div class="answer-item"><span class="q-num">Q20.</span> C</div>
+    </div>
+
+    <div class="explanation">
+      <p><strong>Q1:</strong> PM-KISAN provides ₹6,000/year in 3 equal installments of ₹2,000 each to all landholding farmer families.</p>
+      <p><strong>Q2:</strong> MUDRA has only 3 categories — Shishu, Kishore, Tarun. "Yuva" is not a MUDRA category.</p>
+      <p><strong>Q3:</strong> PMSBY premium is ₹20/year. Don't confuse with PMJJBY (₹436/year).</p>
+      <p><strong>Q4:</strong> In 2024, Ayushman Bharat was expanded to cover all senior citizens aged 70+ regardless of income status.</p>
+      <p><strong>Q5:</strong> Swachh Bharat Mission (Rural) is under Ministry of Jal Shakti; SBM (Urban) is under MoHUA. Common exam trap!</p>
+      <p><strong>Q6:</strong> PMAY-G: ₹1,20,000 for plains; ₹1,30,000 for hilly/difficult areas.</p>
+      <p><strong>Q7:</strong> Mukhyamantri Kanya Utthan Yojana is Bihar's scheme providing ₹54,100 total from birth to graduation.</p>
+      <p><strong>Q8:</strong> Namo Drone Didi (2024) provides drones to 15,000 women SHGs for agricultural spraying and monitoring.</p>
+      <p><strong>Q9:</strong> PM-KISAN is a Central Sector Scheme (100% Centre funded). MGNREGA, NHM are Centrally Sponsored.</p>
+      <p><strong>Q10:</strong> Jal Jeevan Mission's tagline: "Har Ghar Jal" — functional tap water to every rural household.</p>
+      <p><strong>Q14:</strong> Bihar Student Credit Card: Up to ₹4 Lakh loan for students who have passed 12th for higher education.</p>
+      <p><strong>Q16:</strong> National Green Hydrogen Mission: 5 MMT annual green H₂ production target by 2030; ₹19,744 Cr outlay.</p>
+      <p><strong>Q20:</strong> PMJDY was launched on Aug 28, 2014. PM-KISAN = 2019; Ayushman = 2018; Ujjwala = 2016.</p>
+    </div>
+  </div>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #1: Govt Schemes & Policies | Generated: 2026-07-16 | Tier A • Weight 1.7<br>
+  📌 Cross-reference with Topics #7, #11, #15, #16, #82, #84, #76
+</div>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

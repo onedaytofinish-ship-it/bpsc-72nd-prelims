@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>32 - Gandhian Movements | BPSC 72nd Prelims</title>
+<link rel="stylesheet" href="_assets/navbar.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  h3 a { color: #16213e; text-decoration: none; }
+  h3 a:hover { color: #e94560; text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 200px; }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #32 • TIER A</div>
+  <div class="topic-title">Gandhian Movements — Champaran, Non-Cooperation, Civil Disobedience, Quit India</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Modern Indian History</span>
+    <span class="meta-tag">⚖️ Weight: 1.1</span>
+    <span class="meta-tag">🎯 Expected: 3–4 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Champaran 1917, Azad Dasta, Individual Satyagraha 1940, Kisan Sabha</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Bihar movement ↔ leader matching (direct PYQ — Q100):</strong> The 71st BPSC asked to match four Bihar events with their leaders: (a) Champaran Satyagrah → 4) Dr. Rajendra Prasad; (b) Azad Dasta → 2) Shyam Narayan Singh; (c) Individual Satyagrah in Bihar 1940 → 3) Sahajanand Saraswati; (d) Kisan Sabha Bihar → 1) Jayaprakash Narayan. Correct code: 4, 2, 3, 1. This is the highest-yield Bihar-specific PYQ for the Gandhian era — memorise all four pairs.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Champaran Agrarian Inquiry Committee (Q82):</strong> The 71st BPSC asked: "Champaran Agrarian Inquiry Committee was appointed in agreement between?" — answer: <strong>Indian Government and Gandhiji</strong>. The committee was formed in 1917 after Gandhi's Champaran satyagraha; it had 4 members (including Gandhi) and investigated the indigo planters' exploitation. The committee's report led to the Champaran Agrarian Act (1918), abolishing the tinkathia system.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Gandhi's "Do or Die" slogan (Q84):</strong> The 71st BPSC asked: "We shall either free India or die in the attempt" — who said it? Answer: <strong>Mahatma Gandhi</strong>. This was his slogan at the launch of the Quit India Movement (August 8, 1942, Bombay, Gowalia Tank Maidan). The slogan was "Do or Die" (Karenge ya Marenge).
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete movement-by-movement analysis (Champaran 1917 → Quit India 1942), Gandhi's methods (satyagraha, non-violence, fasts), Bihar connections, the 71st PYQ matching deep dive, and 7 exam predictions:
+    <a href="subpages/32_gandhian_movements_detail.html" target="_blank">Gandhian Movements Master Detail →</a>
+  </div>
+
+  <h3>A. The Four Early Satyagrahas (1917-1918) — Gandhi's Indian Apprenticeship <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>#</th><th>Movement</th><th>Year</th><th>Place</th><th>Issue</th><th>Key Associates</th></tr>
+    <tr><td><strong>1</strong></td><td><strong>Champaran</strong> 🔶</td><td>1917</td><td>Champaran, Bihar</td><td>Indigo farmers — tinkathia system (forced indigo on 3/20 of land)</td><td>Raj Kumar Shukla (invited Gandhi), Rajendra Prasad, Anugrah Narayan Sinha, Braj Kishore Prasad</td></tr>
+    <tr><td><strong>2</strong></td><td><strong>Kheda</strong></td><td>1918</td><td>Kheda, Gujarat</td><td>Peasants' land revenue remission (famine, crop failure)</td><td>Vallabhbhai Patel, Indulal Yagnik</td></tr>
+    <tr><td><strong>3</strong></td><td><strong>Ahmedabad Mill</strong></td><td>1918</td><td>Ahmedabad, Gujarat</td><td>Textile workers' wage dispute (35% increase)</td><td>Anasuya Sarabhai (sister of Ambalal Sarabhai, mill owner)</td></tr>
+  </table>
+  <p>These three early satyagrahas (1917-1918) were Gandhi's "apprenticeship" in Indian politics — testing his South African methods in the Indian context. Champaran was the first (1917) and the most important for Bihar.</p>
+
+  <div class="img-container">
+    <img src="images/gandhi_portrait.jpg" alt="Mahatma Gandhi">
+    <div class="img-caption">Mahatma Gandhi (1869–1948) — "Father of the Nation"; returned to India from South Africa in 1915; first satyagraha in India at Champaran (Bihar) in 1917; led the Non-Cooperation (1920), Civil Disobedience (1930), and Quit India (1942) movements.</div>
+  </div>
+
+  <h3>B. The Four Major Mass Movements (1919-1942) <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Movement</th><th>Year</th><th>Trigger</th><th>Method</th><th>Outcome</th></tr>
+    <tr><td><strong>Rowlatt Satyagraha</strong></td><td>1919</td><td>Rowlatt Act (detention without trial)</td><td>Hartal, protests, meetings</td><td>Jallianwala Bagh massacre (April 13, 1919)</td></tr>
+    <tr><td><strong>Non-Cooperation</strong></td><td>1920–1922</td><td>Jallianwala Bagh + Khilafat</td><td>Boycott of schools, courts, councils, titles; swadeshi</td><td>Withdrawn after Chauri Chaura (Feb 1922)</td></tr>
+    <tr><td><strong>Civil Disobedience</strong></td><td>1930–1934</td><td>Purna Swaraj demand (1929 Lahore)</td><td>Salt March (Dandi), salt law violation, no-tax campaigns</td><td>Gandhi-Irwin Pact (1931); Round Table Conference</td></tr>
+    <tr><td><strong>Quit India</strong></td><td>1942</td><td>WWII + British refusal to grant independence</td><td>"Do or Die" — mass protests, underground activity</td><td>Mass arrests; British eventually withdrew (1947)</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/gandhi_dandi_1930.jpg" alt="Gandhi at Dandi 1930">
+    <div class="img-caption">Gandhi at Dandi, April 5, 1930 — picking up salt from the seashore to break the British salt law. The Dandi Salt March (240 miles, March 12–April 6, 1930) launched the Civil Disobedience Movement.</div>
+  </div>
+
+  <h3>C. Key Events and Dates <span class="current-tag">CHRONOLOGY</span></h3>
+  <table>
+    <tr><th>Date</th><th>Event</th></tr>
+    <tr><td><strong>April 1917</strong></td><td>Champaran Satyagraha — Gandhi's first satyagraha in India (Bihar)</td></tr>
+    <tr><td><strong>1918</strong></td><td>Kheda Satyagraha + Ahmedabad Mill Strike</td></tr>
+    <tr><td><strong>March 1919</strong></td><td>Rowlatt Act passed; Rowlatt Satyagraha launched by Gandhi</td></tr>
+    <tr><td><strong>April 13, 1919</strong></td><td>Jallianwala Bagh massacre (Amritsar; Gen. Dyer)</td></tr>
+    <tr><td><strong>September 1920</strong></td><td>Non-Cooperation Movement launched (Calcutta INC session)</td></tr>
+    <tr><td><strong>December 1920</strong></td><td>Nagpur INC session ratified Non-Cooperation</td></tr>
+    <tr><td><strong>February 4, 1922</strong></td><td>Chauri Chaura incident (22 policemen killed)</td></tr>
+    <tr><td><strong>February 12, 1922</strong></td><td>Non-Cooperation Movement withdrawn by Gandhi</td></tr>
+    <tr><td><strong>March 1922</strong></td><td>Gandhi arrested; sentenced to 6 years (released 1924)</td></tr>
+    <tr><td><strong>December 1929</strong></td><td>Lahore INC session — Purna Swaraj demand (Nehru presided)</td></tr>
+    <tr><td><strong>January 26, 1930</strong></td><td>First Independence Day celebrated</td></tr>
+    <tr><td><strong>March 12 – April 6, 1930</strong></td><td>Dandi Salt March (240 miles, Sabarmati to Dandi)</td></tr>
+    <tr><td><strong>March 5, 1931</strong></td><td>Gandhi-Irwin Pact signed</td></tr>
+    <tr><td><strong>September 1931</strong></td><td>Second Round Table Conference (London, Gandhi attended)</td></tr>
+    <tr><td><strong>September 1932</strong></td><td>Poona Pact (Gandhi + Ambedkar)</td></tr>
+    <tr><td><strong>August 8, 1942</strong></td><td>Quit India Movement launched (Bombay; "Do or Die")</td></tr>
+    <tr><td><strong>August 9, 1942</strong></td><td>Congress leadership arrested</td></tr>
+  </table>
+</div>
+
+<!-- FLOWCHART: GANDHIAN MOVEMENTS TIMELINE -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📊</span> Gandhian Movements — Chronological Flow</div>
+  <p style="margin-bottom: 12px;">From Champaran (1917) to Quit India (1942) — Gandhi's 25-year freedom struggle.</p>
+  <div class="flowchart">
+    <div class="flow-node">Apr 1917 — Champaran (Bihar) — first satyagraha in India</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">1918 — Kheda + Ahmedabad Mill Strike</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Mar 1919 — Rowlatt Satyagraha → Apr 13, 1919 — Jallianwala Bagh</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Sep 1920 — Non-Cooperation Movement launched</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Feb 1922 — Chauri Chaura → Movement withdrawn</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Dec 1929 — Lahore: Purna Swaraj demand (Nehru presided)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Mar 12 – Apr 6, 1930 — Dandi Salt March → Civil Disobedience</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Mar 1931 — Gandhi-Irwin Pact → Sep 1931 Round Table</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Aug 8, 1942 — Quit India ("Do or Die") → Aug 9 arrests</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📋</span> Fact Matrix — Gandhian Movements</div>
+  <table>
+    <tr><th>Item</th><th>Value</th><th>Notes</th></tr>
+    <tr><td><strong>First satyagraha in India</strong></td><td>Champaran, Bihar (1917)</td><td>Indigo farmers; tinkathia system</td></tr>
+    <tr><td><strong>Champaran associates</strong></td><td>Raj Kumar Shukla, Rajendra Prasad, A.N. Sinha, B.K. Prasad</td><td>71st PYQ: Champaran → Rajendra Prasad</td></tr>
+    <tr><td><strong>Champaran Inquiry Committee</strong></td><td>Indian Government + Gandhiji</td><td>71st PYQ Q82</td></tr>
+    <tr><td><strong>Rowlatt Act</strong></td><td>1919</td><td>Detention without trial, 2 years</td></tr>
+    <tr><td><strong>Jallianwala Bagh</strong></td><td>April 13, 1919 (Amritsar)</td><td>Gen. Dyer; 379 killed (official)</td></tr>
+    <tr><td><strong>Non-Cooperation launched</strong></td><td>September 1920 (Calcutta)</td><td>Ratified at Nagpur (Dec 1920)</td></tr>
+    <tr><td><strong>Chauri Chaura</strong></td><td>February 4, 1922 (Gorakhpur, UP)</td><td>22 policemen killed; movement withdrawn</td></tr>
+    <tr><td><strong>Purna Swaraj</strong></td><td>December 1929 (Lahore, Nehru presided)</td><td>Jan 26, 1930 = Independence Day</td></tr>
+    <tr><td><strong>Dandi Salt March</strong></td><td>March 12 – April 6, 1930</td><td>240 miles, 78 followers</td></tr>
+    <tr><td><strong>Gandhi-Irwin Pact</strong></td><td>March 5, 1931</td><td>Civil Disobedience suspended; Round Table</td></tr>
+    <tr><td><strong>Poona Pact</strong></td><td>September 24, 1932</td><td>Gandhi + Ambedkar; reserved seats</td></tr>
+    <tr><td><strong>Quit India</strong></td><td>August 8, 1942 (Bombay)</td><td>"Do or Die" — Gandhi's slogan (71st PYQ)</td></tr>
+    <tr><td><strong>Azad Dasta (Bihar)</strong></td><td>1942, Quit India underground</td><td>Shyam Narayan Singh (Hazaribagh) — 71st PYQ</td></tr>
+    <tr><td><strong>Individual Satyagraha Bihar 1940</strong></td><td>Sahajanand Saraswati</td><td>71st PYQ matching</td></tr>
+    <tr><td><strong>Kisan Sabha Bihar</strong></td><td>Jayaprakash Narayan</td><td>71st PYQ matching</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar &amp; the Gandhian Movements — The 71st PYQ Matching</div>
+    <ul>
+      <li><strong>Champaran Satyagraha (1917) → Dr. Rajendra Prasad (71st PYQ Q100):</strong> Gandhi's first satyagraha in India was at Champaran (Bihar) in 1917. The 71st BPSC PYQ matched Champaran with Dr. Rajendra Prasad — Bihar's most important Congressman and the first President of India (1950–1962). Rajendra Prasad was Gandhi's key Bihar associate at Champaran. Other Bihar associates: Anugrah Narayan Sinha, Braj Kishore Prasad, and Raj Kumar Shukla (the farmer who invited Gandhi).</li>
+      <li><strong>Champaran Agrarian Inquiry Committee (71st PYQ Q82):</strong> the committee was appointed "in agreement between the Indian Government and Gandhiji." It had 4 members (including Gandhi). Its report led to the Champaran Agrarian Act (1918), abolishing the tinkathia system (forced indigo cultivation on 3/20 of land).</li>
+      <li><strong>Azad Dasta → Shyam Narayan Singh (71st PYQ Q100):</strong> the Azad Dasta was an underground revolutionary group in Bihar during the Quit India Movement (1942). Shyam Narayan Singh led the Azad Dasta in the Hazaribagh region of Bihar. After the Congress leadership was arrested (August 9, 1942), underground groups like the Azad Dasta carried on the movement.</li>
+      <li><strong>Individual Satyagraha in Bihar 1940 → Sahajanand Saraswati (71st PYQ Q100):</strong> Sahajanand Saraswati, Bihar's sanyasi-reformer who founded the Bihar Provincial Kisan Sabha (1929), led the Individual Satyagraha in Bihar in 1940 (during WWII). The Individual Satyagraha was Gandhi's response to the August Offer (1940) — carefully selected individuals offered satyagraha one at a time.</li>
+      <li><strong>Kisan Sabha Bihar → Jayaprakash Narayan (71st PYQ Q100):</strong> Jayaprakash Narayan ("JP"), Bihar's most famous socialist leader, was associated with the Kisan Sabha (peasant movement) in Bihar. JP later led the Total Revolution (1974–75) against the Emergency. He was Bihar's homegrown revolutionary and political leader.</li>
+      <li><strong>Champaran = Bihar's first mass nationalist movement:</strong> the Swadeshi Movement (1905) bypassed Bihar; Champaran (1917) was Bihar's first true mass nationalist movement — 12 years after the Swadeshi Movement. Gandhi's Champaran success established the Bihar Congress as a major force.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>↔ Topic 29 (INC Formation):</strong> Gandhi transformed the INC from an elite debating society (1885–1919) to a mass movement (1920 onwards). His Non-Cooperation Movement (1920) was the INC's first truly mass-based campaign. The Moderates' PPP was replaced by Gandhi's satyagraha.<br>
+    <strong>↔ Topic 30 (Bengal Partition &amp; Swadeshi):</strong> The Swadeshi Movement (1905) was the precursor to Gandhi's swadeshi (khadi, charkha). Gandhi adapted and refined the Swadeshi strategy — adding mass mobilisation and non-violence (satyagraha). The boycott of British goods was common to both.<br>
+    <strong>↔ Topic 31 (Home Rule &amp; Lucknow Pact):</strong> The Home Rule Movement (1916–1918) paved the way for Gandhi's mass movements. Besant's decline (1918) coincided with Gandhi's rise (1919 Rowlatt). Champaran (1917) occurred during the Home Rule era.<br>
+    <strong>↔ Topic 36 (Constitutional Acts):</strong> The Government of India Act 1919 (Mont-Ford Reforms) followed the Non-Cooperation era; the Government of India Act 1935 followed the Civil Disobedience era. Each Gandhian movement pushed the British toward further constitutional reform.<br>
+    <strong>↔ Topic 28 (Socio-Religious Reforms):</strong> Gandhi's Champaran (1917) combined political protest with social reform (schools, sanitation). His approach to untouchability (Harijan, 1930s) echoes the 19th-century reformers' anti-caste work.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance &amp; Potential Traps</div>
+  <ul>
+    <li><strong>71st PYQ matching — memorise all four pairs (HIGH-YIELD):</strong> Champaran → Rajendra Prasad; Azad Dasta → Shyam Narayan Singh; Individual Satyagraha Bihar 1940 → Sahajanand Saraswati; Kisan Sabha Bihar → Jayaprakash Narayan. The 71st BPSC asked this directly — a repeat is likely.</li>
+    <li><strong>Champaran was Gandhi's FIRST satyagraha in India (NOT Non-Cooperation):</strong> Champaran (1917) was the first; Non-Cooperation (1920) was the first all-India mass movement. Don't confuse "first satyagraha in India" with "first mass movement."</li>
+    <li><strong>Chauri Chaura date trap:</strong> February 4, 1922 (NOT 1920 or 1924). The incident led to the withdrawal of the Non-Cooperation Movement on February 12, 1922.</li>
+    <li><strong>Dandi Salt March year trap:</strong> March 12 – April 6, 1930 (NOT 1929 or 1931). 1929 was the Lahore Purna Swaraj declaration; 1930 was the Salt March; 1931 was the Gandhi-Irwin Pact.</li>
+    <li><strong>Quit India "Do or Die" slogan:</strong> Gandhi said it (NOT Nehru, NOT Azad). "We shall either free India or die in the attempt" — August 8, 1942, Bombay (Gowalia Tank Maidan). The 71st BPSC asked this directly.</li>
+    <li><strong>Purna Swaraj was demanded in 1929 (NOT 1942):</strong> 1929 Lahore session (Nehru presided) demanded Purna Swaraj. 1942 was Quit India — different demand, different session. January 26, 1930 was the first Independence Day; January 26, 1950 became Republic Day.</li>
+    <li><strong>Poona Pact was Gandhi + Ambedkar (NOT Gandhi + Irwin):</strong> the Poona Pact (1932) was about reserved seats for Depressed Classes. Gandhi-Irwin Pact (1931) was about Civil Disobedience and Round Table. Don't confuse the two pacts.</li>
+  </ul>
+
+  <div class="prediction-box">
+    <span class="prediction-tag">72nd Prediction</span>
+    <strong>Top 5 Predictions (72nd BPSC — Gandhian Movements):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) 71st PYQ matching (HIGH):</strong> "Match: Champaran → Rajendra Prasad, Azad Dasta → Shyam Narayan Singh, Individual Satyagraha Bihar 1940 → Sahajanand Saraswati, Kisan Sabha Bihar → Jayaprakash Narayan." Direct 71st PYQ repeat likely.</li>
+      <li><strong>(2) Champaran (HIGH):</strong> "Gandhi's first satyagraha in India was at?" → Champaran (Bihar), 1917. "Champaran Agrarian Inquiry Committee was between?" → Indian Government and Gandhiji (71st PYQ Q82).</li>
+      <li><strong>(3) "Do or Die" slogan (HIGH):</strong> "Who said 'We shall either free India or die in the attempt'?" → Mahatma Gandhi (August 8, 1942, Quit India launch). "At which place?" → Bombay (Gowalia Tank Maidan).</li>
+      <li><strong>(4) Dandi Salt March (MEDIUM):</strong> "The Civil Disobedience Movement began with?" → Dandi Salt March, March 12 – April 6, 1930. "Distance?" → 240 miles. "From where to where?" → Sabarmati Ashram to Dandi.</li>
+      <li><strong>(5) Chauri Chaura (MEDIUM):</strong> "The Non-Cooperation Movement was withdrawn after which incident?" → Chauri Chaura (February 4, 1922). "Where?" → Gorakhpur district, UP. "How many policemen killed?" → 22.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Gandhi's first Satyagraha in India was at which place in 1917?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Champaran (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Kheda (Gujarat)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Ahmedabad (Gujarat)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Dandi (Gujarat)</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Gandhi's first Satyagraha in India was at Champaran (Bihar) in 1917, on behalf of indigo farmers protesting the 'tinkathia' system (forced indigo cultivation on 3/20 of land). Raj Kumar Shukla, a local farmer, invited Gandhi to Champaran. Gandhi was assisted by Rajendra Prasad, Anugrah Narayan Sinha, and Braj Kishore Prasad. The Champaran Agrarian Inquiry Committee was appointed by the Indian Government in agreement with Gandhi.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The Champaran Satyagraha (1917) was associated with which Bihar leader, as per the 71st BPSC PYQ matching?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Dr. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Sahajanand Saraswati</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Shyam Narayan Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — The 71st BPSC PYQ (Q100) asked to match: Champaran Satyagraha → Dr. Rajendra Prasad (option a-4). Rajendra Prasad was Gandhi's key Bihar associate at Champaran. He later became the first President of India (1950-1962). The other 71st PYQ matches: Azad Dasta → Shyam Narayan Singh; Individual Satyagraha in Bihar 1940 → Sahajanand Saraswati; Kisan Sabha Bihar → Jayaprakash Narayan.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Champaran Agrarian Inquiry Committee was appointed in agreement between which parties? (71st BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Indian Government and Gandhiji</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Indian Government and Raj Kumar Shukla</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Indian Government and Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Indian Government and Anugraha Narayan Sinha</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — The Champaran Agrarian Inquiry Committee was appointed in agreement between the Indian Government and Gandhiji (71st BPSC PYQ Q82). The committee was formed in 1917 after Gandhi's satyagraha. It had 4 members (including Gandhi) and investigated the indigo planters' exploitation. The committee's report led to the Champaran Agrarian Act (1918), which abolished the tinkathia system.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Non-Cooperation Movement was launched by Gandhi in which year and against what?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 1920, against the British government after Jallianwala Bagh and Rowlatt Act</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 1919, against the Rowlatt Act</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 1922, against the arrest of Tilak</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 1942, against the British rule</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — The Non-Cooperation Movement was launched in 1920 (September, by Gandhi at the Calcutta INC session). It was a response to the Jallianwala Bagh massacre (April 13, 1919), the Rowlatt Act (1919), and the Khilafat issue (the Ottoman Caliphate's abolition). The movement called for boycott of British schools, courts, councils, and titles. It was withdrawn in February 1922 after the Chauri Chaura incident.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The Non-Cooperation Movement was withdrawn by Gandhi after which incident?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Chauri Chaura incident (February 1922)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Jallianwala Bagh massacre (1919)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Kakori train robbery (1925)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Lahore conspiracy case (1928)</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — The Non-Cooperation Movement was withdrawn on February 12, 1922, after the Chauri Chaura incident (February 4, 1922) — where a mob set fire to a police station at Chauri Chaura (Gorakhpur district, UP), killing 22 policemen. Gandhi was shocked by the violence and called off the movement. He believed Indians were not yet ready for non-violent resistance. Gandhi was arrested in March 1922 and sentenced to 6 years imprisonment (released 1924).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The Civil Disobedience Movement began with the Dandi Salt March in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 1929</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 1930</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 1931</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 1932</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — The Civil Disobedience Movement began on March 12, 1930, when Gandhi started the Dandi Salt March from Sabarmati Ashram to Dandi (Gujarat coast), a distance of 240 miles. He reached Dandi on April 6, 1930, and broke the salt law by making salt from seawater. The Salt March was a symbolic act of civil disobedience against the British salt tax. The movement spread across India and lasted until 1934.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The Dandi Salt March covered a distance of approximately how many miles?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) 200 miles</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 240 miles</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) 300 miles</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) 150 miles</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (B)</strong> — The Dandi Salt March covered approximately 240 miles (384 km) from Sabarmati Ashram (Ahmedabad) to Dandi (Gujarat coast). Gandhi started on March 12, 1930, with 78 followers (from the Sabarmati Ashram) and reached Dandi on April 6, 1930 (24 days). Along the way, he held meetings at villages and the march grew. At Dandi, he broke the salt law by making salt from seawater — a symbolic act of civil disobedience against the British salt tax.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The Quit India Movement was launched in which year and with what slogan?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 1942, 'Do or Die' (Karenge ya Marenge)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) 1940, 'Swaraj is my birthright'</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 1942, 'Inquilab Zindabad'</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) 1940, 'Purna Swaraj'</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — The Quit India Movement was launched on August 8, 1942, at the Bombay session of the INC (Gowalia Tank Maidan, renamed August Kranti Maidan). Gandhi's slogan was 'Do or Die' (Karenge ya Marenge) — 'We shall either free India or die in the attempt.' The movement demanded immediate British withdrawal from India. The British arrested the entire Congress leadership the next morning (August 9, 1942), but the movement spread spontaneously across India.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Who said 'We shall either free India or die in the attempt'? (71st BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Mahatma Gandhi</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Abul Kalam Azad</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) V.D. Savarkar</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Mahatma Gandhi said 'We shall either free India or die in the attempt' at the launch of the Quit India Movement (August 8, 1942, Bombay). The slogan was 'Do or Die' (Karenge ya Marenge). This was the 71st BPSC PYQ. Gandhi's Quit India speech at Gowalia Tank Maidan (renamed August Kranti Maidan) was his final, most radical call for independence.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The 'Azad Dasta' was associated with which Bihar leader, as per the 71st BPSC PYQ matching?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Shyam Narayan Singh</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Sahajanand Saraswati</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Dr. Rajendra Prasad</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — The 71st BPSC PYQ (Q100) matched 'Azad Dasta' with Shyam Narayan Singh (option b-2). The Azad Dasta was an underground revolutionary group in Bihar during the Quit India Movement (1942). Shyam Narayan Singh led the Azad Dasta in the Hazaribagh region of Bihar. The group operated underground after the Congress leadership was arrested.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The 'Individual Satyagraha in Bihar 1940' was associated with which leader, as per the 71st BPSC PYQ?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Sahajanand Saraswati</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Dr. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Shyam Narayan Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — The 71st BPSC PYQ (Q100) matched 'Individual Satyagraha in Bihar 1940' with Sahajanand Saraswati (option c-3). Sahajanand Saraswati was a sanyasi-reformer who founded the Bihar Provincial Kisan Sabha (1929). He led the Individual Satyagraha in Bihar in 1940 (during the WWII phase when the INC offered individual satyagrahis to the British). He was Bihar's homegrown peasant leader and reformer.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The 'Kisan Sabha Bihar' was associated with which leader, as per the 71st BPSC PYQ matching?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Dr. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Sahajanand Saraswati</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Shyam Narayan Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — The 71st BPSC PYQ (Q100) matched 'Kisan Sabha Bihar' with Jayaprakash Narayan (option d-1). Jayaprakash Narayan ('JP'), Bihar's most famous socialist leader, was involved in the Kisan Sabha and peasant movements in Bihar. He later led the Total Revolution (1974-75) against the Emergency. JP was Bihar's homegrown revolutionary and political leader.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The Rowlatt Act was passed in which year and what did it provide?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) 1919, allowed detention without trial for 2 years</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) 1919, imposed press censorship</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) 1920, banned political meetings</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) 1919, allowed detention without trial for 6 months</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — The Rowlatt Act (Anarchical and Revolutionary Crimes Act, 1919) allowed the British to detain suspects without trial for up to 2 years. It was based on the recommendations of the Sedition Committee (Rowlatt Committee, 1918). Gandhi launched the Rowlatt Satyagraha (March 1919) against this Act — his first all-India satyagraha. The Jallianwala Bagh massacre (April 13, 1919) occurred during the anti-Rowlatt protests in Punjab.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Jallianwala Bagh massacre took place on which date and at which place?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) April 13, 1919 at Amritsar</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) April 13, 1919 at Lahore</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) March 13, 1919 at Amritsar</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) April 13, 1920 at Amritsar</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — The Jallianwala Bagh massacre took place on April 13, 1919 (Baisakhi day), at Jallianwala Bagh, Amritsar (Punjab). General Reginald Dyer ordered his troops to fire on a peaceful crowd of unarmed men, women, and children assembled for a meeting against the Rowlatt Act. Officially 379 were killed (unofficial estimates are much higher, up to 1,000). The massacre shocked India and was a major catalyst for the Non-Cooperation Movement (1920).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Kheda Satyagraha (1918) was Gandhi's second Satyagraha in India. Where was it held?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Kheda district, Gujarat</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Kheda district, Maharashtra</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Kheda, Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Kheda, UP</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — The Kheda Satyagraha (1918) was held in the Kheda district of Gujarat. It was Gandhi's second Satyagraha in India (after Champaran 1917). The peasants of Kheda were hit by famine and crop failure; they demanded relief from land revenue. Gandhi led the satyagraha with Vallabhbhai Patel and Indulal Yagnik. The British eventually suspended revenue collection. Kheda was a training ground for Gandhi's methods.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The Purna Swaraj (complete independence) was demanded at which INC session?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) 1929 Lahore session (presided by Jawaharlal Nehru)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) 1916 Lucknow session</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) 1920 Nagpur session</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) 1942 Bombay session</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — The Purna Swaraj (complete independence) was demanded at the 1929 Lahore session of the INC, presided over by Jawaharlal Nehru. The INC declared January 26, 1930 as 'Independence Day' — celebrated across India. This was a shift from dominion status (the earlier goal) to complete independence. The Civil Disobedience Movement (1930) followed. January 26 was later chosen as India's Republic Day (1950) in honour of the 1930 Purna Swaraj declaration.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Consider the following about the 71st BPSC PYQ matching: 1. Champaran → Rajendra Prasad. 2. Azad Dasta → Shyam Narayan Singh. 3. Individual Satyagraha Bihar 1940 → Sahajanand Saraswati. 4. Kisan Sabha Bihar → Jayaprakash Narayan. Which is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 1, 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) All four (1, 2, 3, 4)</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — All four are correct (71st BPSC PYQ Q100): Champaran → Rajendra Prasad (a-4), Azad Dasta → Shyam Narayan Singh (b-2), Individual Satyagraha Bihar 1940 → Sahajanand Saraswati (c-3), Kisan Sabha Bihar → Jayaprakash Narayan (d-1). The correct code was 4, 2, 3, 1 — all four matches are correct. This is the highest-yield Bihar-specific PYQ pattern for the Gandhian era.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Arrange in chronological order: 1. Champaran 2. Non-Cooperation 3. Dandi March 4. Quit India</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) 1, 2, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) 2, 1, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) 1, 3, 2, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) 3, 1, 2, 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Champaran (1917) → Non-Cooperation (1920) → Dandi March (1930) → Quit India (1942). Champaran was Gandhi's first satyagraha in India; Non-Cooperation was his first all-India mass movement; the Dandi March launched the Civil Disobedience Movement; Quit India was his final mass movement before independence.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Who was the local farmer who invited Gandhi to Champaran in 1917?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Raj Kumar Shukla</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Anugrah Narayan Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Braj Kishore Prasad</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — Raj Kumar Shukla was the local Champaran farmer who invited Gandhi to Champaran in 1917. He met Gandhi at the Lucknow INC session (1916) and persuaded him to visit Champaran to see the indigo farmers' plight. Gandhi mentioned Shukla's persistence in his autobiography 'The Story of My Experiments with Truth'. The 71st BPSC PYQ (Q82) noted that the Champaran Agrarian Inquiry Committee was between the Indian Government and Gandhiji.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The Gandhi-Irwin Pact (1931) was signed between Gandhi and Lord Irwin (Viceroy). What did it lead to?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Gandhi's participation in the Second Round Table Conference</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) The withdrawal of the Non-Cooperation Movement</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) The Poona Pact</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) The August Offer</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — The Gandhi-Irwin Pact (March 5, 1931) was signed between Gandhi and Lord Irwin (Viceroy). Gandhi agreed to suspend the Civil Disobedience Movement and participate in the Second Round Table Conference (London, September 1931). In return, the British agreed to release political prisoners and allow salt collection by coastal villagers. The Second Round Table Conference (1931) was inconclusive — Gandhi returned disappointed. The Civil Disobedience Movement was resumed in January 1932.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Which of the following was NOT a phase of Gandhi's Satyagraha in India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Swadeshi Movement (1905)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Champaran Satyagraha (1917)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Kheda Satyagraha (1918)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) Dandi Salt March (1930)</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — The Swadeshi Movement (1905) was NOT a phase of Gandhi's Satyagraha — it was launched before Gandhi's arrival in India (Gandhi was in South Africa until 1915). The Swadeshi Movement was led by Tilak, Lajpat Rai, Bipin Pal, and Aurobindo. Gandhi's Satyagrahas in India began with Champaran (1917), followed by Kheda (1918) and Ahmedabad Mill Strike (1918). The Dandi Salt March (1930) was a later phase.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The Khilafat Movement (1919-1924) was merged with which movement by Gandhi?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Non-Cooperation Movement (1920)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Civil Disobedience Movement (1930)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Quit India Movement (1942)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Rowlatt Satyagraha (1919)</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — The Khilafat Movement (1919-1924) was merged with the Non-Cooperation Movement (1920) by Gandhi. The Khilafat issue was the Ottoman Caliphate's abolition by the British after WWI. Indian Muslims (led by the Ali brothers — Muhammad Ali and Shaukat Ali) demanded the restoration of the Caliph. Gandhi merged the Khilafat with Non-Cooperation to achieve Hindu-Muslim unity. The Khilafat Movement ended when Turkey abolished the Caliphate itself (1924).</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The Poona Pact (1932) was signed between Gandhi and whom, regarding reserved seats for the Depressed Classes?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) B.R. Ambedkar</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Lord Irwin</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Lord Linlithgow</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Motilal Nehru</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — The Poona Pact (September 24, 1932) was signed between Gandhi (on hunger strike in Yerwada Jail) and B.R. Ambedkar. The British had announced the 'Communal Award' (August 1932) with separate electorates for the Depressed Classes. Gandhi opposed this (he believed it would divide Hindu society) and went on a fast unto death. Ambedkar relented and signed the Poona Pact — replacing separate electorates with reserved seats for the Depressed Classes within the Hindu electorate.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The Ahmedabad Mill Strike (1918) was Gandhi's third Satyagraha. What was the issue?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Textile mill workers' wage dispute</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Indigo farmers' exploitation</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Salt tax</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Land revenue</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — The Ahmedabad Mill Strike (1918) was Gandhi's third Satyagraha in India. Textile mill workers in Ahmedabad demanded a 35% wage increase (the plague had caused inflation). The mill owners refused. Gandhi went on a hunger strike to pressure the mill owners. The strike ended with a compromise — a 35% wage increase. This was Gandhi's first fast (hunger strike) as a tool of satyagraha.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The August Offer (1940) was made by which Viceroy during WWII, promising dominion status after the war?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Lord Linlithgow</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) Lord Wavell</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Lord Mountbatten</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) Lord Willingdon</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — The August Offer was made by Lord Linlithgow (Viceroy 1936-1943) in August 1940, during WWII. It promised dominion status for India after the war and the expansion of the Viceroy's Executive Council. The INC rejected the offer (it demanded immediate self-government). Gandhi launched the Individual Satyagraha (1940-41) in response — Vinoba Bhave was the first Individual Satyagrahi; Nehru was the second.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Champaran_Satyagraha" target="_blank">Champaran Satyagraha — Wikipedia</a> <span style="color:#64748b;font-size:12px;">1917, Bihar; Gandhi's first satyagraha in India</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Non-cooperation_movement" target="_blank">Non-Cooperation Movement — Wikipedia</a> <span style="color:#64748b;font-size:12px;">1920-1922; withdrawn after Chauri Chaura</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Salt_March" target="_blank">Dandi Salt March — Wikipedia</a> <span style="color:#64748b;font-size:12px;">March 12 - April 6, 1930; 240 miles</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Quit_India_Movement" target="_blank">Quit India Movement — Wikipedia</a> <span style="color:#64748b;font-size:12px;">August 8, 1942; "Do or Die" slogan by Gandhi</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre" target="_blank">Jallianwala Bagh Massacre — Wikipedia</a> <span style="color:#64748b;font-size:12px;">April 13, 1919; Amritsar; Gen. Dyer</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Poona_Pact" target="_blank">Poona Pact — Wikipedia</a> <span style="color:#64748b;font-size:12px;">September 24, 1932; Gandhi + Ambedkar</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 32 — Gandhian Movements • Generated 2026-07-17 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'a', q4: 'a', q5: 'a',
+  q6: 'b', q7: 'b', q8: 'a', q9: 'a', q10: 'a',
+  q11: 'a', q12: 'a', q13: 'a', q14: 'a', q15: 'a',
+  q16: 'a', q17: 'd', q18: 'a', q19: 'a', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'a', q24: 'a', q25: 'a'
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

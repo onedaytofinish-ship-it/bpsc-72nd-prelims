@@ -1,0 +1,327 @@
+[
+ {
+  "q": "Ozone Day is celebrated on: (71st BPSC PYQ)",
+  "options": [
+   "5 June",
+   "16 September",
+   "22 April",
+   "10 December"
+  ],
+  "answer": 1,
+  "explanation": "16 September — the International Day for the Preservation of the Ozone Layer, marking the signing of the Montreal Protocol (16 September 1987). The 5 June trap (A) is World Environment Day; (C) 22 April is Earth Day; (D) 10 December is Human Rights Day.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st p.44"
+ },
+ {
+  "q": "What was the theme of the International Olympic Day 2024, celebrated every year on 23rd June? (70th BPSC PYQ)",
+  "options": [
+   "“Let’s Move”",
+   "“Together, For a Peaceful World”",
+   "“Let’s Move and Celebrate”",
+   "“Move, Learn, Discover — Together for a Better World”"
+  ],
+  "answer": 2,
+  "explanation": "The 2024 theme was “Let’s Move and Celebrate” (Paris Olympic year). (A) “Let’s Move” was the 2023 theme — the classic adjacent-year trap. Olympic Day marks the founding of the IOC at the Sorbonne, Paris, on 23 June 1894.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th p.48"
+ },
+ {
+  "q": "Match List-I (Day) with List-II (Date):\na) National Science Day — 1) 21 June\nb) International Day of Yoga — 2) 28 February\nc) World Environment Day — 3) 5 June\nd) National Voters’ Day — 4) 25 January",
+  "options": [
+   "a-2, b-1, c-3, d-4",
+   "a-1, b-2, c-3, d-4",
+   "a-2, b-1, c-4, d-3",
+   "a-3, b-1, c-2, d-4"
+  ],
+  "answer": 0,
+  "explanation": "NSD = 28 February (Raman Effect discovery, 1928); IDY = 21 June (summer solstice; UNGA resolution of 2014); WED = 5 June (Stockholm Conference, 1972); NVD = 25 January (ECI founded 25 Jan 1950). This day↔date matching bank is a BPSC staple.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who was the chief guest at India’s 76th Republic Day celebrations in 2025?",
+  "options": [
+   "Abdel Fattah el-Sisi (President of Egypt)",
+   "Prabowo Subianto (President of Indonesia)",
+   "Emmanuel Macron (President of France)",
+   "Ursula von der Leyen (President of the European Commission)"
+  ],
+  "answer": 1,
+  "explanation": "Indonesian President Prabowo Subianto — the 4th Indonesian leader to be RD chief guest; a 352-member Indonesian marching and band contingent participated (its first abroad). Trap: el-Sisi was the 2023 guest; von der Leyen came in 2026 — don’t swap years.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 77th Republic Day (26 January 2026) was historic because its chief guests were:",
+  "options": [
+   "The Presidents of France and the UAE",
+   "The Prime Ministers of the UK and Australia",
+   "The Presidents of the European Commission (Ursula von der Leyen) and the European Council (António Costa)",
+   "More than one of the above"
+  ],
+  "answer": 2,
+  "explanation": "For the first time, both top EU leaders were joint chief guests — timed with the India–EU summit and FTA push. The 2026 celebrations centred on “150 Years of Vande Mataram” (“Swatantrata ka Mantra: Vande Mataram” / “Samriddhi ka Mantra: Aatmanirbhar Bharat”).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The theme of the 11th International Day of Yoga (2025) was:",
+  "options": [
+   "“Yoga for Humanity”",
+   "“Yoga for One Earth, One Health”",
+   "“Yoga for Healthy Ageing”",
+   "“Yoga for Vasudhaiva Kutumbakam”"
+  ],
+  "answer": 1,
+  "explanation": "2025 = “Yoga for One Earth, One Health” (PM-led main event at Visakhapatnam). Traps: “Yoga for Humanity” = 2022; “Vasudhaiva Kutumbakam” = 2023; “Healthy Ageing” = 2026 — BPSC swaps adjacent years.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "World Environment Day 2025 was hosted by ______ with the theme ______.",
+  "options": [
+   "Republic of Korea (Jeju) — “Ending Global Plastic Pollution”",
+   "Azerbaijan (Baku) — “Climate Action”",
+   "Saudi Arabia — “Land Restoration, Desertification and Drought Resilience”",
+   "Sweden — “Only One Earth”"
+  ],
+  "answer": 0,
+  "explanation": "Jeju Province, Republic of Korea hosted WED 2025 with the #BeatPlasticPollution theme. (B) Baku hosts WED 2026; (C) Saudi Arabia hosted 2024; (D) Sweden’s “Only One Earth” was 2022.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The National Science Day 2026 theme was:",
+  "options": [
+   "“Empowering Indian Youth for Global Leadership in Science & Innovation for Viksit Bharat”",
+   "“Indigenous Technologies for Viksit Bharat”",
+   "“Women in Science: Catalysing Viksit Bharat”",
+   "“Integrated Approach in Science and Technology for a Sustainable Future”"
+  ],
+  "answer": 2,
+  "explanation": "2026 = “Women in Science: Catalysing Viksit Bharat”; (A) was the 2025 theme. NSD (28 February) marks C.V. Raman’s discovery of the Raman Effect (1928), which won him the 1930 Nobel Prize in Physics.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about National Voters’ Day:\n1. The 15th NVD (2025) had the theme “Nothing Like Voting, I Vote For Sure” and marked 75 years of the ECI.\n2. NVD is celebrated on 25 January, the foundation day of the Election Commission of India (1950).\n3. The 16th NVD (2026) theme was “My India, My Vote”.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct. ECI was established on 25 Jan 1950; India’s electorate stood at ~99.1 crore in 2025. The 2026 tagline was “Citizen at the Heart of Indian Democracy”, with President Murmu gracing the New Delhi function.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "World Meditation Day, proclaimed by a UN General Assembly resolution piloted by India, is observed on:",
+  "options": [
+   "21 December",
+   "21 June",
+   "11 December",
+   "10 December"
+  ],
+  "answer": 0,
+  "explanation": "21 December — proclaimed by a UNGA resolution (December 2024) with India among the co-sponsors; first observance 21 Dec 2024, second on 21 Dec 2025 with a high-level event at UN HQ, New York. It complements the International Day of Yoga (21 June) — don’t swap the two 21sts.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 12th International Day of Yoga (2026) had which theme and PM-led main venue?",
+  "options": [
+   "“Yoga for One Earth, One Health” — Visakhapatnam",
+   "“Yoga for Healthy Ageing” — Mysuru",
+   "“Yoga for Healthy Ageing” — Kolkata (Red Road)",
+   "“Yoga for Wellness, Wisdom & World Peace” — New Delhi"
+  ],
+  "answer": 2,
+  "explanation": "2026: theme “Yoga for Healthy Ageing” (aligns with the WHO Decade of Healthy Ageing 2021–30), PM-led main event at Red Road, Kolkata, with Yoga Sangam and 12 heritage sites. (A) is 2025; Mysuru hosted the 2022 national event; (D) is a fake theme circulated by non-official sites — the Ministry of Ayush theme is the only one that counts.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "World Water Day 2025 (22 March) was special because:",
+  "options": [
+   "Its theme was “Glacier Preservation”, and the first-ever World Glacier Day was marked on 21 March 2025",
+   "Its theme was “Water and Gender”",
+   "It marked the International Year of Rivers",
+   "Its theme was “Leveraging Water for Peace”"
+  ],
+  "answer": 0,
+  "explanation": "2025 = “Glacier Preservation” during the International Year of Glaciers’ Preservation; 21 March 2025 saw the first-ever World Glacier Day. (B) is the 2026 theme (slogan “Where Water Flows, Equality Grows”); (D) was 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The World Health Day 2025 theme was:",
+  "options": [
+   "“My Health, My Right”",
+   "“Health For All”",
+   "“Healthy Beginnings, Hopeful Futures”",
+   "“Together for health. Stand with science.”"
+  ],
+  "answer": 2,
+  "explanation": "2025 = “Healthy Beginnings, Hopeful Futures” — a year-long maternal and newborn health campaign by WHO. (A) was 2024; (D) is the 2026 theme (One Health approach, rebuilding trust in science). WHD on 7 April marks WHO’s constitution coming into force (1948).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about Independence Day 2025:\n1. It was the 79th Independence Day.\n2. The theme was “Naya Bharat”.\n3. PM Modi’s 103-minute address was his 12th consecutive Red Fort speech — the longest I-Day speech by any PM.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All correct — 15 Aug 2025 = 79th ID; theme “Naya Bharat” (Viksit Bharat @2047 vision); the 103-minute speech surpassed Indira Gandhi’s benchmark of 11 consecutive addresses. The 2026 theme is not testable — the exam (26 Jul 2026) precedes 15 Aug 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "United Nations Day 2025 (24 October) was special as it marked:",
+  "options": [
+   "75 years of the UN Charter",
+   "The 80th anniversary of the UN Charter’s entry into force",
+   "100 years of the League of Nations",
+   "The 70th anniversary of the Bandung Conference"
+  ],
+  "answer": 1,
+  "explanation": "The UN Charter entered into force on 24 Oct 1945 → UN@80 in 2025, accompanied by the UN80 reform initiative; India’s EAM delivered remarks at UN@80 celebrations. (A) 75 years was 2020; (D) Bandung (1955) turned 70 in 2025 but is unrelated to UN Day.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Earth Day (22 April) in 2025 and 2026 shared which theme?",
+  "options": [
+   "“Invest In Our Planet”",
+   "“Planet vs. Plastics”",
+   "“Our Power, Our Planet”",
+   "“Restore Our Earth”"
+  ],
+  "answer": 2,
+  "explanation": "EARTHDAY.ORG retained “Our Power, Our Planet” for both 2025 (the 55th anniversary — a call to triple global renewable electricity by 2030) and 2026 (announced 14 Jan 2026). (A) 2023, (B) 2024, (D) 2021. Theme repetition across two years is rare — exactly why it is testable.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "For International Women’s Day 2026, the UN theme and the IWD campaign theme were respectively:",
+  "options": [
+   "“For ALL Women and Girls: Rights. Equality. Empowerment.” and “Accelerate Action”",
+   "“Rights. Justice. Action. For ALL Women and Girls” and “Give To Gain”",
+   "“Inspire Inclusion” and “Count Her In”",
+   "“Embrace Equity” and “DigitALL”"
+  ],
+  "answer": 1,
+  "explanation": "2026: UN theme “Rights. Justice. Action. For ALL Women and Girls”; IWD campaign theme “Give To Gain”. (A) is the 2025 pair — the Beijing+30 year, when WEF projected gender parity only by 2158 at the current pace.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Engineers’ Day 2025 (15 September) had which theme?",
+  "options": [
+   "“Deep Tech & Engineering Excellence: Driving India’s Techade”",
+   "“Engineering for a Sustainable Future”",
+   "“Engineers for a Self-Reliant India”",
+   "“Smart Engineering for a Better World”"
+  ],
+  "answer": 0,
+  "explanation": "The 58th Engineers’ Day (Institution of Engineers) theme was “Deep Tech & Engineering Excellence: Driving India’s Techade”. 15 September is Sir M. Visvesvaraya’s birth anniversary (b. 1861; Bharat Ratna 1955) — the designer of the Krishna Raja Sagara dam.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Vijay Diwas 2025 (16 December) marked:",
+  "options": [
+   "The Kargil victory of 1999",
+   "The 54th anniversary of the 1971 victory, when ~93,000 Pakistani troops surrendered",
+   "50 years of the Emergency",
+   "The liberation of Goa"
+  ],
+  "answer": 1,
+  "explanation": "16 Dec 1971: Pakistan’s Eastern Command surrendered ~93,000 troops at Dhaka — the largest military surrender since WWII — ending the 13-day war and leading to the birth of Bangladesh. Trap: Kargil Vijay Diwas is 26 July; Goa Liberation Day is 19 December.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about Constitution Day (Samvidhan Divas):\n1. It is observed on 26 November, marking the Constitution’s adoption in 1949.\n2. It has been officially observed since 2015.\n3. The 2025 national function was held at the Central Hall of Samvidhan Sadan, and the Constitution was released in 9 languages.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All correct. 26 Nov 1949 = adoption (76th anniversary in 2025); enforcement came on 26 Jan 1950 = Republic Day — the adoption-vs-enforcement swap is BPSC’s favourite trap here. The day was instituted in 2015, Dr. Ambedkar’s 125th birth anniversary year.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following pairs:\n1. International Day of Yoga 2025 — “Yoga for Healthy Ageing”\n2. World Environment Day 2025 — Host: Jeju, Republic of Korea\n3. National Voters’ Day 2026 — “My India, My Vote”\nWhich of the above pairs is/are correctly matched?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "explanation": "Pair 1 is the year-swap trap: “Yoga for Healthy Ageing” is the 2026 theme; 2025 was “Yoga for One Earth, One Health”. Pairs 2 and 3 are correct. BPSC routinely plants one adjacent-year swap in such sets.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match List-I (New UN observance) with List-II (Date):\na) World Football Day — 1) 21 December\nb) International Day of Potato — 2) 25 May\nc) World Basketball Day — 3) 30 May\nd) International Snow Leopard Day — 4) 23 October",
+  "options": [
+   "a-1, b-2, c-3, d-4",
+   "a-2, b-1, c-3, d-4",
+   "a-2, b-3, c-1, d-4",
+   "a-3, b-2, c-1, d-4"
+  ],
+  "answer": 2,
+  "explanation": "Football = 25 May (first 2024); Potato = 30 May (first 2024); Basketball = 21 December (first 2023 — shares its date with World Meditation Day); Snow Leopard = 23 October (observed since 2024). The two 21-December days are the designed confusion.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following day↔date pairs is INCORRECT?",
+  "options": [
+   "Hindi Diwas — 14 September",
+   "National Sports Day — 29 August",
+   "Kisan Diwas — 23 December",
+   "World Ozone Day — 16 October"
+  ],
+  "answer": 3,
+  "explanation": "Ozone Day is 16 SEPTEMBER (Montreal Protocol, 1987) — 16 October is World Food Day (FAO founded 1945). Sports Day (29 Aug) marks Major Dhyan Chand’s birth (1905; 120th anniversary in 2025); Kisan Diwas (23 Dec) marks Chaudhary Charan Singh’s birth anniversary.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "World Tourism Day 2025 was hosted by:",
+  "options": [
+   "Riyadh, Saudi Arabia",
+   "Melaka, Malaysia",
+   "New Delhi, India",
+   "More than one of the above"
+  ],
+  "answer": 1,
+  "explanation": "Melaka, Malaysia hosted WTD 2025 (“Tourism and Sustainable Transformation”) alongside the 7th World Tourism Conference. As of 15 July 2026, the 2026 host and theme had not been announced — never guess unannounced hosts in the exam.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following anniversary statements:\n1. 26 January 2026 = 77th Republic Day.\n2. 15 August 2025 = 79th Independence Day.\n3. 24 October 2025 = 80th United Nations Day.\nWhich of the above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct — count from the first observance: RD from 1950 (2026−1950+1 = 77th); ID from 1947 (2025−1947+1 = 79th); UN Day from 1945 (2025−1945 = 80th). BPSC loves off-by-one ordinal traps such as “78th Republic Day”.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "q": "The Battle of Plassey was fought in which year?",
+    "options": ["1756", "1757", "1764", "1765"],
+    "answer": 1,
+    "explanation": "The Battle of Plassey was fought on 23 June 1757 between the English East India Company (under Robert Clive) and the Nawab of Bengal Siraj-ud-Daulah. 1756 is the year of the Black Hole of Calcutta incident; 1764 is the Battle of Buxar; 1765 is the Treaty of Allahabad and the grant of Diwani.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Battle of Plassey was fought between whom?",
+    "options": ["English EIC vs Siraj-ud-Daulah (Nawab of Bengal)", "English EIC vs Mir Qasim (Nawab of Bengal)", "English EIC vs Shuja-ud-Daulah (Nawab of Awadh)", "English EIC vs the Mughal Emperor"],
+    "answer": 0,
+    "explanation": "Plassey (1757) was fought between the English EIC under Robert Clive and Siraj-ud-Daulah, the Nawab of Bengal. Mir Jafar's betrayal of Siraj was the decisive factor. Mir Qasim was the later Nawab who fought the English at Buxar (1764). Shuja-ud-Daulah was the Nawab of Awadh, an ally at Buxar.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who betrayed Siraj-ud-Daulah at the Battle of Plassey, leading to the English victory?",
+    "options": ["Mir Qasim", "Mir Jafar", "Shuja-ud-Daulah", "Shah Alam II"],
+    "answer": 1,
+    "explanation": "Mir Jafar, the commander-in-chief of Siraj-ud-Daulah's army, secretly allied with Robert Clive and withheld his troops during the Battle of Plassey. This betrayal earned him the nickname 'Gaddar-e-Hind' (Betrayer of India). He was made Nawab after Siraj's defeat and execution. Mir Qasim was Mir Jafar's son-in-law who later rebelled against the English.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Battle of Buxar was fought in which year?",
+    "options": ["1757", "1761", "1764", "1765"],
+    "answer": 2,
+    "explanation": "The Battle of Buxar was fought on 22 October 1764 between the English EIC (under Major Hector Munro) and the combined armies of Mir Qasim (Nawab of Bengal), Shuja-ud-Daulah (Nawab of Awadh), and Shah Alam II (Mughal Emperor). 1761 is the Third Battle of Panipat; 1765 is the Treaty of Allahabad.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.44"
+  },
+  {
+    "q": "The Battle of Buxar (1764) was fought between the English and which combined army? (69th BPSC pattern)",
+    "options": ["Mir Qasim only", "Siraj-ud-Daulah only", "Mir Qasim + Shuja-ud-Daulah + Shah Alam II", "Shuja-ud-Daulah + Ahmad Shah Abdali"],
+    "answer": 2,
+    "explanation": "Buxar was a triple alliance battle: Mir Qasim (Nawab of Bengal), Shuja-ud-Daulah (Nawab of Awadh), and Shah Alam II (Mughal Emperor) fought together against the English EIC under Major Hector Munro. Despite the 3-to-1 numerical superiority, the combined army was defeated. This is the battle that truly established British supremacy in India.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.44"
+  },
+  {
+    "q": "The Treaty of Allahabad (1765) was signed after which battle?",
+    "options": ["Battle of Plassey (1757)", "Battle of Buxar (1764)", "Third Battle of Panipat (1761)", "Battle of Wandiwash (1760)"],
+    "answer": 1,
+    "explanation": "The Treaty of Allahabad (1765) was signed after the Battle of Buxar (1764). Robert Clive signed it with Shuja-ud-Daulah and Shah Alam II. Key outcomes: Diwani of Bengal-Bihar-Orissa granted to the EIC; Shah Alam II was given Kara and Allahabad in exchange for Kora; Shuja-ud-Daulah paid ₹50 lakh as war indemnity. This is a direct 69th BPSC PYQ fact.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.44"
+  },
+  {
+    "q": "The Diwani of Bengal, Bihar, and Orissa was granted to the English East India Company in which year?",
+    "options": ["1757", "1764", "1765", "1772"],
+    "answer": 2,
+    "explanation": "The Diwani (right to collect revenue) of Bengal, Bihar, and Orissa was granted to the EIC by Shah Alam II in 1765, following the Treaty of Allahabad after the Battle of Buxar. This meant the EIC now controlled the civil administration of Bengal while the Nawab retained only criminal justice (Nizamat). This was the true foundation of British rule in India.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the Mughal Emperor who granted the Diwani of Bengal to the English EIC?",
+    "options": ["Shah Alam I", "Shah Alam II", "Bahadur Shah II", "Alamgir II"],
+    "answer": 1,
+    "explanation": "Shah Alam II (Mughal Emperor, 1759–1806) granted the Diwani of Bengal-Bihar-Orissa to the EIC in 1765. He had fought against the English at Buxar (1764) as part of the triple alliance, but after his defeat, he signed the Treaty of Allahabad and granted the Diwani in exchange for a yearly tribute of ₹26 lakh. He remained a pensioner of the English for decades.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who led the English East India Company forces at the Battle of Plassey?",
+    "options": ["Major Hector Munro", "Sir Eyre Coote", "Robert Clive", "Warren Hastings"],
+    "answer": 2,
+    "explanation": "Robert Clive led the EIC forces at Plassey (1757) with approximately 3,000 troops against Siraj-ud-Daulah's army of ~50,000. Clive's victory was due to Mir Jafar's betrayal rather than military superiority. Major Hector Munro led the EIC at Buxar (1764). Sir Eyre Coote won at Wandiwash (1760). Warren Hastings later became the first Governor-General.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who led the English East India Company forces at the Battle of Buxar?",
+    "options": ["Robert Clive", "Major Hector Munro", "Sir Eyre Coote", "Lord Lake"],
+    "answer": 1,
+    "explanation": "Major Hector Munro led the EIC forces at Buxar (1764) and decisively defeated the combined armies of Mir Qasim, Shuja-ud-Daulah, and Shah Alam II. This was a far more significant military victory than Plassey — it established the EIC's military supremacy over the major Indian powers of northern India.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which battle is considered more significant than Plassey for establishing British power in India?",
+    "options": ["Battle of Wandiwash (1760)", "Battle of Buxar (1764)", "Third Battle of Panipat (1761)", "Battle of Plassey (1757)"],
+    "answer": 1,
+    "explanation": "The Battle of Buxar (1764) is considered more significant than Plassey because it defeated not one Nawab but a combined army of three major powers (Bengal, Awadh, and the Mughal Emperor). While Plassey was won by betrayal, Buxar was a genuine military victory that led to the Diwani (1765) — the true foundation of British revenue and administrative control in India.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Black Hole of Calcutta' incident (1756) is associated with which Nawab?",
+    "options": ["Mir Jafar", "Siraj-ud-Daulah", "Mir Qasim", "Alivardi Khan"],
+    "answer": 1,
+    "explanation": "The Black Hole of Calcutta incident (June 1756) occurred when Siraj-ud-Daulah captured Fort William from the English and allegedly imprisoned 146 English prisoners in a small dungeon, of which only 23 survived overnight. This incident (whether exaggerated or not) was used by the English as a justification for sending Clive to Bengal, leading to the Battle of Plassey (1757).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Mir Qasim was the Nawab of Bengal who:",
+    "options": ["Betrayed Siraj-ud-Daulah at Plassey", "Reformed the army and administration, then fought the English at Buxar", "Granted the Diwani to the English", "Signed the Treaty of Allahabad"],
+    "answer": 1,
+    "explanation": "Mir Qasim (son-in-law of Mir Jafar) was installed as Nawab by the English but soon modernised his army, moved his capital to Monghyr (Munger, Bihar), and challenged English trade privileges. When the English refused to pay internal duties, Mir Qasim abolished all duties on Indian traders — sparking the conflict that led to Buxar (1764). He was defeated and fled.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Mir Qasim shifted his capital to which Bihar town to strengthen his position against the English?",
+    "options": ["Patna", "Munger (Monghyr)", "Bhagalpur", "Gaya"],
+    "answer": 1,
+    "explanation": "Mir Qasim shifted his capital from Murshidabad to Monghyr (Munger, Bihar) in 1762, where he built a modern arsenal and fortified the town. Munger's strategic location on the Ganga made it a military stronghold. This Bihar connection is exam-relevant — Mir Qasim's military reforms at Munger were a direct precursor to the Battle of Buxar.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Double Government' (Dual Administration) in Bengal was introduced by whom and in which year?",
+    "options": ["Robert Clive, 1765", "Warren Hastings, 1772", "Lord Curzon, 1905", "Lord Wellesley, 1798"],
+    "answer": 0,
+    "explanation": "Robert Clive introduced the Dual System of Government in Bengal in 1765 after the grant of Diwani. Under this system, the EIC controlled Diwani (revenue collection and civil justice) while the Nawab retained Nizamat (criminal justice and police). The Nawab was responsible for maintaining order but had no revenue power — making him a puppet. Warren Hastings abolished this system in 1772.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Under the Dual System of Government in Bengal (1765–1772), the EIC held which power?",
+    "options": ["Nizamat (criminal justice) only", "Diwani (revenue + civil justice) only", "Both Diwani and Nizamat", "Neither — only military control"],
+    "answer": 1,
+    "explanation": "Under the Dual System, the EIC held Diwani (revenue collection + civil justice) while the Nawab held Nizamat (criminal justice + police). The EIC had the real power (revenue) without the responsibility of administration; the Nawab had the responsibility (law and order) without the revenue to fund it. This exploitative arrangement was abolished by Warren Hastings in 1772.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who abolished the Dual System of Government in Bengal?",
+    "options": ["Robert Clive", "Warren Hastings", "Lord Cornwallis", "Lord Wellesley"],
+    "answer": 1,
+    "explanation": "Warren Hastings abolished the Dual System in 1772 and took direct control of Bengal's administration. The EIC now held both Diwani and Nizamat, making it the de facto ruler of Bengal. This was the transition from 'trade to territory' — the EIC was now a governing power, not just a commercial entity.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange in chronological order: 1. Battle of Plassey 2. Battle of Buxar 3. Grant of Diwani 4. Treaty of Allahabad",
+    "options": ["1, 2, 4, 3", "1, 2, 3, 4", "2, 1, 4, 3", "1, 4, 2, 3"],
+    "answer": 0,
+    "explanation": "Correct order: Battle of Plassey (1757) → Battle of Buxar (1764) → Treaty of Allahabad (1765, signed after Buxar) → Grant of Diwani (1765, part of the Allahabad treaty terms). BPSC frequently asks chronological ordering of these four events — they all happened within 8 years.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which battle marked the transition of the English East India Company from a trading entity to a political power in India?",
+    "options": ["Battle of Plassey (1757)", "Battle of Buxar (1764)", "Third Battle of Panipat (1761)", "Battle of Wandiwash (1760)"],
+    "answer": 1,
+    "explanation": "While Plassey (1757) gave the English a foothold, it was Buxar (1764) and the subsequent Diwani grant (1765) that truly marked the transition from trade to political power. After Buxar, the EIC controlled the revenue of Bengal-Bihar-Orissa — making it a governing entity, not just a commercial one. Plassey was a betrayal victory; Buxar was a military one.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shuja-ud-Daulah, who fought at Buxar, was the Nawab of which region?",
+    "options": ["Bengal", "Awadh (Oudh)", "Bihar", "Mysore"],
+    "answer": 1,
+    "explanation": "Shuja-ud-Daulah was the Nawab of Awadh (Oudh). After his defeat at Buxar, he signed the Treaty of Allahabad (1765), paid ₹50 lakh as war indemnity, and ceded Kara and Allahabad to the Mughal Emperor. Awadh became a buffer state between the EIC's Bengal territories and the Marathas, and remained a loyal EIC ally.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the Battle of Plassey: 1. It was fought in 1757. 2. Mir Jafar's betrayal was the key factor. 3. It led directly to the grant of Diwani. Which is/are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct: Plassey was fought in 1757, and Mir Jafar's betrayal was indeed the decisive factor. Statement 3 is WRONG — the Diwani was granted after the Battle of BUXAR (1764), not after Plassey. Plassey made the English influential in Bengal; Buxar gave them the Diwani. Don't confuse the two battles' outcomes.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT correctly matched?",
+    "options": ["Plassey — Robert Clive vs Siraj-ud-Daulah", "Buxar — Hector Munro vs Mir Qasim", "Allahabad Treaty — 1765", "Diwani grant — by Warren Hastings"],
+    "answer": 3,
+    "explanation": "The Diwani was granted by Mughal Emperor SHAH ALAM II in 1765, NOT by Warren Hastings. Warren Hastings abolished the Dual System in 1772 but did not grant the Diwani. The other three are correctly matched: Plassey = Clive vs Siraj (1757), Buxar = Munro vs Mir Qasim (1764), Allahabad Treaty = 1765.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Nawab who was installed by the English after Plassey and later replaced by Mir Qasim was:",
+    "options": ["Siraj-ud-Daulah", "Mir Jafar", "Shuja-ud-Daulah", "Najm-ud-Daulah"],
+    "answer": 1,
+    "explanation": "Mir Jafar was installed as Nawab after Plassey (1757) as a reward for his betrayal of Siraj-ud-Daulah. However, he could not meet the EIC's growing financial demands and was replaced by his son-in-law Mir Qasim in 1760. Mir Jafar was reinstated after Mir Qasim's defeat at Buxar (1764). The cycle of puppet Nawabs is a BPSC favourite.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Bihar town is directly associated with the Battle of Buxar?",
+    "options": ["Patna", "Buxar", "Munger", "Both Buxar and Munger"],
+    "answer": 3,
+    "explanation": "Buxar is a town in Bihar (on the Ganga, in Bhojpur district) — the battle was fought here on 22 October 1764. Munger (Monghyr) is also associated because Mir Qasim had made it his capital and military base from 1762. Both are Bihar locations: Buxar = the battlefield, Munger = Mir Qasim's fortified capital. This Bihar connection is exam-critical.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bengal Famine of 1770, which killed approximately one-third of Bengal's population, was a direct consequence of:",
+    "options": ["The Battle of Plassey", "The Dual System of Government", "The Treaty of Allahabad", "The Regulating Act of 1773"],
+    "answer": 1,
+    "explanation": "The Dual System (1765–1772) caused the 1770 famine: the EIC collected revenue ruthlessly without administrative responsibility, while the Nawab couldn't maintain irrigation or relief. ~1 crore people died. The EIC continued collecting revenue even during the famine — the ultimate proof of the Dual System's exploitation.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

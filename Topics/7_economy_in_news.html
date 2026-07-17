@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7 - Economy in News | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .flow-node a:hover {
+    text-decoration: underline;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #7 • TIER A</div>
+  <div class="topic-title">Economy in News — RBI Rates, GDP, Reports & Indices</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs & Indian Economy</span>
+    <span class="meta-tag">⚖️ Weight: 1.7</span>
+    <span class="meta-tag">📊 Mapped Questions: 27</span>
+    <span class="meta-tag">🎯 Expected: 3-5 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content & PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 4 Jan PYQ</span>
+    <strong>Fiscal vs Monetary Tools:</strong> "Which among the following is a tool of Fiscal Policy?" — answer: <strong>Taxes</strong>. Credit Ceiling, Bank Rate and CRR are <em>monetary</em> tools of the RBI; taxes and public expenditure belong to the Government's fiscal policy. BPSC's favourite economy classification trap.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 13 Dec PYQ</span>
+    <strong>RBI Inflation Forecast:</strong> "According to the RBI, what is the forecast for headline inflation in Financial Year 2025?" — answer: <strong>4.5%</strong> (the December 2024 MPC projection). BPSC lifts the RBI's CPI projection straight from the monetary-policy press release — track the <em>current</em> projection every cycle (FY27: <strong>5.1%</strong> per the June 2026 MPC).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Fiscal Deficit History:</strong> Statement question from the Economic Survey — the Union Government's fiscal deficit had reached <strong>9.2% of GDP in pandemic-year FY21</strong> and moderated thereafter (6.7% in FY22). Learn the deficit glide path: 9.2% (FY21) → 6.7% (FY22) → 4.4% (FY26 RE) → <strong>4.3% (FY27 BE)</strong>.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 4 Jan PYQ</span>
+    <strong>Bihar's Sectoral Shares:</strong> "The 60.2 percent share in GSDP of Bihar in 2019-20 was of —" answer: <strong>Service Sector</strong>. In the latest Bihar Economic Survey (2025-26) the tertiary sector contributes <strong>54.8%</strong> of GSDP, secondary 26.8%, primary 18.3%.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Rate-corridor mechanics, MPC members & tenure, monetary transmission, RBI functions and the full 2024–26 repo chronology:
+    <a href="subpages/7_monetary_policy_detail.html" target="_blank">Monetary Policy Detail →</a>
+  </div>
+
+  <h3>A. RBI and Monetary Policy <span class="current-tag">VERIFIED JUL 2026</span></h3>
+  <p>As of the <strong>June 2026 MPC</strong> (announced June 5, 2026), the policy stance is <strong>neutral</strong> and the repo rate has been held for a fourth consecutive meeting. The next MPC meets in early August 2026 — after the 72nd BPSC Prelims, so the numbers below are what the exam will test.</p>
+  <table>
+    <tr><th>Policy Rate / Ratio (as of July 2026)</th><th>Value</th><th>One-liner</th></tr>
+    <tr><td><strong>Repo Rate</strong></td><td><strong>5.25%</strong></td><td>Rate at which RBI lends short-term funds to banks against government securities — the policy signal</td></tr>
+    <tr><td><strong>Standing Deposit Facility (SDF)</strong></td><td><strong>5.00%</strong></td><td>Floor of the LAF corridor since April 2022 (Repo − 25 bps); banks park surplus funds with RBI without collateral</td></tr>
+    <tr><td><strong>Marginal Standing Facility (MSF)</strong></td><td><strong>5.50%</strong></td><td>Ceiling of the corridor (Repo + 25 bps); emergency overnight borrowing window</td></tr>
+    <tr><td><strong>Bank Rate</strong></td><td><strong>5.50%</strong></td><td>Aligned with MSF; penal rate for CRR/SLR shortfalls</td></tr>
+    <tr><td><strong>Cash Reserve Ratio (CRR)</strong></td><td><strong>3.00%</strong></td><td>Cash banks must keep with RBI (no interest); cut from 4.5% in stages since Dec 2024</td></tr>
+    <tr><td><strong>Statutory Liquidity Ratio (SLR)</strong></td><td><strong>18.00%</strong></td><td>Liquid assets (G-secs, cash, gold) banks must hold as % of NDTL</td></tr>
+    <tr><td><strong>Fixed Reverse Repo</strong></td><td>3.35%</td><td>Legacy rate — operative floor is now the SDF</td></tr>
+  </table>
+
+  <table>
+    <tr><th>Date</th><th>MPC Decision</th><th>Repo After</th><th>Note</th></tr>
+    <tr><td>Feb 7, 2025</td><td>Cut 25 bps</td><td>6.25%</td><td>First cut in ~5 years; Sanjay Malhotra's first full easing cycle</td></tr>
+    <tr><td>Apr 9, 2025</td><td>Cut 25 bps</td><td>6.00%</td><td>Stance changed to accommodative</td></tr>
+    <tr><td>Jun 6, 2025</td><td>Cut 50 bps</td><td>5.50%</td><td>Front-loaded cut; CRR cut path announced (4.0% → 3.0%)</td></tr>
+    <tr><td>Aug / Oct 2025</td><td>Held</td><td>5.50%</td><td>Pause to assess transmission</td></tr>
+    <tr><td>Dec 5, 2025</td><td>Cut 25 bps</td><td><strong>5.25%</strong></td><td>Inflation at multi-year lows; FY26 GDP projected 7.3%</td></tr>
+    <tr><td>Feb 2026</td><td>Held</td><td>5.25%</td><td>Neutral stance retained</td></tr>
+    <tr><td>Apr 8, 2026</td><td>Held (unanimous)</td><td>5.25%</td><td>FY27 GDP projected 6.9%, CPI 4.6%</td></tr>
+    <tr><td>Jun 5, 2026</td><td>Held</td><td>5.25%</td><td>FY27 GDP revised to <strong>6.6%</strong>, CPI up to <strong>5.1%</strong> (energy prices, weak global demand)</td></tr>
+  </table>
+  <ul>
+    <li><strong>Cumulative easing:</strong> <strong>125 bps</strong> since February 2025 (6.50% → 5.25%) — 25 + 25 + 50 + 25 across four cuts.</li>
+    <li><strong>MPC composition:</strong> <strong>6 members</strong> — 3 from RBI (Governor as chair, Deputy Governor in charge of monetary policy, one RBI officer) + <strong>3 external members</strong> nominated by the Central Government (4-year term). Decisions by majority vote; the <strong>Governor has a casting vote</strong> in case of a tie. Meets <strong>bi-monthly (six times a year)</strong>.</li>
+    <li><strong>Inflation target (FIT):</strong> CPI headline <strong>4% ± 2%</strong> (band 2–6%), mandated by the <strong>2016 amendment to the RBI Act, 1934 (Section 45ZA)</strong>. If inflation breaches the band for 3 consecutive quarters, RBI must explain to the Government.</li>
+    <li><strong>Policy tools:</strong> Liquidity Adjustment Facility (repo/SDF/MSF corridor around the weighted average call rate), Open Market Operations, CRR/SLR, Market Stabilisation Scheme, forex swaps. SDF replaced the fixed reverse repo as the corridor floor in <strong>April 2022</strong>.</li>
+    <li><strong>RBI Governor:</strong> <strong>Sanjay Malhotra</strong> (26th Governor; took office December 11, 2024; former Revenue Secretary). RBI HQ: Mumbai; established April 1, 1935; nationalised January 1, 1949.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Corridor Ladder: "S-R-M climbs by 25"</strong><br>
+    <strong>S</strong>DF (5.00) → <strong>R</strong>epo (5.25) → <strong>M</strong>SF/Bank Rate (5.50). Each step = 25 bps. Banks <em>park</em> money at the lowest rung (SDF), <em>borrow normally</em> at the middle (Repo), and <em>borrow in emergencies</em> at the top (MSF). Cut path: "6.5 → 5.25" via <strong>25-25-50-25</strong> (Feb-Apr-Jun-Dec 2025).
+  </div>
+
+  <h3>B. GDP and National Accounts — The 2026 Reset <span class="current-tag">MAJOR</span></h3>
+  <p>The single biggest economy story of 2026: on <strong>February 27, 2026</strong>, MoSPI released a <strong>new GDP series with base year 2022-23</strong>, replacing the 2011-12 series (which itself dates to the 2015 revision). A full recalculated back series is promised by December 2026.</p>
+  <ul>
+    <li><strong>What changed:</strong> double deflation for agriculture & manufacturing (more accurate real value added); <strong>Proportional Denton Benchmarking</strong> to align quarterly with annual estimates; new data sources — GST records, e-Vahan vehicle registrations, natural gas consumption; better capture of the digital/gig economy. The 2022-23 base is a post-COVID "normal" year.</li>
+    <li><strong>Headline revisions:</strong> FY2023-24 growth revised <em>down</em> to <strong>7.2%</strong> (from 9.2%); FY2024-25 revised <em>up</em> to <strong>7.1%</strong> (from 6.5%); FY2025-26 (Second Advance Estimate) = <strong>7.6%</strong> (up from the First Advance Estimate of 7.4%).</li>
+    <li><strong>FY26 size:</strong> real GDP ≈ <strong>₹322.58 lakh crore</strong> (vs ₹299.89 lakh crore in FY25, rebased); nominal GDP growth ≈ <strong>8.6%</strong>.</li>
+  </ul>
+  <table>
+    <tr><th>Quarter / Year</th><th>Real GDP Growth (New Series)</th><th>Old-Series Print (for trap value)</th></tr>
+    <tr><td>Q1 FY26 (Apr–Jun 2025)</td><td><strong>6.7%</strong></td><td>7.8% (revised down)</td></tr>
+    <tr><td>Q2 FY26 (Jul–Sep 2025)</td><td><strong>8.4%</strong></td><td>8.2% (revised up)</td></tr>
+    <tr><td>Q3 FY26 (Oct–Dec 2025)</td><td><strong>7.8%</strong></td><td>— (first print under new series)</td></tr>
+    <tr><td>FY2025-26 full year (SAE)</td><td><strong>7.6%</strong></td><td>7.4% (FAE, Jan 2026)</td></tr>
+    <tr><td>FY2024-25</td><td><strong>7.1%</strong></td><td>6.5%</td></tr>
+    <tr><td>FY2023-24</td><td><strong>7.2%</strong></td><td>9.2%</td></tr>
+  </table>
+  <ul>
+    <li><strong>Demand side (Economic Survey 2025-26):</strong> Private Final Consumption Expenditure grew <strong>7.0%</strong>, reaching <strong>61.5% of GDP — highest since 2012</strong>; Gross Fixed Capital Formation grew 7.8%, investment rate ≈30% of GDP.</li>
+    <li><strong>GVA vs GDP:</strong> GDP = GVA + taxes on products − subsidies on products. GVA measures sectoral value creation (agri + industry + services); GDP is the headline number BPSC asks for.</li>
+    <li><strong>Nominal vs Real:</strong> nominal = current prices (includes inflation); real = constant prices (base 2022-23 now). The nominal print matters for fiscal ratios (deficit-to-GDP).</li>
+    <li><strong>New CPI series (base 2024):</strong> MoSPI rolled out a revised Consumer Price Index with base year <strong>2024</strong> in early 2026 (replacing the 2012 base), with updated weights reflecting post-pandemic consumption patterns. CPI inflation had fallen to <strong>1.7%</strong> (Apr–Dec 2025) — the lowest of the old series — before RBI projected <strong>5.1% for FY27</strong> (Jun 2026).</li>
+    <li><strong>IIP & WPI:</strong> IIP base 2011-12 (8 core industries ≈40.3% weight); WPI base 2011-12. Industrial GVA hit a six-quarter high of <strong>8.3%</strong> in Q3 FY26; manufacturing posted double-digit growth in FY24 and FY26.</li>
+  </ul>
+
+  <h3>C. Union Budget & Fiscal 2026-27 <span class="current-tag">VERIFIED</span></h3>
+  <p>Presented by Finance Minister <strong>Nirmala Sitharaman on February 1, 2026</strong> — her 9th consecutive Budget (Annual Financial Statement under <strong>Article 112</strong> — a 70th BPSC PYQ fact).</p>
+  <table>
+    <tr><th>Item (FY 2026-27 BE)</th><th>Value</th></tr>
+    <tr><td><strong>Total expenditure</strong></td><td><strong>₹53,47,315 crore</strong> (+7.7% over FY26 RE); interest payments = 26% of it</td></tr>
+    <tr><td><strong>Receipts (excl. borrowings)</strong></td><td>₹36,51,547 crore (+7.2% over FY26 RE)</td></tr>
+    <tr><td><strong>Fiscal deficit</strong></td><td><strong>4.3% of GDP</strong> (vs 4.4% in FY26 RE; 9.2% peak in FY21)</td></tr>
+    <tr><td><strong>Revenue deficit</strong></td><td>1.5% of GDP (same as FY26 RE)</td></tr>
+    <tr><td><strong>Capital expenditure (public capex)</strong></td><td><strong>₹12.2 lakh crore</strong> (up from ₹11.2 lakh crore in FY26)</td></tr>
+    <tr><td><strong>Central govt debt</strong></td><td><strong>55.6% of GDP</strong> in FY27; glide path to <strong>~50% of GDP by March 2031 (FY31)</strong></td></tr>
+    <tr><td><strong>Nominal GDP growth assumed</strong></td><td>10%</td></tr>
+    <tr><td><strong>Tax slabs</strong></td><td>No change in income-tax slabs for AY 2026-27</td></tr>
+  </table>
+  <ul>
+    <li><strong>Headline announcements:</strong> High-Level Committee on <strong>Banking for Viksit Bharat</strong>; <strong>Semiconductor Mission 2.0</strong>; Biopharma SHAKTI scheme (₹10,000 cr / 5 yrs); SME Growth Fund (₹10,000 cr); <strong>Rare Earth Corridors</strong> in Odisha, Kerala, Andhra Pradesh, Tamil Nadu; 7 high-speed rail corridors; City Economic Regions (₹5,000 cr each); 200 legacy industrial clusters to be revived.</li>
+    <li><strong>Economic Survey 2025-26</strong> (tabled <strong>January 29, 2026</strong>; prepared by the Dept of Economic Affairs under CEA <strong>V. Anantha Nageswaran</strong>): FY27 growth projected at <strong>6.8–7.2%</strong>; potential growth upgraded to <strong>~7%</strong>; CPI inflation 1.7% (historic low); forex reserves crossed <strong>$701.4 billion</strong> (~12 months import cover); CAD ~1.0% of GDP; India = fastest-growing major economy for the <strong>4th consecutive year</strong>; theme — <strong>"Sprint and Marathon Together"</strong>.</li>
+    <li><strong>Fiscal-framework note:</strong> the FY22 Budget's commitment — deficit below 4.5% of GDP by FY26 — was met (4.4%); the FY26 Budget switched the anchor to a <strong>debt path (50% ± 1% of GDP by FY31)</strong>, which FY27's 4.3% deficit continues.</li>
+  </ul>
+
+  <h3>D. Reports and Indices — The Matching Bank <span class="current-tag">HOT</span></h3>
+  <p>BPSC's standard question: "Index X is released by whom?" (69th BPSC asked this for the Global Gender Gap Report — answer: World Economic Forum). Dashes = latest rank not verified at page-build time; revise from the latest edition before the exam.</p>
+  <table>
+    <tr><th>Index / Report</th><th>Publisher</th><th>India's Latest Rank / Value</th><th>Topper</th></tr>
+    <tr><td><strong>Global Innovation Index 2025</strong></td><td>WIPO (World Intellectual Property Organization)</td><td><strong>38th</strong></td><td>Switzerland</td></tr>
+    <tr><td><strong>Human Development Index 2025</strong></td><td>UNDP</td><td><strong>130th</strong> (HDI 0.685)</td><td>Iceland</td></tr>
+    <tr><td><strong>Global Hunger Index</strong></td><td>Concern Worldwide + Welthungerhilfe</td><td>— (2024: 105th of 127)</td><td>—</td></tr>
+    <tr><td><strong>Corruption Perceptions Index</strong></td><td>Transparency International</td><td>— (2024: 96th of 180, score 38)</td><td>Denmark</td></tr>
+    <tr><td><strong>Henley Passport Index</strong></td><td>Henley & Partners (IATA data)</td><td>—</td><td>Singapore</td></tr>
+    <tr><td><strong>World Happiness Report</strong></td><td>UN SDSN / Wellbeing Research Centre, Oxford</td><td>— (2025: 118th)</td><td>Finland</td></tr>
+    <tr><td><strong>IMD World Competitiveness Ranking</strong></td><td>IMD Business School, Lausanne</td><td>— (2025: 41st)</td><td>Switzerland</td></tr>
+    <tr><td><strong>Logistics Performance Index 2023</strong> (latest ed.)</td><td>World Bank</td><td><strong>38th of 139</strong></td><td>Singapore</td></tr>
+    <tr><td><strong>SDG India Index 2023-24</strong> (latest ed.)</td><td>NITI Aayog</td><td>India score <strong>71</strong></td><td>Kerala & Uttarakhand (79)</td></tr>
+    <tr><td><strong>Ease of Doing Business</strong></td><td>World Bank — <strong>DISCONTINUED</strong> after 2020 report (India was 63rd); successor = <strong>B-READY (Business Ready)</strong>, first report 2024</td><td>63rd (2020, final)</td><td>New Zealand (2020)</td></tr>
+    <tr><td><strong>Global Gender Gap Report</strong> (69th BPSC PYQ)</td><td>World Economic Forum</td><td>—</td><td>Iceland</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Index↔Publisher Pairs</strong><br>
+    <strong>Innovation = Intellectual Property</strong> (GII → WIPO) • <strong>Development = Development Programme</strong> (HDI → UNDP) • <strong>Hunger = Helpers</strong> (GHI → Concern + Welthungerhilfe) • <strong>Corruption = Transparency</strong> (CPI → Transparency International) • <strong>Logistics & Doing Business = World Bank</strong> • <strong>SDG India = NITI Aayog</strong> • <strong>Gender Gap & Competitiveness = Geneva-ish think tanks</strong> (WEF and IMD respectively).
+  </div>
+
+  <h3>E. Money & Banking Miscellany 2025-26 <span class="current-tag">NEW</span></h3>
+  <ul>
+    <li><strong>Forex reserves at record:</strong> crossed <strong>$701.4 billion</strong> in late January 2026 (Economic Survey) — roughly 12 months of merchandise import cover; $686.2 bn in December 2025 (RBI).</li>
+    <li><strong>UPI keeps scaling:</strong> the world's largest real-time payments platform processed <strong>~131 billion transactions in FY2024-25</strong>; monthly volumes ran at 18–20 billion through 2025-26. RuPay + UPI remain the backbone of India's digital-payments story.</li>
+    <li><strong>Digital Rupee (e₹ / CBDC):</strong> RBI's retail and wholesale pilots continue to expand — programmability (targeted DBT transfers) and offline capability are the tested frontiers; cross-border CBDC linkages are being explored with partner central banks.</li>
+    <li><strong>Banking health:</strong> scheduled commercial banks' GNPA ratio is at a <strong>multi-decadal low (~2.5%)</strong>; credit-deposit ratio ≈78%; all new floating-rate retail/MSME loans are linked to an External Benchmark (mostly the repo) — improving transmission.</li>
+    <li><strong>Sovereign rating upgrade:</strong> S&P raised India to <strong>'BBB' (from BBB−) in August 2025</strong> — the first upgrade in 18 years — citing fiscal consolidation and growth resilience.</li>
+    <li><strong>Kisan Rin Portal (KRP):</strong> the RBI–NABARD digital KCC lending portal (asked in the <strong>71st BPSC</strong>) — digitises Kisan Credit Card sanction and disbursement, replacing the older prompt-repayment incentive arrangements run with nationalised banks, RRBs and co-operative banks.</li>
+  </ul>
+</div>
+
+<!-- ====== FLOWCHART: RATE PATH ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> The 2025-26 Easing Cycle at a Glance
+  </div>
+  <p style="margin-bottom: 12px;">Four cuts, three pauses, 125 bps total. Memorise the ladder — BPSC loves "what is the current repo rate" one-liners (70th BPSC asked the inflation projection straight from the MPC).</p>
+
+  <div class="flowchart">
+    <div class="flow-node">Feb 2025 — 6.50% → 6.25%</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Apr 2025 — 6.25% → 6.00%</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Jun 2025 — 6.00% → 5.50% (50 bps)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Dec 2025 — 5.50% → 5.25%</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Feb / Apr / Jun 2026 — HELD at 5.25%</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Indicator | Value | As-Of
+  </div>
+
+  <table>
+    <tr><th>Indicator</th><th>Value</th><th>As-Of Date</th></tr>
+    <tr><td><strong>Repo Rate</strong></td><td>5.25%</td><td>Jun 5, 2026 MPC (next: Aug 2026)</td></tr>
+    <tr><td><strong>SDF / MSF / Bank Rate</strong></td><td>5.00% / 5.50% / 5.50%</td><td>Jun 2026</td></tr>
+    <tr><td><strong>CRR / SLR</strong></td><td>3.00% / 18.00%</td><td>CRR staged cuts completed 2025</td></tr>
+    <tr><td><strong>Cumulative repo cuts</strong></td><td>125 bps (6.50% → 5.25%)</td><td>Feb 2025 – Dec 2025</td></tr>
+    <tr><td><strong>CPI inflation target</strong></td><td>4% ± 2%</td><td>FIT framework (RBI Act, 2016)</td></tr>
+    <tr><td><strong>CPI inflation print</strong></td><td>1.7% (historic low); FY27 proj 5.1%</td><td>Apr–Dec 2025 / Jun 2026 MPC</td></tr>
+    <tr><td><strong>FY26 real GDP growth (SAE)</strong></td><td>7.6% (new 2022-23 series)</td><td>Feb 27, 2026 (MoSPI)</td></tr>
+    <tr><td><strong>Q3 FY26 real GDP growth</strong></td><td>7.8%</td><td>Oct–Dec 2025</td></tr>
+    <tr><td><strong>FY25 growth (rebased)</strong></td><td>7.1% (was 6.5%)</td><td>Feb 2026 revision</td></tr>
+    <tr><td><strong>FY27 growth projections</strong></td><td>RBI 6.6% • Eco Survey 6.8–7.2% • S&P 7.1%</td><td>Jun 2026 / Jan 2026 / Mar 2026</td></tr>
+    <tr><td><strong>FY27 fiscal deficit</strong></td><td>4.3% of GDP</td><td>Union Budget 2026-27 (Feb 1, 2026)</td></tr>
+    <tr><td><strong>FY27 capital expenditure</strong></td><td>₹12.2 lakh crore</td><td>Union Budget 2026-27</td></tr>
+    <tr><td><strong>Central debt</strong></td><td>55.6% of GDP → ~50% by FY31</td><td>Union Budget 2026-27</td></tr>
+    <tr><td><strong>Forex reserves</strong></td><td>$701.4 billion (record)</td><td>Late January 2026</td></tr>
+    <tr><td><strong>Bihar per-capita income</strong></td><td>₹76,490 (current prices)</td><td>Bihar Economic Survey 2025-26 (FY25)</td></tr>
+    <tr><td><strong>Bihar Budget size</strong></td><td>₹3,47,590 crore (largest ever)</td><td>Feb 3, 2026</td></tr>
+  </table>
+</div>
+
+<!-- ====== IMAGE ====== -->
+<div class="section">
+  <div class="img-container">
+    <img src="images/trade.png" alt="Trade and commerce" loading="lazy">
+    <div class="img-caption">India's growth story: services exports, record forex reserves ($701 bn) and a 7.6% FY26 GDP print keep India the fastest-growing major economy for the fourth straight year.</div>
+  </div>
+  <div class="img-container">
+    <img src="images/schemes.png" alt="Government schemes" loading="lazy">
+    <div class="img-caption">Budget 2026-27: ₹12.2 lakh crore of public capex, Semiconductor Mission 2.0, Rare Earth Corridors and a 4.3% fiscal-deficit target on the road to ~50% debt-to-GDP by FY31.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar's Economy — The BPSC Angle</div>
+    <ul>
+      <li><strong>GSDP growth (Bihar Economic Survey 2025-26, 20th edition):</strong> FY2024-25 GSDP = <strong>₹9,91,997 crore</strong> at current prices; growth of <strong>13.1% (current prices)</strong> and <strong>8.6% (constant prices)</strong> — above the national constant-price average of 6.5%. FY2025-26 growth estimated at <strong>14.9%</strong> (GSDP ₹11.4 lakh crore).</li>
+      <li><strong>Per-capita income — lowest in India:</strong> ₹<strong>76,490</strong> (current prices; ₹40,973 constant). Per-capita NSDP at constant prices is just <strong>31.7% of the all-India average</strong> — Bihar remains the poorest large state on this metric. District spread: Patna highest (₹1.31 lakh), Sheohar lowest (₹24,332).</li>
+      <li><strong>Bihar Budget 2026-27</strong> (presented Feb 3, 2026 by FM <strong>Bijendra Prasad Yadav</strong>): total outlay <strong>₹3,47,589.76 crore</strong> — the largest in state history (FY26 was ~₹3.17 lakh crore); <strong>education gets the highest allocation (₹68,216 crore)</strong> — a repeat BPSC question pattern (70th BPSC asked this for the 2024-25 budget); capital expenditure ₹63,456 crore (18.26%); fiscal deficit <strong>2.99% of GSDP</strong>, inside the 3% ceiling.</li>
+      <li><strong>Central tax devolution:</strong> Bihar's share is <strong>10.06%</strong> under the <strong>15th Finance Commission</strong> — the <strong>second highest after Uttar Pradesh</strong> (~17.9%). Devolution + grants make up the bulk of Bihar's revenue receipts.</li>
+      <li><strong>State debt:</strong> outstanding debt ≈ <strong>₹3.74 lakh crore = 37.7% of GSDP</strong> (Bihar Economic Survey 2025-26).</li>
+      <li><strong>GI & agri-economy one-liners:</strong> <strong>Mithila Makhana</strong> (GI, 2022) — Bihar produces ~90% of India's makhana, and the Union Budget 2025-26 announced a <strong>Makhana Board</strong> for Bihar; <strong>Shahi Litchi</strong> of Muzaffarpur (GI, 2018) — 70th BPSC asked which district leads litchi production (Muzaffarpur).</li>
+      <li><strong>Migration & remittances:</strong> Bihar is India's largest source of inter-state out-migration (PLFS/Census); household remittances from workers in Delhi, Mumbai, Punjab and the Gulf are a lifeline estimated at a sizeable share of GSDP, which is why Bihar's consumption stays resilient despite low industrialisation. The Saat Nischay-3 agenda targets <strong>1 crore jobs by 2030</strong> to reverse the outflow.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #1 (Govt Schemes & Policies):</strong> Budget 2026-27 is the funding engine for every scheme on that page — SME Growth Fund, Biopharma SHAKTI, Bihar's Jananayak Karpoori Thakur Kisan Samman Nidhi (₹9,000/yr).<br>
+    <strong>↔ Topic #5 (Bilateral Relations):</strong> Trade deals (69th BPSC: ECTA with Australia), forex reserves, rupee trade settlement and RBI's cross-border CBDC pilots sit at the economy–diplomacy junction.<br>
+    <strong>↔ Topic #8 (Science & Tech in News):</strong> Semiconductor Mission 2.0, Rare Earth Corridors, digital rupee (CBDC), UPI's fintech stack and the AI-jobs committee announced in Budget 2026-27.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance & Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Near-certain one-liner:</strong> "What is the current repo rate?" — <strong>5.25%</strong> (held since Dec 2025; SDF 5.00%, MSF/Bank Rate 5.50%, CRR 3.00%, SLR 18%). The June 2026 hold is the last MPC before the exam.</li>
+    <li><strong>Latest GDP print:</strong> Q3 FY26 = <strong>7.8%</strong>; FY26 SAE = <strong>7.6%</strong> — both under the <strong>new 2022-23 base series</strong> released Feb 27, 2026. Trap: old-series numbers (Q1 7.8%, Q2 8.2%, FY25 6.5%) were revised (6.7%, 8.4%, 7.1%). Quote the NEW series.</li>
+    <li><strong>Budget numbers to memorise:</strong> fiscal deficit <strong>4.3%</strong> of GDP, capex <strong>₹12.2 lakh crore</strong>, debt <strong>55.6%</strong> of GDP heading to ~50% by FY31, total expenditure ₹53.47 lakh crore; Economic Survey FY27 band <strong>6.8–7.2%</strong>.</li>
+    <li><strong>Index ranks (verified):</strong> GII 2025 = 38th; HDI 2025 = 130th; LPI 2023 = 38th of 139; SDG India Index score 71 (Kerala & Uttarakhand top). Publishers are the matching goldmine — GII↔WIPO, HDI↔UNDP, GHI↔Concern/Welthungerhilfe, CPI↔Transparency International, Gender Gap↔WEF (69th BPSC PYQ).</li>
+    <li><strong>Bihar one-liners:</strong> per-capita income <strong>₹76,490</strong> (lowest among states, ~1/3rd of national average); Budget 2026-27 = <strong>₹3.47 lakh crore</strong> with <strong>education</strong> on top; GSDP growth 8.6% constant (FY25); devolution share <strong>10.06%</strong> (2nd after UP).</li>
+    <li><strong>Classic traps:</strong> fiscal tools (taxes, expenditure) vs monetary tools (CRR, repo, bank rate — 70th BPSC); GDP vs GVA (+ net taxes); SDF is the corridor FLOOR since Apr 2022 (not reverse repo); MPC has a <strong>casting vote with the Governor</strong>, and external members are <strong>3 of 6</strong>; Ease of Doing Business is <strong>discontinued</strong> — B-READY is the successor, don't pick "latest EoDB rank".</li>
+    <li><strong>Survey-sourcing habit:</strong> BPSC repeatedly cites "Economic Survey page no. X" (cement, Kisan Rin Portal, NFHS poverty in the 71st) — the Economic Survey 2025-26 and Bihar Economic Survey 2025-26 are the two documents to skim end-to-end before July 26.</li>
+  </ul>
+
+  <h3>🎯 Exam Predictions for 72nd BPSC</h3>
+  <div style="background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px;">
+    <strong style="color: #92400e;">📋 Top 5 Predictions (72nd BPSC — Economy in News):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) Repo rate (HIGH):</strong> "What is the current repo rate?" → 5.25% (held since Dec 2025; June 2026 hold is last MPC before exam). SDF = 5.00%, MSF = 5.50%, CRR = 3.00%, SLR = 18%. Cross-link: <a href="subpages/7_monetary_policy_detail.html" target="_blank" style="color:#e94560;">Monetary Policy Detail →</a></li>
+      <li><strong>(2) GDP new base (HIGH):</strong> "What is the new GDP base year?" → 2022-23 (released Feb 27, 2026). FY26 SAE = 7.6% under new series. Do NOT quote old-series numbers.</li>
+      <li><strong>(3) Budget FY27 (MEDIUM):</strong> "What is the fiscal deficit target for FY27?" → 4.3% of GDP. Capex = ₹12.2 lakh crore. Total expenditure = ₹53.47 lakh crore.</li>
+      <li><strong>(4) Bihar economy (MEDIUM):</strong> "What is Bihar's per capita income?" → ₹76,490 (lowest among states). Bihar Budget FY27 = ₹3.47 lakh crore. GSDP growth = 8.6% (constant prices, FY25).</li>
+      <li><strong>(5) Publisher matching (LOW):</strong> GII → WIPO, HDI → UNDP, GHI → Concern/Welthungerhilfe, Gender Gap → WEF. Cross-link: <a href="11_reports_and_indices.html" style="color:#e94560;">Topic 11 →</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (33 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 33 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. As of July 2026, the policy repo rate set by the RBI's Monetary Policy Committee is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 5.00%</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 5.25%</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 5.50%</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 6.00%</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — The repo rate has been 5.25% since the December 2025 cut, and was held at the February, April and June 2026 MPC meetings. The next MPC is in August 2026 — after the exam.</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Consider the following statements about the RBI's 2025-26 easing cycle:
+    <br>1. The first cut came in February 2025, taking the repo rate from 6.50% to 6.25%.
+    <br>2. The June 2025 MPC cut the repo rate by 50 basis points to 5.50%.
+    <br>3. The December 2025 MPC cut the repo rate to 5.25%.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (D)</strong> — All three are correct. The full path: 6.50% → 6.25% (Feb 2025) → 6.00% (Apr 2025) → 5.50% (Jun 2025, 50 bps) → 5.25% (Dec 2025): 125 bps of cumulative cuts.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Standing Deposit Facility (SDF) rate, as of mid-2026, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) 5.00%</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) 5.25%</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) 5.50%</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) 3.35%</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — SDF = Repo − 25 bps = 5.25% − 0.25% = 5.00%. The SDF has been the floor of the LAF corridor since April 2022 (replacing the fixed reverse repo, which stays at 3.35% as a legacy rate).</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Marginal Standing Facility (MSF) rate and the Bank Rate are currently:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 5.00%</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 5.25%</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 5.50%</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 5.75%</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — MSF = Bank Rate = Repo + 25 bps = 5.50%. MSF is the emergency overnight borrowing window for banks; the Bank Rate is aligned with it.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Match the reserve ratios with their current values:
+    <br>a) Cash Reserve Ratio — 1) 18.00%
+    <br>b) Statutory Liquidity Ratio — 2) 3.00%</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) a-1, b-2</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) a-2, b-1</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) a-2, b-2</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) a-1, b-1</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — CRR = 3.00% (cash kept with RBI, earns no interest; cut from 4.5% in stages since December 2024). SLR = 18.00% (liquid assets including government securities, cash and gold).</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Consider the following statements about the Monetary Policy Committee (MPC):
+    <br>1. It has 6 members — 3 from the RBI and 3 external members nominated by the Central Government.
+    <br>2. The RBI Governor has a casting vote in case of a tie.
+    <br>3. External members hold office for four years.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — All three are correct. The MPC decides the repo rate by majority vote, meets bi-monthly, and the Governor chairs it with a casting vote. External members get a 4-year term.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Under India's Flexible Inflation Targeting framework, the CPI inflation target is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) 3% with a tolerance of ±2%</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 2% with a tolerance of ±2%</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) 4% with a tolerance of ±2%</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) 6% with a tolerance of ±1%</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — The target is 4% CPI inflation with a 2–6% tolerance band (i.e., 4% ± 2%). Breach for three consecutive quarters triggers an RBI explanation to the Government.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The statutory basis for inflation targeting and the Monetary Policy Committee in India is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) The Reserve Bank of India Act, 1934, as amended in 2016</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) The Banking Regulation Act, 1949</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) The Fiscal Responsibility and Budget Management Act, 2003</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) A Cabinet resolution of 2015 with no legislative backing</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — The 2016 amendment to the RBI Act, 1934 inserted Chapter III-F (Section 45ZA onwards), mandating price stability as the primary objective "while keeping in mind the objective of growth" and creating the MPC.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Standing Deposit Facility (SDF), introduced in April 2022, is significant because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) It allows banks to borrow overnight at rates below the repo rate</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) It replaced the fixed reverse repo rate as the floor of the liquidity corridor, letting banks park funds with RBI without collateral</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) It pays interest on banks' CRR balances</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) It is a long-term lending window for infrastructure finance</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — The SDF is an uncollateralised absorption window at Repo − 25 bps and is the operative floor of the LAF corridor since April 2022. The fixed reverse repo (3.35%) survives only as a legacy rate.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Who is the current Governor of the Reserve Bank of India (as of mid-2026)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Shaktikanta Das</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Sanjay Malhotra</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Urjit Patel</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Michael Debabrata Patra</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Sanjay Malhotra, the 26th RBI Governor, took office on December 11, 2024. A former Revenue Secretary, he has presided over the entire 2025-26 easing cycle (6.50% → 5.25%).</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The total reduction in the repo rate since February 2025 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) 75 basis points</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) 100 basis points</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) 125 basis points</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) 150 basis points</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (C)</strong> — 25 bps (Feb 2025) + 25 bps (Apr 2025) + 50 bps (Jun 2025) + 25 bps (Dec 2025) = 125 bps, from 6.50% to 5.25%.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. At its June 2026 meeting, the MPC:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Held the repo rate at 5.25% and revised the FY27 GDP growth projection to 6.6%</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Cut the repo rate by 25 bps to 5.00%</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Raised the repo rate to 5.50% citing inflation</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Held the repo rate and switched stance to accommodative</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — On June 5, 2026 the MPC held rates with a neutral stance, trimmed the FY27 growth projection to 6.6% (from 6.9% in April) and raised the FY27 CPI projection to 5.1% on energy prices and weak global demand.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The new GDP series released by MoSPI in February 2026 uses which base year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) 2011-12</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) 2017-18</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) 2022-23</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) 2024-25</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — The new National Accounts series (released February 27, 2026) shifts the base to 2022-23, replacing 2011-12. The last revision was in 2015. A full back series is due by December 2026.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Consider the following statements about the new GDP series:
+    <br>1. It was released by the Ministry of Statistics and Programme Implementation (MoSPI).
+    <br>2. It adopts double deflation for agriculture and manufacturing.
+    <br>3. It uses Proportional Denton Benchmarking to align quarterly and annual estimates.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 1, 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 1 only</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — All three are correct. The series also taps new data sources (GST records, e-Vahan registrations, gas consumption) and better captures the digital economy.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Under the new GDP series, India's real GDP growth for FY 2025-26 (Second Advance Estimate) is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) 6.5%</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) 7.6%</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) 8.2%</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) 9.2%</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — 7.6% per the Second Advance Estimates of February 27, 2026 (revised up from the 7.4% First Advance Estimate under the old series). Real GDP is estimated at about ₹322.6 lakh crore.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. India's real GDP growth in Q3 (October–December 2025) of FY 2025-26 was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) 7.8%</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) 8.4%</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) 6.7%</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) 6.2%</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Q3 FY26 grew 7.8%, moderating from a revised 8.4% in Q2 (Jul–Sep 2025) and 6.7% in Q1. India remained the fastest-growing major economy.</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Consider the following statements about the rebasing revisions:
+    <br>1. FY2023-24 growth was revised down from 9.2% to 7.2%.
+    <br>2. FY2024-25 growth was revised up from 6.5% to 7.1%.
+    <br>3. FY2025-26 growth is estimated at 7.6%.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — All three are correct. The downward revision of FY24 (9.2% → 7.2%) and upward revision of FY25 (6.5% → 7.1%) are classic BPSC trap material — always quote the new series.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The relationship between GDP and Gross Value Added (GVA) at basic prices is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) GDP = GVA + taxes on products − subsidies on products</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) GDP = GVA − taxes on products + subsidies on products</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) GDP = GVA + depreciation</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) GDP and GVA are identical aggregates</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — GDP = GVA at basic prices + product taxes − product subsidies. GVA shows sector-wise value creation; GDP is the headline demand-side aggregate.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The new Consumer Price Index (CPI) series rolled out by MoSPI in early 2026 uses which base year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) 2012</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) 2024</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) 2022-23</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) 2011-12</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — The revised CPI series uses base year 2024 (calendar year), replacing the 2012 base, with updated consumption weights. Note the distinction: CPI base = 2024; GDP base = 2022-23; WPI/IIP base = 2011-12.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. As per the Economic Survey 2025-26, Private Final Consumption Expenditure (PFCE) in FY26:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Fell below 55% of GDP for the first time since 2012</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Grew by 3.5%, the slowest in five years</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Grew by 7.0%, reaching 61.5% of GDP — the highest since 2012</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Was overtaken by government consumption as the largest demand component</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (C)</strong> — Consumption is the growth engine: PFCE +7.0%, 61.5% of GDP (highest since 2012), driven by low inflation, rising real incomes and tax rationalisation. GFCF grew 7.8% (~30% of GDP).</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The Union Budget 2026-27 targets a fiscal deficit of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 4.4% of GDP</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 4.3% of GDP</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 5.1% of GDP</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 3.9% of GDP</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — 4.3% of GDP in FY27 BE, down from 4.4% in FY26 RE. Glide path: 9.2% (FY21 pandemic peak) → 6.7% (FY22) → 4.4% (FY26) → 4.3% (FY27).</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Public capital expenditure in the Union Budget 2026-27 has been raised to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) ₹10.2 lakh crore</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) ₹11.2 lakh crore</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) ₹11.9 lakh crore</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) ₹12.2 lakh crore</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (D)</strong> — Capex rises from ₹11.2 lakh crore (FY26) to ₹12.2 lakh crore in FY27. Total expenditure is ₹53.47 lakh crore, of which interest payments alone take 26%.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Under the debt glide path adopted from the Budget 2025-26, the Central Government aims to bring its outstanding liabilities to around what level by March 2031?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) 50% of GDP</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) 40% of GDP</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) 60% of GDP</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) 70% of GDP</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — The anchor is ~50% ± 1% of GDP by FY31 (March 2031). In FY27, central government outstanding liabilities are estimated at 55.6% of GDP.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The Economic Survey 2025-26 projects India's real GDP growth for FY 2026-27 in the range of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) 6.0% – 6.4%</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) 7.4% – 7.8%</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) 6.8% – 7.2%</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) 5.5% – 6.0%</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — The Survey (tabled January 29, 2026) projects 6.8–7.2% for FY27 and upgrades India's potential growth to ~7%. Compare: RBI's June 2026 projection is 6.6%; S&P's is 7.1%.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Consider the following statements about the Economic Survey 2025-26:
+    <br>1. It was tabled in Parliament on January 29, 2026, a day before the Union Budget.
+    <br>2. Headline CPI inflation fell to 1.7%, the lowest reading of the old CPI series.
+    <br>3. India's foreign exchange reserves crossed $701 billion.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 1, 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 1 and 3 only</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — All three are correct. The Survey is prepared by the Department of Economic Affairs under the Chief Economic Adviser (V. Anantha Nageswaran); forex reserves hit a record $701.4 bn (~12 months of import cover).</div>
+  </div>
+
+  <!-- Q26 -->
+  <div class="mcq-block" id="q26">
+    <div class="mcq-q">Q26. Match List-I (Index) with List-II (Publisher):
+    <br>a) Global Innovation Index — 1) UNDP
+    <br>b) Human Development Index — 2) WIPO
+    <br>c) Logistics Performance Index — 3) World Bank
+    <br>d) SDG India Index — 4) NITI Aayog</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q26" value="a"> (A) a-2, b-1, c-3, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="b"> (B) a-1, b-2, c-3, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="c"> (C) a-2, b-3, c-1, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="d"> (D) a-4, b-1, c-3, d-2</label>
+    </div>
+    <div class="mcq-explanation" id="exp26">✅ <strong>Correct Answer: (A)</strong> — GII → WIPO; HDI → UNDP; LPI → World Bank; SDG India Index → NITI Aayog. The 69th BPSC asked the same pattern for the Global Gender Gap Report (World Economic Forum).</div>
+  </div>
+
+  <!-- Q27 -->
+  <div class="mcq-block" id="q27">
+    <div class="mcq-q">Q27. India's rank in the Global Innovation Index 2025 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q27" value="a"> (A) 46th</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="b"> (B) 38th</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="c"> (C) 52nd</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="d"> (D) 25th</label>
+    </div>
+    <div class="mcq-explanation" id="exp27">✅ <strong>Correct Answer: (B)</strong> — India ranks 38th in the GII 2025 published by WIPO; Switzerland tops the index. India has climbed steadily from 81st in 2015.</div>
+  </div>
+
+  <!-- Q28 -->
+  <div class="mcq-block" id="q28">
+    <div class="mcq-q">Q28. In the Human Development Report 2025 (UNDP), India's rank is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q28" value="a"> (A) 118th</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="b"> (B) 134th</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="c"> (C) 130th</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="d"> (D) 105th</label>
+    </div>
+    <div class="mcq-explanation" id="exp28">✅ <strong>Correct Answer: (C)</strong> — India ranks 130th with an HDI value of 0.685 in the 2025 HDR; Iceland tops the index. (Trap pair: World Happiness Report 2025 rank = 118th.)</div>
+  </div>
+
+  <!-- Q29 -->
+  <div class="mcq-block" id="q29">
+    <div class="mcq-q">Q29. In the World Bank's Logistics Performance Index 2023, India ranked:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q29" value="a"> (A) 38th out of 139 countries</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="b"> (B) 54th out of 160 countries</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="c"> (C) 44th out of 139 countries</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="d"> (D) 22nd out of 130 countries</label>
+    </div>
+    <div class="mcq-explanation" id="exp29">✅ <strong>Correct Answer: (A)</strong> — India jumped to 38th of 139 in LPI 2023 (from 44th in 2018); Singapore tops. The LPI remains the latest edition as of mid-2026.</div>
+  </div>
+
+  <!-- Q30 -->
+  <div class="mcq-block" id="q30">
+    <div class="mcq-q">Q30. Consider the following statements:
+    <br>1. The World Bank discontinued the Ease of Doing Business report after its 2020 edition.
+    <br>2. India ranked 63rd in the final Ease of Doing Business report.
+    <br>3. Its successor assessment is called B-READY (Business Ready).
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q30" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp30">✅ <strong>Correct Answer: (D)</strong> — All three are correct. EoDB was scrapped after data-irregularity controversies; the first B-READY report came in 2024. Any option offering a "latest EoDB rank" is a trap.</div>
+  </div>
+
+  <!-- Q31 -->
+  <div class="mcq-block" id="q31">
+    <div class="mcq-q">Q31. Which among the following is a tool of Fiscal Policy? (70th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q31" value="a"> (A) Credit Ceiling</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="b"> (B) Bank Rate</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="c"> (C) Cash Reserve Ratio</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="d"> (D) Taxes</label>
+    </div>
+    <div class="mcq-explanation" id="exp31">✅ <strong>Correct Answer: (D)</strong> — Taxes (and public expenditure) are fiscal tools of the Government. Credit ceiling, Bank Rate and CRR are monetary tools of the RBI — the exact classification the 70th BPSC tested.</div>
+  </div>
+
+  <!-- Q32 -->
+  <div class="mcq-block" id="q32">
+    <div class="mcq-q">Q32. As per the Bihar Economic Survey 2025-26, Bihar's per-capita income (current prices, FY 2024-25) is approximately:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q32" value="a"> (A) ₹1,31,000</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="b"> (B) ₹76,490</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="c"> (C) ₹54,320</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="d"> (D) ₹99,100</label>
+    </div>
+    <div class="mcq-explanation" id="exp32">✅ <strong>Correct Answer: (B)</strong> — ₹76,490 (₹40,973 at constant prices) — the lowest among Indian states; per-capita NSDP is only 31.7% of the all-India average. (₹1.31 lakh is Patna's district figure — a trap.)</div>
+  </div>
+
+  <!-- Q33 -->
+  <div class="mcq-block" id="q33">
+    <div class="mcq-q">Q33. Consider the following statements about Bihar's economy (2025-26 cycle):
+    <br>1. Bihar's GSDP grew 8.6% at constant prices in 2024-25, above the national average.
+    <br>2. The Bihar Budget 2026-27 is about ₹3.47 lakh crore, with education receiving the highest allocation.
+    <br>3. Bihar's share of central tax devolution under the 15th Finance Commission is 10.06%, the second highest after Uttar Pradesh.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q33" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="c"> (C) 1, 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="d"> (D) 1 and 3 only</label>
+    </div>
+    <div class="mcq-explanation" id="exp33">✅ <strong>Correct Answer: (C)</strong> — All three are correct: 8.6% constant-price growth (vs national 6.5%); Budget ₹3,47,590 crore with education at ₹68,216 crore; 10.06% devolution share (UP ~17.9% is first).</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+  
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/33</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.rbi.org.in" target="_blank">RBI — Monetary Policy Statements</a> <span class="ref-desc">— MPC resolutions of Dec 2025, Feb 2026, Apr 2026 and Jun 2026: repo 5.25%, SDF 5.00%, MSF/Bank Rate 5.50%, CRR 3.00%, SLR 18%; FY27 GDP 6.6%, CPI 5.1% (June).</span></li>
+    <li><a href="https://prsindia.org/budgets/parliament/union-budget-2026-27-analysis" target="_blank">PRS Legislative Research — Union Budget 2026-27</a> <span class="ref-desc">— Fiscal deficit 4.3% of GDP, capex ₹12.2 lakh crore, debt 55.6% of GDP → ~50% by March 2031, expenditure ₹53.47 lakh crore.</span></li>
+    <li><a href="https://www.mospi.gov.in" target="_blank">MoSPI / NSO — New GDP Series (Feb 27, 2026)</a> <span class="ref-desc">— Base year 2022-23; FY26 SAE 7.6%; Q1 6.7%, Q2 8.4%, Q3 7.8%; FY25 revised to 7.1%; double deflation & Denton benchmarking.</span></li>
+    <li><a href="https://www.indiabudget.gov.in" target="_blank">Economic Survey 2025-26 (Jan 29, 2026)</a> <span class="ref-desc">— FY27 projection 6.8–7.2%; CPI 1.7%; forex $701.4 bn; PFCE 61.5% of GDP; theme "Sprint and Marathon Together".</span></li>
+    <li><a href="https://www.drishtiias.com/state-pcs-current-affairs/bihar-economic-survey-2025-26" target="_blank">Drishti IAS — Bihar Economic Survey 2025-26</a> <span class="ref-desc">— GSDP ₹9.92 lakh crore (FY25); growth 8.6% constant / 13.1% current; per-capita income ₹76,490; sector shares 54.8/26.8/18.3.</span></li>
+    <li><a href="https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27" target="_blank">PRS — Bihar Budget Analysis 2026-27</a> <span class="ref-desc">— Presented Feb 3, 2026 by FM Bijendra Prasad Yadav; GSDP FY27 ₹13.1 lakh crore; fiscal deficit ~3% of GSDP (₹39,112 cr).</span></li>
+    <li><a href="https://www.wipo.int/global_innovation_index/en/" target="_blank">WIPO — Global Innovation Index 2025</a> <span class="ref-desc">— India 38th; Switzerland tops.</span></li>
+    <li><a href="https://hdr.undp.org" target="_blank">UNDP — Human Development Report 2025</a> <span class="ref-desc">— India 130th (HDI 0.685); Iceland tops.</span></li>
+    <li><a href="https://www.worldbank.org" target="_blank">World Bank — LPI 2023 & B-READY</a> <span class="ref-desc">— India 38th of 139 on logistics; Ease of Doing Business discontinued, successor Business Ready (2024).</span></li>
+    <li><a href="https://www.niti.gov.in" target="_blank">NITI Aayog — SDG India Index 2023-24</a> <span class="ref-desc">— India composite score 71; Kerala & Uttarakhand lead the states.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #7: Economy in News | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #1, #5, #8
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'b', q2: 'd', q3: 'a', q4: 'c', q5: 'b',
+  q6: 'd', q7: 'c', q8: 'a', q9: 'b', q10: 'b',
+  q11: 'c', q12: 'a', q13: 'c', q14: 'b', q15: 'b',
+  q16: 'a', q17: 'd', q18: 'a', q19: 'b', q20: 'c',
+  q21: 'b', q22: 'd', q23: 'a', q24: 'c', q25: 'b',
+  q26: 'a', q27: 'b', q28: 'c', q29: 'a', q30: 'd',
+  q31: 'd', q32: 'b', q33: 'c'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+  
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+  
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+  
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+  
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Economy in News!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Double check repo corridor values, new-series GDP prints, and index↔publisher pairs.';
+  
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

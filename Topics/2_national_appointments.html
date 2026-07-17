@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2 - National Appointments | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flow-node-sm {
+    background: #fff;
+    border: 2px solid #1a1a2e;
+    color: #1a1a2e;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .flow-label {
+    font-size: 11px;
+    color: #64748b;
+    font-weight: 500;
+    margin: 4px 0;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 320px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #2 • TIER A</div>
+  <div class="topic-title">National Appointments</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs & Polity</span>
+    <span class="meta-tag">⚖️ Weight: 1.7</span>
+    <span class="meta-tag">📊 PYQ Count Mapped: 12</span>
+    <span class="meta-tag">🎯 Expected: 3-5 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content & PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Supreme Court Collegium System:</strong> Questions tested the structural features of the collegium. It is a 5-member body headed by the incumbent Chief Justice of India (CJI) and comprises 4 other senior-most judges of the SC. High Court and SC judges are appointed exclusively via this system (Art. 124 & 217).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 13 Dec PYQ</span>
+    <strong>Supreme Court Judge Elevations:</strong> Questions focused on the specific background of newly appointed judges. For example, before his elevation to the SC in July 2024, <strong>Justice N. Kotiswar Singh</strong> served as the Chief Justice of the High Court of Jammu & Kashmir and Ladakh.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC 4 Jan PYQ</span>
+    <strong>GST Council Chairperson:</strong> The constitution of bodies is regularly tested. Under Article 279A, the Chairperson of the GST Council is the <strong>Union Finance Minister</strong>, not the RBI Governor or the Finance Commission Chairman.
+  </div>
+
+  <h3>A. Key Executive & Constitutional Appointments (2024-2026)</h3>
+  <table>
+    <tr><th>Position</th><th>Current Holder</th><th>Since</th><th>Appointing Authority & Rules</th></tr>
+    <tr><td><strong>President of India</strong></td><td>Droupadi Murmu</td><td>July 25, 2022</td><td>15th President; Electoral College (Art. 54)</td></tr>
+    <tr><td><strong>Vice President</strong></td><td>C. P. Radhakrishnan</td><td>Sep 12, 2025</td><td>Ex-officio Chairman of Rajya Sabha (Art. 64) <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>Chief Justice of India</strong></td><td>Justice Surya Kant</td><td>Nov 24, 2025</td><td>53rd CJI; Collegium system recommendation <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>Chief Election Commissioner</strong></td><td>Gyanesh Kumar</td><td>Feb 19, 2025</td><td>26th CEC; appointed under the CEC Act 2023 <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>Comptroller & Auditor General</strong></td><td>K. Sanjay Murthy</td><td>Nov 21, 2024</td><td>14th CAG; appointed by President (Art. 148) <span class="current-tag">NEW</span></td></tr>
+  </table>
+
+  <h3>B. Legal & Advisory Heads</h3>
+  <ul>
+    <li><strong>Attorney General for India:</strong> <strong>R. Venkataramani</strong>. Re-appointed in October 2025 for a further 2-year term. Appointed under <strong>Article 76</strong> by the President on the advice of the Cabinet.</li>
+    <li><strong>Solicitor General of India:</strong> <strong>Tushar Mehta</strong>. Re-appointed in July 2026 for a 3-year term. He is the second-highest law officer in the country.</li>
+    <li><strong>16th Finance Commission Chairman:</strong> <strong>Dr. Arvind Panagariya</strong> (appointed Dec 2023). The commission is constituted under <strong>Article 280</strong> of the Constitution.</li>
+  </ul>
+
+  <h3>C. Financial & Economic Regulators</h3>
+  <table>
+    <tr><th>Regulator</th><th>Current Head</th><th>Since</th><th>Appointment Details</th></tr>
+    <tr><td><strong>Reserve Bank of India (RBI)</strong></td><td>Sanjay Malhotra</td><td>Dec 11, 2024</td><td>26th Governor; replaced Shaktikanta Das <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>SEBI Chairperson</strong></td><td>Tuhin Kanta Pandey</td><td>Mar 1, 2025</td><td>First male chairperson in recent years; replaced Madhabi Puri Buch <span class="current-tag">NEW</span></td></tr>
+    <tr><td><strong>NITI Aayog Vice-Chairperson</strong></td><td>Suman Bery</td><td>May 2022</td><td>Prime Minister is ex-officio Chairman; CEO is B.V.R. Subrahmanyam</td></tr>
+  </table>
+</div>
+
+<!-- ====== FLOWCHART ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> Appointments Authority & Process Flows
+  </div>
+
+  <h3><a href="subpages/2_appointments_detail.html" target="_blank">Supreme Court Collegium & Appointment Chain 🔗</a></h3>
+  <div class="flowchart">
+    <div class="flow-node">1. Retiring CJI initiates proposal 30 days prior</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">2. SC Collegium (CJI + 4 senior-most Judges)</div>
+    <div class="flow-label">Consults & seeks written opinion</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">3. Law Minister forwards recommendation to PM</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">4. President signs Appointment Warrant (Art. 124)</div>
+  </div>
+
+  <h3><a href="subpages/2_appointments_detail.html" target="_blank">CEC Appointment Mechanism (Per 2023 Act) 🔗</a></h3>
+  <div class="flowchart">
+    <div class="flow-node" style="background:#4f46e5;">Search Committee (Headed by Cabinet Secretary)</div>
+    <div class="flow-label">Prepares panel of 5 candidates</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Selection Committee (PM + LoP + Nominated Cabinet Minister)</div>
+    <div class="flow-label">Recommends name to President (replaces CJI)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">President appoints CEC & ECs (Art. 324)</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Statutory vs. Constitutional Posts
+  </div>
+
+  <table>
+    <tr>
+      <th>Post Type</th>
+      <th>Key Office Holders</th>
+      <th>Constitutional Provisions / Acts</th>
+    </tr>
+    <tr>
+      <td><strong>Constitutional</strong></td>
+      <td>CJI (Art. 124), CAG (Art. 148), AG (Art. 76), CEC (Art. 324), FC Chairman (Art. 280)</td>
+      <td>Created directly by the text of the Constitution of India. Highly secured tenures.</td>
+    </tr>
+    <tr>
+      <td><strong>Statutory</strong></td>
+      <td>NHRC Chairperson, CVC, RBI Governor (RBI Act 1934), SEBI Chairman (SEBI Act 1992)</td>
+      <td>Created by an Act of Parliament. Terms regulated by specific statutes.</td>
+    </tr>
+    <tr>
+      <td><strong>Executive</strong></td>
+      <td>NSA, NITI Aayog CEO, Cabinet Secretary</td>
+      <td>Established via executive resolutions. No legislative or constitutional mandate.</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ====== IMAGE ====== -->
+<div class="section">
+  <div class="img-container">
+    <img src="images/parliament.png" alt="Parliament of India" loading="lazy">
+    <div class="img-caption">The Parliament of India, where statutory appointment acts (like the CEC Act 2023) are debated and enacted.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Current Bihar State Leadership (2026 Updates)</div>
+    <table>
+      <tr><th>Position</th><th>Current Holder</th><th>Since</th><th>Key Fact / Background</th></tr>
+      <tr><td><strong>Governor of Bihar</strong></td><td>Lt. Gen. (Retd.) Syed Ata Hasnain</td><td>Mar 14, 2026</td><td>Former military commander; replaced Rajendra Arlekar <span class="current-tag">NEW</span></td></tr>
+      <tr><td><strong>Chief Minister of Bihar</strong></td><td>Samrat Choudhary</td><td>Apr 15, 2026</td><td>First BJP leader to become CM; replaced Nitish Kumar <span class="current-tag">NEW</span></td></tr>
+      <tr><td><strong>Chief Secretary of Bihar</strong></td><td>Pratyay Amrit (IAS 1991)</td><td>Sep 1, 2025</td><td>Appointed following retirement of Brajesh Mehrotra <span class="current-tag">NEW</span></td></tr>
+      <tr><td><strong>DGP of Bihar</strong></td><td>Vinay Kumar (IPS 1991)</td><td>Dec 2024</td><td>Replaced Alok Raj as state police chief <span class="current-tag">NEW</span></td></tr>
+    </table>
+  </div>
+
+  <div class="pyq-box" style="background:#fff7ed; border-left-color:#ff6b35;">
+    <span class="pyq-tag" style="background:#ff6b35;">71st BPSC PYQ</span>
+    <strong>Historical Bihar CM:</strong> BPSC frequently tests historical appointments in Bihar. A 71st BPSC question asked: "Who became Chief Minister of Bihar in March 1939?" The answer is **Shri Krishna Singh** (who headed the first Congress ministry in Bihar).
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #17 (Appointments in Bihar):</strong> Comparative analysis of governor vs CM powers in Bihar state governance history.<br>
+    <strong>↔ Topic #70 (Union Executive):</strong> Understanding the pleasure of the President vs fixed security of tenure under Art. 75.<br>
+    <strong>↔ Topic #72 (Judiciary):</strong> Analysis of the First, Second, and Third Judges Cases that established the Collegium.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance & Potential Traps
+  </div>
+  <ul>
+    <li><strong>The 2023 CEC Law Shift:</strong> The Supreme Court in 2023 directed that CEC should be appointed by PM + LoP + CJI. However, Parliament passed an Act replacing CJI with a nominated Cabinet Minister. BPSC frequently drafts statement questions on this specific legal sequence.</li>
+    <li><strong>Differentiate Re-appointments:</strong> R. Venkataramani (AG) was extended in Oct 2025, and Tushar Mehta (SG) was extended in July 2026. Keep their tenures distinct.</li>
+  </ul>
+
+  <h3>🎯 Exam Predictions for 72nd BPSC</h3>
+  <div style="background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px;">
+    <strong style="color: #92400e;">📋 Top 5 Predictions (72nd BPSC — National Appointments):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) Current CJI (HIGH):</strong> "Who is the current Chief Justice of India?" — memorise the latest CJI (changes frequently; verify before exam).</li>
+      <li><strong>(2) CEC appointment process (HIGH):</strong> "The CEC is appointed by whom under the 2023 Act?" → PM + Leader of Opposition + a Cabinet Minister nominated by PM (CJI was REMOVED from the panel by the 2023 Act).</li>
+      <li><strong>(3) RBI Governor (MEDIUM):</strong> Current RBI Governor and recent policy rate — cross-link Topic #7.</li>
+      <li><strong>(4) CDS (MEDIUM):</strong> "Who is the Chief of Defence Staff?" — memorise current CDS (cross-link Topic #6).</li>
+      <li><strong>(5) AG vs SG distinction (LOW):</strong> "What is the difference between Attorney General and Solicitor General?" → AG is a constitutional post (Art. 76); SG is a statutory post.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (25 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Consider the following statements regarding the Supreme Court Collegium system:
+    <br>1. It is a five-member body headed by the incumbent Chief Justice of India.
+    <br>2. It comprises four other senior-most judges of the Supreme Court.
+    <br>3. The collegium system is explicitly mentioned in Part V of the Constitution of India.
+    <br>Which of the statements given above is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — The Collegium is a 5-member body (CJI + 4 senior-most judges). It is a product of judicial decisions (Judges Cases) and is NOT mentioned in the Constitution text. (69th BPSC PYQ Theme)</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Prior to his elevation as a judge of the Supreme Court of India in July 2024, Justice N. Kotiswar Singh was serving as the Chief Justice of which High Court?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Gauhati High Court</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Manipur High Court</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Jammu & Kashmir and Ladakh High Court</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — Justice N. Kotiswar Singh was the Chief Justice of Jammu & Kashmir and Ladakh High Court before his elevation to the SC. (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Who is the ex-officio Chairperson of the Goods and Services Tax (GST) Council?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Chairman of the Finance Commission</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Union Finance Minister</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Prime Minister of India</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) RBI Governor</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — Article 279A states that the Union Finance Minister acts as the Chairperson of the GST Council. (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Under the Chief Election Commissioner and other Election Commissioners Act, 2023, who is the third member of the Selection Committee besides the Prime Minister and the Leader of the Opposition?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Chief Justice of India</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) A nominated Union Cabinet Minister</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Speaker of Lok Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Vice President of India</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — The Selection Committee comprises the PM (Chairperson), the Leader of the Opposition in Lok Sabha, and a Union Cabinet Minister nominated by the PM. The CJI was excluded by the 2023 Act.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Who is the 26th Governor of the Reserve Bank of India, appointed in December 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Sanjay Malhotra</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Shaktikanta Das</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Tuhin Kanta Pandey</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Suman Bery</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — Sanjay Malhotra (former Revenue Secretary) was appointed as the 26th Governor of the RBI on Dec 11, 2024.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Who became the first BJP Chief Minister of Bihar in April 2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Nitish Kumar</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Samrat Choudhary</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Vijay Kumar Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Sushil Kumar Modi</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — Samrat Choudhary assumed office as the Chief Minister of Bihar on April 15, 2026, heading a BJP-led government.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Who is the 53rd Chief Justice of India, appointed in November 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Justice Sanjiv Khanna</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Justice Surya Kant</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Justice B.R. Gavai</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Justice Hrishikesh Roy</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (B)</strong> — Justice Surya Kant took oath as the 53rd CJI on November 24, 2025, succeeding Justice Sanjiv Khanna.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Consider the following statements regarding the Attorney General for India:
+    <br>1. The Attorney General is appointed by the President under Article 76 of the Constitution.
+    <br>2. R. Venkataramani was re-appointed for a fresh term in October 2025.
+    <br>3. The Attorney General has a fixed constitutional tenure of 5 years.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Statement 3 is incorrect. The AG holds office during the pleasure of the President and has no fixed tenure under Article 76.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The current Chief of Defence Staff (CDS) of India, appointed in May 2026, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Gen. Anil Chauhan</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Gen. N. S. Raja Subramani</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Gen. Dhiraj Seth</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Admiral Krishna Swaminathan</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — Gen. N. S. Raja Subramani was appointed as the 3rd CDS of India on May 31, 2026.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Who became the Governor of Bihar in March 2026, succeeding Rajendra Arlekar?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Phagu Chauhan</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Lt. Gen. (Retd.) Syed Ata Hasnain</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Santosh Gangwar</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) C.P. Radhakrishnan</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Lt. Gen. (Retd.) Syed Ata Hasnain took oath as Governor of Bihar on March 14, 2026.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Match the following Constitutional office holders with their corresponding Articles:
+    <br>a) Comptroller and Auditor General — 1) Article 76
+    <br>b) Attorney General — 2) Article 324
+    <br>c) Chief Election Commissioner — 3) Article 148
+    <br>d) Governor — 4) Article 155</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) a-3, b-1, c-2, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) a-1, b-3, c-2, d-4</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) a-3, b-1, c-4, d-2</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) a-4, b-1, c-2, d-3</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — CAG is Article 148, AG is Article 76, CEC/ECs are Article 324, and Governor's appointment is Article 155.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Who is the current Chairman of the Union Public Service Commission (UPSC), appointed in mid-2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Manoj Soni</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Preeti Sudan</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) K. Sanjay Murthy</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Suman Bery</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — Preeti Sudan (former Union Health Secretary) assumed charge as UPSC Chairperson in mid-2024.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Who serves as the Chairperson of the 16th Finance Commission, constituted to recommend devolution formulas starting 2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) N.K. Singh</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Arvind Panagariya</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Vijay Kelkar</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) C. Rangarajan</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (B)</strong> — Dr. Arvind Panagariya (economist & former Vice-Chair of NITI Aayog) heads the 16th Finance Commission.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The 14th Comptroller and Auditor General (CAG) of India, who took charge in November 2024, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Girish Chandra Murmu</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) K. Sanjay Murthy</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Sanjay Malhotra</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) Rajiv Mehrishi</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — K. Sanjay Murthy (former Higher Education Secretary) was sworn in as 14th CAG on Nov 21, 2024, succeeding G.C. Murmu.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Who was the first Chief Election Commissioner (CEC) of India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) K.V.K. Sundaram</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Sukumar Sen</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) T.N. Seshan</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Kalyan Sundaram</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — Sukumar Sen served as the first CEC of India from 1950 to 1958.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The ex-officio Chairman of the Rajya Sabha is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) President of India</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Vice President of India</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Speaker of Lok Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Prime Minister of India</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Under Article 64, the Vice President of India acts as the ex-officio Chairman of the Council of States (Rajya Sabha).</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The new Chief of the Army Staff (COAS), appointed on June 30, 2026, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Gen. Manoj Pande</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Gen. Upendra Dwivedi</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) Gen. Dhiraj Seth</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) Gen. Raja Subramani</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (C)</strong> — Gen. Dhiraj Seth assumed charge as COAS on June 30, 2026.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Who was appointed as the Chief Secretary of Bihar in September 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Brajesh Mehrotra</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Pratyay Amrit</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Amir Subhani</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Vinay Kumar</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — Pratyay Amrit (IAS 1991) assumed charge as Chief Secretary of Bihar on September 1, 2025.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Who decides the disqualification of members of a State Legislative Assembly for matters other than the Tenth Schedule?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Speaker of the Legislative Assembly</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Governor in consultation with the Election Commission</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) High Court Chief Justice</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — Under Article 192, questions of disqualification (other than defection) are decided by the Governor, whose decision is final after obtaining the opinion of the EC. (70th BPSC PYQ)</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Who is the first President of India from Bihar who served two consecutive terms?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Dr. Zakir Husain</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Dr. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) V.V. Giri</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Neelam Sanjiva Reddy</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — Dr. Rajendra Prasad (born in Siwan, Bihar) was the first President of India and served two consecutive terms (1950–1962).</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The Solicitor General of India, extended for 3 years in July 2026, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Mukul Rohatgi</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Tushar Mehta</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Harish Salve</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) K.K. Venugopal</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — Tushar Mehta has been Solicitor General since 2018 and received another extension in July 2026.</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Who is the CEO of NITI Aayog (as of July 2026)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Amitabh Kant</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) B.V.R. Subrahmanyam</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Suman Bery</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Arvind Panagariya</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — B.V.R. Subrahmanyam serves as the Chief Executive Officer (CEO) of NITI Aayog. Suman Bery is the Vice-Chairperson.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Who was appointed as the Chief of the Naval Staff (CNS) on May 31, 2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Admiral R. Hari Kumar</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Admiral Krishna Swaminathan</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Admiral Dinesh K Tripathi</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) None of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — Admiral Krishna Swaminathan was appointed as the new CNS on May 31, 2026.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Who was the Chief Minister of Bihar in March 1939?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Anugraha Narayan Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Shri Krishna Singh</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Sachchidanand Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Deep Narayan Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (B)</strong> — Shri Krishna Singh headed the first Congress ministry in Bihar and was Chief Minister (Prime Minister of Bihar province) during this period. (71st BPSC PYQ)</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Who is the current Chairperson of the Securities and Exchange Board of India (SEBI), appointed in March 2025?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Madhabi Puri Buch</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) Tuhin Kanta Pandey</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Sanjay Malhotra</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) U.K. Sinha</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — Tuhin Kanta Pandey replaced Madhabi Puri Buch as SEBI Chairperson on March 1, 2025.</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+  
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/25</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.india.gov.in/my-government/whos-who" target="_blank">National Portal of India — Directory</a> <span class="ref-desc">— Official updated list of executive & constitutional holders.</span></li>
+    <li><a href="https://sci.gov.in" target="_blank">Supreme Court of India</a> <span class="ref-desc">— Details of judges elevated and collegium resolutions.</span></li>
+    <li><a href="https://eci.gov.in" target="_blank">Election Commission of India</a> <span class="ref-desc">— CEC and EC details under the 2023 Act.</span></li>
+    <li><a href="https://cag.gov.in" target="_blank">Comptroller & Auditor General of India</a> <span class="ref-desc">— Official profiles and constitutional roles of the CAG.</span></li>
+    <li><a href="https://gov.bih.nic.in" target="_blank">Government of Bihar — Official</a> <span class="ref-desc">— Cabinet profiles, Governor, and department secretaries.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #2: National Appointments | Template v2.1 (PYQ-Anchored)<br>
+  📌 Cross-reference with Topics #17, #70, #72, #75
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'b', q2: 'c', q3: 'b', q4: 'b', q5: 'a',
+  q6: 'b', q7: 'b', q8: 'a', q9: 'b', q10: 'b',
+  q11: 'a', q12: 'b', q13: 'b', q14: 'b', q15: 'b',
+  q16: 'b', q17: 'c', q18: 'b', q19: 'b', q20: 'b',
+  q21: 'b', q22: 'b', q23: 'b', q24: 'b', q25: 'b'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+  
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+  
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+  
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+  
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered national appointments!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Focus on the article numbers and new 2024-2026 faces.';
+  
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+    
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

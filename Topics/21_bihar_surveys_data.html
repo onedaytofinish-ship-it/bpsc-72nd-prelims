@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>21 - Bihar Surveys & Data | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #21 • TIER A</div>
+  <div class="topic-title">Bihar Surveys &amp; Data — Caste Survey, Census 2027, MPI, Economic Survey</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Bihar Current Affairs</span>
+    <span class="meta-tag">⚖️ Weight: 1.3 (Tier A)</span>
+    <span class="meta-tag">📊 PYQ Threads: 6+ (69th–71st)</span>
+    <span class="meta-tag">🎯 Expected: 2-3 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content &amp; PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ (p.54)</span>
+    <strong>BPSC quotes the Bihar Economic Survey verbatim:</strong> the 71st paper carried a question answered straight from <strong>"Bihar Economic Survey 2024-25, Page No. 478, Table A 12.4"</strong> — proof that headline indicators (GSDP growth, per-capita income, sector shares) are read off ES tables. The 70th also asked the <strong>contribution of agriculture to Bihar's GDP</strong> (p.40). Learn the ES 2025-26 numbers below cold.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ (p.34)</span>
+    <strong>Caste-list question:</strong> "Which community was categorized as Scheduled Caste by a 2015 Bihar government notification, quashed in July 2024 by the Supreme Court?" — answer: <strong>Tanti-Tantwa</strong>. The SC ruled states <strong>cannot modify the SC list under Article 341</strong> — only the President/Parliament can. Same theme family as the 65% quota litigation below.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ (p.10 &amp; p.14)</span>
+    <strong>Poverty-measure theme:</strong> the 71st asked about the UNDP's <strong>Capability Poverty Measure</strong> (child malnutrition + female illiteracy — male illiteracy is NOT a CPM indicator) and an <strong>NFHS-5 multidimensional poverty</strong> question. Pair with: 'Poverty and Un-British Rule in India' (1901) = <strong>Dadabhai Naoroji</strong> (70th BPSC, p.12).
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Census history 1872→2027, caste-enumeration timeline (1931 → SECC 2011 → Bihar 2023), quota jurisprudence ladder (Balaji → Indra Sawhney → Janhit Abhiyan), and MPI methodology:
+    <a href="subpages/21_census_quota_detail.html" target="_blank">Census, Caste Counts &amp; Quota Law Detail →</a>
+  </div>
+
+  <h3>A. Bihar Caste Survey 2023 — The Headline Numbers <span class="current-tag">MOST IMPORTANT TABLE</span></h3>
+  <p>Report released <strong>2 October 2023</strong> (by Development Commissioner Vivek Singh). Bihar became the <strong>first state since 1931 to enumerate all castes</strong> — the trigger for the national caste-census demand now built into Census 2027.</p>
+  <table>
+    <tr><th>Group</th><th>Share</th><th>Count</th><th>Note</th></tr>
+    <tr><td><strong>EBC (अत्यंत पिछड़ा वर्ग)</strong></td><td><strong>36.01%</strong></td><td>4,70,80,514</td><td>Largest single bloc — 112 castes</td></tr>
+    <tr><td><strong>OBC</strong></td><td><strong>27.13%</strong></td><td>3,54,63,936</td><td>34 castes (some tables print 27.12%)</td></tr>
+    <tr><td><strong>SC</strong></td><td><strong>19.65%</strong></td><td>2,56,89,820</td><td>23 castes</td></tr>
+    <tr><td><strong>ST</strong></td><td><strong>1.68%</strong></td><td>21,99,361</td><td>32 communities</td></tr>
+    <tr><td><strong>General / "upper" castes</strong></td><td><strong>15.52%</strong></td><td>—</td><td>Unreserved category</td></tr>
+    <tr><td><strong>Total population</strong></td><td><strong>13.07 crore</strong></td><td>—</td><td>209 notified castes enumerated</td></tr>
+    <tr><td><strong>OBC + EBC combined</strong></td><td><strong>63.13%</strong></td><td>—</td><td>The political "backward" bloc</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — "E36-O27-S20-G15-T2"</strong><br>
+    Read the survey top-down: <strong>E</strong>BC <strong>36</strong>.01 → <strong>O</strong>BC <strong>27</strong>.13 → <strong>S</strong>C ~<strong>20</strong> (19.65) → <strong>G</strong>eneral <strong>15</strong>.52 → <strong>S</strong>T ~<strong>2</strong> (1.68). Biggest at top, smallest at bottom. And the caste-count arc: <strong>1931 (last census caste count) → 2023 (Bihar survey) → 2027 (national caste enumeration)</strong>.
+  </div>
+
+  <h3>B. The 65% Quota Law — Vidhan Sabha → High Court → Supreme Court <span class="current-tag">PENDING</span></h3>
+  <table>
+    <tr><th>Date</th><th>Event</th></tr>
+    <tr><td>Nov 2023</td><td>Bihar legislature raised quotas on caste-survey basis: <strong>BC 12→18%, EBC 18→25%, SC 16→20%, ST 1→2% = 65%</strong> total (with 10% EWS, effective reservation = 75%)</td></tr>
+    <tr><td><strong>20 Jun 2024</strong></td><td><strong>Patna High Court struck down the 65% law</strong> — breach of the <em>Indra Sawhney</em> 50% ceiling; no "exceptional circumstances" shown; HC also said the creamy layer should be excluded</td></tr>
+    <tr><td>28–29 Jul 2024</td><td><strong>Supreme Court declined to stay</strong> the HC order; agreed to hear Bihar's appeal</td></tr>
+    <tr><td>As of 15 Jul 2026</td><td>Appeal still pending; no final SC verdict → <strong>the 65% law remains inoperative</strong></td></tr>
+  </table>
+  <div class="img-container">
+    <img src="images/bihar_vidhan_sabha.jpg" alt="Bihar Vidhan Sabha, Patna">
+    <div class="img-caption">Bihar Vidhan Sabha, Patna — where the 65% quota hike was passed in Nov 2023, later struck down by the Patna High Court (Jun 2024). Image: Wikimedia Commons.</div>
+  </div>
+
+  <h3>C. Census 2027 — Two Phases + Caste Enumeration <span class="current-tag">HOT 2026-27</span></h3>
+  <ul>
+    <li><strong>Decision:</strong> CCPA decided in <strong>April 2025</strong> that caste enumeration will be part of the census; formal <strong>MHA notification on 7 January 2026</strong>.</li>
+    <li><strong>Phase I — Houselisting &amp; Housing:</strong> <strong>April–September 2026</strong>; 30 days per state/UT, plus a <strong>15-day self-enumeration window</strong> before it.</li>
+    <li><strong>Phase II — Population Enumeration + CASTE:</strong> <strong>February 2027</strong>; reference date ("Census moment") <strong>00:00 hrs, 1 March 2027</strong>. Snow-bound areas (Ladakh, J&amp;K, Himachal, Uttarakhand): Sep–Oct 2026, reference <strong>1 October 2026</strong>.</li>
+    <li><strong>Identity numbers:</strong> <strong>16th Census</strong> of India / <strong>8th after Independence</strong>; <strong>first fully digital</strong> census (mobile apps, self-enumeration portal, 16 languages); budget <strong>₹11,718.24 crore</strong>; <strong>first caste count since 1931</strong>.</li>
+    <li><strong>Bihar angle:</strong> the caste-census demand originated with Bihar's 2023 survey and 65% quota push — Census 2027 caste data could reopen the 50%-ceiling debate. Bihar ran Phase-I houselisting in the Apr–Sep 2026 window like all states.</li>
+  </ul>
+  <div class="img-container">
+    <img src="images/census_enumeration_2011.jpg" alt="Census 2011 enumeration at Rashtrapati Bhavan">
+    <div class="img-caption">President Pratibha Patil being enumerated for Census 2011 — India counts every resident in two phases (houselisting, then population enumeration). Census 2027 repeats the cycle digitally, adding caste for the first time since 1931. Image: Wikimedia Commons (PIB).</div>
+  </div>
+
+  <h3>D. Poverty — NITI Aayog National MPI <span class="current-tag">BIHAR = HIGHEST</span></h3>
+  <table>
+    <tr><th>Release</th><th>Data basis</th><th>India</th><th>Bihar</th></tr>
+    <tr><td><strong>National MPI: A Progress Review 2023</strong> (released 17 Jul 2023)</td><td>NFHS-4 (2015-16) → NFHS-5 (2019-21)</td><td>24.85% → <strong>14.96%</strong>; 13.5 crore exited poverty</td><td><strong>~51.9% → ~33.8%</strong> — largest absolute decline of any state, yet still India's poorest</td></tr>
+    <tr><td><strong>NITI MPI 2025 update</strong></td><td>2022-23 estimates</td><td><strong>~11.3%</strong></td><td><strong>~26.6% — still the highest</strong>, then Jharkhand 23.3%, UP 17.4%</td></tr>
+  </table>
+  <ul>
+    <li><strong>Variant alert:</strong> some coaching notes print 51.3%→33.76%; NITI-consistent figures are <strong>51.9%→33.8%</strong>. If BPSC offers both, prefer 51.9→33.8.</li>
+    <li><strong>Exam frame:</strong> "largest decline" AND "still highest" are both true of Bihar — BPSC exploits this double truth.</li>
+  </ul>
+
+  <h3>E. Bihar Economic Survey 2025-26 (20th edition, tabled early Feb 2026) <span class="current-tag">TABLE-FODDER</span></h3>
+  <table>
+    <tr><th>Indicator</th><th>Value</th></tr>
+    <tr><td>GSDP growth 2024-25 (constant prices)</td><td><strong>8.6%</strong> (vs India's 6.5%)</td></tr>
+    <tr><td>GSDP growth 2024-25 (current prices)</td><td><strong>13.1%</strong></td></tr>
+    <tr><td>Per-capita GSDP 2024-25</td><td><strong>₹76,490</strong> (+13% YoY); India ₹2,34,859 — Bihar ≈ 1/3rd of national average</td></tr>
+    <tr><td>Per-capita GDP 2023-24</td><td><strong>₹68,624 — lowest among all states</strong> (India ₹2,15,935); highest district: <strong>Patna ₹2,41,220</strong>; then Begusarai ₹1,05,600; lowest: <strong>Sheohar ₹38,214</strong>, Araria ₹44,134; 11 districts below ₹50,000</td></tr>
+    <tr><td>Sector shares 2024-25</td><td><strong>Agriculture 23% : Manufacturing 23% : Services 54%</strong></td></tr>
+    <tr><td>Outstanding debt</td><td>₹3.74 lakh crore ≈ <strong>37.7% of GSDP</strong></td></tr>
+    <tr><td>GSDP trajectory (budget docs)</td><td>2024-25 ₹9.92 lakh cr → 2025-26 RE ₹11.40 lakh cr → 2026-27 BE <strong>₹13.09 lakh cr</strong> (+15%)</td></tr>
+  </table>
+
+  <h3>F. People &amp; Households — NCAER, NFHS-5, PLFS <span class="current-tag">SUPPORT DATA</span></h3>
+  <ul>
+    <li><strong>NCAER (Jan 2025):</strong> Bihar population projection <strong>12.86 crore (2024) = 9.2% of India</strong>; growth <strong>1.45%/yr vs 0.9% national</strong>; dependency ratio <strong>65.2% (2026 proj) vs 54.3% national</strong>; density <strong>1,405/km²</strong>.</li>
+    <li><strong>PLFS 2023-24 (all-India):</strong> unemployment rate <strong>3.2%</strong> (usual status); LFPR <strong>60.1%</strong>. Bihar's LFPR has historically been among India's lowest (state figure not freshly published in-window).</li>
+    <li><strong>NFHS-5 (2019-21):</strong> Bihar institutional births ~<strong>76%</strong> (vs 63.8% in NFHS-4; India 88.6%); female population with 6+ years of schooling <strong>61.1% — lowest in India</strong> (Kerala 95.5% highest).</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Item | Value | As-Of
+  </div>
+
+  <table>
+    <tr><th>Item</th><th>Value</th><th>As-Of Date</th></tr>
+    <tr><td><strong>Bihar caste survey — EBC share</strong></td><td>36.01% (4,70,80,514)</td><td>Report 2 Oct 2023</td></tr>
+    <tr><td><strong>Caste survey — OBC / SC / ST / General</strong></td><td>27.13% / 19.65% / 1.68% / 15.52%</td><td>2 Oct 2023</td></tr>
+    <tr><td><strong>OBC+EBC combined</strong></td><td>63.13% of 13.07 crore; 209 castes counted</td><td>2 Oct 2023</td></tr>
+    <tr><td><strong>65% quota law</strong></td><td>BC 18 + EBC 25 + SC 20 + ST 2 = 65% (+10% EWS = 75%)</td><td>Passed Nov 2023</td></tr>
+    <tr><td><strong>Patna HC verdict</strong></td><td>65% law struck down (Indra Sawhney 50% cap)</td><td>20 Jun 2024</td></tr>
+    <tr><td><strong>SC on quota appeal</strong></td><td>Stay declined; appeal pending — law inoperative</td><td>28-29 Jul 2024; status 15 Jul 2026</td></tr>
+    <tr><td><strong>Census 2027 notification</strong></td><td>MHA notified; caste enumeration included</td><td>7 Jan 2026 (CCPA call Apr 2025)</td></tr>
+    <tr><td><strong>Census 2027 Phase I</strong></td><td>Houselisting &amp; housing; 30 days/state + 15-day self-enumeration</td><td>Apr–Sep 2026</td></tr>
+    <tr><td><strong>Census 2027 Phase II</strong></td><td>Population enumeration + caste; ref 00:00 hrs 1 Mar 2027</td><td>Feb 2027</td></tr>
+    <tr><td><strong>Census 2027 identity</strong></td><td>16th census, 8th post-Independence, first fully digital, ₹11,718.24 cr</td><td>2026-27 cycle</td></tr>
+    <tr><td><strong>Last caste count before 2027</strong></td><td>Census 1931 (1941 data collected, not published; SECC 2011 caste data never released)</td><td>Static</td></tr>
+    <tr><td><strong>MPI — Bihar</strong></td><td>~51.9% → ~33.8% (largest decline); ~26.6% still highest</td><td>NFHS-5 (2019-21); 2022-23 update</td></tr>
+    <tr><td><strong>MPI — India</strong></td><td>24.85% → 14.96%; ~11.3% (2022-23); 13.5 cr exited</td><td>2023 review; 2025 update</td></tr>
+    <tr><td><strong>GSDP growth 2024-25</strong></td><td>8.6% real / 13.1% nominal (India 6.5% real)</td><td>ES 2025-26, Feb 2026</td></tr>
+    <tr><td><strong>Per-capita GSDP</strong></td><td>₹76,490 (2024-25); ₹68,624 (2023-24, lowest state)</td><td>ES 2025-26</td></tr>
+    <tr><td><strong>District PCI extremes</strong></td><td>Patna ₹2,41,220 (highest); Sheohar ₹38,214 (lowest)</td><td>2023-24</td></tr>
+    <tr><td><strong>Sector shares</strong></td><td>Agri 23% : Mfg 23% : Services 54%</td><td>2024-25</td></tr>
+    <tr><td><strong>Bihar population (NCAER)</strong></td><td>12.86 cr = 9.2% of India; density 1,405/km²</td><td>2024 proj (Jan 2025 report)</td></tr>
+    <tr><td><strong>16th FC devolution — Bihar</strong></td><td>9.95% (2026-31) — 2nd highest after UP 17.62%</td><td>Tabled 1 Feb 2026</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Why This Data IS Bihar Politics &amp; Policy</div>
+    <ul>
+      <li><strong>Caste survey → quota → census chain:</strong> Bihar's 2023 caste survey (EBC 36.01%, OBC+EBC 63.13%) powered the 65% quota law; its strike-down by the Patna HC and the pendency in the SC is why the Centre's <strong>Census 2027 caste enumeration</strong> matters so much to Patna — fresh all-India caste data could reopen the 50% ceiling debate.</li>
+      <li><strong>Data-driven welfare targeting:</strong> the state runs its flagship <strong>Mukhyamantri Mahila Rojgar Yojana</strong> (₹10,000 to 1.56 crore women from Sept 2025 — cross-link Topic #15) and pension hikes to <strong>1.16 crore pensioners</strong> off survey-derived beneficiary databases.</li>
+      <li><strong>Fiscal dependence in numbers:</strong> Bihar raises only ~<strong>26% of revenue receipts</strong> on its own; ~74% comes from the Centre (tax devolution + grants). 16th FC gives Bihar <strong>9.95%</strong> of the divisible pool (2026-31) — the 2nd-highest share after UP.</li>
+      <li><strong>The development gap in one line:</strong> per-capita GSDP ₹76,490 ≈ <strong>one-third of India's</strong>; Saat Nischay-3 (2025-30) explicitly targets <strong>doubling per-capita income</strong> — the ES numbers on this page are the baseline BPSC will test.</li>
+      <li><strong>Demographic pressure:</strong> 1.45%/yr population growth (national 0.9%) and a 65.2% dependency ratio explain the NDA's <strong>1-crore-jobs</strong> promise and outmigration debates — demography is Bihar's core exam theme.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #15 (Bihar Govt Schemes):</strong> MMRY, pension hikes, free electricity — all sized using survey/beneficiary data; caste survey feeds EBC/SC/ST scheme targeting.<br>
+    <strong>↔ Topic #16 (State Budget):</strong> ES 2025-26 tables (GSDP ₹13.09 lakh cr BE, debt 37.7%) and 16th FC numbers (9.95% devolution) sit behind every Budget 2026-27 figure.<br>
+    <strong>↔ Topic #17 (Appointments in Bihar):</strong> the 65% quota litigation and caste data shaped the 2025 election that made Samrat Chaudhary the first BJP CM (15 Apr 2026).<br>
+    <strong>↔ Topic #23 (Bihar in National Reports):</strong> MPI, PLFS, NCAER and NFHS rankings of Bihar are shared territory — revise both pages together.<br>
+    <strong>↔ Topic #7 (Economy) &amp; #86 (Poverty &amp; Employment):</strong> GSDP/PCI concepts, MPI method, poverty lines — the static-theory halves of this page.<br>
+    <strong>↔ Topic #44 (Judiciary) &amp; #40 (FRs):</strong> Indra Sawhney (1992), Janhit Abhiyan (2022), Article 341 SC-list bar, Article 16(4) — the quota-law backbone.<br>
+    <strong>↔ Topic #47 (Constitutional Bodies):</strong> 16th Finance Commission (Panagariya) devolution; ECI's census-linked delimitation horizon.<br>
+    <strong>↔ Topic #96 (Districts &amp; Demography):</strong> 38 districts, district PCI extremes (Patna vs Sheohar), density 1,405/km².
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance &amp; Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Live process on exam day:</strong> Census 2027 <strong>Phase-I houselisting runs Apr–Sep 2026</strong> — including Bihar — right through the 26 Jul 2026 prelims. Expect a "Census 2027 phases / reference date / caste" question; notification date <strong>7 Jan 2026</strong> and outlay <strong>₹11,718.24 cr</strong> are the one-liners.</li>
+    <li><strong>Trap — phase swap:</strong> caste is counted in <strong>Phase II (Feb 2027)</strong>, NOT Phase-I houselisting. Reference date <strong>1 Mar 2027</strong>; snow-bound areas use <strong>1 Oct 2026</strong> — don't merge the two.</li>
+    <li><strong>Trap — quota status:</strong> as of 15 Jul 2026 the 65% law is <strong>NOT in force</strong> (HC struck it 20 Jun 2024; SC refused stay Jul 2024; appeal pending). Any option saying "Bihar currently implements 65% reservation" is wrong.</li>
+    <li><strong>Trap — MPI variants:</strong> use <strong>51.9%→33.8%</strong> (NITI-consistent), not the 51.3→33.76 coaching variant; and remember Bihar is BOTH "largest decline" AND "still highest (~26.6% in 2025 update)".</li>
+    <li><strong>Trap — real vs nominal:</strong> GSDP growth <strong>8.6% = constant prices</strong>; <strong>13.1% = current prices</strong>. BPSC's ES-table questions (71st p.54 pattern) hinge on exactly this.</li>
+    <li><strong>Trap — EBC vs OBC:</strong> EBC (36.01%) is the <strong>larger</strong> bloc; OBC is 27.13%. Combined = 63.13%. Swapped options are near-certain.</li>
+    <li><strong>Fresh Feb 2026 set:</strong> ES 2025-26 (20th edition) + Budget 2026-27 (3 Feb 2026) + 16th FC (1 Feb 2026, Bihar 9.95%) arrived together — learn them as one cluster: per-capita ₹76,490, sectors 23:23:54, GSDP ₹13.09 lakh cr.</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (25 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. As per the Bihar Economic Survey 2025-26, Bihar's GSDP growth in 2024-25 at constant (real) prices was: (71st BPSC ES-table pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 6.5%</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 8.6%</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 13.1%</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 15.0%</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — 8.6% at constant prices, well above India's 6.5%. Trap (C): 13.1% is the CURRENT-price (nominal) growth — the 71st BPSC's ES-table question (p.54) exploited exactly this real-vs-nominal distinction. 6.5% is the all-India figure.</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Which community was categorized as Scheduled Caste by a 2015 Bihar government notification that the Supreme Court quashed in July 2024, ruling that states cannot alter the SC list under Article 341? (70th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Tanti-Tantwa</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Lal Begi</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Dabgar</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Pano</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Tanti-Tantwa (a weaver community) was moved from the EBC to the SC list by the 2015 notification; the SC held only the President (by public notification) and Parliament (by law) can modify the Article 341 list — states have no such power. Lal Begi, Dabgar and Pano are distractor communities from the same litigation coverage.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. 'Poverty and Un-British Rule in India' (1901), the classic indictment of colonial economic drain, was written by: (70th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) R.C. Dutt</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) G.K. Gokhale</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Dadabhai Naoroji</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) M.G. Ranade</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — Dadabhai Naoroji expounded his 'drain of wealth' theory here. Trap (A): R.C. Dutt wrote 'The Economic History of India' — the two are routinely swapped in exam options.</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Consider the following statements about the Capability Poverty Measure (CPM) developed by the UNDP (71st BPSC PYQ):
+    <br>1. CPM includes child malnutrition as a proxy for lack of health and nourishment.
+    <br>2. Female illiteracy is included to reflect deprivation in education and knowledge.
+    <br>3. It considers male illiteracy as a key indicator of capability poverty.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 1 only</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — CPM uses child malnutrition (underweight under-5s), births unattended by trained health personnel, and FEMALE illiteracy. Statement 3 is the trap — MALE illiteracy is not a CPM indicator; the index deliberately tracks women's capability deprivation.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. NITI Aayog's 'National MPI: A Progress Review 2023' — which showed 13.5 crore Indians exiting multidimensional poverty — is based on a comparison of: (71st BPSC MPI/NFHS theme)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) NFHS-3 (2005-06) and NFHS-4 (2015-16)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Census 2001 and Census 2011</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) NFHS-4 (2015-16) and NFHS-5 (2019-21)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) PLFS 2017-18 and PLFS 2021-22</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — The review maps NFHS-4 (2015-16) against NFHS-5 (2019-21): India fell from 24.85% to 14.96%. The 71st BPSC asked an NFHS-5 MPI question directly (p.14). Census and PLFS measure different things — population stock and employment respectively.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Bihar released the report of its landmark caste-based survey — the first such full caste enumeration by any state since 1931 — on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 2 October 2022</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 2 October 2023</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 15 August 2023</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 26 January 2024</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — The report was tabled/released on 2 October 2023 (Gandhi Jayanti), presented by Development Commissioner Vivek Singh; the legislature then passed the 65% quota law in November 2023. The 2022 date is the survey's field-work year — the classic year-swap trap.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. According to NITI Aayog's National MPI Progress Review 2023, Bihar's multidimensional poverty headcount fell from ___ (2015-16) to ___ (2019-21):</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) ~51.9% → ~33.8%</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 24.85% → 14.96%</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) ~37.7% → ~22.9%</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) ~60% → ~40%</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Bihar's ~51.9%→~33.8% is the largest absolute decline among states, though it remains India's poorest state. Trap (B): 24.85%→14.96% is the ALL-INDIA figure. Note: some notes print 51.3→33.76; the NITI-consistent figures are 51.9→33.8.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Before the caste enumeration planned for Census 2027, caste was last fully counted and published in an Indian Census in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 1931</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) 1941</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 1951</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) 2011 (SECC)</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — 1931 is the textbook answer. Trap (B): 1941 caste data was collected but never published (WWII austerity). Trap (D): SECC 2011 collected caste data but it was never officially released — which is why "first caste count since 1931" is the Census 2027 tagline.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Consider the following statements about India's reservation jurisprudence:
+    <br>1. Indra Sawhney v. Union of India (1992) capped total reservation at 50%.
+    <br>2. The same judgment mandated exclusion of the 'creamy layer' among OBCs.
+    <br>3. The 50% ceiling also binds the 10% EWS quota introduced by the 103rd Amendment.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) 1 only</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — Statements 1 and 2 are the core of Indra Sawhney. Statement 3 is the trap: in Janhit Abhiyan v. Union of India (2022) the SC upheld the 10% EWS quota operating ABOVE the 50% cap. Bihar's 65% law failed precisely because the HC found no exceptional circumstances to cross 50%.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. As per the Bihar Economic Survey 2025-26, agriculture's share in Bihar's GSDP (2024-25) is approximately: (70th BPSC asked this for an earlier year)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) 17%</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) 19%</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) 23%</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) 33%</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — The 2024-25 sector split is Agriculture 23% : Manufacturing 23% : Services 54% — easy to remember as "23-23-54". The 70th BPSC (p.40) asked this very question for an earlier year with options 17/19/26/33 — the number drifts year to year, so anchor to the latest ES.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. In Bihar's 2023 caste survey, the Extremely Backward Classes (EBC) share of the population was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) 27.13%</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) 19.65%</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) 15.52%</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) 36.01%</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — EBC = 36.01% (4,70,80,514 people across 112 castes), the single largest bloc. Trap (A): 27.13% is the OBC share — BPSC will surely swap EBC and OBC in options. 19.65% is SC; 15.52% is General.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. OBC and EBC together constitute what share of Bihar's population as per the 2023 caste survey?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) 51.9%</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) 47.8%</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) 72.5%</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) 63.13%</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — 27.13% + 36.01% = 63.13% — the 'backward bloc' figure that anchored the 65% quota demand. Trap (A): 51.9% is Bihar's OLD MPI headcount (2015-16) — a cross-topic number planted to catch rote learners.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Consider the following statements about Bihar's 2023 reservation-enhancement law:
+    <br>1. EBC reservation was raised from 18% to 25%.
+    <br>2. SC reservation was raised from 16% to 20%.
+    <br>3. Including the 10% EWS quota, total reservation became 65%.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — The law set BC 18% + EBC 25% + SC 20% + ST 2% = 65%. Statement 3 is the arithmetic trap: 65% is EXCLUSIVE of EWS — with the 10% EWS the effective total was 75%, not 65%.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Patna High Court struck down Bihar's 65% reservation law on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 2 October 2023</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 9 November 2023</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 20 June 2024</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 28 July 2024</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (C)</strong> — 20 June 2024, on the ground that crossing the Indra Sawhney 50% ceiling lacked 'exceptional circumstances'. Trap (D): 28 July 2024 is when the SUPREME Court declined to stay the HC order — a date-pairing trap. (A) is the caste-survey release date.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The reference date ('Census moment') for the population enumeration phase of Census 2027 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) 00:00 hrs, 1 April 2026</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) 00:00 hrs, 1 October 2026</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) 00:00 hrs, 1 January 2027</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) 00:00 hrs, 1 March 2027</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (D)</strong> — Phase II enumeration (Feb 2027) uses 00:00 hrs, 1 March 2027. Trap (B): 1 October 2026 applies ONLY to snow-bound Ladakh, J&amp;K, Himachal and Uttarakhand (enumerated Sep-Oct 2026). April 2026 is when Phase-I houselisting begins.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Consider the following statements about Census 2027:
+    <br>1. It is the 16th Census of India and the 8th after Independence.
+    <br>2. It is India's first fully digital census (apps, self-enumeration portal, 16 languages).
+    <br>3. Caste enumeration is part of the Phase-I houselisting operation.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) 1 only</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) 1 and 2 only</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (D)</strong> — Statements 1 and 2 are correct (outlay ₹11,718.24 crore). Statement 3 is the trap: caste is enumerated in PHASE II (Feb 2027) along with population enumeration — Phase I (Apr-Sep 2026) covers only houselisting and housing conditions.</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The budgetary outlay approved for conducting Census 2027 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) ₹11,718.24 crore</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) ₹8,754.10 crore</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) ₹13,500 crore</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) ₹9,612.50 crore</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — ₹11,718.24 crore is the approved outlay for the 2026-27 census cycle (16th census, first fully digital). The distractors are invented round/near numbers — BPSC loves precise-decimal options, so memorise the exact figure.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. As per NITI Aayog's 2025 MPI update (2022-23 estimates), which of the following is true?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Bihar's MPI fell below 20% and it is no longer the poorest state</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Jharkhand has the highest MPI at ~26.6%</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Bihar remains the highest at ~26.6%; India stands at ~11.3%</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Uttar Pradesh has the highest MPI at ~17.4%</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — Bihar ~26.6% (highest), Jharkhand 23.3%, UP 17.4%, India ~11.3%. Trap (A): Bihar improved but is STILL India's poorest state in MPI terms — the 'largest decline yet still highest' double truth is the testable point.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Bihar's per-capita GSDP in 2024-25 (Bihar Economic Survey 2025-26) was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) ₹68,624</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) ₹76,490</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) ₹1,05,600</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) ₹2,41,220</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — ₹76,490 (+13% YoY), about one-third of India's ₹2,34,859. Trap (A): ₹68,624 is the 2023-24 figure (lowest among states). (C) is Begusarai district and (D) is Patna district — state-vs-district confusion is deliberate.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Under the 16th Finance Commission's award for 2026-31, Bihar's share in central tax devolution is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) 10.06%</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) 7.50%</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) 17.62%</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) 9.95%</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — 9.95%, the second-highest share after UP's 17.62% (16th FC report tabled 1 Feb 2026, chaired by Arvind Panagariya). Trap (A): 10.06% was Bihar's share under the 15th FC — the old-versus-new swap is the intended error.</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Which of the following statements about Bihar's 2023 caste survey is CORRECT?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) The OBC bloc is the largest single group at 36.01%</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) The EBC bloc is the largest at 36.01%, ahead of the OBCs at 27.13%</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Scheduled Castes are the largest bloc at 19.65%</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) General ('upper') castes constitute 27.13% of the population</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — EBC 36.01% &gt; OBC 27.13% &gt; SC 19.65% &gt; General 15.52% &gt; ST 1.68%. Options (A) and (D) are the classic swap traps — the 36.01% belongs to EBC (not OBC), and 27.13% to OBC (not General).</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Match the district-level per-capita income extremes (2023-24, Bihar ES 2025-26):
+    <br>a) Highest district PCI — 1) Sheohar (₹38,214)
+    <br>b) Lowest district PCI — 2) Patna (₹2,41,220)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) a-1, b-2</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Highest = Begusarai; Lowest = Sheohar</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Highest = Patna; Lowest = Araria</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) a-2, b-1 (Patna highest ₹2,41,220; Sheohar lowest ₹38,214)</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (D)</strong> — Patna tops (₹2,41,220) and Sheohar bottoms (₹38,214). Trap (C): Araria (₹44,134) is the SECOND-lowest, not the lowest. Trap (B): Begusarai (₹1,05,600) is second-highest, behind Patna.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. As of July 2026, the status of Bihar's 65% reservation law is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Struck down by the Patna HC (Jun 2024); SC declined to stay (Jul 2024); appeal pending — the law is inoperative</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Restored by a Supreme Court stay in 2025 and currently implemented in Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Upheld by the Supreme Court as a valid exception to the 50% ceiling</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Withdrawn by the new Bihar government in 2026</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — No SC verdict has been delivered as of 15 Jul 2026, so the HC strike-down stands and the 65% law is NOT in force. Options (B) and (C) describe events that never happened — status-quo traps aimed at aspirants who stopped following the case in 2024.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Which sequence correctly captures the Census 2027 timeline?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) CCPA approves caste enumeration (Apr 2025) → MHA notification (7 Jan 2026) → Phase I houselisting (Apr-Sep 2026) → Phase II enumeration with caste (Feb 2027)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) MHA notification (Jan 2025) → Phase I (mid-2025) → Phase II (Feb 2026)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Caste enumeration accepted for the first time only in January 2026</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Phase I covers population enumeration along with caste details</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — The decision chain: CCPA (Apr 2025) → MHA notification (7 Jan 2026) → houselisting Apr-Sep 2026 → enumeration + caste Feb 2027. Trap (B) shifts every date one year early; (C) forgets the April 2025 CCPA decision; (D) swaps the phase contents.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Consider the following statements from NCAER's January 2025 report on Bihar:
+    <br>1. Bihar's 2024 projected population is ~12.86 crore, about 9.2% of India's population.
+    <br>2. Bihar's population growth rate (~1.45%/yr) is higher than the national average (~0.9%/yr).
+    <br>3. Bihar's dependency ratio is lower than the national average.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 1 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (C)</strong> — Statements 1 and 2 are correct (density 1,405/km² as well). Statement 3 is the trap: Bihar's dependency ratio (~65.2%, 2026 projection) is HIGHER than the national ~54.3% — a young, dependent population is precisely Bihar's development challenge.</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/25</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27" target="_blank">PRS — Bihar Budget Analysis 2026-27</a> <span class="ref-desc">— ES 2025-26 indicators (8.6% real growth, ₹76,490 per-capita, 23:23:54 sectors), GSDP trajectory, 16th FC 9.95% devolution, district PCI table.</span></li>
+    <li><a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026425856601.pdf" target="_blank">PIB — Census 2027 Phases (official PDF)</a> <span class="ref-desc">— Phase I houselisting Apr-Sep 2026 (30 days + 15-day self-enumeration); Phase II Feb 2027, reference 00:00 hrs 1 Mar 2027; snow-bound schedule 1 Oct 2026.</span></li>
+    <li><a href="https://www.vajiraoinstitute.com/upsc-ias-current-affairs/census-of-India-2027.aspx" target="_blank">Census of India 2027 — Overview</a> <span class="ref-desc">— 16th census / 8th post-Independence, first fully digital, ₹11,718.24 crore outlay, first caste count since 1931.</span></li>
+    <li><a href="https://www.drishtiias.com/state-pcs-current-affairs/patna-high-court-nullifies-bihars-quota-enhancement" target="_blank">Drishti IAS — Patna HC Nullifies Bihar's 65% Quota</a> <span class="ref-desc">— 20 Jun 2024 verdict, Indra Sawhney 50% ceiling, creamy-layer observation; caste-survey headline numbers (EBC 36.01% etc.).</span></li>
+    <li><a href="https://www.livelaw.in/top-stories/supreme-court-refuses-to-stay-hc-judgment-striking-down-bihars-65-quota-law-at-present-stage-agrees-to-hear-states-appeal-264854" target="_blank">LiveLaw — SC Refuses Stay on Quota Verdict</a> <span class="ref-desc">— 28-29 Jul 2024: SC declines to stay HC order, agrees to hear Bihar's appeal; status basis for the 'inoperative' conclusion.</span></li>
+    <li><a href="https://icrier.org/pdf/bulletins/AFTAB_Vol-5_Issue-2.pdf" target="_blank">ICRIER — NITI MPI Track Record</a> <span class="ref-desc">— National MPI 2023 (India 24.85→14.96; Bihar ~51.9→~33.8) and 2025 update (India ~11.3%; Bihar ~26.6% highest, Jharkhand 23.3%, UP 17.4%).</span></li>
+    <li><a href="https://ncaer.org/wp-content/uploads/2025/01/Macro-and-Fiscal-Landscape-of-the-State-of-Bihar-2.pdf" target="_blank">NCAER — Macro &amp; Fiscal Landscape of Bihar (Jan 2025)</a> <span class="ref-desc">— Population 12.86 cr (9.2% of India), growth 1.45% vs 0.9%, dependency ratio 65.2%, density 1,405/km².</span></li>
+    <li><a href="https://testbook.com/question-answer/with-reference-to-the-20th-bihar-economic-survey-2--6a1d9456d0ca1eab6d3d5b44" target="_blank">Testbook GK — 20th Bihar Economic Survey 2025-26</a> <span class="ref-desc">— 8.6% real GSDP growth, 13.1% nominal, debt ₹3.74 lakh cr ≈ 37.7% of GSDP.</span></li>
+    <li><a href="https://www.scobserver.in/journal/what-is-the-bihar-governments-65-percent-reservation-quota-challenge-in-the-supreme-court/" target="_blank">SC Observer — Bihar's 65% Quota Challenge</a> <span class="ref-desc">— Case background: caste survey → 65% law → HC strike-down → pending SC appeal.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #21: Bihar Surveys &amp; Data | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #15, #16, #17, #23, #44, #47, #86, #96
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'b', q2: 'a', q3: 'c', q4: 'c', q5: 'c',
+  q6: 'b', q7: 'a', q8: 'a', q9: 'b', q10: 'c',
+  q11: 'd', q12: 'd', q13: 'a', q14: 'c', q15: 'd',
+  q16: 'd', q17: 'a', q18: 'c', q19: 'b', q20: 'd',
+  q21: 'b', q22: 'd', q23: 'a', q24: 'a', q25: 'c'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Bihar Surveys & Data!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Re-learn the caste-survey percentages, census phases/dates, MPI figures and ES 2025-26 indicators.';
+
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

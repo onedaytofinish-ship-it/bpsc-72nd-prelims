@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>25 - Plassey and Buxar | BPSC 72nd Prelims</title>
+<link rel="stylesheet" href="_assets/navbar.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  h3 a { color: #16213e; text-decoration: none; }
+  h3 a:hover { color: #e94560; text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 200px; }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #25 • TIER A</div>
+  <div class="topic-title">Plassey and Buxar — The Foundation of British Rule</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Modern Indian History</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Treaty of Allahabad:</strong> The 69th directly asked: "The Treaty of Allahabad (1765) was signed after the battle of Buxar (1764)." Answer confirmed: <strong>Buxar → Allahabad → Diwani</strong>. This is the single highest-yield fact chain for this topic.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC PATTERN</span>
+    <strong>Battle matching and chronological ordering:</strong> BPSC consistently asks: (1) "Match the battle with the year/leader", (2) "Arrange in chronological order", (3) "Which treaty was signed after which battle?" The Plassey→Buxar→Allahabad→Diwani chain is the most tested sequence in Modern History.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BIHAR PYQ</span>
+    <strong>Buxar is in Bihar:</strong> Buxar is a town in Bhojpur district, Bihar, on the Ganga. Mir Qasim's capital was at <strong>Munger (Monghyr)</strong>, also in Bihar. Both battles of this topic have Bihar geography connections — BPSC's "more Bihar-specific" trend (71st) makes this especially relevant.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete battle-by-battle analysis with maps, the Dual System explained, the puppet Nawab cycle, Bihar connections (Buxar battlefield, Munger arsenal), and 7 exam-focused predictions for the 72nd BPSC:
+    <a href="subpages/25_plassey_buxar_detail.html" target="_blank">Plassey &amp; Buxar Master Detail →</a>
+  </div>
+
+  <h3>A. The Two Battles — Master Comparison Table <span class="current-tag">EXAM CORE</span></h3>
+  <p>These two battles, fought 7 years apart, transformed the English East India Company from a trading company into a political power. Learn every cell of this table — BPSC tests each column.</p>
+  <table>
+    <tr><th>Attribute</th><th>Battle of Plassey</th><th>Battle of Buxar</th></tr>
+    <tr><td><strong>Date</strong></td><td>23 June 1757</td><td>22 October 1764</td></tr>
+    <tr><td><strong>English leader</strong></td><td>Robert Clive</td><td>Major Hector Munro</td></tr>
+    <tr><td><strong>Opponent(s)</strong></td><td>Siraj-ud-Daulah (Nawab of Bengal)</td><td>Mir Qasim (Bengal) + Shuja-ud-Daulah (Awadh) + Shah Alam II (Mughal Emperor)</td></tr>
+    <tr><td><strong>Location</strong></td><td>Plassey (Palashi), Bengal</td><td><strong>Buxar, Bihar</strong> (Bhojpur district, on the Ganga)</td></tr>
+    <tr><td><strong>English troops</strong></td><td>~3,000</td><td>~7,000</td></tr>
+    <tr><td><strong>Opponent troops</strong></td><td>~50,000</td><td>~40,000 (combined)</td></tr>
+    <tr><td><strong>Key factor</strong></td><td>Mir Jafar's betrayal (withheld troops)</td><td>Superior English discipline and artillery; disunity among allies</td></tr>
+    <tr><td><strong>Outcome</strong></td><td>Siraj executed; Mir Jafar made Nawab; EIC got zamindari of 24 Parganas</td><td>Mir Qasim fled; Diwani of Bengal-Bihar-Orissa granted to EIC (1765)</td></tr>
+    <tr><td><strong>Significance</strong></td><td>EIC gained political influence in Bengal</td><td><strong>EIC became the de facto ruler of Bengal</strong> — true foundation of British rule</td></tr>
+    <tr><td><strong>Treaty after</strong></td><td>Alinagar Treaty (1757) with Siraj before the battle</td><td><strong>Treaty of Allahabad (1765)</strong></td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — "P-B-A-D" (The 4-Step Conquest):</strong><br>
+    <strong>P</strong>lassey (1757) → <strong>B</strong>uxar (1764) → <strong>A</strong>llahabad Treaty (1765) → <strong>D</strong>iwani (1765).<br>
+    <em>"Plassey gave influence, Buxar gave power, Allahabad gave legality, Diwani gave revenue." The English went from traders to rulers in 8 years.</em>
+  </div>
+
+  <div class="img-container">
+    <img src="images/battle_of_plassey.jpg" alt="Battle of Plassey 1757">
+    <div class="img-caption">Battle of Plassey (23 June 1757) — Robert Clive's ~3,000 troops defeated Siraj-ud-Daulah's ~50,000 army, largely due to Mir Jafar's betrayal. The battle gave the EIC political influence in Bengal.</div>
+  </div>
+
+  <h3>B. Battle of Plassey (1757) — Detailed Account</h3>
+  <ul>
+    <li><strong>Background:</strong> The Black Hole of Calcutta incident (June 1756) — Siraj-ud-Daulah captured Fort William and allegedly imprisoned 146 English prisoners in a small room, of which only 23 survived. Whether exaggerated or not, this was the English justification for sending Clive to Bengal.</li>
+    <li><strong>Pre-battle:</strong> Clive recaptured Calcutta (January 1757) and signed the Treaty of Alinagar with Siraj (Feb 1757). But Siraj was already plotting with the French, so Clive decided to overthrow him.</li>
+    <li><strong>The betrayal:</strong> Clive bribed Mir Jafar (commander-in-chief of Siraj's army), Rai Durlabh, and Jagat Seth (the wealthy banker). Mir Jafar agreed to withhold his troops during the battle.</li>
+    <li><strong>The battle:</strong> Fought at Plassey (Palashi), on the Bhagirathi-Hooghly river, ~150 km north of Calcutta. Despite having ~50,000 troops vs Clive's ~3,000, Siraj's army collapsed when Mir Jafar's large contingent did not fight. Siraj fled and was captured and executed by Mir Jafar's son, Miran.</li>
+    <li><strong>Aftermath:</strong> Mir Jafar was installed as Nawab. He paid the EIC ₹1.75 crore as compensation and granted the zamindari (land revenue rights) of 24 Parganas. But Mir Jafar could not meet the EIC's growing demands and was replaced by Mir Qasim in 1760.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/clive_meets_mir_jafar.jpg" alt="Clive meeting Mir Jafar after Battle of Plassey">
+    <div class="img-caption">Robert Clive meeting Mir Jafar after the Battle of Plassey — Mir Jafar was rewarded with the Nawabship of Bengal for betraying Siraj-ud-Daulah. He earned the epithet "Gaddar-e-Hind" (Betrayer of India).</div>
+  </div>
+
+  <h3>C. Battle of Buxar (1764) — Detailed Account</h3>
+  <ul>
+    <li><strong>Background:</strong> Mir Qasim (Mir Jafar's son-in-law) was installed as Nawab in 1760 but soon modernised his army, shifted his capital to <strong>Munger (Monghyr), Bihar</strong>, and challenged the EIC's trade privileges. He abolished all internal duties on Indian traders — making Indian and English merchants equal, which the English refused to accept.</li>
+    <li><strong>The conflict:</strong> The English attacked Mir Qasim's forces; he was defeated and fled to Awadh, where he allied with Shuja-ud-Daulah (Nawab of Awadh) and Shah Alam II (Mughal Emperor).</li>
+    <li><strong>The battle:</strong> Fought at <strong>Buxar, Bihar</strong> (Bhojpur district, on the Ganga) on 22 October 1764. Major Hector Munro led ~7,000 EIC troops against the combined army of ~40,000. Despite numerical inferiority, the English won due to superior discipline, artillery, and the disunity among the three Indian rulers.</li>
+    <li><strong>Aftermath:</strong> Mir Qasim fled and died in obscurity. Shuja-ud-Daulah signed the <strong>Treaty of Allahabad (1765)</strong> — paid ₹50 lakh war indemnity, ceded Kara and Allahabad. Shah Alam II was given Kara and Allahabad in exchange for the <strong>Diwani of Bengal-Bihar-Orissa</strong> (right to collect revenue) — granted to the EIC for an annual tribute of ₹26 lakh.</li>
+    <li><strong>Why Buxar is more significant than Plassey:</strong> Plassey defeated one Nawab (by betrayal); Buxar defeated three major powers (by military superiority). Plassey gave influence; Buxar gave the Diwani — the revenue of Bengal-Bihar-Orissa, making the EIC the de facto ruler.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/battle_of_buxar.jpg" alt="Battle of Buxar 1764">
+    <div class="img-caption">Battle of Buxar (22 October 1764) — fought in Buxar, Bihar. Major Hector Munro defeated the combined armies of Mir Qasim, Shuja-ud-Daulah, and Shah Alam II. This was the decisive military victory that led to the Diwani grant.</div>
+  </div>
+
+  <h3>D. The Treaty of Allahabad (1765) — Key Terms</h3>
+  <table>
+    <tr><th>Party</th><th>Terms</th></tr>
+    <tr><td><strong>Shuja-ud-Daulah (Awadh)</strong></td><td>Paid ₹50 lakh war indemnity; ceded Kara and Allahabad to the Mughal Emperor; gave Balwant Singh (Zamindar of Banaras) to the English; Awadh became a buffer state</td></tr>
+    <tr><td><strong>Shah Alam II (Mughal Emperor)</strong></td><td>Granted <strong>Diwani of Bengal-Bihar-Orissa</strong> to the EIC; received Kara and Allahabad; EIC to pay ₹26 lakh annual tribute to the Emperor</td></tr>
+    <tr><td><strong>Mir Jafar (Bengal)</strong></td><td>Reinstated as Nawab (after Mir Qasim's flight); paid ₹50 lakh to the EIC; retained only Nizamat (criminal justice)</td></tr>
+  </table>
+
+  <h3>E. The Dual System of Government (1765–1772)</h3>
+  <ul>
+    <li><strong>Introduced by:</strong> Robert Clive in 1765, after the Diwani grant.</li>
+    <li><strong>Division of power:</strong> EIC held <strong>Diwani</strong> (revenue collection + civil justice); the Nawab held <strong>Nizamat</strong> (criminal justice + police).</li>
+    <li><strong>The exploitation:</strong> The EIC had the revenue (power) without the responsibility of administration; the Nawab had the responsibility (law and order) without the revenue to fund it. This led to the <strong>Bengal Famine of 1770</strong> (killed ~1 crore people, ~1/3 of Bengal's population) — the EIC continued collecting revenue even during the famine.</li>
+    <li><strong>Abolished by:</strong> Warren Hastings in 1772. The EIC now held both Diwani and Nizamat, becoming the de jure ruler of Bengal.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Dual System "D-N Split":</strong><br>
+    <strong>D</strong>iwani = EIC (revenue + civil) → had the <strong>money</strong><br>
+    <strong>N</strong>izamat = Nawab (criminal + police) → had the <strong>headache</strong><br>
+    <em>"EIC took the money, Nawab got the headache." Warren Hastings ended this farce in 1772.</em>
+  </div>
+
+  <div class="img-container">
+    <img src="images/siraj_ud_daulah.jpg" alt="Siraj-ud-Daulah">
+    <div class="img-caption">Siraj-ud-Daulah — the last independent Nawab of Bengal. His defeat at Plassey (1757) ended Bengal's independence and began the British political conquest of India.</div>
+  </div>
+</div>
+
+<!-- FLOWCHART: PLASSEY → BUXAR → ALLAHABAD → DIWANI -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📊</span> The 4-Step Conquest Ladder (1757–1765)</div>
+  <p style="margin-bottom: 12px;">From trade to territory in 8 years — the chain BPSC tests most frequently in Modern History.</p>
+  <div class="flowchart">
+    <div class="flow-node">1757 — Battle of Plassey: Clive defeats Siraj via Mir Jafar's betrayal</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">1764 — Battle of Buxar: Munro defeats Mir Qasim + Shuja-ud-Daulah + Shah Alam II (in Bihar)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">1765 — Treaty of Allahabad: Shuja pays indemnity; Shah Alam cedes Diwani</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">1765 — Diwani granted: EIC gets revenue of Bengal-Bihar-Orissa → British rule begins</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📋</span> Fact Matrix — Plassey &amp; Buxar</div>
+  <table>
+    <tr><th>Item</th><th>Value</th><th>Notes</th></tr>
+    <tr><td><strong>Plassey date</strong></td><td>23 June 1757</td><td>Clive vs Siraj-ud-Daulah; Plassey = Palashi, Bengal</td></tr>
+    <tr><td><strong>Buxar date</strong></td><td>22 October 1764</td><td>Munro vs Mir Qasim + Shuja + Shah Alam II; Buxar = Bihar</td></tr>
+    <tr><td><strong>Treaty of Allahabad</strong></td><td>1765</td><td>Signed after Buxar; Diwani granted</td></tr>
+    <tr><td><strong>Diwani grant</strong></td><td>1765</td><td>By Shah Alam II to EIC; ₹26 lakh/year tribute</td></tr>
+    <tr><td><strong>Dual System</strong></td><td>1765–1772</td><td>EIC = Diwani, Nawab = Nizamat; abolished by Hastings</td></tr>
+    <tr><td><strong>Black Hole of Calcutta</strong></td><td>June 1756</td><td>Siraj captured Fort William; pretext for Plassey</td></tr>
+    <tr><td><strong>Mir Jafar</strong></td><td>Nawab after Plassey</td><td>"Gaddar-e-Hind"; replaced by Mir Qasim 1760; reinstated 1764</td></tr>
+    <tr><td><strong>Mir Qasim</strong></td><td>Nawab 1760–1764</td><td>Reformed army at Munger; fought at Buxar; fled</td></tr>
+    <tr><td><strong>Munger (Monghyr)</strong></td><td>Mir Qasim's capital</td><td>Bihar town; fortified arsenal; military base</td></tr>
+    <tr><td><strong>Bengal Famine 1770</strong></td><td>~1 crore deaths</td><td>Caused by Dual System exploitation; EIC kept collecting revenue</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar &amp; the Battles of Plassey-Buxar</div>
+    <ul>
+      <li><strong>Buxar is in Bihar:</strong> the Battle of Buxar (1764) was fought at Buxar, a town in Bhojpur district, Bihar, on the banks of the Ganga. This is one of the most significant battles in Indian history and it happened on Bihar soil.</li>
+      <li><strong>Mir Qasim's capital at Munger:</strong> Mir Qasim shifted his capital from Murshidabad to <strong>Munger (Monghyr), Bihar</strong> in 1762. He built a modern arsenal and fortified the town as a military base against the English. Munger's strategic location on the Ganga made it a natural fortress. Some of Mir Qasim's military reforms — including training soldiers in European methods and manufacturing modern firearms — were carried out at the Munger arsenal.</li>
+      <li><strong>Diwani included Bihar:</strong> the Diwani of 1765 covered Bengal, <strong>Bihar, and Orissa</strong>. This meant the EIC now controlled the revenue of Bihar — including the lucrative saltpetre, opium, and indigo trade that the Dutch had earlier exploited (cross-link Topic #24).</li>
+      <li><strong>Patna Massacre (1763):</strong> before Buxar, Mir Qasim's forces killed ~150 English and Indian prisoners at Patna during the conflict — an event known as the "Patna Massacre" that inflamed English sentiment and led directly to the Battle of Buxar.</li>
+      <li><strong>Bihar under EIC rule:</strong> after the Diwani, Bihar became part of the Bengal Presidency under EIC administration. Patna and Munger became major EIC military and commercial centres — the <strong>Patna Opium Factory (1780)</strong> was later established on the foundation of this control.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>↔ Topic 24 (Advent of Europeans):</strong> The factories established by the English (Surat, Madras, Calcutta) and the Farman of 1717 created the commercial foundation that Plassey and Buxar converted into political control.<br>
+    <strong>↔ Topic 26 (Economic Impact):</strong> The Diwani of 1765 and the Dual System led directly to the "drain of wealth" from Bengal-Bihar — revenue was extracted without administrative responsibility, causing the 1770 famine.<br>
+    <strong>↔ Topic 27 (Revolt of 1857):</strong> The EIC's revenue extraction in Bihar (opium, saltpetre, land revenue) created the discontent that fuelled the 1857 Revolt — Kunwar Singh of Jagdishpur led the Bihar front.<br>
+    <strong>↔ Topic 36 (Constitutional Acts):</strong> The Regulating Act of 1773 was Parliament's response to the EIC's mismanagement of Bengal after the Diwani — it created the post of Governor-General (Warren Hastings).
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance &amp; Potential Traps</div>
+  <ul>
+    <li><strong>Date traps:</strong> Plassey = 1757 (not 1756); Buxar = 1764 (not 1765); Allahabad Treaty and Diwani both = 1765 (not 1764). BPSC swaps these dates constantly.</li>
+    <li><strong>Leader traps:</strong> Clive = Plassey (not Buxar); Munro = Buxar (not Plassey). Don't confuse the two English commanders.</li>
+    <li><strong>Outcome traps:</strong> Plassey did NOT grant Diwani (Buxar did). Plassey gave political influence; Buxar gave the Diwani. The statement "Plassey led directly to Diwani" is FALSE.</li>
+    <li><strong>Buxar location trap:</strong> Buxar is in Bihar (Bhojpur district), NOT in Bengal or UP. This is the Bihar-specific angle.</li>
+    <li><strong>Diwani grantor trap:</strong> the Diwani was granted by <strong>Shah Alam II</strong> (Mughal Emperor), NOT by Warren Hastings or Robert Clive. Hastings abolished the Dual System; Clive introduced it; neither "granted" the Diwani.</li>
+    <li><strong>Mir Jafar vs Mir Qasim trap:</strong> Mir Jafar betrayed Siraj at Plassey; Mir Qasim (Mir Jafar's son-in-law) fought the English at Buxar. Don't swap them — Mir Jafar = Plassey betrayal; Mir Qasim = Buxar rebellion.</li>
+  </ul>
+
+  <div class="prediction-box">
+    <span class="prediction-tag">72nd Prediction</span>
+    <strong>Top 5 Predictions (72nd BPSC — Plassey &amp; Buxar):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) Treaty of Allahabad after Buxar (HIGH):</strong> "The Treaty of Allahabad (1765) was signed after which battle?" → Buxar (1764). Direct 69th PYQ — likely to be repeated.</li>
+      <li><strong>(2) Buxar combatants (HIGH):</strong> "The Battle of Buxar was fought between the English and the combined forces of —" → Mir Qasim + Shuja-ud-Daulah + Shah Alam II.</li>
+      <li><strong>(3) Bihar angle — Buxar location (MEDIUM):</strong> "The Battle of Buxar was fought in which present-day Indian state?" → Bihar (Bhojpur district). "Mir Qasim's capital was at which Bihar town?" → Munger.</li>
+      <li><strong>(4) Chronological ordering (MEDIUM):</strong> "Arrange: Plassey, Buxar, Allahabad, Diwani" → 1757, 1764, 1765, 1765 (Allahabad and Diwani same year; Allahabad treaty → Diwani grant).</li>
+      <li><strong>(5) "Not correctly matched" (LOW):</strong> Likely trap: "Diwani granted by Warren Hastings" (WRONG — by Shah Alam II) or "Plassey led to Diwani" (WRONG — Buxar did).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Battle of Plassey was fought in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 1756</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 1757</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 1764</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 1765</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — Plassey was fought on 23 June 1757. 1756 is the Black Hole of Calcutta; 1764 is Buxar; 1765 is the Treaty of Allahabad and Diwani grant.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The Battle of Plassey was fought between whom?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) English EIC vs Siraj-ud-Daulah (Nawab of Bengal)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) English EIC vs Mir Qasim (Nawab of Bengal)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) English EIC vs Shuja-ud-Daulah (Nawab of Awadh)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) English EIC vs the Mughal Emperor</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Plassey (1757) was between the EIC under Clive and Siraj-ud-Daulah. Mir Qasim fought at Buxar (1764); Shuja-ud-Daulah and Shah Alam II were allies at Buxar.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Who betrayed Siraj-ud-Daulah at the Battle of Plassey?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Mir Qasim</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Mir Jafar</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Shuja-ud-Daulah</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Shah Alam II</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — Mir Jafar, Siraj's commander-in-chief, secretly allied with Clive and withheld his troops. He earned the epithet 'Gaddar-e-Hind' and was made Nawab after Siraj's defeat and execution.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Battle of Buxar was fought in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 1757</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 1761</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 1764</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 1765</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — Buxar was fought on 22 October 1764. 1761 is the Third Battle of Panipat; 1765 is the Treaty of Allahabad.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The Battle of Buxar (1764) was fought between the English and which combined army?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Mir Qasim only</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Siraj-ud-Daulah only</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Mir Qasim + Shuja-ud-Daulah + Shah Alam II</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Shuja-ud-Daulah + Ahmad Shah Abdali</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Buxar was a triple alliance: Mir Qasim (Bengal), Shuja-ud-Daulah (Awadh), and Shah Alam II (Mughal Emperor) fought together against the EIC under Munro. Despite 3-to-1 superiority, they lost due to disunity.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The Treaty of Allahabad (1765) was signed after which battle?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Battle of Plassey (1757)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Battle of Buxar (1764)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Third Battle of Panipat (1761)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Battle of Wandiwash (1760)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — The Treaty of Allahabad (1765) was signed after the Battle of Buxar (1764). Direct 69th BPSC PYQ. Key outcome: Diwani of Bengal-Bihar-Orissa granted to the EIC by Shah Alam II.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The Diwani of Bengal, Bihar, and Orissa was granted to the English EIC in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) 1757</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 1764</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) 1765</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) 1772</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — The Diwani was granted in 1765 by Shah Alam II, following the Treaty of Allahabad. This gave the EIC revenue control over Bengal-Bihar-Orissa — the true foundation of British rule. 1772 is when Hastings abolished the Dual System.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Who was the Mughal Emperor who granted the Diwani of Bengal to the English EIC?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Shah Alam I</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Shah Alam II</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Bahadur Shah II</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Alamgir II</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (B)</strong> — Shah Alam II (1759–1806) granted the Diwani in 1765. He had fought against the English at Buxar but was defeated and signed the Treaty of Allahabad. He received ₹26 lakh/year tribute in exchange.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Who led the English EIC forces at the Battle of Plassey?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Major Hector Munro</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Sir Eyre Coote</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Robert Clive</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Warren Hastings</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (C)</strong> — Robert Clive led the EIC at Plassey (1757) with ~3,000 troops. Munro led at Buxar (1764); Coote won at Wandiwash (1760); Hastings later became the first Governor-General.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Who led the English EIC forces at the Battle of Buxar?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Robert Clive</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Major Hector Munro</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Sir Eyre Coote</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Lord Lake</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Major Hector Munro led the EIC at Buxar (1764) and defeated the combined armies of Mir Qasim, Shuja-ud-Daulah, and Shah Alam II. Clive led at Plassey, not Buxar.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which battle is considered more significant than Plassey for establishing British power in India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Battle of Wandiwash (1760)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Battle of Buxar (1764)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Third Battle of Panipat (1761)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Battle of Plassey (1757)</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (B)</strong> — Buxar (1764) is more significant because it defeated three major powers (not one), and led to the Diwani — the revenue of Bengal-Bihar-Orissa. Plassey was won by betrayal; Buxar was a genuine military victory.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The 'Black Hole of Calcutta' incident (1756) is associated with which Nawab?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Mir Jafar</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Siraj-ud-Daulah</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Mir Qasim</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Alivardi Khan</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — Siraj-ud-Daulah captured Fort William in June 1756, leading to the Black Hole incident. This was used as the pretext for sending Clive to Bengal, resulting in the Battle of Plassey (1757).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Mir Qasim was the Nawab of Bengal who:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Betrayed Siraj-ud-Daulah at Plassey</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Reformed the army and administration, then fought the English at Buxar</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Granted the Diwani to the English</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Signed the Treaty of Allahabad</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (B)</strong> — Mir Qasim modernised his army, shifted capital to Munger (Bihar), and challenged English trade privileges. When the English refused to pay duties, he abolished all internal duties — sparking the conflict that led to Buxar.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Mir Qasim shifted his capital to which Bihar town to strengthen his position against the English?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Patna</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) Munger (Monghyr)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Bhagalpur</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) Gaya</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — Mir Qasim shifted his capital to Munger (Monghyr), Bihar, in 1762, building a modern arsenal. Munger's strategic Ganga location made it a military fortress — the Bihar connection to the Buxar story.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The 'Double Government' (Dual Administration) in Bengal was introduced by whom and in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Robert Clive, 1765</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Warren Hastings, 1772</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Lord Curzon, 1905</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Lord Wellesley, 1798</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Clive introduced the Dual System in 1765: EIC held Diwani (revenue), Nawab held Nizamat (criminal justice). EIC had the money without responsibility; Nawab had responsibility without money. Hastings abolished it in 1772.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Under the Dual System of Government in Bengal (1765–1772), the EIC held which power?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Nizamat (criminal justice) only</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Diwani (revenue + civil justice) only</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Both Diwani and Nizamat</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Neither — only military control</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Under the Dual System, EIC held Diwani (revenue + civil justice); Nawab held Nizamat (criminal justice + police). EIC had the revenue power without administrative responsibility — leading to the Bengal Famine of 1770.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Who abolished the Dual System of Government in Bengal?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Robert Clive</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Warren Hastings</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) Lord Cornwallis</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) Lord Wellesley</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (B)</strong> — Warren Hastings abolished the Dual System in 1772 and took direct control. The EIC now held both Diwani and Nizamat — becoming the de jure ruler of Bengal. This was the final step in the transition from trade to governance.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Arrange in chronological order: 1. Battle of Plassey 2. Battle of Buxar 3. Grant of Diwani 4. Treaty of Allahabad</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) 1, 2, 4, 3</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) 1, 2, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) 2, 1, 4, 3</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) 1, 4, 2, 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Correct order: Plassey (1757) → Buxar (1764) → Treaty of Allahabad (1765, signed after Buxar) → Diwani (1765, part of the Allahabad treaty terms). Allahabad treaty came before the Diwani grant.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Which battle marked the transition of the English EIC from a trading entity to a political power in India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Battle of Plassey (1757)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Battle of Buxar (1764)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Third Battle of Panipat (1761)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Battle of Wandiwash (1760)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — Buxar (1764) and the subsequent Diwani grant (1765) truly marked the transition from trade to political power. The EIC now controlled the revenue of Bengal-Bihar-Orissa — making it a governing entity. Plassey gave influence; Buxar gave power.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Shuja-ud-Daulah, who fought at Buxar, was the Nawab of which region?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Awadh (Oudh)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Mysore</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — Shuja-ud-Daulah was the Nawab of Awadh. After Buxar, he signed the Treaty of Allahabad (1765), paid ₹50 lakh war indemnity, and Awadh became a buffer state between EIC Bengal and the Marathas.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Consider the following about the Battle of Plassey: 1. It was fought in 1757. 2. Mir Jafar's betrayal was the key factor. 3. It led directly to the grant of Diwani. Which is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Statements 1 and 2 are correct. Statement 3 is WRONG — the Diwani was granted after Buxar (1764), not after Plassey. Plassey gave influence; Buxar gave the Diwani. Don't confuse the two battles' outcomes.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Which of the following is NOT correctly matched?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Plassey — Robert Clive vs Siraj-ud-Daulah</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Buxar — Hector Munro vs Mir Qasim</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Allahabad Treaty — 1765</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Diwani grant — by Warren Hastings</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (D)</strong> — The Diwani was granted by Mughal Emperor Shah Alam II in 1765, NOT by Warren Hastings. Hastings abolished the Dual System in 1772 but did not grant the Diwani. The other three are correctly matched.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The Nawab who was installed by the English after Plassey and later replaced by Mir Qasim was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Siraj-ud-Daulah</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Mir Jafar</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Shuja-ud-Daulah</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Najm-ud-Daulah</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — Mir Jafar was installed as Nawab after Plassey (1757) as a reward for his betrayal. He couldn't meet EIC's financial demands and was replaced by Mir Qasim in 1760. Mir Jafar was reinstated after Buxar (1764) when Mir Qasim fled.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Which Bihar town is directly associated with the Battle of Buxar?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Patna</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Buxar</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Munger</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Both Buxar and Munger</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (D)</strong> — Buxar (Bhojpur district, Bihar) is the battlefield; Munger (Monghyr, Bihar) was Mir Qasim's fortified capital and arsenal. Both are Bihar locations central to the Buxar story — the battlefield and the military base.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The Bengal Famine of 1770, which killed approximately one-third of Bengal's population, was a direct consequence of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) The Battle of Plassey</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) The Dual System of Government</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) The Treaty of Allahabad</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) The Regulating Act of 1773</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — The Dual System (1765–1772) caused the 1770 famine: the EIC collected revenue ruthlessly without administrative responsibility, while the Nawab couldn't maintain irrigation or relief. ~1 crore people died. The EIC continued collecting revenue even during the famine — the ultimate proof of the Dual System's exploitation.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Battle_of_Plassey" target="_blank">Battle of Plassey — Wikipedia</a> <span style="color:#64748b;font-size:12px;">23 June 1757; Clive vs Siraj-ud-Daulah; Mir Jafar's betrayal</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Battle_of_Buxar" target="_blank">Battle of Buxar — Wikipedia</a> <span style="color:#64748b;font-size:12px;">22 October 1764; Munro vs Mir Qasim + Shuja + Shah Alam II; Bihar</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Treaty_of_Allahabad" target="_blank">Treaty of Allahabad — Wikipedia</a> <span style="color:#64748b;font-size:12px;">1765; Diwani of Bengal-Bihar-Orissa granted to EIC</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Dual_system_of_government_in_Bengal" target="_blank">Dual System of Government — Wikipedia</a> <span style="color:#64748b;font-size:12px;">1765–1772; EIC = Diwani, Nawab = Nizamat; abolished by Hastings</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Mir_Qasim" target="_blank">Mir Qasim — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Nawab who reformed army at Munger (Bihar) and fought at Buxar</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 25 — Plassey and Buxar • Generated 2026-07-17 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'b', q2: 'a', q3: 'b', q4: 'c', q5: 'c',
+  q6: 'b', q7: 'c', q8: 'b', q9: 'c', q10: 'b',
+  q11: 'b', q12: 'b', q13: 'b', q14: 'b', q15: 'a',
+  q16: 'b', q17: 'b', q18: 'a', q19: 'b', q20: 'b',
+  q21: 'a', q22: 'd', q23: 'b', q24: 'd', q25: 'b'
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

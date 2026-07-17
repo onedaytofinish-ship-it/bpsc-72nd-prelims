@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>24 - Advent of Europeans | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 200px; position: relative; }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; transition: border-color 0.3s; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; transition: background 0.2s; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .reset-btn:hover { background: #334155; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #24 • TIER A</div>
+  <div class="topic-title">Advent of Europeans — Portuguese, Dutch, French, British</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Modern Indian History</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">📊 Expected: 1–2 Qs</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Dutch factory at Patna:</strong> "The Dutch East India Company established its factory at Patna in which year?" Answer: <strong>1632</strong>. A direct Bihar-specific PYQ — the Dutch traded in saltpetre, indigo and opium from Patna and Rajmahal.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Chronological order:</strong> The 69th asked to arrange Home Rule Movement, Minto-Morley Reforms, and Kheda Satyagraha in chronological order. The same pattern applies to European arrival — BPSC tests chronological sequencing heavily in history.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Pre-Congress organisations matching:</strong> The 70th asked to match pre-Congress organisations with leaders. The same "matching" format is used for European powers ↔ their headquarters, ships, or key figures.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Map-based analysis of European trade routes (Vasco da Gama's voyage, Portuguese settlements, Hooghly factory chain), an inline SVG factory-location map, comparative side-by-side table of all 5 European powers, Bihar saltpetre/opium deep dive, and 7 exam-focused predictions for the 72nd BPSC:
+    <a href="subpages/24_european_trade_routes_detail.html" target="_blank">European Trade Routes &amp; Factory Locations Detail →</a>
+  </div>
+
+  <div class="prediction-box">
+    <span class="prediction-tag">72nd Prediction</span>
+    <strong>Most likely question patterns from this topic:</strong> (1) Matching: European power ↔ headquarters (traps: Dutch=Pulicat not Cochin, French=Pondicherry not Chandernagore). (2) Bihar-specific: Dutch Patna 1632 or saltpetre trade. (3) Chronological: arrival order P→D→E→F. (4) "First to come, last to leave": Portuguese (1498→1961). (5) "Not correctly matched": Dutch—Battle of Swally (wrong, that was English vs Portuguese). <em>See the subpage for detailed analysis of all 7 predictions.</em>
+  </div>
+
+  <h3>A. European Arrival — The Master Timeline</h3>
+  <p>BPSC tests dates, order of arrival, and headquarters. Learn this timeline cold — every date is a potential one-mark question.</p>
+  <table>
+    <tr><th>Year</th><th>Event</th><th>Power</th><th>Key Person</th></tr>
+    <tr><td><strong>1498</strong></td><td>Arrival at Calicut (first sea voyage)</td><td>Portuguese</td><td>Vasco da Gama</td></tr>
+    <tr><td><strong>1500</strong></td><td>Second voyage; first factory at Calicut</td><td>Portuguese</td><td>Pedro Álvares Cabral</td></tr>
+    <tr><td><strong>1505</strong></td><td>First Portuguese viceroy appointed</td><td>Portuguese</td><td>Francisco de Almeida</td></tr>
+    <tr><td><strong>1510</strong></td><td>Capture of Goa (from Bijapur)</td><td>Portuguese</td><td>Afonso de Albuquerque</td></tr>
+    <tr><td><strong>1595</strong></td><td>First Dutch voyage to India</td><td>Dutch</td><td>Cornelis de Houtman</td></tr>
+    <tr><td><strong>1600</strong></td><td>English EIC chartered by Elizabeth I</td><td>English</td><td>—</td></tr>
+    <tr><td><strong>1602</strong></td><td>Dutch VOC established (first joint-stock co.)</td><td>Dutch</td><td>—</td></tr>
+    <tr><td><strong>1608</strong></td><td>First Englishman at Mughal court</td><td>English</td><td>William Hawkins (at Surat)</td></tr>
+    <tr><td><strong>1612</strong></td><td>Battle of Swally (defeat Portuguese)</td><td>English</td><td>Captain Thomas Best</td></tr>
+    <tr><td><strong>1613</strong></td><td>First English factory at Surat</td><td>English</td><td>—</td></tr>
+    <tr><td><strong>1615</strong></td><td>Official ambassador at Jahangir's court</td><td>English</td><td>Sir Thomas Roe</td></tr>
+    <tr><td><strong>1632</strong></td><td>Dutch factory at <strong>Patna</strong> (Bihar PYQ)</td><td>Dutch</td><td>—</td></tr>
+    <tr><td><strong>1639</strong></td><td>Madras (Fort St. George) acquired</td><td>English</td><td>Francis Day (from Raja of Chandragiri)</td></tr>
+    <tr><td><strong>1661</strong></td><td>Bombay acquired (dowry of Catherine of Braganza)</td><td>English</td><td>—</td></tr>
+    <tr><td><strong>1664</strong></td><td>French East India Company founded</td><td>French</td><td>Jean-Baptiste Colbert</td></tr>
+    <tr><td><strong>1674</strong></td><td>Pondicherry founded (French HQ)</td><td>French</td><td>François Martin</td></tr>
+    <tr><td><strong>1690</strong></td><td>Calcutta (Fort William) founded</td><td>English</td><td>Job Charnock</td></tr>
+    <tr><td><strong>1717</strong></td><td>Farman of Farrukhsiyar (duty-free trade in Bengal)</td><td>English</td><td>John Surman (embassy)</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Arrival Order "P-D-E-F"</strong><br>
+    <strong>P</strong>ortuguese (1498) → <strong>D</strong>utch (1595) → <strong>E</strong>nglish (1608) → <strong>F</strong>rench (1664).<br>
+    <em>"Port-Dutch-Eng-French: first to come, first to leave? NO! Portuguese came first and left LAST (Goa 1961)!"</em>
+  </div>
+
+  <div class="img-container">
+    <img src="images/vasco_da_gama.jpg" alt="Vasco da Gama">
+    <div class="img-caption">Vasco da Gama — the first European to reach India by sea (Calicut, May 1498), around the Cape of Good Hope.</div>
+  </div>
+  <div class="img-container">
+    <img src="images/vasco_da_gama_route.jpg" alt="Map of Vasco da Gama's route to India">
+    <div class="img-caption">Da Gama's route: Lisbon → Cape of Good Hope → East Africa (Mozambique, Mombasa, Malindi) → Calicut. He was guided from East Africa by an Indian navigator from Gujarat.</div>
+  </div>
+
+  <h3>B. Portuguese in India — Key Facts</h3>
+  <ul>
+    <li><strong>First to arrive (1498), last to leave (1961):</strong> Goa, Daman and Diu were liberated by India in 1961 — 14 years after the British left. This "first to come, last to leave" paradox is a BPSC favourite.</li>
+    <li><strong>Vasco da Gama:</strong> arrived at Calicut (Kozhikode) in May 1498, received by the Zamorin (local ruler). He sailed around the Cape of Good Hope (Africa).</li>
+    <li><strong>Cabral (1500):</strong> second voyage, established first factory at Calicut.</li>
+    <li><strong>Almeida (1505):</strong> first Portuguese viceroy; introduced the "Blue Water Policy" — naval dominance over the Indian Ocean.</li>
+    <li><strong>Albuquerque (1506–1515):</strong> captured Goa in 1510 from Bijapur; consolidated the "Estado da Índia" (Portuguese maritime empire).</li>
+    <li><strong>Goa:</strong> Portuguese political HQ from 1510; also the seat of the Inquisition in India (1560–1812).</li>
+    <li><strong>Portuguese contributions:</strong> introduced tobacco, cashew nuts, chillies (red pepper), and the printing press (first printed book in India: "Conclusões e outras coisas" in Goa, 1556). Also introduced the "Cartaze" system — a pass system requiring Indian ships to buy Portuguese permits.</li>
+    <li><strong>Decline:</strong> defeated by the English and Dutch in the 17th century; lost their commercial dominance but held Goa, Daman, Diu, and Dadra &amp; Nagar Haveli until 1954–1961.</li>
+  </ul>
+  <div class="img-container">
+    <img src="images/portuguese_india_settlements.png" alt="Map of Portuguese settlements in India">
+    <div class="img-caption">Portuguese settlements across India — Goa (HQ, 1510), Daman, Diu on the west coast; Cochin and Calicut on the Malabar coast. The Portuguese held these until 1954–1961.</div>
+  </div>
+
+  <h3>C. Dutch in India — Key Facts</h3>
+  <ul>
+    <li><strong>Dutch East India Company (VOC):</strong> established 1602 — the world's first joint-stock company.</li>
+    <li><strong>First voyage:</strong> Cornelis de Houtman reached India in 1595 (before the company was even formed).</li>
+    <li><strong>Headquarters:</strong> Pulicat (1610, on the Coromandel Coast), later shifted to Cochin.</li>
+    <li><strong>Bihar connection:</strong> Dutch factory at <strong>Patna (1632)</strong> — 69th BPSC PYQ. Traded in saltpetre (for gunpowder), indigo, opium and textiles. Also had a factory at Rajmahal.</li>
+    <li><strong>Main trade:</strong> spices (pepper, cloves, nutmeg) from the East Indies (Indonesia), textiles and indigo from India. India was a secondary theatre — Indonesia was their primary focus.</li>
+    <li><strong>Decline:</strong> defeated by the English at the Battle of Bidara (1759); gradually withdrew to focus on Indonesia. Last factory closed in 1825.</li>
+  </ul>
+
+  <h3>D. English (British) in India — Key Facts</h3>
+  <ul>
+    <li><strong>English East India Company:</strong> chartered by Queen Elizabeth I on 31 December 1600.</li>
+    <li><strong>First arrival:</strong> William Hawkins reached Surat in 1608, went to Jahangir's court, was given the title "English Khan".</li>
+    <li><strong>Sir Thomas Roe (1615–1619):</strong> official ambassador to Jahangir; secured farman for trade — the diplomatic foundation.</li>
+    <li><strong>First factory:</strong> Surat (1613), after the Battle of Swally (1612) broke Portuguese naval power.</li>
+    <li><strong>Three Presidency settlements:</strong> Madras / Fort St. George (1639), Bombay (1661, dowry), Calcutta / Fort William (1690, Job Charnock).</li>
+    <li><strong>Farman of 1717:</strong> Farrukhsiyar granted duty-free trade in Bengal for ₹3,000/year — the commercial foundation that made Bengal the richest English post.</li>
+    <li><strong>From trade to empire:</strong> after Plassey (1757), the English shifted from commerce to political control — see Topic #25.</li>
+  </ul>
+  <div class="img-container">
+    <img src="images/european_factories_hooghly.png" alt="18th century map of European factories on the Hooghly River">
+    <div class="img-caption">European factories on the Hooghly River (Bengal, 18th century): all five powers — English (Calcutta), French (Chandernagore), Danish (Serampore), Dutch (Chinsurah), Portuguese (Hugli) — within 40 km of each other.</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/trade.png" alt="Maritime trade routes">
+    <div class="img-caption">European maritime trade routes — the Portuguese came around Africa, the Dutch focused on the East Indies, and the English built three coastal presidency cities.</div>
+  </div>
+
+  <h3>E. French in India — Key Facts</h3>
+  <ul>
+    <li><strong>French East India Company:</strong> founded 1664 by Jean-Baptiste Colbert (finance minister of Louis XIV). State-sponsored, unlike the English/Dutch joint-stock model.</li>
+    <li><strong>Headquarters:</strong> Pondicherry (founded 1674 by François Martin).</li>
+    <li><strong>Other French posts:</strong> Chandernagore (Bengal, 1673), Masulipatnam, Karaikal, Mahe, Yanam.</li>
+    <li><strong>Dupleix (1742–1754):</strong> governor who introduced the "Policy of Imperialism" — using Indian sepoys under European officers and interfering in Indian succession disputes (Carnatic Wars). The English copied this strategy.</li>
+    <li><strong>Anglo-French Wars:</strong> three Carnatic Wars (1746–1763); the French were ultimately defeated and marginalised.</li>
+    <li><strong>Pondicherry remained French</strong> until 1954 (de facto transfer to India); de jure in 1962.</li>
+  </ul>
+
+  <h3>F. Danes in India — Quick Facts</h3>
+  <ul>
+    <li><strong>Danish East India Company:</strong> established 1616; first settlement at Tranquebar (Tarangambadi, Tamil Nadu, 1620).</li>
+    <li><strong>Serampore (Bengal, 1755):</strong> the Danish base that became famous for the <strong>Serampore Mission</strong> (1799) — William Carey, Joshua Marshman, William Ward — the first printing press in Indian languages and pioneering work in Bengali literature and Bible translation.</li>
+    <li><strong>Nicobar Islands:</strong> also held by the Danes (sold to British in 1868).</li>
+    <li><strong>Sold out:</strong> the Danes sold all Indian possessions to the British in 1845 (Tranquebar and Serampore).</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Headquarters "Goa-Pulicat-Madras-Pondi-Tranquebar"</strong><br>
+    <strong>P</strong>ortuguese → <strong>Goa</strong> (1510) • <strong>D</strong>utch → <strong>Pulicat</strong> (1610) • <strong>E</strong>nglish → <strong>Madras/Surat</strong> (1613/1639) • <strong>F</strong>rench → <strong>Pondicherry</strong> (1674) • <strong>D</strong>anes → <strong>Tranquebar</strong> (1620).<br>
+    <em>"G-P-M-P-T: Goa, Pulicat, Madras, Pondicherry, Tranquebar — five HQs, five powers."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📊</span> European Powers — Arrival Ladder</div>
+  <p style="margin-bottom: 12px;">The chronological ladder of European arrival and departure — BPSC tests the order and the "first to come, last to leave" paradox.</p>
+  <div class="flowchart">
+    <div class="flow-node">1498 — Portuguese arrive (Vasco da Gama, Calicut)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">1595 — Dutch arrive (de Houtman); VOC 1602</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">1608 — English arrive (Hawkins, Surat); EIC 1600</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">1620 — Danes arrive (Tranquebar)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">1664 — French arrive (Colbert founds company); Pondicherry 1674</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">1961 — Portuguese LAST to leave (Goa liberated)</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📋</span> Fact Matrix — European Powers Compared</div>
+  <table>
+    <tr><th>Power</th><th>Arrival</th><th>HQ in India</th><th>First Factory</th><th>Left</th><th>Key Figure</th></tr>
+    <tr><td><strong>Portuguese</strong></td><td>1498</td><td>Goa (1510)</td><td>Calicut (1500)</td><td><strong>1961</strong> (last)</td><td>Albuquerque</td></tr>
+    <tr><td><strong>Dutch</strong></td><td>1595</td><td>Pulicat (1610)</td><td>Masulipatnam</td><td>1825</td><td>de Houtman</td></tr>
+    <tr><td><strong>English</strong></td><td>1608</td><td>Surat→Madras (1639)</td><td>Surat (1613)</td><td>1947</td><td>Thomas Roe</td></tr>
+    <tr><td><strong>Danes</strong></td><td>1620</td><td>Tranquebar</td><td>Tranquebar (1620)</td><td>1845 (sold)</td><td>Carey (Serampore)</td></tr>
+    <tr><td><strong>French</strong></td><td>1664</td><td>Pondicherry (1674)</td><td>Surat (1668)</td><td>1954</td><td>Dupleix</td></tr>
+  </table>
+  <table>
+    <tr><th>English Settlement</th><th>Year</th><th>Origin</th></tr>
+    <tr><td><strong>Surat</strong> (first factory)</td><td>1613</td><td>Farman from Jahangir (after Swally 1612)</td></tr>
+    <tr><td><strong>Madras / Fort St. George</strong></td><td>1639</td><td>Purchased from Raja of Chandragiri</td></tr>
+    <tr><td><strong>Bombay</strong></td><td>1661</td><td>Dowry of Catherine of Braganza → EIC 1668</td></tr>
+    <tr><td><strong>Calcutta / Fort William</strong></td><td>1690</td><td>Founded by Job Charnock</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar &amp; the European Trading Posts</div>
+    <ul>
+      <li><strong>Dutch factory at Patna (1632):</strong> the 69th BPSC PYQ asked this exact date. The Dutch traded in <strong>saltpetre</strong> (potassium nitrate, for gunpowder), <strong>indigo</strong>, <strong>opium</strong> and textiles from Patna. Bihar was a major saltpetre-producing region — the Dutch and English both sourced it from here.</li>
+      <li><strong>Dutch at Rajmahal:</strong> the Dutch also had a factory at Rajmahal (in the Bengal subah, near the Bihar border) — another Bihar-adjacent trading post.</li>
+      <li><strong>English interest in Bihar:</strong> after the Farman of 1717, English commercial interest expanded into Bihar's interior. After Plassey (1757) and the Diwani of Bengal (1765, which included Bihar), the English established factories at <strong>Patna</strong> and <strong>Munger</strong> for saltpetre, opium and indigo — the same goods the Dutch had traded a century earlier.</li>
+      <li><strong>Opium trade:</strong> Bihar (particularly the Gangetic plains around Patna and Gaya) became the centre of the English East India Company's opium monopoly from the 1770s onwards. The <strong>Patna Opium Factory</strong> (established 1780) was the largest opium-processing facility in the world — opium was exported to China, generating enormous revenue for the Company.</li>
+      <li><strong>Saltpetre:</strong> Bihar's saltpetre (used in gunpowder) was a strategic commodity — European powers competed for it because it was essential for military supremacy. The English eventually monopolised it after the Dutch were driven out.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>↔ Topic 25 (Plassey and Buxar):</strong> The trading posts established in this topic led directly to the battles of Plassey (1757) and Buxar (1764) — the turning point from trade to empire.<br>
+    <strong>↔ Topic 26 (Economic Impact):</strong> The Farman of 1717 (duty-free trade) and the Diwani of 1765 (revenue collection) are the foundation of the "drain of wealth" — Bihar's opium and saltpetre were central to this.<br>
+    <strong>↔ Topic 36 (Constitutional Acts):</strong> The Regulating Act of 1773 was Parliament's response to the EIC's growing political power — a direct consequence of the commercial expansion described here.<br>
+    <strong>↔ Topic 37 (Independence and Partition):</strong> The Portuguese held Goa until 1961 and the French held Pondicherry until 1954 — the decolonisation of European outposts was a separate process from the British departure in 1947.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance &amp; Potential Traps</div>
+  <ul>
+    <li><strong>Date traps:</strong> 1498 (da Gama) vs 1492 (Columbus) vs 1500 (Cabral) — all are "European explorer" dates that BPSC swaps. 1498 = India, 1492 = Americas.</li>
+    <li><strong>Company formation vs arrival:</strong> English EIC was chartered in 1600 (before Dutch VOC in 1602), but the Dutch reached India first (1595). BPSC tests this distinction.</li>
+    <li><strong>First to come, last to leave:</strong> the Portuguese came first (1498) and left last (1961) — the British left in 1947, French in 1954, Danes in 1845, Dutch in 1825. BPSC asks "which was the last European power to leave India?"</li>
+    <li><strong>HQ confusion:</strong> Dutch HQ was Pulicat (not Cochin — Cochin was secondary). French HQ was Pondicherry (not Chandernagore — that was a Bengal subordinate post). English first factory was Surat (not Madras — Madras came in 1639).</li>
+    <li><strong>Bombay dowry trap:</strong> Bombay came as the dowry of Catherine of Braganza (1661) — a Portuguese princess marrying Charles II. The Portuguese connection to Bombay is often missed.</li>
+    <li><strong>Bihar PYQ:</strong> Dutch factory at Patna = 1632. Also know: Patna became an English factory post-1765 (after Diwani); the Patna Opium Factory (1780) was the world's largest.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Vasco da Gama reached the port of Calicut (Kozhikode) in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 1492</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 1498</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 1500</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 1505</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — Vasco da Gama arrived at Calicut in May 1498, after sailing around the Cape of Good Hope. 1492 is Columbus reaching the Americas — a classic date-swap trap. 1500 is Cabral's arrival; 1505 is Almeida becoming viceroy.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Vasco da Gama's sea route to India went around which cape?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Cape of Good Hope (Africa)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Cape Horn (South America)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Strait of Malacca</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Suez Canal</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Da Gama sailed around the Cape of Good Hope (southern tip of Africa), then north through the Indian Ocean to Calicut. Cape Horn is in South America; the Suez Canal opened only in 1869.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The first European power to arrive in India and the last to leave were respectively:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Portuguese and British</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Portuguese and Portuguese</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) British and British</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Dutch and French</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — The Portuguese were the first to arrive (1498) AND the last to leave (Goa liberated in 1961). The British left in 1947, French in 1954 — the Portuguese held on for 14 more years after Independence.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Portuguese established their first factory (trading post) in India at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Goa</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Calicut</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Cochin</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Daman</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — The first Portuguese factory was at Calicut (1500, after Cabral's arrival). Goa was captured in 1510 (became HQ); Cochin was the commercial HQ from 1503. The trap is Goa — it became the capital later.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Afonso de Albuquerque captured Goa in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) 1498</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) 1505</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) 1510</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) 1530</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Albuquerque captured Goa in 1510 from the Bijapur Sultanate. 1498 is da Gama's arrival; 1505 is Almeida's appointment as viceroy. Albuquerque also introduced the 'Blue Water Policy' of naval dominance.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The Dutch East India Company (VOC) was established in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 1600</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 1602</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 1608</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 1612</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — The Dutch VOC was established in 1602 — the world's first joint-stock company. 1600 is the English EIC; 1608 is Hawkins' arrival; 1612 is the Battle of Swally. The Dutch company was formed 2 years after the English charter.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The Dutch East India Company established its factory at Patna in which year? (69th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) 1632</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 1635</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) 1648</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) 1664</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — The Dutch established a factory at Patna in 1632 — a direct 69th BPSC PYQ. The Dutch traded in saltpetre, indigo and opium from Bihar. 1635, 1648 and 1664 are distractors.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The English East India Company was established in the year:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 1599</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) 1600</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 1602</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) 1608</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (B)</strong> — The English EIC was chartered by Queen Elizabeth I on 31 December 1600. 1602 is the Dutch VOC; 1608 is Hawkins' arrival at Surat. The English charter predates the Dutch company, but the Dutch reached India first (1595).</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Who was the first English ambassador to the Mughal court (arrived at Surat in 1608)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Sir Thomas Roe</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) William Hawkins</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Captain Best</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Josiah Child</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — William Hawkins arrived at Surat in 1608 and reached Jahangir's court — the first English ambassador. He was given the title 'English Khan'. Sir Thomas Roe came later (1615) and was more successful diplomatically — a common confusion.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Sir Thomas Roe came to the court of which Mughal emperor, and in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Akbar, 1605</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Jahangir, 1615</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Shah Jahan, 1632</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Aurangzeb, 1666</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Sir Thomas Roe arrived at Jahangir's court in 1615 as the official ambassador of King James I. He stayed until 1619 and secured trading concessions. Akbar died in 1605, before the English arrived in India.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The English East India Company established its first factory in India at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Madras (Fort St. George)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Surat</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Bombay</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Calcutta (Fort William)</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (B)</strong> — The first English factory was at Surat (1613), after Jahangir's farman. Madras came in 1639; Bombay in 1661; Calcutta in 1690. Surat was the first English foothold in India.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The English acquired Bombay as part of the dowry of which royal?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Catherine of Braganza (1661)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Mary of Modena (1685)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Queen Victoria (1837)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Anne Hyde (1660)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — Bombay was given to King Charles II in 1661 as part of the dowry of Catherine of Braganza, a Portuguese princess. It was transferred to the EIC in 1668 for £10/year. The Portuguese connection to Bombay is often missed.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Match the European power with its main headquarters in India:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Portuguese-Goa, Dutch-Pulicat, French-Pondicherry, English-Madras</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Portuguese-Cochin, Dutch-Surat, French-Masulipatnam, English-Bombay</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Portuguese-Daman, Dutch-Calicut, French-Chandernagore, English-Calcutta</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Portuguese-Goa, Dutch-Cochin, French-Madras, English-Surat</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Portuguese HQ: Goa (1510); Dutch HQ: Pulicat (1610); French HQ: Pondicherry (1674); English HQ: initially Surat, then Madras (1639). Traps: Dutch HQ was Pulicat (not Cochin); French HQ was Pondicherry (not Chandernagore).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The French East India Company was founded by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Colbert (1664)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) Louis XIV personally</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Dupleix</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) François Martin</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — The French East India Company was founded in 1664 by Jean-Baptiste Colbert, finance minister of Louis XIV. François Martin founded Pondicherry (1674); Dupleix was the governor who initiated the Carnatic Wars. The French company was state-sponsored, unlike the English/Dutch joint-stock model.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The French founded their headquarters at Pondicherry in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) 1664</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) 1674</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) 1690</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) 1725</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — François Martin founded Pondicherry in 1674. 1664 is the founding of the French East India Company by Colbert. Pondicherry remained French until 1954 — the second-longest European presence after the Portuguese in Goa.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The Danes (Danish East India Company) established their main settlement at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Tranquebar (Tamil Nadu)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Serampore (Bengal)</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Both Tranquebar and Serampore</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Nicobar Islands only</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (C)</strong> — The Danes established Tranquebar (1620, Tamil Nadu) as HQ and Serampore (1755, Bengal) as a secondary post. Serampore became famous for the Serampore Mission (1799) — the first printing press in Indian languages. The Danes sold all Indian possessions to the British in 1845.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Which European power was associated with the 'Blue Water Policy'?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Portuguese</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Dutch</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) French</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) English</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — The 'Blue Water Policy' (Estado da Índia) was introduced by Albuquerque — aiming at Portuguese naval supremacy over the Indian Ocean rather than territorial conquest. No other European power used this maritime-first strategy.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Consider the chronological order of European arrival in India: 1. Portuguese 2. English 3. Dutch 4. French. The correct sequence is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) 1, 3, 2, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) 1, 2, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) 3, 1, 2, 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) 1, 3, 4, 2</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Portuguese (1498) → Dutch (1595) → English (1608) → French (1664). The English company was chartered in 1600 (before Dutch VOC in 1602), but the Dutch reached India first (1595). BPSC tests this distinction between company formation and actual arrival.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The Battle of Swally (1612) was fought between the English and which power?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Portuguese</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Dutch</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) French</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Mughals</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — The Battle of Swally (1612, near Surat) was a naval battle where the English under Captain Best defeated the Portuguese. This broke the Portuguese naval monopoly and led to the Mughal farman allowing the English factory at Surat (1613).</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The English East India Company's factory at Surat was established in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) 1608</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) 1611</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) 1613</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) 1615</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (C)</strong> — The English factory at Surat was established in 1613, after Jahangir's farman (following the Battle of Swally 1612 and Roe's embassy 1615-1619). 1608 is Hawkins' arrival; 1615 is Roe's arrival. Surat (1613) was the first English factory in India.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Which Mughal emperor granted the farman allowing the English to trade at Surat?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Akbar</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Jahangir</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Shah Jahan</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) Aurangzeb</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — Jahangir granted the farman allowing the English to establish a factory at Surat (1613), following Sir Thomas Roe's embassy. Akbar died in 1605, before the English arrived in 1608. Shah Jahan later attacked the English at Hooghly (1686).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Which European power introduced the 'Policy of Imperialism' through the Carnatic Wars?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Portuguese</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Dutch</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) French</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) English</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — The French under Dupleix introduced the 'Policy of Imperialism' — using Indian sepoys under European officers and interfering in Indian succession disputes. The English copied this strategy and eventually defeated the French in the Carnatic Wars (1746–1763).</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Which European power was the first to be eliminated from the Indian trade rivalry?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Portuguese</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Dutch</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) French</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Danes</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — The Dutch were the first to be effectively eliminated after their defeat at the Battle of Bidara (1759). They focused on the East Indies (Indonesia) and ceded the Indian field to the English. The Portuguese held Goa until 1961; the French until 1954; the Danes sold out in 1845.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The 'Farman of 1717' granted by Farrukhsiyar to the English was significant because it:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Allowed free trade in Bengal for an annual payment of ₹3,000</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Gave the English the right to mint coins</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Transferred Bengal to the English</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Allowed the English to fortify Calcutta</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — The Farman of 1717 granted by Farrukhsiyar allowed the EIC duty-free trade in Bengal for ₹3,000/year. It also permitted renting 38 villages around Calcutta and minting coins at Madras. This farman made Bengal the most profitable English post — leading to political control after Plassey (1757).</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which of the following is NOT correctly matched?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Portuguese — Blue Water Policy</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) French — Policy of Imperialism</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Dutch — Battle of Swally</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) English — Farman of 1717</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (C)</strong> — The Battle of Swally (1612) was fought between the English and the Portuguese, NOT the Dutch. The Dutch were defeated at the Battle of Bidara (1759). The other three pairings are correct: Portuguese → Blue Water Policy, French → Policy of Imperialism, English → Farman of 1717.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Vasco_da_Gama" target="_blank">Vasco da Gama — Wikipedia</a> <span class="ref-desc">First European to reach India by sea (1498)</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Portuguese_India" target="_blank">Portuguese India — Wikipedia</a> <span class="ref-desc">Goa, Daman, Diu — first to come (1498), last to leave (1961)</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Dutch_East_India_Company" target="_blank">Dutch East India Company (VOC) — Wikipedia</a> <span class="ref-desc">First joint-stock company (1602); factory at Patna 1632</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/East_India_Company" target="_blank">English East India Company — Wikipedia</a> <span class="ref-desc">Chartered 1600; first factory at Surat 1613</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/French_East_India_Company" target="_blank">French East India Company — Wikipedia</a> <span class="ref-desc">Founded 1664 by Colbert; HQ at Pondicherry 1674</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Serampore" target="_blank">Serampore Mission — Wikipedia</a> <span class="ref-desc">Danish Serampore: first printing press in Indian languages (1799)</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 24 — Advent of Europeans • Generated 2026-07-17 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'b', q2: 'a', q3: 'b', q4: 'b', q5: 'c',
+  q6: 'b', q7: 'a', q8: 'b', q9: 'b', q10: 'b',
+  q11: 'b', q12: 'a', q13: 'a', q14: 'a', q15: 'b',
+  q16: 'c', q17: 'a', q18: 'a', q19: 'a', q20: 'c',
+  q21: 'b', q22: 'c', q23: 'b', q24: 'a', q25: 'c'
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

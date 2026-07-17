@@ -1,0 +1,202 @@
+[
+  {
+    "q": "Who became Chief Minister of Bihar in March 1939?",
+    "options": ["Anugraha Narain Singh", "Rajendra Prasad", "Shri Krishna Singh", "None of the above"],
+    "answer": 2,
+    "explanation": "Shri Krishna Singh ('Bihar Kesari') headed Bihar's first Congress ministry as Premier (20 Jul 1937 – 31 Oct 1939) under the Government of India Act 1935. Anugraha Narain Singh was his Deputy Premier — the trap; Rajendra Prasad became India's first President, never CM.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.26"
+  },
+  {
+    "q": "The first Premier of Bihar under the Government of India Act, 1935 was:",
+    "options": ["Mohammad Yunus", "Shri Krishna Sinha", "Anugraha Narayan Sinha", "K. B. Sahay"],
+    "answer": 0,
+    "explanation": "Mohammad Yunus (Independent Party) led a minority ministry from 1 April to 19 July 1937 after Congress — the largest party — initially declined office. Shri Krishna Sinha became Premier only on 20 July 1937.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "In Shri Krishna Sinha's 1937 Bihar ministry, the Deputy Premier and Finance Minister was:",
+    "options": ["Rajendra Prasad", "Dr. Anugraha Narayan Sinha", "Abdul Bari", "Jayaprakash Narayan"],
+    "answer": 1,
+    "explanation": "Dr. Anugraha Narayan Sinha ('Bihar Vibhuti') was Deputy Premier & Finance Minister (1937–39) and later Bihar's first Deputy CM (1946–57). Rajendra Prasad never held office in the Bihar ministry.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The first woman Chief Minister of Bihar was:",
+    "options": ["Rabri Devi", "Lesi Singh", "Rama Nishad", "Shreyasi Singh"],
+    "answer": 0,
+    "explanation": "Rabri Devi became Bihar's first woman CM in 1997 after Lalu Prasad Yadav resigned in the fodder-scam case; she served three terms (1997–2005). The other names are present-day Bihar ministers — a recency trap.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The shortest-serving Chief Minister of Bihar, with a tenure of just five days (1968), was:",
+    "options": ["Karpoori Thakur", "Satish Prasad Singh", "Bhola Paswan Shastri", "Daroga Prasad Rai"],
+    "answer": 1,
+    "explanation": "Satish Prasad Singh held office for only five days in 1968 — Bihar's shortest CM tenure. Contrast with Nitish Kumar, the longest-serving (10 oaths, ~20 years).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who became the Chief Minister of Bihar in April 2026?",
+    "options": ["Samrat Chaudhary", "Vijay Kumar Sinha", "Nitin Nabin", "None of the above"],
+    "answer": 0,
+    "explanation": "Samrat Chaudhary was sworn in on 15 April 2026 as the 24th CM and Bihar's first BJP CM, after Nitish Kumar resigned on 14 April 2026. Vijay Kumar Sinha was the outgoing Dy CM; Nitin Nabin had moved to national BJP duty — both traps. Mirrors the 71st BPSC 'March 1939' pattern.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.26 (pattern)"
+  },
+  {
+    "q": "Samrat Chaudhary was administered the oath of office as Chief Minister:",
+    "options": ["By Governor Arif Mohammed Khan at Gandhi Maidan", "By Governor Syed Ata Hasnain at Lok Bhavan, Patna", "By Patna HC Chief Justice Sangam Kumar Sahoo at Raj Bhavan", "By President Droupadi Murmu at Gandhi Maidan"],
+    "answer": 1,
+    "explanation": "Governor Hasnain swore in the new CM at Lok Bhavan on 15 Apr 2026. Trap (A): Arif Khan administered Nitish's 10th oath (20 Nov 2025) but had departed by March 2026. Trap (C): CJ Sahoo swore in the Governor, not the CM.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "After the April 2026 transition, the two Deputy Chief Ministers of Bihar are:",
+    "options": ["Vijay Kumar Sinha & Dilip Jaiswal", "Samrat Chaudhary & Vijay Kumar Sinha", "Vijay Kumar Chaudhary & Bijendra Prasad Yadav", "Rajiv Ranjan Singh & Jitan Ram Manjhi"],
+    "answer": 2,
+    "explanation": "Both new Dy CMs are from JD(U): Vijay Kumar Chaudhary (Education, Transport, Water Resources) and Bijendra Prasad Yadav (Finance, Energy, Planning). Trap (B) reproduces the Nov 2025 pairing; the 'Vijay Kumar Sinha vs Vijay Kumar Chaudhary' name-swap is deliberate bait.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the Samrat Chaudhary ministry formed in April 2026, the Home Department is held by:",
+    "options": ["Deputy CM Vijay Kumar Chaudhary", "Nityanand Rai", "Dilip Jaiswal", "The Chief Minister himself"],
+    "answer": 3,
+    "explanation": "The CM kept 29 departments, including Home, Agriculture, Health and Tourism. The trap is the outdated 2025 arrangement in which Samrat Chaudhary held Home as Deputy CM — time-stamp the question.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about the Bihar cabinet expansion of 7 May 2026: 1. Thirty-two ministers were sworn in at Gandhi Maidan, Patna. 2. Nishant Kumar, son of Nitish Kumar, was inducted — his first political entry. 3. Prime Minister Narendra Modi was present. Which are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct: Governor Hasnain swore in 32 ministers (BJP 15, JD-U 13, LJP-RV 2, HAM 1, RLM 1) at Gandhi Maidan with PM Modi present; Nishant Kumar's induction marked his political debut.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Nitish Kumar was sworn in as Chief Minister of Bihar for a record 10th time on:",
+    "options": ["20 November 2025, at Gandhi Maidan, Patna", "14 November 2025, at Lok Bhavan, Patna", "26 January 2026, at Gandhi Maidan, Patna", "15 April 2026, at Lok Bhavan, Patna"],
+    "answer": 0,
+    "explanation": "The 10th oath was administered by Governor Arif Mohammed Khan at Gandhi Maidan on 20 Nov 2025, after the NDA's 202/243 win (counting day 14 Nov). Option (D) is Samrat Chaudhary's oath date — the sequencing trap.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match the party with its final (ECI) seat tally in the November 2025 Bihar Assembly election: a) BJP — 1) 85; b) JD(U) — 2) 89; c) RJD — 3) 25; d) NDA total — 4) 202",
+    "options": ["a-1, b-2, c-3, d-4", "a-2, b-1, c-3, d-3", "a-2, b-1, c-3, d-4", "a-1, b-2, c-4, d-3"],
+    "answer": 2,
+    "explanation": "ECI-final: BJP 89 (single-largest for the first time), JD(U) 85, RJD 25, NDA 202/243. Same-day media tallies (BJP 88/JDU 84) were later revised — use the final figures.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "After resigning as Bihar's Chief Minister in April 2026, Nitish Kumar:",
+    "options": ["Was inducted into the Union Cabinet", "Was appointed Governor of a state", "Moved to the Rajya Sabha while continuing as JD(U) national president", "Announced retirement from active politics"],
+    "answer": 2,
+    "explanation": "He filed his RS nomination on 5 Mar 2026, resigned as CM on 14 Apr 2026, and took his Rajya Sabha seat — staying on as JD(U) national president. He joined neither the Union cabinet nor the Raj Bhavan circuit.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Syed Ata Hasnain, who took oath on 14 March 2026, is which-numbered Governor of Bihar?",
+    "options": ["41st", "43rd", "44th", "46th"],
+    "answer": 1,
+    "explanation": "He is the 43rd Governor of Bihar, appointed by President Murmu in the 5–6 March 2026 nine-state reshuffle, succeeding Arif Mohammed Khan. Mnemonic: 24th CM (Samrat) — 43rd Governor (Hasnain) — 47th CJ (Sahoo).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about Bihar Governor Syed Ata Hasnain: 1. He is a retired Lieutenant General who commanded the XV (Chinar) Corps in Srinagar. 2. He has served as a member of the NDMA. 3. His oath was administered by Patna HC Chief Justice Sangam Kumar Sahoo. Which are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct. Precision matters: he was an NDMA member (not chairperson) and a Corps Commander (not Army Chief) — profile exaggerations are standard BPSC bait.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match List-I (Article) with List-II (Provision): a) Article 155 — 1) CoM to aid and advise the Governor; b) Article 156 — 2) Governor appointed by the President; c) Article 163 — 3) Governor holds office during the pleasure of the President; d) Article 164 — 4) Chief Minister appointed by the Governor",
+    "options": ["a-2, b-3, c-1, d-4", "a-3, b-2, c-1, d-4", "a-2, b-1, c-3, d-4", "a-4, b-3, c-1, d-2"],
+    "answer": 0,
+    "explanation": "Art 155: appointment by President; Art 156: pleasure of the President; Art 163: CoM aids and advises; Art 164: Governor appoints the CM. The 155↔156 swap is the intended trap.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who took over as the Chief Secretary of Bihar on 4 August 2025?",
+    "options": ["Amrit Lal Meena", "Pratyaya Amrit", "Vinay Kumar", "Dipak Prasad"],
+    "answer": 1,
+    "explanation": "Pratyaya Amrit (IAS 1991, Bihar cadre) replaced Amrit Lal Meena as Chief Secretary. Trap (A) is the predecessor; (C) is the DGP; (D) is the State Election Commissioner.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Director General of Police (DGP) of Bihar, appointed on 13 December 2024 for a fixed two-year term in line with Supreme Court directions, is:",
+    "options": ["Alok Raj", "Pratyaya Amrit", "Vinay Kumar", "Parmar Ravi Manubhai"],
+    "answer": 2,
+    "explanation": "Vinay Kumar (IPS 1991) succeeded officiating DGP Alok Raj; the tenure runs to about December 2026. Alok Raj was only officiating (and later had a 5-day BSSC stint in Jan 2026); Manubhai heads the BPSC.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "What is correct about the chairmanship of the Bihar Public Service Commission (BPSC) as of mid-2026?",
+    "options": ["The chairman was removed after the paper-leak controversies", "The chairman is appointed by the President under Article 315", "Alok Raj is the current BPSC chairman", "Parmar Ravi Manubhai continues as chairman; the Supreme Court dismissed the challenge to his appointment in July 2025"],
+    "answer": 3,
+    "explanation": "The SC (18 Jul 2025) dismissed the challenge and rebuked the petitioner. Trap (B): a State PSC chairman is appointed by the Governor under Art 316 — Art 315 only mandates setting up the commissions. Trap (C): Alok Raj's Jan 2026 post was BSSC, not BPSC.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about the Patna High Court: 1. It was established on 3 February 1916 under the Government of India Act, 1915. 2. Sangam Kumar Sahoo is its 47th Chief Justice. 3. It has seen four Chief Justices (including an Acting CJ) within about one year up to January 2026. Which are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct. The rapid churn — Pancholi (elevated to SC), Bajanthri (retired Oct 2025), Acting Sudhir Singh, then Sahoo (oath 7 Jan 2026) — is why 'current CJ of Patna HC' is a live question.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange the Patna High Court's 2025–26 chief-justice sequence correctly: 1. Sudhir Singh (Acting); 2. Vipul M. Pancholi; 3. P. B. Bajanthri; 4. Sangam Kumar Sahoo",
+    "options": ["1 → 2 → 3 → 4", "3 → 2 → 1 → 4", "2 → 1 → 3 → 4", "2 → 3 → 1 → 4"],
+    "answer": 3,
+    "explanation": "Pancholi (Jul–Aug 2025, elevated to SC 29 Aug 2025) → Bajanthri (Sep–22 Oct 2025, retired) → Sudhir Singh as Acting CJ (23 Oct 2025–6 Jan 2026) → Sahoo (7 Jan 2026). An Acting CJ fills a vacancy, so he must come after a departure.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match List-I (Post in Bihar) with List-II (Incumbent): a) Assembly Speaker — 1) Sanjay Saraogi; b) Legislative Council Chairman — 2) Prem Kumar; c) BJP state president — 3) Awadhesh Narain Singh",
+    "options": ["a-1, b-2, c-3", "a-3, b-2, c-1", "a-2, b-3, c-1", "a-2, b-1, c-3"],
+    "answer": 2,
+    "explanation": "Speaker: Prem Kumar (BJP); Council Chairman: Awadhesh Narain Singh; BJP state president: Sanjay Saraogi (Darbhanga MLA, replaced Dilip Jaiswal ~Dec 2025). Ex-Speaker Nand Kishore Yadav is now Governor of Nagaland.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Justice Sangam Kumar Sahoo, sworn in as the 47th Chief Justice of the Patna High Court in January 2026, came from which High Court?",
+    "options": ["Allahabad High Court", "Orissa High Court", "Calcutta High Court", "Jharkhand High Court"],
+    "answer": 1,
+    "explanation": "He was transferred from the Orissa HC (collegium recommendation 18 Dec 2025; approval 1 Jan 2026; oath 7 Jan 2026) — the 4th judge from Odisha to head the Patna HC. HC judges: Art 217(1) appointment, Art 219 oath.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match List-I (Union Minister from Bihar) with List-II (Portfolio): a) Chirag Paswan — 1) Textiles; b) Jitan Ram Manjhi — 2) Food Processing Industries; c) Rajiv Ranjan 'Lalan' Singh — 3) MSME; d) Giriraj Singh — 4) Panchayati Raj & Fisheries, Animal Husbandry and Dairying",
+    "options": ["a-2, b-3, c-4, d-1", "a-3, b-2, c-4, d-1", "a-2, b-4, c-3, d-1", "a-1, b-3, c-4, d-2"],
+    "answer": 0,
+    "explanation": "Chirag (LJP-RV, Hajipur): Food Processing; Manjhi (HAM-S, Gaya): MSME; Lalan Singh (JD-U, Munger): Panchayati Raj + Fisheries/AH&D; Giriraj Singh (BJP, Begusarai): Textiles. Also: Nityanand Rai (BJP, Ujiarpur) = MoS Home Affairs.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about Nitin Nabin: 1. He was named BJP National Working President on 14 December 2025. 2. At 45, he is the youngest person to head the BJP nationally. 3. He is a five-term MLA from Bankipur, Patna. 4. He continues to hold Bihar's Road Construction portfolio alongside party work. Which are correct?",
+    "options": ["1 and 2 only", "1, 2 and 4 only", "1, 2 and 3 only", "1, 2, 3 and 4"],
+    "answer": 2,
+    "explanation": "Statement 4 is false: he resigned from the Bihar cabinet on 16 Dec 2025 under 'one person, one post'. Statements 1–3 are correct — the BJP's youngest national president, a Kayastha face from Patna's Bankipur seat.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  }
+]

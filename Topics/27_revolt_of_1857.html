@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>27 - Revolt of 1857 | BPSC 72nd Prelims</title>
+<link rel="stylesheet" href="_assets/navbar.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  h3 a { color: #16213e; text-decoration: none; }
+  h3 a:hover { color: #e94560; text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 200px; }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #27 • TIER A</div>
+  <div class="topic-title">Revolt of 1857 — Causes, Leaders &amp; Bihar: Kunwar Singh</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Modern Indian History</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Kunwar Singh</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>"First War of Indian Independence":</strong> The 70th BPSC referred to 1857 as the "First Indian War of Independence" — the nationalist terminology (used by V.D. Savarkar). BPSC uses multiple names for this event: "Sepoy Mutiny" (colonial), "Great Rebellion" (neutral), "First War of Independence" (nationalist). Know all three.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Leader ↔ place matching:</strong> The 70th asked to match 1857 authors with books, and also asked about Birsa Munda's revolt (Chhotanagpur — NOT Champaran). The same matching format applies to 1857 leaders ↔ their places of revolt. Kunwar Singh ↔ Jagdishpur is the Bihar-specific high-yield fact.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BIHAR PYQ</span>
+    <strong>Kunwar Singh is Bihar's 1857 icon:</strong> Kunwar Singh, the 80-year-old zamindar of Jagdishpur (Ara, Bhojpur district), led the revolt in Bihar. He fought across Bihar, UP (relieved Azamgarh), and MP. He died on April 26, 1858, mortally wounded in his final battle. This is the highest-yield Bihar-specific fact for this topic.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete battle-by-battle analysis with timeline, causes (political/economic/social/military/religious), leaders table, Bihar's role (Kunwar Singh's campaigns), consequences (Government of India Act 1858), and 7 exam predictions:
+    <a href="subpages/27_revolt_1857_detail.html" target="_blank">Revolt of 1857 Master Detail →</a>
+  </div>
+
+  <h3>A. Causes of the Revolt of 1857 — Five Categories</h3>
+  <p>BPSC asks "Which was NOT a cause?" or "Which was the immediate cause?" Know all five categories and the specific grievances within each.</p>
+  <table>
+    <tr><th>Category</th><th>Specific Grievances</th></tr>
+    <tr><td><strong>1. Political</strong></td><td>Doctrine of Lapse (Dalhousie): Jhansi, Satara, Nagpur annexed; Awadh annexed (1856, misgovernance); pension of Nana Saheb discontinued; Bahadur Shah Zafar told his heirs would not use the title "King"</td></tr>
+    <tr><td><strong>2. Economic</strong></td><td>Land revenue pressure (Permanent Settlement, Ryotwari over-assessment); loss of livelihood for artisans (deindustrialisation); ruin of traditional handicrafts; exploitation of peasants and zamindars</td></tr>
+    <tr><td><strong>3. Social &amp; Religious</strong></td><td>Interference in Indian customs; abolition of sati (Bentinck 1829) seen as interference; legalisation of Hindu widows' remarriage (1856); fear of forced Christian conversion; missionaries active</td></tr>
+    <tr><td><strong>4. Military</strong></td><td>Indian sepoys discriminated against in pay and promotion; foreign service allowance (batta) abolished; Enfield rifle greased cartridges (cow + pig fat); sepoys required to serve overseas (loss of caste)</td></tr>
+    <tr><td><strong>5. Immediate</strong></td><td>Introduction of the Enfield rifle with greased cartridges (cow + pig fat); Mangal Pandey's revolt at Barrackpore (March 29, 1857); 85 sepoys court-martialled at Meerut (May 9, 1857)</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Causes "P-E-S-M-I":</strong><br>
+    <strong>P</strong>olitical (Doctrine of Lapse, annexations) → <strong>E</strong>conomic (land revenue, deindustrialisation) → <strong>S</strong>ocial/Religious (interference in customs, conversion fears) → <strong>M</strong>ilitary (sepoys discriminated, greased cartridges) → <strong>I</strong>mmediate (greased cartridges, Mangal Pandey).<br>
+    <em>"PESMI: the five reasons why 1857 happened."</em>
+  </div>
+
+  <div class="img-container">
+    <img src="images/indian_rebellion_1857.jpg" alt="Indian Rebellion of 1857">
+    <div class="img-caption">The Indian Rebellion of 1857 — also known as the First War of Indian Independence (Savarkar's term), the Sepoy Mutiny (colonial term), or the Great Rebellion. It began at Meerut on May 10, 1857.</div>
+  </div>
+
+  <h3>B. The 1857 Leaders — Master Table <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Leader</th><th>Place of Revolt</th><th>Background</th><th>Fate</th></tr>
+    <tr><td><strong>Bahadur Shah Zafar</strong></td><td>Delhi (symbolic head)</td><td>Last Mughal Emperor (82 years old)</td><td>Tried, exiled to Rangoon (Burma), died 1862</td></tr>
+    <tr><td><strong>Kunwar Singh</strong> 🔶</td><td><strong>Jagdishpur, Bihar</strong></td><td>80-year-old zamindar of Jagdishpur (Ara)</td><td>Mortally wounded; died April 26, 1858 at Jagdishpur</td></tr>
+    <tr><td><strong>Rani Lakshmibai</strong></td><td>Jhansi</td><td>Queen of Jhansi; state annexed by Doctrine of Lapse (1853)</td><td>Died in battle at Gwalior, June 17, 1858</td></tr>
+    <tr><td><strong>Nana Saheb</strong></td><td>Kanpur (Cawnpore)</td><td>Adopted son of last Peshwa; pension discontinued</td><td>Disappeared after the revolt; fate unknown</td></tr>
+    <tr><td><strong>Tantia Tope</strong></td><td>Kanpur, then Gwalior</td><td>Nana Saheb's general; brilliant military leader</td><td>Captured and executed, April 18, 1859</td></tr>
+    <tr><td><strong>Begum Hazrat Mahal</strong></td><td>Lucknow (Awadh)</td><td>Wife of deposed Nawab Wajid Ali Shah</td><td>Escaped to Nepal; died in Kathmandu, 1879</td></tr>
+    <tr><td><strong>Mangal Pandey</strong></td><td>Barrackpore (near Calcutta)</td><td>Sepoy of 34th Native Infantry; first to rebel</td><td>Hanged April 8, 1857 (before the main revolt)</td></tr>
+    <tr><td><strong>Khan Bahadur Khan</strong></td><td>Bareilly</td><td>Grandson of Hafiz Rahmat Khan (Rohilla chief)</td><td>Executed after the revolt</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/kunwar_singh.jpg" alt="Kunwar Singh">
+    <div class="img-caption">Raja Kunwar Singh — the 80-year-old zamindar of Jagdishpur (Ara, Bhojpur district, Bihar), who led the 1857 Revolt in Bihar. He fought across Bihar, UP, and MP, and died mortally wounded on April 26, 1858.</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/rani_lakshmibai.jpg" alt="Rani Lakshmibai">
+    <div class="img-caption">Rani Lakshmibai of Jhansi — one of the most iconic figures of the 1857 Revolt. Her state was annexed by Lord Dalhousie under the Doctrine of Lapse (1853). She died in battle at Gwalior on June 17, 1858, fighting dressed as a man.</div>
+  </div>
+
+  <h3>C. The Timeline of the Revolt <span class="current-tag">CHRONOLOGY</span></h3>
+  <table>
+    <tr><th>Date</th><th>Event</th></tr>
+    <tr><td><strong>March 29, 1857</strong></td><td>Mangal Pandey attacks British officers at Barrackpore — the first act of revolt</td></tr>
+    <tr><td><strong>April 8, 1857</strong></td><td>Mangal Pandey hanged</td></tr>
+    <tr><td><strong>May 10, 1857</strong></td><td>85 sepoys of 3rd Native Cavalry break out at Meerut — the full-scale revolt begins</td></tr>
+    <tr><td><strong>May 11, 1857</strong></td><td>Sepoys reach Delhi; Bahadur Shah Zafar declared symbolic leader</td></tr>
+    <tr><td><strong>June 1857</strong></td><td>Revolt spreads to Kanpur (Nana Saheb), Jhansi (Rani Lakshmibai), Lucknow (Begum Hazrat Mahal), and Bihar (Kunwar Singh)</td></tr>
+    <tr><td><strong>September 1857</strong></td><td>British recapture Delhi; Bahadur Shah Zafar captured</td></tr>
+    <tr><td><strong>April 26, 1858</strong></td><td>Kunwar Singh dies mortally wounded at Jagdishpur</td></tr>
+    <tr><td><strong>June 17, 1858</strong></td><td>Rani Lakshmibai dies in battle at Gwalior</td></tr>
+    <tr><td><strong>April 18, 1859</strong></td><td>Tantia Tope captured and executed — the effective end of the revolt</td></tr>
+    <tr><td><strong>November 1, 1858</strong></td><td>Queen's Proclamation: EIC rule ends; Crown takes over; Lord Canning becomes first Viceroy</td></tr>
+  </table>
+</div>
+
+<!-- FLOWCHART: REVOLT TIMELINE -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📊</span> The Revolt of 1857 — Chronological Flow</div>
+  <p style="margin-bottom: 12px;">From Mangal Pandey to the Queen's Proclamation — the 18-month arc of the revolt.</p>
+  <div class="flowchart">
+    <div class="flow-node">Mar 29, 1857 — Mangal Pandey at Barrackpore (first spark)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">May 10, 1857 — Sepoy revolt at Meerut (full-scale outbreak)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">May 11, 1857 — Delhi captured; Bahadur Shah Zafar declared leader</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Jun-Jul 1857 — Revolt spreads: Kanpur, Jhansi, Lucknow, Bihar (Kunwar Singh)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Sep 1857 — British recapture Delhi; revolt begins to fail</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Nov 1, 1858 — Queen's Proclamation: EIC ends, Crown takes over</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📋</span> Fact Matrix — Revolt of 1857</div>
+  <table>
+    <tr><th>Item</th><th>Value</th><th>Notes</th></tr>
+    <tr><td><strong>Start date</strong></td><td>May 10, 1857</td><td>Meerut; 3rd Native Cavalry broke out</td></tr>
+    <tr><td><strong>Mangal Pandey</strong></td><td>March 29, 1857</td><td>Barrackpore; hanged April 8, 1857</td></tr>
+    <tr><td><strong>Symbolic leader</strong></td><td>Bahadur Shah Zafar</td><td>Last Mughal Emperor; exiled to Rangoon</td></tr>
+    <tr><td><strong>Immediate cause</strong></td><td>Greased cartridges (cow + pig fat)</td><td>Enfield rifle cartridges</td></tr>
+    <tr><td><strong>Doctrine of Lapse</strong></td><td>Lord Dalhousie</td><td>Jhansi, Satara, Nagpur annexed</td></tr>
+    <tr><td><strong>Gov-Gen during revolt</strong></td><td>Lord Canning</td><td>First Viceroy after 1858</td></tr>
+    <tr><td><strong>Kunwar Singh</strong></td><td>Jagdishpur, Bihar</td><td>Died April 26, 1858; 80 years old</td></tr>
+    <tr><td><strong>Rani Lakshmibai</strong></td><td>Jhansi</td><td>Died June 17, 1858 at Gwalior</td></tr>
+    <tr><td><strong>Nana Saheb</strong></td><td>Kanpur (Cawnpore)</td><td>Adopted son of last Peshwa; fate unknown</td></tr>
+    <tr><td><strong>Begum Hazrat Mahal</strong></td><td>Lucknow (Awadh)</td><td>Escaped to Nepal; died 1879</td></tr>
+    <tr><td><strong>Government of India Act 1858</strong></td><td>Nov 1, 1858</td><td>EIC ends; Crown takes over; Viceroy replaces Gov-Gen</td></tr>
+    <tr><td><strong>Birsa Munda revolt</strong></td><td>Chhotanagpur (1895-1900)</td><td>70th BPSC PYQ — NOT Champaran, NOT 1857</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar &amp; the Revolt of 1857 — Kunwar Singh at Jagdishpur</div>
+    <ul>
+      <li><strong>Kunwar Singh (1777–1858):</strong> the 80-year-old zamindar of Jagdishpur (Ara, Bhojpur district, Bihar), was the leading figure of the 1857 Revolt in Bihar. Despite his advanced age, he led his forces with remarkable military skill and energy.</li>
+      <li><strong>His campaigns:</strong> Kunwar Singh did not limit himself to Bihar — he fought across multiple provinces:
+        <ul>
+          <li><strong>Bihar:</strong> captured Ara (Jagdishpur), fought at Danapur; engaged British forces near Patna</li>
+          <li><strong>UP:</strong> relieved Azamgarh (a remarkable feat — he marched hundreds of miles to relieve a besieged garrison)</li>
+          <li><strong>MP:</strong> fought in the Rewa/Bundelkhand region</li>
+          <li><strong>Return to Bihar:</strong> he fought his way back to Jagdishpur, where he was mortally wounded in his final battle (April 1858)</li>
+        </ul>
+      </li>
+      <li><strong>His death (April 26, 1858):</strong> Kunwar Singh died at Jagdishpur after being mortally wounded in his last battle against British forces led by William Taylor. According to legend, he cut off his own wounded hand and offered it to the Ganga river (a traditional act of sacrifice) before dying. His younger brother, Amar Singh, continued the fight for some months after.</li>
+      <li><strong>His legacy:</strong> Kunwar Singh is one of the most revered figures in Bihar's history. The Veer Kunwar Singh University (Ara) and Veer Kunwar Singh Bridge (over the Ganga at Ara) are named after him. His birthplace (Jagdishpur) is a pilgrimage site for Bihar's freedom movement. The Bihar government celebrates his birthday (November 22) as a state day of remembrance.</li>
+      <li><strong>Other Bihar connections:</strong> the sepoys at Danapur (near Patna) also revolted on June 25, 1857 — the Bihar chapter of the revolt was not limited to Kunwar Singh. The revolt at Danapur led to the fall of the British garrison at Patna, temporarily freeing the city.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>↔ Topic 24 (Advent of Europeans):</strong> The EIC's commercial expansion led to political control after Plassey (1757) — the 1857 Revolt was the first major Indian backlash against this 100-year-old colonial rule.<br>
+    <strong>↔ Topic 25 (Plassey and Buxar):</strong> The Diwani (1765) gave the EIC revenue control over Bengal-Bihar-Orissa — the economic exploitation that this enabled was a root cause of the 1857 Revolt.<br>
+    <strong>↔ Topic 26 (Economic Impact):</strong> The land revenue systems (Permanent Settlement in Bihar) and the Drain of Wealth created the economic grievances that fuelled the revolt. Kunwar Singh was himself a zamindar affected by British revenue policies.<br>
+    <strong>↔ Topic 36 (Constitutional Acts):</strong> The Government of India Act 1858 (Queen's Proclamation) was a direct consequence of the revolt — it ended EIC rule and transferred power to the Crown. Cross-link for the full Act analysis.<br>
+    <strong>↔ Topic 32 (Gandhian Movements):</strong> The 1857 Revolt was violent; Gandhi's later movements (Champaran 1917, also in Bihar) were non-violent. Both targeted British rule but with different methods. Kunwar Singh (1857) and Gandhi (1917) are both Bihar icons of resistance.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance &amp; Potential Traps</div>
+  <ul>
+    <li><strong>Leader ↔ place trap:</strong> Kunwar Singh → Jagdishpur (NOT Jhansi or Kanpur). Rani Lakshmibai → Jhansi (NOT Kanpur — Kanpur is Nana Saheb). Begum Hazrat Mahal → Lucknow (NOT Jhansi). This is the #1 trap in this topic.</li>
+    <li><strong>Start date trap:</strong> Meerut = May 10, 1857 (the full-scale outbreak); Barrackpore = March 29, 1857 (Mangal Pandey, the precursor). Don't confuse the two dates — both are "start of 1857" in different senses.</li>
+    <li><strong>Mangal Pandey fate trap:</strong> he was hanged on April 8, 1857 — BEFORE the main revolt (May 10, 1857). He was the precursor, not a participant in the main revolt.</li>
+    <li><strong>Birsa Munda ≠ 1857 trap:</strong> the 70th BPSC asked about Birsa Munda's revolt — that was Chhotanagpur (1895–1900), NOT the 1857 Revolt. Don't confuse the two Bihar revolts.</li>
+    <li><strong>Doctrine of Lapse introducer trap:</strong> Lord Dalhousie introduced the Doctrine of Lapse (NOT Lord Canning or Bentinck). Lord Canning was the Gov-Gen during the revolt; Dalhousie had left by 1856.</li>
+    <li><strong>Bahadur Shah Zafar's fate:</strong> exiled to Rangoon (Burma), died 1862 (NOT executed — he was tried but exiled, not killed). This is a common trap.</li>
+  </ul>
+
+  <div class="prediction-box">
+    <span class="prediction-tag">72nd Prediction</span>
+    <strong>Top 5 Predictions (72nd BPSC — Revolt of 1857):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) Leader ↔ place matching (HIGH):</strong> "Match: Kunwar Singh → Jagdishpur, Rani Lakshmibai → Jhansi, Nana Saheb → Kanpur, Begum Hazrat Mahal → Lucknow." Classic BPSC matching format.</li>
+      <li><strong>(2) Bihar angle — Kunwar Singh (HIGH):</strong> "Kunwar Singh was the zamindar of which place in Bihar?" → Jagdishpur. "When did he die?" → April 26, 1858. "How old was he?" → 80 years.</li>
+      <li><strong>(3) Immediate cause (MEDIUM):</strong> "The immediate cause of the 1857 Revolt was?" → Greased cartridges (cow + pig fat for the Enfield rifle). "Which animals' fat?" → Cow and pig.</li>
+      <li><strong>(4) Doctrine of Lapse (MEDIUM):</strong> "The Doctrine of Lapse was introduced by?" → Lord Dalhousie. "Which state was NOT annexed under it?" → Mysore (it was restored, not annexed).</li>
+      <li><strong>(5) Consequence (LOW):</strong> "After 1857, British rule was transferred from — to —" → EIC to British Crown (Government of India Act 1858). "Who became the first Viceroy?" → Lord Canning.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Revolt of 1857 started from which place on May 10, 1857?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Meerut</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Barrackpore</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Kanpur</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — The revolt began at Meerut on May 10, 1857, when sepoys of the 3rd Native Cavalry broke out after 85 comrades were court-martialled for refusing greased cartridges. Barrackpore (March 29) was the Mangal Pandey precursor.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Who was the first sepoy to revolt against the British, at Barrackpore on March 29, 1857?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Kunwar Singh</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Mangal Pandey</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Nana Saheb</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Tantia Tope</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — Mangal Pandey of the 34th Native Infantry at Barrackpore attacked British officers on March 29, 1857 — the first act of open rebellion. He was hanged on April 8, 1857, before the main revolt.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The immediate cause of the Revolt of 1857 was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) The greased cartridges incident</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) The Doctrine of Lapse</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) The Permanent Settlement</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) The Subsidiary Alliance</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — The immediate cause was the Enfield rifle's greased cartridges (cow + pig fat). The deeper causes included the Doctrine of Lapse, economic exploitation, and political annexation. The cartridges were the trigger, not the root cause.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Enfield rifle cartridges were greased with fat from which animals?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Cow and pig</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Sheep and goat</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Horse and camel</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Buffalo and chicken</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — Cow fat (offensive to Hindus) and pig fat (offensive to Muslims). Sepoys had to bite the cartridge to open it, ingesting the forbidden fat. This religious grievance united Hindu and Muslim sepoys.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. After capturing Delhi on May 11, 1857, the sepoys declared which Mughal Emperor as the symbolic leader?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Akbar II</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Bahadur Shah Zafar</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Shah Alam II</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Bahadur Shah I</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — Bahadur Shah Zafar (last Mughal Emperor, 82 years old) was declared the symbolic head. He was a reluctant figurehead. After the revolt was suppressed, he was exiled to Rangoon (Burma), where he died in 1862.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Kunwar Singh, a key leader of the 1857 Revolt, was the zamindar of which place in Bihar?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Darbhanga</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Jagdishpur</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Bettiah</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Hathwa</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — Kunwar Singh was the 80-year-old zamindar of Jagdishpur (Ara, Bhojpur district, Bihar). He led the revolt in Bihar with remarkable military skill, fighting across Bihar, UP, and MP. He died on April 26, 1858.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Rani Lakshmibai led the revolt from which princely state?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Jhansi</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Gwalior</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Awadh</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Bharatpur</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Rani Lakshmibai led the revolt from Jhansi. Her state was annexed by Dalhousie under the Doctrine of Lapse (1853). She died in battle at Gwalior on June 17, 1858, fighting dressed as a man.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Nana Saheb led the revolt from which place?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Kanpur (Cawnpore)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Jhansi</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Lucknow</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Delhi</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Nana Saheb led the revolt from Kanpur (Cawnpore). He was the adopted son of the last Peshwa Baji Rao II; the British refused to continue his pension after the Peshwa's death. His general, Tantia Tope, continued the fight.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Begum Hazrat Mahal led the revolt from which place?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Awadh (Lucknow)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Bareilly</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Bihar</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Begum Hazrat Mahal led the revolt from Awadh (Lucknow). She was the wife of the deposed Nawab Wajid Ali Shah. She eventually escaped to Nepal, where she died in 1879.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The Doctrine of Lapse was introduced by which Governor-General?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Lord William Bentinck</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Lord Dalhousie</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Lord Wellesley</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Lord Canning</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Lord Dalhousie (GG 1848–1856) introduced the Doctrine of Lapse: if a ruler died without a natural male heir, his kingdom would 'lapse' to the British. States annexed: Satara, Jhansi, Nagpur, and others. Awadh was annexed on grounds of misgovernance.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which of the following states was NOT annexed under the Doctrine of Lapse?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Jhansi</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Satara</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Nagpur</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Mysore</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Mysore was NOT annexed under the Doctrine of Lapse — it was restored to its ruler in 1799 after Tipu Sultan's defeat. Jhansi, Satara, and Nagpur were all annexed under the Doctrine of Lapse by Dalhousie.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Who was the Governor-General of India at the time of the Revolt of 1857?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Lord Dalhousie</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Lord Canning</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Lord William Bentinck</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Lord Mayo</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — Lord Canning (GG 1856–1858, Viceroy 1858–1862) was the head during the revolt. He succeeded Dalhousie (whose annexationist policies created the conditions). Canning is known for the 'Clemency of Canning' and the Government of India Act 1858.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The Revolt of 1857 is also known by which of the following names?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) First War of Indian Independence</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Sepoy Mutiny</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) The Great Rebellion</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) All of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (D)</strong> — The revolt is known by all three names: 'First War of Indian Independence' (Savarkar, nationalist), 'Sepoy Mutiny' (colonial), 'The Great Rebellion' (neutral). The 70th BPSC referred to it as the "First Indian War of Independence."</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Match the 1857 leader with the place of revolt: Kunwar Singh, Rani Lakshmibai, Nana Saheb, Begum Hazrat Mahal.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Jagdishpur, Jhansi, Kanpur, Lucknow</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) Kanpur, Jhansi, Jagdishpur, Lucknow</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Jhansi, Kanpur, Jagdishpur, Lucknow</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) Lucknow, Kanpur, Jhansi, Jagdishpur</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — Kunwar Singh → Jagdishpur (Bihar); Rani Lakshmibai → Jhansi; Nana Saheb → Kanpur; Begum Hazrat Mahal → Lucknow (Awadh). The Bihar connection: Kunwar Singh → Jagdishpur (Ara/Bhojpur district).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Government of India Act 1858, which ended EIC rule and transferred power to the British Crown, was a direct consequence of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) The Battle of Plassey</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) The Revolt of 1857</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) The Battle of Buxar</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) The Permanent Settlement</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — The Government of India Act 1858 (Queen's Proclamation, Nov 1, 1858) was a direct consequence of the 1857 Revolt. It ended EIC rule, transferred governance to the Crown, replaced Gov-Gen with Viceroy (Canning was first), and ended the Doctrine of Lapse.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Who was the last Mughal Emperor, who became the symbolic head of the 1857 Revolt and was exiled to Rangoon?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Bahadur Shah Zafar</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Akbar Shah II</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Shah Alam II</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Alamgir II</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Bahadur Shah Zafar (1837–1857) was the last Mughal Emperor. He was declared symbolic head of the revolt. After British recaptured Delhi (Sep 1857), he was tried, exiled to Rangoon (Burma), and died in 1862. He was also a noted Urdu poet.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Kunwar Singh died on which date, after being mortally wounded in battle?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) April 26, 1858</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) June 17, 1858</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) September 21, 1857</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) May 10, 1857</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Kunwar Singh died on April 26, 1858, at Jagdishpur, mortally wounded in his final battle. June 17, 1858 is the death of Rani Lakshmibai at Gwalior. September 21, 1857 is the British recapture of Delhi.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The Queen's Proclamation of 1858 promised all of the following EXCEPT:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Religious neutrality and non-interference in customs</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) End of the Doctrine of Lapse</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Equal opportunity for Indians in government service</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Immediate self-government (swaraj) for India</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (D)</strong> — The Queen's Proclamation promised religious neutrality, end of the Doctrine of Lapse, and equal opportunity in government service. It did NOT promise self-government — India remained a British colony for another 89 years.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The revolt of Birsa Munda took place in which region? (70th BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Champaran (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Chhotanagpur (Jharkhand/Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Buxar (Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Munger (Bihar)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — Birsa Munda's revolt (1895–1900) took place in Chhotanagpur (now Jharkhand, then part of Bihar Presidency). He led the Munda tribal rebellion against British exploitation. Don't confuse with Champaran (Gandhi's 1917 satyagraha — a different Bihar revolt).</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which of the following was NOT a cause of the Revolt of 1857?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) The Doctrine of Lapse and annexations</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Economic exploitation and land revenue pressure</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Religious grievance over greased cartridges</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) The Partition of Bengal (1905)</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — The Partition of Bengal (1905) was NOT a cause of the 1857 Revolt — it happened 48 years later, under Lord Curzon. The causes of 1857 were: Doctrine of Lapse, economic exploitation, religious grievance over greased cartridges, and political grievances of deposed rulers.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Arrange in chronological order: 1. Mangal Pandey at Barrackpore 2. Sepoy revolt at Meerut 3. Capture of Delhi by sepoys 4. Bahadur Shah Zafar exiled to Rangoon</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 1, 2, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 2, 1, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 1, 3, 2, 4</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 3, 1, 2, 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Correct order: Mangal Pandey at Barrackpore (March 29, 1857) → Sepoy revolt at Meerut (May 10, 1857) → Capture of Delhi (May 11, 1857) → Bahadur Shah Zafar exiled to Rangoon (October 1858). The revolt unfolded over 18 months.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Consider the following about Kunwar Singh: 1. He was the zamindar of Jagdishpur (Bihar). 2. He was 80 years old during the revolt. 3. He fought only in Bihar and never outside the state. Which is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Statements 1 and 2 are correct. Statement 3 is WRONG — Kunwar Singh did NOT fight only in Bihar; he also fought in UP (relieved Azamgarh) and MP before returning to Jagdishpur where he was mortally wounded.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Which of the following is NOT correctly matched?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Mangal Pandey — Barrackpore</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Kunwar Singh — Jagdishpur</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Rani Lakshmibai — Kanpur</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Begum Hazrat Mahal — Lucknow</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (C)</strong> — Rani Lakshmibai is wrongly matched — she led the revolt from Jhansi, NOT Kanpur. Kanpur was the base of Nana Saheb. The other three are correctly matched.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. After the Revolt of 1857, the British ended the rule of which entity in India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) The Mughal Empire</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) The East India Company</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) The princely states</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) The British Crown</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (B)</strong> — After the 1857 Revolt, the British government ended the East India Company's rule (which had governed India since 1765) and transferred power to the British Crown. The Government of India Act 1858 formalised this — Canning became the first Viceroy.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The Revolt of 1857 failed primarily because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) The British had superior military technology and reinforcements</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) The revolt was confined to north India and lacked all-India coordination</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) The Indian leaders were divided and lacked a unified plan</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) All of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (D)</strong> — The revolt failed due to all three: (1) British had superior technology, artillery, and reinforcements (including loyal Sikh and Gurkha regiments). (2) The revolt was confined to north India — South India, Punjab, and most of Bengal stayed quiet. (3) The Indian leaders were regional and lacked a unified command or common political programme.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857" target="_blank">Indian Rebellion of 1857 — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Also called First War of Indian Independence, Sepoy Mutiny, Great Rebellion</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Kunwar_Singh" target="_blank">Kunwar Singh — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Zamindar of Jagdishpur (Bihar); led the revolt in Bihar; died April 26, 1858</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Rani_Lakshmibai" target="_blank">Rani Lakshmibai — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Queen of Jhansi; died at Gwalior June 17, 1858</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Doctrine_of_Lapse" target="_blank">Doctrine of Lapse — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Introduced by Lord Dalhousie; Jhansi, Satara, Nagpur annexed</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Government_of_India_Act_1858" target="_blank">Government of India Act 1858 — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Ended EIC rule; transferred power to Crown; Viceroy replaced Gov-Gen</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Mangal_Pandey" target="_blank">Mangal Pandey — Wikipedia</a> <span style="color:#64748b;font-size:12px;">First sepoy to revolt at Barrackpore, March 29, 1857; hanged April 8, 1857</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 27 — Revolt of 1857 • Generated 2026-07-17 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'b', q2: 'b', q3: 'a', q4: 'a', q5: 'b',
+  q6: 'b', q7: 'a', q8: 'a', q9: 'a', q10: 'b',
+  q11: 'd', q12: 'b', q13: 'd', q14: 'a', q15: 'b',
+  q16: 'a', q17: 'a', q18: 'd', q19: 'b', q20: 'd',
+  q21: 'a', q22: 'a', q23: 'c', q24: 'b', q25: 'd'
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

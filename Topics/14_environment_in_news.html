@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>14 - Environment in News | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #14 • TIER A</div>
+  <div class="topic-title">Environment in News — COPs, Ramsar, Tigers, Cheetahs &amp; Bihar's Green Angle</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs &amp; Environment</span>
+    <span class="meta-tag">⚖️ Weight: 1.7 (Tier A)</span>
+    <span class="meta-tag">📊 Mapped Questions: 15</span>
+    <span class="meta-tag">🎯 Expected: 2-4 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content &amp; PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Nagi Bird Sanctuary (Jamui, Bihar):</strong> "Which organisation recognized the Nagi bird sanctuary Site as an Important Bird and Biodiversity Area (IBA)?" — answer: <strong>BirdLife International</strong> (not UNESCO/WWF). Nagi &amp; Nakti (Jamui) later became <strong>Ramsar sites in 2024</strong>. BPSC loves the Bihar-wetland + international-recognition pairing.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>ISFR 2023 Statement Question:</strong> "According to India State of Forest Report 2023 (ISFR 2023)…" — tested the <strong>exact forest + tree cover percentage (25.17%)</strong>, top states by recorded forest area, and which state has maximum <em>tree</em> cover (Maharashtra). BPSC mines FRI Dehradun's report for precise numbers — memorise the Fact Matrix below.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Project Tiger in Bihar:</strong> "Which of the following parks/sanctuaries come under the project tiger in Bihar?" — answer: <strong>Valmiki National Park</strong> (distractors: Udaypur WLS, Bhimbandh WLS). The 71st also asked the <strong>state animal of Bihar (Gaur)</strong> and where the temperate-forestry research institute sits (<strong>Himalayan Forest Research Institute, Shimla</strong> — trap: Dehradun, which hosts FRI).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Oceans &amp; Vultures:</strong> "The 'Lisbon Declaration' is associated with the conservation of <strong>Oceans</strong>" (UN Ocean Conference 2022) — and "first State to launch a State-Level Committee for Vulture Conservation (SLCVC)" = <strong>Tamil Nadu</strong>. Also mined: IUCN definitions (<strong>Endangered</strong> = very high risk of extinction in the near future; <strong>Vulnerable</strong> = likely to become endangered) and sanctuary↔state matching (Gajner ↔ Rajasthan, Bhimbandh ↔ Bihar).
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> COP26 → COP32 host map, the COP28 vs COP29 vs COP30 decisions comparison table, and the "three Rio-convention COPs" you must not confuse:
+    <a href="subpages/14_climate_cops_detail.html" target="_blank">Climate COPs Detail (COP28→30 Comparison) →</a>
+  </div>
+
+  <h3>A. Climate COPs — COP29 Recap &amp; COP30 Belém <span class="current-tag">HOT</span></h3>
+  <p>COP30 (Belém, Brazil, 10–22 Nov 2025) was billed as the "implementation COP". Learn the headline decisions cold — BPSC frames them as statement questions.</p>
+  <table>
+    <tr><th>Decision Area</th><th>COP30 (Belém, Nov 2025) Outcome</th></tr>
+    <tr><td><strong>Cover decision</strong></td><td><strong>"Mutirão" decision</strong> (named after the Brazilian collective-effort tradition) — 2-year climate finance work programme</td></tr>
+    <tr><td><strong>Adaptation finance</strong></td><td>Call to <strong>TRIPLE adaptation finance by 2035</strong> (weakened from 2030, no baseline year fixed)</td></tr>
+    <tr><td><strong>Global Goal on Adaptation</strong></td><td><strong>59 GGA indicators adopted</strong> (contentious; further revision due 2027); NAP assessment decision adopted</td></tr>
+    <tr><td><strong>Fossil fuels</strong></td><td><strong>NO fossil-fuel transition roadmap</strong> despite 80+ country backing — Brazil to lead <em>voluntary</em> roadmaps on fossil fuels &amp; deforestation</td></tr>
+    <tr><td><strong>New initiatives</strong></td><td><strong>Belém Mission to 1.5</strong> + <strong>Global Implementation Accelerator</strong>; <strong>Just Transition Mechanism</strong> agreed; <strong>Gender Action Plan</strong> adopted</td></tr>
+    <tr><td><strong>Trade</strong></td><td>3 dialogues on trade-restrictive unilateral measures (EU CBAM etc.)</td></tr>
+    <tr><td><strong>Next hosts</strong></td><td><strong>COP31 → Antalya, Türkiye (2026)</strong> with Australia as "President of Negotiations" (pre-COP in the Pacific); <strong>COP32 → Ethiopia (2027)</strong> — first LDC host</td></tr>
+  </table>
+  <ul>
+    <li><strong>COP29 (Baku, 11–24 Nov 2024) recap:</strong> <strong>NCQG = at least $300 bn/yr by 2035</strong> for developing countries (replaces the $100 bn goal); call to scale to <strong>$1.3 tn/yr by 2035</strong> from all actors ("Baku to Belém Roadmap"); <strong>Article 6</strong> carbon markets fully operationalised; Loss &amp; Damage Fund institutional setup completed.</li>
+    <li><strong>India's anchors (static):</strong> Paris Agreement adopted <strong>12 Dec 2015 (COP21)</strong>; India's net-zero year <strong>2070</strong>; <strong>Panchamrit</strong> (five nectar-elements incl. 500 GW non-fossil capacity, 50% energy from renewables) announced at <strong>COP26 Glasgow (2021)</strong>.</li>
+  </ul>
+
+  <h3>B. Biodiversity COP16, High Seas Treaty &amp; Plastics Talks <span class="current-tag">VERIFIED JUL 2026</span></h3>
+  <ul>
+    <li><strong>COP16 (CBD) — Cali, Colombia (Oct–Nov 2024) + resumed Rome session (25–27 Feb 2025):</strong> Cali suspended for lack of quorum (only 44/196 parties had filed updated NBSAPs). <strong>Rome "COP16.2" outcomes:</strong> ① Resource Mobilisation Strategy — path to <strong>$200 bn/yr by 2030</strong> (incl. $20 bn international flows by 2025 → $30 bn by 2030); ② <strong>KMGBF Monitoring Framework adopted</strong> (headline indicators for 23 targets/4 goals); ③ financial mechanism decision (GEF guidance); ④ <strong>Cali Fund launched</strong> (with UNDP + UNEP) — private-sector benefit-sharing from <strong>Digital Sequence Information (DSI)</strong> on genetic resources.</li>
+    <li><strong>KMGBF statics:</strong> Kunming-Montreal Global Biodiversity Framework, adopted <strong>COP15 Montreal, Dec 2022</strong> — <strong>4 goals, 23 targets</strong>; flagship <strong>"30×30" (Target 3)</strong>: protect 30% of land and 30% of oceans by 2030. CBD itself = <strong>1992 Rio Earth Summit</strong>.</li>
+    <li><strong>UNOC3 (Nice, 9–13 Jun 2025)</strong> — 3rd UN Ocean Conference (co-hosts France &amp; Costa Rica): Nice Ocean Action Plan; 56 BBNJ ratifications by conference close.</li>
+    <li><strong>BBNJ (High Seas) Treaty:</strong> adopted <strong>19 Jun 2023</strong> under UNCLOS; hit <strong>60 ratifications on 19 Sep 2025 (Morocco 60th, Sierra Leone 61st)</strong> → <strong>entered into force 17 Jan 2026</strong> (120-day rule). Covers Areas Beyond National Jurisdiction ≈ <strong>61% of the ocean</strong>; 4 pillars: marine genetic resources/benefit-sharing, area-based management tools incl. MPAs, environmental impact assessments, capacity-building/tech transfer. <strong>India: signed, not yet ratified</strong> (as of late 2025); first BBNJ COP due within a year of entry into force.</li>
+    <li><strong>INC-5.2 plastics treaty (Geneva, 5–15 Aug 2025):</strong> <strong>collapsed without an agreed text</strong> — deadlock between binding virgin-plastic production caps (EU/High-Ambition Coalition) and a waste-management-only approach (oil-producing states); 2,600+ delegates, 183 countries. <strong>INC-5.3 (Feb 2026)</strong> elected <strong>Ambassador Julio Cordano (Chile)</strong> as new INC Chair; next negotiating session not yet scheduled as of mid-2026.</li>
+  </ul>
+
+  <h3>C. Flagship Reports — WMO &amp; UNEP <span class="current-tag">DATES + NUMBERS</span></h3>
+  <ul>
+    <li><strong>WMO State of the Global Climate 2025 (released 23 Mar 2026):</strong> 2025 = <strong>second or third hottest year on record, ~+1.43 °C above 1850–1900</strong> (±0.13°); 2024 remains the hottest; <strong>2015–2025 = the 11 hottest years on record</strong>; <strong>Earth's energy imbalance at a record high</strong> (first year used as a key indicator); ocean heat content at record; sea level ~11 cm above 1993.</li>
+    <li><strong>UNEP Emissions Gap Report 2025 — "Off Target" (4 Nov 2025, 16th edn.):</strong> full NDC implementation → <strong>2.3–2.5 °C</strong> warming by 2100 (vs 2.6–2.8 °C in EGR 2024); current policies → <strong>2.8 °C</strong>; 2024 GHG emissions <strong>57.7 GtCO₂e (+2.3%)</strong>; only 60 parties (63% of emissions) filed 2035 NDCs; <strong>1.5 °C overshoot within a decade now unavoidable</strong>; <strong>India = largest absolute rise in emissions</strong> (growth 3.6%, second only to Indonesia in % terms).</li>
+  </ul>
+
+  <h3>D. India — Energy Milestone, Carbon Market, Forests, Species <span class="current-tag">MAJOR</span></h3>
+  <ul>
+    <li><strong>50% non-fossil milestone:</strong> India achieved <strong>50% of cumulative installed electricity capacity from non-fossil sources in June 2025 — five years ahead of the 2030 NDC (Panchamrit) target</strong>; crossed 250 GW non-fossil in Aug 2025; <strong>Nov 2025: 262.74 GW non-fossil = 51.5% of 509.64 GW total</strong>; record <strong>44.51 GW renewable energy added in 2025 (till Nov)</strong> vs 24.72 GW in the same period of 2024. Target: <strong>500 GW non-fossil by 2030</strong>.</li>
+    <li><strong>Carbon market (CCTS):</strong> Carbon Credit Trading Scheme notified <strong>28 Jun 2023</strong> (Ministry of Power) — administrator <strong>Bureau of Energy Efficiency (BEE)</strong>, registry <strong>Grid Controller of India</strong>, regulator <strong>CERC</strong>; <strong>compliance obligations in force from FY 2025-26 (1 Apr 2025)</strong>. Greenhouse Gas Emission Intensity (GEI) targets notified: <strong>Oct 2025 — aluminium, cement, chlor-alkali, pulp &amp; paper (282 obligated entities)</strong>; <strong>13 Jan 2026 — petroleum refineries, petrochemicals, textiles, secondary aluminium (208 more)</strong> → <strong>490 obligated entities</strong> in all; transitions from the old PAT scheme.</li>
+    <li><strong>ISFR 2023 (18th edn., released 21 Dec 2024, FRI Dehradun) — still the latest as of 15 Jul 2026:</strong> forest + tree cover <strong>25.17% (8,27,357 sq km)</strong> of geographical area; forest cover <strong>7,15,343 sq km (21.76%)</strong>; tree cover 3.41%. Gain vs ISFR 2021: forest <strong>+156 sq km</strong>, tree <strong>+1,289 sq km</strong>. (ISFR 2025/19th edn. not released as of mid-2026.) National Forest Policy target: <strong>33%</strong>.</li>
+    <li><strong>Green Hydrogen (pair with the 50% milestone):</strong> National Green Hydrogen Mission (approved Jan 2023, ₹19,744 crore) — target <strong>5 MMT/yr green hydrogen by 2030</strong>, ~125 GW associated renewable capacity.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/env_tiger.jpg" alt="Tigress in an Indian tiger reserve">
+    <div class="img-caption">India's tiger story: 3,682 tigers (2022 census), 58 reserves (Mar 2026) — but 162 tiger deaths in 2025, with Madhya Pradesh (54) the worst. Image: Wikimedia Commons.</div>
+  </div>
+
+  <h3>E. New Tiger Reserves &amp; Project Cheetah <span class="current-tag">COUNT = 58</span></h3>
+  <table>
+    <tr><th>#</th><th>Tiger Reserve</th><th>State</th><th>Notified</th><th>Note</th></tr>
+    <tr><td>56</td><td><strong>Guru Ghasidas–Tamor Pingla</strong></td><td>Chhattisgarh</td><td>Nov 2024</td><td>3rd-largest TR in India (2,829.38 sq km)</td></tr>
+    <tr><td>57</td><td><strong>Ratapani</strong></td><td>Madhya Pradesh</td><td>Dec 2024</td><td>8th TR of MP</td></tr>
+    <tr><td>58</td><td><strong>Madhav National Park</strong></td><td>MP (Shivpuri)</td><td>~9–10 Mar 2025</td><td><strong>Sakhya Sagar (Ramsar site) inside it</strong>; corridor between Ranthambore (RJ) &amp; Kuno (MP)</td></tr>
+  </table>
+  <ul>
+    <li><strong>Tiger statics:</strong> Project Tiger launched <strong>1 Apr 1973</strong> from Corbett with <strong>9 reserves</strong>; NTCA = statutory body (Wildlife Protection Act 1972, §38V, 2006 amendment); 2022 census: <strong>3,682 tigers</strong>, MP max (785). <strong>162 tiger deaths in India in 2025</strong> (MP 54, Uttarakhand 19).</li>
+    <li><strong>Project Cheetah — status as of May–Jun 2026 (counts shift monthly — date-stamp any number):</strong> India total <strong>57 cheetahs (May 2026)</strong> — <strong>Kuno NP (MP): 54</strong> (17 free-ranging, 37 in soft bomas) + <strong>Gandhi Sagar WLS (Mandsaur–Neemuch, MP): 3</strong>; roughly 33 India-born (Jun-2026 tracker).</li>
+    <li><strong>Botswana batch:</strong> <strong>9 cheetahs (6 female, 3 male) arrived Feb 2026</strong> — third source country after <strong>Namibia (8, 17 Sep 2022)</strong> and <strong>South Africa (12, Feb 2023)</strong>; two released to open forest on 10 May 2026 after quarantine. Gandhi Sagar activated as second site (first animals moved <strong>Apr 2025</strong>); <strong>Kuno–Gandhi Sagar–Mukundra (Raj) metapopulation corridor</strong> planned. Authority: NTCA under MoEFCC.</li>
+    <li><strong>Cheetah statics:</strong> declared extinct in India <strong>1952</strong>; Asiatic cheetah survives only in <strong>Iran</strong>; African cheetah IUCN status = <strong>Vulnerable</strong>.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/env_cheetah.jpg" alt="Cheetah - reintroduced to India under Project Cheetah">
+    <div class="img-caption">The cheetah returned to India in 2022 (Kuno NP, MP) after 70 years of extinction; Botswana became the third African source country in Feb 2026. Image: Wikimedia Commons.</div>
+  </div>
+
+  <h3>F. Ramsar Sites — Running Total &amp; New Species 2025–26 <span class="current-tag">BIHAR HEAVY</span></h3>
+  <p><strong>India's Ramsar running total: ~100 sites as of ~Jun 2026</strong> — highest in Asia (TN 20 max, UP 13, then Punjab/Odisha/Bihar 6 each). <em>Caution: designations between Nov 2025 and Jun 2026 (Siliserh, Kopra Jalashay, Chhari-Dhand, Shekha Jheel, Jai Prakash Narayan BS Ballia → the reported 100th) rest on coaching trackers — cross-check ramsar.org before quoting the exact national count in the exam hall. Bihar's own six are fully confirmed.</em></p>
+  <table>
+    <tr><th>New Site(s)</th><th>State</th><th>Designated</th><th>Running Total</th></tr>
+    <tr><td>Sakkarakottai &amp; Therthangal Bird Sanctuaries; Khecheopalri Wetland; Udhwa Lake</td><td>TN; Sikkim; Jharkhand</td><td>Feb 2025 (Wetlands Day)</td><td>→ 89</td></tr>
+    <tr><td>Khichan (Phalodi) &amp; Menar (Udaipur)</td><td>Rajasthan</td><td>Jun 2025</td><td>→ 91</td></tr>
+    <tr><td><strong>Gokul Jalashay (Buxar) &amp; Udaipur Jheel (W. Champaran)</strong></td><td><strong>Bihar</strong></td><td>Sep 2025</td><td>→ 93</td></tr>
+    <tr><td><strong>Gogabeel Lake (Katihar)</strong></td><td><strong>Bihar</strong></td><td>~4 Nov 2025</td><td>→ 94 (Bihar's 6th)</td></tr>
+    <tr><td>Siliserh Lake; Kopra Jalashay</td><td>Rajasthan; Chhattisgarh</td><td>late 2025</td><td>→ 96</td></tr>
+    <tr><td>Jai Prakash Narayan Bird Sanctuary (Ballia) — reported 100th</td><td>UP</td><td>Jun 2026</td><td>→ ~100</td></tr>
+  </table>
+  <ul>
+    <li><strong>Ramsar statics:</strong> Convention signed <strong>1971 at Ramsar, Iran</strong>; in force in India <strong>1 Feb 1982</strong>; India's first sites = <strong>Chilika (Odisha) &amp; Keoladeo (Rajasthan), 1981</strong>; Indian sites on the <strong>Montreux Record = Keoladeo NP + Loktak Lake</strong>; largest Indian site = <strong>Sundarbans</strong>; smallest = <strong>Renuka (HP)</strong>.</li>
+    <li><strong>New species discovered in India (2025–26):</strong> <strong>Gegeneophis valmiki</strong> — blind caecilian (subterranean limbless amphibian), Valmiki Plateau, Satara dist., Maharashtra; ZSI-led team; journal <em>Phyllomedusa</em>; first new species in genus <em>Gegeneophis</em> in over a decade (Jan 2026). <strong>Drawida vazhania</strong> — new earthworm, Peechi-Vazhani WLS, Thrissur, Kerala (<em>Zootaxa</em>). New genus + species of harpacticoid copepod — Kavaratti lagoon, Lakshadweep (CUSAT, Jan 2026). <strong>Metadon ghorpadei &amp; M. reemeri</strong> — two rare ant-fly species (Kerala/TN).</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Bihar's 6 Ramsar sites "K-N-N-G-U-G"</strong><br>
+    <strong>K</strong>anwar/Kabar Tal (Begusarai, 2020 — 1st) → <strong>N</strong>agi &amp; <strong>N</strong>akti (Jamui, 2024) → <strong>G</strong>okul Jalashay (Buxar, Sep 2025) + <strong>U</strong>daipur Jheel (W. Champaran, Sep 2025) → <strong>G</strong>ogabeel (Katihar, Nov 2025 — 6th). Say it: <em>"Ka-Na-Na — Go-U-Go"</em> (one lake, twin Jamui sanctuaries, then the 2025 trio).
+  </div>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — The Climate-Finance Money Ladder "100 → 300 → 1.3"</strong><br>
+    <strong>$100 bn/yr</strong> = old 2009 goal → <strong>$300 bn/yr by 2035</strong> = COP29 Baku NCQG (developed → developing) → <strong>$1.3 tn/yr by 2035</strong> = "Baku to Belém Roadmap" call on ALL actors. Biodiversity runs a parallel ladder: <strong>$200 bn/yr by 2030</strong> (COP16.2 Rome) with intl flows $20 bn (2025) → $30 bn (2030).
+  </div>
+</div>
+
+<!-- ====== FLOWCHART: THE CLIMATE-COP ROAD ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> The Climate-COP Road at a Glance (2021 → 2027)
+  </div>
+  <p style="margin-bottom: 12px;">Memorise host ↔ headline pairs — BPSC's favourite environment one-liners.</p>
+
+  <div class="flowchart">
+    <div class="flow-node">COP26 Glasgow 2021 — India's Panchamrit; net-zero 2070</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">COP27 Sharm el-Sheikh 2022 — Loss &amp; Damage Fund agreed</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">COP28 Dubai 2023 — 1st Global Stocktake; "transition away from fossil fuels"; L&amp;D Fund operationalised</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">COP29 Baku 2024 — NCQG $300 bn/yr by 2035; Article 6 done</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">COP30 Belém 2025 — "Mutirão"; adaptation finance ×3 by 2035; 59 GGA indicators; NO fossil-fuel roadmap</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">COP31 Antalya, Türkiye 2026 — Australia as President of Negotiations</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">COP32 Ethiopia 2027 — first LDC host</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Item | Value | As-Of
+  </div>
+
+  <table>
+    <tr><th>Item</th><th>Value</th><th>As-Of Date</th></tr>
+    <tr><td><strong>COP30 venue &amp; dates</strong></td><td>Belém, Brazil — "implementation COP"</td><td>10–22 Nov 2025</td></tr>
+    <tr><td><strong>COP30 cover decision</strong></td><td>"Mutirão" — triple adaptation finance by 2035; 59 GGA indicators; no fossil-fuel roadmap</td><td>Nov 2025</td></tr>
+    <tr><td><strong>COP29 NCQG</strong></td><td>≥ $300 bn/yr by 2035 (+ $1.3 tn Baku→Belém call on all actors)</td><td>Nov 2024</td></tr>
+    <tr><td><strong>COP31 / COP32 hosts</strong></td><td>Antalya, Türkiye (Australia = President of Negotiations) / Ethiopia (first LDC host)</td><td>2026 / 2027</td></tr>
+    <tr><td><strong>BBNJ (High Seas) Treaty</strong></td><td>Entered into force; 60th ratification = Morocco (19 Sep 2025); adopted 19 Jun 2023 under UNCLOS; ~61% of ocean</td><td>17 Jan 2026</td></tr>
+    <tr><td><strong>INC-5.2 plastics (Geneva)</strong></td><td>Collapsed without agreed text; INC-5.3 elected Julio Cordano (Chile) chair</td><td>Aug 2025 / Feb 2026</td></tr>
+    <tr><td><strong>COP16.2 (Rome)</strong></td><td>Cali Fund (DSI benefit-sharing); KMGBF Monitoring Framework; $200 bn/yr by 2030 path</td><td>25–27 Feb 2025</td></tr>
+    <tr><td><strong>WMO SoGC 2025</strong></td><td>2025 ≈ +1.43 °C, 2nd/3rd hottest; 2015–2025 = 11 hottest years; 2024 hottest</td><td>released 23 Mar 2026</td></tr>
+    <tr><td><strong>UNEP EGR 2025 ("Off Target")</strong></td><td>NDCs → 2.3–2.5 °C; policies → 2.8 °C; 2024 emissions 57.7 GtCO₂e; India largest absolute rise</td><td>4 Nov 2025</td></tr>
+    <tr><td><strong>India non-fossil capacity</strong></td><td>50% milestone Jun 2025 (5 yrs early); 262.74 GW = 51.5% of 509.64 GW; 500 GW by 2030 target</td><td>Nov 2025</td></tr>
+    <tr><td><strong>CCTS carbon market</strong></td><td>Compliance from FY 2025-26; BEE administrator; 490 obligated entities (282 + 208)</td><td>Oct 2025 + Jan 2026</td></tr>
+    <tr><td><strong>ISFR 2023 (latest)</strong></td><td>Forest + tree cover 25.17% (8,27,357 sq km); forest alone 21.76% (7,15,343 sq km)</td><td>released 21 Dec 2024</td></tr>
+    <tr><td><strong>Tiger reserves in India</strong></td><td>58 — latest: Madhav NP (Shivpuri, MP); 56th Guru Ghasidas–Tamor Pingla (CG); 57th Ratapani (MP)</td><td>Mar 2026</td></tr>
+    <tr><td><strong>Tigers / deaths</strong></td><td>3,682 tigers (2022 census, MP 785 max); 162 deaths in 2025 (MP 54)</td><td>2022 / 2025</td></tr>
+    <tr><td><strong>Cheetahs in India</strong></td><td>57 (Kuno 54 + Gandhi Sagar 3); Botswana batch of 9 arrived Feb 2026 (3rd source country)</td><td>May 2026</td></tr>
+    <tr><td><strong>Ramsar sites in India</strong></td><td>~100 running total (highest in Asia; TN 20 max) — exact 2026 count pending ramsar.org confirmation</td><td>~Jun 2026</td></tr>
+    <tr><td><strong>Bihar Ramsar sites</strong></td><td>6 — Kanwar (2020), Nagi &amp; Nakti (2024), Gokul Jalashay + Udaipur Jheel (Sep 2025), Gogabeel (Nov 2025)</td><td>Nov 2025</td></tr>
+    <tr><td><strong>Valmiki Tiger Reserve tigers</strong></td><td>8 (2010) → 54 (2022 census) — &gt;7× rise; Bihar's only TR</td><td>2022 census</td></tr>
+    <tr><td><strong>Kaimur (Bihar) 2nd TR</strong></td><td>In-principle (Centre) Oct 2024; Bihar govt approval Dec 2025; NTCA notification pending</td><td>as of Jun 2026</td></tr>
+    <tr><td><strong>River dolphins (1st survey)</strong></td><td>6,327 total — 6,324 Ganges + 3 Indus; WII-led under Project Dolphin; 8 states</td><td>released Mar 2025</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar &amp; Environment — The Safe BPSC Angle</div>
+    <ul>
+      <li><strong>Valmiki Tiger Reserve (W. Champaran):</strong> Bihar's <strong>only tiger reserve</strong> (Valmiki NP + Valmiki WLS, est. under §38V in 1994); tigers <strong>8 (2010) → 54 (2022 census)</strong> — a &gt;7× rise; sits on the <strong>India–Nepal border</strong>; the <strong>easternmost limit of Himalayan Terai forests</strong> in India; Gangetic Plains biogeographic zone. The 71st BPSC asked "which park comes under Project Tiger in Bihar" — answer Valmiki National Park.</li>
+      <li><strong>Kaimur — second tiger reserve (proposed):</strong> Centre gave <strong>in-principle approval Oct 2024</strong>; <strong>Bihar govt approved the upgrade Dec 2025</strong>; revised proposal with <strong>NTCA</strong>; <strong>formal notification still pending as of Jun 2026</strong>; ~4× the area of VTR; tiger reintroduction planned. Trap: "Bihar has two notified tiger reserves" — false until notified.</li>
+      <li><strong>Bihar's 6 Ramsar sites:</strong> <strong>Kanwar Lake/Kabar Tal</strong> (Begusarai, 2020 — Bihar's 1st; <strong>Asia's largest freshwater oxbow lake</strong>, key wintering site for migratory waterbirds incl. the bar-headed goose); <strong>Nagi &amp; Nakti Bird Sanctuaries</strong> (Jamui, 2024 — Nagi is a BirdLife International IBA, 71st BPSC PYQ); <strong>Gokul Jalashay</strong> (Buxar, Sep 2025); <strong>Udaipur Jheel</strong> (W. Champaran, Sep 2025); <strong>Gogabeel Lake</strong> (Katihar, ~4 Nov 2025 — 6th; an oxbow between the Mahananda and the Ganga).</li>
+      <li><strong>Vikramshila Gangetic Dolphin Sanctuary (Bhagalpur):</strong> India's <strong>only dolphin sanctuary</strong> (notified 1991; ~60 km Ganga stretch, Sultanganj–Kahalgaon). <strong>First comprehensive river-dolphin survey (released Mar 2025, WII-led under Project Dolphin 2020): 6,327 dolphins nationwide — 6,324 Ganges + 3 Indus</strong> across 8 states (Assam 635; next survey after ~4 years). <strong>National Dolphin Research Centre, Patna</strong> (inaugurated 4 Mar 2024); National Dolphin Day = <strong>5 Oct</strong> (since 2022); Gangetic dolphin = <strong>National Aquatic Animal</strong> (2010).</li>
+      <li><strong>Bihar floods (Oct 2025) &amp; statics:</strong> extremely heavy rain in North Bihar + Nepal catchments — <strong>385 mm/24h at Saraigarh Bhaptiyahi (Supaul)</strong>; &gt;300 mm in Supaul, Sitamarhi, W. Champaran; <strong>all 56 gates of Kosi Barrage (Birpur) opened, ~5 lakh cusecs released (5 Oct 2025)</strong>. Statics: ~<strong>73.6% of Bihar is flood-prone</strong>; 29/38 districts flood-prone; Bihar holds <strong>18% of India's flood-prone area on &lt;3% of its land</strong>; Kosi, Gandak, Bagmati, Kamla-Balan, Mahananda, Ghaghra drain Nepal/Tibet catchments; Kosi = "Sorrow of Bihar" (ancient name Kaushiki).</li>
+      <li><strong>Bihar state symbols (static):</strong> state animal <strong>Gaur</strong> (Indian bison); state bird house sparrow; state tree peepal — a 71st BPSC one-liner.</li>
+    </ul>
+  </div>
+
+  <div class="img-container">
+    <img src="images/env_dolphin.jpg" alt="Gangetic river dolphin - National Aquatic Animal">
+    <div class="img-caption">The Gangetic dolphin — National Aquatic Animal; Bihar hosts India's only dolphin sanctuary (Vikramshila, Bhagalpur) and the National Dolphin Research Centre (Patna). Image: Wikimedia Commons.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #4 (Summits &amp; Groupings):</strong> COP30 Belém also belongs to the summits page — G20/BRICS statements carry climate language; see its COP subpage too, but the COP28→30 comparison table on <em>this</em> topic's subpage is the exam-authoritative version.<br>
+    <strong>↔ Topic #7 (Economy in News):</strong> CCTS carbon market (BEE/CERC/Grid Controller), EU CBAM trade dialogues at COP30, green hydrogen economics and the $300 bn NCQG all sit at the economy-environment seam.<br>
+    <strong>↔ Topic #11 (Reports &amp; Indices):</strong> WMO State of the Global Climate 2025 and UNEP Emissions Gap Report 2025 are "report ↔ publisher ↔ headline number" candidates.<br>
+    <strong>↔ Topic #12 (Important Days):</strong> World Wetlands Day (2 Feb — Ramsar designations announced), World Environment Day (5 Jun, UNEP-led since 1973, marks 1972 Stockholm Conference), International Tiger Day (29 Jul), National Dolphin Day (5 Oct), Earth Day (22 Apr, first 1970).<br>
+    <strong>↔ Topics #89, #90, #94 (Bihar Rivers / Climate / Forests &amp; Wildlife):</strong> Kosi–Gandak–Bagmati flood dynamics, monsoon behaviour, and Valmiki TR statics overlap directly.<br>
+    <strong>↔ Topics #150–154 (Environment Statics):</strong> ecosystem/food chain, biodiversity hotspots, climate-change basics, pollution, CITES/Ramsar conventions — the static theory behind every current-affairs question here.<br>
+    <strong>↔ Topic #65 (National Symbols):</strong> Gangetic dolphin = National Aquatic Animal (2010); pair with national animal (tiger) for "which symbol" traps.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance &amp; Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Near-certain one-liner:</strong> COP30 = <strong>Belém, Brazil (10–22 Nov 2025)</strong>; cover decision <strong>"Mutirão"</strong>; adaptation finance to be <strong>tripled by 2035</strong>; <strong>59 GGA indicators</strong>; and the trap — <strong>no fossil-fuel transition roadmap</strong> was agreed (Brazil leads voluntary roadmaps instead). Don't swap with Baku (COP29) or Dubai (COP28).</li>
+    <li><strong>Host sequence forward:</strong> COP31 → <strong>Antalya, Türkiye (2026)</strong> with <strong>Australia as "President of Negotiations"</strong>; COP32 → <strong>Ethiopia (2027), first LDC host</strong>. Fresh bait for "next COP host" questions.</li>
+    <li><strong>BBNJ arithmetic:</strong> adopted <strong>19 Jun 2023</strong> → 60th ratification <strong>19 Sep 2025 (Morocco)</strong> → in force <strong>17 Jan 2026</strong> (120-day rule). India has <strong>signed but not ratified</strong>. High seas ≈ <strong>61%</strong> of the ocean; four pillars (MGRs, ABMTs/MPAs, EIAs, capacity-building).</li>
+    <li><strong>Ramsar running count trap:</strong> ~100 sites as of ~Jun 2026 per coaching trackers, but the intermediate 2026 designations await ramsar.org confirmation — in the exam, prefer <strong>Bihar's six confirmed sites</strong> and their districts over the national headline number. TN has the most sites (20).</li>
+    <li><strong>Tiger numbers to keep straight:</strong> reserves = <strong>58</strong> (Madhav latest, Mar 2025); tigers = <strong>3,682</strong> (2022 census); deaths in 2025 = <strong>162</strong> (MP 54); VTR = <strong>8 → 54</strong> (2010 → 2022). BPSC swaps these four numbers into each other's slots.</li>
+    <li><strong>Cheetah date-stamps:</strong> Botswana = <strong>3rd source country (9 cheetahs, Feb 2026)</strong> after Namibia (Sep 2022) and South Africa (Feb 2023); India total <strong>57 as of May 2026</strong> (Kuno 54 + Gandhi Sagar 3). Extinct 1952; Asiatic cheetah only in Iran; African cheetah = IUCN Vulnerable.</li>
+    <li><strong>India energy/carbon dates:</strong> <strong>50% non-fossil capacity in June 2025</strong> (five years early; 262.74 GW = 51.5% by Nov 2025); CCTS compliance from <strong>FY 2025-26</strong> with <strong>490 obligated entities</strong> (Oct 2025: 282; Jan 2026: 208). Green Hydrogen target: 5 MMT/yr by 2030.</li>
+    <li><strong>Report numbers:</strong> WMO — 2025 ≈ <strong>+1.43 °C</strong>, 2015–2025 eleven hottest; UNEP EGR — NDCs → <strong>2.3–2.5 °C</strong>, policies → 2.8 °C, 2024 emissions <strong>57.7 GtCO₂e</strong>, India = largest absolute rise. Trap: "2025 was the hottest year" — no, 2024 remains hottest.</li>
+    <li><strong>Statics that never age:</strong> Ramsar Convention 1971 (Iran), India's first sites Chilika + Keoladeo (1981), Montreux Record = Keoladeo + Loktak, largest = Sundarbans, smallest = Renuka; Project Tiger 1 Apr 1973 (Corbett, 9 reserves); NTCA statutory under WLPA §38V (2006); Paris Agreement 12 Dec 2015; India net-zero 2070; KMGBF "30×30" = Target 3 (COP15 Montreal 2022).</li>
+  </ul>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (25 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Which organisation recognized the Nagi Bird Sanctuary site (Jamui, Bihar) as an Important Bird and Biodiversity Area (IBA)? (71st BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) UNESCO</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) BirdLife International</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) World Wildlife Fund</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) UNEP</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — Important Bird and Biodiversity Areas are identified globally by BirdLife International. Nagi and neighbouring Nakti (both in Jamui, Bihar) also became Ramsar sites in 2024. UNESCO administers World Heritage Sites — the classic trap here.</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. According to the India State of Forest Report 2023 (ISFR 2023), the total forest AND tree cover of the country is what percentage of its geographical area? (71st BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) 21.76%</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) 24.62%</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) 25.17%</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) 33.00%</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — ISFR 2023 (18th edn., FRI Dehradun, released 21 Dec 2024): forest + tree cover = 25.17% (8,27,357 sq km). (A) is the trap — 21.76% (7,15,343 sq km) is forest cover alone; 24.62% was the ISFR 2021 figure; 33% is the National Forest Policy target.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Which of the following parks/sanctuaries comes under Project Tiger in Bihar? (71st BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Valmiki National Park</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Udaypur Wildlife Sanctuary</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Bhimbandh Wildlife Sanctuary</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) None of these</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — Valmiki NP (with Valmiki WLS) forms Valmiki Tiger Reserve in West Champaran — Bihar's only tiger reserve (tigers 8 in 2010 → 54 in 2022). Bhimbandh (Munger) and Udaypur are wildlife sanctuaries, not tiger reserves; Kaimur's upgrade (state approval Dec 2025) is still pending NTCA notification.</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. As per IUCN, species facing a very high risk of extinction in the near future are termed: (71st BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Vulnerable</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Endangered</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Rare</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Extinct</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — "Endangered" = very high risk of extinction in the near future. (A) is the trap: "Vulnerable" species are only <em>likely</em> to become endangered if nothing is done. Risk ladder: Vulnerable → Endangered → Critically Endangered.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Which State first launched the State-Level Committee for Vulture Conservation (SLCVC), proposed under the national action plan for the protection of vultures in India? (69th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Sikkim</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Assam</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Tamil Nadu</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Meghalaya</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Tamil Nadu was the first State to constitute an SLCVC under the Action Plan for Vulture Conservation (Moyar valley / Nilgiris landscape is a key vulture habitat). The north-eastern options are distractors from the 69th BPSC paper itself.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The 'Lisbon Declaration' is associated with: (69th BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Protection of the ozone layer</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Combating desertification</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Eliminating single-use plastics</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) The conservation of oceans</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — The Lisbon Declaration came out of the 2022 UN Ocean Conference ("Our ocean, our future, our responsibility"). The ocean thread continues: UNOC3 at Nice (Jun 2025) and the BBNJ High Seas Treaty entering into force on 17 Jan 2026.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The Himalayan Forest Research Institute (HFRI), which handles temperate-forestry research under ICFRE, is located in which city? (71st BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Shimla</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Ranchi</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Srinagar</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Dehradun</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — HFRI is at Shimla (Himachal Pradesh). (D) is the trap: Dehradun hosts the Forest Research Institute (FRI), which publishes the ISFR. Tropical forestry research sits at TFRI, Jabalpur.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Match List-I (Protected Area / Wetland) with List-II (State): (69th BPSC pattern)
+    <br>a) Gajner Wildlife Sanctuary — 1) Sikkim
+    <br>b) Bhimbandh Wildlife Sanctuary — 2) Rajasthan
+    <br>c) Khecheopalri Wetland — 3) Bihar</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) a-1, b-2, c-3</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) a-2, b-3, c-1</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) a-3, b-2, c-1</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) a-2, b-1, c-3</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (B)</strong> — Gajner WLS is in Rajasthan (Bikaner); Bhimbandh WLS is in Bihar (Munger); Khecheopalri is a sacred lake-wetland in Sikkim, designated a Ramsar site in Feb 2025. Sanctuary↔state matching is a recurring 69th/71st BPSC format.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Kanha National Park — among the first nine reserves brought under Project Tiger in 1973 — is located in: (71st BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Maharashtra</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Chhattisgarh</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Rajasthan</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Madhya Pradesh</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (D)</strong> — Kanha (Mandla–Balaghat districts, MP) inspired Kipling's "Jungle Book" country and is famous for the hard-ground barasingha. Project Tiger was launched on 1 Apr 1973 from Corbett with 9 reserves; MP today has the most tigers (785, 2022 census).</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. What is the state animal of Bihar? (71st BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Gaur (Indian bison)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Nilgai (blue bull)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Asian elephant</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Swamp deer (barasingha)</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — Bihar's state animal is the Gaur. Barasingha (D) is tied to Kanha/Dudhwa; the Asian elephant is the state animal of Jharkhand and Kerala. Pair with: state bird = house sparrow, state tree = peepal.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The COP30 climate conference (10–22 November 2025) was held at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Baku, Azerbaijan</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Dubai, United Arab Emirates</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Sharm el-Sheikh, Egypt</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Belém, Brazil</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Belém, gateway to the Amazon, hosted COP30 (the "implementation COP"). Baku = COP29 (2024), Dubai = COP28 (2023), Sharm el-Sheikh = COP27 (2022) — the host sequence is the standard trap.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Consider the following statements about the outcomes of COP30 (Belém, 2025):
+    <br>1. The "Mutirão" decision called for tripling adaptation finance by 2035.
+    <br>2. 59 indicators for the Global Goal on Adaptation were adopted.
+    <br>3. A binding, consensus roadmap to transition away from fossil fuels was adopted.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) 1 only</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — Statements 1 and 2 are correct. Statement 3 is the trap: despite 80+ countries backing a fossil-fuel transition roadmap, none was agreed — Brazil will lead <em>voluntary</em> roadmaps on fossil fuels and deforestation outside the COP text.</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The New Collective Quantified Goal (NCQG) agreed at COP29 (Baku, 2024) commits to mobilising at least:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) $100 billion per year by 2030</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) $1.3 trillion per year by 2030</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) $300 billion per year by 2035 for developing countries</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) $20 billion per year by 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — NCQG = ≥$300 bn/yr by 2035, replacing the old $100 bn goal (A). (B) is the trap — $1.3 tn/yr by 2035 is the wider "Baku to Belém Roadmap" call on <em>all</em> actors, not the NCQG; $20 bn figures belong to biodiversity finance (COP16).</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Consider the following statements about the BBNJ (High Seas) Treaty:
+    <br>1. It was adopted on 19 June 2023 under UNCLOS.
+    <br>2. It entered into force on 17 January 2026 after crossing 60 ratifications.
+    <br>3. India has signed but not yet ratified it.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — All three are correct. Morocco's 60th ratification (19 Sep 2025) triggered the 120-day rule → entry into force 17 Jan 2026. The treaty covers Areas Beyond National Jurisdiction (~61% of the ocean) and rests on four pillars: marine genetic resources, area-based management tools/MPAs, EIAs, and capacity-building/tech transfer.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The 'Cali Fund', launched at the resumed COP16 session (Rome, February 2025), is associated with:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Loss and damage payments for climate disasters</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Private-sector benefit-sharing from Digital Sequence Information (DSI) on genetic resources</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Replenishment of the Montreal Protocol fund</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Compensation for plastic-pollution victims</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — The Cali Fund (with UNDP + UNEP) channels private-sector DSI benefit-sharing — firms using genetic sequence data contribute to biodiversity conservation. COP16.2 (Rome) also adopted the KMGBF Monitoring Framework and a path to $200 bn/yr by 2030. (A) belongs to the UNFCCC track, not the CBD.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Gogabeel Lake, designated a Ramsar site in November 2025 and Bihar's 6th Ramsar site, is located in which district?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Begusarai</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Jamui</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Katihar</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Buxar</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (C)</strong> — Gogabeel is an oxbow lake in Katihar district, between the Mahananda and the Ganga. The distractors are Bihar's other Ramsar districts: Begusarai = Kanwar/Kabar Tal (2020); Jamui = Nagi &amp; Nakti (2024); Buxar = Gokul Jalashay (Sep 2025).</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. With the notification of Madhav National Park (Madhya Pradesh) in March 2025, the total number of tiger reserves in India became:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 55</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 56</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 57</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 58</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — Madhav NP (Shivpuri, MP) is the 58th tiger reserve; the 56th was Guru Ghasidas–Tamor Pingla (Chhattisgarh, Nov 2024 — India's 3rd-largest at 2,829.38 sq km) and the 57th Ratapani (MP, Dec 2024). Madhav contains the Sakhya Sagar Ramsar site — a favourite two-in-one fact.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. In February 2026, nine cheetahs that arrived in India under Project Cheetah were sourced from:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Namibia</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) South Africa</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Botswana</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Kenya</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — Botswana (9 cheetahs: 6 female, 3 male) became the third source country after Namibia (8, Sep 2022) and South Africa (12, Feb 2023). As of May 2026 India had 57 cheetahs — 54 at Kuno NP and 3 at Gandhi Sagar WLS (both MP); two Botswana animals entered the open forest on 10 May 2026.</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. India achieved 50% of its cumulative installed electricity capacity from non-fossil sources in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) January 2026, five months after the 2030 deadline</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) November 2024, at COP29</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) June 2025 — five years ahead of the 2030 NDC target</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) April 2023, when the CCTS was notified</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — The 50% non-fossil milestone came in June 2025, five years ahead of the Panchamrit/NDC target. By Nov 2025 non-fossil capacity stood at 262.74 GW (51.5% of 509.64 GW); the 2030 goal is 500 GW non-fossil. (A) is internally absurd — the deadline is 2030, so a 2026 achievement can't be "late".</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Under India's Carbon Credit Trading Scheme (CCTS), whose compliance obligations took effect from FY 2025-26, the designated administrator is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Central Electricity Regulatory Commission (CERC)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Bureau of Energy Efficiency (BEE)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Grid Controller of India</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) MoEFCC</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — BEE administers the CCTS (notified 28 Jun 2023, Ministry of Power). The traps swap roles: CERC is the <em>regulator</em> of the carbon market and the Grid Controller of India is the <em>registry</em>. 490 obligated entities are now covered (282 in Oct 2025 + 208 in Jan 2026).</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The WMO State of the Global Climate 2025 report (released 23 March 2026) concluded that:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 2025 was the hottest year on record, at +1.55 °C above pre-industrial levels</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 2025 was the second or third hottest year on record (~+1.43 °C above 1850–1900), and 2015–2025 were the 11 hottest years on record</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Global warming paused in 2025 owing to La Niña conditions</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) Earth's energy imbalance fell to a record low in 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — 2024 remains the hottest year (trap A); La Niña did not stop 2025 from ranking second/third hottest (trap C); and Earth's energy imbalance hit a record <em>high</em>, not low (trap D inverted). Ocean heat content also set a record; sea level is ~11 cm above 1993.</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Which statement about Kaimur (Bihar) and India's tiger-reserve list is correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Kaimur was notified as India's 58th tiger reserve in March 2025</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Bihar currently has two notified tiger reserves</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) The Centre gave in-principle approval (Oct 2024) and the Bihar government approved the upgrade (Dec 2025), but formal NTCA notification was still pending as of mid-2026</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) The NTCA rejected the Kaimur proposal in 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — Kaimur's upgrade is approved at state level but NOT yet notified — so Bihar still has only one notified tiger reserve (Valmiki TR). (A) misassigns the 58th slot, which belongs to Madhav NP (MP); (D) is false — the proposal is with NTCA, not rejected. Kaimur TR will be ~4× the area of VTR.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Kanwar Lake (Kabar Tal, Begusarai) is best described as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Asia's largest freshwater oxbow lake and Bihar's first Ramsar site (2020)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) India's largest freshwater lake</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Bihar's newest Ramsar site, designated in 2025</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) A saltwater lagoon on the Montreux Record</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Kanwar/Kabar Tal is Asia's largest freshwater oxbow lake and a key wintering ground for migratory waterbirds (incl. bar-headed geese); it became Bihar's first Ramsar site in 2020. (B) is the trap — Wular (J&amp;K) is India's largest freshwater lake; (C) describes Gogabeel (Nov 2025); India's Montreux Record sites are Keoladeo NP and Loktak Lake, not Kanwar.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. What was the outcome of the INC-5.2 session (Geneva, August 2025) on the proposed global plastics treaty?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) It adopted a binding treaty capping virgin-plastic production</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) It was postponed and shifted to Busan</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) It created the Cali Fund for plastic recycling</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) It ended without an agreed text — deadlock between production-cap supporters and a waste-management-only bloc</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (D)</strong> — INC-5.2 collapsed over the core split: binding caps on virgin-plastic production (EU/High-Ambition Coalition) vs a waste-management-only approach (oil-producing states). (B) reverses the sequence — INC-5 at Busan (Dec 2024) had already adjourned without a deal; (C) mixes up the Cali Fund, which is about biodiversity DSI. INC-5.3 (Feb 2026) elected Julio Cordano (Chile) as the new chair.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. India's first comprehensive river-dolphin survey (released March 2025, WII-led under Project Dolphin) estimated the national river-dolphin population at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 6,327 dolphins — 6,324 Ganges + 3 Indus</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 3,682 dolphins in the Ganga basin</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 1,289 dolphins across 8 states</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 6,327 Gangetic + 635 Indus dolphins</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — 6,327 total: 6,324 Ganges-system + just 3 Indus dolphins, across 8 states (Assam 635 was the state tally, not the Indus count — trap D). (B) is the cross-number trap: 3,682 is India's 2022 <em>tiger</em> census. The Gangetic dolphin is the National Aquatic Animal; Bihar hosts the Vikramshila sanctuary and the National Dolphin Research Centre, Patna.</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/25</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.iisd.org/articles/insight/cop-30-outcome-what-it-means-and-whats-next" target="_blank">IISD — COP30 Outcome: What It Means and What's Next</a> <span class="ref-desc">— Mutirão decision, adaptation finance ×3 by 2035, 59 GGA indicators, no fossil-fuel roadmap, COP31/32 hosts.</span></li>
+    <li><a href="https://www.c2es.org/document/key-negotiations-related-outcomes-of-the-un-climate-conference-in-belem/" target="_blank">C2ES — Key Outcomes of the UN Climate Conference in Belém</a> <span class="ref-desc">— Just Transition Mechanism, Gender Action Plan, Belém Mission to 1.5, Global Implementation Accelerator.</span></li>
+    <li><a href="https://unfccc.int/cop29" target="_blank">UNFCCC — COP29 Baku</a> <span class="ref-desc">— NCQG ≥$300 bn/yr by 2035; $1.3 tn "Baku to Belém Roadmap"; Article 6 operationalised.</span></li>
+    <li><a href="https://www.unep-wcmc.org/en/news/key-decisions-agreed-as-cbd-cop16-concludes-in-rome" target="_blank">UNEP-WCMC — Key Decisions as CBD COP16 Concludes in Rome</a> <span class="ref-desc">— KMGBF Monitoring Framework, resource mobilisation to $200 bn/yr by 2030, Cali Fund (DSI).</span></li>
+    <li><a href="https://highseasalliance.org/" target="_blank">High Seas Alliance — BBNJ Treaty Tracker</a> <span class="ref-desc">— 60 ratifications (Morocco 60th, 19 Sep 2025); entry into force 17 Jan 2026; four pillars.</span></li>
+    <li><a href="https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025" target="_blank">WMO — State of the Global Climate 2025</a> <span class="ref-desc">— 2025 ≈ +1.43 °C; 2015–2025 eleven hottest years; record energy imbalance (released 23 Mar 2026).</span></li>
+    <li><a href="https://reliefweb.int/report/world/emissions-gap-report-2025-target-continued-collective-inaction-puts-global-temperature-goal-risk-enarptruzh" target="_blank">UNEP — Emissions Gap Report 2025 ("Off Target")</a> <span class="ref-desc">— NDCs → 2.3–2.5 °C; 2024 emissions 57.7 GtCO₂e; India's largest absolute rise in emissions.</span></li>
+    <li><a href="https://vajiramandravi.com/current-affairs/ramsar-sites-in-india/" target="_blank">Ramsar Sites in India — Running List</a> <span class="ref-desc">— 2025–26 designations incl. Gokul Jalashay, Udaipur Jheel, Gogabeel; cross-check exact national count at ramsar.org.</span></li>
+    <li><a href="https://vajiramandravi.com/current-affairs/valmiki-tiger-reserve-vtr/" target="_blank">Valmiki Tiger Reserve — Profile</a> <span class="ref-desc">— Bihar's only TR; tigers 8 (2010) → 54 (2022); Terai limit; India–Nepal border.</span></li>
+    <li><a href="https://newsonair.gov.in/indias-first-ever-comprehensive-river-dolphin-survey-estimated-presence-of-6327-river-dolphins-across-the-country/" target="_blank">NewsOnAir — First Comprehensive River Dolphin Survey</a> <span class="ref-desc">— 6,327 dolphins (6,324 Ganges + 3 Indus); Project Dolphin; 8 states.</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #14: Environment in News | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #4, #7, #11, #12, #89–90, #94, #150–154
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'b', q2: 'c', q3: 'a', q4: 'b', q5: 'c',
+  q6: 'd', q7: 'a', q8: 'b', q9: 'd', q10: 'a',
+  q11: 'd', q12: 'b', q13: 'c', q14: 'd', q15: 'b',
+  q16: 'c', q17: 'd', q18: 'c', q19: 'c', q20: 'b',
+  q21: 'b', q22: 'c', q23: 'a', q24: 'd', q25: 'a'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Environment in News!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Double check COP host↔outcome pairs, Ramsar site districts, and the tiger/cheetah number sets.';
+
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>

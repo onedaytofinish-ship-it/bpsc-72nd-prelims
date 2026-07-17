@@ -1,0 +1,202 @@
+[
+  {
+    "q": "Who is the author of the autobiography \"I Have the Streets: A Kutti Cricket Story\"? (70th BPSC pattern)",
+    "options": ["Suresh Raina", "S. Sreesanth", "R. Ashwin and S. Monga", "Rahul Dravid"],
+    "answer": 2,
+    "explanation": "A 70th BPSC verbatim question: off-spinner R. Ashwin co-wrote it with cricket journalist Sidharth Monga. Trap: Suresh Raina's memoir is 'Believe: What Life and Cricket Taught Me'.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.38"
+  },
+  {
+    "q": "Who is the author of the famous book 'Gulamgiri'? (70th BPSC pattern)",
+    "options": ["B. R. Ambedkar", "Jyotiba Phule", "Ramaswami Naicker 'Periyar'", "More than one of the above"],
+    "answer": 1,
+    "explanation": "Jyotiba Phule wrote Gulamgiri (1873), dedicating it to American abolitionists. Trap: Ambedkar's signature work is 'Annihilation of Caste'; 'More than one' fails because the book has a single author.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.40"
+  },
+  {
+    "q": "In 1901, who published the book 'Poverty and Un-British Rule in India'? (70th BPSC pattern)",
+    "options": ["R. C. Dutt", "M. G. Ranade", "Dadabhai Naoroji", "Gopal Krishna Gokhale"],
+    "answer": 2,
+    "explanation": "Dadabhai Naoroji's 1901 classic laid out the drain-of-wealth thesis. Trap: R. C. Dutt wrote 'The Economic History of India' — same theme, different book.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.12"
+  },
+  {
+    "q": "'Nitisara', an early book of politics, was written by: (69th BPSC pattern)",
+    "options": ["Kautilya", "Charaka", "Banabhatta", "Kamandaka"],
+    "answer": 3,
+    "explanation": "Kamandaka authored the Nitisara. Trap: Kautilya wrote the Arthashastra — the default distractor for every ancient political-text question.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.15"
+  },
+  {
+    "q": "Which of the following statements regarding Queen Elizabeth II of the United Kingdom is correct? (69th BPSC pattern)",
+    "options": ["She reigned for 70 years and died at the age of 96", "She reigned for 68 years and died at the age of 94", "She reigned for 72 years and died at the age of 92", "She reigned for 66 years and died at the age of 98"],
+    "answer": 0,
+    "explanation": "Elizabeth II died on 8 September 2022 at Balmoral, aged 96, after 70 years on the throne — the longest-reigning British monarch, succeeded by Charles III. BPSC shuffles the reign-length/age pair; memorise 70 & 96.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.7"
+  },
+  {
+    "q": "'Tarikh-i-Firuz Shahi' was written by: (70th BPSC pattern)",
+    "options": ["Minhaj Siraj", "Ziauddin Barani", "Yahya Sarhindi", "More than one of the above"],
+    "answer": 1,
+    "explanation": "Tarikh-i-Firuz Shahi was written by Ziauddin Barani, the only qualifying choice among the listed options. Shams Siraj Afif also wrote a like-named work, but Afif is not among the options here (in the original 70th BPSC paper Afif was an option and Barani was absent — this option set has been edited), so 'More than one of the above' is logically impossible. Minhaj Siraj = Tabaqat-i Nasiri; Yahya Sarhindi = Tarikh-i-Mubarak Shahi.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.24"
+  },
+  {
+    "q": "'Futuhat-e-Alamgiri' was written by: (69th BPSC pattern)",
+    "options": ["Ishwar Das Nagar", "Abul Fazl", "Abdul Hamid Lahori", "Khafi Khan"],
+    "answer": 0,
+    "explanation": "Ishwar Das Nagar chronicled Aurangzeb's reign in Futuhat-e-Alamgiri. The traps are the Mughal shelf: Abul Fazl = Akbarnama, Lahori = Badshahnama, Khafi Khan = Muntakhab-ul Lubab.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.39"
+  },
+  {
+    "q": "Who was awarded the Nobel Peace Prize in 2023? (70th BPSC pattern)",
+    "options": ["Narges Mohammadi", "Maria Ressa", "Nadia Murad", "Abiy Ahmed"],
+    "answer": 0,
+    "explanation": "Jailed Iranian activist Narges Mohammadi won the 2023 Peace Prize. The others are year-swaps: Ressa (2021), Murad (2018), Abiy Ahmed (2019).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.24"
+  },
+  {
+    "q": "Yevgeny Prigozhin, whose death in an August 2023 plane crash was in news, was the chief of: (69th BPSC pattern)",
+    "options": ["Blackwater", "Wagner Group", "Gazprom", "Roscosmos"],
+    "answer": 1,
+    "explanation": "Prigozhin headed the Wagner mercenary group and died two months after his mutiny against Russia's defence establishment. Global obituaries ('who died + who were they') are a standing BPSC format.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.35"
+  },
+  {
+    "q": "The first Jnanpith Award (1965) was given to:",
+    "options": ["Mahadevi Verma", "G. Sankara Kurup", "Sumitranandan Pant", "Tarashankar Bandyopadhyay"],
+    "answer": 1,
+    "explanation": "Malayalam poet G. Sankara Kurup won the first Jnanpith (for Odakkuzhal); the award was instituted in 1961. Trap: Sumitranandan Pant was the first Hindi winner (1968), not the first overall.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The International Booker Prize 2025 was won by:",
+    "options": ["Heart Lamp — Banu Mushtaq, translated by Deepa Bhasthi", "Tomb of Sand — Geetanjali Shree, translated by Daisy Rockwell", "The Loneliness of Sonia and Sunny — Kiran Desai", "Flesh — David Szalay"],
+    "answer": 0,
+    "explanation": "Heart Lamp (20 May 2025, Tate Modern) is the first Kannada work and first short-story collection to win. Traps: Tomb of Sand won in 2022; Flesh won the Booker Prize 2025, not the International Booker.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The Booker Prize 2025 was won by:",
+    "options": ["Kiran Desai", "David Szalay", "Banu Mushtaq", "Percival Everett"],
+    "answer": 1,
+    "explanation": "David Szalay won for Flesh (announced 10 Nov 2025, London; judges chaired by Roddy Doyle) — the first Hungarian-origin winner. Traps: Kiran Desai was only shortlisted; Percival Everett won the Pulitzer Fiction 2025 (James).",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The International Booker Prize 2026 was won by:",
+    "options": ["Heart Lamp — Banu Mushtaq", "We Do Not Part — Han Kang", "Taiwan Travelogue — Yáng Shuāng-zǐ, translated by Lin King", "Tomb of Sand — Geetanjali Shree"],
+    "answer": 2,
+    "explanation": "Taiwan Travelogue (announced 19 May 2026, Tate Modern) is the first Mandarin-language winner; the £50,000 is split between author and translator. Heart Lamp (2025) and Tomb of Sand (2022) are earlier winners.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The 59th Jnanpith Award (for 2024), announced in March 2025, was given to:",
+    "options": ["Gulzar", "Jagadguru Rambhadracharya", "Vairamuthu", "Vinod Kumar Shukla"],
+    "answer": 3,
+    "explanation": "Hindi writer Vinod Kumar Shukla (Rajnandgaon) — the first Jnanpith laureate from Chhattisgarh and 12th Hindi winner (Naukar Ki Kameez). Traps: Gulzar and Rambhadracharya shared the 58th (2023); Vairamuthu won the 60th (2025).",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Vairamuthu's 60th Jnanpith Award (for 2025), announced in March 2026, is significant because he is:",
+    "options": ["the first Tamil winner of the Jnanpith", "the third Tamil winner, after Akilan (1975) and Jayakanthan (2002)", "the first Malayalam winner of the Jnanpith", "the first Jnanpith winner honoured for film lyrics alone"],
+    "answer": 1,
+    "explanation": "Vairamuthu is the 3rd Tamil Jnanpith laureate and the first for Tamil poetry; his novel Kallikkaattu Ithihasam won the Sahitya Akademi in 2003. Trap: the first Tamil winner was Akilan (1975).",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "For the year 2025, the Sahitya Akademi Award in English went to:",
+    "options": ["Easterine Kire — Spirit Nights", "Navtej Sarna — Crimson Spring", "Mamta Kalia — Jeete Jee Allahabad", "Gagan Gill — Main Jab Tak Aai Bahar"],
+    "answer": 1,
+    "explanation": "Diplomat-author Navtej Sarna won for the novel Crimson Spring (announced 16 Mar 2026; ceremony 31 Mar 2026). Traps: Kire is the 2024 English winner; Mamta Kalia is the 2025 Hindi winner — the language-swap; Gagan Gill is the 2024 Hindi winner.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which statement about Dr. Manmohan Singh is correct?",
+    "options": ["He died on 26 December 2024, aged 92; he was Prime Minister from 2004 to 2014", "He died on 26 December 2025, aged 92", "He was Prime Minister from 1998 to 2004", "He died at the age of 95"],
+    "answer": 0,
+    "explanation": "India's first Sikh PM (two terms, 2004–14), earlier RBI Governor and the Finance Minister of the 1991 reforms, died at AIIMS Delhi on 26 Dec 2024. It sits just before the Jan-2025 window — exactly the borderline death BPSC still asks.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Consider the following statements about Pope Francis: 1. He was the first Latin American and the first Jesuit pope. 2. He died on 21 April 2025 at the age of 88. 3. He was succeeded by Pope Leo XIV (Robert Prevost), the first American pope. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 3,
+    "explanation": "All three are correct. Bonus book link: his 'Hope: The Autobiography' (Jan 2025) was the first autobiography ever published by a reigning pope; the May 2025 conclave elected Leo XIV.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Maharashtra Deputy Chief Minister Ajit Pawar died in:",
+    "options": ["the Air India AI171 crash at Ahmedabad", "a helicopter crash near Pune", "a Learjet 45 crash at Baramati airport on 28 January 2026", "a road accident on the Mumbai–Pune Expressway"],
+    "answer": 2,
+    "explanation": "The Learjet 45 crashed at Baramati on 28 Jan 2026, killing all five on board; Maharashtra observed 3-day state mourning. Trap: the AI171 crash (12 Jun 2025) killed former Gujarat CM Vijay Rupani — do not swap the two aviation deaths.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The book \"The Emergency Diaries — Years That Forged a Leader\", in news in 2025, is:",
+    "options": ["an autobiography written by PM Narendra Modi", "a compilation by BlueKraft Digital Foundation, released by Amit Shah on 25 June 2025 (Samvidhan Hatya Diwas)", "a book released on Constitution Day, 26 November 2025", "a biography of former PM H. D. Deve Gowda"],
+    "answer": 1,
+    "explanation": "It documents PM Modi's role as a young RSS pracharak in the anti-Emergency movement and was released on the 50th anniversary of the Emergency. Trap: Deve Gowda wrote the foreword — he is neither author nor subject.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Consider the following statements about Hindi writer Vinod Kumar Shukla: 1. He won the 59th Jnanpith Award, announced in March 2025. 2. He was the first Jnanpith laureate from Chhattisgarh. 3. He was awarded the Jnanpith posthumously. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is the trap: he died on 23 Dec 2025 (aged 88, AIIMS Raipur) — months after winning; the Jnanpith goes only to living Indian citizens and is never given posthumously.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Consider the following statements about the International Booker Prize 2025: 1. Heart Lamp is the first short-story collection to win the prize. 2. Banu Mushtaq is the first Indian to win the International Booker Prize. 3. Deepa Bhasthi is the first Indian translator to win the prize. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 2,
+    "explanation": "Statements 1 and 3 are correct. Statement 2 is the trap: Geetanjali Shree (Tomb of Sand, tr. Daisy Rockwell, 2022) was the first Indian winner — Banu Mushtaq is the second (and the first for Kannada).",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Match the 2025 books with their authors. Which pair is INCORRECTLY matched?",
+    "options": ["107 Days — Kamala Harris", "Hope: The Autobiography — Pope Francis", "The One: Cricket, My Life and More — Shikhar Dhawan", "The New World: 21st Century Global Order and India — Shashi Tharoor"],
+    "answer": 3,
+    "explanation": "The New World is by Ram Madhav, not Shashi Tharoor. The other three pairs are correct: Harris's campaign memoir (23 Sep 2025), the Pope's historic autobiography (14 Jan 2025), and Dhawan's cricket autobiography (2025).",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Consider the following statements about eminent Indians who died in 2025: 1. Dharmendra died on 24 November 2025. 2. Shibu Soren was the founder of the Jharkhand Mukti Morcha (JMM). 3. V. S. Achuthanandan was a former Chief Minister of Tamil Nadu. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 0,
+    "explanation": "Statements 1 and 2 are correct (Soren, 'Dishom Guru', died 4 Aug 2025). Statement 3 is the state-swap trap: Achuthanandan (d. 21 Jul 2025, aged 101) was the CPI(M) veteran and former CM of Kerala, not Tamil Nadu.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Consider the following statements about Kiran Desai: 1. She was shortlisted for the Booker Prize 2025 for The Loneliness of Sonia and Sunny. 2. She won the Booker Prize 2025. 3. She won the Booker Prize 2006 for The Inheritance of Loss. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+    "answer": 2,
+    "explanation": "Statements 1 and 3 are correct (the 2025 shortlist was announced on 23 Sep 2025). Statement 2 is the trap: the Booker Prize 2025 went to David Szalay's Flesh — 'shortlisted' is not 'won'.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  }
+]

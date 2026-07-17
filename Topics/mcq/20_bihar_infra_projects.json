@@ -1,0 +1,202 @@
+[
+  {
+    "q": "The priority corridor of the Patna Metro — Bihar's first metro stretch — was inaugurated on:",
+    "options": ["15 August 2025", "26 January 2026", "6 October 2025", "2 July 2026"],
+    "answer": 2,
+    "explanation": "CM Nitish Kumar inaugurated the priority corridor on 6 October 2025; passenger operations began the next day, 7 October. 2 July 2026 is the Malahipakri extension inauguration, not the first launch.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who inaugurated the first operational stretch of the Patna Metro in October 2025?",
+    "options": ["Prime Minister Narendra Modi", "Chief Minister Nitish Kumar", "Governor Syed Ata Hasnain", "Chief Minister Samrat Chaudhary"],
+    "answer": 1,
+    "explanation": "CM Nitish Kumar inaugurated the metro on 6 Oct 2025. Samrat Chaudhary became CM only on 15 April 2026, months after the metro opened; Hasnain took oath as Governor in March 2026.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Phase-1 of the Kacchi Dargah–Bidupur six-lane Ganga bridge was inaugurated on:",
+    "options": ["29 May 2025", "22 August 2025", "6 October 2025", "23 June 2025"],
+    "answer": 3,
+    "explanation": "CM Nitish Kumar opened Phase-1 on 23 June 2025. The other dates are the in-window decoys: 29 May = Patna airport terminal + Bihta foundation; 22 Aug = Aunta–Simaria bridge & Gaya package; 6 Oct = Patna Metro.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Kacchi Dargah–Bidupur bridge holds which distinction?",
+    "options": ["India's longest extra-dosed cable-stayed bridge", "India's longest sea bridge", "Asia's longest rail-cum-road bridge", "India's first cable-stayed bridge"],
+    "answer": 0,
+    "explanation": "The 9.76-km project (4.57-km main bridge, ~₹4,988 cr, BSRDCL) is India's longest extra-dosed cable-stayed bridge. It is NOT India's longest bridge overall, and it is a road (not rail-cum-road) bridge.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The new terminal building of Jay Prakash Narayan Airport, Patna was inaugurated by the Prime Minister on:",
+    "options": ["23 June 2025", "29 May 2025", "22 August 2025", "15 September 2025"],
+    "answer": 1,
+    "explanation": "29 May 2025; the same visit saw the Bihta civil-enclave foundation stone. The Nalanda-inspired terminal (65,155 m², 5 aerobridges) triples capacity to 1 crore passengers/year. 15 September is the Makhana Board launch window (Purnia).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Amas–Darbhanga Expressway — Bihar's first access-controlled expressway — is numbered:",
+    "options": ["NH-31", "NH-27", "NH-119D", "NH-30"],
+    "answer": 2,
+    "explanation": "NH-119D (189 km). NH-31 is the Mokama–Begusarai corridor (Aunta–Simaria bridge) — the most common swap; NH-27 is the old east–west trunk through north Bihar. Follows the 71st BPSC highway-construction-data pattern.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.12 (Bharatmala road-length data theme)"
+  },
+  {
+    "q": "The 660 MW Buxar Thermal Power Plant inaugurated on 22 August 2025 was constructed by:",
+    "options": ["NTPC", "SJVN", "NHPC", "Adani Power"],
+    "answer": 1,
+    "explanation": "SJVN (formerly Satluj Jal Vidyut Nigam) built the ₹6,880-crore 1×660 MW plant. Adani Power holds the Pirpainti (Bhagalpur) 2,400 MW LoI — don't mix the two; NTPC-BRBCL runs Nabinagar.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The headquarters of the National Makhana Board, launched in September 2025, is located at:",
+    "options": ["Patna", "Darbhanga", "Madhubani", "Purnea"],
+    "answer": 3,
+    "explanation": "PM Modi launched the Board from Purnia on 15-16 September 2025; HQ = Purnea, anchoring the Seemanchal-Kosi makhana belt. Darbhanga hosts the Makhana Research Centre — a plausible-sounding decoy, but not the Board HQ.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Homi Bhabha Cancer Hospital & Research Centre, inaugurated during the PM's 22 August 2025 Bihar visit, is located at:",
+    "options": ["Muzaffarpur", "Gaya", "Patna", "Bhagalpur"],
+    "answer": 0,
+    "explanation": "Muzaffarpur. The classic event-venue trap is Gaya: the package was launched AT Gaya, but the hospital is sited in Muzaffarpur — BPSC loves this location-vs-venue switch.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following announcements made for Bihar in the Union Budget 2025-26 (1 Feb 2025): 1. Setting up of a National Makhana Board. 2. Greenfield airports for Bihar and expansion of Patna airport's capacity. 3. Expansion of IIT Patna. 4. Declaration of AIIMS Darbhanga as fully operational. Which of the statements given above are correct?",
+    "options": ["1 and 2 only", "1, 2 and 3 only", "1, 3 and 4 only", "1, 2, 3 and 4"],
+    "answer": 1,
+    "explanation": "Statements 1, 2 and 3 were all in Budget 2025 (plus NIFTEM and the Western Kosi Canal). Statement 4 is false: AIIMS Darbhanga is still under construction as of July 2026 — AIIMS Patna remains Bihar's only functional AIIMS.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.50 (Bihar budget-allocation theme)"
+  },
+  {
+    "q": "Patna Metro's passenger fare range and daily operating hours are:",
+    "options": ["₹15–40; 6 AM – 11 PM", "₹15–30; 8 AM – 10 PM", "₹10–50; 6 AM – 10 PM", "Flat ₹10; 8 AM – 8 PM"],
+    "answer": 1,
+    "explanation": "Actual launch parameters: fares are ₹15–30, trains run every 20 minutes, and operating hours are 8 AM – 10 PM daily (as of launch on 6–7 Oct 2025; re-verified Jul 2026 via Jagran Josh, 6 Oct 2025, and patna.metroroute.co.in). The ₹10–50 / 6 AM–10 PM figures came from pre-launch speculation sites and were never the notified service parameters. Correct Answer: (B)",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Patna Metro was extended to Malahipakri, with the extension inaugurated on:",
+    "options": ["26 January 2026", "6 October 2025", "15 May 2026", "2 July 2026"],
+    "answer": 3,
+    "explanation": "The Malahipakri extension was inaugurated on 2 July 2026 — the freshest metro fact inside the exam window (which closes 15 Jul 2026). 6 October 2025 was the original priority corridor.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is correct about the Bihta (JPN International) civil enclave as of mid-July 2026?",
+    "options": ["It became operational in May 2025", "Its foundation was laid on 29 May 2025 and it is under construction, with a target capacity of 50 lakh passengers per year", "The project has been scrapped in favour of Darbhanga", "It is Bihar's first airport"],
+    "answer": 1,
+    "explanation": "Only the foundation stone has been laid (29 May 2025; ₹1,410-crore enclave on the Bihta IAF base). The NEW TERMINAL at the existing Patna airport opened that day — Bihta itself has NOT opened; do not conflate the two.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following statements about the Aunta–Simaria project is correct?",
+    "options": ["It was inaugurated on 22 August 2025 and includes a 1.86-km six-lane bridge across the Ganga connecting Mokama (Patna district) with Begusarai on NH-31", "It is a rail-cum-road bridge connecting Patna with Hajipur", "It collapsed twice during construction in 2022 and 2023", "It is a part of the Amas–Darbhanga Expressway (NH-119D)"],
+    "answer": 0,
+    "explanation": "PM Modi inaugurated the 8.15-km Aunta–Simaria project (₹1,870+ crore, NHAI/Welspun) on 22 Aug 2025. The collapse-saga option describes the Aguwani–Sultanganj bridge in Bhagalpur; the rail-cum-road profile is Digha–Sonpur.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Darbhanga airport is best described as:",
+    "options": ["A greenfield airport opened in 2025", "Bihar's only international airport", "A civil enclave on an IAF base, operational since November 2020, and Bihar's second-busiest airport", "An airport in the Seemanchal region"],
+    "answer": 2,
+    "explanation": "Darbhanga is a civil enclave on an IAF base (flights since Nov 2020), now Bihar's 2nd-busiest airport with a ₹245-crore upgrade under way. Gaya — not Darbhanga — is Bihar's international airport; Darbhanga is in Mithila, not Seemanchal.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Amas–Darbhanga Expressway passes through seven districts. Which of the following districts is NOT on its route?",
+    "options": ["Aurangabad", "Jehanabad", "Bhagalpur", "Samastipur"],
+    "answer": 2,
+    "explanation": "The seven are Aurangabad, Gaya, Jehanabad, Patna, Vaishali, Samastipur and Darbhanga. Bhagalpur belongs to the Buxar–Bhagalpur Expressway corridor — the east-Bihar decoy.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Pirpainti thermal power project is:",
+    "options": ["A 660 MW plant built by SJVN, inaugurated in August 2025", "An operational 1,980 MW NTPC-BRBCL station", "A 500 MW solar park of the Bihar government", "A 2,400 MW (3×800 MW) ultra-supercritical project in Bhagalpur district for which Adani Power received the LoI in August 2025"],
+    "answer": 3,
+    "explanation": "Pirpainti (Bhagalpur) = 2,400 MW ultra-supercritical, ~$3 bn, Adani Power LoI Aug 2025, in-principle approval 4 Feb 2025; pre-construction. The 660 MW SJVN plant is Buxar; the 1,980 MW NTPC-BRBCL station is Nabinagar.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Kalughat terminal, which commenced cargo operations around November 2025, is:",
+    "options": ["An intermodal terminal on National Waterway-1 at Sonepur (Saran), under the Inland Waterways Authority of India", "Bihar's newest domestic airport", "The depot of the Patna Metro", "An inland container depot in Gujarat"],
+    "answer": 0,
+    "explanation": "Kalughat (Parmanandpur, Sonepur, Saran) is IWAI's intermodal terminal on NW-1 (the Ganga waterway), handed over with cargo ops starting ~Nov 2025; Gaighat (Patna) was already functional. It gives landlocked Bihar a river-freight route toward Haldia/Kolkata.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match List-I (Project) with List-II (District): a) Buxar Thermal Power Plant — 1) Buxar; b) Pirpainti thermal project — 2) Bhagalpur; c) Homi Bhabha Cancer Hospital — 3) Muzaffarpur; d) Bihar's 2nd AIIMS — 4) Darbhanga",
+    "options": ["a-2, b-1, c-4, d-3", "a-1, b-2, c-3, d-4", "a-1, b-3, c-2, d-4", "a-2, b-4, c-3, d-1"],
+    "answer": 1,
+    "explanation": "Straight project↔district mapping. The deliberate confusions: Pirpainti is IN Bhagalpur district (not 'Pirpainti district'), and the cancer hospital is in Muzaffarpur though it was inaugurated at the Gaya event.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The proposed greenfield airport for the Bhagalpur region is planned near:",
+    "options": ["Sultanganj", "Bihta", "Raxaul", "Valmikinagar"],
+    "answer": 0,
+    "explanation": "Near Sultanganj (~835 acres, 4,000-m runway), per the Budget-2025 greenfield push. Bihta is the Patna-region civil enclave; Valmikinagar and Raxaul are UDAN-groundwork sites in north-west Bihar.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about the Patna Metro: 1. Its priority corridor was inaugurated on 6 October 2025. 2. Passenger operations began on the same day as the inauguration. 3. It was extended to Malahipakri, inaugurated on 2 July 2026. Which of the statements given above are correct?",
+    "options": ["1, 2 and 3", "1 and 3 only", "1 and 2 only", "2 and 3 only"],
+    "answer": 1,
+    "explanation": "Statements 1 and 3 are correct. Statement 2 is the trap: passenger services started on 7 October 2025, the day AFTER the 6 October inauguration — BPSC's favourite one-day-slip trap.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "As of 15 July 2026, which of the following had NOT yet opened/become operational? 1. Bihta civil enclave airport 2. Amas–Darbhanga Expressway 3. AIIMS Darbhanga 4. Patna Metro priority corridor",
+    "options": ["All four", "1 and 3 only", "1, 2 and 3 only", "2 and 4 only"],
+    "answer": 2,
+    "explanation": "Bihta (foundation only), Amas–Darbhanga (Dec 2026 target) and AIIMS Darbhanga (under construction) are all pending. Statement 4 is false because the metro corridor HAS been operational since 7 Oct 2025 — including it flips you to the wrong option.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Regarding the PM MITRA (Mega Integrated Textile Region and Apparel) parks and Bihar:",
+    "options": ["Bhagalpur was allotted a PM MITRA park in 2025", "Bihar is not among the seven PM MITRA sites announced in 2023; demands were raised in 2025 to include Bhagalpur", "Patna hosts one of the seven PM MITRA parks", "Bihar received two PM MITRA parks under Purvodaya"],
+    "answer": 1,
+    "explanation": "The seven PM MITRA sites (2023) exclude Bihar; in-window there were only demands — a Bihar MP's letter (Apr 2025) and Chirag Paswan's push for Bhagalpur (May 2025). Any 'allotted to Bihar' option is the trap.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Match List-I (Ganga bridge, Patna region) with List-II (Year / Type): a) Mahatma Gandhi Setu — 1) 2016, rail-cum-road; b) Digha–Sonpur bridge — 2) 1982, road bridge (Patna–Hajipur); c) Kacchi Dargah–Bidupur bridge — 3) 2025, extra-dosed cable-stayed",
+    "options": ["a-1, b-2, c-3", "a-3, b-2, c-1", "a-2, b-3, c-1", "a-2, b-1, c-3"],
+    "answer": 3,
+    "explanation": "MG Setu 1982 (Patna–Hajipur road); Digha–Sonpur 2016 (rail-cum-road); Kacchi Dargah–Bidupur 2025 (extra-dosed). The most-seductive error is swapping MG Setu and Digha–Sonpur's years/types.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT correct about the Prime Minister's 22 August 2025 event at Gaya?",
+    "options": ["The Aunta–Simaria bridge project on NH-31 was inaugurated", "The 660 MW Buxar Thermal Power Plant was inaugurated", "The Homi Bhabha Cancer Hospital & Research Centre (Muzaffarpur) was inaugurated", "AIIMS Darbhanga was inaugurated and declared operational"],
+    "answer": 3,
+    "explanation": "AIIMS Darbhanga is still under construction and was NOT inaugurated in Aug 2025 — that is the false statement. The other three all happened at the ~₹13,000-crore Gaya event, which also flagged off the Amrit Bharat Express (Gaya–Delhi) and the Buddhist Circuit train (Vaishali–Koderma).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]

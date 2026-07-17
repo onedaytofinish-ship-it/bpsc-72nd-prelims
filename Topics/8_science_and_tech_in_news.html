@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>8 - Science & Tech in News | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #1a1a2e;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .topic-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .topic-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 69, 96, 0.15);
+    border-radius: 50%;
+  }
+  .topic-number {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .topic-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .topic-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    opacity: 0.85;
+    flex-wrap: wrap;
+  }
+  .meta-tag {
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+
+  .section {
+    margin-bottom: 28px;
+    page-break-inside: avoid;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 3px solid #e94560;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .section-icon { font-size: 22px; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #16213e;
+    margin: 16px 0 8px 0;
+    padding-left: 12px;
+    border-left: 4px solid #e94560;
+  }
+  h3 a {
+    color: #16213e;
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: #e94560;
+    text-decoration: underline;
+  }
+  
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+
+  /* PYQ Box Styling */
+  .pyq-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 5px solid #22c55e;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 13px;
+  }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag {
+    background: #22c55e;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .bihar-box {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%);
+    border-left: 5px solid #ff6b35;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    margin: 16px 0;
+  }
+  .bihar-box-title {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .mnemonic-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 5px solid #0ea5e9;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .mnemonic-box strong { color: #0369a1; }
+
+  .cross-link {
+    background: #f5f3ff;
+    border: 1px dashed #7c3aed;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .cross-link strong { color: #7c3aed; }
+
+  .current-tag {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .subpage-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 13.5px;
+  }
+  .subpage-box a {
+    color: #b45309;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .subpage-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* === FLOWCHART STYLES === */
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .flow-node {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+  }
+  .flow-node a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .flow-node a:hover {
+    text-decoration: underline;
+  }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow {
+    width: 2px;
+    height: 24px;
+    background: #94a3b8;
+    position: relative;
+  }
+  .flow-arrow::after {
+    content: '▼';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #94a3b8;
+    font-size: 10px;
+  }
+  .flow-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* === IMAGE STYLES === */
+  .img-container {
+    text-align: center;
+    margin: 16px 0;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .img-caption {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* === INTERACTIVE MCQ STYLES === */
+  .mcq-block {
+    background: #fafbfc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+    page-break-inside: avoid;
+  }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+  }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e94560;
+  }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #f0f9ff;
+    border-left: 3px solid #0ea5e9;
+    border-radius: 0 8px 8px 0;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .mcq-explanation.show { display: block; }
+  
+  .quiz-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  
+  .check-btn {
+    background: linear-gradient(135deg, #e94560, #c2185b);
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .check-btn:active { transform: translateY(0); }
+  
+  .reset-btn {
+    background: #475569;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .reset-btn:hover { background: #334155; }
+  
+  .score-display {
+    display: none;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .score-display .score-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e94560;
+  }
+
+  /* === REFERENCE LINKS === */
+  .ref-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ref-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 13px;
+  }
+  .ref-list li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .ref-list li a:hover { text-decoration: underline; }
+  .ref-list li .ref-desc {
+    color: #64748b;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .doc-footer {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 12px; }
+    .topic-header { border-radius: 0; }
+    .section { page-break-inside: avoid; }
+    .mcq-block { page-break-inside: avoid; }
+    .quiz-controls { display: none !important; }
+  }
+</style>
+<link rel="stylesheet" href="_assets/navbar.css">
+</head>
+<body>
+
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #8 • TIER A</div>
+  <div class="topic-title">Science &amp; Tech in News — ISRO, AI, Space, Biotech</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Current Affairs &amp; Science-Tech</span>
+    <span class="meta-tag">⚖️ Weight: High (Tier A)</span>
+    <span class="meta-tag">📊 Mapped Questions: 39</span>
+    <span class="meta-tag">🎯 Expected: 3-5 Qs</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📚</span> Core Content &amp; PYQ Alignment
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>GSLV-F15 Mission:</strong> "What is true of the GSLV-F15 mission by ISRO?" — answer: <strong>More than one of the above</strong> (it carried the <strong>NVS-02</strong> satellite <em>and</em> marked ISRO's <strong>100th launch from Sriharikota</strong>, January 29, 2025). Trap option said "101st launch" — BPSC tests the exact ordinal.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>AI Action Summit 2025:</strong> "In which city was the AI Action Summit held in February 2025?" — answer: <strong>Paris</strong>. The 2026 edition came to <strong>New Delhi</strong> (India AI Impact Summit, Feb 16-20, 2026) — track the summit <em>sequence</em>: Bletchley 2023 → Seoul 2024 → Paris 2025 → New Delhi 2026.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Space-Mission Matching:</strong> Cassini-Huygens matched with <strong>Saturn and its rings</strong> — a joint NASA-ESA-ASI probe. BPSC's classic "mission ↔ target planet" matching bank: Chandrayaan ↔ Moon, Aditya-L1 ↔ Sun, Mangalyaan ↔ Mars, Shukrayaan (VOM) ↔ Venus.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> ISRO milestones 1969–2026 master table, launch-vehicle specs, centres &amp; chairmen, and all the static "firsts":
+    <a href="subpages/8_isro_missions_detail.html" target="_blank">ISRO Missions &amp; Statics Detail →</a>
+  </div>
+
+  <h3>A. ISRO Missions 2024–26 — The Dated Table <span class="current-tag">VERIFIED JUL 2026</span></h3>
+  <p>BPSC asks mission ↔ vehicle ↔ date one-liners (the 71st asked GSLV-F15 verbatim). Learn this table cold — it covers every ISRO headline of the exam window.</p>
+  <table>
+    <tr><th>Mission</th><th>Vehicle</th><th>Date</th><th>Significance</th></tr>
+    <tr><td><strong>XPoSat</strong></td><td>PSLV-C58</td><td>Jan 1, 2024</td><td>India's first dedicated X-ray polarimetry mission — 2nd in the world after NASA's IXPE</td></tr>
+    <tr><td><strong>INSAT-3DS</strong></td><td>GSLV-F14</td><td>Feb 17, 2024</td><td>Advanced meteorological satellite — weather forecasting, disaster warning</td></tr>
+    <tr><td><strong>Proba-3</strong> (ESA)</td><td>PSLV-C59</td><td>Dec 5, 2024</td><td>ESA solar-coronagraphy mission — precision formation flying; NSIL commercial launch</td></tr>
+    <tr><td><strong>SpaDeX</strong></td><td>PSLV-C60</td><td>Dec 30, 2024</td><td>Docking demonstrated <strong>Jan 16, 2025</strong> — India became the <strong>4th nation</strong> to dock in space (after Russia, USA, China)</td></tr>
+    <tr><td><strong>GSLV-F15 / NVS-02</strong></td><td>GSLV-F15</td><td>Jan 29, 2025</td><td><strong>100th launch from Sriharikota</strong> — 2nd-generation NavIC satellite (71st BPSC PYQ)</td></tr>
+    <tr><td><strong>NISAR</strong></td><td>GSLV-F16</td><td>Jul 30, 2025</td><td>NASA–ISRO joint Synthetic Aperture Radar (L-band + S-band) — Earth's most expensive civilian imaging radar; all-weather mapping</td></tr>
+    <tr><td><strong>PSLV-C62</strong></td><td>PSLV</td><td>Jan 2026</td><td><strong>Upper-stage anomaly</strong> — rare failure of the workhorse; PSLV returned to flight <strong>May 2026</strong> after corrective action (Chairman V. Narayanan)</td></tr>
+    <tr><td><strong>7-launch sprint</strong></td><td>LVM3 / PSLV / GSLV / SSLV</td><td>by Mar 2026</td><td>Announced in Parliament (Dec 2025): uncrewed <strong>Gaganyaan G-1</strong>, tech-demo satellites (electric propulsion, quantum key distribution), <strong>first industry-built PSLV</strong>, commercial &amp; earth-observation launches</td></tr>
+  </table>
+  <ul>
+    <li><strong>Industry-built PSLV:</strong> a <strong>HAL–L&amp;T consortium</strong> is producing five PSLV-XL rockets under NSIL supervision — the first flew by early 2026, marking India's shift from ISRO-built to industry-built launchers.</li>
+    <li><strong>Commercial arm &amp; regulator:</strong> <strong>NSIL</strong> (NewSpace India Ltd, 2019) is the commercial arm; <strong>IN-SPACe</strong> (HQ Ahmedabad) is the single-window regulator/promoter for private players, created under space-sector reforms and the <strong>Indian Space Policy 2023</strong>.</li>
+    <li><strong>Private startups:</strong> <strong>Skyroot Aerospace</strong> — Vikram-S (Nov 2022), India's first private rocket; <strong>Agnikul Cosmos</strong> — Agnibaan SOrTeD (May 2024), first flight with a semi-cryogenic 3D-printed engine.</li>
+  </ul>
+
+  <h3>B. Human Spaceflight — Shukla, Gaganyaan, BAS <span class="current-tag">HOT</span></h3>
+  <ul>
+    <li><strong>Shubhanshu Shukla (Group Captain)</strong> flew on <strong>Axiom-4 (June 2025)</strong> to the International Space Station — the <strong>first Indian on the ISS</strong> and the <strong>second Indian in space</strong> after <strong>Rakesh Sharma (1984, Soviet Soyuz T-11)</strong>. He served as mission pilot; the flight was a precursor to Gaganyaan.</li>
+    <li><strong>Gaganyaan astronauts:</strong> four IAF officer-astronauts announced <strong>February 2024</strong> — Group Captains Prashanth Nair, Ajit Krishnan, Angad Pratap and Shubhanshu Shukla.</li>
+    <li><strong>Gaganyaan status (mid-2026):</strong> human-rating of the <strong>LVM3 (HLVM3)</strong> complete; <strong>TV-D1</strong> (Oct 2023) validated the Crew Escape System; first uncrewed mission <strong>G-1 with humanoid Vyommitra</strong> slated for <strong>2026</strong>, followed by crewed flights.</li>
+    <li><strong>Vyommitra:</strong> the half-humanoid female robot flying the uncrewed Gaganyaan tests — monitors module parameters and simulates crew functions.</li>
+    <li><strong>Roadmap approved:</strong> <strong>Bharatiya Antariksh Station (BAS) by 2035</strong>; <strong>Indian on the Moon by 2040</strong>; <strong>Chandrayaan-4</strong> lunar sample-return (~2027); <strong>Venus Orbiter Mission (Shukrayaan) ~2028</strong>; <strong>NGLV "Soorya"</strong> — the reusable next-gen launch vehicle.</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Docking Club "R-U-C-I"</strong><br>
+    Space-docking nations in order: <strong>R</strong>ussia (1967) → <strong>U</strong>SA → <strong>C</strong>hina (2011) → <strong>I</strong>ndia (SpaDeX, Jan 16, 2025). And the human-spaceflight ladder: <strong>Sharma '84 (Soviet ride) → Shukla '25 (ISS) → Gaganyaan '26 → BAS '35 → Moon '40</strong>.
+  </div>
+
+  <h3>C. Launch Vehicles &amp; Infrastructure — The Ladder <span class="current-tag">MATCHING BANK</span></h3>
+  <table>
+    <tr><th>Vehicle</th><th>Payload Class</th><th>Status / Note</th></tr>
+    <tr><td><strong>SSLV</strong></td><td>~500 kg to LEO</td><td>Smallest, quick-turnaround launcher; on-demand commercial missions</td></tr>
+    <tr><td><strong>PSLV</strong></td><td>~1,750 kg to SSO</td><td>The workhorse (4 stages, alternating solid-liquid); C62 anomaly Jan 2026 → returned to flight May 2026</td></tr>
+    <tr><td><strong>GSLV Mk-II</strong></td><td>~2,250 kg to GTO</td><td>Indigenous <strong>cryogenic CE-7.5</strong> upper stage (CUS); flew NVS-02 (F15) and NISAR (F16)</td></tr>
+    <tr><td><strong>LVM3</strong> (ex-GSLV Mk-III)</td><td>~4,000 kg to GTO / ~8-10 t to LEO</td><td>Heaviest operational rocket; <strong>CE-20 cryogenic</strong> C25 stage; human-rated (HLVM3) for Gaganyaan; flew Chandrayaan-2 &amp; 3</td></tr>
+    <tr><td><strong>NGLV "Soorya"</strong></td><td>~30 t to LEO class</td><td>Approved; reusable first stage — backbone for BAS and crewed lunar missions</td></tr>
+  </table>
+  <ul>
+    <li><strong>Launch port:</strong> Satish Dhawan Space Centre (SDSC-SHAR), <strong>Sriharikota</strong> (Andhra Pradesh) — all 100+ Indian launches; a <strong>second spaceport is coming up at Kulasekarapattinam, Tamil Nadu</strong> (for SSLV).</li>
+    <li><strong>Thumba (TERLS), Kerala:</strong> birthplace of the programme — India's first sounding rocket launched <strong>Nov 21, 1963</strong>; near the magnetic equator.</li>
+    <li><strong>NavIC / IRNSS:</strong> India's regional navigation system — <strong>7 satellites</strong>, covering India and ~1,500 km beyond; NVS series is the 2nd generation (NVS-01 in 2023, NVS-02 in Jan 2025). <strong>GAGAN</strong> is the GPS-aided aviation augmentation system (with AAI).</li>
+  </ul>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Vehicle Ladder "S-P-G-L: 500 → 8000"</strong><br>
+    <strong>S</strong>SLV (0.5 t LEO) → <strong>P</strong>SLV (1.75 t SSO) → <strong>G</strong>SLV Mk-II (2.25 t GTO) → <strong>L</strong>VM3 (4 t GTO / 8-10 t LEO) → <strong>NGLV</strong> (30 t LEO). Cryogenic engines: small <strong>CE-7.5</strong> on GSLV Mk-II, big <strong>CE-20</strong> on LVM3.
+  </div>
+
+  <h3>D. AI &amp; Emerging Tech — IndiaAI, Summit, Quantum <span class="current-tag">MAJOR</span></h3>
+  <ul>
+    <li><strong>IndiaAI Mission:</strong> approved <strong>March 2024</strong> with an outlay of <strong>₹10,371.92 crore</strong> over 5 years — <strong>7 pillars</strong> (IndiaAI Compute Capacity, Innovation Centre, Datasets Platform, Application Development Initiative, FutureSkills, Startup Financing, Safe &amp; Trusted AI). Compute pillar: <strong>10,000+ GPU tender</strong> to build indigenous AI infrastructure.</li>
+    <li><strong>India AI Impact Summit, New Delhi (Feb 16-20, 2026):</strong> the <strong>first major global AI summit hosted in the Global South</strong>; produced the <strong>New Delhi Declaration</strong> with ~88 endorsers (cross-link Topic #4). Sequence: Bletchley Park 2023 → Seoul 2024 → Paris 2025 (AI Action Summit — 71st BPSC PYQ) → <strong>New Delhi 2026</strong>.</li>
+    <li><strong>Indigenous models:</strong> <strong>Sarvam AI</strong> (selected under IndiaAI to build India's foundational LLMs) and <strong>BharatGen Param2 (17B parameters)</strong> — the sovereign AI-model push; <strong>AIRAWAT</strong> (C-DAC Pune) is India's flagship AI supercomputer.</li>
+    <li><strong>National Quantum Mission:</strong> approved <strong>April 2023</strong>, outlay <strong>₹6,003.65 crore</strong> (2023-31) — quantum computing (50-1,000 qubits target), communication, sensing and materials; 4 thematic hubs.</li>
+    <li><strong>Semiconductors:</strong> India Semiconductor Mission (₹76,000 crore incentive) — fabs/OSATs approved in Gujarat &amp; Assam; Budget 2026-27 announced <strong>Semiconductor Mission 2.0</strong> (cross-link Topic #7).</li>
+  </ul>
+
+  <h3>E. Biotech, Health &amp; Research Misc <span class="current-tag">NEW</span></h3>
+  <ul>
+    <li><strong>BioE3 Policy (approved August 2024):</strong> Biotechnology for <strong>Economy, Environment and Employment</strong> — high-performance <strong>biomanufacturing</strong>; thematic verticals include bio-based chemicals, smart proteins, precision biotherapeutics, climate-resilient agriculture, carbon capture and marine/space research.</li>
+    <li><strong>Genome India Project:</strong> completed sequencing of <strong>10,000 genomes</strong> from diverse Indian populations; the dataset (released 2025) enables precision medicine and disease-gene discovery.</li>
+    <li><strong>ANRF (Anusandhan National Research Foundation):</strong> established by the <strong>ANRF Act, 2023</strong> — outlay <strong>₹50,000 crore (2023-28)</strong>; subsumes the Science and Engineering Research Board (SERB); apex body to seed, grow and fund university research.</li>
+    <li><strong>mRNA vaccine tech:</strong> <strong>GEMCOVAC-19</strong> (Gennova Biopharmaceuticals) — India's first mRNA COVID-19 vaccine (approved 2022), thermostable at 2-8°C.</li>
+    <li><strong>U-WIN portal (MoHFW):</strong> digitises the Universal Immunization Programme on the CoWIN model — QR-based e-vaccination certificates, ABHA (Ayushman Bharat Health Account) creation for parents/children, self-registration. The <strong>71st BPSC asked a "NOT correct about U-WIN"</strong> question — know its features list.</li>
+  </ul>
+</div>
+
+<!-- ====== FLOWCHART: HUMAN SPACEFLIGHT LADDER ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📊</span> India's Human-Spaceflight Ladder at a Glance
+  </div>
+  <p style="margin-bottom: 12px;">From a Soviet ride in 1984 to an Indian station by 2035 — memorise the rungs; BPSC loves "first Indian to..." one-liners.</p>
+
+  <div class="flowchart">
+    <div class="flow-node">1984 — Rakesh Sharma on Soviet Soyuz T-11 (1st Indian in space)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Jun 2025 — Shubhanshu Shukla, Axiom-4 (1st Indian on the ISS)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">2026 — Gaganyaan G-1, uncrewed, Vyommitra on HLVM3</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">2035 — Bharatiya Antariksh Station (BAS)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">2040 — Indian on the Moon</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📋</span> Fact Matrix — Item | Value | As-Of
+  </div>
+
+  <table>
+    <tr><th>Item</th><th>Value</th><th>As-Of Date</th></tr>
+    <tr><td><strong>100th launch from Sriharikota</strong></td><td>GSLV-F15 / NVS-02</td><td>Jan 29, 2025</td></tr>
+    <tr><td><strong>SpaDeX docking</strong></td><td>India = 4th nation to dock in space</td><td>Jan 16, 2025 (launched Dec 30, 2024, PSLV-C60)</td></tr>
+    <tr><td><strong>NISAR launch</strong></td><td>NASA-ISRO SAR (L+S band), GSLV-F16</td><td>Jul 30, 2025</td></tr>
+    <tr><td><strong>XPoSat</strong></td><td>1st Indian X-ray polarimeter (2nd globally)</td><td>Jan 1, 2024 (PSLV-C58)</td></tr>
+    <tr><td><strong>Aditya-L1 halo orbit</strong></td><td>Sun-Earth L1, ~1.5 million km away</td><td>Jan 6, 2024 (launched Sep 2, 2023, PSLV-C57)</td></tr>
+    <tr><td><strong>Chandrayaan-3 landing</strong></td><td>First near lunar south pole → National Space Day</td><td>Aug 23, 2023</td></tr>
+    <tr><td><strong>Shubhanshu Shukla, Axiom-4</strong></td><td>1st Indian on ISS; 2nd Indian in space</td><td>June 2025</td></tr>
+    <tr><td><strong>Gaganyaan G-1</strong></td><td>Uncrewed, Vyommitra humanoid, HLVM3</td><td>Slated 2026</td></tr>
+    <tr><td><strong>BAS / Indian on Moon</strong></td><td>Bharatiya Antariksh Station / crewed lunar</td><td>2035 / 2040 targets</td></tr>
+    <tr><td><strong>PSLV-C62</strong></td><td>Upper-stage anomaly; PSLV return-to-flight May 2026</td><td>Jan 2026</td></tr>
+    <tr><td><strong>ISRO chairman</strong></td><td>V. Narayanan (succeeded S. Somanath)</td><td>Since Jan 13, 2025</td></tr>
+    <tr><td><strong>IndiaAI Mission</strong></td><td>₹10,371.92 crore, 7 pillars</td><td>Approved Mar 2024</td></tr>
+    <tr><td><strong>India AI Impact Summit</strong></td><td>New Delhi; New Delhi Declaration, ~88 endorsers</td><td>Feb 16-20, 2026</td></tr>
+    <tr><td><strong>National Quantum Mission</strong></td><td>₹6,003.65 crore (2023-31)</td><td>Approved Apr 2023</td></tr>
+    <tr><td><strong>BioE3 Policy</strong></td><td>Biomanufacturing: Economy-Environment-Employment</td><td>Approved Aug 2024</td></tr>
+    <tr><td><strong>Genome India Project</strong></td><td>10,000 genomes sequenced</td><td>Dataset released 2025</td></tr>
+    <tr><td><strong>ANRF</strong></td><td>₹50,000 crore (2023-28); subsumes SERB</td><td>Act of 2023</td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔶</span> Bihar Connection
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">🏛️ Bihar &amp; Science-Tech — The Safe BPSC Angle</div>
+    <ul>
+      <li><strong>National Space Day (August 23):</strong> observed across Bihar's schools, colleges and science centres every year since 2024 (commemorating the Chandrayaan-3 landing) — ISRO outreach programmes, quizzes and model-rocket events run under the State Council of Science &amp; Technology.</li>
+      <li><strong>Shrikrishna Science Centre, Patna:</strong> established <strong>1978</strong> — the <strong>first regional science centre in India</strong> under the National Council of Science Museums (NCSM); named after Bihar's first Chief Minister, Dr. Shri Krishna Sinha.</li>
+      <li><strong>Indira Gandhi Science Complex (Patna Planetarium):</strong> among the largest and oldest planetariums in Asia — Patna's landmark for astronomy popularisation.</li>
+      <li><strong>Health research:</strong> <strong>AIIMS Patna</strong> (established 2012 under the Pradhan Mantri Swasthya Suraksha Yojana, Phase-I) is Bihar's apex tertiary-care and research institute; Bihar's immunization drive runs on the national <strong>U-WIN</strong> digital platform.</li>
+      <li><strong>Bihar students &amp; ISRO:</strong> Bihar's engineering and school students regularly feature in ISRO's student-satellite and YUVIKA (YUva VIgyani KAryakram) outreach programmes — the standard "ISRO connects with states" theme BPSC can frame as a statement question.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Cross-Topic Connections
+  </div>
+
+  <div class="cross-link">
+    <strong>↔ Topic #4 (Summits &amp; Groupings):</strong> The India AI Impact Summit (New Delhi, Feb 2026) and its New Delhi Declaration (~88 endorsers) belong on both pages — summit sequence Bletchley → Seoul → Paris → New Delhi. Space cooperation also features in G20/BRICS joint statements.<br>
+    <strong>↔ Topic #6 (Defence &amp; DRDO):</strong> Dual-use rocketry — LVM3/PSLV technology shares lineage with missile programmes; <strong>Mission Shakti (2019 A-SAT test)</strong> made India the 4th anti-satellite power; NavIC gives the armed forces a home-grown positioning system.<br>
+    <strong>↔ Topic #7 (Economy in News):</strong> India's space economy (~$8 bn, target $44 bn by 2033), Semiconductor Mission 2.0, the Budget 2026-27 <strong>Biopharma SHAKTI</strong> scheme (₹10,000 crore) and the IndiaAI compute push are all funded through the Union Budget.
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">📰</span> Current Relevance &amp; Potential Traps (2025–26 Cycle)
+  </div>
+  <ul>
+    <li><strong>Near-certain one-liner:</strong> "100th launch from Sriharikota" = <strong>GSLV-F15 carrying NVS-02</strong> (Jan 29, 2025). The 71st BPSC asked exactly this — answer "More than one of the above". Trap: "101st launch".</li>
+    <li><strong>SpaDeX facts:</strong> launched Dec 30, 2024 on <strong>PSLV-C60</strong>; docking on <strong>Jan 16, 2025</strong>; India = <strong>4th nation</strong> to dock (Russia, USA, China before). Don't swap the vehicle with GSLV-F15.</li>
+    <li><strong>NISAR:</strong> NASA-ISRO joint radar, <strong>L-band (NASA) + S-band (ISRO)</strong>, launched <strong>Jul 30, 2025 on GSLV-F16</strong> — the costliest Earth-imaging radar satellite; first GSLV to put a satellite in sun-synchronous polar orbit.</li>
+    <li><strong>Human spaceflight:</strong> Shukla (Ax-4, Jun 2025) = <strong>1st Indian on ISS</strong>, 2nd in space after Rakesh Sharma (1984). Gaganyaan G-1 (uncrewed, <strong>Vyommitra</strong>) slated 2026; BAS 2035; Indian on Moon 2040. Don't confuse "first Indian in space" with "first Indian on the ISS".</li>
+    <li><strong>2026 failure-trap:</strong> PSLV-C62 suffered an <strong>upper-stage anomaly (Jan 2026)</strong>; the workhorse returned to flight in <strong>May 2026</strong>. Also: first <strong>industry-built PSLV (HAL-L&amp;T)</strong> flew by early 2026 — both are fresh "what happened in 2026" bait.</li>
+    <li><strong>AI numbers to memorise:</strong> IndiaAI Mission <strong>₹10,371.92 cr (Mar 2024, 7 pillars)</strong>; National Quantum Mission <strong>₹6,003.65 cr (Apr 2023)</strong>; AI Impact Summit <strong>New Delhi, Feb 16-20, 2026</strong> (Paris hosted the 2025 AI Action Summit — 71st BPSC PYQ).</li>
+    <li><strong>Statics that never age:</strong> ISRO est. <strong>1969</strong> (founder Vikram Sarabhai, HQ Bengaluru); chairman <strong>V. Narayanan</strong> (since Jan 2025); Aryabhata 1975 (Soviet launch); SLV-3 1980 (Rohini, 6th spacefaring nation); Thumba 1963; NavIC = <strong>7 satellites</strong>; cryo engines CE-7.5 (GSLV Mk-II) vs CE-20 (LVM3).</li>
+  </ul>
+
+  <h3>🎯 Exam Predictions for 72nd BPSC</h3>
+  <div style="background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px;">
+    <strong style="color: #92400e;">📋 Top 5 Predictions (72nd BPSC — Science &amp; Tech):</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) SpaDeX docking (HIGH):</strong> "India became which nation to dock in space?" → 4th (after Russia, USA, China). Docking date: Jan 16, 2025 (PSLV-C60). Cross-link: <a href="subpages/8_isro_missions_detail.html" target="_blank" style="color:#e94560;">ISRO Detail →</a></li>
+      <li><strong>(2) Shubhanshu Shukla (HIGH):</strong> "Who was the first Indian on the ISS?" → Shubhanshu Shukla (Axiom-4, June 2025). 2nd Indian in space after Rakesh Sharma (1984). Don't confuse "in space" with "on ISS".</li>
+      <li><strong>(3) AI Impact Summit (MEDIUM):</strong> "Where was the India AI Impact Summit held in Feb 2026?" → New Delhi. First major AI summit in the Global South; New Delhi Declaration. Cross-link: <a href="4_summits_and_groupings.html" style="color:#e94560;">Topic 4 →</a></li>
+      <li><strong>(4) PSLV-C62 anomaly (MEDIUM):</strong> "What happened to PSLV-C62 in Jan 2026?" → Upper-stage anomaly; returned to flight May 2026. First industry-built PSLV (HAL-L&amp;T) also flew in early 2026.</li>
+      <li><strong>(5) IndiaAI Mission (LOW):</strong> "What is the outlay of IndiaAI Mission?" → ₹10,371.92 crore (Mar 2024, 7 pillars). National Quantum Mission = ₹6,003.65 crore (Apr 2023).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 7: INTERACTIVE MCQ PRACTICE SET (34 QUESTIONS) ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">✍️</span> MCQ Practice Set — 34 Questions (BPSC Level)
+  </div>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. What is true of the GSLV-F15 mission by ISRO? (71st BPSC pattern)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) It carried the NVS-02 satellite</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) It marked ISRO's 101st launch from Sriharikota</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) It marked ISRO's 100th launch from Sriharikota</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) More than one of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — Both (A) and (C) are true: GSLV-F15 (Jan 29, 2025) carried the 2nd-generation NavIC satellite NVS-02 and was the 100th launch from Sriharikota. (B) is the trap — it was the 100th, not the 101st.</div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. ISRO's SpaDeX mission successfully demonstrated space docking on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) December 30, 2024</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) January 16, 2025</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) February 20, 2025</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) March 15, 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — SpaDeX was launched on December 30, 2024 aboard PSLV-C60; the two satellites (SDX01 Chaser and SDX02 Target) docked on January 16, 2025.</div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. With the SpaDeX docking, India became which-numbered nation to demonstrate docking in space?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Second</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Third</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Fourth</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Fifth</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — India is the fourth nation to achieve space docking, after Russia (USSR), the United States and China.</div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Consider the following statements about NISAR:
+    <br>1. It is a joint mission of NASA and ISRO.
+    <br>2. It carries L-band and S-band synthetic aperture radars.
+    <br>3. It was launched aboard PSLV-C60.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 1 only</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — Statements 1 and 2 are correct (NASA provided the L-band radar, ISRO the S-band). Statement 3 is wrong: NISAR flew on GSLV-F16 (Jul 30, 2025); PSLV-C60 carried SpaDeX.</div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. XPoSat, launched on January 1, 2024, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) India's first dedicated X-ray polarimetry mission</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) A solar observatory at the L1 point</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) A navigation satellite of the NVS series</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) A crew-module test flight for Gaganyaan</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — XPoSat (PSLV-C58) is India's first X-ray polarimeter satellite — only the second such mission in the world after NASA's IXPE (2021). The solar observatory is Aditya-L1.</div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Consider the following statements about Aditya-L1:
+    <br>1. It was launched by PSLV-C57 on September 2, 2023.
+    <br>2. It sits in a halo orbit around the Sun-Earth Lagrange point 1, about 1.5 million km from Earth.
+    <br>3. It entered its halo orbit in January 2024.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 1, 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 1 only</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — All three are correct. Aditya-L1 is India's first solar observatory; its main payload VELC studies the solar corona. L1 gives an uninterrupted view of the Sun.</div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. National Space Day, celebrated on August 23 every year, commemorates:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) The launch of Aryabhata</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) The first sounding rocket from Thumba</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) The success of SLV-3</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Chandrayaan-3's landing on the Moon</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (D)</strong> — Chandrayaan-3's Vikram lander touched down near the lunar south pole on August 23, 2023; the day was declared National Space Day (first observed in 2024). The landing site is named Shiv Shakti Point.</div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Group Captain Shubhanshu Shukla's Axiom-4 mission (June 2025) is significant because he became:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) The first Indian to perform a spacewalk</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) The first Indian to travel to the International Space Station</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) The first Indian to orbit the Moon</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) The commander of Gaganyaan G-1</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (B)</strong> — Shukla, mission pilot of the private Axiom-4 flight, is the first Indian on the ISS and the second Indian in space after Rakesh Sharma (1984). The mission is a precursor to Gaganyaan.</div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The first Indian citizen to travel to space was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Rakesh Sharma, aboard the Soviet Soyuz T-11 in 1984</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Kalpana Chawla, aboard Columbia in 1997</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Sunita Williams, aboard Discovery in 2006</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Shubhanshu Shukla, aboard Crew Dragon in 2025</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Squadron Leader Rakesh Sharma flew to the Salyut-7 station under the Soviet Interkosmos programme (April 1984). Chawla and Williams are American astronauts of Indian origin — a classic BPSC trap.</div>
+  </div>
+
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. 'Vyommitra', recently in the news, is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) India's lunar rover for Chandrayaan-4</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) A reusable first stage of the NGLV</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) The half-humanoid robot flying on uncrewed Gaganyaan test missions</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) ISRO's quantum-communication satellite</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — Vyommitra (from 'Vyoma' = space, 'Mitra' = friend) is the female-looking half-humanoid that monitors crew-module parameters on the uncrewed Gaganyaan flights, beginning with G-1 slated for 2026.</div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. India's crewed Gaganyaan mission will be launched aboard:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) PSLV-XL</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) The human-rated LVM3 (HLVM3)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) GSLV Mk-II</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) SSLV</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (B)</strong> — The human-rated LVM3 (HLVM3) is the Gaganyaan launcher; its human-rating is complete and the TV-D1 flight (Oct 2023) validated the Crew Escape System.</div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. How many astronaut-designates for the Gaganyaan programme were announced in February 2024?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Two</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Three</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Four</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Six</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — Four IAF officers: Group Captains Prashanth Balakrishnan Nair, Ajit Krishnan, Angad Pratap and Shubhanshu Shukla (announced at VSSC, Thiruvananthapuram).</div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. As per ISRO's 2025-26 roadmap, the first uncrewed Gaganyaan mission (G-1):</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Is slated for 2026 with the humanoid Vyommitra on board</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Was already flown in December 2024</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Has been cancelled in favour of the BAS programme</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Will carry four astronauts to low-Earth orbit</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — G-1 is the first uncrewed test flight, planned for 2026 with Vyommitra; it heads a seven-launch sprint announced in Parliament (Dec 2025). Crewed flights follow after uncrewed validation.</div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. India targets setting up the Bharatiya Antariksh Station (BAS) by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 2028</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 2030</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 2032</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 2035</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — BAS by 2035; an Indian on the Moon by 2040. Both targets were announced in 2023 and the approved programme architecture (Chandrayaan-4, VOM, NGLV) feeds into them.</div>
+  </div>
+
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Match List-I (Mission/Programme) with List-II (Description):
+    <br>a) Chandrayaan-4 — 1) Venus mission, ~2028
+    <br>b) Venus Orbiter Mission — 2) Lunar sample-return, ~2027
+    <br>c) NGLV "Soorya" — 3) Approved reusable next-gen launch vehicle</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) a-1, b-2, c-3</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) a-2, b-1, c-3</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) a-3, b-2, c-1</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) a-2, b-3, c-1</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — Chandrayaan-4 = lunar sample return (~2027); Venus Orbiter Mission (Shukrayaan) ~2028; NGLV Soorya = the approved ~30t-class reusable rocket. All three were approved together in September 2024.</div>
+  </div>
+
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. What happened with PSLV-C62 in January 2026?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) It suffered an upper-stage anomaly; the PSLV returned to flight in May 2026 after corrective action</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) It carried the NISAR satellite successfully</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) It was ISRO's 100th launch from Sriharikota</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) It launched the uncrewed Gaganyaan G-1 mission</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — PSLV-C62 (Jan 2026) saw a rare upper-stage anomaly; ISRO Chairman V. Narayanan announced corrective actions and the workhorse returned to flight in May 2026. NISAR flew on GSLV-F16; the 100th launch was GSLV-F15.</div>
+  </div>
+
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. India's first industry-built PSLV is being produced by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) ISRO in-house at SDSC-SHAR</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) DRDO</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) A HAL–L&amp;T consortium under NSIL supervision</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) Skyroot Aerospace</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (C)</strong> — The HAL–L&amp;T consortium is building five PSLV-XL rockets overseen by NSIL; the first industry-built PSLV flew by early 2026 — a milestone in space-sector privatisation.</div>
+  </div>
+
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Match List-I (Launch Vehicle) with List-II (Payload Class):
+    <br>a) SSLV — 1) ~4,000 kg to GTO
+    <br>b) PSLV — 2) ~500 kg to LEO
+    <br>c) GSLV Mk-II — 3) ~1,750 kg to SSO
+    <br>d) LVM3 — 4) ~2,250 kg to GTO</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) a-2, b-3, c-4, d-1</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) a-3, b-2, c-4, d-1</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) a-2, b-4, c-3, d-1</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) a-1, b-3, c-4, d-2</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — The ladder: SSLV ~500 kg LEO; PSLV ~1,750 kg SSO; GSLV Mk-II ~2,250 kg GTO; LVM3 ~4,000 kg GTO (8-10 t LEO). Mnemonic: S-P-G-L, "500 to 8000".</div>
+  </div>
+
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The cryogenic upper stage (C25) of LVM3 is powered by which engine?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Vikas</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) CE-7.5</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Scramjet</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) CE-20</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — The CE-20 powers LVM3's C25 cryogenic stage; the smaller CE-7.5 powers GSLV Mk-II's CUS. Vikas is a liquid (non-cryogenic) engine used in PSLV/GSLV lower stages.</div>
+  </div>
+
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. NavIC (IRNSS) is best described as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) A regional constellation of 7 satellites covering India and up to ~1,500 km beyond its borders</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) A 24-satellite global navigation system</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) India's meteorological satellite constellation</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) A lunar navigation network</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — NavIC ("Navigation with Indian Constellation") has 7 satellites; the NVS series (NVS-01 in 2023, NVS-02 in Jan 2025 on the 100th-launch GSLV-F15) is its second generation. GPS (24 satellites) is the global American system.</div>
+  </div>
+
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Who is the Chairman of ISRO (as of mid-2026)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) S. Somanath</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) K. Sivan</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) V. Narayanan</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) A. S. Kiran Kumar</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (C)</strong> — V. Narayanan took charge as ISRO Chairman and Secretary, Department of Space, on January 13, 2025, succeeding S. Somanath.</div>
+  </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The Indian Space Research Organisation (ISRO) was established in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) 1947</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) 1969</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) 1972</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) 1975</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — ISRO was formed on August 15, 1969 under Dr. Vikram Sarabhai, superseding INCOSPAR (1962). The Department of Space and the Space Commission were created in 1972.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Aryabhata (1975) holds which distinction?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) India's first satellite — launched by the Soviet Union</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) India's first indigenous launch vehicle</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) The first Indian craft to reach the Moon</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) India's first remote-sensing satellite</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Aryabhata, India's first satellite, was launched on April 19, 1975 by a Soviet Kosmos-3M rocket from Kapustin Yar. India's own first orbital launch came with SLV-3 in 1980.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The SLV-3 flight of July 1980 made India:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) The fourth nation to dock in space</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) The first Asian nation to reach Mars</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) The third nation to soft-land on the Moon</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) The sixth nation to launch its own satellite into orbit (Rohini)</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (D)</strong> — SLV-3 (July 18, 1980) placed the Rohini RS-1 satellite in orbit, making India the sixth spacefaring nation. The project was led by Dr. A.P.J. Abdul Kalam.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Thumba (Kerala) is significant in India's space history because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) It is ISRO's headquarters</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) India's first sounding rocket was launched there in 1963; it hosts TERLS near the magnetic equator</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) It is India's main launch port</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) It manufactures cryogenic engines</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — The first sounding rocket (an American Nike-Apache) lifted off from Thumba on November 21, 1963; the Thumba Equatorial Rocket Launching Station sits near the magnetic equator. The main launch port is SDSC-SHAR, Sriharikota; ISRO HQ is Bengaluru.</div>
+  </div>
+
+  <!-- Q26 -->
+  <div class="mcq-block" id="q26">
+    <div class="mcq-q">Q26. The IndiaAI Mission, approved in March 2024, has a total outlay of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q26" value="a"> (A) ₹1,000 crore</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="b"> (B) ₹5,000 crore</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="c"> (C) ₹10,371.92 crore</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="d"> (D) ₹50,000 crore</label>
+    </div>
+    <div class="mcq-explanation" id="exp26">✅ <strong>Correct Answer: (C)</strong> — ₹10,371.92 crore over five years, across 7 pillars — including compute capacity (10,000+ GPUs), an innovation centre for indigenous models, datasets, applications, skills, startup financing and safe-AI frameworks.</div>
+  </div>
+
+  <!-- Q27 -->
+  <div class="mcq-block" id="q27">
+    <div class="mcq-q">Q27. The India AI Impact Summit of February 16-20, 2026 was notable because it was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q27" value="a"> (A) Held in New Delhi — the first major global AI summit hosted in the Global South</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="b"> (B) Held in Paris alongside the AI Action Summit</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="c"> (C) Held in Bengaluru, India's tech capital</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="d"> (D) A virtual-only summit convened by the UN</label>
+    </div>
+    <div class="mcq-explanation" id="exp27">✅ <strong>Correct Answer: (A)</strong> — New Delhi hosted the summit (Bharat Mandapam), the first of the global AI summit series in the Global South, adopting the New Delhi Declaration with around 88 endorsers. Paris hosted the 2025 edition.</div>
+  </div>
+
+  <!-- Q28 -->
+  <div class="mcq-block" id="q28">
+    <div class="mcq-q">Q28. In which city was the AI Action Summit held in February 2025? (71st BPSC PYQ)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q28" value="a"> (A) Bengaluru</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="b"> (B) Paris</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="c"> (C) Rome</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="d"> (D) More than one of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp28">✅ <strong>Correct Answer: (B)</strong> — Paris hosted the AI Action Summit (Feb 2025), co-chaired by PM Modi. Sequence to remember: Bletchley Park 2023 → Seoul 2024 → Paris 2025 → New Delhi 2026.</div>
+  </div>
+
+  <!-- Q29 -->
+  <div class="mcq-block" id="q29">
+    <div class="mcq-q">Q29. Consider the following statements about India's indigenous AI push:
+    <br>1. Sarvam AI was selected under the IndiaAI Mission to build foundational AI models.
+    <br>2. BharatGen's Param2 is a 17-billion-parameter multimodal model.
+    <br>3. AIRAWAT is an AI supercomputer installed at C-DAC, Pune.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q29" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp29">✅ <strong>Correct Answer: (D)</strong> — All three are correct. Together they represent India's sovereign AI stack: models (Sarvam, BharatGen) + compute (AIRAWAT, IndiaAI GPU tender).</div>
+  </div>
+
+  <!-- Q30 -->
+  <div class="mcq-block" id="q30">
+    <div class="mcq-q">Q30. The National Quantum Mission entails an outlay of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q30" value="a"> (A) ₹6,003.65 crore, approved in April 2023</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="b"> (B) ₹10,000 crore, approved in 2024</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="c"> (C) ₹50,000 crore, approved in 2023</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="d"> (D) ₹1,000 crore, approved in 2022</label>
+    </div>
+    <div class="mcq-explanation" id="exp30">✅ <strong>Correct Answer: (A)</strong> — The NQM (2023-31) targets 50-1,000 qubit quantum computers, satellite-based quantum communication and quantum sensing, through four thematic hubs. (₹50,000 crore is the ANRF outlay — keep the two apart.)</div>
+  </div>
+
+  <!-- Q31 -->
+  <div class="mcq-block" id="q31">
+    <div class="mcq-q">Q31. The BioE3 Policy, approved in August 2024, is centred on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q31" value="a"> (A) Biotechnology for Economy, Environment and Employment — high-performance biomanufacturing</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="b"> (B) Expansion of nuclear power generation</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="c"> (C) Space biotechnology experiments only</label>
+      <label class="mcq-option"><input type="radio" name="q31" value="d"> (D) Semiconductor fabrication incentives</label>
+    </div>
+    <div class="mcq-explanation" id="exp31">✅ <strong>Correct Answer: (A)</strong> — BioE3 = Biotechnology for Economy, Environment and Employment. Approved by the Union Cabinet in August 2024, it pushes biomanufacturing, bio-foundries and thematic verticals from smart proteins to precision biotherapeutics.</div>
+  </div>
+
+  <!-- Q32 -->
+  <div class="mcq-block" id="q32">
+    <div class="mcq-q">Q32. The Genome India Project is associated with:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q32" value="a"> (A) Sequencing 100 human genomes for cancer research</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="b"> (B) Completing the sequencing of 10,000 genomes from diverse Indian populations</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="c"> (C) Gene-editing of food crops</label>
+      <label class="mcq-option"><input type="radio" name="q32" value="d"> (D) A national COVID-19 surveillance network</label>
+    </div>
+    <div class="mcq-explanation" id="exp32">✅ <strong>Correct Answer: (B)</strong> — The Genome India Project (DBT-led, 20+ institutions) completed sequencing 10,000 genomes across India's diverse population groups; the dataset, released in 2025, anchors precision-medicine research.</div>
+  </div>
+
+  <!-- Q33 -->
+  <div class="mcq-block" id="q33">
+    <div class="mcq-q">Q33. Consider the following statements about the U-WIN portal of the Ministry of Health and Family Welfare (71st BPSC pattern):
+    <br>1. It digitises the Universal Immunization Programme on the CoWIN model.
+    <br>2. It provides QR-based e-vaccination certificates.
+    <br>3. It facilitates creation of Ayushman Bharat Health Accounts (ABHA) for parents and children.
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q33" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q33" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp33">✅ <strong>Correct Answer: (D)</strong> — All three are correct features of U-WIN, which replicates CoWIN for routine immunisation (pregnant women and children), with self-registration, QR e-certificates and ABHA integration.</div>
+  </div>
+
+  <!-- Q34 -->
+  <div class="mcq-block" id="q34">
+    <div class="mcq-q">Q34. Consider the following statements about the Anusandhan National Research Foundation (ANRF):
+    <br>1. It was established by an Act of Parliament in 2023.
+    <br>2. It has an outlay of ₹50,000 crore for 2023-28.
+    <br>3. It subsumes the Science and Engineering Research Board (SERB).
+    <br>Which of the statements given above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q34" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q34" value="b"> (B) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q34" value="c"> (C) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q34" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp34">✅ <strong>Correct Answer: (D)</strong> — All three are correct. The ANRF Act, 2023 created India's apex research-funding body (₹50,000 crore, 2023-28), subsuming SERB, to seed and fund research across universities and colleges.</div>
+  </div>
+
+  <!-- Check Buttons -->
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">✅ Check Answers</button>
+    <button class="reset-btn" id="resetBtn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+  </div>
+
+  <div class="score-display" id="scoreDisplay">
+    <div>Your Score</div>
+    <div class="score-num" id="scoreNum">0/34</div>
+    <div style="font-size:13px;margin-top:6px;opacity:0.8;" id="scoreMsg"></div>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header">
+    <span class="section-icon">🔗</span> Reference Links
+  </div>
+  <ul class="ref-list">
+    <li><a href="https://www.isro.gov.in" target="_blank">ISRO — Official Site</a> <span class="ref-desc">— Mission pages: SpaDeX (PSLV-C60), GSLV-F15/NVS-02 (100th launch), NISAR (GSLV-F16), Gaganyaan G-1 status, PSLV-C62 anomaly &amp; May 2026 return-to-flight.</span></li>
+    <li><a href="https://www.pib.gov.in" target="_blank">PIB — Gaganyaan &amp; Space Announcements</a> <span class="ref-desc">— 4 astronaut-designates (Feb 2024); TV-D1; BAS 2035 / Moon 2040; Chandrayaan-4, VOM and NGLV approvals (Sep 2024); 7-launch sprint by Mar 2026.</span></li>
+    <li><a href="https://www.inspace.gov.in" target="_blank">IN-SPACe</a> <span class="ref-desc">— Space-sector regulator/promoter (HQ Ahmedabad); Indian Space Policy 2023; private participation (Skyroot, Agnikul).</span></li>
+    <li><a href="https://www.nsilindia.co.in" target="_blank">NewSpace India Ltd (NSIL)</a> <span class="ref-desc">— Commercial arm; HAL–L&amp;T consortium building five industry PSLV-XLs; Proba-3 (ESA) commercial launch.</span></li>
+    <li><a href="https://indiaai.gov.in" target="_blank">IndiaAI Mission (MeitY)</a> <span class="ref-desc">— ₹10,371.92 crore, 7 pillars, GPU tender; India AI Impact Summit, New Delhi (Feb 16-20, 2026), New Delhi Declaration.</span></li>
+    <li><a href="https://dst.gov.in" target="_blank">DST — National Quantum Mission &amp; ANRF</a> <span class="ref-desc">— NQM ₹6,003.65 crore (Apr 2023); ANRF Act 2023, ₹50,000 crore, subsumes SERB.</span></li>
+    <li><a href="https://dbtindia.gov.in" target="_blank">DBT — BioE3 Policy &amp; Genome India</a> <span class="ref-desc">— BioE3 biomanufacturing policy (Aug 2024); Genome India 10,000 genomes dataset (2025).</span></li>
+    <li><a href="https://www.mohfw.gov.in" target="_blank">MoHFW — U-WIN Portal</a> <span class="ref-desc">— Universal Immunization Programme digitisation; QR e-certificates; ABHA integration (71st BPSC question source).</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #8: Science &amp; Tech in News | Template v2.2 (Quality Audited)<br>
+  📌 Cross-reference with Topics #4, #6, #7
+</div>
+
+<!-- ====== JAVASCRIPT: INTERACTIVE MCQ ====== -->
+<script>
+const answers = {
+  q1: 'd', q2: 'b', q3: 'c', q4: 'b', q5: 'a',
+  q6: 'c', q7: 'd', q8: 'b', q9: 'a', q10: 'c',
+  q11: 'b', q12: 'c', q13: 'a', q14: 'd', q15: 'b',
+  q16: 'a', q17: 'c', q18: 'a', q19: 'd', q20: 'a',
+  q21: 'c', q22: 'b', q23: 'a', q24: 'd', q25: 'b',
+  q26: 'c', q27: 'a', q28: 'b', q29: 'd', q30: 'a',
+  q31: 'a', q32: 'b', q33: 'd', q34: 'd'
+};
+
+function checkAnswers() {
+  let score = 0;
+  const total = Object.keys(answers).length;
+
+  for (const [qId, correct] of Object.entries(answers)) {
+    const block = document.getElementById(qId);
+    const selected = document.querySelector(`input[name="${qId}"]:checked`);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+
+    if (selected) {
+      if (selected.value === correct) {
+        score++;
+        block.classList.add('correct');
+        selected.closest('.mcq-option').classList.add('correct-option');
+      } else {
+        block.classList.add('wrong');
+        selected.closest('.mcq-option').classList.add('wrong-option');
+        block.querySelectorAll('.mcq-option').forEach(opt => {
+          const radio = opt.querySelector('input[type="radio"]');
+          if (radio.value === correct) {
+            opt.classList.add('correct-option');
+          }
+        });
+      }
+    } else {
+      block.classList.add('wrong');
+      block.querySelectorAll('.mcq-option').forEach(opt => {
+        const radio = opt.querySelector('input[type="radio"]');
+        if (radio.value === correct) {
+          opt.classList.add('correct-option');
+        }
+      });
+    }
+    explanation.classList.add('show');
+  }
+
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreNum = document.getElementById('scoreNum');
+  const scoreMsg = document.getElementById('scoreMsg');
+
+  scoreNum.textContent = score + '/' + total;
+  scoreDisplay.style.display = 'block';
+
+  const pct = Math.round((score / total) * 100);
+  if (pct >= 80) scoreMsg.textContent = '🎯 Outstanding! You have mastered Science & Tech in News!';
+  else if (pct >= 60) scoreMsg.textContent = '👍 Good job, but review the incorrect ones.';
+  else scoreMsg.textContent = '❗ Double check mission↔vehicle↔date pairs, the vehicle ladder, and scheme outlays.';
+
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  for (const qId of Object.keys(answers)) {
+    const block = document.getElementById(qId);
+    const explanation = document.getElementById('exp' + qId.replace('q', ''));
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => {
+      opt.classList.remove('correct-option', 'wrong-option');
+    });
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    explanation.classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<script src="_assets/navbar.js"></script>
+</body>
+</html>
