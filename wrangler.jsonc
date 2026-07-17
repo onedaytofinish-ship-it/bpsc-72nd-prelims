@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bpsc-72nd-prelims",
+  "compatibility_date": "2026-07-17",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "Topics"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
