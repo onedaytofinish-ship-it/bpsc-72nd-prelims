@@ -1,27 +1,327 @@
 [
-  {"q":"Who founded the Mauryan Empire?","options":["Chandragupta Maurya (c. 321 BCE)","Ashoka","Bimbisara","Mahapadma Nanda"],"answer":0,"explanation":"Chandragupta Maurya founded the Mauryan Empire c. 321 BCE by overthrowing the Nanda dynasty with the help of Chanakya (Kautilya). He established his capital at Pataliputra (Bihar).","difficulty":"pyq","pyq_ref":"69th p.12"},
-  {"q":"Who was the chief advisor and mentor of Chandragupta Maurya?","options":["Chanakya (Kautilya), author of the Arthashastra","Megasthenes","Seleucus Nicator","Bindusara"],"answer":0,"explanation":"Chanakya (also known as Kautilya or Vishnugupta) was Chandragupta's chief advisor. He wrote the Arthashastra (treatise on statecraft, economics, military strategy). He was a teacher at Takshashila University.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Mauryan capital was located at which city (in modern Bihar)?","options":["Pataliputra (modern Patna, Bihar)","Rajgir","Vaishali","Ujjain"],"answer":0,"explanation":"Pataliputra (modern Patna, Bihar) was the Mauryan capital. It was a magnificent city described by Megasthenes in his Indica. It was strategically located at the confluence of the Ganga and Son rivers.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Megasthenes, the Greek ambassador to the Mauryan court, was sent by which ruler?","options":["Seleucus Nicator (after the treaty with Chandragupta, c. 303 BCE)","Alexander the Great","Ptolemy","Antiochus"],"answer":0,"explanation":"Megasthenes was sent by Seleucus Nicator (Greek ruler of West Asia) to the court of Chandragupta Maurya after the treaty of c. 303 BCE. His work 'Indica' describes Pataliputra, Mauryan administration, and Indian society.","difficulty":"pyq","pyq_ref":"70th p.8"},
-  {"q":"The treaty between Chandragupta Maurya and Seleucus Nicator (c. 303 BCE) resulted in Chandragupta gaining which territories?","options":["Aria, Arachosia, Gedrosia (modern Afghanistan/Baluchistan) + 500 war elephants","The entire Persian Empire","Gandhara only","The Deccan"],"answer":0,"explanation":"After defeating Seleucus Nicator, Chandragupta received Aria, Arachosia, and Gedrosia (modern Afghanistan/Baluchistan) and gave 500 war elephants. Seleucus also sent Megasthenes as ambassador. The Mauryan Empire now extended to Afghanistan.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Who was the second Mauryan emperor, son of Chandragupta Maurya?","options":["Bindusara (c. 297-273 BCE)","Ashoka","Dasharatha","Kunala"],"answer":0,"explanation":"Bindusara (c. 297-273 BCE) was the second Mauryan emperor, son of Chandragupta. He extended the empire south to the Deccan. Greeks called him 'Amitrochates' (slayer of enemies). He maintained diplomatic ties with the Greek world.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Ashoka the Great ruled from which to which year (approximately)?","options":["c. 268-232 BCE","c. 321-297 BCE","c. 297-273 BCE","c. 232-200 BCE"],"answer":0,"explanation":"Ashoka the Great ruled c. 268-232 BCE (36 years). He was the third Mauryan emperor, son of Bindusara. His reign marked the peak of the Mauryan Empire — from Afghanistan to Bengal, Himalayas to Karnataka.","difficulty":"pyq","pyq_ref":"69th p.12"},
-  {"q":"The Kalinga War (c. 261 BCE) was fought by Ashoka in which modern state?","options":["Odisha (modern Odisha)","Bihar","Bengal","Andhra Pradesh"],"answer":0,"explanation":"The Kalinga War (c. 261 BCE) was fought in modern Odisha. Ashoka's victory was so bloody (~100,000 killed, 150,000 deported) that he renounced war and embraced Buddhism. This is recorded in his Rock Edict XIII.","difficulty":"pyq","pyq_ref":"71st p.12"},
-  {"q":"After the Kalinga War, Ashoka embraced Buddhism. Where did he go on Buddhist pilgrimage?","options":["Lumbini (birth of Buddha, Nepal) — as recorded in his Rummindei Pillar Edict","Bodh Gaya only","Sarnath only","Kushinagar only"],"answer":0,"explanation":"After Kalinga, Ashoka embraced Buddhism and went on a dhamma-yatra (righteous tour) to Lumbini (birthplace of the Buddha). His Rummindei Pillar Edict records his visit and tax exemption for Lumbini village (because the Buddha was born there).","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Ashoka's inscriptions (edicts) were written in which scripts?","options":["Brahmi, Kharoshthi, Greek, and Aramaic (depending on region)","Devanagari only","Sanskrit only","Pali only"],"answer":0,"explanation":"Ashoka's edicts were in Brahmi (most of India), Kharoshthi (Northwest, Afghanistan), Greek and Aramaic (Afghanistan, for Greek/Iranian subjects). The edicts were in Prakrit (the common language), not Sanskrit. Brahmi script was deciphered by James Prinsep in 1837.","difficulty":"pyq","pyq_ref":"70th p.8"},
-  {"q":"James Prinsep deciphered the Brahmi script in which year?","options":["1837","1857","1750","1900"],"answer":0,"explanation":"James Prinsep (a British East India Company official) deciphered the Brahmi script in 1837. He identified 'Devanamapiya Piyadasi' (Beloved of the Gods, Piyadasi) with Ashoka. This unlocked Ashoka's edicts and established Ashoka as a historical figure.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"How many Rock Edicts did Ashoka issue (the major Rock Edicts)?","options":["14 major Rock Edicts + 2 separate Kalinga Edicts","7","10","20"],"answer":0,"explanation":"Ashoka issued 14 major Rock Edicts + 2 separate Kalinga Edicts. These are found at ~40 sites across India, Pakistan, Afghanistan, and Nepal. The Rock Edicts cover dhamma, non-violence, tolerance, public welfare, and the Kalinga War (Edict XIII).","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Ashoka's Pillar Edicts (7 major) are found at which locations?","options":["Delhi-Topra, Delhi-Meerut, Lauriya-Araraj, Lauriya-Nandangarh, Rampurva, Sanchi, Sarnath, Lumbini, Rummindei","Only at Pataliputra","Only at Sarnath","Only at Delhi"],"answer":0,"explanation":"Ashoka's Pillar Edicts are at Delhi-Topra, Delhi-Meerut (transported by Firoz Shah Tughlaq), Lauriya-Araraj, Lauriya-Nandangarh, Rampurva (all in Bihar), Sanchi, Sarnath, Lumbini, Rummindei. Several are in Bihar! The Sarnath Pillar (four lions) is India's national emblem.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Which Ashokan pillar is the national emblem of India?","options":["The Sarnath Lion Capital (four lions, adopted as India's national emblem in 1950)","The Delhi-Topra pillar","The Lumbini pillar","The Rampurva pillar"],"answer":0,"explanation":"The Sarnath Lion Capital (four lions standing back to back, with a Dhamma Chakra on top) is India's national emblem (adopted 26 January 1950). The chakra (wheel) below the lions appears on India's national flag. The capital is now in the Sarnath Museum.","difficulty":"pyq","pyq_ref":"71st p.12"},
-  {"q":"Ashoka convened the Third Buddhist Council at which place?","options":["Pataliputra (Bihar, c. 250 BCE)","Rajgir","Vaishali","Kashmir"],"answer":0,"explanation":"Ashoka convened the Third Buddhist Council at Pataliputra (Bihar, c. 250 BCE). Presided by Moggaliputta Tissa. It compiled the Abhidhamma Pitaka (third basket of the Tripitaka) and sent Buddhist missionaries abroad — Buddhism became a world religion.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Ashoka sent his son and daughter as Buddhist missionaries to which country?","options":["Sri Lanka (Ceylon) — Mahendra (son) and Sanghamitra (daughter)","China","Tibet","Burma"],"answer":0,"explanation":"Ashoka sent his son Mahendra (Mahinda) and daughter Sanghamitra (Sanghamitta) to Sri Lanka (Ceylon) to spread Buddhism. Sanghamitra carried a sapling of the Bodhi tree from Bodh Gaya (Bihar) to Anuradhapura (Sri Lanka). Theravada Buddhism was established in Sri Lanka.","difficulty":"pyq","pyq_ref":"70th p.8"},
-  {"q":"The Mauryan Empire was divided into how many provinces for administration?","options":["Five provinces (Uttarapatha, Dakshinapatha, Avantiratha, Prachyapatha, Magadha/Magadha-desha)","Three provinces","Seven provinces","Two provinces"],"answer":0,"explanation":"The Mauryan Empire was divided into 5 provinces: Uttarapatha (North, capital Taxila), Dakshinapatha (South, capital Suvarnagiri), Avantiratha (West, capital Ujjain), Prachyapatha (East, capital Tosali), and the central province (capital Pataliputra). Each province was governed by a Kumar/Aryaputra (royal prince).","difficulty":"bpsc","pyq_ref":null},
-  {"q":"The Arthashastra, a treatise on statecraft and economics, was written by:","options":["Kautilya (Chanakya), Chandragupta Maurya's advisor","Megasthenes","Ashoka","Panini"],"answer":0,"explanation":"The Arthashastra was written by Kautilya (Chanakya). It covers statecraft, economics, military strategy, law, and administration. It describes the Mauryan administrative system (centralized, with 18 departments or tirthas). It was rediscovered in 1909 by R. Shamasastry.","difficulty":"pyq","pyq_ref":"69th p.12"},
-  {"q":"Megasthenes' work 'Indica' describes which Mauryan city in detail?","options":["Pataliputra (its administration, city plan, society, the royal palace)","Taxila","Ujjain","Kashmir"],"answer":0,"explanation":"Megasthenes' 'Indica' (c. 300 BCE) describes Pataliputra in detail: the city was 9 miles long, 1.5 miles wide, surrounded by a wooden wall with 570 towers and 64 gates. The royal palace was magnificent (influenced by Persian architecture). The administration had 6 boards of 5 members each (city council of 30).","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Chandragupta Maurya in his later years embraced which religion and where did he die?","options":["Jainism; he abdicated, became a Jain monk, and fasted to death at Shravanabelagola (Karnataka)","Buddhism at Bodh Gaya","Hinduism at Varanasi","Ajivika at Rajgir"],"answer":0,"explanation":"Chandragupta Maurya embraced Jainism in his later years (influenced by Bhadrabahu, a Jain monk). He abdicated the throne in favor of his son Bindusara, became a Jain monk, and traveled to Shravanabelagola (Karnataka). He performed Sallekhana (ritual fasting to death) ~297 BCE.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"The Mauryan Empire declined after Ashoka's death (c. 232 BCE). The last Mauryan emperor was killed by whom?","options":["Pushyamitra Shunga (who founded the Shunga dynasty, c. 185 BCE)","Kanishka","Demetrius","Mahapadma Nanda"],"answer":0,"explanation":"The last Mauryan emperor, Brihadratha, was killed by his general Pushyamitra Shunga (c. 185 BCE), who then founded the Shunga dynasty. The Mauryan Empire lasted ~137 years (321-185 BCE). Causes of decline: weak successors, decentralized administration, financial crisis, Brahminical reaction against Buddhism.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Ashoka's Dhamma (Dharma) was a secular code of conduct. Which of the following is NOT a principle of Ashoka's Dhamma?","options":["Animal sacrifice (Ashoka prohibited animal sacrifices)","Non-violence (ahimsa)","Tolerance of all religions","Respect for parents and teachers"],"answer":0,"explanation":"Ashoka's Dhamma was a secular moral code: non-violence (ahimsa), tolerance of all religions, respect for parents, teachers, and Brahmins, welfare of citizens, moderation, truthfulness, compassion. Ashoka PROHIBITED animal sacrifices (samaja) and hunting for sport. So animal sacrifice is NOT a principle — it was banned.","difficulty":"tricky","pyq_ref":null},
-  {"q":"Which of the following is NOT a major Ashokan inscription site in Bihar?","options":["Sanchi (in Madhya Pradesh, NOT Bihar)","Lauriya-Araraj (Bihar)","Lauriya-Nandangarh (Bihar)","Rampurva (Bihar)"],"answer":0,"explanation":"Sanchi is in Madhya Pradesh, NOT Bihar. Major Ashokan sites in Bihar: Lauriya-Araraj, Lauriya-Nandangarh, Rampurva (all pillars in West Champaran). Other Bihar sites: Bodh Gaya (rock edict), Rajgir (Brahmi inscription), Barabar caves (donated to Ajivikas). Bihar was the heartland of the Mauryan Empire.","difficulty":"tricky","pyq_ref":null},
-  {"q":"The Barabar Caves (near Gaya, Bihar) were donated by Ashoka to which religious sect?","options":["The Ajivikas (an ascetic sect founded by Makkhali Gosala)","Buddhists only","Jains only","Brahmins only"],"answer":0,"explanation":"The Barabar Caves (near Gaya, Bihar) — the oldest rock-cut caves in India — were donated by Ashoka to the Ajivikas (an ascetic sect founded by Makkhali Gosala, a contemporary of Buddha and Mahavira). The Ajivikas believed in niyati (destiny/fate) — that all events are predestined. Ashoka's grandson Dasharatha also donated caves to the Ajivikas at Nagarjuna hills.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Which Ashokan edict specifically mentions the Kalinga War and his remorse?","options":["Rock Edict XIII (the 13th major Rock Edict)","Rock Edict I","Pillar Edict VII","Minor Rock Edict I"],"answer":0,"explanation":"Rock Edict XIII specifically describes the Kalinga War (c. 261 BCE): '150,000 were deported, 100,000 were killed, and many more died.' Ashoka expressed deep remorse: 'If one does wrong, even the gods will be displeased.' He resolved to practice Dhamma-vijaya (moral conquest) instead of war.","difficulty":"pyq","pyq_ref":"71st p.12"}
+  {
+    "q": "Who founded the Mauryan Empire?",
+    "options": [
+      "Bimbisara",
+      "Mahapadma Nanda",
+      "Chandragupta Maurya (c. 321 BCE)",
+      "Ashoka"
+    ],
+    "answer": 2,
+    "explanation": "Chandragupta Maurya founded the Mauryan Empire c. 321 BCE by overthrowing the Nanda dynasty with the help of Chanakya (Kautilya). He established his capital at Pataliputra (Bihar).",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.12"
+  },
+  {
+    "q": "Who was the chief advisor and mentor of Chandragupta Maurya?",
+    "options": [
+      "Bindusara",
+      "Chanakya (Kautilya), author of the Arthashastra",
+      "Megasthenes",
+      "Seleucus Nicator"
+    ],
+    "answer": 1,
+    "explanation": "Chanakya (also known as Kautilya or Vishnugupta) was Chandragupta's chief advisor. He wrote the Arthashastra (treatise on statecraft, economics, military strategy). He was a teacher at Takshashila University.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Mauryan capital was located at which city (in modern Bihar)?",
+    "options": [
+      "Ujjain",
+      "Vaishali",
+      "Pataliputra (modern Patna, Bihar)",
+      "Rajgir"
+    ],
+    "answer": 2,
+    "explanation": "Pataliputra (modern Patna, Bihar) was the Mauryan capital. It was a magnificent city described by Megasthenes in his Indica. It was strategically located at the confluence of the Ganga and Son rivers.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Megasthenes, the Greek ambassador to the Mauryan court, was sent by which ruler?",
+    "options": [
+      "Seleucus Nicator (after the treaty with Chandragupta, c. 303 BCE)",
+      "Ptolemy",
+      "Alexander the Great",
+      "Antiochus"
+    ],
+    "answer": 0,
+    "explanation": "Megasthenes was sent by Seleucus Nicator (Greek ruler of West Asia) to the court of Chandragupta Maurya after the treaty of c. 303 BCE. His work 'Indica' describes Pataliputra, Mauryan administration, and Indian society.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.8"
+  },
+  {
+    "q": "The treaty between Chandragupta Maurya and Seleucus Nicator (c. 303 BCE) resulted in Chandragupta gaining which territories?",
+    "options": [
+      "The Deccan",
+      "Gandhara only",
+      "The entire Persian Empire",
+      "Aria, Arachosia, Gedrosia (modern Afghanistan/Baluchistan) + 500 war elephants"
+    ],
+    "answer": 3,
+    "explanation": "After defeating Seleucus Nicator, Chandragupta received Aria, Arachosia, and Gedrosia (modern Afghanistan/Baluchistan) and gave 500 war elephants. Seleucus also sent Megasthenes as ambassador. The Mauryan Empire now extended to Afghanistan.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the second Mauryan emperor, son of Chandragupta Maurya?",
+    "options": [
+      "Bindusara (c. 297-273 BCE)",
+      "Ashoka",
+      "Dasharatha",
+      "Kunala"
+    ],
+    "answer": 0,
+    "explanation": "Bindusara (c. 297-273 BCE) was the second Mauryan emperor, son of Chandragupta. He extended the empire south to the Deccan. Greeks called him 'Amitrochates' (slayer of enemies). He maintained diplomatic ties with the Greek world.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Ashoka the Great ruled from which to which year (approximately)?",
+    "options": [
+      "c. 297-273 BCE",
+      "c. 321-297 BCE",
+      "c. 232-200 BCE",
+      "c. 268-232 BCE"
+    ],
+    "answer": 3,
+    "explanation": "Ashoka the Great ruled c. 268-232 BCE (36 years). He was the third Mauryan emperor, son of Bindusara. His reign marked the peak of the Mauryan Empire — from Afghanistan to Bengal, Himalayas to Karnataka.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.12"
+  },
+  {
+    "q": "The Kalinga War (c. 261 BCE) was fought by Ashoka in which modern state?",
+    "options": [
+      "Odisha (modern Odisha)",
+      "Andhra Pradesh",
+      "Bengal",
+      "Bihar"
+    ],
+    "answer": 0,
+    "explanation": "The Kalinga War (c. 261 BCE) was fought in modern Odisha. Ashoka's victory was so bloody (~100,000 killed, 150,000 deported) that he renounced war and embraced Buddhism. This is recorded in his Rock Edict XIII.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.12"
+  },
+  {
+    "q": "After the Kalinga War, Ashoka embraced Buddhism. Where did he go on Buddhist pilgrimage?",
+    "options": [
+      "Sarnath only",
+      "Bodh Gaya only",
+      "Kushinagar only",
+      "Lumbini (birth of Buddha, Nepal) — as recorded in his Rummindei Pillar Edict"
+    ],
+    "answer": 3,
+    "explanation": "After Kalinga, Ashoka embraced Buddhism and went on a dhamma-yatra (righteous tour) to Lumbini (birthplace of the Buddha). His Rummindei Pillar Edict records his visit and tax exemption for Lumbini village (because the Buddha was born there).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Ashoka's inscriptions (edicts) were written in which scripts?",
+    "options": [
+      "Brahmi, Kharoshthi, Greek, and Aramaic (depending on region)",
+      "Devanagari only",
+      "Pali only",
+      "Sanskrit only"
+    ],
+    "answer": 0,
+    "explanation": "Ashoka's edicts were in Brahmi (most of India), Kharoshthi (Northwest, Afghanistan), Greek and Aramaic (Afghanistan, for Greek/Iranian subjects). The edicts were in Prakrit (the common language), not Sanskrit. Brahmi script was deciphered by James Prinsep in 1837.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.8"
+  },
+  {
+    "q": "James Prinsep deciphered the Brahmi script in which year?",
+    "options": [
+      "1857",
+      "1837",
+      "1750",
+      "1900"
+    ],
+    "answer": 1,
+    "explanation": "James Prinsep (a British East India Company official) deciphered the Brahmi script in 1837. He identified 'Devanamapiya Piyadasi' (Beloved of the Gods, Piyadasi) with Ashoka. This unlocked Ashoka's edicts and established Ashoka as a historical figure.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "How many Rock Edicts did Ashoka issue (the major Rock Edicts)?",
+    "options": [
+      "7",
+      "14 major Rock Edicts + 2 separate Kalinga Edicts",
+      "10",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "Ashoka issued 14 major Rock Edicts + 2 separate Kalinga Edicts. These are found at ~40 sites across India, Pakistan, Afghanistan, and Nepal. The Rock Edicts cover dhamma, non-violence, tolerance, public welfare, and the Kalinga War (Edict XIII).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Ashoka's Pillar Edicts (7 major) are found at which locations?",
+    "options": [
+      "Only at Delhi",
+      "Only at Pataliputra",
+      "Delhi-Topra, Delhi-Meerut, Lauriya-Araraj, Lauriya-Nandangarh, Rampurva, Sanchi, Sarnath, Lumbini, Rummindei",
+      "Only at Sarnath"
+    ],
+    "answer": 2,
+    "explanation": "Ashoka's Pillar Edicts are at Delhi-Topra, Delhi-Meerut (transported by Firoz Shah Tughlaq), Lauriya-Araraj, Lauriya-Nandangarh, Rampurva (all in Bihar), Sanchi, Sarnath, Lumbini, Rummindei. Several are in Bihar! The Sarnath Pillar (four lions) is India's national emblem.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Ashokan pillar is the national emblem of India?",
+    "options": [
+      "The Delhi-Topra pillar",
+      "The Rampurva pillar",
+      "The Lumbini pillar",
+      "The Sarnath Lion Capital (four lions, adopted as India's national emblem in 1950)"
+    ],
+    "answer": 3,
+    "explanation": "The Sarnath Lion Capital (four lions standing back to back, with a Dhamma Chakra on top) is India's national emblem (adopted 26 January 1950). The chakra (wheel) below the lions appears on India's national flag. The capital is now in the Sarnath Museum.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.12"
+  },
+  {
+    "q": "Ashoka convened the Third Buddhist Council at which place?",
+    "options": [
+      "Kashmir",
+      "Pataliputra (Bihar, c. 250 BCE)",
+      "Rajgir",
+      "Vaishali"
+    ],
+    "answer": 1,
+    "explanation": "Ashoka convened the Third Buddhist Council at Pataliputra (Bihar, c. 250 BCE). Presided by Moggaliputta Tissa. It compiled the Abhidhamma Pitaka (third basket of the Tripitaka) and sent Buddhist missionaries abroad — Buddhism became a world religion.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Ashoka sent his son and daughter as Buddhist missionaries to which country?",
+    "options": [
+      "Sri Lanka (Ceylon) — Mahendra (son) and Sanghamitra (daughter)",
+      "China",
+      "Burma",
+      "Tibet"
+    ],
+    "answer": 0,
+    "explanation": "Ashoka sent his son Mahendra (Mahinda) and daughter Sanghamitra (Sanghamitta) to Sri Lanka (Ceylon) to spread Buddhism. Sanghamitra carried a sapling of the Bodhi tree from Bodh Gaya (Bihar) to Anuradhapura (Sri Lanka). Theravada Buddhism was established in Sri Lanka.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.8"
+  },
+  {
+    "q": "The Mauryan Empire was divided into how many provinces for administration?",
+    "options": [
+      "Two provinces",
+      "Three provinces",
+      "Seven provinces",
+      "Five provinces (Uttarapatha, Dakshinapatha, Avantiratha, Prachyapatha, Magadha/Magadha-desha)"
+    ],
+    "answer": 3,
+    "explanation": "The Mauryan Empire was divided into 5 provinces: Uttarapatha (North, capital Taxila), Dakshinapatha (South, capital Suvarnagiri), Avantiratha (West, capital Ujjain), Prachyapatha (East, capital Tosali), and the central province (capital Pataliputra). Each province was governed by a Kumar/Aryaputra (royal prince).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Arthashastra, a treatise on statecraft and economics, was written by:",
+    "options": [
+      "Kautilya (Chanakya), Chandragupta Maurya's advisor",
+      "Megasthenes",
+      "Panini",
+      "Ashoka"
+    ],
+    "answer": 0,
+    "explanation": "The Arthashastra was written by Kautilya (Chanakya). It covers statecraft, economics, military strategy, law, and administration. It describes the Mauryan administrative system (centralized, with 18 departments or tirthas). It was rediscovered in 1909 by R. Shamasastry.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.12"
+  },
+  {
+    "q": "Megasthenes' work 'Indica' describes which Mauryan city in detail?",
+    "options": [
+      "Pataliputra (its administration, city plan, society, the royal palace)",
+      "Kashmir",
+      "Taxila",
+      "Ujjain"
+    ],
+    "answer": 0,
+    "explanation": "Megasthenes' 'Indica' (c. 300 BCE) describes Pataliputra in detail: the city was 9 miles long, 1.5 miles wide, surrounded by a wooden wall with 570 towers and 64 gates. The royal palace was magnificent (influenced by Persian architecture). The administration had 6 boards of 5 members each (city council of 30).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Chandragupta Maurya in his later years embraced which religion and where did he die?",
+    "options": [
+      "Hinduism at Varanasi",
+      "Ajivika at Rajgir",
+      "Jainism; he abdicated, became a Jain monk, and fasted to death at Shravanabelagola (Karnataka)",
+      "Buddhism at Bodh Gaya"
+    ],
+    "answer": 2,
+    "explanation": "Chandragupta Maurya embraced Jainism in his later years (influenced by Bhadrabahu, a Jain monk). He abdicated the throne in favor of his son Bindusara, became a Jain monk, and traveled to Shravanabelagola (Karnataka). He performed Sallekhana (ritual fasting to death) ~297 BCE.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Mauryan Empire declined after Ashoka's death (c. 232 BCE). The last Mauryan emperor was killed by whom?",
+    "options": [
+      "Kanishka",
+      "Pushyamitra Shunga (who founded the Shunga dynasty, c. 185 BCE)",
+      "Demetrius",
+      "Mahapadma Nanda"
+    ],
+    "answer": 1,
+    "explanation": "The last Mauryan emperor, Brihadratha, was killed by his general Pushyamitra Shunga (c. 185 BCE), who then founded the Shunga dynasty. The Mauryan Empire lasted ~137 years (321-185 BCE). Causes of decline: weak successors, decentralized administration, financial crisis, Brahminical reaction against Buddhism.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Ashoka's Dhamma (Dharma) was a secular code of conduct. Which of the following is NOT a principle of Ashoka's Dhamma?",
+    "options": [
+      "Respect for parents and teachers",
+      "Animal sacrifice (Ashoka prohibited animal sacrifices)",
+      "Non-violence (ahimsa)",
+      "Tolerance of all religions"
+    ],
+    "answer": 1,
+    "explanation": "Ashoka's Dhamma was a secular moral code: non-violence (ahimsa), tolerance of all religions, respect for parents, teachers, and Brahmins, welfare of citizens, moderation, truthfulness, compassion. Ashoka PROHIBITED animal sacrifices (samaja) and hunting for sport. So animal sacrifice is NOT a principle — it was banned.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT a major Ashokan inscription site in Bihar?",
+    "options": [
+      "Rampurva (Bihar)",
+      "Sanchi (in Madhya Pradesh, NOT Bihar)",
+      "Lauriya-Araraj (Bihar)",
+      "Lauriya-Nandangarh (Bihar)"
+    ],
+    "answer": 1,
+    "explanation": "Sanchi is in Madhya Pradesh, NOT Bihar. Major Ashokan sites in Bihar: Lauriya-Araraj, Lauriya-Nandangarh, Rampurva (all pillars in West Champaran). Other Bihar sites: Bodh Gaya (rock edict), Rajgir (Brahmi inscription), Barabar caves (donated to Ajivikas). Bihar was the heartland of the Mauryan Empire.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Barabar Caves (near Gaya, Bihar) were donated by Ashoka to which religious sect?",
+    "options": [
+      "The Ajivikas (an ascetic sect founded by Makkhali Gosala)",
+      "Buddhists only",
+      "Jains only",
+      "Brahmins only"
+    ],
+    "answer": 0,
+    "explanation": "The Barabar Caves (near Gaya, Bihar) — the oldest rock-cut caves in India — were donated by Ashoka to the Ajivikas (an ascetic sect founded by Makkhali Gosala, a contemporary of Buddha and Mahavira). The Ajivikas believed in niyati (destiny/fate) — that all events are predestined. Ashoka's grandson Dasharatha also donated caves to the Ajivikas at Nagarjuna hills.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Ashokan edict specifically mentions the Kalinga War and his remorse?",
+    "options": [
+      "Rock Edict XIII (the 13th major Rock Edict)",
+      "Pillar Edict VII",
+      "Rock Edict I",
+      "Minor Rock Edict I"
+    ],
+    "answer": 0,
+    "explanation": "Rock Edict XIII specifically describes the Kalinga War (c. 261 BCE): '150,000 were deported, 100,000 were killed, and many more died.' Ashoka expressed deep remorse: 'If one does wrong, even the gods will be displeased.' He resolved to practice Dhamma-vijaya (moral conquest) instead of war.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.12"
+  }
 ]

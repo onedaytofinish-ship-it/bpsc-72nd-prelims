@@ -1,27 +1,327 @@
 [
-  {"q":"The Home Rule Movement in India was started by whom and in which year?","options":["Annie Besant and Tilak, 1916","Gandhi, 1917","Tilak alone, 1914","Annie Besant alone, 1915"],"answer":0,"explanation":"The Home Rule Movement was started in 1916 by two separate leagues: (1) Bal Gangadhar Tilak started his Home Rule League in April 1916 (Belgaum, HQ at Poona); (2) Annie Besant started her Home Rule League in September 1916 (Madras). Both demanded self-government (Home Rule) for India within the British Empire. The movement revived nationalist activity after the lull following the 1907 Surat Split.","difficulty":"pyq","pyq_ref":"71st BPSC PYQ (Annie Besant visited Bihar 1918 for Home Rule)"},
-  {"q":"Who among the following visited Bihar in 1918 to strengthen the Home Rule League activities? (71st BPSC PYQ)","options":["B.G. Tilak","Annie Besant","Mahatma Gandhi","M.A. Ansari"],"answer":1,"explanation":"Annie Besant visited Bihar in 1918 to strengthen the activities of the Home Rule League (71st BPSC PYQ — direct question). She was the leader of the Congress and presided over its 1917 Calcutta session (first woman President). Her Bihar visit energised the Home Rule branches in Patna, Muzaffarpur, and Bhagalpur.","difficulty":"pyq","pyq_ref":"71st BPSC PYQ p26 Q81"},
-  {"q":"Tilak's Home Rule League was headquartered at which place?","options":["Poona","Bombay","Calcutta","Madras"],"answer":0,"explanation":"Tilak's Home Rule League (April 1916) was headquartered at Poona (Pune). It covered Maharashtra, Karnataka, Berar, and CP. Annie Besant's League (September 1916, Madras) covered the rest of India. The two leagues agreed to work separately but cooperatively — Tilak in the west, Besant in the rest of India.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Lucknow Pact (1916) was an agreement between which two parties?","options":["Indian National Congress and the Muslim League","Indian National Congress and the British government","Muslim League and the British government","Hindu Mahasabha and the Muslim League"],"answer":0,"explanation":"The Lucknow Pact (1916) was an agreement between the Indian National Congress and the All India Muslim League at the Lucknow INC session (December 1916). It was the high-water mark of Hindu-Muslim political unity before 1947. The Pact was mainly engineered by Tilak (from the Congress side) and Muhammad Ali Jinnah (then a Congressman-Nationalist, from the League side).","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Lucknow Pact (1916) accepted which of the following key Muslim demands?","options":["Separate electorates for Muslims","One-third Muslim representation in legislatures","Both (A) and (B)","Abolition of separate electorates"],"answer":2,"explanation":"The Lucknow Pact (1916) accepted key Muslim demands: (1) Separate electorates for Muslims (already in place since 1909); (2) One-third Muslim representation in all legislatures (a new concession); (3) No Muslim bill could be passed if 3/4 of Muslim members opposed it (a de facto communal veto). In return, the Muslim League agreed to the Congress's demand for self-government.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The 1916 Lucknow INC session achieved which historic feat besides the Lucknow Pact?","options":["Reunification of Moderates and Extremists (split since 1907)","Demand for Purna Swaraj (complete independence)","Launch of the Non-Cooperation Movement","Adoption of the tricolour flag"],"answer":0,"explanation":"The 1916 Lucknow INC session achieved two historic things: (1) Reunification of Moderates and Extremists (split since the 1907 Surat Split — 9 years earlier). Tilak returned from Mandalay (released 1914) and was welcomed back into the INC. (2) The Lucknow Pact between the INC and the Muslim League. The session was presided over by Ambika Charan Mazumdar.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who presided over the 1916 Lucknow session of the INC?","options":["Ambika Charan Mazumdar","Annie Besant","Tilak","Motilal Nehru"],"answer":0,"explanation":"Ambika Charan Mazumdar presided over the 1916 Lucknow INC session. He was a Moderate Bengali leader. The session achieved two historic things: (1) the reunification of Moderates and Extremists (since 1907 Surat Split); (2) the Lucknow Pact with the Muslim League. Tilak and Jinnah were the architects of the Pact but not the session President.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Tilak's famous slogan 'Swaraj is my birthright, and I shall have it' was associated with which movement?","options":["Home Rule Movement","Swadeshi Movement","Non-Cooperation Movement","Quit India Movement"],"answer":0,"explanation":"Tilak's slogan 'Swaraj is my birthright, and I shall have it' (Swarajya maza janmasiddha hakka aahe) was central to the Home Rule Movement (1916). He founded his Home Rule League in April 1916 with this demand. The slogan had been coined earlier (during the Swadeshi era) but became the rallying cry of the Home Rule Movement.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Annie Besant was the first woman President of the INC. Which year did she preside?","options":["1915","1916","1917","1918"],"answer":2,"explanation":"Annie Besant presided over the 1917 Calcutta session of the INC — making her the first woman President. She was a British-born Theosophist who joined the Indian nationalist movement. She founded the Home Rule League (September 1916) and the Central Hindu College (Banaras, 1898 — later became BHU). The 71st BPSC PYQ noted she 'presided over its 1917 session'.","difficulty":"pyq","pyq_ref":"71st BPSC PYQ p51"},
-  {"q":"The Home Rule Movement was launched during the First World War. What was the political context?","options":["The British was preoccupied with WWI and Indians saw an opportunity for concessions","The British had promised independence after the war","The war had caused economic hardship in India","The British had imposed martial law"],"answer":0,"explanation":"The Home Rule Movement (1916) was launched during WWI. The political context: the British was preoccupied with WWI (1914-1918), and Indian nationalists saw an opportunity to press for self-government (Home Rule). The British needed Indian support (troops, resources) for the war effort, making them potentially more willing to concede. The Irish Home Rule Movement was a parallel inspiration.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Which of the following was NOT a feature of the Home Rule Movement?","options":["Demand for self-government (Home Rule) within the British Empire","Use of newspapers and journals for propaganda","Mass mobilisation through public meetings and libraries","Demand for complete independence (Purna Swaraj)"],"answer":3,"explanation":"The Home Rule Movement did NOT demand complete independence (Purna Swaraj). It demanded self-government (Home Rule) within the British Empire — dominion status, like Canada and Australia. Complete independence (Purna Swaraj) was not demanded until the 1929 Lahore session. The Home Rule Movement used newspapers (Besant's 'New India', 'Commonweal'; Tilak's 'Kesari', 'Mahratta') and set up libraries and reading rooms for propaganda.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who among the following was the chief architect of the Lucknow Pact from the Muslim League side?","options":["Muhammad Ali Jinnah","Sir Aga Khan","Maulana Muhammad Ali","Nawab Salimullah"],"answer":0,"explanation":"Muhammad Ali Jinnah (1876-1948) was the chief architect of the Lucknow Pact from the Muslim League side. At that time (1916), Jinnah was a member of BOTH the Congress and the Muslim League — he was a Nationalist, not yet a separatist. He later became the leader of the Pakistan Movement (from 1930s) and the 'Quaid-e-Azam'. Tilak was the architect from the Congress side.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Home Rule Movement declined after which event in 1918-1919?","options":["Annie Besant's arrest and the Montagu Declaration (1917)","Tilak's departure to England","Gandhi's arrival in India","The Surat Split"],"answer":0,"explanation":"The Home Rule Movement declined after (1) Annie Besant's arrest (June 1917, released August 1917) which drew attention but also weakened the movement; (2) the Montagu Declaration (August 1917) which promised 'gradual development of self-governing institutions' — this took the wind out of the Home Rule sails as it seemed the British were conceding. The movement also declined because Tilak went to England (1918-1919) for a libel case. Gandhi's arrival and the Rowlatt Satyagraha (1919) then took over the nationalist baton.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"The Montagu Declaration of August 1917 promised what for India?","options":["Gradual development of self-governing institutions","Immediate independence","Dominion status immediately","Complete self-rule within a year"],"answer":0,"explanation":"The Montagu Declaration (August 20, 1917) by Edwin Montagu (Secretary of State for India) promised 'gradual development of self-governing institutions' in India. This was a British response to the Home Rule Movement's pressures. It was the first time the British government officially acknowledged the goal of self-government for India. It led to the Mont-Ford Reforms (Government of India Act 1919).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Consider the following about the Home Rule Movement: 1. Started by Tilak and Besant in 1916. 2. Demanded self-government within the Empire. 3. Annie Besant visited Bihar in 1918. Which is/are correct?","options":["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"],"answer":3,"explanation":"All three are correct: (1) The Home Rule Movement was started by Tilak (April 1916) and Besant (September 1916) as two separate leagues. (2) It demanded self-government (Home Rule) within the British Empire — NOT complete independence. (3) Annie Besant visited Bihar in 1918 to strengthen the Home Rule League (71st BPSC PYQ). The movement revived nationalism after the 1907 Surat Split lull.","difficulty":"tricky","pyq_ref":"71st BPSC PYQ (Besant visited Bihar 1918)"},
-  {"q":"Arrange in chronological order: 1. Home Rule Movement 2. Surat Split 3. Lucknow Pact 4. Montagu Declaration","options":["2, 1, 3, 4","2, 1, 4, 3","1, 2, 3, 4","2, 3, 1, 4"],"answer":0,"explanation":"Surat Split (1907) → Home Rule Movement (1916) → Lucknow Pact (December 1916) → Montagu Declaration (August 1917). The Surat Split weakened the INC; the Home Rule Movement (1916) revived it; the Lucknow Pact (1916) reunited Moderates and Extremists; the Montagu Declaration (1917) was the British response.","difficulty":"tricky","pyq_ref":null},
-  {"q":"Who among the following was NOT associated with the Home Rule Movement?","options":["Annie Besant","B.G. Tilak","Jawaharlal Nehru","Lord Curzon"],"answer":3,"explanation":"Lord Curzon (Viceroy 1899-1905) was NOT associated with the Home Rule Movement — he was the Viceroy who carried out the Bengal Partition (1905) and had left India by 1905. The Home Rule Movement (1916) was led by Annie Besant, B.G. Tilak, and included younger leaders like Jawaharlal Nehru and Motilal Nehru who joined the movement. Curzon was long gone by 1916.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Lucknow Pact of 1916 was signed at which INC session?","options":["1916 Lucknow session","1916 Bombay session","1915 Madras session","1917 Calcutta session"],"answer":0,"explanation":"The Lucknow Pact was signed at the 1916 Lucknow session of the INC (December 1916). The same session also achieved the reunification of Moderates and Extremists (since 1907). Ambika Charan Mazumdar presided. The Pact was between the INC and the Muslim League — with Tilak and Jinnah as the architects. The Pact established joint political demands and accepted Muslim separate electorates.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Which newspaper was started by Annie Besant to propagate the Home Rule Movement?","options":["New India and Commonweal","Kesari and Mahratta","Bande Mataram","Amrita Bazar Patrika"],"answer":0,"explanation":"Annie Besant started 'New India' (a daily) and 'Commonweal' (a weekly) to propagate the Home Rule Movement. Tilak used 'Kesari' (Marathi) and 'Mahratta' (English) for his league. Aurobindo had started 'Bande Mataram' in 1906 (Swadeshi era). The Home Rule newspapers were crucial in mobilising public opinion and spreading the message of self-government.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Bihar's connection with the Home Rule Movement was through:","options":["Annie Besant's 1918 visit to strengthen the Home Rule League","Tilak's visit to Bihar in 1916","Gandhi's Home Rule campaign in Bihar","The Champaran Satyagraha of 1917"],"answer":0,"explanation":"Bihar's connection with the Home Rule Movement was through Annie Besant's 1918 visit to Bihar (71st BPSC PYQ). She visited to strengthen the Home Rule League branches in Bihar. The Home Rule League had branches in Patna, Muzaffarpur, and Bhagalpur. Her visit energised Bihar's nationalist circles. Tilak did not visit Bihar for Home Rule (he focused on western India).","difficulty":"pyq","pyq_ref":"71st BPSC PYQ (Annie Besant visited Bihar 1918)"},
-  {"q":"The Home Rule Movement influenced which later development in the nationalist movement?","options":["It paved the way for Gandhi's mass movements (1919 onwards)","It led directly to the Quit India Movement","It caused the Partition of India","It led to the formation of the Muslim League"],"answer":0,"explanation":"The Home Rule Movement (1916-1918) paved the way for Gandhi's mass movements (1919 onwards). It revived the nationalist spirit after the 1907 Surat Split lull, brought new younger leaders (Jawaharlal Nehru, Motilal Nehru) into politics, and demonstrated the potential for mass mobilisation. Gandhi's arrival (1915) and Champaran (1917) built on the Home Rule base. The movement's decline (1918) coincided with Gandhi's rise (1919 Rowlatt Satyagraha, 1920 Non-Cooperation).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who was released from Mandalay prison in 1914 and returned to lead the Home Rule Movement?","options":["Bal Gangadhar Tilak","Aurobindo Ghosh","Lala Lajpat Rai","Bipin Chandra Pal"],"answer":0,"explanation":"Bal Gangadhar Tilak was released from Mandalay prison in 1914 (after serving 6 years from 1908). He returned to nationalist politics and founded his Home Rule League in April 1916. He was the key figure in the reunification of Moderates and Extremists at the 1916 Lucknow session, and the chief architect of the Lucknow Pact from the Congress side. He died in 1920.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Lucknow Pact (1916) is significant because it:","options":["Achieved Congress-League unity — the high-water mark of Hindu-Muslim political cooperation","Led to the partition of India","Ended the Home Rule Movement","Caused the Surat Split"],"answer":0,"explanation":"The Lucknow Pact (1916) is significant because it achieved Congress-League unity — the high-water mark of Hindu-Muslim political cooperation before 1947. The INC accepted Muslim demands (separate electorates, one-third representation) and the League accepted the Congress's demand for self-government. This unity would not last — by the late 1920s, the two parties diverged, culminating in the Pakistan demand (1940) and Partition (1947).","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Home Rule Leagues of Tilak and Besant differed in their geographical coverage. Which statement is correct?","options":["Tilak covered Maharashtra/Karnataka/CP; Besant covered the rest of India","Tilak covered all of India; Besant covered only Madras","Besant covered all of India; Tilak covered only Poona","Both covered the entire country jointly"],"answer":0,"explanation":"Tilak's Home Rule League (April 1916) covered Maharashtra, Karnataka, Berar, and Central Provinces — headquartered at Poona. Annie Besant's Home Rule League (September 1916) covered the rest of India — headquartered at Madras (with branches in Bombay, UP, Bihar, etc.). They agreed to work separately but cooperatively, avoiding competition. This geographical division was agreed at the 1916 Lucknow session.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Annie Besant was arrested in June 1917 during the Home Rule Movement. What was the immediate British justification?","options":["Her newspapers propagated Home Rule and she organised protests against the British","She incited violence in Madras","She supported the German war effort","She met with revolutionary terrorists"],"answer":0,"explanation":"Annie Besant was arrested in June 1917 (under the Defence of India Act) for her Home Rule propaganda — her newspapers 'New India' and 'Commonweal' had been propagating self-government, and she had organised protests and public meetings. Her arrest actually strengthened the movement — Sir S. Subramania Iyer and others protested; Tilak's league grew rapidly. The British released her in August 1917 under pressure. She was elected INC President in December 1917.","difficulty":"pyq","pyq_ref":null}
+  {
+    "q": "The Home Rule Movement in India was started by whom and in which year?",
+    "options": [
+      "Annie Besant alone, 1915",
+      "Gandhi, 1917",
+      "Tilak alone, 1914",
+      "Annie Besant and Tilak, 1916"
+    ],
+    "answer": 3,
+    "explanation": "The Home Rule Movement was started in 1916 by two separate leagues: (1) Bal Gangadhar Tilak started his Home Rule League in April 1916 (Belgaum, HQ at Poona); (2) Annie Besant started her Home Rule League in September 1916 (Madras). Both demanded self-government (Home Rule) for India within the British Empire. The movement revived nationalist activity after the lull following the 1907 Surat Split.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st BPSC PYQ (Annie Besant visited Bihar 1918 for Home Rule)"
+  },
+  {
+    "q": "Who among the following visited Bihar in 1918 to strengthen the Home Rule League activities? (71st BPSC PYQ)",
+    "options": [
+      "Annie Besant",
+      "M.A. Ansari",
+      "Mahatma Gandhi",
+      "B.G. Tilak"
+    ],
+    "answer": 0,
+    "explanation": "Annie Besant visited Bihar in 1918 to strengthen the activities of the Home Rule League (71st BPSC PYQ — direct question). She was the leader of the Congress and presided over its 1917 Calcutta session (first woman President). Her Bihar visit energised the Home Rule branches in Patna, Muzaffarpur, and Bhagalpur.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st BPSC PYQ p26 Q81"
+  },
+  {
+    "q": "Tilak's Home Rule League was headquartered at which place?",
+    "options": [
+      "Poona",
+      "Madras",
+      "Calcutta",
+      "Bombay"
+    ],
+    "answer": 0,
+    "explanation": "Tilak's Home Rule League (April 1916) was headquartered at Poona (Pune). It covered Maharashtra, Karnataka, Berar, and CP. Annie Besant's League (September 1916, Madras) covered the rest of India. The two leagues agreed to work separately but cooperatively — Tilak in the west, Besant in the rest of India.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Lucknow Pact (1916) was an agreement between which two parties?",
+    "options": [
+      "Indian National Congress and the Muslim League",
+      "Muslim League and the British government",
+      "Hindu Mahasabha and the Muslim League",
+      "Indian National Congress and the British government"
+    ],
+    "answer": 0,
+    "explanation": "The Lucknow Pact (1916) was an agreement between the Indian National Congress and the All India Muslim League at the Lucknow INC session (December 1916). It was the high-water mark of Hindu-Muslim political unity before 1947. The Pact was mainly engineered by Tilak (from the Congress side) and Muhammad Ali Jinnah (then a Congressman-Nationalist, from the League side).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Lucknow Pact (1916) accepted which of the following key Muslim demands?",
+    "options": [
+      "Abolition of separate electorates",
+      "Separate electorates for Muslims",
+      "Both (A) and (B)",
+      "One-third Muslim representation in legislatures"
+    ],
+    "answer": 2,
+    "explanation": "The Lucknow Pact (1916) accepted key Muslim demands: (1) Separate electorates for Muslims (already in place since 1909); (2) One-third Muslim representation in all legislatures (a new concession); (3) No Muslim bill could be passed if 3/4 of Muslim members opposed it (a de facto communal veto). In return, the Muslim League agreed to the Congress's demand for self-government.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 1916 Lucknow INC session achieved which historic feat besides the Lucknow Pact?",
+    "options": [
+      "Reunification of Moderates and Extremists (split since 1907)",
+      "Adoption of the tricolour flag",
+      "Demand for Purna Swaraj (complete independence)",
+      "Launch of the Non-Cooperation Movement"
+    ],
+    "answer": 0,
+    "explanation": "The 1916 Lucknow INC session achieved two historic things: (1) Reunification of Moderates and Extremists (split since the 1907 Surat Split — 9 years earlier). Tilak returned from Mandalay (released 1914) and was welcomed back into the INC. (2) The Lucknow Pact between the INC and the Muslim League. The session was presided over by Ambika Charan Mazumdar.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who presided over the 1916 Lucknow session of the INC?",
+    "options": [
+      "Ambika Charan Mazumdar",
+      "Annie Besant",
+      "Tilak",
+      "Motilal Nehru"
+    ],
+    "answer": 0,
+    "explanation": "Ambika Charan Mazumdar presided over the 1916 Lucknow INC session. He was a Moderate Bengali leader. The session achieved two historic things: (1) the reunification of Moderates and Extremists (since 1907 Surat Split); (2) the Lucknow Pact with the Muslim League. Tilak and Jinnah were the architects of the Pact but not the session President.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Tilak's famous slogan 'Swaraj is my birthright, and I shall have it' was associated with which movement?",
+    "options": [
+      "Swadeshi Movement",
+      "Non-Cooperation Movement",
+      "Quit India Movement",
+      "Home Rule Movement"
+    ],
+    "answer": 3,
+    "explanation": "Tilak's slogan 'Swaraj is my birthright, and I shall have it' (Swarajya maza janmasiddha hakka aahe) was central to the Home Rule Movement (1916). He founded his Home Rule League in April 1916 with this demand. The slogan had been coined earlier (during the Swadeshi era) but became the rallying cry of the Home Rule Movement.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Annie Besant was the first woman President of the INC. Which year did she preside?",
+    "options": [
+      "1917",
+      "1918",
+      "1916",
+      "1915"
+    ],
+    "answer": 0,
+    "explanation": "Annie Besant presided over the 1917 Calcutta session of the INC — making her the first woman President. She was a British-born Theosophist who joined the Indian nationalist movement. She founded the Home Rule League (September 1916) and the Central Hindu College (Banaras, 1898 — later became BHU). The 71st BPSC PYQ noted she 'presided over its 1917 session'.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st BPSC PYQ p51"
+  },
+  {
+    "q": "The Home Rule Movement was launched during the First World War. What was the political context?",
+    "options": [
+      "The British had imposed martial law",
+      "The British was preoccupied with WWI and Indians saw an opportunity for concessions",
+      "The war had caused economic hardship in India",
+      "The British had promised independence after the war"
+    ],
+    "answer": 1,
+    "explanation": "The Home Rule Movement (1916) was launched during WWI. The political context: the British was preoccupied with WWI (1914-1918), and Indian nationalists saw an opportunity to press for self-government (Home Rule). The British needed Indian support (troops, resources) for the war effort, making them potentially more willing to concede. The Irish Home Rule Movement was a parallel inspiration.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following was NOT a feature of the Home Rule Movement?",
+    "options": [
+      "Use of newspapers and journals for propaganda",
+      "Mass mobilisation through public meetings and libraries",
+      "Demand for complete independence (Purna Swaraj)",
+      "Demand for self-government (Home Rule) within the British Empire"
+    ],
+    "answer": 2,
+    "explanation": "The Home Rule Movement did NOT demand complete independence (Purna Swaraj). It demanded self-government (Home Rule) within the British Empire — dominion status, like Canada and Australia. Complete independence (Purna Swaraj) was not demanded until the 1929 Lahore session. The Home Rule Movement used newspapers (Besant's 'New India', 'Commonweal'; Tilak's 'Kesari', 'Mahratta') and set up libraries and reading rooms for propaganda.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who among the following was the chief architect of the Lucknow Pact from the Muslim League side?",
+    "options": [
+      "Nawab Salimullah",
+      "Maulana Muhammad Ali",
+      "Muhammad Ali Jinnah",
+      "Sir Aga Khan"
+    ],
+    "answer": 2,
+    "explanation": "Muhammad Ali Jinnah (1876-1948) was the chief architect of the Lucknow Pact from the Muslim League side. At that time (1916), Jinnah was a member of BOTH the Congress and the Muslim League — he was a Nationalist, not yet a separatist. He later became the leader of the Pakistan Movement (from 1930s) and the 'Quaid-e-Azam'. Tilak was the architect from the Congress side.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Home Rule Movement declined after which event in 1918-1919?",
+    "options": [
+      "Tilak's departure to England",
+      "The Surat Split",
+      "Annie Besant's arrest and the Montagu Declaration (1917)",
+      "Gandhi's arrival in India"
+    ],
+    "answer": 2,
+    "explanation": "The Home Rule Movement declined after (1) Annie Besant's arrest (June 1917, released August 1917) which drew attention but also weakened the movement; (2) the Montagu Declaration (August 1917) which promised 'gradual development of self-governing institutions' — this took the wind out of the Home Rule sails as it seemed the British were conceding. The movement also declined because Tilak went to England (1918-1919) for a libel case. Gandhi's arrival and the Rowlatt Satyagraha (1919) then took over the nationalist baton.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Montagu Declaration of August 1917 promised what for India?",
+    "options": [
+      "Gradual development of self-governing institutions",
+      "Immediate independence",
+      "Complete self-rule within a year",
+      "Dominion status immediately"
+    ],
+    "answer": 0,
+    "explanation": "The Montagu Declaration (August 20, 1917) by Edwin Montagu (Secretary of State for India) promised 'gradual development of self-governing institutions' in India. This was a British response to the Home Rule Movement's pressures. It was the first time the British government officially acknowledged the goal of self-government for India. It led to the Mont-Ford Reforms (Government of India Act 1919).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about the Home Rule Movement: 1. Started by Tilak and Besant in 1916. 2. Demanded self-government within the Empire. 3. Annie Besant visited Bihar in 1918. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only"
+    ],
+    "answer": 0,
+    "explanation": "All three are correct: (1) The Home Rule Movement was started by Tilak (April 1916) and Besant (September 1916) as two separate leagues. (2) It demanded self-government (Home Rule) within the British Empire — NOT complete independence. (3) Annie Besant visited Bihar in 1918 to strengthen the Home Rule League (71st BPSC PYQ). The movement revived nationalism after the 1907 Surat Split lull.",
+    "difficulty": "tricky",
+    "pyq_ref": "71st BPSC PYQ (Besant visited Bihar 1918)"
+  },
+  {
+    "q": "Arrange in chronological order: 1. Home Rule Movement 2. Surat Split 3. Lucknow Pact 4. Montagu Declaration",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 4, 3",
+      "2, 1, 3, 4",
+      "2, 3, 1, 4"
+    ],
+    "answer": 2,
+    "explanation": "Surat Split (1907) → Home Rule Movement (1916) → Lucknow Pact (December 1916) → Montagu Declaration (August 1917). The Surat Split weakened the INC; the Home Rule Movement (1916) revived it; the Lucknow Pact (1916) reunited Moderates and Extremists; the Montagu Declaration (1917) was the British response.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who among the following was NOT associated with the Home Rule Movement?",
+    "options": [
+      "B.G. Tilak",
+      "Jawaharlal Nehru",
+      "Annie Besant",
+      "Lord Curzon"
+    ],
+    "answer": 3,
+    "explanation": "Lord Curzon (Viceroy 1899-1905) was NOT associated with the Home Rule Movement — he was the Viceroy who carried out the Bengal Partition (1905) and had left India by 1905. The Home Rule Movement (1916) was led by Annie Besant, B.G. Tilak, and included younger leaders like Jawaharlal Nehru and Motilal Nehru who joined the movement. Curzon was long gone by 1916.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Lucknow Pact of 1916 was signed at which INC session?",
+    "options": [
+      "1917 Calcutta session",
+      "1916 Bombay session",
+      "1915 Madras session",
+      "1916 Lucknow session"
+    ],
+    "answer": 3,
+    "explanation": "The Lucknow Pact was signed at the 1916 Lucknow session of the INC (December 1916). The same session also achieved the reunification of Moderates and Extremists (since 1907). Ambika Charan Mazumdar presided. The Pact was between the INC and the Muslim League — with Tilak and Jinnah as the architects. The Pact established joint political demands and accepted Muslim separate electorates.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which newspaper was started by Annie Besant to propagate the Home Rule Movement?",
+    "options": [
+      "New India and Commonweal",
+      "Amrita Bazar Patrika",
+      "Kesari and Mahratta",
+      "Bande Mataram"
+    ],
+    "answer": 0,
+    "explanation": "Annie Besant started 'New India' (a daily) and 'Commonweal' (a weekly) to propagate the Home Rule Movement. Tilak used 'Kesari' (Marathi) and 'Mahratta' (English) for his league. Aurobindo had started 'Bande Mataram' in 1906 (Swadeshi era). The Home Rule newspapers were crucial in mobilising public opinion and spreading the message of self-government.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's connection with the Home Rule Movement was through:",
+    "options": [
+      "Tilak's visit to Bihar in 1916",
+      "Annie Besant's 1918 visit to strengthen the Home Rule League",
+      "Gandhi's Home Rule campaign in Bihar",
+      "The Champaran Satyagraha of 1917"
+    ],
+    "answer": 1,
+    "explanation": "Bihar's connection with the Home Rule Movement was through Annie Besant's 1918 visit to Bihar (71st BPSC PYQ). She visited to strengthen the Home Rule League branches in Bihar. The Home Rule League had branches in Patna, Muzaffarpur, and Bhagalpur. Her visit energised Bihar's nationalist circles. Tilak did not visit Bihar for Home Rule (he focused on western India).",
+    "difficulty": "pyq",
+    "pyq_ref": "71st BPSC PYQ (Annie Besant visited Bihar 1918)"
+  },
+  {
+    "q": "The Home Rule Movement influenced which later development in the nationalist movement?",
+    "options": [
+      "It caused the Partition of India",
+      "It led directly to the Quit India Movement",
+      "It led to the formation of the Muslim League",
+      "It paved the way for Gandhi's mass movements (1919 onwards)"
+    ],
+    "answer": 3,
+    "explanation": "The Home Rule Movement (1916-1918) paved the way for Gandhi's mass movements (1919 onwards). It revived the nationalist spirit after the 1907 Surat Split lull, brought new younger leaders (Jawaharlal Nehru, Motilal Nehru) into politics, and demonstrated the potential for mass mobilisation. Gandhi's arrival (1915) and Champaran (1917) built on the Home Rule base. The movement's decline (1918) coincided with Gandhi's rise (1919 Rowlatt Satyagraha, 1920 Non-Cooperation).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was released from Mandalay prison in 1914 and returned to lead the Home Rule Movement?",
+    "options": [
+      "Aurobindo Ghosh",
+      "Bipin Chandra Pal",
+      "Bal Gangadhar Tilak",
+      "Lala Lajpat Rai"
+    ],
+    "answer": 2,
+    "explanation": "Bal Gangadhar Tilak was released from Mandalay prison in 1914 (after serving 6 years from 1908). He returned to nationalist politics and founded his Home Rule League in April 1916. He was the key figure in the reunification of Moderates and Extremists at the 1916 Lucknow session, and the chief architect of the Lucknow Pact from the Congress side. He died in 1920.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Lucknow Pact (1916) is significant because it:",
+    "options": [
+      "Ended the Home Rule Movement",
+      "Caused the Surat Split",
+      "Achieved Congress-League unity — the high-water mark of Hindu-Muslim political cooperation",
+      "Led to the partition of India"
+    ],
+    "answer": 2,
+    "explanation": "The Lucknow Pact (1916) is significant because it achieved Congress-League unity — the high-water mark of Hindu-Muslim political cooperation before 1947. The INC accepted Muslim demands (separate electorates, one-third representation) and the League accepted the Congress's demand for self-government. This unity would not last — by the late 1920s, the two parties diverged, culminating in the Pakistan demand (1940) and Partition (1947).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Home Rule Leagues of Tilak and Besant differed in their geographical coverage. Which statement is correct?",
+    "options": [
+      "Besant covered all of India; Tilak covered only Poona",
+      "Tilak covered Maharashtra/Karnataka/CP; Besant covered the rest of India",
+      "Both covered the entire country jointly",
+      "Tilak covered all of India; Besant covered only Madras"
+    ],
+    "answer": 1,
+    "explanation": "Tilak's Home Rule League (April 1916) covered Maharashtra, Karnataka, Berar, and Central Provinces — headquartered at Poona. Annie Besant's Home Rule League (September 1916) covered the rest of India — headquartered at Madras (with branches in Bombay, UP, Bihar, etc.). They agreed to work separately but cooperatively, avoiding competition. This geographical division was agreed at the 1916 Lucknow session.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Annie Besant was arrested in June 1917 during the Home Rule Movement. What was the immediate British justification?",
+    "options": [
+      "She met with revolutionary terrorists",
+      "Her newspapers propagated Home Rule and she organised protests against the British",
+      "She incited violence in Madras",
+      "She supported the German war effort"
+    ],
+    "answer": 1,
+    "explanation": "Annie Besant was arrested in June 1917 (under the Defence of India Act) for her Home Rule propaganda — her newspapers 'New India' and 'Commonweal' had been propagating self-government, and she had organised protests and public meetings. Her arrest actually strengthened the movement — Sir S. Subramania Iyer and others protested; Tilak's league grew rapidly. The British released her in August 1917 under pressure. She was elected INC President in December 1917.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
 ]

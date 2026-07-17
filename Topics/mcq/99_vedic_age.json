@@ -1,27 +1,327 @@
 [
-  {"q":"The Vedic Age in India is generally dated to which period?","options":["1500-600 BCE","2500-1750 BCE","600-200 BCE","1000-500 BCE"],"answer":0,"explanation":"The Vedic Age in India is generally dated to 1500-600 BCE. It is divided into two phases: (1) Early Vedic (Rig Vedic, 1500-1000 BCE) — pastoral, tribal society in the Punjab/Sapta Sindhava region; (2) Later Vedic (1000-600 BCE) — agricultural, settled society in the Ganga-Yamuna doab. The Vedic Age followed the decline of the IVC (~1750 BCE) and preceded the rise of the Mahajanapadas (~600 BCE). The Aryans (Indo-Aryans) are associated with the Vedic Age.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Vedic Age is divided into which two phases?","options":["Early Vedic (Rig Vedic, 1500-1000 BCE) and Later Vedic (1000-600 BCE)","Old Vedic and New Vedic","Pre-Vedic and Post-Vedic","Rig Vedic and Sama Vedic only"],"answer":0,"explanation":"The Vedic Age is divided into: (1) Early Vedic (Rig Vedic, 1500-1000 BCE) — only the Rig Veda was composed; pastoral, tribal society in the Punjab (Sapta Sindhava, 'land of seven rivers'); (2) Later Vedic (1000-600 BCE) — the other three Vedas (Sama, Yajur, Atharva) were composed; agricultural, settled society in the Ganga-Yamuna doab. The transition from Early to Later Vedic saw the shift from pastoralism to agriculture, from tribal to territorial polity, and from Punjab to the Ganga valley.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Which is the oldest Veda?","options":["Rig Veda","Sama Veda","Yajur Veda","Atharva Veda"],"answer":0,"explanation":"The Rig Veda is the oldest Veda — composed 1500-1000 BCE (Early Vedic period). It contains 1028 hymns (suktas) in 10 books (mandalas), dedicated to various gods (Indra, Agni, Varuna, Soma). The Rig Veda is the oldest text in any Indo-European language. It is also the only Veda composed in the Early Vedic period — the other three Vedas (Sama, Yajur, Atharva) were composed in the Later Vedic period.","difficulty":"pyq","pyq_ref":null},
-  {"q":"How many Vedas are there in total?","options":["Four (Rig, Sama, Yajur, Atharva)","Three","Five","Two"],"answer":0,"explanation":"There are four Vedas: (1) Rig Veda (oldest, 1028 hymns, 10 mandalas — hymns of praise); (2) Sama Veda (melodies for chanting — 'book of chants'); (3) Yajur Veda (ritual formulas — 'book of sacrifices'); (4) Atharva Veda (spells, charms, medicine — 'book of magic'). The Rig Veda is the most important and oldest. Each Veda has four parts: Samhitas (hymns), Brahmanas (ritual commentaries), Aranyakas (forest texts), Upanishads (philosophy).","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Rig Veda contains how many hymns (suktas) and books (mandalas)?","options":["1028 hymns in 10 mandalas","731 hymns in 20 mandalas","500 hymns in 5 mandalas","2000 hymns in 15 mandalas"],"answer":0,"explanation":"The Rig Veda contains 1028 hymns (suktas) organised in 10 books (mandalas). The 10th mandala is the latest — it contains the Purusha Sukta (the origin of the four varnas from the cosmic man Purusha). The Rig Veda is dedicated to various gods: Indra (thunder, most hymns), Agni (fire, sacrifice), Varuna (water, cosmic order/rta), Soma (plant/elixir), Vishnu, Rudra, etc. The Rig Veda was preserved orally for centuries — showing remarkable memorisation techniques.","difficulty":"pyq","pyq_ref":null},
-  {"q":"In the Early Vedic period, the society was primarily:","options":["Pastoral (cattle-rearing) and tribal","Agricultural and urban","Urban and commercial","Industrial"],"answer":0,"explanation":"Early Vedic (Rig Vedic) society was primarily pastoral (cattle-rearing) and tribal. Cattle (go) were the most important form of wealth — the word for war (gavishti) literally means 'search for cows.' The society was semi-nomadic — moving in search of pastures. Agriculture was secondary. The people lived in the Punjab/Sapta Sindhava region ('land of seven rivers' — Indus, Jhelum, Chenab, Ravi, Beas, Sutlej, Saraswati). The tribe (jana) was the main political unit, led by a chief (rajan).","difficulty":"pyq","pyq_ref":null},
-  {"q":"In the Later Vedic period, the society shifted to:","options":["Agriculture in the Ganga-Yamuna doab","Pastoralism in Punjab","Urbanism in the Indus valley","Nomadism in Central Asia"],"answer":0,"explanation":"Later Vedic society (1000-600 BCE) shifted to agriculture in the Ganga-Yamuna doab. The use of iron (from ~1000 BCE) enabled the clearing of forests and expansion of agriculture in the Ganga valley. The society became settled — villages and towns emerged. The political unit shifted from the tribe (jana) to the territory (janapada) — leading to the rise of the Mahajanapadas (~600 BCE). The varna system (Brahmin, Kshatriya, Vaishya, Shudra) became rigid. The caste system began to take shape.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The term 'Sapta Sindhava' in the Rig Veda refers to:","options":["Land of seven rivers (Punjab region)","Land of seven mountains","Land of seven kings","Land of seven castes"],"answer":0,"explanation":"'Sapta Sindhava' means 'land of seven rivers' — referring to the Punjab region where the Early Vedic (Rig Vedic) Aryans settled. The seven rivers are: Indus (Sindhu), Jhelum (Vitasta), Chenab (Asikni), Ravi (Parushni), Beas (Vipasa), Sutlej (Shutudri), and Saraswati (now dried up). The Punjab is named after 'panj-ab' (five waters/rivers). The Rig Veda mentions the Saraswati as the most important river — 'mother of rivers' — which is now identified with the dried Ghaggar-Hakra river in Rajasthan.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who was the most important god in the Rig Veda (with the most hymns dedicated to him)?","options":["Indra (god of thunder and war)","Agni (god of fire)","Varuna (god of cosmic order)","Soma (god of the elixir)"],"answer":0,"explanation":"Indra (god of thunder, rain, and war) was the most important god in the Rig Veda — 250+ hymns (about 25%) are dedicated to him. Indra was the warrior god who destroyed the enemies (dasas/dasyus) of the Aryans and brought rain. Other important gods: Agni (fire, 200 hymns — mediator between gods and humans); Varuna (cosmic order/rta, water); Soma (plant/elixir of immortality); Vishnu (sun, sacrifice); Rudra (storm, later identified with Shiva). The Early Vedic gods were primarily nature gods — personifications of natural forces.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The 'Purusha Sukta' in the Rig Veda (10th mandala) describes the origin of which system?","options":["The four varnas (Brahmin, Kshatriya, Vaishya, Shudra)","The four Vedas","The four ashramas","The four yugas"],"answer":0,"explanation":"The Purusha Sukta (Rig Veda, 10th mandala, the latest part) describes the origin of the four varnas from the cosmic man Purusha: (1) mouth = Brahmin (priest); (2) arms = Kshatriya (warrior); (3) thighs = Vaishya (agriculturist/merchant); (4) feet = Shudra (servant). This is the earliest textual reference to the varna system. However, the Purusha Sukta is in the latest part of the Rig Veda (10th mandala) — suggesting that the rigid varna system developed at the end of the Early Vedic period, not at its beginning.","difficulty":"pyq","pyq_ref":null},
-  {"q":"In the Early Vedic period, the political unit was the:","options":["Tribe (jana) led by a chief (rajan)","Kingdom (janapada) led by a king","Republic led by a council","Empire led by an emperor"],"answer":0,"explanation":"In the Early Vedic period, the political unit was the tribe (jana) led by a chief (rajan). The chief was not an absolute monarch — he was assisted by assemblies: (1) Sabha (council of elders); (2) Samiti (general assembly of the tribe). The chief's power was limited by these assemblies. The tribe was the main unit — not a territorial state. In the Later Vedic period, the tribe (jana) evolved into the territory (janapada) — and the chief (rajan) became a king (with more absolute power). The assemblies (Sabha, Samiti) declined.","difficulty":"pyq","pyq_ref":null},
-  {"q":"In the Later Vedic period, the political unit shifted from tribe (jana) to:","options":["Territory (janapada)","Republic (sangha)","Empire (chakravartin)","City-state (nagara)"],"answer":0,"explanation":"In the Later Vedic period, the political unit shifted from the tribe (jana) to the territory (janapada) — 'the land where the people (jana) place their feet (pada).' The chief (rajan) became a king with more absolute power. The assemblies (Sabha, Samiti) declined. This shift from tribal to territorial polity led to the rise of the 16 Mahajanapadas (~600 BCE) — including Magadha (Bihar), which became the most powerful. The janapada system was the precursor to the modern state.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Upanishads are part of which Vedic text?","options":["The Vedas (as the philosophical part — Vedanta)","The Puranas","The Epics (Ramayana, Mahabharata)","The Sutras"],"answer":0,"explanation":"The Upanishads are the philosophical part of the Vedas — they form the Vedanta ('end of the Vedas'). There are 108 Upanishads (the most important are 10-13 'principal Upanishads'). The Upanishads discuss: (1) Brahman (universal soul) and Atman (individual soul); (2) Karma (action and its consequences); (3) Moksha (liberation from the cycle of rebirth); (4) Samsara (cycle of rebirth). The Upanishads were composed 800-500 BCE (Later Vedic to early post-Vedic). The concept of karma-rebirth-samsara became central to Hinduism, Buddhism, and Jainism.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Arrange the four parts of each Veda in order: 1. Samhita 2. Brahmana 3. Aranyaka 4. Upanishad","options":["1, 2, 3, 4","2, 1, 3, 4","1, 3, 2, 4","4, 3, 2, 1"],"answer":0,"explanation":"Each Veda has four parts: (1) Samhita (hymns — the core text); (2) Brahmana (ritual commentaries — explaining the sacrifices); (3) Aranyaka ('forest texts' — for hermits, philosophical); (4) Upanishad (philosophy — Vedanta, the 'end' of the Vedas). This progression from Samhita (ritual hymns) to Upanishad (philosophy) shows the evolution from ritualistic to philosophical religion. The Samhitas are the oldest parts; the Upanishads are the latest.","difficulty":"tricky","pyq_ref":null},
-  {"q":"In the Early Vedic period, women's status was:","options":["Relatively high — women could participate in education and assemblies","Low — women were confined to the home","Very low — women had no rights","Women were excluded from all social activities"],"answer":0,"explanation":"In the Early Vedic (Rig Vedic) period, women's status was relatively high: (1) women could participate in education; (2) women could attend assemblies (Sabha, Samiti); (3) there were women scholars (e.g., Lopamudra, Ghosha, Maitreyi, Gargi); (4) child marriage was not common; (5) widow remarriage was allowed; (6) no purdah system. However, in the Later Vedic period, women's status declined: (1) women were excluded from assemblies; (2) child marriage became common; (3) the purdah system may have started; (4) women's education declined.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The famous woman scholar Gargi, who debated with the philosopher Yajnavalkya, is mentioned in which text?","options":["Brihadaranyaka Upanishad","Rig Veda Samhita","Manusmriti","Arthashastra"],"answer":0,"explanation":"Gargi Vachaknavi is a famous woman philosopher mentioned in the Brihadaranyaka Upanishad — she debated with the philosopher Yajnavalkya in the court of King Janaka of Videha (Mithila, Bihar). Gargi asked profound questions about the nature of Brahman (universal soul). Yajnavalkya silenced her with his answers, but Gargi's intellectual courage was celebrated. This story shows that: (1) women could pursue philosophy in the Later Vedic period; (2) Bihar (Videha/Mithila) was a centre of philosophical learning; (3) the Upanishadic tradition encouraged open debate.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The term 'Aryan' in the Vedic context refers to:","options":["An Indo-European-speaking people who migrated to India","A race based on skin colour","A religious group","A political party"],"answer":0,"explanation":"The term 'Aryan' in the Vedic context refers to an Indo-European-speaking people who migrated to India (probably from Central Asia/Iran) around 1500 BCE. 'Arya' in Sanskrit means 'noble' or 'respectable' — it was a linguistic/cultural term, not a racial one. The Aryan migration theory (not 'invasion' — the theory is now debated) suggests that the Indo-Aryans brought Sanskrit and Vedic culture to India. The Rakhigarhi DNA study (2019) showed no steppe ancestry in IVC people — complicating the Aryan migration theory. The debate continues.","difficulty":"pyq","pyq_ref":null},
-  {"q":"In the Later Vedic period, which two kingdoms became the most powerful?","options":["Kuru-Panchala (upper Ganga doab) and Videha (Mithila, Bihar)","Magadha and Kosala","Kashi and Vatsa","Avanti and Chedi"],"answer":0,"explanation":"In the Later Vedic period, the Kuru-Panchala kingdom (upper Ganga-Yamuna doab, around Delhi-Meerut) became the most powerful — it was the centre of Vedic culture. The Videha kingdom (Mithila, in modern Bihar — ruled by King Janaka) was also prominent as a centre of philosophy (the Upanishadic debates). The Kuru-Panchala kings performed the great sacrifices (ashvamedha, rajasuya). The Later Vedic texts (Brahmanas, Aranyakas, Upanishads) were composed primarily in the Kuru-Panchala and Videha regions.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The 'Dasas' and 'Dasyus' mentioned in the Rig Veda refer to:","options":["Non-Aryan people (possibly IVC remnants or indigenous tribes)","Aryan tribes","Vedic gods","Vedic priests"],"answer":0,"explanation":"The 'Dasas' and 'Dasyus' in the Rig Veda refer to non-Aryan people — possibly remnants of the Indus Valley Civilisation or indigenous tribes. The Dasas were described as: (1) dark-skinned ('krishna tvacha'); (2) non-Aryan speakers; (3) followers of different religious practices (not worshipping Indra). The Aryans fought against the Dasas/Dasyus — Indra is praised as the 'destroyer of Dasyus.' Some scholars see this as evidence of the Aryan-Dravidian conflict; others see it as a cultural/religious conflict. The word 'dasa' later came to mean 'slave' — showing the subjugation of non-Aryans.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Which metal was NOT known to the Early Vedic (Rig Vedic) people?","options":["Iron","Copper","Gold","Silver"],"answer":0,"explanation":"Iron was NOT known to the Early Vedic (Rig Vedic) people — it was introduced in the Later Vedic period (~1000 BCE). The Rig Veda mentions: (1) copper (ayas — later, 'copper' and 'iron' were both called ayas, but in the Rig Veda it meant copper); (2) gold (hiranya — for ornaments); (3) silver (not common). Iron (krishna ayas — 'dark metal') appears in the Later Vedic texts (Atharva Veda) — it revolutionised agriculture (iron ploughshares) and warfare (iron weapons). The Iron Age in India began ~1000 BCE.","difficulty":"tricky","pyq_ref":null},
-  {"q":"The four ashramas (stages of life) in Vedic society were:","options":["Brahmacharya (student), Grihastha (householder), Vanaprastha (hermit), Sannyasa (renunciant)","Brahmin, Kshatriya, Vaishya, Shudra","Dharma, Artha, Kama, Moksha","Rig, Sama, Yajur, Atharva"],"answer":0,"explanation":"The four ashramas (stages of life) were: (1) Brahmacharya (student — learning the Vedas); (2) Grihastha (householder — raising a family, earning wealth); (3) Vanaprastha (hermit — retiring to the forest, spiritual practice); (4) Sannyasa (renunciant — giving up all attachments, seeking moksha). This system was formalised in the Later Vedic/post-Vedic period (Dharmasutras). The four varnas (Brahmin, Kshatriya, Vaishya, Shudra) are the social classes; the four ashramas are the life stages; the four purusharthas (Dharma, Artha, Kama, Moksha) are the goals of life.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Bihar's connection with the Vedic Age was through:","options":["Videha (Mithila) kingdom — King Janaka and the Upanishadic debates","The Kuru kingdom","The Panchala kingdom","The Gandhara kingdom"],"answer":0,"explanation":"Bihar's connection with the Vedic Age was through the Videha (Mithila) kingdom — in modern north Bihar (Darbhanga, Madhubani, Sitamarhi districts). King Janaka of Videha was a famous patron of philosophy — the Upanishadic debates (between Yajnavalkya and Gargi, etc.) took place in his court. The Brihadaranyaka Upanishad (the largest Upanishad) records these debates. Mithila was also the birthplace of Sita (Ramayana). The Videha kingdom was one of the most important centres of Later Vedic culture. Later, Videha was absorbed by the Vajji confederacy (a republic) and then by Magadha.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The 'Sabha' and 'Samiti' in the Early Vedic period were:","options":["Assemblies (council of elders and general assembly)","Sacrifices","Vedic schools","War councils only"],"answer":0,"explanation":"Sabha and Samiti were two assemblies in the Early Vedic (Rig Vedic) period: (1) Sabha — a smaller council of elders (probably the wise/older members of the tribe); (2) Samiti — a general assembly of all free members of the tribe. The chief (rajan) was assisted by these assemblies — his power was limited by them. This was a form of tribal democracy. In the Later Vedic period, the Sabha and Samiti declined — the king's power became more absolute. The term 'Samiti' is the root of the modern word 'committee' — showing the democratic roots of Indian political culture.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The concept of 'Rta' in the Rig Veda refers to:","options":["Cosmic order (the natural and moral law that governs the universe)","The four varnas","The cycle of rebirth","The sacrificial ritual"],"answer":0,"explanation":"'Rta' in the Rig Veda refers to the cosmic order — the natural and moral law that governs the universe. Rta is the principle that maintains the order of the cosmos: the sun rises, the seasons change, the rivers flow — all according to Rta. The gods (especially Varuna) uphold Rta. Humans must also follow Rta — by performing sacrifices (yajna) and living virtuously. Rta is the precursor to the later concept of Dharma (in the Upanishads and later Hinduism). The concept of Rta shows that the Vedic people had a sophisticated understanding of natural and moral law — a precursor to modern concepts of universal law.","difficulty":"tricky","pyq_ref":null},
-  {"q":"Which of the following is NOT a correct match between the Veda and its content?","options":["Atharva Veda — hymns of praise to the gods (this is the Rig Veda)","Sama Veda — melodies for chanting","Yajur Veda — ritual formulas for sacrifice","Rig Veda — oldest, 1028 hymns in 10 mandalas"],"answer":0,"explanation":"The incorrect match is 'Atharva Veda — hymns of praise to the gods' — this is the Rig Veda, not the Atharva Veda. Correct matches: Rig Veda = oldest, 1028 hymns, 10 mandalas, hymns of praise. Sama Veda = melodies for chanting (book of chants). Yajur Veda = ritual formulas (book of sacrifices). Atharva Veda = spells, charms, medicine, magic (book of magic). The Atharva Veda is the latest of the four Vedas and was not initially accepted as a Veda — it was added later.","difficulty":"tricky","pyq_ref":null}
+  {
+    "q": "The Vedic Age in India is generally dated to which period?",
+    "options": [
+      "1000-500 BCE",
+      "2500-1750 BCE",
+      "600-200 BCE",
+      "1500-600 BCE"
+    ],
+    "answer": 3,
+    "explanation": "The Vedic Age in India is generally dated to 1500-600 BCE. It is divided into two phases: (1) Early Vedic (Rig Vedic, 1500-1000 BCE) — pastoral, tribal society in the Punjab/Sapta Sindhava region; (2) Later Vedic (1000-600 BCE) — agricultural, settled society in the Ganga-Yamuna doab. The Vedic Age followed the decline of the IVC (~1750 BCE) and preceded the rise of the Mahajanapadas (~600 BCE). The Aryans (Indo-Aryans) are associated with the Vedic Age.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Vedic Age is divided into which two phases?",
+    "options": [
+      "Old Vedic and New Vedic",
+      "Rig Vedic and Sama Vedic only",
+      "Pre-Vedic and Post-Vedic",
+      "Early Vedic (Rig Vedic, 1500-1000 BCE) and Later Vedic (1000-600 BCE)"
+    ],
+    "answer": 3,
+    "explanation": "The Vedic Age is divided into: (1) Early Vedic (Rig Vedic, 1500-1000 BCE) — only the Rig Veda was composed; pastoral, tribal society in the Punjab (Sapta Sindhava, 'land of seven rivers'); (2) Later Vedic (1000-600 BCE) — the other three Vedas (Sama, Yajur, Atharva) were composed; agricultural, settled society in the Ganga-Yamuna doab. The transition from Early to Later Vedic saw the shift from pastoralism to agriculture, from tribal to territorial polity, and from Punjab to the Ganga valley.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which is the oldest Veda?",
+    "options": [
+      "Rig Veda",
+      "Atharva Veda",
+      "Yajur Veda",
+      "Sama Veda"
+    ],
+    "answer": 0,
+    "explanation": "The Rig Veda is the oldest Veda — composed 1500-1000 BCE (Early Vedic period). It contains 1028 hymns (suktas) in 10 books (mandalas), dedicated to various gods (Indra, Agni, Varuna, Soma). The Rig Veda is the oldest text in any Indo-European language. It is also the only Veda composed in the Early Vedic period — the other three Vedas (Sama, Yajur, Atharva) were composed in the Later Vedic period.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "How many Vedas are there in total?",
+    "options": [
+      "Four (Rig, Sama, Yajur, Atharva)",
+      "Five",
+      "Two",
+      "Three"
+    ],
+    "answer": 0,
+    "explanation": "There are four Vedas: (1) Rig Veda (oldest, 1028 hymns, 10 mandalas — hymns of praise); (2) Sama Veda (melodies for chanting — 'book of chants'); (3) Yajur Veda (ritual formulas — 'book of sacrifices'); (4) Atharva Veda (spells, charms, medicine — 'book of magic'). The Rig Veda is the most important and oldest. Each Veda has four parts: Samhitas (hymns), Brahmanas (ritual commentaries), Aranyakas (forest texts), Upanishads (philosophy).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Rig Veda contains how many hymns (suktas) and books (mandalas)?",
+    "options": [
+      "2000 hymns in 15 mandalas",
+      "1028 hymns in 10 mandalas",
+      "500 hymns in 5 mandalas",
+      "731 hymns in 20 mandalas"
+    ],
+    "answer": 1,
+    "explanation": "The Rig Veda contains 1028 hymns (suktas) organised in 10 books (mandalas). The 10th mandala is the latest — it contains the Purusha Sukta (the origin of the four varnas from the cosmic man Purusha). The Rig Veda is dedicated to various gods: Indra (thunder, most hymns), Agni (fire, sacrifice), Varuna (water, cosmic order/rta), Soma (plant/elixir), Vishnu, Rudra, etc. The Rig Veda was preserved orally for centuries — showing remarkable memorisation techniques.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the Early Vedic period, the society was primarily:",
+    "options": [
+      "Pastoral (cattle-rearing) and tribal",
+      "Industrial",
+      "Agricultural and urban",
+      "Urban and commercial"
+    ],
+    "answer": 0,
+    "explanation": "Early Vedic (Rig Vedic) society was primarily pastoral (cattle-rearing) and tribal. Cattle (go) were the most important form of wealth — the word for war (gavishti) literally means 'search for cows.' The society was semi-nomadic — moving in search of pastures. Agriculture was secondary. The people lived in the Punjab/Sapta Sindhava region ('land of seven rivers' — Indus, Jhelum, Chenab, Ravi, Beas, Sutlej, Saraswati). The tribe (jana) was the main political unit, led by a chief (rajan).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the Later Vedic period, the society shifted to:",
+    "options": [
+      "Agriculture in the Ganga-Yamuna doab",
+      "Pastoralism in Punjab",
+      "Urbanism in the Indus valley",
+      "Nomadism in Central Asia"
+    ],
+    "answer": 0,
+    "explanation": "Later Vedic society (1000-600 BCE) shifted to agriculture in the Ganga-Yamuna doab. The use of iron (from ~1000 BCE) enabled the clearing of forests and expansion of agriculture in the Ganga valley. The society became settled — villages and towns emerged. The political unit shifted from the tribe (jana) to the territory (janapada) — leading to the rise of the Mahajanapadas (~600 BCE). The varna system (Brahmin, Kshatriya, Vaishya, Shudra) became rigid. The caste system began to take shape.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The term 'Sapta Sindhava' in the Rig Veda refers to:",
+    "options": [
+      "Land of seven mountains",
+      "Land of seven kings",
+      "Land of seven castes",
+      "Land of seven rivers (Punjab region)"
+    ],
+    "answer": 3,
+    "explanation": "'Sapta Sindhava' means 'land of seven rivers' — referring to the Punjab region where the Early Vedic (Rig Vedic) Aryans settled. The seven rivers are: Indus (Sindhu), Jhelum (Vitasta), Chenab (Asikni), Ravi (Parushni), Beas (Vipasa), Sutlej (Shutudri), and Saraswati (now dried up). The Punjab is named after 'panj-ab' (five waters/rivers). The Rig Veda mentions the Saraswati as the most important river — 'mother of rivers' — which is now identified with the dried Ghaggar-Hakra river in Rajasthan.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the most important god in the Rig Veda (with the most hymns dedicated to him)?",
+    "options": [
+      "Varuna (god of cosmic order)",
+      "Soma (god of the elixir)",
+      "Agni (god of fire)",
+      "Indra (god of thunder and war)"
+    ],
+    "answer": 3,
+    "explanation": "Indra (god of thunder, rain, and war) was the most important god in the Rig Veda — 250+ hymns (about 25%) are dedicated to him. Indra was the warrior god who destroyed the enemies (dasas/dasyus) of the Aryans and brought rain. Other important gods: Agni (fire, 200 hymns — mediator between gods and humans); Varuna (cosmic order/rta, water); Soma (plant/elixir of immortality); Vishnu (sun, sacrifice); Rudra (storm, later identified with Shiva). The Early Vedic gods were primarily nature gods — personifications of natural forces.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Purusha Sukta' in the Rig Veda (10th mandala) describes the origin of which system?",
+    "options": [
+      "The four yugas",
+      "The four varnas (Brahmin, Kshatriya, Vaishya, Shudra)",
+      "The four ashramas",
+      "The four Vedas"
+    ],
+    "answer": 1,
+    "explanation": "The Purusha Sukta (Rig Veda, 10th mandala, the latest part) describes the origin of the four varnas from the cosmic man Purusha: (1) mouth = Brahmin (priest); (2) arms = Kshatriya (warrior); (3) thighs = Vaishya (agriculturist/merchant); (4) feet = Shudra (servant). This is the earliest textual reference to the varna system. However, the Purusha Sukta is in the latest part of the Rig Veda (10th mandala) — suggesting that the rigid varna system developed at the end of the Early Vedic period, not at its beginning.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the Early Vedic period, the political unit was the:",
+    "options": [
+      "Kingdom (janapada) led by a king",
+      "Republic led by a council",
+      "Empire led by an emperor",
+      "Tribe (jana) led by a chief (rajan)"
+    ],
+    "answer": 3,
+    "explanation": "In the Early Vedic period, the political unit was the tribe (jana) led by a chief (rajan). The chief was not an absolute monarch — he was assisted by assemblies: (1) Sabha (council of elders); (2) Samiti (general assembly of the tribe). The chief's power was limited by these assemblies. The tribe was the main unit — not a territorial state. In the Later Vedic period, the tribe (jana) evolved into the territory (janapada) — and the chief (rajan) became a king (with more absolute power). The assemblies (Sabha, Samiti) declined.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the Later Vedic period, the political unit shifted from tribe (jana) to:",
+    "options": [
+      "City-state (nagara)",
+      "Empire (chakravartin)",
+      "Territory (janapada)",
+      "Republic (sangha)"
+    ],
+    "answer": 2,
+    "explanation": "In the Later Vedic period, the political unit shifted from the tribe (jana) to the territory (janapada) — 'the land where the people (jana) place their feet (pada).' The chief (rajan) became a king with more absolute power. The assemblies (Sabha, Samiti) declined. This shift from tribal to territorial polity led to the rise of the 16 Mahajanapadas (~600 BCE) — including Magadha (Bihar), which became the most powerful. The janapada system was the precursor to the modern state.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Upanishads are part of which Vedic text?",
+    "options": [
+      "The Puranas",
+      "The Sutras",
+      "The Vedas (as the philosophical part — Vedanta)",
+      "The Epics (Ramayana, Mahabharata)"
+    ],
+    "answer": 2,
+    "explanation": "The Upanishads are the philosophical part of the Vedas — they form the Vedanta ('end of the Vedas'). There are 108 Upanishads (the most important are 10-13 'principal Upanishads'). The Upanishads discuss: (1) Brahman (universal soul) and Atman (individual soul); (2) Karma (action and its consequences); (3) Moksha (liberation from the cycle of rebirth); (4) Samsara (cycle of rebirth). The Upanishads were composed 800-500 BCE (Later Vedic to early post-Vedic). The concept of karma-rebirth-samsara became central to Hinduism, Buddhism, and Jainism.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange the four parts of each Veda in order: 1. Samhita 2. Brahmana 3. Aranyaka 4. Upanishad",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "4, 3, 2, 1",
+      "1, 3, 2, 4"
+    ],
+    "answer": 0,
+    "explanation": "Each Veda has four parts: (1) Samhita (hymns — the core text); (2) Brahmana (ritual commentaries — explaining the sacrifices); (3) Aranyaka ('forest texts' — for hermits, philosophical); (4) Upanishad (philosophy — Vedanta, the 'end' of the Vedas). This progression from Samhita (ritual hymns) to Upanishad (philosophy) shows the evolution from ritualistic to philosophical religion. The Samhitas are the oldest parts; the Upanishads are the latest.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the Early Vedic period, women's status was:",
+    "options": [
+      "Women were excluded from all social activities",
+      "Relatively high — women could participate in education and assemblies",
+      "Very low — women had no rights",
+      "Low — women were confined to the home"
+    ],
+    "answer": 1,
+    "explanation": "In the Early Vedic (Rig Vedic) period, women's status was relatively high: (1) women could participate in education; (2) women could attend assemblies (Sabha, Samiti); (3) there were women scholars (e.g., Lopamudra, Ghosha, Maitreyi, Gargi); (4) child marriage was not common; (5) widow remarriage was allowed; (6) no purdah system. However, in the Later Vedic period, women's status declined: (1) women were excluded from assemblies; (2) child marriage became common; (3) the purdah system may have started; (4) women's education declined.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The famous woman scholar Gargi, who debated with the philosopher Yajnavalkya, is mentioned in which text?",
+    "options": [
+      "Manusmriti",
+      "Rig Veda Samhita",
+      "Brihadaranyaka Upanishad",
+      "Arthashastra"
+    ],
+    "answer": 2,
+    "explanation": "Gargi Vachaknavi is a famous woman philosopher mentioned in the Brihadaranyaka Upanishad — she debated with the philosopher Yajnavalkya in the court of King Janaka of Videha (Mithila, Bihar). Gargi asked profound questions about the nature of Brahman (universal soul). Yajnavalkya silenced her with his answers, but Gargi's intellectual courage was celebrated. This story shows that: (1) women could pursue philosophy in the Later Vedic period; (2) Bihar (Videha/Mithila) was a centre of philosophical learning; (3) the Upanishadic tradition encouraged open debate.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The term 'Aryan' in the Vedic context refers to:",
+    "options": [
+      "A race based on skin colour",
+      "A religious group",
+      "An Indo-European-speaking people who migrated to India",
+      "A political party"
+    ],
+    "answer": 2,
+    "explanation": "The term 'Aryan' in the Vedic context refers to an Indo-European-speaking people who migrated to India (probably from Central Asia/Iran) around 1500 BCE. 'Arya' in Sanskrit means 'noble' or 'respectable' — it was a linguistic/cultural term, not a racial one. The Aryan migration theory (not 'invasion' — the theory is now debated) suggests that the Indo-Aryans brought Sanskrit and Vedic culture to India. The Rakhigarhi DNA study (2019) showed no steppe ancestry in IVC people — complicating the Aryan migration theory. The debate continues.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "In the Later Vedic period, which two kingdoms became the most powerful?",
+    "options": [
+      "Avanti and Chedi",
+      "Magadha and Kosala",
+      "Kashi and Vatsa",
+      "Kuru-Panchala (upper Ganga doab) and Videha (Mithila, Bihar)"
+    ],
+    "answer": 3,
+    "explanation": "In the Later Vedic period, the Kuru-Panchala kingdom (upper Ganga-Yamuna doab, around Delhi-Meerut) became the most powerful — it was the centre of Vedic culture. The Videha kingdom (Mithila, in modern Bihar — ruled by King Janaka) was also prominent as a centre of philosophy (the Upanishadic debates). The Kuru-Panchala kings performed the great sacrifices (ashvamedha, rajasuya). The Later Vedic texts (Brahmanas, Aranyakas, Upanishads) were composed primarily in the Kuru-Panchala and Videha regions.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Dasas' and 'Dasyus' mentioned in the Rig Veda refer to:",
+    "options": [
+      "Non-Aryan people (possibly IVC remnants or indigenous tribes)",
+      "Vedic priests",
+      "Aryan tribes",
+      "Vedic gods"
+    ],
+    "answer": 0,
+    "explanation": "The 'Dasas' and 'Dasyus' in the Rig Veda refer to non-Aryan people — possibly remnants of the Indus Valley Civilisation or indigenous tribes. The Dasas were described as: (1) dark-skinned ('krishna tvacha'); (2) non-Aryan speakers; (3) followers of different religious practices (not worshipping Indra). The Aryans fought against the Dasas/Dasyus — Indra is praised as the 'destroyer of Dasyus.' Some scholars see this as evidence of the Aryan-Dravidian conflict; others see it as a cultural/religious conflict. The word 'dasa' later came to mean 'slave' — showing the subjugation of non-Aryans.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which metal was NOT known to the Early Vedic (Rig Vedic) people?",
+    "options": [
+      "Copper",
+      "Iron",
+      "Gold",
+      "Silver"
+    ],
+    "answer": 1,
+    "explanation": "Iron was NOT known to the Early Vedic (Rig Vedic) people — it was introduced in the Later Vedic period (~1000 BCE). The Rig Veda mentions: (1) copper (ayas — later, 'copper' and 'iron' were both called ayas, but in the Rig Veda it meant copper); (2) gold (hiranya — for ornaments); (3) silver (not common). Iron (krishna ayas — 'dark metal') appears in the Later Vedic texts (Atharva Veda) — it revolutionised agriculture (iron ploughshares) and warfare (iron weapons). The Iron Age in India began ~1000 BCE.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The four ashramas (stages of life) in Vedic society were:",
+    "options": [
+      "Dharma, Artha, Kama, Moksha",
+      "Brahmin, Kshatriya, Vaishya, Shudra",
+      "Rig, Sama, Yajur, Atharva",
+      "Brahmacharya (student), Grihastha (householder), Vanaprastha (hermit), Sannyasa (renunciant)"
+    ],
+    "answer": 3,
+    "explanation": "The four ashramas (stages of life) were: (1) Brahmacharya (student — learning the Vedas); (2) Grihastha (householder — raising a family, earning wealth); (3) Vanaprastha (hermit — retiring to the forest, spiritual practice); (4) Sannyasa (renunciant — giving up all attachments, seeking moksha). This system was formalised in the Later Vedic/post-Vedic period (Dharmasutras). The four varnas (Brahmin, Kshatriya, Vaishya, Shudra) are the social classes; the four ashramas are the life stages; the four purusharthas (Dharma, Artha, Kama, Moksha) are the goals of life.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's connection with the Vedic Age was through:",
+    "options": [
+      "The Kuru kingdom",
+      "The Gandhara kingdom",
+      "Videha (Mithila) kingdom — King Janaka and the Upanishadic debates",
+      "The Panchala kingdom"
+    ],
+    "answer": 2,
+    "explanation": "Bihar's connection with the Vedic Age was through the Videha (Mithila) kingdom — in modern north Bihar (Darbhanga, Madhubani, Sitamarhi districts). King Janaka of Videha was a famous patron of philosophy — the Upanishadic debates (between Yajnavalkya and Gargi, etc.) took place in his court. The Brihadaranyaka Upanishad (the largest Upanishad) records these debates. Mithila was also the birthplace of Sita (Ramayana). The Videha kingdom was one of the most important centres of Later Vedic culture. Later, Videha was absorbed by the Vajji confederacy (a republic) and then by Magadha.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Sabha' and 'Samiti' in the Early Vedic period were:",
+    "options": [
+      "Vedic schools",
+      "War councils only",
+      "Assemblies (council of elders and general assembly)",
+      "Sacrifices"
+    ],
+    "answer": 2,
+    "explanation": "Sabha and Samiti were two assemblies in the Early Vedic (Rig Vedic) period: (1) Sabha — a smaller council of elders (probably the wise/older members of the tribe); (2) Samiti — a general assembly of all free members of the tribe. The chief (rajan) was assisted by these assemblies — his power was limited by them. This was a form of tribal democracy. In the Later Vedic period, the Sabha and Samiti declined — the king's power became more absolute. The term 'Samiti' is the root of the modern word 'committee' — showing the democratic roots of Indian political culture.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The concept of 'Rta' in the Rig Veda refers to:",
+    "options": [
+      "The cycle of rebirth",
+      "Cosmic order (the natural and moral law that governs the universe)",
+      "The sacrificial ritual",
+      "The four varnas"
+    ],
+    "answer": 1,
+    "explanation": "'Rta' in the Rig Veda refers to the cosmic order — the natural and moral law that governs the universe. Rta is the principle that maintains the order of the cosmos: the sun rises, the seasons change, the rivers flow — all according to Rta. The gods (especially Varuna) uphold Rta. Humans must also follow Rta — by performing sacrifices (yajna) and living virtuously. Rta is the precursor to the later concept of Dharma (in the Upanishads and later Hinduism). The concept of Rta shows that the Vedic people had a sophisticated understanding of natural and moral law — a precursor to modern concepts of universal law.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT a correct match between the Veda and its content?",
+    "options": [
+      "Rig Veda — oldest, 1028 hymns in 10 mandalas",
+      "Atharva Veda — hymns of praise to the gods (this is the Rig Veda)",
+      "Sama Veda — melodies for chanting",
+      "Yajur Veda — ritual formulas for sacrifice"
+    ],
+    "answer": 1,
+    "explanation": "The incorrect match is 'Atharva Veda — hymns of praise to the gods' — this is the Rig Veda, not the Atharva Veda. Correct matches: Rig Veda = oldest, 1028 hymns, 10 mandalas, hymns of praise. Sama Veda = melodies for chanting (book of chants). Yajur Veda = ritual formulas (book of sacrifices). Atharva Veda = spells, charms, medicine, magic (book of magic). The Atharva Veda is the latest of the four Vedas and was not initially accepted as a Veda — it was added later.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
 ]

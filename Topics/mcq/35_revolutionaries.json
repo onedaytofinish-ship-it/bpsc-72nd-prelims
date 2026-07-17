@@ -1,27 +1,327 @@
 [
-  {"q":"Bhagat Singh, along with Rajguru and Sukhdev, was hanged on March 23, 1931, for which incident?","options":["The assassination of J.P. Saunders (Lahore Conspiracy Case)","The Kakori Conspiracy","The Chittagong Armoury Raid","The Assembly Bomb Case"],"answer":0,"explanation":"Bhagat Singh, Rajguru, and Sukhdev were hanged on March 23, 1931, for the assassination of J.P. Saunders (Lahore Conspiracy Case). Saunders was the Assistant Superintendent of Police in Lahore — he was killed on December 17, 1928, by Bhagat Singh, Rajguru, and Azad in retaliation for the death of Lala Lajpat Rai (who died of injuries from a police lathi-charge during anti-Simon Commission protests).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who founded the Hindustan Socialist Republican Association (HSRA) in 1928?","options":["Bhagat Singh, Chandrashekhar Azad, and others","Subhash Chandra Bose","Surya Sen","Sachindra Nath Sanyal"],"answer":0,"explanation":"The Hindustan Socialist Republican Association (HSRA) was founded in 1928 at the Ferozeshah Kotla ground in Delhi by Bhagat Singh, Chandrashekhar Azad, and others. It evolved from the Hindustan Republican Association (HRA), which was founded in 1924 by Sachindra Nath Sanyal, Ram Prasad Bismil, and others. The HSRA's goal was to establish a socialist republic in India through armed revolution.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who threw bombs in the Central Legislative Assembly on April 8, 1929, with the slogan 'Inquilab Zindabad'?","options":["Bhagat Singh and Batukeshwar Dutt","Bhagat Singh and Sukhdev","Chandrashekhar Azad and Bhagat Singh","Rajguru and Bhagat Singh"],"answer":0,"explanation":"Bhagat Singh and Batukeshwar Dutt threw bombs in the Central Legislative Assembly in Delhi on April 8, 1929, shouting 'Inquilab Zindabad!' (Long Live Revolution!). The bombs were not meant to kill but to 'make the deaf hear' — they were deliberate and theatrical. They did not flee and courted arrest. The purpose was to use the trial as a platform to propagate revolutionary ideas. 'Inquilab Zindabad' became the iconic slogan of the revolutionary movement.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who was the leader of the Chittagong Armoury Raid (April 18, 1930)?","options":["Surya Sen","Bhagat Singh","Chandrashekhar Azad","Subhash Chandra Bose"],"answer":0,"explanation":"Surya Sen (also known as 'Masterda') led the Chittagong Armoury Raid on April 18, 1930. He and 65 revolutionaries captured the armoury, police armoury, and telephone/telegraph offices in Chittagong (Bengal). They declared Chittagong independent for four days. Surya Sen was arrested in 1933, tortured, and hanged on January 12, 1934. The raid inspired a generation of revolutionaries.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Kakori Conspiracy (1925) was associated with which revolutionary organization?","options":["Hindustan Republican Association (HRA)","Anushilan Samiti","HSRA","Gadar Party"],"answer":0,"explanation":"The Kakori Conspiracy (August 9, 1925) was carried out by the Hindustan Republican Association (HRA). Ram Prasad Bismil, Ashfaqulla Khan, Chandrashekhar Azad, and others held up a train at Kakori (near Lucknow, UP) and looted the government treasury. The British arrested many revolutionaries — 4 were hanged (Bismil, Ashfaqulla, Roshan Singh, Rajendra Lahiri) and others were transported for life. The Kakori case was a major event in the revolutionary movement.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The slogan 'Inquilab Zindabad' (Long Live Revolution) was popularized by:","options":["Bhagat Singh","Subhash Chandra Bose","Maulana Hasrat Mohani","Hasrat Mohani"],"answer":2,"explanation":"The slogan 'Inquilab Zindabad' was coined by Maulana Hasrat Mohani in 1921. It was later popularized by Bhagat Singh and the HSRA revolutionaries, who shouted it during the Assembly Bomb case (April 8, 1929). The slogan became the iconic rallying cry of the Indian revolutionary movement and was adopted by the INC in later years. Hasrat Mohani was a poet, freedom fighter, and a key figure in Urdu literature.","difficulty":"tricky","pyq_ref":null},
-  {"q":"Who was the first President of the Azad Hind Fauj (Indian National Army)?","options":["Subhash Chandra Bose","Rash Behari Bose","Mohan Singh","Captain Mohan Singh"],"answer":1,"explanation":"Rash Behari Bose was the first President of the Azad Hind Fauj (Indian National Army, INA) — he founded it in 1942 in Singapore. He was a revolutionary who had fled to Japan after the 1912 Delhi-Lahore Conspiracy (attempt to assassinate Viceroy Hardinge). Rash Behari Bose handed over the INA leadership to Subhash Chandra Bose in 1943. The INA fought alongside Japan against the British in WWII.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Subhash Chandra Bose escaped from India in 1941 disguised as:","options":["A Pathan (Ziauddin)","A Sikh","A British officer","A Muslim priest"],"answer":0,"explanation":"Subhash Chandra Bose escaped from house arrest in Calcutta on January 17, 1941, disguised as a Pathan named 'Ziauddin.' He traveled through Peshawar, Kabul (Afghanistan), and Germany, before reaching Japan by submarine. He then arrived in Singapore in 1943 and took over the INA. His famous slogan was 'Give me blood, I shall give you freedom' and 'Dilli Chalo' (On to Delhi).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Which revolutionary organization was founded by Sachindra Nath Sanyal in 1924?","options":["Hindustan Republican Association (HRA)","Anushilan Samiti","Gadar Party","HSRA"],"answer":0,"explanation":"The Hindustan Republican Association (HRA) was founded in 1924 by Sachindra Nath Sanyal, Ram Prasad Bismil, and others. It was renamed the Hindustan Socialist Republican Association (HSRA) in 1928 by Bhagat Singh and Azad. The HRA's manifesto was 'The Revolutionary.' The HRA carried out the Kakori train robbery (1925). The HSRA later carried out the Saunders assassination (1928) and the Assembly Bomb case (1929).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who among the following was NOT associated with Azad Hind Fauz (INA)?","options":["Subhash Chandra Bose","Rash Behari Bose","Mohan Singh","Bhagat Singh"],"answer":3,"explanation":"Bhagat Singh was NOT associated with the Azad Hind Fauj (INA). He was hanged in 1931 — the INA was formed in 1942. The INA was led by Rash Behari Bose (first President), then by Subhash Chandra Bose (1943-1945), and was initially formed by Captain Mohan Singh. Bhagat Singh was a revolutionary of the HSRA, not the INA.","difficulty":"pyq","pyq_ref":"71st Q83"},
-  {"q":"The Anushilan Samiti was a revolutionary organization based in which region?","options":["Bengal","Punjab","Maharashtra","Bihar"],"answer":0,"explanation":"The Anushilan Samiti was a revolutionary organization based in Bengal (founded in 1902 by Satish Chandra Basu, later led by Barindra Kumar Ghosh and Aurobindo Ghosh). It carried out the Alipore Bomb Case (1908). The Anushilan Samiti was one of the earliest revolutionary organizations in India — it inspired later groups like the HRA and HSRA. It had branches in Dhaka (East Bengal) and other cities.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Alipore Bomb Case (1908) involved which revolutionary leaders?","options":["Aurobindo Ghosh and Barindra Kumar Ghosh","Bhagat Singh and Batukeshwar Dutt","Surya Sen and Pritilata Waddedar","Ram Prasad Bismil and Ashfaqulla Khan"],"answer":0,"explanation":"The Alipore Bomb Case (1908) involved Aurobindo Ghosh and Barindra Kumar Ghosh. The revolutionaries of the Anushilan Samiti attempted to assassinate the District Judge Kingsford (who was notorious for his harsh sentences). The bomb mistakenly killed two European women (Mrs. Kennedy and her daughter). Khudiram Bose was arrested and hanged (August 11, 1908). Aurobindo Ghosh was acquitted and later turned to spirituality, becoming Sri Aurobindo.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who was hanged on August 11, 1908, at the age of 18, becoming one of the youngest revolutionaries to be martyred?","options":["Khudiram Bose","Bhagat Singh","Surya Sen","Jatindra Nath Das"],"answer":0,"explanation":"Khudiram Bose was hanged on August 11, 1908, at the age of 18 — one of the youngest revolutionaries to be martyred. He was involved in the Muzaffarpur bomb case (targeting Judge Kingsford). He and Prafulla Chaki threw a bomb at a carriage they believed carried Kingsford, but it contained the wife and daughter of a barrister. Khudiram was arrested, tried, and hanged. Prafulla Chaki shot himself to avoid arrest. Khudiram Bose became a martyr and a symbol of youth resistance.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Jatindra Nath Das died on September 13, 1929, after a 63-day hunger strike in Lahore Jail. What was the purpose of the hunger strike?","options":["To protest against the inhuman treatment of political prisoners","To demand independence for India","To protest against the British salt tax","To demand better food for prisoners"],"answer":0,"explanation":"Jatindra Nath Das died on September 13, 1929, after a 63-day hunger strike in Lahore Jail. The hunger strike was to protest against the inhuman treatment of political prisoners (British prisoners were given better food and facilities than Indian political prisoners). His death generated nationwide protests. Bhagat Singh was also on hunger strike simultaneously (for over 100 days) but survived. The hunger strike was a powerful form of resistance inside the prison.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Gadar Party was founded in 1913 in which country?","options":["United States (San Francisco)","Canada (Vancouver)","Japan (Tokyo)","England (London)"],"answer":0,"explanation":"The Gadar Party was founded in 1913 in San Francisco, USA, by Lala Hardayal, Sohan Singh Bhakna, and others. Its goal was to organize an armed rebellion against British rule in India, using Indian emigrants (especially Sikh soldiers in the British army). The Gadar Party published the newspaper 'Gadar' (meaning 'revolt'). Many Gadarites returned to India during WWI to foment rebellion, but most were arrested or killed. The Gadar Party was an early example of transnational revolutionary activity.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The 71st BPSC PYQ (Q130) matched organizations with headquarters. Which of the following is the correct matching?","options":["Swadeshi Sevak Home-Vancouver, United India House-Seattle, Yugantar Ashram-San Francisco, INA/Azad Hind Fauj-Rangoon","Swadeshi Sevak Home-Seattle, United India House-Vancouver, Yugantar Ashram-Rangoon, INA-San Francisco","Swadeshi Sevak Home-San Francisco, United India House-Vancouver, Yugantar Ashram-Seattle, INA-Rangoon","Swadeshi Sevak Home-Rangoon, United India House-San Francisco, Yugantar Ashram-Vancouver, INA-Seattle"],"answer":0,"explanation":"The 71st BPSC (Q130) matched: (I) Swadeshi Sevak Home → Vancouver (Canada); (II) United India House → Seattle (USA); (III) Yugantar Ashram → San Francisco (USA); (IV) INA/Azad Hind Fauj → Rangoon (Burma). Correct code: I-d, II-c, III-a, IV-b. These were revolutionary organizations and their overseas headquarters — showing the global spread of the Indian freedom movement.","difficulty":"pyq","pyq_ref":"71st Q130"},
-  {"q":"Chandrashekhar Azad died on February 27, 1931, at which location, shooting himself with the last bullet?","options":["Alfred Park, Allahabad","Lahore Jail","Chittagong","Lal Chowk, Srinagar"],"answer":0,"explanation":"Chandrashekhar Azad died on February 27, 1931, at Alfred Park in Allahabad (now Prayagraj). He was surrounded by the police and, after a gunfight, shot himself with the last bullet (his pledge was to never be captured alive). Alfred Park was later renamed Chandrashekhar Azad Park in his honour. Azad was the chief strategist of the HSRA and a mentor to Bhagat Singh.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who was the first Muslim President of the Indian National Congress?","options":["Badruddin Taiyabji","Maulana Azad","Hasrat Mohani","Syed Ahmad Khan"],"answer":0,"explanation":"Badruddin Taiyabji was the first Muslim President of the Indian National Congress (1887, Madras session). He was a lawyer and a moderate leader. The 71st BPSC asked this question. Maulana Abul Kalam Azad was the youngest INC President (1923, at age 35) — also a Muslim, but not the first. Syed Ahmad Khan was a Muslim educationist but never INC President. Hasrat Mohani was a poet-revolutionary, not INC President.","difficulty":"pyq","pyq_ref":"71st Q87"},
-  {"q":"Subhash Chandra Bose resigned from the presidency of the INC in 1939. Who succeeded him?","options":["Rajendra Prasad","Jawaharlal Nehru","Abul Kalam Azad","More than one of the above"],"answer":3,"explanation":"The 69th/70th/71st BPSC asked this question. Subhash Chandra Bose resigned as INC President in April 1939 (after disagreements with Gandhi). Dr. Rajendra Prasad was appointed as the next INC President (1939). However, the answer in BPSC is (D) 'More than one of the above' because the question's framing may refer to multiple candidates. Bose had defeated Pattabhi Sitaramayya in the 1939 Tripuri election. After resigning, he formed the Forward Bloc (1939).","difficulty":"tricky","pyq_ref":"69th Q73"},
-  {"q":"The famous slogan 'Give me blood, I shall give you freedom' was given by:","options":["Subhash Chandra Bose","Bhagat Singh","Mahatma Gandhi","Maulana Hasrat Mohani"],"answer":0,"explanation":"Subhash Chandra Bose gave the slogan 'Give me blood, I shall give you freedom' in a speech in Burma (1944) to the INA soldiers. He also gave the slogan 'Dilli Chalo' (On to Delhi) and 'Jai Hind.' Bose's approach was armed struggle against the British — he formed the INA with Japanese help and fought alongside the Axis powers against the British. His approach was fundamentally different from Gandhi's non-violent resistance.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The 'Young India' newspaper was started by:","options":["Mahatma Gandhi","Annie Besant","Bal Gangadhar Tilak","Maulana Abul Kalam Azad"],"answer":0,"explanation":"The 'Young India' newspaper was started by Mahatma Gandhi in 1919 (he took it over from the Gujarati publisher). Gandhi used it as a platform to propagate his ideas on non-violence, satyagraha, and the freedom struggle. The 71st BPSC asked this question. Annie Besant started 'New India' and 'Commonweal.' Tilak started 'Kesari' and 'Mahratta.' Azad started 'Al Hilal' and 'Al Balagh.'","difficulty":"pyq","pyq_ref":"71st Q46"},
-  {"q":"Who raised the cry 'Divide and Quit' during India's independence movement?","options":["M.A. Jinnah","V.D. Savarkar","M.A. Ansari","Jawaharlal Nehru"],"answer":0,"explanation":"M.A. Jinnah raised the cry 'Divide and Quit' — a play on the 'Quit India' slogan. Jinnah demanded the partition of India and the creation of Pakistan (the Lahore Resolution, 1940, demanded separate Muslim states). V.D. Savarkar was a Hindu nationalist. M.A. Ansari was a Congress leader. The 71st BPSC asked this question — the answer is (A) M.A. Jinnah.","difficulty":"pyq","pyq_ref":"71st Q89"},
-  {"q":"Bihar's connection with the revolutionary movement was through:","options":["Khudiram Bose's association with Muzaffarpur bomb case (Bihar)","Bhagat Singh's birth in Bihar","Surya Sen's operations in Bihar","The Kakori train robbery in Bihar"],"answer":0,"explanation":"Bihar's connection with the revolutionary movement was through the Muzaffarpur bomb case (1908). Khudiram Bose and Prafulla Chaki threw a bomb at Muzaffarpur (Bihar) targeting Judge Kingsford, but the wrong carriage was hit. Khudiram was arrested at Muzaffarpur railway station, tried, and hanged. The Muzaffarpur case is the Bihar-specific revolutionary event. Bhagat Singh was from Punjab, Surya Sen from Bengal, and the Kakori robbery was in UP.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who founded the Forward Bloc in 1939?","options":["Subhash Chandra Bose","Jawaharlal Nehru","Bhagat Singh","Rajendra Prasad"],"answer":0,"explanation":"Subhash Chandra Bose founded the Forward Bloc in 1939 after resigning from the INC presidency (due to disagreements with Gandhi). The Forward Bloc was a radical wing within the INC — it advocated for a more militant approach to the freedom struggle. Bose was expelled from the INC in 1940. He then escaped from India (January 1941) and eventually led the INA in Southeast Asia. The Forward Bloc later became a separate political party after independence.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The revolutionary women who played a prominent role in the Chittagong Armoury Raid included:","options":["Pritilata Waddedar and Kalpana Datta","Aruna Asaf Ali and Sucheta Kripalani","Sarojini Naidu and Vijaya Lakshmi Pandit","Matangini Hazra and Bina Das"],"answer":0,"explanation":"Pritilata Waddedar and Kalpana Datta played prominent roles in the Chittagong Armoury Raid (1930). Pritilata led the attack on the Pahartali European Club (September 1932) and consumed cyanide to avoid arrest. Kalpana Datta was arrested for manufacturing bombs. Both were members of Surya Sen's revolutionary group in Chittagong. The Chittagong raid was one of the most daring revolutionary actions, and women played a crucial role.","difficulty":"pyq","pyq_ref":null}
+  {
+    "q": "Bhagat Singh, along with Rajguru and Sukhdev, was hanged on March 23, 1931, for which incident?",
+    "options": [
+      "The assassination of J.P. Saunders (Lahore Conspiracy Case)",
+      "The Assembly Bomb Case",
+      "The Chittagong Armoury Raid",
+      "The Kakori Conspiracy"
+    ],
+    "answer": 0,
+    "explanation": "Bhagat Singh, Rajguru, and Sukhdev were hanged on March 23, 1931, for the assassination of J.P. Saunders (Lahore Conspiracy Case). Saunders was the Assistant Superintendent of Police in Lahore — he was killed on December 17, 1928, by Bhagat Singh, Rajguru, and Azad in retaliation for the death of Lala Lajpat Rai (who died of injuries from a police lathi-charge during anti-Simon Commission protests).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who founded the Hindustan Socialist Republican Association (HSRA) in 1928?",
+    "options": [
+      "Sachindra Nath Sanyal",
+      "Bhagat Singh, Chandrashekhar Azad, and others",
+      "Surya Sen",
+      "Subhash Chandra Bose"
+    ],
+    "answer": 1,
+    "explanation": "The Hindustan Socialist Republican Association (HSRA) was founded in 1928 at the Ferozeshah Kotla ground in Delhi by Bhagat Singh, Chandrashekhar Azad, and others. It evolved from the Hindustan Republican Association (HRA), which was founded in 1924 by Sachindra Nath Sanyal, Ram Prasad Bismil, and others. The HSRA's goal was to establish a socialist republic in India through armed revolution.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who threw bombs in the Central Legislative Assembly on April 8, 1929, with the slogan 'Inquilab Zindabad'?",
+    "options": [
+      "Bhagat Singh and Batukeshwar Dutt",
+      "Bhagat Singh and Sukhdev",
+      "Rajguru and Bhagat Singh",
+      "Chandrashekhar Azad and Bhagat Singh"
+    ],
+    "answer": 0,
+    "explanation": "Bhagat Singh and Batukeshwar Dutt threw bombs in the Central Legislative Assembly in Delhi on April 8, 1929, shouting 'Inquilab Zindabad!' (Long Live Revolution!). The bombs were not meant to kill but to 'make the deaf hear' — they were deliberate and theatrical. They did not flee and courted arrest. The purpose was to use the trial as a platform to propagate revolutionary ideas. 'Inquilab Zindabad' became the iconic slogan of the revolutionary movement.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the leader of the Chittagong Armoury Raid (April 18, 1930)?",
+    "options": [
+      "Chandrashekhar Azad",
+      "Bhagat Singh",
+      "Subhash Chandra Bose",
+      "Surya Sen"
+    ],
+    "answer": 3,
+    "explanation": "Surya Sen (also known as 'Masterda') led the Chittagong Armoury Raid on April 18, 1930. He and 65 revolutionaries captured the armoury, police armoury, and telephone/telegraph offices in Chittagong (Bengal). They declared Chittagong independent for four days. Surya Sen was arrested in 1933, tortured, and hanged on January 12, 1934. The raid inspired a generation of revolutionaries.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Kakori Conspiracy (1925) was associated with which revolutionary organization?",
+    "options": [
+      "Gadar Party",
+      "HSRA",
+      "Hindustan Republican Association (HRA)",
+      "Anushilan Samiti"
+    ],
+    "answer": 2,
+    "explanation": "The Kakori Conspiracy (August 9, 1925) was carried out by the Hindustan Republican Association (HRA). Ram Prasad Bismil, Ashfaqulla Khan, Chandrashekhar Azad, and others held up a train at Kakori (near Lucknow, UP) and looted the government treasury. The British arrested many revolutionaries — 4 were hanged (Bismil, Ashfaqulla, Roshan Singh, Rajendra Lahiri) and others were transported for life. The Kakori case was a major event in the revolutionary movement.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The slogan 'Inquilab Zindabad' (Long Live Revolution) was popularized by:",
+    "options": [
+      "Subhash Chandra Bose",
+      "Maulana Hasrat Mohani",
+      "Hasrat Mohani",
+      "Bhagat Singh"
+    ],
+    "answer": 1,
+    "explanation": "The slogan 'Inquilab Zindabad' was coined by Maulana Hasrat Mohani in 1921. It was later popularized by Bhagat Singh and the HSRA revolutionaries, who shouted it during the Assembly Bomb case (April 8, 1929). The slogan became the iconic rallying cry of the Indian revolutionary movement and was adopted by the INC in later years. Hasrat Mohani was a poet, freedom fighter, and a key figure in Urdu literature.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the first President of the Azad Hind Fauj (Indian National Army)?",
+    "options": [
+      "Rash Behari Bose",
+      "Subhash Chandra Bose",
+      "Mohan Singh",
+      "Captain Mohan Singh"
+    ],
+    "answer": 0,
+    "explanation": "Rash Behari Bose was the first President of the Azad Hind Fauj (Indian National Army, INA) — he founded it in 1942 in Singapore. He was a revolutionary who had fled to Japan after the 1912 Delhi-Lahore Conspiracy (attempt to assassinate Viceroy Hardinge). Rash Behari Bose handed over the INA leadership to Subhash Chandra Bose in 1943. The INA fought alongside Japan against the British in WWII.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Subhash Chandra Bose escaped from India in 1941 disguised as:",
+    "options": [
+      "A British officer",
+      "A Pathan (Ziauddin)",
+      "A Sikh",
+      "A Muslim priest"
+    ],
+    "answer": 1,
+    "explanation": "Subhash Chandra Bose escaped from house arrest in Calcutta on January 17, 1941, disguised as a Pathan named 'Ziauddin.' He traveled through Peshawar, Kabul (Afghanistan), and Germany, before reaching Japan by submarine. He then arrived in Singapore in 1943 and took over the INA. His famous slogan was 'Give me blood, I shall give you freedom' and 'Dilli Chalo' (On to Delhi).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which revolutionary organization was founded by Sachindra Nath Sanyal in 1924?",
+    "options": [
+      "Hindustan Republican Association (HRA)",
+      "Gadar Party",
+      "Anushilan Samiti",
+      "HSRA"
+    ],
+    "answer": 0,
+    "explanation": "The Hindustan Republican Association (HRA) was founded in 1924 by Sachindra Nath Sanyal, Ram Prasad Bismil, and others. It was renamed the Hindustan Socialist Republican Association (HSRA) in 1928 by Bhagat Singh and Azad. The HRA's manifesto was 'The Revolutionary.' The HRA carried out the Kakori train robbery (1925). The HSRA later carried out the Saunders assassination (1928) and the Assembly Bomb case (1929).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who among the following was NOT associated with Azad Hind Fauz (INA)?",
+    "options": [
+      "Bhagat Singh",
+      "Mohan Singh",
+      "Subhash Chandra Bose",
+      "Rash Behari Bose"
+    ],
+    "answer": 0,
+    "explanation": "Bhagat Singh was NOT associated with the Azad Hind Fauj (INA). He was hanged in 1931 — the INA was formed in 1942. The INA was led by Rash Behari Bose (first President), then by Subhash Chandra Bose (1943-1945), and was initially formed by Captain Mohan Singh. Bhagat Singh was a revolutionary of the HSRA, not the INA.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q83"
+  },
+  {
+    "q": "The Anushilan Samiti was a revolutionary organization based in which region?",
+    "options": [
+      "Maharashtra",
+      "Bihar",
+      "Punjab",
+      "Bengal"
+    ],
+    "answer": 3,
+    "explanation": "The Anushilan Samiti was a revolutionary organization based in Bengal (founded in 1902 by Satish Chandra Basu, later led by Barindra Kumar Ghosh and Aurobindo Ghosh). It carried out the Alipore Bomb Case (1908). The Anushilan Samiti was one of the earliest revolutionary organizations in India — it inspired later groups like the HRA and HSRA. It had branches in Dhaka (East Bengal) and other cities.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Alipore Bomb Case (1908) involved which revolutionary leaders?",
+    "options": [
+      "Aurobindo Ghosh and Barindra Kumar Ghosh",
+      "Ram Prasad Bismil and Ashfaqulla Khan",
+      "Surya Sen and Pritilata Waddedar",
+      "Bhagat Singh and Batukeshwar Dutt"
+    ],
+    "answer": 0,
+    "explanation": "The Alipore Bomb Case (1908) involved Aurobindo Ghosh and Barindra Kumar Ghosh. The revolutionaries of the Anushilan Samiti attempted to assassinate the District Judge Kingsford (who was notorious for his harsh sentences). The bomb mistakenly killed two European women (Mrs. Kennedy and her daughter). Khudiram Bose was arrested and hanged (August 11, 1908). Aurobindo Ghosh was acquitted and later turned to spirituality, becoming Sri Aurobindo.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was hanged on August 11, 1908, at the age of 18, becoming one of the youngest revolutionaries to be martyred?",
+    "options": [
+      "Bhagat Singh",
+      "Jatindra Nath Das",
+      "Surya Sen",
+      "Khudiram Bose"
+    ],
+    "answer": 3,
+    "explanation": "Khudiram Bose was hanged on August 11, 1908, at the age of 18 — one of the youngest revolutionaries to be martyred. He was involved in the Muzaffarpur bomb case (targeting Judge Kingsford). He and Prafulla Chaki threw a bomb at a carriage they believed carried Kingsford, but it contained the wife and daughter of a barrister. Khudiram was arrested, tried, and hanged. Prafulla Chaki shot himself to avoid arrest. Khudiram Bose became a martyr and a symbol of youth resistance.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Jatindra Nath Das died on September 13, 1929, after a 63-day hunger strike in Lahore Jail. What was the purpose of the hunger strike?",
+    "options": [
+      "To protest against the British salt tax",
+      "To demand better food for prisoners",
+      "To demand independence for India",
+      "To protest against the inhuman treatment of political prisoners"
+    ],
+    "answer": 3,
+    "explanation": "Jatindra Nath Das died on September 13, 1929, after a 63-day hunger strike in Lahore Jail. The hunger strike was to protest against the inhuman treatment of political prisoners (British prisoners were given better food and facilities than Indian political prisoners). His death generated nationwide protests. Bhagat Singh was also on hunger strike simultaneously (for over 100 days) but survived. The hunger strike was a powerful form of resistance inside the prison.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Gadar Party was founded in 1913 in which country?",
+    "options": [
+      "United States (San Francisco)",
+      "Canada (Vancouver)",
+      "Japan (Tokyo)",
+      "England (London)"
+    ],
+    "answer": 0,
+    "explanation": "The Gadar Party was founded in 1913 in San Francisco, USA, by Lala Hardayal, Sohan Singh Bhakna, and others. Its goal was to organize an armed rebellion against British rule in India, using Indian emigrants (especially Sikh soldiers in the British army). The Gadar Party published the newspaper 'Gadar' (meaning 'revolt'). Many Gadarites returned to India during WWI to foment rebellion, but most were arrested or killed. The Gadar Party was an early example of transnational revolutionary activity.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 71st BPSC PYQ (Q130) matched organizations with headquarters. Which of the following is the correct matching?",
+    "options": [
+      "Swadeshi Sevak Home-Vancouver, United India House-Seattle, Yugantar Ashram-San Francisco, INA/Azad Hind Fauj-Rangoon",
+      "Swadeshi Sevak Home-Seattle, United India House-Vancouver, Yugantar Ashram-Rangoon, INA-San Francisco",
+      "Swadeshi Sevak Home-San Francisco, United India House-Vancouver, Yugantar Ashram-Seattle, INA-Rangoon",
+      "Swadeshi Sevak Home-Rangoon, United India House-San Francisco, Yugantar Ashram-Vancouver, INA-Seattle"
+    ],
+    "answer": 0,
+    "explanation": "The 71st BPSC (Q130) matched: (I) Swadeshi Sevak Home → Vancouver (Canada); (II) United India House → Seattle (USA); (III) Yugantar Ashram → San Francisco (USA); (IV) INA/Azad Hind Fauj → Rangoon (Burma). Correct code: I-d, II-c, III-a, IV-b. These were revolutionary organizations and their overseas headquarters — showing the global spread of the Indian freedom movement.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q130"
+  },
+  {
+    "q": "Chandrashekhar Azad died on February 27, 1931, at which location, shooting himself with the last bullet?",
+    "options": [
+      "Chittagong",
+      "Lahore Jail",
+      "Alfred Park, Allahabad",
+      "Lal Chowk, Srinagar"
+    ],
+    "answer": 2,
+    "explanation": "Chandrashekhar Azad died on February 27, 1931, at Alfred Park in Allahabad (now Prayagraj). He was surrounded by the police and, after a gunfight, shot himself with the last bullet (his pledge was to never be captured alive). Alfred Park was later renamed Chandrashekhar Azad Park in his honour. Azad was the chief strategist of the HSRA and a mentor to Bhagat Singh.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the first Muslim President of the Indian National Congress?",
+    "options": [
+      "Hasrat Mohani",
+      "Badruddin Taiyabji",
+      "Maulana Azad",
+      "Syed Ahmad Khan"
+    ],
+    "answer": 1,
+    "explanation": "Badruddin Taiyabji was the first Muslim President of the Indian National Congress (1887, Madras session). He was a lawyer and a moderate leader. The 71st BPSC asked this question. Maulana Abul Kalam Azad was the youngest INC President (1923, at age 35) — also a Muslim, but not the first. Syed Ahmad Khan was a Muslim educationist but never INC President. Hasrat Mohani was a poet-revolutionary, not INC President.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q87"
+  },
+  {
+    "q": "Subhash Chandra Bose resigned from the presidency of the INC in 1939. Who succeeded him?",
+    "options": [
+      "Rajendra Prasad",
+      "Jawaharlal Nehru",
+      "More than one of the above",
+      "Abul Kalam Azad"
+    ],
+    "answer": 2,
+    "explanation": "The 69th/70th/71st BPSC asked this question. Subhash Chandra Bose resigned as INC President in April 1939 (after disagreements with Gandhi). Dr. Rajendra Prasad was appointed as the next INC President (1939). However, the answer in BPSC is (D) 'More than one of the above' because the question's framing may refer to multiple candidates. Bose had defeated Pattabhi Sitaramayya in the 1939 Tripuri election. After resigning, he formed the Forward Bloc (1939).",
+    "difficulty": "tricky",
+    "pyq_ref": "69th Q73"
+  },
+  {
+    "q": "The famous slogan 'Give me blood, I shall give you freedom' was given by:",
+    "options": [
+      "Subhash Chandra Bose",
+      "Mahatma Gandhi",
+      "Maulana Hasrat Mohani",
+      "Bhagat Singh"
+    ],
+    "answer": 0,
+    "explanation": "Subhash Chandra Bose gave the slogan 'Give me blood, I shall give you freedom' in a speech in Burma (1944) to the INA soldiers. He also gave the slogan 'Dilli Chalo' (On to Delhi) and 'Jai Hind.' Bose's approach was armed struggle against the British — he formed the INA with Japanese help and fought alongside the Axis powers against the British. His approach was fundamentally different from Gandhi's non-violent resistance.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Young India' newspaper was started by:",
+    "options": [
+      "Maulana Abul Kalam Azad",
+      "Annie Besant",
+      "Bal Gangadhar Tilak",
+      "Mahatma Gandhi"
+    ],
+    "answer": 3,
+    "explanation": "The 'Young India' newspaper was started by Mahatma Gandhi in 1919 (he took it over from the Gujarati publisher). Gandhi used it as a platform to propagate his ideas on non-violence, satyagraha, and the freedom struggle. The 71st BPSC asked this question. Annie Besant started 'New India' and 'Commonweal.' Tilak started 'Kesari' and 'Mahratta.' Azad started 'Al Hilal' and 'Al Balagh.'",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q46"
+  },
+  {
+    "q": "Who raised the cry 'Divide and Quit' during India's independence movement?",
+    "options": [
+      "M.A. Jinnah",
+      "M.A. Ansari",
+      "Jawaharlal Nehru",
+      "V.D. Savarkar"
+    ],
+    "answer": 0,
+    "explanation": "M.A. Jinnah raised the cry 'Divide and Quit' — a play on the 'Quit India' slogan. Jinnah demanded the partition of India and the creation of Pakistan (the Lahore Resolution, 1940, demanded separate Muslim states). V.D. Savarkar was a Hindu nationalist. M.A. Ansari was a Congress leader. The 71st BPSC asked this question — the answer is (A) M.A. Jinnah.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q89"
+  },
+  {
+    "q": "Bihar's connection with the revolutionary movement was through:",
+    "options": [
+      "Bhagat Singh's birth in Bihar",
+      "Khudiram Bose's association with Muzaffarpur bomb case (Bihar)",
+      "The Kakori train robbery in Bihar",
+      "Surya Sen's operations in Bihar"
+    ],
+    "answer": 1,
+    "explanation": "Bihar's connection with the revolutionary movement was through the Muzaffarpur bomb case (1908). Khudiram Bose and Prafulla Chaki threw a bomb at Muzaffarpur (Bihar) targeting Judge Kingsford, but the wrong carriage was hit. Khudiram was arrested at Muzaffarpur railway station, tried, and hanged. The Muzaffarpur case is the Bihar-specific revolutionary event. Bhagat Singh was from Punjab, Surya Sen from Bengal, and the Kakori robbery was in UP.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who founded the Forward Bloc in 1939?",
+    "options": [
+      "Rajendra Prasad",
+      "Bhagat Singh",
+      "Subhash Chandra Bose",
+      "Jawaharlal Nehru"
+    ],
+    "answer": 2,
+    "explanation": "Subhash Chandra Bose founded the Forward Bloc in 1939 after resigning from the INC presidency (due to disagreements with Gandhi). The Forward Bloc was a radical wing within the INC — it advocated for a more militant approach to the freedom struggle. Bose was expelled from the INC in 1940. He then escaped from India (January 1941) and eventually led the INA in Southeast Asia. The Forward Bloc later became a separate political party after independence.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The revolutionary women who played a prominent role in the Chittagong Armoury Raid included:",
+    "options": [
+      "Aruna Asaf Ali and Sucheta Kripalani",
+      "Pritilata Waddedar and Kalpana Datta",
+      "Sarojini Naidu and Vijaya Lakshmi Pandit",
+      "Matangini Hazra and Bina Das"
+    ],
+    "answer": 1,
+    "explanation": "Pritilata Waddedar and Kalpana Datta played prominent roles in the Chittagong Armoury Raid (1930). Pritilata led the attack on the Pahartali European Club (September 1932) and consumed cyanide to avoid arrest. Kalpana Datta was arrested for manufacturing bombs. Both were members of Surya Sen's revolutionary group in Chittagong. The Chittagong raid was one of the most daring revolutionary actions, and women played a crucial role.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
 ]

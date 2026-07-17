@@ -1,27 +1,327 @@
 [
-  {"q":"The Partition of Bengal was carried out in which year and by which Viceroy?","options":["1905 by Lord Curzon","1905 by Lord Minto","1911 by Lord Hardinge","1903 by Lord Lansdowne"],"answer":0,"explanation":"The Partition of Bengal was carried out on October 16, 1905, by Lord Curzon (Viceroy 1899-1905). The official reason was administrative efficiency (Bengal was too large), but the real motive was to divide the nationalist movement by separating Hindu-majority West Bengal from Muslim-majority East Bengal (including Assam). It triggered the Swadeshi Movement.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Partition of Bengal was annulled in which year?","options":["1905","1909","1911","1916"],"answer":2,"explanation":"The Partition of Bengal was annulled (reversed) in 1911 by King-Emperor George V at the Delhi Durbar. The annulment was due to sustained Swadeshi resistance and the British desire to appease Bengali Muslims (who had been advantaged by the partition) was abandoned. In 1912, Bihar and Orissa were separated from Bengal as a new province (capital Patna).","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Swadeshi Movement was formally launched in response to which event?","options":["Partition of Bengal 1905","Jallianwala Bagh massacre 1919","Rowlatt Act 1919","Quit India 1942"],"answer":0,"explanation":"The Swadeshi Movement was launched in response to the Partition of Bengal (October 16, 1905). It was formally endorsed at the 1906 INC Calcutta session (presided by Dadabhai Naoroji) as part of the four-fold programme: Swaraj, Swadeshi, Boycott, National Education. It marked the rise of the Extremist wing (Lal-Bal-Pal) and the beginning of mass politics in India.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who among the following was the chief architect of the Bengal Partition?","options":["Lord Curzon","Lord Minto","Lord Ripon","Lord Hardinge"],"answer":0,"explanation":"Lord Curzon (Viceroy 1899-1905) was the chief architect of the Bengal Partition. He announced it in 1903 (officially) and implemented it on October 16, 1905, just before he left India. His other controversial acts: the Calcutta Corporation Act (1899), the Indian Universities Act (1904), and the Partition of Bengal (1905). He is known for his administrative efficiency but also his arrogant imperial attitude.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Swadeshi Movement's 'boycott' initially targeted which type of goods?","options":["British textiles and manufactured goods","Indian handloom goods","French luxury goods","Portuguese spices"],"answer":0,"explanation":"The Swadeshi Movement's boycott initially targeted British textiles and manufactured goods (especially Manchester textiles). Indians were urged to use Indian-made (swadeshi) goods instead. The movement later expanded to boycott British schools, courts, and titles. It was both economic (hurting British commercial interests) and political (demonstrating Indian unity).","difficulty":"pyq","pyq_ref":null},
-  {"q":"The slogan 'Bande Mataram' (Vande Mataram) became a rallying cry of the Swadeshi Movement. It was taken from which literary work?","options":["Anandamath by Bankim Chandra Chatterjee","Gitanjali by Rabindranath Tagore","Satanir by Bankim Chandra","Gora by Tagore"],"answer":0,"explanation":"'Bande Mataram' (Vande Mataram) was taken from Bankim Chandra Chatterjee's novel 'Anandamath' (1882). It became the rallying cry of the Swadeshi Movement after 1905. Aurobindo Ghosh started the newspaper 'Bande Mataram' (1906) which propagated the Swadeshi ideology. The song Vande Mataram was later adopted as the National Song of India (first stanza only, by constitutional assembly resolution, January 24, 1950).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who started the newspaper 'Bande Mataram' in 1906, propagating the Swadeshi ideology?","options":["Aurobindo Ghosh","Bipin Chandra Pal","B.G. Tilak","Bankim Chandra Chatterjee"],"answer":0,"explanation":"Sri Aurobindo Ghosh (1872-1950) started the newspaper 'Bande Mataram' in 1906. It was the most radical newspaper of the Swadeshi era, advocating total independence (Purna Swaraj) long before the INC formally demanded it. Aurobindo later turned to spirituality, founded the Sri Aurobindo Ashram in Pondicherry (1910), and developed 'Integral Yoga'.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The National Council of Education was established during the Swadeshi Movement in which year and where?","options":["1905, Calcutta","1906, Calcutta","1905, Bombay","1907, Poona"],"answer":1,"explanation":"The National Council of Education was established in 1906 in Calcutta to promote national education as an alternative to British government schools. It set up the Bengal National College (with Aurobindo Ghosh as its first principal) and the Bengal Technical Institute. This was part of the four-fold programme of 1906 (Swaraj, Swadeshi, Boycott, National Education).","difficulty":"pyq","pyq_ref":null},
-  {"q":"The political strategy 'Struggle-Truce-Struggle' (S-T-S) was first associated with which movement? (70th BPSC PYQ)","options":["Quit India Movement","Swadeshi Movement","Khilafat Movement","Boycott of Simon Commission"],"answer":1,"explanation":"The 'Struggle-Truce-Struggle' (S-T-S) strategy was first associated with the Swadeshi Movement (70th BPSC PYQ). The movement went through phases of active struggle (1905-1906), truce (when repression set in, 1907-1908), and renewed struggle. This pattern (struggle -> truce -> struggle) became the model for later nationalist movements, including Gandhi's Civil Disobedience Movement.","difficulty":"pyq","pyq_ref":"70th BPSC PYQ (S-T-S came into prominence with Swadeshi call)"},
-  {"q":"Who was the Bengali leader who led the Swadeshi Movement through the journal 'New India' and advocated 'Passive Resistance'?","options":["Aurobindo Ghosh","Bipin Chandra Pal","C.R. Das","Surendranath Banerjea"],"answer":1,"explanation":"Bipin Chandra Pal (1858-1932), the 'Pal' of Lal-Bal-Pal, led the Swadeshi Movement through his journal 'New India' and advocated 'Passive Resistance' as a strategy. He was a fiery orator and writer. He visited England and America to spread the nationalist message. He was one of the three Extremist leaders (Lal-Bal-Pal) of the Swadeshi era.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The All India Muslim League was founded in which year, largely in response to the Hindu-Muslim tensions accentuated by the Bengal Partition?","options":["1905","1906","1907","1909"],"answer":1,"explanation":"The All India Muslim League was founded on December 30, 1906, at Dacca (Dhaka), with the Nawab of Dacca (Salimullah) as the moving spirit. It was formed partly in response to the Hindu-dominated Swadeshi Movement and partly due to British encouragement (Minto-Morley Reforms, separate electorates for Muslims in 1909). Its first President was Sir Aga Khan (III).","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Swadeshi Movement saw the use of which unique symbol of national unity during the protests?","options":["Raksha Bandhan (tying rakhis between Hindus and Muslims)","Khadi flag","Tricolour flag","Charkha spinning wheel"],"answer":0,"explanation":"During the Swadeshi Movement, Rabindranath Tagore initiated the use of Raksha Bandhan (tying rakhis) as a symbol of Hindu-Muslim unity. Hindus tied rakhis on the wrists of Muslims, symbolising brotherhood against the partition. Tagore also led protest processions in Calcutta singing 'Bande Mataram'. This was a creative cultural innovation of the Swadeshi era.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who among the following was NOT a leader of the Swadeshi Movement?","options":["Aurobindo Ghosh","Bipin Chandra Pal","Lord Curzon","Bal Gangadhar Tilak"],"answer":2,"explanation":"Lord Curzon (1859-1925) was NOT a leader of the Swadeshi Movement — he was the Viceroy who carried out the Bengal Partition (the trigger of the movement). Aurobindo Ghosh, Bipin Chandra Pal, and B.G. Tilak were all Extremist leaders of the Swadeshi Movement. Curzon was the target of the movement, not a participant in it.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The 1905 Bengal Partition created which two new provinces?","options":["Eastern Bengal and Assam + Western Bengal","Bengal and Bihar","Bengal and Orissa","West Pakistan and East Pakistan"],"answer":0,"explanation":"The 1905 Bengal Partition created two new provinces: (1) Eastern Bengal and Assam (capital Dacca, including Chittagong, Dacca, Rajshahi, and Assam) with a Muslim majority; (2) West Bengal (including Bihar and Orissa) with a Hindu majority. The division was designed to weaken the nationalist movement by dividing Bengali-speaking people on religious lines.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who presided over the 1905 Banaras session of the INC, held during the early Swadeshi Movement?","options":["G.K. Gokhale","Dadabhai Naoroji","B.G. Tilak","Lala Lajpat Rai"],"answer":0,"explanation":"G.K. Gokhale presided over the 1905 Banaras (Varanasi) session of the INC — held in December 1905, two months after the Bengal Partition. This session was still Moderate-dominated; the Extremists' victory came at the 1906 Calcutta session (Naoroji's presidency, four-fold programme). Gokhale's Banaras presidency was a transitional moment between the Moderate and Extremist eras.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"The 'Swadeshi' concept was first applied in which region during the anti-Partition agitation?","options":["Bengal","Bihar","Punjab","Madras"],"answer":0,"explanation":"The 'Swadeshi' concept was first applied in Bengal during the anti-Partition agitation (1905). Bengalis boycotted British goods and promoted Indian-made goods. The movement later spread to other regions (Punjab under Lajpat Rai, Maharashtra under Tilak, Madras under Subramania Iyer). Bengal was the epicentre because the partition directly affected Bengali identity.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who composed the song 'Vande Mataram' which became the anthem of the Swadeshi Movement?","options":["Rabindranath Tagore","Bankim Chandra Chatterjee","Dwijendranath Tagore","Satyendranath Tagore"],"answer":1,"explanation":"Bankim Chandra Chatterjee (1838-1894) composed the song 'Vande Mataram' as part of his novel 'Anandamath' (1882). It became the anthem of the Swadeshi Movement after 1905. The first two stanzas were adopted as the National Song of India by the Constituent Assembly on January 24, 1950. Tagore composed 'Jana Gana Mana' (the National Anthem, 1911).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Consider the following about the Bengal Partition: 1. It was carried out by Lord Curzon in 1905. 2. It was annulled in 1911. 3. It led to the Swadeshi Movement. Which is/are correct?","options":["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"],"answer":3,"explanation":"All three are correct: (1) Lord Curzon carried out the Bengal Partition on October 16, 1905. (2) It was annulled in 1911 (Delhi Durbar, King-Emperor George V). (3) It led to the Swadeshi Movement (1905-1908), the first mass nationalist movement in India. The annulment was a major victory for the Swadeshi Movement, though it also reflected British divide-and-rule calculations.","difficulty":"tricky","pyq_ref":null},
-  {"q":"Arrange in chronological order: 1. Bengal Partition 2. Swadeshi Movement launched 3. Muslim League founded 4. Partition annulled","options":["1, 2, 3, 4","2, 1, 3, 4","1, 3, 2, 4","3, 1, 2, 4"],"answer":0,"explanation":"Bengal Partition (October 16, 1905) → Swadeshi Movement launched (immediately after, late 1905) → Muslim League founded (December 30, 1906) → Partition annulled (1911, Delhi Durbar). The Swadeshi Movement was the direct response to the partition; the Muslim League was formed partly as a counter to the Hindu-dominated Swadeshi Movement; the annulment (1911) was the culmination of sustained Swadeshi resistance.","difficulty":"tricky","pyq_ref":null},
-  {"q":"The Bengal National College was founded during the Swadeshi Movement. Who was its first principal?","options":["Aurobindo Ghosh","Rabindranath Tagore","Bipin Chandra Pal","Satish Chandra Mukherjee"],"answer":0,"explanation":"Sri Aurobindo Ghosh was the first principal of the Bengal National College, founded in 1906 as part of the National Council of Education (a swadeshi initiative). He served briefly before leaving to focus on political journalism (Bande Mataram newspaper). The College was part of the national education movement — an alternative to British government-run institutions.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"The Swadeshi Movement was significant because it marked the first use of which political strategy in India?","options":["Economic boycott of British goods as a political weapon","Armed revolution against the British","Constitutional petitions for reform","Legal battles in British courts"],"answer":0,"explanation":"The Swadeshi Movement (1905) marked the first use of economic boycott of British goods as a political weapon in India. Indians boycotted British textiles and promoted swadeshi (Indian-made) goods. This was a novel strategy — previous Moderate-era tactics were petitions and prayers. The Swadeshi Movement also marked the beginning of mass politics (students, women, peasants) and the rise of the Extremists.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Bihar's connection with the Bengal Partition (1905) was that:","options":["Bihar was part of the Bengal Presidency and was included in West Bengal after partition","Bihar was separated from Bengal by the partition","Bihar was unaffected by the partition","Bihar led the Swadeshi Movement"],"answer":0,"explanation":"Bihar was part of the Bengal Presidency in 1905. The Bengal Partition (1905) placed Bihar in West Bengal (the Hindu-majority province). When the partition was annulled in 1911, Bihar was separated from Bengal in 1912 as a new province (capital Patna). The Swadeshi Movement had limited impact in Bihar (compared to Bengal) — Bihar's first major nationalist movement was Champaran (1917, Gandhi).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who among the following Bengali leaders joined the Swadeshi Movement but later returned to the Moderate fold after the Surat Split (1907)?","options":["Surendranath Banerjea","Aurobindo Ghosh","Bipin Chandra Pal","B.G. Tilak"],"answer":0,"explanation":"Surendranath Banerjea (1848-1925) initially supported the Swadeshi Movement but was a Moderate at heart. After the 1907 Surat Split, he remained with the Moderates. He was known as 'Surrender Not' Banerjea. He founded the Indian Association (1876) and was a leading Bengali Moderate. He later accepted knighthood (1913) and became a minister in the Bengal government — distancing himself from the Extremists.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"The Surat Split of 1907 was directly triggered by the disagreement over which issue?","options":["Extending the Swadeshi Movement's four-fold programme vs returning to Moderate constitutionalism","Whether to support the Muslim League","Whether to accept the Morley-Minto Reforms","Whether to demand Purna Swaraj"],"answer":0,"explanation":"The Surat Split (1907) was triggered by the disagreement between Moderates (who wanted to return to constitutional methods) and Extremists (who wanted to extend the Swadeshi Movement's four-fold programme of Swaraj, Swadeshi, Boycott, and National Education). The Moderates, led by Pherozeshah Mehta and Gokhale, won control of the INC; the Extremists (Lal-Bal-Pal) were expelled. The split lasted until 1916 (Lucknow Pact).","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Indian Councils Act of 1909 (Morley-Minto Reforms) was a direct response to which movement's pressures?","options":["Swadeshi Movement and Muslim League demands","Quit India Movement","Civil Disobedience Movement","Non-Cooperation Movement"],"answer":0,"explanation":"The Indian Councils Act of 1909 (Morley-Minto Reforms) was a direct response to the Swadeshi Movement's pressures and the Muslim League's demands. It introduced separate electorates for Muslims (the 'communal veto') and enlarged the Legislative Councils. John Morley (Secretary of State) and Lord Minto (Viceroy) were its architects. It was the first British acknowledgement of the need for political reform, but also institutionalised the communal divide.","difficulty":"pyq","pyq_ref":null}
+  {
+    "q": "The Partition of Bengal was carried out in which year and by which Viceroy?",
+    "options": [
+      "1905 by Lord Minto",
+      "1903 by Lord Lansdowne",
+      "1905 by Lord Curzon",
+      "1911 by Lord Hardinge"
+    ],
+    "answer": 2,
+    "explanation": "The Partition of Bengal was carried out on October 16, 1905, by Lord Curzon (Viceroy 1899-1905). The official reason was administrative efficiency (Bengal was too large), but the real motive was to divide the nationalist movement by separating Hindu-majority West Bengal from Muslim-majority East Bengal (including Assam). It triggered the Swadeshi Movement.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Partition of Bengal was annulled in which year?",
+    "options": [
+      "1916",
+      "1911",
+      "1909",
+      "1905"
+    ],
+    "answer": 1,
+    "explanation": "The Partition of Bengal was annulled (reversed) in 1911 by King-Emperor George V at the Delhi Durbar. The annulment was due to sustained Swadeshi resistance and the British desire to appease Bengali Muslims (who had been advantaged by the partition) was abandoned. In 1912, Bihar and Orissa were separated from Bengal as a new province (capital Patna).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Swadeshi Movement was formally launched in response to which event?",
+    "options": [
+      "Jallianwala Bagh massacre 1919",
+      "Quit India 1942",
+      "Partition of Bengal 1905",
+      "Rowlatt Act 1919"
+    ],
+    "answer": 2,
+    "explanation": "The Swadeshi Movement was launched in response to the Partition of Bengal (October 16, 1905). It was formally endorsed at the 1906 INC Calcutta session (presided by Dadabhai Naoroji) as part of the four-fold programme: Swaraj, Swadeshi, Boycott, National Education. It marked the rise of the Extremist wing (Lal-Bal-Pal) and the beginning of mass politics in India.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who among the following was the chief architect of the Bengal Partition?",
+    "options": [
+      "Lord Hardinge",
+      "Lord Minto",
+      "Lord Curzon",
+      "Lord Ripon"
+    ],
+    "answer": 2,
+    "explanation": "Lord Curzon (Viceroy 1899-1905) was the chief architect of the Bengal Partition. He announced it in 1903 (officially) and implemented it on October 16, 1905, just before he left India. His other controversial acts: the Calcutta Corporation Act (1899), the Indian Universities Act (1904), and the Partition of Bengal (1905). He is known for his administrative efficiency but also his arrogant imperial attitude.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Swadeshi Movement's 'boycott' initially targeted which type of goods?",
+    "options": [
+      "British textiles and manufactured goods",
+      "Indian handloom goods",
+      "French luxury goods",
+      "Portuguese spices"
+    ],
+    "answer": 0,
+    "explanation": "The Swadeshi Movement's boycott initially targeted British textiles and manufactured goods (especially Manchester textiles). Indians were urged to use Indian-made (swadeshi) goods instead. The movement later expanded to boycott British schools, courts, and titles. It was both economic (hurting British commercial interests) and political (demonstrating Indian unity).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The slogan 'Bande Mataram' (Vande Mataram) became a rallying cry of the Swadeshi Movement. It was taken from which literary work?",
+    "options": [
+      "Satanir by Bankim Chandra",
+      "Anandamath by Bankim Chandra Chatterjee",
+      "Gora by Tagore",
+      "Gitanjali by Rabindranath Tagore"
+    ],
+    "answer": 1,
+    "explanation": "'Bande Mataram' (Vande Mataram) was taken from Bankim Chandra Chatterjee's novel 'Anandamath' (1882). It became the rallying cry of the Swadeshi Movement after 1905. Aurobindo Ghosh started the newspaper 'Bande Mataram' (1906) which propagated the Swadeshi ideology. The song Vande Mataram was later adopted as the National Song of India (first stanza only, by constitutional assembly resolution, January 24, 1950).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who started the newspaper 'Bande Mataram' in 1906, propagating the Swadeshi ideology?",
+    "options": [
+      "Aurobindo Ghosh",
+      "Bankim Chandra Chatterjee",
+      "B.G. Tilak",
+      "Bipin Chandra Pal"
+    ],
+    "answer": 0,
+    "explanation": "Sri Aurobindo Ghosh (1872-1950) started the newspaper 'Bande Mataram' in 1906. It was the most radical newspaper of the Swadeshi era, advocating total independence (Purna Swaraj) long before the INC formally demanded it. Aurobindo later turned to spirituality, founded the Sri Aurobindo Ashram in Pondicherry (1910), and developed 'Integral Yoga'.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The National Council of Education was established during the Swadeshi Movement in which year and where?",
+    "options": [
+      "1905, Calcutta",
+      "1906, Calcutta",
+      "1905, Bombay",
+      "1907, Poona"
+    ],
+    "answer": 1,
+    "explanation": "The National Council of Education was established in 1906 in Calcutta to promote national education as an alternative to British government schools. It set up the Bengal National College (with Aurobindo Ghosh as its first principal) and the Bengal Technical Institute. This was part of the four-fold programme of 1906 (Swaraj, Swadeshi, Boycott, National Education).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The political strategy 'Struggle-Truce-Struggle' (S-T-S) was first associated with which movement? (70th BPSC PYQ)",
+    "options": [
+      "Swadeshi Movement",
+      "Boycott of Simon Commission",
+      "Quit India Movement",
+      "Khilafat Movement"
+    ],
+    "answer": 0,
+    "explanation": "The 'Struggle-Truce-Struggle' (S-T-S) strategy was first associated with the Swadeshi Movement (70th BPSC PYQ). The movement went through phases of active struggle (1905-1906), truce (when repression set in, 1907-1908), and renewed struggle. This pattern (struggle -> truce -> struggle) became the model for later nationalist movements, including Gandhi's Civil Disobedience Movement.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th BPSC PYQ (S-T-S came into prominence with Swadeshi call)"
+  },
+  {
+    "q": "Who was the Bengali leader who led the Swadeshi Movement through the journal 'New India' and advocated 'Passive Resistance'?",
+    "options": [
+      "Bipin Chandra Pal",
+      "C.R. Das",
+      "Aurobindo Ghosh",
+      "Surendranath Banerjea"
+    ],
+    "answer": 0,
+    "explanation": "Bipin Chandra Pal (1858-1932), the 'Pal' of Lal-Bal-Pal, led the Swadeshi Movement through his journal 'New India' and advocated 'Passive Resistance' as a strategy. He was a fiery orator and writer. He visited England and America to spread the nationalist message. He was one of the three Extremist leaders (Lal-Bal-Pal) of the Swadeshi era.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The All India Muslim League was founded in which year, largely in response to the Hindu-Muslim tensions accentuated by the Bengal Partition?",
+    "options": [
+      "1906",
+      "1907",
+      "1909",
+      "1905"
+    ],
+    "answer": 0,
+    "explanation": "The All India Muslim League was founded on December 30, 1906, at Dacca (Dhaka), with the Nawab of Dacca (Salimullah) as the moving spirit. It was formed partly in response to the Hindu-dominated Swadeshi Movement and partly due to British encouragement (Minto-Morley Reforms, separate electorates for Muslims in 1909). Its first President was Sir Aga Khan (III).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Swadeshi Movement saw the use of which unique symbol of national unity during the protests?",
+    "options": [
+      "Khadi flag",
+      "Raksha Bandhan (tying rakhis between Hindus and Muslims)",
+      "Tricolour flag",
+      "Charkha spinning wheel"
+    ],
+    "answer": 1,
+    "explanation": "During the Swadeshi Movement, Rabindranath Tagore initiated the use of Raksha Bandhan (tying rakhis) as a symbol of Hindu-Muslim unity. Hindus tied rakhis on the wrists of Muslims, symbolising brotherhood against the partition. Tagore also led protest processions in Calcutta singing 'Bande Mataram'. This was a creative cultural innovation of the Swadeshi era.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who among the following was NOT a leader of the Swadeshi Movement?",
+    "options": [
+      "Aurobindo Ghosh",
+      "Lord Curzon",
+      "Bipin Chandra Pal",
+      "Bal Gangadhar Tilak"
+    ],
+    "answer": 1,
+    "explanation": "Lord Curzon (1859-1925) was NOT a leader of the Swadeshi Movement — he was the Viceroy who carried out the Bengal Partition (the trigger of the movement). Aurobindo Ghosh, Bipin Chandra Pal, and B.G. Tilak were all Extremist leaders of the Swadeshi Movement. Curzon was the target of the movement, not a participant in it.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 1905 Bengal Partition created which two new provinces?",
+    "options": [
+      "Bengal and Bihar",
+      "Eastern Bengal and Assam + Western Bengal",
+      "West Pakistan and East Pakistan",
+      "Bengal and Orissa"
+    ],
+    "answer": 1,
+    "explanation": "The 1905 Bengal Partition created two new provinces: (1) Eastern Bengal and Assam (capital Dacca, including Chittagong, Dacca, Rajshahi, and Assam) with a Muslim majority; (2) West Bengal (including Bihar and Orissa) with a Hindu majority. The division was designed to weaken the nationalist movement by dividing Bengali-speaking people on religious lines.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who presided over the 1905 Banaras session of the INC, held during the early Swadeshi Movement?",
+    "options": [
+      "Lala Lajpat Rai",
+      "Dadabhai Naoroji",
+      "B.G. Tilak",
+      "G.K. Gokhale"
+    ],
+    "answer": 3,
+    "explanation": "G.K. Gokhale presided over the 1905 Banaras (Varanasi) session of the INC — held in December 1905, two months after the Bengal Partition. This session was still Moderate-dominated; the Extremists' victory came at the 1906 Calcutta session (Naoroji's presidency, four-fold programme). Gokhale's Banaras presidency was a transitional moment between the Moderate and Extremist eras.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Swadeshi' concept was first applied in which region during the anti-Partition agitation?",
+    "options": [
+      "Madras",
+      "Bihar",
+      "Bengal",
+      "Punjab"
+    ],
+    "answer": 2,
+    "explanation": "The 'Swadeshi' concept was first applied in Bengal during the anti-Partition agitation (1905). Bengalis boycotted British goods and promoted Indian-made goods. The movement later spread to other regions (Punjab under Lajpat Rai, Maharashtra under Tilak, Madras under Subramania Iyer). Bengal was the epicentre because the partition directly affected Bengali identity.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who composed the song 'Vande Mataram' which became the anthem of the Swadeshi Movement?",
+    "options": [
+      "Dwijendranath Tagore",
+      "Bankim Chandra Chatterjee",
+      "Rabindranath Tagore",
+      "Satyendranath Tagore"
+    ],
+    "answer": 1,
+    "explanation": "Bankim Chandra Chatterjee (1838-1894) composed the song 'Vande Mataram' as part of his novel 'Anandamath' (1882). It became the anthem of the Swadeshi Movement after 1905. The first two stanzas were adopted as the National Song of India by the Constituent Assembly on January 24, 1950. Tagore composed 'Jana Gana Mana' (the National Anthem, 1911).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about the Bengal Partition: 1. It was carried out by Lord Curzon in 1905. 2. It was annulled in 1911. 3. It led to the Swadeshi Movement. Which is/are correct?",
+    "options": [
+      "1, 2 and 3",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1 and 2 only"
+    ],
+    "answer": 0,
+    "explanation": "All three are correct: (1) Lord Curzon carried out the Bengal Partition on October 16, 1905. (2) It was annulled in 1911 (Delhi Durbar, King-Emperor George V). (3) It led to the Swadeshi Movement (1905-1908), the first mass nationalist movement in India. The annulment was a major victory for the Swadeshi Movement, though it also reflected British divide-and-rule calculations.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange in chronological order: 1. Bengal Partition 2. Swadeshi Movement launched 3. Muslim League founded 4. Partition annulled",
+    "options": [
+      "3, 1, 2, 4",
+      "1, 2, 3, 4",
+      "1, 3, 2, 4",
+      "2, 1, 3, 4"
+    ],
+    "answer": 1,
+    "explanation": "Bengal Partition (October 16, 1905) → Swadeshi Movement launched (immediately after, late 1905) → Muslim League founded (December 30, 1906) → Partition annulled (1911, Delhi Durbar). The Swadeshi Movement was the direct response to the partition; the Muslim League was formed partly as a counter to the Hindu-dominated Swadeshi Movement; the annulment (1911) was the culmination of sustained Swadeshi resistance.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bengal National College was founded during the Swadeshi Movement. Who was its first principal?",
+    "options": [
+      "Rabindranath Tagore",
+      "Aurobindo Ghosh",
+      "Satish Chandra Mukherjee",
+      "Bipin Chandra Pal"
+    ],
+    "answer": 1,
+    "explanation": "Sri Aurobindo Ghosh was the first principal of the Bengal National College, founded in 1906 as part of the National Council of Education (a swadeshi initiative). He served briefly before leaving to focus on political journalism (Bande Mataram newspaper). The College was part of the national education movement — an alternative to British government-run institutions.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Swadeshi Movement was significant because it marked the first use of which political strategy in India?",
+    "options": [
+      "Constitutional petitions for reform",
+      "Economic boycott of British goods as a political weapon",
+      "Legal battles in British courts",
+      "Armed revolution against the British"
+    ],
+    "answer": 1,
+    "explanation": "The Swadeshi Movement (1905) marked the first use of economic boycott of British goods as a political weapon in India. Indians boycotted British textiles and promoted swadeshi (Indian-made) goods. This was a novel strategy — previous Moderate-era tactics were petitions and prayers. The Swadeshi Movement also marked the beginning of mass politics (students, women, peasants) and the rise of the Extremists.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's connection with the Bengal Partition (1905) was that:",
+    "options": [
+      "Bihar led the Swadeshi Movement",
+      "Bihar was separated from Bengal by the partition",
+      "Bihar was unaffected by the partition",
+      "Bihar was part of the Bengal Presidency and was included in West Bengal after partition"
+    ],
+    "answer": 3,
+    "explanation": "Bihar was part of the Bengal Presidency in 1905. The Bengal Partition (1905) placed Bihar in West Bengal (the Hindu-majority province). When the partition was annulled in 1911, Bihar was separated from Bengal in 1912 as a new province (capital Patna). The Swadeshi Movement had limited impact in Bihar (compared to Bengal) — Bihar's first major nationalist movement was Champaran (1917, Gandhi).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who among the following Bengali leaders joined the Swadeshi Movement but later returned to the Moderate fold after the Surat Split (1907)?",
+    "options": [
+      "Aurobindo Ghosh",
+      "Bipin Chandra Pal",
+      "Surendranath Banerjea",
+      "B.G. Tilak"
+    ],
+    "answer": 2,
+    "explanation": "Surendranath Banerjea (1848-1925) initially supported the Swadeshi Movement but was a Moderate at heart. After the 1907 Surat Split, he remained with the Moderates. He was known as 'Surrender Not' Banerjea. He founded the Indian Association (1876) and was a leading Bengali Moderate. He later accepted knighthood (1913) and became a minister in the Bengal government — distancing himself from the Extremists.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Surat Split of 1907 was directly triggered by the disagreement over which issue?",
+    "options": [
+      "Whether to demand Purna Swaraj",
+      "Extending the Swadeshi Movement's four-fold programme vs returning to Moderate constitutionalism",
+      "Whether to support the Muslim League",
+      "Whether to accept the Morley-Minto Reforms"
+    ],
+    "answer": 1,
+    "explanation": "The Surat Split (1907) was triggered by the disagreement between Moderates (who wanted to return to constitutional methods) and Extremists (who wanted to extend the Swadeshi Movement's four-fold programme of Swaraj, Swadeshi, Boycott, and National Education). The Moderates, led by Pherozeshah Mehta and Gokhale, won control of the INC; the Extremists (Lal-Bal-Pal) were expelled. The split lasted until 1916 (Lucknow Pact).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Indian Councils Act of 1909 (Morley-Minto Reforms) was a direct response to which movement's pressures?",
+    "options": [
+      "Quit India Movement",
+      "Civil Disobedience Movement",
+      "Non-Cooperation Movement",
+      "Swadeshi Movement and Muslim League demands"
+    ],
+    "answer": 3,
+    "explanation": "The Indian Councils Act of 1909 (Morley-Minto Reforms) was a direct response to the Swadeshi Movement's pressures and the Muslim League's demands. It introduced separate electorates for Muslims (the 'communal veto') and enlarged the Legislative Councils. John Morley (Secretary of State) and Lord Minto (Viceroy) were its architects. It was the first British acknowledgement of the need for political reform, but also institutionalised the communal divide.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
 ]

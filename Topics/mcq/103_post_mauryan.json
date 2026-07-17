@@ -1,27 +1,327 @@
 [
-  {"q":"Who killed the last Mauryan emperor Brihadratha and founded the Shunga dynasty?","options":["Pushyamitra Shunga (c. 185 BCE)","Kanishka","Demetrius Indo-Greek","Mahapadma Nanda"],"answer":0,"explanation":"Pushyamitra Shunga, a Brahmin general of the Mauryan army, killed the last Mauryan emperor Brihadratha c. 185 BCE and founded the Shunga dynasty. He was a patron of Brahminical culture and performed the Ashvamedha (horse sacrifice).","difficulty":"pyq","pyq_ref":"69th p.12"},
-  {"q":"The Shunga dynasty ruled from which capital?","options":["Pataliputra (Bihar)","Ujjain","Taxila","Vidisha"],"answer":0,"explanation":"The Shungas ruled from Pataliputra (Bihar) — continuing the Mauryan capital. Pushyamitra Shunga (c. 185-149 BCE) was the founder. The Shungas extended from Punjab to Bengal and south to the Narmada.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Pushyamitra Shunga was a patron of which religion?","options":["Brahminical Hinduism (he performed the Ashvamedha sacrifice and patronised Brahmins)","Buddhism","Jainism","Ajivika"],"answer":0,"explanation":"Pushyamitra Shunga was a patron of Brahminical Hinduism. He performed the Ashvamedha (horse sacrifice) — a Vedic royal ritual. Buddhist texts accuse him of persecuting Buddhists, but this is debated. He patronised the Brahminical revival.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The famous Bharhut Stupa (with magnificent Buddhist sculptures) was built during which period?","options":["The Shunga period (c. 2nd century BCE)","Mauryan period","Gupta period","Kushana period"],"answer":0,"explanation":"The Bharhut Stupa (in modern Madhya Pradesh) was built/enlarged during the Shunga period (c. 2nd century BCE). It has magnificent Buddhist sculptures (railings, gateways) with inscriptions. The Bharhut sculptures are now in the Indian Museum, Kolkata.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Patanjali, the famous grammarian who wrote the Mahabhashya (commentary on Panini's grammar), lived during which period?","options":["The Shunga period (he was a contemporary of Pushyamitra Shunga)","Mauryan period","Gupta period","Vedic period"],"answer":0,"explanation":"Patanjali lived during the Shunga period (c. 2nd century BCE) and was a contemporary of Pushyamitra Shunga. His Mahabhashya is the greatest commentary on Panini's Ashtadhyayi (Sanskrit grammar). He also wrote on yoga (Yoga Sutras — though this may be a different Patanjali).","difficulty":"bpsc","pyq_ref":null},
-  {"q":"After the decline of the Mauryan Empire, which foreign invaders entered India from the northwest?","options":["The Indo-Greeks (Bactrian Greeks, c. 180 BCE)","The Huns","The Arabs","The Mongols"],"answer":0,"explanation":"After the Mauryan decline, the Indo-Greeks (Bactrian Greeks) invaded from the northwest (c. 180 BCE). The most famous Indo-Greek king was Menander I (Milinda, c. 165-130 BCE) — who ruled from Punjab and possibly converted to Buddhism (Milinda Panha text records his dialogue with monk Nagasena).","difficulty":"pyq","pyq_ref":"70th p.8"},
-  {"q":"The most famous Indo-Greek king, who ruled from Punjab and possibly converted to Buddhism, was:","options":["Menander I (Milinda, c. 165-130 BCE)","Demetrius","Eucratides","Apollodotus"],"answer":0,"explanation":"Menander I (Milinda) was the most famous Indo-Greek king (c. 165-130 BCE). He ruled from Sakala (modern Sialkot, Punjab, Pakistan). The Buddhist text 'Milinda Panha' (Questions of Milinda) records his philosophical dialogue with Buddhist monk Nagasena — and his possible conversion to Buddhism.","difficulty":"pyq","pyq_ref":"70th p.8"},
-  {"q":"The Indo-Greeks introduced which innovation to Indian coinage?","options":["Gold coins with portraits of kings + bilingual legends (Greek + Kharoshthi)","Punch-marked coins","Cowrie shells","Paper currency"],"answer":0,"explanation":"The Indo-Greeks introduced gold and silver coins with realistic portraits of kings + bilingual legends (Greek on obverse, Kharoshthi/Prakrit on reverse). These are the earliest Indian coins with portraits. They also introduced the Greek system of coinage to India.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Kushanas were a branch of which nomadic tribe?","options":["The Yuezhi (a Central Asian nomadic tribe)","The Huns","The Scythians","The Mongols"],"answer":0,"explanation":"The Kushanas were a branch of the Yuezhi (Yueh-chi) — a nomadic tribe from Central Asia (modern Xinjiang/Gansu, China). They migrated westward, displaced the Indo-Greeks, and established the Kushana Empire in northwest India (c. 1st-3rd century CE).","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Who was the most famous Kushana emperor, known for the Fourth Buddhist Council and the Saka Era?","options":["Kanishka (c. 78 CE)","Kujula Kadphises","Vima Kadphises","Vasishka"],"answer":0,"explanation":"Kanishka (c. 78 CE) was the most famous Kushana emperor. He convened the Fourth Buddhist Council (Kashmir, c. 72 CE) — which split Buddhism into Hinayana and Mahayana. The Saka Era (starting 78 CE) is traditionally associated with his accession. He extended the empire from Central Asia to Varanasi.","difficulty":"pyq","pyq_ref":"71st p.12"},
-  {"q":"The Fourth Buddhist Council was held under Kanishka's patronage at which place?","options":["Kashmir (c. 72 CE)","Pataliputra","Rajgir","Vaishali"],"answer":0,"explanation":"The Fourth Buddhist Council was held at Kashmir (c. 72 CE) under Kanishka's patronage. Presided by Vasumitra (with Ashvaghosha as deputy). It split Buddhism into Hinayana (Theravada, individual liberation) and Mahayana (Greater Vehicle, Bodhisattva). Sanskrit became the Buddhist scholarly language.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Saka Era (starting 78 CE) is associated with which ruler?","options":["Kanishka (c. 78 CE, the Saka Era is traditionally linked to his accession)","Pushyamitra Shunga","Menander I","Rudradaman I"],"answer":0,"explanation":"The Saka Era (starting 78 CE) is traditionally associated with Kanishka's accession. It is the official calendar of India (used by the Government of India for the National Calendar). The Saka Era is still used today — 2026 CE = 1948-49 Saka.","difficulty":"pyq","pyq_ref":"70th p.8"},
-  {"q":"The famous Silk Route trade flourished under which empire?","options":["The Kushana Empire (connecting China to Rome via Central Asia)","The Shunga Empire","The Satavahana Empire","The Mauryan Empire"],"answer":0,"explanation":"The Kushana Empire controlled the Silk Route — the trade network connecting China to the Roman Empire via Central Asia. The Kushanas prospered from Silk Route trade (silk, spices, gold, gems). Kanishka's empire extended to Central Asia (Bactria, Kashgar, Yarkand).","difficulty":"bpsc","pyq_ref":null},
-  {"q":"The Gandhara School of Art (Indo-Greek Buddhist art) flourished under which empire?","options":["The Kushana Empire (c. 1st-3rd century CE, in modern Pakistan/Afghanistan)","The Shunga Empire","The Satavahana Empire","The Mauryan Empire"],"answer":0,"explanation":"The Gandhara School of Art flourished under the Kushanas (c. 1st-3rd century CE) in the Gandhara region (modern Pakistan/Afghanistan, centered on Peshawar and Taxila). It combined Greco-Roman and Indian styles — producing the first images of the Buddha in human form (with Hellenistic features: wavy hair, muscular body, Greek drapery).","difficulty":"pyq","pyq_ref":"70th p.8"},
-  {"q":"The Mathura School of Art (indigenous Indian Buddhist art) also flourished under the Kushanas. Where is Mathura?","options":["Mathura (in modern Uttar Pradesh, south of Delhi)","In Bihar","In Punjab","In Afghanistan"],"answer":0,"explanation":"The Mathura School of Art flourished at Mathura (UP, south of Delhi) under the Kushanas. Unlike the Gandhara School (Greco-Roman), the Mathura School was indigenous Indian — producing Buddha images with Indian features (usnisa/topknot, serene expression, transparent robes). It also produced Jain and Hindu images.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Ashvaghosha, the famous Buddhist scholar who wrote the Buddhacharita (a biography of the Buddha in Sanskrit), lived during which period?","options":["The Kushana period (he was Kanishka's court poet)","The Shunga period","The Mauryan period","The Gupta period"],"answer":0,"explanation":"Ashvaghosha lived during the Kushana period and was Kanishka's court poet. He wrote the Buddhacharita (a Sanskrit biography of the Buddha) — the first biography of the Buddha. He also wrote the Sutralankara and was deputy president of the Fourth Buddhist Council.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Satavahana dynasty ruled which region of India (c. 1st century BCE - 3rd century CE)?","options":["The Deccan (modern Maharashtra, Telangana, Andhra Pradesh, Karnataka)","The Gangetic plains","The northwest","Bengal"],"answer":0,"explanation":"The Satavahanas (c. 1st century BCE - 3rd century CE) ruled the Deccan — modern Maharashtra, Telangana, Andhra Pradesh, Karnataka. Their capital was Pratishthana (modern Paithan, Maharashtra). They were the first major Deccan empire. Founder: Simuka (c. 230 BCE). Greatest king: Gautamiputra Satakarni.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The greatest Satavahana king, who defeated the Shaka ruler Nahapana and extended the empire, was:","options":["Gautamiputra Satakarni (c. 106-130 CE)","Simuka","Pulumavi","Satakarni I"],"answer":0,"explanation":"Gautamiputra Satakarni (c. 106-130 CE) was the greatest Satavahana king. He defeated the Shaka (Western Kshatrapa) ruler Nahapana, extended the empire from Malwa to Karnataka, and restored Satavahana power. His mother Gautami Balasri's inscription (at Nashik) records his achievements. He called himself 'Destroyer of the pride of the Kshaharatas.'","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Satavahanas were known for which unique administrative feature?","options":["Matronymics (kings used their mother's name, e.g., Gautamiputra = 'son of Gautami')","A republic system","A feudal system","A military dictatorship"],"answer":0,"explanation":"The Satavahanas uniquely used matronymics — kings prefixed their mother's name: Gautamiputra ('son of Gautami'), Vasishtiputra ('son of Vasishti'), Pulumavi. This suggests high status for women in Satavahana society. Women also donated land and made religious gifts.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Satavahanas issued which type of coins primarily?","options":["Lead and potin (copper alloy) coins (unique to the Deccan, for local trade)","Gold coins with portraits","Silver punch-marked coins","Paper currency"],"answer":0,"explanation":"The Satavahanas issued lead, potin (copper alloy), and copper coins — unique to the Deccan. These were for local trade. They also issued some silver and gold coins (imitating the Indo-Greek and Shaka styles). The lead coins are distinctive — featuring elephants, horses, and Ujjain symbols.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"The Satavahanas patronised which religions?","options":["Both Buddhism and Brahminical Hinduism (they gave land grants to both Buddhists and Brahmins)","Buddhism only","Jainism only","Hinduism only"],"answer":0,"explanation":"The Satavahanas patronised both Buddhism and Brahminical Hinduism. They gave land grants (agraharas) to Brahmins and donated to Buddhist monasteries (viharas, chaityas, stupas). The famous Amaravati Stupa and Nashik caves were built under their patronage. This religious eclecticism was a Satavahana feature.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Shaka (Western Kshatrapa) dynasty ruled which region?","options":["Saurashtra (modern Gujarat) and Malwa (western India)","Bengal","Tamil Nadu","Bihar"],"answer":0,"explanation":"The Shakas (Western Kshatrapas) ruled Saurashtra (Gujarat) and Malwa (western India) — c. 1st-4th century CE. Their capital was Ujjain. The most famous Shaka ruler was Rudradaman I (c. 130-150 CE) — who repaired the Sudarshana Lake (Junagadh inscription, c. 150 CE, the first long Sanskrit inscription).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Rudradaman I, the famous Shaka ruler, is known for which inscription?","options":["The Junagadh Rock Inscription (c. 150 CE — the first long inscription in pure Sanskrit)","The Allahabad Pillar","The Rummindei Pillar","The Bhitari Pillar"],"answer":0,"explanation":"Rudradaman I's Junagadh Rock Inscription (c. 150 CE, in Gujarat) is the first long inscription in pure Sanskrit (earlier inscriptions were in Prakrit). It records the repair of the Sudarshana Lake (originally built by Chandragupta Maurya, enhanced by Ashoka). Rudradaman defeated the Satavahanas twice.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Bihar's connection with the Post-Mauryan period is primarily through which fact?","options":["The Shungas continued to rule from Pataliputra (Bihar) as their capital","Bihar was under Kushana rule","Bihar was under Satavahana rule","Bihar was independent"],"answer":0,"explanation":"The Shungas continued to rule from Pataliputra (Bihar) — the Mauryan capital. Pushyamitra Shunga (founder) ruled from Pataliputra. The Shungas controlled Bihar, Bengal, and parts of central India. After the Shungas, the Kushanas ruled the northwest (not Bihar), and the Satavahanas the Deccan — Bihar came under the Guptas later (c. 320 CE).","difficulty":"bpsc","pyq_ref":null},
-  {"q":"Which of the following is NOT a feature of the Post-Mauryan period (c. 185 BCE - 320 CE)?","options":["A single unified empire covering all of India (the Post-Mauryan period was fragmented into multiple kingdoms)","Foreign invasions (Indo-Greeks, Shakas, Kushanas)","Flourishing of art (Gandhara, Mathura schools)","Rise of the Deccan (Satavahanas)"],"answer":0,"explanation":"The Post-Mauryan period was NOT a single unified empire — it was fragmented into multiple kingdoms: Shungas (north), Indo-Greeks (northwest), Shakas (west), Kushanas (northwest + north), Satavahanas (Deccan). This is unlike the Mauryan Empire (which was unified). The period saw foreign invasions, art flourishing, and regional powers.","difficulty":"tricky","pyq_ref":null}
+  {
+    "q": "Who killed the last Mauryan emperor Brihadratha and founded the Shunga dynasty?",
+    "options": [
+      "Pushyamitra Shunga (c. 185 BCE)",
+      "Mahapadma Nanda",
+      "Demetrius Indo-Greek",
+      "Kanishka"
+    ],
+    "answer": 0,
+    "explanation": "Pushyamitra Shunga, a Brahmin general of the Mauryan army, killed the last Mauryan emperor Brihadratha c. 185 BCE and founded the Shunga dynasty. He was a patron of Brahminical culture and performed the Ashvamedha (horse sacrifice).",
+    "difficulty": "pyq",
+    "pyq_ref": "69th p.12"
+  },
+  {
+    "q": "The Shunga dynasty ruled from which capital?",
+    "options": [
+      "Vidisha",
+      "Pataliputra (Bihar)",
+      "Taxila",
+      "Ujjain"
+    ],
+    "answer": 1,
+    "explanation": "The Shungas ruled from Pataliputra (Bihar) — continuing the Mauryan capital. Pushyamitra Shunga (c. 185-149 BCE) was the founder. The Shungas extended from Punjab to Bengal and south to the Narmada.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Pushyamitra Shunga was a patron of which religion?",
+    "options": [
+      "Brahminical Hinduism (he performed the Ashvamedha sacrifice and patronised Brahmins)",
+      "Buddhism",
+      "Ajivika",
+      "Jainism"
+    ],
+    "answer": 0,
+    "explanation": "Pushyamitra Shunga was a patron of Brahminical Hinduism. He performed the Ashvamedha (horse sacrifice) — a Vedic royal ritual. Buddhist texts accuse him of persecuting Buddhists, but this is debated. He patronised the Brahminical revival.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The famous Bharhut Stupa (with magnificent Buddhist sculptures) was built during which period?",
+    "options": [
+      "Gupta period",
+      "Mauryan period",
+      "Kushana period",
+      "The Shunga period (c. 2nd century BCE)"
+    ],
+    "answer": 3,
+    "explanation": "The Bharhut Stupa (in modern Madhya Pradesh) was built/enlarged during the Shunga period (c. 2nd century BCE). It has magnificent Buddhist sculptures (railings, gateways) with inscriptions. The Bharhut sculptures are now in the Indian Museum, Kolkata.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Patanjali, the famous grammarian who wrote the Mahabhashya (commentary on Panini's grammar), lived during which period?",
+    "options": [
+      "Vedic period",
+      "Gupta period",
+      "The Shunga period (he was a contemporary of Pushyamitra Shunga)",
+      "Mauryan period"
+    ],
+    "answer": 2,
+    "explanation": "Patanjali lived during the Shunga period (c. 2nd century BCE) and was a contemporary of Pushyamitra Shunga. His Mahabhashya is the greatest commentary on Panini's Ashtadhyayi (Sanskrit grammar). He also wrote on yoga (Yoga Sutras — though this may be a different Patanjali).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "After the decline of the Mauryan Empire, which foreign invaders entered India from the northwest?",
+    "options": [
+      "The Huns",
+      "The Arabs",
+      "The Mongols",
+      "The Indo-Greeks (Bactrian Greeks, c. 180 BCE)"
+    ],
+    "answer": 3,
+    "explanation": "After the Mauryan decline, the Indo-Greeks (Bactrian Greeks) invaded from the northwest (c. 180 BCE). The most famous Indo-Greek king was Menander I (Milinda, c. 165-130 BCE) — who ruled from Punjab and possibly converted to Buddhism (Milinda Panha text records his dialogue with monk Nagasena).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.8"
+  },
+  {
+    "q": "The most famous Indo-Greek king, who ruled from Punjab and possibly converted to Buddhism, was:",
+    "options": [
+      "Demetrius",
+      "Menander I (Milinda, c. 165-130 BCE)",
+      "Eucratides",
+      "Apollodotus"
+    ],
+    "answer": 1,
+    "explanation": "Menander I (Milinda) was the most famous Indo-Greek king (c. 165-130 BCE). He ruled from Sakala (modern Sialkot, Punjab, Pakistan). The Buddhist text 'Milinda Panha' (Questions of Milinda) records his philosophical dialogue with Buddhist monk Nagasena — and his possible conversion to Buddhism.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.8"
+  },
+  {
+    "q": "The Indo-Greeks introduced which innovation to Indian coinage?",
+    "options": [
+      "Cowrie shells",
+      "Gold coins with portraits of kings + bilingual legends (Greek + Kharoshthi)",
+      "Punch-marked coins",
+      "Paper currency"
+    ],
+    "answer": 1,
+    "explanation": "The Indo-Greeks introduced gold and silver coins with realistic portraits of kings + bilingual legends (Greek on obverse, Kharoshthi/Prakrit on reverse). These are the earliest Indian coins with portraits. They also introduced the Greek system of coinage to India.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Kushanas were a branch of which nomadic tribe?",
+    "options": [
+      "The Yuezhi (a Central Asian nomadic tribe)",
+      "The Scythians",
+      "The Huns",
+      "The Mongols"
+    ],
+    "answer": 0,
+    "explanation": "The Kushanas were a branch of the Yuezhi (Yueh-chi) — a nomadic tribe from Central Asia (modern Xinjiang/Gansu, China). They migrated westward, displaced the Indo-Greeks, and established the Kushana Empire in northwest India (c. 1st-3rd century CE).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the most famous Kushana emperor, known for the Fourth Buddhist Council and the Saka Era?",
+    "options": [
+      "Vasishka",
+      "Vima Kadphises",
+      "Kanishka (c. 78 CE)",
+      "Kujula Kadphises"
+    ],
+    "answer": 2,
+    "explanation": "Kanishka (c. 78 CE) was the most famous Kushana emperor. He convened the Fourth Buddhist Council (Kashmir, c. 72 CE) — which split Buddhism into Hinayana and Mahayana. The Saka Era (starting 78 CE) is traditionally associated with his accession. He extended the empire from Central Asia to Varanasi.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st p.12"
+  },
+  {
+    "q": "The Fourth Buddhist Council was held under Kanishka's patronage at which place?",
+    "options": [
+      "Rajgir",
+      "Vaishali",
+      "Pataliputra",
+      "Kashmir (c. 72 CE)"
+    ],
+    "answer": 3,
+    "explanation": "The Fourth Buddhist Council was held at Kashmir (c. 72 CE) under Kanishka's patronage. Presided by Vasumitra (with Ashvaghosha as deputy). It split Buddhism into Hinayana (Theravada, individual liberation) and Mahayana (Greater Vehicle, Bodhisattva). Sanskrit became the Buddhist scholarly language.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Saka Era (starting 78 CE) is associated with which ruler?",
+    "options": [
+      "Kanishka (c. 78 CE, the Saka Era is traditionally linked to his accession)",
+      "Rudradaman I",
+      "Menander I",
+      "Pushyamitra Shunga"
+    ],
+    "answer": 0,
+    "explanation": "The Saka Era (starting 78 CE) is traditionally associated with Kanishka's accession. It is the official calendar of India (used by the Government of India for the National Calendar). The Saka Era is still used today — 2026 CE = 1948-49 Saka.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.8"
+  },
+  {
+    "q": "The famous Silk Route trade flourished under which empire?",
+    "options": [
+      "The Shunga Empire",
+      "The Mauryan Empire",
+      "The Satavahana Empire",
+      "The Kushana Empire (connecting China to Rome via Central Asia)"
+    ],
+    "answer": 3,
+    "explanation": "The Kushana Empire controlled the Silk Route — the trade network connecting China to the Roman Empire via Central Asia. The Kushanas prospered from Silk Route trade (silk, spices, gold, gems). Kanishka's empire extended to Central Asia (Bactria, Kashgar, Yarkand).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Gandhara School of Art (Indo-Greek Buddhist art) flourished under which empire?",
+    "options": [
+      "The Satavahana Empire",
+      "The Mauryan Empire",
+      "The Shunga Empire",
+      "The Kushana Empire (c. 1st-3rd century CE, in modern Pakistan/Afghanistan)"
+    ],
+    "answer": 3,
+    "explanation": "The Gandhara School of Art flourished under the Kushanas (c. 1st-3rd century CE) in the Gandhara region (modern Pakistan/Afghanistan, centered on Peshawar and Taxila). It combined Greco-Roman and Indian styles — producing the first images of the Buddha in human form (with Hellenistic features: wavy hair, muscular body, Greek drapery).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th p.8"
+  },
+  {
+    "q": "The Mathura School of Art (indigenous Indian Buddhist art) also flourished under the Kushanas. Where is Mathura?",
+    "options": [
+      "Mathura (in modern Uttar Pradesh, south of Delhi)",
+      "In Bihar",
+      "In Punjab",
+      "In Afghanistan"
+    ],
+    "answer": 0,
+    "explanation": "The Mathura School of Art flourished at Mathura (UP, south of Delhi) under the Kushanas. Unlike the Gandhara School (Greco-Roman), the Mathura School was indigenous Indian — producing Buddha images with Indian features (usnisa/topknot, serene expression, transparent robes). It also produced Jain and Hindu images.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Ashvaghosha, the famous Buddhist scholar who wrote the Buddhacharita (a biography of the Buddha in Sanskrit), lived during which period?",
+    "options": [
+      "The Kushana period (he was Kanishka's court poet)",
+      "The Shunga period",
+      "The Mauryan period",
+      "The Gupta period"
+    ],
+    "answer": 0,
+    "explanation": "Ashvaghosha lived during the Kushana period and was Kanishka's court poet. He wrote the Buddhacharita (a Sanskrit biography of the Buddha) — the first biography of the Buddha. He also wrote the Sutralankara and was deputy president of the Fourth Buddhist Council.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Satavahana dynasty ruled which region of India (c. 1st century BCE - 3rd century CE)?",
+    "options": [
+      "The northwest",
+      "The Gangetic plains",
+      "The Deccan (modern Maharashtra, Telangana, Andhra Pradesh, Karnataka)",
+      "Bengal"
+    ],
+    "answer": 2,
+    "explanation": "The Satavahanas (c. 1st century BCE - 3rd century CE) ruled the Deccan — modern Maharashtra, Telangana, Andhra Pradesh, Karnataka. Their capital was Pratishthana (modern Paithan, Maharashtra). They were the first major Deccan empire. Founder: Simuka (c. 230 BCE). Greatest king: Gautamiputra Satakarni.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The greatest Satavahana king, who defeated the Shaka ruler Nahapana and extended the empire, was:",
+    "options": [
+      "Pulumavi",
+      "Gautamiputra Satakarni (c. 106-130 CE)",
+      "Simuka",
+      "Satakarni I"
+    ],
+    "answer": 1,
+    "explanation": "Gautamiputra Satakarni (c. 106-130 CE) was the greatest Satavahana king. He defeated the Shaka (Western Kshatrapa) ruler Nahapana, extended the empire from Malwa to Karnataka, and restored Satavahana power. His mother Gautami Balasri's inscription (at Nashik) records his achievements. He called himself 'Destroyer of the pride of the Kshaharatas.'",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Satavahanas were known for which unique administrative feature?",
+    "options": [
+      "Matronymics (kings used their mother's name, e.g., Gautamiputra = 'son of Gautami')",
+      "A republic system",
+      "A military dictatorship",
+      "A feudal system"
+    ],
+    "answer": 0,
+    "explanation": "The Satavahanas uniquely used matronymics — kings prefixed their mother's name: Gautamiputra ('son of Gautami'), Vasishtiputra ('son of Vasishti'), Pulumavi. This suggests high status for women in Satavahana society. Women also donated land and made religious gifts.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Satavahanas issued which type of coins primarily?",
+    "options": [
+      "Lead and potin (copper alloy) coins (unique to the Deccan, for local trade)",
+      "Silver punch-marked coins",
+      "Paper currency",
+      "Gold coins with portraits"
+    ],
+    "answer": 0,
+    "explanation": "The Satavahanas issued lead, potin (copper alloy), and copper coins — unique to the Deccan. These were for local trade. They also issued some silver and gold coins (imitating the Indo-Greek and Shaka styles). The lead coins are distinctive — featuring elephants, horses, and Ujjain symbols.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Satavahanas patronised which religions?",
+    "options": [
+      "Hinduism only",
+      "Buddhism only",
+      "Jainism only",
+      "Both Buddhism and Brahminical Hinduism (they gave land grants to both Buddhists and Brahmins)"
+    ],
+    "answer": 3,
+    "explanation": "The Satavahanas patronised both Buddhism and Brahminical Hinduism. They gave land grants (agraharas) to Brahmins and donated to Buddhist monasteries (viharas, chaityas, stupas). The famous Amaravati Stupa and Nashik caves were built under their patronage. This religious eclecticism was a Satavahana feature.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Shaka (Western Kshatrapa) dynasty ruled which region?",
+    "options": [
+      "Saurashtra (modern Gujarat) and Malwa (western India)",
+      "Tamil Nadu",
+      "Bihar",
+      "Bengal"
+    ],
+    "answer": 0,
+    "explanation": "The Shakas (Western Kshatrapas) ruled Saurashtra (Gujarat) and Malwa (western India) — c. 1st-4th century CE. Their capital was Ujjain. The most famous Shaka ruler was Rudradaman I (c. 130-150 CE) — who repaired the Sudarshana Lake (Junagadh inscription, c. 150 CE, the first long Sanskrit inscription).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Rudradaman I, the famous Shaka ruler, is known for which inscription?",
+    "options": [
+      "The Allahabad Pillar",
+      "The Junagadh Rock Inscription (c. 150 CE — the first long inscription in pure Sanskrit)",
+      "The Bhitari Pillar",
+      "The Rummindei Pillar"
+    ],
+    "answer": 1,
+    "explanation": "Rudradaman I's Junagadh Rock Inscription (c. 150 CE, in Gujarat) is the first long inscription in pure Sanskrit (earlier inscriptions were in Prakrit). It records the repair of the Sudarshana Lake (originally built by Chandragupta Maurya, enhanced by Ashoka). Rudradaman defeated the Satavahanas twice.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's connection with the Post-Mauryan period is primarily through which fact?",
+    "options": [
+      "Bihar was independent",
+      "Bihar was under Satavahana rule",
+      "The Shungas continued to rule from Pataliputra (Bihar) as their capital",
+      "Bihar was under Kushana rule"
+    ],
+    "answer": 2,
+    "explanation": "The Shungas continued to rule from Pataliputra (Bihar) — the Mauryan capital. Pushyamitra Shunga (founder) ruled from Pataliputra. The Shungas controlled Bihar, Bengal, and parts of central India. After the Shungas, the Kushanas ruled the northwest (not Bihar), and the Satavahanas the Deccan — Bihar came under the Guptas later (c. 320 CE).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT a feature of the Post-Mauryan period (c. 185 BCE - 320 CE)?",
+    "options": [
+      "Foreign invasions (Indo-Greeks, Shakas, Kushanas)",
+      "A single unified empire covering all of India (the Post-Mauryan period was fragmented into multiple kingdoms)",
+      "Flourishing of art (Gandhara, Mathura schools)",
+      "Rise of the Deccan (Satavahanas)"
+    ],
+    "answer": 1,
+    "explanation": "The Post-Mauryan period was NOT a single unified empire — it was fragmented into multiple kingdoms: Shungas (north), Indo-Greeks (northwest), Shakas (west), Kushanas (northwest + north), Satavahanas (Deccan). This is unlike the Mauryan Empire (which was unified). The period saw foreign invasions, art flourishing, and regional powers.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
 ]

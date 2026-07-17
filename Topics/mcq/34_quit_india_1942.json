@@ -1,27 +1,327 @@
 [
-  {"q":"The Quit India Movement was launched by Gandhi at which session of the INC?","options":["August 1942 Bombay session (Gowalia Tank Maidan)","August 1942 Delhi session","September 1942 Nagpur session","July 1942 Wardha session"],"answer":0,"explanation":"The Quit India Movement was launched by Gandhi at the Bombay session of the INC (August 8, 1942) at Gowalia Tank Maidan. Gandhi gave the slogan 'Do or Die' (Karenge ya Marenge). The resolution was passed on August 8, and on August 9, all top Congress leaders were arrested. The movement became spontaneous and militant — Bihar was a major hotspot.","difficulty":"pyq","pyq_ref":"71st Q84"},
-  {"q":"Who gave the slogan 'Do or Die' and when?","options":["Subhash Chandra Bose during Quit India Movement","Jawaharlal Nehru during Non-Cooperation Movement","Gandhiji during Quit India Movement","More than one of the above"],"answer":2,"explanation":"Gandhiji gave the slogan 'Do or Die' (Karenge ya Marenge) during the Quit India Movement, at the Bombay session of the INC (August 8, 1942, Gowalia Tank Maidan). The 70th BPSC asked this as Q20 — the answer is (C) Gandhiji during Quit India Movement. Subhash Chandra Bose gave 'Give me blood, I shall give you freedom' — a different slogan.","difficulty":"pyq","pyq_ref":"70th Q20"},
-  {"q":"The Quit India Movement was launched in response to which event?","options":["The Cripps Mission's failure (1942)","The August Offer (1940)","The Linlithgow proposal","The Wavell Plan"],"answer":0,"explanation":"The Quit India Movement was launched in response to the failure of the Cripps Mission (March-April 1942). Stafford Cripps came to India with a proposal for dominion status after WWII, but it was rejected by both the INC (Gandhi called it 'a post-dated cheque on a crashing bank') and the Muslim League. The failure of the Cripps Mission led Gandhi to launch the Quit India Movement (August 1942).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Gandhi described the Cripps Mission proposal as:","options":["'A post-dated cheque on a crashing bank'","'A new charter of slavery'","'A Magna Carta for India'","'A step toward dominion status'"],"answer":0,"explanation":"Gandhi described the Cripps Mission proposal (April 1942) as 'a post-dated cheque on a crashing bank' — because it promised dominion status after WWII but offered nothing immediate. The Cripps Mission was sent by the British War Cabinet (led by Stafford Cripps) to secure Indian cooperation in WWII. It failed — the INC rejected it, and Gandhi launched Quit India. Note: Nehru called the GoI Act 1935 'a new charter of slavery' — a different quote for a different event.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who was the Viceroy of India during the Quit India Movement (1942)?","options":["Lord Linlithgow","Lord Wavell","Lord Mountbatten","Lord Willingdon"],"answer":0,"explanation":"Lord Linlithgow (Viceroy 1936-1943) was the Viceroy during the Quit India Movement (August 1942). He was known for his hardline response — all Congress leaders were arrested on August 9, 1942, and the movement was suppressed with force. Lord Wavell (1943-1947) succeeded him. Lord Mountbatten (1947-1948) was the last Viceroy who oversaw independence and partition.","difficulty":"bpsc","pyq_ref":null},
-  {"q":"The Quit India Resolution was passed on which date?","options":["August 8, 1942","August 9, 1942","August 15, 1942","July 14, 1942"],"answer":0,"explanation":"The Quit India Resolution was passed on August 8, 1942, at the Bombay session of the INC at Gowalia Tank Maidan. Gandhi gave the 'Do or Die' slogan. On August 9, 1942, all top Congress leaders (Gandhi, Nehru, Patel, Azad) were arrested, and the movement became spontaneous. The Gowalia Tank Maidan is now called August Kranti Maidan.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Shri Krishna Singh, also known as Bihar Kesari, actively participated in which movement?","options":["Quit India Movement (1942)","Non-Cooperation Movement (1920)","Civil Disobedience Movement (1930)","Champaran Satyagraha (1917)"],"answer":0,"explanation":"Shri Krishna Singh (also known as Bihar Kesari) actively participated in the Quit India Movement (1942). He was a key Bihar Congress leader and later became the first Chief Minister of Bihar (1946-1961). The 69th BPSC (Q134) specifically asked this. Bihar was a major hotspot of the Quit India Movement — with underground activities led by Jayaprakash Narayan and others.","difficulty":"pyq","pyq_ref":"69th Q134"},
-  {"q":"During the Quit India Movement, parallel governments were established at many places. Which of the following is NOT correctly matched?","options":["Prati Sarkar — Satara (Maharashtra)","Raiyati Sarkar — Kheda (Gujarat)","Jati Sarkar — Tamluk (Bengal)","Praja Mandal — Talchar (Orissa)"],"answer":1,"explanation":"The 70th BPSC (Q66) asked this. The parallel governments during Quit India were: (A) Prati Sarkar — Satara (Maharashtra) — CORRECT; (B) Raiyati Sarkar — Kheda (Gujarat) — NOT correct (it should be Ballia, UP, not Kheda); (C) Jati Sarkar — Tamluk (Bengal) — CORRECT; (D) Praja Mandal — Talchar (Orissa) — CORRECT. The answer is (B). The Ballia parallel government was led by Chittu Pandey. The Tamluk Jati Sarkar operated in Bengal's Midnapore district.","difficulty":"pyq","pyq_ref":"70th Q66"},
-  {"q":"Who led the underground activities during the Quit India Movement in Bihar?","options":["Shyam Narayan Singh (Azad Dasta)","Rajendra Prasad","Sahajanand Saraswati","Sri Krishna Singh"],"answer":0,"explanation":"Shyam Narayan Singh led the underground activities in Bihar during the Quit India Movement through the 'Azad Dasta' (a guerrilla group). The 71st BPSC (Q100) matched Azad Dasta → Shyam Narayan Singh. The Azad Dasta operated in the Bihar countryside, conducting sabotage and guerrilla warfare against British authority. Jayaprakash Narayan also led underground activities from Bihar.","difficulty":"pyq","pyq_ref":"71st Q100"},
-  {"q":"Who among the following was NOT arrested on August 9, 1942?","options":["Jayaprakash Narayan","Mahatma Gandhi","Jawaharlal Nehru","Sardar Patel"],"answer":0,"explanation":"Jayaprakash Narayan (JP) was NOT arrested on August 9, 1942 — he had already escaped to the underground before the arrests. Gandhi, Nehru, Patel, Azad, and other top Congress leaders were arrested on August 9, 1942. JP escaped from Hazaribagh Jail (Bihar) and organised underground activities. His escape is a famous episode of the Quit India Movement — he was on the run for months before being arrested in 1943.","difficulty":"tricky","pyq_ref":null},
-  {"q":"The Cripps Mission (1942) came to India primarily to:","options":["Secure Indian cooperation in World War II","Grant immediate independence to India","Negotiate the partition of India","Implement the Government of India Act 1935"],"answer":0,"explanation":"The Cripps Mission (March-April 1942), led by Sir Stafford Cripps, came to India to secure Indian cooperation in World War II. It proposed dominion status after the war, with the right for provinces to secede (a precursor to partition). The INC rejected it (Gandhi: 'post-dated cheque on a crashing bank'), and the Muslim League rejected it (it wanted immediate Pakistan, not a post-war promise). The mission's failure led directly to the Quit India Movement.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Which of the following was a key feature of the Quit India Movement?","options":["It was a spontaneous mass movement after the arrest of Congress leaders","It was a well-planned non-violent movement throughout","It was limited to urban areas only","It was supported by the Muslim League"],"answer":0,"explanation":"The Quit India Movement was a spontaneous mass movement — after the arrest of all Congress leaders on August 9, 1942, the movement became leaderless and spontaneous. It turned militant in many areas (attacks on government buildings, railway stations, telegraph lines). The Muslim League did NOT support it — they stayed away. The movement was strongest in Bombay, Bihar, Bengal, UP, and parts of Maharashtra. Parallel governments were established in some areas.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Arrange in chronological order: 1. Cripps Mission 2. Quit India Movement 3. August Offer 4. Wavell Plan","options":["3, 1, 2, 4","1, 3, 2, 4","3, 2, 1, 4","1, 2, 3, 4"],"answer":0,"explanation":"August Offer (1940) → Cripps Mission (March 1942) → Quit India Movement (August 1942) → Wavell Plan (1945). The August Offer (Viceroy Linlithgow, 1940) promised dominion status after WWII. The Cripps Mission (1942) tried to secure Indian cooperation but failed. Quit India (August 1942) followed. The Wavell Plan (1945) proposed an executive council with Indian members — it also failed (Simla Conference, June 1945).","difficulty":"tricky","pyq_ref":null},
-  {"q":"The 'August Offer' was made by which Viceroy in which year?","options":["Lord Linlithgow, 1940","Lord Wavell, 1944","Lord Linlithgow, 1942","Lord Mountbatten, 1947"],"answer":0,"explanation":"The August Offer was made by Viceroy Lord Linlithgow in August 1940. It promised dominion status after WWII, a representative body to frame the constitution, and expansion of the Viceroy's Executive Council. The INC rejected it (it wanted immediate independence, not a post-war promise). The Muslim League accepted it (it was the first British acknowledgement of Pakistan as a possibility).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Who among the following women leaders played a prominent role in the Quit India Movement by hoisting the Indian flag at the Gowalia Tank Maidan?","options":["Aruna Asaf Ali","Sarojini Naidu","Vijaya Lakshmi Pandit","Sucheta Kripalani"],"answer":0,"explanation":"Aruna Asaf Ali played a prominent role in the Quit India Movement. When all the top Congress leaders were arrested on August 9, 1942, Aruna Asaf Ali hoisted the Indian flag at the Gowalia Tank Maidan (August Kranti Maidan). She was called the 'Heroine of the 1942 Movement.' She went underground and organised the movement. She was later awarded the International Lenin Peace Prize (1964) and the Bharat Ratna (1997, posthumously).","difficulty":"pyq","pyq_ref":null},
-  {"q":"Consider the following about the Quit India Movement: 1. It was launched by Gandhi at the Bombay INC session (August 8, 1942). 2. It was a non-violent movement throughout. 3. The Muslim League supported it. Which is/are correct?","options":["1 only","1 and 2 only","1 and 3 only","1, 2 and 3"],"answer":0,"explanation":"Only statement 1 is correct. The Quit India Movement was launched by Gandhi at the Bombay INC session (August 8, 1942). However, it was NOT non-violent throughout — after the arrest of Congress leaders on August 9, the movement became militant in many areas (attacks on government buildings, railway stations). The Muslim League did NOT support the movement — they stayed away, and Jinnah called it a 'Congress stunt.'","difficulty":"tricky","pyq_ref":null},
-  {"q":"The parallel government established at Ballia (UP) during the Quit India Movement was led by:","options":["Chittu Pandey","Jayaprakash Narayan","Ram Manohar Lohia","Achyutrao Patwardan"],"answer":0,"explanation":"The parallel government at Ballia (UP) was led by Chittu Pandey. He declared Ballia independent for a brief period in August 1942. The parallel governments during Quit India were: (1) Prati Sarkar at Satara (Maharashtra) — led by Y.B. Chavan, Nana Patil; (2) Jati Sarkar at Tamluk (Bengal) — led by Satish Samanta; (3) Ballia (UP) — led by Chittu Pandey. These parallel governments collected taxes, administered justice, and ran their own courts.","difficulty":"pyq","pyq_ref":null},
-  {"q":"The 71st BPSC (Q100) matched Bihar events with leaders. The correct matching is:","options":["Champaran-Rajendra Prasad, Azad Dasta-Shyam Narayan Singh, Individual Satyagraha 1940-Sahajanand Saraswati, Kisan Sabha-Jayaprakash Narayan","Champaran-Jayaprakash Narayan, Azad Dasta-Rajendra Prasad, Individual Satyagraha 1940-Shyam Narayan Singh, Kisan Sabha-Sahajanand Saraswati","Champaran-Sahajanand Saraswati, Azad Dasta-Jayaprakash Narayan, Individual Satyagraha 1940-Rajendra Prasad, Kisan Sabha-Shyam Narayan Singh","Champaran-Shyam Narayan Singh, Azad Dasta-Sahajanand Saraswati, Individual Satyagraha 1940-Jayaprakash Narayan, Kisan Sabha-Rajendra Prasad"],"answer":0,"explanation":"The 71st BPSC (Q100) asked to match Bihar events with leaders: (a) Champaran Satyagrah → Dr. Rajendra Prasad; (b) Azad Dasta → Shyam Narayan Singh; (c) Individual Satyagraha in Bihar 1940 → Sahajanand Saraswati; (d) Kisan Sabha Bihar → Jayaprakash Narayan. Correct code: 4, 2, 3, 1. This is a high-yield PYQ — memorise all four pairs. The Azad Dasta was the underground guerrilla group in Bihar during Quit India 1942.","difficulty":"pyq","pyq_ref":"71st Q100"},
-  {"q":"Which of the following was NOT a reason for the failure of the Cripps Mission?","options":["The INC wanted immediate independence, not a post-war promise","The Muslim League wanted immediate Pakistan, not a post-war promise","Gandhi opposed the right of provinces to secede","The British government withdrew the offer before negotiations concluded"],"answer":3,"explanation":"The Cripps Mission (1942) failed because: (1) the INC wanted immediate independence, not a post-war promise of dominion status; (2) the Muslim League wanted immediate Pakistan, not a post-war promise; (3) Gandhi opposed the right of provinces to secede (which would lead to partition). The British government did NOT withdraw the offer — Cripps left after the negotiations failed. The correct answer is (D) — the British government did not withdraw the offer before negotiations concluded.","difficulty":"tricky","pyq_ref":null},
-  {"q":"Who among the following was known as the 'Heroine of the 1942 Movement'?","options":["Aruna Asaf Ali","Sucheta Kripalani","Sarojini Naidu","Vijaya Lakshmi Pandit"],"answer":0,"explanation":"Aruna Asaf Ali was known as the 'Heroine of the 1942 Movement' (Quit India Movement). She hoisted the Indian flag at the Gowalia Tank Maidan on August 9, 1942, after all Congress leaders were arrested. She went underground and organised the movement. She was awarded the International Lenin Peace Prize (1964) and the Bharat Ratna (1997, posthumously). Sucheta Kripalani also played a role, but Aruna Asaf Ali is specifically called the 'Heroine of 1942.'","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Quit India Movement was also known as:","options":["August Kranti / August Movement","The Great Rebellion","The Indian War of Independence","The National Uprising"],"answer":0,"explanation":"The Quit India Movement was also known as the 'August Kranti' (August Revolution) or the 'August Movement.' It was launched in August 1942. The Gowalia Tank Maidan where Gandhi gave the 'Do or Die' slogan was renamed August Kranti Maidan. The movement was the last major mass movement of the Indian freedom struggle — it made clear to the British that they could not rule India without Indian consent.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Bihar's role in the Quit India Movement included:","options":["Underground activities led by Jayaprakash Narayan and the Azad Dasta","The Champaran Satyagraha","The Non-Cooperation Movement","The Kheda Satyagraha"],"answer":0,"explanation":"Bihar was a major hotspot of the Quit India Movement (1942). Underground activities were led by Jayaprakash Narayan (who escaped from Hazaribagh Jail) and the Azad Dasta (led by Shyam Narayan Singh). Shri Krishna Singh (Bihar Kesari) also participated actively (69th BPSC Q134). Bihar saw attacks on railway stations, post offices, and police stations. The Bihar countryside was in rebellion for months. JP Narayan's escape from Hazaribagh Jail is a famous episode.","difficulty":"pyq","pyq_ref":"69th Q134"},
-  {"q":"Which plan proposed the formation of an executive council with Indian members (excluding the INC and Muslim League leaders) in 1945?","options":["Wavell Plan","Cripps Mission","August Offer","Cabinet Mission Plan"],"answer":0,"explanation":"The Wavell Plan (1945) was proposed by Viceroy Lord Wavell at the Simla Conference (June-July 1945). It proposed an executive council with Indian members (excluding the INC and Muslim League leaders, but including other Indian representatives). The Simla Conference failed because the Muslim League insisted on having all Muslim members nominated by the League. The Wavell Plan was a precursor to the Cabinet Mission Plan (1946).","difficulty":"pyq","pyq_ref":null},
-  {"q":"The Quit India Movement was eventually withdrawn/suppressed. Which statement best describes its outcome?","options":["The movement was suppressed by force, but it made clear to the British that they could not rule India without Indian consent","The movement achieved immediate independence for India","The movement was completely non-violent and successful","The movement led to the immediate release of all Congress leaders"],"answer":0,"explanation":"The Quit India Movement was suppressed by force — mass arrests, police firing, and military action. However, its outcome was profound: it made clear to the British that they could not rule India without Indian consent. The movement demonstrated the depth of nationalist feeling and accelerated the British decision to leave India. After WWII ended (1945), the British initiated plans for withdrawal (Cabinet Mission 1946, Mountbatten Plan 1947). Independence came on August 15, 1947.","difficulty":"pyq","pyq_ref":null},
-  {"q":"Jayaprakash Narayan (JP) escaped from which jail during the Quit India Movement?","options":["Hazaribagh Jail (Bihar)","Ahmednagar Fort Jail","Yerwada Jail","Cellular Jail"],"answer":0,"explanation":"Jayaprakash Narayan (JP) escaped from Hazaribagh Jail (Bihar) in November 1942 during the Quit India Movement. His escape was organised by his wife Prabhavati and fellow freedom fighters. JP went underground and organised the underground resistance from Bihar. He was later arrested in 1943. JP's escape from Hazaribagh Jail is a famous episode of the Quit India Movement, and it highlights Bihar's role as a hotspot of the movement.","difficulty":"pyq","pyq_ref":null}
+  {
+    "q": "The Quit India Movement was launched by Gandhi at which session of the INC?",
+    "options": [
+      "September 1942 Nagpur session",
+      "July 1942 Wardha session",
+      "August 1942 Bombay session (Gowalia Tank Maidan)",
+      "August 1942 Delhi session"
+    ],
+    "answer": 2,
+    "explanation": "The Quit India Movement was launched by Gandhi at the Bombay session of the INC (August 8, 1942) at Gowalia Tank Maidan. Gandhi gave the slogan 'Do or Die' (Karenge ya Marenge). The resolution was passed on August 8, and on August 9, all top Congress leaders were arrested. The movement became spontaneous and militant — Bihar was a major hotspot.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q84"
+  },
+  {
+    "q": "Who gave the slogan 'Do or Die' and when?",
+    "options": [
+      "More than one of the above",
+      "Subhash Chandra Bose during Quit India Movement",
+      "Jawaharlal Nehru during Non-Cooperation Movement",
+      "Gandhiji during Quit India Movement"
+    ],
+    "answer": 3,
+    "explanation": "Gandhiji gave the slogan 'Do or Die' (Karenge ya Marenge) during the Quit India Movement, at the Bombay session of the INC (August 8, 1942, Gowalia Tank Maidan). The 70th BPSC asked this as Q20 — the answer is (C) Gandhiji during Quit India Movement. Subhash Chandra Bose gave 'Give me blood, I shall give you freedom' — a different slogan.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th Q20"
+  },
+  {
+    "q": "The Quit India Movement was launched in response to which event?",
+    "options": [
+      "The Wavell Plan",
+      "The Linlithgow proposal",
+      "The Cripps Mission's failure (1942)",
+      "The August Offer (1940)"
+    ],
+    "answer": 2,
+    "explanation": "The Quit India Movement was launched in response to the failure of the Cripps Mission (March-April 1942). Stafford Cripps came to India with a proposal for dominion status after WWII, but it was rejected by both the INC (Gandhi called it 'a post-dated cheque on a crashing bank') and the Muslim League. The failure of the Cripps Mission led Gandhi to launch the Quit India Movement (August 1942).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Gandhi described the Cripps Mission proposal as:",
+    "options": [
+      "'A post-dated cheque on a crashing bank'",
+      "'A Magna Carta for India'",
+      "'A new charter of slavery'",
+      "'A step toward dominion status'"
+    ],
+    "answer": 0,
+    "explanation": "Gandhi described the Cripps Mission proposal (April 1942) as 'a post-dated cheque on a crashing bank' — because it promised dominion status after WWII but offered nothing immediate. The Cripps Mission was sent by the British War Cabinet (led by Stafford Cripps) to secure Indian cooperation in WWII. It failed — the INC rejected it, and Gandhi launched Quit India. Note: Nehru called the GoI Act 1935 'a new charter of slavery' — a different quote for a different event.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the Viceroy of India during the Quit India Movement (1942)?",
+    "options": [
+      "Lord Willingdon",
+      "Lord Mountbatten",
+      "Lord Wavell",
+      "Lord Linlithgow"
+    ],
+    "answer": 3,
+    "explanation": "Lord Linlithgow (Viceroy 1936-1943) was the Viceroy during the Quit India Movement (August 1942). He was known for his hardline response — all Congress leaders were arrested on August 9, 1942, and the movement was suppressed with force. Lord Wavell (1943-1947) succeeded him. Lord Mountbatten (1947-1948) was the last Viceroy who oversaw independence and partition.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Quit India Resolution was passed on which date?",
+    "options": [
+      "August 8, 1942",
+      "August 9, 1942",
+      "August 15, 1942",
+      "July 14, 1942"
+    ],
+    "answer": 0,
+    "explanation": "The Quit India Resolution was passed on August 8, 1942, at the Bombay session of the INC at Gowalia Tank Maidan. Gandhi gave the 'Do or Die' slogan. On August 9, 1942, all top Congress leaders (Gandhi, Nehru, Patel, Azad) were arrested, and the movement became spontaneous. The Gowalia Tank Maidan is now called August Kranti Maidan.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shri Krishna Singh, also known as Bihar Kesari, actively participated in which movement?",
+    "options": [
+      "Civil Disobedience Movement (1930)",
+      "Non-Cooperation Movement (1920)",
+      "Champaran Satyagraha (1917)",
+      "Quit India Movement (1942)"
+    ],
+    "answer": 3,
+    "explanation": "Shri Krishna Singh (also known as Bihar Kesari) actively participated in the Quit India Movement (1942). He was a key Bihar Congress leader and later became the first Chief Minister of Bihar (1946-1961). The 69th BPSC (Q134) specifically asked this. Bihar was a major hotspot of the Quit India Movement — with underground activities led by Jayaprakash Narayan and others.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th Q134"
+  },
+  {
+    "q": "During the Quit India Movement, parallel governments were established at many places. Which of the following is NOT correctly matched?",
+    "options": [
+      "Prati Sarkar — Satara (Maharashtra)",
+      "Praja Mandal — Talchar (Orissa)",
+      "Jati Sarkar — Tamluk (Bengal)",
+      "Raiyati Sarkar — Kheda (Gujarat)"
+    ],
+    "answer": 3,
+    "explanation": "The 70th BPSC (Q66) asked this. The parallel governments during Quit India were: (A) Prati Sarkar — Satara (Maharashtra) — CORRECT; (B) Raiyati Sarkar — Kheda (Gujarat) — NOT correct (it should be Ballia, UP, not Kheda); (C) Jati Sarkar — Tamluk (Bengal) — CORRECT; (D) Praja Mandal — Talchar (Orissa) — CORRECT. The answer is (B). The Ballia parallel government was led by Chittu Pandey. The Tamluk Jati Sarkar operated in Bengal's Midnapore district.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th Q66"
+  },
+  {
+    "q": "Who led the underground activities during the Quit India Movement in Bihar?",
+    "options": [
+      "Sahajanand Saraswati",
+      "Rajendra Prasad",
+      "Sri Krishna Singh",
+      "Shyam Narayan Singh (Azad Dasta)"
+    ],
+    "answer": 3,
+    "explanation": "Shyam Narayan Singh led the underground activities in Bihar during the Quit India Movement through the 'Azad Dasta' (a guerrilla group). The 71st BPSC (Q100) matched Azad Dasta → Shyam Narayan Singh. The Azad Dasta operated in the Bihar countryside, conducting sabotage and guerrilla warfare against British authority. Jayaprakash Narayan also led underground activities from Bihar.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q100"
+  },
+  {
+    "q": "Who among the following was NOT arrested on August 9, 1942?",
+    "options": [
+      "Jayaprakash Narayan",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Jawaharlal Nehru"
+    ],
+    "answer": 0,
+    "explanation": "Jayaprakash Narayan (JP) was NOT arrested on August 9, 1942 — he had already escaped to the underground before the arrests. Gandhi, Nehru, Patel, Azad, and other top Congress leaders were arrested on August 9, 1942. JP escaped from Hazaribagh Jail (Bihar) and organised underground activities. His escape is a famous episode of the Quit India Movement — he was on the run for months before being arrested in 1943.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Cripps Mission (1942) came to India primarily to:",
+    "options": [
+      "Grant immediate independence to India",
+      "Secure Indian cooperation in World War II",
+      "Negotiate the partition of India",
+      "Implement the Government of India Act 1935"
+    ],
+    "answer": 1,
+    "explanation": "The Cripps Mission (March-April 1942), led by Sir Stafford Cripps, came to India to secure Indian cooperation in World War II. It proposed dominion status after the war, with the right for provinces to secede (a precursor to partition). The INC rejected it (Gandhi: 'post-dated cheque on a crashing bank'), and the Muslim League rejected it (it wanted immediate Pakistan, not a post-war promise). The mission's failure led directly to the Quit India Movement.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following was a key feature of the Quit India Movement?",
+    "options": [
+      "It was a well-planned non-violent movement throughout",
+      "It was a spontaneous mass movement after the arrest of Congress leaders",
+      "It was limited to urban areas only",
+      "It was supported by the Muslim League"
+    ],
+    "answer": 1,
+    "explanation": "The Quit India Movement was a spontaneous mass movement — after the arrest of all Congress leaders on August 9, 1942, the movement became leaderless and spontaneous. It turned militant in many areas (attacks on government buildings, railway stations, telegraph lines). The Muslim League did NOT support it — they stayed away. The movement was strongest in Bombay, Bihar, Bengal, UP, and parts of Maharashtra. Parallel governments were established in some areas.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange in chronological order: 1. Cripps Mission 2. Quit India Movement 3. August Offer 4. Wavell Plan",
+    "options": [
+      "1, 2, 3, 4",
+      "1, 3, 2, 4",
+      "3, 1, 2, 4",
+      "3, 2, 1, 4"
+    ],
+    "answer": 2,
+    "explanation": "August Offer (1940) → Cripps Mission (March 1942) → Quit India Movement (August 1942) → Wavell Plan (1945). The August Offer (Viceroy Linlithgow, 1940) promised dominion status after WWII. The Cripps Mission (1942) tried to secure Indian cooperation but failed. Quit India (August 1942) followed. The Wavell Plan (1945) proposed an executive council with Indian members — it also failed (Simla Conference, June 1945).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'August Offer' was made by which Viceroy in which year?",
+    "options": [
+      "Lord Wavell, 1944",
+      "Lord Mountbatten, 1947",
+      "Lord Linlithgow, 1942",
+      "Lord Linlithgow, 1940"
+    ],
+    "answer": 3,
+    "explanation": "The August Offer was made by Viceroy Lord Linlithgow in August 1940. It promised dominion status after WWII, a representative body to frame the constitution, and expansion of the Viceroy's Executive Council. The INC rejected it (it wanted immediate independence, not a post-war promise). The Muslim League accepted it (it was the first British acknowledgement of Pakistan as a possibility).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who among the following women leaders played a prominent role in the Quit India Movement by hoisting the Indian flag at the Gowalia Tank Maidan?",
+    "options": [
+      "Sucheta Kripalani",
+      "Aruna Asaf Ali",
+      "Sarojini Naidu",
+      "Vijaya Lakshmi Pandit"
+    ],
+    "answer": 1,
+    "explanation": "Aruna Asaf Ali played a prominent role in the Quit India Movement. When all the top Congress leaders were arrested on August 9, 1942, Aruna Asaf Ali hoisted the Indian flag at the Gowalia Tank Maidan (August Kranti Maidan). She was called the 'Heroine of the 1942 Movement.' She went underground and organised the movement. She was later awarded the International Lenin Peace Prize (1964) and the Bharat Ratna (1997, posthumously).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following about the Quit India Movement: 1. It was launched by Gandhi at the Bombay INC session (August 8, 1942). 2. It was a non-violent movement throughout. 3. The Muslim League supported it. Which is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "1, 2 and 3",
+      "1 and 3 only"
+    ],
+    "answer": 0,
+    "explanation": "Only statement 1 is correct. The Quit India Movement was launched by Gandhi at the Bombay INC session (August 8, 1942). However, it was NOT non-violent throughout — after the arrest of Congress leaders on August 9, the movement became militant in many areas (attacks on government buildings, railway stations). The Muslim League did NOT support the movement — they stayed away, and Jinnah called it a 'Congress stunt.'",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The parallel government established at Ballia (UP) during the Quit India Movement was led by:",
+    "options": [
+      "Achyutrao Patwardan",
+      "Jayaprakash Narayan",
+      "Ram Manohar Lohia",
+      "Chittu Pandey"
+    ],
+    "answer": 3,
+    "explanation": "The parallel government at Ballia (UP) was led by Chittu Pandey. He declared Ballia independent for a brief period in August 1942. The parallel governments during Quit India were: (1) Prati Sarkar at Satara (Maharashtra) — led by Y.B. Chavan, Nana Patil; (2) Jati Sarkar at Tamluk (Bengal) — led by Satish Samanta; (3) Ballia (UP) — led by Chittu Pandey. These parallel governments collected taxes, administered justice, and ran their own courts.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 71st BPSC (Q100) matched Bihar events with leaders. The correct matching is:",
+    "options": [
+      "Champaran-Rajendra Prasad, Azad Dasta-Shyam Narayan Singh, Individual Satyagraha 1940-Sahajanand Saraswati, Kisan Sabha-Jayaprakash Narayan",
+      "Champaran-Jayaprakash Narayan, Azad Dasta-Rajendra Prasad, Individual Satyagraha 1940-Shyam Narayan Singh, Kisan Sabha-Sahajanand Saraswati",
+      "Champaran-Shyam Narayan Singh, Azad Dasta-Sahajanand Saraswati, Individual Satyagraha 1940-Jayaprakash Narayan, Kisan Sabha-Rajendra Prasad",
+      "Champaran-Sahajanand Saraswati, Azad Dasta-Jayaprakash Narayan, Individual Satyagraha 1940-Rajendra Prasad, Kisan Sabha-Shyam Narayan Singh"
+    ],
+    "answer": 0,
+    "explanation": "The 71st BPSC (Q100) asked to match Bihar events with leaders: (a) Champaran Satyagrah → Dr. Rajendra Prasad; (b) Azad Dasta → Shyam Narayan Singh; (c) Individual Satyagraha in Bihar 1940 → Sahajanand Saraswati; (d) Kisan Sabha Bihar → Jayaprakash Narayan. Correct code: 4, 2, 3, 1. This is a high-yield PYQ — memorise all four pairs. The Azad Dasta was the underground guerrilla group in Bihar during Quit India 1942.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q100"
+  },
+  {
+    "q": "Which of the following was NOT a reason for the failure of the Cripps Mission?",
+    "options": [
+      "The INC wanted immediate independence, not a post-war promise",
+      "The British government withdrew the offer before negotiations concluded",
+      "The Muslim League wanted immediate Pakistan, not a post-war promise",
+      "Gandhi opposed the right of provinces to secede"
+    ],
+    "answer": 1,
+    "explanation": "The Cripps Mission (1942) failed because: (1) the INC wanted immediate independence, not a post-war promise of dominion status; (2) the Muslim League wanted immediate Pakistan, not a post-war promise; (3) Gandhi opposed the right of provinces to secede (which would lead to partition). The British government did NOT withdraw the offer — Cripps left after the negotiations failed. The correct answer is (D) — the British government did not withdraw the offer before negotiations concluded.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who among the following was known as the 'Heroine of the 1942 Movement'?",
+    "options": [
+      "Sarojini Naidu",
+      "Vijaya Lakshmi Pandit",
+      "Aruna Asaf Ali",
+      "Sucheta Kripalani"
+    ],
+    "answer": 2,
+    "explanation": "Aruna Asaf Ali was known as the 'Heroine of the 1942 Movement' (Quit India Movement). She hoisted the Indian flag at the Gowalia Tank Maidan on August 9, 1942, after all Congress leaders were arrested. She went underground and organised the movement. She was awarded the International Lenin Peace Prize (1964) and the Bharat Ratna (1997, posthumously). Sucheta Kripalani also played a role, but Aruna Asaf Ali is specifically called the 'Heroine of 1942.'",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Quit India Movement was also known as:",
+    "options": [
+      "The Great Rebellion",
+      "August Kranti / August Movement",
+      "The Indian War of Independence",
+      "The National Uprising"
+    ],
+    "answer": 1,
+    "explanation": "The Quit India Movement was also known as the 'August Kranti' (August Revolution) or the 'August Movement.' It was launched in August 1942. The Gowalia Tank Maidan where Gandhi gave the 'Do or Die' slogan was renamed August Kranti Maidan. The movement was the last major mass movement of the Indian freedom struggle — it made clear to the British that they could not rule India without Indian consent.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar's role in the Quit India Movement included:",
+    "options": [
+      "The Kheda Satyagraha",
+      "Underground activities led by Jayaprakash Narayan and the Azad Dasta",
+      "The Champaran Satyagraha",
+      "The Non-Cooperation Movement"
+    ],
+    "answer": 1,
+    "explanation": "Bihar was a major hotspot of the Quit India Movement (1942). Underground activities were led by Jayaprakash Narayan (who escaped from Hazaribagh Jail) and the Azad Dasta (led by Shyam Narayan Singh). Shri Krishna Singh (Bihar Kesari) also participated actively (69th BPSC Q134). Bihar saw attacks on railway stations, post offices, and police stations. The Bihar countryside was in rebellion for months. JP Narayan's escape from Hazaribagh Jail is a famous episode.",
+    "difficulty": "pyq",
+    "pyq_ref": "69th Q134"
+  },
+  {
+    "q": "Which plan proposed the formation of an executive council with Indian members (excluding the INC and Muslim League leaders) in 1945?",
+    "options": [
+      "Cabinet Mission Plan",
+      "Wavell Plan",
+      "Cripps Mission",
+      "August Offer"
+    ],
+    "answer": 1,
+    "explanation": "The Wavell Plan (1945) was proposed by Viceroy Lord Wavell at the Simla Conference (June-July 1945). It proposed an executive council with Indian members (excluding the INC and Muslim League leaders, but including other Indian representatives). The Simla Conference failed because the Muslim League insisted on having all Muslim members nominated by the League. The Wavell Plan was a precursor to the Cabinet Mission Plan (1946).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Quit India Movement was eventually withdrawn/suppressed. Which statement best describes its outcome?",
+    "options": [
+      "The movement was suppressed by force, but it made clear to the British that they could not rule India without Indian consent",
+      "The movement achieved immediate independence for India",
+      "The movement was completely non-violent and successful",
+      "The movement led to the immediate release of all Congress leaders"
+    ],
+    "answer": 0,
+    "explanation": "The Quit India Movement was suppressed by force — mass arrests, police firing, and military action. However, its outcome was profound: it made clear to the British that they could not rule India without Indian consent. The movement demonstrated the depth of nationalist feeling and accelerated the British decision to leave India. After WWII ended (1945), the British initiated plans for withdrawal (Cabinet Mission 1946, Mountbatten Plan 1947). Independence came on August 15, 1947.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Jayaprakash Narayan (JP) escaped from which jail during the Quit India Movement?",
+    "options": [
+      "Hazaribagh Jail (Bihar)",
+      "Yerwada Jail",
+      "Ahmednagar Fort Jail",
+      "Cellular Jail"
+    ],
+    "answer": 0,
+    "explanation": "Jayaprakash Narayan (JP) escaped from Hazaribagh Jail (Bihar) in November 1942 during the Quit India Movement. His escape was organised by his wife Prabhavati and fellow freedom fighters. JP went underground and organised the underground resistance from Bihar. He was later arrested in 1943. JP's escape from Hazaribagh Jail is a famous episode of the Quit India Movement, and it highlights Bihar's role as a hotspot of the movement.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
 ]
