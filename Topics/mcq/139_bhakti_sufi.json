@@ -1,0 +1,327 @@
+[
+  {
+    "q": "The Bhakti Movement in India originated in which region during the early medieval period?",
+    "options": [
+      "Maharashtra (13th century CE)",
+      "Bengal (12th century CE)",
+      "North India (15th century CE)",
+      "Tamil Nadu (7th-9th century CE, by Alvars and Nayanars)"
+    ],
+    "answer": 3,
+    "explanation": "The Bhakti Movement originated in Tamil Nadu (7th-9th century CE) with the Alvars (devotees of Vishnu) and Nayanars (devotees of Shiva). They travelled from place to place singing hymns in Tamil, bypassing the Sanskrit priesthood. This southern Bhakti tradition later spread to North India.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Alvars were devotees of which deity?",
+    "options": [
+      "Surya (Sun God)",
+      "Goddess Durga",
+      "Shiva",
+      "Vishnu (and his avatars, especially Krishna and Rama)"
+    ],
+    "answer": 3,
+    "explanation": "The Alvars ('those immersed in God') were 12 Tamil poet-saints devoted to Vishnu. Their hymns form the Divya Prabandham (Tamil Veda). The most famous Alvar was Andal (the only woman Alvar). The Nayanars were devoted to Shiva.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Nayanars were devotees of which deity?",
+    "options": [
+      "Brahma",
+      "Ganesha",
+      "Shiva (63 Nayanar poet-saints)",
+      "Vishnu"
+    ],
+    "answer": 2,
+    "explanation": "The Nayanars were 63 Tamil poet-saints devoted to Shiva. Key Nayanars: Appar, Sambandar, Sundarar, and Manikkavasagar. Their hymns form the Tevaram. Like the Alvars, they challenged caste hierarchy and Brahminical orthodoxy.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the only woman Alvar (and one of the most celebrated Bhakti saints)?",
+    "options": [
+      "Akka Mahadevi",
+      "Andal (Goda Devi, 8th century CE, Tamil Nadu)",
+      "Mira Bai",
+      "Lalla Ded"
+    ],
+    "answer": 1,
+    "explanation": "Andal (Goda Devi, 8th c. CE) was the only woman among the 12 Alvars. Daughter of Vishnuchitta (Periyalvar). She wrote two works: Tiruppavai (30 hymns) and Nachiyar Tirumozhi. Considered an incarnation of Goddess Lakshmi. Her Tiruppavai is still recited in Tamil Nadu during Margazhi (December-January).",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Ramanuja (11th-12th century CE), the great Bhakti philosopher, propounded which philosophical school?",
+    "options": [
+      "Vishishtadvaita (qualified non-dualism)",
+      "Dvaita (dualism, Madhva)",
+      "Shuddhadvaita (pure non-dualism, Vallabha)",
+      "Advaita (non-dualism, Shankara)"
+    ],
+    "answer": 0,
+    "explanation": "Ramanuja (1017-1137 CE) propounded Vishishtadvaita (qualified non-dualism). God (Brahman/Vishnu) is the supreme reality, but the soul (chit) and matter (achit) are real and inseparable attributes of God. He founded the Sri Vaishnava tradition. His key work: Shribhashya (commentary on Brahma Sutras). He influenced the later Bhakti movement across India.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shankaracharya (8th century CE) propounded which philosophical school?",
+    "options": [
+      "Vishishtadvaita (qualified non-dualism)",
+      "Buddhism",
+      "Dvaita (dualism)",
+      "Advaita (non-dualism — Brahman alone is real, the world is maya/illusion)"
+    ],
+    "answer": 3,
+    "explanation": "Adi Shankaracharya (788-820 CE) propounded Advaita (non-dualism). Brahman (the absolute) alone is real; the world is maya (illusion); the individual soul (atman) is identical with Brahman. He established four mathas (monasteries) in four corners of India: Sringeri, Dwarka, Puri, and Jyotirmath. He wrote commentaries on the Upanishads, Brahma Sutras, and Gita.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shankaracharya established four mathas (monasteries) in four corners of India. Which of the following is NOT one of them?",
+    "options": [
+      "Puri (Odisha, east)",
+      "Dwarka (Gujarat, west)",
+      "Sringeri (Karnataka, south)",
+      "Bodh Gaya (Bihar)"
+    ],
+    "answer": 3,
+    "explanation": "The four mathas are: Sringeri (Karnataka, south), Dwarka (Gujarat, west), Puri (Odisha, east), and Jyotirmath/Joshimath (Uttarakhand, north). Bodh Gaya is NOT one of them — it is a Buddhist pilgrimage site in Bihar. Each matha was assigned one Veda to preserve.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Madhvacharya (13th century CE) propounded which philosophical school?",
+    "options": [
+      "Vishishtadvaita (qualified non-dualism)",
+      "Bhedabheda (difference-and-non-difference)",
+      "Advaita (non-dualism)",
+      "Dvaita (dualism — God and soul are eternally separate)"
+    ],
+    "answer": 3,
+    "explanation": "Madhvacharya (1238-1317 CE) propounded Dvaita (dualism). God (Hari/Vishnu) and the individual soul are eternally separate and distinct. God is supreme, souls are dependent. This is in contrast to Shankara's Advaita (identity of soul and Brahman). He founded the Dvaita Vedanta school, based in Udupi (Karnataka).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Nimbarka (12th-13th century CE) propounded which philosophical school?",
+    "options": [
+      "Dvaitadvaita (dualistic non-dualism / Bhedabheda)",
+      "Dvaita (dualism)",
+      "Advaita (non-dualism)",
+      "Vishishtadvaita (qualified non-dualism)"
+    ],
+    "answer": 0,
+    "explanation": "Nimbarka (12th-13th c. CE) propounded Dvaitadvaita (dualistic non-dualism), also called Bhedabheda (difference-and-non-difference). The soul is simultaneously one with and different from God. He worshipped Krishna and Radha together — he was the first to introduce Radha-Krishna worship in the Bhakti tradition.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Vallabhacharya (15th-16th century CE) propounded which philosophical school?",
+    "options": [
+      "Advaita (non-dualism)",
+      "Vishishtadvaita (qualified non-dualism)",
+      "Shuddhadvaita (pure non-dualism)",
+      "Dvaita (dualism)"
+    ],
+    "answer": 2,
+    "explanation": "Vallabhacharya (1479-1531 CE) propounded Shuddhadvaita (pure non-dualism). God (Krishna) is the only reality; the world and souls are real but identical with God. He founded the Pushti Marg (path of grace) — salvation through God's grace, not effort. He worshipped Krishna (Srinathji). His followers are called Vallabh Sampradaya or Pushti Margis.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Ramananda (14th-15th century CE) was a Bhakti saint of which tradition?",
+    "options": [
+      "He was a Sufi mystic",
+      "He was a Shaiva saint from Tamil Nadu",
+      "He was a Nathpanthi yogi",
+      "He was a follower of Ramanuja's Vishishtadvaita who later founded his own egalitarian Bhakti tradition in North India (Vaishnava)"
+    ],
+    "answer": 3,
+    "explanation": "Ramananda (c. 1400 CE) was a follower of Ramanuja's Vishishtadvaita tradition but broke away to form his own egalitarian Bhakti tradition in North India. He lived in Varanasi. He accepted disciples from all castes — including Kabir (weaver), Raidas (leather worker), Sena (barber), and Pipa (Rajput). He worshipped Rama and Sita. He was the spiritual guru who inspired the mainstream North Indian Bhakti movement.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Kabir (15th century CE) was a disciple of which Bhakti saint?",
+    "options": [
+      "Vallabhacharya",
+      "Shankaracharya",
+      "Ramanuja",
+      "Ramananda (of Varanasi)"
+    ],
+    "answer": 3,
+    "explanation": "Kabir (1440-1518 CE) was a disciple of Ramananda in Varanasi. Kabir was a Julaha (weaver) by caste. His teachings are in the form of dohas (couplets) and sakhis (witnesses), compiled in the Bijak. He rejected both Hinduism and Islam's external rituals, caste, and idol worship — emphasised nirguna bhakti (devotion to a formless God). He is one of the most important figures in Indian spiritual history.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Kabir's teachings are compiled in which text?",
+    "options": [
+      "The Vinaya Patrika",
+      "The Guru Granth Sahib",
+      "The Bijak (three sections: Sakhi, Sabad, Ramaina)",
+      "The Adi Granth only"
+    ],
+    "answer": 2,
+    "explanation": "Kabir's teachings are compiled in the Bijak, which has three sections: Sakhi (couplets/witnesses), Sabad (songs), and Ramaina. His verses are also found in the Adi Granth (Guru Granth Sahib) of the Sikhs — Kabir is one of the most quoted saints in Sikh scripture. Kabir's dohas are famous for their directness: 'Dhai akshar prem ka padhe so pandit hoy' (one who knows the two-and-a-half letters of love becomes wise).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Kabir's followers are known as:",
+    "options": [
+      "Sikhs",
+      "Nathpanthis",
+      "Vaishnavas",
+      "Kabirpanthis (the path of Kabir)"
+    ],
+    "answer": 3,
+    "explanation": "Kabir's followers are called Kabirpanthis (followers of the path of Kabir). They reject caste, idol worship, and ritual — emphasising a formless God (nirguna). The Kabirpanth has both Hindu and Muslim followers, reflecting Kabir's synthesis of both traditions. Kabir's grave and his Hindu samadhi are both in Magahar (Gorakhpur, UP) — he is revered by both communities.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The term 'Nirguna Bhakti' refers to:",
+    "options": [
+      "Devotion to a formless, attribute-less God",
+      "Devotion to a God with form and attributes (like Krishna, Rama)",
+      "Devotion through pilgrimage",
+      "Devotion through rituals"
+    ],
+    "answer": 0,
+    "explanation": "Nirguna Bhakti = devotion to a formless (nir-guna, without attributes) God. Kabir, Nanak, and the Sants emphasised this. Saguna Bhakti = devotion to a God with form and attributes (sa-guna, with qualities) — e.g., Krishna, Rama, Shiva. Mirabai, Tulsidas, Surdas, and Chaitanya were Saguna Bhakti saints. The distinction is a key exam concept.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Mirabai (16th century CE) was a Bhakti saint devoted to which deity?",
+    "options": [
+      "Goddess Kali",
+      "Shiva",
+      "Rama",
+      "Krishna (specifically as Giridhar Gopal)"
+    ],
+    "answer": 3,
+    "explanation": "Mirabai (c. 1498-1546 CE) was a Rajput princess from Marwar (Merta) who devoted herself to Krishna (Giridhar Gopal). She married the crown prince of Mewar (Chittorgarh) but rejected married life. Her bhajans (devotional songs) are famous. She is one of the most beloved Saguna Bhakti saints. Her songs are still sung across India.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Tulsidas (16th century CE) wrote which famous text?",
+    "options": [
+      "The Sur Sagar",
+      "The Vinaya Patrika",
+      "The Bijak",
+      "The Ramcharitmanas (Hindi retelling of the Ramayana, c. 1574 CE)"
+    ],
+    "answer": 3,
+    "explanation": "Tulsidas (1532-1623 CE) wrote the Ramcharitmanas (c. 1574) — the Hindi (Awadhi) retelling of the Ramayana. This made the Ramayana accessible to common people who could not read Sanskrit. He was a Saguna Bhakti saint devoted to Rama. He also wrote Vinaya Patrika and Kavitavali. His Ramcharitmanas is a cornerstone of Hindi literature and North Indian devotional culture.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Surdas (16th century CE) was a Bhakti saint devoted to which aspect of Krishna?",
+    "options": [
+      "King Krishna (of Dwarka)",
+      "Cosmic Krishna (as in the Gita)",
+      "Childhood Krishna (Bal Krishna, and his playful leelas)",
+      "Warrior Krishna (of the Mahabharata)"
+    ],
+    "answer": 2,
+    "explanation": "Surdas (c. 1478-1581 CE) was a blind poet-saint who wrote the Sur Sagar (Ocean of Melody), containing thousands of poems about the childhood and youthful leelas (playful acts) of Krishna. He was a disciple of Vallabhacharya. His poems describe Krishna's childhood with Yashoda, his pranks, and his love for the gopis. He is one of the greatest Hindi poets.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Chaitanya Mahaprabhu (16th century CE) was a Bhakti saint from which region?",
+    "options": [
+      "Gujarat",
+      "Tamil Nadu",
+      "Maharashtra",
+      "Bengal (Nadia district, founded Gaudiya Vaishnavism)"
+    ],
+    "answer": 3,
+    "explanation": "Chaitanya Mahaprabhu (1486-1534 CE) was from Nadia (Bengal). He founded Gaudiya Vaishnavism — devotion to Krishna and Radha through sankirtan (group singing and dancing). He was considered an incarnation of Krishna. His followers spread Krishna bhakti across Bengal and Odisha. The ISKCON (Hare Krishna movement) traces its lineage to Chaitanya.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Sufi movement in India was primarily associated with which religion?",
+    "options": [
+      "Islam (mystical tradition within Islam)",
+      "Hinduism",
+      "Sikhism",
+      "Buddhism"
+    ],
+    "answer": 0,
+    "explanation": "Sufism is the mystical tradition within Islam. Sufis seek direct experience of God (through love, devotion, and self-discipline) rather than mere scriptural knowledge. In India, Sufis played a major role in spreading Islam through peaceful means — unlike the military conquests of the Delhi Sultanate. They emphasised love, tolerance, and the unity of all beings.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Chishti Sufi order (silsila) in India was founded by which saint?",
+    "options": [
+      "Khwaja Muinuddin Chishti (Ajmer, arrived 1190s CE)",
+      "Fariduddin Ganj-i-Shakar (Punjab)",
+      "Salim Chishti (Fatehpur Sikri)",
+      "Nizamuddin Auliya (Delhi)"
+    ],
+    "answer": 0,
+    "explanation": "Khwaja Muinuddin Chishti (1141-1236 CE) founded the Chishti order in India. He settled in Ajmer (Rajasthan). His dargah (tomb) at Ajmer (Ajmer Sharif) is one of the most important Sufi pilgrimage sites in India. The Chishti order emphasised love, poverty, and service to humanity. Other famous Chishti saints: Qutbuddin Bakhtiyar Kaki, Fariduddin Ganj-i-Shakar, and Nizamuddin Auliya.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Nizamuddin Auliya (13th-14th century CE) was a famous Sufi saint of which order, based in which city?",
+    "options": [
+      "Chishti order, Delhi",
+      "Qadiri order, Delhi",
+      "Chishti order, Ajmer",
+      "Suhrawardi order, Delhi"
+    ],
+    "answer": 0,
+    "explanation": "Nizamuddin Auliya (1238-1325 CE) was the most famous Chishti Sufi saint based in Delhi. Known as 'Mahbub-e-Ilahi' (Beloved of God). He accepted all — Hindus, Muslims, rich, poor. His dargah in Delhi (Nizamuddin Dargah) is a major pilgrimage site. His disciple Amir Khusrau (poet) was the father of Hindustani music and Hindi-Urdu literature. Nizamuddin lived during the reign of Alauddin Khalji and the early Tughlaqs.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Suhrawardi Sufi order in India was founded by which saint?",
+    "options": [
+      "Khwaja Muinuddin Chishti",
+      "Moinuddin Chishti",
+      "Nizamuddin Auliya",
+      "Bahauddin Zakariya (Multan, 13th century CE)"
+    ],
+    "answer": 3,
+    "explanation": "Bahauddin Zakariya (1182-1262 CE) founded the Suhrawardi order in India, based in Multan (now Pakistan). Unlike the Chishtis (who emphasised poverty), the Suhrawardis accepted government service and wealth. The Suhrawardi order was prominent in Punjab and Sindh. Other Sufi orders in India: Qadiri (founded by Abdul Qadir Jilani), Naqshbandi, and Firdausi.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Sufi saint's dargah is located at Ajmer (Rajasthan) and is one of the most visited pilgrimage sites in India?",
+    "options": [
+      "Salim Chishti (Fatehpur Sikri)",
+      "Fariduddin Ganj-i-Shakar (Pakpattan)",
+      "Khwaja Muinuddin Chishti (Ajmer Sharif Dargah)",
+      "Nizamuddin Auliya (Delhi)"
+    ],
+    "answer": 2,
+    "explanation": "Khwaja Muinuddin Chishti's dargah at Ajmer (Ajmer Sharif) is one of the most important Sufi pilgrimage sites in India. He is called 'Gharib Nawaz' (Benefactor of the Poor). People of all faiths visit — including Hindu pilgrims. Akbar walked on foot from Agra to Ajmer (1568) to offer gratitude after the birth of his son (Salim/Jahangir). The Urs festival is held annually.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bhakti and Sufi movements shared which common feature?",
+    "options": [
+      "Both supported the caste system",
+      "Both emphasised direct devotion to God, rejected caste hierarchy, and used vernacular languages (not Sanskrit/Persian)",
+      "Both were political movements",
+      "Both were violent movements"
+    ],
+    "answer": 1,
+    "explanation": "The Bhakti and Sufi movements shared key features: (1) both emphasised direct personal devotion to God, bypassing priests; (2) both rejected caste hierarchy and social discrimination; (3) both used vernacular languages (Hindi, Tamil, Punjabi, Bengali) instead of Sanskrit or Persian; (4) both promoted social equality and harmony. They laid the foundation for a syncretic Indo-Islamic culture and influenced later movements including Sikhism.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
+]
