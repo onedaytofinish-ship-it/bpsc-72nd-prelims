@@ -1,0 +1,327 @@
+[
+  {
+    "q": "The Mughal Empire in India was founded by Babur after which battle in 1526?",
+    "options": [
+      "Battle of Khanwa (1527) — Babur defeated Rana Sanga",
+      "Second Battle of Panipat (1556) — Akbar defeated Hemu",
+      "Battle of Ghaghra (1529) — Babur defeated Afghans",
+      "First Battle of Panipat (1526) — Babur defeated Ibrahim Lodi"
+    ],
+    "answer": 3,
+    "explanation": "Babur founded the Mughal Empire after the First Battle of Panipat (April 21, 1526). He defeated Ibrahim Lodi (last Lodi Sultan) using artillery and matchlock firearms — the first decisive use of gunpowder in India. Babur was a descendant of Timur (from father's side) and Genghis Khan (from mother's side). His memoir is the Tuzuk-i-Baburi (Baburnama), written in Chagatai Turkish.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Babur was a descendant of which two famous conquerors?",
+    "options": [
+      "Timur and Alexander the Great",
+      "Alexander the Great and Genghis Khan",
+      "Timur (paternal line) and Genghis Khan (maternal line)",
+      "Genghis Khan (paternal line) and Timur (maternal line)"
+    ],
+    "answer": 2,
+    "explanation": "Babur was descended from Timur (Tamerlane) through his father (Umar Sheikh Mirza) and from Genghis Khan through his mother (Qutlugh Nigar Khanum). This dual lineage — Timurid and Mongol (Mughal = Persian for Mongol) — gave the dynasty its name: 'Mughal.' Babur was from Fergana (modern Uzbekistan).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The First Battle of Panipat (1526) was significant because:",
+    "options": [
+      "It marked the end of the Mughal Empire",
+      "It established British rule in India",
+      "It was fought between Akbar and Hemu",
+      "It marked the beginning of the Mughal Empire in India and the first decisive use of artillery in Indian warfare"
+    ],
+    "answer": 3,
+    "explanation": "The First Battle of Panipat (April 21, 1526) is one of the most decisive battles in Indian history. Babur's 12,000 troops defeated Ibrahim Lodi's 100,000-strong army using artillery (cannons) and matchlocks (tulghuma tactic — flanking). This ended the Delhi Sultanate (1206-1526) and began the Mughal Empire (1526-1857). Gunpowder warfare was introduced to India.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Battle of Khanwa (1527) was fought between Babur and which Rajput ruler?",
+    "options": [
+      "Maharana Pratap",
+      "Prithviraj Chauhan",
+      "Rana Sanga (Sangram Singh of Mewar)",
+      "Rana Kumbha"
+    ],
+    "answer": 2,
+    "explanation": "The Battle of Khanwa (March 1527) was fought between Babur and Rana Sanga (Sangram Singh), the powerful Rajput ruler of Mewar. Rana Sanga led a confederacy of Rajput chiefs. Babur won using artillery and took the title of 'Ghazi' (holy warrior). This battle was more significant than Panipat — it established Mughal power in north India by defeating the Rajput challenge.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Humayun, the second Mughal emperor, was forced into exile by which Afghan ruler?",
+    "options": [
+      "Bahlul Lodi",
+      "Ibrahim Lodi",
+      "Islam Shah Suri",
+      "Sher Shah Suri (defeated Humayun at the Battle of Chausa, 1539, and Kannauj, 1540)"
+    ],
+    "answer": 3,
+    "explanation": "Sher Shah Suri (from Sasaram, Bihar) defeated Humayun at the Battle of Chausa (1539) and the Battle of Kannauj/Bilgram (1540). Humayun fled to Persia (Iran) where he received refuge from Shah Tahmasp of the Safavid dynasty. He returned to India in 1555 with Persian military aid and recaptured Delhi — but died in 1556 (fell from library stairs). The Sur Dynasty ruled 1540-1555.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Second Battle of Panipat (1556) was fought between Akbar's forces and which opponent?",
+    "options": [
+      "Sher Shah Suri",
+      "Rana Sanga",
+      "Ibrahim Lodi",
+      "Hemu (Hemchandra Vikramaditya, the Hindu general who declared himself emperor)"
+    ],
+    "answer": 3,
+    "explanation": "The Second Battle of Panipat (November 5, 1556) was fought between the 13-year-old Akbar (regent Bairam Khan) and Hemu (Hemchandra Vikramaditya), a Hindu minister of the Sur Dynasty who had declared himself emperor of Delhi. Hemu was winning but was struck in the eye by an arrow and captured. Bairam Khan beheaded him. This secured the Mughal Empire's future.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Akbar's regent (guardian) during his minority was which noble?",
+    "options": [
+      "Todar Mal",
+      "Maham Anga (Akbar's wet nurse)",
+      "Bairam Khan (1556-1560, until Akbar assumed full power at age 18)",
+      "Abul Fazl"
+    ],
+    "answer": 2,
+    "explanation": "Bairam Khan was Akbar's regent from 1556 to 1560. He was a capable military commander who won the Second Battle of Panipat (1556) and consolidated Mughal power. In 1560, Akbar (now 18) dismissed Bairam Khan and assumed full power. Bairam Khan was later assassinated while on pilgrimage to Mecca (1561). His son, Rahim, became a famous poet (Rahim ke Dohe).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Akbar abolished the jaziya (poll tax on non-Muslims) in which year?",
+    "options": [
+      "1605 CE (at Akbar's death)",
+      "1556 CE (at Akbar's accession)",
+      "1564 CE (in the eighth year of his reign)",
+      "1526 CE (at the founding of the empire)"
+    ],
+    "answer": 2,
+    "explanation": "Akbar abolished the jaziya (poll tax on non-Muslims) in 1564 CE — a landmark step in his policy of religious tolerance. He had abolished the pilgrimage tax on Hindus earlier (1563). Akbar's Sulh-i-Kul (universal peace) policy treated all religions equally. He married Rajput princesses (Jodha Bai/Akbar's wife), appointed Hindus to high offices (Todarmal, Birbal, Tansen), and even founded the Din-i-Ilahi (1582).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Akbar's new religion 'Din-i-Ilahi' (Divine Faith) was founded in which year?",
+    "options": [
+      "1582 CE (a syncretic religion combining elements of Islam, Hinduism, Zoroastrianism, and Jainism)",
+      "1605 CE",
+      "1556 CE",
+      "1570 CE"
+    ],
+    "answer": 0,
+    "explanation": "Akbar founded the Din-i-Ilahi (Divine Faith) in 1582 CE. It was a syncretic religion combining elements of Islam, Hinduism, Zoroastrianism, Jainism, and Christianity. It emphasised loyalty to the emperor, ethical living, and vegetarianism. Only 18 people joined (including Abul Fazl and Birbal). It was not a mass religion — it died with Akbar in 1605. Birbal was the only Hindu convert.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Akbar's land revenue system, known as the 'Zabt system', was standardized by which finance minister?",
+    "options": [
+      "Mulla Do-Piyaza",
+      "Birbal",
+      "Raja Todarmal (Todar Mal, 1582-1589, based on Sher Shah Suri's system)",
+      "Abul Fazl"
+    ],
+    "answer": 2,
+    "explanation": "Raja Todarmal standardized the Zabt system (1582-1589) — a land revenue system based on measurement of land and classification by productivity. Land was measured (zabt = fixed assessment) and classified into three categories (polaj=fertile, parauti=fallow, banjar=wasteland). Tax was one-third of the produce, payable in cash. This system was based on Sher Shah Suri's earlier reforms (Bihar connection). Todarmal was one of Akbar's Navaratna (nine gems).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The term 'Navaratna' (Nine Gems) refers to:",
+    "options": [
+      "Nine Mughal provinces",
+      "Nine precious stones in the Peacock Throne",
+      "Nine types of Mughal coins",
+      "The nine extraordinary individuals in Akbar's court (including Birbal, Tansen, Todarmal, Abul Fazl, Faizi)"
+    ],
+    "answer": 3,
+    "explanation": "Akbar's Navaratna (Nine Gems) were nine extraordinary individuals in his court: (1) Birbal (Mahesh Das — wit and justice), (2) Tansen (Mian Tansen — musician, originally from Gwalior), (3) Raja Todarmal (revenue/finance), (4) Abul Fazl (historian — Akbarnama), (5) Faizi (poet laureate), (6) Raja Man Singh (general), (7) Mulla Do-Piyaza (wit/humorist), (8) Abdul Rahim Khan-i-Khanan (poet, son of Bairam Khan), (9) Fakir Aziao-Din (sufi advisor).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The 'Akbarnama', the official history of Akbar's reign, was written by which court historian?",
+    "options": [
+      "Nizamuddin Ahmad",
+      "Badauni",
+      "Gulbadan Begum",
+      "Abul Fazl (written in Persian, three volumes, completed in 1596)"
+    ],
+    "answer": 3,
+    "explanation": "The Akbarnama was written by Abul Fazl (1551-1602), one of Akbar's Navaratna. Written in Persian, it has three volumes: (1) Akbar's birth and ancestors, (2) Akbar's reign events (to 1602), (3) Ain-i-Akbari (an administrative document covering provinces, officials, revenue, society, and culture). Abul Fazl was assassinated by Prince Salim (later Jahangir) in 1602 due to political rivalry.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Akbar's capital city, Fatehpur Sikri, was built near which Sufi saint's khanqah?",
+    "options": [
+      "Sharfuddin Maneri (Bihar)",
+      "Khwaja Muinuddin Chishti (Ajmer)",
+      "Sheikh Salim Chishti (Chishti Sufi saint, who predicted the birth of Akbar's son Jahangir)",
+      "Nizamuddin Auliya (Delhi)"
+    ],
+    "answer": 2,
+    "explanation": "Fatehpur Sikri (near Agra) was built by Akbar in 1571 as his new capital, near the khanqah of Sheikh Salim Chishti, a Chishti Sufi saint who had predicted the birth of Akbar's son (Salim/Jahangir, born 1569). The city was abandoned by 1585 due to water scarcity. It is now a UNESCO World Heritage Site. The Buland Darwaza (52m high) commemorates Akbar's Gujarat victory (1573).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Jahangir (1605-1627) is known for which artistic and political feature of his reign?",
+    "options": [
+      "Abolishing the jaziya",
+      "Building the Taj Mahal",
+      "Founding the Mughal Empire",
+      "Patronage of painting (especially naturalistic/animal paintings) and the rise of Nur Jahan's influence"
+    ],
+    "answer": 3,
+    "explanation": "Jahangir (1605-1627) was a great patron of painting — his reign is considered the golden age of Mughal painting (naturalistic style, animal and flower paintings, artists like Ustad Mansur). His wife Nur Jahan (married 1611) became the most powerful woman in Mughal history — she issued royal farmans (decrees) and coins were struck in her name (only Mughal empress to have this privilege). Jahangir wrote the Tuzuk-i-Jahangiri (his memoirs).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Nur Jahan, the most powerful Mughal empress, was the wife of which emperor?",
+    "options": [
+      "Jahangir (married 1611, effectively ruled the empire 1611-1627)",
+      "Akbar",
+      "Aurangzeb",
+      "Shah Jahan"
+    ],
+    "answer": 0,
+    "explanation": "Nur Jahan (Mehr-un-Nissa) married Jahangir in 1611 and became the most powerful woman in Mughal history. She effectively ruled the empire during Jahangir's later years (when he was ill and addicted to opium/alcohol). Coins were struck in her name (unique for a Mughal empress). She had a 'Nur Jahan Junta' (faction) with her father Itimad-ud-Daula, brother Asaf Khan, and stepson Khurram (later Shah Jahan). Her niece Mumtaz Mahal married Shah Jahan.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Taj Mahal at Agra was built by Shah Jahan as a mausoleum for his wife Mumtaz Mahal. Construction began in which year?",
+    "options": [
+      "1605 CE",
+      "1632 CE (completed in 1653, 21 years, architect Ustad Ahmad Lahauri)",
+      "1657 CE",
+      "1627 CE"
+    ],
+    "answer": 1,
+    "explanation": "The Taj Mahal was built by Shah Jahan (1628-1658) as a mausoleum for his beloved wife Mumtaz Mahal (Arjumand Banu Begum), who died in childbirth in 1631. Construction began in 1632 and was completed in 1653 (21 years, 20,000 workers). Chief architect: Ustad Ahmad Lahauri. It is a UNESCO World Heritage Site (1983) and one of the Seven Wonders of the World (2007). Made of white marble with inlay work (pietra dura).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shah Jahan's reign (1628-1658) is known as the 'Golden Age of Mughal Architecture'. Which of the following was NOT built by Shah Jahan?",
+    "options": [
+      "Taj Mahal (Agra, 1632-1653)",
+      "Shalimar Gardens (Lahore, 1641)",
+      "Red Fort (Delhi, 1639-1648) and Jama Masjid (Delhi, 1650-1656)",
+      "Fatehpur Sikri (this was built by Akbar, not Shah Jahan)"
+    ],
+    "answer": 3,
+    "explanation": "Fatehpur Sikri was built by Akbar (1571, abandoned 1585), not Shah Jahan. Shah Jahan's architectural legacy: Taj Mahal (Agra, 1632-1653), Red Fort (Delhi, 1639-1648), Jama Masjid (Delhi, 1650-1656), Shalimar Gardens (Lahore, 1641), and the Peacock Throne (Takht-i-Taus). He shifted the capital from Agra to Delhi (Shahjahanabad, 1648). Shah Jahan's architecture is characterised by white marble, symmetry, and grand scale.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Aurangzeb (1658-1707) imprisoned his father Shah Jahan in which fort?",
+    "options": [
+      "Red Fort (Delhi)",
+      "Chittorgarh Fort",
+      "Agra Fort (Shah Jahan was imprisoned 1658-1666, until his death, by Aurangzeb)",
+      "Gwalior Fort"
+    ],
+    "answer": 2,
+    "explanation": "Aurangzeb imprisoned his father Shah Jahan in the Agra Fort (1658-1666) after defeating his brothers in the War of Succession (Dara Shikoh, Shuja, Murad). Shah Jahan spent his last 8 years in captivity, with a view of the Taj Mahal (where his wife Mumtaz was buried). He died in 1666 and was buried beside Mumtaz in the Taj Mahal. Aurangzeb was the last of the 'Great Mughals.'",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Aurangzeb's long reign (1658-1707) was marked by which major military campaign in the Deccan?",
+    "options": [
+      "War with the Portuguese",
+      "Conquest of Kabul",
+      "Conquest of Bengal",
+      "The 25-year Deccan campaign against the Marathas and Bijapur/Golconda Sultanates (annexed 1686-1687)"
+    ],
+    "answer": 3,
+    "explanation": "Aurangzeb spent the last 25 years of his reign (1682-1707) in the Deccan, campaigning against the Marathas (Shivaji and his successors) and the Deccan Sultanates. He annexed Bijapur (1686) and Golconda (1687), ending the Deccan Sultanates. However, the relentless Maratha guerrilla warfare under Shivaji's successors exhausted the Mughal treasury and army. Aurangzeb died at Ahmednagar (1707) at age 88 — the last of the Great Mughals.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Aurangzeb reimposed the jaziya (poll tax on non-Muslims) in which year, reversing Akbar's policy of religious tolerance?",
+    "options": [
+      "1679 CE (in the 22nd year of his reign)",
+      "1658 CE (at his accession)",
+      "1707 CE (at his death)",
+      "1660 CE"
+    ],
+    "answer": 0,
+    "explanation": "Aurangzeb reimposed the jaziya in 1679 CE — 115 years after Akbar had abolished it (1564). This was part of Aurangzeb's orthodox Islamic policy. He also banned the public worship of Hindu festivals, destroyed several temples (including Kashi Vishwanath at Varanasi and Krishna Janmabhoomi at Mathura), and executed the ninth Sikh Guru, Tegh Bahadur (1675). These policies alienated his non-Muslim subjects and contributed to the empire's decline.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Dara Shikoh, the eldest son of Shah Jahan, was known for which contribution to Indo-Islamic cultural synthesis?",
+    "options": [
+      "He translated the Upanishads into Persian (Sirr-i-Akbar, 1657) and promoted Hindu-Muslim unity",
+      "He founded the Din-i-Ilahi",
+      "He conquered the Deccan",
+      "He built the Taj Mahal"
+    ],
+    "answer": 0,
+    "explanation": "Dara Shikoh (1615-1659) was Shah Jahan's eldest and favourite son — a Sufi mystic and scholar who promoted Hindu-Muslim unity. He translated 50 Upanishads into Persian as 'Sirr-i-Akbar' (The Great Secret, 1657), believing the Upanishads contained the monotheistic message of the Quran. He also wrote Majma-ul-Bahrain (mingling of two oceans — Islamic Sufism and Hindu Vedanta). He was defeated and executed by Aurangzeb (1659) after the War of Succession.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Sher Shah Suri (1540-1545), who briefly interrupted Mughal rule, was from which place in Bihar?",
+    "options": [
+      "Sasaram (Rohtas district, Bihar — his tomb is a UNESCO-nominated Indo-Afghan architectural masterpiece)",
+      "Gaya",
+      "Bhagalpur",
+      "Patna"
+    ],
+    "answer": 0,
+    "explanation": "Sher Shah Suri (1486-1545) was from Sasaram (Rohtas district, Bihar). His grand tomb at Sasaram (built 1540-1545, architect Mir Muhammad Aliwal Khan) is one of the finest examples of Indo-Afghan architecture — set in the middle of an artificial lake. Sher Shah ruled from 1540-1545 and laid the foundation for the Grand Trunk Road (from Chittagong to Kabul), built sarais (rest houses), and introduced the Rupiah (silver coin) and paisa (copper coin). His administrative reforms were adopted by Akbar.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Grand Trunk Road (GT Road), one of Asia's oldest and longest major roads, was built by which ruler?",
+    "options": [
+      "Akbar",
+      "Aurangzeb",
+      "Babur",
+      "Sher Shah Suri (from Chittagong to Kabul, ~2,500 km, with sarais and postal stations)"
+    ],
+    "answer": 3,
+    "explanation": "Sher Shah Suri built the Grand Trunk Road (Sadak-e-Azam) — from Sonargaon (Bengal) to Peshawar (now ~2,500 km from Chittagong to Kabul). He planted trees on both sides, built 1,700 sarais (rest houses), and established a postal system (horse couriers). The sarais also served as postal stations. This road facilitated trade, military movement, and communication. The modern NH-19 (part of the GT Road) passes through Bihar.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Mughal Empire's administrative system was divided into 'Subas' (provinces). How many Subas did Akbar's empire have?",
+    "options": [
+      "30 Subas",
+      "50 Subas",
+      "15 Subas (during Akbar's reign, later expanded to 21 by Aurangzeb)",
+      "5 Subas"
+    ],
+    "answer": 2,
+    "explanation": "Akbar's empire was divided into 15 Subas (provinces): Agra, Delhi, Awadh, Allahabad, Bihar, Bengal, Malwa, Gujarat, Ajmer, Lahore, Multan, Delhi, Kashmir (later), Berar, and Khandesh. Each Suba was governed by a Subedar (governor). Aurangzeb expanded this to 21 Subas by adding Deccan provinces (Bijapur, Golconda, Hyderabad, etc.). The Suba was further divided into Sarkars (districts) and Parganas (tehsils).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the last Mughal emperor, associated with the Revolt of 1857?",
+    "options": [
+      "Shah Jahan",
+      "Bahadur Shah Zafar II (1775-1862, exiled to Rangoon after 1857)",
+      "Aurangzeb",
+      "Akbar II"
+    ],
+    "answer": 1,
+    "explanation": "Bahadur Shah Zafar II (1775-1862) was the last Mughal emperor. During the Revolt of 1857, the Indian sepoys declared him the symbolic leader of the uprising. After the British suppressed the revolt, he was tried, exiled to Rangoon (Myanmar) in 1858, and died there in 1862. He was also a noted Urdu poet — famous ghazal: 'Lagta nahin hai dil mera ujre dayar mein.' The Mughal Empire (1526-1857) ended with his exile — 331 years.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  }
+]
