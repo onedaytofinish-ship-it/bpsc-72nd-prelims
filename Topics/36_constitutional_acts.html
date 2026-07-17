@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>36 - Constitutional Acts | BPSC 72nd Prelims</title>
+<link rel="stylesheet" href="_assets/navbar.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  h3 a { color: #16213e; text-decoration: none; }
+  h3 a:hover { color: #e94560; text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f5; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 200px; }
+  .flow-node.highlight { background: #e94560; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #36 • TIER A</div>
+  <div class="topic-title">Constitutional Acts — 1909, 1919, 1935 — Key Features</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Modern Indian History</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: 1937 elections — Sri Krishna Singh ministry</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Nehru's quote on GoI Act 1935:</strong> Jawaharlal Nehru called the Government of India Act 1935 "a new charter of slavery" — limited provincial autonomy but British control at the centre. This is a frequently asked quote-matching question. Note: Gandhi called the Cripps Mission (1942) "a post-dated cheque on a crashing bank" — a different quote for a different event. Know who said what.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Separate electorates chronology:</strong> 1909 Act → Muslims. 1919 Act → extended to Sikhs, Christians, Anglo-Indians, Europeans. 1932 Communal Award → Depressed Classes (Dalits). 1932 Poona Pact → replaced separate electorates for Dalits with reserved seats. The system of separate electorates was a major factor in the partition of India.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete comparison of the three Acts (1909, 1919, 1935), diarchy analysis, provincial autonomy, All-India Federation, 1937 elections, Bihar connection, and 7 exam predictions:
+    <a href="subpages/36_constitutional_acts_detail.html" target="_blank">Constitutional Acts Master Detail →</a>
+  </div>
+
+  <h3>A. The Three Key Constitutional Acts — Comparison <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Feature</th><th>1909 (Morley-Minto)</th><th>1919 (Montagu-Chelmsford)</th><th>1935</th></tr>
+    <tr><td><strong>Named after</strong></td><td>Lord Morley (SoS) + Lord Minto (Viceroy)</td><td>Edwin Montagu (SoS) + Lord Chelmsford (Viceroy)</td><td>Based on Simon Commission + Round Table Conferences</td></tr>
+    <tr><td><strong>Key innovation</strong></td><td>Separate electorates for Muslims (first time)</td><td>Diarchy in provinces (reserved + transferred)</td><td>Provincial autonomy; diarchy at centre (never implemented)</td></tr>
+    <tr><td><strong>Legislature</strong></td><td>Expanded councils (non-official majority in provincial)</td><td>Bicameral at centre (Council of State + Legislative Assembly)</td><td>Bicameral in provinces (Legislative Council + Legislative Assembly)</td></tr>
+    <tr><td><strong>Franchise</strong></td><td>Very limited (about 1%)</td><td>Limited (about 10%)</td><td>Limited (about 10%)</td></tr>
+    <tr><td><strong>Separate electorates</strong></td><td>Muslims only</td><td>Muslims, Sikhs, Christians, Anglo-Indians, Europeans</td><td>Extended further + Depressed Classes (reserved seats after Poona Pact)</td></tr>
+    <tr><td><strong>Centre-province division</strong></td><td>No clear division</td><td>Central + Provincial subjects (diarchy in provinces)</td><td>Three lists: Federal, Provincial, Concurrent</td></tr>
+    <tr><td><strong>Federation</strong></td><td>No</td><td>No</td><td>All-India Federation proposed (NEVER implemented — princes refused)</td></tr>
+    <tr><td><strong>Institutions established</strong></td><td>None</td><td>Bicameral legislature, Public Service Commission</td><td>Federal Court (1937), RBI (1935)</td></tr>
+    <tr><td><strong>Indian reaction</strong></td><td>Mixed — Muslims satisfied; INC disappointed</td><td>Disappointed — Rowlatt Act (1919) undermined it</td><td>Nehru: "a new charter of slavery"; INC participated in 1937 elections</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/lord_morley.jpg" alt="Lord Morley">
+    <div class="img-caption">Lord Morley (John Morley, 1st Viscount Morley of Blackburn) — Secretary of State for India (1905-1910). Co-architect of the Morley-Minto Reforms (Government of India Act 1909), which introduced separate electorates for Muslims — the first constitutional recognition of communal representation.</div>
+  </div>
+
+  <h3>B. Government of India Act 1909 (Morley-Minto Reforms) <span class="current-tag">PYQ PATTERN</span></h3>
+  <ul>
+    <li><strong>Named after:</strong> Lord Morley (Secretary of State for India) and Lord Minto (Viceroy 1905-1910)</li>
+    <li><strong>Key features:</strong> (1) separate electorates for Muslims (first time); (2) expanded Central and Provincial Legislative Councils; (3) non-official majority in provincial councils; (4) limited role for Indians in governance</li>
+    <li><strong>Separate electorates:</strong> only Muslims could vote for Muslim candidates in Muslim constituencies — a British "divide and rule" strategy, demanded by the Muslim League (founded 1906)</li>
+    <li><strong>Significance:</strong> first constitutional reform by the British; introduced communal representation which later became a major factor in partition</li>
+    <li><strong>Indian reaction:</strong> Muslims (Muslim League) satisfied; INC disappointed (wanted more representation)</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+  <h3>C. Government of India Act 1919 (Montagu-Chelmsford Reforms)</h3>
+  <ul>
+    <li><strong>Named after:</strong> Edwin Montagu (Secretary of State 1917-1922) and Lord Chelmsford (Viceroy 1916-1921)</li>
+    <li><strong>Background:</strong> Montagu Declaration (August 20, 1917) — "gradual development of self-governing institutions" in India</li>
+    <li><strong>Key features:</strong></li>
+    <li><strong>Diarchy in provinces:</strong> provincial subjects divided into 'reserved' (police, justice, land revenue — administered by Governor's executive council) and 'transferred' (education, health, agriculture, local government — administered by Indian ministers responsible to legislature)</li>
+    <li><strong>Bicameral legislature at centre:</strong> Council of State (Upper House, 60 members) + Legislative Assembly (Lower House, 145 members)</li>
+    <li><strong>Direct elections:</strong> introduced for the first time (with limited franchise — about 10%)</li>
+    <li><strong>Separate electorates:</strong> extended to Sikhs, Christians, Anglo-Indians, and Europeans</li>
+    <li><strong>Budget separation:</strong> provincial budgets separated from central budget for the first time</li>
+    <li><strong>Public Service Commission:</strong> established (1926) — for recruitment to civil services</li>
+    <li><strong>Indian reaction:</strong> disappointed — the Rowlatt Act (1919) (detention without trial) undermined the reforms; led to the Non-Cooperation Movement (1920)</li>
+  </ul>
+
+  <h3>D. Government of India Act 1935 <span class="current-tag">EXAM CORE</span></h3>
+  <ul>
+    <li><strong>Based on:</strong> Simon Commission report (1930) + three Round Table Conferences (1930-32)</li>
+    <li><strong>Longest British Act:</strong> 475 sections (longest Act of the British Parliament until then)</li>
+    <li><strong>Key features:</strong></li>
+    <li><strong>Provincial autonomy:</strong> diarchy abolished in provinces; elected ministries responsible to provincial legislatures. 11 provinces got self-government</li>
+    <li><strong>Diarchy at centre:</strong> reserved subjects (defence, foreign affairs) under Viceroy; transferred subjects under elected ministers. NEVER implemented (All-India Federation never came into being)</li>
+    <li><strong>All-India Federation:</strong> British provinces + princely states. NEVER implemented (princes refused to join)</li>
+    <li><strong>Three lists:</strong> Federal List (centre), Provincial List (provinces), Concurrent List (both — federal prevails). Adopted by Indian Constitution (1950) as Union, State, Concurrent</li>
+    <li><strong>Federal Court:</strong> established 1937 (Delhi) — predecessor of Supreme Court (1950)</li>
+    <li><strong>RBI:</strong> established April 1, 1935 (under RBI Act 1934)</li>
+    <li><strong>Franchise:</strong> limited to about 10% (property + education qualifications). NOT universal adult franchise</li>
+    <li><strong>1937 elections:</strong> held under this Act; INC won 7 of 11 provinces; Muslim League won 2</li>
+    <li><strong>Nehru's critique:</strong> "a new charter of slavery" — limited autonomy, British control at centre</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/lord_linlithgow.jpg" alt="Lord Linlithgow">
+    <div class="img-caption">Lord Linlithgow (Viceroy 1936-1943) — the longest-serving Viceroy of India. He oversaw the implementation of the Government of India Act 1935 (provincial part, 1937), the 1937 elections, the resignation of Congress ministries (October 1939, WWII), and the Quit India Movement (1942).</div>
+  </div>
+
+  <h3>E. Key Events Timeline</h3>
+  <table>
+    <tr><th>Date</th><th>Event</th></tr>
+    <tr><td><strong>1861</strong></td><td>Indian Councils Act — first non-official members in legislative councils</td></tr>
+    <tr><td><strong>1906</strong></td><td>Muslim League founded (Dhaka) — demanded separate electorates</td></tr>
+    <tr><td><strong>1909</strong></td><td>Government of India Act (Morley-Minto Reforms) — separate electorates for Muslims</td></tr>
+    <tr><td><strong>August 1917</strong></td><td>Montagu Declaration — "gradual development of self-governing institutions"</td></tr>
+    <tr><td><strong>1919</strong></td><td>Government of India Act (Montagu-Chelmsford Reforms) — diarchy in provinces; bicameral centre</td></tr>
+    <tr><td><strong>1927</strong></td><td>Simon Commission appointed to review the 1919 Act</td></tr>
+    <tr><td><strong>1930-32</strong></td><td>Three Round Table Conferences — discussed further reforms</td></tr>
+    <tr><td><strong>1935</strong></td><td>Government of India Act — provincial autonomy; Federal Court; RBI (April 1, 1935)</td></tr>
+    <tr><td><strong>1937</strong></td><td>Provincial elections — INC won 7 of 11 provinces; formed ministries</td></tr>
+    <tr><td><strong>October 1939</strong></td><td>Congress ministries resigned (WWII declared without consultation)</td></tr>
+    <tr><td><strong>1947</strong></td><td>Indian Independence Act — based on Mountbatten Plan (June 3 Plan)</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — S-D-P-A:</strong><br>
+    <strong>S</strong>eparate electorates (1909) → <strong>D</strong>iarchy (1919) → <strong>P</strong>rovincial autonomy (1935) → <strong>A</strong>ll-India Federation (1935, never implemented).<br>
+    <em>"S-D-P-A: the four key innovations of the constitutional reforms."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — 1937 Elections &amp; First Elected Ministry</div>
+    <ul>
+      <li><strong>1937 provincial elections:</strong> held under the Government of India Act 1935. The INC won in Bihar and formed the provincial ministry.</li>
+      <li><strong>Sri Krishna Singh:</strong> became the first Premier (later Chief Minister) of Bihar (1937-1939, then 1946-1961). Known as "Bihar Kesari."</li>
+      <li><strong>Anugrah Narayan Sinha:</strong> became the Deputy Premier (later Deputy Chief Minister) of Bihar. He was the key finance and development minister.</li>
+      <li><strong>Significance:</strong> Bihar's first experience of elected self-government. The Congress ministry implemented reforms in education, land revenue, and local government. The ministry resigned in October 1939 (WWII declared without consulting Indian leaders).</li>
+      <li><strong>Return to power (1946):</strong> after elections in 1946, Sri Krishna Singh again became Premier — and continued as Chief Minister after independence (1947-1961), becoming the longest-serving CM of Bihar.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>Cross-Topic Links:</strong>
+    <ul>
+      <li><a href="33_civil_disobedience.html">Topic 33 (Civil Disobedience)</a>: The GoI Act 1935 was the outcome of the Simon Commission + Round Table Conferences. The Poona Pact (1932) replaced separate electorates for Dalits with reserved seats. Nehru called the Act "a new charter of slavery."</li>
+      <li><a href="30_bengal_partition_swadeshi.html">Topic 30 (Bengal Partition)</a>: The Swadeshi Movement (1905) was a response to the partition of Bengal. The Morley-Minto Reforms (1909) followed, introducing separate electorates — a "divide and rule" strategy.</li>
+      <li><a href="34_quit_india_1942.html">Topic 34 (Quit India 1942)</a>: The Congress ministries (elected under the 1935 Act) resigned in October 1939 (WWII). The failure of the Cripps Mission (1942) led to the Quit India Movement. The Indian Independence Act 1947 replaced the GoI Act 1935.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Constitutional legacy:</strong> the GoI Act 1935 is the most important precursor to the Indian Constitution (1950). Many features were adopted: three lists (Union, State, Concurrent), Federal Court (→ Supreme Court), RBI, bicameral legislature, and the office of the Governor.</li>
+    <li><strong>Separate electorates debate:</strong> the system of separate electorates (introduced 1909, extended 1919, 1932) was abolished by the Indian Constitution (1950) — which established universal adult franchise with reserved seats for SCs/STs instead.</li>
+    <li><strong>1935 Act as constitutional framework:</strong> the GoI Act 1935 served as the constitutional framework for India until January 26, 1950 (when the Indian Constitution came into force). It was also the framework for Pakistan until 1956.</li>
+    <li><strong>Provincial autonomy → federalism:</strong> the 1935 Act's provincial autonomy was the seed of Indian federalism. The Indian Constitution strengthened it with a strong centre (unlike the 1935 Act's weak centre — the All-India Federation never came into being).</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Government of India Act 1909 is also known as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Morley-Minto Reforms</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Montagu-Chelmsford Reforms</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Simon Commission Reforms</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. August Offer</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — The GoI Act 1909 = Morley-Minto Reforms (Lord Morley, SoS + Lord Minto, Viceroy). Introduced separate electorates for Muslims for the first time.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Which Act introduced the system of 'separate electorates' for Muslims for the first time?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. Government of India Act 1909 (Morley-Minto)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Government of India Act 1919 (Montagu-Chelmsford)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Government of India Act 1935</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Indian Councils Act 1861</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — The 1909 Act introduced separate electorates for Muslims — a British "divide and rule" strategy demanded by the Muslim League (founded 1906).</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Montagu-Chelmsford Reforms (1919) introduced which key feature in the provinces?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Diarchy (Dyarchy) — reserved and transferred subjects</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Provincial autonomy</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Universal adult franchise</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. All-India Federation</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — The 1919 Act introduced Diarchy in provinces: reserved subjects (Governor's council) + transferred subjects (Indian ministers responsible to legislature).</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Who made the historic declaration of August 1917 promising 'gradual development of self-governing institutions' in India?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Edwin Montagu (Secretary of State for India)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Lord Chelmsford (Viceroy)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Lord Morley (Secretary of State)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Lord Minto (Viceroy)</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — Edwin Montagu (SoS) made the August 1917 declaration promising "gradual development of self-governing institutions." This led to the GoI Act 1919.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The Government of India Act 1935 was described by Jawaharlal Nehru as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. 'A new charter of slavery'</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. 'A post-dated cheque on a crashing bank'</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. 'A Magna Carta for India'</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. 'A step toward dominion status'</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — Nehru called the 1935 Act "a new charter of slavery." Gandhi called the Cripps Mission (1942) "a post-dated cheque on a crashing bank" — different quote.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Which Act granted 'provincial autonomy' and abolished diarchy in the provinces?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Government of India Act 1935</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Government of India Act 1919</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Government of India Act 1909</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Indian Independence Act 1947</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — The 1935 Act granted provincial autonomy (abolished diarchy in provinces). Diarchy was instead introduced at the centre (never implemented).</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The Government of India Act 1935 proposed an 'All-India Federation' comprising British provinces and princely states. Was it implemented?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. No — it was never implemented because the princely states refused to join</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Yes — it was implemented in 1937</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Yes — it lasted until 1947</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. No — it was replaced by the Indian Independence Act 1947</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — The All-India Federation was NEVER implemented — the princely states refused to join. Only the provincial part came into force (1937).</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Which institution was established by the Government of India Act 1935?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Federal Court (1937)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Supreme Court of India</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Election Commission of India</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Reserve Bank of India</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — The 1935 Act established the Federal Court (1937) — predecessor of the Supreme Court (1950). The RBI was established under the RBI Act 1934.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Government of India Act 1919 introduced which feature at the centre?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Bicameral legislature (Council of State + Legislative Assembly)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Provincial autonomy</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Federal Court</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. All-India Federation</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — The 1919 Act introduced a bicameral legislature: Council of State (Upper House) + Legislative Assembly (Lower House). Also introduced direct elections (limited franchise ~10%).</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Arrange the constitutional reforms in chronological order: 1. Morley-Minto Reforms 2. Montagu-Chelmsford Reforms 3. Government of India Act 1935 4. Indian Councils Act 1861</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. 4, 1, 2, 3</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. 1, 4, 2, 3</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. 4, 2, 1, 3</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. 1, 2, 3, 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — Indian Councils Act 1861 → Morley-Minto (1909) → Montagu-Chelmsford (1919) → GoI Act 1935.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Who was the Viceroy of India when the Morley-Minto Reforms (1909) were introduced?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Lord Minto</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Lord Curzon</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Lord Hardinge</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Lord Chelmsford</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — Lord Minto (Viceroy 1905-1910) + Lord Morley (SoS) = Morley-Minto Reforms (1909). Curzon was the previous Viceroy (1899-1905).</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Who was the Viceroy of India when the Montagu-Chelmsford Reforms (1919) were introduced?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Lord Chelmsford</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Lord Minto</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Lord Reading</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Lord Irwin</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — Lord Chelmsford (Viceroy 1916-1921) + Edwin Montagu (SoS) = Montagu-Chelmsford Reforms (1919).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Consider the following about the Government of India Act 1919: 1. It introduced diarchy in the provinces. 2. It introduced bicameral legislature at the centre. 3. It introduced universal adult franchise. Which is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Statements 1 and 2 are correct. Statement 3 is WRONG — the 1919 Act did NOT introduce universal adult franchise; only ~10% could vote.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Government of India Act 1935 divided powers into how many lists?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Three lists (Federal, Provincial, Concurrent)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Two lists (Federal, Provincial)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. One list only</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Four lists (Federal, Provincial, Concurrent, Dominion)</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — Three lists: Federal (centre), Provincial (provinces), Concurrent (both). This was adopted by the Indian Constitution (1950) as Union, State, Concurrent.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Under the Government of India Act 1935, what was the franchise (voting rights) percentage of the population?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. About 10% (based on property and education)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. About 25%</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. About 50%</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Universal adult franchise (100%)</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — About 10% — based on property, education, and tax qualifications. NOT universal adult franchise. Universal franchise came with the Indian Constitution (1950).</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The 1937 provincial elections were held under which Act?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Government of India Act 1935</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Government of India Act 1919</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Government of India Act 1909</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Indian Independence Act 1947</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — The 1937 elections were held under the GoI Act 1935. The INC won in 7 of 11 provinces. The Muslim League won only 2 — demonstrating limited mass support.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Which Act introduced the system of 'communal representation' (separate electorates) for the first time?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Government of India Act 1909</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Government of India Act 1919</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Indian Councils Act 1892</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Government of India Act 1935</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — The 1909 Act introduced communal representation (separate electorates) for Muslims. The 1919 Act extended it to Sikhs, Christians, Anglo-Indians, and Europeans.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Who was the Secretary of State for India who made the August 1917 declaration?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Edwin Montagu</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Lord Morley</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Lord Curzon</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Lord Birkenhead</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Edwin Montagu (SoS 1917-1922) made the August 1917 declaration. He then drafted the Montagu-Chelmsford Report (1918) with Viceroy Chelmsford.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The Indian Councils Act 1861 is significant for which reason?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. It introduced non-official (Indian) members into the legislative councils for the first time</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. It introduced separate electorates</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. It granted provincial autonomy</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. It established the Federal Court</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — The 1861 Act introduced non-official (Indian) members into legislative councils for the first time — a limited but important first step.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The Reserve Bank of India was established in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. April 1, 1935</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. April 1, 1937</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. August 15, 1947</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. January 26, 1950</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — The RBI was established on April 1, 1935, under the RBI Act 1934. The GoI Act 1935 provided the constitutional framework. Nationalised in 1949.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Which of the following was NOT a feature of the Government of India Act 1919?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Provincial autonomy with elected ministries responsible to the legislature</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Diarchy in provinces (reserved and transferred subjects)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Bicameral legislature at the centre</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Direct elections (with limited franchise)</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Provincial autonomy was a feature of the 1935 Act, NOT the 1919 Act. The 1919 Act introduced diarchy (not full autonomy), bicameral legislature, and direct elections with limited franchise.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The Simon Commission (1927) was appointed to review which Act?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. Government of India Act 1919</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. Government of India Act 1909</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. Government of India Act 1935</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. Indian Councils Act 1861</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — The Simon Commission (1927) was appointed to review the GoI Act 1919. It was boycotted (no Indian member). Its report (1930) led to the Round Table Conferences and the GoI Act 1935.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Bihar's connection with the constitutional reforms was through:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. The 1937 elections — INC formed ministry in Bihar under Sri Krishna Singh</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. The 1909 reforms — Bihar got separate electorates</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. The 1861 Act — Bihar became a separate province</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. The 1919 Act — Bihar got bicameral legislature</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Bihar's connection is through the 1937 elections (under GoI Act 1935). The INC won and formed the ministry — Sri Krishna Singh as first Premier, Anugrah Narayan Sinha as Deputy Premier.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Which constitutional reform introduced the principle of 'dyarchy' (diarchy) for the first time?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Government of India Act 1919 (Montagu-Chelmsford)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Government of India Act 1909 (Morley-Minto)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Government of India Act 1935</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Indian Councils Act 1892</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — The 1919 Act introduced dyarchy for the first time — in the provinces. The 1935 Act abolished diarchy in provinces and introduced it at the centre (never implemented).</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The Indian Independence Act 1947 was based on which plan?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Mountbatten Plan (June 3 Plan)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Cabinet Mission Plan</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Wavell Plan</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Cripps Mission</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — The Indian Independence Act 1947 was based on the Mountbatten Plan (June 3 Plan). It partitioned India into two dominions — India and Pakistan — and granted independence on August 15, 1947.</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Nehru's quote (HIGH):</strong> GoI Act 1935 = "a new charter of slavery" (Nehru). Cripps Mission = "post-dated cheque on a crashing bank" (Gandhi). Know who said what — this is a classic quote-matching question.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Separate electorates (HIGH):</strong> 1909 Act → Muslims (first time). 1919 Act → extended to Sikhs, Christians, Anglo-Indians, Europeans. 1932 Communal Award → Dalits. 1932 Poona Pact → reserved seats instead. Know the chronology.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Diarchy (MEDIUM):</strong> 1919 Act → diarchy in provinces (reserved + transferred). 1935 Act → abolished diarchy in provinces, introduced it at centre (never implemented). Know which Act introduced diarchy and where.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>GoI Act 1935 features (MEDIUM):</strong> Provincial autonomy, All-India Federation (never implemented), Federal Court (1937), RBI (1935), three lists (Federal, Provincial, Concurrent), franchise ~10%. Nehru: "new charter of slavery."
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>All-India Federation (LOW):</strong> Proposed by 1935 Act (British provinces + princely states). NEVER implemented — princes refused to join. Only the provincial part came into force (1937).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Chronology (LOW):</strong> Indian Councils Act 1861 → Morley-Minto (1909) → Montagu-Chelmsford (1919) → Simon Commission (1927) → GoI Act 1935 → 1937 elections → Indian Independence Act 1947.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>Bihar 1937 elections (LOW):</strong> INC won Bihar under GoI Act 1935. Sri Krishna Singh became first Premier (later CM). Anugrah Narayan Sinha became Deputy Premier. Bihar's first elected self-government. Ministries resigned October 1939 (WWII).
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>Bipan Chandra et al., <em>India's Struggle for Independence</em>, Chapters 10–11 (Constitutional Reforms)</li>
+    <li>M. Laxmikanth, <em>Indian Polity</em>, Chapter on Constitutional Development</li>
+    <li>Sumit Sarkar, <em>Modern India 1885-1947</em>, pp. 164–180 (Morley-Minto, Montagu-Chelmsford)</li>
+    <li><a href="https://en.wikipedia.org/wiki/Government_of_India_Act_1935" target="_blank">Wikipedia: Government of India Act 1935</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 36 — Constitutional Acts • Generated 2026-07-17</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'a', q4: 'a', q5: 'a', q6: 'a', q7: 'a', q8: 'a', q9: 'a', q10: 'a',
+  q11: 'a', q12: 'a', q13: 'a', q14: 'a', q15: 'a', q16: 'a', q17: 'a', q18: 'a', q19: 'a', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'a', q24: 'a', q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option', 'wrong-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+<script src="_assets/navbar.js"></script>
+</body>
+</html>
