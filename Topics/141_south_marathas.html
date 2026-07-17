@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>141 - South & Marathas | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #141 • TIER B</div>
+  <div class="topic-title">South &amp; Marathas — Vijayanagara, Bahmani, Shivaji</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Medieval History</span>
+    <span class="meta-tag">⚖️ Weight: 0.7</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Maratha influence in Bihar (Buxar, 1764)</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Three key southern powers (14th-18th c.):</strong> (1) Vijayanagara Empire (1336-1646, Hampi, 4 dynasties, Krishnadevaraya = greatest, Battle of Talikota 1565 ended it). (2) Bahmani Kingdom (1347-1527, Gulbarga→Bidar, broke into 5 Deccan Sultanates). (3) Maratha Empire (Shivaji 1674, Ashtapradhan, Ganimi Kava, Bajirao I, Third Panipat 1761). Also: Sikh Empire (Ranjit Singh 1799). Key: Shivaji's coronation (1674, Raigad), Ashtapradhan (8 ministers), Talikota (1565), Bajirao I (41 battles, never lost), Third Panipat (1761, Abdali).
+  </div>
+
+  <div class="img-container">
+    <img src="images/chola_temple.jpg" alt="South Indian temple architecture — Vijayanagara and Nayaka traditions">
+    <div class="img-caption">South Indian temple architecture flourished under the Vijayanagara Empire (1336-1646). The Virupaksha Temple and Vittala Temple at Hampi (UNESCO 1986) are masterpieces of Vijayanagara architecture. The tradition continued under the Nayaka kingdoms and the Maratha Empire.</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/rajput_fort.jpg" alt="Maratha fort architecture — hill forts of the Sahyadri">
+    <div class="img-caption">Maratha fort architecture — Shivaji built and controlled ~300-360 forts in the Sahyadri (Western Ghats) mountains. Key forts: Raigad (capital), Pratapgad, Sinhagad, Sindhudurg (sea fort). The hill forts enabled the guerrilla warfare (Ganimi Kava) that defeated larger Mughal armies.</div>
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of Vijayanagara, Bahmani, Maratha Empire, Sikh Empire, Bihar connections, and 7 exam predictions:
+    <a href="subpages/141_south_marathas_detail.html" target="_blank">South & Marathas Master Detail →</a>
+  </div>
+
+  <h3>A. Vijayanagara Empire — Four Dynasties <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Dynasty</th><th>Period</th><th>Founder</th><th>Key Rulers</th></tr>
+    <tr><td><strong>Sangama</strong></td><td>1336-1485</td><td>Harihara I &amp; Bukka Raya I</td><td>Harihara I, Bukka Raya I, Devaraya II</td></tr>
+    <tr><td><strong>Saluva</strong></td><td>1485-1505</td><td>Saluva Narasimha</td><td>Saluva Narasimha, Immadi Narasimha</td></tr>
+    <tr><td><strong>Tuluva</strong></td><td>1505-1570</td><td>Vira Narasimha</td><td><strong>Krishnadevaraya (1509-1529)</strong> — greatest ruler</td></tr>
+    <tr><td><strong>Aravidu</strong></td><td>1570-1646</td><td>Tirumala Raya</td><td>Rama Raya (killed at Talikota 1565), Tirumala Raya</td></tr>
+  </table>
+
+  <h3>B. Bahmani Kingdom &amp; Five Deccan Sultanates <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>State</th><th>Founded</th><th>Dynasty</th><th>Capital</th><th>Annexed by Aurangzeb</th></tr>
+    <tr><td><strong>Bahmani Kingdom</strong></td><td>1347</td><td>Bahmani (Hasan Gangu)</td><td>Gulbarga → Bidar (1425)</td><td>Broke up c. 1490-1527</td></tr>
+    <tr><td><strong>Bijapur</strong></td><td>1490</td><td>Adil Shahi</td><td>Bijapur</td><td>1686</td></tr>
+    <tr><td><strong>Ahmadnagar</strong></td><td>1490</td><td>Nizam Shahi</td><td>Ahmadnagar</td><td>1633 (Shah Jahan)</td></tr>
+    <tr><td><strong>Berar</strong></td><td>1490</td><td>Imad Shahi</td><td>Ellichpur</td><td>1574 (Ahmadnagar)</td></tr>
+    <tr><td><strong>Bidar</strong></td><td>1528</td><td>Barid Shahi</td><td>Bidar</td><td>1619 (Bijapur)</td></tr>
+    <tr><td><strong>Golconda</strong></td><td>1518</td><td>Qutb Shahi</td><td>Golconda/Hyderabad</td><td>1687</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>C. Krishnadevaraya — Greatest Vijayanagara Ruler <span class="current-tag">EXAM PATTERN</span></h3>
+  <table>
+    <tr><th>Aspect</th><th>Detail</th></tr>
+    <tr><td><strong>Reign</strong></td><td>1509-1529 (Tuluva Dynasty)</td></tr>
+    <tr><td><strong>Title</strong></td><td>'Andhra Bhoja' (patron of Telugu), 'Muru Rayara Ganda' (Lord of Three Kings)</td></tr>
+    <tr><td><strong>Military</strong></td><td>Conquered Raichur Doab from Bijapur; defeated Bahmani remnants; controlled all South India south of Krishna River</td></tr>
+    <tr><td><strong>Literary works</strong></td><td>Amuktamalyada (Telugu), Jambavati Kalyanam (Sanskrit)</td></tr>
+    <tr><td><strong>Court poets</strong></td><td>Ashtadiggajas (8 great Telugu poets) — Allasani Peddana (Andhra Pitamaha), Tenali Ramalinga</td></tr>
+    <tr><td><strong>Foreign visitors</strong></td><td>Domingo Paes (Portuguese, c. 1520) — 'best-provided city in the world'</td></tr>
+  </table>
+
+  <h3>D. Maratha Empire — Key Rulers &amp; Events <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Ruler/Event</th><th>Period</th><th>Key Achievement</th></tr>
+    <tr><td><strong>Shivaji (founder)</strong></td><td>1630-1680</td><td>Founded Maratha Empire; crowned Chhatrapati 1674 (Raigad); Ganimi Kava; navy; Ashtapradhan</td></tr>
+    <tr><td><strong>Sambhaji (son)</strong></td><td>1680-1689</td><td>Fought Aurangzeb; captured and executed by Aurangzeb (1689)</td></tr>
+    <tr><td><strong>Rajaram &amp; Tarabai</strong></td><td>1689-1707</td><td>Guerrilla warfare against Aurangzeb; Tarabai led Maratha resistance</td></tr>
+    <tr><td><strong>Shahu Maharaj</strong></td><td>1707-1749</td><td>Released by Azimush-Shan (Mughal); appointed Bajirao I as Peshwa (1720)</td></tr>
+    <tr><td><strong>Bajirao I (Peshwa)</strong></td><td>1720-1740</td><td>41 battles, never lost; reached Delhi (1737); defeated Nizam (Palkhed 1728); conquered Portuguese bases</td></tr>
+    <tr><td><strong>Third Battle of Panipat</strong></td><td>1761</td><td>Marathas vs Ahmad Shah Abdali — Maratha defeat; weakened the empire</td></tr>
+  </table>
+
+  <h3>E. Shivaji's Ashtapradhan (Eight Ministers) <span class="current-tag">EXAM PATTERN</span></h3>
+  <table>
+    <tr><th>#</th><th>Position</th><th>Portfolio</th></tr>
+    <tr><td>1</td><td><strong>Peshwa</strong></td><td>Prime Minister (Moropant Pingle)</td></tr>
+    <tr><td>2</td><td><strong>Amatya/Majumdar</strong></td><td>Finance</td></tr>
+    <tr><td>3</td><td><strong>Sachiv (Shurnis)</strong></td><td>Secretary / Royal correspondence</td></tr>
+    <tr><td>4</td><td><strong>Mantri</strong></td><td>Chronicles / Intelligence</td></tr>
+    <tr><td>5</td><td><strong>Senapati</strong></td><td>Army Commander</td></tr>
+    <tr><td>6</td><td><strong>Sumant</strong></td><td>Foreign Affairs</td></tr>
+    <tr><td>7</td><td><strong>Nyayadhish</strong></td><td>Justice (Chief Justice)</td></tr>
+    <tr><td>8</td><td><strong>Pandit Rao</strong></td><td>Religion / Charity / Education</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — S-S-T-A (Vijayanagara dynasties):</strong><br>
+    <strong>S</strong>angama (1336) → <strong>S</strong>aluva (1485) → <strong>T</strong>uluva (1505, Krishnadevaraya) → <strong>A</strong>ravidu (1570).<br>
+    <em>"SSTA: four dynasties of Vijayanagara, 310 years (1336-1646)."</em><br><br>
+    <strong>Maratha key dates:</strong> Shivaji born 1630 → crowned 1674 → died 1680 → Bajirao I 1720-1740 → Panipat III 1761.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Maratha Influence & the Battle of Buxar</div>
+    <ul>
+      <li><strong>Maratha raids into Bihar:</strong> in the 1740s-1750s, the Maratha Confederacy (under Raghuji Bhonsle of Nagpur) conducted raids into Bengal and Bihar — known as 'Bargi' raids. The Marathas extracted 'chauth' (one-fourth of revenue) from Bengal-Bihar. These raids weakened the Nawab of Bengal's control over Bihar and created instability that the British would later exploit. The people of Bihar and Bengal still use 'Bargi' as a term of fear in folk songs and stories.</li>
+      <li><strong>Maratha influence at the Battle of Buxar (1764, Bihar):</strong> the Battle of Buxar (October 22, 1764, in Buxar, Bihar) was fought between the British East India Company and the combined armies of the Nawab of Bengal (Mir Qasim), the Nawab of Awadh (Shuja-ud-Daula), and the Mughal Emperor (Shah Alam II). While the Marathas were not direct participants, the weakening of Mughal and regional power by decades of Maratha expansion created the power vacuum that the British filled. Bihar became a British territory after Buxar (Diwani of Bengal, Bihar, and Odisha, 1765).</li>
+      <li><strong>Third Battle of Panipat (1761) and Bihar:</strong> the Maratha defeat at Panipat III (1761) weakened the Maratha Confederacy so much that they could no longer threaten Bengal-Bihar. This allowed the British to consolidate their position in Bengal and Bihar — leading to the Battle of Buxar (1764) and British rule over Bihar. The connection: Maratha weakness → British strength in Bihar.</li>
+      <li><strong>Nawab of Bengal's Bihar territories:</strong> Bihar was under the Nawab of Bengal (who ruled from Murshidabad). The Maratha raids forced the Nawab to pay chauth to the Marathas. After the Battle of Plassey (1757), the British controlled the Nawab of Bengal — and hence Bihar. Bihar's fate was thus indirectly linked to the Maratha-Bengal-British power dynamics.</li>
+      <li><strong>Alivardi Khan and the Marathas:</strong> Alivardi Khan (Nawab of Bengal, 1740-1756) spent much of his reign fighting Maratha raids into Bengal and Bihar. He signed a treaty with the Marathas (1751) ceding Orissa (Cuttack) and agreeing to pay 12 lakh rupees as chauth for Bengal and Bihar. This treaty brought temporary peace but weakened Bengal-Bihar — paving the way for British dominance after Plassey (1757).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="140_mughal_empire.html">Topic 140 (Mughal Empire):</a></strong> Aurangzeb's 25-year Deccan campaign (1682-1707) was against the Marathas and the Deccan Sultanates. He annexed Bijapur (1686) and Golconda (1687) but could not defeat the Marathas. His failure in the Deccan led to the Mughal Empire's decline — and the rise of the Maratha Confederacy.</li>
+    <li><strong><a href="138_delhi_sultanate.html">Topic 138 (Delhi Sultanate):</a></strong> The Bahmani Kingdom (1347) was founded when Hasan Gangu rebelled against Muhammad bin Tughlaq of the Delhi Sultanate. The Vijayanagara Empire (1336) was also founded during the Delhi Sultanate period — as a Hindu resistance to the southward expansion of the Sultanate.</li>
+    <li><strong><a href="139_bhakti_sufi.html">Topic 139 (Bhakti & Sufi):</a></strong> The Bhakti movement originated in South India (Alvars and Nayanars, 7th-9th c.) — the same region where the Vijayanagara Empire later flourished. The Vijayanagara rulers were great patrons of Hindu religion and culture — building temples and supporting Bhakti traditions.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>Hampi (Karnataka):</strong> UNESCO World Heritage Site (1986). The ruins of the Vijayanagara capital cover 4,100+ hectares — one of the largest medieval city sites in the world. The Virupaksha Temple is still a functioning pilgrimage site. Hampi is a major tourist destination.</li>
+    <li><strong>Shivaji's legacy:</strong> Chhatrapati Shivaji is a national hero — the Indian Navy's training academy is INS Shivaji (Lonavala). Mumbai's international airport is Chhatrapati Shivaji Maharaj International Airport. A giant statue of Shivaji overlooks the Arabian Sea in Mumbai.</li>
+    <li><strong>Maratha forts:</strong> several Maratha forts in the Sahyadri mountains are UNESCO World Heritage Sites (2018) — Raigad, Shivneri, Pratapgad, Sindhudurg, and others are part of the 'Maratha Military Landscapes of India' nomination.</li>
+    <li><strong>Gol Gumbaz (Bijapur):</strong> the tomb of Muhammad Adil Shah (1656) — the second-largest dome in the world (after St. Peter's Basilica). Known for its 'whispering gallery' — where even a whisper echoes 11 times. A major tourist attraction in Karnataka.</li>
+    <li><strong>Sikh Empire legacy:</strong> Maharaja Ranjit Singh's reign is remembered as a golden age for the Sikhs. The Koh-i-Noor diamond (from his treasury) is now in the British Crown Jewels. The Harmandir Sahib (Golden Temple, Amritsar) was gold-plated during his reign.</li>
+    <li><strong>Maratha Navy Day:</strong> the Indian Navy celebrates December 4 as Navy Day — commemorating Operation Trident (1971). Shivaji's naval vision is credited as the foundation of the Indian Navy — the Indian Naval Ensign now features Shivaji's royal seal.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Vijayanagara Empire was founded in 1336 CE by which brothers?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Devaraya II and Mallikarjuna</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Krishnadevaraya and Achyutadevaraya</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Narasanayaka and Narasimha Raya</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Harihara I and Bukka Raya I (Sangama Dynasty, at Vijayanagara on the Tungabhadra River)</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — Harihara I and Bukka Raya I founded the Vijayanagara Empire in 1336 CE (Sangama Dynasty). Capital: Vijayanagara (Hampi, Tungabhadra River, Karnataka). They were originally in Kakatiya service, converted to Islam by Muhammad bin Tughlaq, then reconverted to Hinduism by sage Vidyaranya. The empire lasted until 1646 CE (310 years).</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The Vijayanagara Empire had how many ruling dynasties?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. One dynasty only</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. Six dynasties</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. Four dynasties (Sangama, Saluva, Tuluva, Aravidu)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. Two dynasties</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — Four dynasties: Sangama (1336-1485), Saluva (1485-1505), Tuluva (1505-1570, includes Krishnadevaraya), Aravidu (1570-1646, ruled after Talikota). Mnemonic: S-S-T-A.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Krishnadevaraya (1509-1529), the greatest ruler of the Vijayanagara Empire, belonged to which dynasty?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. Sangama Dynasty</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. Aravidu Dynasty</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. Saluva Dynasty</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. Tuluva Dynasty (1505-1570, the third dynasty of Vijayanagara)</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (D)</strong> — Krishnadevaraya belonged to the Tuluva Dynasty. Greatest Vijayanagara ruler: conquered Raichur Doab, patron of Telugu literature (Amuktamalyada), Ashtadiggajas (8 poets including Allasani Peddana). Called 'Andhra Bhoja' and 'Muru Rayara Ganda.'</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Bahmani Kingdom (1347-1527) was founded by whom?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Mahmud Gawan</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Firuz Shah Bahmani</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Alauddin Hasan Bahman Shah (also known as Hasan Gangu, 1347)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Ahmad Shah Wali</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — Alauddin Hasan Bahman Shah (Hasan Gangu) founded the Bahmani Kingdom in 1347 CE by rebelling against Muhammad bin Tughlaq (Delhi Sultanate). Capital: Gulbarga (→ Bidar, 1425). First independent Muslim kingdom of the Deccan. Broke into 5 Deccan Sultanates (c. 1490-1527).</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The Bahmani Kingdom broke up into how many Deccan Sultanates?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Three Sultanates</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Seven Sultanates</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Two Sultanates</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Five Sultanates (Bijapur, Ahmadnagar, Berar, Bidar, Golconda)</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — Five Deccan Sultanates: Bijapur (Adil Shahi, 1490-1686), Ahmadnagar (Nizam Shahi, 1490-1633), Berar (Imad Shahi, 1490-1574), Bidar (Barid Shahi, 1528-1619), Golconda (Qutb Shahi, 1518-1687). Aurangzeb annexed Bijapur (1686) and Golconda (1687).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Mahmud Gawan, the famous prime minister of the Bahmani Kingdom, was known for which contribution?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Founding the Vijayanagara Empire</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Conquering Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Building the Taj Mahal</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Administrative reforms, Madrasa at Bidar, and expansion of the kingdom (1463-1481)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — Mahmud Gawan (1411-1481) was PM under Muhammad Shah III. Reformed land revenue, reorganised the army, founded the Madrasa at Bidar. Falsely accused of treason and executed (1481). His death marked the Bahmani Kingdom's decline.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The Battle of Talikota (1565) was fought between the Vijayanagara Empire and which opponents?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. The Portuguese</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. The Mughal Empire</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. The combined forces of the five Deccan Sultanates (Bijapur, Ahmadnagar, Berar, Bidar, Golconda)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. The Marathas</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — The Battle of Talikota (Jan 23, 1565, also called Rakshasi-Tangadi) was between Vijayanagara (Rama Raya, Aravidu) and a coalition of 5 Deccan Sultanates. Vijayanagara was decisively defeated — Rama Raya beheaded, Hampi sacked and destroyed. Marked the end of Vijayanagara as a major power.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The ruins of the Vijayanagara Empire's capital are located at which UNESCO World Heritage Site?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Halebidu (Karnataka)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Badami (Karnataka)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Hampi (Karnataka, UNESCO 1986 — ruins of the city of Vijayanagara on the Tungabhadra River)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Pattadakal (Karnataka)</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Hampi (Karnataka) is the site of the ruins of Vijayanagara's capital. UNESCO World Heritage Site (1986). Contains Virupaksha Temple, Vittala Temple (stone chariot), Lotus Mahal, elephant stables. After Talikota (1565), the city was sacked — ruins cover 4,100+ hectares.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Maratha Empire was founded by which ruler?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Chhatrapati Shivaji Maharaj (1630-1680, crowned 1674 at Raigad Fort)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. Bajirao I</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. Sambhaji Maharaj</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. Shahu Maharaj</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Chhatrapati Shivaji Maharaj (1630-1680) founded the Maratha Empire. Born at Shivneri Fort to Shahji Bhonsle and Jijabai. Carved an independent kingdom from Bijapur Sultanate and Mughal Empire. Crowned Chhatrapati at Raigad (June 6, 1674). Used guerrilla warfare (Ganimi Kava) and built a navy.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Shivaji's coronation as Chhatrapati took place in which year and at which fort?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. 1680 CE at Pratapgad Fort</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. 1670 CE at Sinhagad Fort</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. 1674 CE at Raigad Fort (June 6, 1674 — he took the title 'Chhatrapati' or paramount sovereign)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. 1660 CE at Shivneri Fort</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — Shivaji was crowned Chhatrapati on June 6, 1674, at Raigad Fort (his capital). Priest Gaga Bhatt (from Varanasi) conferred Kshatriya status. Title 'Chhatrapati' = Lord of the Umbrella (symbol of sovereignty). Founded the Ashtapradhan (council of 8 ministers) and the Maratha navy.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Shivaji's guerrilla warfare tactic was known by which term?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Dharmayuddha (holy war)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Chha-Prati (shadow warfare)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Padmavyuha (lotus formation)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Ganimi Kava (guerrilla tactics — hit-and-run, ambush, avoiding open battle with larger armies)</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Ganimi Kava = guerrilla tactics: avoid open battle with larger armies, use surprise attacks and ambushes, exploit mountainous terrain (Sahyadri), build a network of ~300-360 forts. This allowed Shivaji to defeat armies many times his size.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Shivaji's council of eight ministers was known as:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Mandalam (council of elders)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Chihalgani (Group of Forty)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Navaratna (nine gems)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Ashtapradhan (council of eight ministers — each with a specific portfolio)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — Ashtapradhan: (1) Peshwa (PM), (2) Amatya/Majumdar (Finance), (3) Sachiv (Secretary), (4) Mantri (Intelligence), (5) Senapati (Army), (6) Sumant (Foreign Affairs), (7) Nyayadhish (Justice), (8) Pandit Rao (Religion). The Peshwa eventually became de facto ruler.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Shivaji famously escaped from Aurangzeb's imprisonment at which Mughal court?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Ahmednagar</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Delhi (Red Fort)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Agra (1666 — Shivaji escaped from house arrest during a meeting with Aurangzeb)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Burhanpur</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (C)</strong> — Shivaji was invited to Agra by Aurangzeb (1666) and placed under house arrest. He famously escaped (tradition says by hiding in sweet baskets) and fled to the Deccan. After his return, he resumed campaigns and was crowned Chhatrapati (1674).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Shivaji's navy was significant because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. It sailed to Arabia</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. It was the world's largest navy</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. It conquered Sri Lanka</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. It was the first Indian navy to challenge European (Portuguese, British, Dutch) naval power on the western coast</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — Shivaji built a navy of ~500 ships to counter European naval power on the western coast. Naval bases at Kolaba, Vijaydurg, Sindhudurg. He is considered the father of the Indian Navy — INS Shivaji (Lonavala) is named after him. First Indian ruler to recognise the importance of naval power.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Third Battle of Panipat (1761) was fought between the Marathas and which opponent?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. Ahmad Shah Abdali (Durrani, Afghanistan) — the Marathas were decisively defeated</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. The British East India Company</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. The Portuguese</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. The Mughal Empire</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Third Battle of Panipat (Jan 14, 1761): Marathas (Sadashivrao Bhau) vs Ahmad Shah Abdali (Afghanistan). Marathas decisively defeated — Vishwasrao and Sadashivrao killed. One of the bloodiest battles of the 18th century. Severely weakened the Maratha Empire and paved the way for British dominance.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Bajirao I (1720-1740), the great Maratha Peshwa, is known for which military achievement?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. He conquered Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. He never lost a battle in his 20-year career (won 41 battles) and expanded Maratha power from the Deccan to the gates of Delhi</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. He defeated the British</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. He built the Taj Mahal</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Bajirao I (1700-1740, Peshwa 1720-1740) never lost a battle in 20 years (41 battles). Defeated the Nizam (Palkhed 1728), reached Delhi (1737), conquered Portuguese bases. Compared to Napoleon by Sir Jadunath Sarkar. Died at 39.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The Vijayanagara Empire's most famous foreign visitors, who described the empire in detail, included:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Marco Polo</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Ibn Battuta</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Hiuen Tsang</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D.  Domingo Paes (Portuguese traveller, c. 1520, described Krishnadevaraya's court) and Nicolo Conti (Italian, 1420)</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — Foreign visitors to Vijayanagara: Nicolo Conti (Italian, 1420), Abdur Razzaq (Persian, 1442), Domingo Paes (Portuguese, c. 1520 — 'best-provided city in the world'), Fernao Nuniz (Portuguese, c. 1537). Their accounts are the primary sources for Vijayanagara's history.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Krishnadevaraya's court had the 'Ashtadiggajas' (eight great poets). Who was the most famous among them?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Tenali Ramalinga (Tenali Raman — famous for wit)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Dhurjati</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Allasani Peddana (called 'Andhra Pitamaha' — grandfather of Telugu literature)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Nandi Timmana</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — Allasani Peddana was called 'Andhra Pitamaha' (grandfather of Telugu literature). His 'Manucharitra' is a Telugu masterpiece. Tenali Ramalinga (Tenali Raman) was another famous Ashtadiggaja — known for wit. The Ashtadiggajas were the Telugu equivalent of Akbar's Navaratna.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The Bahmani Kingdom's capital was initially at Gulbarga. It was later shifted to which city?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Ahmadnagar</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Golconda</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Bijapur</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Bidar (by Ahmad Shah Wali in 1425 CE, as it was more centrally located)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — Capital shifted from Gulbarga to Bidar (1425) by Ahmad Shah Wali. Bidar became the cultural centre — Mahmud Gawan's Madrasa was built there. The Bahmani Kingdom declined after Gawan's execution (1481) and broke into 5 Deccan Sultanates (c. 1490-1527).</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The Maratha Confederacy, which dominated India in the 18th century, was led by which Peshwa dynasty?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. The Peshwa dynasty of Pune (Bhat family — Bajirao I to Bajirao II, 1713-1818)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. The Scindia dynasty of Gwalior</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. The Holkar dynasty of Indore</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. The Gaekwad dynasty of Baroda</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — The Peshwa dynasty of Pune (Bhat family) led the Maratha Confederacy. Five major houses: Peshwa of Pune, Scindia of Gwalior, Holkar of Indore, Gaekwad of Baroda, Bhonsle of Nagpur. Dominated India from 1720s until Panipat III (1761) and finally defeated by British in Anglo-Maratha Wars (1775-1818).</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The Sikh Empire in Punjab was founded by which ruler?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Maharaja Ranjit Singh (1799-1839 — known as the 'Lion of Punjab' or 'Sher-e-Punjab')</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Banda Singh Bahadur</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Maharaja Dalip Singh</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Guru Gobind Singh</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Maharaja Ranjit Singh (1780-1839) founded the Sikh Empire (1799). 'Sher-e-Punjab.' Unified Sikh misls, conquered Lahore (1799), Amritsar, Peshawar, Kashmir, Multan. Army with European officers. Koh-i-Noor in his treasury. Empire annexed by British (1845-1849, Anglo-Sikh Wars).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The Vijayanagara Empire's administrative system featured which key institution?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. A monarchy with a well-organised administrative system (nayankara — land grant to military chiefs, similar to the feudal system)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. A confederacy of city-states</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. A theocracy</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. A republic like the ancient Lichchhavis</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — The Nayankara system: land granted to military chiefs (nayakas) who provided troops and revenue to the king. Similar to feudalism but nayakas were transferable and lands were not hereditary. Empire divided into rajyas (provinces), nadus (districts), sthalas (villages).</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Shivaji's father, Shahji Bhonsle, served as a general in which Deccan Sultanate?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Ahmadnagar (Nizam Shahi)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Berar (Imad Shahi)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Golconda (Qutb Shahi)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Bijapur (Adil Shahi Sultanate — Shahji was a Maratha general in Bijapur's service)</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (D)</strong> — Shahji Bhonsle (1594-1664) was a Maratha general in the Bijapur Sultanate's service. He held jagirs in Pune, Supe, and Chakan. His service allowed Shivaji to grow up in Pune (under Jijabai and Dadaji Kondadev) — where he built his power base.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Which Mughal emperor's Deccan campaign (1682-1707) led to the annexation of Bijapur and Golconda but also exhausted the Mughal Empire?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. Shah Jahan</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. Jahangir</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. Aurangzeb (1658-1707 — spent the last 25 years of his reign in the Deccan)</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. Akbar</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — Aurangzeb's 25-year Deccan campaign (1682-1707): annexed Bijapur (1686) and Golconda (1687) but could not defeat the Marathas. The relentless guerrilla warfare exhausted the Mughal treasury. He died at Ahmednagar (1707, age 88). Key reason for the Mughal Empire's decline.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The Maratha raids into Bengal and Bihar in the 1740s-1750s were known by which term?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. Bargi raids (by Raghuji Bhonsle of Nagpur — extracted 'chauth' from Bengal-Bihar)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. Dharmayuddha</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. Ganimi Kava</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. Jauhar</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — The 'Bargi' raids by Raghuji Bhonsle (Nagpur) devastated Bengal and Bihar in the 1740s-1750s. The Marathas extracted 'chauth' (1/4 of revenue). Alivardi Khan (Nawab of Bengal) signed a treaty (1751) ceding Orissa and paying 12 lakh rupees. These raids weakened Bengal-Bihar — paving the way for British dominance after Plassey (1757).</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Shivaji (HIGH):</strong> founded Maratha Empire, crowned 1674 (Raigad), Ashtapradhan (8 ministers), Ganimi Kava (guerrilla), navy, escaped from Agra (1666). Father: Shahji Bhonsle (Bijapur general). Know all details — very high PYQ frequency.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Vijayanagara Empire (HIGH):</strong> founded 1336 (Harihara I & Bukka Raya I), 4 dynasties (S-S-T-A), Krishnadevaraya (Tuluva, greatest, Ashtadiggajas), Hampi (UNESCO 1986), Battle of Talikota (1565, vs 5 Deccan Sultanates).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Bahmani Kingdom (MEDIUM):</strong> founded 1347 (Hasan Gangu/Alauddin Hasan Bahman Shah), capital Gulbarga→Bidar (1425), Mahmud Gawan (PM, Madrasa at Bidar, executed 1481), broke into 5 Deccan Sultanates.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Bihar — Bargi raids (MEDIUM):</strong> Maratha raids (Bargi) into Bengal-Bihar (1740s-50s) by Raghuji Bhonsle. Extracted chauth. Alivardi Khan's treaty (1751). Weakened Bengal-Bihar → British dominance (Plassey 1757, Buxar 1764).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>Bajirao I (MEDIUM):</strong> Peshwa (1720-1740), 41 battles never lost, reached Delhi (1737), defeated Nizam (Palkhed 1728), conquered Portuguese bases. Compared to Napoleon. Died at 39.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Third Battle of Panipat (LOW):</strong> 1761, Marathas vs Ahmad Shah Abdali. Maratha defeat — Vishwasrao and Sadashivrao killed. Severely weakened Maratha Empire → British dominance.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>Sikh Empire (LOW):</strong> Ranjit Singh (1799-1839, Sher-e-Punjab), unified Sikh misls, Koh-i-Noor, Anglo-Sikh Wars (1845-1849). Not as frequently asked but may appear as a supplementary question.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>Satish Chandra, <em>Medieval India</em>, Volume 2</li>
+    <li>Sir Jadunath Sarkar, <em>History of Aurangzib</em> (5 volumes) and <em>Shivaji and His Times</em></li>
+    <li>Stewart Gordon, <em>The Marathas 1600-1818</em> (The New Cambridge History of India)</li>
+    <li><a href="https://en.wikipedia.org/wiki/Vijayanagara_Empire" target="_blank">Wikipedia: Vijayanagara Empire</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Bahmani_Sultanate" target="_blank">Wikipedia: Bahmani Sultanate</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Shivaji" target="_blank">Wikipedia: Chhatrapati Shivaji</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 141 — South & Marathas • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'c', q3: 'd', q4: 'c', q5: 'd', q6: 'd', q7: 'c', q8: 'c', q9: 'a', q10: 'c',
+  q11: 'd', q12: 'd', q13: 'c', q14: 'd', q15: 'a', q16: 'b', q17: 'd', q18: 'c', q19: 'd', q20: 'a',
+  q21: 'a', q22: 'a', q23: 'd', q24: 'c', q25: 'b'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

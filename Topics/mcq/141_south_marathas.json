@@ -1,0 +1,327 @@
+[
+  {
+    "q": "The Vijayanagara Empire was founded in 1336 CE by which brothers?",
+    "options": [
+      "Devaraya II and Mallikarjuna",
+      "Krishnadevaraya and Achyutadevaraya",
+      "Narasanayaka and Narasimha Raya",
+      "Harihara I and Bukka Raya I (Sangama Dynasty, at Vijayanagara on the Tungabhadra River)"
+    ],
+    "answer": 3,
+    "explanation": "The Vijayanagara Empire was founded in 1336 CE by Harihara I (Hakka) and Bukka Raya I (Bukka), brothers of the Sangama Dynasty. They were originally in the service of the Kakatiya kingdom of Warangal, later converted to Islam by Muhammad bin Tughlaq, and then reconverted to Hinduism by the sage Vidyaranya. The capital was at Vijayanagara (Hampi, on the Tungabhadra River, Karnataka). The empire lasted until 1646 CE (310 years).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Vijayanagara Empire had how many ruling dynasties (sangamas)?",
+    "options": [
+      "One dynasty only",
+      "Six dynasties",
+      "Four dynasties (Sangama, Saluva, Tuluva, Aravidu)",
+      "Two dynasties"
+    ],
+    "answer": 2,
+    "explanation": "The Vijayanagara Empire had four ruling dynasties in succession: (1) Sangama (1336-1485, founded by Harihara I), (2) Saluva (1485-1505, founded by Saluva Narasimha), (3) Tuluva (1505-1570, founded by Vira Narasimha — included Krishnadevaraya, the greatest ruler), (4) Aravidu (1570-1646, founded by Tirumala Raya — ruled after the Battle of Talikota).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Krishnadevaraya (1509-1529), the greatest ruler of the Vijayanagara Empire, belonged to which dynasty?",
+    "options": [
+      "Sangama Dynasty",
+      "Aravidu Dynasty",
+      "Saluva Dynasty",
+      "Tuluva Dynasty (1505-1570, the third dynasty of Vijayanagara)"
+    ],
+    "answer": 3,
+    "explanation": "Krishnadevaraya (1509-1529) belonged to the Tuluva Dynasty — the third ruling dynasty of the Vijayanagara Empire. He was the greatest Vijayanagara ruler: conquered the Raichur Doab from Bijapur, defeated the Bahmani remnants, controlled all of South India south of the Krishna River. He was a great patron of Telugu literature and wrote Amuktamalyada (in Telugu) and Jambavati Kalyanam (in Sanskrit). His court had the 'Ashtadiggajas' (eight great Telugu poets), including Allasani Peddana (Andhra Pitamaha). He was called 'Andhra Bhoja' and 'Muru Rayara Ganda' (Lord of Three Kings).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bahmani Kingdom (1347-1527) was founded by whom?",
+    "options": [
+      "Mahmud Gawan",
+      "Firuz Shah Bahmani",
+      "Alauddin Hasan Bahman Shah (also known as Hasan Gangu, 1347)",
+      "Ahmad Shah Wali"
+    ],
+    "answer": 2,
+    "explanation": "The Bahmani Kingdom was founded in 1347 CE by Alauddin Hasan Bahman Shah (also known as Hasan Gangu), who rebelled against the Delhi Sultanate (Muhammad bin Tughlaq) and established an independent kingdom in the Deccan. Capital: Gulbarga (1347-1425), later shifted to Bidar by Ahmad Shah Wali (1425). The kingdom lasted until 1527, when it broke into the five Deccan Sultanates. The Bahmani Kingdom was the first independent Muslim kingdom of the Deccan.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bahmani Kingdom broke up into how many Deccan Sultanates?",
+    "options": [
+      "Three Sultanates",
+      "Seven Sultanates",
+      "Two Sultanates",
+      "Five Sultanates (Bijapur, Ahmadnagar, Berar, Bidar, Golconda)"
+    ],
+    "answer": 3,
+    "explanation": "The Bahmani Kingdom broke into five Deccan Sultanates (c. 1490-1527): (1) Bijapur (Adil Shahi, 1490-1686), (2) Ahmadnagar (Nizam Shahi, 1490-1633), (3) Berar (Imad Shahi, 1490-1574), (4) Bidar (Barid Shahi, 1528-1619), (5) Golconda (Qutb Shahi, 1518-1687). These sultanates were constantly at war with each other and with the Vijayanagara Empire. Aurangzeb annexed Bijapur (1686) and Golconda (1687), ending the Deccan Sultanates.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Mahmud Gawan, the famous prime minister of the Bahmani Kingdom, was known for which contribution?",
+    "options": [
+      "Founding the Vijayanagara Empire",
+      "Conquering Bengal",
+      "Building the Taj Mahal",
+      "Administrative reforms, Madrasa at Bidar, and expansion of the kingdom (1463-1481)"
+    ],
+    "answer": 3,
+    "explanation": "Mahmud Gawan (1411-1481) was the prime minister of the Bahmani Kingdom under Muhammad Shah III. He was a Persian scholar and administrator. Key contributions: (1) reformed the land revenue system (measured land, classified by fertility), (2) reorganised the army (reduced noble power), (3) founded the Madrasa at Bidar (one of the finest Islamic educational institutions in medieval India), (4) expanded the kingdom to its greatest extent. He was falsely accused of treason and executed by the Sultan (1481). His death marked the beginning of the Bahmani Kingdom's decline.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Battle of Talikota (1565) was fought between the Vijayanagara Empire and which opponents?",
+    "options": [
+      "The Portuguese",
+      "The Mughal Empire",
+      "The combined forces of the five Deccan Sultanates (Bijapur, Ahmadnagar, Berar, Bidar, Golconda)",
+      "The Marathas"
+    ],
+    "answer": 2,
+    "explanation": "The Battle of Talikota (also called Rakshasi-Tangadi, January 23, 1565) was fought between the Vijayanagara Empire (under Rama Raya of the Aravidu dynasty) and a united coalition of the five Deccan Sultanates. The Vijayanagara army was decisively defeated — Rama Raya was captured and beheaded. The capital city of Vijayanagara (Hampi) was sacked and destroyed — never rebuilt. This battle marked the end of the Vijayanagara Empire as a major power. The Aravidu dynasty continued nominally until 1646 but never recovered.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The ruins of the Vijayanagara Empire's capital are located at which UNESCO World Heritage Site?",
+    "options": [
+      "Halebidu (Karnataka)",
+      "Badami (Karnataka)",
+      "Hampi (Karnataka, UNESCO 1986 — ruins of the city of Vijayanagara on the Tungabhadra River)",
+      "Pattadakal (Karnataka)"
+    ],
+    "answer": 2,
+    "explanation": "The ruins of the capital city of the Vijayanagara Empire are at Hampi (Karnataka), on the banks of the Tungabhadra River. Hampi is a UNESCO World Heritage Site (1986). It contains the Virupaksha Temple (still functioning), Vittala Temple (with the stone chariot), Lotus Mahal, elephant stables, and the Hazara Rama Temple. After the Battle of Talikota (1565), the city was sacked and abandoned — its ruins cover over 4,100 hectares, making it one of the largest medieval city sites in the world.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Maratha Empire was founded by which ruler?",
+    "options": [
+      "Chhatrapati Shivaji Maharaj (1630-1680, crowned 1674 at Raigad Fort)",
+      "Bajirao I",
+      "Sambhaji Maharaj",
+      "Shahu Maharaj"
+    ],
+    "answer": 0,
+    "explanation": "Chhatrapati Shivaji Maharaj (1630-1680) founded the Maratha Empire. He was born at Shivneri Fort (near Pune) to Shahji Bhonsle (a Maratha general in the Bijapur Sultanate's service) and Jijabai. He carved out an independent kingdom from the Bijapur Sultanate and the Mughal Empire. He was formally crowned as Chhatrapati (sovereign) at Raigad Fort on June 6, 1674 — marking the official founding of the Maratha Empire. He used guerrilla warfare (Ganimi Kava) effectively against the much larger Mughal armies.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shivaji's coronation as Chhatrapati took place in which year and at which fort?",
+    "options": [
+      "1680 CE at Pratapgad Fort",
+      "1670 CE at Sinhagad Fort",
+      "1674 CE at Raigad Fort (June 6, 1674 — he took the title 'Chhatrapati' or paramount sovereign)",
+      "1660 CE at Shivneri Fort"
+    ],
+    "answer": 2,
+    "explanation": "Shivaji was crowned as Chhatrapati on June 6, 1674, at Raigad Fort (which became his capital). The coronation was performed by the priest Gaga Bhatt (from Varanasi), who officially conferred the Kshatriya status on Shivaji (his Bhonsle clan had been of modest origin). Shivaji took the title 'Chhatrapati' (Lord of the Umbrella — a symbol of sovereignty). He also founded the Maratha navy and introduced the 'Ashtapradhan' (council of eight ministers).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shivaji's guerrilla warfare tactic was known by which term?",
+    "options": [
+      "Dharmayuddha (holy war)",
+      "Chha-Prati (shadow warfare)",
+      "Padmavyuha (lotus formation)",
+      "Ganimi Kava (guerrilla tactics — hit-and-run, ambush, avoiding open battle with larger armies)"
+    ],
+    "answer": 3,
+    "explanation": "Shivaji's guerrilla warfare was called 'Ganimi Kava' — a Marathi term for guerrilla tactics. Key principles: (1) avoid open battle with much larger Mughal/Bijapur armies, (2) use surprise attacks and ambushes, (3) exploit knowledge of the mountainous terrain (Sahyadri/Western Ghats), (4) build and use a network of forts (Shivaji had ~300-360 forts), (5) swift cavalry raids on enemy supply lines. This tactic allowed Shivaji to defeat armies many times his size — and was later adopted by the Marathas against Aurangzeb.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shivaji's council of eight ministers was known as:",
+    "options": [
+      "Mandalam (council of elders)",
+      "Chihalgani (Group of Forty)",
+      "Navaratna (nine gems)",
+      "Ashtapradhan (council of eight ministers — each with a specific portfolio)"
+    ],
+    "answer": 3,
+    "explanation": "Shivaji's council was the 'Ashtapradhan' (Eight Ministers): (1) Peshwa (Prime Minister — Moropant Pingle), (2) Amatya/Majumdar (Finance), (3) Sachiv (Secretary — Shurnis), (4) Mantri (Chronicles/Intelligence), (5) Senapati (Army Commander), (6) Sumant (Foreign Affairs), (7) Nyayadhish (Justice), (8) Pandit Rao (Religion/Charity). Unlike the Mughal mansabdari system, the Ashtapradhan was advisory — but the Peshwa eventually became the de facto ruler after Shivaji's death (the Peshwa dynasty ruled from Pune from 1713).",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shivaji famously escaped from Aurangzeb's imprisonment at which Mughal court?",
+    "options": [
+      "Ahmednagar",
+      "Delhi (Red Fort)",
+      "Agra (1666 — Shivaji escaped from house arrest during a meeting with Aurangzeb)",
+      "Burhanpur"
+    ],
+    "answer": 2,
+    "explanation": "Shivaji was invited to Agra by Aurangzeb in 1666 (on the pretext of negotiations). At the Mughal court, Aurangzeb placed Shivaji under house arrest (surrounded by guards). Shivaji famously escaped — by hiding in sweet baskets (according to popular tradition) and fleeing to the Deccan. This dramatic escape is one of the most famous episodes in Maratha history. After his return, Shivaji resumed his campaigns against the Mughals and was crowned Chhatrapati in 1674.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shivaji's navy was significant because:",
+    "options": [
+      "It sailed to Arabia",
+      "It was the world's largest navy",
+      "It conquered Sri Lanka",
+      "It was the first Indian navy to challenge European (Portuguese, British, Dutch) naval power on the western coast"
+    ],
+    "answer": 3,
+    "explanation": "Shivaji built a navy of about 500 ships to counter European (Portuguese, British, Dutch, French) naval power on the western coast of India. He established naval bases at Kolaba (Alibag), Vijaydurg, and Sindhudurg. His navy protected Maratha coastal trade and prevented European navies from dominating the Konkan coast. Shivaji is considered the father of the Indian Navy — the Indian Navy's training academy is named INS Shivaji (Lonavala). He was the first Indian ruler to recognise the importance of naval power in the age of European expansion.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Third Battle of Panipat (1761) was fought between the Marathas and which opponent?",
+    "options": [
+      "Ahmad Shah Abdali (Durrani, Afghanistan) — the Marathas were decisively defeated",
+      "The British East India Company",
+      "The Portuguese",
+      "The Mughal Empire"
+    ],
+    "answer": 0,
+    "explanation": "The Third Battle of Panipat (January 14, 1761) was fought between the Maratha Empire (under Sadashivrao Bhau) and Ahmad Shah Abdali (the Afghan ruler, Durrani Empire). The Marathas were decisively defeated — tens of thousands of Maratha soldiers and civilians were killed. The Peshwa's son Vishwasrao and Sadashivrao Bhau were killed. This was one of the largest and bloodiest battles of the 18th century. It severely weakened the Maratha Empire and paved the way for British dominance in India. Abdali returned to Afghanistan after the battle.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bajirao I (1720-1740), the great Maratha Peshwa, is known for which military achievement?",
+    "options": [
+      "He conquered Bengal",
+      "He never lost a battle in his 20-year career (won 41 battles) and expanded Maratha power from the Deccan to the gates of Delhi",
+      "He defeated the British",
+      "He built the Taj Mahal"
+    ],
+    "answer": 1,
+    "explanation": "Bajirao I (1700-1740) was the 6th Peshwa (prime minister) of the Maratha Empire (1720-1740). He is considered one of the greatest cavalry commanders in Indian history — he never lost a battle in his 20-year career (fought 41 battles). Key achievements: (1) defeated the Nizam of Hyderabad (Battle of Palkhed, 1728), (2) reached the gates of Delhi (1737), (3) defeated the Portuguese (conquered Salsette and Bassein, 1737-1739), (4) conquered Bundelkhand. He died at the age of 39 (at Raverkhedi, 1740). He was called 'Ranmast' (war-mad) and compared to Napoleon by British historian Sir Jadunath Sarkar.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Vijayanagara Empire's most famous foreign visitor, who described the empire in detail, was:",
+    "options": [
+      "Marco Polo",
+      "Ibn Battuta",
+      "Hiuen Tsang",
+      " Domingo Paes (Portuguese traveller, c. 1520, described Krishnadevaraya's court) and Nicolo Conti (Italian, 1420)"
+    ],
+    "answer": 3,
+    "explanation": "Several foreign travellers visited Vijayanagara: (1) Nicolo Conti (Italian, 1420-1421, during Devaraya I's reign), (2) Abdur Razzaq (Persian ambassador, 1442-1443, during Devaraya II — described the wealth and grandeur), (3) Domingo Paes (Portuguese, c. 1520, during Krishnadevaraya's reign — described the city as 'the best-provided city in the world'), (4) Fernao Nuniz (Portuguese, c. 1537). Their accounts are the primary sources for Vijayanagara's history — describing its wealth, architecture, administration, and society.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Krishnadevaraya's court had the 'Ashtadiggajas' (eight great poets). Who was the most famous among them?",
+    "options": [
+      "Tenali Ramalinga (Tenali Raman — famous for wit)",
+      "Dhurjati",
+      "Allasani Peddana (called 'Andhra Pitamaha' — grandfather of Telugu literature)",
+      "Nandi Timmana"
+    ],
+    "answer": 2,
+    "explanation": "The Ashtadiggajas (eight elephants of the eight directions) were eight great Telugu poets in Krishnadevaraya's court. The most famous was Allasani Peddana — called 'Andhra Pitamaha' (grandfather of Telugu literature). His work 'Manucharitra' is considered a masterpiece of Telugu literature. Another famous Ashtadiggaja was Tenali Ramalinga (known as Tenali Raman — famous for his wit and cleverness, the subject of many folk tales and the popular TV series). The Ashtadiggajas were the Telugu equivalent of Akbar's Navaratna.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bahmani Kingdom's capital was initially at Gulbarga. It was later shifted to which city?",
+    "options": [
+      "Ahmadnagar",
+      "Golconda",
+      "Bijapur",
+      "Bidar (by Ahmad Shah Wali in 1425 CE, as it was more centrally located)"
+    ],
+    "answer": 3,
+    "explanation": "The Bahmani Kingdom's capital was initially at Gulbarga (1347-1425). It was shifted to Bidar in 1425 by Ahmad Shah Wali (1422-1436) because Bidar was more centrally located in the Deccan and better connected. Bidar became the cultural and architectural centre of the Bahmani Kingdom. Mahmud Gawan's famous Madrasa (university) was built at Bidar. The Bahmani Kingdom declined after Mahmud Gawan's execution (1481) and eventually broke into five Deccan Sultanates (c. 1490-1527).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Maratha Confederacy, which dominated India in the 18th century before British rule, was led by which Peshwa dynasty?",
+    "options": [
+      "The Peshwa dynasty of Pune (Bhat family — Bajirao I to Bajirao II, 1713-1818)",
+      "The Scindia dynasty of Gwalior",
+      "The Holkar dynasty of Indore",
+      "The Gaekwad dynasty of Baroda"
+    ],
+    "answer": 0,
+    "explanation": "The Maratha Confederacy (18th century) was led by the Peshwa dynasty of Pune (Bhat family). The Peshwas became the de facto rulers of the Maratha Empire after Shahu Maharaj appointed Bajirao I as Peshwa (1720). The confederacy included five major houses: (1) Peshwa of Pune (Bhat), (2) Scindia of Gwalior, (3) Holkar of Indore, (4) Gaekwad of Baroda, (5) Bhonsle of Nagpur. The confederacy dominated most of India from the 1720s until the Third Battle of Panipat (1761) and was finally defeated by the British in the Anglo-Maratha Wars (1775-1818).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Sikh Empire in Punjab was founded by which ruler?",
+    "options": [
+      "Maharaja Ranjit Singh (1799-1839 — known as the 'Lion of Punjab' or 'Sher-e-Punjab')",
+      "Banda Singh Bahadur",
+      "Maharaja Dalip Singh",
+      "Guru Gobind Singh"
+    ],
+    "answer": 0,
+    "explanation": "Maharaja Ranjit Singh (1780-1839) founded the Sikh Empire in 1799 CE. He was called 'Sher-e-Punjab' (Lion of Punjab). He unified the Sikh misls (confederacies) and conquered Lahore (1799), Amritsar, Peshawar, Kashmir, and Multan — creating a powerful empire stretching from the Khyber Pass to the Sutlej River. His army included European (especially French) officers. His court had the famous Koh-i-Noor diamond. After his death (1839), the empire collapsed and was annexed by the British after the Anglo-Sikh Wars (1845-1849).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Vijayanagara Empire's administrative system was based on which ancient Indian political model?",
+    "options": [
+      "A monarchy with a well-organised administrative system (nayankara — land grant to military chiefs, similar to the feudal system)",
+      "A confederacy of city-states",
+      "A theocracy",
+      "A republic like the ancient Lichchhavis"
+    ],
+    "answer": 0,
+    "explanation": "The Vijayanagara Empire was a monarchy with a sophisticated administrative system. The key feature was the 'Nayankara' system — land was granted to military chiefs (nayakas) who in return provided troops and revenue to the king. This was similar to the feudal system but with key differences: the nayakas were transferable and could not pass their lands hereditarily. The empire was divided into rajyas (provinces), nadus (districts), and sthalas (villages). Land revenue was the main source of income. Trade (especially with the Portuguese) was also important.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Shivaji's father, Shahji Bhonsle, served as a general in which Deccan Sultanate?",
+    "options": [
+      "Ahmadnagar (Nizam Shahi)",
+      "Berar (Imad Shahi)",
+      "Golconda (Qutb Shahi)",
+      "Bijapur (Adil Shahi Sultanate — Shahji was a Maratha general in Bijapur's service)"
+    ],
+    "answer": 3,
+    "explanation": "Shahji Bhonsle (1594-1664), Shivaji's father, was a Maratha general who served the Bijapur Sultanate (Adil Shahi). He was a skilled military commander who held jagirs (land grants) in Pune, Supe, and Chakan. Shahji's service to Bijapur allowed Shivaji to grow up in the Pune region (under the care of his mother Jijabai and mentor Dadaji Kondadev) — where he began building his independent power base. Shahji tried to maintain a balance between Bijapur and the Mughals — Shivaji would later challenge both.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which Mughal emperor's Deccan campaign (1682-1707) ultimately led to the annexation of Bijapur and Golconda but also exhausted the Mughal Empire?",
+    "options": [
+      "Shah Jahan",
+      "Jahangir",
+      "Aurangzeb (1658-1707 — spent the last 25 years of his reign in the Deccan)",
+      "Akbar"
+    ],
+    "answer": 2,
+    "explanation": "Aurangzeb's Deccan campaign (1682-1707) lasted 25 years — the last 25 years of his reign. He annexed Bijapur (1686) and Golconda (1687), ending the Deccan Sultanates. However, the relentless Maratha guerrilla warfare under Shivaji's successors (Rajaram, Tarabai) exhausted the Mughal treasury and army. Aurangzeb died at Ahmednagar (1707, age 88) without defeating the Marathas. His Deccan campaign is considered one of the key reasons for the Mughal Empire's decline — it overextended the empire's resources while failing to pacify the Deccan.",
+    "difficulty": "pyq",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Maratha raids into Bengal and Bihar in the 1740s-1750s were known by which term?",
+    "options": [
+      "Bargi raids (by Raghuji Bhonsle of Nagpur — extracted 'chauth' from Bengal-Bihar)",
+      "Dharmayuddha",
+      "Ganimi Kava",
+      "Jauhar"
+    ],
+    "answer": 1,
+    "explanation": "The 'Bargi' raids by Raghuji Bhonsle (Nagpur) devastated Bengal and Bihar in the 1740s-1750s. The Marathas extracted 'chauth' (1/4 of revenue). Alivardi Khan (Nawab of Bengal) signed a treaty (1751) ceding Orissa and paying 12 lakh rupees. These raids weakened Bengal-Bihar — paving the way for British dominance after Plassey (1757).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  }
+]
