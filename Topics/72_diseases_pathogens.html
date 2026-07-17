@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>72 - Diseases and Pathogens | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(233, 69, 96, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #e94560; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #e94560; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<div class="topic-header">
+  <div class="topic-number">TOPIC #72 • TIER A</div>
+  <div class="topic-title">Diseases and Pathogens — Communicable vs Non-Communicable</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Biology</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar: Kala-azar, AES Muzaffarpur, Leprosy</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span>
+    <strong>Diseases classification (Tier A, high-yield):</strong> (1) Communicable (infectious): caused by pathogens (bacteria, viruses, protozoa, fungi, helminths) — transmitted from person to person, via vectors, contaminated water/food, or air. Examples: TB, malaria, cholera, dengue, COVID-19. (2) Non-communicable (NCDs): not caused by infectious agents — genetic, lifestyle, environmental factors. Examples: diabetes, hypertension, cancer, heart disease, autoimmune diseases. (3) Bihar-specific diseases: Kala-azar (Leishmania donovani, sandfly), AES (Muzaffarpur, litchi toxin), Leprosy (high burden state), TB, Lymphatic filariasis.
+  </div>
+
+  <div class="img-container">
+    <img src="images/mahabodhi_temple.jpg" alt="Disease prevention and public health — Bihar's health challenges">
+    <div class="img-caption">Diseases are classified as communicable (infectious — caused by pathogens like bacteria, viruses, protozoa, fungi) and non-communicable (chronic — caused by genetic, lifestyle, or environmental factors). Bihar faces a dual burden: infectious diseases (kala-azar, TB, AES, malaria) and rising non-communicable diseases (diabetes, hypertension, heart disease).</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/mahavir_mandir_patna.jpg" alt="Bihar health infrastructure — disease control programmes">
+    <div class="img-caption">Bihar's disease control infrastructure: Rajendra Memorial Research Institute (Patna) leads kala-azar research. SKMCH Muzaffarpur studies AES. AIIMS Patna and IGIMS manage TB, HIV, and NCDs. The state implements NVBDCP (vector-borne diseases), NTEP (TB), NLEP (leprosy), and NPCDCS (NCDs).</div>
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete analysis of all disease types, pathogens, vectors, vaccines, Bihar-specific diseases, and 7 exam predictions:
+    <a href="subpages/72_diseases_pathogens_detail.html" target="_blank">Diseases and Pathogens Master Detail →</a>
+  </div>
+
+  <h3>A. Communicable vs Non-Communicable Diseases <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Feature</th><th>Communicable (Infectious)</th><th>Non-Communicable (NCD)</th></tr>
+    <tr><td><strong>Cause</strong></td><td>Pathogens (bacteria, viruses, protozoa, fungi, helminths)</td><td>Genetic, lifestyle, environmental factors</td></tr>
+    <tr><td><strong>Transmission</strong></td><td>Person-to-person, vectors, water, food, air</td><td>Not transmitted between people</td></tr>
+    <tr><td><strong>Onset</strong></td><td>Usually acute (sudden)</td><td>Usually chronic (gradual, long-term)</td></tr>
+    <tr><td><strong>Examples</strong></td><td>TB, malaria, cholera, dengue, COVID-19, flu</td><td>Diabetes, hypertension, cancer, heart disease</td></tr>
+    <tr><td><strong>Treatment</strong></td><td>Antibiotics, antivirals, antiparasitics</td><td>Lifestyle changes, long-term medication</td></tr>
+    <tr><td><strong>Prevention</strong></td><td>Vaccines, hygiene, vector control</td><td>Healthy diet, exercise, avoiding tobacco/alcohol</td></tr>
+    <tr><td><strong>WHO concern</strong></td><td>Outbreaks, epidemics, pandemics</td><td>~71% of global deaths (NCDs)</td></tr>
+  </table>
+
+  <h3>B. Major Bacterial Diseases <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Disease</th><th>Pathogen</th><th>Transmission</th><th>Key Fact</th></tr>
+    <tr><td><strong>Tuberculosis</strong></td><td>Mycobacterium tuberculosis</td><td>Airborne (droplets)</td><td>BCG vaccine. India has highest TB burden globally. NTEP (National TB Elimination Programme) — target: eliminate by 2025</td></tr>
+    <tr><td><strong>Cholera</strong></td><td>Vibrio cholerae</td><td>Water/food (faecal-oral)</td><td>Rice-water stools. ORS treatment. Bihar outbreaks during floods</td></tr>
+    <tr><td><strong>Typhoid</strong></td><td>Salmonella typhi</td><td>Water/food (faecal-oral)</td><td>Sustained fever, rose spots. Vaccine available</td></tr>
+    <tr><td><strong>Tetanus</strong></td><td>Clostridium tetani</td><td>Wounds (spores in soil)</td><td>Neurotoxin → muscle spasms (lockjaw). TT vaccine</td></tr>
+    <tr><td><strong>Diphtheria</strong></td><td>Corynebacterium diphtheriae</td><td>Airborne (droplets)</td><td>Throat pseudo-membrane. DPT vaccine</td></tr>
+    <tr><td><strong>Pertussis</strong></td><td>Bordetella pertussis</td><td>Airborne (droplets)</td><td>Whooping cough. DPT vaccine</td></tr>
+    <tr><td><strong>Leprosy</strong> 🔶</td><td>Mycobacterium leprae</td><td>Prolonged close contact</td><td>Skin + nerves. MDT cure. Bihar = high-burden state. India eliminated (2005) but highest global cases</td></tr>
+    <tr><td><strong>Plague</strong></td><td>Yersinia pestis</td><td>Rat flea (Xenopsylla cheopis)</td><td>Bubonic, septicaemic, pneumonic. Black Death history</td></tr>
+  </table>
+
+  <h3>C. Major Viral Diseases <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Disease</th><th>Virus</th><th>Transmission</th><th>Key Fact</th></tr>
+    <tr><td><strong>COVID-19</strong></td><td>SARS-CoV-2 (Coronavirus)</td><td>Respiratory droplets, aerosols</td><td>Spike proteins. Vaccines: Covishield, Covaxin. India drive from Jan 2021</td></tr>
+    <tr><td><strong>Influenza</strong></td><td>Influenza virus (Orthomyxoviridae)</td><td>Airborne (droplets)</td><td>Types A/B/C. Antigenic drift/shift. Seasonal flu</td></tr>
+    <tr><td><strong>Polio</strong></td><td>Poliovirus (Picornavirus)</td><td>Faecal-oral</td><td>India polio-free (March 2014). OPV (Sabin) + IPV (Salk)</td></tr>
+    <tr><td><strong>Hepatitis B</strong></td><td>HBV (Hepadnaviridae, DNA virus)</td><td>Blood, sexual, mother-to-child</td><td>Affects liver → cirrhosis/cancer. Vaccine at birth</td></tr>
+    <tr><td><strong>HIV/AIDS</strong></td><td>HIV (Retrovirus)</td><td>Sexual, blood, mother-to-child</td><td>Attacks CD4+ T cells. ART controls. India ~2.4M living with HIV</td></tr>
+    <tr><td><strong>Measles</strong></td><td>Measles virus (Paramyxovirus)</td><td>Airborne (highly contagious)</td><td>MMR vaccine. India targets elimination</td></tr>
+    <tr><td><strong>Dengue</strong></td><td>Dengue virus (Flavivirus)</td><td>Aedes aegypti mosquito</td><td>4 serotypes. DHF = severe. No specific treatment</td></tr>
+    <tr><td><strong>Japanese Encephalitis</strong></td><td>JE virus (Flavivirus)</td><td>Culex mosquito (pigs/amplifying hosts)</td><td>Affects brain. Endemic in Bihar/UP. Vaccine in UIP</td></tr>
+  </table>
+
+  <h3>D. Protozoan &amp; Helminthic Diseases <span class="current-tag">EXAM PATTERN</span></h3>
+  <table>
+    <tr><th>Disease</th><th>Pathogen</th><th>Vector/Mode</th><th>Key Fact</th></tr>
+    <tr><td><strong>Malaria</strong></td><td>Plasmodium (P. vivax, P. falciparum)</td><td>Female Anopheles mosquito</td><td>P. falciparum = most severe. Life cycle: liver→RBCs. NVBDCP</td></tr>
+    <tr><td><strong>Kala-azar</strong> 🔶</td><td>Leishmania donovani</td><td>Sandfly (Phlebotomus argentipes)</td><td>Endemic in Bihar. Spleen/liver enlargement. Elimination target 2025</td></tr>
+    <tr><td><strong>Chagas disease</strong></td><td>Trypanosoma cruzi</td><td>Triatomine bug</td><td>Mainly Latin America</td></tr>
+    <tr><td><strong>Amoebiasis</strong></td><td>Entamoeba histolytica</td><td>Water/food (faecal-oral)</td><td>Dysentery (blood in stool). Common in Bihar</td></tr>
+    <tr><td><strong>Lymphatic Filariasis</strong> 🔶</td><td>Wuchereria bancrofti (nematode/helminth)</td><td>Culex mosquito</td><td>Elephantiasis. Bihar endemic. MDA programme. Target eliminate 2027</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>E. India's Universal Immunization Programme (UIP) <span class="current-tag">EXAM CORE</span></h3>
+  <table>
+    <tr><th>Vaccine</th><th>Disease(s)</th><th>When Given</th></tr>
+    <tr><td><strong>BCG</strong></td><td>Tuberculosis</td><td>At birth</td></tr>
+    <tr><td><strong>OPV</strong></td><td>Polio</td><td>Birth, 6/10/14 weeks</td></tr>
+    <tr><td><strong>Hepatitis B</strong></td><td>Hepatitis B</td><td>Birth, 6/10/14 weeks</td></tr>
+    <tr><td><strong>Pentavalent</strong></td><td>DPT + Hep B + Hib</td><td>6/10/14 weeks</td></tr>
+    <tr><td><strong>Rotavirus</strong></td><td>Diarrhoea</td><td>6/10 weeks</td></tr>
+    <tr><td><strong>Measles/MR</strong></td><td>Measles + Rubella</td><td>9-12 months, 16-24 months</td></tr>
+    <tr><td><strong>JE</strong></td><td>Japanese Encephalitis</td><td>Endemic districts only</td></tr>
+  </table>
+
+  <h3>F. Types of Pathogens <span class="current-tag">PYQ PATTERN</span></h3>
+  <table>
+    <tr><th>Pathogen Type</th><th>Examples</th><th>Diseases</th></tr>
+    <tr><td><strong>Bacteria</strong></td><td>Cocci, bacilli, spirilla</td><td>TB, cholera, typhoid, tetanus, leprosy, plague</td></tr>
+    <tr><td><strong>Viruses</strong></td><td>DNA/RNA viruses</td><td>COVID-19, flu, polio, hepatitis, HIV, dengue, measles</td></tr>
+    <tr><td><strong>Protozoa</strong></td><td>Single-celled eukaryotes</td><td>Malaria, kala-azar, amoebiasis, sleeping sickness</td></tr>
+    <tr><td><strong>Fungi</strong></td><td>Yeasts, moulds</td><td>Ringworm, athlete's foot, candidiasis</td></tr>
+    <tr><td><strong>Helminths</strong></td><td>Parasitic worms (nematodes, trematodes)</td><td>Filariasis, tapeworm, roundworm, schistosomiasis</td></tr>
+  </table>
+
+  <h3>G. Modes of Disease Transmission <span class="current-tag">EXAM PATTERN</span></h3>
+  <table>
+    <tr><th>Mode</th><th>Mechanism</th><th>Examples</th></tr>
+    <tr><td><strong>Airborne</strong></td><td>Droplets from coughing/sneezing</td><td>TB, influenza, COVID-19, measles</td></tr>
+    <tr><td><strong>Waterborne</strong></td><td>Contaminated water (faecal-oral)</td><td>Cholera, typhoid, hepatitis A, polio</td></tr>
+    <tr><td><strong>Vector-borne</strong></td><td>Insects/animals transmit</td><td>Malaria (Anopheles), dengue (Aedes), kala-azar (sandfly), plague (rat flea)</td></tr>
+    <tr><td><strong>Direct contact</strong></td><td>Skin-to-skin, body fluids</td><td>Ringworm, leprosy, HIV, hepatitis B</td></tr>
+    <tr><td><strong>Bloodborne</strong></td><td>Contaminated blood, needles</td><td>HIV, hepatitis B/C, malaria</td></tr>
+    <tr><td><strong>Sexual</strong></td><td>Sexual contact</td><td>HIV/AIDS, syphilis, gonorrhoea, HPV</td></tr>
+    <tr><td><strong>Mother-to-child</strong></td><td>Transplacental, during birth, breastfeeding</td><td>HIV, hepatitis B, syphilis</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Pathogen types:</strong><br>
+    <strong>B</strong>acteria (TB, cholera) → <strong>V</strong>iruses (COVID, flu) → <strong>P</strong>rotozoa (malaria, kala-azar) → <strong>F</strong>ungi (ringworm) → <strong>H</strong>elminths (filariasis).<br>
+    <em>"BVPHF: the 5 pathogen types that cause communicable diseases."</em><br><br>
+    <strong>Vectors:</strong> Anopheles (malaria), Aedes (dengue), Culex (filariasis), Sandfly (kala-azar), Rat flea (plague).<br>
+    <em>"AAA-CS-R: Anopheles-Aedes-Aedes-Culex-Sandfly-Rat flea."</em><br><br>
+    <strong>Vaccines:</strong> BCG (TB), OPV (polio), DPT (diphtheria-pertussis-tetanus), MMR (measles-mumps-rubella), Hep B (birth).<br>
+    <em>"BCG-OPV-DPT-MMR-HepB: India's core immunization."</em>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Bihar — Disease Endemic Zones &amp; Health Challenges</div>
+    <ul>
+      <li><strong>Kala-azar (Visceral Leishmaniasis):</strong> Bihar accounts for ~70% of India's kala-azar cases. Endemic districts: Muzaffarpur, Vaishali, East Champaran, Sitamarhi, Saharsa, Purnia. Caused by Leishmania donovani (protozoan), transmitted by sandfly Phlebotomus argentipes. Symptoms: fever, spleen/liver enlargement, darkened skin. Treatment: Miltefosine, AmBisome. <strong>Rajendra Memorial Research Institute (RMRI), Patna</strong> — dedicated kala-azar research institute. India's elimination target: <1 case per 10,000 (near achievement).</li>
+      <li><strong>Acute Encephalitis Syndrome (AES):</strong> Muzaffarpur (Bihar) has seen recurrent AES outbreaks since 1995, primarily affecting children (especially undernourished). Linked to litchi fruit consumption (hypoglycin A and MCPG toxins) combined with malnutrition and heat. Outbreaks during litchi harvest (May-June). 2019 outbreak: >150 child deaths. <strong>SKMCH (Sri Krishna Medical College, Muzaffarpur)</strong> leads treatment and research. Prevention: ensure evening meal, limit early morning litchi consumption, improve nutrition.</li>
+      <li><strong>Leprosy:</strong> Bihar is one of India's high-burden leprosy states (along with UP, Maharashtra, Odisha). India achieved leprosy elimination (<1 per 10,000) nationally in 2005, but Bihar has districts above the elimination threshold. Caused by Mycobacterium leprae. Affects skin and peripheral nerves. Curable with Multi-Drug Therapy (MDT: rifampicin + dapsone + clofazimine). <strong>NLEP (National Leprosy Eradication Programme)</strong> — active case detection drives in Bihar.</li>
+      <li><strong>Tuberculosis:</strong> Bihar has a high TB burden. Part of India's NTEP (National TB Elimination Programme) — target: eliminate TB by 2025 (5 years ahead of SDG target). Bihar faces challenges: undernourishment, diabetes, smoking, delayed diagnosis. Nikshay Poshan Yojana provides ₹500/month nutritional support to TB patients. BCG vaccine given at birth.</li>
+      <li><strong>Lymphatic Filariasis (Elephantiasis):</strong> Bihar is endemic for lymphatic filariasis (Wuchereria bancrofti, Culex mosquito). India's MDA (Mass Drug Administration) programme uses DEC + albendazole — annual single-dose to all eligible persons in endemic districts. India aims to eliminate LF by 2027. Bihar districts with high LF prevalence include Muzaffarpur, Darbhanga, and East Champaran.</li>
+      <li><strong>Japanese Encephalitis (JE):</strong> JE affects children in Bihar (mainly in northern districts bordering UP). Caused by JE virus (Flavivirus), transmitted by Culex mosquito (pigs are amplifying hosts). Affects the brain — high case fatality. JE vaccine included in UIP in endemic districts. Bihar is part of the 'JE belt' along with UP, Assam, and West Bengal.</li>
+      <li><strong>Bihar's disease control infrastructure:</strong> (1) RMRI Patna (kala-azar research), (2) SKMCH Muzaffarpur (AES), (3) AIIMS Patna (TB, HIV, NCDs), (4) IGIMS Patna (tertiary care), (5) State Health Society Bihar (implements national programmes), (6) Phulo Jano Medical College (Dumka) — outreach. Bihar faces dual disease burden: infectious diseases (kala-azar, AES, TB, leprosy, filariasis) + rising NCDs (diabetes, hypertension, heart disease).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <ul>
+    <li><strong><a href="70_human_body_systems.html">Topic 70 (Human Body Systems):</a></strong> Diseases affect specific body systems: pneumonia (respiratory), hepatitis (liver/digestive), meningitis/encephalitis (nervous), heart disease (circulatory). Understanding pathogens requires understanding which body system they attack.</li>
+    <li><strong><a href="71_nutrition_vitamins.html">Topic 71 (Nutrition &amp; Vitamins):</a></strong> Malnutrition weakens the immune system, making the body more susceptible to infectious diseases. Undernutrition is a key risk factor for TB, AES (Muzaffarpur), and kala-azar. Vitamin A deficiency increases infection risk. Vitamin C and D support immunity.</li>
+    <li><strong><a href="69_cell_division.html">Topic 69 (Cell &amp; Division):</a></strong> Viruses hijack the host cell's machinery to replicate. HIV attacks CD4+ T cells. Cancer involves uncontrolled cell division — a non-communicable disease. Understanding cell biology is essential for understanding how pathogens cause disease.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance</div>
+  <ul>
+    <li><strong>COVID-19 pandemic (2020-2023):</strong> SARS-CoV-2 caused a global pandemic — >770 million cases, >7 million deaths globally. India's response: lockdown (March 2020), vaccination drive (from 16 January 2021 — Covishield, Covaxin). India administered >2.2 billion vaccine doses. Lesson: zoonotic diseases (animal-to-human jump) can cause pandemics. WHO declared COVID-19 PHEIC over on 5 May 2023.</li>
+    <li><strong>India's TB elimination target (2025):</strong> India aims to eliminate TB by 2025 — 5 years ahead of the global SDG target. NTEP (National TB Elimination Programme). Nikshay Poshan Yojana (₹500/month to TB patients). Nikshay portal (case tracking). India has ~2.8 million TB cases annually (highest globally). Bihar is a high-TB-burden state.</li>
+    <li><strong>Kala-azar elimination:</strong> India is close to eliminating kala-azar (<1 case per 10,000). Bihar accounts for most cases. WHO validated India's kala-azar elimination progress (2023). The Kala-azar Elimination Programme uses indoor residual spraying (IRS), active case detection, and treatment (Miltefosine, AmBisome, Paromomycin). Bihar's RMRI Patna leads research.</li>
+    <li><strong>NCD epidemic in India:</strong> Non-communicable diseases cause ~71% of global deaths. India faces a rising NCD burden: diabetes (~77 million, 2nd globally), hypertension (~200 million), cardiovascular disease (leading cause of death). NPCDCS (National Programme for Prevention and Control of Cancer, Diabetes, Cardiovascular Diseases and Stroke). Bihar is seeing rising NCD rates with urbanisation.</li>
+    <li><strong>Monkeypox (mpox) outbreak (2024):</strong> WHO declared mpox a PHEIC (Public Health Emergency of International Concern) in August 2024 — new clade (Clade Ib) spreading in Africa. India has screening at airports. Mpox is caused by monkeypox virus (Orthopoxvirus — related to smallpox). Transmitted through close contact. Smallpox vaccine provides some cross-protection.</li>
+    <li><strong>Bihar's AES challenge:</strong> Recurrent AES outbreaks in Muzaffarpur highlight the intersection of agriculture (litchi), nutrition (undernourishment), and disease. Research at SKMCH and NCDC (National Centre for Disease Control) has linked AES to hypoglycin A and MCPG toxins in litchi combined with low blood sugar in undernourished children. Prevention: nutrition supplementation, evening meals, awareness campaigns during litchi season.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+  <p style="font-size:13px; color:#64748b; margin-bottom:16px;">Test your knowledge. Select the best answer for each question, then click "Check Answers" to see your score and explanations.</p>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+
+    <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Which of the following is a communicable disease?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> A. Tuberculosis (caused by Mycobacterium tuberculosis, spread through air)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> B. Hypertension</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> C. Diabetes</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> D. Coronary heart disease</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Tuberculosis is communicable (infectious) — caused by Mycobacterium tuberculosis bacteria, spread through airborne droplets when an infected person coughs or sneezes. Diabetes, hypertension, and heart disease are non-communicable (lifestyle/genetic).</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The causative agent of malaria is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> A. A virus</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> B. A protozoan (Plasmodium species — P. vivax, P. falciparum, P. malariae, P. ovale)</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> C. A bacterium</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> D. A fungus</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — Malaria is caused by Plasmodium protozoan parasites. P. falciparum = most severe form. Transmitted by female Anopheles mosquito. P. vivax = most common in India. Life cycle: sporozoites → liver (schizonts) → RBCs (merozoites, ring stage, trophozoite) → gametocytes (infect mosquito).</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Kala-azar (visceral leishmaniasis), a disease endemic to Bihar, is caused by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> A. A bacterium</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> B. A virus</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> C. A protozoan (Leishmania donovani — transmitted by the sandfly Phlebotomus argentipes)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> D. A helminth</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — Kala-azar is caused by Leishmania donovani (protozoan parasite), transmitted by the sandfly Phlebotomus argentipes. Endemic in Bihar (Muzaffarpur, Vaishali, East Champaran). Symptoms: fever, spleen/liver enlargement, darkened skin. India aims to eliminate kala-azar (target: <1 case per 10,000).</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Which of the following diseases is caused by a virus?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> A. Cholera (bacterial — Vibrio cholerae)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> B. Typhoid (bacterial — Salmonella typhi)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> C. Tetanus (bacterial — Clostridium tetani)</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> D. Influenza (viral — caused by the Influenza virus, Orthomyxoviridae family)</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — Influenza is caused by the Influenza virus (Orthomyxoviridae). Types: A (pandemics, animal hosts), B (seasonal, humans only), C (mild). Antigenic drift (minor changes) and antigenic shift (major changes) cause new strains. Cholera, typhoid, and tetanus are bacterial diseases.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The BCG vaccine, given at birth in India, provides protection against which disease?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> A. Tuberculosis (BCG = Bacille Calmette-Guérin, protects against TB meningitis in children)</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> B. Polio</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> C. Measles</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> D. Hepatitis B</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — BCG (Bacille Calmette-Guérin) vaccine protects against tuberculosis. Made from attenuated Mycobacterium bovis. Given at birth or soon after. Protects mainly against severe childhood TB (TB meningitis, miliary TB). Part of India's Universal Immunization Programme (UIP).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Which of the following is NOT a mode of transmission of communicable diseases?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> A. Airborne (droplet infection — TB, flu)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> B. Genetic inheritance (non-communicable diseases like haemophilia, sickle cell)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> C. Waterborne (cholera, typhoid)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> D. Vector-borne (mosquito — malaria, dengue)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — Genetic inheritance is a mode of transmission for non-communicable (genetic) diseases, NOT communicable diseases. Communicable diseases spread via: airborne (TB, flu), vector-borne (malaria, dengue), waterborne (cholera, typhoid), foodborne, direct contact, bloodborne, and sexual transmission.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Dengue fever is transmitted by which vector?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> A. Anopheles mosquito (transmits malaria)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> B. Culex mosquito (transmits filariasis)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> C. Aedes aegypti mosquito (day-biting mosquito, also transmits chikungunya and Zika)</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> D. Tsetse fly (transmits sleeping sickness)</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — Dengue is transmitted by Aedes aegypti mosquito (day-biting, breeds in clean stagnant water). Also transmits chikungunya, Zika, and yellow fever. 4 serotypes (DENV-1 to DENV-4). Severe form = dengue haemorrhagic fever (DHF) — plasma leakage, low platelets. No specific antiviral treatment — supportive care only.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Which of the following is a non-communicable disease (NCD)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> A. Cholera</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> B. Measles</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> C. Malaria</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> D. Diabetes mellitus (chronic metabolic disorder — not caused by an infectious agent)</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (D)</strong> — Diabetes mellitus is a non-communicable disease (NCD) — a chronic metabolic disorder characterised by high blood glucose. Type 1 (autoimmune, no insulin) and Type 2 (insulin resistance, lifestyle-related). NCDs include cardiovascular disease, cancer, chronic respiratory disease, and diabetes — responsible for ~71% of global deaths.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The polio vaccine used in India's Pulse Polio campaign is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> A. Oral Polio Vaccine (OPV — Sabin vaccine, live attenuated, given as drops)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> B. BCG vaccine</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> C. MMR vaccine</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> D. DPT vaccine</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Oral Polio Vaccine (OPV) = Sabin vaccine (live attenuated), given as oral drops. India was declared polio-free by WHO on 25 March 2014 (last case: 13 January 2011). Pulse Polio Immunization campaign (launched 1995) — mass OPV doses to children under 5. India uses both OPV and IPV (inactivated, injectable) in the national schedule.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Cholera is caused by which pathogen and transmitted through which mode?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> A. Virus, airborne</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> B. Bacterium Vibrio cholerae, waterborne/foodborne (contaminated water — causes severe watery diarrhoea)</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> C. Protozoan, vector-borne</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> D. Fungus, direct contact</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Cholera is caused by Vibrio cholerae bacterium, transmitted through contaminated water and food. Produces cholera toxin → massive fluid secretion into intestines → 'rice-water' stools. Treatment: ORS (oral rehydration solution) + antibiotics. Major public health concern in areas with poor sanitation. Bihar reports cholera outbreaks during floods.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Acute Encephalitis Syndrome (AES), which has caused outbreaks in Muzaffarpur, Bihar, is primarily linked to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> A. Contaminated water</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> B. Air pollution</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> C. Litchi fruit consumption (hypoglycin toxin) combined with malnutrition and heat (affects children's brains)</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> D. Mosquito bites</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (C)</strong> — AES in Muzaffarpur, Bihar has been linked to litchi fruit consumption (hypoglycin A and MCPG toxins) combined with malnutrition and heat. The toxins cause hypoglycaemia (low blood sugar) in undernourished children, leading to brain inflammation. Outbreaks occur during litchi harvest season (May-June). Prevention: ensure children eat evening meal, limit early morning litchi consumption.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Which of the following diseases is caused by a fungus?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> A. Malaria (protozoan)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> B. Tuberculosis (bacterial)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> C. Influenza (viral)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> D. Ringworm (fungal infection — caused by dermatophytes like Trichophyton)</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — Ringworm (tinea) is caused by dermatophyte fungi (Trichophyton, Microsporum, Epidermophyton). Affects skin, nails, scalp. NOT a worm — named for the ring-shaped rash. Transmitted by direct contact, contaminated surfaces, and pets. Treated with antifungal creams. Other fungal diseases: athlete's foot, candidiasis, aspergillosis.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The DPT vaccine protects against which three diseases?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> A. Diphtheria, Pertussis (whooping cough), Tetanus (DPT = triple vaccine, given to infants)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> B. Dengue, Polio, Tetanus</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> C. Diarrhoea, Pneumonia, Typhoid</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> D. Dengue, Pertussis, Tuberculosis</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — DPT vaccine protects against Diphtheria, Pertussis (whooping cough), and Tetanus. Diphtheria = Corynebacterium diphtheriae (throat infection, pseudo-membrane). Pertussis = Bordetella pertussis (severe cough, 'whoop' sound). Tetanus = Clostridium tetani (neurotoxin, muscle spasms). Part of India's UIP. Now given as pentavalent vaccine (DPT + Hep B + Hib).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Hepatitis B is caused by a ___ and primarily affects which organ?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> A. Bacterium, kidneys</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> B. Virus, liver (Hepatitis B virus — HBV, a DNA virus, causes liver inflammation, cirrhosis, cancer)</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> C. Protozoan, lungs</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> D. Fungus, skin</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — Hepatitis B is caused by Hepatitis B virus (HBV, a DNA virus of Hepadnaviridae family). Affects the liver — causes inflammation, can lead to cirrhosis and liver cancer. Transmitted through blood, sexual contact, mother-to-child. Vaccine available (recombinant DNA vaccine, given at birth in India). Hepatitis A and E = waterborne; Hepatitis B, C, D = bloodborne.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Which of the following is a sexually transmitted infection (STI)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> A. Malaria</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> B. Cholera</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> C. HIV/AIDS (Human Immunodeficiency Virus — transmitted through sexual contact, blood, mother-to-child)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> D. Japanese encephalitis</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (C)</strong> — HIV/AIDS is a sexually transmitted infection. HIV (Retrovirus) attacks CD4+ T cells (immune system), leading to AIDS. Transmitted through: sexual contact, contaminated blood, shared needles, mother-to-child. India has ~2.4 million people living with HIV (3rd highest globally). ART (antiretroviral therapy) controls but does not cure. Bihar has low HIV prevalence but vulnerable due to migration.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Tetanus is caused by a toxin produced by Clostridium tetani, which enters the body through:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> A. Contaminated food</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> B. Mosquito bites</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> C. Airborne droplets</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> D. Wounds or cuts (spores enter through broken skin, especially rusted metal, animal bites)</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (D)</strong> — Tetanus is caused by Clostridium tetani, a spore-forming bacterium found in soil, dust, and animal faeces. Spores enter through wounds/cuts (especially deep puncture wounds, rusted metal, animal bites). Bacteria produce tetanospasmin neurotoxin → muscle spasms (lockjaw/trismus, risus sardonicus, opisthotonos). Preventable with TT vaccine. High case fatality without treatment.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The National Vector Borne Disease Control Programme (NVBDCP) in India addresses which diseases?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> A. Malaria, Dengue, Lymphatic Filariasis, Kala-azar, Japanese Encephalitis, Chikungunya (6 vector-borne diseases)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> B. Only malaria</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> C. Only TB and leprosy</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> D. Only cholera and typhoid</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — NVBDCP addresses 6 vector-borne diseases: Malaria, Dengue, Lymphatic Filariasis, Kala-azar (visceral leishmaniasis), Japanese Encephalitis, and Chikungunya. Bihar is endemic for kala-azar and lymphatic filariasis. India aims to eliminate kala-azar by 2025 and lymphatic filariasis by 2027. NVBDCP uses indoor residual spraying, bed nets (LLINs), and case detection-treatment.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Which of the following is an autoimmune disease (where the immune system attacks the body's own cells)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> A. Malaria</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> B. Rheumatoid arthritis (immune system attacks joints — classified as non-communicable)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> C. Cholera</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> D. Dengue</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — Rheumatoid arthritis is an autoimmune disease — the immune system mistakenly attacks the synovial membranes of joints, causing inflammation, pain, and deformity. Other autoimmune diseases: Type 1 diabetes, multiple sclerosis, lupus, psoriasis. Autoimmune diseases are non-communicable — not caused by a pathogen and not transmissible between people.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Leprosy is caused by which pathogen?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> A. Virus</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> B. Protozoan</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> C. Bacterium Mycobacterium leprae (acid-fast bacillus, primarily affects skin and nerves)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> D. Fungus</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — Leprosy (Hansen's disease) is caused by Mycobacterium leprae, an acid-fast bacillus. Affects skin, peripheral nerves, upper respiratory tract. Transmitted through prolonged close contact via respiratory droplets. Curable with MDT (Multi-Drug Therapy: rifampicin + dapsone + clofazimine). India achieved leprosy elimination (<1 per 10,000) in 2005 but still has highest global case load. Bihar is a high-burden state.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The Ritchie-Chestnut or 'rat flea' transmits which disease?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> A. Malaria</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> B. Cholera</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> C. Dengue</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> D. Plague (caused by Yersinia pestis bacterium, transmitted by rat flea Xenopsylla cheopis)</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — Plague is caused by Yersinia pestis (bacterium), transmitted by the rat flea Xenopsylla cheopis. Three forms: bubonic (swollen lymph nodes/buboes), septicaemic, and pneumonic (most fatal, spread by droplets). Historically caused pandemics (Black Death, killed ~50 million in 14th century Europe). India's Surat plague outbreak (1994). Prevented by flea/rodent control and antibiotics.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Which of the following is a helminth (parasitic worm) disease?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> A. Lymphatic filariasis (caused by Wuchereria bancrofti, a nematode worm, transmitted by Culex mosquito)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> B. Tuberculosis</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> C. Hepatitis</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> D. Influenza</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Lymphatic filariasis (elephantiasis) is caused by Wuchereria bancrofti (a nematode/helminth), transmitted by Culex mosquito. Adult worms live in lymphatic vessels → block lymph drainage → severe swelling of limbs (elephantiasis). Bihar is endemic. India's Mass Drug Administration (MDA) programme uses DEC + albendazole. India aims to eliminate LF by 2027.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. COVID-19 is caused by which pathogen?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> A. A bacterium</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> B. SARS-CoV-2 virus (a coronavirus — single-stranded RNA virus with spike proteins)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> C. A protozoan</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> D. A fungus</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — COVID-19 is caused by SARS-CoV-2, a coronavirus (single-stranded RNA virus, family Coronaviridae). Named for the crown-like spike proteins (corona = crown). Primarily affects the respiratory system. Transmitted through respiratory droplets and aerosols. Vaccines: Covishield (AstraZeneca/Oxford), Covaxin (Bharat Biotech), Sputnik V. India's vaccination drive started 16 January 2021.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Which of the following diseases is NOT transmitted by mosquitoes?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> A. Malaria (Anopheles)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> B. Dengue (Aedes aegypti)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> C. Typhoid (transmitted through contaminated food/water — Salmonella typhi bacterium)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> D. Lymphatic filariasis (Culex)</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (C)</strong> — Typhoid is NOT mosquito-transmitted. It is caused by Salmonella typhi bacterium, transmitted through contaminated food and water (faecal-oral route). Symptoms: sustained fever, abdominal pain, rose spots, diarrhoea. Treatment: antibiotics. Preventable with typhoid vaccine. Bihar reports typhoid cases during monsoon/flood season due to water contamination.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Smallpox, the first human disease to be officially eradicated, was declared eradicated by WHO in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> A. 1950</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> B. 2010</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> C. 2000</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> D. 1980 (WHO declared smallpox eradicated on 8 May 1980 — first and only human disease eradicated)</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (D)</strong> — Smallpox was declared eradicated by WHO on 8 May 1980. Caused by Variola virus. The last natural case was in Somalia (1977). Eradication achieved through global vaccination campaign using the vaccinia vaccine. Edward Jenner discovered the smallpox vaccine (1796, using cowpox virus). Smallpox is the first and only human disease to be completely eradicated. Polio is close to eradication.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. India was declared polio-free by WHO in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> A. 2014 (WHO declared India polio-free on 25 March 2014 — last case was 13 January 2011)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> B. 2010</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> C. 2005</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> D. 2018</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — India was declared polio-free by WHO on 25 March 2014. The last wild polio case in India was on 13 January 2011 (Howrah, West Bengal). Pulse Polio Immunization campaign (launched 1995) achieved this through mass OPV administration. India uses both OPV (Sabin, oral) and IPV (Salk, injectable) in the national immunization schedule.</div>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">🎯</span> Exam Predictions</div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P1</span>
+    <strong>Disease classification (HIGH):</strong> Communicable vs non-communicable — cause, transmission, examples. Know which diseases are bacterial (TB, cholera, typhoid, tetanus, leprosy), viral (COVID, flu, polio, hepatitis, dengue), protozoan (malaria, kala-azar), fungal (ringworm), helminthic (filariasis).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P2</span>
+    <strong>Bihar-specific diseases (HIGH):</strong> Kala-azar (Leishmania donovani, sandfly, ~70% of India's cases, RMRI Patna), AES Muzaffarpur (litchi toxin, hypoglycin, undernourished children), Leprosy (M. leprae, Bihar high-burden), Lymphatic filariasis (Wuchereria, Culex, endemic).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P3</span>
+    <strong>Vectors and pathogens (HIGH):</strong> Anopheles (malaria), Aedes aegypti (dengue, day-biting), Culex (filariasis), Sandfly (kala-azar), Rat flea (plague). Match each vector to its disease and pathogen.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P4</span>
+    <strong>Vaccines (MEDIUM):</strong> BCG (TB, at birth), OPV (polio, Sabin drops), DPT (diphtheria-pertussis-tetanus), Hep B (birth), Pentavalent (DPT+HepB+Hib), MR (measles-rubella). India's UIP schedule. Polio-free 2014. Smallpox eradicated 1980.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P5</span>
+    <strong>National programmes (MEDIUM):</strong> NVBDCP (6 vector-borne diseases), NTEP (TB elimination by 2025), NLEP (leprosy), NPCDCS (NCDs), Pulse Polio. Nikshay Poshan Yojana (₹500/month for TB patients). Kala-azar elimination target.
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P6</span>
+    <strong>Modes of transmission (MEDIUM):</strong> Airborne (TB, flu, COVID), waterborne (cholera, typhoid, Hep A), vector-borne (malaria, dengue, kala-azar), bloodborne (HIV, Hep B/C), sexual (HIV, syphilis), direct contact (ringworm, leprosy).
+  </div>
+  <div class="prediction-box">
+    <span class="prediction-tag">P7</span>
+    <strong>COVID-19 &amp; recent outbreaks (LOW):</strong> SARS-CoV-2 (coronavirus, spike proteins), India vaccination drive (Jan 2021), Covishield/Covaxin. Mpox (2024 PHEIC). NCD burden (~71% global deaths, diabetes ~77M in India).
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header"><span class="section-icon">📖</span> References</div>
+  <ul class="ref-list">
+    <li>NCERT Biology, Class 8 &amp; 9 — Microorganisms, Diseases, Health &amp; Hygiene</li>
+    <li>NCERT Science, Class 10 — Life Processes, Health</li>
+    <li>WHO — International Classification of Diseases (ICD-11)</li>
+    <li>National Health Mission (NHM) — Disease Control Programmes</li>
+    <li><a href="https://nvbdcp.gov.in/" target="_blank">NVBDCP — National Vector Borne Disease Control Programme</a></li>
+    <li><a href="https://tbcindia.gov.in/" target="_blank">NTEP — National TB Elimination Programme</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Infectious_disease" target="_blank">Wikipedia: Infectious disease</a></li>
+  </ul>
+</div>
+
+<div class="doc-footer">BPSC 72nd Prelims • Topic 72 — Diseases and Pathogens • Generated 2026-07-18</div>
+
+<script>
+const answers = {
+  q1: 'a',
+  q2: 'b',
+  q3: 'c',
+  q4: 'd',
+  q5: 'a',
+  q6: 'b',
+  q7: 'c',
+  q8: 'd',
+  q9: 'a',
+  q10: 'b',
+  q11: 'c',
+  q12: 'd',
+  q13: 'a',
+  q14: 'b',
+  q15: 'c',
+  q16: 'd',
+  q17: 'a',
+  q18: 'b',
+  q19: 'c',
+  q20: 'd',
+  q21: 'a',
+  q22: 'b',
+  q23: 'c',
+  q24: 'd',
+  q25: 'a'
+};
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[type="radio"]:checked');
+    const options = block.querySelectorAll('.mcq-option');
+    const explanation = block.querySelector('.mcq-explanation');
+    options.forEach(opt => { opt.classList.remove('correct-option'); });
+    block.classList.remove('correct', 'wrong');
+    if (selected && selected.value === answers['q' + i]) {
+      score++;
+      selected.parentElement.classList.add('correct-option');
+      block.classList.add('correct');
+    } else if (selected) {
+      selected.parentElement.classList.add('wrong-option');
+      block.classList.add('wrong');
+    }
+    const correctOpt = block.querySelector(`input[value="${answers['q'+i]}"]`);
+    if (correctOpt) correctOpt.parentElement.classList.add('correct-option');
+    explanation.classList.add('show');
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.classList.remove('correct', 'wrong');
+    block.querySelector('.mcq-explanation').classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

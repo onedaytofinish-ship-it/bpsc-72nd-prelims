@@ -152,3 +152,11 @@
 - **Sections**: Core Content, Fact Matrix, Bihar Connection, Cross-Topic, Current Relevance, MCQ Practice Set, References
 - **QA**: PASS (25 mcq-blocks, all sections present, div balance 0)
 - **Status**: ✅ Committed
+
+## 2025-01-XX — Topic 72: Diseases and Pathogens (Block 7 Biology)
+- **Files created**: `72_diseases_pathogens.html`, `mcq/72_diseases_pathogens.json`, `subpages/72_diseases_pathogens_detail.html`
+- **Content**: Communicable vs non-communicable, bacterial/viral/protozoan/fungal/helminthic diseases, vectors, vaccines (UIP), Bihar-specific (kala-azar, AES, leprosy, filariasis)
+- **MCQs**: 25 questions, answers shuffled (7A 6B 6C 6D), all explanations verified
+- **Sections**: Core Content, Fact Matrix, Bihar Connection, Cross-Topic, Current Relevance, MCQ Practice Set, References
+- **QA**: PASS (25 mcq-blocks, all sections present, div balance 0)
+- **Status**: ✅ Committed

@@ -1,0 +1,327 @@
+[
+  {
+    "q": "Which of the following is a communicable disease?",
+    "options": [
+      "Tuberculosis (caused by Mycobacterium tuberculosis, spread through air)",
+      "Hypertension",
+      "Diabetes",
+      "Coronary heart disease"
+    ],
+    "answer": 0,
+    "explanation": "Tuberculosis is communicable (infectious) — caused by Mycobacterium tuberculosis bacteria, spread through airborne droplets when an infected person coughs or sneezes. Diabetes, hypertension, and heart disease are non-communicable (lifestyle/genetic).",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The causative agent of malaria is:",
+    "options": [
+      "A virus",
+      "A protozoan (Plasmodium species — P. vivax, P. falciparum, P. malariae, P. ovale)",
+      "A bacterium",
+      "A fungus"
+    ],
+    "answer": 1,
+    "explanation": "Malaria is caused by Plasmodium protozoan parasites. P. falciparum = most severe form. Transmitted by female Anopheles mosquito. P. vivax = most common in India. Life cycle: sporozoites → liver (schizonts) → RBCs (merozoites, ring stage, trophozoite) → gametocytes (infect mosquito).",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Kala-azar (visceral leishmaniasis), a disease endemic to Bihar, is caused by:",
+    "options": [
+      "A bacterium",
+      "A virus",
+      "A protozoan (Leishmania donovani — transmitted by the sandfly Phlebotomus argentipes)",
+      "A helminth"
+    ],
+    "answer": 2,
+    "explanation": "Kala-azar is caused by Leishmania donovani (protozoan parasite), transmitted by the sandfly Phlebotomus argentipes. Endemic in Bihar (Muzaffarpur, Vaishali, East Champaran). Symptoms: fever, spleen/liver enlargement, darkened skin. India aims to eliminate kala-azar (target: <1 case per 10,000).",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which of the following diseases is caused by a virus?",
+    "options": [
+      "Cholera (bacterial — Vibrio cholerae)",
+      "Typhoid (bacterial — Salmonella typhi)",
+      "Tetanus (bacterial — Clostridium tetani)",
+      "Influenza (viral — caused by the Influenza virus, Orthomyxoviridae family)"
+    ],
+    "answer": 3,
+    "explanation": "Influenza is caused by the Influenza virus (Orthomyxoviridae). Types: A (pandemics, animal hosts), B (seasonal, humans only), C (mild). Antigenic drift (minor changes) and antigenic shift (major changes) cause new strains. Cholera, typhoid, and tetanus are bacterial diseases.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The BCG vaccine, given at birth in India, provides protection against which disease?",
+    "options": [
+      "Tuberculosis (BCG = Bacille Calmette-Guérin, protects against TB meningitis in children)",
+      "Polio",
+      "Measles",
+      "Hepatitis B"
+    ],
+    "answer": 0,
+    "explanation": "BCG (Bacille Calmette-Guérin) vaccine protects against tuberculosis. Made from attenuated Mycobacterium bovis. Given at birth or soon after. Protects mainly against severe childhood TB (TB meningitis, miliary TB). Part of India's Universal Immunization Programme (UIP).",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which of the following is NOT a mode of transmission of communicable diseases?",
+    "options": [
+      "Airborne (droplet infection — TB, flu)",
+      "Genetic inheritance (non-communicable diseases like haemophilia, sickle cell)",
+      "Waterborne (cholera, typhoid)",
+      "Vector-borne (mosquito — malaria, dengue)"
+    ],
+    "answer": 1,
+    "explanation": "Genetic inheritance is a mode of transmission for non-communicable (genetic) diseases, NOT communicable diseases. Communicable diseases spread via: airborne (TB, flu), vector-borne (malaria, dengue), waterborne (cholera, typhoid), foodborne, direct contact, bloodborne, and sexual transmission.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Dengue fever is transmitted by which vector?",
+    "options": [
+      "Anopheles mosquito (transmits malaria)",
+      "Culex mosquito (transmits filariasis)",
+      "Aedes aegypti mosquito (day-biting mosquito, also transmits chikungunya and Zika)",
+      "Tsetse fly (transmits sleeping sickness)"
+    ],
+    "answer": 2,
+    "explanation": "Dengue is transmitted by Aedes aegypti mosquito (day-biting, breeds in clean stagnant water). Also transmits chikungunya, Zika, and yellow fever. 4 serotypes (DENV-1 to DENV-4). Severe form = dengue haemorrhagic fever (DHF) — plasma leakage, low platelets. No specific antiviral treatment — supportive care only.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which of the following is a non-communicable disease (NCD)?",
+    "options": [
+      "Cholera",
+      "Measles",
+      "Malaria",
+      "Diabetes mellitus (chronic metabolic disorder — not caused by an infectious agent)"
+    ],
+    "answer": 3,
+    "explanation": "Diabetes mellitus is a non-communicable disease (NCD) — a chronic metabolic disorder characterised by high blood glucose. Type 1 (autoimmune, no insulin) and Type 2 (insulin resistance, lifestyle-related). NCDs include cardiovascular disease, cancer, chronic respiratory disease, and diabetes — responsible for ~71% of global deaths.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The polio vaccine used in India's Pulse Polio campaign is:",
+    "options": [
+      "Oral Polio Vaccine (OPV — Sabin vaccine, live attenuated, given as drops)",
+      "BCG vaccine",
+      "MMR vaccine",
+      "DPT vaccine"
+    ],
+    "answer": 0,
+    "explanation": "Oral Polio Vaccine (OPV) = Sabin vaccine (live attenuated), given as oral drops. India was declared polio-free by WHO on 25 March 2014 (last case: 13 January 2011). Pulse Polio Immunization campaign (launched 1995) — mass OPV doses to children under 5. India uses both OPV and IPV (inactivated, injectable) in the national schedule.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Cholera is caused by which pathogen and transmitted through which mode?",
+    "options": [
+      "Virus, airborne",
+      "Bacterium Vibrio cholerae, waterborne/foodborne (contaminated water — causes severe watery diarrhoea)",
+      "Protozoan, vector-borne",
+      "Fungus, direct contact"
+    ],
+    "answer": 1,
+    "explanation": "Cholera is caused by Vibrio cholerae bacterium, transmitted through contaminated water and food. Produces cholera toxin → massive fluid secretion into intestines → 'rice-water' stools. Treatment: ORS (oral rehydration solution) + antibiotics. Major public health concern in areas with poor sanitation. Bihar reports cholera outbreaks during floods.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Acute Encephalitis Syndrome (AES), which has caused outbreaks in Muzaffarpur, Bihar, is primarily linked to:",
+    "options": [
+      "Contaminated water",
+      "Air pollution",
+      "Litchi fruit consumption (hypoglycin toxin) combined with malnutrition and heat (affects children's brains)",
+      "Mosquito bites"
+    ],
+    "answer": 2,
+    "explanation": "AES in Muzaffarpur, Bihar has been linked to litchi fruit consumption (hypoglycin A and MCPG toxins) combined with malnutrition and heat. The toxins cause hypoglycaemia (low blood sugar) in undernourished children, leading to brain inflammation. Outbreaks occur during litchi harvest season (May-June). Prevention: ensure children eat evening meal, limit early morning litchi consumption.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which of the following diseases is caused by a fungus?",
+    "options": [
+      "Malaria (protozoan)",
+      "Tuberculosis (bacterial)",
+      "Influenza (viral)",
+      "Ringworm (fungal infection — caused by dermatophytes like Trichophyton)"
+    ],
+    "answer": 3,
+    "explanation": "Ringworm (tinea) is caused by dermatophyte fungi (Trichophyton, Microsporum, Epidermophyton). Affects skin, nails, scalp. NOT a worm — named for the ring-shaped rash. Transmitted by direct contact, contaminated surfaces, and pets. Treated with antifungal creams. Other fungal diseases: athlete's foot, candidiasis, aspergillosis.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The DPT vaccine protects against which three diseases?",
+    "options": [
+      "Diphtheria, Pertussis (whooping cough), Tetanus (DPT = triple vaccine, given to infants)",
+      "Dengue, Polio, Tetanus",
+      "Diarrhoea, Pneumonia, Typhoid",
+      "Dengue, Pertussis, Tuberculosis"
+    ],
+    "answer": 0,
+    "explanation": "DPT vaccine protects against Diphtheria, Pertussis (whooping cough), and Tetanus. Diphtheria = Corynebacterium diphtheriae (throat infection, pseudo-membrane). Pertussis = Bordetella pertussis (severe cough, 'whoop' sound). Tetanus = Clostridium tetani (neurotoxin, muscle spasms). Part of India's UIP. Now given as pentavalent vaccine (DPT + Hep B + Hib).",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Hepatitis B is caused by a ___ and primarily affects which organ?",
+    "options": [
+      "Bacterium, kidneys",
+      "Virus, liver (Hepatitis B virus — HBV, a DNA virus, causes liver inflammation, cirrhosis, cancer)",
+      "Protozoan, lungs",
+      "Fungus, skin"
+    ],
+    "answer": 1,
+    "explanation": "Hepatitis B is caused by Hepatitis B virus (HBV, a DNA virus of Hepadnaviridae family). Affects the liver — causes inflammation, can lead to cirrhosis and liver cancer. Transmitted through blood, sexual contact, mother-to-child. Vaccine available (recombinant DNA vaccine, given at birth in India). Hepatitis A and E = waterborne; Hepatitis B, C, D = bloodborne.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which of the following is a sexually transmitted infection (STI)?",
+    "options": [
+      "Malaria",
+      "Cholera",
+      "HIV/AIDS (Human Immunodeficiency Virus — transmitted through sexual contact, blood, mother-to-child)",
+      "Japanese encephalitis"
+    ],
+    "answer": 2,
+    "explanation": "HIV/AIDS is a sexually transmitted infection. HIV (Retrovirus) attacks CD4+ T cells (immune system), leading to AIDS. Transmitted through: sexual contact, contaminated blood, shared needles, mother-to-child. India has ~2.4 million people living with HIV (3rd highest globally). ART (antiretroviral therapy) controls but does not cure. Bihar has low HIV prevalence but vulnerable due to migration.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Tetanus is caused by a toxin produced by Clostridium tetani, which enters the body through:",
+    "options": [
+      "Contaminated food",
+      "Mosquito bites",
+      "Airborne droplets",
+      "Wounds or cuts (spores enter through broken skin, especially rusted metal, animal bites)"
+    ],
+    "answer": 3,
+    "explanation": "Tetanus is caused by Clostridium tetani, a spore-forming bacterium found in soil, dust, and animal faeces. Spores enter through wounds/cuts (especially deep puncture wounds, rusted metal, animal bites). Bacteria produce tetanospasmin neurotoxin → muscle spasms (lockjaw/trismus, risus sardonicus, opisthotonos). Preventable with TT vaccine. High case fatality without treatment.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The National Vector Borne Disease Control Programme (NVBDCP) in India addresses which diseases?",
+    "options": [
+      "Malaria, Dengue, Lymphatic Filariasis, Kala-azar, Japanese Encephalitis, Chikungunya (6 vector-borne diseases)",
+      "Only malaria",
+      "Only TB and leprosy",
+      "Only cholera and typhoid"
+    ],
+    "answer": 0,
+    "explanation": "NVBDCP addresses 6 vector-borne diseases: Malaria, Dengue, Lymphatic Filariasis, Kala-azar (visceral leishmaniasis), Japanese Encephalitis, and Chikungunya. Bihar is endemic for kala-azar and lymphatic filariasis. India aims to eliminate kala-azar by 2025 and lymphatic filariasis by 2027. NVBDCP uses indoor residual spraying, bed nets (LLINs), and case detection-treatment.",
+    "difficulty": "bpsc",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which of the following is an autoimmune disease (where the immune system attacks the body's own cells)?",
+    "options": [
+      "Malaria",
+      "Rheumatoid arthritis (immune system attacks joints — classified as non-communicable)",
+      "Cholera",
+      "Dengue"
+    ],
+    "answer": 1,
+    "explanation": "Rheumatoid arthritis is an autoimmune disease — the immune system mistakenly attacks the synovial membranes of joints, causing inflammation, pain, and deformity. Other autoimmune diseases: Type 1 diabetes, multiple sclerosis, lupus, psoriasis. Autoimmune diseases are non-communicable — not caused by a pathogen and not transmissible between people.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Leprosy is caused by which pathogen?",
+    "options": [
+      "Virus",
+      "Protozoan",
+      "Bacterium Mycobacterium leprae (acid-fast bacillus, primarily affects skin and nerves)",
+      "Fungus"
+    ],
+    "answer": 2,
+    "explanation": "Leprosy (Hansen's disease) is caused by Mycobacterium leprae, an acid-fast bacillus. Affects skin, peripheral nerves, upper respiratory tract. Transmitted through prolonged close contact via respiratory droplets. Curable with MDT (Multi-Drug Therapy: rifampicin + dapsone + clofazimine). India achieved leprosy elimination (<1 per 10,000) in 2005 but still has highest global case load. Bihar is a high-burden state.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "The Ritchie-Chestnut or 'rat flea' transmits which disease?",
+    "options": [
+      "Malaria",
+      "Cholera",
+      "Dengue",
+      "Plague (caused by Yersinia pestis bacterium, transmitted by rat flea Xenopsylla cheopis)"
+    ],
+    "answer": 3,
+    "explanation": "Plague is caused by Yersinia pestis (bacterium), transmitted by the rat flea Xenopsylla cheopis. Three forms: bubonic (swollen lymph nodes/buboes), septicaemic, and pneumonic (most fatal, spread by droplets). Historically caused pandemics (Black Death, killed ~50 million in 14th century Europe). India's Surat plague outbreak (1994). Prevented by flea/rodent control and antibiotics.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which of the following is a helminth (parasitic worm) disease?",
+    "options": [
+      "Lymphatic filariasis (caused by Wuchereria bancrofti, a nematode worm, transmitted by Culex mosquito)",
+      "Tuberculosis",
+      "Hepatitis",
+      "Influenza"
+    ],
+    "answer": 0,
+    "explanation": "Lymphatic filariasis (elephantiasis) is caused by Wuchereria bancrofti (a nematode/helminth), transmitted by Culex mosquito. Adult worms live in lymphatic vessels → block lymph drainage → severe swelling of limbs (elephantiasis). Bihar is endemic. India's Mass Drug Administration (MDA) programme uses DEC + albendazole. India aims to eliminate LF by 2027.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "COVID-19 is caused by which pathogen?",
+    "options": [
+      "A bacterium",
+      "SARS-CoV-2 virus (a coronavirus — single-stranded RNA virus with spike proteins)",
+      "A protozoan",
+      "A fungus"
+    ],
+    "answer": 1,
+    "explanation": "COVID-19 is caused by SARS-CoV-2, a coronavirus (single-stranded RNA virus, family Coronaviridae). Named for the crown-like spike proteins (corona = crown). Primarily affects the respiratory system. Transmitted through respiratory droplets and aerosols. Vaccines: Covishield (AstraZeneca/Oxford), Covaxin (Bharat Biotech), Sputnik V. India's vaccination drive started 16 January 2021.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Which of the following diseases is NOT transmitted by mosquitoes?",
+    "options": [
+      "Malaria (Anopheles)",
+      "Dengue (Aedes aegypti)",
+      "Typhoid (transmitted through contaminated food/water — Salmonella typhi bacterium)",
+      "Lymphatic filariasis (Culex)"
+    ],
+    "answer": 2,
+    "explanation": "Typhoid is NOT mosquito-transmitted. It is caused by Salmonella typhi bacterium, transmitted through contaminated food and water (faecal-oral route). Symptoms: sustained fever, abdominal pain, rose spots, diarrhoea. Treatment: antibiotics. Preventable with typhoid vaccine. Bihar reports typhoid cases during monsoon/flood season due to water contamination.",
+    "difficulty": "tricky",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "Smallpox, the first human disease to be officially eradicated, was declared eradicated by WHO in which year?",
+    "options": [
+      "1950",
+      "2010",
+      "2000",
+      "1980 (WHO declared smallpox eradicated on 8 May 1980 — first and only human disease eradicated)"
+    ],
+    "answer": 3,
+    "explanation": "Smallpox was declared eradicated by WHO on 8 May 1980. Caused by Variola virus. The last natural case was in Somalia (1977). Eradication achieved through global vaccination campaign using the vaccinia vaccine. Edward Jenner discovered the smallpox vaccine (1796, using cowpox virus). Smallpox is the first and only human disease to be completely eradicated. Polio is close to eradication.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  },
+  {
+    "q": "India was declared polio-free by WHO in which year?",
+    "options": [
+      "2014 (WHO declared India polio-free on 25 March 2014 — last case was 13 January 2011)",
+      "2010",
+      "2005",
+      "2018"
+    ],
+    "answer": 0,
+    "explanation": "India was declared polio-free by WHO on 25 March 2014. The last wild polio case in India was on 13 January 2011 (Howrah, West Bengal). Pulse Polio Immunization campaign (launched 1995) achieved this through mass OPV administration. India uses both OPV (Sabin, oral) and IPV (Salk, injectable) in the national immunization schedule.",
+    "difficulty": "pyq",
+    "pyq_ref": "null"
+  }
+]

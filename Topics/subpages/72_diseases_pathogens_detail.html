@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>72 Deep Dive — Diseases and Pathogens | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .header { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 24px 28px; border-radius: 14px; margin-bottom: 24px; }
+  .header h1 { font-size: 22px; font-weight: 800; margin-bottom: 6px; }
+  .header .subtitle { font-size: 13px; opacity: 0.85; }
+  .section { margin-bottom: 24px; }
+  .section h2 { font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; margin-bottom: 14px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 14px 0 8px; padding-left: 12px; border-left: 4px solid #e94560; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  .info-box { background: #f0f9ff; border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0, #ffe8dd); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+  .back-link { display: inline-block; margin-bottom: 16px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px; }
+</style>
+</head>
+<body>
+<style>.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }</style>
+<a href="../index.html" class="home-btn">🏠 Home</a>
+<a href="../72_diseases_pathogens.html" class="back-link">← Back to Topic 72</a>
+
+<div class="header">
+  <h1>Topic 72 — Diseases and Pathogens: Deep Dive</h1>
+  <div class="subtitle">Communicable vs non-communicable, pathogens, vectors, vaccines, Bihar-specific diseases</div>
+</div>
+
+<div class="section">
+  <h2>1. Disease Classification — Complete Framework</h2>
+  <p>Diseases are broadly classified into two categories: communicable (infectious) and non-communicable (chronic). Understanding the difference is fundamental to public health.</p>
+
+  <h3>Communicable (Infectious) Diseases</h3>
+  <ul>
+    <li><strong>Definition:</strong> diseases caused by infectious agents (pathogens) that can be transmitted from one person to another, or from animals/insects to humans.</li>
+    <li><strong>Pathogen types:</strong> bacteria, viruses, protozoa, fungi, helminths (parasitic worms), prions.</li>
+    <li><strong>Transmission modes:</strong> airborne (droplets), waterborne, foodborne, vector-borne, direct contact, bloodborne, sexual, mother-to-child.</li>
+    <li><strong>Examples:</strong> TB, malaria, cholera, dengue, COVID-19, influenza, polio, hepatitis, HIV/AIDS, leprosy, plague.</li>
+    <li><strong>Prevention:</strong> vaccination, hygiene, sanitation, vector control, safe sex, safe blood transfusion.</li>
+    <li><strong>WHO concern:</strong> outbreaks, epidemics, pandemics — can spread rapidly across populations.</li>
+  </ul>
+
+  <h3>Non-Communicable Diseases (NCDs)</h3>
+  <ul>
+    <li><strong>Definition:</strong> diseases not caused by infectious agents — result from genetic, lifestyle, environmental, or aging factors. Cannot be transmitted between people.</li>
+    <li><strong>Categories:</strong> (1) Cardiovascular (heart disease, stroke), (2) Cancer, (3) Chronic respiratory (COPD, asthma), (4) Diabetes, (5) Mental health, (6) Autoimmune, (7) Genetic/inherited.</li>
+    <li><strong>Risk factors:</strong> tobacco use, alcohol, unhealthy diet, physical inactivity, air pollution, genetics, aging.</li>
+    <li><strong>Examples:</strong> diabetes, hypertension, coronary heart disease, cancer, COPD, Alzheimer's, rheumatoid arthritis, sickle cell anaemia, haemophilia.</li>
+    <li><strong>WHO concern:</strong> NCDs cause ~71% of all global deaths (41 million annually). Rising burden in developing countries due to urbanisation and lifestyle changes.</li>
+  </ul>
+
+  <div class="info-box">
+    <strong>India's dual disease burden:</strong> India faces both communicable diseases (TB, malaria, dengue, kala-azar) AND rising non-communicable diseases (diabetes, heart disease, cancer). This "dual burden" is a major public health challenge. Bihar exemplifies this: infectious diseases (kala-azar, AES, TB, leprosy) coexist with rising NCDs (diabetes, hypertension).
+  </div>
+</div>
+
+<div class="section">
+  <h2>2. Pathogen Types — Detailed Breakdown</h2>
+
+  <h3>Bacteria (prokaryotic, single-celled)</h3>
+  <table>
+    <tr><th>Disease</th><th>Pathogen</th><th>Transmission</th><th>Treatment</th></tr>
+    <tr><td>Tuberculosis</td><td>Mycobacterium tuberculosis</td><td>Airborne (droplets)</td><td>DOTS therapy (6 months)</td></tr>
+    <tr><td>Cholera</td><td>Vibrio cholerae</td><td>Water/food (faecal-oral)</td><td>ORS + antibiotics</td></tr>
+    <tr><td>Typhoid</td><td>Salmonella typhi</td><td>Water/food (faecal-oral)</td><td>Antibiotics</td></tr>
+    <tr><td>Tetanus</td><td>Clostridium tetani</td><td>Wounds (spores in soil)</td><td>TT vaccine + antitoxin</td></tr>
+    <tr><td>Diphtheria</td><td>Corynebacterium diphtheriae</td><td>Airborne (droplets)</td><td>Antitoxin + antibiotics</td></tr>
+    <tr><td>Pertussis</td><td>Bordetella pertussis</td><td>Airborne (droplets)</td><td>Antibiotics</td></tr>
+    <tr><td>Leprosy</td><td>Mycobacterium leprae</td><td>Prolonged close contact</td><td>MDT (12 months)</td></tr>
+    <tr><td>Plague</td><td>Yersinia pestis</td><td>Rat flea</td><td>Antibiotics</td></tr>
+    <tr><td>Syphilis</td><td>Treponema pallidum</td><td>Sexual contact</td><td>Penicillin</td></tr>
+  </table>
+
+  <h3>Viruses (non-living infectious agents, DNA or RNA)</h3>
+  <table>
+    <tr><th>Disease</th><th>Virus</th><th>Family/Type</th><th>Transmission</th></tr>
+    <tr><td>COVID-19</td><td>SARS-CoV-2</td><td>Coronavirus (RNA)</td><td>Respiratory droplets, aerosols</td></tr>
+    <tr><td>Influenza</td><td>Influenza virus</td><td>Orthomyxoviridae (RNA)</td><td>Airborne (droplets)</td></tr>
+    <tr><td>Polio</td><td>Poliovirus</td><td>Picornavirus (RNA)</td><td>Faecal-oral</td></tr>
+    <tr><td>Hepatitis B</td><td>HBV</td><td>Hepadnaviridae (DNA)</td><td>Blood, sexual, mother-to-child</td></tr>
+    <tr><td>Hepatitis A</td><td>HAV</td><td>Picornavirus (RNA)</td><td>Faecal-oral (waterborne)</td></tr>
+    <tr><td>HIV/AIDS</td><td>HIV</td><td>Retrovirus (RNA)</td><td>Sexual, blood, mother-to-child</td></tr>
+    <tr><td>Measles</td><td>Measles virus</td><td>Paramyxovirus (RNA)</td><td>Airborne (highly contagious)</td></tr>
+    <tr><td>Dengue</td><td>Dengue virus</td><td>Flavivirus (RNA)</td><td>Aedes aegypti mosquito</td></tr>
+    <tr><td>Japanese Encephalitis</td><td>JE virus</td><td>Flavivirus (RNA)</td><td>Culex mosquito</td></tr>
+    <tr><td>Rabies</td><td>Rabies virus</td><td>Rhabdovirus (RNA)</td><td>Animal bites (saliva)</td></tr>
+    <tr><td>Smallpox (eradicated)</td><td>Variola virus</td><td>Orthopoxvirus (DNA)</td><td>Airborne, direct contact</td></tr>
+  </table>
+
+  <h3>Protozoa (single-celled eukaryotes)</h3>
+  <table>
+    <tr><th>Disease</th><th>Pathogen</th><th>Vector/Mode</th><th>Key Fact</th></tr>
+    <tr><td>Malaria</td><td>Plasmodium (vivax, falciparum, malariae, ovale)</td><td>Female Anopheles mosquito</td><td>P. falciparum = most severe. Life cycle: liver→RBCs</td></tr>
+    <tr><td>Kala-azar</td><td>Leishmania donovani</td><td>Sandfly (Phlebotomus argentipes)</td><td>Bihar ~70% of India's cases. Spleen/liver enlargement</td></tr>
+    <tr><td>Amoebiasis</td><td>Entamoeba histolytica</td><td>Water/food (faecal-oral)</td><td>Blood in stool (dysentery)</td></tr>
+    <tr><td>Sleeping sickness</td><td>Trypanosoma brucei</td><td>Tsetse fly</td><td>Africa. Affects brain</td></tr>
+    <tr><td>Chagas disease</td><td>Trypanosoma cruzi</td><td>Triatomine bug</td><td>Latin America. Heart damage</td></tr>
+    <tr><td>Giardiasis</td><td>Giardia lamblia</td><td>Water (faecal-oral)</td><td>Diarrhoea. Common in India</td></tr>
+  </table>
+
+  <h3>Fungi (eukaryotic, includes yeasts and moulds)</h3>
+  <table>
+    <tr><th>Disease</th><th>Pathogen</th><th>Site</th><th>Treatment</th></tr>
+    <tr><td>Ringworm (tinea)</td><td>Trichophyton, Microsporum</td><td>Skin, nails, scalp</td><td>Antifungal creams</td></tr>
+    <tr><td>Athlete's foot</td><td>Trichophyton</td><td>Feet (toes)</td><td>Antifungal cream/powder</td></tr>
+    <tr><td>Candidiasis</td><td>Candida albicans (yeast)</td><td>Mouth, vagina, skin</td><td>Antifungal medication</td></tr>
+    <tr><td>Aspergillosis</td><td>Aspergillus (mould)</td><td>Lungs</td><td>Antifungal drugs</td></tr>
+  </table>
+
+  <h3>Helminths (parasitic worms)</h3>
+  <table>
+    <tr><th>Disease</th><th>Pathogen</th><th>Vector/Mode</th><th>Key Fact</th></tr>
+    <tr><td>Lymphatic filariasis</td><td>Wuchereria bancrofti (nematode)</td><td>Culex mosquito</td><td>Elephantiasis. Bihar endemic</td></tr>
+    <tr><td>Tapeworm</td><td>Taenia solium/saginata</td><td>Undercooked pork/beef</td><td>Intestinal parasite</td></tr>
+    <tr><td>Roundworm</td><td>Ascaris lumbricoides</td><td>Contaminated food/water</td><td>Most common worm infection</td></tr>
+    <tr><td>Schistosomiasis</td><td>Schistosoma (fluke)</td><td>Freshwater snails</td><td>Mainly Africa/Asia</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>3. India's Immunization Programme (UIP)</h2>
+  <p>The Universal Immunization Programme (UIP) is one of the world's largest public health programmes. It covers ~2.7 crore (27 million) pregnant women and children annually.</p>
+
+  <h3>Vaccines in UIP</h3>
+  <table>
+    <tr><th>Vaccine</th><th>Disease(s)</th><th>Schedule</th></tr>
+    <tr><td>BCG</td><td>Tuberculosis</td><td>At birth (or soon after)</td></tr>
+    <tr><td>OPV (Sabin)</td><td>Polio</td><td>Birth, 6/10/14 weeks</td></tr>
+    <tr><td>IPV (Salk)</td><td>Polio (injectable)</td><td>6/14 weeks</td></tr>
+    <tr><td>Hepatitis B</td><td>Hepatitis B</td><td>Birth, 6/10/14 weeks</td></tr>
+    <tr><td>Pentavalent</td><td>DPT + Hep B + Hib</td><td>6/10/14 weeks</td></tr>
+    <tr><td>Rotavirus</td><td>Diarrhoea (rotavirus)</td><td>6/10 weeks</td></tr>
+    <tr><td>Pneumococcal (PCV)</td><td>Pneumonia</td><td>6/14 weeks, 9 months</td></tr>
+    <tr><td>MR (Measles-Rubella)</td><td>Measles + Rubella</td><td>9-12 months, 16-24 months</td></tr>
+    <tr><td>JE (endemic districts)</td><td>Japanese Encephalitis</td><td>9-12 months, 16-24 months</td></tr>
+    <tr><td>Vitamin A</td><td>Vitamin A deficiency</td><td>9 months, then 6-monthly</td></tr>
+  </table>
+
+  <div class="info-box">
+    <strong>Key milestones:</strong> India declared polio-free (WHO, 25 March 2014). Last polio case: 13 January 2011 (Howrah, West Bengal). Smallpox eradicated globally (WHO, 8 May 1980). India eliminated maternal and neonatal tetanus (2015). Mission Indradhanush (launched 2014) — aims to achieve 90% full immunization coverage.
+  </div>
+</div>
+
+<div class="section">
+  <h2>4. Bihar-Specific Diseases — Complete Analysis</h2>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">Kala-azar (Visceral Leishmaniasis)</div>
+    <ul>
+      <li><strong>Cause:</strong> Leishmania donovani (protozoan parasite)</li>
+      <li><strong>Vector:</strong> Sandfly Phlebotomus argentipes (breeds in cracks in mud houses, cattle sheds)</li>
+      <li><strong>Bihar share:</strong> ~70% of India's kala-azar cases</li>
+      <li><strong>Endemic districts:</strong> Muzaffarpur, Vaishali, East Champaran, Sitamarhi, Saharsa, Purnia, Araria</li>
+      <li><strong>Symptoms:</strong> Persistent fever, spleen/liver enlargement (splenomegaly/hepatomegaly), darkened skin (kala-azar = "black disease"), weight loss, anaemia</li>
+      <li><strong>Diagnosis:</strong> rk-39 rapid diagnostic test (RDT), bone marrow aspiration (definitive)</li>
+      <li><strong>Treatment:</strong> Miltefosine (oral), Liposomal Amphotericin B (AmBisome, IV), Paromomycin (IM)</li>
+      <li><strong>Research:</strong> Rajendra Memorial Research Institute (RMRI), Patna — dedicated kala-azar research institute under ICMR</li>
+      <li><strong>Elimination target:</strong> India aims <1 case per 10,000 population. Close to achievement (2024-2025)</li>
+      <li><strong>Programme:</strong> Kala-azar Elimination Programme — indoor residual spraying (IRS with DDT/synthetic pyrethroids), active case detection, free treatment, bed nets (LLINs)</li>
+    </ul>
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">Acute Encephalitis Syndrome (AES) — Muzaffarpur</div>
+    <ul>
+      <li><strong>What:</strong> recurrent outbreaks of brain inflammation in children, primarily in Muzaffarpur district</li>
+      <li><strong>Season:</strong> May-June (litchi harvest season)</li>
+      <li><strong>Affected:</strong> mainly undernourished children (aged 2-10) from rural areas</li>
+      <li><strong>Cause linked to:</strong> litchi fruit toxins (hypoglycin A and methylenecyclopropylglycine/MCPG) combined with malnutrition and heat. Toxins cause hypoglycaemia (dangerously low blood sugar) → brain inflammation</li>
+      <li><strong>2019 outbreak:</strong> >150 child deaths in Muzaffarpur</li>
+      <li><strong>Treatment:</strong> SKMCH (Sri Krishna Medical College, Muzaffarpur) — primary treatment centre. Rapid glucose administration</li>
+      <li><strong>Prevention:</strong> (1) ensure children eat evening meal, (2) limit early morning litchi consumption on empty stomach, (3) improve nutrition, (4) awareness campaigns during litchi season</li>
+      <li><strong>Research:</strong> NCDC (National Centre for Disease Control), AIIMS Patna, ICMR studies</li>
+    </ul>
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">Leprosy (Hansen's Disease) in Bihar</div>
+    <ul>
+      <li><strong>Cause:</strong> Mycobacterium leprae (acid-fast bacillus, related to TB bacterium)</li>
+      <li><strong>Affects:</strong> skin, peripheral nerves, upper respiratory tract → numbness, deformity, disability</li>
+      <li><strong>Transmission:</strong> prolonged close contact via respiratory droplets (not highly contagious)</li>
+      <li><strong>Treatment:</strong> Multi-Drug Therapy (MDT): rifampicin + dapsone + clofazimine. Fully curable if detected early</li>
+      <li><strong>India status:</strong> achieved elimination (<1 per 10,000) in 2005, but still has highest global case load (~60% of world cases)</li>
+      <li><strong>Bihar:</strong> one of India's high-burden leprosy states (along with UP, Maharashtra, Odisha, Chhattisgarh). Several districts above elimination threshold</li>
+      <li><strong>Programme:</strong> NLEP (National Leprosy Eradication Programme) — active case detection drives (LCDC - Leprosy Case Detection Campaign), ASHA-based surveillance, MDT provision</li>
+    </ul>
+  </div>
+
+  <div class="bihar-box">
+    <div class="bihar-box-title">Other Bihar-Relevant Diseases</div>
+    <ul>
+      <li><strong>Tuberculosis:</strong> Bihar is a high-TB-burden state. NTEP (National TB Elimination Programme) — target eliminate by 2025. Nikshay Poshan Yojana (₹500/month nutritional support). Challenges: undernutrition, delayed diagnosis, MDR-TB</li>
+      <li><strong>Lymphatic Filariasis:</strong> endemic in Bihar (Wuchereria bancrofti, Culex mosquito). MDA (Mass Drug Administration) with DEC + albendazole. Elimination target: 2027</li>
+      <li><strong>Japanese Encephalitis:</strong> affects children in northern Bihar districts (bordering UP). Culex mosquito, pigs as amplifying hosts. JE vaccine in UIP in endemic districts</li>
+      <li><strong>Malaria:</strong> Bihar has moderate malaria burden, especially in tribal and forested areas. P. falciparum and P. vivax both present. NVBDCP interventions</li>
+      <li><strong>Cholera:</strong> outbreaks during floods (monsoon season). Contaminated water. ORS treatment</li>
+      <li><strong>Sickle cell anaemia:</strong> genetic blood disorder prevalent in tribal populations of Bihar. Non-communicable but significant health burden</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h2>5. Quick Revision — Key Facts for BPSC</h2>
+  <table>
+    <tr><th>Category</th><th>Key Fact</th></tr>
+    <tr><td>Communicable disease</td><td>Caused by pathogens, transmissible (TB, malaria, cholera)</td></tr>
+    <tr><td>Non-communicable disease</td><td>Not infectious, lifestyle/genetic (diabetes, hypertension)</td></tr>
+    <tr><td>Bacterial diseases</td><td>TB, cholera, typhoid, tetanus, leprosy, plague, diphtheria</td></tr>
+    <tr><td>Viral diseases</td><td>COVID-19, influenza, polio, hepatitis, HIV, dengue, measles</td></tr>
+    <tr><td>Protozoan diseases</td><td>Malaria (Plasmodium), kala-azar (Leishmania), amoebiasis</td></tr>
+    <tr><td>Fungal diseases</td><td>Ringworm (Trichophyton), athlete's foot, candidiasis</td></tr>
+    <tr><td>Helminthic diseases</td><td>Lymphatic filariasis (Wuchereria), tapeworm, roundworm</td></tr>
+    <tr><td>Malaria vector</td><td>Female Anopheles mosquito</td></tr>
+    <tr><td>Dengue vector</td><td>Aedes aegypti (day-biting)</td></tr>
+    <tr><td>Kala-azar vector</td><td>Sandfly (Phlebotomus argentipes)</td></tr>
+    <tr><td>Plague vector</td><td>Rat flea (Xenopsylla cheopis)</td></tr>
+    <tr><td>Filariasis vector</td><td>Culex mosquito</td></tr>
+    <tr><td>BCG vaccine</td><td>Tuberculosis (at birth)</td></tr>
+    <tr><td>OPV vaccine</td><td>Polio (Sabin, oral drops)</td></tr>
+    <tr><td>DPT vaccine</td><td>Diphtheria, Pertussis, Tetanus</td></tr>
+    <tr><td>Polio-free India</td><td>WHO declared 25 March 2014</td></tr>
+    <tr><td>Smallpox eradicated</td><td>WHO, 8 May 1980 (only human disease eradicated)</td></tr>
+    <tr><td>Bihar kala-azar</td><td>~70% of India's cases. RMRI Patna research</td></tr>
+    <tr><td>Bihar AES</td><td>Muzaffarpur, litchi toxin (hypoglycin), undernourished children</td></tr>
+    <tr><td>Bihar leprosy</td><td>High-burden state. M. leprae. MDT cure. NLEP</td></tr>
+    <tr><td>NVBDCP</td><td>6 vector-borne diseases: malaria, dengue, LF, kala-azar, JE, chikungunya</td></tr>
+    <tr><td>NTEP</td><td>National TB Elimination Programme — target 2025</td></tr>
+    <tr><td>NCD global deaths</td><td>~71% of all deaths (WHO)</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>6. Exam Prediction Summary</h2>
+  <ul>
+    <li><strong>Most likely (HIGH):</strong> Communicable vs non-communicable classification, pathogen-disease matching (bacteria/virus/protozoa/fungi/helminth), vectors (Anopheles/Aedes/Culex/sandfly), Bihar-specific: kala-azar (Leishmania, sandfly, ~70%), AES Muzaffarpur (litchi)</li>
+    <li><strong>Likely (MEDIUM):</strong> Vaccines (BCG, OPV, DPT, Hep B, pentavalent), national programmes (NVBDCP, NTEP, NLEP), modes of transmission, specific pathogens (M. tuberculosis, V. cholerae, S. typhi, C. tetani, M. leprae)</li>
+    <li><strong>Possible (LOW):</strong> Smallpox eradication (1980), polio-free India (2014), COVID-19 details (SARS-CoV-2, coronaviridae), autoimmune diseases, NCD statistics, India's UIP schedule details</li>
+  </ul>
+</div>
+
+</body>
+</html>
