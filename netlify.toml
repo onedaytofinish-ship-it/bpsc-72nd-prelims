@@ -17,3 +17,9 @@
   from = "/"
   to = "/index.html"
   status = 200
+
+# Netlify Identity callback redirect
+[[redirects]]
+  from = "/callback"
+  to = "/index.html"
+  status = 200
