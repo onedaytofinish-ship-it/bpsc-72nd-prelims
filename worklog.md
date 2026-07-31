@@ -221,3 +221,12 @@
 - **Also fixed**: one option rendered as `6.4e-05` instead of `0.000064` — Python float formatting leaking into the paper. Values stay computed; only the rendering changed.
 - **QA**: `qa_check.py 50` PASS; page/sidecar agreement clean; **63/63 topics PASS**. Coverage 63/158 topics, 69.3/150.8 wt = **46.0%**.
 
+## 2026-07-31 — Chapter depth programme begins (feedback: "chapters need to be more detailed")
+- **Measured first.** Body-word count across all 63 chapters (MCQ set excluded) showed a 4.5x spread: median 1,753, min 792 (topic 137), max 3,533 (topic 13). By group — Ancient History 1,080 · Medieval 1,582 · Modern 1,835 · Biology 2,124 · Bihar CA 2,465 · Current Affairs 2,969. The Ancient and Medieval blocks were generated in fast batches and never caught up; the 18 Jul audit flagged this as "monitoring" and it was never actioned.
+- **Decision**: raise the floor rather than rewrite everything — the **21 chapters under ~1,600 words** (all 10 Ancient, 4 Medieval, 3 Modern, 2 CA, 2 Biology). Depth means *both* wider coverage and more explanation.
+- **Pilot — Topic 137 (Early Medieval): 792 → 3,232 words.** Tables 3→11, sub-sections 4→11, bullets 15→39, images 2→3, PYQ boxes 3→5.
+  - *Wider*: added the Tripartite Struggle for Kanauj (absent entirely), the four theories of Rajput origin, Uttaramerur in detail, Chola land tenure and temple economy, merchant guilds, and the other peninsular powers (Hoysalas, Kakatiyas, Yadavas, Pandyas).
+  - *Deeper*: the chapter now explains **why** the Rajputs lost — no unified command, elephants against mounted archers, defensive strategy, and the honour code that released Ghori in 1191. Period framing replaced with the actual historiographical debate (Sharma's Indian Feudalism vs Stein's segmentary state vs Kulke's integrative polity), since the "dark age" framing the old page implied is one BPSC now tests against.
+  - *Bihar section tripled*: Gopala's election ending the matsyanyaya, Dharmapala founding Vikramashila and Odantapuri, Atisha Dipankara to Tibet (1042), the Pala art school, Sena succession, Bakhtiyar Khalji c. 1200. Added a trap note on the Nalanda image — the Palas were **patrons, not founders**.
+- **QA**: qa_check 63/63 PASS, zero desync, div balance clean. Standard approved; remaining 20 chapters to follow thinnest-first.
+
