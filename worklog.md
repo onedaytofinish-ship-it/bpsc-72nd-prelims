@@ -208,3 +208,16 @@
 - **Mock 01 generated**: 100 questions, 80 minutes. Covers CA 31, History 28, Science 25, Bihar 16 — every mark those subjects are worth in the real paper. **Geography (19), Polity (13), Quant (10) and Economy (7) are unbuildable — 49 marks, 33% of the exam.** The cover sheet and the score panel both say so, and the scaled-to-150 figure is labelled an assumption rather than a result.
 - **Verified** headless: 100 questions render, timer starts at 80:00, scoring exact (30 correct + 10 wrong → 26.67), all explanations reveal, correct/wrong highlighting right, subject breakdown correct, zero JS errors.
 
+## 2026-07-31 — Topic 50: Number System & Simplification (Lane M opens)
+- **Priority change, driven by Mock 01.** Plan v3 had Static GK as P1. The mock showed Static GK is *diagnostically inert* — its marks sit inside the Current Affairs pool, already full at 31/31, so building it would not shrink the 49-mark coverage gap at all. Maths moves ahead of it: 10 marks from 10 topics on the lightest template, and it switches on a whole missing mock section. Cheapest marks on the board.
+- **Answer keys computed, not typed.** `qbank.py` defines each question with a Python expression for the correct *value*; the option index is derived by locating that value among the options, and an assertion fails the build if it is absent or ambiguous. Answer-key balancing is done in the same script by round-robin target assignment with the index recomputed afterwards. Keys 8A/8B/7C/7D (max 27%); difficulty 10 pyq / 11 bpsc / 9 tricky; correct-is-longest 1/30 (3%).
+- **Page**: 8 sections plus a formula sheet of 16 identities and **ten worked examples**, each with a "what goes wrong" note. Two generated diagrams — `unit_digit_cycles.png` (the four-step cycle table, flagging that remainder 0 means the *fourth* column) and `lcm_hcf_guide.png` (choosing LCM vs HCF from the wording of a word problem). Bihar Connection is honest that arithmetic has no state content and covers marks strategy instead.
+- **Independent audit: 30/30 keys correct** (verified by the auditor running its own Python, not by inspection). It found nine *explanation* defects, all now fixed:
+  - Q1, Q2, Q3, Q12 and Q22 each described a trap that was **not among the options**, or computed the trap's value wrongly (Q1's "trap 5" is unreachable; the real traps are 23 and 11).
+  - Q6 said the HCF×LCM identity "never" holds for three numbers — softened to "does not hold in general".
+  - Q25's decimal-place description was loose.
+  - **Q30 was genuinely ambiguous**: 600 is itself a multiple of 60 and both 6 and 7 were options, so the stem now reads "strictly between 200 and 600 (excluding both)".
+  - **Q7** admitted 5 as a trivial answer; stem now says "least number greater than 5".
+- **Also fixed**: one option rendered as `6.4e-05` instead of `0.000064` — Python float formatting leaking into the paper. Values stay computed; only the rendering changed.
+- **QA**: `qa_check.py 50` PASS; page/sidecar agreement clean; **63/63 topics PASS**. Coverage 63/158 topics, 69.3/150.8 wt = **46.0%**.
+

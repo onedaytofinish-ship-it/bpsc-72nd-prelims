@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>50 - Number System and Simplification | BPSC 72nd Prelims</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: Inter, -apple-system, "Segoe UI", system-ui, sans-serif; background:#f1f5f9;
+    color:#334155; margin:0; padding:26px; font-size:14px; line-height:1.7; }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  .home-btn { position:fixed; top:16px; left:16px; background:#1a1a2e; color:#fff; padding:8px 15px;
+    border-radius:9px; text-decoration:none; font-size:12px; font-weight:700; z-index:50; }
+  .topic-header { background:linear-gradient(135deg,#1a1a2e,#16213e); color:#fff; padding:26px 30px; border-radius:14px; }
+  .topic-number { color:#e94560; font-size:12px; font-weight:800; letter-spacing:1.1px; }
+  .topic-title { font-size:26px; font-weight:800; margin:5px 0 12px; }
+  .topic-meta { display:flex; gap:9px; flex-wrap:wrap; }
+  .meta-tag { background:rgba(255,255,255,.12); padding:4px 11px; border-radius:6px; font-size:11.5px; }
+  .section { background:#fff; border-radius:14px; padding:24px 28px; margin:18px 0; box-shadow:0 1px 3px rgba(0,0,0,.07); }
+  .section-header { font-size:19px; font-weight:800; color:#1a1a2e; padding-bottom:11px; margin-bottom:16px;
+    border-bottom:2px solid #e2e8f0; }
+  .section-icon { margin-right:7px; }
+  h3 { color:#1a1a2e; font-size:15.5px; margin:20px 0 9px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; }
+  th,td { padding:8px 11px; border-bottom:1px solid #e2e8f0; text-align:left; vertical-align:top; }
+  th { background:#f8fafc; font-weight:700; color:#1a1a2e; }
+  code { background:#f1f5f9; padding:1px 6px; border-radius:4px; font-size:12.5px; color:#be123c; }
+  .img-container { text-align:center; margin:18px 0; padding:12px; background:#f8fafc; border-radius:10px; }
+  .img-container img { max-width:100%; height:auto; border-radius:8px; }
+  .cap { font-size:11px; color:#64748b; margin-top:7px; font-style:italic; }
+  .pyq-box { background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-left:5px solid #22c55e;
+    padding:14px 18px; border-radius:0 10px 10px 0; margin:14px 0; font-size:13px; }
+  .pyq-box strong { color:#166534; }
+  .pyq-tag { display:inline-block; background:#22c55e; color:#fff; padding:2px 9px; border-radius:5px;
+    font-size:10px; font-weight:700; letter-spacing:.4px; margin-right:6px; }
+  .mnemonic-box { background:linear-gradient(135deg,#eff6ff,#dbeafe); border-left:5px solid #3b82f6;
+    padding:14px 18px; border-radius:0 10px 10px 0; margin:14px 0; font-size:13px; }
+  .mnemonic-box strong { color:#1d4ed8; }
+  .bihar-box { background:linear-gradient(135deg,#fff7ed,#ffedd5); border-left:5px solid #ff6b35;
+    padding:14px 18px; border-radius:0 10px 10px 0; margin:14px 0; font-size:13px; }
+  .bihar-box-title { font-weight:800; color:#c2410c; margin-bottom:6px; }
+  .cross-link { background:#f8fafc; border-radius:10px; padding:14px 18px; font-size:13px; line-height:2; }
+  .prediction-box { background:linear-gradient(135deg,#fef3c7,#fde68a); border-left:5px solid #f59e0b;
+    padding:14px 18px; border-radius:0 10px 10px 0; margin:14px 0; font-size:13px; }
+  .prediction-box strong { color:#92400e; }
+  .ex { border:1px solid #e2e8f0; border-radius:11px; padding:14px 17px; margin:12px 0; }
+  .ex-h { font-weight:700; color:#1a1a2e; font-size:13.5px; display:flex; gap:10px; align-items:flex-start; }
+  .ex-n { background:#e94560; color:#fff; width:23px; height:23px; border-radius:50%; display:flex;
+    align-items:center; justify-content:center; font-size:11.5px; font-weight:800; flex:none; }
+  .ex-b { margin:9px 0 0 33px; font-size:13px; }
+  .ex-t { margin:7px 0 0 33px; font-size:12px; color:#92400e; background:#fffbeb; padding:7px 11px; border-radius:7px; }
+  .mcq-block { background:#f8fafc; border-radius:11px; padding:15px 18px; margin:13px 0;
+    border-left:4px solid #e2e8f0; transition:border-color .2s, background .2s; }
+  .mcq-block.correct { border-left-color:#22c55e; background:#f0fdf4; }
+  .mcq-block.wrong { border-left-color:#ef4444; background:#fef2f2; }
+  .mcq-q { font-weight:600; color:#1a1a2e; margin-bottom:9px; }
+  .mcq-option { display:flex; align-items:center; gap:10px; padding:8px 12px; border-radius:8px;
+    cursor:pointer; transition:background .2s; font-size:13px; }
+  .mcq-option:hover { background:#e2e8f0; }
+  .mcq-option input[type="radio"] { accent-color:#e94560; width:15px; height:15px; flex:none; }
+  .mcq-option.correct-option { background:#dcfce7; font-weight:600; }
+  .mcq-option.wrong-option { background:#fee2e2; }
+  .mcq-explanation { display:none; margin-top:10px; padding:10px 14px; background:#f0f9ff;
+    border-left:3px solid #0ea5e9; border-radius:0 8px 8px 0; font-size:12.5px; }
+  .mcq-explanation.show { display:block; }
+  .quiz-controls { display:flex; gap:16px; align-items:center; margin:24px 0; }
+  .check-btn { background:linear-gradient(135deg,#e94560,#c2185b); color:#fff; padding:12px 32px; border:none;
+    border-radius:10px; font-size:15px; font-weight:700; cursor:pointer; }
+  .reset-btn { background:#475569; color:#fff; padding:12px 24px; border:none; border-radius:10px;
+    font-size:14px; font-weight:600; cursor:pointer; }
+  .score-display { display:none; background:linear-gradient(135deg,#1a1a2e,#16213e); color:#fff;
+    padding:20px 24px; border-radius:12px; margin:16px 0; text-align:center; }
+  .score-display .score-num { font-size:36px; font-weight:800; color:#e94560; }
+  .doc-footer { text-align:center; color:#94a3b8; font-size:12px; padding:22px 0; }
+  ul { margin:8px 0; padding-left:22px; } li { margin:4px 0; }
+  @media print {
+    body { background:#fff; font-size:11pt; }
+    .home-btn,.quiz-controls,.check-btn,.reset-btn { display:none !important; }
+    .mcq-explanation { display:block !important; }
+    .section,.mcq-block,.ex,table { page-break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+<a href="index.html" class="home-btn">🏠 Home</a>
+<div class="wrap">
+<a href="index.html" style="display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-weight:600;font-size:13px;">← Back to Master Dashboard</a>
+
+<!-- ====== SECTION 1: TOPIC HEADER ====== -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #50 • TIER A • LANE M (MATHS)</div>
+  <div class="topic-title">Number System &amp; Simplification</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Maths &amp; Mental Ability</span>
+    <span class="meta-tag">⚖️ Weight: 1.0</span>
+    <span class="meta-tag">📊 PYQ Frequency: High</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">✍️ 30 practice questions</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: CORE CONTENT ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">HOW TO USE THIS PAGE</span> <strong>Quant is not a reading subject.</strong> The ten marks in this
+    section come from recall speed, not understanding — you either know the divisibility rule and the unit-digit cycle
+    cold, or you lose the mark to the clock. Read the formula sheet once, then spend your time on the worked examples
+    and the 30 questions. With −⅓ negative marking, a calculated skip beats a hopeful guess.
+  </div>
+
+  <h3>A. Classification of numbers</h3>
+  <table>
+    <tr><th>Type</th><th>Definition</th><th>Watch out</th></tr>
+    <tr><td><strong>Natural</strong></td><td>1, 2, 3, …</td><td>Starts at 1, not 0</td></tr>
+    <tr><td><strong>Whole</strong></td><td>0, 1, 2, 3, …</td><td>Natural numbers plus zero</td></tr>
+    <tr><td><strong>Integers</strong></td><td>… −2, −1, 0, 1, 2 …</td><td>No fractions</td></tr>
+    <tr><td><strong>Rational</strong></td><td>Expressible as p/q, q ≠ 0</td><td>Includes terminating and recurring decimals</td></tr>
+    <tr><td><strong>Irrational</strong></td><td>Non-terminating, non-recurring</td><td>√2, π, e. Note √4 = 2 is <em>rational</em></td></tr>
+    <tr><td><strong>Prime</strong></td><td>Exactly two factors, 1 and itself</td><td><strong>1 is not prime.</strong> 2 is the only even prime</td></tr>
+    <tr><td><strong>Composite</strong></td><td>More than two factors</td><td>1 is neither prime nor composite</td></tr>
+    <tr><td><strong>Co-prime</strong></td><td>HCF of the pair is 1</td><td>Need not be prime themselves — 8 and 15 are co-prime</td></tr>
+  </table>
+
+  <h3>B. BODMAS — the order of operations</h3>
+  <p><code>B</code>rackets → <code>O</code>rders (powers, roots) → <code>D</code>ivision and <code>M</code>ultiplication
+  (<strong>left to right</strong>) → <code>A</code>ddition and <code>S</code>ubtraction (<strong>left to right</strong>).</p>
+  <div class="mnemonic-box">
+    <strong>🧠 The one rule people get wrong:</strong> division does <em>not</em> come after multiplication, and addition
+    does <em>not</em> come after subtraction. Each pair ranks equally and is resolved <strong>left to right</strong>.
+    In <code>12 + 6 ÷ 2 × 3</code>, do 6 ÷ 2 = 3 first, then 3 × 3 = 9 — never 2 × 3 first.
+  </div>
+
+  <h3>C. Divisibility rules</h3>
+  <table>
+    <tr><th>Divisor</th><th>Test</th><th>Example</th></tr>
+    <tr><td><strong>2</strong></td><td>Last digit even</td><td>3 78<u>4</u> ✔</td></tr>
+    <tr><td><strong>3</strong></td><td>Digit sum divisible by 3</td><td>1 2 3 → 6 ✔</td></tr>
+    <tr><td><strong>4</strong></td><td>Last <em>two</em> digits divisible by 4</td><td>9 3<u>16</u> ✔</td></tr>
+    <tr><td><strong>5</strong></td><td>Ends in 0 or 5</td><td>4 3 5 ✔</td></tr>
+    <tr><td><strong>6</strong></td><td>Divisible by 2 <em>and</em> 3</td><td>4 3 2 ✔</td></tr>
+    <tr><td><strong>8</strong></td><td>Last <em>three</em> digits divisible by 8</td><td>3 <u>792</u> ✔</td></tr>
+    <tr><td><strong>9</strong></td><td>Digit sum divisible by 9</td><td>4 5 6 7 8 → 30 ✘</td></tr>
+    <tr><td><strong>10</strong></td><td>Ends in 0</td><td>1 2 0 ✔</td></tr>
+    <tr><td><strong>11</strong></td><td>Difference of alternate digit sums is 0 or a multiple of 11</td><td>1 0 0 0 0 1 → 1 − 1 = 0 ✔</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>🧠 Depth of the tail:</strong> 2 needs <strong>1</strong> digit, 4 needs <strong>2</strong>, 8 needs
+    <strong>3</strong> — the power of 2 tells you how many digits to inspect. Same for 5, 25, 125.
+  </div>
+
+  <h3>D. LCM and HCF</h3>
+  <ul>
+    <li><strong>HCF</strong> — common primes at their <em>lowest</em> powers. The biggest number that divides all of them.</li>
+    <li><strong>LCM</strong> — all primes at their <em>highest</em> powers. The smallest number they all divide.</li>
+    <li><strong>For two numbers only:</strong> <code>HCF × LCM = product of the two numbers</code>. This fails for three or more.</li>
+    <li><strong>Fractions:</strong> HCF = HCF(numerators)/LCM(denominators); LCM = LCM(numerators)/HCF(denominators).</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/lcm_hcf_guide.png" alt="Decision guide for choosing LCM or HCF from the wording of a word problem, with the standard problem types under each">
+    <div class="cap">Most marks in this area are lost by picking the wrong tool, not by miscalculating. Read the verb: things
+      <em>recurring</em> point to LCM, something being <em>shared or cut</em> points to HCF.</div>
+  </div>
+
+  <table>
+    <tr><th>Problem wording</th><th>Method</th></tr>
+    <tr><td>Least number leaving the <strong>same</strong> remainder <em>r</em></td><td>LCM + <em>r</em></td></tr>
+    <tr><td>Least number leaving remainders where <strong>divisor − remainder is constant</strong> (= <em>k</em>)</td><td>LCM − <em>k</em></td></tr>
+    <tr><td>Greatest number leaving the <strong>same unknown</strong> remainder</td><td>HCF of the <strong>differences</strong></td></tr>
+    <tr><td>Greatest number leaving <strong>stated</strong> remainders</td><td>HCF after subtracting each remainder</td></tr>
+    <tr><td>Bells, lights, runners meeting again</td><td>LCM</td></tr>
+    <tr><td>Largest tile, rope length, equal groups</td><td>HCF</td></tr>
+  </table>
+
+  <h3>E. Unit digits, remainders and trailing zeros</h3>
+  <div class="img-container">
+    <img src="images/unit_digit_cycles.png" alt="Table of unit-digit cycles for bases 2 to 9, showing which repeat with period four, two or one">
+    <div class="cap">Divide the exponent by 4 and read the matching column. A remainder of 0 means the cycle has just
+      completed, so take the <em>fourth</em> entry — this is where most candidates drop the mark.</div>
+  </div>
+  <ul>
+    <li><strong>Trailing zeros in n!</strong> — count factors of 5: ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + … Factors of 2 are always in surplus.</li>
+    <li><strong>Remainder cycles</strong> — powers modulo a fixed divisor repeat; find the period, then reduce the exponent.</li>
+    <li><strong>Number of factors</strong> — if N = p<sup>a</sup>·q<sup>b</sup>·r<sup>c</sup>, the count of factors is (a+1)(b+1)(c+1).</li>
+    <li><strong>Sum of first n naturals</strong> = n(n+1)/2; <strong>sum of squares</strong> = n(n+1)(2n+1)/6.</li>
+  </ul>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">PYQ ALERT</span> <strong>What BPSC actually asks here.</strong> Across the 69th–71st papers the
+    recurring shapes are: a BODMAS simplification with division before multiplication; an LCM word problem dressed up as
+    bells or runners; "same remainder" phrasing that needs LCM + r; a divisibility rule stated as a definition (11 is the
+    favourite); and a unit-digit or trailing-zeros question. Between them these cover almost every quant mark on offer.
+  </div>
+</div>
+
+<!-- ====== SECTION 3: FACT MATRIX ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📊</span> Fact Matrix — Formula Sheet</div>
+  <table>
+    <tr><th>Need</th><th>Formula</th></tr>
+    <tr><td>HCF and LCM of two numbers</td><td><code>HCF × LCM = a × b</code> (two numbers only)</td></tr>
+    <tr><td>Number of factors of N = p<sup>a</sup>q<sup>b</sup></td><td><code>(a+1)(b+1)</code></td></tr>
+    <tr><td>Sum of first n naturals</td><td><code>n(n+1)/2</code></td></tr>
+    <tr><td>Sum of first n odd numbers</td><td><code>n²</code></td></tr>
+    <tr><td>Sum of first n even numbers</td><td><code>n(n+1)</code></td></tr>
+    <tr><td>Sum of squares of first n naturals</td><td><code>n(n+1)(2n+1)/6</code></td></tr>
+    <tr><td>Sum of cubes of first n naturals</td><td><code>[n(n+1)/2]²</code></td></tr>
+    <tr><td>Trailing zeros in n!</td><td><code>⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + …</code></td></tr>
+    <tr><td>Dividend</td><td><code>divisor × quotient + remainder</code></td></tr>
+    <tr><td>Least number to ADD for divisibility by d</td><td><code>d − (N mod d)</code></td></tr>
+    <tr><td>Least number to SUBTRACT for divisibility by d</td><td><code>N mod d</code></td></tr>
+    <tr><td>Least number, same remainder r on all divisors</td><td><code>LCM + r</code></td></tr>
+    <tr><td>Least number, constant (divisor − remainder) = k</td><td><code>LCM − k</code></td></tr>
+    <tr><td>Greatest number, same unknown remainder</td><td><code>HCF of the differences</code></td></tr>
+    <tr><td>HCF of fractions</td><td><code>HCF(numerators) / LCM(denominators)</code></td></tr>
+    <tr><td>LCM of fractions</td><td><code>LCM(numerators) / HCF(denominators)</code></td></tr>
+  </table>
+</div>
+
+<!-- ====== SECTION 4: WORKED EXAMPLES ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✏️</span> Ten Worked Examples</div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">1</span>Simplify  48 ÷ 6 × 2 + 15 − 3 × 4</div>
+    <div class="ex-b">Division and multiplication rank equally and are done left to right: 48 ÷ 6 = 8, then 8 × 2 = 16. Next 3 × 4 = 12. So the expression is 16 + 15 − 12 = <b>19</b>.</div>
+    <div class="ex-t">⚠ Doing 6 × 2 first gives 48 ÷ 12 = 4 and the wrong answer 7.</div>
+  </div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">2</span>Find the LCM and HCF of 24 and 36, then verify the product rule.</div>
+    <div class="ex-b">24 = 2³·3, 36 = 2²·3². HCF takes the lowest powers: 2²·3 = <b>12</b>. LCM takes the highest: 2³·3² = <b>72</b>. Check: 12 × 72 = 864 and 24 × 36 = 864. ✔</div>
+    <div class="ex-t">⚠ The identity HCF × LCM = product holds for exactly two numbers. Never apply it to three.</div>
+  </div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">3</span>Find the least number which when divided by 8, 12 and 16 leaves remainder 3 each time.</div>
+    <div class="ex-b">Same remainder every time, so the answer is LCM + remainder. LCM(8, 12, 16) = 48, giving 48 + 3 = <b>51</b>.</div>
+    <div class="ex-t">⚠ Check by dividing: 51 ÷ 8 = 6 r3, 51 ÷ 12 = 4 r3, 51 ÷ 16 = 3 r3. ✔</div>
+  </div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">4</span>Find the greatest number that divides 62, 132 and 237 leaving the same remainder.</div>
+    <div class="ex-b">The remainder is unknown but equal, so work with differences: 132 − 62 = 70, 237 − 132 = 105, 237 − 62 = 175. HCF(70, 105, 175) = <b>35</b>.</div>
+    <div class="ex-t">⚠ Each leaves remainder 27. When the remainder is stated, subtract it first; when it is merely 'the same', use differences.</div>
+  </div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">5</span>What is the unit digit of 3<sup>74</sup>?</div>
+    <div class="ex-b">Powers of 3 cycle 3, 9, 7, 1 with period 4. 74 ÷ 4 leaves remainder 2, so the unit digit is the 2nd in the cycle, <b>9</b>.</div>
+    <div class="ex-t">⚠ If the remainder had been 0 you would take the <i>fourth</i> entry, not the first.</div>
+  </div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">6</span>Find the remainder when 3<sup>40</sup> is divided by 5.</div>
+    <div class="ex-b">Powers of 3 modulo 5 cycle 3, 4, 2, 1 with period 4. 40 ÷ 4 leaves remainder 0, so we take the last entry: <b>1</b>.</div>
+    <div class="ex-t">⚠ Remainder 0 means the cycle has just completed — a very common one-step error.</div>
+  </div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">7</span>How many zeros are at the end of 100! ?</div>
+    <div class="ex-b">Count the factors of 5: ⌊100/5⌋ = 20, ⌊100/25⌋ = 4, ⌊100/125⌋ = 0. Total <b>24</b>.</div>
+    <div class="ex-t">⚠ Factors of 2 always outnumber factors of 5, so only the 5s need counting.</div>
+  </div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">8</span>Find the smallest number that must be subtracted from 2000 to make it divisible by 17.</div>
+    <div class="ex-b">2000 ÷ 17 = 117 remainder 11, so subtract <b>11</b>. (To make it divisible by <i>adding</i>, you would add 17 − 11 = 6.)</div>
+    <div class="ex-t">⚠ Read the direction carefully — 'subtract' takes the remainder, 'add' takes divisor minus remainder.</div>
+  </div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">9</span>Is 1,00,001 divisible by 11?</div>
+    <div class="ex-b">Alternate digits: odd places 1 + 0 + 0 = 1; even places 0 + 0 + 1 = 1. Difference 0, which is a multiple of 11, so <b>yes</b>.</div>
+    <div class="ex-t">⚠ Start counting places from the right; direction does not change the result, but stay consistent.</div>
+  </div>
+  <div class="ex">
+    <div class="ex-h"><span class="ex-n">10</span>Two runners circle a track in 126 s and 154 s. When do they next meet at the start?</div>
+    <div class="ex-b">They meet after LCM(126, 154) seconds. 126 = 2·3²·7, 154 = 2·7·11, so LCM = 2·3²·7·11 = <b>1386 s = 23 min 6 s</b>.</div>
+    <div class="ex-t">⚠ 'Meet again at the start' is always LCM. HCF would answer a cutting-into-equal-parts question.</div>
+  </div>
+</div>
+
+<!-- ====== SECTION 5: BIHAR CONNECTION ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">🟠 What Bihar-specific means in a quant section</div>
+    <ul>
+      <li>Arithmetic carries <strong>no state-specific content</strong> — a divisibility rule is the same in Patna as anywhere else. This is the one topic group where the Bihar angle is about <em>marks strategy</em>, not facts.</li>
+      <li><strong>BPSC sets easier quant than SSC or banking.</strong> The 69th–71st papers stayed at school arithmetic — no advanced algebra, no coordinate geometry. Preparing from an SSC book over-prepares you and wastes hours you owe to Bihar-specific GS.</li>
+      <li><strong>Roughly 10 of 150 marks.</strong> These are the most reliably scorable marks on the paper: no current affairs to go stale, no ambiguity, no debatable answer key.</li>
+      <li>Bihar-flavoured numbers do occasionally appear as dressing — district counts (38), Vidhan Sabha seats (243), Lok Sabha seats (40) — but the arithmetic is the question, not the fact.</li>
+      <li><strong>With ⅓ negative marking</strong> and a two-hour limit for 150 questions, quant is where time discipline decides the outcome. If a question is not yielding in 60 seconds, leave it and return.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 6: CROSS-TOPIC CONNECTIONS ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>↔ Topic #51 (Percentage):</strong> fractions and ratios rest on the LCM/HCF work here<br>
+    <strong>↔ Topic #52 (Ratio &amp; Proportion):</strong> simplifying ratios is an HCF operation<br>
+    <strong>↔ Topic #53 (Average):</strong> weighted averages need clean fraction handling<br>
+    <strong>↔ Topic #55 (SI &amp; CI):</strong> compound interest is repeated multiplication — the power rules here<br>
+    <strong>↔ Topic #56 (Time &amp; Work):</strong> the classic pipes-and-cisterns setup is an LCM technique<br>
+    <strong>↔ Topic #57 (Speed, Time &amp; Distance):</strong> circular-track meeting problems are LCM problems<br>
+    <strong>↔ Topic #58 (Number/Letter Series):</strong> pattern recognition builds on factors and multiples
+  </div>
+</div>
+
+<!-- ====== SECTION 7: CURRENT RELEVANCE ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance &amp; Exam Strategy</div>
+  <p>Arithmetic does not date, so nothing in this topic goes stale between now and the exam — unlike the current-affairs
+  block, this page will still be correct whenever the postponed paper is finally held. What changes is only the
+  <em>pattern</em> of what BPSC chooses to ask.</p>
+  <table>
+    <tr><th>Observation across 69th–71st</th><th>What to do about it</th></tr>
+    <tr><td>Quant stayed at school level; no algebra-heavy items</td><td>Do not over-prepare from SSC material</td></tr>
+    <tr><td>⅓ negative marking introduced in the 71st</td><td>Skip rather than guess; two skips cost less than three wrong</td></tr>
+    <tr><td>Word problems dominate over bare computation</td><td>Practise translating wording into LCM/HCF, not just calculating</td></tr>
+    <tr><td>Roughly 10 quant marks per paper</td><td>Budget about 12 minutes of the 120 for this section</td></tr>
+  </table>
+  <div class="prediction-box">
+    <strong>🎯 Top 5 predictions for the 72nd — Number System:</strong>
+    <ul>
+      <li><strong>(1) BODMAS simplification (HIGH):</strong> one expression where division precedes multiplication left to right.</li>
+      <li><strong>(2) LCM word problem (HIGH):</strong> bells, lights or runners coinciding — answer is plain LCM.</li>
+      <li><strong>(3) Same-remainder problem (MEDIUM–HIGH):</strong> "leaves remainder 5 in each case" → LCM + 5.</li>
+      <li><strong>(4) Divisibility rule as a definition (MEDIUM):</strong> the rule for 11 stated four ways, one correct.</li>
+      <li><strong>(5) Unit digit or trailing zeros (MEDIUM):</strong> a large power's last digit, or the zeros in a factorial.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: MCQ PRACTICE SET ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 30 Questions</div>
+  <p style="font-size:12.5px;color:#64748b;margin:0 0 14px;">Every answer key on this page was <strong>computed
+  programmatically</strong>, not written by hand — the arithmetic is verified, not trusted. Attempt under time, then read
+  the explanations for the questions you missed.</p>
+
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Simplify:  12 + 6 ÷ 2 × 3 − 4</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) 5</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) 11</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) 23</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) 17</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — BODMAS resolves division and multiplication left to right, not division last. 6 ÷ 2 = 3, then 3 × 3 = 9, giving 12 + 9 − 4 = 17. Trap 23 comes from running everything left to right including the addition: (12 + 6) ÷ 2 × 3 − 4. Trap 11 comes from doing 6 ÷ 2 = 3 and then forgetting to multiply by 3.</div>
+  </div>
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Simplify:  (18 − 3) × 2 + 36 ÷ 6</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) 36</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) 39</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) 24</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) 42</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Brackets first: 18 − 3 = 15. Then 15 × 2 = 30 and 36 ÷ 6 = 6, so 30 + 6 = 36. Trap 24 comes from subtracting the 6 instead of adding it (30 − 6). Nothing here is division-first: the bracket must be cleared before the multiplication.</div>
+  </div>
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Simplify:  5 + 3 × (8 − 2) ÷ 4</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) 8</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) 6.5</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) 9.5</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) 7</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — Bracket first: 8 − 2 = 6. Then 3 × 6 = 18 and 18 ÷ 4 = 4.5, so 5 + 4.5 = 9.5. Trap 6.5 drops the ×3 and computes 5 + 6 ÷ 4. Trap 8 is simply 5 + 3, abandoning the rest of the expression.</div>
+  </div>
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The LCM of 12, 15 and 20 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 60</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 120</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 240</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 180</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (A)</strong> — 12 = 2²·3, 15 = 3·5, 20 = 2²·5. Taking the highest power of each prime: 2²·3·5 = 60. 120 and 180 are common multiples but not the least — the question asks for the smallest.</div>
+  </div>
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The HCF of 48, 72 and 96 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) 48</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) 12</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) 16</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) 24</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — 48 = 2⁴·3, 72 = 2³·3², 96 = 2⁵·3. Common primes at their lowest powers: 2³·3 = 24. 48 divides 48 and 96 but not 72, so it cannot be the HCF of all three.</div>
+  </div>
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. For 36 and 84, the product HCF × LCM equals:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 3024</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 3600</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 1800</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 2520</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — For any two numbers, HCF × LCM = product of the numbers. Here 36 × 84 = 3024, and indeed HCF = 12 and LCM = 252 give 12×252 = 3024. The identity is guaranteed only for a pair — it does not hold in general for three or more numbers, which is the usual trap.</div>
+  </div>
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Find the least number greater than 5 which, when divided by 6, 8 and 12, leaves remainder 5 in each case.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) 24</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 53</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) 29</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) 17</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — When the remainder is the same each time, the answer is LCM + common remainder. LCM(6, 8, 12) = 24, so the number is 24 + 5 = 29. Choosing 24 forgets the remainder; 53 is the next such number, not the least. The stem says 'greater than 5' because 5 itself trivially leaves remainder 5 on all three divisors.</div>
+  </div>
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The greatest number that divides 43, 91 and 183 leaving the same remainder in each case is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 4</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) 3</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 16</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) 8</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — When the remainder is the same but unknown, take the HCF of the differences. 91 − 43 = 48, 183 − 91 = 92 and 183 − 43 = 140; HCF(48, 92, 140) = 4. Working with the numbers themselves instead of their differences is the common mistake.</div>
+  </div>
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Three bells ring at intervals of 4, 6 and 9 minutes. If they ring together at 10:00 a.m., they will next ring together at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) 10:24 a.m.</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) 10:36 a.m.</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) 10:18 a.m.</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) 11:00 a.m.</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — They coincide after LCM(4, 6, 9) = 36 minutes, i.e. at 10:36 a.m. 10:18 is only a common multiple of 6 and 9, and 10:24 only of 4 and 6 — neither satisfies all three.</div>
+  </div>
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. A number is divisible by 11 if:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) its last two digits form a multiple of 11</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) the sum of all its digits is a multiple of 11</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) it is divisible by both 3 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) the difference between the sums of its alternate digits is 0 or a multiple of 11</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — The rule for 11 uses alternating digit sums: add the digits in odd places, add those in even places, and the difference must be 0 or a multiple of 11. Digit-sum rules belong to 3 and 9; last-two-digits belongs to 4.</div>
+  </div>
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which of the following numbers is divisible by 8?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) 3790</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) 3798</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) 3792</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) 3794</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (C)</strong> — For 8, only the last three digits matter: 792 ÷ 8 = 99 exactly. 798, 794 and 790 leave remainders 6, 2 and 6. Checking the whole number is unnecessary once the last three digits are settled.</div>
+  </div>
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. If the six-digit number 4_5678 is to be divisible by 9, the missing digit is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) 2</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) 4</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) 6</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) 8</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — For divisibility by 9 the digit sum must be a multiple of 9. Known digits sum to 4+5+6+7+8 = 30, and the next multiple of 9 is 36, so the missing digit is 6. The other options give digit sums of 32, 34 and 38 — none a multiple of 9. Applying the looser rule for 3 would wrongly accept several of them.</div>
+  </div>
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The largest four-digit number exactly divisible by 88 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) 9900</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) 9944</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) 9988</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) 9856</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (B)</strong> — 9999 ÷ 88 = 113 remainder 55, so the largest multiple is 113 × 88 = 9944. 9988 is divisible by 11 and by 4 separately but 9988 ÷ 88 is not an integer — a good reminder that divisibility by 8 and 11 is required, not 4 and 11.</div>
+  </div>
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The unit digit of 7¹⁰⁵ is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 1</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 7</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 3</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 9</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — Unit digits of powers of 7 cycle 7, 9, 3, 1 with period 4. 105 ÷ 4 leaves remainder 1, so the unit digit matches 7¹, which is 7. Taking the remainder as 0 and answering 1 is the standard slip.</div>
+  </div>
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The remainder when 2⁵⁰ is divided by 7 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) 6</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) 4</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) 1</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) 2</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — Powers of 2 modulo 7 cycle 2, 4, 1 with period 3. 50 ÷ 3 leaves remainder 2, so 2⁵⁰ ≡ 2² = 4 (mod 7). Answering 1 assumes the cycle closes exactly at 50, which it does not.</div>
+  </div>
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The number of zeros at the end of 25! is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) 6</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) 4</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) 5</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) 7</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Count factors of 5: ⌊25/5⌋ = 5 and ⌊25/25⌋ = 1, giving 6. Answering 5 misses the extra 5 contributed by 25 itself, which is 5². Factors of 2 are always in surplus, so only 5s need counting.</div>
+  </div>
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. How many prime numbers are there between 1 and 50?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 17</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 15</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 14</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 16</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (B)</strong> — There are 15: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47. Counting 1 as prime gives the trap 16 — 1 is neither prime nor composite.</div>
+  </div>
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The smallest number that must be added to 1056 to make it exactly divisible by 23 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) 2</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) 7</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) 5</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — 1056 ÷ 23 = 45 remainder 21, so 23 − 21 = 2 must be added. Subtracting the remainder instead of completing to the next multiple gives the wrong direction.</div>
+  </div>
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Which of the following is a composite number?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) 83</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) 91</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) 89</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) 97</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — 91 = 7 × 13, so it is composite. 89, 97 and 83 are all prime. 91 is the classic trap because it looks prime and fails only the 7-test.</div>
+  </div>
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The HCF of two numbers is 12 and their LCM is 240. If one number is 48, the other is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) 72</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) 60</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) 120</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) 50</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — Since HCF × LCM = product of the numbers, the other number is (12 × 240) / 48 = 60. Note the check: HCF(48, 60) = 12 and LCM(48, 60) = 240, so the pair is consistent.</div>
+  </div>
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The least number divisible by every integer from 1 to 10 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 3600</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 1260</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 2520</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 5040</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (C)</strong> — Take the highest power of each prime up to 10: 2³ · 3² · 5 · 7 = 2520. 5040 is 7! and is a multiple, but not the least. 1260 fails on 8.</div>
+  </div>
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. A number when divided by 342 gives remainder 47. When the same number is divided by 19, the remainder is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) 7</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) 0</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) 9</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — 342 = 19 × 18, so the number is 342k + 47 = 19(18k + 2) + 9, leaving remainder 9. Trap 0 comes from noticing that 19 divides 342 and stopping there, forgetting that the +47 still has to be reduced: 47 = 19×2 + 9.</div>
+  </div>
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Simplify:  0.4 × 0.04 × 0.004</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) 0.064</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) 0.000064</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) 0.00064</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) 0.0000064</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — Multiply the digits, 4 × 4 × 4 = 64, then count decimal places: 1 + 2 + 3 = 6, giving 0.000064. Miscounting the places by one is the entire difficulty of this question type.</div>
+  </div>
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. If  x  is the smallest number which when divided by 5, 7 and 9 leaves remainders 3, 5 and 7 respectively, then  x  is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) 311</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) 317</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) 313</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) 315</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — In each case divisor − remainder = 2, so the number is LCM(5, 7, 9) − 2 = 315 − 2 = 313. Recognising the constant difference is what turns a long trial into one line.</div>
+  </div>
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The value of  √(0.0169)  is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 1.3</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 0.0013</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 0.013</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 0.13</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (D)</strong> — 0.0169 = 169 / 10000, so the root is 13 / 100 = 0.13. The rule is that a square root halves the number of decimal places, so four places become two. Trap 0.0013 keeps all four places; trap 1.3 halves the digits but loses a place entirely.</div>
+  </div>
+  <!-- Q26 -->
+  <div class="mcq-block" id="q26">
+    <div class="mcq-q">Q26. Which pair of numbers is co-prime?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q26" value="a"> (A) 8 and 15</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="b"> (B) 9 and 21</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="c"> (C) 14 and 35</label>
+      <label class="mcq-option"><input type="radio" name="q26" value="d"> (D) 12 and 18</label>
+    </div>
+    <div class="mcq-explanation" id="exp26">✅ <strong>Correct Answer: (A)</strong> — Co-prime means HCF = 1. HCF(8, 15) = 1. The others share a factor: 3 for 9 and 21, 7 for 14 and 35, 6 for 12 and 18. Co-prime numbers need not themselves be prime — 8 and 15 are both composite.</div>
+  </div>
+  <!-- Q27 -->
+  <div class="mcq-block" id="q27">
+    <div class="mcq-q">Q27. The sum of the digits of the smallest 4-digit number divisible by 4, 5 and 6 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q27" value="a"> (A) 6</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="b"> (B) 9</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="c"> (C) 12</label>
+      <label class="mcq-option"><input type="radio" name="q27" value="d"> (D) 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp27">✅ <strong>Correct Answer: (D)</strong> — LCM(4, 5, 6) = 60, and the smallest 4-digit multiple of 60 is 1020, whose digits sum to 1 + 0 + 2 + 0 = 3. Starting from 1000 itself, which is not divisible by 6, is the usual error.</div>
+  </div>
+  <!-- Q28 -->
+  <div class="mcq-block" id="q28">
+    <div class="mcq-q">Q28. If 5⁴ˣ = 625, then the value of  x  is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q28" value="a"> (A) 1</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="b"> (B) 2</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="c"> (C) 0.5</label>
+      <label class="mcq-option"><input type="radio" name="q28" value="d"> (D) 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp28">✅ <strong>Correct Answer: (A)</strong> — 625 = 5⁴, so 4x = 4 and x = 1. Answering 4 solves for the exponent rather than for x — the question asks for x itself.</div>
+  </div>
+  <!-- Q29 -->
+  <div class="mcq-block" id="q29">
+    <div class="mcq-q">Q29. The place value of 7 in 4,73,829 is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q29" value="a"> (A) 7000</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="b"> (B) 7</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="c"> (C) 700000</label>
+      <label class="mcq-option"><input type="radio" name="q29" value="d"> (D) 70000</label>
+    </div>
+    <div class="mcq-explanation" id="exp29">✅ <strong>Correct Answer: (D)</strong> — 7 sits in the ten-thousands place of 4,73,829, so its place value is 7 × 10,000 = 70,000. Its face value, by contrast, is simply 7 — the distinction BPSC likes to test.</div>
+  </div>
+  <!-- Q30 -->
+  <div class="mcq-block" id="q30">
+    <div class="mcq-q">Q30. How many numbers strictly between 200 and 600 (excluding both) are divisible by 4, 5 and 6 together?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q30" value="a"> (A) 8</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="b"> (B) 5</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="c"> (C) 7</label>
+      <label class="mcq-option"><input type="radio" name="q30" value="d"> (D) 6</label>
+    </div>
+    <div class="mcq-explanation" id="exp30">✅ <strong>Correct Answer: (D)</strong> — A number divisible by 4, 5 and 6 is divisible by their LCM, 60. Strictly between 200 and 600 the multiples are 240, 300, 360, 420, 480 and 540 — six of them. 600 is itself a multiple of 60, so an inclusive reading would give seven; the stem excludes both endpoints for exactly that reason.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/30</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 9: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul style="font-size:13px;line-height:1.9;">
+    <li><a href="https://ncert.nic.in/textbook.php" target="_blank">NCERT Mathematics, Classes 6–10</a> — the exact level BPSC pitches at</li>
+    <li><a href="https://www.bpsc.bihar.gov.in/" target="_blank">BPSC official portal</a> — syllabus and notifications</li>
+    <li><a href="https://ncert.nic.in/" target="_blank">NCERT</a> — Class 8 chapters on playing with numbers, squares and cubes</li>
+    <li><a href="https://www.khanacademy.org/math/arithmetic" target="_blank">Khan Academy — Arithmetic</a> — drills on factors, multiples and divisibility</li>
+    <li><a href="https://www.cuemath.com/numbers/" target="_blank">Cuemath — Number System</a> — worked examples and shortcuts</li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims — Topic #50: Number System &amp; Simplification · Tier A · Weight 1.0 · Lane M<br>
+  📌 Cross-reference with Topics #51–#59
+</div>
+</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'a', q3: 'c', q4: 'a', q5: 'd',
+  q6: 'a', q7: 'c', q8: 'a', q9: 'b', q10: 'd',
+  q11: 'c', q12: 'c', q13: 'b', q14: 'b', q15: 'b',
+  q16: 'a', q17: 'b', q18: 'a', q19: 'b', q20: 'b',
+  q21: 'c', q22: 'c', q23: 'b', q24: 'c', q25: 'd',
+  q26: 'a', q27: 'd', q28: 'a', q29: 'd', q30: 'd'
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 30; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[name="q' + i + '"]:checked');
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+
+    block.querySelectorAll('input[name="q' + i + '"]').forEach(input => {
+      if (input.value === correctAnswer) { input.parentElement.classList.add('correct-option'); }
+    });
+
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/30';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 30; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll('input[name="q' + i + '"]').forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>
