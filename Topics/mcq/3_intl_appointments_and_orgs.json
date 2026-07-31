@@ -1,0 +1,327 @@
+[
+ {
+  "q": "In April 2024, a resolution to recommend admitting Palestine as a full member of the United Nations was vetoed by the United States in the 15-member UN Security Council. How many members of the council either rejected or abstained from voting?",
+  "options": [
+   "1 member",
+   "5 members",
+   "3 members",
+   "2 members"
+  ],
+  "answer": 2,
+  "explanation": "12 members voted in favor, 1 against (US veto), and 2 abstained (UK, Switzerland). Thus, a total of 3 members rejected or abstained. (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "Who succeeded Ruchira Kamboj as India's Permanent Representative to the United Nations in New York in September 2024?",
+  "options": [
+   "Parvathaneni Harish",
+   "Harsh Vardhan Shringla",
+   "T.S. Tirumurti",
+   "Syed Akbaruddin"
+  ],
+  "answer": 0,
+  "explanation": "Parvathaneni Harish assumed charge as India's Permanent Representative to the UN on September 1, 2024, succeeding Ruchira Kamboj who retired in June 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Global Gender Gap Report, a frequent subject in BPSC, is released annually by which organization?",
+  "options": [
+   "World Bank",
+   "UN Women",
+   "World Economic Forum (WEF)",
+   "UNDP"
+  ],
+  "answer": 2,
+  "explanation": "The Global Gender Gap Report is published by the World Economic Forum. (69th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ"
+ },
+ {
+  "q": "What was the theme of the International Olympic Day celebrated on 23rd June 2024?",
+  "options": [
+   "\"Let's Move\"",
+   "\"Move, Learn, Discover\"",
+   "\"Let's Move and Celebrate\"",
+   "\"Together, For a Peaceful World\""
+  ],
+  "answer": 2,
+  "explanation": "The theme of the International Olympic Day 2024 was \"Let's Move and Celebrate\". (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "Which country became the 32nd member state of NATO in March 2024?",
+  "options": [
+   "Ukraine",
+   "Sweden",
+   "Finland",
+   "Switzerland"
+  ],
+  "answer": 1,
+  "explanation": "Sweden officially joined NATO as its 32nd member on March 7, 2024. Finland joined as the 31st member in April 2023.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which country became the 10th full member state of the Shanghai Cooperation Organisation (SCO) at the Astana Summit in July 2024?",
+  "options": [
+   "Mongolia",
+   "Belarus",
+   "Iran",
+   "Pakistan"
+  ],
+  "answer": 1,
+  "explanation": "Belarus officially became the 10th member of the SCO on July 4, 2024. Iran was admitted as the 9th member in 2023.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who assumed office as the Secretary General of NATO on October 1, 2024, succeeding Jens Stoltenberg?",
+  "options": [
+   "Mark Rutte",
+   "Ursula von der Leyen",
+   "Antonio Costa",
+   "Emmanuel Macron"
+  ],
+  "answer": 0,
+  "explanation": "Mark Rutte, the former Prime Minister of the Netherlands, assumed office as NATO Secretary General on October 1, 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the current President of the 80th session of the United Nations General Assembly (UNGA), running from September 2025 to September 2026?",
+  "options": [
+   "Dennis Francis",
+   "Khalilur Rahman",
+   "Annalena Baerbock",
+   "Philemon Yang"
+  ],
+  "answer": 2,
+  "explanation": "Annalena Baerbock (Germany) is the President of the 80th session. Dennis Francis headed the 78th session, and Philemon Yang headed the 79th session.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which five countries officially joined BRICS as permanent members on January 1, 2024?",
+  "options": [
+   "Egypt, Argentina, Iran, Saudi Arabia, UAE",
+   "Egypt, Ethiopia, Iran, Saudi Arabia, UAE",
+   "Brazil, Russia, India, China, South Africa",
+   "South Africa, Egypt, Iran, Turkey, Saudi Arabia"
+  ],
+  "answer": 1,
+  "explanation": "Egypt, Ethiopia, Iran, Saudi Arabia, and the UAE joined BRICS on Jan 1, 2024. Argentina was invited but declined.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who assumed office as the Director General of the International Solar Alliance (ISA) on March 17, 2025?",
+  "options": [
+   "Dr. Ajay Mathur",
+   "Ashish Khanna",
+   "Upendra Tripathy",
+   "Gurdeep Singh"
+  ],
+  "answer": 1,
+  "explanation": "Ashish Khanna took charge as the 3rd DG of the ISA on March 17, 2025, succeeding Dr. Ajay Mathur.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following groups of countries were elected as non-permanent members of the UN Security Council for the 2025–2026 term?",
+  "options": [
+   "Denmark, Greece, Pakistan, Panama, Somalia",
+   "India, Brazil, Germany, Japan, South Africa",
+   "Austria, Portugal, Spain, Italy, Sweden",
+   "Bahrain, Colombia, DRC, Latvia, Liberia"
+  ],
+  "answer": 0,
+  "explanation": "Denmark, Greece, Pakistan, Panama, and Somalia serve the 2025-2026 term. Bahrain, Colombia, DRC, Latvia, and Liberia serve the 2026-2027 term.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In the 2024-2025 period, who serves as the President of the International Court of Justice (ICJ)?",
+  "options": [
+   "Nawaf Salam",
+   "Dalveer Bhandari",
+   "Joan Donoghue",
+   "Julia Sebutinde"
+  ],
+  "answer": 0,
+  "explanation": "Nawaf Salam (Lebanon) was elected President of the ICJ in Feb 2024. Julia Sebutinde (Uganda) is the Vice-President.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the current Managing Director of the International Monetary Fund (IMF), re-appointed for a second 5-year term starting October 2024?",
+  "options": [
+   "Christine Lagarde",
+   "Gita Gopinath",
+   "Ngozi Okonjo-Iweala",
+   "Kristalina Georgieva"
+  ],
+  "answer": 3,
+  "explanation": "Kristalina Georgieva (Bulgaria) was approved for a second 5-year term as MD of the IMF, starting October 1, 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 14th President of the World Bank Group is:",
+  "options": [
+   "Ajay Banga",
+   "Jim Yong Kim",
+   "Gita Gopinath",
+   "David Malpass"
+  ],
+  "answer": 0,
+  "explanation": "Ajay Banga (Indian-American) assumed charge as World Bank President on June 2, 2023.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the Director-General of the World Trade Organization (WTO), serving a second term starting September 2025?",
+  "options": [
+   "Roberto Azevêdo",
+   "Dr. Ngozi Okonjo-Iweala",
+   "Pascal Lamy",
+   "Tedros Adhanom"
+  ],
+  "answer": 1,
+  "explanation": "Dr. Ngozi Okonjo-Iweala of Nigeria began her second 4-year term as WTO DG on September 1, 2025. She is the first woman and first African to lead the WTO.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the first Brazilian to be elected as the Secretary General of INTERPOL, taking charge in late 2024?",
+  "options": [
+   "Jürgen Stock",
+   "Dilma Rousseff",
+   "Tedros Adhanom",
+   "Valdecy Urquiza"
+  ],
+  "answer": 3,
+  "explanation": "Valdecy Urquiza was elected to head INTERPOL, succeeding Germany's Jürgen Stock. He is the first head of INTERPOL from a developing nation.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which organization admitted the African Union as a permanent member during its summit in New Delhi in September 2023?",
+  "options": [
+   "G20",
+   "G7",
+   "BRICS",
+   "Shanghai Cooperation Organisation"
+  ],
+  "answer": 0,
+  "explanation": "The G20 admitted the African Union as a permanent member, effectively turning the group into G21.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The President of the New Development Bank (NDB), established by BRICS, is:",
+  "options": [
+   "Marcos Troyjo",
+   "K.V. Kamath",
+   "Dilma Rousseff",
+   "Masatsugu Asakawa"
+  ],
+  "answer": 2,
+  "explanation": "Dilma Rousseff, former President of Brazil, heads the NDB. NDB is headquartered in Shanghai.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the UN Security Council:\n1. It consists of 15 members, of which 5 are permanent and 10 are non-permanent.\n2. Non-permanent members are elected for a term of three years by the General Assembly.\n3. Decisions on procedural matters require the affirmative vote of at least 9 members.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "answer": 3,
+  "explanation": "Statement 2 is incorrect. Non-permanent members are elected for a term of two years, not three.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who won the Amal Clooney Women's Empowerment Award in May 2024 from King Charles III?",
+  "options": [
+   "Alok Shukla",
+   "Sima Bahous",
+   "Ruchira Kamboj",
+   "Arti (E-rickshaw driver)"
+  ],
+  "answer": 3,
+  "explanation": "Arti, an E-rickshaw driver from Uttar Pradesh, was conferred this award for promoting women's safety and mobility. (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "The head of Russia's Wagner Mercenary Group, who died in a plane crash in 2023, was:",
+  "options": [
+   "Aleksandr Lukashenko",
+   "Sergei Shoigu",
+   "Valery Gerasimov",
+   "Yevgeny Prigozhin"
+  ],
+  "answer": 3,
+  "explanation": "Yevgeny Prigozhin was the head of the Wagner Group. (69th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ"
+ },
+ {
+  "q": "The winner of the prestigious Goldman Environmental Prize 2024 from the region of Asia is:",
+  "options": [
+   "Alok Shukla (India)",
+   "Chibeze Ezekiel (Ghana)",
+   "Thai Van Nguyen (Vietnam)",
+   "Delima Silalahi (Indonesia)"
+  ],
+  "answer": 0,
+  "explanation": "Alok Shukla won the prize for his campaign to save the Hasdeo Arand forests in Chhattisgarh, India. (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "Which of the following organizations is headquartered in Manila, Philippines?",
+  "options": [
+   "New Development Bank (NDB)",
+   "Asian Development Bank (ADB)",
+   "Asian Infrastructure Investment Bank (AIIB)",
+   "Shanghai Cooperation Organisation (SCO)"
+  ],
+  "answer": 1,
+  "explanation": "The ADB (headed by Masatsugu Asakawa) is headquartered in Mandaluyong, Manila, Philippines. NDB is in Shanghai, and AIIB is in Beijing.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who was the first female Indian Ambassador to the United Nations, who retired in June 2024?",
+  "options": [
+   "Nirupama Rao",
+   "Sujatha Singh",
+   "Ruchira Kamboj",
+   "Vijaya Lakshmi Pandit"
+  ],
+  "answer": 2,
+  "explanation": "Ruchira Kamboj was India's first woman Permanent Representative to the UN. Note: Vijaya Lakshmi Pandit was the first woman President of the UN General Assembly (1953), but Kamboj was the first female PR. (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "Argentina was formally invited to join BRICS at the 2023 Johannesburg Summit. However, it declined the invitation. Who is the current President of Argentina who made this decision?",
+  "options": [
+   "None of the above",
+   "Mauricio Macri",
+   "Alberto Fernández",
+   "Javier Milei"
+  ],
+  "answer": 3,
+  "explanation": "President Javier Milei withdrew Argentina from joining BRICS upon taking office, citing shifts in foreign policy.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]

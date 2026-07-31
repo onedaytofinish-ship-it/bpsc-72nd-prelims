@@ -1,0 +1,431 @@
+[
+ {
+  "q": "The Pahalgam terror attack of 2025, which triggered Operation Sindoor, took place on:",
+  "options": [
+   "26 January 2025",
+   "22 April 2025",
+   "10 May 2025",
+   "14 February 2025"
+  ],
+  "answer": 1,
+  "explanation": "The attack occurred on April 22, 2025, at Baisaran meadow, Pahalgam (J&K); 26 people were killed. The Resistance Front (TRF), an LeT proxy, was responsible.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about Operation Sindoor:\n1. It was launched on the night of May 6–7, 2025.\n2. It struck 9 terror infrastructure sites, including Bahawalpur (JeM HQ) and Muridke (LeT HQ).\n3. A ceasefire understanding was reached on May 10, 2025, after DGMO-level talks.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three statements are correct. These were the deepest Indian strikes inside Pakistan since 1971, and the conflict ended with a bilateral DGMO-hotline understanding on May 10, 2025.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "During Operation Sindoor, which Indian air-defence system was credited with a claimed ~314 km long-range kill — among the longest recorded surface-to-air engagements?",
+  "options": [
+   "Akash-NG",
+   "MRSAM",
+   "S-400 Triumf",
+   "SPYDER"
+  ],
+  "answer": 2,
+  "explanation": "The Russian-origin S-400 Triumf (Indian call-sign \"Sudarshan Chakra\") anchored the air-defence grid and was credited with a ~314 km kill of a Pakistani AEW&C aircraft. India ordered 5 squadrons in 2018 for $5.43 bn.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "\"Mission Divyastra\", conducted in March 2024, refers to:",
+  "options": [
+   "The first MIRV (multiple independently targetable re-entry vehicle) test of Agni-V",
+   "India's second ASAT test",
+   "The maiden test of a hypersonic cruise missile",
+   "The first submarine launch of K-4 missile"
+  ],
+  "answer": 0,
+  "explanation": "Mission Divyastra (Mar 2024) was Agni-V's first flight with MIRV technology — a single missile carrying multiple warheads that can hit different targets.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The approximate range of the Agni-V ballistic missile is:",
+  "options": [
+   "700 km",
+   "2,500 km",
+   "5,000+ km",
+   "10,000 km"
+  ],
+  "answer": 2,
+  "explanation": "Agni-V covers 5,000+ km (ICBM-class, canister-launched). Classic trap: it is NOT 10,000 km. Ladder: Agni-I 700, II 2,000, III 3,000, IV 4,000, V 5,000+.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the BrahMos missile:\n1. It is a supersonic cruise missile.\n2. It is produced by BrahMos Aerospace, an India–Russia joint venture.\n3. Its first export order was signed with the Philippines.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "BrahMos flies at Mach ~2.8–3, is built by the India–Russia JV BrahMos Aerospace, and its first export contract (2022, ~$375 mn) was with the Philippines. Extended-range variants now reach 450–800 km.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match the following systems with their descriptions:\na) Prithvi-II — 1) Beyond-visual-range air-to-air missile\nb) Astra — 2) 350 km surface-to-surface ballistic missile\nc) Pinaka — 3) Multi-barrel rocket launcher\nd) Nirbhay — 4) Subsonic cruise missile",
+  "options": [
+   "a-2, b-1, c-3, d-4",
+   "a-1, b-2, c-4, d-3",
+   "a-2, b-3, c-1, d-4",
+   "a-4, b-1, c-3, d-2"
+  ],
+  "answer": 0,
+  "explanation": "Prithvi-II (350 km SSM), Astra (100+ km BVRAAM), Pinaka (MBRL, 40–75+ km), Nirbhay (~1,000 km subsonic cruise missile).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about \"Mission Shakti\":\n1. It was conducted on March 27, 2019.\n2. It made India the fourth country to demonstrate anti-satellite (ASAT) capability.\n3. The target satellite was destroyed in geostationary orbit.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "explanation": "Statement 3 is wrong: the Microsat-R satellite was hit in LOW Earth orbit (~300 km altitude), not geostationary orbit. India became the 4th ASAT power after the US, Russia and China.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following statements are true about \"Akashteer\"?\n1. Akashteer is the core of the Indian Army's Air Defence system.\n2. It seamlessly integrates India's larger C4ISR network.\n3. It reflects a strategic shift from passive defence to proactive retaliation.",
+  "options": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three statements were true in the 71st BPSC paper. Akashteer is the Army's automated air-defence control and reporting system, networked with C4ISR for sensor-to-shooter response.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following defence platforms are part of India's growing indigenous military ecosystem supporting the Make in India initiative?\n(A) F-35 Lightning II (B) Main Battle Tank (MBT) Arjun (C) Advanced Towed Artillery Gun System (ATAGS)",
+  "options": [
+   "F-35 Lightning II only",
+   "MBT Arjun only",
+   "ATAGS only",
+   "More than one of the above"
+  ],
+  "answer": 3,
+  "explanation": "Verbatim 71st BPSC question. Arjun AND ATAGS are indigenous, so \"More than one of the above\". The F-35 Lightning II is an American (Lockheed Martin) fighter — NOT indigenous.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "What was the theme of DefExpo 2022, held in Gandhinagar, Gujarat?",
+  "options": [
+   "India: The Emerging Defence Manufacturing Hub",
+   "Path to Pride",
+   "Synergy for Defence",
+   "Secure India, Self-Reliant India"
+  ],
+  "answer": 1,
+  "explanation": "69th BPSC PYQ. The 12th DefExpo (Oct 2022, Gandhinagar) carried the theme \"Path to Pride\" and was the first edition reserved exclusively for Indian companies.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ"
+ },
+ {
+  "q": "Where was the Japan-India bilateral Maritime Exercise (JIMEX-24) held?",
+  "options": [
+   "Bay of Bengal",
+   "Yokosuka, Japan",
+   "Visakhapatnam, India",
+   "Western Pacific Ocean"
+  ],
+  "answer": 1,
+  "explanation": "Verbatim 70th BPSC (13 Dec) question. JIMEX-24 was hosted at Yokosuka, Japan. JIMEX pairs with Dharma Guardian (India–Japan army exercise).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match the following exercises with their partner countries:\na) Malabar — 1) France\nb) Varuna — 2) Quad navies (US, Japan, Australia)\nc) Surya Kiran — 3) Kyrgyzstan\nd) Khanjar — 4) Nepal",
+  "options": [
+   "a-2, b-1, c-4, d-3",
+   "a-1, b-2, c-3, d-4",
+   "a-2, b-4, c-1, d-3",
+   "a-3, b-1, c-4, d-2"
+  ],
+  "answer": 0,
+  "explanation": "Malabar = Quad navies (started as India–US bilateral, now 4-nation); Varuna = France (naval); Surya Kiran = Nepal; Khanjar = Kyrgyzstan (special forces).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "\"Tarang Shakti\", whose first edition was held in 2024, is:",
+  "options": [
+   "A bilateral air exercise with France",
+   "A multilateral naval exercise at Visakhapatnam",
+   "The IAF's first multilateral air exercise hosted by India",
+   "A counter-terrorism exercise with Mongolia"
+  ],
+  "answer": 2,
+  "explanation": "Tarang Shakti (Aug–Sep 2024), held at Sulur (Tamil Nadu) and Jodhpur (Rajasthan), was the largest air exercise ever hosted by India, with ~11 nations participating with aircraft.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Exercise \"Milan\" is:",
+  "options": [
+   "A bilateral naval exercise with Sri Lanka",
+   "A biennial multilateral naval exercise held at Visakhapatnam",
+   "An IAF exercise in Rajasthan",
+   "An Army exercise with the UK"
+  ],
+  "answer": 1,
+  "explanation": "Milan (\"meeting\" in Hindi) is the Indian Navy's biennial multilateral gathering of ~50 navies, hosted at Visakhapatnam (2024 edition). It began in 1995 in the Andaman & Nicobar Islands.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Exercise \"Yudh Abhyas\" is conducted between India and which country?",
+  "options": [
+   "Russia",
+   "United States",
+   "United Kingdom",
+   "France"
+  ],
+  "answer": 1,
+  "explanation": "Yudh Abhyas is the India–US army exercise; the 2025 (21st) edition was held at Fort Wainwright, Alaska. (Russia = Indra; UK = Ajeya Warrior; France = Shakti.)",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The \"Hand-in-Hand\" joint exercise, suspended since 2020, is held between India and:",
+  "options": [
+   "Nepal",
+   "Bangladesh",
+   "China",
+   "Maldives"
+  ],
+  "answer": 2,
+  "explanation": "Hand-in-Hand is the India–China counter-terrorism exercise, last held in 2019 (Umroi, Meghalaya) and suspended after the 2020 Ladakh standoff.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "\"Desert Cyclone\", whose first edition was held at Mahajan (Rajasthan) in January 2024, is a joint army exercise between India and:",
+  "options": [
+   "Oman",
+   "United Arab Emirates",
+   "Saudi Arabia",
+   "Egypt"
+  ],
+  "answer": 1,
+  "explanation": "Desert Cyclone is the India–UAE army exercise, launched in 2024 — reflecting deepening Gulf defence ties. (Oman = Al Najah; Egypt = Cyclone special-forces exercise.)",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about INS Vikrant:\n1. It was commissioned on September 2, 2022.\n2. It was built by Cochin Shipyard Limited.\n3. It is India's first indigenously designed and built aircraft carrier.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All correct. INS Vikrant (IAC-1, ~45,000 tonnes) was commissioned at Kochi on Sep 2, 2022 — making India one of the few nations that can design and build its own aircraft carriers.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "INS Arighaat, commissioned in August 2024, is:",
+  "options": [
+   "The first Project 17A stealth frigate",
+   "India's second Arihant-class nuclear-powered ballistic missile submarine (SSBN)",
+   "The sixth Scorpene-class submarine",
+   "An indigenous aircraft carrier"
+  ],
+  "answer": 1,
+  "explanation": "INS Arighaat (commissioned Aug 29, 2024, Visakhapatnam) is the second Arihant-class SSBN, strengthening the sea leg of India's nuclear triad. (P17A lead ship = INS Nilgiri; 6th Scorpene = INS Vaghsheer — both Jan 2025.)",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "INS Nilgiri, commissioned in January 2025, is the lead ship of:",
+  "options": [
+   "Project 17A stealth frigates",
+   "Project 75 Scorpene submarines",
+   "Project 15B destroyers",
+   "The Arihant-class SSBNs"
+  ],
+  "answer": 0,
+  "explanation": "INS Nilgiri is the first of seven Project 17A stealth frigates, commissioned Jan 15, 2025, alongside INS Vaghsheer (6th Kalvari-class) and INS Surat (4th P15B destroyer) in the same ceremony.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "INS Vaghsheer, commissioned in January 2025, is:",
+  "options": [
+   "A nuclear-powered attack submarine",
+   "The lead ship of Project 17A frigates",
+   "The sixth and final Kalvari-class (Scorpene) diesel-electric submarine",
+   "An anti-submarine warfare corvette"
+  ],
+  "answer": 2,
+  "explanation": "INS Vaghsheer completes the six-boat Kalvari class built by Mazagon Dock (MDL) with France's Naval Group under Project 75. The follow-on Project 75I (6 AIP submarines) is pending.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Tejas Mk2 light combat aircraft will be powered by which engine, under a deal involving ~80% Transfer of Technology to India?",
+  "options": [
+   "GE F404",
+   "GE F414",
+   "Kaveri",
+   "AL-31F"
+  ],
+  "answer": 1,
+  "explanation": "The GE F414 deal (announced during PM Modi's 2023 US visit) includes ~80% ToT for co-production by HAL — powering Tejas Mk2 (and early AMCA). Tejas Mk1/Mk1A use the F404.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "\"Zorawar\", developed by DRDO with Larsen & Toubro, is:",
+  "options": [
+   "A light tank designed for high-altitude deployment in Ladakh",
+   "A long-range artillery gun",
+   "An unmanned combat aerial vehicle",
+   "A mine-protected infantry vehicle"
+  ],
+  "answer": 0,
+  "explanation": "Zorawar is a ~25-tonne light tank (named after Gen Zorawar Singh) built for mountain warfare in Ladakh, where heavy MBTs like the Arjun/T-90 cannot operate effectively.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The CCS-cleared upgrade of 84 Su-30MKI fighters by HAL is valued at approximately:",
+  "options": [
+   "₹11,000 crore",
+   "₹63,000 crore",
+   "₹7,800 crore",
+   "₹1.5 lakh crore"
+  ],
+  "answer": 1,
+  "explanation": "The ~₹63,000 crore \"Super Sukhoi\" upgrade of 84 Su-30MKIs adds new radars, avionics, electronic-warfare suites and indigenous weapons (Astra, BrahMos-NG class integration).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In the Union Budget 2026-27, the total allocation for the Ministry of Defence is approximately:",
+  "options": [
+   "₹6.81 lakh crore",
+   "₹5.94 lakh crore",
+   "₹7.85 lakh crore",
+   "₹9.2 lakh crore"
+  ],
+  "answer": 2,
+  "explanation": "₹7.85 lakh crore (₹7,84,678 cr) — a 15.19% jump over BE 2025-26 (₹6.81 lakh cr), ~2% of GDP and 14.67% of total central expenditure; the first budget after Operation Sindoor. Trap: ₹6.81 lakh cr was the PREVIOUS year.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "India's annual defence production in FY 2024-25 reached a record:",
+  "options": [
+   "₹1,27,000 crore",
+   "₹1,50,590 crore",
+   "₹23,622 crore",
+   "₹79,071 crore"
+  ],
+  "answer": 1,
+  "explanation": "₹1,50,590 crore (+18% over FY24's ₹1.27 lakh cr; +90% over FY20's ₹79,071 cr). Don't confuse: ₹23,622 cr = defence EXPORTS FY25; ₹79,071 cr = FY20 production.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "India's defence exports in FY 2024-25 stood at:",
+  "options": [
+   "₹23,622 crore",
+   "₹21,083 crore",
+   "₹50,000 crore",
+   "₹15,920 crore"
+  ],
+  "answer": 0,
+  "explanation": "₹23,622 crore (+12% over ₹21,083 cr in FY24), with exports to 80+ countries. ₹50,000 crore is the TARGET for 2029, not a current figure.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match the following appointments (as of mid-2026):\na) Chief of the Army Staff — 1) Admiral Dinesh K. Tripathi\nb) Chief of the Naval Staff — 2) General Anil Chauhan\nc) Chief of the Air Staff — 3) General Upendra Dwivedi\nd) Chief of Defence Staff — 4) Air Chief Marshal A.P. Singh",
+  "options": [
+   "a-3, b-1, c-4, d-2",
+   "a-1, b-3, c-2, d-4",
+   "a-3, b-2, c-4, d-1",
+   "a-4, b-1, c-3, d-2"
+  ],
+  "answer": 0,
+  "explanation": "COAS: Gen Upendra Dwivedi (Jun 2024); CNS: Adm Dinesh K. Tripathi (Apr 2024); CAS: ACM A.P. Singh (Sep 2024); CDS: Gen Anil Chauhan (since Sep 2022, 2nd CDS).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the current Chairman of DRDO (as of mid-2026)?",
+  "options": [
+   "G. Satheesh Reddy",
+   "Samir V. Kamat",
+   "S. Somanath",
+   "V.K. Saraswat"
+  ],
+  "answer": 1,
+  "explanation": "Dr Samir V. Kamat has headed DRDO since August 2022. (G. Satheesh Reddy = predecessor; S. Somanath = former ISRO chief; V.K. Saraswat = DRDO chief 2009–2013, now NITI Aayog member.)",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the Agnipath scheme:\n1. It recruits \"Agniveers\" for a four-year tenure.\n2. Up to 25% of each batch is retained for regular service.\n3. It was announced in June 2022.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All correct. Agniveers serve 4 years; up to 25% are retained; the rest exit with the tax-free Seva Nidhi package (~₹11.71 lakh) and no pension. Scheme announced June 2022.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The ET-LDHCM, tested by DRDO in November 2024, is:",
+  "options": [
+   "An anti-tank guided missile",
+   "A submarine-launched ballistic missile",
+   "A long-range hypersonic cruise missile",
+   "An exo-atmospheric interceptor"
+  ],
+  "answer": 2,
+  "explanation": "The Extended Trajectory–Long Duration Hypersonic Cruise Missile (range ~1,500 km, scramjet-powered) was tested on Nov 16, 2024, from Dr APJ Abdul Kalam Island, Odisha — putting India in the hypersonic club.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Officers Training Academy (OTA) of the Indian Army located in Bihar is at:",
+  "options": [
+   "Danapur",
+   "Gaya",
+   "Patna",
+   "Bhagalpur"
+  ],
+  "answer": 1,
+  "explanation": "OTA Gaya (commissioned 2011) is one of the Army's two OTAs (the other at Chennai). Danapur hosts the Bihar Regimental Centre — a classic Bihar-GK confusion pair.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]

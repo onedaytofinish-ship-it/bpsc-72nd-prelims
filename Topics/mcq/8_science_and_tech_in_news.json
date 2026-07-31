@@ -1,0 +1,444 @@
+[
+ {
+  "q": "What is true of the GSLV-F15 mission by ISRO? (71st BPSC pattern)",
+  "options": [
+   "It carried the NVS-02 satellite",
+   "It marked ISRO's 101st launch from Sriharikota",
+   "It marked ISRO's 100th launch from Sriharikota",
+   "More than one of the above"
+  ],
+  "answer": 3,
+  "explanation": "Both (A) and (C) are true: GSLV-F15 (Jan 29, 2025) carried the 2nd-generation NavIC satellite NVS-02 and was the 100th launch from Sriharikota. (B) is the trap — it was the 100th, not the 101st.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "ISRO's SpaDeX mission successfully demonstrated space docking on:",
+  "options": [
+   "December 30, 2024",
+   "January 16, 2025",
+   "February 20, 2025",
+   "March 15, 2025"
+  ],
+  "answer": 1,
+  "explanation": "SpaDeX was launched on December 30, 2024 aboard PSLV-C60; the two satellites (SDX01 Chaser and SDX02 Target) docked on January 16, 2025.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "With the SpaDeX docking, India became which-numbered nation to demonstrate docking in space?",
+  "options": [
+   "Second",
+   "Third",
+   "Fourth",
+   "Fifth"
+  ],
+  "answer": 2,
+  "explanation": "India is the fourth nation to achieve space docking, after Russia (USSR), the United States and China.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about NISAR:\n1. It is a joint mission of NASA and ISRO.\n2. It carries L-band and S-band synthetic aperture radars.\n3. It was launched aboard PSLV-C60.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "explanation": "Statements 1 and 2 are correct (NASA provided the L-band radar, ISRO the S-band). Statement 3 is wrong: NISAR flew on GSLV-F16 (Jul 30, 2025); PSLV-C60 carried SpaDeX.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "XPoSat, launched on January 1, 2024, is:",
+  "options": [
+   "India's first dedicated X-ray polarimetry mission",
+   "A solar observatory at the L1 point",
+   "A navigation satellite of the NVS series",
+   "A crew-module test flight for Gaganyaan"
+  ],
+  "answer": 0,
+  "explanation": "XPoSat (PSLV-C58) is India's first X-ray polarimeter satellite — only the second such mission in the world after NASA's IXPE (2021). The solar observatory is Aditya-L1.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about Aditya-L1:\n1. It was launched by PSLV-C57 on September 2, 2023.\n2. It sits in a halo orbit around the Sun-Earth Lagrange point 1, about 1.5 million km from Earth.\n3. It entered its halo orbit in January 2024.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 only"
+  ],
+  "answer": 2,
+  "explanation": "All three are correct. Aditya-L1 is India's first solar observatory; its main payload VELC studies the solar corona. L1 gives an uninterrupted view of the Sun.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "National Space Day, celebrated on August 23 every year, commemorates:",
+  "options": [
+   "The launch of Aryabhata",
+   "The first sounding rocket from Thumba",
+   "The success of SLV-3",
+   "Chandrayaan-3's landing on the Moon"
+  ],
+  "answer": 3,
+  "explanation": "Chandrayaan-3's Vikram lander touched down near the lunar south pole on August 23, 2023; the day was declared National Space Day (first observed in 2024). The landing site is named Shiv Shakti Point.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Group Captain Shubhanshu Shukla's Axiom-4 mission (June 2025) is significant because he became:",
+  "options": [
+   "The first Indian to perform a spacewalk",
+   "The first Indian to travel to the International Space Station",
+   "The first Indian to orbit the Moon",
+   "The commander of Gaganyaan G-1"
+  ],
+  "answer": 1,
+  "explanation": "Shukla, mission pilot of the private Axiom-4 flight, is the first Indian on the ISS and the second Indian in space after Rakesh Sharma (1984). The mission is a precursor to Gaganyaan.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The first Indian citizen to travel to space was:",
+  "options": [
+   "Rakesh Sharma, aboard the Soviet Soyuz T-11 in 1984",
+   "Kalpana Chawla, aboard Columbia in 1997",
+   "Sunita Williams, aboard Discovery in 2006",
+   "Shubhanshu Shukla, aboard Crew Dragon in 2025"
+  ],
+  "answer": 0,
+  "explanation": "Squadron Leader Rakesh Sharma flew to the Salyut-7 station under the Soviet Interkosmos programme (April 1984). Chawla and Williams are American astronauts of Indian origin — a classic BPSC trap.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "'Vyommitra', recently in the news, is:",
+  "options": [
+   "India's lunar rover for Chandrayaan-4",
+   "A reusable first stage of the NGLV",
+   "The half-humanoid robot flying on uncrewed Gaganyaan test missions",
+   "ISRO's quantum-communication satellite"
+  ],
+  "answer": 2,
+  "explanation": "Vyommitra (from 'Vyoma' = space, 'Mitra' = friend) is the female-looking half-humanoid that monitors crew-module parameters on the uncrewed Gaganyaan flights, beginning with G-1 slated for 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "India's crewed Gaganyaan mission will be launched aboard:",
+  "options": [
+   "PSLV-XL",
+   "The human-rated LVM3 (HLVM3)",
+   "GSLV Mk-II",
+   "SSLV"
+  ],
+  "answer": 1,
+  "explanation": "The human-rated LVM3 (HLVM3) is the Gaganyaan launcher; its human-rating is complete and the TV-D1 flight (Oct 2023) validated the Crew Escape System.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "How many astronaut-designates for the Gaganyaan programme were announced in February 2024?",
+  "options": [
+   "Two",
+   "Three",
+   "Four",
+   "Six"
+  ],
+  "answer": 2,
+  "explanation": "Four IAF officers: Group Captains Prashanth Balakrishnan Nair, Ajit Krishnan, Angad Pratap and Shubhanshu Shukla (announced at VSSC, Thiruvananthapuram).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "As per ISRO's 2025-26 roadmap, the first uncrewed Gaganyaan mission (G-1):",
+  "options": [
+   "Is slated for 2026 with the humanoid Vyommitra on board",
+   "Was already flown in December 2024",
+   "Has been cancelled in favour of the BAS programme",
+   "Will carry four astronauts to low-Earth orbit"
+  ],
+  "answer": 0,
+  "explanation": "G-1 is the first uncrewed test flight, planned for 2026 with Vyommitra; it heads a seven-launch sprint announced in Parliament (Dec 2025). Crewed flights follow after uncrewed validation.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "India targets setting up the Bharatiya Antariksh Station (BAS) by:",
+  "options": [
+   "2028",
+   "2030",
+   "2032",
+   "2035"
+  ],
+  "answer": 3,
+  "explanation": "BAS by 2035; an Indian on the Moon by 2040. Both targets were announced in 2023 and the approved programme architecture (Chandrayaan-4, VOM, NGLV) feeds into them.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match List-I (Mission/Programme) with List-II (Description):\na) Chandrayaan-4 — 1) Venus mission, ~2028\nb) Venus Orbiter Mission — 2) Lunar sample-return, ~2027\nc) NGLV \"Soorya\" — 3) Approved reusable next-gen launch vehicle",
+  "options": [
+   "a-1, b-2, c-3",
+   "a-2, b-1, c-3",
+   "a-3, b-2, c-1",
+   "a-2, b-3, c-1"
+  ],
+  "answer": 1,
+  "explanation": "Chandrayaan-4 = lunar sample return (~2027); Venus Orbiter Mission (Shukrayaan) ~2028; NGLV Soorya = the approved ~30t-class reusable rocket. All three were approved together in September 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "What happened with PSLV-C62 in January 2026?",
+  "options": [
+   "It suffered an upper-stage anomaly; the PSLV returned to flight in May 2026 after corrective action",
+   "It carried the NISAR satellite successfully",
+   "It was ISRO's 100th launch from Sriharikota",
+   "It launched the uncrewed Gaganyaan G-1 mission"
+  ],
+  "answer": 0,
+  "explanation": "PSLV-C62 (Jan 2026) saw a rare upper-stage anomaly; ISRO Chairman V. Narayanan announced corrective actions and the workhorse returned to flight in May 2026. NISAR flew on GSLV-F16; the 100th launch was GSLV-F15.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "India's first industry-built PSLV is being produced by:",
+  "options": [
+   "ISRO in-house at SDSC-SHAR",
+   "DRDO",
+   "A HAL–L&T consortium under NSIL supervision",
+   "Skyroot Aerospace"
+  ],
+  "answer": 2,
+  "explanation": "The HAL–L&T consortium is building five PSLV-XL rockets overseen by NSIL; the first industry-built PSLV flew by early 2026 — a milestone in space-sector privatisation.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match List-I (Launch Vehicle) with List-II (Payload Class):\na) SSLV — 1) ~4,000 kg to GTO\nb) PSLV — 2) ~500 kg to LEO\nc) GSLV Mk-II — 3) ~1,750 kg to SSO\nd) LVM3 — 4) ~2,250 kg to GTO",
+  "options": [
+   "a-2, b-3, c-4, d-1",
+   "a-3, b-2, c-4, d-1",
+   "a-2, b-4, c-3, d-1",
+   "a-1, b-3, c-4, d-2"
+  ],
+  "answer": 0,
+  "explanation": "The ladder: SSLV ~500 kg LEO; PSLV ~1,750 kg SSO; GSLV Mk-II ~2,250 kg GTO; LVM3 ~4,000 kg GTO (8-10 t LEO). Mnemonic: S-P-G-L, \"500 to 8000\".",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The cryogenic upper stage (C25) of LVM3 is powered by which engine?",
+  "options": [
+   "Vikas",
+   "CE-7.5",
+   "Scramjet",
+   "CE-20"
+  ],
+  "answer": 3,
+  "explanation": "The CE-20 powers LVM3's C25 cryogenic stage; the smaller CE-7.5 powers GSLV Mk-II's CUS. Vikas is a liquid (non-cryogenic) engine used in PSLV/GSLV lower stages.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "NavIC (IRNSS) is best described as:",
+  "options": [
+   "A regional constellation of 7 satellites covering India and up to ~1,500 km beyond its borders",
+   "A 24-satellite global navigation system",
+   "India's meteorological satellite constellation",
+   "A lunar navigation network"
+  ],
+  "answer": 0,
+  "explanation": "NavIC (\"Navigation with Indian Constellation\") has 7 satellites; the NVS series (NVS-01 in 2023, NVS-02 in Jan 2025 on the 100th-launch GSLV-F15) is its second generation. GPS (24 satellites) is the global American system.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the Chairman of ISRO (as of mid-2026)?",
+  "options": [
+   "S. Somanath",
+   "K. Sivan",
+   "V. Narayanan",
+   "A. S. Kiran Kumar"
+  ],
+  "answer": 2,
+  "explanation": "V. Narayanan took charge as ISRO Chairman and Secretary, Department of Space, on January 13, 2025, succeeding S. Somanath.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Indian Space Research Organisation (ISRO) was established in:",
+  "options": [
+   "1947",
+   "1969",
+   "1972",
+   "1975"
+  ],
+  "answer": 1,
+  "explanation": "ISRO was formed on August 15, 1969 under Dr. Vikram Sarabhai, superseding INCOSPAR (1962). The Department of Space and the Space Commission were created in 1972.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Aryabhata (1975) holds which distinction?",
+  "options": [
+   "India's first satellite — launched by the Soviet Union",
+   "India's first indigenous launch vehicle",
+   "The first Indian craft to reach the Moon",
+   "India's first remote-sensing satellite"
+  ],
+  "answer": 0,
+  "explanation": "Aryabhata, India's first satellite, was launched on April 19, 1975 by a Soviet Kosmos-3M rocket from Kapustin Yar. India's own first orbital launch came with SLV-3 in 1980.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The SLV-3 flight of July 1980 made India:",
+  "options": [
+   "The fourth nation to dock in space",
+   "The first Asian nation to reach Mars",
+   "The third nation to soft-land on the Moon",
+   "The sixth nation to launch its own satellite into orbit (Rohini)"
+  ],
+  "answer": 3,
+  "explanation": "SLV-3 (July 18, 1980) placed the Rohini RS-1 satellite in orbit, making India the sixth spacefaring nation. The project was led by Dr. A.P.J. Abdul Kalam.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Thumba (Kerala) is significant in India's space history because:",
+  "options": [
+   "It is ISRO's headquarters",
+   "India's first sounding rocket was launched there in 1963; it hosts TERLS near the magnetic equator",
+   "It is India's main launch port",
+   "It manufactures cryogenic engines"
+  ],
+  "answer": 1,
+  "explanation": "The first sounding rocket (an American Nike-Apache) lifted off from Thumba on November 21, 1963; the Thumba Equatorial Rocket Launching Station sits near the magnetic equator. The main launch port is SDSC-SHAR, Sriharikota; ISRO HQ is Bengaluru.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The IndiaAI Mission, approved in March 2024, has a total outlay of:",
+  "options": [
+   "₹1,000 crore",
+   "₹5,000 crore",
+   "₹10,371.92 crore",
+   "₹50,000 crore"
+  ],
+  "answer": 2,
+  "explanation": "₹10,371.92 crore over five years, across 7 pillars — including compute capacity (10,000+ GPUs), an innovation centre for indigenous models, datasets, applications, skills, startup financing and safe-AI frameworks.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The India AI Impact Summit of February 16-20, 2026 was notable because it was:",
+  "options": [
+   "Held in New Delhi — the first major global AI summit hosted in the Global South",
+   "Held in Paris alongside the AI Action Summit",
+   "Held in Bengaluru, India's tech capital",
+   "A virtual-only summit convened by the UN"
+  ],
+  "answer": 0,
+  "explanation": "New Delhi hosted the summit (Bharat Mandapam), the first of the global AI summit series in the Global South, adopting the New Delhi Declaration with around 88 endorsers. Paris hosted the 2025 edition.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In which city was the AI Action Summit held in February 2025? (71st BPSC PYQ)",
+  "options": [
+   "Bengaluru",
+   "Paris",
+   "Rome",
+   "More than one of the above"
+  ],
+  "answer": 1,
+  "explanation": "Paris hosted the AI Action Summit (Feb 2025), co-chaired by PM Modi. Sequence to remember: Bletchley Park 2023 → Seoul 2024 → Paris 2025 → New Delhi 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about India's indigenous AI push:\n1. Sarvam AI was selected under the IndiaAI Mission to build foundational AI models.\n2. BharatGen's Param2 is a 17-billion-parameter multimodal model.\n3. AIRAWAT is an AI supercomputer installed at C-DAC, Pune.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct. Together they represent India's sovereign AI stack: models (Sarvam, BharatGen) + compute (AIRAWAT, IndiaAI GPU tender).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The National Quantum Mission entails an outlay of:",
+  "options": [
+   "₹6,003.65 crore, approved in April 2023",
+   "₹10,000 crore, approved in 2024",
+   "₹50,000 crore, approved in 2023",
+   "₹1,000 crore, approved in 2022"
+  ],
+  "answer": 0,
+  "explanation": "The NQM (2023-31) targets 50-1,000 qubit quantum computers, satellite-based quantum communication and quantum sensing, through four thematic hubs. (₹50,000 crore is the ANRF outlay — keep the two apart.)",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The BioE3 Policy, approved in August 2024, is centred on:",
+  "options": [
+   "Biotechnology for Economy, Environment and Employment — high-performance biomanufacturing",
+   "Expansion of nuclear power generation",
+   "Space biotechnology experiments only",
+   "Semiconductor fabrication incentives"
+  ],
+  "answer": 0,
+  "explanation": "BioE3 = Biotechnology for Economy, Environment and Employment. Approved by the Union Cabinet in August 2024, it pushes biomanufacturing, bio-foundries and thematic verticals from smart proteins to precision biotherapeutics.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Genome India Project is associated with:",
+  "options": [
+   "Sequencing 100 human genomes for cancer research",
+   "Completing the sequencing of 10,000 genomes from diverse Indian populations",
+   "Gene-editing of food crops",
+   "A national COVID-19 surveillance network"
+  ],
+  "answer": 1,
+  "explanation": "The Genome India Project (DBT-led, 20+ institutions) completed sequencing 10,000 genomes across India's diverse population groups; the dataset, released in 2025, anchors precision-medicine research.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the U-WIN portal of the Ministry of Health and Family Welfare (71st BPSC pattern):\n1. It digitises the Universal Immunization Programme on the CoWIN model.\n2. It provides QR-based e-vaccination certificates.\n3. It facilitates creation of Ayushman Bharat Health Accounts (ABHA) for parents and children.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct features of U-WIN, which replicates CoWIN for routine immunisation (pregnant women and children), with self-registration, QR e-certificates and ABHA integration.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the Anusandhan National Research Foundation (ANRF):\n1. It was established by an Act of Parliament in 2023.\n2. It has an outlay of ₹50,000 crore for 2023-28.\n3. It subsumes the Science and Engineering Research Board (SERB).\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct. The ANRF Act, 2023 created India's apex research-funding body (₹50,000 crore, 2023-28), subsuming SERB, to seed and fund research across universities and colleges.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]

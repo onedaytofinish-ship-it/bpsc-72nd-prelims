@@ -1,0 +1,431 @@
+[
+ {
+  "q": "As of July 2026, the policy repo rate set by the RBI's Monetary Policy Committee is:",
+  "options": [
+   "5.00%",
+   "5.25%",
+   "5.50%",
+   "6.00%"
+  ],
+  "answer": 1,
+  "explanation": "The repo rate has been 5.25% since the December 2025 cut, and was held at the February, April and June 2026 MPC meetings. The next MPC is in August 2026 — after the exam.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the RBI's 2025-26 easing cycle:\n1. The first cut came in February 2025, taking the repo rate from 6.50% to 6.25%.\n2. The June 2025 MPC cut the repo rate by 50 basis points to 5.50%.\n3. The December 2025 MPC cut the repo rate to 5.25%.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct. The full path: 6.50% → 6.25% (Feb 2025) → 6.00% (Apr 2025) → 5.50% (Jun 2025, 50 bps) → 5.25% (Dec 2025): 125 bps of cumulative cuts.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Standing Deposit Facility (SDF) rate, as of mid-2026, is:",
+  "options": [
+   "5.00%",
+   "5.25%",
+   "5.50%",
+   "3.35%"
+  ],
+  "answer": 0,
+  "explanation": "SDF = Repo − 25 bps = 5.25% − 0.25% = 5.00%. The SDF has been the floor of the LAF corridor since April 2022 (replacing the fixed reverse repo, which stays at 3.35% as a legacy rate).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Marginal Standing Facility (MSF) rate and the Bank Rate are currently:",
+  "options": [
+   "5.00%",
+   "5.25%",
+   "5.50%",
+   "5.75%"
+  ],
+  "answer": 2,
+  "explanation": "MSF = Bank Rate = Repo + 25 bps = 5.50%. MSF is the emergency overnight borrowing window for banks; the Bank Rate is aligned with it.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match the reserve ratios with their current values:\na) Cash Reserve Ratio — 1) 18.00%\nb) Statutory Liquidity Ratio — 2) 3.00%",
+  "options": [
+   "a-1, b-2",
+   "a-2, b-1",
+   "a-2, b-2",
+   "a-1, b-1"
+  ],
+  "answer": 1,
+  "explanation": "CRR = 3.00% (cash kept with RBI, earns no interest; cut from 4.5% in stages since December 2024). SLR = 18.00% (liquid assets including government securities, cash and gold).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the Monetary Policy Committee (MPC):\n1. It has 6 members — 3 from the RBI and 3 external members nominated by the Central Government.\n2. The RBI Governor has a casting vote in case of a tie.\n3. External members hold office for four years.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct. The MPC decides the repo rate by majority vote, meets bi-monthly, and the Governor chairs it with a casting vote. External members get a 4-year term.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under India's Flexible Inflation Targeting framework, the CPI inflation target is:",
+  "options": [
+   "3% with a tolerance of ±2%",
+   "2% with a tolerance of ±2%",
+   "4% with a tolerance of ±2%",
+   "6% with a tolerance of ±1%"
+  ],
+  "answer": 2,
+  "explanation": "The target is 4% CPI inflation with a 2–6% tolerance band (i.e., 4% ± 2%). Breach for three consecutive quarters triggers an RBI explanation to the Government.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The statutory basis for inflation targeting and the Monetary Policy Committee in India is:",
+  "options": [
+   "The Reserve Bank of India Act, 1934, as amended in 2016",
+   "The Banking Regulation Act, 1949",
+   "The Fiscal Responsibility and Budget Management Act, 2003",
+   "A Cabinet resolution of 2015 with no legislative backing"
+  ],
+  "answer": 0,
+  "explanation": "The 2016 amendment to the RBI Act, 1934 inserted Chapter III-F (Section 45ZA onwards), mandating price stability as the primary objective \"while keeping in mind the objective of growth\" and creating the MPC.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Standing Deposit Facility (SDF), introduced in April 2022, is significant because:",
+  "options": [
+   "It allows banks to borrow overnight at rates below the repo rate",
+   "It replaced the fixed reverse repo rate as the floor of the liquidity corridor, letting banks park funds with RBI without collateral",
+   "It pays interest on banks' CRR balances",
+   "It is a long-term lending window for infrastructure finance"
+  ],
+  "answer": 1,
+  "explanation": "The SDF is an uncollateralised absorption window at Repo − 25 bps and is the operative floor of the LAF corridor since April 2022. The fixed reverse repo (3.35%) survives only as a legacy rate.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the current Governor of the Reserve Bank of India (as of mid-2026)?",
+  "options": [
+   "Shaktikanta Das",
+   "Sanjay Malhotra",
+   "Urjit Patel",
+   "Michael Debabrata Patra"
+  ],
+  "answer": 1,
+  "explanation": "Sanjay Malhotra, the 26th RBI Governor, took office on December 11, 2024. A former Revenue Secretary, he has presided over the entire 2025-26 easing cycle (6.50% → 5.25%).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The total reduction in the repo rate since February 2025 is:",
+  "options": [
+   "75 basis points",
+   "100 basis points",
+   "125 basis points",
+   "150 basis points"
+  ],
+  "answer": 2,
+  "explanation": "25 bps (Feb 2025) + 25 bps (Apr 2025) + 50 bps (Jun 2025) + 25 bps (Dec 2025) = 125 bps, from 6.50% to 5.25%.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "At its June 2026 meeting, the MPC:",
+  "options": [
+   "Held the repo rate at 5.25% and revised the FY27 GDP growth projection to 6.6%",
+   "Cut the repo rate by 25 bps to 5.00%",
+   "Raised the repo rate to 5.50% citing inflation",
+   "Held the repo rate and switched stance to accommodative"
+  ],
+  "answer": 0,
+  "explanation": "On June 5, 2026 the MPC held rates with a neutral stance, trimmed the FY27 growth projection to 6.6% (from 6.9% in April) and raised the FY27 CPI projection to 5.1% on energy prices and weak global demand.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The new GDP series released by MoSPI in February 2026 uses which base year?",
+  "options": [
+   "2011-12",
+   "2017-18",
+   "2022-23",
+   "2024-25"
+  ],
+  "answer": 2,
+  "explanation": "The new National Accounts series (released February 27, 2026) shifts the base to 2022-23, replacing 2011-12. The last revision was in 2015. A full back series is due by December 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the new GDP series:\n1. It was released by the Ministry of Statistics and Programme Implementation (MoSPI).\n2. It adopts double deflation for agriculture and manufacturing.\n3. It uses Proportional Denton Benchmarking to align quarterly and annual estimates.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "answer": 1,
+  "explanation": "All three are correct. The series also taps new data sources (GST records, e-Vahan registrations, gas consumption) and better captures the digital economy.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under the new GDP series, India's real GDP growth for FY 2025-26 (Second Advance Estimate) is:",
+  "options": [
+   "6.5%",
+   "7.6%",
+   "8.2%",
+   "9.2%"
+  ],
+  "answer": 1,
+  "explanation": "7.6% per the Second Advance Estimates of February 27, 2026 (revised up from the 7.4% First Advance Estimate under the old series). Real GDP is estimated at about ₹322.6 lakh crore.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "India's real GDP growth in Q3 (October–December 2025) of FY 2025-26 was:",
+  "options": [
+   "7.8%",
+   "8.4%",
+   "6.7%",
+   "6.2%"
+  ],
+  "answer": 0,
+  "explanation": "Q3 FY26 grew 7.8%, moderating from a revised 8.4% in Q2 (Jul–Sep 2025) and 6.7% in Q1. India remained the fastest-growing major economy.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the rebasing revisions:\n1. FY2023-24 growth was revised down from 9.2% to 7.2%.\n2. FY2024-25 growth was revised up from 6.5% to 7.1%.\n3. FY2025-26 growth is estimated at 7.6%.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct. The downward revision of FY24 (9.2% → 7.2%) and upward revision of FY25 (6.5% → 7.1%) are classic BPSC trap material — always quote the new series.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The relationship between GDP and Gross Value Added (GVA) at basic prices is:",
+  "options": [
+   "GDP = GVA + taxes on products − subsidies on products",
+   "GDP = GVA − taxes on products + subsidies on products",
+   "GDP = GVA + depreciation",
+   "GDP and GVA are identical aggregates"
+  ],
+  "answer": 0,
+  "explanation": "GDP = GVA at basic prices + product taxes − product subsidies. GVA shows sector-wise value creation; GDP is the headline demand-side aggregate.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The new Consumer Price Index (CPI) series rolled out by MoSPI in early 2026 uses which base year?",
+  "options": [
+   "2012",
+   "2024",
+   "2022-23",
+   "2011-12"
+  ],
+  "answer": 1,
+  "explanation": "The revised CPI series uses base year 2024 (calendar year), replacing the 2012 base, with updated consumption weights. Note the distinction: CPI base = 2024; GDP base = 2022-23; WPI/IIP base = 2011-12.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "As per the Economic Survey 2025-26, Private Final Consumption Expenditure (PFCE) in FY26:",
+  "options": [
+   "Fell below 55% of GDP for the first time since 2012",
+   "Grew by 3.5%, the slowest in five years",
+   "Grew by 7.0%, reaching 61.5% of GDP — the highest since 2012",
+   "Was overtaken by government consumption as the largest demand component"
+  ],
+  "answer": 2,
+  "explanation": "Consumption is the growth engine: PFCE +7.0%, 61.5% of GDP (highest since 2012), driven by low inflation, rising real incomes and tax rationalisation. GFCF grew 7.8% (~30% of GDP).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Union Budget 2026-27 targets a fiscal deficit of:",
+  "options": [
+   "4.4% of GDP",
+   "4.3% of GDP",
+   "5.1% of GDP",
+   "3.9% of GDP"
+  ],
+  "answer": 1,
+  "explanation": "4.3% of GDP in FY27 BE, down from 4.4% in FY26 RE. Glide path: 9.2% (FY21 pandemic peak) → 6.7% (FY22) → 4.4% (FY26) → 4.3% (FY27).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Public capital expenditure in the Union Budget 2026-27 has been raised to:",
+  "options": [
+   "₹10.2 lakh crore",
+   "₹11.2 lakh crore",
+   "₹11.9 lakh crore",
+   "₹12.2 lakh crore"
+  ],
+  "answer": 3,
+  "explanation": "Capex rises from ₹11.2 lakh crore (FY26) to ₹12.2 lakh crore in FY27. Total expenditure is ₹53.47 lakh crore, of which interest payments alone take 26%.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under the debt glide path adopted from the Budget 2025-26, the Central Government aims to bring its outstanding liabilities to around what level by March 2031?",
+  "options": [
+   "50% of GDP",
+   "40% of GDP",
+   "60% of GDP",
+   "70% of GDP"
+  ],
+  "answer": 0,
+  "explanation": "The anchor is ~50% ± 1% of GDP by FY31 (March 2031). In FY27, central government outstanding liabilities are estimated at 55.6% of GDP.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Economic Survey 2025-26 projects India's real GDP growth for FY 2026-27 in the range of:",
+  "options": [
+   "6.0% – 6.4%",
+   "7.4% – 7.8%",
+   "6.8% – 7.2%",
+   "5.5% – 6.0%"
+  ],
+  "answer": 2,
+  "explanation": "The Survey (tabled January 29, 2026) projects 6.8–7.2% for FY27 and upgrades India's potential growth to ~7%. Compare: RBI's June 2026 projection is 6.6%; S&P's is 7.1%.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the Economic Survey 2025-26:\n1. It was tabled in Parliament on January 29, 2026, a day before the Union Budget.\n2. Headline CPI inflation fell to 1.7%, the lowest reading of the old CPI series.\n3. India's foreign exchange reserves crossed $701 billion.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "answer": 1,
+  "explanation": "All three are correct. The Survey is prepared by the Department of Economic Affairs under the Chief Economic Adviser (V. Anantha Nageswaran); forex reserves hit a record $701.4 bn (~12 months of import cover).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match List-I (Index) with List-II (Publisher):\na) Global Innovation Index — 1) UNDP\nb) Human Development Index — 2) WIPO\nc) Logistics Performance Index — 3) World Bank\nd) SDG India Index — 4) NITI Aayog",
+  "options": [
+   "a-2, b-1, c-3, d-4",
+   "a-1, b-2, c-3, d-4",
+   "a-2, b-3, c-1, d-4",
+   "a-4, b-1, c-3, d-2"
+  ],
+  "answer": 0,
+  "explanation": "GII → WIPO; HDI → UNDP; LPI → World Bank; SDG India Index → NITI Aayog. The 69th BPSC asked the same pattern for the Global Gender Gap Report (World Economic Forum).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "India's rank in the Global Innovation Index 2025 is:",
+  "options": [
+   "46th",
+   "38th",
+   "52nd",
+   "25th"
+  ],
+  "answer": 1,
+  "explanation": "India ranks 38th in the GII 2025 published by WIPO; Switzerland tops the index. India has climbed steadily from 81st in 2015.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In the Human Development Report 2025 (UNDP), India's rank is:",
+  "options": [
+   "118th",
+   "134th",
+   "130th",
+   "105th"
+  ],
+  "answer": 2,
+  "explanation": "India ranks 130th with an HDI value of 0.685 in the 2025 HDR; Iceland tops the index. (Trap pair: World Happiness Report 2025 rank = 118th.)",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In the World Bank's Logistics Performance Index 2023, India ranked:",
+  "options": [
+   "38th out of 139 countries",
+   "54th out of 160 countries",
+   "44th out of 139 countries",
+   "22nd out of 130 countries"
+  ],
+  "answer": 0,
+  "explanation": "India jumped to 38th of 139 in LPI 2023 (from 44th in 2018); Singapore tops. The LPI remains the latest edition as of mid-2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements:\n1. The World Bank discontinued the Ease of Doing Business report after its 2020 edition.\n2. India ranked 63rd in the final Ease of Doing Business report.\n3. Its successor assessment is called B-READY (Business Ready).\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "explanation": "All three are correct. EoDB was scrapped after data-irregularity controversies; the first B-READY report came in 2024. Any option offering a \"latest EoDB rank\" is a trap.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which among the following is a tool of Fiscal Policy? (70th BPSC pattern)",
+  "options": [
+   "Credit Ceiling",
+   "Bank Rate",
+   "Cash Reserve Ratio",
+   "Taxes"
+  ],
+  "answer": 3,
+  "explanation": "Taxes (and public expenditure) are fiscal tools of the Government. Credit ceiling, Bank Rate and CRR are monetary tools of the RBI — the exact classification the 70th BPSC tested.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "As per the Bihar Economic Survey 2025-26, Bihar's per-capita income (current prices, FY 2024-25) is approximately:",
+  "options": [
+   "₹1,31,000",
+   "₹76,490",
+   "₹54,320",
+   "₹99,100"
+  ],
+  "answer": 1,
+  "explanation": "₹76,490 (₹40,973 at constant prices) — the lowest among Indian states; per-capita NSDP is only 31.7% of the all-India average. (₹1.31 lakh is Patna's district figure — a trap.)",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about Bihar's economy (2025-26 cycle):\n1. Bihar's GSDP grew 8.6% at constant prices in 2024-25, above the national average.\n2. The Bihar Budget 2026-27 is about ₹3.47 lakh crore, with education receiving the highest allocation.\n3. Bihar's share of central tax devolution under the 15th Finance Commission is 10.06%, the second highest after Uttar Pradesh.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 3 only"
+  ],
+  "answer": 2,
+  "explanation": "All three are correct: 8.6% constant-price growth (vs national 6.5%); Budget ₹3,47,590 crore with education at ₹68,216 crore; 10.06% devolution share (UP ~17.9% is first).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]

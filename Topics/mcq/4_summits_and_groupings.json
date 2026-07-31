@@ -1,0 +1,431 @@
+[
+ {
+  "q": "Consider the following statements regarding G20 members:\n1. G20 members represent around 85% of the global GDP.\n2. G20 members represent about 75% of global trade.\n3. G20 members represent about 50% of the world population.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "answer": 0,
+  "explanation": "G20 members represent 85% of global GDP and 75% of global trade, but about two-thirds (66%) of the world population, not 50%. (69th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ"
+ },
+ {
+  "q": "Which country officially took over the chairmanship of BRICS on January 1, 2024?",
+  "options": [
+   "Brazil",
+   "Russia",
+   "India",
+   "South Africa"
+  ],
+  "answer": 1,
+  "explanation": "Russia took over the BRICS chairmanship on January 1, 2024. (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "In which city was the Global AI Action Summit held in February 2025?",
+  "options": [
+   "Bengaluru",
+   "New Delhi",
+   "Paris",
+   "Rome"
+  ],
+  "answer": 2,
+  "explanation": "France hosted the Global AI Action Summit in Paris on Feb 10–11, 2025. (71st BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "71th BPSC PYQ"
+ },
+ {
+  "q": "Under whose presidency did the G20 admit the African Union as a permanent member at the 18th summit in September 2023?",
+  "options": [
+   "Indonesia",
+   "South Africa",
+   "India",
+   "Brazil"
+  ],
+  "answer": 2,
+  "explanation": "The permanent admission of the African Union occurred under India's presidency during the New Delhi Summit.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which country hosted the 19th G20 Summit in November 2024 under the theme \"Building a Just World and a Sustainable Planet\"?",
+  "options": [
+   "South Africa",
+   "Brazil",
+   "India",
+   "United States"
+  ],
+  "answer": 1,
+  "explanation": "Brazil hosted the 19th G20 Summit in Rio de Janeiro in November 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which country held the G20 presidency in 2025, representing the first time the summit was hosted by an African nation?",
+  "options": [
+   "Ethiopia",
+   "Egypt",
+   "South Africa",
+   "Nigeria"
+  ],
+  "answer": 2,
+  "explanation": "South Africa assumed the G20 presidency for 2025, hosting the summit in Johannesburg.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 21st G20 Summit is scheduled to be held in which country in 2026?",
+  "options": [
+   "Australia",
+   "Canada",
+   "United States",
+   "France"
+  ],
+  "answer": 2,
+  "explanation": "The G20 Summit in 2026 will be hosted by the United States at Trump's Doral resort in Florida. (2027 = UK; 2028 = South Korea.)",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which city hosted the 16th BRICS Summit in October 2024, the first summit after the official expansion of the grouping?",
+  "options": [
+   "Beijing, China",
+   "Johannesburg, South Africa",
+   "Rio de Janeiro, Brazil",
+   "Kazan, Russia"
+  ],
+  "answer": 3,
+  "explanation": "The 16th BRICS Summit was held in Kazan, Russia, under Russia's 2024 chairmanship.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following countries declined the invitation to join BRICS in January 2024?",
+  "options": [
+   "Egypt",
+   "Argentina",
+   "Iran",
+   "UAE"
+  ],
+  "answer": 1,
+  "explanation": "Under President Javier Milei, Argentina declined the invitation to join BRICS.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "How many full member states does the BRICS grouping have as of 2026?",
+  "options": [
+   "9",
+   "11",
+   "5",
+   "10"
+  ],
+  "answer": 1,
+  "explanation": "BRICS has 11 full members: the original 5 + Egypt, Ethiopia, Iran, Saudi Arabia, UAE (joined Jan 2024) + Indonesia (joined Jan 2025). Argentina declined; a separate 10-country \"partner\" tier also exists.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which country hosted the 24th SCO Summit in July 2024, where Belarus was formally admitted as a member?",
+  "options": [
+   "Tajikistan",
+   "Uzbekistan",
+   "Kazakhstan",
+   "India"
+  ],
+  "answer": 2,
+  "explanation": "The 2024 SCO summit was held in Astana, Kazakhstan.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Where is the permanent headquarters of the Regional Anti-Terrorist Structure (RATS) of the SCO located?",
+  "options": [
+   "Dushanbe, Tajikistan",
+   "Astana, Kazakhstan",
+   "Tashkent, Uzbekistan",
+   "Beijing, China"
+  ],
+  "answer": 2,
+  "explanation": "SCO RATS is headquartered in Tashkent, Uzbekistan. The main SCO Secretariat is in Beijing. Common exam trap!",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In which city was the 50th G7 Summit held in June 2024?",
+  "options": [
+   "Biarritz, France",
+   "Hiroshima, Japan",
+   "Cornwall, United Kingdom",
+   "Borgo Egnazia, Italy"
+  ],
+  "answer": 3,
+  "explanation": "The 50th G7 Summit was hosted by Italy at Borgo Egnazia in Apulia.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 51st G7 Summit was hosted in June 2025 by which country?",
+  "options": [
+   "Canada",
+   "Germany",
+   "United States",
+   "France"
+  ],
+  "answer": 0,
+  "explanation": "Canada hosted the 51st G7 Summit in Kananaskis, Alberta, in June 2025.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "COP29, the 2024 UN Climate Change Conference, was held in which city?",
+  "options": [
+   "Dubai, UAE",
+   "Sharm El Sheikh, Egypt",
+   "Baku, Azerbaijan",
+   "Glasgow, United Kingdom"
+  ],
+  "answer": 2,
+  "explanation": "COP29 was hosted in Baku, Azerbaijan, in November 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which city in Brazil hosted the milestone COP30 climate summit in November 2025?",
+  "options": [
+   "Belém",
+   "Brasília",
+   "São Paulo",
+   "Rio de Janeiro"
+  ],
+  "answer": 0,
+  "explanation": "COP30 was held in Belém, Brazil (Nov 10–22, 2025), near the mouth of the Amazon. Outcomes: \"Global Mutirão\" document, Belém Package, and the Tropical Forests Forever Facility (TFFF).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under the hosting arrangement for COP31 in November 2026, which country handles the logistics in Antalya, and which leads the formal negotiations?",
+  "options": [
+   "Australia (logistics) and Turkey (negotiations)",
+   "None of the above",
+   "United Kingdom (logistics) and Egypt (negotiations)",
+   "Turkey (logistics) and Australia (negotiations)"
+  ],
+  "answer": 3,
+  "explanation": "COP31 features a unique model where Turkey hosts the logistics in Antalya, but Australia leads the negotiations, focusing on the Pacific region.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In which city of Bihar was the G20 Labour 20 (L20) engagement group meeting held in June 2023?",
+  "options": [
+   "Patna",
+   "Rajgir",
+   "Gaya",
+   "Nalanda"
+  ],
+  "answer": 0,
+  "explanation": "The G20 L20 meeting was held in Patna, the capital of Bihar.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match the following summits with their corresponding host countries for the year 2024:\na) G20 Summit — 1) Italy\nb) G7 Summit — 2) Russia\nc) BRICS Summit — 3) Brazil\nd) SCO Summit — 4) Kazakhstan",
+  "options": [
+   "a-1, b-3, c-2, d-4",
+   "a-4, b-1, c-2, d-3",
+   "a-3, b-1, c-4, d-2",
+   "a-3, b-1, c-2, d-4"
+  ],
+  "answer": 3,
+  "explanation": "In 2024, G20 was hosted by Brazil, G7 by Italy, BRICS by Russia, and SCO by Kazakhstan.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which country declined joining BRICS but remains a member of the G20?",
+  "options": [
+   "Iran",
+   "Argentina",
+   "Egypt",
+   "Saudi Arabia"
+  ],
+  "answer": 1,
+  "explanation": "Argentina declined BRICS membership but is an active member of G20. Saudi Arabia, Iran, and Egypt joined BRICS.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Global Alliance Against Hunger and Poverty is a signature initiative launched by which country during its G20 presidency?",
+  "options": [
+   "United States",
+   "Brazil",
+   "South Africa",
+   "India"
+  ],
+  "answer": 1,
+  "explanation": "The Alliance was launched as Brazil's key G20 initiative in Rio in 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In which year was the G7 group founded, and which of the following is NOT an original member?",
+  "options": [
+   "None of the above",
+   "1975 — European Union",
+   "1975 — Russia",
+   "1999 — India"
+  ],
+  "answer": 1,
+  "explanation": "G7 was founded in 1975. The EU is a participant but not one of the original 7 national members. Russia joined later (G8) but was suspended in 2014.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which international grouping has a rotating \"Troika\" system instead of a permanent secretariat?",
+  "options": [
+   "G20",
+   "SCO",
+   "United Nations",
+   "NATO"
+  ],
+  "answer": 0,
+  "explanation": "The G20 has no permanent secretariat. Its operations are guided by the \"Troika\" (previous, current, and upcoming presidencies).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Belarus's admission as the 10th member of SCO was completed at which summit?",
+  "options": [
+   "Astana Summit 2024",
+   "Beijing Summit 2025",
+   "Samarkand Summit 2022",
+   "New Delhi Summit 2023"
+  ],
+  "answer": 0,
+  "explanation": "Formal procedures started in Samarkand, but admission was finalized and signed at Astana in July 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following is correct regarding G21 members?",
+  "options": [
+   "None of the above",
+   "It includes 19 countries plus the EU and the African Union",
+   "It includes 21 sovereign nations",
+   "It includes 20 countries plus the EU"
+  ],
+  "answer": 1,
+  "explanation": "The G21 comprises 19 individual countries, the European Union, and the African Union.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which country was admitted as the 11th member of ASEAN at the 47th Summit in Kuala Lumpur on October 26, 2025?",
+  "options": [
+   "Sri Lanka",
+   "Fiji",
+   "Timor-Leste",
+   "Papua New Guinea"
+  ],
+  "answer": 2,
+  "explanation": "Timor-Leste (East Timor) became ASEAN's 11th member on Oct 26, 2025 — the grouping's first expansion since Cambodia joined in 1999.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which country holds the BRICS chairmanship in 2026?",
+  "options": [
+   "India",
+   "China",
+   "South Africa",
+   "Brazil"
+  ],
+  "answer": 0,
+  "explanation": "India chairs BRICS in 2026, taking over from Brazil (2025). It is India's 4th BRICS chairmanship after 2012, 2016, and 2021.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 25th SCO Summit (2025), which adopted the Tianjin Declaration and Development Strategy 2035, was held in which city?",
+  "options": [
+   "Tianjin",
+   "Astana",
+   "Samarkand",
+   "Qingdao"
+  ],
+  "answer": 0,
+  "explanation": "The 25th SCO Summit was held in Tianjin, China (Aug 31–Sep 1, 2025), themed \"Upholding the Shanghai Spirit\". It condemned the Pahalgam terror attack; PM Modi attended — his first China visit since 2018.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "At the NATO Hague Summit (June 2025), member countries agreed to spend what share of GDP on defence by 2035?",
+  "options": [
+   "5%",
+   "2%",
+   "7%",
+   "3%"
+  ],
+  "answer": 0,
+  "explanation": "NATO members agreed to reach 5% of GDP by 2035 (3.5% core defence + 1.5% defence-related spending). All 32 members had already met the older 2% target.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under the COP30 Belém outcomes, countries agreed to triple adaptation finance by which year?",
+  "options": [
+   "2040",
+   "2028",
+   "2030",
+   "2035"
+  ],
+  "answer": 3,
+  "explanation": "COP30 agreed to triple adaptation finance by 2035 (~$120 bn/yr). Belém also launched the Tropical Forests Forever Facility (TFFF, $125 bn target), but no fossil-fuel phase-out roadmap was adopted.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The India AI Impact Summit (February 2026) — the first global AI summit hosted in the Global South — was held at which venue?",
+  "options": [
+   "Vigyan Bhawan, New Delhi",
+   "Jio World Convention Centre, Mumbai",
+   "HICC, Hyderabad",
+   "Bharat Mandapam, New Delhi"
+  ],
+  "answer": 3,
+  "explanation": "The India AI Impact Summit was held at Bharat Mandapam, New Delhi (Feb 16–20, 2026). It produced the New Delhi Declaration on AI Impact, endorsed by ~88 countries, under the theme \"Sarvajan Hitaya, Sarvajan Sukhaya\".",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the 2025 Johannesburg G20 Summit:\n1. It was the first G20 summit held on African soil.\n2. The Leaders' Declaration was adopted on the very first day of the summit.\n3. The United States attended at the Presidential level.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "answer": 3,
+  "explanation": "Johannesburg (Nasrec, Nov 22–23, 2025) was the first G20 summit on African soil and adopted a 122-paragraph Leaders' Declaration on Day One. Statement 3 is wrong — the US (Trump) boycotted the summit; Argentina also stayed away, and Xi/Putin were absent.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Quad Foreign Ministers' Meeting hosted by India on May 26, 2026, was attended by which US Secretary of State?",
+  "options": [
+   "Antony Blinken",
+   "Mike Pompeo",
+   "John Kerry",
+   "Marco Rubio"
+  ],
+  "answer": 3,
+  "explanation": "Marco Rubio attended the New Delhi Quad FMM (May 26, 2026) — the first Quad ministerial hosted by India since 2023. Note: India chaired the Quad in 2025 but the planned leaders' summit was cancelled.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]

@@ -1,0 +1,444 @@
+[
+ {
+  "q": "With which country did India sign the landmark Economic Cooperation and Trade Agreement (ECTA) in April 2022, which entered into force in December 2022?",
+  "options": [
+   "Japan",
+   "Australia",
+   "United Kingdom",
+   "United Arab Emirates"
+  ],
+  "answer": 1,
+  "explanation": "India signed the ECTA with Australia, eliminating tariffs on over 85% of Australian exports to India. (69th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ"
+ },
+ {
+  "q": "Which country passed the \"Plain Language Act\" mandating simple and easily understandable language in official government documents and websites?",
+  "options": [
+   "New Zealand",
+   "Australia",
+   "Canada",
+   "United Kingdom"
+  ],
+  "answer": 0,
+  "explanation": "The Plain Language Act was enacted by New Zealand. (69th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ"
+ },
+ {
+  "q": "Where was the Japan-India Bilateral Maritime Exercise (JIMEX-24) conducted?",
+  "options": [
+   "Western Pacific Ocean",
+   "Yokosuka, Japan",
+   "Visakhapatnam, India",
+   "Bay of Bengal"
+  ],
+  "answer": 1,
+  "explanation": "JIMEX-24 was hosted by Japan at Yokosuka in June 2024. (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "Consider the following statements regarding the India-EFTA Trade and Economic Partnership Agreement (TEPA):\n1. EFTA comprises Switzerland, Norway, Iceland, and Liechtenstein.\n2. It officially came into force on October 1, 2025.\n3. It features a legally binding commitment to facilitate $100 billion in FDI into India over 15 years.\nWhich of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "answer": 1,
+  "explanation": "All three statements are correct. EFTA has 4 member states; the agreement took effect on Oct 1, 2025, and includes a first-of-its-kind binding $100 billion FDI target.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following sensitive sectors has been excluded from tariff concessions under the India-EFTA TEPA?",
+  "options": [
+   "Dairy products",
+   "Medical devices",
+   "Machinery",
+   "Pharmaceuticals"
+  ],
+  "answer": 0,
+  "explanation": "India excluded sensitive sectors like dairy, soya, and coal to protect domestic industries. EFTA gains access in industrial products.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Initiative on Critical and Emerging Technology (iCET), co-chaired by National Security Advisors, is a bilateral framework between India and which country?",
+  "options": [
+   "Japan",
+   "United States",
+   "United Kingdom",
+   "Russia"
+  ],
+  "answer": 1,
+  "explanation": "iCET is a strategic technology dialogue launched between India and the United States in 2023.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Where was the second annual meeting of the India-US iCET held in June 2024?",
+  "options": [
+   "Bengaluru",
+   "New Delhi",
+   "New York",
+   "Washington D.C."
+  ],
+  "answer": 1,
+  "explanation": "The second annual iCET review meeting was held in New Delhi, co-chaired by Ajit Doval and Jake Sullivan.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "During PM Modi's visit to Abu Dhabi in February 2024, India and UAE signed a Bilateral Investment Treaty (BIT). Which previous agreement does it succeed?",
+  "options": [
+   "2022 CEPA",
+   "2013 BIPPA",
+   "None of the above",
+   "1999 DTAA"
+  ],
+  "answer": 1,
+  "explanation": "The 2024 BIT succeeds the 2013 Bilateral Investment Promotion and Protection Agreement (BIPPA).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "With which country's national card payment network (JAYWAN) did India agree to interlink its RuPay card system in February 2024?",
+  "options": [
+   "Saudi Arabia",
+   "Oman",
+   "United Arab Emirates (UAE)",
+   "Qatar"
+  ],
+  "answer": 2,
+  "explanation": "India and UAE signed agreements to link RuPay with JAYWAN and UPI with UAE's AANI system.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "What is the target bilateral trade volume agreed between India and Russia to be achieved by the year 2030?",
+  "options": [
+   "$150 billion",
+   "$50 billion",
+   "$75 billion",
+   "$100 billion"
+  ],
+  "answer": 3,
+  "explanation": "The $100 billion by 2030 target was set at the 22nd Annual Summit (Moscow, July 2024) and reaffirmed at the 23rd Annual Summit in New Delhi (Dec 4-5, 2025) under the Programme 2030 roadmap.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match the following terms of trade integration with their definitions:\na) PTA — 1) Highest integration; covers goods, services, investments\nb) FTA — 2) Reduces tariffs on a positive list of goods\nc) CEPA — 3) Eliminates tariffs on a wide list of goods",
+  "options": [
+   "a-2, b-1, c-3",
+   "a-1, b-3, c-2",
+   "a-2, b-3, c-1",
+   "a-3, b-2, c-1"
+  ],
+  "answer": 2,
+  "explanation": "PTA is tariff cuts on positive list (a-2); FTA is eliminating tariffs on wide list (b-3); CEPA is highest integration covering services & investment (c-1).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In mid-2024, India replaced its military personnel operating aviation platforms in which country with civilian technical experts?",
+  "options": [
+   "Maldives",
+   "Seychelles",
+   "Mauritius",
+   "Sri Lanka"
+  ],
+  "answer": 0,
+  "explanation": "Following the transition of government in Maldives, military personnel operating helicopters & Dornier planes were replaced by Indian civilian technicians.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In which sector did India and the US agree to co-develop the GE F414 jet engine inside India under the iCET framework?",
+  "options": [
+   "Civil Aviation",
+   "None of the above",
+   "Military Aviation / Defense",
+   "Defence Space"
+  ],
+  "answer": 2,
+  "explanation": "The co-development of GE F414 jet engines for the Tejas Mark 2 aircraft is a key defense deal under iCET.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The India-EFTA trade agreement aims to directly generate how many jobs in India within a 15-year period?",
+  "options": [
+   "2 million jobs",
+   "5 million jobs",
+   "1 million jobs",
+   "500,000 jobs"
+  ],
+  "answer": 2,
+  "explanation": "The EFTA countries legally committed to facilitate creating 1 million direct jobs in India.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under India-UAE agreements, what is the significance of the \"Local Currency Settlement\" (LCS) system?",
+  "options": [
+   "Direct trade transaction in Rupees and Dirhams bypassing US Dollars",
+   "Restricting foreign bank branches",
+   "Fixing a pegged exchange rate",
+   "Capping diaspora remittances"
+  ],
+  "answer": 0,
+  "explanation": "The LCS allows importers and exporters to transact in domestic currencies, saving foreign exchange conversion rates.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which country is adjoining Bihar and represents the largest destination of illegal migrants under border management discussions?",
+  "options": [
+   "Bangladesh",
+   "Bhutan",
+   "Nepal",
+   "Myanmar"
+  ],
+  "answer": 0,
+  "explanation": "Bangladesh shares borders with West Bengal (near Bihar). Bihar shares an open border with Nepal, but illegal migration and transit debates are centered on Bangladesh.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "With which country does Bihar share an international land border of approximately 726 kilometers?",
+  "options": [
+   "Bangladesh",
+   "Bhutan",
+   "Nepal",
+   "China"
+  ],
+  "answer": 2,
+  "explanation": "Bihar shares its only international land border with Nepal, stretching around 726 km. Open border management is a key bilateral topic.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The CECA (Comprehensive Economic Cooperation Agreement) currently under negotiation to expand the ECTA is being discussed with which country?",
+  "options": [
+   "Canada",
+   "European Union",
+   "United Kingdom",
+   "Australia"
+  ],
+  "answer": 3,
+  "explanation": "CECA negotiations with Australia continue (stocktake held in 2025; agri/dairy sticking points) to build upon the interim India-Australia ECTA in force since Dec 29, 2022.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following is NOT a member of the European Free Trade Association (EFTA)?",
+  "options": [
+   "Norway",
+   "Sweden",
+   "Iceland",
+   "Switzerland"
+  ],
+  "answer": 1,
+  "explanation": "Sweden is a member of the European Union, not EFTA. EFTA has Switzerland, Norway, Iceland, and Liechtenstein. Common trap!",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In Feb 2024, India and UAE linked RuPay cards with UAE's domestic card network. What is the name of UAE's card network?",
+  "options": [
+   "JAYWAN",
+   "AANI",
+   "GulfPay",
+   "DirhamCard"
+  ],
+  "answer": 0,
+  "explanation": "UAE's domestic card payment network is JAYWAN. AANI is their instant fast payment platform (linked to UPI).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under the India-US iCET space cooperation agreements, who is scheduled to launch the NISAR satellite?",
+  "options": [
+   "NASA only",
+   "ISRO only",
+   "European Space Agency",
+   "Jointly by NASA and ISRO"
+  ],
+  "answer": 3,
+  "explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) is a joint radar satellite project for earth observation.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which country signed a Comprehensive Economic Partnership Agreement (CEPA) with India in 2022, which saw bilateral trade exceed $80 billion?",
+  "options": [
+   "Japan",
+   "Australia",
+   "South Korea",
+   "UAE"
+  ],
+  "answer": 3,
+  "explanation": "India signed a historic CEPA with UAE in February 2022.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which state in India is the largest recipient of remittances from the Gulf Cooperation Council (GCC) countries, contributing to its domestic consumer demand?",
+  "options": [
+   "Kerala",
+   "Bihar",
+   "Uttar Pradesh",
+   "More than one of the above"
+  ],
+  "answer": 3,
+  "explanation": "While Kerala was historically the highest, recent trends show Uttar Pradesh and Bihar have become massive recipients of GCC remittances, representing \"More than one of the above\".",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "With which country does India have a \"2+2 Ministerial Dialogue\" involving the Defence and Foreign Ministers?",
+  "options": [
+   "United States",
+   "Australia",
+   "Japan",
+   "All the above"
+  ],
+  "answer": 3,
+  "explanation": "India holds 2+2 Ministerial Dialogues with the US, Japan, Australia, Russia, and the UK. Thus, \"All the above\" is correct.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The India-EFTA trade treaty signed in 2024 is officially known as:",
+  "options": [
+   "PTA",
+   "TEPA",
+   "CECA",
+   "CEPA"
+  ],
+  "answer": 1,
+  "explanation": "It is formally named the Trade and Economic Partnership Agreement (TEPA).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The India-UK Comprehensive Economic and Trade Agreement (CETA), signed in London on 24 July 2025, entered into force on:",
+  "options": [
+   "24 July 2025",
+   "6 May 2025",
+   "1 October 2025",
+   "15 July 2026"
+  ],
+  "answer": 3,
+  "explanation": "CETA entered into force on 15 July 2026. Trap: 6 May 2025 was the conclusion of negotiations; 24 July 2025 was the signing.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under the India-UK CETA, the tariff on Scotch whisky follows which path?",
+  "options": [
+   "150% → 75% on day one → 40% over 10 years",
+   "Unchanged at 150%",
+   "150% → 100% → 50% over 5 years",
+   "150% → 0% immediately"
+  ],
+  "answer": 0,
+  "explanation": "Scotch duties drop from 150% to 75% on day one, then to 40% over 10 years. Cars similarly fall from 100%+ to 10% under a quota.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The India-EU Free Trade Agreement, dubbed the \"mother of all deals\", was concluded on:",
+  "options": [
+   "2 February 2026",
+   "18 December 2025",
+   "24 July 2025",
+   "27 January 2026"
+  ],
+  "answer": 3,
+  "explanation": "Concluded at the 16th India-EU Summit, Hyderabad House, on 27 January 2026 (von der Leyen and Costa were Republic Day 2026 chief guests). Ratification is pending; entry into force expected around early 2027.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under the India-US interim trade framework of 2 February 2026, the US \"reciprocal\" tariff on India was cut from 25% to:",
+  "options": [
+   "18%",
+   "21%",
+   "15%",
+   "10%"
+  ],
+  "answer": 0,
+  "explanation": "The reciprocal tariff fell to 18% and the extra 25% Russian-oil penalty was removed, after tariffs had peaked at 50% in 2025. Mission 500 targets $500 billion trade by 2030.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Following the Pahalgam terror attack (22 April 2025), India held the Indus Waters Treaty in abeyance on:",
+  "options": [
+   "10 May 2025",
+   "22 April 2025",
+   "23 April 2025",
+   "6 May 2025"
+  ],
+  "answer": 2,
+  "explanation": "The IWT was held in abeyance on 23 April 2025, a day after the attack (\"terror and water cannot flow together\"). It remains in abeyance as of mid-2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "During Operation Sindoor (May 2025), which pair of cities hosting the JeM and LeT headquarters respectively was struck by India?",
+  "options": [
+   "Karachi and Lahore",
+   "Muzaffarabad and Rawalpindi",
+   "Bahawalpur (JeM) and Muridke (LeT)",
+   "Peshawar and Quetta"
+  ],
+  "answer": 2,
+  "explanation": "Op Sindoor hit 9 terror sites including Bahawalpur (JeM HQ) and Muridke (LeT HQ) — the deepest strikes since 1971. Ceasefire came via the DGMO hotline on 10 May 2025.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 23rd India-Russia Annual Summit (4-5 December 2025) — President Putin's first India visit since 2021 — was held in:",
+  "options": [
+   "Vladivostok",
+   "New Delhi",
+   "Sochi",
+   "Moscow"
+  ],
+  "answer": 1,
+  "explanation": "Held in New Delhi as the Strategic Partnership completed 25 years; outcomes included Programme 2030, the $100bn by 2030 trade target, and new consulates in Yekaterinburg and Kazan.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "UNICORN, announced at the 16th India-Japan Annual Summit (2 July 2026) as the first-ever India-Japan defence co-development project, is a:",
+  "options": [
+   "Fighter jet engine",
+   "Bullet train corridor",
+   "Naval radio antenna system",
+   "Reconnaissance satellite"
+  ],
+  "answer": 2,
+  "explanation": "UNICORN is a naval radio antenna co-developed for Indian warships. The summit with PM Sanae Takaichi also delivered $10bn+ new investment and reaffirmed the ¥10 trillion decade target.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "India signed a Comprehensive Economic Partnership Agreement (CEPA) with Oman on:",
+  "options": [
+   "18 December 2025",
+   "27 January 2026",
+   "6 May 2025",
+   "24 July 2025"
+  ],
+  "answer": 0,
+  "explanation": "The India-Oman CEPA was signed on 18 December 2025 — India's second major Gulf FTA after the UAE CEPA (2022), significant for the diaspora and remittances (incl. from Bihar).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]

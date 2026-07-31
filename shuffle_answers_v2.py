@@ -1,173 +1,206 @@
 #!/usr/bin/env python3
 """
-Shuffle MCQ answer keys across A/B/C/D for any topic.
+Balance MCQ answer keys across A/B/C/D for any topic, keeping HTML and the JSON
+sidecar in lockstep.
 
-Usage: python3 shuffle_answers_v2.py [topic_numbers...]
-If no arguments, shuffles all topics with >15/25 'a' answers.
+Usage:  python3 shuffle_answers_v2.py [topic_numbers...]
+        python3 shuffle_answers_v2.py            # auto: every topic with >40% on one letter
+        python3 shuffle_answers_v2.py --dry-run  # report only, write nothing
+
+REWRITTEN 2026-07-31 after the previous version silently corrupted 92 questions in
+topics 28, 30, 31, 32, 33. The old bugs, all now fixed:
+
+  B1  The option-label regex only matched the `value="a"> A. Text` format. Topics
+      written in the `value="a"> (A) Text` format never matched, so the HTML options
+      were left untouched while the JSON was reshuffled and the HTML `const answers`
+      key was rewritten to the NEW index -> the page marked a different option as
+      correct than the sidecar, and than its own explanation text.
+  B2  Skew detection only looked at answer 'a' (`dist['a'] > 15`). A topic that was
+      80% 'b' was reported as "already balanced" and skipped.
+  B3  The answers-object regex hardcoded `q1:.*?q25:`, so topics with 33-34 MCQs
+      were not updated at all.
+  B4  Per-question random.shuffle() gives a random, not balanced, distribution.
+  B5  A single module-level random.seed(42) made every topic produce the same
+      permutation sequence (topics 69/70/71/142 all landed on 5A/2B/8C/10D).
+  B6  Failures were silent: the JSON was written even when the HTML rewrite failed.
+  B7  Marker stripping was position-blind, so an option like "C. Rangarajan" sitting
+      at position (D) was read as marker "C." + text "Rangarajan".
+
+Guarantees now: every write is all-or-nothing; HTML option text, HTML answer key,
+HTML explanation letter and the JSON sidecar are always updated together, or the
+topic is skipped and reported.
 """
 
-import json
-import os
-import re
-import glob
-import random
-import sys
+import json, os, re, glob, random, sys, html as H, unicodedata
 
-random.seed(42)
-
-TOPICS_DIR = os.path.join(os.path.dirname(__file__), "Topics")
+TOPICS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Topics")
 MCQ_DIR = os.path.join(TOPICS_DIR, "mcq")
+SKEW_LIMIT = 0.40
+
+LABEL_RE = re.compile(
+    r'(<label class="mcq-option"><input type="radio" name="q(\d+)" value=")'
+    r'([abcd])("\s*>)(.*?)(</label>)', re.S)
+# NOTE: requires whitespace after the marker, otherwise initials such as
+# "C.P. Radhakrishnan", "A.O. Hume", "R.C. Dutt" get mangled into "P. Radhakrishnan".
+PREFIX_RE = re.compile(r'^\s*(?:\(([A-D])\)|([A-D])[.)])\s+')
 
 
-def find_files(topic_num):
-    """Find HTML and JSON files for a topic number."""
-    html_files = glob.glob(os.path.join(TOPICS_DIR, f"{topic_num}_*.html"))
-    json_files = glob.glob(os.path.join(MCQ_DIR, f"{topic_num}_*.json"))
-    if html_files and json_files:
-        return html_files[0], json_files[0]
-    return None, None
+def plain(s):
+    s = re.sub(r'<br\s*/?>', ' ', s, flags=re.I)
+    s = re.sub(r'<[^>]+>', '', s)
+    return re.sub(r'\s+', ' ', H.unescape(s).replace('\xa0', ' ')).strip()
 
 
-def get_answer_distribution(html_path):
-    """Get the count of a/b/c/d answers from HTML."""
-    content = open(html_path).read()
-    ans_match = re.search(r'const answers = \{(.*?)\}', content, re.DOTALL)
-    if not ans_match:
-        return None
-    ans_text = ans_match.group(1)
-    answers = re.findall(r"q(\d+): '([abcd])'", ans_text)
-    dist = {'a': 0, 'b': 0, 'c': 0, 'd': 0}
-    for _, letter in answers:
-        dist[letter] += 1
-    return dist
+def strip_marker(s, idx=None):
+    """Drop a leading option marker, but only when it matches the option's own
+    position — otherwise initials like "C. Rangarajan" sitting at position D get
+    mangled into "Rangarajan" and HTML/JSON comparison falsely fails (B7)."""
+    m = PREFIX_RE.match(s)
+    if not m:
+        return s.strip()
+    letter = m.group(1) or m.group(2)
+    if idx is not None and letter != "ABCD"[idx]:
+        return s.strip()
+    return s[m.end():].strip()
 
 
-def shuffle_topic(topic_num):
-    """Shuffle answers for a single topic."""
-    html_path, json_path = find_files(topic_num)
+def norm(s, idx=None):
+    s = unicodedata.normalize('NFKD', str(s))
+    return re.sub(r'[^a-z0-9]', '', strip_marker(s, idx).lower())
+
+
+def find_files(num):
+    h = glob.glob(os.path.join(TOPICS_DIR, f"{num}_*.html"))
+    j = glob.glob(os.path.join(MCQ_DIR, f"{num}_*.json"))
+    return (h[0], j[0]) if h and j else (None, None)
+
+
+def load_questions(json_path):
+    d = json.load(open(json_path, encoding="utf-8"))
+    return d.get("questions", []) if isinstance(d, dict) else d
+
+
+def distribution(qs):
+    d = [0, 0, 0, 0]
+    for q in qs:
+        a = q.get("answer")
+        if isinstance(a, int) and 0 <= a < 4:
+            d[a] += 1
+    return d
+
+
+def balanced_targets(n, seed):
+    """Round-robin A/B/C/D, shuffled — guarantees near-perfect balance (B4)."""
+    rnd = random.Random(seed)
+    t = [i % 4 for i in range(n)]
+    rnd.shuffle(t)
+    return t
+
+
+def detect_style(inner):
+    if not PREFIX_RE.match(inner):
+        return "(%s) "
+    return "(%s) " if inner.lstrip().startswith("(") else "%s. "
+
+
+def shuffle_topic(num, dry_run=False):
+    html_path, json_path = find_files(num)
     if not html_path:
-        print(f"  ✗ Topic {topic_num}: files not found")
-        return False
+        print(f"  x Topic {num}: files not found"); return False
 
-    # Check if needs shuffling
-    dist = get_answer_distribution(html_path)
-    if dist and dist['a'] <= 10:
-        print(f"  ✓ Topic {topic_num}: already balanced ({dist['a']}A {dist['b']}B {dist['c']}C {dist['d']}D) — skipping")
-        return True
+    qs = load_questions(json_path)
+    dist = distribution(qs)
+    total = sum(dist)
+    if not total:
+        print(f"  x Topic {num}: no usable answers"); return False
+    if max(dist) / total <= SKEW_LIMIT:                                   # B2
+        print(f"  = Topic {num}: balanced {dist} ({max(dist)/total*100:.0f}%) — skip"); return True
 
-    # Load JSON
-    with open(json_path, "r") as f:
-        data = json.load(f)
+    html = open(html_path, encoding="utf-8").read()
+    targets = balanced_targets(len(qs), seed=num)                          # B4/B5
+    plan, new_answers = [], {}
 
-    results = []
-    for i, q in enumerate(data):
-        old_correct = q["answer"]
-        old_options = q["options"]
-        correct_text = old_options[old_correct]
+    for i, q in enumerate(qs, 1):
+        opts = q.get("options") or []
+        ans = q.get("answer")
+        if len(opts) != 4 or not isinstance(ans, int):
+            print(f"  x Topic {num}: q{i} malformed — ABORT, nothing written"); return False
+        blk = re.search(
+            r'(<div class="mcq-block" id="q%d">)(.*?)(?=<div class="mcq-block" id="q\d+">'
+            r'|<div class="answer-key|</body>)' % i, html, re.S)
+        if not blk:
+            print(f"  x Topic {num}: q{i} block not found — ABORT"); return False
+        labels = list(LABEL_RE.finditer(blk.group(2)))
+        if len(labels) != 4:                                               # B1/B6
+            print(f"  x Topic {num}: q{i} has {len(labels)} option labels — ABORT"); return False
+        pool = {}
+        for m in labels:
+            k = "abcd".index(m.group(3))
+            inner = m.group(5)
+            pool[norm(plain(inner), k)] = strip_marker(inner, k)
+        if set(pool) != {norm(o, k) for k, o in enumerate(opts)}:          # B6
+            print(f"  x Topic {num}: q{i} HTML/JSON option sets differ — ABORT"); return False
 
-        # Create shuffled order
-        indices = list(range(len(old_options)))
-        random.shuffle(indices)
-        new_options = [old_options[idx] for idx in indices]
-        new_correct = new_options.index(correct_text)
+        correct = opts[ans]
+        others = [o for j, o in enumerate(opts) if j != ans]
+        rnd = random.Random(num * 1000 + i)
+        rnd.shuffle(others)
+        tgt = targets[i - 1]
+        new_opts = others[:tgt] + [correct] + others[tgt:]
+        plan.append((i, blk, labels, pool, new_opts, tgt, detect_style(labels[0].group(5))))
+        new_answers[i] = "abcd"[tgt]
+        q["options"], q["answer"] = new_opts, tgt
 
-        q["options"] = new_options
-        q["answer"] = new_correct
-        results.append((old_correct, new_correct, new_options))
+    if dry_run:
+        print(f"  ~ Topic {num}: would rebalance {dist} -> {distribution(qs)}"); return True
 
-    with open(json_path, "w") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    # --- apply to HTML (all-or-nothing; blocks rewritten back-to-front) ---
+    for i, blk, labels, pool, new_opts, tgt, style in reversed(plan):
+        body = blk.group(2)
+        for k in range(3, -1, -1):
+            m = labels[k]
+            letter, val = "ABCD"[k], "abcd"[k]
+            inner = " " + (style % letter) + pool[norm(new_opts[k], k)]
+            body = body[:m.start()] + m.group(1) + val + m.group(4) + inner + m.group(6) + body[m.end():]
+        body = re.sub(r'(id="exp%d">.{0,60}?Correct Answer:\s*\()[A-D](\))' % i,
+                      lambda mm: mm.group(1) + "ABCD"[tgt] + mm.group(2), body, count=1, flags=re.S)
+        html = html[:blk.start(2)] + body + html[blk.end(2):]
 
-    # Update HTML
-    with open(html_path, "r") as f:
-        content = f.read()
+    km = re.search(r'(const answers\s*=\s*\{)(.*?)(\};)', html, re.S)       # B3
+    if not km:
+        print(f"  x Topic {num}: answers object not found — ABORT"); return False
+    body = km.group(2)
+    for i, letter in new_answers.items():
+        body, n = re.subn(r"(\bq%d\s*:\s*')[abcd](')" % i,
+                          lambda mm: mm.group(1) + letter + mm.group(2), body, count=1)
+        if not n:
+            print(f"  x Topic {num}: q{i} missing from answers object — ABORT"); return False
+    html = html[:km.start(2)] + body + html[km.end(2):]
 
-    # 1. Update option labels for each question
-    for i, (old_correct, new_correct, new_options) in enumerate(results, 1):
-        # Find all option labels for this question
-        opt_label_pattern = re.compile(
-            r'(<label class="mcq-option"><input type="radio" name="q' + str(i) +
-            r'" value=")([abcd])("> )([A-D])(\. )(.*?)(</label>)'
-        )
-
-        opt_matches = list(opt_label_pattern.finditer(content))
-        if len(opt_matches) == len(new_options):
-            # Replace from end to beginning to preserve offsets
-            for j in range(len(opt_matches) - 1, -1, -1):
-                m = opt_matches[j]
-                opt_letter = chr(65 + j)
-                opt_value = chr(97 + j)
-                new_label = (
-                    m.group(1) + opt_value + m.group(3) +
-                    opt_letter + m.group(5) + new_options[j] + m.group(7)
-                )
-                content = content[:m.start()] + new_label + content[m.end():]
-
-    # 2. Update the answers object
-    answers_pattern = re.compile(
-        r'(const answers = \{)\s*' +
-        r'(q1:.*?q25:.*?)' +
-        r'(\s*\})',
-        re.DOTALL
-    )
-
-    ans_match = answers_pattern.search(content)
-    if ans_match:
-        ans_parts = []
-        for i, (old_correct, new_correct, _) in enumerate(results, 1):
-            ans_letter = chr(97 + new_correct)
-            ans_parts.append(f"q{i}: '{ans_letter}'")
-
-        new_answers = ", ".join(ans_parts[:10]) + ",\n  " + ", ".join(ans_parts[10:20]) + ",\n  " + ", ".join(ans_parts[20:])
-        content = content[:ans_match.start()] + "const answers = {\n  " + new_answers + "\n}" + content[ans_match.end():]
-
-    # 3. Update explanation "Correct Answer: (X)"
-    for i, (old_correct, new_correct, _) in enumerate(results, 1):
-        old_letter = chr(65 + old_correct)
-        new_letter = chr(65 + new_correct)
-
-        exp_pattern = re.compile(
-            r'(id="exp' + str(i) + r'">✅ <strong>Correct Answer: \()' +
-            re.escape(old_letter) +
-            r'(\)</strong>)'
-        )
-        content = exp_pattern.sub(r'\g<1>' + new_letter + r'\g<2>', content)
-
-    with open(html_path, "w") as f:
-        f.write(content)
-
-    dist = [0, 0, 0, 0]
-    for _, new_correct, _ in results:
-        dist[new_correct] += 1
-    print(f"  ✓ Topic {topic_num}: shuffled to {dist[0]}A {dist[1]}B {dist[2]}C {dist[3]}D")
+    open(html_path, "w", encoding="utf-8").write(html)
+    json.dump(qs, open(json_path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    print(f"  + Topic {num}: {dist} -> {distribution(qs)}")
     return True
 
 
 def main():
-    if len(sys.argv) > 1:
-        topics = [int(x) for x in sys.argv[1:]]
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    dry = "--dry-run" in sys.argv
+    if args:
+        topics = [int(x) for x in args]
     else:
-        # Auto-find topics needing shuffling
-        print("Auto-detecting topics with >15/25 'a' answers...")
         topics = []
         for n in range(1, 160):
-            html_path, _ = find_files(n)
-            if not html_path:
-                continue
-            dist = get_answer_distribution(html_path)
-            if dist and dist['a'] > 15:
+            _, j = find_files(n)
+            if not j: continue
+            d = distribution(load_questions(j))
+            if sum(d) and max(d) / sum(d) > SKEW_LIMIT:
                 topics.append(n)
         if not topics:
-            print("No topics need shuffling.")
-            return
-
-    print(f"Shuffling {len(topics)} topics: {topics}")
-    print("=" * 60)
-
-    for topic_num in topics:
-        shuffle_topic(topic_num)
-
-    print("\nDone!")
+            print("No topics exceed the skew limit."); return
+    print(f"{'Dry run over' if dry else 'Rebalancing'} {len(topics)} topics: {topics}\n" + "=" * 60)
+    ok = sum(bool(shuffle_topic(n, dry)) for n in topics)
+    print(f"\n{ok}/{len(topics)} succeeded.")
 
 
 if __name__ == "__main__":

@@ -25,6 +25,15 @@
   .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
   .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
   .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+
+  @media print {
+    body { background: #fff; color: #000; font-size: 11pt; }
+    .section, .pyq-box, .prediction-box, table { page-break-inside: avoid; }
+    a { color: #000; text-decoration: none; }
+    a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; color: #555; }
+    .home-btn, .navbar, nav { display: none !important; }
+    h1,h2,h3 { page-break-after: avoid; }
+  }
 </style>
 </head>
 <body>

@@ -6,6 +6,58 @@ import re, sys, os, json, glob
 
 BASE = "/Users/cray/Desktop/BPSC_Topics_kimi/Topics"
 
+
+# --- page/sidecar answer-agreement check (added 2026-07-31) ------------------
+# qa_check used to verify only HTML-internal consistency, which stayed green while
+# shuffle_answers_v2 desynced 97 answer keys. This is the check that catches it.
+import unicodedata as _ud
+_MARK = re.compile(r'^\s*(?:\(([A-D])\)|([A-D])[.)])\s+')
+
+def _plain(s):
+    s = re.sub(r'<br\s*/?>', ' ', s, flags=re.I)
+    s = re.sub(r'<[^>]+>', '', s)
+    import html as _h
+    return re.sub(r'\s+', ' ', _h.unescape(s).replace('\xa0', ' ')).strip()
+
+def _strip_marker(s, idx=None):
+    m = _MARK.match(s)
+    if not m:
+        return s.strip()
+    if idx is not None and (m.group(1) or m.group(2)) != "ABCD"[idx]:
+        return s.strip()
+    return s[m.end():].strip()
+
+def _norm(s, idx=None):
+    return re.sub(r'[^a-z0-9]', '', _strip_marker(_ud.normalize('NFKD', str(s)), idx).lower())
+
+def check_page_sidecar_agreement(html, questions):
+    """Return a list of error strings where the page's keyed option text differs
+    from the sidecar's keyed option text."""
+    errs = []
+    km = re.search(r'const answers\s*=\s*\{(.*?)\};', html, re.S)
+    if not km or not questions:
+        return errs
+    keys = {int(a): l for a, l in re.findall(r"q(\d+)\s*:\s*'([abcd])'", km.group(1))}
+    for i, q in enumerate(questions, 1):
+        blk = re.search(r'<div class="mcq-block" id="q%d">(.*?)(?=<div class="mcq-block" id="q\d+">'
+                        r'|<div class="answer-key|</body>)' % i, html, re.S)
+        if not blk or i not in keys:
+            continue
+        raw = re.findall(r'<label class="mcq-option">.*?value="([abcd])"\s*>(.*?)</label>', blk.group(1), re.S)
+        opts = q.get("options") or []
+        ans = q.get("answer")
+        if len(raw) != 4 or len(opts) != 4 or not isinstance(ans, int):
+            continue
+        page = {v: _norm(_plain(t), "abcd".index(v)) for v, t in raw}
+        side = [_norm(o, k) for k, o in enumerate(opts)]
+        if sorted(page.values()) != sorted(side):
+            continue          # wording differs between page and sidecar; not comparable
+        if page[keys[i]] != side[ans]:
+            errs.append(f"PAGE/SIDECAR KEY DISAGREE q{i}: page marks ({keys[i].upper()}), "
+                        f"sidecar marks ({'ABCD'[ans]}) — different option text")
+    return errs
+# ---------------------------------------------------------------------------
+
 def check_topic(num):
     pages = glob.glob(os.path.join(BASE, f"{num}_*.html"))
     pages = [p for p in pages if not os.path.basename(p).startswith("index")]
@@ -76,6 +128,7 @@ def check_topic(num):
 
     # 8. subpage links exist
     for href in re.findall(r'href="(subpages/[^"]+)"', html):
+        href = href.split('#')[0]
         if not os.path.isfile(os.path.join(BASE, href)):
             errors.append(f"subpage link missing: {href}")
 
@@ -114,6 +167,17 @@ def check_topic(num):
                         errors.append(f"JSON q{i}: empty explanation")
                     if item.get("difficulty") not in ("pyq", "bpsc", "tricky"):
                         errors.append(f"JSON q{i}: bad difficulty {item.get('difficulty')!r}")
+                # the check that catches a desynced answer key (see header note)
+                errors.extend(check_page_sidecar_agreement(html, data))
+                # answer-key balance
+                _d = [0, 0, 0, 0]
+                for _it in data:
+                    _a = _it.get("answer")
+                    if isinstance(_a, int) and 0 <= _a < 4:
+                        _d[_a] += 1
+                if sum(_d) and max(_d) / sum(_d) > 0.40:
+                    errors.append(f"answer-key skew {_d} — {max(_d)/sum(_d)*100:.0f}% on one letter "
+                                  f"(run shuffle_answers_v2.py {num})")
         except Exception as e:
             errors.append(f"JSON sidecar invalid: {e}")
 

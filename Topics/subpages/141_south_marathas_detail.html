@@ -29,7 +29,16 @@
 </style>
 </head>
 <body>
-<style>.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }</style>
+<style>.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: inline-flex; align-items: center; gap: 6px; }
+  @media print {
+    body { background: #fff; color: #000; font-size: 11pt; }
+    .section, .pyq-box, .prediction-box, table { page-break-inside: avoid; }
+    a { color: #000; text-decoration: none; }
+    a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; color: #555; }
+    .home-btn, .navbar, nav { display: none !important; }
+    h1,h2,h3 { page-break-after: avoid; }
+  }
+</style>
 <a href="../index.html" class="home-btn">🏠 Home</a>
 <a href="../141_south_marathas.html" class="back-link">← Back to Topic 141</a>
 

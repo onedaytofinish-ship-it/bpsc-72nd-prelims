@@ -166,3 +166,8 @@
 - **Sections**: Core Content, Fact Matrix, Bihar Connection, Cross-Topic, Current Relevance, MCQ Practice Set, References
 - **QA**: PASS (25 mcq-blocks, all sections present, div balance 0)
 - **Status**: ✅ Committed
+
+## 2026-07-18 — Deployment & Index Fixes
+- **Fixes made**: Updated `Topics/index.html` so topic cards 69-72, 73-77, and 139-142 use active `<a href>` links instead of non-clickable `<div>` wrappers.
+- **Deployment support**: Confirmed `Topics` is the intended publish directory for Cloudflare Pages and added routing support for root-level pages.
+- **Result**: New topic pages now open correctly from the dashboard and the site is ready for Cloudflare Pages deployment.

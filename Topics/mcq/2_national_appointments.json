@@ -1,0 +1,327 @@
+[
+ {
+  "q": "Consider the following statements regarding the Supreme Court Collegium system:\n1. It is a five-member body headed by the incumbent Chief Justice of India.\n2. It comprises four other senior-most judges of the Supreme Court.\n3. The collegium system is explicitly mentioned in Part V of the Constitution of India.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "answer": 3,
+  "explanation": "The Collegium is a 5-member body (CJI + 4 senior-most judges). It is a product of judicial decisions (Judges Cases) and is NOT mentioned in the Constitution text. (69th BPSC PYQ Theme)",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ"
+ },
+ {
+  "q": "Prior to his elevation as a judge of the Supreme Court of India in July 2024, Justice N. Kotiswar Singh was serving as the Chief Justice of which High Court?",
+  "options": [
+   "Manipur High Court",
+   "Gauhati High Court",
+   "None of the above",
+   "Jammu & Kashmir and Ladakh High Court"
+  ],
+  "answer": 3,
+  "explanation": "Justice N. Kotiswar Singh was the Chief Justice of Jammu & Kashmir and Ladakh High Court before his elevation to the SC. (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "Who is the ex-officio Chairperson of the Goods and Services Tax (GST) Council?",
+  "options": [
+   "Union Finance Minister",
+   "Prime Minister of India",
+   "RBI Governor",
+   "Chairman of the Finance Commission"
+  ],
+  "answer": 0,
+  "explanation": "Article 279A states that the Union Finance Minister acts as the Chairperson of the GST Council. (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "Under the Chief Election Commissioner and other Election Commissioners Act, 2023, who is the third member of the Selection Committee besides the Prime Minister and the Leader of the Opposition?",
+  "options": [
+   "A nominated Union Cabinet Minister",
+   "Speaker of Lok Sabha",
+   "Chief Justice of India",
+   "Vice President of India"
+  ],
+  "answer": 0,
+  "explanation": "The Selection Committee comprises the PM (Chairperson), the Leader of the Opposition in Lok Sabha, and a Union Cabinet Minister nominated by the PM. The CJI was excluded by the 2023 Act.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the 26th Governor of the Reserve Bank of India, appointed in December 2024?",
+  "options": [
+   "Sanjay Malhotra",
+   "Suman Bery",
+   "Shaktikanta Das",
+   "Tuhin Kanta Pandey"
+  ],
+  "answer": 0,
+  "explanation": "Sanjay Malhotra (former Revenue Secretary) was appointed as the 26th Governor of the RBI on Dec 11, 2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who became the first BJP Chief Minister of Bihar in April 2026?",
+  "options": [
+   "Nitish Kumar",
+   "Vijay Kumar Sinha",
+   "Samrat Choudhary",
+   "Sushil Kumar Modi"
+  ],
+  "answer": 2,
+  "explanation": "Samrat Choudhary assumed office as the Chief Minister of Bihar on April 15, 2026, heading a BJP-led government.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the 53rd Chief Justice of India, appointed in November 2025?",
+  "options": [
+   "Justice Surya Kant",
+   "Justice B.R. Gavai",
+   "Justice Hrishikesh Roy",
+   "Justice Sanjiv Khanna"
+  ],
+  "answer": 0,
+  "explanation": "Justice Surya Kant took oath as the 53rd CJI on November 24, 2025, succeeding Justice Sanjiv Khanna.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements regarding the Attorney General for India:\n1. The Attorney General is appointed by the President under Article 76 of the Constitution.\n2. R. Venkataramani was re-appointed for a fresh term in October 2025.\n3. The Attorney General has a fixed constitutional tenure of 5 years.\nWhich of the statements given above are correct?",
+  "options": [
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 2 only"
+  ],
+  "answer": 3,
+  "explanation": "Statement 3 is incorrect. The AG holds office during the pleasure of the President and has no fixed tenure under Article 76.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The current Chief of Defence Staff (CDS) of India, appointed in May 2026, is:",
+  "options": [
+   "Admiral Krishna Swaminathan",
+   "Gen. N. S. Raja Subramani",
+   "Gen. Anil Chauhan",
+   "Gen. Dhiraj Seth"
+  ],
+  "answer": 1,
+  "explanation": "Gen. N. S. Raja Subramani was appointed as the 3rd CDS of India on May 31, 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who became the Governor of Bihar in March 2026, succeeding Rajendra Arlekar?",
+  "options": [
+   "C.P. Radhakrishnan",
+   "Santosh Gangwar",
+   "Phagu Chauhan",
+   "Lt. Gen. (Retd.) Syed Ata Hasnain"
+  ],
+  "answer": 3,
+  "explanation": "Lt. Gen. (Retd.) Syed Ata Hasnain took oath as Governor of Bihar on March 14, 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match the following Constitutional office holders with their corresponding Articles:\na) Comptroller and Auditor General — 1) Article 76\nb) Attorney General — 2) Article 324\nc) Chief Election Commissioner — 3) Article 148\nd) Governor — 4) Article 155",
+  "options": [
+   "a-3, b-1, c-4, d-2",
+   "a-1, b-3, c-2, d-4",
+   "a-3, b-1, c-2, d-4",
+   "a-4, b-1, c-2, d-3"
+  ],
+  "answer": 2,
+  "explanation": "CAG is Article 148, AG is Article 76, CEC/ECs are Article 324, and Governor's appointment is Article 155.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the current Chairman of the Union Public Service Commission (UPSC), appointed in mid-2024?",
+  "options": [
+   "Suman Bery",
+   "Preeti Sudan",
+   "K. Sanjay Murthy",
+   "Manoj Soni"
+  ],
+  "answer": 1,
+  "explanation": "Preeti Sudan (former Union Health Secretary) assumed charge as UPSC Chairperson in mid-2024.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who serves as the Chairperson of the 16th Finance Commission, constituted to recommend devolution formulas starting 2026?",
+  "options": [
+   "C. Rangarajan",
+   "N.K. Singh",
+   "Arvind Panagariya",
+   "Vijay Kelkar"
+  ],
+  "answer": 2,
+  "explanation": "Dr. Arvind Panagariya (economist & former Vice-Chair of NITI Aayog) heads the 16th Finance Commission.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 14th Comptroller and Auditor General (CAG) of India, who took charge in November 2024, is:",
+  "options": [
+   "Girish Chandra Murmu",
+   "Rajiv Mehrishi",
+   "K. Sanjay Murthy",
+   "Sanjay Malhotra"
+  ],
+  "answer": 2,
+  "explanation": "K. Sanjay Murthy (former Higher Education Secretary) was sworn in as 14th CAG on Nov 21, 2024, succeeding G.C. Murmu.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who was the first Chief Election Commissioner (CEC) of India?",
+  "options": [
+   "T.N. Seshan",
+   "Sukumar Sen",
+   "K.V.K. Sundaram",
+   "Kalyan Sundaram"
+  ],
+  "answer": 1,
+  "explanation": "Sukumar Sen served as the first CEC of India from 1950 to 1958.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The ex-officio Chairman of the Rajya Sabha is:",
+  "options": [
+   "Vice President of India",
+   "President of India",
+   "Speaker of Lok Sabha",
+   "Prime Minister of India"
+  ],
+  "answer": 0,
+  "explanation": "Under Article 64, the Vice President of India acts as the ex-officio Chairman of the Council of States (Rajya Sabha).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The new Chief of the Army Staff (COAS), appointed on June 30, 2026, is:",
+  "options": [
+   "Gen. Dhiraj Seth",
+   "Gen. Raja Subramani",
+   "Gen. Upendra Dwivedi",
+   "Gen. Manoj Pande"
+  ],
+  "answer": 0,
+  "explanation": "Gen. Dhiraj Seth assumed charge as COAS on June 30, 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who was appointed as the Chief Secretary of Bihar in September 2025?",
+  "options": [
+   "Amir Subhani",
+   "Brajesh Mehrotra",
+   "Pratyay Amrit",
+   "Vinay Kumar"
+  ],
+  "answer": 2,
+  "explanation": "Pratyay Amrit (IAS 1991) assumed charge as Chief Secretary of Bihar on September 1, 2025.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who decides the disqualification of members of a State Legislative Assembly for matters other than the Tenth Schedule?",
+  "options": [
+   "Governor in consultation with the Election Commission",
+   "High Court Chief Justice",
+   "None of the above",
+   "Speaker of the Legislative Assembly"
+  ],
+  "answer": 0,
+  "explanation": "Under Article 192, questions of disqualification (other than defection) are decided by the Governor, whose decision is final after obtaining the opinion of the EC. (70th BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ"
+ },
+ {
+  "q": "Who is the first President of India from Bihar who served two consecutive terms?",
+  "options": [
+   "V.V. Giri",
+   "Dr. Rajendra Prasad",
+   "Dr. Zakir Husain",
+   "Neelam Sanjiva Reddy"
+  ],
+  "answer": 1,
+  "explanation": "Dr. Rajendra Prasad (born in Siwan, Bihar) was the first President of India and served two consecutive terms (1950–1962).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Solicitor General of India, extended for 3 years in July 2026, is:",
+  "options": [
+   "Mukul Rohatgi",
+   "Tushar Mehta",
+   "K.K. Venugopal",
+   "Harish Salve"
+  ],
+  "answer": 1,
+  "explanation": "Tushar Mehta has been Solicitor General since 2018 and received another extension in July 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the CEO of NITI Aayog (as of July 2026)?",
+  "options": [
+   "Amitabh Kant",
+   "Suman Bery",
+   "Arvind Panagariya",
+   "B.V.R. Subrahmanyam"
+  ],
+  "answer": 3,
+  "explanation": "B.V.R. Subrahmanyam serves as the Chief Executive Officer (CEO) of NITI Aayog. Suman Bery is the Vice-Chairperson.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who was appointed as the Chief of the Naval Staff (CNS) on May 31, 2026?",
+  "options": [
+   "Admiral R. Hari Kumar",
+   "None of the above",
+   "Admiral Dinesh K Tripathi",
+   "Admiral Krishna Swaminathan"
+  ],
+  "answer": 3,
+  "explanation": "Admiral Krishna Swaminathan was appointed as the new CNS on May 31, 2026.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who was the Chief Minister of Bihar in March 1939?",
+  "options": [
+   "Deep Narayan Singh",
+   "Anugraha Narayan Sinha",
+   "Shri Krishna Singh",
+   "Sachchidanand Sinha"
+  ],
+  "answer": 2,
+  "explanation": "Shri Krishna Singh headed the first Congress ministry in Bihar and was Chief Minister (Prime Minister of Bihar province) during this period. (71st BPSC PYQ)",
+  "difficulty": "pyq",
+  "pyq_ref": "71th BPSC PYQ"
+ },
+ {
+  "q": "Who is the current Chairperson of the Securities and Exchange Board of India (SEBI), appointed in March 2025?",
+  "options": [
+   "Sanjay Malhotra",
+   "Tuhin Kanta Pandey",
+   "Madhabi Puri Buch",
+   "U.K. Sinha"
+  ],
+  "answer": 1,
+  "explanation": "Tuhin Kanta Pandey replaced Madhabi Puri Buch as SEBI Chairperson on March 1, 2025.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]
