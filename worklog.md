@@ -185,3 +185,14 @@
   - Q9 had MGNREGA at a 60:40 split — it is 100% of unskilled wages + 75% of material from the Centre.
   - Q4 overstated that government employees are excluded from PM-JAY (CGHS/ECHS seniors may switch); Q8 dated Namo Drone Didi to 2024 (Cabinet approval was Nov 2023); Q2, Q6 and Q17 referenced traps that were not among the options.
 - **QA**: `qa_check.py 1` PASS; page/sidecar key agreement clean; div balance 0.
+
+## 2026-07-31 — Bank-wide MCQ quality pass
+- **The giveaway rider.** 332 of 1,592 questions (21%) had the justification appended to the correct option *and to no distractor* — e.g. "Blood group O (no A or B antigens on RBC, so no reaction with recipient's antibodies)" sitting next to a bare "Blood group A". The key was guessable with zero knowledge. Worst offenders: topic 71 at 25/25, topic 72 at 21/25, topic 141 at 19/25.
+  - Fix: `strip_riders.py` moves the rider out of the option and into the explanation (appending it only where the explanation did not already carry the reasoning). 341 questions de-riddled across 46 files; the pattern is now gone from the bank.
+  - Site-wide "correct option is the uniquely longest" fell from **58% → 40%** (random baseline 25%). The residue is questions where the right answer is genuinely wordier, which is normal.
+- **Sidecar/page text drift.** 111 questions had sidecar option wording that had drifted from the page (abbreviations like "VU, EN, CR" for "Vulnerable, Endangered, Critically Endangered", dropped dates, ASCII vs unicode subscripts). `mirror_sidecar.py` rewrote those sidecar options from the page in page order, taking `answer` from the page's own key. This also unblocked the rebalancer, which refuses to touch a topic whose HTML and JSON option sets differ.
+- **Answer-key skew eliminated.** Topics 29, 74, 75 and 76 were the last above the 40% limit; all four rebalanced to 7/6/6/6. **Topics above the skew limit: 14 at the start of the session → 0.**
+- **Marker style normalised** — 25 questions were left mixing `(A)` and `A.` markers within a single question after the rewrites.
+- **Two regex defects in my own tooling, found and fixed mid-pass:** the rider detector treated the hyphen inside "Jean-Baptiste" as a rider marker (so it skipped questions where a distractor merely contained a hyphenated word), and it could not match riders that themselves contained parentheses. Both cost real coverage — the second pass caught 34 more questions.
+- **QA:** 60/62 topics PASS. The two failures are topic 2 (1 image, needs 2) and topic 8 (0 images) — image minimums, no content or key defects. Page/sidecar key agreement clean at 1,592/1,592; div balance 0; no broken links.
+

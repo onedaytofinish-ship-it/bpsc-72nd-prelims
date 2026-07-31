@@ -4,7 +4,7 @@
   "options": [
    "Maharashtra (13th century CE)",
    "Bengal (12th century CE)",
-   "Tamil Nadu (7th-9th century CE, by Alvars and Nayanars)",
+   "Tamil Nadu",
    "North India (15th century CE)"
   ],
   "answer": 2,
@@ -17,7 +17,7 @@
   "options": [
    "Surya (Sun God)",
    "Goddess Durga",
-   "Vishnu (and his avatars, especially Krishna and Rama)",
+   "Vishnu",
    "Shiva"
   ],
   "answer": 2,
@@ -42,7 +42,7 @@
   "q": "Who was the only woman Alvar (and one of the most celebrated Bhakti saints)?",
   "options": [
    "Akka Mahadevi",
-   "Andal (Goda Devi, 8th century CE, Tamil Nadu)",
+   "Andal",
    "Mira Bai",
    "Lalla Ded"
   ],
@@ -70,7 +70,7 @@
    "Dvaita (dualism)",
    "Buddhism",
    "Vishishtadvaita (qualified non-dualism)",
-   "Advaita (non-dualism — Brahman alone is real, the world is maya/illusion)"
+   "Advaita"
   ],
   "answer": 3,
   "explanation": "Adi Shankaracharya (788-820 CE) propounded Advaita (non-dualism). Brahman (the absolute) alone is real; the world is maya (illusion); the individual soul (atman) is identical with Brahman. He established four mathas (monasteries) in four corners of India: Sringeri, Dwarka, Puri, and Jyotirmath. He wrote commentaries on the Upanishads, Brahma Sutras, and Gita.",
@@ -107,7 +107,7 @@
   "q": "Nimbarka (12th-13th century CE) propounded which philosophical school?",
   "options": [
    "Dvaita (dualism)",
-   "Dvaitadvaita (dualistic non-dualism / Bhedabheda)",
+   "Dvaitadvaita",
    "Advaita (non-dualism)",
    "Vishishtadvaita (qualified non-dualism)"
   ],
@@ -159,7 +159,7 @@
   "q": "Kabir's teachings are compiled in which text?",
   "options": [
    "The Guru Granth Sahib",
-   "The Bijak (three sections: Sakhi, Sabad, Ramaina)",
+   "The Bijak",
    "The Adi Granth only",
    "The Vinaya Patrika"
   ],
@@ -199,7 +199,7 @@
   "options": [
    "Shiva",
    "Rama",
-   "Krishna (specifically as Giridhar Gopal)",
+   "Krishna",
    "Goddess Kali"
   ],
   "answer": 2,
@@ -210,7 +210,7 @@
  {
   "q": "Tulsidas (16th century CE) wrote which famous text?",
   "options": [
-   "The Ramcharitmanas (Hindi retelling of the Ramayana, c. 1574 CE)",
+   "The Ramcharitmanas",
    "The Bijak",
    "The Vinaya Patrika",
    "The Sur Sagar"
@@ -223,7 +223,7 @@
  {
   "q": "Surdas (16th century CE) was a Bhakti saint devoted to which aspect of Krishna?",
   "options": [
-   "Childhood Krishna (Bal Krishna, and his playful leelas)",
+   "Childhood Krishna",
    "King Krishna (of Dwarka)",
    "Cosmic Krishna (as in the Gita)",
    "Warrior Krishna (of the Mahabharata)"
@@ -237,7 +237,7 @@
   "q": "Chaitanya Mahaprabhu (16th century CE) was a Bhakti saint from which region?",
   "options": [
    "Gujarat",
-   "Bengal (Nadia district, founded Gaudiya Vaishnavism)",
+   "Bengal",
    "Maharashtra",
    "Tamil Nadu"
   ],
@@ -250,7 +250,7 @@
   "q": "The Sufi movement in India was primarily associated with which religion?",
   "options": [
    "Sikhism",
-   "Islam (mystical tradition within Islam)",
+   "Islam",
    "Hinduism",
    "Buddhism"
   ],

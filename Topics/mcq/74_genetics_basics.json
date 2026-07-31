@@ -1,27 +1,327 @@
 [
-  {"q":"The double-helix structure of DNA was discovered by which scientists?","options":["Louis Pasteur and Robert Koch","Gregor Mendel and Hugo de Vries","Jean-Baptiste Lamarck and Charles Darwin","James Watson & Francis Crick (1953, Nobel 1962)"],"answer":3,"explanation":"Watson & Crick proposed DNA double-helix in 1953 using Franklin's X-ray data (Photo 51) and Wilkins. Nobel 1962 (Franklin had died 1958).","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"In DNA, adenine always pairs with which base?","options":["Guanine","Cytosine","Uracil (found in RNA)","Thymine (A=T, 2 H-bonds)"],"answer":3,"explanation":"A pairs with T (2 H-bonds) in DNA. G pairs with C (3 H-bonds). Uracil replaces Thymine in RNA. Chargaff: A=T, G=C.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Which nitrogenous base is present in RNA but NOT in DNA?","options":["Adenine","Uracil (replaces thymine in RNA)","Guanine","Cytosine"],"answer":1,"explanation":"Uracil (U) is found only in RNA, replacing Thymine. DNA has A,T,G,C; RNA has A,U,G,C.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"The synthesis of mRNA from a DNA template is called:","options":["Replication","Translation","Transduction","Transcription (DNA→mRNA, RNA polymerase)"],"answer":3,"explanation":"Transcription: DNA→mRNA in nucleus (RNA polymerase). Replication=DNA→DNA. Translation=mRNA→protein at ribosome.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Translation (protein synthesis) occurs at which organelle?","options":["Nucleus","Mitochondria","Ribosome","Golgi apparatus"],"answer":2,"explanation":"Translation occurs at ribosomes. mRNA codons read by tRNA; rRNA forms ribosome. Nucleus=transcription. Golgi=protein packaging.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"Mendel's Law of Segregation is also known as:","options":["Law of Dominance","Law of Independent Assortment","Law of Unit Characters","Law of Purity of Gametes"],"answer":3,"explanation":"Segregation = Purity of Gametes: alleles separate during gamete formation; each gamete gets one allele. Shown by monohybrid cross 3:1.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"In a monohybrid cross Tt × Tt, the phenotypic ratio is:","options":["1:1","2:1","1:2:1 (genotypic)","3:1 (phenotypic)"],"answer":3,"explanation":"Phenotypic ratio 3:1 (3 tall:1 short). Genotypic 1:2:1 (TT:Tt:tt). 1:1 is test cross (Tt×tt).","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"In a dihybrid cross RrYy × RrYy, the phenotypic ratio is:","options":["9:3:3:1","3:1","1:1:1:1 (test cross)","9:7 (complementary genes)"],"answer":0,"explanation":"Dihybrid 9:3:3:1 (9 round-yellow:3 round-green:3 wrinkled-yellow:1 wrinkled-green). Demonstrates Independent Assortment.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"The genotypic ratio of a monohybrid cross (Tt × Tt) is:","options":["3:1 (phenotypic)","1:1 (test cross)","1:2:1 (TT:Tt:tt)","9:3:3:1 (dihybrid)"],"answer":2,"explanation":"Genotypic 1:2:1 (1 TT:2 Tt:1 tt). Phenotypic 3:1 (TT+Tt = tall; tt = short). Many confuse phenotype with genotype.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"In humans, the sex of a child is determined by which parent?","options":["Autosomes","The mother (always gives X)","Both equally","The father (X→daughter, Y→son; mother always gives X)"],"answer":3,"explanation":"Father determines sex: X sperm→daughter (XX), Y sperm→son (XY). Mother always contributes X. SRY gene on Y triggers male development.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Haemophilia is an example of which inheritance pattern?","options":["Autosomal dominant","Autosomal recessive","Mitochondrial","X-linked recessive (males more affected; Royal disease)"],"answer":3,"explanation":"Haemophilia = X-linked recessive (factor VIII/IX deficiency). Males hemizygous for X express it. 'Royal disease' via Queen Victoria. Sickle cell/thalassemia are autosomal.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Red-green colour blindness is inherited in which pattern?","options":["Autosomal dominant","Y-linked","X-linked recessive (opsin genes on X; 8% males)","Mitochondrial"],"answer":2,"explanation":"Colour blindness = X-linked recessive. Males express with one affected X; females need two. Father cannot pass to sons (passes Y).","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"Down syndrome is caused by which chromosomal abnormality?","options":["Trisomy 21 (47 chromosomes)","Monosomy X (45,X0 — Turner)","XXY (47 — Klinefelter)","Deletion chr 5 (cri-du-chat)"],"answer":0,"explanation":"Down = Trisomy 21 (3 copies of chr 21). Most common autosomal aneuploidy. Risk ↑ with maternal age. Features: MR, flat face, simian crease, heart defects.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Turner syndrome has which karyotype?","options":["47,XXY (Klinefelter)","47,XXX (Triple X)","47,XYY (XYY syndrome)","45,X0 (monosomy X — female, sterile, only viable monosomy)"],"answer":3,"explanation":"Turner = 45,X0. Female, short, webbed neck, sterile, no puberty. Only viable human monosomy. Klinefelter=47,XXY (male).","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"Klinefelter syndrome karyotype is:","options":["45,X0 (Turner)","47,XYY (XYY syndrome)","47,XXY (male, sterile, gynaecomastia, tall)","46,XX (normal female)"],"answer":2,"explanation":"Klinefelter = 47,XXY. Male, tall, gynaecomastia, small testes, sterile, low testosterone. Most common sex chromosome aneuploidy.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Sickle cell anaemia is inherited in which pattern?","options":["Autosomal dominant","X-linked recessive","Mitochondrial","Autosomal recessive (HbSS=disease, HbAS=trait)"],"answer":3,"explanation":"Sickle cell = autosomal recessive (β-globin on chr 11). HbSS=disease, HbAS=trait. Trait confers malaria resistance (balanced polymorphism).","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"The sickle cell mutation involves substitution of which amino acid?","options":["Glutamic acid → Valine at position 6 of β-globin (GAG→GTG)","Valine → Glutamic acid (reverse)","Lysine → Glutamic acid","Arginine → Histidine"],"answer":0,"explanation":"Point mutation: GAG(Glu)→GTG(Val) at position 6 of β-globin. HbA→HbS. Single nucleotide change. Pauling identified HbS (1949, first molecular disease).","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Thalassemia is a genetic disorder affecting:","options":["Insulin production","Blood clotting factors","Vision","Haemoglobin synthesis (reduced α/β globin chains)"],"answer":3,"explanation":"Thalassemia = reduced α or β globin synthesis → microcytic anaemia, transfusion-dependent. Autosomal recessive. Common in Bihar.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"In pedigree analysis, a trait in every generation affecting both sexes equally is likely:","options":["X-linked recessive","Autosomal dominant (every generation, 50% transmission)","Mitochondrial","Y-linked"],"answer":1,"explanation":"Autosomal dominant: every generation, both sexes equal, 50% transmission. Examples: Huntington's, achondroplasia. X-linked recessive skips generations, males more affected.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Which RNA carries amino acids to the ribosome during translation?","options":["mRNA (messenger)","rRNA (ribosomal)","snRNA (splicing)","tRNA (transfer — anticodon matches codon)"],"answer":3,"explanation":"tRNA carries amino acids; anticodon pairs with mRNA codon at ribosome. mRNA=code carrier. rRNA=ribosome structure. snRNA=splicing.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"How many chromosomes are in a normal human somatic cell?","options":["46 (23 pairs — 22 autosomes + 1 sex pair)","23 (haploid — gametes only)","48 (chimpanzees)","44"],"answer":0,"explanation":"46 chromosomes (23 pairs): 22 autosome pairs + 1 sex pair (XX/XY). Diploid (2n). Gametes are haploid (n=23).","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"DNA replication is 'semi-conservative' because:","options":["Original fully preserved, new copy made (conservative)","DNA fragmented and mixed (dispersive)","Each new DNA has one old + one new strand (Meselson-Stahl 1958)","Only half DNA replicated at a time"],"answer":2,"explanation":"Semi-conservative: each daughter DNA = 1 parental + 1 new strand. Proven by Meselson-Stahl (1958) using 15N/14N E. coli. Universal in all life.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Mendel performed his landmark experiments on which organism?","options":["Pea plant (Pisum sativum, 7 traits, 1866)","Maize (Zea mays)","Fruit fly (Drosophila — Morgan)","Garden bean (Phaseolus)"],"answer":0,"explanation":"Mendel used pea plant (Pisum sativum), 7 traits, ~29,000 plants, Brunn/Brno. Published 1866, rediscovered 1900. Drosophila was used by Morgan (Nobel 1933).","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"A 'test cross' is performed by crossing an organism of unknown genotype with:","options":["Homozygous recessive (tt — reveals if TT or Tt)","Homozygous dominant","Heterozygous","Any random genotype"],"answer":0,"explanation":"Test cross: unknown × homozygous recessive. All dominant offspring→unknown was TT. 1:1 ratio→unknown was Tt. Recessive parent reveals unknown's gametes.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Makhana (Euryale ferox), genetically researched at Darbhanga (Bihar), is significant because:","options":["Major cotton substitute crop","Primary silk-producing plant","High-yielding wheat variety","Aquatic food crop of North Bihar; Bihar >85% of India's makhana; Mithila Makhana GI tag 2010; ICAR-RIU Darbhanga does genetic improvement"],"answer":3,"explanation":"Makhana = aquatic crop of Mithila ponds/wetlands. Bihar >85% national production. GI tag 2010. ICAR-RIU Darbhanga: germplasm, polyploidy (2n=58), high-yielding varieties. Not cotton/silk/wheat.","difficulty":"tricky","pyq_ref":"null"}
+ {
+  "q": "The double-helix structure of DNA was discovered by which scientists?",
+  "options": [
+   "Louis Pasteur and Robert Koch",
+   "James Watson & Francis Crick",
+   "Gregor Mendel and Hugo de Vries",
+   "Jean-Baptiste Lamarck and Charles Darwin"
+  ],
+  "answer": 1,
+  "explanation": "Watson & Crick proposed DNA double-helix in 1953 using Franklin's X-ray data (Photo 51) and Wilkins. Nobel 1962 (Franklin had died 1958).",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "In DNA, adenine always pairs with which base?",
+  "options": [
+   "Uracil (found in RNA, not DNA)",
+   "Guanine",
+   "Cytosine",
+   "Thymine"
+  ],
+  "answer": 3,
+  "explanation": "A pairs with T (2 H-bonds) in DNA. G pairs with C (3 H-bonds). Uracil replaces Thymine in RNA. Chargaff: A=T, G=C.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Which nitrogenous base is present in RNA but NOT in DNA?",
+  "options": [
+   "Guanine",
+   "Uracil",
+   "Cytosine",
+   "Adenine"
+  ],
+  "answer": 1,
+  "explanation": "Uracil (U) is found only in RNA, replacing Thymine. DNA has A,T,G,C; RNA has A,U,G,C.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "The synthesis of mRNA from a DNA template is called:",
+  "options": [
+   "Transcription (DNA→mRNA in nucleus, catalysed by RNA polymerase)",
+   "Replication (DNA→DNA copy)",
+   "Translation (mRNA→protein at ribosome)",
+   "Transduction (bacterial gene transfer by virus)"
+  ],
+  "answer": 0,
+  "explanation": "Transcription: DNA→mRNA in nucleus (RNA polymerase). Replication=DNA→DNA. Translation=mRNA→protein at ribosome.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Translation (protein synthesis) occurs at which organelle?",
+  "options": [
+   "Ribosome (reads mRNA codons; tRNA brings amino acids; rRNA forms ribosome structure)",
+   "Golgi apparatus (protein modification and packaging)",
+   "Nucleus (site of transcription and replication)",
+   "Mitochondria (ATP production)"
+  ],
+  "answer": 0,
+  "explanation": "Translation occurs at ribosomes. mRNA codons read by tRNA; rRNA forms ribosome. Nucleus=transcription. Golgi=protein packaging.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Mendel's Law of Segregation is also known as:",
+  "options": [
+   "Law of Unit Characters (each trait controlled by a factor/allele)",
+   "Law of Purity of Gametes (alleles separate during gamete formation; each gamete gets only one allele)",
+   "Law of Independent Assortment (genes on different chromosomes assort independently)",
+   "Law of Dominance (one allele masks another)"
+  ],
+  "answer": 1,
+  "explanation": "Segregation = Purity of Gametes: alleles separate during gamete formation; each gamete gets one allele. Shown by monohybrid cross 3:1.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "In a monohybrid cross Tt × Tt, the phenotypic ratio is:",
+  "options": [
+   "1:2:1 (this is the GENOTYPIC ratio, TT:Tt:tt)",
+   "1:1 (test cross ratio — Tt × tt)",
+   "2:1",
+   "3:1 (3 tall : 1 short — phenotypic ratio of monohybrid cross)"
+  ],
+  "answer": 3,
+  "explanation": "Phenotypic ratio 3:1 (3 tall:1 short). Genotypic 1:2:1 (TT:Tt:tt). 1:1 is test cross (Tt×tt).",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "In a dihybrid cross RrYy × RrYy, the phenotypic ratio is:",
+  "options": [
+   "9:7 (complementary gene interaction ratio)",
+   "1:1:1:1 (test cross of dihybrid — RrYy × rryy)",
+   "9:3:3:1 (9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green)",
+   "3:1 (monohybrid phenotypic ratio)"
+  ],
+  "answer": 2,
+  "explanation": "Dihybrid 9:3:3:1 (9 round-yellow:3 round-green:3 wrinkled-yellow:1 wrinkled-green). Demonstrates Independent Assortment.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "The genotypic ratio of a monohybrid cross (Tt × Tt) is:",
+  "options": [
+   "1:1 (test cross ratio)",
+   "9:3:3:1 (dihybrid phenotypic ratio)",
+   "1:2:1 (1 TT : 2 Tt : 1 tt — genotypic ratio)",
+   "3:1 (phenotypic, not genotypic)"
+  ],
+  "answer": 2,
+  "explanation": "Genotypic 1:2:1 (1 TT:2 Tt:1 tt). Phenotypic 3:1 (TT+Tt = tall; tt = short). Many confuse phenotype with genotype.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "In humans, the sex of a child is determined by which parent?",
+  "options": [
+   "Both parents equally (incorrect — mother always gives X)",
+   "The father (X sperm → daughter; Y sperm → son; mother always contributes X chromosome)",
+   "The mother (always contributes X)",
+   "Only autosomes determine sex"
+  ],
+  "answer": 1,
+  "explanation": "Father determines sex: X sperm→daughter (XX), Y sperm→son (XY). Mother always contributes X. SRY gene on Y triggers male development.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Haemophilia is an example of which inheritance pattern?",
+  "options": [
+   "X-linked recessive",
+   "Autosomal recessive",
+   "Mitochondrial inheritance",
+   "Autosomal dominant"
+  ],
+  "answer": 0,
+  "explanation": "Haemophilia = X-linked recessive (factor VIII/IX deficiency). Males hemizygous for X express it. 'Royal disease' via Queen Victoria. Sickle cell/thalassemia are autosomal.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Red-green colour blindness is inherited in which pattern?",
+  "options": [
+   "X-linked recessive (defect in opsin genes on X chromosome; ~8% males, <1% females affected)",
+   "Mitochondrial (inherited only from mother)",
+   "Y-linked (passed father to all sons)",
+   "Autosomal dominant"
+  ],
+  "answer": 0,
+  "explanation": "Colour blindness = X-linked recessive. Males express with one affected X; females need two. Father cannot pass to sons (passes Y).",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Down syndrome is caused by which chromosomal abnormality?",
+  "options": [
+   "XXY karyotype (47, XXY — Klinefelter syndrome)",
+   "Monosomy X (45, X0 — Turner syndrome)",
+   "Trisomy 21 (three copies of chromosome 21 — 47 chromosomes total)",
+   "Deletion of chromosome 5 (cri-du-chat syndrome)"
+  ],
+  "answer": 2,
+  "explanation": "Down = Trisomy 21 (3 copies of chr 21). Most common autosomal aneuploidy. Risk ↑ with maternal age. Features: MR, flat face, simian crease, heart defects.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Turner syndrome has which karyotype?",
+  "options": [
+   "45, X0 (monosomy X — female, short stature, webbed neck, sterile, only viable human monosomy)",
+   "47, XYY (XYY syndrome — male, tall, usually normal)",
+   "47, XXY (Klinefelter — male, sterile, gynaecomastia)",
+   "47, Triple-X syndrome (female, mild/normal phenotype)"
+  ],
+  "answer": 0,
+  "explanation": "Turner = 45,X0. Female, short, webbed neck, sterile, no puberty. Only viable human monosomy. Klinefelter=47,XXY (male).",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Klinefelter syndrome karyotype is:",
+  "options": [
+   "46, XX (normal female karyotype)",
+   "47, XYY (XYY syndrome — male, tall)",
+   "45, X0 (Turner syndrome — female)",
+   "47, XXY (male, tall, long limbs, gynaecomastia, small testes, sterile — most common sex chromosome aneuploidy)"
+  ],
+  "answer": 3,
+  "explanation": "Klinefelter = 47,XXY. Male, tall, gynaecomastia, small testes, sterile, low testosterone. Most common sex chromosome aneuploidy.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Sickle cell anaemia is inherited in which pattern?",
+  "options": [
+   "Autosomal recessive (HbSS = disease; HbAS = trait; both parents must be carriers)",
+   "Mitochondrial inheritance (incorrect — not maternally inherited only)",
+   "X-linked recessive (incorrect — the β-globin gene is on chromosome 11, an autosome)",
+   "Autosomal dominant (one copy causes disease — incorrect)"
+  ],
+  "answer": 0,
+  "explanation": "Sickle cell = autosomal recessive (β-globin on chr 11). HbSS=disease, HbAS=trait. Trait confers malaria resistance (balanced polymorphism).",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "The sickle cell mutation involves substitution of which amino acid?",
+  "options": [
+   "Arginine → Histidine (haemoglobin M mutation)",
+   "Lysine → Glutamic acid at position 6",
+   "Valine → Glutamic acid (the reverse — incorrect)",
+   "Glutamic acid → Valine at position 6 of the β-globin chain (GAG→GTG, HbA→HbS)"
+  ],
+  "answer": 3,
+  "explanation": "Point mutation: GAG(Glu)→GTG(Val) at position 6 of β-globin. HbA→HbS. Single nucleotide change. Pauling identified HbS (1949, first molecular disease).",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Thalassemia is a genetic disorder affecting:",
+  "options": [
+   "Blood clotting factors (haemophilia — X-linked)",
+   "Insulin production (diabetes — not genetic haemoglobin disorder)",
+   "Haemoglobin synthesis (reduced α or β globin chain production → microcytic anaemia, transfusion-dependent)",
+   "Vision (colour blindness — X-linked)"
+  ],
+  "answer": 2,
+  "explanation": "Thalassemia = reduced α or β globin synthesis → microcytic anaemia, transfusion-dependent. Autosomal recessive. Common in Bihar.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "In pedigree analysis, a trait in every generation affecting both sexes equally is likely:",
+  "options": [
+   "X-linked recessive (skips generations, males more affected — incorrect)",
+   "Autosomal dominant (every generation, both sexes equally, 50% transmission)",
+   "Y-linked (only males, father→all sons — not both sexes)",
+   "Mitochondrial (passed only mother→all children — not every generation from both sexes)"
+  ],
+  "answer": 1,
+  "explanation": "Autosomal dominant: every generation, both sexes equal, 50% transmission. Examples: Huntington's, achondroplasia. X-linked recessive skips generations, males more affected.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Which RNA carries amino acids to the ribosome during translation?",
+  "options": [
+   "rRNA (ribosomal — forms ribosome structure)",
+   "tRNA (transfer — carries specific amino acid; anticodon matches mRNA codon)",
+   "mRNA (messenger — carries genetic code from DNA)",
+   "snRNA (small nuclear — splicing of introns)"
+  ],
+  "answer": 1,
+  "explanation": "tRNA carries amino acids; anticodon pairs with mRNA codon at ribosome. mRNA=code carrier. rRNA=ribosome structure. snRNA=splicing.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "How many chromosomes are in a normal human somatic cell?",
+  "options": [
+   "48 (chimpanzees have 48; humans have 46)",
+   "23 (this is the haploid number — found only in gametes: sperm/egg)",
+   "46 (23 pairs — 22 pairs of autosomes + 1 pair of sex chromosomes; XX or XY)",
+   "44 (incorrect — this would exclude sex chromosomes)"
+  ],
+  "answer": 2,
+  "explanation": "46 chromosomes (23 pairs): 22 autosome pairs + 1 sex pair (XX/XY). Diploid (2n). Gametes are haploid (n=23).",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "DNA replication is 'semi-conservative' because:",
+  "options": [
+   "DNA is broken into fragments and mixed with new DNA (dispersive model)",
+   "Only half of the DNA is replicated at a time",
+   "Each new DNA molecule has one old (parental) strand and one newly synthesised strand",
+   "The original DNA is fully preserved and a completely new copy is made (conservative model)"
+  ],
+  "answer": 2,
+  "explanation": "Semi-conservative: each daughter DNA = 1 parental + 1 new strand. Proven by Meselson-Stahl (1958) using 15N/14N E. coli. Universal in all life.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Mendel performed his landmark experiments on which organism?",
+  "options": [
+   "Garden bean (Phaseolus — Mendel tried but results were complex)",
+   "Fruit fly (Drosophila melanogaster — used by Morgan for chromosome theory)",
+   "Maize (Zea mays — used later by other geneticists)",
+   "Pea plant (Pisum sativum — 7 traits, monastery garden in Brunn/Brno, published 1866)"
+  ],
+  "answer": 3,
+  "explanation": "Mendel used pea plant (Pisum sativum), 7 traits, ~29,000 plants, Brunn/Brno. Published 1866, rediscovered 1900. Drosophila was used by Morgan (Nobel 1933).",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "A 'test cross' is performed by crossing an organism of unknown genotype with:",
+  "options": [
+   "Homozygous recessive (e.g., tt — if all offspring show dominant trait, unknown was homozygous dominant; if 1:1 ratio, unknown was heterozygous)",
+   "Heterozygous (this is not a test cross — gives ambiguous results)",
+   "Homozygous dominant (all offspring would show dominant trait — cannot distinguish)",
+   "Any random genotype (defeats the purpose — results would be uninterpretable)"
+  ],
+  "answer": 0,
+  "explanation": "Test cross: unknown × homozygous recessive. All dominant offspring→unknown was TT. 1:1 ratio→unknown was Tt. Recessive parent reveals unknown's gametes.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Makhana (Euryale ferox), genetically researched at Darbhanga (Bihar), is significant because:",
+  "options": [
+   "It is the primary silk-producing plant of Bihar",
+   "It is a high-yielding wheat variety developed at Darbhanga",
+   "It is a major cotton substitute crop in Bihar",
+   "It is an aquatic food crop cultivated in ponds/wetlands of North Bihar (Mithila region); Bihar produces >85% of India's makhana; \"Mithila Makhana\" has GI tag (2010); ICAR-RIU Darbhanga works on germplasm & genetic improvement"
+  ],
+  "answer": 3,
+  "explanation": "Makhana = aquatic crop of Mithila ponds/wetlands. Bihar >85% national production. GI tag 2010. ICAR-RIU Darbhanga: germplasm, polyploidy (2n=58), high-yielding varieties. Not cotton/silk/wheat.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ }
 ]

@@ -1,27 +1,327 @@
 [
-  {"q":"The five kingdom classification was proposed by whom and in which year?","options":["Carl Linnaeus (1735)","Ernst Haeckel (1866)","Carl Woese (1990)","R.H. Whittaker (1969)"],"answer":3,"explanation":"Whittaker (1969) classified into Monera, Protista, Fungi, Plantae, Animalia based on cell structure, body organisation, nutrition, reproduction & phylogeny.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"The cell wall of fungi is composed of which substance?","options":["Cellulose","Chitin","Peptidoglycan","Lipids"],"answer":1,"explanation":"Fungal cell wall = chitin (N-acetylglucosamine); same as arthropod exoskeleton. Plant=cellulose, Bacteria=peptidoglycan, Animals=no cell wall.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Which kingdom includes prokaryotic organisms lacking a true nucleus?","options":["Protista","Fungi","Monera","Plantae"],"answer":2,"explanation":"Monera = prokaryotes (no nucleus/organelles, 70S ribosomes). Includes bacteria, cyanobacteria, archaebacteria, Mycoplasma.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"Binomial nomenclature was introduced by which scientist?","options":["R.H. Whittaker","Carl Woese","Carl Linnaeus (1758)","Charles Darwin"],"answer":2,"explanation":"Linnaeus introduced Genus+species naming in Systema Naturae (10th ed., 1758). Father of Taxonomy.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"The Three Domain system (Archaea, Bacteria, Eukarya) was proposed by whom and on what basis?","options":["Whittaker (1969), cell structure","Linnaeus (1758), morphology","Carl Woese (1990), rRNA sequence analysis","Haeckel (1866), body organisation"],"answer":2,"explanation":"Woese (1990) used 16S/18S rRNA. Showed Archaea & Bacteria as distinct as each is from Eukarya.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Bryophytes are called the 'amphibians of the plant kingdom' because they:","options":["Live both on land and in water","Have gills for respiration","Need water for fertilisation & lack vascular tissue","Have a four-chambered heart"],"answer":2,"explanation":"Bryophytes (mosses) live on land but need water for motile male gametes to reach egg. No xylem/phloem; have rhizoids. First land plants.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Which is the LARGEST animal phylum by number of species?","options":["Mollusca","Chordata","Annelida","Arthropoda"],"answer":3,"explanation":"Arthropoda = ~80% of animal species (>1.2 million). Jointed legs, chitin exoskeleton, moulting. Mollusca is 2nd largest.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Stinging cells (nematocysts) are characteristic of which phylum?","options":["Porifera","Platyhelminthes","Cnidaria","Echinodermata"],"answer":2,"explanation":"Cnidaria (hydra, jellyfish) have cnidoblasts/nematocysts for defence & prey. Diploblastic, radial symmetry, polyp/medusa forms.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"Match: 1.Earthworm 2.Tapeworm 3.Ascaris 4.Starfish","options":["1-Annelida,2-Platyhelminthes,3-Nematoda,4-Echinodermata","1-Nematoda,2-Annelida,3-Platyhelminthes,4-Mollusca","1-Platyhelminthes,2-Nematoda,3-Annelida,4-Chordata","1-Mollusca,2-Echinodermata,3-Annelida,4-Porifera"],"answer":0,"explanation":"Earthworm=Annelida (segmented), Tapeworm=Platyhelminthes (flat), Ascaris=Nematoda (round), Starfish=Echinodermata (water vascular system).","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"The Gangetic Dolphin (Platanista gangetica) belongs to which vertebrate class?","options":["Pisces","Reptilia","Aves","Mammalia"],"answer":3,"explanation":"Dolphin is a mammal — warm-blooded, lungs, viviparous, mammary glands. National Aquatic Animal. Blind, uses echolocation. NOT a fish.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Monocots differ from dicots in which combination?","options":["Monocots: 2 cotyledons, reticulate; Dicots: 1, parallel","Monocots: taproot; Dicots: fibrous","Monocots: 1 cotyledon, parallel venation, fibrous roots; Dicots: 2 cotyledons, reticulate, taproot","Monocots: floral parts in 4s/5s; Dicots: in 3s"],"answer":2,"explanation":"Monocots=1 cotyledon, parallel venation, fibrous root, floral parts in 3s, scattered vascular bundles. Dicots=2 cotyledons, reticulate, taproot, parts in 4/5, bundles in ring.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Which organism is the 'connecting link' between plants and animals?","options":["Paramecium","Euglena","Amoeba","Spirogyra"],"answer":1,"explanation":"Euglena has chloroplasts (photosynthesis, plant-like) + feeds heterotrophically + lacks cell wall (animal-like). Kingdom Protista.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"'Amphibians of the plant kingdom' refers to which group?","options":["Thallophyta (algae)","Gymnosperms","Bryophyta (mosses & liverworts)","Pteridophyta (ferns)"],"answer":2,"explanation":"Bryophytes — first land plants, need water for fertilisation, no vascular tissue, rhizoids. Mnemonic trap: Pteridophytes also need water but the specific phrase is reserved for Bryophytes.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"Makhana (Euryale ferox), Bihar's GI-tagged aquatic crop, belongs to which family & group?","options":["Poaceae / Monocot","Fabaceae / Dicot","Nymphaeaceae / Dicot (water lily family)","Solanaceae / Dicot"],"answer":2,"explanation":"Makhana = Euryale ferox, family Nymphaeaceae, Angiosperm-Dicot. Bihar >85% of world production. 'Mithila Makhana' GI tag 2022.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Gymnosperms differ from angiosperms in which key feature?","options":["Gymnosperms have flowers","Gymnosperms have enclosed seeds","Gymnosperms have naked seeds; angiosperms have enclosed seeds & flowers","Gymnosperms are non-vascular"],"answer":2,"explanation":"Gymnosperms (Pinus, Cycas) = naked seeds, no flower/fruit. Angiosperms = seeds enclosed in fruit, bear flowers. Both are vascular seed plants.","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"The exoskeleton of arthropods is made of which substance?","options":["Cellulose","Peptidoglycan","Chitin","Keratin"],"answer":2,"explanation":"Arthropod exoskeleton = chitin (same as fungal cell wall). Moulting/ecdysis needed to grow. Keratin is vertebrate (hair, nails).","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Which is NOT a characteristic of phylum Echinodermata?","options":["Water vascular system","Calcareous endoskeleton with spines","Radial symmetry in adults, bilateral in larvae; marine","Jointed appendages and chitin exoskeleton"],"answer":3,"explanation":"Jointed appendages + chitin exoskeleton are Arthropoda features. Echinoderms (starfish) have water vascular system, tube feet, calcareous plates, radial adults, marine only.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Which animal has a FOUR-chambered heart?","options":["Fish (Pisces)","Frog (Amphibia)","Lizard (Reptilia — most)","Crocodile (only reptile with 4 chambers)"],"answer":3,"explanation":"Crocodile is the only reptile with 4-chambered heart. Birds & mammals also have 4 chambers. Sequence: Pisces(2)→Amphibia(3)→Reptilia(3,except croc=4)→Aves(4)→Mammalia(4).","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"The scientific name of the Indian Peacock (National Bird) is:","options":["Platanista gangetica","Passer domesticus","Pavo cristatus","Grus antigone"],"answer":2,"explanation":"Pavo cristatus = Indian Peafowl, National Bird. Found in Bihar's Valmiki TR, Rajgir. Class Aves. Schedule I WPA 1972. Platanista = dolphin.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"Correct taxonomic hierarchy (highest to lowest) is:","options":["Kingdom→Phylum→Class→Order→Family→Genus→Species","Kingdom→Class→Phylum→Order→Family→Species→Genus","Phylum→Kingdom→Class→Family→Order→Genus→Species","Kingdom→Phylum→Order→Class→Family→Genus→Species"],"answer":0,"explanation":"King Philip Came Over For Good Soup. Kingdom→Phylum→Class→Order→Family→Genus→Species.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"Which is the smallest living cell and lacks a cell wall?","options":["Amoeba","Paramecium","Euglena","Mycoplasma"],"answer":3,"explanation":"Mycoplasma (~0.1 μm) — smallest free-living cell, no cell wall (pleomorphic), prokaryote. Resistant to penicillin. PPLO.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Vikramshila Gangetic Dolphin Sanctuary (Asia's only dolphin sanctuary) is in which Bihar district?","options":["Patna","Bhagalpur","Munger","Bettiah"],"answer":1,"explanation":"Vikramshila Dolphin Sanctuary, Bhagalpur (1991), 50 km Ganga stretch (Sultanganj-Kahalgaon). Protects Platanista gangetica. Valmiki TR is in West Champaran (Bettiah).","difficulty":"pyq","pyq_ref":"null"},
-  {"q":"Sal (Shorea robusta), dominant tree of Bihar's forests, is classified as:","options":["Gymnosperm","Pteridophyte","Angiosperm — Dicotyledon (Dipterocarpaceae)","Bryophyte"],"answer":2,"explanation":"Sal = Shorea robusta, angiosperm-dicot (family Dipterocarpaceae). Has flowers, enclosed seeds, reticulate venation. Dominant in Bihar forests (VTR, Kaimur, Bhimbandh). Deciduous timber tree.","difficulty":"tricky","pyq_ref":"null"},
-  {"q":"Which list contains only organisms of Kingdom Protista?","options":["Bacteria, Cyanobacteria, Mycoplasma","Mushroom, Yeast, Rhizopus","Amoeba, Paramecium, Euglena, Plasmodium","Moss, Fern, Pine"],"answer":2,"explanation":"Protista = unicellular eukaryotes: Amoeba, Paramecium, Euglena, Plasmodium. Others: option A=Monera, B=Fungi, D=Plantae.","difficulty":"bpsc","pyq_ref":"null"},
-  {"q":"Statements about Gangetic Dolphin: 1.National Aquatic Animal 2.Blind, uses echolocation 3.Belongs to Class Pisces 4.Schedule I WPA 1972. Which are correct?","options":["1, 2 and 4 only","1 and 3 only","2 and 3 only","All four are correct"],"answer":0,"explanation":"Statements 1,2,4 correct. Statement 3 is WRONG — dolphin is Mammalia (not Pisces): lungs, viviparous, mammary glands, 4-chambered heart. National Dolphin Day = Oct 5.","difficulty":"tricky","pyq_ref":"null"}
+ {
+  "q": "The five kingdom classification was proposed by whom and in which year?",
+  "options": [
+   "R.H. Whittaker",
+   "Ernst Haeckel (1866)",
+   "Carl Linnaeus (1735)",
+   "Carl Woese (1990)"
+  ],
+  "answer": 0,
+  "explanation": "Whittaker (1969) classified into Monera, Protista, Fungi, Plantae, Animalia based on cell structure, body organisation, nutrition, reproduction & phylogeny.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "The cell wall of fungi is composed of which substance?",
+  "options": [
+   "Peptidoglycan (bacterial cell wall)",
+   "Chitin",
+   "Lipids",
+   "Cellulose (plant cell wall)"
+  ],
+  "answer": 1,
+  "explanation": "Fungal cell wall = chitin (N-acetylglucosamine); same as arthropod exoskeleton. Plant=cellulose, Bacteria=peptidoglycan, Animals=no cell wall.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Which kingdom includes prokaryotic organisms lacking a true nucleus?",
+  "options": [
+   "Fungi (eukaryotic, multicellular)",
+   "Plantae (eukaryotic, autotrophic)",
+   "Monera (prokaryotes — bacteria, cyanobacteria, archaebacteria; no nuclear membrane, no membrane-bound organelles, 70S ribosomes)",
+   "Protista (eukaryotic unicells — Amoeba, Paramecium)"
+  ],
+  "answer": 2,
+  "explanation": "Monera = prokaryotes (no nucleus/organelles, 70S ribosomes). Includes bacteria, cyanobacteria, archaebacteria, Mycoplasma.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Binomial nomenclature was introduced by which scientist?",
+  "options": [
+   "Carl Linnaeus",
+   "Charles Darwin",
+   "Carl Woese",
+   "R.H. Whittaker"
+  ],
+  "answer": 0,
+  "explanation": "Linnaeus introduced Genus+species naming in Systema Naturae (10th ed., 1758). Father of Taxonomy.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "The Three Domain system (Archaea, Bacteria, Eukarya) was proposed by whom and on what basis?",
+  "options": [
+   "Carl Woese (1990), based on 16S/18S ribosomal RNA (rRNA) sequence analysis",
+   "Haeckel (1866), based on body organisation",
+   "Linnaeus (1758), based on morphology",
+   "Whittaker (1969), based on cell structure and nutrition"
+  ],
+  "answer": 0,
+  "explanation": "Woese (1990) used 16S/18S rRNA. Showed Archaea & Bacteria as distinct as each is from Eukarya.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Bryophytes are called the 'amphibians of the plant kingdom' because they:",
+  "options": [
+   "Have a four-chambered heart",
+   "Have gills for respiration",
+   "Need water for fertilisation",
+   "Live both on land and in water (like frogs)"
+  ],
+  "answer": 2,
+  "explanation": "Bryophytes (mosses) live on land but need water for motile male gametes to reach egg. No xylem/phloem; have rhizoids. First land plants.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Which is the LARGEST animal phylum by number of species?",
+  "options": [
+   "Chordata (fish to mammals — ~65,000 species)",
+   "Annelida (segmented worms)",
+   "Mollusca (second largest — snail, octopus)",
+   "Arthropoda (jointed legs — insects, crustaceans, arachnids; ~80% of all animal species, >1.2 million described; exoskeleton of chitin, jointed appendages)"
+  ],
+  "answer": 3,
+  "explanation": "Arthropoda = ~80% of animal species (>1.2 million). Jointed legs, chitin exoskeleton, moulting. Mollusca is 2nd largest.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Stinging cells (nematocysts) are characteristic of which phylum?",
+  "options": [
+   "Cnidaria (Coelenterata — hydra, jellyfish, sea anemone, corals; stinging cells for defence & capturing prey; radial symmetry; diploblastic)",
+   "Porifera (sponges — have pores/ostia and canal system; no stinging cells)",
+   "Platyhelminthes (flatworms — flame cells for excretion)",
+   "Echinodermata (starfish — water vascular system)"
+  ],
+  "answer": 0,
+  "explanation": "Cnidaria (hydra, jellyfish) have cnidoblasts/nematocysts for defence & prey. Diploblastic, radial symmetry, polyp/medusa forms.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Match: 1.Earthworm 2.Tapeworm 3.Ascaris 4.Starfish",
+  "options": [
+   "1-Platyhelminthes,2-Nematoda,3-Annelida,4-Chordata",
+   "1-Annelida,2-Platyhelminthes,3-Nematoda,4-Echinodermata",
+   "1-Mollusca,2-Echinodermata,3-Annelida,4-Porifera",
+   "1-Nematoda,2-Annelida,3-Platyhelminthes,4-Mollusca"
+  ],
+  "answer": 1,
+  "explanation": "Earthworm=Annelida (segmented), Tapeworm=Platyhelminthes (flat), Ascaris=Nematoda (round), Starfish=Echinodermata (water vascular system).",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "The Gangetic Dolphin (Platanista gangetica) belongs to which vertebrate class?",
+  "options": [
+   "Aves",
+   "Reptilia",
+   "Pisces (fish — dolphin is NOT a fish; it is a mammal)",
+   "Mammalia (dolphins are mammals — warm-blooded, breathe with lungs, give birth to live young, nurse with mammary glands, have hair at birth; National Aquatic Animal of India)"
+  ],
+  "answer": 3,
+  "explanation": "Dolphin is a mammal — warm-blooded, lungs, viviparous, mammary glands. National Aquatic Animal. Blind, uses echolocation. NOT a fish.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Monocots differ from dicots in which combination?",
+  "options": [
+   "Monocots: floral parts in 4s/5s; Dicots: floral parts in 3s",
+   "Monocots: 2 cotyledons, reticulate venation; Dicots: 1 cotyledon, parallel venation",
+   "Monocots: taproot system; Dicots: fibrous root system",
+   "Monocots: 1 cotyledon, parallel venation, fibrous roots; Dicots: 2 cotyledons, reticulate venation, taproot"
+  ],
+  "answer": 3,
+  "explanation": "Monocots=1 cotyledon, parallel venation, fibrous root, floral parts in 3s, scattered vascular bundles. Dicots=2 cotyledons, reticulate, taproot, parts in 4/5, bundles in ring.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Which organism is the 'connecting link' between plants and animals?",
+  "options": [
+   "Paramecium (purely animal-like — cilia, holozoic nutrition)",
+   "Amoeba (purely animal-like — pseudopodia, holozoic)",
+   "Spirogyra (purely plant-like — filamentous green alga)",
+   "Euglena (has chloroplasts for photosynthesis like plants, but also feeds heterotrophically and lacks a cell wall like animals — connecting link)"
+  ],
+  "answer": 3,
+  "explanation": "Euglena has chloroplasts (photosynthesis, plant-like) + feeds heterotrophically + lacks cell wall (animal-like). Kingdom Protista.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "'Amphibians of the plant kingdom' refers to which group?",
+  "options": [
+   "Pteridophyta (ferns — first vascular plants; also need water but have xylem/phloem)",
+   "Bryophyta (mosses & liverworts — first land plants but need water for fertilisation; no vascular tissue; rhizoids instead of roots)",
+   "Gymnosperms (fully terrestrial; naked seeds)",
+   "Thallophyta (algae — fully aquatic; no differentiation)"
+  ],
+  "answer": 1,
+  "explanation": "Bryophytes — first land plants, need water for fertilisation, no vascular tissue, rhizoids. Mnemonic trap: Pteridophytes also need water but the specific phrase is reserved for Bryophytes.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Makhana (Euryale ferox), Bihar's GI-tagged aquatic crop, belongs to which family & group?",
+  "options": [
+   "Fabaceae / Dicot (legume family)",
+   "Poaceae / Monocot (grass family — incorrect; makhana is not a grass)",
+   "Nymphaeaceae / Dicot (water lily family; aquatic; floating leaves with thorns; purple flowers; Bihar produces >85% of world's makhana; \"Mithila Makhana\" GI tag 2022)",
+   "Solanaceae / Dicot (nightshade family)"
+  ],
+  "answer": 2,
+  "explanation": "Makhana = Euryale ferox, family Nymphaeaceae, Angiosperm-Dicot. Bihar >85% of world production. 'Mithila Makhana' GI tag 2022.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Gymnosperms differ from angiosperms in which key feature?",
+  "options": [
+   "Gymnosperms have enclosed seeds (inside fruit); angiosperms have naked seeds",
+   "Gymnosperms have flowers; angiosperms do not",
+   "Gymnosperms have naked seeds",
+   "Gymnosperms are non-vascular; angiosperms are vascular"
+  ],
+  "answer": 2,
+  "explanation": "Gymnosperms (Pinus, Cycas) = naked seeds, no flower/fruit. Angiosperms = seeds enclosed in fruit, bear flowers. Both are vascular seed plants.",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "The exoskeleton of arthropods is made of which substance?",
+  "options": [
+   "Chitin (nitrogenous polysaccharide — same material as fungal cell wall; provides rigidity & protection; arthropods moult/ecdysis to grow)",
+   "Peptidoglycan (bacterial cell wall)",
+   "Keratin (found in hair, nails, feathers — vertebrate feature, not arthropod exoskeleton)",
+   "Cellulose (plant cell wall)"
+  ],
+  "answer": 0,
+  "explanation": "Arthropod exoskeleton = chitin (same as fungal cell wall). Moulting/ecdysis needed to grow. Keratin is vertebrate (hair, nails).",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Which is NOT a characteristic of phylum Echinodermata?",
+  "options": [
+   "Jointed appendages and exoskeleton of chitin (these are features of Arthropoda, NOT Echinodermata — echinoderms have tube feet and calcareous plates)",
+   "Calcareous endoskeleton with spines (gives the phylum its name — \"echin\" = spiny, \"derma\" = skin)",
+   "Radial symmetry in adults, bilateral in larvae; only marine; high regeneration capacity",
+   "Water vascular system (tube feet for locomotion, feeding, gas exchange — unique to echinoderms)"
+  ],
+  "answer": 0,
+  "explanation": "Jointed appendages + chitin exoskeleton are Arthropoda features. Echinoderms (starfish) have water vascular system, tube feet, calcareous plates, radial adults, marine only.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Which animal has a FOUR-chambered heart?",
+  "options": [
+   "Frog (Amphibia — 3-chambered: 2 atria + 1 ventricle)",
+   "Lizard (Reptilia — most have 3-chambered; crocodile is the exception with 4-chambered)",
+   "Fish (Pisces — 2-chambered: 1 atrium + 1 ventricle)",
+   "Crocodile (the ONLY reptile with a 4-chambered heart; birds & mammals also have 4 chambers — 2 atria + 2 ventricles; enables complete separation of oxygenated & deoxygenated blood)"
+  ],
+  "answer": 3,
+  "explanation": "Crocodile is the only reptile with 4-chambered heart. Birds & mammals also have 4 chambers. Sequence: Pisces(2)→Amphibia(3)→Reptilia(3,except croc=4)→Aves(4)→Mammalia(4).",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "The scientific name of the Indian Peacock (National Bird) is:",
+  "options": [
+   "Passer domesticus (house sparrow — State Bird of Delhi/Bihar in some older lists, but not national)",
+   "Pavo cristatus (Indian Peafowl — National Bird of India; Class Aves; sexual dimorphism — male has iridescent blue neck & train; protected Schedule I WPA 1972)",
+   "Platanista gangetica (Gangetic dolphin — National Aquatic Animal)",
+   "Grus antigone (Sarus crane — tallest flying bird; found in Bihar wetlands)"
+  ],
+  "answer": 1,
+  "explanation": "Pavo cristatus = Indian Peafowl, National Bird. Found in Bihar's Valmiki TR, Rajgir. Class Aves. Schedule I WPA 1972. Platanista = dolphin.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Correct taxonomic hierarchy (highest to lowest) is:",
+  "options": [
+   "Phylum→Kingdom→Class→Family→Order→Genus→Species",
+   "Kingdom→Phylum→Class→Order→Family→Genus→Species",
+   "Kingdom→Phylum→Order→Class→Family→Genus→Species",
+   "Kingdom→Class→Phylum→Order→Family→Species→Genus"
+  ],
+  "answer": 1,
+  "explanation": "King Philip Came Over For Good Soup. Kingdom→Phylum→Class→Order→Family→Genus→Species.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Which is the smallest living cell and lacks a cell wall?",
+  "options": [
+   "Paramecium (eukaryotic; ciliated; larger)",
+   "Mycoplasma (prokaryote; smallest known free-living cell, ~0.1 μm; no cell wall; pleomorphic; causes pleuropneumonia; PPLO — Pleuropneumonia-Like Organisms)",
+   "Amoeba (eukaryotic; much larger; has cell membrane)",
+   "Euglena (eukaryotic; has pellicle; photosynthetic)"
+  ],
+  "answer": 1,
+  "explanation": "Mycoplasma (~0.1 μm) — smallest free-living cell, no cell wall (pleomorphic), prokaryote. Resistant to penicillin. PPLO.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Vikramshila Gangetic Dolphin Sanctuary (Asia's only dolphin sanctuary) is in which Bihar district?",
+  "options": [
+   "Bettiah (Valmiki Tiger Reserve is here, not the dolphin sanctuary)",
+   "Patna",
+   "Bhagalpur (established 1991; 50 km stretch of Ganga between Sultanganj & Kahalgaon; protects Gangetic Dolphin — National Aquatic Animal)",
+   "Munger"
+  ],
+  "answer": 2,
+  "explanation": "Vikramshila Dolphin Sanctuary, Bhagalpur (1991), 50 km Ganga stretch (Sultanganj-Kahalgaon). Protects Platanista gangetica. Valmiki TR is in West Champaran (Bettiah).",
+  "difficulty": "pyq",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Sal (Shorea robusta), dominant tree of Bihar's forests, is classified as:",
+  "options": [
+   "Angiosperm — Dicotyledon (Family Dipterocarpaceae; has flowers, fruits, enclosed seeds; reticulate venation; 2 cotyledons; timber used for railway sleepers & furniture)",
+   "Bryophyte (moss — non-vascular; incorrect)",
+   "Gymnosperm (naked seeds — incorrect; Sal has flowers & enclosed seeds)",
+   "Pteridophyte (fern — spore-bearing; incorrect)"
+  ],
+  "answer": 0,
+  "explanation": "Sal = Shorea robusta, angiosperm-dicot (family Dipterocarpaceae). Has flowers, enclosed seeds, reticulate venation. Dominant in Bihar forests (VTR, Kaimur, Bhimbandh). Deciduous timber tree.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Which list contains only organisms of Kingdom Protista?",
+  "options": [
+   "Bacteria, Cyanobacteria, Mycoplasma (all Monera — prokaryotes)",
+   "Moss, Fern, Pine (Plantae — bryophyte, pteridophyte, gymnosperm)",
+   "Amoeba, Paramecium, Euglena, Plasmodium (all unicellular eukaryotes — Protista; includes protozoans, diatoms, slime moulds)",
+   "Mushroom, Yeast, Rhizopus (all Fungi)"
+  ],
+  "answer": 2,
+  "explanation": "Protista = unicellular eukaryotes: Amoeba, Paramecium, Euglena, Plasmodium. Others: option A=Monera, B=Fungi, D=Plantae.",
+  "difficulty": "bpsc",
+  "pyq_ref": "null"
+ },
+ {
+  "q": "Statements about Gangetic Dolphin: 1.National Aquatic Animal 2.Blind, uses echolocation 3.Belongs to Class Pisces 4.Schedule I WPA 1972. Which are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "All four are correct",
+   "1, 2 and 4 only"
+  ],
+  "answer": 3,
+  "explanation": "Statements 1,2,4 correct. Statement 3 is WRONG — dolphin is Mammalia (not Pisces): lungs, viviparous, mammary glands, 4-chambered heart. National Dolphin Day = Oct 5.",
+  "difficulty": "tricky",
+  "pyq_ref": "null"
+ }
 ]
