@@ -201,3 +201,10 @@
 - **Topic 2** had one image; added the existing `patna_high_court.jpg` to the Bihar Connection section — collegium recommendations and CJ elevations are the highest-frequency slice of that topic.
 - **`qa_check.py all` is now 62/62 PASS**, up from 54/62 at the start of the session.
 
+## 2026-07-31 — build_mock.py (plan debt D3) + Mock 01
+- **What it does**: assembles a timed, self-scoring paper from `Topics/mcq/*.json`, weighted to the 69th–71st subject distribution (CA 31 / History 28 / Science 25 / Geography 19 / Bihar 16 / Polity 13 / Quant 10 / Economy 7). BPSC scoring: +1 correct, −⅓ wrong, 0 unattempted. Live countdown, attempted counter, subject-wise breakdown, explanations revealed on submit with a back-link to the source topic. Writes `mocks/NAME.html` plus a `NAME.json` manifest so wrong answers can later be mapped back to topics for the error log.
+- **Flags**: `--questions N` (force length), `--seed`, `--name`, `--fresh` (exclude every question already used in an earlier mock, so Mock 2 doesn't repeat Mock 1).
+- **Honesty rule, and why the first design was wrong.** My initial auto-sizing shrank the paper until no subject had a shortfall — which, with four subjects at zero coverage, collapsed a 150-mark paper to 13 questions. Wrong behaviour. It now examines each *built* subject at its **full real weight** and omits the unbuilt ones entirely, so the surviving subjects keep their true proportions and the missing block is stated rather than hidden. No silent padding of whatever happens to exist.
+- **Mock 01 generated**: 100 questions, 80 minutes. Covers CA 31, History 28, Science 25, Bihar 16 — every mark those subjects are worth in the real paper. **Geography (19), Polity (13), Quant (10) and Economy (7) are unbuildable — 49 marks, 33% of the exam.** The cover sheet and the score panel both say so, and the scaled-to-150 figure is labelled an assumption rather than a result.
+- **Verified** headless: 100 questions render, timer starts at 80:00, scoring exact (30 correct + 10 wrong → 26.67), all explanations reveal, correct/wrong highlighting right, subject breakdown correct, zero JS errors.
+

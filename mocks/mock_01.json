@@ -1,0 +1,835 @@
+{
+ "name": "mock_01",
+ "generated": "2026-07-31",
+ "count": 100,
+ "minutes": 80,
+ "seed": 42,
+ "target": {
+  "Current Affairs": 31,
+  "History": 28,
+  "Science": 25,
+  "Geography": 19,
+  "Bihar": 16,
+  "Polity": 13,
+  "Quant": 10,
+  "Economy": 7
+ },
+ "included": {
+  "Current Affairs": 31,
+  "History": 28,
+  "Science": 25,
+  "Geography": 0,
+  "Bihar": 16,
+  "Polity": 0,
+  "Quant": 0,
+  "Economy": 0
+ },
+ "gaps": {
+  "Geography": 19,
+  "Polity": 13,
+  "Quant": 10,
+  "Economy": 7
+ },
+ "questions": [
+  {
+   "n": 1,
+   "uid": "5#6",
+   "topic": 5,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 2,
+   "uid": "9#12",
+   "topic": 9,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 3,
+   "uid": "71#22",
+   "topic": 71,
+   "subject": "Science",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 4,
+   "uid": "70#9",
+   "topic": 70,
+   "subject": "Science",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 5,
+   "uid": "2#2",
+   "topic": 2,
+   "subject": "Current Affairs",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 6,
+   "uid": "73#16",
+   "topic": 73,
+   "subject": "Science",
+   "answer": "C",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 7,
+   "uid": "14#21",
+   "topic": 14,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 8,
+   "uid": "70#14",
+   "topic": 70,
+   "subject": "Science",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 9,
+   "uid": "75#1",
+   "topic": 75,
+   "subject": "Science",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 10,
+   "uid": "73#15",
+   "topic": 73,
+   "subject": "Science",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 11,
+   "uid": "69#9",
+   "topic": 69,
+   "subject": "Science",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 12,
+   "uid": "75#21",
+   "topic": 75,
+   "subject": "Science",
+   "answer": "B",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 13,
+   "uid": "18#2",
+   "topic": 18,
+   "subject": "Bihar",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 14,
+   "uid": "13#11",
+   "topic": 13,
+   "subject": "Current Affairs",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 15,
+   "uid": "103#18",
+   "topic": 103,
+   "subject": "History",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 16,
+   "uid": "72#16",
+   "topic": 72,
+   "subject": "Science",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 17,
+   "uid": "18#21",
+   "topic": 18,
+   "subject": "Bihar",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 18,
+   "uid": "75#22",
+   "topic": 75,
+   "subject": "Science",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 19,
+   "uid": "24#13",
+   "topic": 24,
+   "subject": "History",
+   "answer": "D",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 20,
+   "uid": "5#22",
+   "topic": 5,
+   "subject": "Current Affairs",
+   "answer": "D",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 21,
+   "uid": "101#25",
+   "topic": 101,
+   "subject": "History",
+   "answer": "C",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 22,
+   "uid": "5#5",
+   "topic": 5,
+   "subject": "Current Affairs",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 23,
+   "uid": "74#1",
+   "topic": 74,
+   "subject": "Science",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 24,
+   "uid": "3#14",
+   "topic": 3,
+   "subject": "Current Affairs",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 25,
+   "uid": "72#20",
+   "topic": 72,
+   "subject": "Science",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 26,
+   "uid": "33#4",
+   "topic": 33,
+   "subject": "History",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 27,
+   "uid": "74#21",
+   "topic": 74,
+   "subject": "Science",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 28,
+   "uid": "5#8",
+   "topic": 5,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 29,
+   "uid": "23#7",
+   "topic": 23,
+   "subject": "Bihar",
+   "answer": "D",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 30,
+   "uid": "5#13",
+   "topic": 5,
+   "subject": "Current Affairs",
+   "answer": "C",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 31,
+   "uid": "103#13",
+   "topic": 103,
+   "subject": "History",
+   "answer": "D",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 32,
+   "uid": "7#11",
+   "topic": 7,
+   "subject": "Current Affairs",
+   "answer": "C",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 33,
+   "uid": "33#11",
+   "topic": 33,
+   "subject": "History",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 34,
+   "uid": "13#1",
+   "topic": 13,
+   "subject": "Current Affairs",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 35,
+   "uid": "21#12",
+   "topic": 21,
+   "subject": "Bihar",
+   "answer": "D",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 36,
+   "uid": "69#16",
+   "topic": 69,
+   "subject": "Science",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 37,
+   "uid": "32#12",
+   "topic": 32,
+   "subject": "History",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 38,
+   "uid": "22#16",
+   "topic": 22,
+   "subject": "Bihar",
+   "answer": "A",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 39,
+   "uid": "6#20",
+   "topic": 6,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 40,
+   "uid": "20#25",
+   "topic": 20,
+   "subject": "Bihar",
+   "answer": "D",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 41,
+   "uid": "15#25",
+   "topic": 15,
+   "subject": "Bihar",
+   "answer": "B",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 42,
+   "uid": "28#14",
+   "topic": 28,
+   "subject": "History",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 43,
+   "uid": "103#1",
+   "topic": 103,
+   "subject": "History",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 44,
+   "uid": "23#13",
+   "topic": 23,
+   "subject": "Bihar",
+   "answer": "D",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 45,
+   "uid": "12#4",
+   "topic": 12,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 46,
+   "uid": "97#12",
+   "topic": 97,
+   "subject": "History",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 47,
+   "uid": "6#22",
+   "topic": 6,
+   "subject": "Current Affairs",
+   "answer": "C",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 48,
+   "uid": "7#7",
+   "topic": 7,
+   "subject": "Current Affairs",
+   "answer": "C",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 49,
+   "uid": "74#4",
+   "topic": 74,
+   "subject": "Science",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 50,
+   "uid": "8#25",
+   "topic": 8,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 51,
+   "uid": "138#17",
+   "topic": 138,
+   "subject": "History",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 52,
+   "uid": "1#3",
+   "topic": 1,
+   "subject": "Current Affairs",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 53,
+   "uid": "12#23",
+   "topic": 12,
+   "subject": "Current Affairs",
+   "answer": "D",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 54,
+   "uid": "71#3",
+   "topic": 71,
+   "subject": "Science",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 55,
+   "uid": "31#25",
+   "topic": 31,
+   "subject": "History",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 56,
+   "uid": "100#3",
+   "topic": 100,
+   "subject": "History",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 57,
+   "uid": "20#23",
+   "topic": 20,
+   "subject": "Bihar",
+   "answer": "B",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 58,
+   "uid": "27#12",
+   "topic": 27,
+   "subject": "History",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 59,
+   "uid": "69#11",
+   "topic": 69,
+   "subject": "Science",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 60,
+   "uid": "17#1",
+   "topic": 17,
+   "subject": "Bihar",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 61,
+   "uid": "105#11",
+   "topic": 105,
+   "subject": "History",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 62,
+   "uid": "21#19",
+   "topic": 21,
+   "subject": "Bihar",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 63,
+   "uid": "12#6",
+   "topic": 12,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 64,
+   "uid": "4#22",
+   "topic": 4,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 65,
+   "uid": "4#18",
+   "topic": 4,
+   "subject": "Current Affairs",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 66,
+   "uid": "18#16",
+   "topic": 18,
+   "subject": "Bihar",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 67,
+   "uid": "74#9",
+   "topic": 74,
+   "subject": "Science",
+   "answer": "C",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 68,
+   "uid": "72#15",
+   "topic": 72,
+   "subject": "Science",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 69,
+   "uid": "11#10",
+   "topic": 11,
+   "subject": "Current Affairs",
+   "answer": "C",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 70,
+   "uid": "36#13",
+   "topic": 36,
+   "subject": "History",
+   "answer": "D",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 71,
+   "uid": "27#4",
+   "topic": 27,
+   "subject": "History",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 72,
+   "uid": "34#2",
+   "topic": 34,
+   "subject": "History",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 73,
+   "uid": "7#30",
+   "topic": 7,
+   "subject": "Current Affairs",
+   "answer": "D",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 74,
+   "uid": "16#2",
+   "topic": 16,
+   "subject": "Bihar",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 75,
+   "uid": "105#22",
+   "topic": 105,
+   "subject": "History",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 76,
+   "uid": "14#24",
+   "topic": 14,
+   "subject": "Current Affairs",
+   "answer": "D",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 77,
+   "uid": "8#13",
+   "topic": 8,
+   "subject": "Current Affairs",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 78,
+   "uid": "8#9",
+   "topic": 8,
+   "subject": "Current Affairs",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 79,
+   "uid": "70#23",
+   "topic": 70,
+   "subject": "Science",
+   "answer": "D",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 80,
+   "uid": "139#2",
+   "topic": 139,
+   "subject": "History",
+   "answer": "C",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 81,
+   "uid": "4#31",
+   "topic": 4,
+   "subject": "Current Affairs",
+   "answer": "D",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 82,
+   "uid": "13#23",
+   "topic": 13,
+   "subject": "Current Affairs",
+   "answer": "D",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 83,
+   "uid": "99#7",
+   "topic": 99,
+   "subject": "History",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 84,
+   "uid": "75#2",
+   "topic": 75,
+   "subject": "Science",
+   "answer": "C",
+   "difficulty": "tricky"
+  },
+  {
+   "n": 85,
+   "uid": "19#25",
+   "topic": 19,
+   "subject": "Bihar",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 86,
+   "uid": "74#23",
+   "topic": 74,
+   "subject": "Science",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 87,
+   "uid": "37#5",
+   "topic": 37,
+   "subject": "History",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 88,
+   "uid": "20#12",
+   "topic": 20,
+   "subject": "Bihar",
+   "answer": "D",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 89,
+   "uid": "141#3",
+   "topic": 141,
+   "subject": "History",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 90,
+   "uid": "35#22",
+   "topic": 35,
+   "subject": "History",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 91,
+   "uid": "12#19",
+   "topic": 12,
+   "subject": "Current Affairs",
+   "answer": "B",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 92,
+   "uid": "70#2",
+   "topic": 70,
+   "subject": "Science",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 93,
+   "uid": "13#17",
+   "topic": 13,
+   "subject": "Current Affairs",
+   "answer": "A",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 94,
+   "uid": "103#22",
+   "topic": 103,
+   "subject": "History",
+   "answer": "A",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 95,
+   "uid": "138#13",
+   "topic": 138,
+   "subject": "History",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 96,
+   "uid": "140#7",
+   "topic": 140,
+   "subject": "History",
+   "answer": "C",
+   "difficulty": "bpsc"
+  },
+  {
+   "n": 97,
+   "uid": "77#19",
+   "topic": 77,
+   "subject": "Science",
+   "answer": "C",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 98,
+   "uid": "77#3",
+   "topic": 77,
+   "subject": "Science",
+   "answer": "B",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 99,
+   "uid": "106#21",
+   "topic": 106,
+   "subject": "History",
+   "answer": "D",
+   "difficulty": "pyq"
+  },
+  {
+   "n": 100,
+   "uid": "21#22",
+   "topic": 21,
+   "subject": "Bihar",
+   "answer": "D",
+   "difficulty": "tricky"
+  }
+ ]
+}
