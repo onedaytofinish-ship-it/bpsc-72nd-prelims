@@ -1,0 +1,327 @@
+[
+ {
+  "q": "Under PM-KISAN, the annual benefit to an eligible farmer family is:",
+  "options": [
+   "₹6,000 paid in three equal instalments",
+   "₹4,000 paid in two equal instalments",
+   "₹8,000 paid in four equal instalments",
+   "₹10,000 paid in five equal instalments"
+  ],
+  "answer": 0,
+  "explanation": "PM-KISAN pays ₹6,000 a year as three instalments of ₹2,000, released every four months. The other figures are invented — the amount has not been revised since the 2019 launch. Note that Mukhyamantri Kisan Kalyan Yojana, which tops up PM-KISAN by a further ₹6,000, is a Madhya Pradesh scheme, not a Bihar one; Bihar runs no PM-KISAN cash top-up.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ theme"
+ },
+ {
+  "q": "Which of the following is NOT a lending category under the PM MUDRA Yojana?",
+  "options": [
+   "Shishu",
+   "Kishore",
+   "Tarun",
+   "Yuva"
+  ],
+  "answer": 3,
+  "explanation": "MUDRA's categories are Shishu, Kishore and Tarun, joined in October 2024 by Tarun Plus for borrowers who have repaid a Tarun loan. 'Yuva' has never been a MUDRA category. Shishu, Kishore and Tarun are all genuine, so each is a trap only if you misremember the list.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The annual premium payable under Pradhan Mantri Suraksha Bima Yojana (PMSBY) is:",
+  "options": [
+   "₹12",
+   "₹330",
+   "₹20",
+   "₹436"
+  ],
+  "answer": 2,
+  "explanation": "PMSBY costs ₹20 a year for ₹2 lakh accident cover. ₹436 is the PMJJBY life-insurance premium and ₹330 was PMJJBY's premium before the 2022 revision — both are the classic traps here. ₹12 was PMSBY's original premium before it was revised upward.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ theme"
+ },
+ {
+  "q": "Ayushman Bharat (PM-JAY) was expanded in 2024 to additionally cover:",
+  "options": [
+   "All children below five years",
+   "All senior citizens aged 70 and above",
+   "All pregnant and lactating women",
+   "All contractual government employees"
+  ],
+  "answer": 1,
+  "explanation": "The 2024 expansion brought every citizen aged 70+ under PM-JAY irrespective of income — the scheme's first universal, non-means-tested category, delivered through Ayushman Vay Vandana cards. Children under five and pregnant women are served by separate schemes (Poshan 2.0, PMMVY). Seniors already covered by CGHS, ECHS or CAPF schemes may switch to PM-JAY but cannot hold both.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st BPSC PYQ theme"
+ },
+ {
+  "q": "Swachh Bharat Mission (Gramin) is implemented by which ministry?",
+  "options": [
+   "Ministry of Environment, Forest and Climate Change",
+   "Ministry of Housing and Urban Affairs",
+   "Ministry of Rural Development",
+   "Ministry of Jal Shakti"
+  ],
+  "answer": 3,
+  "explanation": "SBM-Gramin sits with the Ministry of Jal Shakti (Department of Drinking Water and Sanitation). The trap is Housing and Urban Affairs, which runs only SBM-Urban. Environment is a distractor drawn from the word 'Swachh'; Rural Development runs PMAY-G and MGNREGA, not sanitation.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under PMAY-Gramin, assistance per house in plain areas is:",
+  "options": [
+   "₹1,20,000",
+   "₹70,000",
+   "₹1,00,000",
+   "₹1,50,000"
+  ],
+  "answer": 0,
+  "explanation": "PMAY-G pays ₹1.20 lakh in the plains; the corresponding hilly, north-eastern and IAP rate is ₹1.30 lakh, and both rates carried over unchanged into PMAY-G 2.0. ₹70,000 is the old Indira Awaas Yojana unit cost that PMAY-G replaced in 2016 and is the strongest distractor here; ₹1,00,000 and ₹1,50,000 are invented.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ theme"
+ },
+ {
+  "q": "Which Bihar scheme supports a girl financially from birth through graduation?",
+  "options": [
+   "Beti Bachao Beti Padhao",
+   "Sukanya Samriddhi Yojana",
+   "Mukhyamantri Kanya Utthan Yojana",
+   "Pradhan Mantri Matritva Vandana Yojana"
+  ],
+  "answer": 2,
+  "explanation": "Mukhyamantri Kanya Utthan Yojana is Bihar's own scheme, paying a girl in stages from birth through to a graduation incentive of ₹50,000. Beti Bachao Beti Padhao is a central awareness campaign with no direct cash transfer, Sukanya Samriddhi is a savings account the parent funds herself, and PMMVY is a one-time central maternity benefit — none of them spans birth to graduation.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Namo Drone Didi scheme provides drones to:",
+  "options": [
+   "Border security forces for surveillance",
+   "Women's self-help groups for agricultural use",
+   "State police for traffic monitoring",
+   "Forest departments for wildlife tracking"
+  ],
+  "answer": 1,
+  "explanation": "Namo Drone Didi was approved by the Union Cabinet in November 2023 with an outlay of about ₹1,261 crore, equipping roughly 15,000 women's SHGs with drones for spraying and crop monitoring; operational guidelines followed in 2024. The security and forestry options play on the word 'drone', but the scheme sits with the Ministry of Agriculture and Farmers' Welfare and is explicitly a women's livelihood programme.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following is a Central Sector Scheme, funded 100% by the Centre?",
+  "options": [
+   "PM-KISAN",
+   "MGNREGA",
+   "Samagra Shiksha Abhiyan",
+   "National Health Mission"
+  ],
+  "answer": 0,
+  "explanation": "PM-KISAN is a Central Sector Scheme — the entire ₹6,000 comes from the Union Budget and goes straight to the farmer's account. MGNREGA, Samagra Shiksha and NHM are all Centrally Sponsored Schemes, meaning the States share the cost, though the split varies: Samagra Shiksha and NHM run at roughly 60:40, whereas under MGNREGA the Centre funds 100% of unskilled wages and 75% of material costs. The Central Sector / Centrally Sponsored distinction is what BPSC tests.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ theme"
+ },
+ {
+  "q": "The Jal Jeevan Mission aims to provide:",
+  "options": [
+   "Irrigation to every agricultural holding",
+   "Free water tankers in water-stressed towns",
+   "Bottled drinking water in tribal districts",
+   "A functional tap water connection to every rural household"
+  ],
+  "answer": 3,
+  "explanation": "JJM's goal, captured in the slogan 'Har Ghar Jal', is a functional household tap connection for every rural home. Irrigation is the domain of PM Krishi Sinchai Yojana ('Har Khet Ko Pani') — the near-identical slogans are the trap. Tankers and bottled water are relief measures, not the mission's design.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Bihar's Jal-Jeevan-Hariyali Mission is primarily concerned with:",
+  "options": [
+   "Industrial water supply in Patna and Begusarai",
+   "Water conservation, afforestation and climate resilience",
+   "Urban flood management in the Kosi basin",
+   "Interlinking the Ganga and Son rivers"
+  ],
+  "answer": 1,
+  "explanation": "Jal-Jeevan-Hariyali is Bihar's flagship climate mission — reviving ponds and wells, rainwater harvesting and large-scale tree planting. Do not confuse it with the central Jal Jeevan Mission, which is about tap water; the similar names are the whole point of the trap. River interlinking and industrial supply are separate programmes.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "PM Vishwakarma Yojana extends support to how many traditional trades?",
+  "options": [
+   "10",
+   "14",
+   "18",
+   "25"
+  ],
+  "answer": 2,
+  "explanation": "PM Vishwakarma (2023) covers 18 traditional crafts — carpenter, blacksmith, potter, cobbler and so on — with a ₹15,000 toolkit grant and collateral-free credit. 14 is the trap drawn from other scheme lists; the number 18 is the figure BPSC would ask for.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Excluding the Tarun Plus category introduced in 2024, the maximum loan under the 'Tarun' category of MUDRA is:",
+  "options": [
+   "₹10 lakh",
+   "₹50,000",
+   "₹5 lakh",
+   "₹20 lakh"
+  ],
+  "answer": 0,
+  "explanation": "Tarun is the top slab of the original three, covering loans above ₹5 lakh and up to ₹10 lakh; ₹50,000 is the Shishu ceiling and ₹5 lakh the Kishore ceiling. Since October 2024 a separate Tarun Plus category lends ₹10–20 lakh to borrowers who have already repaid a Tarun loan — which is why the question excludes it, and why an unqualified 'maximum MUDRA loan' question would now answer ₹20 lakh.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ theme"
+ },
+ {
+  "q": "The Bihar Student Credit Card Scheme offers education loans up to:",
+  "options": [
+   "₹1 lakh",
+   "₹4 lakh",
+   "₹2 lakh",
+   "₹10 lakh"
+  ],
+  "answer": 1,
+  "explanation": "The scheme lends up to ₹4 lakh to students who have passed Class 12, for higher studies. ₹10 lakh is the ceiling under Mukhyamantri Udyami Yojana, a different Bihar scheme, and is the most common confusion. Note also that the interest subsidy changed after September 2025.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Free LPG connections to women from BPL households are provided under:",
+  "options": [
+   "PM Ujjwala Yojana",
+   "PM Ujjala Yojana",
+   "PM Grihini Yojana",
+   "PM Annapurna Yojana"
+  ],
+  "answer": 0,
+  "explanation": "PM Ujjwala Yojana (2016) has issued over 10 crore LPG connections to women in poor households. 'Ujjala' is a deliberate near-homophone — UJALA is the LED bulb programme, an entirely different scheme. Grihini and Annapurna are not central schemes at all.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The National Green Hydrogen Mission targets annual green hydrogen production by 2030 of:",
+  "options": [
+   "1 MMT",
+   "3 MMT",
+   "5 MMT",
+   "10 MMT"
+  ],
+  "answer": 2,
+  "explanation": "The mission (2023, outlay about ₹19,744 crore) targets 5 million metric tonnes a year by 2030, with associated renewable capacity of roughly 125 GW. 10 MMT is the stretch figure sometimes quoted for exports and is the usual trap.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under PM Surya Ghar Muft Bijli Yojana, the free electricity target per household per month is:",
+  "options": [
+   "100 units",
+   "200 units",
+   "500 units",
+   "300 units"
+  ],
+  "answer": 3,
+  "explanation": "PM Surya Ghar (February 2024) aims to give one crore households 300 free units a month through rooftop solar. 200 units is the figure used by several state power subsidies and is the trap here; 100 and 500 are invented. Do not confuse this with Bihar's own 125-unit free-power entitlement.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st BPSC PYQ theme"
+ },
+ {
+  "q": "Stand-Up India provides loans of ₹10 lakh to ₹1 crore to:",
+  "options": [
+   "All first-generation entrepreneurs",
+   "Ex-servicemen setting up enterprises",
+   "SC/ST and women entrepreneurs",
+   "Only SC/ST entrepreneurs"
+  ],
+  "answer": 2,
+  "explanation": "Stand-Up India (2016) requires every bank branch to finance at least one SC/ST borrower and one woman borrower for a greenfield enterprise. 'Only SC/ST' is the trap — it drops the women's category, which is half the scheme's design. First-generation entrepreneurs generally are served by MUDRA instead.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Mukhyamantri Udyami Yojana of Bihar carries a subsidy component of:",
+  "options": [
+   "25% of the loan",
+   "35% of the loan",
+   "75% of the loan",
+   "50% of the loan"
+  ],
+  "answer": 3,
+  "explanation": "Half of the ₹10 lakh assistance is an outright subsidy and the remainder is an interest-free repayable loan. 25% and 75% are plausible-looking distractors; the 50:50 split is what makes this Bihar's most-cited entrepreneurship scheme.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which scheme–launch year pair is correctly matched?",
+  "options": [
+   "PM-KISAN — 2017",
+   "PMJDY — 2014",
+   "Ayushman Bharat — 2019",
+   "PM Ujjwala — 2018"
+  ],
+  "answer": 1,
+  "explanation": "PMJDY was launched on 28 August 2014. The others are each off by a year or two: PM-KISAN is 2019 (not 2017), Ayushman Bharat is 2018 (not 2019) and Ujjwala is 2016 (not 2018). BPSC's matching questions usually shift a single year like this.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th BPSC PYQ theme"
+ },
+ {
+  "q": "Consider the following statements about PMJJBY: 1. It provides life cover of ₹2 lakh. 2. The entry age is 18–50 years, with cover to age 55. 3. The premium is ₹20 a year. Which are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "explanation": "Statements 1 and 2 are right: ₹2 lakh life cover, entry at 18–50 and cover continuing to 55. Statement 3 is wrong — ₹20 is the PMSBY accident-cover premium, whereas PMJJBY costs ₹436 a year after the 2022 revision. Mixing the two premiums is the single commonest error on this pair of schemes.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th BPSC PYQ theme"
+ },
+ {
+  "q": "Which ministry–scheme pair is NOT correctly matched?",
+  "options": [
+   "Jal Shakti — Namami Gange",
+   "Panchayati Raj — SVAMITVA",
+   "MSME — PM Vishwakarma",
+   "Agriculture — PM Ujjwala Yojana"
+  ],
+  "answer": 3,
+  "explanation": "PM Ujjwala is run by the Ministry of Petroleum and Natural Gas, not Agriculture — so this is the incorrect pair. The other three are right: Namami Gange under Jal Shakti, SVAMITVA under Panchayati Raj, and PM Vishwakarma under MSME. Ministry mapping is a recurring BPSC format.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st BPSC PYQ theme"
+ },
+ {
+  "q": "Bihar decided to adopt the Pradhan Mantri Fasal Bima Yojana from which season?",
+  "options": [
+   "Rabi 2026-27",
+   "Kharif 2025",
+   "Rabi 2024-25",
+   "Kharif 2026"
+  ],
+  "answer": 0,
+  "explanation": "Bihar had exited PMFBY in 2018 in favour of its own Bihar Rajya Fasal Sahayata Yojana, and the Cabinet approved rejoining from the Rabi 2026-27 season. The Kharif options are traps because most crop-insurance news is Kharif-led; here the switch is specifically Rabi.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The annual premium for Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is currently:",
+  "options": [
+   "₹330",
+   "₹342",
+   "₹436",
+   "₹500"
+  ],
+  "answer": 2,
+  "explanation": "PMJJBY was repriced from ₹330 to ₹436 a year with effect from 1 June 2022. ₹330 is the pre-revision figure that still circulates in older study material, which makes it the strongest trap on this question. ₹342 and ₹500 are invented.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider: 1. Central Sector Schemes are financed entirely by the Union government. 2. Centrally Sponsored Schemes are shared between Centre and States. 3. MGNREGA is a Central Sector Scheme. Which are correct?",
+  "options": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "explanation": "Statements 1 and 2 state the definitions correctly. Statement 3 is wrong: MGNREGA is a Centrally Sponsored Scheme, with the Centre bearing the full wage component but States sharing material and administrative costs. Treating MGNREGA as Central Sector is the error this question is built to catch.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ }
+]

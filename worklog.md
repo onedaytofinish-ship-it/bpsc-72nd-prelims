@@ -171,3 +171,17 @@
 - **Fixes made**: Updated `Topics/index.html` so topic cards 69-72, 73-77, and 139-142 use active `<a href>` links instead of non-clickable `<div>` wrappers.
 - **Deployment support**: Confirmed `Topics` is the intended publish directory for Cloudflare Pages and added routing support for root-level pages.
 - **Result**: New topic pages now open correctly from the dashboard and the site is ready for Cloudflare Pages deployment.
+
+## 2026-07-31 — Topic 1 rebuilt to v3 (Govt Schemes & Policies)
+- **Why**: the page shipped on the v1.0 template — its 20 MCQs were static `<div>`s with no radio inputs, no per-question explanations, no check button and no `const answers` key. There was no way to attempt or score them. `qa_check.py` reported "only 0 MCQs".
+- **Section 7 replaced**: 25 interactive MCQs (was 20 dead ones) in the frozen v3 pattern — `mcq-block id="qN"`, radio inputs, `mcq-explanation id="expN"`, `checkAnswers()` / `resetQuiz()`, score display. Added Section 8 Reference Links (8 official sources).
+- **MCQ quality**: key distribution 7A/6B/6C/6D (max 28%); difficulty mix 10 pyq / 10 bpsc / 5 tricky; correct option is the uniquely longest in only 5/25 (20%) vs the 58% site-wide average; 17/25 explanations explicitly name why a distractor fails.
+- **Sidecar created**: `mcq/1_govt_schemes_and_policies.json` — the last topic missing one. Bank now 62/62 topics, 1,592 questions.
+- **Also added**: 2 PYQ-alert boxes in Core Content (funding-pattern hook; ministry-mapping and look-alike names), a second image, and print CSS.
+- **Independent answer audit**: 25/25 keys correct. Nine explanations were corrected on the audit's findings:
+  - Q1 wrongly credited Bihar with *Mukhyamantri Kisan Kalyan Yojana* — that is a **Madhya Pradesh** scheme; Bihar runs no PM-KISAN top-up. Highest-risk error found.
+  - Q13 stem now excludes **Tarun Plus** (₹10–20 lakh, introduced Oct 2024 per PIB) — without the qualifier a well-read candidate could defend ₹20 lakh.
+  - Q7 dropped the stale ₹54,100 cumulative figure for Kanya Utthan in favour of the ₹50,000 graduation incentive; the same stale number was corrected in the Bihar Connection table.
+  - Q9 had MGNREGA at a 60:40 split — it is 100% of unskilled wages + 75% of material from the Centre.
+  - Q4 overstated that government employees are excluded from PM-JAY (CGHS/ECHS seniors may switch); Q8 dated Namo Drone Didi to 2024 (Cabinet approval was Nov 2023); Q2, Q6 and Q17 referenced traps that were not among the options.
+- **QA**: `qa_check.py 1` PASS; page/sidecar key agreement clean; div balance 0.

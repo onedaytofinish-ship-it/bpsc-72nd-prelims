@@ -291,6 +291,41 @@
 <style>
 .home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
 .home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+
+  /* --- v3 interactive MCQ (added 2026-07-31 rebuild) --- */
+  .mcq-block { transition: border-color .2s, background .2s; }
+  .mcq-block.correct { border-left: 4px solid #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong   { border-left: 4px solid #ef4444; background: #fef2f2; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px;
+    border-radius: 8px; cursor: pointer; transition: background .2s; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { accent-color: #e94560; width: 15px; height: 15px; flex: none; }
+  .mcq-option.correct-option { background: #dcfce7; font-weight: 600; }
+  .mcq-option.wrong-option   { background: #fee2e2; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff;
+    border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #e94560, #c2185b); color: #fff; padding: 12px 32px;
+    border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer;
+    transition: transform .2s, box-shadow .2s; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233,69,96,.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px;
+    font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff;
+    padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #e94560; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e;
+    padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { display: inline-block; background: #22c55e; color: #fff; padding: 2px 9px;
+    border-radius: 5px; font-size: 10px; font-weight: 700; letter-spacing: .4px; margin-right: 6px; }
+  .ref-list a { color: #2563eb; }
+  @media print {
+    .quiz-controls, .check-btn, .reset-btn, .home-btn { display: none !important; }
+    .mcq-explanation { display: block !important; }
+    .mcq-block { page-break-inside: avoid; }
+  }
 </style>
 
 <a href="index.html" class="home-btn">🏠 Home</a>
@@ -346,6 +381,14 @@
       <td>Mukhyamantri schemes of Bihar</td>
     </tr>
   </table>
+
+
+  <div class="pyq-box">
+    <span class="pyq-tag">PYQ ALERT</span> <strong>Funding pattern is the favourite hook.</strong> BPSC repeatedly asks whether a named scheme is Central Sector (100% Union funds, e.g. PM-KISAN, PMJDY) or Centrally Sponsored (shared, e.g. MGNREGA, PMAY, Samagra Shiksha, NHM). Learn the classification for every scheme in the tables above, not just its benefit amount.
+  </div>
+  <div class="pyq-box">
+    <span class="pyq-tag">PYQ ALERT</span> <strong>Ministry mapping and near-identical names.</strong> Past papers pair a scheme with the wrong ministry (Swachh Bharat-Gramin is Jal Shakti, not Environment; Ujjwala is Petroleum &amp; Natural Gas, not Agriculture) and exploit look-alike titles — Ujjwala (LPG) vs UJALA (LED bulbs), and the central Jal Jeevan Mission (tap water) vs Bihar’s Jal-Jeevan-Hariyali (water and greenery).
+  </div>
 
   <h3>A. Financial Inclusion Schemes</h3>
   <table>
@@ -463,6 +506,10 @@
     <span class="section-icon">🔶</span> Bihar Connection
   </div>
 
+  <div class="img-container" style="margin-top:18px;">
+    <img src="images/bihar_in_india.png" alt="Bihar within India — scheme implementation context" style="max-width:100%; border-radius:8px; max-height:320px;">
+    <div style="font-size:11px; color:#64748b; margin-top:6px; font-style:italic;">Bihar is among the largest beneficiary states for PM-KISAN, Jal Jeevan Mission and PMAY-G — central scheme numbers are routinely asked with a Bihar figure attached.</div>
+  </div>
   <div class="bihar-box">
     <div class="bihar-box-title">🏛️ Bihar-Specific Implementation & State Schemes</div>
     <ul>
@@ -477,7 +524,7 @@
     <div class="bihar-box-title">🟠 Bihar's Own Mukhyamantri (CM) Schemes</div>
     <table>
       <tr><th>Scheme</th><th>Focus</th><th>Key Detail</th></tr>
-      <tr><td><strong>Mukhyamantri Kanya Utthan Yojana</strong></td><td>Girl child empowerment</td><td>₹54,100 from birth to graduation</td></tr>
+      <tr><td><strong>Mukhyamantri Kanya Utthan Yojana</strong></td><td>Girl child empowerment</td><td>Staged payments from birth; ₹50,000 graduation incentive</td></tr>
       <tr><td><strong>Bihar Student Credit Card</strong></td><td>Higher education</td><td>Loan up to ₹4 Lakh for 12th-pass students</td></tr>
       <tr><td><strong>Mukhyamantri Gramin Awas Yojana</strong></td><td>Housing</td><td>For BPL families NOT covered under PMAY-G</td></tr>
       <tr><td><strong>Mukhyamantri Udyami Yojana</strong></td><td>Entrepreneurship</td><td>₹10 Lakh loan (50% subsidy) for SC/ST/Women/Youth</td></tr>
@@ -559,257 +606,385 @@
 <!-- ====== SECTION 7: MCQ PRACTICE SET ====== -->
 <div class="section">
   <div class="section-header">
-    <span class="section-icon">✍️</span> MCQ Practice Set — 20 Questions
+    <span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions
   </div>
+  <p style="font-size:12.5px;color:#64748b;margin:0 0 14px;">Pick an option for each question, then press <strong>Check Answers</strong>. Explanations open automatically and say why the trap options fail.</p>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q1. Under PM-KISAN scheme, what is the annual financial benefit provided to eligible farmer families?</div>
+  <!-- Q1 -->
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Under PM-KISAN, the annual benefit to an eligible farmer family is:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> ₹4,000 in 2 installments</div>
-      <div class="mcq-option"><span>(B)</span> ₹6,000 in 3 installments</div>
-      <div class="mcq-option"><span>(C)</span> ₹8,000 in 4 installments</div>
-      <div class="mcq-option"><span>(D)</span> ₹10,000 in 5 installments</div>
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) ₹6,000 paid in three equal instalments</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) ₹4,000 paid in two equal instalments</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) ₹8,000 paid in four equal instalments</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) ₹10,000 paid in five equal instalments</label>
     </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — PM-KISAN pays ₹6,000 a year as three instalments of ₹2,000, released every four months. The other figures are invented — the amount has not been revised since the 2019 launch. Note that Mukhyamantri Kisan Kalyan Yojana, which tops up PM-KISAN by a further ₹6,000, is a Madhya Pradesh scheme, not a Bihar one; Bihar runs no PM-KISAN cash top-up.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q2. Which of the following is NOT a category under PM Mudra Yojana?</div>
+  <!-- Q2 -->
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Which of the following is NOT a lending category under the PM MUDRA Yojana?</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> Shishu</div>
-      <div class="mcq-option"><span>(B)</span> Kishore</div>
-      <div class="mcq-option"><span>(C)</span> Tarun</div>
-      <div class="mcq-option"><span>(D)</span> Yuva</div>
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Shishu</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Kishore</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Tarun</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Yuva</label>
     </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (D)</strong> — MUDRA's categories are Shishu, Kishore and Tarun, joined in October 2024 by Tarun Plus for borrowers who have repaid a Tarun loan. 'Yuva' has never been a MUDRA category. Shishu, Kishore and Tarun are all genuine, so each is a trap only if you misremember the list.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q3. The annual premium for Pradhan Mantri Suraksha Bima Yojana (PMSBY) is:</div>
+  <!-- Q3 -->
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The annual premium payable under Pradhan Mantri Suraksha Bima Yojana (PMSBY) is:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> ₹12/year</div>
-      <div class="mcq-option"><span>(B)</span> ₹20/year</div>
-      <div class="mcq-option"><span>(C)</span> ₹330/year</div>
-      <div class="mcq-option"><span>(D)</span> ₹436/year</div>
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) ₹12</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) ₹330</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) ₹20</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) ₹436</label>
     </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — PMSBY costs ₹20 a year for ₹2 lakh accident cover. ₹436 is the PMJJBY life-insurance premium and ₹330 was PMJJBY's premium before the 2022 revision — both are the classic traps here. ₹12 was PMSBY's original premium before it was revised upward.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q4. Ayushman Bharat (PM-JAY) was expanded in 2024 to include which additional category?</div>
+  <!-- Q4 -->
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Ayushman Bharat (PM-JAY) was expanded in 2024 to additionally cover:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> All children below 5 years</div>
-      <div class="mcq-option"><span>(B)</span> All senior citizens aged 70 and above</div>
-      <div class="mcq-option"><span>(C)</span> All pregnant women</div>
-      <div class="mcq-option"><span>(D)</span> All government employees</div>
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) All children below five years</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) All senior citizens aged 70 and above</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) All pregnant and lactating women</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) All contractual government employees</label>
     </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — The 2024 expansion brought every citizen aged 70+ under PM-JAY irrespective of income — the scheme's first universal, non-means-tested category, delivered through Ayushman Vay Vandana cards. Children under five and pregnant women are served by separate schemes (Poshan 2.0, PMMVY). Seniors already covered by CGHS, ECHS or CAPF schemes may switch to PM-JAY but cannot hold both.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q5. Which ministry is responsible for the implementation of Swachh Bharat Mission?</div>
+  <!-- Q5 -->
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Swachh Bharat Mission (Gramin) is implemented by which ministry?</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> Ministry of Environment</div>
-      <div class="mcq-option"><span>(B)</span> Ministry of Housing & Urban Affairs</div>
-      <div class="mcq-option"><span>(C)</span> Ministry of Jal Shakti</div>
-      <div class="mcq-option"><span>(D)</span> Ministry of Rural Development</div>
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Ministry of Environment, Forest and Climate Change</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Ministry of Housing and Urban Affairs</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Ministry of Rural Development</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Ministry of Jal Shakti</label>
     </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — SBM-Gramin sits with the Ministry of Jal Shakti (Department of Drinking Water and Sanitation). The trap is Housing and Urban Affairs, which runs only SBM-Urban. Environment is a distractor drawn from the word 'Swachh'; Rural Development runs PMAY-G and MGNREGA, not sanitation.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q6. Under PMAY-Gramin, the financial assistance provided per house in plain areas is:</div>
+  <!-- Q6 -->
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Under PMAY-Gramin, assistance per house in plain areas is:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> ₹70,000</div>
-      <div class="mcq-option"><span>(B)</span> ₹1,00,000</div>
-      <div class="mcq-option"><span>(C)</span> ₹1,20,000</div>
-      <div class="mcq-option"><span>(D)</span> ₹1,50,000</div>
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) ₹1,20,000</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) ₹70,000</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) ₹1,00,000</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) ₹1,50,000</label>
     </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — PMAY-G pays ₹1.20 lakh in the plains; the corresponding hilly, north-eastern and IAP rate is ₹1.30 lakh, and both rates carried over unchanged into PMAY-G 2.0. ₹70,000 is the old Indira Awaas Yojana unit cost that PMAY-G replaced in 2016 and is the strongest distractor here; ₹1,00,000 and ₹1,50,000 are invented.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q7. Which of the following Bihar schemes provides financial assistance to girls from birth to graduation?</div>
+  <!-- Q7 -->
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Which Bihar scheme supports a girl financially from birth through graduation?</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> Beti Bachao Beti Padhao</div>
-      <div class="mcq-option"><span>(B)</span> Mukhyamantri Kanya Utthan Yojana</div>
-      <div class="mcq-option"><span>(C)</span> Sukanya Samriddhi Yojana</div>
-      <div class="mcq-option"><span>(D)</span> PM Matritva Vandana Yojana</div>
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Beti Bachao Beti Padhao</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Sukanya Samriddhi Yojana</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Mukhyamantri Kanya Utthan Yojana</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Pradhan Mantri Matritva Vandana Yojana</label>
     </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (C)</strong> — Mukhyamantri Kanya Utthan Yojana is Bihar's own scheme, paying a girl in stages from birth through to a graduation incentive of ₹50,000. Beti Bachao Beti Padhao is a central awareness campaign with no direct cash transfer, Sukanya Samriddhi is a savings account the parent funds herself, and PMMVY is a one-time central maternity benefit — none of them spans birth to graduation.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q8. "Namo Drone Didi" scheme aims to provide drones to:</div>
+  <!-- Q8 -->
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The Namo Drone Didi scheme provides drones to:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> Defence forces for border surveillance</div>
-      <div class="mcq-option"><span>(B)</span> Women Self-Help Groups for agricultural purposes</div>
-      <div class="mcq-option"><span>(C)</span> Police departments for traffic monitoring</div>
-      <div class="mcq-option"><span>(D)</span> Forest departments for wildlife tracking</div>
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Border security forces for surveillance</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Women's self-help groups for agricultural use</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) State police for traffic monitoring</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Forest departments for wildlife tracking</label>
     </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (B)</strong> — Namo Drone Didi was approved by the Union Cabinet in November 2023 with an outlay of about ₹1,261 crore, equipping roughly 15,000 women's SHGs with drones for spraying and crop monitoring; operational guidelines followed in 2024. The security and forestry options play on the word 'drone', but the scheme sits with the Ministry of Agriculture and Farmers' Welfare and is explicitly a women's livelihood programme.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q9. Which of the following is a Central Sector Scheme (100% funded by Centre)?</div>
+  <!-- Q9 -->
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Which of the following is a Central Sector Scheme, funded 100% by the Centre?</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> MGNREGA</div>
-      <div class="mcq-option"><span>(B)</span> PM-KISAN</div>
-      <div class="mcq-option"><span>(C)</span> Samagra Shiksha</div>
-      <div class="mcq-option"><span>(D)</span> National Health Mission</div>
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) PM-KISAN</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) MGNREGA</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Samagra Shiksha Abhiyan</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) National Health Mission</label>
     </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — PM-KISAN is a Central Sector Scheme — the entire ₹6,000 comes from the Union Budget and goes straight to the farmer's account. MGNREGA, Samagra Shiksha and NHM are all Centrally Sponsored Schemes, meaning the States share the cost, though the split varies: Samagra Shiksha and NHM run at roughly 60:40, whereas under MGNREGA the Centre funds 100% of unskilled wages and 75% of material costs. The Central Sector / Centrally Sponsored distinction is what BPSC tests.</div>
   </div>
 
-  <div class="mcq-block">
+  <!-- Q10 -->
+  <div class="mcq-block" id="q10">
     <div class="mcq-q">Q10. The Jal Jeevan Mission aims to provide:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> Irrigation to all farms</div>
-      <div class="mcq-option"><span>(B)</span> Tap water connection to every rural household</div>
-      <div class="mcq-option"><span>(C)</span> Free water tankers in urban areas</div>
-      <div class="mcq-option"><span>(D)</span> Bottled water to tribal areas</div>
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Irrigation to every agricultural holding</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Free water tankers in water-stressed towns</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Bottled drinking water in tribal districts</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) A functional tap water connection to every rural household</label>
     </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — JJM's goal, captured in the slogan 'Har Ghar Jal', is a functional household tap connection for every rural home. Irrigation is the domain of PM Krishi Sinchai Yojana ('Har Khet Ko Pani') — the near-identical slogans are the trap. Tankers and bottled water are relief measures, not the mission's design.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q11. Bihar's "Jal-Jeevan-Hariyali" mission primarily focuses on:</div>
+  <!-- Q11 -->
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Bihar's Jal-Jeevan-Hariyali Mission is primarily concerned with:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> Industrial water supply</div>
-      <div class="mcq-option"><span>(B)</span> Climate change, water conservation and afforestation</div>
-      <div class="mcq-option"><span>(C)</span> Urban flood management</div>
-      <div class="mcq-option"><span>(D)</span> River interlinking</div>
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Industrial water supply in Patna and Begusarai</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Water conservation, afforestation and climate resilience</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Urban flood management in the Kosi basin</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Interlinking the Ganga and Son rivers</label>
     </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (B)</strong> — Jal-Jeevan-Hariyali is Bihar's flagship climate mission — reviving ponds and wells, rainwater harvesting and large-scale tree planting. Do not confuse it with the central Jal Jeevan Mission, which is about tap water; the similar names are the whole point of the trap. River interlinking and industrial supply are separate programmes.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q12. PM Vishwakarma Yojana supports how many traditional crafts?</div>
+  <!-- Q12 -->
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. PM Vishwakarma Yojana extends support to how many traditional trades?</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> 10</div>
-      <div class="mcq-option"><span>(B)</span> 14</div>
-      <div class="mcq-option"><span>(C)</span> 18</div>
-      <div class="mcq-option"><span>(D)</span> 25</div>
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) 10</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) 14</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) 18</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) 25</label>
     </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — PM Vishwakarma (2023) covers 18 traditional crafts — carpenter, blacksmith, potter, cobbler and so on — with a ₹15,000 toolkit grant and collateral-free credit. 14 is the trap drawn from other scheme lists; the number 18 is the figure BPSC would ask for.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q13. What is the maximum loan amount under the "Tarun" category of MUDRA scheme?</div>
+  <!-- Q13 -->
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Excluding the Tarun Plus category introduced in 2024, the maximum loan under the 'Tarun' category of MUDRA is:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> ₹50,000</div>
-      <div class="mcq-option"><span>(B)</span> ₹5 Lakh</div>
-      <div class="mcq-option"><span>(C)</span> ₹10 Lakh</div>
-      <div class="mcq-option"><span>(D)</span> ₹20 Lakh</div>
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) ₹10 lakh</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) ₹50,000</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) ₹5 lakh</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) ₹20 lakh</label>
     </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Tarun is the top slab of the original three, covering loans above ₹5 lakh and up to ₹10 lakh; ₹50,000 is the Shishu ceiling and ₹5 lakh the Kishore ceiling. Since October 2024 a separate Tarun Plus category lends ₹10–20 lakh to borrowers who have already repaid a Tarun loan — which is why the question excludes it, and why an unqualified 'maximum MUDRA loan' question would now answer ₹20 lakh.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q14. The "Bihar Student Credit Card Scheme" provides loans up to:</div>
+  <!-- Q14 -->
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Bihar Student Credit Card Scheme offers education loans up to:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> ₹1 Lakh</div>
-      <div class="mcq-option"><span>(B)</span> ₹2 Lakh</div>
-      <div class="mcq-option"><span>(C)</span> ₹4 Lakh</div>
-      <div class="mcq-option"><span>(D)</span> ₹10 Lakh</div>
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) ₹1 lakh</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) ₹4 lakh</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) ₹2 lakh</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) ₹10 lakh</label>
     </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — The scheme lends up to ₹4 lakh to students who have passed Class 12, for higher studies. ₹10 lakh is the ceiling under Mukhyamantri Udyami Yojana, a different Bihar scheme, and is the most common confusion. Note also that the interest subsidy changed after September 2025.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q15. Which scheme was launched to provide free LPG connections to women from BPL families?</div>
+  <!-- Q15 -->
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Free LPG connections to women from BPL households are provided under:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> PM Ujjwala Yojana</div>
-      <div class="mcq-option"><span>(B)</span> PM Ujjala Yojana</div>
-      <div class="mcq-option"><span>(C)</span> PM Grihini Yojana</div>
-      <div class="mcq-option"><span>(D)</span> PM Annapurna Yojana</div>
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) PM Ujjwala Yojana</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) PM Ujjala Yojana</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) PM Grihini Yojana</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) PM Annapurna Yojana</label>
     </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — PM Ujjwala Yojana (2016) has issued over 10 crore LPG connections to women in poor households. 'Ujjala' is a deliberate near-homophone — UJALA is the LED bulb programme, an entirely different scheme. Grihini and Annapurna are not central schemes at all.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q16. The National Green Hydrogen Mission targets production of how much green hydrogen annually by 2030?</div>
+  <!-- Q16 -->
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The National Green Hydrogen Mission targets annual green hydrogen production by 2030 of:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> 1 MMT</div>
-      <div class="mcq-option"><span>(B)</span> 3 MMT</div>
-      <div class="mcq-option"><span>(C)</span> 5 MMT</div>
-      <div class="mcq-option"><span>(D)</span> 10 MMT</div>
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) 1 MMT</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) 3 MMT</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) 5 MMT</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) 10 MMT</label>
     </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (C)</strong> — The mission (2023, outlay about ₹19,744 crore) targets 5 million metric tonnes a year by 2030, with associated renewable capacity of roughly 125 GW. 10 MMT is the stretch figure sometimes quoted for exports and is the usual trap.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q17. Under PM Surya Ghar Muft Bijli Yojana (2024), how many units of free electricity per month is the target?</div>
+  <!-- Q17 -->
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Under PM Surya Ghar Muft Bijli Yojana, the free electricity target per household per month is:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> 100 units</div>
-      <div class="mcq-option"><span>(B)</span> 200 units</div>
-      <div class="mcq-option"><span>(C)</span> 300 units</div>
-      <div class="mcq-option"><span>(D)</span> 500 units</div>
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 100 units</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 200 units</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 500 units</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 300 units</label>
     </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — PM Surya Ghar (February 2024) aims to give one crore households 300 free units a month through rooftop solar. 200 units is the figure used by several state power subsidies and is the trap here; 100 and 500 are invented. Do not confuse this with Bihar's own 125-unit free-power entitlement.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q18. Stand-Up India scheme provides loans between ₹10 Lakh to ₹1 Crore to:</div>
+  <!-- Q18 -->
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Stand-Up India provides loans of ₹10 lakh to ₹1 crore to:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> All first-generation entrepreneurs</div>
-      <div class="mcq-option"><span>(B)</span> SC/ST and Women entrepreneurs</div>
-      <div class="mcq-option"><span>(C)</span> Only SC/ST entrepreneurs</div>
-      <div class="mcq-option"><span>(D)</span> Ex-servicemen only</div>
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) All first-generation entrepreneurs</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Ex-servicemen setting up enterprises</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) SC/ST and women entrepreneurs</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Only SC/ST entrepreneurs</label>
     </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — Stand-Up India (2016) requires every bank branch to finance at least one SC/ST borrower and one woman borrower for a greenfield enterprise. 'Only SC/ST' is the trap — it drops the women's category, which is half the scheme's design. First-generation entrepreneurs generally are served by MUDRA instead.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q19. Mukhyamantri Udyami Yojana (Bihar) provides what percentage subsidy on loans?</div>
+  <!-- Q19 -->
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Mukhyamantri Udyami Yojana of Bihar carries a subsidy component of:</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> 25%</div>
-      <div class="mcq-option"><span>(B)</span> 35%</div>
-      <div class="mcq-option"><span>(C)</span> 50%</div>
-      <div class="mcq-option"><span>(D)</span> 75%</div>
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) 25% of the loan</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) 35% of the loan</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) 75% of the loan</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) 50% of the loan</label>
     </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — Half of the ₹10 lakh assistance is an outright subsidy and the remainder is an interest-free repayable loan. 25% and 75% are plausible-looking distractors; the 50:50 split is what makes this Bihar's most-cited entrepreneurship scheme.</div>
   </div>
 
-  <div class="mcq-block">
-    <div class="mcq-q">Q20. Which of the following correctly matches scheme with its launch year?</div>
+  <!-- Q20 -->
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which scheme–launch year pair is correctly matched?</div>
     <div class="mcq-options">
-      <div class="mcq-option"><span>(A)</span> PM-KISAN — 2017</div>
-      <div class="mcq-option"><span>(B)</span> Ayushman Bharat — 2019</div>
-      <div class="mcq-option"><span>(C)</span> PMJDY — 2014</div>
-      <div class="mcq-option"><span>(D)</span> Ujjwala — 2018</div>
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) PM-KISAN — 2017</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) PMJDY — 2014</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Ayushman Bharat — 2019</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) PM Ujjwala — 2018</label>
     </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — PMJDY was launched on 28 August 2014. The others are each off by a year or two: PM-KISAN is 2019 (not 2017), Ayushman Bharat is 2018 (not 2019) and Ujjwala is 2016 (not 2018). BPSC's matching questions usually shift a single year like this.</div>
   </div>
 
-  <!-- Answer Key -->
-  <div class="answer-key">
-    <h3>📋 Answer Key</h3>
-    <div class="answer-grid">
-      <div class="answer-item"><span class="q-num">Q1.</span> B</div>
-      <div class="answer-item"><span class="q-num">Q2.</span> D</div>
-      <div class="answer-item"><span class="q-num">Q3.</span> B</div>
-      <div class="answer-item"><span class="q-num">Q4.</span> B</div>
-      <div class="answer-item"><span class="q-num">Q5.</span> C</div>
-      <div class="answer-item"><span class="q-num">Q6.</span> C</div>
-      <div class="answer-item"><span class="q-num">Q7.</span> B</div>
-      <div class="answer-item"><span class="q-num">Q8.</span> B</div>
-      <div class="answer-item"><span class="q-num">Q9.</span> B</div>
-      <div class="answer-item"><span class="q-num">Q10.</span> B</div>
-      <div class="answer-item"><span class="q-num">Q11.</span> B</div>
-      <div class="answer-item"><span class="q-num">Q12.</span> C</div>
-      <div class="answer-item"><span class="q-num">Q13.</span> C</div>
-      <div class="answer-item"><span class="q-num">Q14.</span> C</div>
-      <div class="answer-item"><span class="q-num">Q15.</span> A</div>
-      <div class="answer-item"><span class="q-num">Q16.</span> C</div>
-      <div class="answer-item"><span class="q-num">Q17.</span> C</div>
-      <div class="answer-item"><span class="q-num">Q18.</span> B</div>
-      <div class="answer-item"><span class="q-num">Q19.</span> C</div>
-      <div class="answer-item"><span class="q-num">Q20.</span> C</div>
+  <!-- Q21 -->
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Consider the following statements about PMJJBY: 1. It provides life cover of ₹2 lakh. 2. The entry age is 18–50 years, with cover to age 55. 3. The premium is ₹20 a year. Which are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 1, 2 and 3</label>
     </div>
-
-    <div class="explanation">
-      <p><strong>Q1:</strong> PM-KISAN provides ₹6,000/year in 3 equal installments of ₹2,000 each to all landholding farmer families.</p>
-      <p><strong>Q2:</strong> MUDRA has only 3 categories — Shishu, Kishore, Tarun. "Yuva" is not a MUDRA category.</p>
-      <p><strong>Q3:</strong> PMSBY premium is ₹20/year. Don't confuse with PMJJBY (₹436/year).</p>
-      <p><strong>Q4:</strong> In 2024, Ayushman Bharat was expanded to cover all senior citizens aged 70+ regardless of income status.</p>
-      <p><strong>Q5:</strong> Swachh Bharat Mission (Rural) is under Ministry of Jal Shakti; SBM (Urban) is under MoHUA. Common exam trap!</p>
-      <p><strong>Q6:</strong> PMAY-G: ₹1,20,000 for plains; ₹1,30,000 for hilly/difficult areas.</p>
-      <p><strong>Q7:</strong> Mukhyamantri Kanya Utthan Yojana is Bihar's scheme providing ₹54,100 total from birth to graduation.</p>
-      <p><strong>Q8:</strong> Namo Drone Didi (2024) provides drones to 15,000 women SHGs for agricultural spraying and monitoring.</p>
-      <p><strong>Q9:</strong> PM-KISAN is a Central Sector Scheme (100% Centre funded). MGNREGA, NHM are Centrally Sponsored.</p>
-      <p><strong>Q10:</strong> Jal Jeevan Mission's tagline: "Har Ghar Jal" — functional tap water to every rural household.</p>
-      <p><strong>Q14:</strong> Bihar Student Credit Card: Up to ₹4 Lakh loan for students who have passed 12th for higher education.</p>
-      <p><strong>Q16:</strong> National Green Hydrogen Mission: 5 MMT annual green H₂ production target by 2030; ₹19,744 Cr outlay.</p>
-      <p><strong>Q20:</strong> PMJDY was launched on Aug 28, 2014. PM-KISAN = 2019; Ayushman = 2018; Ujjwala = 2016.</p>
-    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Statements 1 and 2 are right: ₹2 lakh life cover, entry at 18–50 and cover continuing to 55. Statement 3 is wrong — ₹20 is the PMSBY accident-cover premium, whereas PMJJBY costs ₹436 a year after the 2022 revision. Mixing the two premiums is the single commonest error on this pair of schemes.</div>
   </div>
+
+  <!-- Q22 -->
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Which ministry–scheme pair is NOT correctly matched?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Jal Shakti — Namami Gange</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Panchayati Raj — SVAMITVA</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) MSME — PM Vishwakarma</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Agriculture — PM Ujjwala Yojana</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (D)</strong> — PM Ujjwala is run by the Ministry of Petroleum and Natural Gas, not Agriculture — so this is the incorrect pair. The other three are right: Namami Gange under Jal Shakti, SVAMITVA under Panchayati Raj, and PM Vishwakarma under MSME. Ministry mapping is a recurring BPSC format.</div>
+  </div>
+
+  <!-- Q23 -->
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Bihar decided to adopt the Pradhan Mantri Fasal Bima Yojana from which season?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Rabi 2026-27</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Kharif 2025</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Rabi 2024-25</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Kharif 2026</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Bihar had exited PMFBY in 2018 in favour of its own Bihar Rajya Fasal Sahayata Yojana, and the Cabinet approved rejoining from the Rabi 2026-27 season. The Kharif options are traps because most crop-insurance news is Kharif-led; here the switch is specifically Rabi.</div>
+  </div>
+
+  <!-- Q24 -->
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The annual premium for Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is currently:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) ₹330</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) ₹342</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) ₹436</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) ₹500</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — PMJJBY was repriced from ₹330 to ₹436 a year with effect from 1 June 2022. ₹330 is the pre-revision figure that still circulates in older study material, which makes it the strongest trap on this question. ₹342 and ₹500 are invented.</div>
+  </div>
+
+  <!-- Q25 -->
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Consider: 1. Central Sector Schemes are financed entirely by the Union government. 2. Centrally Sponsored Schemes are shared between Centre and States. 3. MGNREGA is a Central Sector Scheme. Which are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 1 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — Statements 1 and 2 state the definitions correctly. Statement 3 is wrong: MGNREGA is a Centrally Sponsored Scheme, with the Centre bearing the full wage component but States sharing material and administrative costs. Treating MGNREGA as Central Sector is the error this question is built to catch.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ====== SECTION 8: REFERENCE LINKS ====== -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list" style="font-size:13px;line-height:1.9;">
+    <li><a href="https://www.myscheme.gov.in/" target="_blank">myScheme — Government of India scheme finder</a></li>
+    <li><a href="https://pmkisan.gov.in/" target="_blank">PM-KISAN official portal (beneficiary and instalment data)</a></li>
+    <li><a href="https://pmjay.gov.in/" target="_blank">Ayushman Bharat PM-JAY — National Health Authority</a></li>
+    <li><a href="https://jaljeevanmission.gov.in/" target="_blank">Jal Jeevan Mission dashboard (state-wise tap connections)</a></li>
+    <li><a href="https://pmaymis.gov.in/" target="_blank">Pradhan Mantri Awas Yojana — Urban</a></li>
+    <li><a href="https://financialservices.gov.in/beta/en/jan-suraksha" target="_blank">Jan Suraksha schemes — PMJJBY, PMSBY, APY premiums</a></li>
+    <li><a href="https://state.bihar.gov.in/main/CitizenHome.html" target="_blank">Government of Bihar — state scheme directory</a></li>
+    <li><a href="https://pib.gov.in/" target="_blank">Press Information Bureau — scheme launches and revisions</a></li>
+  </ul>
 </div>
 
 <div class="doc-footer">
   BPSC 72nd Prelims — Topic #1: Govt Schemes & Policies | Generated: 2026-07-16 | Tier A • Weight 1.7<br>
   📌 Cross-reference with Topics #7, #11, #15, #16, #82, #84, #76
 </div>
+
+
+<script>
+const answers = {
+  q1: 'a', q2: 'd', q3: 'c', q4: 'b', q5: 'd',
+  q6: 'a', q7: 'c', q8: 'b', q9: 'a', q10: 'd',
+  q11: 'b', q12: 'c', q13: 'a', q14: 'b', q15: 'a',
+  q16: 'c', q17: 'd', q18: 'c', q19: 'd', q20: 'b',
+  q21: 'a', q22: 'd', q23: 'a', q24: 'c', q25: 'b'
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector('input[name="q' + i + '"]:checked');
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+
+    block.querySelectorAll('input[name="q' + i + '"]').forEach(input => {
+      if (input.value === correctAnswer) { input.parentElement.classList.add('correct-option'); }
+    });
+
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll('input[name="q' + i + '"]').forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
 
 </body>
 </html>
