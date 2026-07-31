@@ -196,3 +196,8 @@
 - **Two regex defects in my own tooling, found and fixed mid-pass:** the rider detector treated the hyphen inside "Jean-Baptiste" as a rider marker (so it skipped questions where a distractor merely contained a hyphenated word), and it could not match riders that themselves contained parentheses. Both cost real coverage — the second pass caught 34 more questions.
 - **QA:** 60/62 topics PASS. The two failures are topic 2 (1 image, needs 2) and topic 8 (0 images) — image minimums, no content or key defects. Page/sidecar key agreement clean at 1,592/1,592; div balance 0; no broken links.
 
+## 2026-07-31 — Image minimums cleared; qa_check now 62/62
+- **Topic 8** had zero images. Rather than source outside pictures, generated two diagrams from the topic's own verified mission table: `isro_timeline_2024_26.png` (every ISRO event in the exam window on one line, with SpaDeX docking / 100th Sriharikota launch / PSLV-C62 anomaly flagged as the PYQ-likely three) and `isro_launch_vehicles.png` (the SSLV→PSLV→GSLV Mk-II→LVM3→NGLV payload ladder, with the orbit attached to each figure since SSO/GTO/LEO is where the traps sit). House palette (#1a1a2e / #e94560 / #ff6b35).
+- **Topic 2** had one image; added the existing `patna_high_court.jpg` to the Bihar Connection section — collegium recommendations and CJ elevations are the highest-frequency slice of that topic.
+- **`qa_check.py all` is now 62/62 PASS**, up from 54/62 at the start of the session.
+
