@@ -253,3 +253,15 @@
 - **Rules taken from this**: (1) resolve relative paths before testing whether a link target exists — never compare basenames; (2) a link-rewriting pass must report the count it intends to change and abort if the actual count exceeds it; (3) on this bridge, restore files by overwrite, never by `git checkout`.
 - **QA after recovery**: 0 broken links, 0 missing images, div balance clean, page/sidecar agreement 1,622/1,622, 63/63 topics PASS.
 
+## 2026-07-31 — Depth programme: Ancient History batch 3 (103–106) — BLOCK COMPLETE
+- **103 Post-Mauryan** 1,138 → 3,296 words · 10 tables. Added the Shunga coup with the Ayodhya inscription and the persecution debate, Kharavela's Hathigumpha inscription, Indo-Greek coinage firsts and the Heliodorus pillar, the Saka era and Rudradaman's Junagadh inscription, Kushana genealogy via the Rabatak inscription, the Fourth Council, a proper Gandhara/Mathura/Amaravati comparison, Satavahana matronymics and the earliest land grants to monks, and the Roman trade through the *Periplus* and Arikamedu.
+- **104 Gupta Empire** 1,039 → 3,481 words · 11 tables. Added source criticism (Prayag Prashasti carved on a reused Ashokan pillar), the ruler sequence with what each is examined on, and — the substantive addition — **why "Golden Age" is a contested label**, since land grants, urban decline, caste hardening and the first clear evidence of sati point the other way. Aryabhata, Varahamihira and the Nagara temple beginnings covered properly.
+- **105 Post-Gupta & Sangam** 1,108 → 3,452 words · 13 tables. Added Harsha's sources, the defeat by Pulakeshin II, Xuanzang's testimony, the Chalukya–Pallava seesaw, and the Sangam corpus with the three crowned kings, the five tinai scheme and the Kalabhra interregnum.
+- **106 Art & Literature** 996 → 3,411 words · 19 tables — the thinnest chapter on the site becomes a proper reference. Stupa anatomy named part by part, chaitya vs vihara, a 10-row Gandhara/Mathura/Amaravati table, Nagara/Dravida/Vesara with sub-schools, fresco vs tempera at Ajanta, and the full literary corpus.
+- **Ancient History block complete: median 1,080 → 3,692 words**, now the deepest group on the site. Site median 1,753 → 2,162.
+- **Two regressions caught in review, both from the drafting agents:**
+  1. All four batch-3 drafts silently **dropped the `subpage-box` deep-dive link**. Batch 2 had done the same to topics 101 and 102 and it was missed at the time. All restored; every expanded chapter verified to carry exactly one subpage link.
+  2. My first restore pass reported "already present" for 101 and 102 because it tested `'subpage-box' in html`, which matches the **CSS rule in the style block**, not an actual `<div>`. Corrected to test for `<div class="subpage-box">`. Same class of error as the link incident: a check that looked right and verified the wrong thing.
+- The no-`<a href>`-to-other-topics rule was added to the brief after batch 2's broken-link incident; all four batch-3 drafts complied, and broken links stayed at 0.
+- **QA**: 0 broken links, 0 missing images, div balance clean, 63/63 topics PASS.
+
