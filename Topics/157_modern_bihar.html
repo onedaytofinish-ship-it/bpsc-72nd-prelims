@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>157 - Modern Bihar | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  h3 a { color: #16213e; text-decoration: none; }
+  h3 a:hover { color: #ff6b35; text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #157 • TIER C</div>
+  <div class="topic-title">Modern Bihar — 1857, Champaran, Quit India &amp; the Freedom Movement</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Bihar History</span>
+    <span class="meta-tag">⚖️ Weight: 0.5</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">🔶 Bihar-Only Consolidation</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Bihar events ↔ leaders matching (Q100):</strong> The 71st BPSC asked to match four Bihar events with their leaders: (a) Champaran Satyagrah → Dr. Rajendra Prasad; (b) Azad Dasta → Shyam Narayan Singh; (c) Individual Satyagraha in Bihar 1940 → Sahajanand Saraswati; (d) Kisan Sabha Bihar → Jayaprakash Narayan. Correct code: 4, 2, 3, 1. This is the single highest-yield Bihar-specific PYQ — memorise all four pairs.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Champaran Agrarian Inquiry Committee (Q82):</strong> The 71st BPSC asked: "Champaran Agrarian Inquiry Committee was appointed in agreement between?" — answer: <strong>Indian Government and Gandhiji</strong>. The committee was formed in 1917 after Gandhi's Champaran satyagraha; it had 4 members and investigated indigo planters' exploitation. Its report led to the Champaran Agrarian Act (1918), abolishing the tinkathia system.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Kunwar Singh ↔ Jagdishpur matching (Q127):</strong> The 70th BPSC asked to match 1857 leaders with their territories: Kunwar Singh → Jagdishpur; Hazrat Mahal → Lucknow; Khan Bahadur → Bareilly; Maulvi Ahmadullah → Lucknow (Faizabad area). Kunwar Singh ↔ Jagdishpur is the Bihar-specific pair.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Bihar State formation year (Q62):</strong> The 70th BPSC asked: "When was the Bihar State formed?" — the accepted answer was <strong>1911</strong> (the separation was announced via Delhi Durbar on 12 Dec 1911, though the separate province of Bihar &amp; Orissa was formally constituted on 1 Apr 1912). BPSC has used both 1911 and 1912 — know the distinction.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Santhal Hool year (Q108):</strong> The 70th BPSC asked when the Santhal Hool (Rebellion) took place — answer: <strong>1855–56</strong>. Led by Sidho and Kanhu Murmu, the Santhals rebelled against zamindari oppression and moneylenders in the Rajmahal hills (Bhagalpur/Birbhum). Pre-dates 1857 by two years.
+  </div>
+
+  <div class="subpage-box">
+    <strong>💡 Deep-dive ready:</strong> Complete phase-by-phase Bihar freedom movement — Kunwar Singh's campaign map with dates, Champaran deep dive (tinkathia, Raj Kumar Shukla, Agrarian Inquiry), JP's Hazaribagh escape, Azad Dasta operations, Shri Krishna Singh and Anugrah Narayan Sinha, Santhal Hool, Bihar formation chronology, and 7 exam predictions:
+    <a href="subpages/157_modern_bihar_detail.html" target="_blank">Modern Bihar Master Detail →</a>
+  </div>
+
+  <h3>A. Bihar Freedom Movement — Master Timeline <span class="current-tag">EXAM CORE</span></h3>
+  <p>This page consolidates Bihar-specific facts scattered across Topics 27, 28, 29, 32, 34, 36 and 37 into one revision-and-drill resource. For full India-wide context, follow the cross-topic links in §5.</p>
+
+  <table>
+    <tr><th>Date / Year</th><th>Event</th><th>Bihar Connection</th></tr>
+    <tr><td><strong>1855–56</strong></td><td>Santhal Hool (Rebellion)</td><td>Santhals led by Sidho &amp; Kanhu Murmu rebelled against zamindars and moneylenders in Rajmahal hills (Bhagalpur-Birbhum). Pre-dates 1857.</td></tr>
+    <tr><td><strong>25 Jul 1857</strong></td><td>Danapur sepoy revolt</td><td>Seepoys at Danapur (near Patna) mutinied; many marched to Jagdishpur to join Kunwar Singh.</td></tr>
+    <tr><td><strong>27 Jul 1857</strong></td><td>Battle of Arrah (Ara)</td><td>Kunwar Singh defeated the British garrison at Ara (Bhojpur); held Arrah House siege against British relief.</td></tr>
+    <tr><td><strong>Apr 26, 1858</strong></td><td>Kunwar Singh dies</td><td>Mortally wounded in final battle at Jagdishpur; cut off his wounded hand and offered it to the Ganga. The iconic Bihar martyr of 1857.</td></tr>
+    <tr><td><strong>1859</strong></td><td>Amar Singh continues</td><td>Kunwar Singh's brother Amar Singh carried on the fight in Jagdishpur until captured and executed.</td></tr>
+    <tr><td><strong>12 Dec 1911</strong></td><td>Bihar separation announced</td><td>Delhi Durbar (George V): Bengal Presidency reunited, Bihar &amp; Orissa separated from Bengal to form a new province.</td></tr>
+    <tr><td><strong>1 Apr 1912</strong></td><td>Province of Bihar &amp; Orissa</td><td>Formally constituted. Patna became the capital. Sachchidananda Sinha was key advocate for separate Bihar.</td></tr>
+    <tr><td><strong>1912</strong></td><td>INC session at Bankipore (Patna)</td><td>The only INC session held in Bihar before 1947. Presided by Sachchidananda Sinha (temporary); Rahimtula M. Sayani was the elected president.</td></tr>
+    <tr><td><strong>1917</strong></td><td>Champaran Satyagraha</td><td>Gandhi's first satyagraha in India. Raj Kumar Shukla invited Gandhi. Tinkathia system (indigo planters forced 3/20 of land for indigo). Rajendra Prasad, Mazharul Haque, J.B. Kripalani joined.</td></tr>
+    <tr><td><strong>1 Oct 1917</strong></td><td>Patna University founded</td><td>Direct outcome of Bihar's separation — the state's first university. Reform-era milestone.</td></tr>
+    <tr><td><strong>1920–22</strong></td><td>Non-Cooperation Movement</td><td>Bihar students left government schools; picketing of foreign cloth. Rajendra Prasad and Mazharul Haque prominent.</td></tr>
+    <tr><td><strong>1929</strong></td><td>Bihar Kisan Sabha founded</td><td>Sahajanand Saraswati founded the Bihar Provincial Kisan Sabha — peasant mobilisation against zamindari exploitation.</td></tr>
+    <tr><td><strong>1930–34</strong></td><td>Civil Disobedience in Bihar</td><td>Salt satyagraha on banks of Ganga at Patna; no-tax campaigns in Tirhut and Champaran; tribal satyagrahas in Chhotanagpur.</td></tr>
+    <tr><td><strong>1936</strong></td><td>Bihar as separate province</td><td>Orissa separated from Bihar; Bihar became a separate province under the Government of India Act 1935.</td></tr>
+    <tr><td><strong>1937</strong></td><td>First elected Bihar govt</td><td>INC won Bihar elections under 1935 Act; <strong>Sri Krishna Singh</strong> became first Premier (later CM); <strong>Anugrah Narayan Sinha</strong> became Deputy Premier.</td></tr>
+    <tr><td><strong>Mar 1939</strong></td><td>Sri Krishna Singh becomes CM</td><td>The 71st BPSC Q86 asked: "Who became CM of Bihar in March 1939?" → <strong>Shri Krishna Singh</strong>. (He resigned Oct 1939 over WWII, returned 1946, served until death 1961.)</td></tr>
+    <tr><td><strong>Oct 1939</strong></td><td>INC ministries resign</td><td>Bihar's Congress ministry resigned over Viceroy's unilateral declaration of war. Sri Krishna Singh resigned as Premier.</td></tr>
+    <tr><td><strong>1940</strong></td><td>Individual Satyagraha in Bihar</td><td><strong>Sahajanand Saraswati</strong> offered Individual Satyagraha in Bihar (71st PYQ Q100). National level: Vinoba Bhave was first; Nehru was second.</td></tr>
+    <tr><td><strong>1942</strong></td><td>Quit India — Bihar hotspot</td><td>JP escaped Hazaribagh Jail (Nov 1942); <strong>Azad Dasta</strong> underground guerrilla led by Shyam Narayan Singh; Sri Krishna Singh participated; attacks on railways and police stations across Bihar.</td></tr>
+    <tr><td><strong>1946</strong></td><td>Sri Krishna Singh returns as CM</td><td>INC won 1946 elections; Sri Krishna Singh became first CM of Bihar (served 1946–1961; "Bihar Kesari").</td></tr>
+    <tr><td><strong>9 Dec 1946</strong></td><td>Constituent Assembly</td><td><strong>Sachchidananda Sinha</strong> (Arrah, Bihar) was the first temporary chairman. <strong>Rajendra Prasad</strong> (Siwan, Bihar) became permanent President — and later first President of India.</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Bihar freedom movement phases "S-C-K-Q":</strong><br>
+    <strong>S</strong>anthal Hool (1855) → <strong>C</strong>hamparan (1917) → <strong>K</strong>isan Sabha &amp; Individual Satyagraha (1929–1940) → <strong>Q</strong>uit India (1942).<br>
+    <em>"SCKQ: the four phases of Bihar's freedom struggle."</em>
+  </div>
+
+  <h3>B. Kunwar Singh — Bihar's 1857 Hero <span class="current-tag">HIGH-YIELD</span></h3>
+  <table>
+    <tr><th>Attribute</th><th>Detail</th></tr>
+    <tr><td><strong>Full name</strong></td><td>Babu Veer Kunwar Singh</td></tr>
+    <tr><td><strong>Born</strong></td><td>1777, Jagdishpur, Ara (Bhojpur district, Bihar)</td></tr>
+    <tr><td><strong>Age in 1857</strong></td><td>80 years old — the oldest rebel leader</td></tr>
+    <tr><td><strong>Title</strong></td><td>Raja of Jagdishpur; zamindar of the area</td></tr>
+    <tr><td><strong>Revolt start</strong></td><td>25 Jul 1857 — Danapur sepoys mutinied, marched to Jagdishpur to join him</td></tr>
+    <tr><td><strong>Key battles</strong></td><td>Ara (27 Jul 1857), Danapur, Patna → UP (relieved Azamgarh) → MP (Rewa, Bundelkhand)</td></tr>
+    <tr><td><strong>Death</strong></td><td>26 Apr 1858 — mortally wounded at Jagdishpur; cut off his wounded hand and offered it to the Ganga</td></tr>
+    <tr><td><strong>Successor</strong></td><td>Brother Amar Singh continued the fight until captured and executed (1859)</td></tr>
+    <tr><td><strong>Legacy</strong></td><td>Veer Kunwar Singh University (Ara); Veer Kunwar Singh Setu (bridge); statues at Ara and Patna</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/kunwar_singh.jpg" alt="Kunwar Singh">
+    <div class="img-caption">Raja Kunwar Singh — the 80-year-old zamindar of Jagdishpur (Ara, Bhojpur district, Bihar), who led the 1857 Revolt in Bihar. He fought across Bihar, UP, and MP, and died mortally wounded on April 26, 1858.</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/gandhi_portrait.jpg" alt="Mahatma Gandhi">
+    <div class="img-caption">Mahatma Gandhi — launched his first Indian satyagraha at Champaran, Bihar in 1917, investigating the tinkathia indigo system at the invitation of Raj Kumar Shukla.</div>
+  </div>
+
+  <h3>C. Champaran Satyagraha (1917) — Gandhi's First Indian Movement</h3>
+  <table>
+    <tr><th>Aspect</th><th>Detail</th></tr>
+    <tr><td><strong>Where</strong></td><td>Champaran district, North Bihar (now split into East Champaran and West Champaran)</td></tr>
+    <tr><td><strong>Who invited Gandhi</strong></td><td>Raj Kumar Shukla — a local indigo cultivator who met Gandhi at the Lucknow INC session (1916)</td></tr>
+    <tr><td><strong>Gandhi arrived</strong></td><td>10 Apr 1917 (first visit); later joined by Rajendra Prasad, Mazharul Haque, J.B. Kripalani, Mahadev Desai</td></tr>
+    <tr><td><strong>The grievance</strong></td><td><strong>Tinkathia system</strong> — peasants forced to cultivate indigo on 3/20 of their land for European planters at below-market rates</td></tr>
+    <tr><td><strong>Gandhi's method</strong></td><td>Arrived, surveyed villages, recorded 8,000 peasant statements, refused to leave when ordered by British authorities</td></tr>
+    <tr><td><strong>Outcome</strong></td><td>Champaran Agrarian Inquiry Committee formed (agreement between Indian Government and Gandhiji — 71st PYQ Q82); report → Champaran Agrarian Act 1918 → tinkathia abolished</td></tr>
+    <tr><td><strong>Committee composition</strong></td><td>4 members including Gandhi; chairman was a government official</td></tr>
+    <tr><td><strong>Significance</strong></td><td>Gandhi's first satyagraha in India; first mass movement in Bihar; established Gandhi's method of peaceful resistance + fact-finding + negotiation</td></tr>
+  </table>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st PYQ</span> <strong>Q82:</strong> "Champaran Agrarian Inquiry Committee was appointed in agreement between?" → <strong>Indian Government and Gandhiji</strong>. Note: NOT "Indian Government and Congress" or "British Government and planters" — it was a bilateral agreement between the colonial government and Gandhi personally.
+  </div>
+
+  <h3>D. Quit India 1942 — Bihar as a Hotspot</h3>
+  <table>
+    <tr><th>Bihar Event</th><th>Leader</th><th>Detail</th></tr>
+    <tr><td><strong>JP's Hazaribagh Jail escape</strong></td><td>Jayaprakash Narayan</td><td>Nov 1942 — JP escaped from Hazaribagh Central Jail (then in Bihar, now Jharkhand), went underground, organised the resistance, arrested Sep 1943</td></tr>
+    <tr><td><strong>Azad Dasta</strong></td><td>Shyam Narayan Singh</td><td>Underground guerrilla group — sabotaged railways, cut telegraph wires, attacked police stations. The 71st PYQ Q100 pairs Azad Dasta → Shyam Narayan Singh.</td></tr>
+    <tr><td><strong>Sri Krishna Singh</strong></td><td>"Bihar Kesari"</td><td>Participated in Quit India; was arrested. Earlier served as Premier (1937–39), returned as CM (1946–61). The 69th BPSC Q134 noted his participation.</td></tr>
+    <tr><td><strong>Anugrah Narayan Sinha</strong></td><td>Deputy CM/Premier</td><td>Key Bihar Congress leader; arrested during Quit India; earlier Deputy Premier under Sri Krishna Singh (1937)</td></tr>
+    <tr><td><strong>Sahajanand Saraswati</strong></td><td>Kisan Sabha leader</td><td>Had offered Individual Satyagraha in Bihar in 1940 (71st PYQ Q100). Founded Bihar Kisan Sabha (1929).</td></tr>
+    <tr><td><strong>Infrastructure attacks</strong></td><td>Mass participation</td><td>Railway stations, post offices, police stations attacked across Bihar — one of the strongest Quit India centres in India</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/jp_narayan.jpg" alt="Jayaprakash Narayan">
+    <div class="img-caption">Jayaprakash Narayan (JP) — escaped from Hazaribagh Jail in November 1942, went underground, and organised the Bihar resistance during Quit India. Later led the 1974 "Total Revolution" movement.</div>
+  </div>
+
+  <div class="img-container">
+    <img src="images/quit_india_1942.jpg" alt="Quit India Movement 1942">
+    <div class="img-caption">The Quit India Movement (August 1942) — Gandhi's "Do or Die" slogan. Bihar was one of the strongest centres, with JP's escape, the Azad Dasta underground, and widespread infrastructure attacks.</div>
+  </div>
+
+  <h3>E. Key Bihar Leaders of the Freedom Movement</h3>
+  <table>
+    <tr><th>Leader</th><th>Role</th><th>Bihar Connection</th></tr>
+    <tr><td><strong>Rajendra Prasad</strong></td><td>First President of India (1950–62)</td><td>Born Zeradei (Siwan, Bihar). Champaran 1917. INC President 1934. President of Constituent Assembly (1946–49).</td></tr>
+    <tr><td><strong>Sri Krishna Singh</strong></td><td>First CM of Bihar (1946–61), "Bihar Kesari"</td><td>Participated in Quit India 1942. Premier 1937–39, returned 1946. First BJP-era title not relevant — he was Congress.</td></tr>
+    <tr><td><strong>Anugrah Narayan Sinha</strong></td><td>Deputy CM/Premier of Bihar</td><td>Gandhi's follower from Champaran era. Deputy Premier 1937. Arrested in Quit India 1942.</td></tr>
+    <tr><td><strong>Jayaprakash Narayan (JP)</strong></td><td>Socialist leader, Quit India organiser</td><td>Born Sitab Diara (Saran/Ballia border). Escaped Hazaribagh Jail 1942. Kisan Sabha. Later 1974 Total Revolution.</td></tr>
+    <tr><td><strong>Sahajanand Saraswati</strong></td><td>Kisan Sabha founder; peasant leader</td><td>Founded Bihar Provincial Kisan Sabha (1929). Individual Satyagraha in Bihar 1940. Key reformer (see Topic 28).</td></tr>
+    <tr><td><strong>Shyam Narayan Singh</strong></td><td>Azad Dasta leader</td><td>Led underground guerrilla operations in Bihar during Quit India 1942.</td></tr>
+    <tr><td><strong>Sachchidananda Sinha</strong></td><td>First temporary chairman, Constituent Assembly</td><td>From Arrah (Bihar). Advocated separate Bihar province (1912). INC Bankipore session 1912 host.</td></tr>
+    <tr><td><strong>Mazharul Haque</strong></td><td>Educationist, freedom fighter</td><td>Champaran 1917 with Gandhi. Founded S.M. College (Chapra). Resigned from Viceroy's Council during Non-Cooperation.</td></tr>
+    <tr><td><strong>Kunwar Singh</strong></td><td>1857 rebel leader</td><td>Zamindar of Jagdishpur (Ara, Bhojpur). Bihar's iconic 1857 martyr.</td></tr>
+    <tr><td><strong>Sidho &amp; Kanhu Murmu</strong></td><td>Santhal Hool leaders (1855–56)</td><td>Santhal tribal rebellion in Rajmahal hills (Bhagalpur area) against zamindari and moneylender oppression.</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>🧠 Mnemonic — Bihar freedom icons "R-S-J-S-A":</strong><br>
+    <strong>R</strong>ajendra Prasad (President) → <strong>S</strong>ri Krishna Singh (CM) → <strong>J</strong>P Narayan (Quit India) → <strong>S</strong>ahajanand (Kisan Sabha) → <strong>A</strong>nugrah Narayan (Deputy CM).<br>
+    <em>"RSJSA: the five pillars of Bihar's freedom movement."</em>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2b — FLOWCHART                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📊</span> Bihar Freedom Movement — Chronological Flow</div>
+  <p style="margin-bottom: 12px;">From the Santhal Hool (1855) through Independence (1947) — the Bihar-specific arc of the freedom struggle.</p>
+  <div class="flowchart">
+    <div class="flow-node">1855–56 — Santhal Hool (Sidho &amp; Kanhu Murmu, Bhagalpur)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">1857–58 — Kunwar Singh (Jagdishpur, Ara; dies Apr 26 1858)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">1911–12 — Bihar separated from Bengal; Patna capital</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">1917 — Champaran Satyagraha (Gandhi's first Indian movement)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">1920–34 — Non-Cooperation &amp; Civil Disobedience in Bihar</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">1929 — Bihar Kisan Sabha (Sahajanand Saraswati)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">1937 — First elected Bihar govt (Sri Krishna Singh, Premier)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">1940 — Individual Satyagraha in Bihar (Sahajanand)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">1942 — Quit India: JP escape, Azad Dasta, Bihar hotspot</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">1946 — Sri Krishna Singh first CM; Constituent Assembly (Rajendra Prasad)</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🧠</span> Fact Matrix &amp; Key Data</div>
+
+  <h3>Bihar Formation Chronology — Exam Trap Zone</h3>
+  <table>
+    <tr><th>Date</th><th>Event</th><th>Significance</th></tr>
+    <tr><td><strong>1905</strong></td><td>Bengal Partition (Curzon)</td><td>Bihar was part of Bengal Presidency; the partition included Bihar in the new "Bengal" (without East Bengal). Bihar not directly affected.</td></tr>
+    <tr><td><strong>12 Dec 1911</strong></td><td>Delhi Durbar announcement</td><td>George V announced: (1) capital shift to Delhi, (2) Bengal Partition annulled, (3) Bihar &amp; Orissa separated from Bengal. <strong>BPSC Q62 accepted answer: 1911.</strong></td></tr>
+    <tr><td><strong>1 Apr 1912</strong></td><td>Province of Bihar &amp; Orissa constituted</td><td>Patna became the capital of the new province. Formal administrative separation.</td></tr>
+    <tr><td><strong>22 Mar 1912</strong></td><td>Bihar Diwas</td><td>Commemorated annually as Bihar Day. (The 2026 theme was "Pragatishil Bihar, Ujjwal Bihar".)</td></tr>
+    <tr><td><strong>1 Apr 1936</strong></td><td>Bihar as separate province</td><td>Orissa separated from Bihar under the Government of India Act 1935. Bihar became a standalone province.</td></tr>
+    <tr><td><strong>15 Aug 1947</strong></td><td>Independence</td><td>Bihar became a state of the Indian Union. Sri Krishna Singh continued as CM.</td></tr>
+  </table>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">EXAM TIP</span> <strong>1911 vs 1912 trap:</strong> The 70th BPSC Q62 asked "When was Bihar State formed?" and accepted <strong>1911</strong> (Delhi Durbar announcement). Some answer keys cite <strong>1912</strong> (formal constitution). Know both: 1911 = announcement; 1912 = formal. If forced to choose one for "formed", BPSC has historically accepted 1911. <strong>Bihar Diwas</strong> is 22 March — the 2026 celebration was the 114th.
+  </div>
+
+  <h3>Gandhian Movements in Bihar — Quick Reference</h3>
+  <table>
+    <tr><th>Movement</th><th>Year(s)</th><th>Bihar-Specific Events</th><th>Key Bihar Leaders</th></tr>
+    <tr><td><strong>Champaran Satyagraha</strong></td><td>1917</td><td>Gandhi's first Indian satyagraha; tinkathia system; Agrarian Inquiry Committee; Champaran Agrarian Act 1918</td><td>Rajendra Prasad, Mazharul Haque, J.B. Kripalani</td></tr>
+    <tr><td><strong>Non-Cooperation</strong></td><td>1920–22</td><td>Students left govt schools; foreign cloth picketing; Rajendra Prasad prominent</td><td>Rajendra Prasad, Mazharul Haque</td></tr>
+    <tr><td><strong>Civil Disobedience</strong></td><td>1930–34</td><td>Salt satyagraha on Ganga banks (Patna); no-tax campaigns Tirhut/Champaran; tribal satyagrahas Chhotanagpur</td><td>Rajendra Prasad, Anugrah Narayan Sinha</td></tr>
+    <tr><td><strong>Individual Satyagraha</strong></td><td>1940</td><td>Sahajanand Saraswati offered Individual Satyagraha in Bihar (71st PYQ Q100)</td><td>Sahajanand Saraswati</td></tr>
+    <tr><td><strong>Quit India</strong></td><td>1942</td><td>JP Hazaribagh escape; Azad Dasta (Shyam Narayan Singh); Sri Krishna Singh; infrastructure attacks</td><td>JP, Shyam Narayan Singh, Sri Krishna Singh, Anugrah Narayan Sinha</td></tr>
+  </table>
+
+  <h3>1937 Elections &amp; Bihar's First Elected Government</h3>
+  <table>
+    <tr><th>Aspect</th><th>Detail</th></tr>
+    <tr><td><strong>Legal basis</strong></td><td>Government of India Act 1935 — provincial autonomy, direct elections (limited franchise ~10%)</td></tr>
+    <tr><td><strong>Result</strong></td><td>INC won Bihar; formed ministry under Sri Krishna Singh</td></tr>
+    <tr><td><strong>Premier</strong></td><td><strong>Sri Krishna Singh</strong> — first elected Premier (later titled CM)</td></tr>
+    <tr><td><strong>Deputy Premier</strong></td><td><strong>Anugrah Narayan Sinha</strong></td></tr>
+    <tr><td><strong>Resignation</strong></td><td>Oct 1939 — all INC ministries resigned over Viceroy's unilateral WWII declaration</td></tr>
+    <tr><td><strong>Return</strong></td><td>1946 elections — INC won again; Sri Krishna Singh became first CM of Bihar (served 1946–61)</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/bihar_in_india.png" alt="Bihar in India map">
+    <div class="img-caption">Bihar's location in India — separated from Bengal in 1911–12, made a separate province in 1936, and became a state of the Indian Union in 1947.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION                                             -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔶</span> Bihar Connection — Deep Dive</div>
+  <div class="bihar-box">
+    <div class="bihar-box-title">Why Bihar Matters in the Freedom Movement</div>
+    <ul>
+      <li><strong>First Indian satyagraha:</strong> Champaran (1917) was Gandhi's first act of civil disobedience in India — it established the template for all future movements. The method (arrive, survey, document, refuse to leave, negotiate) was born in Bihar.</li>
+      <li><strong>1857 Bihar martyr:</strong> Kunwar Singh (Jagdishpur) was the oldest and one of the most determined rebel leaders — fought across three provinces at age 80.</li>
+      <li><strong>Quit India hotspot:</strong> Bihar was among the top three states for Quit India intensity (with Bombay and Bengal). JP's Hazaribagh escape became legendary; the Azad Dasta was a rare organised underground guerrilla unit.</li>
+      <li><strong>Peasant mobilisation:</strong> Bihar Kisan Sabha (1929, Sahajanand Saraswati) was one of India's strongest peasant movements — linking the freedom struggle to the land question.</li>
+      <li><strong>Constitutional leadership:</strong> Rajendra Prasad (Siwan) — President of the Constituent Assembly and first President of India. Sachchidananda Sinha (Arrah) — first temporary chairman of the Constituent Assembly.</li>
+      <li><strong>First BJP-era CM:</strong> Sri Krishna Singh (1946–61) — Bihar's longest-serving CM, "Bihar Kesari". He was the first elected head of Bihar under provincial autonomy.</li>
+      <li><strong>Tribal resistance:</strong> Santhal Hool (1855–56) — Sidho and Kanhu Murmu's rebellion was one of India's earliest tribal uprisings against colonial-zamindari oppression, predating 1857.</li>
+      <li><strong>Pre-1947 INC session:</strong> The 1912 Bankipore (Patna) session was the only INC session in Bihar before Independence — hosted by Sachchidananda Sinha.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Cross-Topic Connections</div>
+  <div class="cross-link">
+    <strong>This page consolidates Bihar-specific content from these source topics:</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>Topic 27</strong> — Revolt of 1857: full India-wide causes, leaders, timeline, consequences. Bihar angle = Kunwar Singh (Jagdishpur, Ara, Danapur).</li>
+      <li><strong>Topic 28</strong> — Socio-Religious Reforms: Sahajanand Saraswati and Kisan Sabha (1929). Bihar social reform context.</li>
+      <li><strong>Topic 29</strong> — INC Formation: 1912 Bankipore (Patna) session — the only Bihar INC session before 1947.</li>
+      <li><strong>Topic 32</strong> — Gandhian Movements: Champaran 1917 (full analysis), Azad Dasta, Individual Satyagraha 1940, Kisan Sabha.</li>
+      <li><strong>Topic 34</strong> — Quit India 1942: full India-wide analysis. Bihar angle = JP escape, Azad Dasta, Sri Krishna Singh, infrastructure attacks.</li>
+      <li><strong>Topic 36</strong> — Constitutional Acts: GoI Act 1935 → 1937 Bihar elections, first elected ministry, provincial autonomy.</li>
+      <li><strong>Topic 37</strong> — Independence &amp; Partition: Rajendra Prasad as first President; Sachchidananda Sinha as first Constituent Assembly chairman.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE                                            -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📰</span> Current Relevance 2024–26</div>
+  <table>
+    <tr><th>Event</th><th>Date</th><th>Relevance</th></tr>
+    <tr><td><strong>Bihar Diwas 2026</strong></td><td>22 Mar 2026</td><td>114th Bihar Diwas; theme "Pragatishil Bihar, Ujjwal Bihar" (Progressive Bihar, Bright Bihar). Celebrates the 1912 formation.</td></tr>
+    <tr><td><strong>Champaran centenary</strong></td><td>2017 (centenary)</td><td>The 100th anniversary of Gandhi's Champaran Satyagraha was commemorated in 2017. Champaran remains a pilgrimage site for Gandhians.</td></tr>
+    <tr><td><strong>Veer Kunwar Singh University</strong></td><td>Ongoing</td><td>Named after Kunwar Singh at Ara (Bhojpur). A symbol of Bihar's 1857 legacy in higher education.</td></tr>
+    <tr><td><strong>JP Narayan legacy</strong></td><td>Ongoing</td><td>JP's 1974 "Total Revolution" movement (against the Bihar Congress government) is a modern echo of his freedom-struggle role. JP's birthplace Sitab Diara is a heritage site.</td></tr>
+    <tr><td><strong>Bihar statehood</strong></td><td>22 Mar annually</td><td>Bihar Diwas is a state holiday. The 2026 celebration was the 114th anniversary of the 1912 formation.</td></tr>
+    <tr><td><strong>Santhal heritage</strong></td><td>Ongoing</td><td>Santhal Pargana (now part of Jharkhand) — the Santhal Hool (1855–56) is commemorated annually as Hool Diwas (30 Jun).</td></tr>
+  </table>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6b — PREDICTION BOX                                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="prediction-box">
+    <span class="prediction-tag">72nd BPSC</span>
+    <strong>Top 5 Predictions — Modern Bihar:</strong>
+    <ul style="margin-top: 8px;">
+      <li><strong>(1) Bihar events ↔ leaders matching (HIGH):</strong> The 71st Q100 format — Champaran → Rajendra Prasad, Azad Dasta → Shyam Narayan Singh, Individual Satyagraha 1940 → Sahajanand Saraswati, Kisan Sabha → JP Narayan. Likely repeat with different pairings.</li>
+      <li><strong>(2) Kunwar Singh facts (HIGH):</strong> "Kunwar Singh was the zamindar of?" → Jagdishpur. "When did he die?" → 26 Apr 1858. "How old was he?" → 80.</li>
+      <li><strong>(3) Bihar formation year (MEDIUM):</strong> "When was Bihar separated from Bengal?" → 1911 (announcement) / 1912 (formal). Bihar Diwas → 22 March.</li>
+      <li><strong>(4) Champaran Satyagraha (MEDIUM):</strong> "Who led Champaran Satyagraha?" → Gandhi (70th PYQ). "Tinkathia system related to?" → indigo cultivation. "Agrarian Inquiry Committee between?" → Indian Govt + Gandhiji.</li>
+      <li><strong>(5) Sri Krishna Singh / Bihar Kesari (LOW):</strong> "Who was the first CM of Bihar?" → Sri Krishna Singh. "Bihar Kesari title for?" → Sri Krishna Singh. "CM in March 1939?" → Sri Krishna Singh (71st Q86).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Kunwar Singh, the prominent leader of the 1857 Revolt in Bihar, was the zamindar of which place?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Patna</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Jagdishpur</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Munger</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Bhagalpur</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — Kunwar Singh was the 80-year-old zamindar of Jagdishpur (Ara, Bhojpur district, Bihar). The 70th BPSC Q127 tested this exact matching (Kunwar Singh → Jagdishpur). Patna was the administrative centre, Munger the arsenal, Bhagalpur the old Anga port — none were Kunwar Singh's base.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Kunwar Singh died on which date, mortally wounded in his final battle?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) 18 April 1859</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) 17 June 1858</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) 8 April 1857</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) 26 April 1858</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (D)</strong> — Kunwar Singh died on 26 April 1858 at Jagdishpur, mortally wounded in his final battle. He cut off his wounded hand and offered it to the Ganga. Option B (17 June 1858) is the death date of Rani Lakshmibai at Gwalior. Option C (8 April 1857) is Mangal Pandey's hanging. Option A (18 April 1859) is Tantia Tope's execution.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Champaran Satyagraha of 1917 was launched by Mahatma Gandhi against which system?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Tinkathia system of indigo cultivation</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Zamindari exploitation in Bengal</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Salt tax imposed by the British</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Revenue settlement in Kheda</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (A)</strong> — The tinkathia system forced Champaran peasants to cultivate indigo on 3/20 of their land for European planters at below-market rates. Gandhi investigated, recorded 8,000 statements, and the Champaran Agrarian Act 1918 abolished the system. Option B is the general zamindari issue (not Champaran-specific). Option C is the 1930 Salt Satyagraha. Option D is the 1918 Kheda Satyagraha (Gujarat).</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. [71st BPSC] Match the following Bihar events with their leaders and choose the correct code:<br><br>List I: (a) Champaran Satyagrah (b) Azad Dasta (c) Individual Satyagraha in Bihar 1940 (d) Kisan Sabha Bihar<br>List II: 1) Jayaprakash Narayan 2) Shyam Narayan Singh 3) Sahajanand Saraswati 4) Dr. Rajendra Prasad</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 1, 2, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 4, 2, 3, 1</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 4, 1, 3, 2</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 2, 4, 1, 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — (a) Champaran → 4) Rajendra Prasad; (b) Azad Dasta → 2) Shyam Narayan Singh; (c) Individual Satyagraha 1940 → 3) Sahajanand Saraswati; (d) Kisan Sabha → 1) JP Narayan. This is the exact 71st BPSC Q100. Note: Gandhi led Champaran but Rajendra Prasad was the Bihar-specific associate tested. JP is linked to Kisan Sabha, not Azad Dasta — a common confusion.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. [71st BPSC] The Champaran Agrarian Inquiry Committee was appointed in agreement between:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Bihar Provincial Kisan Sabha and zamindars</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) British Government and indigo planters</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Indian National Congress and British Government</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Indian Government and Gandhiji</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — The committee was formed in 1917 as a bilateral agreement between the Indian Government (colonial administration) and Gandhiji personally. It had 4 members including Gandhi. Its report led to the Champaran Agrarian Act (1918). Option B is wrong because the planters were the accused party, not co-signers. Option C is wrong because it was not an INC-government deal. Option A is wrong because the Kisan Sabha was founded later (1929).</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Who became the Chief Minister of Bihar in March 1939? [71st BPSC Q86]</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Shri Krishna Singh</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Anugrah Narayan Sinha</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — Shri Krishna Singh ("Bihar Kesari") became Premier/CM of Bihar in March 1939. He had first become Premier in 1937 after INC won elections under the GoI Act 1935, resigned Oct 1939 over WWII, and returned as CM in 1946 (serving until 1961). Option A (JP) was a socialist leader, never CM. Option B (Rajendra Prasad) became President of India, not Bihar CM. Option D (Anugrah Narayan Sinha) was Deputy CM, not CM.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The Santhal Hool (Rebellion) took place in which years? [70th BPSC Q108]</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) 1831–32</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 1857–58</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) 1895–1900</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) 1855–56</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (D)</strong> — The Santhal Hool took place in 1855–56, led by Sidho and Kanhu Murmu in the Rajmahal hills (Bhagalpur-Birbhum). It pre-dates the 1857 Revolt by two years. Option B (1857–58) is the Great Revolt. Option C (1895–1900) is roughly the Birsa Munda revolt period. Option A (1831–32) is the Kol uprising. "Hool" means rebellion in Santhali.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. When was the Bihar State separated from Bengal? [70th BPSC Q62]</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 1905</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) 1911</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 1915</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) 1936</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (B)</strong> — The 70th BPSC accepted <strong>1911</strong> (Delhi Durbar announcement by George V on 12 Dec 1911). The formal province of Bihar &amp; Orissa was constituted on 1 Apr 1912. BPSC has historically accepted 1911. Option A (1905) is the Bengal Partition year. Option C (1915) is incorrect. Option D (1936) is when Orissa was separated from Bihar (making Bihar a standalone province).</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Who gave the slogan "Do or Die" and during which movement? [70th BPSC Q20]</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Subhash Chandra Bose during INA campaign</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Bal Gangadhar Tilak during Swadeshi Movement</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Mahatma Gandhi during Quit India Movement</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Bhagat Singh during HSRA activities</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (C)</strong> — Gandhi gave the "Do or Die" (Karenge ya Marenge) slogan at the Bombay INC session on 8 Aug 1942 (Gowalia Tank Maidan, now August Kranti Maidan) during the Quit India Movement. Bihar was a hotspot for this movement. Option A: Bose gave "Give me blood, I shall give you freedom." Option B: Tilak gave "Swaraj is my birthright." Option D: Bhagat Singh's slogan was "Inquilab Zindabad."</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Who led the Azad Dasta during the Quit India Movement in Bihar?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Shyam Narayan Singh</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Sri Krishna Singh</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Sahajanand Saraswati</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Shyam Narayan Singh led the Azad Dasta, the underground guerrilla group in Bihar during Quit India 1942. They sabotaged railways, cut telegraph wires, and attacked police stations. This is the 71st PYQ Q100 pairing. Option A (JP) organised the underground but the Azad Dasta was specifically led by Shyam Narayan Singh — a common confusion. Option C (Sri Krishna Singh) participated but did not lead the Azad Dasta. Option D (Sahajanand) was associated with Individual Satyagraha 1940, not Azad Dasta.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Who invited Mahatma Gandhi to visit Champaran in 1917?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Raj Kumar Shukla</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Mazharul Haque</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) J.B. Kripalani</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — Raj Kumar Shukla, a local indigo cultivator from Champaran, met Gandhi at the Lucknow INC session (1916) and persuaded him to visit Champaran. Gandhi arrived on 10 April 1917. Options B, C and D all joined Gandhi at Champaran later, but it was Shukla who first invited him. This is a BPSC-pattern detail question testing the specific individual behind the invitation.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Jayaprakash Narayan escaped from which jail during the Quit India Movement in November 1942?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Patna Jail</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Hazaribagh Central Jail</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Bhagalpur Jail</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Arrah Jail</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — JP escaped from Hazaribagh Central Jail in November 1942 (Hazaribagh was then in Bihar, now in Jharkhand). He went underground, organised the Bihar resistance, and was arrested in September 1943. The escape became one of the legendary events of Quit India. The other jails listed were not associated with JP's escape.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Who was the first President of the Constituent Assembly of India, and from which district of Bihar did he hail?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Rajendra Prasad — Siwan</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Sachchidananda Sinha — Arrah</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Rajendra Prasad — Patna</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Sachchidananda Sinha — Gaya</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Rajendra Prasad, born in Zeradei (Siwan district, Bihar), was the permanent President of the Constituent Assembly (from 11 Dec 1946). He later became the first President of India (1950–62). Note: Sachchidananda Sinha (from Arrah) was the <em>first temporary chairman</em> on 9 Dec 1946, but Rajendra Prasad was the elected permanent President. Option B confuses the temporary chairman role with the permanent presidency. Option C gets the district wrong (Siwan, not Patna).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Bihar Provincial Kisan Sabha was founded in which year and by whom?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 1942 — Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 1920 — Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 1936 — Sri Krishna Singh</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 1929 — Sahajanand Saraswati</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — Sahajanand Saraswati founded the Bihar Provincial Kisan Sabha in 1929, mobilising peasants against zamindari exploitation. He later offered Individual Satyagraha in Bihar in 1940 (71st PYQ Q100 pairing: Kisan Sabha → JP is the test answer, but the Kisan Sabha itself was founded by Sahajanand). Note: the 71st PYQ paired "Kisan Sabha Bihar → JP Narayan" — JP was associated with the Kisan Sabha movement as a leader, while Sahajanand was the founder. Option B (1920) is the Non-Cooperation year. Option C (1936) is the Bihar separate province year. Option A (1942) is Quit India.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The only INC session held in Bihar before 1947 was at which location and in which year?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Patna — 1912</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Patna — 1934</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Gaya — 1922</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Bhagalpur — 1919</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — The 1912 Bankipore (Patna) session was the only INC session held in Bihar before Independence in 1947. It was hosted by Sachchidananda Sinha (temporary president; Rahimtula M. Sayani was the elected president). Option B (1934 Patna) is incorrect — the 1934 session was in Bombay (Rajendra Prasad presided). Option C (Gaya 1922) is incorrect — the 1922 session was in Gaya but it was NOT the one commonly tested; the Bankipore 1912 session is the canonical answer. Option D is fabricated.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Who was the Deputy Premier (later Deputy CM) of Bihar under Sri Krishna Singh?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Anugrah Narayan Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Sahajanand Saraswati</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Sachchidananda Sinha</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Anugrah Narayan Sinha was Deputy Premier (1937) and later Deputy CM (1946) under Sri Krishna Singh. He was a Gandhi follower from the Champaran era and was arrested during Quit India 1942. Option A (JP) was a socialist leader, never in the Bihar cabinet. Option C (Sahajanand) was a peasant leader who opposed the Congress ministry on land reform. Option D (Sachchidananda Sinha) was the Constituent Assembly temporary chairman, not Deputy CM.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Bihar Diwas is celebrated annually on which date?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 1 April</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 15 August</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 12 December</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 22 March</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — Bihar Diwas is celebrated on 22 March, commemorating the formation of the province of Bihar &amp; Orissa. The 2026 celebration was the 114th Bihar Diwas with the theme "Pragatishil Bihar, Ujjwal Bihar." Option A (1 April) is the date the province was formally constituted (1912), but the commemorative day is 22 March. Option C (12 December) is the Delhi Durbar date. Option B (15 August) is Independence Day.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Consider the following statements about Kunwar Singh:<br>(1) He was 80 years old during the 1857 Revolt<br>(2) He was the zamindar of Jagdishpur in Bhojpur district<br>(3) He fought in Bihar, UP and MP during the revolt<br>(4) His brother Amar Singh continued the fight after his death<br>Which of the above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) 1, 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) 2, 3 and 4 only</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) 1, 2, 3 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) 1 and 4 only</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (C)</strong> — All four statements are correct. (1) Kunwar Singh was born in 1777 and was 80 in 1857. (2) He was the zamindar of Jagdishpur (Ara, Bhojpur district, Bihar). (3) He fought in Bihar (Ara, Danapur, Patna), UP (relieved Azamgarh), and MP (Rewa, Bundelkhand). (4) His brother Amar Singh continued the fight after Kunwar Singh's death on 26 Apr 1858, until captured and executed in 1859.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Who was the first temporary chairman of the Constituent Assembly of India, and from where in Bihar did he come?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Rajendra Prasad — Siwan</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Sachchidananda Sinha — Arrah</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) B.R. Ambedkar — Bombay</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Jawaharlal Nehru — Allahabad</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — Sachchidananda Sinha, from Arrah (Bihar), was the first temporary chairman of the Constituent Assembly on 9 Dec 1946. The next day (11 Dec 1946), Rajendra Prasad was elected as the permanent President. Sinha was also the key advocate for Bihar's separation from Bengal (1912) and hosted the 1912 Bankipore INC session. Option A confuses the temporary chairman with the permanent President. Options C and D are not from Bihar.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The Santhal Hool of 1855–56 was led by which pair of brothers?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Sidho and Kanhu Murmu</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Birsa Munda and his brother</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Kunwar Singh and Amar Singh</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Tilka Manjhi and his son</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Sidho and Kanhu Murmu led the Santhal Hool (1855–56) in the Rajmahal hills (Bhagalpur-Birbhum area), rebelling against zamindari oppression and moneylenders. Option B: Birsa Munda led a later tribal revolt (1895–1900) in Chhotanagpur. Option C: Kunwar and Amar Singh were the 1857 leaders, not Santhal. Option D: Tilka Manjhi led an earlier Santhal uprising (1784) against the British. The "Hool" is commemorated annually as Hool Diwas (30 June).</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Which of the following movements was NOT associated with Bihar during the freedom struggle?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Champaran Satyagraha — 1917</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Salt Satyagraha on banks of Ganga at Patna — 1930</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Dandi March — 1930</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) Individual Satyagraha by Sahajanand Saraswati — 1940</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (C)</strong> — The Dandi March (12 Mar–6 Apr 1930) took place from Sabarmati Ashram to Dandi (Gujarat coast), led by Gandhi. It was NOT a Bihar event. Bihar had its own salt satyagraha on the banks of the Ganga at Patna (option B). Champaran (A) and Individual Satyagraha by Sahajanand (D) were Bihar-specific events. The question asks which was NOT associated with Bihar.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Arrange the following Bihar-related events in chronological order:<br>(1) Champaran Satyagraha (2) Santhal Hool (3) Bihar separated from Bengal (4) Quit India Movement</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) 2, 3, 1, 4</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) 2, 1, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) 3, 2, 1, 4</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) 1, 2, 3, 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Correct chronological order: (2) Santhal Hool (1855–56) → (3) Bihar separated from Bengal (1911–12) → (1) Champaran Satyagraha (1917) → (4) Quit India Movement (1942). Option B is wrong because Bihar separation (1911) came before Champaran (1917). Option C is wrong because Santhal Hool (1855) pre-dates Bihar separation (1911). Option D starts with Champaran, which is the third event, not the first.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. "Bihar Kesari" was the title given to which Bihar leader?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Jayaprakash Narayan</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Shri Krishna Singh</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Sahajanand Saraswati</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (C)</strong> — Shri Krishna Singh was given the title "Bihar Kesari" (Lion of Bihar) for his role in the freedom movement and his long tenure as CM (1946–61). The 69th BPSC Q134 specifically noted this title. Option A (Rajendra Prasad) was known as "Rajendra Babu" or "Desh Ratna." Option B (JP) was known as "Lok Nayak" (People's Leader). Option D (Sahajanand Saraswati) was known as "Kisan Prasad" or simply "Swamiji."</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Consider the following about the 1937 Bihar elections:<br>(1) INC won the elections under the Government of India Act 1935<br>(2) Sri Krishna Singh became the first Premier of Bihar<br>(3) Anugrah Narayan Sinha became Deputy Premier<br>(4) The ministry resigned in October 1939 over WWII<br>How many of the above are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) 1 and 2 only</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) 1, 2 and 3 only</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) 1, 2, 3 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) 2, 3 and 4 only</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — All four are correct. (1) The 1937 elections were held under the GoI Act 1935 (provincial autonomy), and INC won Bihar. (2) Sri Krishna Singh became first Premier. (3) Anugrah Narayan Sinha became Deputy Premier. (4) The INC ministry resigned in October 1939 because the Viceroy declared war on India's behalf without consulting elected ministries. All four are historically accurate.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which of the following is NOT correctly matched regarding Bihar's freedom movement leaders and their titles/roles?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Shri Krishna Singh — Bihar Kesari</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) Jayaprakash Narayan — Lok Nayak</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Rajendra Prasad — Desh Ratna</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) Sahajanand Saraswati — Bihar Kesari</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (D)</strong> — Sahajanand Saraswati was NOT called "Bihar Kesari" — that title belongs to Shri Krishna Singh (option A). Sahajanand Saraswati was a peasant leader known as "Kisan Prasad" or simply "Swamiji." Option A is correctly matched. Option B is correct — JP was "Lok Nayak" (People's Leader), especially after the 1974 movement. Option C is correct — Rajendra Prasad was "Desh Ratna" (Jewel of the Nation). The question asks which is NOT correctly matched.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Kunwar_Singh" target="_blank">Kunwar Singh — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Zamindar of Jagdishpur; led 1857 in Bihar; died 26 Apr 1858</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Champaran_Satyagraha" target="_blank">Champaran Satyagraha — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Gandhi's first Indian satyagraha (1917); tinkathia system</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Jayaprakash_Narayan" target="_blank">Jayaprakash Narayan — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Hazaribagh Jail escape 1942; Lok Nayak; 1974 Total Revolution</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Swami_Sahajanand_Saraswati" target="_blank">Swami Sahajanand Saraswati — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Bihar Kisan Sabha (1929); Individual Satyagraha 1940</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Sri_Krishna_Singh" target="_blank">Sri Krishna Singh — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Bihar Kesari; first CM of Bihar (1946–61)</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Rajendra_Prasad" target="_blank">Rajendra Prasad — Wikipedia</a> <span style="color:#64748b;font-size:12px;">First President of India; from Siwan, Bihar; Constituent Assembly President</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Santhal_rebellion" target="_blank">Santhal Hool (Rebellion) — Wikipedia</a> <span style="color:#64748b;font-size:12px;">1855–56; Sidho and Kanhu Murmu; Rajmahal hills</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Quit_India_Movement" target="_blank">Quit India Movement — Wikipedia</a> <span style="color:#64748b;font-size:12px;">1942; "Do or Die"; Bihar as hotspot</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 157 — Modern Bihar • Generated 2026-08-13 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'b', q2: 'd', q3: 'a', q4: 'b', q5: 'd',
+  q6: 'c', q7: 'd', q8: 'b', q9: 'c', q10: 'b',
+  q11: 'a', q12: 'b', q13: 'a', q14: 'd', q15: 'a',
+  q16: 'b', q17: 'd', q18: 'c', q19: 'b', q20: 'a',
+  q21: 'c', q22: 'a', q23: 'c', q24: 'c', q25: 'd',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+</body>
+</html>

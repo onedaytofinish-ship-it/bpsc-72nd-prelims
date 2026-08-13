@@ -1,0 +1,327 @@
+[
+  {
+    "q": "Kunwar Singh, the prominent leader of the 1857 Revolt in Bihar, was the zamindar of which place?",
+    "options": [
+      "Patna",
+      "Jagdishpur",
+      "Munger",
+      "Bhagalpur"
+    ],
+    "answer": 1,
+    "explanation": "Kunwar Singh was the 80-year-old zamindar of Jagdishpur (Ara, Bhojpur district, Bihar). The 70th BPSC Q127 tested this exact matching (Kunwar Singh → Jagdishpur). Patna was the administrative centre, Munger the arsenal, Bhagalpur the old Anga port — none were Kunwar Singh's base.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th Q127"
+  },
+  {
+    "q": "Kunwar Singh died on which date, mortally wounded in his final battle?",
+    "options": [
+      "18 April 1859",
+      "17 June 1858",
+      "8 April 1857",
+      "26 April 1858"
+    ],
+    "answer": 3,
+    "explanation": "Kunwar Singh died on 26 April 1858 at Jagdishpur, mortally wounded in his final battle. He cut off his wounded hand and offered it to the Ganga. Option B (17 June 1858) is the death date of Rani Lakshmibai at Gwalior. Option C (8 April 1857) is Mangal Pandey's hanging. Option D (18 April 1859) is Tantia Tope's execution.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th Q127 pattern"
+  },
+  {
+    "q": "The Champaran Satyagraha of 1917 was launched by Mahatma Gandhi against which system?",
+    "options": [
+      "Tinkathia system of indigo cultivation",
+      "Zamindari exploitation in Bengal",
+      "Salt tax imposed by the British",
+      "Revenue settlement in Kheda"
+    ],
+    "answer": 0,
+    "explanation": "The tinkathia system forced Champaran peasants to cultivate indigo on 3/20 of their land for European planters at below-market rates. Gandhi investigated, recorded 8,000 statements, and the Champaran Agrarian Act 1918 abolished the system. Option B is the general zamindari issue (not Champaran-specific). Option C is the 1930 Salt Satyagraha. Option D is the 1918 Kheda Satyagraha (Gujarat).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th Q14 pattern"
+  },
+  {
+    "q": "[71st BPSC] Match the following Bihar events with their leaders and choose the correct code:\nList I: (a) Champaran Satyagrah (b) Azad Dasta (c) Individual Satyagraha in Bihar 1940 (d) Kisan Sabha Bihar\nList II: 1) Jayaprakash Narayan 2) Shyam Narayan Singh 3) Sahajanand Saraswati 4) Dr. Rajendra Prasad",
+    "options": [
+      "1, 2, 3, 4",
+      "4, 2, 3, 1",
+      "4, 1, 3, 2",
+      "2, 4, 1, 3"
+    ],
+    "answer": 1,
+    "explanation": "(a) Champaran → 4) Rajendra Prasad; (b) Azad Dasta → 2) Shyam Narayan Singh; (c) Individual Satyagraha 1940 → 3) Sahajanand Saraswati; (d) Kisan Sabha → 1) JP Narayan. This is the exact 71st BPSC Q100. Note: Gandhi led Champaran but Rajendra Prasad was the Bihar-specific associate tested. JP is linked to Kisan Sabha, not Azad Dasta — a common confusion.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q100"
+  },
+  {
+    "q": "[71st BPSC] The Champaran Agrarian Inquiry Committee was appointed in agreement between:",
+    "options": [
+      "Bihar Provincial Kisan Sabha and zamindars",
+      "British Government and indigo planters",
+      "Indian National Congress and British Government",
+      "Indian Government and Gandhiji"
+    ],
+    "answer": 3,
+    "explanation": "The committee was formed in 1917 as a bilateral agreement between the Indian Government (colonial administration) and Gandhiji personally. It had 4 members including Gandhi. Its report led to the Champaran Agrarian Act (1918). Option B is wrong because the planters were the accused party, not co-signers. Option C is wrong because it was not an INC-government deal. Option D is wrong because the Kisan Sabha was founded later (1929).",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q82"
+  },
+  {
+    "q": "Who became the Chief Minister of Bihar in March 1939? [71st BPSC Q86]",
+    "options": [
+      "Jayaprakash Narayan",
+      "Rajendra Prasad",
+      "Shri Krishna Singh",
+      "Anugrah Narayan Sinha"
+    ],
+    "answer": 2,
+    "explanation": "Shri Krishna Singh ('Bihar Kesari') became Premier/CM of Bihar in March 1939. He had first become Premier in 1937 after INC won elections under the GoI Act 1935, resigned Oct 1939 over WWII, and returned as CM in 1946 (serving until 1961). Option A (JP) was a socialist leader, never CM. Option B (Rajendra Prasad) became President of India, not Bihar CM. Option D (Anugrah Narayan Sinha) was Deputy CM, not CM.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q86"
+  },
+  {
+    "q": "The Santhal Hool (Rebellion) took place in which years? [70th BPSC Q108]",
+    "options": [
+      "1831–32",
+      "1857–58",
+      "1895–1900",
+      "1855–56"
+    ],
+    "answer": 3,
+    "explanation": "The Santhal Hool took place in 1855-56, led by Sidho and Kanhu Murmu in the Rajmahal hills (Bhagalpur-Birbhum). It pre-dates the 1857 Revolt by two years. Option B (1857-58) is the Great Revolt. Option C (1895-1900) is roughly the Birsa Munda revolt period. Option D (1831-32) is the Kol uprising. 'Hool' means rebellion in Santhali.",
+    "difficulty": "pyq",
+    "pyq_ref": "70th Q108"
+  },
+  {
+    "q": "When was the Bihar State separated from Bengal? [70th BPSC Q62]",
+    "options": [
+      "1905",
+      "1911",
+      "1915",
+      "1936"
+    ],
+    "answer": 1,
+    "explanation": "The 70th BPSC accepted 1911 (Delhi Durbar announcement by George V on 12 Dec 1911). The formal province of Bihar & Orissa was constituted on 1 Apr 1912. BPSC has historically accepted 1911. Option A (1905) is the Bengal Partition year. Option C (1915) is incorrect. Option D (1936) is when Orissa was separated from Bihar (making Bihar a standalone province).",
+    "difficulty": "pyq",
+    "pyq_ref": "70th Q62"
+  },
+  {
+    "q": "Who gave the slogan 'Do or Die' and during which movement? [70th BPSC Q20]",
+    "options": [
+      "Subhash Chandra Bose during INA campaign",
+      "Bal Gangadhar Tilak during Swadeshi Movement",
+      "Mahatma Gandhi during Quit India Movement",
+      "Bhagat Singh during HSRA activities"
+    ],
+    "answer": 2,
+    "explanation": "Gandhi gave the 'Do or Die' (Karenge ya Marenge) slogan at the Bombay INC session on 8 Aug 1942 (Gowalia Tank Maidan, now August Kranti Maidan) during the Quit India Movement. Bihar was a hotspot for this movement. Option A: Bose gave 'Give me blood, I shall give you freedom.' Option B: Tilak gave 'Swaraj is my birthright.' Option D: Bhagat Singh's slogan was 'Inquilab Zindabad.'",
+    "difficulty": "pyq",
+    "pyq_ref": "70th Q20"
+  },
+  {
+    "q": "Who led the Azad Dasta during the Quit India Movement in Bihar?",
+    "options": [
+      "Jayaprakash Narayan",
+      "Shyam Narayan Singh",
+      "Sri Krishna Singh",
+      "Sahajanand Saraswati"
+    ],
+    "answer": 1,
+    "explanation": "Shyam Narayan Singh led the Azad Dasta, the underground guerrilla group in Bihar during Quit India 1942. They sabotaged railways, cut telegraph wires, and attacked police stations. This is the 71st PYQ Q100 pairing. Option A (JP) organised the underground but the Azad Dasta was specifically led by Shyam Narayan Singh — a common confusion. Option C (Sri Krishna Singh) participated but did not lead the Azad Dasta. Option D (Sahajanand) was associated with Individual Satyagraha 1940, not Azad Dasta.",
+    "difficulty": "pyq",
+    "pyq_ref": "71st Q100"
+  },
+  {
+    "q": "Who invited Mahatma Gandhi to visit Champaran in 1917?",
+    "options": [
+      "Raj Kumar Shukla",
+      "Rajendra Prasad",
+      "Mazharul Haque",
+      "J.B. Kripalani"
+    ],
+    "answer": 0,
+    "explanation": "Raj Kumar Shukla, a local indigo cultivator from Champaran, met Gandhi at the Lucknow INC session (1916) and persuaded him to visit Champaran. Gandhi arrived on 10 April 1917. Options B, C and D all joined Gandhi at Champaran later, but it was Shukla who first invited him. This is a BPSC-pattern detail question testing the specific individual behind the invitation.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Jayaprakash Narayan escaped from which jail during the Quit India Movement in November 1942?",
+    "options": [
+      "Patna Jail",
+      "Hazaribagh Central Jail",
+      "Bhagalpur Jail",
+      "Arrah Jail"
+    ],
+    "answer": 1,
+    "explanation": "JP escaped from Hazaribagh Central Jail in November 1942 (Hazaribagh was then in Bihar, now in Jharkhand). He went underground, organised the Bihar resistance, and was arrested in September 1943. The escape became one of the legendary events of Quit India. The other jails listed were not associated with JP's escape.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the first President of the Constituent Assembly of India, and from which district of Bihar did he hail?",
+    "options": [
+      "Rajendra Prasad — Siwan",
+      "Sachchidananda Sinha — Arrah",
+      "Rajendra Prasad — Patna",
+      "Sachchidananda Sinha — Gaya"
+    ],
+    "answer": 0,
+    "explanation": "Rajendra Prasad, born in Zeradei (Siwan district, Bihar), was the permanent President of the Constituent Assembly (from 11 Dec 1946). He later became the first President of India (1950-62). Note: Sachchidananda Sinha (from Arrah) was the first temporary chairman on 9 Dec 1946, but Rajendra Prasad was the elected permanent President. Option B confuses the temporary chairman role with the permanent presidency. Option C gets the district wrong (Siwan, not Patna).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Bihar Provincial Kisan Sabha was founded in which year and by whom?",
+    "options": [
+      "1942 — Jayaprakash Narayan",
+      "1920 — Rajendra Prasad",
+      "1936 — Sri Krishna Singh",
+      "1929 — Sahajanand Saraswati"
+    ],
+    "answer": 3,
+    "explanation": "Sahajanand Saraswati founded the Bihar Provincial Kisan Sabha in 1929, mobilising peasants against zamindari exploitation. He later offered Individual Satyagraha in Bihar in 1940 (71st PYQ Q100 pairing: Kisan Sabha → JP is the test answer, but the Kisan Sabha itself was founded by Sahajanand). Note: the 71st PYQ paired 'Kisan Sabha Bihar → JP Narayan' — JP was associated with the Kisan Sabha movement as a leader, while Sahajanand was the founder. Option B (1920) is the Non-Cooperation year. Option C (1936) is the Bihar separate province year. Option D (1942) is Quit India.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The only INC session held in Bihar before 1947 was at which location and in which year?",
+    "options": [
+      "Patna — 1912",
+      "Patna — 1934",
+      "Gaya — 1922",
+      "Bhagalpur — 1919"
+    ],
+    "answer": 0,
+    "explanation": "The 1912 Bankipore (Patna) session was the only INC session held in Bihar before Independence in 1947. It was hosted by Sachchidananda Sinha (temporary president; Rahimtula M. Sayani was the elected president). Option B (1934 Patna) is incorrect — the 1934 session was in Bombay (Rajendra Prasad presided). Option C (Gaya 1922) is incorrect — the 1922 session was in Gaya but it was NOT the one commonly tested; the Bankipore 1912 session is the canonical answer. Option D is fabricated.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the Deputy Premier (later Deputy CM) of Bihar under Sri Krishna Singh?",
+    "options": [
+      "Jayaprakash Narayan",
+      "Anugrah Narayan Sinha",
+      "Sahajanand Saraswati",
+      "Sachchidananda Sinha"
+    ],
+    "answer": 1,
+    "explanation": "Anugrah Narayan Sinha was Deputy Premier (1937) and later Deputy CM (1946) under Sri Krishna Singh. He was a Gandhi follower from the Champaran era and was arrested during Quit India 1942. Option A (JP) was a socialist leader, never in the Bihar cabinet. Option C (Sahajanand) was a peasant leader who opposed the Congress ministry on land reform. Option D (Sachchidananda Sinha) was the Constituent Assembly temporary chairman, not Deputy CM.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Bihar Diwas is celebrated annually on which date?",
+    "options": [
+      "1 April",
+      "15 August",
+      "12 December",
+      "22 March"
+    ],
+    "answer": 3,
+    "explanation": "Bihar Diwas is celebrated on 22 March, commemorating the formation of the province of Bihar & Orissa. The 2026 celebration was the 114th Bihar Diwas with the theme 'Pragatishil Bihar, Ujjwal Bihar.' Option A (1 April) is the date the province was formally constituted (1912), but the commemorative day is 22 March. Option C (12 December) is the Delhi Durbar date. Option D (15 August) is Independence Day.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Consider the following statements about Kunwar Singh:\n(1) He was 80 years old during the 1857 Revolt\n(2) He was the zamindar of Jagdishpur in Bhojpur district\n(3) He fought in Bihar, UP and MP during the revolt\n(4) His brother Amar Singh continued the fight after his death\nWhich of the above are correct?",
+    "options": [
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4",
+      "1 and 4 only"
+    ],
+    "answer": 2,
+    "explanation": "All four statements are correct. (1) Kunwar Singh was born in 1777 and was 80 in 1857. (2) He was the zamindar of Jagdishpur (Ara, Bhojpur district, Bihar). (3) He fought in Bihar (Ara, Danapur, Patna), UP (relieved Azamgarh), and MP (Rewa, Bundelkhand). (4) His brother Amar Singh continued the fight after Kunwar Singh's death on 26 Apr 1858, until captured and executed in 1859.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Who was the first temporary chairman of the Constituent Assembly of India, and from where in Bihar did he come?",
+    "options": [
+      "Rajendra Prasad — Siwan",
+      "Sachchidananda Sinha — Arrah",
+      "B.R. Ambedkar — Bombay",
+      "Jawaharlal Nehru — Allahabad"
+    ],
+    "answer": 1,
+    "explanation": "Sachchidananda Sinha, from Arrah (Bihar), was the first temporary chairman of the Constituent Assembly on 9 Dec 1946. The next day (11 Dec 1946), Rajendra Prasad was elected as the permanent President. Sinha was also the key advocate for Bihar's separation from Bengal (1912) and hosted the 1912 Bankipore INC session. Option A confuses the temporary chairman with the permanent President. Options C and D are not from Bihar.",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "The Santhal Hool of 1855-56 was led by which pair of brothers?",
+    "options": [
+      "Sidho and Kanhu Murmu",
+      "Birsa Munda and his brother",
+      "Kunwar Singh and Amar Singh",
+      "Tilka Manjhi and his son"
+    ],
+    "answer": 0,
+    "explanation": "Sidho and Kanhu Murmu led the Santhal Hool (1855-56) in the Rajmahal hills (Bhagalpur-Birbhum area), rebelling against zamindari oppression and moneylenders. Option B: Birsa Munda led a later tribal revolt (1895-1900) in Chhotanagpur. Option C: Kunwar and Amar Singh were the 1857 leaders, not Santhal. Option D: Tilka Manjhi led an earlier Santhal uprising (1784) against the British. The 'Hool' is commemorated annually as Hool Diwas (30 June).",
+    "difficulty": "bpsc",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following movements was NOT associated with Bihar during the freedom struggle?",
+    "options": [
+      "Champaran Satyagraha — 1917",
+      "Salt Satyagraha on banks of Ganga at Patna — 1930",
+      "Dandi March — 1930",
+      "Individual Satyagraha by Sahajanand Saraswati — 1940"
+    ],
+    "answer": 2,
+    "explanation": "The Dandi March (12 Mar-6 Apr 1930) took place from Sabarmati Ashram to Dandi (Gujarat coast), led by Gandhi. It was NOT a Bihar event. Bihar had its own salt satyagraha on the banks of the Ganga at Patna (option B). Champaran (A) and Individual Satyagraha by Sahajanand (D) were Bihar-specific events. The question asks which was NOT associated with Bihar.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Arrange the following Bihar-related events in chronological order:\n(1) Champaran Satyagraha (2) Santhal Hool (3) Bihar separated from Bengal (4) Quit India Movement",
+    "options": [
+      "2, 3, 1, 4",
+      "2, 1, 3, 4",
+      "3, 2, 1, 4",
+      "1, 2, 3, 4"
+    ],
+    "answer": 0,
+    "explanation": "Correct chronological order: (2) Santhal Hool (1855-56) → (3) Bihar separated from Bengal (1911-12) → (1) Champaran Satyagraha (1917) → (4) Quit India Movement (1942). Option B is wrong because Bihar separation (1911) came before Champaran (1917). Option C is wrong because Santhal Hool (1855) pre-dates Bihar separation (1911). Option D starts with Champaran, which is the third event, not the first.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "'Bihar Kesari' was the title given to which Bihar leader?",
+    "options": [
+      "Rajendra Prasad",
+      "Jayaprakash Narayan",
+      "Shri Krishna Singh",
+      "Sahajanand Saraswati"
+    ],
+    "answer": 2,
+    "explanation": "Shri Krishna Singh was given the title 'Bihar Kesari' (Lion of Bihar) for his role in the freedom movement and his long tenure as CM (1946-61). The 69th BPSC Q134 specifically noted this title. Option A (Rajendra Prasad) was known as 'Rajendra Babu' or 'Desh Ratna.' Option B (JP) was known as 'Lok Nayak' (People's Leader). Option D (Sahajanand Saraswati) was known as 'Kisan Prasad' or simply 'Swamiji.'",
+    "difficulty": "bpsc",
+    "pyq_ref": "69th Q134 pattern"
+  },
+  {
+    "q": "Consider the following about the 1937 Bihar elections:\n(1) INC won the elections under the Government of India Act 1935\n(2) Sri Krishna Singh became the first Premier of Bihar\n(3) Anugrah Narayan Sinha became Deputy Premier\n(4) The ministry resigned in October 1939 over WWII\nHow many of the above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3 only",
+      "1, 2, 3 and 4",
+      "2, 3 and 4 only"
+    ],
+    "answer": 2,
+    "explanation": "All four are correct. (1) The 1937 elections were held under the GoI Act 1935 (provincial autonomy), and INC won Bihar. (2) Sri Krishna Singh became first Premier. (3) Anugrah Narayan Sinha became Deputy Premier. (4) The INC ministry resigned in October 1939 because the Viceroy declared war on India's behalf without consulting elected ministries. All four are historically accurate.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  },
+  {
+    "q": "Which of the following is NOT correctly matched regarding Bihar's freedom movement leaders and their titles/roles?",
+    "options": [
+      "Shri Krishna Singh — Bihar Kesari",
+      "Jayaprakash Narayan — Lok Nayak",
+      "Rajendra Prasad — Desh Ratna",
+      "Sahajanand Saraswati — Bihar Kesari"
+    ],
+    "answer": 3,
+    "explanation": "Sahajanand Saraswati was NOT called 'Bihar Kesari' — that title belongs to Shri Krishna Singh (option A). Sahajanand Saraswati was a peasant leader known as 'Kisan Prasad' or simply 'Swamiji.' Option A is correctly matched. Option B is correct — JP was 'Lok Nayak' (People's Leader), especially after the 1974 movement. Option C is correct — Rajendra Prasad was 'Desh Ratna' (Jewel of the Nation). The question asks which is NOT correctly matched.",
+    "difficulty": "tricky",
+    "pyq_ref": null
+  }
+]
