@@ -1,0 +1,327 @@
+[
+ {
+  "q": "The Directive Principles of State Policy were borrowed from the Constitution of:",
+  "options": [
+   "Ireland",
+   "USA",
+   "USSR",
+   "Britain"
+  ],
+  "answer": 0,
+  "explanation": "DPSPs come from the Irish Constitution (which itself drew from Spain's 1937 Constitution). Britain gave parliamentary government; USA gave FRs/judicial review; USSR gave FDs & the justice ideal.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Article 37 states that the Directive Principles are:",
+  "options": [
+   "Non-justiciable but fundamental in the governance of the country",
+   "Enforceable in courts like Fundamental Rights",
+   "Mere moral appeals with no constitutional status",
+   "Superior to Fundamental Rights"
+  ],
+  "answer": 0,
+  "explanation": "Art 37: DPSPs are not enforceable by courts, BUT are 'fundamental in the governance of the country' — the State's duty to apply them in law-making. Option D understates their status; option C was the 42nd's transient claim, struck in Minerva Mills.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Fundamental Duties were added to the Constitution on the recommendation of:",
+  "options": [
+   "Verma Committee",
+   "Sarkaria Commission",
+   "Swaran Singh Committee",
+   "Ashok Mehta Committee"
+  ],
+  "answer": 2,
+  "explanation": "The Swaran Singh Committee (1976) recommended FDs → added by the 42nd Amendment. The Verma Committee (1999) later identified laws to implement them. Sarkaria = Centre-State; Ashok Mehta = panchayats.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th Q104-class | null"
+ },
+ {
+  "q": "Which of the following Directive Principles were added by the 42nd Amendment (1976)?",
+  "options": [
+   "Articles 44, 45 and 51",
+   "Articles 39A, 43A and 48A",
+   "Articles 40, 45 and 50",
+   "Articles 43B, 39A and 48A"
+  ],
+  "answer": 1,
+  "explanation": "The 42nd added 39A (legal aid), 43A (worker participation), 48A (environment) and recast 38/39. Option C's 43B (co-operatives) came with the 97th Amendment (2011) — the trap BPSC most loves.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th Q104-class | null"
+ },
+ {
+  "q": "The 11th Fundamental Duty (Art 51A(k)) — duty of parents/guardians to provide education opportunities to children aged 6–14 — was added by:",
+  "options": [
+   "42nd Amendment, 1976",
+   "97th Amendment, 2011",
+   "86th Amendment, 2002",
+   "44th Amendment, 1978"
+  ],
+  "answer": 2,
+  "explanation": "The 86th Amendment (2002) added Art 51A(k) alongside Art 21A and the recast Art 45 (early childhood). The 42nd added the original 10 duties; 97th is co-operatives.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which one of the following is a Gandhian Directive Principle?",
+  "options": [
+   "International peace (Art 51)",
+   "Separation of judiciary from executive (Art 50)",
+   "Prohibition of intoxicating drinks (Art 47)",
+   "Uniform civil code (Art 44)"
+  ],
+  "answer": 2,
+  "explanation": "Art 47 (prohibition, nutrition, public health) is Gandhian, along with 40 (panchayats), 43, 43B, 46, 48. Arts 44, 50, 51 are liberal-intellectual. Bihar's prohibition law is the live example.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Fundamental Duties are applicable to:",
+  "options": [
+   "Citizens and the State",
+   "Citizens of India only",
+   "All persons including foreigners",
+   "The State only"
+  ],
+  "answer": 1,
+  "explanation": "FDs bind citizens only ('It shall be the duty of every citizen of India'). They are not addressed to the State (unlike DPSPs) nor to foreigners (unlike some FRs like Arts 14/21).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "In Minerva Mills v. Union of India (1980), the Supreme Court:",
+  "options": [
+   "Made Directive Principles justiciable",
+   "Held DPSPs superior to Fundamental Rights",
+   "Struck down the 42nd Amendment's blanket extension of Art 31C — restoring the FR-DPSP balance",
+   "Deleted all Directive Principles"
+  ],
+  "answer": 2,
+  "explanation": "Minerva Mills struck the 42nd's Art 31C extension (which had shielded ALL DPSPs from Arts 14/19): FRs & DPSPs are complementary 'conscience' elements — neither superior (harmonious construction). Only 39(b)/(c) retain 31C protection.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Directive Principle of \"equal pay for equal work\" is found in:",
+  "options": [
+   "Article 47",
+   "Article 41",
+   "Article 43",
+   "Article 39(d)"
+  ],
+  "answer": 3,
+  "explanation": "Art 39(d): equal pay for equal work for both men and women — implemented via the Equal Remuneration Act 1976. Art 41 is right to work/education; Art 43 is living wage; Art 47 is nutrition/prohibition.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the statements about Fundamental Duties: 1. Originally there were 10 duties; the 11th was added in 2002. 2. They are justiciable in courts of law. 3. Japan's Constitution also contains duties of citizens. 4. The Verma Committee (1999) examined their implementation.",
+  "options": [
+   "Only 1 and 3",
+   "Only 2 and 4",
+   "All four",
+   "Only 1, 3 and 4"
+  ],
+  "answer": 3,
+  "explanation": "1 correct (10 + (k) in 2002); 2 WRONG (non-justiciable); 3 correct (Japan — the only other modern constitution with such duties); 4 correct (Verma Committee identified implementation laws).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which Article directs the State to promote co-operative societies?",
+  "options": [
+   "Article 43B",
+   "Article 43",
+   "Article 43A",
+   "Article 46"
+  ],
+  "answer": 0,
+  "explanation": "Art 43B (added by the 97th Amendment, 2011) directs promotion of co-operative societies — the newest Gandhian DPSP. 43A is worker participation (42nd); 43 is living wage/cottage industries; 46 is SC/ST education.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The phrase 'instrument of instructions' (used for DPSPs) was used by:",
+  "options": [
+   "K.T. Shah",
+   "Granville Austin",
+   "Jawaharlal Nehru",
+   "Dr. B.R. Ambedkar"
+  ],
+  "answer": 3,
+  "explanation": "Ambedkar described Part IV as a veritable 'instrument of instructions' (drawn from the GoI Act 1935's Instructions). K.T. Shah derided it as a 'dustbin of sentiments'; Austin praised the FR-DPSP pairing as the 'Conscience of the Constitution'.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "In Champakam Dorairajan (1951), the Supreme Court held that:",
+  "options": [
+   "DPSPs are wholly unconstitutional",
+   "Both are equal in all respects",
+   "DPSPs prevail over Fundamental Rights",
+   "In case of conflict, Fundamental Rights prevail; DPSPs must conform to them"
+  ],
+  "answer": 3,
+  "explanation": "Champakam Dorairajan (1951): FRs prevail; DPSPs run subsidiary. This ruling triggered the 1st Amendment (Art 15(4)). The balance settled in Minerva Mills (1980) as harmonious construction.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Article 45, after the 86th Amendment, now directs the State to provide:",
+  "options": [
+   "Technical education to backward classes",
+   "Adult education for all",
+   "Free and compulsory education for children aged 6–14",
+   "Early childhood care and education for children below 6 years"
+  ],
+  "answer": 3,
+  "explanation": "The 86th Amendment (2002) MOVED 6–14 education INTO Art 21A (justiciable) and RECAST Art 45 for early childhood care & education below 6 years. Option A is the OLD Art 45 text — a classic post-2002 trap.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Uniform Civil Code directive is contained in:",
+  "options": [
+   "Article 43",
+   "Article 44",
+   "Article 47",
+   "Article 48"
+  ],
+  "answer": 1,
+  "explanation": "Art 44: the State shall endeavour to secure a UCC for all citizens — a liberal-intellectual DPSP. Uttarakhand's 2024 UCC law is the first state implementation. 43 = living wage; 47 = prohibition; 48 = agriculture/cattle.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following is NOT a Fundamental Duty under Article 51A?",
+  "options": [
+   "To vote in elections",
+   "To strive for excellence in all spheres",
+   "To develop scientific temper",
+   "To safeguard public property and abjure violence"
+  ],
+  "answer": 0,
+  "explanation": "Voting is a statutory/legal right, NOT a Fundamental Duty. (B), (C), (D) are duties 51A(h), (i), (j). BPSC's 'NOT a duty' list usually includes voting, paying taxes, obeying laws — none of which are FDs.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match List-I (Directive) with List-II (Article): (a) Village panchayats (b) Free legal aid (c) Environment protection (d) International peace — 1) Art 48A 2) Art 40 3) Art 51 4) Art 39A",
+  "options": [
+   "2, 4, 1, 3",
+   "1, 4, 2, 3",
+   "2, 4, 3, 1",
+   "4, 2, 1, 3"
+  ],
+  "answer": 0,
+  "explanation": "Panchayats → 40; legal aid → 39A; environment → 48A; international peace → 51. The four most-tested 'new-ish' DPSP articles in one matching frame.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 97th Amendment (2011) is related to:",
+  "options": [
+   "EWS reservation",
+   "Co-operative societies — Art 43B + Part IXB",
+   "Anti-defection law",
+   "Education as a fundamental right"
+  ],
+  "answer": 1,
+  "explanation": "97th (2011): co-operative societies — inserted Art 43B (DPSP) and Part IXB; made right to form co-operatives an FR (Art 19(1)(c) extension). 52nd = anti-defection; 86th = education; 103rd = EWS.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following pairs are correctly matched? (Fundamental Duty — Clause) 1. Protect natural environment — 51A(g) 2. Develop scientific temper — 51A(h) 3. Safeguard public property — 51A(i) 4. Provide education opportunities to children — 51A(k)",
+  "options": [
+   "Only 1 and 4",
+   "All four",
+   "Only 2 and 3",
+   "Only 1, 2 and 3"
+  ],
+  "answer": 1,
+  "explanation": "All four are correctly paired: (g) environment; (h) scientific temper; (i) public property; (k) education duty (86th Amdt). Memorise letter-tag pairs — BPSC tests exact clauses.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "\"The Directive Principles are like a cheque payable at the convenience of the bank\" — this criticism reflects their:",
+  "options": [
+   "Vagueness of language only",
+   "Supremacy over Fundamental Rights",
+   "Non-justiciability — no court enforcement",
+   "Extra-constitutional origin"
+  ],
+  "answer": 2,
+  "explanation": "The cheque criticism targets non-justiciability: lofty goals without court enforcement. Note: this differs from Cripps' 'post-dated cheque' for the Mission plan — distinct quote traps.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which Directive Principle was described by Dr. Ambedkar as the \"soul of the Constitution\"?",
+  "options": [
+   "Article 40 (village panchayats)",
+   "Article 32 (constitutional remedies) — not a DPSP",
+   "Article 44 (uniform civil code)",
+   "Article 51 (international peace)"
+  ],
+  "answer": 0,
+  "explanation": "Ambedkar said Art 40 (village panchayats) is a key directive (he stressed panchayats' importance); he called Art 32 the heart-and-soul of the Constitution (option C mixes the two quotes — and Art 32 isn't a DPSP).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the statements about Article 48: 1. It directs organisation of agriculture and animal husbandry on modern scientific lines. 2. It prohibits slaughter of cows and calves. 3. It extends the ban to all cattle whatsoever. 4. Milch and draught cattle are specifically mentioned.",
+  "options": [
+   "All four",
+   "Only 1, 2 and 4",
+   "Only 1 and 2",
+   "Only 2, 3 and 4"
+  ],
+  "answer": 1,
+  "explanation": "Art 48 bans slaughter of cows, calves and other milch & draught cattle — NOT 'all cattle whatsoever' (statement 3 overreaches; the Constitution doesn't mandate a total ban; State laws vary). Statements 1, 2, 4 are accurate.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The right to free legal aid (Art 39A) has been read by the Supreme Court into which Fundamental Right?",
+  "options": [
+   "Article 25",
+   "Article 19",
+   "Article 14 only",
+   "Article 21 — as part of a fair, just and reasonable procedure"
+  ],
+  "answer": 3,
+  "explanation": "Hussainara Khatoon (1979) & Khatri (1981): free legal aid is implicit in Art 21 (fair trial) and Art 14 (equal access). Legal Services Authorities Act 1987 + NALSA implement Art 39A.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following correctly pairs a Directive Principle with its implementing legislation?",
+  "options": [
+   "Art 40 — Panchayati Raj via 73rd Amendment, 1992",
+   "Art 39A — Legal Services Authorities Act, 1987",
+   "All of the above",
+   "Art 39(d) — Equal Remuneration Act, 1976"
+  ],
+  "answer": 2,
+  "explanation": "All three pairings are correct: 39A ↔ NALSA/Legal Services Act; 39(d) ↔ Equal Remuneration Act; 40 ↔ 73rd Amendment (Panchayats). DPSP-implementation matching is a recurrent BPSC format.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Fundamental Duties differ from Fundamental Rights in that duties are: 1. owed by citizens towards the State/society, not claims against the State 2. non-justiciable 3. contained in Part IVA (Art 51A) 4. enforceable via writs",
+  "options": [
+   "Only 1, 2 and 3",
+   "All four",
+   "Only 2 and 3",
+   "Only 1 and 4"
+  ],
+  "answer": 0,
+  "explanation": "1, 2, 3 correct: duties are citizen-obligations, non-justiciable, Part IVA/51A. 4 is wrong — writs (Art 32/226) enforce FRs, not duties. Courts use FDs only interpretively.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ }
+]

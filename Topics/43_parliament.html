@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>43 - Parliament of India | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #43 • TIER A</div>
+  <div class="topic-title">Parliament — LS &amp; RS, Lawmaking, Bills, Sessions, Committees</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Indian Polity</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2 Qs</span>
+    <span class="meta-tag">📅 Exam: 26 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Secretarial staff &amp; officials (71st, Q56):</strong> BPSC asked: "The power to recruit the Secretarial staff of the House of the People is vested in:" — <strong>the Speaker</strong> (Lok Sabha's secretariat, Art 98; the Speaker controls the LS Secretariat, appoints its staff). Also expect questions on the <strong>Leader of the House (PM)</strong>, and who presides when the Speaker is absent (Deputy Speaker).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC Pattern</span>
+    <strong>Bill-passing arithmetic:</strong> BPSC repeatedly tests <strong>Money Bill certification (Art 110 — Speaker's decision final)</strong>, joint-sitting mechanics (Art 108 — ordinary bills only), RS's special-majority empowerments (Arts 249/312), and no-confidence vs censure motions. The censure-vs-no-confidence distinction appeared in the 71st (Q71) — censure NEED NOT be against the whole CoM and does NOT require resignation if passed.
+  </div>
+
+  <h3>Parliament's architecture (Arts 79–122)</h3>
+  <ul>
+    <li><strong>Art 79:</strong> Parliament = President + Rajya Sabha + Lok Sabha (the President is integral yet not a member).</li>
+    <li><strong>Lok Sabha (Arts 81–85):</strong> max <strong>530 states + 20 UTs + up to 2 nominated Anglo-Indians (ended 2020 by 104th Amendment — now 530+20=550)</strong>; directly elected, 18+ vote; <strong>5-year term</strong> (dissolvable); quorum 1/10th.</li>
+    <li><strong>Rajya Sabha (Arts 80–83):</strong> max <strong>238 elected + 12 nominated</strong> = 250; <strong>permanent house</strong>, not subject to dissolution; 1/3 retire every 2 years; 6-year terms.</li>
+    <li><strong>RS is NOT a federal equal:</strong> US-style equality absent — LS dominates money matters; RS's special powers: Art 249 (2/3 vote to legislate on State List for 1 year) &amp; Art 312 (new all-India services by resolution).</li>
+    <li><strong>Presiding officers:</strong> Speaker + Deputy Speaker (LS, elected from members); VP (RS Chairman) + Deputy Chairman; <strong>Speaker pro tem</strong> (swears in new LS); Speaker's casting vote only on a tie; Speaker does NOT vote in the first instance.</li>
+    <li><strong>Leader of the House:</strong> PM (LS) / a minister (RS); <strong>Leader of Opposition</strong> — statutory post (1977 Act), largest opposition party with ≥10% LS seats.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/parliament.png" alt="Parliament of India">
+    <div class="img-caption">Parliament House — Art 79: President + Rajya Sabha + Lok Sabha. The new building (Samvidhan Sadan complex) has hosted sittings since Sept 2023.</div>
+  </div>
+
+  <h3>Bill types — the master comparison table</h3>
+  <table>
+    <tr><th>Feature</th><th>Ordinary Bill</th><th>Money Bill</th><th>Financial Bill (I &amp; II)</th><th>Constitution Amendment Bill</th></tr>
+    <tr><td>Article</td><td>107–108</td><td>110</td><td>117(1)/(3)</td><td>368</td></tr>
+    <tr><td>RS role</td><td>Full powers; can amend/reject</td><td><strong>Only recommendations (14 days)</strong>; cannot amend/reject</td><td>Full powers (II), limited (I)</td><td>Full powers; must pass by same majority</td></tr>
+    <tr><td>Joint sitting</td><td>Available (Art 108)</td><td><strong>NOT available</strong></td><td>Not for 110-certified parts</td><td>NOT available</td></tr>
+    <tr><td>Majority</td><td>Simple</td><td>Simple</td><td>Simple</td><td>Special (2/3 present &amp; voting + majority of total membership); ratification by ≥half states for federal provisions</td></tr>
+    <tr><td>Certification</td><td>—</td><td><strong>Speaker certifies — final</strong></td><td>—</td><td>—</td></tr>
+    <tr><td>President's options</td><td>Assent / withhold / return once</td><td>Assent or withhold (<strong>cannot return</strong>)</td><td>As per type</td><td>Must assent (24th Amdt; cannot withhold or return)</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — Money Bill's 7 heads (Art 110):</strong> <strong>"TaXES, Borrow, Consolidated, Appropriation, Receipts, Custody, Matters-ancillary"</strong> — taxes; borrowing; CF/CAF custody; appropriation; receipts; custody of public money; incidental. Speaker's certificate = final — RS gets only 14 days to recommend.
+  </div>
+
+  <h3>Motions &amp; parliamentary devices</h3>
+  <table>
+    <tr><th>Device</th><th>Meaning</th><th>Effect</th></tr>
+    <tr><td><strong>No-confidence motion</strong></td><td>Against the whole CoM; 50+ members' support to admit</td><td>If passed → CoM must resign</td></tr>
+    <tr><td><strong>Censure motion</strong></td><td>Against an individual minister or the CoM; can be specific</td><td>71st BPSC: different from no-confidence — need NOT cause resignation (individual) but a passed censure of the CoM conventionally demands resignation</td></tr>
+    <tr><td><strong>Calling Attention</strong></td><td>Member draws a minister's attention to an urgent public matter</td><td>Indian innovation; no voting</td></tr>
+    <tr><td><strong>Adjournment Motion</strong></td><td>Urgent public importance; interrupts business</td><td>Needs 50 members; censure implied; voting possible</td></tr>
+    <tr><td><strong>Privilege Motion</strong></td><td>Breach of parliamentary privilege</td><td>Referred to Privileges Committee</td></tr>
+    <tr><td><strong>Cut Motions</strong></td><td>Policy cut, economy cut, token cut (on Demands for Grants)</td><td>LS-only (financial procedure)</td></tr>
+    <tr><td><strong>Point of Order</strong></td><td>Procedural irregularity</td><td>No debate/vote; Speaker decides</td></tr>
+  </table>
+
+  <h3>Law-making flow (ordinary bill)</h3>
+  <div class="flowchart">
+    <div class="flow-node">First Reading (introduction; no debate) → Second Reading (general discussion → committee stage → consideration clause-by-clause)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Third Reading (pass/reject — simple majority)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Other House repeats; disagreement → joint sitting (Art 108; Speaker presides; simple majority decides)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">President's assent (Art 111) → Act</div>
+  </div>
+
+  <h3>Committees — the workhorses</h3>
+  <ul>
+    <li><strong>Public Accounts Committee (22):</strong> examines CAG reports; chair from <strong>opposition</strong> (convention since 1967); ministers excluded.</li>
+    <li><strong>Estimates Committee (30):</strong> LS-only; examines the Budget's "economy" side; chair from ruling party.</li>
+    <li><strong>Committee on Public Undertakings (22):</strong> PSU performance; ministers excluded.</li>
+    <li><strong>Departmentally Related Standing Committees (DRSCs, 24):</strong> examine demands for grants, bills, annual reports; 31 members each (21 LS + 10 RS).</li>
+    <li><strong>Others:</strong> Privileges, Petitions, Government Assurances, Subordinate Legislation, Absence of Members, Ethics, Empowerment of Women, JPC on Offices of Profit, Business Advisory, Rules.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">⚡</span> Fact Matrix — Quick Revision</div>
+  <table>
+    <tr><th>Fact</th><th>Answer</th><th>Trap</th></tr>
+    <tr><td>LS max strength (post-2020)</td><td>550 (530 states + 20 UTs; Anglo-Indian seats ended)</td><td>104th Amendment (2019/2020) ended the 2 nominated</td></tr>
+    <tr><td>RS max strength</td><td>250 (238 + 12)</td><td>Current actual: 245</td></tr>
+    <tr><td>Who certifies Money Bill</td><td>Speaker — final (Art 110)</td><td>President/PM have no role</td></tr>
+    <tr><td>Joint sitting presided by</td><td>Speaker (Deputy Speaker/RS Dy Chair in that order)</td><td>NOT the VP (he's RS Chairman)</td></tr>
+    <tr><td>Joint sitting for</td><td>Ordinary bills + Financial Bills I/II (if deadlocked)</td><td>NOT Money/Constitution Amendment Bills</td></tr>
+    <tr><td>RS special power articles</td><td>249 (State List, 2/3, 1 yr) &amp; 312 (all-India services)</td><td>LS cannot replicate these resolutions</td></tr>
+    <tr><td>PAC chair convention</td><td>Opposition member (since 1967)</td><td>Not statutory — convention</td></tr>
+    <tr><td>Quorum</td><td>1/10 of total membership</td><td>Including the presiding officer</td></tr>
+    <tr><td>No-confidence minimum movers</td><td>50 members</td><td>Adjournment also 50; censure has no minimum in rules</td></tr>
+    <tr><td>Budget documents</td><td>Annual Financial Statement (Art 112)</td><td>Appropriation (114) &amp; Finance (117(1)) Bills distinct</td></tr>
+    <tr><td>Anti-defection</td><td>10th Schedule (52nd Amdt 1985)</td><td>Speaker's decision subject to judicial review (Kihoto)</td></tr>
+    <tr><td>Deputy Speaker election</td><td>By LS from its members</td><td>Constitutionally mandated (Art 93) — can't be left vacant indefinitely</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/rashtrapati_bhavan.jpg" alt="Rashtrapati Bhavan and the Central Vista">
+    <div class="img-caption">Rashtrapati Bhavan on the Central Vista — Parliament (Rashtrapati Bhavan + both Houses) meets in the new building since Sept 2023; the President summons, prorogues and addresses Parliament (Arts 85, 87).</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION 🔗                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bihar-box">
+  <div class="bihar-box-title">Bihar Connection 🔗</div>
+  <ul>
+    <li><strong>Bihar's RS quota:</strong> 16 seats (4th Schedule) — Bihar's elected RS members include historic figures; the 1946-47 Constituent-era Bihar leaders (Prasad, Sinha) moved to Parliament.</li>
+    <li><strong>First LS Speaker from Bihar:</strong> while G.V. Mavalankar was the first Speaker, Bihar's <strong>Anugrah Narayan Sinha's</strong> Lok Sabha lineage and later <strong>Meira Kumar's</strong> Speakership (2009–2014; first woman Speaker — daughter of Jagjivan Ram, Bihar-rooted family) are BPSC-favoured links.</li>
+    <li><strong>Bihar Legislative Council (Art 169):</strong> created in the 1911-1912 separation era (formally from 1937); Bihar assembly's 2020 abolition resolution awaits Parliament — the live Art 169 case.</li>
+    <li><strong>Bihar's Parliamentarians' milestones:</strong> Rajendra Prasad chaired the Constituent Assembly doubling as the provisional Parliament's presiding figure (Topic 38); Jagjivan Ram's record ministerial tenure.</li>
+    <li><strong>Bankipore 1912 session</strong> → Bihar's early legislative politics (Topic 29) → the provincial assembly that elected Bihar's Constituent members met at <strong>Patna (Council House)</strong>.</li>
+    <li><strong>Bihar's Lok Sabha seats:</strong> 40 seats — BPSC has asked seat-count questions; the state's delimitation freeze (1971-2026, next due 2026 discussions) links to Art 82/170.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC CONNECTIONS                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cross-link">
+  <strong>Cross-Topic Connections:</strong> President's assent/veto → <strong>42</strong>; FRs of members (Art 105 privileges) → <strong>40</strong>; Judiciary's jurisdiction over parliamentary matters → <strong>44</strong>; Emergency approval by Parliament → <strong>46</strong>; Elections &amp; anti-defection → <strong>49</strong>; Bihar's Vidhan Sabha contrast → <strong>143</strong>; Budget/CAG → <strong>47</strong> &amp; <strong>82</strong>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE 2024–26                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🆕</span> Current Relevance 2024–26</div>
+  <ul>
+    <li><strong>18th Lok Sabha (Jun 2024):</strong> ~543 members; new Speaker elected June 2024; <strong>Om Birla</strong> continues (re-elected); the post of Deputy Speaker remains a talking point (vacant since 2014 → constitutional convention debate).</li>
+    <li><strong>New Parliament building (Sept 2023):</strong> sittings in the new building; old building renamed <strong>Samvidhan Sadan</strong> (Topic 38 link).</li>
+    <li><strong>Women's Reservation Act (106th Amendment, 2023):</strong> 33% LS/State assembly reservation post-delimitation — a live Art 368 question; Bihar's assembly impact.</li>
+    <li><strong>Productivity debates 2024–25:</strong> Budget session disruptions, guillotine usage, ordinance-vs-session maths keep procedural articles fresh.</li>
+    <li><strong>Bihar angle:</strong> Bihar's 40 LS seats &amp; 16 RS seats make its parliamentary arithmetic nationally decisive (2024 coalition formation); Nitish Kumar's JD(U)'s role in the new government illustrated coalition-CoM dynamics.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">72nd BPSC Top 5 Predictions</span>
+  <strong>Most probable questions:</strong> (1) Money Bill certification — Speaker, final. (2) Joint sitting — ordinary bills only; Speaker presides. (3) Censure vs no-confidence (71st tested). (4) PAC chairman — opposition convention. (5) RS special powers — Arts 249/312.
+</div>
+
+<div class="subpage-box">
+  📖 <strong>Deep dive:</strong> For the complete bills drill (all four types), motions matrix, sessions/summons rules, the 106th Amendment analysis, and 7 exam predictions — see <a href="subpages/43_parliament_detail.html">Topic 43 Deep Dive</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. Under Article 79, the Parliament of India consists of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) President, PM and both Houses</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Lok Sabha and Rajya Sabha only</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) President, Rajya Sabha and Lok Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Lok Sabha only</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (C)</strong> — Art 79: Parliament = <strong>President + RS + LS</strong>. Though the President is not a member of either House, no bill becomes law without presidential assent, and the President summons/prorogues Houses.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. [71st BPSC] The power to recruit the Secretarial staff of the Lok Sabha is vested in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Union Public Service Commission</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Prime Minister's Office</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) The Speaker of the Lok Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) The President</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — The Speaker controls the Lok Sabha Secretariat (Art 98) — recruitment of LS secretarial staff vests in the <strong>Speaker</strong>. The 71st BPSC's distractors included the PMO and UPSC — wrong channels for House staff.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Rajya Sabha is a permanent House because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Its term is six years</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Its members are elected for life</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) The President cannot summon it</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) It is never subject to dissolution — one-third of members retire every two years</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (D)</strong> — RS is permanent (Art 83): no dissolution; members serve <strong>6-year</strong> terms, with <strong>1/3 retiring biennially</strong>. Option D confuses individual term with the House's continuity.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. A Money Bill can be introduced only:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) In a joint sitting</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) In the Lok Sabha, on the President's recommendation</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) In either House</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) In the Rajya Sabha, with the President's permission</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — Art 109/110/117(1): Money Bill only in the <strong>Lok Sabha</strong>, and only on the <strong>President's prior recommendation</strong>. RS cannot introduce, amend or reject it — just 14 days of recommendations.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Whose decision on whether a bill is a Money Bill is final?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) The Prime Minister</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) The Supreme Court</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) The President</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) The Speaker of the Lok Sabha</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (D)</strong> — Art 110(3): the <strong>Speaker's certification is final</strong>. Courts can examine procedural aspects (Aadhaar ruling 2018 tested but respected the certificate's scope) — the exam answer remains the Speaker.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. A joint sitting of Parliament can be summoned for:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Ordinary bills and financial bills — but NOT Money Bills or Constitution Amendment Bills</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Constitution Amendment Bills only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Any bill deadlocked between the Houses</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Money Bills only</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — Art 108 joint sitting: ordinary + Financial Bills (I/II) only. Excluded: <strong>Money Bills</strong> (RS can't deadlock them) and <strong>Constitution Amendment Bills</strong> (both Houses must pass identically by special majority). Only 3 joint sittings ever: 1961, 1978, 2002.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Who presides over a joint sitting of Parliament?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) The Speaker of the Lok Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) The senior-most member</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) The President</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) The Vice-President</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — Art 108(2): the <strong>Speaker</strong> presides (Deputy Speaker next; then RS Deputy Chairman; never the VP — he's RS Chairman and cannot preside over a joint sitting). Called by the President.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. [71st BPSC] Which is correct about a Censure Motion?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) It requires the President's approval to move</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) It is not different from a no-confidence motion</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) It is different from the no-confidence motion</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) It can only be moved in the Rajya Sabha</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — 71st BPSC answer: censure ≠ no-confidence. Censure targets a <strong>specific minister/act</strong> (or the CoM); it need not compel resignation (individual-censure), whereas no-confidence is against the whole CoM and forces resignation if passed.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Rajya Sabha can authorise Parliament to legislate on a State List subject (Art 249) by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Simple majority, valid for one year</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Two-thirds majority of members present and voting, valid for one year (renewable)</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Unanimous resolution</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Special majority with half the states' ratification</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — Art 249: RS resolution by <strong>2/3 present &amp; voting</strong> (national interest) → Parliament legislates on State List for <strong>1 year</strong> (renewable). Art 312 (all-India services) uses the same 2/3. LS cannot pass these resolutions — RS's two special powers.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The maximum strength of the Lok Sabha provided by the Constitution (post-104th Amendment) is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) 543</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) 550</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) 552</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) 545</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — After the <strong>104th Amendment (2019, effective 2020)</strong> ended Anglo-Indian nomination, the ceiling = 530 states + 20 UTs = <strong>550</strong>. (552 was the old ceiling with 2 nominated; 543 = current actual LS seats.)</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The Public Accounts Committee of Parliament is chaired (by convention since 1967) by a member of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) The opposition</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Nominated members</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) The ruling party</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) The Rajya Sabha majority party</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — PAC (22 members: 15 LS + 7 RS) chairmanship goes to an <strong>opposition</strong> member since 1967; ministers cannot be members. PAC examines CAG reports — the CAG's audit (Topic 47) feeds it.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The quorum required to conduct business in either House of Parliament is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) One-fourth of the total membership</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) One-tenth of the total membership</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) One-third of the members present</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) 100 members</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — Art 100(3): quorum = <strong>1/10 of total membership</strong> (incl. presiding officer). The President can direct adjournment/suspension when quorum fails.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. A no-confidence motion in the Lok Sabha requires the support of at least:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) 100 members</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) 25 members</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) One-third of members</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) 50 members</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (D)</strong> — Leave for a no-confidence motion needs <strong>50 members' support</strong> (Rules of Procedure). Adjournment motions also need 50. If passed, the CoM must resign (Art 75(3) consequence).</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Which of the following is NOT a Money Bill matter under Article 110?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Appropriate receipts into the Consolidated Fund</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) Imposition, abolition or alteration of taxes</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Regulation of state taxes in the public interest</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) Borrowing by the Government</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (C)</strong> — Art 110's 7 heads include taxes, borrowing, CF/CAF custody, appropriation, receipts, incidental. <strong>Art 274's "regulation of state taxes in public interest"</strong> is a <em>financial bill requiring President's recommendation</em> — but a <em>draft of which a Money Bill definition</em> excludes — the classic MCQ fine-print: regulation of state taxes is NOT an Art 110 head.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Speaker of the Lok Sabha:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Does not vote in the first instance but casts a casting vote in case of a tie</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Votes on every bill like other members</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Never votes under any circumstance</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Can vote only on Money Bills</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Art 99/100: the Speaker votes only in a <strong>tie</strong> (casting vote). The RS Chairman (VP) cannot vote at all except an original vote on RS resolutions — a subtle LS/RS contrast.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The Deputy Chairman of the Rajya Sabha is elected by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) The Rajya Sabha from among its members</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) The Vice-President</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) The President</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Both Houses jointly</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Art 89: RS elects its Deputy Chairman from its members; presides in the Chairman's absence. Deputy Speaker (LS) likewise elected by LS (Art 93).</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The Leader of the Opposition in the Lok Sabha is a statutory position recognised provided the largest opposition party has at least:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 55 seats</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 1/4th of the total LS strength</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 50 seats</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 1/10th of the total LS strength</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — The Leader and Deputy Leader of Opposition (Salary) Act 1977: recognition requires ≥ <strong>1/10 of total LS seats</strong> (currently ~54-55 seats — options C/D are number-traps of the same idea; the statutory test is the fraction).</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Which committee examines the reports of the Comptroller and Auditor General?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Public Accounts Committee</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Business Advisory Committee</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Estimates Committee</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Committee on Public Undertakings</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — The PAC examines CAG audit reports (appropriation accounts + finance accounts). Estimates suggests economies; CoPU examines PSU performance (also based on CAG reports, but PAC is the audit-report committee par excellence).</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Under Article 312, a new all-India service can be created by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) A constitutional amendment</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) The President's order</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) The Lok Sabha passing a resolution</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) The Rajya Sabha passing a resolution (2/3 present &amp; voting) and Parliament enacting a law</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — Art 312: RS resolution (2/3 present &amp; voting) declares necessity → Parliament enacts. Existing all-India services: <strong>IAS, IPS, IFoS</strong> — and the Indian Forest Service was created via this route (1966).</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The annual financial statement (Budget) is laid before Parliament under Article:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) 117</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) 114</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) 110</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) 112</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — Art 112: Annual Financial Statement (Budget). Art 114 = Appropriation Bill (after demands for grants); Art 117 = financial bill procedures; Art 110 defines Money Bills. The President causes it to be laid.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The anti-defection law is contained in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 11th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 8th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 10th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 9th Schedule</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (C)</strong> — <strong>10th Schedule</strong> (52nd Amendment, 1985): disqualification on defection; Speaker/Chairman decide — subject to judicial review (Kihoto Hollohan, 1992).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. A bill pending in the Lok Sabha lapses on its dissolution, but a bill pending in the Rajya Sabha:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Does not lapse (RS is permanent), unless passed by LS before dissolution</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Goes to the President for assent</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Is deemed passed</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Also lapses</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — A bill originating in and passed by LS, pending in RS at LS dissolution, <strong>does not lapse</strong> (RS continuity) — but a bill originating in RS and passed by it, pending in LS, lapses on LS dissolution. Lapse rules are a BPSC staple.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The Speaker Pro Tem is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) The outgoing Speaker</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) A Rajya Sabha member nominated by the VP</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) The senior-most member of the new Lok Sabha, appointed by the President to administer oaths</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) The Deputy Speaker automatically</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (C)</strong> — The President appoints the <strong>senior-most member</strong> as Speaker Pro Tem to swear in the new LS and preside until the Speaker's election. Options B/C are conventional confusions — the outgoing Speaker returns to the House as a member; the Dy Speaker ceases with dissolution.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The Women's Reservation (106th) Amendment, 2023, provides:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Reservation within the 10th Schedule's quotas</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) 33% reservation for women in LS, state assemblies and Delhi — effective after delimitation following a census</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) 50% reservation in the Rajya Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Immediate reservation from 2024 elections</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (B)</strong> — Nari Shakti Vandan Adhiniyam (Sept 2023): 1/3 reservation in LS + state assemblies + Delhi, taking effect <strong>after the post-census delimitation</strong> — the deferred-implementation clause is the exam point. RS nomination is not covered; it applies to direct elections.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which one of the following is a Rajya Sabha-exclusive power (not available to the Lok Sabha)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Removing the Vice-President</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) Passing a resolution to create new all-India services (Art 312)</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Passing no-confidence motions</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) Passing Money Bills</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — Art 312 (and 249) resolutions belong to the <strong>RS only</strong>. Option A: VP removal starts in RS but needs LS agreement — so it's not "exclusive"; Money Bills &amp; no-confidence are LS domains. Bihar angle: all-India services include Bihar-recruited IAS/IPS cadres.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Parliament_of_India" target="_blank">Parliament of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Arts 79–122, LS/RS composition</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Money_Bill" target="_blank">Money Bill — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Art 110's seven heads, Speaker's certificate</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Joint_sitting_of_the_Parliament_of_India" target="_blank">Joint sitting — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Art 108; three historical sittings</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Public_Accounts_Committee_(India)" target="_blank">Public Accounts Committee — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Opposition chair convention; CAG reports</span></li>
+    <li><a href="https://loksabha.nic.in" target="_blank">Lok Sabha — official website</a> <span style="color:#64748b;font-size:12px;">Rules of procedure, members</span></li>
+    <li><a href="https://rajyasabha.nic.in" target="_blank">Rajya Sabha — official website</a> <span style="color:#64748b;font-size:12px;">RS functioning, secretariat</span></li>
+    <li><a href="https://legislative.gov.in" target="_blank">Legislative Department — Constitution of India</a> <span style="color:#64748b;font-size:12px;">Official Arts 79–122 text</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 43 — Parliament • Generated 2026-09-10 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'c', q2: 'c', q3: 'd', q4: 'b', q5: 'd',
+  q6: 'a', q7: 'a', q8: 'c', q9: 'b', q10: 'b',
+  q11: 'a', q12: 'b', q13: 'd', q14: 'c', q15: 'a',
+  q16: 'a', q17: 'd', q18: 'a', q19: 'd', q20: 'd',
+  q21: 'c', q22: 'a', q23: 'c', q24: 'b', q25: 'b',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,327 @@
+[
+ {
+  "q": "The Preamble of the Constitution of India is based on:",
+  "options": [
+   "The Nehru Report, 1928",
+   "The Cabinet Mission Plan, 1946",
+   "The Objectives Resolution moved by Jawaharlal Nehru",
+   "The Government of India Act, 1935"
+  ],
+  "answer": 2,
+  "explanation": "The Preamble is based on the Objectives Resolution, moved by Nehru on 13 Dec 1946 and adopted 22 Jan 1947. The GoI Act 1935 supplied administrative machinery (not ideals); the Nehru Report (1928) proposed dominion status; the Cabinet Mission created the Assembly, not the Preamble.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th pattern | null"
+ },
+ {
+  "q": "The words 'Socialist', 'Secular' and 'Integrity' were added to the Preamble by which amendment?",
+  "options": [
+   "44th Amendment",
+   "42nd Amendment",
+   "24th Amendment",
+   "52nd Amendment"
+  ],
+  "answer": 1,
+  "explanation": "The 42nd Amendment (1976) — the 'Mini-Constitution' — added all three words; it remains the only amendment ever made to the Preamble. The 44th (1978) reversed several 42nd changes but left the Preamble untouched. The 52nd is anti-defection; the 24th clarified amendability of FRs.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th Q104-class | null"
+ },
+ {
+  "q": "In the Berubari Union case (1960), the Supreme Court held that the Preamble:",
+  "options": [
+   "Is not a part of the Constitution",
+   "Can never be amended",
+   "Is enforceable in courts of law",
+   "Is a part of the Constitution"
+  ],
+  "answer": 0,
+  "explanation": "Berubari (1960): the Preamble is not a part of the Constitution; it is a key to the makers' minds. This was overruled in Kesavananda (1973), which made it a part. Option C is wrong in both cases; option D was never held — the Preamble is non-justiciable.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "In Kesavananda Bharati v. State of Kerala (1973), the Supreme Court held that:",
+  "options": [
+   "The Preamble is part of the Constitution and can be amended without altering the basic structure",
+   "The Preamble cannot be amended under any circumstances",
+   "The Preamble overrides Fundamental Rights",
+   "The Preamble is not part of the Constitution"
+  ],
+  "answer": 0,
+  "explanation": "Kesavananda held the Preamble IS part of the Constitution and CAN be amended (Art 368's proviso applies), but the basic structure — which the Preamble's ideals define — cannot be destroyed. Option A is Berubari (1960); option D is nonsense — the Preamble is non-justiciable.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following pairs is correctly matched? (Preamble element — Interpretation)",
+  "options": [
+   "Republic — hereditary head of state",
+   "Secular — the State has no religion of its own; equal respect to all",
+   "Sovereign — dominion status within the Commonwealth",
+   "Socialist — communistic state ownership of all industry"
+  ],
+  "answer": 1,
+  "explanation": "Secularism here is positive secularism (Sarva Dharma Samabhava) — the State has no official religion and treats all equally (S.R. Bommai, 1994). Option A is wrong: Indian socialism is democratic socialism (mixed economy), not communism. Option C: a republic has an elected head. Option D: sovereignty means free of external control — Commonwealth membership does not limit it.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The correct chronological order of ideals as they appear in the Preamble is:",
+  "options": [
+   "Liberty → Justice → Fraternity → Equality",
+   "Fraternity → Equality → Liberty → Justice",
+   "Equality → Justice → Liberty → Fraternity",
+   "Justice → Liberty → Equality → Fraternity"
+  ],
+  "answer": 3,
+  "explanation": "The Preamble order: Justice (social, economic, political) → Liberty (thought, expression, belief, faith, worship) → Equality (status, opportunity) → Fraternity (dignity + unity & integrity). Mnemonic JLEF. BPSC loves order-scrambling traps.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "'Liberty of thought, expression, belief, faith and worship' in the Preamble is reflected in which set of Fundamental Rights?",
+  "options": [
+   "Articles 23–24 only",
+   "Articles 14–18 only",
+   "Articles 29–30 only",
+   "Articles 19–22 and 25–28"
+  ],
+  "answer": 3,
+  "explanation": "Liberty of thought/expression → Art 19 (speech etc.) and the Art 20–22 cluster; belief/faith/worship → Arts 25–28 (freedom of religion). Arts 14–18 embody equality; Arts 29–30 cultural/educational rights; Arts 23–24 abolition of exploitation.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The phrase 'economic justice' in the Preamble is primarily reflected in:",
+  "options": [
+   "Part IVA — Fundamental Duties",
+   "Part XII — Finance, Property, Contracts and Suits",
+   "Part IV — Directive Principles of State Policy",
+   "Part III — Fundamental Rights"
+  ],
+  "answer": 2,
+  "explanation": "Economic and social justice is the domain of DPSP (Part IV) — the SC in D.S. Nakara (1982) linked the Preamble's economic justice to DPSPs (e.g., Art 39). FRs secure political justice primarily; Part IVA is duties; Part XII is financial administration.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about the Preamble: 1. It is non-justiciable — not enforceable in a court of law. 2. It is a legitimate aid in interpreting ambiguous provisions of the Constitution. 3. It was amended once, by the 42nd Amendment, 1976. Which is/are correct?",
+  "options": [
+   "Only 2 and 3",
+   "All 1, 2 and 3",
+   "Only 1 and 3",
+   "Only 1 and 2"
+  ],
+  "answer": 1,
+  "explanation": "All three are correct. Non-justiciable but a valid interpretive aid (used in Kesavananda, Bommai); amended once only (42nd, 1976 — Socialist, Secular, Integrity).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Preamble declares India to be:",
+  "options": [
+   "Sovereign Democratic Republic",
+   "Sovereign Socialist Secular Democratic Republic",
+   "Socialist Secular Federal Republic",
+   "Sovereign Socialist Republic"
+  ],
+  "answer": 1,
+  "explanation": "Today's text: 'SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC' — five descriptors in order. Option A is the 1949–1976 text. Option D inserts 'Federal' — the Preamble does not use the word 'federal' (India is a 'Union of States', Art 1).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The ideal of 'Justice — social, economic, political' in the Preamble is inspired by:",
+  "options": [
+   "The French Revolution",
+   "The US Constitution",
+   "The Russian Revolution (USSR)",
+   "The Irish Constitution"
+  ],
+  "answer": 2,
+  "explanation": "The ideal of justice (social, economic, political) comes from the Russian Revolution. Liberty, equality, fraternity come from the French Revolution. The Irish gave DPSP. US gave FRs/judicial review.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "'Fraternity' in the Preamble means:",
+  "options": [
+   "The dignity of the individual and the unity and integrity of the Nation",
+   "Equal distribution of wealth",
+   "A band of brothers in arms against the State",
+   "Freedom of religion"
+  ],
+  "answer": 0,
+  "explanation": "Fraternity assures the dignity of the individual and the unity and integrity of the Nation ('integrity' added by the 42nd). Option C is economic justice/equality; option D is liberty of faith/worship. Art 51A(e) is its statutory echo.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "In November 2024, the Supreme Court (in Balram Singh v. Union of India) held that:",
+  "options": [
+   "'Socialist' and 'secular' must be deleted from the Preamble",
+   "The 1976 insertion of 'socialist' and 'secular' in the Preamble is valid and the words remain",
+   "The Preamble's text can be amended only by a Constituent Assembly",
+   "The Preamble is not part of the Constitution"
+  ],
+  "answer": 1,
+  "explanation": "The SC dismissed the petition to delete 'socialist'/'secular': Parliament's Art 368 power extends to the Preamble (42nd Amendment precedent; Kesavananda), and the insertion stands. Option C contradicts Kesavananda; option D is wrong — ordinary Art 368 procedure applies.",
+  "difficulty": "bpsc",
+  "pyq_ref": "Nov 2024 SC | null"
+ },
+ {
+  "q": "The Preamble states that the Constitution was adopted 'in our Constituent Assembly' on:",
+  "options": [
+   "26 January 1950",
+   "15 August 1947",
+   "26 November 1949",
+   "9 December 1946"
+  ],
+  "answer": 2,
+  "explanation": "The Preamble's final line records adoption on 'this twenty-sixth day of November, 1949' — unchanged even after the 42nd Amendment. 26 Jan 1950 is commencement; 9 Dec 1946 is the first sitting. The adoption/commencement distinction is a BPSC staple.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following is NOT a descriptor used for India in the Preamble?",
+  "options": [
+   "Secular",
+   "Socialist",
+   "Republic",
+   "Federal"
+  ],
+  "answer": 3,
+  "explanation": "The Preamble does not describe India as 'federal' (Art 1: 'Union of States'; the country is federal in structure but the word is absent — Ambedkar's deliberate choice). Socialist/Secular (42nd), Republic (from 1949) all appear.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match List-I (Preamble term) with List-II (closest constitutional embodiment): (a) Justice, social (b) Liberty of worship (c) Equality of opportunity (d) Fraternity — 1) Art 25 2) Art 15(4) 3) Art 46 4) Art 51A(e)",
+  "options": [
+   "3, 2, 1, 4",
+   "4, 3, 2, 1",
+   "1, 3, 2, 4",
+   "3, 1, 2, 4"
+  ],
+  "answer": 3,
+  "explanation": "Justice-social → Art 46 (weaker sections); liberty of worship → Art 25 (freedom of conscience); equality of opportunity → Art 15(4)/16(4); fraternity → Art 51A(e). Matching Preamble ideals to specific Articles is a high-yield BPSC pattern.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following statements is INCORRECT about the Preamble?",
+  "options": [
+   "It can be amended",
+   "It embodies the basic structure of the Constitution's ideals",
+   "It is a part of the Constitution",
+   "It is enforceable in courts of law"
+  ],
+  "answer": 3,
+  "explanation": "The Preamble is non-justiciable — no one can enforce it in court; it is interpretive material only. (A) is right post-Kesavananda; (C) is right (42nd precedent); (D) is right — the SC uses it to identify basic-structure elements (e.g., secularism in Bommai).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Preamble's phrase 'We, the people of India' signifies:",
+  "options": [
+   "Only citizens who ratified the Constitution in a referendum",
+   "Popular sovereignty — ultimate authority lies with the people of India",
+   "The Constituent Assembly was directly elected by all adults",
+   "The Constitution is made by the representatives, not the people"
+  ],
+  "answer": 1,
+  "explanation": "'We, the people' proclaims popular sovereignty: the Constitution derives from the people. There was no referendum (option C) and the Assembly was indirectly elected (option D — the classic CA trap, see Topic 38).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Thakurdas Bhargava described the Preamble as:",
+  "options": [
+   "The identity card of the Constitution",
+   "The key to the Constitution",
+   "The horoscope of our sovereign democratic republic",
+   "The soul of the Constitution"
+  ],
+  "answer": 2,
+  "explanation": "Thakurdas Bhargava: 'the horoscope of our sovereign democratic republic'; K.M. Munshi: 'political horoscope'. N.A. Palkhivala called it the 'identity card of the Constitution'. The tested pairing is horoscope → Bhargava.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following pairs (word added — amendment): 1. Socialist — 42nd 2. Secular — 42nd 3. Integrity — 44th 4. Democratic — 42nd. Which are correctly matched?",
+  "options": [
+   "None",
+   "All four",
+   "Only 1, 2 and 4",
+   "Only 1 and 2"
+  ],
+  "answer": 3,
+  "explanation": "Socialist, Secular AND Integrity were ALL added by the 42nd Amendment (1976) — pair 3 is wrong (44th did not touch the Preamble); pair 4 is wrong because 'Democratic' was in the original 1949 text.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Preamble is silent on which of the following?",
+  "options": [
+   "The date of commencement of the Constitution (26 January 1950)",
+   "The source of authority for the Constitution",
+   "The nature of the State (democratic, socialist etc.)",
+   "The objectives of the Constitution"
+  ],
+  "answer": 0,
+  "explanation": "The Preamble mentions the adoption date (26 Nov 1949), NOT the commencement date (26 Jan 1950). Source of authority, nature of State and objectives are all there.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "In S.R. Bommai v. Union of India (1994), the Supreme Court held that secularism:",
+  "options": [
+   "Is a basic feature of the Constitution",
+   "Applies only to the Union, not the States",
+   "Was inserted in the Preamble in 1994",
+   "Means the State must be anti-religion"
+  ],
+  "answer": 0,
+  "explanation": "Bommai (1994): secularism is a basic feature; misuse of religion by a State government can invite Art 356 action. 'Secular' entered the Preamble in 1976 (42nd), not 1994. Indian secularism = positive/equal respect, NOT anti-religion; it binds both Union and States.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which pair is NOT correctly matched? (Preamble ideal — Source of inspiration)",
+  "options": [
+   "Fraternity — Russian Revolution",
+   "Liberty — French Revolution",
+   "Equality — French Revolution",
+   "Justice (social, economic, political) — Russian Revolution"
+  ],
+  "answer": 0,
+  "explanation": "Fraternity comes from the French Revolution (fraternité), not the Russian. Justice (social-economic-political) is the Russian contribution; liberty and equality are French.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 42nd Amendment is called the 'Mini-Constitution' because it: 1. Added words to the Preamble 2. Added Fundamental Duties (Part IVA) 3. Added new Directive Principles (Arts 43A, 48A) 4. Curtailed judicial review",
+  "options": [
+   "All 1, 2, 3 and 4",
+   "Only 1, 2 and 3",
+   "Only 1 and 2",
+   "Only 2 and 3"
+  ],
+  "answer": 0,
+  "explanation": "All four: Preamble words, Fundamental Duties (Art 51A, USSR model), new DPSPs (43A, 48A), and curtailment of judicial review — hence 'Mini-Constitution'. The 44th (1978) reversed only parts.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th Q104-class | null"
+ },
+ {
+  "q": "'Equality of status and of opportunity' in the Preamble corresponds most closely to which constitutional provision?",
+  "options": [
+   "Article 51A — fundamental duties",
+   "Article 32 — right to constitutional remedies",
+   "Articles 14, 15, 16 and the DPSP Art 39 (equal pay etc.)",
+   "Article 21 — protection of life and personal liberty"
+  ],
+  "answer": 2,
+  "explanation": "Equality of status → Arts 14–15; equality of opportunity → Art 16 and DPSP Art 39. Art 21 is liberty; Art 32 is remedies; Art 51A is duties.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]

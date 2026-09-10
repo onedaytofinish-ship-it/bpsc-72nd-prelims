@@ -1,0 +1,327 @@
+[
+ {
+  "q": "The Election Commission of India is established under:",
+  "options": [
+   "Article 315",
+   "Article 324",
+   "Article 148",
+   "Article 280"
+  ],
+  "answer": 1,
+  "explanation": "Art 324: superintendence, direction and control of elections to Parliament, state legislatures, President and VP. 315 = PSCs; 280 = FC; 148 = CAG — the article-anchor drill.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Chief Election Commissioner can be removed:",
+  "options": [
+   "Only in the same manner as a Supreme Court judge",
+   "By a parliamentary resolution",
+   "On the Cabinet's advice",
+   "By the President at will"
+  ],
+  "answer": 0,
+  "explanation": "Art 324(5): the CEC is removable only like an SC judge (special-majority address on proved misbehaviour/incapacity); other Election Commissioners are removable on the CEC's recommendation — the deliberate asymmetry.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under the 2023 CEC Appointment Act, the selection committee comprises:",
+  "options": [
+   "Speaker + PM + LoP",
+   "PM + Leader of Opposition (LS) + a Union Cabinet Minister",
+   "PM + Leader of Opposition + CJI",
+   "President + CJI + PM"
+  ],
+  "answer": 1,
+  "explanation": "The 2023 Act: PM + LoP + Union Cabinet Minister — the CJI was dropped from Anoop Baranwal's interim formula (2023) — the newest exam point in this topic.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Bihar Public Service Commission's members are appointed by:",
+  "options": [
+   "The Chief Minister",
+   "The UPSC",
+   "The President",
+   "The Governor of Bihar"
+  ],
+  "answer": 3,
+  "explanation": "Art 316: the Governor appoints SPSC members (for nearly half the posts, consultation with the UPSC is the convention under Art 316(2)); but only the President can remove them — BPSC's own constitutional basis.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "A State PSC member can be removed from office by:",
+  "options": [
+   "Only the President",
+   "The state legislature's resolution",
+   "The Chief Minister",
+   "The Governor"
+  ],
+  "answer": 0,
+  "explanation": "The appointment-removal asymmetry: the Governor appoints but only the President can remove (Art 317) — the constitutional insulation of SPSC members.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The advice of the UPSC/SPSC to the government is:",
+  "options": [
+   "Binding only in promotion cases",
+   "Binding on the government",
+   "Reviewed by the Supreme Court",
+   "Not binding — but the government must return reasons for rejection (Art 320(3))"
+  ],
+  "answer": 3,
+  "explanation": "PSC advice is not binding; the government must communicate reasons for non-acceptance. Also: PSCs are NOT consulted on reservation policies — the two standard traps.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Comptroller and Auditor General of India is appointed by:",
+  "options": [
+   "The Supreme Court",
+   "The Cabinet",
+   "The Parliament",
+   "The President; removable like an SC judge"
+  ],
+  "answer": 3,
+  "explanation": "Art 148: the President appoints the CAG; removal = SC-judge grade (special-majority address); salary charged on the CF; ineligible for further government office.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The CAG submits audit reports to:",
+  "options": [
+   "The PAC directly",
+   "The Parliament directly",
+   "The President (Union reports) / Governor (state reports), who lay them before Parliament/legislature",
+   "The Supreme Court"
+  ],
+  "answer": 2,
+  "explanation": "Art 151: reports go to the President/Governor → laid before Parliament/legislature → the PAC examines them (Topic 43's chain). The CAG never reports to Parliament directly.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Finance Commission consists of:",
+  "options": [
+   "Five members total including the chair",
+   "A chairperson and four other members",
+   "A chairperson and nine members",
+   "Seven members"
+  ],
+  "answer": 1,
+  "explanation": "Art 280: chair + 4 members (5 total) appointed by the President every 5th year; 16th FC chair: Arvind Panagariya (2024-).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "[71st BPSC] The Attorney General of India has the right to:",
+  "options": [
+   "Sit only in the Rajya Sabha",
+   "Introduce bills only",
+   "Vote in Parliament",
+   "Speak and participate in Parliament (and committees) without a vote; audience in all courts"
+  ],
+  "answer": 3,
+  "explanation": "Art 88/76: the AG speaks/participates in both Houses + committees without voting; audience in all courts — 71st BPSC's exact answer. Holds office at the President's pleasure.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st Q57 | null"
+ },
+ {
+  "q": "The National Commission for Scheduled Tribes was created by:",
+  "options": [
+   "The 73rd Amendment",
+   "A 1990 executive order",
+   "The 102nd Amendment",
+   "The 89th Amendment (2003), splitting the combined commission"
+  ],
+  "answer": 3,
+  "explanation": "89th Amdt (2003): Art 338 (NCSC) + Art 338A (NCST) — the bifurcation of the earlier combined commission. The 102nd (2018) constitutionalised the NCBC (Art 338B).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The National Human Rights Commission is:",
+  "options": [
+   "A statutory body under the Protection of Human Rights Act 1993",
+   "A parliamentary committee",
+   "A constitutional body under Art 338",
+   "An executive body"
+  ],
+  "answer": 0,
+  "explanation": "NHRC = statutory (PHRA 1993) — the classic classification trap. Chair: a retired CJI; 2023 amendment expanded composition.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The first Comptroller and Auditor General of independent India was:",
+  "options": [
+   "V. Narahari Rao",
+   "A.K. Chanda",
+   "B.P.R. Vithal",
+   "T.N. Chaturvedi"
+  ],
+  "answer": 0,
+  "explanation": "V. Narahari Rao (1950) — the first CAG of independent India; the office traces to the 1858 Auditor-General (colonial predecessor); current duties under the CAG (DPC) Act 1971.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The expenses of the Election Commission are charged on:",
+  "options": [
+   "Vote-on-account",
+   "The Consolidated Fund of India",
+   "The Contingency Fund",
+   "The public account"
+  ],
+  "answer": 1,
+  "explanation": "EC/UPSC/SPSC/CAG/FC expenses are charged on the Consolidated Fund — non-votable (Art 322 for PSCs; CAG's salary under 148(6)) — the independence-insulation trio.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Advocate General of a state (Art 165):",
+  "options": [
+   "Is appointed by the President",
+   "Is elected by the assembly",
+   "Is appointed by the Governor; advises the state government; participates in the legislature without voting",
+   "Has voting rights in the council"
+  ],
+  "answer": 2,
+  "explanation": "Art 165: the Governor appoints the Advocate General (qualified as an HC judge); the state's chief legal adviser; assembly-audience without vote — the state mirror of the Union AG.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The UPSC is NOT consulted on:",
+  "options": [
+   "Reservation policy and cadre rules' reservation aspects",
+   "Promotions",
+   "Disciplinary matters",
+   "Recruitment methods for civil services"
+  ],
+  "answer": 0,
+  "explanation": "UPSC advice excludes reservations (policy) — recruitment/promotion/discipline are consulted matters; the reservation-exclusion is the standard trap.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which is NOT a constitutional body?",
+  "options": [
+   "National Human Rights Commission",
+   "Finance Commission",
+   "Election Commission",
+   "National Commission for Scheduled Castes"
+  ],
+  "answer": 0,
+  "explanation": "NHRC = statutory (1993 Act); FC (280), NCSC (338), EC (324) are constitutional — the classification drill's cleanest form.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Anoop Baranwal case (2023) concerned:",
+  "options": [
+   "Election Commissioners' appointments — SC prescribed PM + LoP + CJI until Parliament legislates",
+   "CAG's audit powers",
+   "Anti-defection law",
+   "EVM-VVPAT counting"
+  ],
+  "answer": 0,
+  "explanation": "Anoop Baranwal (March 2023): SC's interim committee (PM + LoP + CJI) for EC appointments; Parliament's 2023 Act then replaced the CJI with a Cabinet Minister — the appointment saga's sequence.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The National Commission for Backward Classes got constitutional status through:",
+  "options": [
+   "89th Amendment (2003)",
+   "101st Amendment (2016)",
+   "102nd Amendment (2018)",
+   "106th Amendment (2023)"
+  ],
+  "answer": 2,
+  "explanation": "102nd Amdt (2018): Art 338B — NCBC constitutionalised; also inserted 342A (state OBC lists — the Maratha litigation context).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match: (1) EC — (2) CAG — (3) UPSC — (4) FC. Articles: (a) 315-323 (b) 324 (c) 148-151 (d) 280:",
+  "options": [
+   "1-d, 2-c, 3-a, 4-b",
+   "1-b, 2-a, 3-c, 4-d",
+   "1-b, 2-c, 3-a, 4-d",
+   "1-a, 2-c, 3-b, 4-d"
+  ],
+  "answer": 2,
+  "explanation": "EC = 324; CAG = 148-151; UPSC = 315-323; FC = 280 — the master anchor set every BPSC paper samples from.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The CAG is NOT eligible for further office under:",
+  "options": [
+   "Any private employment",
+   "Judicial appointments",
+   "The Government of India or any state (post-retirement)",
+   "University posts"
+  ],
+  "answer": 2,
+  "explanation": "Art 148(4): the CAG is ineligible for further office under GoI or a state after ceasing to hold office — the insulation clause (mirrors UPSC members' bar under Art 319).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Finance Commission's recommendations cover:",
+  "options": [
+   "RBI's monetary policy",
+   "Tax devolution between the Union and states; grants-in-aid; augmenting local-body funds",
+   "PSUs' disinvestment",
+   "Deficit financing only"
+  ],
+  "answer": 1,
+  "explanation": "Art 280(3): vertical/horizontal devolution, grants-in-aid (275), local-body grants (280(3)(bb) — panchayat/municipality funds), plus supplementary measures — Bihar's ~10% share flows from this machinery.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Bihar's share of the divisible pool (15th FC) makes it:",
+  "options": [
+   "The smallest recipient",
+   "The largest recipient state share among all states",
+   "Not a recipient",
+   "A middle recipient"
+  ],
+  "answer": 1,
+  "explanation": "Bihar's ~10.06% is the highest single-state share after UP's ~18% — driven by the income-distance criterion (poorest states gain most) — the 'top recipient' framing is the exam-safe version.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The EC's Model Code of Conduct is:",
+  "options": [
+   "A constitutional mandate under Art 324",
+   "A statutory code under the RP Act 1951",
+   "A set of conventions evolved (1960s-79) with the EC's enforcement power — not statute",
+   "A Supreme Court invention"
+  ],
+  "answer": 2,
+  "explanation": "MCC = conventions (first used in Kerala 1960; nationally adopted from 1979) enforced via Art 324's plenary powers — not statute; violations invite EC action (campaign freezes etc.).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which body audits all bodies substantially financed by the Consolidated Fund?",
+  "options": [
+   "The PAC",
+   "NITI Aayog",
+   "The Finance Commission",
+   "The CAG"
+  ],
+  "answer": 3,
+  "explanation": "Art 149-150: the CAG audits the Union, states, and any body/authority substantially financed from the CF — the audit universe; the PAC merely examines the CAG's reports.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ }
+]

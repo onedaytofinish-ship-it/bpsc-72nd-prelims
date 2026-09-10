@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>45 - Federalism &amp; Centre-State Relations | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size:10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #45 • TIER A</div>
+  <div class="topic-title">Federalism &amp; Centre-State Relations — Lists, Governor, Finance, ISC</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Indian Polity</span>
+       <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2 Qs</span>
+    <span class="meta-tag">📅 Exam: 26 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Concurrent List subjects (71st, Q59):</strong> BPSC gave a subject set and asked which belongs to the Concurrent List — recall: <strong>education, forests, marriage, criminal law, trade unions, electricity</strong> are Concurrent; police, public order, health, agriculture = State; defence, foreign affairs, banking, currency, railways = Union. Also 71st Q62 (schedules matching — allocation of seats in councils of state = <strong>4th Schedule</strong>; forms of oath = 3rd) and 70th Q76-77 (Nagaland-type Schedule questions — 5th/6th Schedule distribution).
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC Pattern</span>
+    <strong>Union-with-an-unitary-tilt:</strong> BPSC repeatedly frames India as "<strong>quasi-federal</strong>" (KC Wheare) / "federal in form, unitary in spirit" (Jennings) / "cooperative federalism" (modern SC idiom). Key anchors: Art 1 "Union of States" (not federation), 7th Schedule's three lists, Art 249/312 RS resolutions, Governor's dual role, Art 356, Finance Commission (Art 280), GST Council (101st Amdt), NITI Aayog's cooperative-competitive blend.
+  </div>
+
+  <h3>Why India is called quasi-federal — the evidence table</h3>
+  <table>
+    <tr><th>Feature</th><th>Unitary tilt</th><th>Federal element</th></tr>
+    <tr><td>Nomenclature</td><td>Art 1: "Union of States" — indestructible union (Ambedkar)</td><td>States' territorial integrity (Art 3 needs state's views, not consent)</td></tr>
+    <tr><td>Constitution</td><td>Single Constitution; single citizenship</td><td>Dual polity; states have their own governments</td></tr>
+    <tr><td>Lists (7th Schedule)</td><td>Union List 100 (originally 97); residuary = Union</td><td>State List 61; Concurrent 52</td></tr>
+    <tr><td>Emergency (Art 352/356/360)</td><td>Unitary conversion; President's rule</td><td>Parliamentary approval + periodic review</td></tr>
+    <tr><td>Governor</td><td>Centre's appointee (Arts 155-156); reserve bills (200, 201)</td><td>State's constitutional head; acts on CM's advice</td></tr>
+    <tr><td>Amendment</td><td>Union-dominated initiation (Art 368 bills in Parliament only)</td><td>Half the states ratify federal provisions</td></tr>
+    <tr><td>Judiciary</td><td>Integrated single hierarchy</td><td>Independent; federal disputes via Art 131</td></tr>
+    <tr><td>Finance</td><td>Art 268-281: Centre-collected + shared taxes; Cesses stay with the Union</td><td>FC devolution (41% to states currently), Art 275 grants</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — Concurrent List core:</strong> <strong>"E-F-M-C-T-E-A-V"</strong>: Education, Forests, Marriage &amp; divorce, Criminal law, Trade unions, Electricity, Animals (prevent cruelty), Vansh (population control/family planning). Union: "D-F-B-C-R-A" Defence, Foreign affairs, Banking, Currency, Railways, Airways. State: "P-P-H-A-P" Police, Public order, Health, Agriculture, Prisons.
+  </div>
+
+  <h3>Seven Constitutional Amendments that changed federalism</h3>
+  <ul>
+    <li><strong>1st (1951):</strong> added 9th Schedule — state land-reform laws' protection (Bihar's zamindari-abolition laws were the trigger!) — I.R. Coelho (2007) later opened pre-1973 laws to review.</li>
+    <li><strong>7th (1956):</strong> States Reorganisation — linguistic states; the federation's first big reshaping.</li>
+    <li><strong>42nd (1976):</strong> education/forests moved State→Concurrent; 5 subjects to Union (a centralising jolt).</li>
+    <li><strong>73rd/74th (1992):</strong> third tier — constitutional status for panchayats/municipalities (11th/12th Schedules).</li>
+    <li><strong>101st (2016):</strong> GST — "one nation one tax"; GST Council (Art 279A): Union 1/3 vote weight, states 2/3, decisions by 3/4 — a new federal chamber.</li>
+    <li><strong>FRBM-era compacts + 15th FC:</strong> vertical share 41% (2021-26), horizontal devolution criteria — demographic performance, income distance, area, forest — fiscal-federalism's modern maths.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/ashoka_lion_capital.jpg" alt="State Emblem - Ashoka Lion Capital">
+    <div class="img-caption">State Emblem (Ashoka Lion Capital) — the Union's seal; India's "Union of States" (Art 1) carries an indestructible-union DNA with federal features.</div>
+  </div>
+
+  <h3>Inter-governmental machinery — the relations toolkit</h3>
+  <table>
+    <tr><th>Mechanism</th><th>Article/Basis</th><th>Notes</th></tr>
+    <tr><td><strong>Inter-State Council (ISC)</strong></td><td>Art 263; Sarkaria recommendation; est. 1990</td><td>President establishes; PM chairs; CMs of all states + 6 Union cabinet ministers; investigates inter-state disputes — meets rarely (10 meetings till 2023)</td></tr>
+    <tr><td><strong>Zonal Councils</strong></td><td>States Reorganisation Act 1956 (statutory, not constitutional)</td><td>5 councils (N/E/C/W/S) + North-Eastern Council 1971; Union Home Minister chairs</td></tr>
+    <tr><td><strong>Public Acts on interstate trade</strong></td><td>Arts 301-307</td><td>Free trade commerce; Art 304 restrictions</td></tr>
+    <tr><td><strong>Inter-state water disputes</strong></td><td>Art 262</td><td>Parliament's law overrides SC (Inter-State Water Disputes Act 1956); tribunals: Krishna, Cauvery, Mahadayi — a permanent tribunal proposed 2019</td></tr>
+    <tr><td><strong>Full Faith &amp; Credit</strong></td><td>Art 261</td><td>Public acts/records recognised nationwide</td></tr>
+    <tr><td><strong>Extra-constitutional:</strong> NITI Aayog, GST Council, PM's conferences</td><td>Executive/corporate</td><td>Cooperative-competitive federalism vocabulary</td></tr>
+  </table>
+
+  <h3>The Governor — the federal flashpoint</h3>
+  <ul>
+    <li><strong>Appointment (Art 155):</strong> by the President (Centre's nominee); tenure 5 years, <strong>serves at President's pleasure</strong> (Art 156) — no impeachment.</li>
+    <li><strong>Discretion (Art 163):</strong> reservation of bills (Arts 200-201), CM appointment in hung houses, dismissal on lost majority, President's rule report (Art 356) — <strong>B.P. Singhal v. Union of India (2010)</strong>: Governor's removal not reviewable per se, but arbitrariness is.</li>
+    <li><strong>Bihar milestone:</strong> <strong>Rameshwar Prasad (2006)</strong> — the SC struck down the 2005 Bihar Assembly dissolution (Governor Buta Singh's recommendation) — the locus classicus on Governor's misuse; <strong>S.R. Bommai (1994)</strong> — 356's judicial review + floor-test rule.</li>
+    <li><strong>Reported reforms:</strong> Sarkaria (appointed by non-partisan process, eminent person; remove by impeachment-like process) → Punchhi (fixed tenure) — the "convention" debates.</li>
+  </ul>
+
+  <h3>Devolution flow — how money reaches Patna</h3>
+  <div class="flowchart">
+    <div class="flow-node">Taxes collected (Centre: income tax, corporation tax, CGST share…)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Finance Commission (Art 280) → vertical devolution 41% (15th FC, 2021-26)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Horizontal formula (income distance, demographic performance, area, forest ecology) + local-body grants</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Bihar's share: ~10% of the divisible pool (a top recipient) + Art 275 grants-in-aid + CSS (centrally sponsored schemes 60:40)</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">⚡</span> Fact Matrix — Quick Revision</div>
+  <table>
+    <tr><th>Fact</th><th>Answer</th><th>Trap</th></tr>
+    <tr><td>Lists' original counts</td><td>Union 97, State 66, Concurrent 47 (now 100/61/52)</td><td>Education &amp; forests moved by 42nd (1976)</td></tr>
+    <tr><td>Residuary powers</td><td>Union (Art 248; Entry 97)</td><td>US-style residuary-to-states ≠ India</td></tr>
+    <tr><td>India's federation description</td><td>Quasi-federal (Wheare); "holding together" (unlike USA's "coming together")</td><td>Art 1 says "Union", never "Federation"</td></tr>
+    <tr><td>Governor's appointment/removal</td><td>President; pleasure (no impeachment)</td><td>B.P. Singhal: arbitrary removal reviewable</td></tr>
+    <tr><td>Bill reservation</td><td>Art 200 (Governor) / 201 (President)</td><td>One-time return; second presentation → President must act (with or without assent, or reserve)</td></tr>
+    <tr><td>Art 356 impositions</td><td>130+ times; Bihar 8+</td><td>Bommai (1994) — floor test; judicial review; not a political question</td></tr>
+    <tr><td>Rameshwar Prasad (2006)</td><td>Bihar Assembly dissolution struck down</td><td>Governor's mala fide report actionable</td></tr>
+    <tr><td>Finance Commission</td><td>Art 280; 15th FC chair N.K. Singh; 41% devolution</td><td>16th FC (chair Arvind Panagariya, from 2025) — next award 2026-31</td></tr>
+    <tr><td>GST Council (Art 279A)</td><td>Union 1/3 weight, states 2/3; 3/4 decision</td><td>SC (2022): recommendations are collaborative, not binding per se (M/s Mohit Minerals)</td></tr>
+    <tr><td>Inter-State Council</td><td>Art 263; est. 1990 (Sarkaria); PM chairs</td><td>Statutory Zonal Councils ≠ constitutional ISC</td></tr>
+    <tr><td>Water disputes</td><td>Art 262 — Parliament's law overrides courts</td><td>Inter-State River Water Disputes Amendment 2019: single permanent tribunal (DACP)</td></tr>
+    <tr><td>Art 3 (states reorganisation)</td><td>Parliament's law; President's recommendation; state "views" not binding</td><td>India: destructible states, indestructible union</td></tr>
+  </table>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION 🔗                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bihar-box">
+  <div class="bihar-box-title">Bihar Connection 🔗</div>
+  <ul>
+    <li><strong>Bihar = 1912 first linguistic-province demand's success:</strong> the 1912 separation from Bengal pre-dated the linguistic-states era — Bihar was carved on linguistic-cultural grounds (Maithili-Bhojpuri-Magahi identity), making it the pioneer case BPSC loves for "states reorganisation before 1956".</li>
+    <li><strong>1st Amendment's Bihar trigger:</strong> the <strong>9th Schedule</strong> was created to shield <strong>Bihar Land Reforms</strong> and other zamindari-abolition acts (1950-51) — the state's legislation changed Indian federalism's constitutional design.</li>
+    <li><strong>Rameshwar Prasad (2006):</strong> Bihar Assembly dissolution case — the SC's strongest check on Governors' abuse (Buta Singh episode).</li>
+    <li><strong>Fiscal federalism's biggest gainer:</strong> Bihar gets ~<strong>10% of the divisible pool</strong> (the largest single-state share); its "special state" demand + the 15th FC's demographic-performance criterion debate (Bihar's young population) are live exam hooks.</li>
+    <li><strong>Special-category status demand:</strong> post-2000 bifurcation (Jharkhand took mineral revenue), Bihar's special-category campaign — NITI-era "special package" (₹1.25 lakh crore 2015, more in 2023-25) — cooperative-federalism case study.</li>
+       <li><strong>Inter-state migration:</strong> Bihar's migrant workers (Delhi, Maharashtra, Punjab...) — Art 301-307 free-trade + cooperative-policing questions.</li>
+    <li><strong>NITI Aayog & Bihar:</strong> aspirational-district programme's Bihar cohort; SDG India Index's Bihar climb (2023-24) — competitive federalism metrics.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/bihar_in_india.png" alt="Bihar's location in India's federal map">
+    <div class="img-caption">Bihar in the Union — one of 28 states in the "indestructible union of destructible states" (Art 1-3); the state receives ~10% of the divisible pool, the fiscal heart of India's cooperative federalism.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC CONNECTIONS                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cross-link">
+  <strong>Cross-Topic Connections:</strong> Parliament's Art 249/312 → <strong>43</strong>; Judiciary's federal disputes (Art 131, 262) → <strong>44</strong>; Emergency Art 356 → <strong>46</strong>; Finance Commission/CAG → <strong>47</strong>; Local bodies (11th/12th Schedules) → <strong>48</strong>; Schedules master table → <strong>38</strong>; Bihar's own polity (Bihar's 243-member Vidhan Sabha) → <strong>143</strong>; Bihar economy's devolution maths → <strong>85</strong>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE 2024–26                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🆕</span> Current Relevance 2024–26</div>
+  <ul>
+    <li><strong>16th Finance Commission (from 2025):</strong> chair <strong>Arvind Panagariya</strong> — award for 2026-31; devolution-share debates (41% ↑ or ↓?) land exactly in the exam window.</li>
+    <li><strong>GST 2.0 reforms (2024-25):</strong> rate rationalisation (two-slab move), GST Appellate Tribunal activation, 2.0 Council's September 2025 restructuring — Art 279A in the news.</li>
+    <li><strong>Art 370 verdict (Dec 2023):</strong> J&amp;K's statehood-restoration commitments; Ladakh's Sixth-Schedule demand — live federal-design questions.</li>
+    <li><strong>One-Nation-One-Election:</strong> high-level committee (Kovind) report (2024) — simultaneous elections as a federal restructuring proposal (amendment + ratification maths).</li>
+    <li><strong>Governor-vs-government tussles 2024-25:</strong> TN/Punjab/Kerala bill-pendency spats; SC's November 2024 judicial-order timelines ("deemed assent" debate); Kerala's Art 131 suit against the Centre on borrowing limits (filed 2023-24) — the newest Centre-state litigation line.</li>
+    <li><strong>Bihar angle:</strong> special-category-status campaign revived post-2024 (Nitish's coalition leverage); caste-survey's policy federalism; flood-relief Centre-state cost-sharing debates.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">72nd BPSC Top 5 Predictions</span>
+  <strong>Most probable questions:</strong> (1) Concurrent-list subjects (71st Q59 style). (2) Governor — appointment/pleasure/reservation (Arts 155-156, 200-201). (3) Finance Commission — Art 280, 41%. (4) GST Council Art 279A weights. (5) Rameshwar Prasad 2006 — Bihar's dissolution case.
+</div>
+
+<div class="subpage-box">
+  📖 <strong>Deep dive:</strong> For the full three-lists drill (100+ subjects categorised), 12-Schedules map, Sarkaria-Punchhi recommendations, ISC/Zonal Councils, and 7 exam predictions — see <a href="subpages/45_federalism_detail.html">Topic 45 Deep Dive</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. [71st BPSC-style] Which of the following subjects is in the Concurrent List?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Foreign affairs</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Public order</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Police</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Education</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — Education moved State→Concurrent by the <strong>42nd Amendment (1976)</strong> (with forests, weights &amp; measures, wildlife protection, administration of justice). Police/public order = State; foreign affairs = Union.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. India is described as 'quasi-federal' primarily because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) It is a confederation</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) It has no state governments</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) States can secede</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) The Constitution tilts toward a strong Centre in emergencies, appointments and amendment processes while retaining dual polity</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (D)</strong> — Wheare's "quasi-federal": dual polity + single Constitution/citizenship, indestructible union of destructible states, Emergency's unitary conversion, Governor as Centre's agent, Union-dominated amendment. Not a confederation — states can't secede.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The Governor of a state is appointed by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) The Chief Justice of India</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) A collegium of CMs</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) The President (Centre's discretion)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) The President on the advice of the state CM</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — Art 155: the President appoints Governors (in practice the Union Cabinet's choice); tenure 5 years at the President's pleasure (Art 156) — the federal flashpoint Sarkaria/Punchhi sought to soften.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. In the case where the SC struck down the dissolution of the Bihar Legislative Assembly (2005) on the Governor's mala fide recommendation, the case is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Kihoto Hollohan v. Zachillai</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) State of Bihar v. Union of India</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Rameshwar Prasad v. Union of India</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) S.R. Bommai v. Union of India</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — <strong>Rameshwar Prasad (2006)</strong>: the Governor's report recommending Bihar's Assembly dissolution was mala fide — dissolved <em>sine die</em> unconstitutional; floor-test principle reiterated (Bommai's child). Bihar's gift to federal jurisprudence.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Allocation of seats in the Rajya Sabha to states is provided in the:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) 2nd Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) 4th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) 5th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) 3rd Schedule</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — 4th Schedule = RS seat allocation (Bihar 16) — 71st BPSC Q62 tested this matching. 2nd = salaries/emoluments; 3rd = forms of oath; 5th = scheduled areas.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The Finance Commission is constituted under:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Article 275, at Parliament's will</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Article 280, every 5 years</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Article 268, every year</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Article 281, every 10 years</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — Art 280: FC every 5 years (or earlier); 15th FC (N.K. Singh) awarded <strong>41%</strong> devolution (2021-26); 16th FC (Arvind Panagariya) from 2025 for 2026-31. Art 281 merely says the President lays FC recommendations before Parliament.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. In the GST Council, the voting weightage of the Centre and states is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Centre 1/2, states 1/2; simple majority</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Equal voice for all members without voting</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Centre 2/3, states 1/3</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Centre 1/3, states 2/3; decisions by 3/4 of weighted votes</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (D)</strong> — Art 279A: Union <strong>1/3</strong> of total votes, states collectively <strong>2/3</strong>; decisions need <strong>3/4</strong> weighted votes — the states hold aggregate veto power. SC (Mohit Minerals, 2022): recommendations aren't binding legislation per se.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Residuary powers in India are vested in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) The Union (Art 248 + Entry 97 Union List)</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) States</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Both jointly</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) The Supreme Court</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — Art 248 + Union List Entry 97: <strong>Union</strong> holds residuary powers (unlike USA/Australia where states do). Cyber law's early days exemplified Union reach via Entry 97.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Inter-State Council was established in 1990 on the recommendation of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Rajamannar Committee</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Administrative Reforms Commission</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Punchhi Commission</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Sarkaria Commission</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (D)</strong> — <strong>Sarkaria Commission</strong> (1988 report) → ISC via Art 263 (Presidential Order 1990). Punchhi (2010) refined Centre-state relations; Rajamannar (1969, Tamil Nadu) wanted ISC-like bodies earlier.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Under Art 3, a bill reorganising a state requires:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) A constitutional amendment under Art 368</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) A referendum in the state</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Only the President's recommendation and Parliament's simple-majority law; the state's views are not binding</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) The state's consent</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — Art 3: Parliament's law (simple majority) on the President's recommendation; the affected state legislature's <strong>views are not binding</strong> — "indestructible union of destructible states" (contrast the USA's indestructible states).</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The 9th Schedule was added by the 1st Amendment (1951) largely to protect:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Land-reform legislation — including Bihar's zamindari-abolition acts</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Fundamental rights</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Anti-defection law</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Languages</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — <strong>Bihar Land Reforms</strong> litigation triggered the 1st Amendment's 9th Schedule (land-reform immunity). I.R. Coelho (2007): post-1973 9th-Schedule laws are judicially reviewable against basic structure.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Which pair is correctly matched? (Allocation of seats in the councils of states; forms of oath; anti-defection; languages)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) RS seats — 4th; oath — 2nd; anti-defection — 8th; languages — 10th</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) RS seats — 5th; oath — 4th; anti-defection — 12th; languages — 8th</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) RS seats — 2nd Schedule; oath — 3rd</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) RS seats — 4th Schedule; oath — 3rd; anti-defection — 10th; languages — 8th</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — 71st Q62 tested exactly this: <strong>RS allocation = 4th, oath = 3rd, anti-defection = 10th, languages = 8th</strong>. (2nd = salaries; 5th/6th = scheduled areas/tribes.)</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Inter-state river water disputes are resolved by tribunals under:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Article 262 — Parliament's law (Inter-State Water Disputes Act 1956); tribunal awards exclude SC jurisdiction</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Article 131 (SC original jurisdiction) exclusively</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) The Supreme Court's writ jurisdiction</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) The Inter-State Council</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Art 262: Parliament may exclude SC/other jurisdiction over inter-state water disputes — the 1956 Act's tribunals (Cauvery, Krishna, Mahadayi); the 2019 amendment creates a single permanent tribunal. Bihar angle: Kosi/Gandak pacts with Nepal are international, not inter-state.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Sarkaria Commission's key recommendation on Governors was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Abolition of the post</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) Appointment of an eminent person (not active politician), removal only by impeachment-like process, and non-arbitrariness</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Direct election by voters</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) Election by the state legislature</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — Sarkaria (1988): eminent non-partisan persons, active politicians avoided, fixed tenure conventions, removal via due process. Punchhi added security of tenure recommendations. Neither implemented in practice.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. 'Cooperative federalism' as a judicial idiom was most famously invoked in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Golak Nath</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) S.R. Bommai v. Union of India</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) State of West Bengal v. Union of India</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Kesavananda Bharati</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — <strong>Bommai (1994)</strong>: federalism = basic structure; Art 356 judicially reviewable; floor tests mandatory; "cooperative federalism" as the governing spirit — the case that tamed President's rule.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Which Schedule distributes powers over 'Forests'?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Union List always</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Residuary category</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) State List only till 1976; now Concurrent</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Concurrent List originally</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (C)</strong> — Forests: State List → <strong>Concurrent (42nd Amdt 1976)</strong> (with education, weights &amp; measures, wildlife, justice administration, population control).</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The 15th Finance Commission's vertical devolution to states was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 41%</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 45%</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 42%</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 32%</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — 15th FC (N.K. Singh): <strong>41%</strong> vertical devolution (from 42% after J&amp;K's reorganisation). Horizontal criteria: income distance 45%, population 15%, area 15%, demographic performance 12.5%, forest ecology 10% — Bihar ranks first on income distance, making it a top gainer.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Zonal Councils were created by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) The States Reorganisation Act 1956 (statutory)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) The Constitution (Art 263)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) The GST Council's resolution</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) A presidential order under Art 356</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Zonal Councils = <strong>statutory</strong> (States Reorganisation Act 1956): 5 zones; chaired by the Union Home Minister; Bihar sits in the <strong>Eastern Zone</strong> (with WB, Odisha, Jharkhand + Sikkim's 2017 addition). ISC (Art 263) is constitutional — the classic distinction.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Under Article 200, when a state bill is presented to the Governor, he may:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Only assent</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Return it to the state legislature repeatedly</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Assent, withhold, or reserve for the President</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Amend the bill</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — Art 200: the Governor may assent, withhold, or reserve for the President (and may return a non-Money bill once for reconsideration). Under Art 201, the President may assent, withhold, or direct return. The 2024-25 SC timelines on "deemed assent" for pending bills stem from here.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Kerala's suit against the Centre over state borrowing limits (2023) was filed under:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Article 32</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Article 131 (SC original jurisdiction)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Article 356</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Article 226</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — Kerala's fiscal-autonomy suit (borrowing-limit restrictions; net-borrowing ceiling) invoked <strong>Art 131</strong> — the modern Centre-state litigation frontier; SC entertained the dispute — cooperative federalism's stress-test in 2024-25 news.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The phrase 'Union of States' in Article 1 conveys:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) A dominion status arrangement</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) A confederation of sovereign units</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) An indestructible union of destructible states — the federation is not the result of an agreement; states cannot secede</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) A unitary state without states</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (C)</strong> — Ambedkar: "Union" chosen over "Federation" — no agreement, no secession; Art 3 makes states destructible while the Union endures. BPSC's most repeated polity-one-liner.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Which state's Legislative Assembly dissolution case is the landmark on Governors' mala fide reports?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Bihar (2005)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Madhya Pradesh (2020)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Karnataka (1989)</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Uttar Pradesh (1998)</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — <strong>Bihar 2005</strong> (Rameshwar Prasad): Governor Buta Singh's report mala fide → dissolution unconstitutional. Karnataka 1989 fed Bommai; UP/MP cases are later applications.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The 42nd Amendment (1976) transferred which subjects from the State to the Concurrent List?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Health and agriculture</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Police and public order</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Banking and currency</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Education and forests</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (D)</strong> — 42nd Amdt: <strong>education, forests</strong>, weights &amp; measures, protection of wild animals/birds, administration of justice, population control &amp; family planning → Concurrent. Five subjects also moved to Union List.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Bihar's share in the central divisible pool under the 15th Finance Commission is approximately:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) 4%</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) 10%</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) 16%</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) 2%</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (B)</strong> — Bihar receives <strong>~10%</strong> (10.06%) of the devolution — the largest per the horizontal formula (highest income distance). UP ~18% leads in absolute terms; Bihar's ~10% is second-tier — the "fiscal federalism favours Bihar" line.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. The Punchhi Commission (2010) on Centre-state relations recommended:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Fixed tenure for Governors; Art 356 only after a floor test — a deep federal toolkit</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) Abolition of the Rajya Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) State autonomy in foreign affairs</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) Unitary conversion of the Constitution</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — Punchhi (2010): Governor's fixed tenure; Art 356 as a last resort after floor test; commonwealth of inter-state commerce reforms; ISC activation — the Sarkaria-plus package.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Federalism_in_India" target="_blank">Federalism in India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Quasi-federal debate, lists</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Governor_(India)" target="_blank">Governor of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Arts 153-167, Sarkaria/Punchhi</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Finance_Commission_of_India" target="_blank">Finance Commission — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Art 280, 15th/16th FC</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/GST_Council" target="_blank">GST Council — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Art 279A voting weights</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Inter-State_Council" target="_blank">Inter-State Council — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Art 263, Sarkaria origin</span></li>
+    <li><a href="https://www.niti.gov.in" target="_blank">NITI Aayog — official</a> <span style="color:#64748b;font-size:12px;">Cooperative &amp; competitive federalism</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 45 — Federalism &amp; Centre-State Relations • Generated 2026-09-10 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'd', q3: 'c', q4: 'c', q5: 'b',
+  q6: 'b', q7: 'd', q8: 'a', q9: 'd', q10: 'c',
+  q11: 'a', q12: 'd', q13: 'a', q14: 'b', q15: 'b',
+  q16: 'c', q17: 'a', q18: 'a', q19: 'c', q20: 'b',
+  q21: 'c', q22: 'a', q23: 'd', q24: 'b', q25: 'a',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

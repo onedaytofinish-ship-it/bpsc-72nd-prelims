@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>47 - Constitutional Bodies | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #47 • TIER A</div>
+  <div class="topic-title">Constitutional Bodies — EC, UPSC, CAG, FC, Commissions</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Indian Polity</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2 Qs</span>
+    <span class="meta-tag">📅 Exam: 26 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC Pattern</span>
+    <strong>Article-anchoring is everything:</strong> BPSC tests the EXACT article of each body: Election Commission <strong>(Art 324)</strong>, UPSC <strong>(Art 315-323)</strong>, Finance Commission <strong>(Art 280)</strong>, CAG <strong>(Art 148-151)</strong>, Attorney General <strong>(76)</strong>, Advocate General <strong>(165)</strong>, SPSC (Joint) — plus the 89th Amendment's <strong>NCSC/NCST split (2003)</strong> and the <strong>NHRC (statutory, PHRA 1993)</strong> distinction. "Constitutional vs statutory vs executive" classification is the evergreen trap.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>AG's rights (71st, Q57):</strong> the Attorney General has the <strong>right to speak/participate in Parliament (and committees) without voting</strong>, and audience in all courts — tested in the 71st. BPSC pairs this with the <strong>CAG's</strong> audit duties (Arts 149-150) and the <strong>EC's</strong> election conduct (Art 324's plenary power).
+  </div>
+
+  <h3>The master table — constitutional bodies at a glance</h3>
+  <table>
+    <tr><th>Body</th><th>Article</th><th>Composition/Head</th><th>Removal</th><th>Key powers</th></tr>
+    <tr><td><strong>Election Commission (EC)</strong></td><td>324</td><td>CEC + ECs (President fixes number)</td><td>CEC: like an SC judge; ECs: on the CEC's recommendation</td><td>Superintendence, direction, control of all elections (President/VP/Parliament/state legislatures)</td></tr>
+    <tr><td><strong>UPSC</strong></td><td>315-323</td><td>Chair + members (President appoints)</td><td>President (only on SC-judge-like grounds)</td><td>All-India + central services recruitment; advisory to the President</td></tr>
+    <tr><td><strong>Finance Commission (FC)</strong></td><td>280</td><td>Chair + 4 members (President appoints)</td><td>— (5-year term)</td><td>Tax devolution; grants-in-aid (275); the 15th/16th FC awards</td></tr>
+    <tr><td><strong>CAG</strong></td><td>148-151</td><td>Single officer (President appoints)</td><td>Like an SC judge (special-majority address)</td><td>Audit of accounts; Art 150 forms; reports to President/ Governor → legislature</td></tr>
+    <tr><td><strong>Attorney General (AG)</strong></td><td>76</td><td>Single officer (President appoints; qualified as SC judge)</td><td>President's pleasure</td><td>Government's chief legal adviser; Parliament audience; no vote</td></tr>
+    <tr><td><strong>NCSC (SC Commission)</strong></td><td>338</td><td>Chair + VC + members</td><td>President</td><td>SC safeguards; 89th Amdt split it from ST (2003)</td></tr>
+    <tr><td><strong>NCST</strong></td><td>338A</td><td>Chair + VC + members</td><td>President</td><td>ST safeguards; 89th Amdt (2003) creation</td></tr>
+    <tr><td><strong>NCBC</strong></td><td>338B</td><td>Chair + members</td><td>President</td><td>102nd Amdt (2018) constitutionalised the BC commission</td></tr>
+    <tr><td><strong>NHRC</strong></td><td>— (PHRA 1993, statutory)</td><td>Chair (ex-CJ) + members</td><td>President on address</td><td>Human-rights violations inquiry; 2023 amendment</td></tr>
+    <tr><td><strong>SPSC (State PSC)</strong></td><td>315-318</td><td>Chair + members (Governor appoints; only President removes)</td><td>President (not the Governor!)</td><td>State services recruitment; BPSC's constitutional basis</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — the article anchors:</strong> "<strong>E-C-F-C-A-S</strong>": <strong>E</strong>lection Commission 324, <strong>C</strong>AG 148, <strong>F</strong>C 280, <strong>C</strong>ommissions (338-series), <strong>A</strong>G 76, <strong>S</strong>PSC 315. Bihar's BPSC = Art 315's state commission — the exam-giver tests itself.
+  </div>
+
+  <h3>Election Commission — the deepest-dive body (Art 324)</h3>
+  <ul>
+    <li><strong>Composition evolution:</strong> single member (1950-93) → multi-member (1993 ordinance → 1996 Act confirmation); CEC + 2 ECs currently (3 total for national + state elections).</li>
+    <li><strong>TN Seshan effect:</strong> the EC's plenary powers (Art 324) read expansively — Model Code of Conduct enforcement, voter IDs, Election Symbols orders.</li>
+    <li><strong>Anoop Baranwal (2023):</strong> SC's interim verdict: appointments via a committee (PM + LoP + CJI) until Parliament legislates — then the <strong>2023 CEC Act</strong> replaced the CJI with a Union Cabinet Minister (PM + LoP + Minister) — the new exam point.</li>
+    <li><strong>Removal asymmetry:</strong> CEC removable only like an SC judge (special majority); other ECs removable on the CEC's recommendation — Art 324(5)'s deliberate asymmetry.</li>
+    <li><strong>Election crossovers:</strong> Art 324 covers President/VP/Parliament/state; RP Act 1950-51 govern mechanics; disqualification via RP Act § 8 etc. (Topic 49 links).</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/ambedkar_portrait.jpg" alt="Dr. B.R. Ambedkar — architect of constitutional bodies">
+    <div class="img-caption">Dr. B.R. Ambedkar — the Drafting Committee's architects designed the constitutional bodies as "independent islands": EC (324), UPSC (315), CAG (148), FC (280) — insulated from executive pressure.</div>
+  </div>
+
+  <h3>UPSC &amp; State PSCs — recruitment machinery (Arts 315-323)</h3>
+  <ul>
+    <li><strong>Art 315:</strong> UPSC + SPSCs (Bihar's BPSC); joint commissions possible (e.g., JSPSC for Manipur-Tripura era).</li>
+    <li><strong>Appointment paradox:</strong> the <strong>Governor</strong> appoints SPSC members, but only the <strong>President</strong> can remove them — the insulation trick.</li>
+    <li><strong>Functions (Art 320):</strong> recruitment exams, promotions, disciplinary advice — but the government <em>may</em> reject advice (must explain to... under Art 320(3), the government returns reasons).</li>
+    <li><strong>Limitation:</strong> UPSC NOT consulted on reservations policy or cadre rules' reservation aspects — the "UPSC's advice isn't binding" trap.</li>
+    <li><strong>Expenses:</strong> charged on the Consolidated Fund (Art 322) — parliamentary vote not needed; annual report (Art 323).</li>
+  </ul>
+
+  <h3>CAG — the auditor of the nation (Arts 148-151)</h3>
+  <ul>
+    <li><strong>Art 149-150:</strong> audits the Union, states, PSUs' accounts; prescribes forms with the President's approval; audits all bodies financed from the CF.</li>
+    <li><strong>Art 151:</strong> reports to the President/Governor → laid before Parliament/legislature — the <strong>PAC's</strong> raw material (Topic 43's link).</li>
+    <li><strong>Independence:</strong> SC-judge-grade salary (charged on CF); removal only on the special-majority address; no office-holding after (ineligible for further government office).</li>
+    <li><strong>Legacy:</strong> first CAG of independent India — <strong>V. Narahari Rao (1950)</strong>; the office traces to the 1858 Auditor-General (colonial predecessor); the office's current duties are defined by the CAG (DPC) Act 1971.</li>
+  </ul>
+
+  <h3>Accountability flow — how the CAG reaches Parliament</h3>
+  <div class="flowchart">
+    <div class="flow-node">CAG audits (Arts 149-150) — Union + states + PSUs + CF-financed bodies</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Reports to President/Governor (Art 151)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Laid before Parliament/state legislature</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Public Accounts Committee examines → recommendations → government acts</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">⚡</span> Fact Matrix — Quick Revision</div>
+  <table>
+    <tr><th>Fact</th><th>Answer</th><th>Trap</th></tr>
+    <tr><td>EC's article</td><td>324; CEC + 2 ECs currently</td><td>CEC's removal like SC judge; ECs easier (CEC's recommendation)</td></tr>
+    <tr><td>CEC appointment (post-2023)</td><td>Committee: PM + LoP + Union Cabinet Minister (CJI dropped by the 2023 Act)</td><td>Anoop Baranwal's interim formula had the CJI</td></tr>
+    <tr><td>UPSC's article</td><td>315-323</td><td>Advice not binding; reservations excluded</td></tr>
+    <tr><td>SPSC removal</td><td>President only (Governor appoints but can't remove)</td><td>BPSC members' protection</td></tr>
+    <tr><td>CAG's articles</td><td>148-151</td><td>First CAG: V. Narahari Rao; not eligible for further office</td></tr>
+    <tr><td>FC's article</td><td>280; chair + 4; 5 years</td><td>16th FC chair: Arvind Panagariya</td></tr>
+    <tr><td>AG's rights</td><td>Parliament audience, no vote; all courts</td><td>Not a full-time constitutional member of Parliament</td></tr>
+    <tr><td>NCSC/NCST split</td><td>89th Amdt (2003)</td><td>Pre-2003: combined commission under Art 338</td></tr>
+    <tr><td>NCBC constitutionalised</td><td>102nd Amdt (2018)</td><td>Art 338B + 342A state OBC lists (Maratha/Jat reservation litigation context)</td></tr>
+    <tr><td>NHRC</td><td>Statutory (PHRA 1993)</td><td>NOT constitutional — the classic trap</td></tr>
+    <tr><td>Advocate General</td><td>Art 165; state's AG</td><td>Mirrors the Union AG; assembly audience, no vote</td></tr>
+    <tr><td>EC's expenses</td><td>Charged on CF (like UPSC's)</td><td>Art 324-322's insulation trio</td></tr>
+  </table>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION 🔗                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bihar-box">
+  <div class="bihar-box-title">Bihar Connection 🔗</div>
+  <ul>
+    <li><strong>BPSC = Art 315's child:</strong> the Bihar Public Service Commission — the exam-giver is itself a constitutional body; its members' appointment (Governor) vs removal (President) is BPSC's self-referential question bank.</li>
+    <li><strong>Bihar's EC milestones:</strong> 2005 Bihar Assembly elections (post-dissolution) tested the EC's credibility; 2020's three-phase Bihar polls (COVID-era); EVM-VVPAT's first statewide trials in Bihar (2010s) — election-commission practice stories from the state.</li>
+    <li><strong>Bihar's CAG reports:</strong> the Patna PAC's CAG-based hearings (flood-relief, teacher-recruitment audit findings 2019-24) keep the CAG→PAC chain locally alive.</li>
+    <li><strong>Bihar's Finance-Commission stakes:</strong> Bihar's ~10% devolution share (15th FC) + 16th FC's 2026-31 award in the exam window — fiscal-federalism's Bihar arithmetic (Topic 45).</li>
+    <li><strong>NCST/NCSC in Bihar:</strong> Bihar has no Scheduled Areas post-2000 (Jharkhand took them), but SC/ST commissions' Bihar visits (atrocities cases, the 2015 Bihar SC notification quashed by the Patna HC — 70th BPSC Q98) supply current-affairs hooks.</li>
+    <li><strong>Bihar's advocate lineage:</strong> Bihar's Advocates General (Art 165) — the Patna HC bar's constitutional officers.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/ashoka_lion_capital.jpg" alt="State Emblem — the institutions' seal">
+    <div class="img-caption">The State Emblem — the constitutional bodies (EC, CAG, UPSC, FC, commissions) exist to keep the republic's machinery accountable; BPSC itself is Art 315's state-level expression.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC CONNECTIONS                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cross-link">
+  <strong>Cross-Topic Connections:</strong> PAC-CAG chain → <strong>43</strong>; FC's devolution → <strong>45</strong>; CAG's audit + SC/HC (removal parallels) → <strong>44</strong>; President's appointment powers → <strong>42</strong>; elections (RP Acts, EVMs) → <strong>49</strong>; Bihar's PSC's own functioning → <strong>143</strong>; NHRC's rights framework → <strong>40</strong>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE 2024–26                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🆕</span> Current Relevance 2024–26</div>
+  <ul>
+    <li><strong>New CEC appointment law (2023):</strong> the Chief Election Commissioner and Other Election Commissioners (Appointment) Act — committee = PM + LoP (LS) + a Union Cabinet Minister; the CJI's exclusion debate; first appointments under it (2024: Gyanesh Kumar era) — the freshest exam point.</li>
+    <li><strong>16th Finance Commission:</strong> chair Arvind Panagariya (appointed Dec 2024); award for 2026-31 lands in the exam window.</li>
+    <li><strong>EVM-VVPAT litigation (2024):</strong> SC's April 2024 verdict — EVM-VVPAT audit stats; 100% VVPAT counting rejected — election-integrity current affairs.</li>
+    <li><strong>One-Nation-One-Election + simultaneous polls:</strong> Kovind committee (2024) — EC's workload design; the Constitution (129th Amdt bill, 2024) introduced in Parliament — federal-impact debate.</li>
+    <li><strong>CAG's expanding audit:</strong> electoral-bonds audit reports (2024), Ayushman Bharat's audit — the CAG's pandemic-era scrutiny continues.</li>
+    <li><strong>NHRC's 2023 amendment + Global Alliance status (2023-24):</strong> NHRC re-accredited; the Protection of Human Rights (Amendment) Act 2023's composition changes.</li>
+    <li><strong>Bihar angle:</strong> 2025 Bihar Assembly elections (EC's scheduling), special-category advocacy with the 16th FC, BPSC's own reforms (exam-calendar transparency) — all live hooks.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">72nd BPSC Top 5 Predictions</span>
+  <strong>Most probable questions:</strong> (1) EC's Art 324 + CEC's SC-judge-grade removal. (2) SPSC: Governor appoints, President removes. (3) CAG's Arts 148-151 + PAC chain. (4) NCSC/NCST split — 89th Amdt 2003. (5) New CEC Act's committee (PM + LoP + Minister).
+</div>
+
+<div class="subpage-box">
+  📖 <strong>Deep dive:</strong> For the constitutional-vs-statutory classification drill, the EC's appointment saga, CAG's audit universe, the 89th/102nd Amdt commission changes, and 7 exam predictions — see <a href="subpages/47_constitutional_bodies_detail.html">Topic 47 Deep Dive</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Election Commission of India is established under:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Article 315</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Article 324</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Article 148</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Article 280</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (B)</strong> — Art <strong>324</strong>: superintendence, direction and control of elections to Parliament, state legislatures, President and VP. 315 = PSCs; 280 = FC; 148 = CAG — the article-anchor drill.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The Chief Election Commissioner can be removed:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Only in the same manner as a Supreme Court judge</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) By a parliamentary resolution</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) On the Cabinet's advice</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) By the President at will</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Art 324(5): the <strong>CEC</strong> is removable only like an <strong>SC judge</strong> (special-majority address on proved misbehaviour/incapacity); other Election Commissioners are removable on the CEC's recommendation — the deliberate asymmetry.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Under the 2023 CEC Appointment Act, the selection committee comprises:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Speaker + PM + LoP</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) PM + Leader of Opposition (LS) + a Union Cabinet Minister</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) PM + Leader of Opposition + CJI</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) President + CJI + PM</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — The 2023 Act: <strong>PM + LoP + Union Cabinet Minister</strong> — the <strong>CJI was dropped</strong> from Anoop Baranwal's interim formula (2023) — the newest exam point in this topic.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Bihar Public Service Commission's members are appointed by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) The Chief Minister</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) The UPSC</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) The President</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) The Governor of Bihar</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — Art 316: the <strong>Governor</strong> appoints SPSC members (for nearly half the posts, consultation with the UPSC is the convention under Art 316(2)); but only the <strong>President</strong> can remove them — BPSC's own constitutional basis.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. A State PSC member can be removed from office by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Only the President</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) The state legislature's resolution</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) The Chief Minister</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) The Governor</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — The appointment-removal asymmetry: the Governor appoints but <strong>only the President</strong> can remove (Art 317) — the constitutional insulation of SPSC members.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. The advice of the UPSC/SPSC to the government is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Binding only in promotion cases</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Binding on the government</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Reviewed by the Supreme Court</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Not binding — but the government must return reasons for rejection (Art 320(3))</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — PSC advice is <strong>not binding</strong>; the government must communicate reasons for non-acceptance. Also: PSCs are NOT consulted on reservation policies — the two standard traps.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The Comptroller and Auditor General of India is appointed by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) The Supreme Court</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) The Cabinet</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) The Parliament</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) The President; removable like an SC judge</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (D)</strong> — Art 148: the President appoints the CAG; removal = SC-judge grade (special-majority address); salary charged on the CF; ineligible for further government office.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The CAG submits audit reports to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) The PAC directly</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) The Parliament directly</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) The President (Union reports) / Governor (state reports), who lay them before Parliament/legislature</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) The Supreme Court</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Art 151: reports go to the <strong>President/Governor</strong> → laid before Parliament/legislature → the <strong>PAC</strong> examines them (Topic 43's chain). The CAG never reports to Parliament directly.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Finance Commission consists of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Five members total including the chair</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) A chairperson and four other members</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) A chairperson and nine members</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Seven members</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — Art 280: <strong>chair + 4 members</strong> (5 total) appointed by the President every 5th year; 16th FC chair: Arvind Panagariya (2024-).</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. [71st BPSC] The Attorney General of India has the right to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Sit only in the Rajya Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Introduce bills only</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Vote in Parliament</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Speak and participate in Parliament (and committees) without a vote; audience in all courts</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — Art 88/76: the AG <strong>speaks/participates in both Houses + committees without voting</strong>; audience in <strong>all courts</strong> — 71st BPSC's exact answer. Holds office at the President's pleasure.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The National Commission for Scheduled Tribes was created by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) The 73rd Amendment</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) A 1990 executive order</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) The 102nd Amendment</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) The 89th Amendment (2003), splitting the combined commission</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — 89th Amdt (2003): Art 338 (NCSC) + <strong>Art 338A (NCST)</strong> — the bifurcation of the earlier combined commission. The 102nd (2018) constitutionalised the NCBC (Art 338B).</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The National Human Rights Commission is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) A statutory body under the Protection of Human Rights Act 1993</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) A parliamentary committee</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) A constitutional body under Art 338</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) An executive body</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — NHRC = <strong>statutory (PHRA 1993)</strong> — the classic classification trap. Chair: a retired CJI; 2023 amendment expanded composition.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. The first Comptroller and Auditor General of independent India was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) V. Narahari Rao</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) A.K. Chanda</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) B.P.R. Vithal</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) T.N. Chaturvedi</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — <strong>V. Narahari Rao</strong> (1950) — the first CAG of independent India; the office was renamed from Auditor-General by the CAG (Duties, Powers and Conditions of Service) Act framework — Rao is the exam-safe first name.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The expenses of the Election Commission are charged on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Vote-on-account</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) The Consolidated Fund of India</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) The Contingency Fund</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) The public account</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (B)</strong> — EC/UPSC/SPSC/CAG/FC expenses are <strong>charged on the Consolidated Fund</strong> — non-votable (Art 322 for PSCs; CAG's salary under 148(6)) — the independence-insulation trio.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Advocate General of a state (Art 165):</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Is appointed by the President</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Is elected by the assembly</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Is appointed by the Governor; advises the state government; participates in the legislature without voting</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Has voting rights in the council</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (C)</strong> — Art 165: the <strong>Governor appoints</strong> the Advocate General (qualified as an HC judge); the state's chief legal adviser; assembly-audience without vote — the state mirror of the Union AG.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The UPSC is NOT consulted on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Reservation policy and cadre rules' reservation aspects</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Promotions</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Disciplinary matters</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Recruitment methods for civil services</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — UPSC advice excludes <strong>reservations</strong> (policy) — recruitment/promotion/discipline are consulted matters; the reservation-exclusion is the standard trap.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Which is NOT a constitutional body?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) National Human Rights Commission</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Finance Commission</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) Election Commission</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) National Commission for Scheduled Castes</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — NHRC = <strong>statutory</strong> (1993 Act); FC (280), NCSC (338), EC (324) are constitutional — the classification drill's cleanest form.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The Anoop Baranwal case (2023) concerned:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Election Commissioners' appointments — SC prescribed PM + LoP + CJI until Parliament legislates</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) CAG's audit powers</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Anti-defection law</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) EVM-VVPAT counting</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — <strong>Anoop Baranwal (March 2023)</strong>: SC's interim committee (PM + LoP + CJI) for EC appointments; Parliament's 2023 Act then replaced the CJI with a Cabinet Minister — the appointment saga's sequence.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The National Commission for Backward Classes got constitutional status through:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) 89th Amendment (2003)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) 101st Amendment (2016)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) 102nd Amendment (2018)</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) 106th Amendment (2023)</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — 102nd Amdt (2018): <strong>Art 338B</strong> — NCBC constitutionalised; also inserted 342A (state OBC lists — the Maratha litigation context); 123rd's earlier failure was completed by the 102nd.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Match: (1) EC — (2) CAG — (3) UPSC — (4) FC. Articles: (a) 315-323 (b) 324 (c) 148-151 (d) 280:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) 1-d, 2-c, 3-a, 4-b</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) 1-b, 2-a, 3-c, 4-d</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) 1-b, 2-c, 3-a, 4-d</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) 1-a, 2-c, 3-b, 4-d</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (C)</strong> — EC = 324; CAG = 148-151; UPSC = 315-323; FC = 280 — the master anchor set every BPSC paper samples from.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The CAG is NOT eligible for further office under:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Any private employment</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Judicial appointments</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) The Government of India or any state (post-retirement)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) University posts</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (C)</strong> — Art 148(4): the CAG is ineligible for <strong>further office under GoI or a state</strong> after ceasing to hold office — the insulation clause (mirrors UPSC members' bar under Art 319).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The Finance Commission's recommendations cover:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) RBI's monetary policy</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Tax devolution between the Union and states; grants-in-aid; augmenting local-body funds</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) PSUs' disinvestment</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Deficit financing only</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — Art 280(3): vertical/horizontal devolution, grants-in-aid (275), local-body grants (280(3)(bb) — panchayat/municipality funds), plus supplementary measures — Bihar's ~10% share flows from this machinery.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Bihar's share of the divisible pool (15th FC) makes it:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) The smallest recipient</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) The largest recipient state share among all states</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Not a recipient</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) A middle recipient</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — Bihar's <strong>~10.06%</strong> is the highest single-state share after UP's ~18% — driven by the income-distance criterion (poorest states gain most) — the "top recipient" framing is the exam-safe version.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The EC's Model Code of Conduct is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) A constitutional mandate under Art 324</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) A statutory code under the RP Act 1951</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) A set of conventions evolved (1960s-79) with the EC's enforcement power — not statute</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) A Supreme Court invention</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — MCC = <strong>conventions</strong> (first used in Kerala 1960; nationally adopted from 1979) enforced via Art 324's plenary powers — not statute; violations invite EC action (campaign freezes etc.).</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which body audits all bodies substantially financed by the Consolidated Fund?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) The PAC</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) NITI Aayog</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) The Finance Commission</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) The CAG</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (D)</strong> — Art 149-150: the <strong>CAG</strong> audits the Union, states, and any body/authority substantially financed from the CF — the audit universe; the PAC merely examines the CAG's reports.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Election_Commission_of_India" target="_blank">Election Commission of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Art 324, 2023 Act</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Comptroller_and_Auditor_General_of_India" target="_blank">CAG — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Arts 148-151</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Union_Public_Service_Commission" target="_blank">UPSC — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Arts 315-323</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Finance_Commission_of_India" target="_blank">Finance Commission — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Art 280</span></li>
+    <li><a href="https://www.eci.gov.in" target="_blank">ECI — official</a> <span style="color:#64748b;font-size:12px;">MCC, election statistics</span></li>
+    <li><a href="https://cag.gov.in" target="_blank">CAG — official</a> <span style="color:#64748b;font-size:12px;">Audit reports</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 47 — Constitutional Bodies • Generated 2026-09-10 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'b', q2: 'a', q3: 'b', q4: 'd', q5: 'a',
+  q6: 'd', q7: 'd', q8: 'c', q9: 'b', q10: 'd',
+  q11: 'd', q12: 'a', q13: 'a', q14: 'b', q15: 'c',
+  q16: 'a', q17: 'a', q18: 'a', q19: 'c', q20: 'c',
+  q21: 'c', q22: 'b', q23: 'b', q24: 'c', q25: 'd',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>38 - Making of the Constitution | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  h3 a { color: #16213e; text-decoration: none; }
+  h3 a:hover { color: #ff6b35; text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .current-tag { display: inline-block; background: #dcfce7; color: #166534; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height:16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════ We are══════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #38 • TIER A</div>
+  <div class="topic-title">Making of the Constitution — Constituent Assembly, Sources &amp; Borrowed Features</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Indian Polity</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">📅 Exam: 26 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC PYQ Pattern</span>
+    <strong>Collegium &amp; judges appointments (69th, Q1–3):</strong> BPSC asked a 3-statement question on the SC collegium — 5-member body headed by CJI + 4 senior-most puisne judges; Parliament has NOT evolved the collegium (it is a judicial creation, Second Judges Case 1993); judges are appointed only through the collegium system since 1993. BPSC loves testing myths vs reality on appointment machinery — expect similar multi-statement traps on the Constituent Assembly.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>Source provisions — Government of India Act 1935 (70th BPSC pattern):</strong> The 70th BPSC tested which provisions trace back to the <strong>GoI Act 1935</strong> — indirect election of the President, representation of States in Parliament, the Seventh Schedule lists. The 1935 Act is called the <strong>"blueprint" of the Constitution</strong> — about 250 of its provisions were carried over. Equally examinable: the Constituent Assembly was created under the <strong>Cabinet Mission Plan 1946</strong>, NOT by an Act of the British Parliament — a classic BPSC trap.
+  </div>
+
+  <h3>Formation of the Constituent Assembly</h3>
+  <ul>
+    <li><strong>1934 — M.N. Roy</strong> first put forward the idea of a Constituent Assembly for India.</li>
+    <li><strong>1935 — INC officially demanded</strong> a Constituent Assembly (Lucknow session presided by Nehru, 1936, reiterated).</li>
+    <li><strong>1938 — Jawaharlal Nehru</strong> declared that the Constitution of free India must be framed "without outside interference" by a Constituent Assembly elected on adult franchise.</li>
+    <li><strong>1940 — August Offer</strong> (Viceroy Linlithgow): the British first accepted the principle that the Constitution should be framed by Indians — but only after World War II.</li>
+    <li><strong>1942 — Cripps Mission:</strong> proposed a constitution-making body after the war, but with provincial opt-out clauses — rejected by Congress and the League for opposite reasons.</li>
+    <li><strong>May 1946 — Cabinet Mission Plan:</strong> the actual blueprint — a three-tier scheme plus a <strong>Constituent Assembly of 389 members</strong> (296 for British India: 292 governors' provinces + 4 Chief Commissioners' provinces; 93 princely states), <strong>indirectly elected</strong> by provincial assemblies; seats allotted at roughly one per ten lakh of population, distributed among the Muslim, Sikh and General communities in proportion to population.</li>
+    <li><strong>Elections — July 1946:</strong> indirectly elected by provincial assemblies; INC won 208, Muslim League 73, independents/others 15.</li>
+    <li><strong>9 Dec 1946 — First sitting:</strong> 211 members attended; <strong>Sachchidananda Sinha</strong> (oldest member) appointed <strong>temporary President</strong>; with the Muslim League boycott only 211 of 389 attended.</li>
+    <li><strong>11 Dec 1946 — Dr. Rajendra Prasad</strong> elected <strong>permanent President</strong>; <strong>H.C. Mukherjee</strong> and <strong>V.T. Krishnamachari</strong> elected Vice-Presidents. <strong>B.N. Rau</strong> was the Constitutional Adviser (he prepared the initial working draft).</li>
+    <li><strong>Committee system:</strong> Assembly worked through committees; the <strong>Drafting Committee (29 Aug 1947, 7 members)</strong> chaired by <strong>Dr. B.R. Ambedkar</strong> is the most famous. Ambedkar = "Father of the Constitution of India"; the Drafting Committee is called a "mini-Assembly".</li>
+    <li><strong>Other key committees:</strong> Union Powers (Nehru), Union Constitution (Nehru), States Committee (Nehru), Provincial Constitution (Patel), Advisory Committee on FRs &amp; Minorities (Patel) with sub-committees on Fundamental Rights (J.B. Kripalani) and Minorities (H.C. Mukherjee), Rules of Procedure (Prasad), Flag Committee (Rajendra Prasad chaired the ad hoc committee on National Flag; the final design was proposed by Pingali Venkayya).</li>
+    <li><strong>Adoption — 26 Nov 1949:</strong> the Constitution as adopted contained a Preamble, 395 Articles (22 parts), 8 Schedules; <strong>provisions on citizenship, elections, provisional parliament etc. came into force at once</strong> (Art 393); the rest commenced on <strong>26 Jan 1950</strong> chosen to commemorate Purna Swaraj Day 1930.</li>
+    <li><strong>Time &amp; cost:</strong> 2 years, 11 months, 18 days; ₹64 lakh; <strong>11 sessions</strong>; 114 days of deliberation on the draft; 7,632 amendments tabled, ~2,473 actually discussed.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/nehru_constituent_assembly_1946.jpg" alt="Nehru addressing the Constituent Assembly, 1946">
+    <div class="img-caption">Jawaharlal Nehru addressing the Constituent Assembly of India, December 1946 — the Assembly first met on 9 December 1946.</div>
+  </div>
+
+  <h3>Composition &amp; Criticisms — fact matrix</h3>
+  <table>
+    <tr><th>Fact</th><th>Value</th><th>Exam trap</th></tr>
+    <tr><td>Total members (Cabinet Mission)</td><td>389 (292+4+93)</td><td>"385" or "348" are trap numbers</td></tr>
+    <tr><td>Members on 26 Nov 1949 (reduced)</td><td>299</td><td>After partition, numbers were reduced</td></tr>
+    <tr><td>Indirectly elected</td><td>By provincial assemblies</td><td>NOT adult franchise — critics' point</td></tr>
+    <tr><td>Drafting Committee size</td><td>7</td><td>Trap: "9 members" — actual size was 7</td></tr>
+    <tr><td>Time taken</td><td>2y 11m 18d</td><td>Trap: "2y 11m 6d" — no</td></tr>
+    <tr><td>First elected President of India vs Assembly President</td><td>Assembly President ≠ President of India</td><td>Rajendra Prasad was Assembly President 1946–49; President of India from 26 Jan 1950</td></tr>
+  </table>
+
+  <h3>12 Schedules — the BPSC trap table</h3>
+  <table>
+    <tr><th>Schedule</th><th>Deals with</th><th>Schedule</th><th>Deals with</th></tr>
+    <tr><td>1st</td><td>States &amp; UTs (name/territory)</td><td>7th</td><td>Union, State, Concurrent Lists (Art 246)</td></tr>
+    <tr><td>2nd</td><td>Emoluments (President, Governors, Speakers, Judges)</td><td>8th</td><td>22 Languages</td></tr>
+    <tr><td>3rd</td><td>Forms of Oaths/ affirmations</td><td>9th</td><td>Land reforms acts (validation)</td></tr>
+    <tr><td>4th</td><td>Allocation of seats in Rajya Sabha</td><td>10th</td><td>Anti-defection (Art 102/191)</td>   </td></tr>
+    <tr><td>5th</td><td>Administration of Scheduled Areas</td><td>11th</td><td>Panchayats (243G)</td></tr>
+    <tr><td>6th</td><td>Tribal Areas of Assam, Meghalaya, Mizoram, Tripura</td><td>12th</td><td>Municipalities (243W)</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — 12 Schedules:</strong> <strong>S-U-P-E-R-S-T-A-R-S</strong> — States(1) Union-emoluments(2) Provisions-oath(3) Rajya-seats(4) Scheduled-areas(5) Tribal-Assam(6) Lists(7) Languages(8) Land-reform(9) Tenth-defection(10) pAnchayat(11) municipalities(12). 12th is the last word in local government.
+  </div>
+
+  <div class="subpage-box">
+    📖 <strong>Deep dive:</strong> For the full committee-chairman grid, the demand-to-delivery timeline (1934–1950), all 12 Schedules with anchor Articles, the complete borrowed-features grid, Bihar's CA delegation, and 7 exam predictions — see <a href="subpages/38_making_of_constitution_detail.html">Topic 38 Deep Dive: Assembly Working, Sources &amp; Exam Predictions</a>.
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════         ═══════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">⚡</span> Fact Matrix — Quick Revision</div>
+
+  <h3>Borrowed features — source table (BPSC favourite)</h3>
+  <table>
+    <tr><th>Source</th><th>Features borrowed</th></tr>
+    <tr><td><strong>Britain (UK)</strong></td><td>Parliamentary government, Rule of Law, legislative procedure, single citizenship, cabinet system, bicameralism, writs, CAG, parliamentary privileges</td></tr>
+    <tr><td><strong>USA</strong></td><td>Fundamental Rights, independence of judiciary, judicial review, impeachment of the President, removal of SC/HC judges, post of Vice-President</td></tr>
+    <tr><td><strong>Ireland</strong></td><td>DPSP, nomination of members to Rajya Sabha, method of election of the President</td></tr>
+    <tr><td><strong>Australia</strong></td><td>Concurrent List, freedom of trade &amp; commerce, joint sitting of the two Houses</td></tr>
+    <tr><td><strong>Canada</strong></td><td>Federation with a strong Centre, residuary powers with the Centre, Centre-appointed Governors, Centre's power to reorganise states, advisory jurisdiction of the Supreme Court</td></tr>
+    <tr><td><strong>USSR (now Russia)</strong></td><td>Fundamental Duties, ideal of justice (social, economic, political) in the Preamble</td></tr>
+    <tr><td><strong>France</strong></td><td>Republic; ideals of liberty, equality, fraternity in the Preamble</td></tr>
+    <tr><td><strong>South Africa</strong></td><td>Amendment procedure, election of Rajya Sabha members</td></tr>
+    <tr><td><strong>Germany (Weimar)</strong></td><td>Suspension of Fundamental Rights during Emergency (Arts 358–359; Weimar Art 48 model)</td></tr>
+    <tr><td><strong>Japan</strong></td><td>Procedure established by law (Art 21)</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — Borrowed Bag:</strong> <strong>U-S-A-G-I-R-F</strong> — UK = parliamentary &amp; writs; US = rights &amp; judicial review; Australia = Concurrent List &amp; joint sitting; Germany = emergency suspension of FRs; Ireland = DPSP &amp; President's election; Russia (USSR) = Fundamental Duties; France = republic &amp; liberty-equality-fraternity. Canada (strong Centre) and South Africa (amendment procedure) complete the bag.
+  </div>
+
+  <div class="img-container">
+    <img src="images/preamble_of_india.jpg" alt="Original Preamble of the Constitution of India">
+    <div class="img-caption">The Preamble page of the original Constitution — "the identity card of the Constitution" — grew out of the Objectives Resolution moved by Nehru on 13 December 1946 (adopted 22 January 1947).</div>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION 🔗                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bihar-box">
+  <div class="bihar-box-title">Bihar Connection 🔗</div>
+  <ul>
+    <li><strong>Dr. Rajendra Prasad (Siwan, Bihar)</strong> — permanent President of the Constituent Assembly (from 11 Dec 1946) and first President of India. The Assembly's Constitution Hall (now Samvidhan Sadan) was where he presided.</li>
+    <li><strong>Sachchidananda Sinha (Arrah, Bihar)</strong> — oldest member, appointed <strong>temporary President</strong> of the Constituent Assembly on 9 Dec 1946. The 71st BPSC asked a direct question on who presided over the first meeting (answer: Sachchidananda Sinha).</li>
+    <li><strong>Anugrah Narayan Sinha (Aurangabad, Bihar)</strong> — member of the Constituent Assembly from Bihar; later first Deputy CM/Finance Minister of Bihar.</li>
+    <li><strong>K.T. Tej Bahadur? — no: Bihar's members included</strong> Rajendra Prasad, Anugrah Narayan Sinha, Sachchidananda Sinha, Sri Krishna Singh, Jagjivan Ram, Kameshwar Singh (Maharajadhiraja of Darbhanga), Bidhu Babu? — core point: <strong>Bihar sent 36 members</strong> to the Constituent Assembly (approximate strength under the Cabinet Mission allocation to Bihar as a governor's province).</li>
+    <li><strong>Bankipore (Patna)</strong> was a seat of political activity around the Assembly period — the 31st INC session (1912, Bankipore) hosted by Bihar after separation; the provincial assembly that elected Bihar's CA members met at <strong>Patna</strong>.</li>
+    <li><strong>JP Narayan and other Bihar socialists boycotted?</strong> — No. JP did not join the Constituent Assembly; the Assembly was criticised by socialists (incl. some Bihar leaders) as not elected by adult franchise — but Bihar's provincial assembly did elect its members under the Cabinet Mission plan (indirect election, limited franchise).</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC CONNECTIONS                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cross-link">
+  <strong>Cross-Topic Connections:</strong> Preamble analysis → Topic <strong>39</strong>; Fundamental Rights &amp; writs → <strong>40</strong>; DPSP &amp; Duties → <strong>41</strong>; Union Executive (President/VP/PM) → <strong>42</strong>; Parliament → <strong>43</strong>; Schedules 11th/12th for local govt → <strong>48</strong>; Amendments → <strong>49</strong>; Bihar's own polity (Vidhan Sabha) → <strong>143</strong>; Bihar formation 1912 → <strong>157</strong>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE 2024–26                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🆕</span> Current Relevance 2024–26</div>
+  <ul>
+    <li><strong>Constitution Day:</strong> 26 November, observed since 2015. <strong>26 Nov 2024 marked 75 years of the adoption</strong> of the Constitution, launching year-long nationwide commemorations — expect a CA-anniversary-anchored question in the 72nd.</li>
+    <li><strong>Samvidhan Sadan:</strong> the old Parliament House — whose Constitution Hall hosted the Assembly's first sitting (9 Dec 1946) — was renamed <strong>Samvidhan Sadan</strong> in Sept 2023 when Parliament shifted to the new building.</li>
+    <li><strong>Preamble debate (SC, Nov 2024):</strong> Balram Singh v. Union of India — the SC refused to delete "socialist" and "secular" (added by the 42nd Amendment, 1976) from the Preamble; the Preamble is part of the Constitution (Kesavananda, 1973). Directly links Topic 39.</li>
+    <li><strong>Dr. Ambedkar's 135th birth anniversary (14 Apr 2026)</strong> falls in the exam-relevant window — his roles (Drafting Committee chair, Law Minister, "Father of the Constitution of India") remain a hot zone.</li>
+    <li><strong>Bihar angle:</strong> Patna High Court (est. 3 Feb 1916) completes 110 years in 2026 — one of India's oldest High Courts; and the CA's two Presidents (temporary: Sinha; permanent: Prasad) were both Bihar men — a ready-made BPSC question.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The idea of a Constituent Assembly for India was first put forward by:</div>
+    <div class="mcq-options">
+      <label class="ncq-option"><input type="radio" name="q1" value="a"> (A) M.N. Roy</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type=" radio" name="q1" value="c"> (C) Mahatma Gandhi</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Dr. B.R. Ambedkar</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — M.N. Roy, a pioneer of the communist movement, first put forward the idea in <strong>1934</strong>. Nehru's demand came in 1938 (as INC's official position). Gandhi did not propose it. Ambedkar entered the picture in the 1940s as a member and later Drafting Committee chairman.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Under the Cabinet Mission Plan, the total strength of the Constituent Assembly was fixed at:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) 299</label>
+      <label class="mcq-option"><input type=" radio" name="q2" value="b"> (B) 389</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) 385</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) 211</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — 389 = 292 (governors' provinces) + 4 (Chief Commissioners' provinces) + 93 (princely states). Option A (299) is the strength AFTER partition (reduced). Option D (211) is the attendance on the first day (9 Dec 1946) with ML boycott. Option C (385) is a fabricated trap number.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Who was appointed the temporary President of the Constituent Assembly at its first meeting on 9 December 1946?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Dr. Rajendra Prasad</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) B.N. Rau</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Sachchidananda Sinha</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) H.C. Mukherjee</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — Sachchidananda Sinha, the oldest member (from Arrah, Bihar), was appointed temporary President on 9 Dec 1946. Rajendra Prasad was elected permanent President on 11 Dec 1946 (option A is the classic trap). B.N. Rau was Constitutional Adviser. H.C. Mukherjee was Vice-President of the Assembly.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. The Constituent Assembly adopted the Constitution on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 15 August 1947</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 26 November 1949</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 26 January 1950</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 9 December 1946</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — The Assembly adopted (passed) the Constitution on <strong>26 Nov 1949</strong> (Art 393, some provisions — citizenship, elections, provisional parliament — in force immediately); the remaining provisions commenced on <strong>26 Jan 1950</strong> (option C), commemorating Purna Swaraj Day 1930.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The Drafting Committee of the Constituent Assembly was set up on 29 August 1947 with how many members?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) 5</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) 7</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) 9</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) 11</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — The Drafting Committee had <strong>7 members</strong> chaired by Dr. B.R. Ambedkar: B.R. Ambedkar, N. Gopalaswamy Ayyangar, Alladi Krishnaswamy Ayyar, K.M. Munshi, Syed Mohammad Saadullah, N. Madhava Rao (replaced B.L. Mitter), and T.T. Krishnamachari (replaced D.P. Khaitan after his death). "9" is the common trap — the total committee count some books misquote.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Which of the following was NOT a member of the Drafting Committee?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) K.M. Munshi</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Alladi Krishnaswami Ayyar</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) N. Gopalaswamy Ayyangar</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Sardar Vallabhbhai Patel</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (D)</strong> — Sardar Patel chaired the Provincial Constitution Committee and the Advisory Committee on FRs &amp; Minorities, but was never on the Drafting Committee. Its seven members: Ambedkar (chair), N. Gopalaswamy Ayyangar, Alladi Krishnaswami Ayyar, K.M. Munshi, Syed Mohammad Saadullah, N. Madhava Rao and T.T. Krishnamachari. Options A, B and C were all members.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Consider the following statements about the Constituent Assembly:<br>1. It was elected directly by adult franchise.<br>2. Its seats were allotted to provinces roughly in the ratio of one per ten lakh population.<br>3. The Muslim League boycotted its first meeting on 9 December 1946.<br>Which of the statements is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Only 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Only 1 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) All of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (B)</strong> — Statement 1 is WRONG: the Assembly was <strong>indirectly</strong> elected by provincial legislative assemblies (limited franchise ~28% adults) — a standard BPSC trap. Statement 2 is correct (ratio 1:10 lakh). Statement 3 is correct — the ML boycotted the first sitting; only 211 of 389 attended.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Match List-I (feature) with List-II (source Constitution) and choose the correct code:<br><br>List I: (a) Concurrent List (b) DPSP (c) Fundamental Rights (d) Amendment procedure<br>List II: 1) USA 2) Australia 3) Ireland 4) South Africa</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 2, 3, 1, 4</label>
+      <label class="mpq-option"><input type="radio" name="q8" value="b"> (B) 3, 2, 1, 4</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 2, 1, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) 4, 3, 1, 2</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (A)</strong> — (a) Concurrent List ← Australia; (b) DPSP ← Ireland; (c) Fundamental Rights ← USA; (d) Amendment procedure ← South Africa. Trap awareness: Japan gave "procedure established by law" (Art 21); Canada gave federation-with-strong-Centre + residuary powers with Centre; USSR gave Fundamental Duties.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. Which one of the following pairs is NOT correctly matched? (Feature — Source)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Fundamental Rights — USA</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Directive Principles — Ireland</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Federation with strong Centre — Canada</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Method of election of the President — Britain</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (D)</strong> — The method of election of the President (single-transferable-vote electoral college) was borrowed from the <strong>Irish</strong> Constitution, not Britain. Britain contributed parliamentary government, single citizenship, CAG, writs etc. All other pairs are correctly matched — classic "NOT matched" question style used by BPSC in the 70th exam (Schedules).</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The Constitution, as adopted on 26 November 1949, consisted of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) 395 Articles, 22 Parts, 8 Schedules</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) 448 Articles, 25 Parts, 12 Schedules</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) 395 Articles, 24 Parts, 12 Schedules</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) 470 Articles, 22 Parts, 12 Schedules</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — As adopted: <strong>395 Articles in 22 Parts + 8 Schedules</strong>. Today, after amendments, it is ~448 Articles in 25 Parts + 12 Schedules (option B = present-day figures — the exam trap). Schedules 9–12 were added by the 1st (1951), 42nd (1976), 73rd (1992), 74th (1992) amendments respectively.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The Constituent Assembly took how long to frame the Constitution?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) 2 years, 11 months, 6 days</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) 3 years, 1 month, 26 days</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) 2 years, 11 months, 18 days</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) 2 years, 10 months, 15 days</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (C)</strong> — 9 Dec 1946 → 26 Nov 1949 = <strong>2 years, 11 months, 18 days</strong>, across 11 sessions, at a cost of ₹64 lakh. 7,632 amendments were tabled; about 2,473 were actually discussed. Option A (…6 days) is the classic near-miss trap; options B and D are fabricated.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The first sitting of the Constituent Assembly was presided over by Sachchidananda Sinha and the Assembly's Constitutional Adviser was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) B.N. Rau</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) B.R. Ambedkar</label>
+      <label class="mcq-operation"><input type="radio" name="q12" value="c"> (C) Alladi Krishnaswami Ayyar</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) K.M. Munshi</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — Sir <strong>B.N. Rau</strong> prepared the working draft of the Constitution as Constitutional Adviser. Ambedkar chaired the Drafting Committee (created Aug 1947, after Rau's draft). Alladi and Munshi were Drafting Committee members — note the difference between adviser vs drafting body.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Consider the following criticisms levelled against the Constituent Assembly:<br>1. It was not elected on the basis of universal adult franchise.<br>2. It was created under the Cabinet Mission Plan and was initially not fully sovereign.<br>3. It was dominated by Gandhian village-level workers.<br>Which of the above are valid criticisms?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Only 1 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Only 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) All of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (B)</strong> — Statements 1 and 2 are classic criticisms: the Assembly was indirectly elected on a limited franchise, and since it was born of the Cabinet Mission Plan (not a fully sovereign Indian body), the British could in theory have disallowed its work. Statement 3 is the opposite of the truth — the Assembly was criticised for NOT reflecting the Gandhian ideal of village panchayats; Art 40 was the only concession, and Ambedkar defended centralisation.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The Constituent Assembly doubled as the Dominion Legislature (1947–49) and then the Provisional Parliament (26 Jan 1950 onwards) until the first Lok Sabha met in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) 1952</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) 1950</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) 1951</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) 1955</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (A)</strong> — The first Lok Sabha was constituted in <strong>1952</strong> after the first general election (1951–52). Until then the Assembly functioned as the Dominion Legislature (1947–49) and then the Provisional Parliament (1950–52). Options B and C confuse the commencement of the Constitution (1950) and the election announcement (1951).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Which Schedule of the Constitution contains provisions regarding the anti-defection law?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) 8th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) 9th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) 10th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) 11th Schedule</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (C)</strong> — The <strong>10th Schedule</strong> (added by 52nd Amendment, 1985) contains the anti-defection provisions under Art 102(2)/191(2). 8th = languages (22); 9th = land reform validations (1st Amendment 1951, I.R. Coelho case 2007 limited its immunity); 11th = Panchayats (73rd Amendment).</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. [70th BPSC-pattern] Which pair is NOT correctly matched? (Schedule — Subject)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Forms of Oath — 3rd Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Allocation of seats in Council of States — 4th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Administration of Scheduled Areas — 5th Schedule</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Languages — 9th Schedule</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (D)</strong> — Languages are in the <strong>8th</strong> Schedule (22 languages), NOT the 9th (land reform acts). The 70th BPSC asked exactly this "NOT matched" pattern on Schedules. Note the 9th Schedule's immunity was curtailed by I.R. Coelho (2007) — post-24 Apr 1973 laws are open to judicial review.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The permanent President of the Constituent Assembly, Dr. Rajendra Prasad, was elected on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 9 December 1946</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 11 December 1946</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 15 August 1947</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 26 November 1949</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (B)</strong> — Rajendra Prasad was elected permanent President on <strong>11 December 1946</strong>, two days after the first sitting. Option A is the first sitting (temporary President Sachchidananda Sinha). Note the Bihar link: both temporary and permanent Presidents of the Assembly were from Bihar (Sinha from Arrah, Prasad from Siwan).</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Which of the following features was borrowed from the Constitution of Japan?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Procedure established by law</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Concurrent List</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Ideal of justice (social, economic, political)</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Suspension of Fundamental Rights during Emergency</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — "Procedure established by law" (Art 21) comes from <strong>Japan</strong>. (B) is Australia; (C) is USSR (ideals of justice in the Preamble); (D) is Germany (Weimar Art 48 model → Arts 358–359). BPSC's multi-source questions usually include Japan as the "hard" option.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Match the committees of the Constituent Assembly with their chairmen:<br><br>(a) Union Powers Committee (b) Advisory Committee on Fundamental Rights &amp; Minorities (c) Steering Committee (d) Drafting Committee<br>1) Dr. Rajendra Prasad 2) Jawaharlal Nehru 3) Dr. B.R. Ambedkar 4) Sardar Patel</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) 2, 4, 1, 3</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) 4, 2, 1, 3</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) 2, 4, 3, 1</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) 1, 2, 4, 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — (a) Union Powers → Nehru; (b) Advisory on FRs &amp; Minorities → Patel; (c) Steering Committee → Rajendra Prasad; (d) Drafting → Ambedkar. Extra: Union Constitution Committee → Nehru; Provincial Constitution Committee → Patel; States Committee → Nehru. A frequent BPSC matching pattern.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Consider the statements about the Objectives Resolution:<br>1. It was moved by Jawaharlal Nehru on 13 December 1946.<br>2. It proclaimed India an "Independent Sovereign Republic".<br>3. It later formed the basis of the Preamble.<br>Which is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Only 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) All 1, 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Only 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (C)</strong> — All three are correct. Nehru moved the Objectives Resolution on 13 Dec 1946 (adopted 22 Jan 1947); it proclaimed India as an "Independent Sovereign Republic" and became the basis of the Preamble (spirit, not text). This links directly to Topic 39 (Preamble).</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The 26th of January was chosen as the commencement date of the Constitution to commemorate:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) The adoption of the Constitution</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Purna Swaraj Day — 26 January 1930</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Gandhi's return from South Africa</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) The inauguration of the Republic of India Government Act 1935</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — 26 Jan commemorates <strong>Purna Swaraj Day</strong>, first celebrated 26 Jan 1930 following the Lahore session resolution (Dec 1929). Adoption was 26 Nov 1949 (option A). Option C is 9 Jan 1915. Option D is nonsense phrasing — GoI Act 1935 is the source of much of the administrative machinery but not the date.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Which of the following statements about the Constituent Assembly is/are correct?<br>1. The Assembly held 11 sessions over 2 years, 11 months and 18 days.<br>2. The Assembly's first item of business was the appointment of Sachchidananda Sinha as temporary President.<br>3. The Assembly adopted the Flag of the Dominion of India on 22 July 1947.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Only 1 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) All 1, 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Only 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — All correct. 11 sessions; temporary President first; the Assembly adopted the national flag design on 22 July 1947 (Pingali Venkayya's design with Ashoka Chakra replacing the charkha). Also note: the Assembly ratified India's membership of the Commonwealth in May 1949.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The Objectives Resolution was adopted by the Constituent Assembly on:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) 13 December 1946</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) 22 January 1947</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) 15 August 1947</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) 29 August 1947</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — Moved 13 Dec 1946 (by Nehru), <strong>adopted 22 Jan 1947</strong>. Option D (29 Aug 1947) is the Drafting Committee formation date. Option A is the date it was moved, not adopted — the moved/adopted distinction is a classic BPSC trap.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Consider the following statements:<br>1. The Constitution of India was framed by the Constituent Assembly set up under the Cabinet Mission Plan, 1946.<br>2. The Constituent Assembly was created by an Act of the British Parliament.<br>3. The Assembly elected its permanent President on 11 December 1946.<br>Which of the above is/are correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Only 1 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Only 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) All of the above</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (B)</strong> — Statement 1 is correct: the Assembly was set up under the Cabinet Mission Plan (May 1946). Statement 2 is wrong: it was NOT created by an Act of the British Parliament — a favourite BPSC trap (the plan was implemented through provincial elections, not legislation). Statement 3 is correct: Rajendra Prasad was elected permanent President on 11 Dec 1946. Hence only 1 and 3.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Match the years with events in the making of the Constitution:<br><br>(a) M.N. Roy's idea (b) August Offer (c) First sitting of the Assembly (d) Adoption of the Constitution<br>1) 1949 2) 1946 3) 1940 4) 1934</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 4, 3, 2, 1</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 3, 4, 2, 1</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 4, 3, 1, 2</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 2, 3, 4, 1</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — (a) 1934 (M.N. Roy), (b) 1940 (August Offer), (c) 1946 (first sitting 9 Dec), (d) 1949 (adoption 26 Nov). Chronological ladder questions are BPSC staples — see Topic 29/33 PYQ patterns. Memorise: 34-38-40-42-46-47-49-50 as the year chain.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Constituent_Assembly_of_India" target="_blank">Constituent Assembly of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Cabinet Mission composition, sessions, adoption</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Drafting_Committee_of_the_Constituent_Assembly_of_India" target="_blank">Drafting Committee — Wikipedia</a> <span style="color:#64748b;font-size:12px;">7 members, chaired by Ambedkar, formed 29 Aug 1947</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Preamble_of_the_Constitution_of_India" target="_blank">Preamble — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Based on the Objectives Resolution (moved 13 Dec 1946)</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Rajendra_Prasad" target="_blank">Rajendra Prasad — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Permanent President of the Assembly; from Siwan, Bihar</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Sachchidananda_Sinha" target="_blank">Sachchidananda Sinha — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Temporary President, 9 Dec 1946; from Arrah, Bihar</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Constitution_Day_(India)" target="_blank">Constitution Day (India) — Wikipedia</a> <span style="color:#64748b;font-size:12px;">26 November, observed since 2015</span></li>
+    <li><a href="https://legislative.gov.in" target="_blank">Legislative Department — Constitution of India</a> <span style="text-decoration:12px;">Official text with all amendments</span></li>
+    <li><a href="https://www.constitutionofindia.net" target="_blank">ConstitutionofIndia.net — CLPR</a> <span style="color:#64748b;font-size:12px;">Assembly debates and member biographies</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 38 — Making of the Constitution • Generated 2026-09-10 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'b', q3: 'c', q4: 'b', q5: 'b',
+  q6: 'd', q7: 'b', q8: 'a', q9: 'd', q10: 'a',
+  q11: 'c', q12: 'a', q13: 'b', q14: 'a', q15: 'c',
+  q16: 'd', q17: 'b', q18: 'a', q19: 'a', q20: 'c',
+  q21: 'b', q22: 'c', q23: 'b', q24: 'b', q25: 'a',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

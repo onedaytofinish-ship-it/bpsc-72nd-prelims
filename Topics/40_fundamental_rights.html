@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>40 - Fundamental Rights | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #40 • TIER A</div>
+  <div class="topic-title">Fundamental Rights — Articles 12–35, Writs &amp; Landmark Cases</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Indian Polity</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2–3 Qs</span>
+    <span class="meta-tag">📅 Exam: 26 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Reasonable restrictions (71st, Q65):</strong> The 71st asked a 4-statement question on "reasonable restrictions" on Fundamental Rights — testing that reasonableness must consider the interests of the general public, and that restrictions are judicially reviewable. Also repeatedly tested: <strong>concurrent-list subjects (Q59)</strong> and <strong>schedules matching (Q62)</strong>. Master the FR-vs-restriction balance for multi-statement traps.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Untouchability &amp; Fifth Schedule (69th, Q105/107):</strong> The 69th asked directly: "Untouchability is abolished by which Article?" — <strong>Article 17</strong>; and "The Fifth Schedule deals with the governance and protection of which group?" — <strong>Scheduled Tribes (Scheduled Areas)</strong>. Single-fact FR questions are BPSC's bread and butter: memorise the Article-to-right table cold.
+  </div>
+
+  <h3>Six Fundamental Rights — the complete map (Part III, Arts 12–35)</h3>
+  <table>
+    <tr><th>Right</th><th>Articles</th><th>Key features/traps</th></tr>
+    <tr><td><strong>Equality</strong></td><td>14, 15, 16, 17, 18</td><td>Art 14: equality before law + equal protection; Art 17: abolishes untouchability (absolute — no exceptions); Art 18: abolishes titles (awards like Bharat Ratna are NOT titles)</td></tr>
+    <tr><td><strong>Freedom</strong></td><td>19, 20, 21, 21A, 22</td><td>Art 19: six freedoms; Art 21: life &amp; personal liberty (Maneka Gandhi 1978 broadened); Art 21A: education 6–14 yrs (86th Amendment 2002); Art 22: arrest safeguards</td></tr>
+    <tr><td><strong>Against Exploitation</strong></td><td>23, 24</td><td>Art 23: bans human trafficking &amp; forced labour (State may impose compulsory service — e.g., military/social); Art 24: no child below 14 in hazardous employment</td></tr>
+    <tr><td><strong>Freedom of Religion</strong></td><td>25, 26, 27, 28</td><td>Art 25: conscience + profess/practice/propagate; Art 27: no compulsory religious taxes; Art 28: no religious instruction in wholly State-funded institutions</td></tr>
+    <tr><td><strong>Cultural &amp; Educational</strong></td><td>29, 30</td><td>Art 29: any section's language/culture; Art 30: minorities to establish educational institutions (not confined to citizens)</td></tr>
+    <tr><td><strong>Constitutional Remedies</strong></td><td>32</td><td>Dr. Ambedkar: "heart and soul of the Constitution"; 5 writs; SC original but not exclusive jurisdiction; FRs are defended but not defined</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — order of FRs:</strong> <strong>E-F-E-R-C-C</strong> ("Every Fellow Enjoys Rights, Clearly &amp; Completely") — Equality (14–18) → Freedom (19–22) → Exploitation (23–24) → Religion (25–28) → Cultural-Educational (29–30) → Constitutional Remedies (32). Note the gaps: Art 31 (property) <strong>deleted</strong> by 44th Amendment 1978; Art 21A inserted; Art 22A-30 no.
+  </div>
+
+  <h3>The six freedoms of Article 19</h3>
+  <table>
+    <tr><th>Clause</th><th>Freedom</th><th>Reasonable restrictions (grounds)</th></tr>
+    <tr><td>19(1)(a)</td><td>Speech &amp; expression</td><td>Sovereignty &amp; integrity, security of State, friendly relations, public order, decency/morality, contempt, defamation, incitement</td></tr>
+    <tr><td>19(1)(b)</td><td>Assembly (peaceable, unarmed)</td><td>Sovereignty &amp; integrity, public order</td></tr>
+    <tr><td>19(1)(c)</td><td>Association</td><td>Sovereignty &amp; integrity, public order, morality</td></tr>
+    <tr><td>19(1)(d)</td><td>Movement throughout India</td><td>General public interest, Scheduled Areas protection</td></tr>
+    <tr><td>19(1)(e)</td><td>Residence</td><td>General public interest, Scheduled Areas protection</td></tr>
+    <tr><td>19(1)(g)</td><td>Profession/occupation/trade/business</td><td>General public, professional/technical qualifications, State monopoly</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/supreme_court_india.jpg" alt="Supreme Court of India">
+    <div class="img-caption">The Supreme Court of India — guardian of Fundamental Rights. Article 32 gives it original (though not exclusive) jurisdiction to issue writs for FR enforcement; "heart and soul" per Dr. Ambedkar.</div>
+  </div>
+
+  <h3>Five writs — complete comparison table</h3>
+  <table>
+    <tr><th>Writ</th><th>Literal meaning</th><th>Purpose</th><th>Typical use</th></tr>
+    <tr><td><strong>Habeas Corpus</strong></td><td>"You may have the body"</td><td>Produce detained person; tests legality of detention</td><td>Illegal detention, preventive detention review</td></tr>
+    <tr><td><strong>Mandamus</strong></td><td>"We command"</td><td>Command public official/body to perform mandatory duty</td><td>Official refuses to act</td></tr>
+    <tr><td><strong>Prohibition</strong></td><td>"To forbid"</td><td>Stop lower court from exceeding jurisdiction (pre-judgment)</td><td>Lower court acting without jurisdiction</td></tr>
+    <tr><td><strong>Certiorari</strong></td><td>"To be certified"</td><td>Quash order of lower court/tribunal (post-judgment); also against judicial &amp; <strong>administrative</strong> authorities</td><td>Quashing illegal orders</td></tr>
+    <tr><td><strong>Quo Warranto</strong></td><td>"By what authority"</td><td>Question legality of a person's claim to a public office</td><td>Unqualified office-holder</td></tr>
+  </table>
+
+  <h3>Landmark cases — the FR evolution ladder</h3>
+  <div class="flowchart">
+    <div class="flow-node">A.K. Gopalan (1950): Art 21 read narrowly — "procedure established by law" means any enacted procedure</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Shankari Prasad (1951) → Golak Nath (1967) → Kesavananda (1973): FRs amendable vs basic-structure battle</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">ADM Jabalpur (1976): FRs suspended during Emergency (widely criticised) → overruled in Puttaswamy (2017)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Maneka Gandhi (1978): procedure must be fair, just, reasonable; golden triangle Arts 14-19-21</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Puttaswamy (2017): privacy is intrinsic to Art 21 (9-judge bench, overruling ADM Jabalpur &amp; M.P. Sharma)</div>
+  </div>
+
+  <h3>Availability matrix — who gets which FR (BPSC's favourite trap)</h3>
+  <table>
+    <tr><th>Right</th><th>Citizens only?</th><th>Notes</th></tr>
+    <tr><td>Arts 15, 16, 19, 29, 30</td><td>15, 16, 19: citizens only; 29, 30: any section/citizens</td><td>Art 19 exclusively citizens; Art 15(3) special provisions for women &amp; children</td></tr>
+    <tr><td>Arts 14, 20, 21, 21A, 22, 23, 24, 25–28</td><td>Available to <strong>all persons</strong> (incl. foreigners, companies)</td><td>Equality before law and life/personal liberty extend to everyone on Indian soil</td></tr>
+    <tr><td>Art 30 (minority institutions)</td><td>Citizens (minorities — religious/linguistic)</td><td>Not confined to citizens; State can regulate standards</td></tr>
+  </table>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">⚡</span> Fact Matrix — Quick Revision</div>
+  <table>
+    <tr><th>Fact</th><th>Answer</th><th>Trap</th></tr>
+    <tr><td>Property as FR</td><td>Art 31 deleted by 44th Amendment (1978); now Art 300A legal right</td><td>"31-B" is different — Ninth Schedule validation</td></tr>
+    <tr><td>Education as FR</td><td>Art 21A added by 86th Amendment (2002), 6–14 yrs, RTE Act 2009</td><td>Not Art 45 (that's DPSP childhood care)</td></tr>
+    <tr><td>Who can suspend FRs</td><td>President under Art 359 during Emergency (except 20–21 post-44th)</td><td>Suspension ≠ automatic; needs Presidential order</td></tr>
+    <tr><td>Martial law vs FRs</td><td>Art 34 — Parliament may indemnify; martial law affects FRs</td><td>Not in Constitution's FR-suspension article set</td></tr>
+    <tr><td>FRs &amp; armed forces</td><td>Art 33 — Parliament may restrict FRs of forces for discipline</td><td>Only Parliament, not State legislatures</td></tr>
+    <tr><td>Abolition of titles (Art 18)</td><td>Academic/military distinctions exempt; Bharat Ratna etc. are awards, not "titles"</td><td>"Balaji Raghavan (1996)" upheld awards</td></tr>
+    <tr><td>Article 14 sources</td><td>UK: "equality before law"; US: "equal protection of laws"</td><td>Both fused in one Article</td></tr>
+    <tr><td>Newest FR-related amendments</td><td>86th (21A), 44th (31 deleted; 19 restored), 42nd (restrictions)</td><td>103rd (EWS 10%) — Art 15(6), 16(6)</td></tr>
+  </table>
+  <div class="img-container">
+    <img src="images/fundamental_rights_constitution.png" alt="Constitution of India — illuminated page">
+    <div class="img-caption">The Constitution's illuminated pages — Part III (Arts 12–35) carries the six Fundamental Rights. The original also bore Art 31 (property), deleted by the 44th Amendment in 1978.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION 🔗                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bihar-box">
+  <div class="bihar-box-title">Bihar Connection 🔗</div>
+  <ul>
+    <li><strong>Art 17 in Bihar's soil:</strong> Bihar's Champaran (1917) and later anti-caste movements (Karpoori Thakur's reservations, 1978 — first OBC quota in India) operationalised Art 17's promise. The <strong>Untouchability (Offences) Act 1955</strong> (renamed Protection of Civil Rights Act 1976) had early test cases from Bihar.</li>
+    <li><strong>Art 23 &amp; Bihar:</strong> historically, migrant-bonded labour flows from Bihar (e.g., brick-kilns of Punjab/Haryana) made Art 23's forced-labour ban a Bihar-relevant enforcement story; SC's <strong>Bonded Labour System (Abolition) Act 1976</strong> jurisprudence drew on such cases.</li>
+    <li><strong>Art 21A &amp; Bihar:</strong> post-2002, Bihar's school-enrollment drives (Sarva Shiksha Abhiyan, bicycle-scheme for girls) are RTE-linked examples BPSC could use as distractors.</li>
+    <li><strong>Patna High Court</strong> (est. 1916) is the FR guardian at state level — writs under Art 226 (power exceeds Art 32: covers "any other purpose" too, not just FRs).</li>
+    <li><strong>Art 19 &amp; JP's Bihar:</strong> the 1974 Bihar movement (Jayaprakash Narayan) invoked freedoms of expression/assembly — and the subsequent Emergency (1975–77, see Topic 46) suspended them, making the JP story Bihar's own FR parable.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC CONNECTIONS                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cross-link">
+  <strong>Cross-Topic Connections:</strong> Preamble ideals → <strong>39</strong>; DPSP (Part IV) balance with FRs → <strong>41</strong>; Union Executive's ordinance role → <strong>42</strong>; judicial review (basic structure) → <strong>44</strong>; emergency FR-suspension (Art 358/359) → <strong>46</strong>; EWS reservation (Art 15(6)) → <strong>49</strong>; Bihar polity (Art 226 writs, Patna HC) → <strong>143</strong>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE 2024–26                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🆕</span> Current Relevance 2024–26</div>
+  <ul>
+    <li><strong>Property not FR but 300A debates (2024–25):</strong> SC observations in eviction/property cases reaffirm Art 300A's status as constitutional (not fundamental) right — "right to property" revival demands (some MPs) keep this fresh; exam point: 44th Amendment, 1978.</li>
+    <li><strong>Privacy → new derivative rights (post-Puttaswamy):</strong> the SC continues to derive rights from Art 21 — internet access (Anuradha Bhasin), choice of food, shelter; 2024–25 judgments on digital arrests/online fraud reference Art 21 dignity.</li>
+    <li><strong>Article 19(1)(a) &amp; digital speech:</strong> SC/HC rulings on social-media takedowns and IT Rules 2021 challenges (ongoing 2024–25) test "procedure, fairness" — Maneka-era doctrine now applied online.</li>
+    <li><strong>EWS &amp; Art 15(6):</strong> 103rd Amendment upheld (Janhit Abhiyan, Nov 2022) — 10% EWS quota constitutional; follow-up litigation on implementation (2024–25) keeps Art 15 amendments relevant.</li>
+    <li><strong>Bihar angle:</strong> Patna HC's 2024–25 PIL rulings on flood-relief, liquor-policy and teacher-recruitment cases regularly test Art 14 arbitrareness &amp; Art 21 livelihood — a good source of BPSC-style scenario questions.</li>
+  </ul>
+</div>
+  <div class="subpage-box">
+    📖 <strong>Deep dive:</strong> For Article-by-Article fine print (14–18 equality code, 19–22 freedom code), the amendment-impact grid (1st → 103rd), the suspension/exception matrix (Arts 33/34/358/359), and 7 exam predictions — see <a href="subpages/40_fundamental_rights_detail.html">Topic 40 Deep Dive: Case Law, Expansion &amp; Exam Predictions</a>.
+  </div>
+<div class="prediction-box">
+  <span class="prediction-tag">72nd BPSC Top 5 Predictions</span>
+  <strong>Most probable questions:</strong> (1) Untouchability Article — Art 17 (absolute, no restrictions). (2) Which FRs citizens-only — 15/16/19. (3) Art 32 "heart and soul" — writs matching (habeas/mandamus/prohibition/certiorari/quo warranto). (4) Maneka Gandhi doctrine — fair-just-reasonable procedure. (5) Deleted FR — property (Art 31, 44th Amendment). Bonus: 86th Amendment's Art 21A.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. [69th BPSC] Untouchability is abolished by which Article of the Constitution?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Article 15</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Article 22</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Article 14</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Article 17</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (D)</strong> — Article 17 abolishes untouchability and forbids its practice in any form; it is <strong>absolute</strong> (no "reasonable restrictions" clause). Enforcing law: Protection of Civil Rights Act 1955; SC/ST (Prevention of Atrocities) Act 1989. Art 14 is general equality; Art 15 prohibits specific discriminations; Art 22 deals with arrest.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Which Article did Dr. B.R. Ambedkar call the "heart and soul of the Constitution"?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Article 14</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Article 32</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Article 21</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Article 19</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (B)</strong> — Article 32 (Right to Constitutional Remedies) — "the heart and soul" per Ambedkar, because without a remedy the rights are meaningless. It is itself a Fundamental Right; SC's jurisdiction is <strong>original</strong> but not exclusive (HCs under Art 226).</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. The right to property was removed from the list of Fundamental Rights by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) 42nd Amendment, 1976</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) 86th Amendment, 2002</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) 52nd Amendment, 1985</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) 44th Amendment, 1978</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (D)</strong> — The <strong>44th Amendment (1978)</strong> deleted Art 31; property is now a constitutional/legal right under <strong>Art 300A</strong> (Part XII). The 42nd had earlier curtailed property rights; 52nd is anti-defection; 86th added Art 21A (education).</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Article 21A, making education a fundamental right for children aged 6–14, was added by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) 93rd Amendment, 2005</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) 42nd Amendment, 1976</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) 86th Amendment, 2002</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) 73rd Amendment, 1992</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (C)</strong> — 86th Amendment (2002) inserted Art 21A; operationalised by the RTE Act 2009 (in force 1 Apr 2010). 93rd Amendment (2005) amended Art 15(5) for OBC/SC/ST reservation in private unaided institutions.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Which of the following Fundamental Rights are available ONLY to citizens of India (not foreigners)?<br>1. Article 15 &nbsp;2. Article 16 &nbsp;3. Article 19 &nbsp;4. Article 21</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Only 1, 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Only 1 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Only 2 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) All four</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (A)</strong> — Arts 15, 16, 19 (also 29, 30) are citizens-only. Art 21 (life &amp; personal liberty) — like Arts 14, 20, 22–28 — extends to <strong>all persons</strong> including foreigners. BPSC's favourite availability trap.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Match the writs with their purposes:<br><br>(a) Habeas Corpus (b) Mandamus (c) Certiorari (d) Quo Warranto<br>1) Command to perform public duty 2) Produce a detained person 3) Test claim to a public office 4) Quash an order without jurisdiction</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) 3, 1, 4, 2</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) 2, 1, 4, 3</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) 1, 2, 3, 4</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) 2, 4, 1, 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — Habeas Corpus → produce the detained body; Mandamus → "we command" performance of duty; Certiorari → quash (post-decision); Quo Warranto → "by what authority" do you hold office. Prohibition (not listed) stops before the decision.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The "golden triangle" of the Constitution refers to Articles:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) 76, 148 and 280</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 14, 19 and 21</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) 245, 246 and 254</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) 32, 226 and 131</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (B)</strong> — The golden triangle: <strong>Arts 14 + 19 + 21</strong> — laws must satisfy all three together (Maneka Gandhi, 1978; K.S. Puttaswamy reaffirmed). Options B/C/D are jurisdictional/administrative article sets.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. In Maneka Gandhi v. Union of India (1978), the Supreme Court held that the "procedure" under Article 21 must be:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Prescribed by the Supreme Court</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Merely enacted by the legislature</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Approved by the President</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Fair, just and reasonable — not arbitrary, fanciful or oppressive</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (D)</strong> — Maneka Gandhi overruled A.K. Gopalan's narrow reading: procedure under Art 21 must be <strong>fair, just and reasonable</strong> (due process substance), and Art 21 must be read with Arts 14 &amp; 19. Option A was Gopalan (1950) — the old view.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. In Justice K.S. Puttaswamy v. Union of India (2017), the Supreme Court:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Held that ADM Jabalpur (1976) was correctly decided</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Declared privacy a fundamental right intrinsic to Article 21</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Held privacy is a common-law right only</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Struck down the Aadhaar Act entirely</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (B)</strong> — A 9-judge bench unanimously held privacy is intrinsic to Art 21 (and Part III generally), overruling M.P. Sharma &amp; Kharak Singh's contrary indications and expressly <strong>overruling ADM Jabalpur</strong> (option D is the opposite). Aadhaar Act was later (2018) upheld with modifications — not struck down entirely.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Which of the following is/are grounds NOT available for restricting Article 19(1)(a) (free speech)?<br>1. Contempt of court &nbsp;2. Friendly relations with foreign states &nbsp;3. Inadequate traffic infrastructure &nbsp;4. Incitement to an offence</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) None — all are valid grounds</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Only 3 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Only 3</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Only 1 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (C)</strong> — Art 19(2) lists 8 grounds: sovereignty &amp; integrity, security of State, friendly relations, public order, decency/morality, contempt, defamation, incitement. "Traffic infrastructure" (3) is not a ground — the classic absurd-option trap. 1, 2 and 4 are all valid.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Article 33 of the Constitution empowers which body to restrict Fundamental Rights of members of the armed forces?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) The Supreme Court</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) The President of India</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) The Chief of Defence Staff</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Parliament</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Art 33: <strong>Parliament</strong> (by law) may restrict FRs of armed forces, para-military, police etc. to ensure discipline and proper performance of duties. Art 34 (martial law indemnity) is also Parliament's domain. The President acts on advice; courts do not restrict FRs.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. During a National Emergency (Art 352), which Fundamental Rights CANNOT be suspended even by Presidential order (after the 44th Amendment)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Articles 20 and 21</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Articles 14 and 15</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Articles 19 and 21</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Articles 25 and 26</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (A)</strong> — The 44th Amendment (1978) made Arts 20 &amp; 21 <strong>non-suspendable</strong> even during Emergency (Art 359 orders cannot touch them). Art 19 is suspendable only in war/external emergency (Art 358, not armed rebellion). ADM Jabalpur's premise died with this amendment.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Certiorari and Prohibition differ in that:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Prohibition is preventive (issued before); certiorari is curative (issued after the order)</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Prohibition lies against administrative authorities only</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Certiorari is preventive; prohibition is curative</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Both are identical in all respects</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (A)</strong> — Prohibition stops a lower court/tribunal <strong>while proceedings are pending</strong>; certiorari quashes an order <strong>already made</strong>. Option A reverses them (classic swap trap). Certiorari can also issue against administrative authorities (post-1991 expansion); prohibition is essentially judicial.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The right to "propagate" religion under Article 25 means:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) A right to convert any person by force</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) A right available to citizens only</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) A right to transmit/expose one's tenets for others' free choice — not forced conversion</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) A right to compulsory religious instruction in State schools</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (C)</strong> — Propagate = transmit tenets; the SC (Rev. Stainislaus, 1977) held it does NOT include a right to convert another forcibly (option A). Art 25 belongs to "all persons" (option D wrong). Art 28(1) forbids compulsory religious instruction in wholly State-funded institutions (option C wrong).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Under Article 15, the State CANNOT make special provision for:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Any religious community as such (on grounds of religion alone)</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Women and children</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Socially and educationally backward classes</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Economically weaker sections (EWS)</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Art 15(1) prohibits discrimination on grounds ONLY of religion (etc.) — so "special provisions for a religious community as such" is impermissible. 15(3) women/children, 15(4) SEBC/SC/ST, 15(5) OBC in institutions, 15(6) EWS (103rd Amendment, upheld in Janhit Abhiyan 2022) are all valid exceptions.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Article 18 (abolition of titles) does NOT prohibit:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Military and academic distinctions</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Hereditary titles of nobility</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Titles like 'Rai Bahadur' conferred by the State</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Titles conferred by a foreign State on Indian citizens</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Art 18(4) bars acceptance of foreign titles by citizens without President's consent; Art 18(1)-(2) bar State titles (Bharat Ratna etc. were held to be awards, not "titles" — Balaji Raghavan, 1996). Military/academic distinctions are <strong>expressly exempt</strong>.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Consider the following statements about Article 22:<br>1. It protects against arrest &amp; detention in criminal cases.<br>2. Detention beyond 24 hours requires a Magistrate's approval.<br>3. Preventive detention safeguards are in Art 22(3)–(7).<br>4. Detention under preventive-detention law can be advisory-board-reviewed beyond 3 months.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Only 2 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) Only 1, 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) All 1, 2, 3 and 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (D)</strong> — All four correct: Art 22(1)-(2) arrest safeguards (ground communication, counsel, 24-hour production); 22(3)-(7) preventive detention (advisory board report beyond 3 months — Art 22(4)). Note: Parliament's preventive-detention law supremacy (Art 22(7)) — a BPSC favourite.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The writ jurisdiction of High Courts under Article 226 differs from the Supreme Court's under Article 32 in that:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Article 226 covers Fundamental Rights AND "any other purpose" — a wider scope</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Article 32 is discretionary while Article 226 is mandatory</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Article 226 is itself a Fundamental Right</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) High Courts cannot issue writs for Fundamental Rights</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Art 226 extends to FRs <strong>and</strong> other legal rights ("any other purpose") — wider in scope; but Art 32 is itself an FR and SC's remedy can't be refused on discretion the way HC writs can. Option D reverses: Art 32 is the FR, not 226.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. In Kesavananda Bharati (1973), the Supreme Court held that Fundamental Rights:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Can never be amended</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Are superior to the Directive Principles in all cases</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Can be amended, but not so as to damage the basic structure</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Can be amended only with States' ratification</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (C)</strong> — Kesavananda overruled Golak Nath (1967, which had made FRs unamendable — option A): Parliament can amend FRs (including by Art 31 changes) but cannot destroy the Constitution's <strong>basic structure</strong>. Option C: post-Minerva Mills (1980), FRs &amp; DPSPs are complementary, not hierarchical. Option D is a special-procedure red herring.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Which Article deals with the abolition of forced/bonded labour?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Article 22</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Article 23</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Article 25</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Article 24</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (B)</strong> — Art 23 prohibits human trafficking and <strong>begar/forced labour</strong> (Bonded Labour System Abolition Act 1976 implements it). Art 24 prohibits child labour below 14 in hazardous jobs. The State MAY impose compulsory service for public purposes (military/social service) — an express exception.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. "Equality before the law" in Article 14 is borrowed from ____ while "equal protection of the laws" is from ____.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Ireland — Canada</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) USA — UK</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) France — Ireland</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) UK — USA</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (D)</strong> — "Equality before law" (a negative concept — no special privileges; Dicey's Rule of Law) ← <strong>UK</strong>; "equal protection of laws" (a positive concept — like treated alike) ← <strong>USA</strong> (14th Amendment). Together they make Art 14.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Which of the following is a correct pair (case — principle)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) ADM Jabalpur — FRs enforceable during Emergency</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Maneka Gandhi — procedure must be fair, just, reasonable</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Minerva Mills — FRs can be freely amended</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) A.K. Gopalan — privacy intrinsic to Art 21</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — Maneka Gandhi (1978) = fair-just-reasonable procedure. A: privacy is Puttaswamy (2017); C: ADM Jabalpur held the opposite (suspended — later overruled); D: Minerva Mills (1980) struck the 42nd's attempt to make FRs amendable at will, restoring basic-structure review.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Article 30 (right of minorities to establish educational institutions) is available to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Both religious and linguistic minorities — whether based on religion or language</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Only religious minorities</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) All communities including the majority</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Only linguistic minorities</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — Art 30 covers minorities based on <strong>religion or language</strong> (not race) — any section of citizens. "Minority" is state-level determined (e.g., Sikhs in Bihar are a minority; Hindus in Punjab). Majority-rights claims fail under Art 30 (option D).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Consider the statements regarding Art 19(1)(g):<br>1. It guarantees the right to practise any profession or carry on any occupation, trade or business.<br>2. The State can impose reasonable restrictions in the interest of the general public.<br>3. The State may create monopolies in its favour (complete exclusion).<br>4. Professional/technical qualifications may be prescribed.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Only 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) All four</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Only 1, 2 and 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — All four correct: 19(1)(g) guarantee; 19(6) allows (i) general-public interest restrictions, (ii) professional/technical qualifications, and (iii) State monopoly/exclusion from any business — the express "complete exclusion" clause. Liquor-ban cases (Bihar prohibition) are tested here.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Which statement about the 103rd Amendment (2019) is correct?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) It introduced the 10th Schedule's anti-defection provisions</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) It abolished reservations in promotions</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) It inserted Article 15(6) &amp; 16(6) enabling 10% reservation for Economically Weaker Sections</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) It gave constitutional status to the National Commission for Backward Classes</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (C)</strong> — The 103rd Amendment (Jan 2019) inserted <strong>Arts 15(6) &amp; 16(6)</strong> for 10% EWS quota — upheld in <strong>Janhit Abhiyan (Nov 2022)</strong>. Option C is the 102nd Amendment (2018, NCBC); B &amp; D are unrelated. EWS excludes OBC/SC/ST/SEBC beneficiaries.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Fundamental_rights_in_India" target="_blank">Fundamental Rights in India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Six FRs, Articles 12–35, availability matrix</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Maneka_Gandhi_v._Union_of_India" target="_blank">Maneka Gandhi case — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Fair-just-reasonable procedure; golden triangle</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/K.S._Puttaswamy_v._Union_of_India" target="_blank">Puttaswamy (Privacy) case — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Privacy intrinsic to Art 21; ADM Jabalpur overruled</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Writ" target="_blank">Writs — Habeas Corpus to Quo Warranto</a> <span style="color:#64748b;font-size:12px;">Five writs under Arts 32/226</span></li>
+    <li><a href="https://legislative.gov.in" target="_blank">Legislative Department — Constitution of India</a> <span style="color:#64748b;font-size:12px;">Official Part III text</span></li>
+    <li><a href="https://www.constitutionofindia.net" target="_blank">ConstitutionofIndia.net — CLPR</a> <span style="color:#64748b;font-size:12px;">Article-wise history and debates</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 40 — Fundamental Rights • Generated 2026-09-10 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'd', q2: 'b', q3: 'd', q4: 'c', q5: 'a',
+  q6: 'b', q7: 'b', q8: 'd', q9: 'b', q10: 'c',
+  q11: 'd', q12: 'a', q13: 'a', q14: 'c', q15: 'a',
+  q16: 'a', q17: 'd', q18: 'a', q19: 'c', q20: 'b',
+  q21: 'd', q22: 'b', q23: 'a', q24: 'c', q25: 'c',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

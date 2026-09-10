@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>41 - DPSP and Fundamental Duties | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #41 • TIER A</div>
+  <div class="topic-title">DPSP &amp; Fundamental Duties — Articles 36–51 and Part IVA</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Indian Polity</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 1–2 Qs</span>
+    <span class="meta-tag">📅 Exam: 26 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>42nd Amendment's additions (69th, Q104-class):</strong> BPSC tested that the 42nd Amendment (1976) added <strong>new Directive Principles — Articles 43A and 48A</strong> (worker participation; environment) — alongside Fundamental Duties (Art 51A). Expect a direct "which DPSPs were added by which amendment" or "Fundamental Duties were added by..." question.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC Pattern</span>
+    <strong>DPSP classification traps:</strong> BPSC repeatedly tests the three-way classification — <strong>Socialist</strong> (Arts 38, 39, 39A, 41, 42, 43, 43A), <strong>Gandhian</strong> (Arts 40, 43, 46, 47, 48), <strong>Liberal-Intellectual</strong> (Arts 44, 45, 48A, 49, 50, 51) — and the DPSP enforcement cases (Champakam Dorairajan, Minerva Mills). Memorise which Articles sit in which bucket.
+  </div>
+
+  <h3>DPSP — nature and characteristics</h3>
+  <ul>
+    <li><strong>Part IV, Arts 36–51</strong> — "Directives" to the State (Art 12 definition of "State" applies); borrowed from the <strong>Irish Constitution</strong> (which took it from Spain).</li>
+    <li><strong>Non-justiciable</strong> (Art 37: not enforceable, yet "fundamental in the governance of the country" — State's duty to apply them in law-making).</li>
+    <li>Distinct from FRs: FRs are <strong>political/social democracy tools, justiciable</strong>; DPSPs are <strong>economic democracy goals, non-justiciable</strong>.</li>
+    <li>K.T. Shah called Part IV "a veritable dustbin of sentiments"; Ambedkar: DPSPs are "instrument of instructions" — but the SC balances both (Minerva Mills: FRs &amp; DPSPs are "conscience" + complementary).</li>
+    <li>DPSPs seek to establish a "<strong>welfare state</strong>" (Madhya Hoshiary Samiti; D.S. Nakara: socialism = welfare state).</li>
+  </ul>
+
+  <h3>Complete DPSP list with classification (Arts 37–51)</h3>
+  <table>
+    <tr><th>Article</th><th>Directive</th><th>Class</th></tr>
+    <tr><td>38</td><td>Social order with justice; minimise inequalities (income, status, facilities)</td><td>Socialist</td></tr>
+    <tr><td>39</td><td>(a) adequate livelihood; (b) equitable resource distribution; (c) prevent concentration of wealth; (d) equal pay for equal work; (e) workers' &amp; children's health; (f) child development opportunities</td><td>Socialist</td></tr>
+    <tr><td>39A</td><td>Equal justice &amp; free legal aid (42nd Amdt 1976)</td><td>Socialist</td></tr>
+    <tr><td>40</td><td>Village panchayats as units of self-government</td><td>Gandhian</td></tr>
+    <tr><td>41</td><td>Right to work, education, public assistance (unemployment, old age, sickness)</td><td>Socialist</td></tr>
+    <tr><td>42</td><td>Just &amp; humane work conditions; maternity relief</td><td>Socialist</td></tr>
+    <tr><td>43</td><td>Living wage for workers; decent standard of life</td><td>Gandhian</td></tr>
+    <tr><td>43A</td><td>Worker participation in industrial management (42nd Amdt 1976)</td><td>Socialist</td></tr>
+    <tr><td>43B</td><td>Co-operative societies promotion (97th Amdt 2011)</td><td>Gandhian</td></tr>
+    <tr><td>44</td><td>Uniform civil code for all citizens</td><td>Liberal</td></tr>
+    <tr><td>45</td><td>Early childhood care &amp; education below 6 years (86th Amdt 2002 recast)</td><td>Liberal/Socialist</td></tr>
+    <tr><td>46</td><td>Promote educational &amp; economic interests of SCs, STs, weaker sections</td><td>Gandhian</td></tr>
+    <tr><td>47</td><td>Raise nutrition, standard of living, public health; prohibit intoxicants</td><td>Gandhian</td></tr>
+    <tr><td>48</td><td>Organise agriculture &amp; animal husbandry; ban slaughter of cows, calves, milch/draught cattle</td><td>Gandhian</td></tr>
+    <tr><td>48A</td><td>Protect environment, forests, wildlife (42nd Amdt 1976)</td><td>Liberal</td></tr>
+    <tr><td>49</td><td>Protect monuments &amp; objects of national importance</td><td>Liberal</td></tr>
+    <tr><td>50</td><td>Separate judiciary from executive in public services</td><td>Liberal</td></tr>
+    <tr><td>51</td><td>Promote international peace &amp; security; honour treaties</td><td>Liberal</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — Gandhian five:</strong> <strong>"Panchsheel of Panchayats"</strong> — 40 (Panchayats), 43 (living wage/cottage), 43B (co-operatives), 46 (SC/ST), 47 (prohibition) — plus 48 (cattle). If the article smells of village, khadi, prohibition, cattle or co-ops → Gandhian. 44 (UCC), 50, 51 are liberal-intellectual.
+  </div>
+
+  <div class="img-container">
+    <img src="images/ambedkar_portrait.jpg" alt="Dr. B.R. Ambedkar">
+    <div class="img-caption">Dr. B.R. Ambedkar — he described Part IV as an "instrument of instructions"; DPSPs are non-justiciable but "fundamental in governance" (Art 37).</div>
+  </div>
+
+  <h3>DPSP case-law ladder</h3>
+  <div class="flowchart">
+    <div class="flow-node">Champakam Dorairajan (1951): FRs prevail over DPSPs if conflict; DPSPs must run subsidiary to FRs → led to 1st Amendment</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Kesavananda (1973) + 42nd Amdt's Art 31C: DPSPs 39(b)/(c) protected from Art 14/19 challenge</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Minerva Mills (1980): Art 31C's blanket protection struck down — balance restored: FRs and DPSPs are complementary, neither superior; "harmonious construction"</div>
+  </div>
+
+  <h3>Fundamental Duties (Part IVA, Art 51A) — the 11 duties</h3>
+  <ul>
+    <li><strong>Added by 42nd Amendment (1976)</strong> on the recommendation of the <strong>Swaran Singh Committee</strong>; originally <strong>10 duties</strong>; the <strong>11th</strong> (education of children 6–14 by parents/guardians) added by the <strong>86th Amendment (2002)</strong>.</li>
+    <li>Applicable to <strong>citizens only</strong> (not foreigners); non-justiciable — no direct enforcement, but courts use them to interpret laws.</li>
+    <li>Japan is the only country with FD-type provisions in its Constitution (USSR inspiration via Swaran Singh).</li>
+  </ul>
+  <table>
+    <tr><th>Clause</th><th>Duty (citizens)</th></tr>
+    <tr><td>(a)</td><td>Respect the Constitution, National Flag &amp; Anthem</td></tr>
+    <tr><td>(b)</td><td>Cherish the noble ideals of the freedom struggle</td></tr>
+    <tr><td>(c)</td><td>Uphold &amp; protect sovereignty, unity &amp; integrity of India</td></tr>
+    <tr><td>(d)</td><td>Defend the country &amp; render national service when called</td></tr>
+    <tr><td>(e)</td><td>Promote harmony &amp; common brotherhood; renounce practices derogatory to women's dignity</td></tr>
+    <tr><td>(f)</td><td>Value &amp; preserve the rich heritage of our composite culture</td></tr>
+    <tr><td>(g)</td><td>Protect the natural environment &amp; have compassion for living creatures</td></tr>
+    <tr><td>(h)</td><td>Develop scientific temper, humanism, spirit of inquiry &amp; reform</td></tr>
+    <tr><td>(i)</td><td>Safeguard public property; abjure violence</td></tr>
+    <tr><td>(j)</td><td>Strive for excellence in all spheres, individual &amp; collective activity</td></tr>
+    <tr><td>(k)</td><td>Provide opportunities for education to one's child/ward aged 6–14 (86th Amdt 2002)</td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — FD story-chain:</strong> <strong>"Flag-Freedom-Sovereignty-Defend-Harmony-Heritage-Environment-Science-Property-Excellence-Education"</strong> — F³S-D-H²-E-S-P-E-E. Count check: 11 letters/duties; (k) is the odd-one-out (86th Amendment).
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">⚡</span> Fact Matrix — Quick Revision</div>
+  <table>
+    <tr><th>Fact</th><th>Answer</th><th>Trap</th></tr>
+    <tr><td>DPSP source</td><td>Ireland (via Spain)</td><td>NOT Britain/US</td></tr>
+    <tr><td>DPSP count</td><td>20 Directives in Part IV (Arts 37–51)</td><td>"Articles 36–51" — Art 36 is only a definition</td></tr>
+    <tr><td>New DPSPs by 42nd</td><td>39A, 43A, 48A (3 new); 38 &amp; 39 recast</td><td>43B is by the 97th (2011), not 42nd</td></tr>
+    <tr><td>FDs added by</td><td>42nd Amdt 1976 (Swaran Singh Committee)</td><td>Verma Committee (1999) studied enforcement, didn't add</td></tr>
+    <tr><td>FD count</td><td>11 (10 + (k) by 86th Amdt 2002)</td><td>"11 duties originally" is wrong — 10</td></tr>
+    <tr><td>FDs apply to</td><td>Citizens only</td><td>DPSPs bind "the State"; FRs bind the State</td></tr>
+    <tr><td>Art 37's phrase</td><td>"Fundamental in the governance of the country"</td><td>Not "enforceable"</td></tr>
+    <tr><td>UCC Article</td><td>44 — liberal-intellectual DPSP</td><td>Not Gandhian</td></tr>
+    <tr><td>Cow-slaughter ban</td><td>Art 48 — Gandhian</td><td>Not Art 47 (prohibition/nutrition)</td></tr>
+    <tr><td>Verma Committee</td><td>1999 — identified legal provisions to implement FDs</td><td>Swaran Singh = author, Verma = enforcer-study</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/constitution_title_page.png" alt="Constitution of India — title page">
+    <div class="img-caption">Part IV (DPSP) and Part IVA (Fundamental Duties) — the "conscience" of the Constitution: non-justiciable ideals guiding legislation.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION 🔗                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bihar-box">
+  <div class="bihar-box-title">Bihar Connection 🔗</div>
+  <ul>
+    <li><strong>Art 39(d) &amp; equal pay:</strong> Bihar's large informal workforce (agriculture, brick-kilns) is the classic illustration for equal-pay DPSP enforcement debates.</li>
+    <li><strong>Art 40 in Bihar's soil:</strong> the <strong>Bihar Panchayati Raj Act (1993 post-73rd)</strong> operationalised Art 40; Bihar was among the earliest states to hold panchayat elections after the amendment. Karpoori Thakur's 1978 panchayat push preceded it.</li>
+    <li><strong>Art 47 &amp; prohibition:</strong> Bihar is India's flagship prohibition state (since 2016) — a direct Gandhian-DPSP implementation story BPSC loves as a scenario. Art 47 exhorts prohibition of intoxicants "except medicinal".</li>
+    <li><strong>Art 46:</strong> Bihar's post-1947 focus on SC/ST educational schemes (residential schools, stipends) and its caste-census-driven policy debates (Topic 21) track Art 46.</li>
+    <li><strong>Art 48A &amp; Bihar ecology:</strong> Valmiki Tiger Reserve, Ganga dolphin (national aquatic animal) protection, and flood-plain management illustrate environmental DPSP.</li>
+    <li><strong>FD (e) &amp; Bihar:</strong> the JP movement (1974) and Bihar's composite culture (Sufi-Buddhist-Jain heritage) supply examples of harmony/composite-culture duties.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC CONNECTIONS                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cross-link">
+  <strong>Cross-Topic Connections:</strong> Preamble (justice ideals ↔ DPSP) → <strong>39</strong>; FRs &amp; harmonious construction (Minerva) → <strong>40</strong>; 42nd Amendment's full impact → <strong>49</strong>; Panchayats (Art 40 → 73rd) → <strong>48</strong>; Bihar panchayats/prohibition → <strong>144</strong>, <strong>15</strong>; Environment (48A) → <strong>150–154</strong>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE 2024–26                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🆕</span> Current Relevance 2024–26</div>
+  <ul>
+    <li><strong>UCC debate (Art 44):</strong> Uttarakhand enacted a UCC (2024) — the first post-Independence state UCC — reigniting the Art 44 debate; SC observations on personal-law reform keep it examinable.</li>
+    <li><strong>DPSP &amp; welfare economics:</strong> SC's 2024–25 rulings on welfare-scheme access (food security, pensions) cite Arts 39/41; "living wage" (Art 43) code implementation is a live NITI/labor-ministry theme.</li>
+    <li><strong>Art 48A in courts:</strong> climate-rights jurisprudence (MC Mehta line → 2024 "right against adverse climate change" recognition in RK Hardash Singh case) extends the environmental DPSP.</li>
+    <li><strong>Fundamental Duties revival:</strong> SC/HC judgments 2024–25 cite FDs (g), (h), (i) — e.g., tree-felling, vandalism cases; NCERT/curriculum pushes on duties education.</li>
+    <li><strong>Bihar angle:</strong> Bihar's prohibition litigation (2024–25 HC rulings on seizure rules) is a live Art 47 scenario; its caste-survey-based schemes are Art 46 in action.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">72nd BPSC Top 5 Predictions</span>
+  <strong>Most probable questions:</strong> (1) FDs added by — 42nd Amendment, Swaran Singh Committee. (2) 11th FD — 86th Amendment (education duty). (3) Gandhian DPSPs — 40/43/46/47/48. (4) New DPSPs by 42nd — 39A, 43A, 48A. (5) Art 37's "fundamental in governance" phrase. Bonus: UCC is Art 44 (liberal).
+</div>
+
+<div class="subpage-box">
+  📖 <strong>Deep dive:</strong> For the full DPSP classification drill, implementation laws for every FD (Verma Committee), UCC litigation history, and 7 exam predictions — see <a href="subpages/41_dpsp_duties_detail.html">Topic 41 Deep Dive</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Directive Principles of State Policy were borrowed from the Constitution of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) Ireland</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) USA</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) USSR</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Britain</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — DPSPs come from the <strong>Irish Constitution</strong> (which itself drew from Spain's 1937 Constitution). Britain gave parliamentary government; USA gave FRs/judicial review; USSR gave FDs &amp; the justice ideal.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. Article 37 states that the Directive Principles are:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Non-justiciable but fundamental in the governance of the country</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Enforceable in courts like Fundamental Rights</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Mere moral appeals with no constitutional status</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Superior to Fundamental Rights</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — Art 37: DPSPs are not enforceable by courts, <strong>BUT</strong> are "fundamental in the governance of the country" — the State's duty to apply them in law-making. Option D understates their constitutional status; option C was the 42nd's transient claim, struck in Minerva Mills.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Fundamental Duties were added to the Constitution on the recommendation of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Verma Committee</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Sarkaria Commission</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Swaran Singh Committee</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Ashok Mehta Committee</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (C)</strong> — The <strong>Swaran Singh Committee (1976)</strong> recommended FDs → added by the 42nd Amendment. The <strong>Verma Committee (1999)</strong> later identified laws to implement them (option A is the classic confusion). Sarkaria = Centre-State; Ashok Mehta = panchayats.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Which of the following Directive Principles were added by the 42nd Amendment (1976)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Articles 44, 45 and 51</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Articles 39A, 43A and 48A</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Articles 40, 45 and 50</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Articles 43B, 39A and 48A</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (B)</strong> — The 42nd added <strong>39A (legal aid), 43A (worker participation), 48A (environment)</strong> and recast 38/39. Option C's 43B (co-operatives) came with the <strong>97th Amendment (2011)</strong> — the trap BPSC most loves.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. The 11th Fundamental Duty (Art 51A(k)) — duty of parents/guardians to provide education opportunities to children aged 6–14 — was added by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) 42nd Amendment, 1976</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) 97th Amendment, 2011</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) 86th Amendment, 2002</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) 44th Amendment, 1978</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — The <strong>86th Amendment (2002)</strong> added Art 51A(k) alongside Art 21A and the recast Art 45 (early childhood). The 42nd added the original 10 duties; 97th is co-operatives.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Which one of the following is a Gandhian Directive Principle?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) International peace (Art 51)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Separation of judiciary from executive (Art 50)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Prohibition of intoxicating drinks (Art 47)</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Uniform civil code (Art 44)</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — Art 47 (prohibition, nutrition, public health) is <strong>Gandhian</strong>, along with 40 (panchayats), 43 (cottage/living wage), 43B, 46, 48. Arts 44, 50, 51 are <strong>liberal-intellectual</strong>. Bihar's prohibition law is the live example.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Fundamental Duties are applicable to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Citizens and the State</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Citizens of India only</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) All persons including foreigners</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) The State only</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (B)</strong> — FDs bind <strong>citizens only</strong> ("It shall be the duty of every citizen of India"). They are not addressed to the State (unlike DPSPs) nor to foreigners (unlike some FRs like Arts 14/21).</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. In Minerva Mills v. Union of India (1980), the Supreme Court:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) Made Directive Principles justiciable</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) Held DPSPs superior to Fundamental Rights</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Struck down the 42nd Amendment's blanket extension of Art 31C — restoring the FR-DPSP balance</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Deleted all Directive Principles</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Minerva Mills struck the 42nd's Art 31C extension (which had shielded <em>all</em> DPSPs from Arts 14/19): FRs &amp; DPSPs are complementary "conscience" elements — neither is superior (harmonious construction). Only 39(b)/(c) retain 31C protection (Kesavananda's reading).</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The Directive Principle of "equal pay for equal work" is found in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Article 47</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Article 41</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Article 43</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Article 39(d)</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (D)</strong> — <strong>Art 39(d)</strong>: equal pay for equal work for both men and women — implemented via the Equal Remuneration Act 1976. Art 41 is right to work/education; Art 43 is living wage; Art 47 is nutrition/prohibition.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. Consider the statements about Fundamental Duties:<br>1. Originally there were 10 duties; the 11th was added in 2002.<br>2. They are justiciable in courts of law.<br>3. Japan's Constitution also contains duties of citizens.<br>4. The Verma Committee (1999) examined their implementation.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) Only 1 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) Only 2 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) All four</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Only 1, 3 and 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — 1 correct (10 + (k) in 2002); 2 WRONG (non-justiciable); 3 correct (Japan — the only other modern constitution with such duties); 4 correct (Verma Committee identified implementation laws).</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Which Article directs the State to promote co-operative societies?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Article 43B</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Article 43</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Article 43A</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Article 46</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (A)</strong> — <strong>Art 43B</strong> (added by the <strong>97th Amendment, 2011</strong>) directs promotion of co-operative societies — the newest Gandhian DPSP. 43A is worker participation (42nd); 43 is living wage/cottage industries; 46 is SC/ST education.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The phrase 'instrument of instructions' (used for DPSPs) was used by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) K.T. Shah</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Granville Austin</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Jawaharlal Nehru</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Dr. B.R. Ambedkar</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (D)</strong> — Ambedkar described Part IV as a veritable "instrument of instructions" (drawn from the GoI Act 1935's Instructions). K.T. Shah (option C) derided it as a "dustbin of sentiments"; Austin praised the FR-DPSP pairing as the "Conscience of the Constitution".</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. In Champakam Dorairajan (1951), the Supreme Court held that:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) DPSPs are wholly unconstitutional</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Both are equal in all respects</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) DPSPs prevail over Fundamental Rights</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) In case of conflict, Fundamental Rights prevail; DPSPs must conform to them</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (D)</strong> — Champakam Dorairajan (1951): FRs prevail; DPSPs run subsidiary. This ruling triggered the <strong>1st Amendment</strong> (Art 15(4)). The balance shifted via 25th/42nd's Art 31C and settled in Minerva Mills (1980) as harmonious construction.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Article 45, after the 86th Amendment, now directs the State to provide:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Technical education to backward classes</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) Adult education for all</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Free and compulsory education for children aged 6–14</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) Early childhood care and education for children below 6 years</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — The 86th Amendment (2002) MOVED 6–14 education INTO Art 21A (justiciable) and RECAST Art 45 for <strong>early childhood care &amp; education below 6 years</strong>. Option A is the OLD Art 45 text (now Art 21A) — a classic post-2002 trap.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. The Uniform Civil Code directive is contained in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Article 43</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) Article 44</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) Article 47</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Article 48</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — <strong>Art 44</strong>: the State shall endeavour to secure a UCC for all citizens — a <strong>liberal-intellectual</strong> DPSP. Uttarakhand's 2024 UCC law is the first state implementation. 43 = living wage; 47 = prohibition; 48 = agriculture/cattle.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Which of the following is NOT a Fundamental Duty under Article 51A?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) To vote in elections</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) To strive for excellence in all spheres</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) To develop scientific temper</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) To safeguard public property and abjure violence</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Voting is a statutory/legal right, NOT a Fundamental Duty. (B), (C), (D) are duties 51A(h), (i), (j). BPSC's "NOT a duty" list usually includes voting, paying taxes, obeying laws — none of which are FDs.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Match List-I (Directive) with List-II (Article):<br><br>(a) Village panchayats (b) Free legal aid (c) Environment protection (d) International peace<br>1) Art 48A 2) Art 40 3) Art 51 4) Art 39A</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 2, 4, 1, 3</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 1, 4, 2, 3</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 2, 4, 3, 1</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 4, 2, 1, 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Panchayats → 40; legal aid → 39A; environment → 48A; international peace → 51. The four most-tested "new-ish" DPSP articles in one matching frame.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The 97th Amendment (2011) is related to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) EWS reservation</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Co-operative societies — Art 43B + Part IXB</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Anti-defection law</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Education as a fundamental right</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — 97th (2011): co-operative societies — inserted <strong>Art 43B</strong> (DPSP) and <strong>Part IXB</strong>; made right to form co-operatives an FR (Art 19(1)(c) + 19(4) extension). 52nd = anti-defection; 86th = education; 103rd = EWS.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Which of the following pairs is/are correctly matched? (Fundamental Duty — Clause)<br>1. Protect natural environment — 51A(g)<br>2. Develop scientific temper — 51A(h)<br>3. Safeguard public property — 51A(i)<br>4. Provide education opportunities to children — 51A(k)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Only 1 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) All four</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Only 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Only 1, 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (B)</strong> — All four are correctly paired: (g) environment &amp; compassion for creatures; (h) scientific temper; (i) public property, abjure violence; (k) education duty (86th Amdt). Memorise letter-tag pairs — BPSC tests exact clauses.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. "The Directive Principles are like a cheque payable at the convenience of the bank" — this criticism reflects their:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Vagueness of language only</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) Supremacy over Fundamental Rights</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Non-justiciability — no court enforcement</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Extra-constitutional origin</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (C)</strong> — The cheque-on-demand criticism (K.T. Shah's "cheque on a bank payable only when able") targets <strong>non-justiciability</strong>: lofty goals without court enforcement. (T.S. Rau's coinage is related.) Note: this differs from Cripps' "post-dated cheque" for the Mission plan — distinct quote traps.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Which Directive Principle was described by Dr. Ambedkar as the "soul of the Constitution"?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Article 40 (village panchayats)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Article 32 (constitutional remedies) — not a DPSP</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Article 44 (uniform civil code)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) Article 51 (international peace)</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (A)</strong> — Ambedkar said <strong>Art 40</strong> (village panchayats) is the "soul of the Constitution" — a favourite one-liner. He called Art 32 the heart-and-soul of the Constitution (option C mixes the two quotes — and Art 32 isn't even a DPSP).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Consider the statements about Article 48:<br>1. It directs organisation of agriculture and animal husbandry on modern scientific lines.<br>2. It prohibits slaughter of cows and calves.<br>3. It extends the ban to all cattle whatsoever.<br>4. Milch and draught cattle are specifically mentioned.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) All four</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Only 1, 2 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Only 2, 3 and 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (B)</strong> — Art 48 bans slaughter of <strong>cows, calves and other milch &amp; draught cattle</strong> — NOT "all cattle whatsoever" (statement 3 overreaches; the Constitution doesn't mandate a total beef ban; State laws vary). Statements 1, 2, 4 are accurate.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The right to free legal aid (Art 39A) has been read by the Supreme Court into which Fundamental Right?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) Article 25</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) Article 19</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Article 14 only</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Article 21 — as part of a fair, just and reasonable procedure</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (D)</strong> — Hussainara Khatoon (1979) &amp; Khatri (1981): free legal aid is implicit in <strong>Art 21</strong> (fair trial) and Art 14 (equal access). Legal Services Authorities Act 1987 + NALSA implement Art 39A. A prime example of DPSP-FR fusion.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. Which of the following correctly pairs a Directive Principle with its implementing legislation?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Art 40 — Panchayati Raj via 73rd Amendment, 1992</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Art 39A — Legal Services Authorities Act, 1987</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) All of the above</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Art 39(d) — Equal Remuneration Act, 1976</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (C)</strong> — All three pairings are correct: 39A ↔ NALSA/Legal Services Act; 39(d) ↔ Equal Remuneration Act; 40 ↔ 73rd Amendment (Panchayats). DPSP-implementation matching is a recurrent BPSC format.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Fundamental Duties differ from Fundamental Rights in that duties are:<br>1. owed by citizens towards the State/society, not claims against the State<br>2. non-justiciable<br>3. contained in Part IVA (Art 51A)<br>4. enforceable via writs</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Only 1, 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) All four</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Only 2 and 3</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) Only 1 and 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — 1, 2, 3 correct: duties are citizen-obligations, non-justiciable, Part IVA/51A. 4 is wrong — writs (Art 32/226) enforce FRs, not duties. Courts use FDs only interpretively (e.g., AIIMS Students' Union).</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Directive_Principles_in_the_Constitution_of_India" target="_blank">Directive Principles — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Full Arts 36–51 text, classification</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Fundamental_duties_of_India" target="_blank">Fundamental Duties of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">11 duties, Swaran Singh/Verma Committees</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Minerva_Mills_v._Union_of_India" target="_blank">Minerva Mills case — Wikipedia</a> <span style="color:#64748b;font-size:12px;">FR-DPSP balance restored</span></li>
+    <li><a href="https://legislative.gov.in" target="_blank">Legislative Department — Constitution of India</a> <span style="color:#64748b;font-size:12px;">Official Part IV / Part IVA text</span></li>
+    <li><a href="https://www.constitutionofindia.net" target="_blank">ConstitutionofIndia.net — CLPR</a> <span style="color:#64748b;font-size:12px;">Assembly debates on DPSPs</span></li>
+    <li><a href="https://nalsa.gov.in" target="_blank">NALSA — National Legal Services Authority</a> <span style="color:#64748b;font-size:12px;">Art 39A implementation</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 41 — DPSP &amp; Fundamental Duties • Generated 2026-09-10 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'c', q4: 'b', q5: 'c',
+  q6: 'c', q7: 'b', q8: 'c', q9: 'd', q10: 'd',
+  q11: 'a', q12: 'd', q13: 'd', q14: 'd', q15: 'b',
+  q16: 'a', q17: 'a', q18: 'b', q19: 'b', q20: 'c',
+  q21: 'a', q22: 'b', q23: 'd', q24: 'c', q25: 'a',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>46 - Emergency Provisions | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #46 • TIER A</div>
+  <div class="topic-title">Emergency Provisions — Art 352, 356 &amp; 360</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Indian Polity</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2 Qs</span>
+    <span class="meta-tag">📅 Exam: 26 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>National Emergency (70th, Q28):</strong> BPSC tested Art 352's mechanics — proclamation on the Cabinet's <strong>written recommendation</strong>; parliamentary approval within <strong>1 month</strong> (post-44th Amdt) by special majority; extensions every <strong>6 months</strong> indefinitely; grounds: war, external aggression, <strong>armed rebellion</strong> (44th replaced "internal disturbance"). "Internal disturbance" was the old term — the 1975 Emergency's lesson.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Financial Emergency (69th, Q118-119):</strong> Art 360 tested — financial stability threatened; President's proclamation; parliamentary approval within <strong>2 months</strong> by simple majority; <strong>no periodic re-approval</strong> (continues till revoked); salary reductions possible (including SC/HC judges). <strong>Never imposed</strong> — India's unused safety valve.
+  </div>
+
+  <h3>The three emergencies — master comparison</h3>
+  <table>
+    <tr><th>Feature</th><th>National (Art 352)</th><th>President's Rule (Art 356)</th><th>Financial (Art 360)</th></tr>
+    <tr><td>Grounds</td><td>War, external aggression, armed rebellion</td><td>Failure of constitutional machinery in a state</td><td>Financial stability or credit threatened</td></tr>
+    <tr><td>Who recommends</td><td>Union Cabinet in writing (44th Amdt)</td><td>Governor's report (or otherwise)</td><td>President's own satisfaction (no written-Cabinet bar)</td></tr>
+    <tr><td>Parliamentary approval</td><td>Within <strong>1 month</strong>; special majority</td><td>Within <strong>2 months</strong>; simple majority</td><td>Within <strong>2 months</strong>; simple majority</td></tr>
+    <tr><td>Duration/extension</td><td>6 months at a time; indefinite with repeated approvals (first extension needs 44th's "armed rebellion in India" test... post-1-year extensions every 6 months)</td><td>6 months; max <strong>3 years</strong> (with 44th's 1-year roadblocks after the first year)</td><td><strong>Indefinite</strong> once approved — no re-approval</td></tr>
+    <tr><td>Revocation</td><td>President anytime; <strong>LS may revoke by simple majority</strong> (44th)</td><td>President anytime</td><td>President anytime</td></tr>
+    <tr><td>FRs effect</td><td>Art 19 auto-suspended for <strong>war/external aggression only</strong> (Art 358); other FRs restrictable by law (Art 359) — <strong>Arts 20-21 never suspendable</strong></td><td>No direct FR effect</td><td>None</td></tr>
+    <tr><td>Impositions</td><td>3 times: 1962 (China), 1971 (Pak), <strong>1975 (internal)</strong></td><td><strong>130+ times</strong>; Bihar 8+</td><td><strong>Never</strong></td></tr>
+  </table>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — approvals:</strong> <strong>"352 = 1 month special; 356 = 2 months simple; 360 = 2 months simple, no repeat."</strong> Written Cabinet recommendation: <strong>only Art 352</strong> (the 44th's gift after 1975).
+  </div>
+
+  <h3>National Emergency — the full mechanics (Art 352)</h3>
+  <ul>
+    <li><strong>Grounds refined by the 44th (1978):</strong> "armed rebellion" replaced "internal disturbance" — the 1975 proclamation's abuse legacy; the President may proclaim <strong>even before actual occurrence</strong> (imminent danger) — "imminent" language added.</li>
+    <li><strong>Written recommendation:</strong> the Cabinet (not merely the PM) must recommend in writing — 1975's oral-advice lesson.</li>
+    <li><strong>Judicial review:</strong> 44th made the President's satisfaction <strong>reviewable</strong> on mala fides; <strong>Minerva Mills (1980)</strong>: the "satisfaction" is not purely political.</li>
+    <li><strong>LS's special power:</strong> <strong>Art 352(7)-(8)</strong>: 1/10 of LS members may require a special sitting to consider revocation — the minority-trigger device (44th).</li>
+    <li><strong>Effects:</strong> Centre's executive extends to states' subjects; Parliament legislates on State List (Art 250); LS's term extendable 1 year at a time; financial redistribution (Art 354); Art 355's duty basis.</li>
+    <li><strong>Art 358 vs 359:</strong> 358 = Art 19 <em>automatically</em> suspended (only war/external aggression); 359 = enforcement of named FRs suspended by presidential order — but never Arts 20-21 (the 44th's codified repudiation of ADM Jabalpur, which Puttaswamy formally overruled in 2017).</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/rashtrapati_bhavan.jpg" alt="Rashtrapati Bhavan — proclamation source">
+    <div class="img-caption">Rashtrapati Bhavan — the President proclaims all three emergencies (Arts 352, 356, 360), but always on the Union Cabinet's written advice (Art 352 post-44th) and subject to Parliament's approval.</div>
+  </div>
+
+  <h3>President's Rule (Art 356) — the most-used weapon</h3>
+  <ul>
+    <li><strong>Trigger:</strong> "government cannot be carried on per the Constitution" — President's satisfaction on the Governor's report <em>or otherwise</em>.</li>
+    <li><strong>S.R. Bommai (1994):</strong> judicial review; floor test; no dissolution before parliamentary approval; secularism/basic-structure shield; majority-proclamation abuse curbed.</li>
+    <li><strong>Effects (Arts 356-357):</strong> state assembly dissolved/suspended; President assumes state executive; Parliament (or the President when Parliament is not in session, subject to approval) exercises the state's legislative powers; Governor acts on the Union's directions.</li>
+    <li><strong>Max 3 years</strong> with the 44th's brakes: beyond 1 year only if (a) National Emergency in force, or (b) EC certifies elections can't be held.</li>
+    <li><strong>Bihar's tryst:</strong> imposed 8+ times — 1995 (short-lived), <strong>1999 (Rabri Devi govt)</strong>, and the 2005 attempt struck down (Rameshwar Prasad — Topic 45).</li>
+  </ul>
+
+  <h3>Emergency timeline — the constitutional flow</h3>
+  <div class="flowchart">
+    <div class="flow-node">Cabinet's written recommendation → President proclaims (Art 352)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Parliament approval within 1 month — special majority (both Houses)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Continues 6 months → extensions every 6 months indefinitely (no max)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Revocation: President anytime; or LS resolution (1/10 members' demand for sitting)</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">⚡</span> Fact Matrix — Quick Revision</div>
+  <table>
+    <tr><th>Fact</th><th>Answer</th><th>Trap</th></tr>
+    <tr><td>National Emergency count</td><td>3 (1962, 1971, 1975)</td><td>1975 = the only "internal" one; 1971 lasted till 1977</td></tr>
+    <tr><td>44th Amdt's changes</td><td>"Armed rebellion" replaces "internal disturbance"; written Cabinet advice; 1-month approval; LS revocation power</td><td>Approval was 2 months pre-44th</td></tr>
+    <tr><td>Art 358 applies when</td><td>War/external aggression only</td><td>NOT armed rebellion — Art 19 survives internal emergencies</td></tr>
+    <tr><td>Never-suspendable FRs</td><td>Arts 20 &amp; 21 (44th)</td><td>ADM Jabalpur (1976) is overruled doctrine now</td></tr>
+    <tr><td>President's Rule count</td><td>130+; max 3 years; Bihar 8+</td><td>Art 365: compliance-with-directions failure → deemed 356</td></tr>
+    <tr><td>Financial Emergency</td><td>Never imposed; 2-month approval; no max duration; salaries reducible incl. judges</td><td>No special majority needed</td></tr>
+    <tr><td>Revocation majority</td><td>Simple majority (LS resolution)</td><td>No joint sitting for any emergency approval/revocation</td></tr>
+    <tr><td>LS term extension</td><td>1 year at a time (National Emergency)</td><td>State assemblies: 6 months at a time (Art 172)</td></tr>
+    <tr><td>Bommai's floor test</td><td>Majority tested on the floor, not the Governor's report</td><td>Dissolution only after parliamentary approval</td></tr>
+    <tr><td>1975's approver</td><td>Proclaimed on "internal disturbance" — pre-44th language</td><td>Struck down post-1977 amendments restored balance</td></tr>
+  </table>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION 🔗                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bihar-box">
+  <div class="bihar-box-title">Bihar Connection 🔗</div>
+  <ul>
+    <li><strong>Bihar under President's Rule:</strong> 8+ impositions — notable: <strong>1999</strong> (Rabri Devi government dismissed — lasted till 2000 elections), <strong>2005</strong> (February dissolution struck down — Rameshwar Prasad; President's Rule till November polls).</li>
+    <li><strong>1999 Bihar case study:</strong> the Lok Sabha debated the dismissal; the imposition continued through the bifurcation (Jharkhand created Nov 2000 under President's Rule) — a rare "state reorganisation during 356" episode.</li>
+    <li><strong>1975 Emergency's Bihar imprint:</strong> Jayaprakash Narayan's <strong>Champaran-born Total Revolution</strong> triggered the Emergency (June 1975); JP's arrest and the Bihar movement (1974) are the historical anchor BPSC can frame from either topic (46 or 29/157).</li>
+    <li><strong>JP's lesson codified:</strong> the 44th Amdt's written-Cabinet-advice + LS-revocation clauses exist because of the JP-era lessons — Bihar's movement indirectly reshaped the emergency articles.</li>
+    <li><strong>Art 355 in Bihar's context:</strong> floods/migration don't trigger 355's "disturb" duty, but internal-security episodes historically invoked Art 355 debates (e.g., caste-militia eras 1980-90s).</li>
+    <li><strong>Bihar's assembly extensions:</strong> Art 172's 6-month extensions never needed for Bihar — but the 2005 case's assembly-dissolution sequence (recommendation → proclamation → SC strike-down) is Bihar's gift to Art 356 case law.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/jp_narayan.jpg" alt="Jayaprakash Narayan — Loknayak">
+    <div class="img-caption">Jayaprakash Narayan (Loknayak) — his 1974 Bihar-born Total Revolution triggered the 1975 Emergency; the 44th Amendment's safeguards (written Cabinet advice, LS revocation power) are JP-era lessons codified.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC CONNECTIONS                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cross-link">
+  <strong>Cross-Topic Connections:</strong> FR suspension (Arts 358-359) → <strong>40</strong>; President's proclamation powers → <strong>42</strong>; Parliament's approval majorities → <strong>43</strong>; ADM Jabalpur's overruling → <strong>44</strong>; Bommai/Rameshwar Prasad → <strong>45</strong>; Governor's role → <strong>45</strong>; JP movement's Emergency trigger → <strong>157</strong>; Bihar's President's Rule chronology → <strong>143</strong>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE 2024–26                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🆕</span> Current Relevance 2024–26</div>
+  <ul>
+    <li><strong>1975 Emergency's 50th anniversary (June 2025):</strong> "Samvidhan Hatya Diwas" (June 25, proclaimed 2024) — commemoration politics keeps the 44th Amdt's provisions exam-fresh.</li>
+    <li><strong>Financial Emergency chatter:</strong> 2020s fiscal-stress debates (COVID-era) referenced Art 360 — never crossed the threshold; the "never-used" fact remains the exam answer.</li>
+    <li><strong>President's Rule usage 2024-25:</strong> no fresh impositions (the last was Puducherry 2021 — none since) — Bommai-era restraint continues; Governor-tussle litigation is the modern substitute for 356.</li>
+    <li><strong>Art 352's modern test:</strong> Manipur violence (2023-24) debates — "armed rebellion" threshold NOT crossed officially; the 44th's higher bar visible in practice.</li>
+    <li><strong>Bihar angle:</strong> 2025 Bihar election-cycle federal debates (special-status, delimitation anxieties) keep Centre-state tension narratives alive — but 356's use in Bihar remains a 20th-century memory.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">72nd BPSC Top 5 Predictions</span>
+  <strong>Most probable questions:</strong> (1) Art 352 grounds + written Cabinet advice (44th). (2) Approval windows: 1 month (352) vs 2 months (356/360). (3) Art 360 never imposed + no max duration. (4) Arts 20-21 never suspendable. (5) Bommai's floor-test rule.
+</div>
+
+<div class="subpage-box">
+  📖 <strong>Deep dive:</strong> For the 1975 Emergency case study, Bommai principles, Art 358/359 distinction drill, 44th Amdt's full emergency package, and 7 exam predictions — see <a href="subpages/46_emergency_detail.html">Topic 46 Deep Dive</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. [70th BPSC] A proclamation of National Emergency under Article 352 can be made only on the written recommendation of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) The Parliament</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) The Chief Justice of India</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) The Union Cabinet</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) The Prime Minister alone</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (C)</strong> — 44th Amdt: the <strong>Union Cabinet's written recommendation</strong> is mandatory (1975's oral-advice lesson). The PM alone cannot trigger it — the whole Cabinet must be on record.</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The grounds for National Emergency after the 44th Amendment include:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) War, external aggression and internal disturbance</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Breakdown of law and order only</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) War, external aggression and armed rebellion</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Financial instability and armed rebellion</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (C)</strong> — 44th (1978): "<strong>armed rebellion</strong>" replaced "internal disturbance" (too vague, abused in 1975). War/external aggression/armed rebellion — and the President may act even on imminent danger.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. A proclamation of National Emergency must be approved by Parliament within:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Six months</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) One month (by special majority)</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) One year</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Two months (by simple majority)</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — 44th: <strong>1 month</strong> (was 2 months), special majority, both Houses; otherwise it lapses. Extensions: every 6 months indefinitely — each needs fresh approval.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. National Emergency has been proclaimed in India:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Once</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Twice</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Five times</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Three times</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — <strong>3 times</strong>: 1962 (China war), 1971 (Pak war), 1975 (internal disturbance — the only non-war one; revoked 1977).</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Financial Emergency under Article 360:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) Requires special majority approval</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Has never been imposed; once approved, it continues indefinitely without periodic re-approval</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Lasts a maximum of six months</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Has been imposed twice</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (B)</strong> — Art 360: <strong>never imposed</strong>; approval within 2 months by <strong>simple majority</strong>; no maximum duration — continues till revoked. 69th BPSC (Q118-119) tested exactly this never-used status.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. Under Art 358, Article 19 is automatically suspended:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Only when the emergency is on the ground of war or external aggression — not armed rebellion</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) In every National Emergency</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Only during President's Rule</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) During Financial Emergency</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (A)</strong> — Art 358: Art 19 stands suspended only for <strong>war/external aggression</strong> emergencies — the 44th's refinement (1975-type internal emergencies no longer touch Art 19). Art 359 is the separate order-based route.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. Which Fundamental Rights can NEVER be suspended even during an Emergency?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Arts 14 and 19</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Arts 32 and 226</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) Arts 25 and 26</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Arts 20 and 21</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (D)</strong> — 44th Amdt: <strong>Arts 20-21 non-suspendable</strong> under any presidential order (Art 359's bar) — the anti-ADM-Jabalpur codification (that 1976 case was formally overruled in Puttaswamy, 2017).</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. President's Rule under Art 356 can last a maximum of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) 6 months</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) 3 years</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) 1 year</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Indefinitely</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (B)</strong> — 6 months at a time, extendable to <strong>3 years max</strong>; beyond 1 year only if a National Emergency is in force or the EC certifies elections can't be held (44th's brakes).</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. S.R. Bommai v. Union of India (1994) established:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Art 356 is judicially reviewable; majority must be tested on the floor; no dissolution before parliamentary approval</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Governor's report is final</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Art 356 is beyond judicial review</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) President's Rule can be permanent</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — <strong>Bommai (1994)</strong>: floor test; judicial review; assembly dissolution only after Parliament approves; secularism = basic structure. Bihar's Rameshwar Prasad (2006) applied it to strike the dissolution.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The 1975 National Emergency was proclaimed on the ground of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) War</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) External aggression</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) Armed rebellion</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) Internal disturbance</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (D)</strong> — June 1975: "<strong>internal disturbance</strong>" (the pre-44th term) — triggered amid JP's Bihar-rooted movement; the 44th later renamed the ground "armed rebellion" precisely to prevent such use.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. The Lok Sabha may require reconsideration of a National Emergency by a special sitting if:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) The Speaker agrees</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) The President permits</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Half the members demand it</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) One-tenth of LS members demand it in writing — the House must sit within 14 days</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Art 352(8)-(9) (44th): <strong>1/10 of LS members</strong> may demand a special sitting to consider revocation; if passed by simple majority, the Emergency stands revoked — LS's anti-emergency check.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. During a National Emergency, the Lok Sabha's term can be extended:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) By 2 years at a time</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) It cannot be extended</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) By 1 year at a time (any number of times while the Emergency lasts)</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) By 6 months at a time</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — LS term: extendable <strong>1 year at a time</strong> under a National Emergency (not beyond 6 months after it ends). State assemblies: 6 months at a time (Art 172).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Under Art 360, during a Financial Emergency, the President may direct:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Suspension of the Constitution</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Reduction of salaries of all state and Union employees, including Supreme Court and High Court judges</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Dissolution of state assemblies</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Takeover of private property</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (B)</strong> — Art 360: salary-reduction directions (including judges' pensions/salaries per 360(4)(b)); money-bills reservation for the President; financial propriety observance. The judge-salary clause is the classic MCQ point.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. Bihar's Assembly dissolution (2005) was struck down because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) Bihar was not a state</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) The President refused assent</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) Elections were due</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) The Governor's report was mala fide; the floor test was bypassed</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (D)</strong> — <strong>Rameshwar Prasad (2006)</strong>: Governor Buta Singh's recommendation was mala fide (no floor test, no chance to form a government) — Bommai principles applied to Bihar's 2005 dissolution.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Under Art 359, the President may suspend the enforcement of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) Named fundamental rights — except Arts 20 and 21</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) The Constitution itself</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) All fundamental rights</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) Only Art 19</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (A)</strong> — Art 359: presidential order suspends <em>enforcement</em> of specified FRs (not the rights themselves); <strong>Arts 20-21 exempt</strong> (44th). Art 358 is automatic; 359 needs an order naming rights.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Art 365 deals with:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Failure to comply with Union directions — deemed failure of constitutional machinery</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) War emergency</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Fundamental duties</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Financial Emergency</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (A)</strong> — Art 365: a state's failure to comply with the Union's executive directions = <strong>deemed</strong> "failure of constitutional machinery" → Art 356 available — the backdoor trigger.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The proclamation of President's Rule must be approved by Parliament within:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) 2 weeks</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) 1 month</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) 2 months (simple majority)</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) 6 months</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (C)</strong> — Art 356: approval within <strong>2 months</strong> by simple majority (both Houses); continues 6 months per approval, max 3 years. Contrast 352's 1-month/special-majority rule.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. During a National Emergency, the Centre's executive power extends to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Any matter on which the Union has power to legislate — including State List directions to states</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Only defence</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Only Union subjects</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Foreign affairs alone</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (A)</strong> — Art 353: the Union may direct states on <strong>any</strong> matter; Parliament may legislate on State List subjects (Art 250) — the "unitary conversion" of the federation (Art 353/250/354 combo).</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. Which state experienced President's Rule when Jharkhand was carved out of it (2000)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Bihar</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Odisha</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Uttar Pradesh</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) West Bengal</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — Bihar was under President's Rule (1999-2000, the Rabri Devi dismissal's aftermath) when the Bihar Reorganisation Act 2000 created Jharkhand (Nov 15, 2000) — a rare reorganisation-during-356 episode.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. The 44th Amendment's emergency-package changes include all EXCEPT:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) 'Armed rebellion' replacing 'internal disturbance'</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) One-month approval window with special majority</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) Written Cabinet recommendation requirement</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Removal of the LS's power to revoke the Emergency by resolution</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (D)</strong> — The 44th <strong>ADDED</strong> the LS's 1/10-members special-sitting + simple-majority revocation (Art 352(7)-(8)) — it did not remove it. A/B/C are the 44th's actual signature changes.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. 'Samvidhan Hatya Diwas' commemorates:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Partition</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) The proclamation of the 1975 Emergency (25 June)</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) The Jallianwala Bagh massacre</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) The Battle of Plassey</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — June 25 declared <strong>Samvidhan Hatya Diwas</strong> (2024) marking the 1975 Emergency's proclamation — the 50th anniversary fell in June 2025, keeping the topic exam-fresh.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. During President's Rule in a state, the dissolved/suspended assembly's fate and Parliament's role:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) The assembly continues normally</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) The Governor legislates personally</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) The Union Parliament exercises the state legislature's powers; the assembly may be dissolved only after parliamentary approval of the proclamation</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) The President legislates directly without Parliament</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (C)</strong> — During 356: Parliament (or the President, when Parliament not in session, subject to approval) exercises the state's legislative powers; <strong>Bommai</strong>: no dissolution before Parliament approves the proclamation.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. Who decides whether a National Emergency proclamation deserves revocation?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) The Supreme Court</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) The President anytime; AND the Lok Sabha by simple majority (if 1/10 members demand a sitting)</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) The Cabinet unanimously</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Only the President</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — Dual revocation: the President's revocation anytime (no approval needed) + LS's resolution route (1/10 demand → special sitting within 14 days → simple majority = revoked).</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The JP Movement (1974) and the 1975 Emergency are linked because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) JP's Total Revolution — launched from Bihar — challenged the Indira government; the Emergency was proclaimed citing internal disturbance amid JP's 'army' call and the Allahabad verdict</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) JP supported the Emergency</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Bihar was exempted from the Emergency</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) The Emergency helped JP win elections</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — JP's Bihar-born movement (1974 Gujarat + Bihar agitations → Total Revolution) + the June 1975 Allahabad HC verdict = the Emergency's immediate triggers; JP was arrested (Detention era) — the Bihar-history/polity crossover BPSC loves.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Financial Emergency directions under Art 360(4) include all EXCEPT:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Reservation of state money bills for the President</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) Salary cuts for Union employees</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Dissolution of the Finance Commission</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) Salary cuts for state employees, including SC/HC judges</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (C)</strong> — Art 360(4): salary-reduction directions + money-bill reservation — <strong>NOT</strong> the FC's dissolution (the FC is a constitutional body under Art 280; no emergency power touches it).</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Emergency_Provisions_of_the_Constitution_of_India" target="_blank">Emergency Provisions — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Arts 352-360, 44th Amdt changes</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/The_Emergency_(India)" target="_blank">The Emergency (1975-77) — Wikipedia</a> <span style="color:#64748b;font-size:12px;">The only internal Emergency</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/S.R._Bommai_v._Union_of_India" target="_blank">S.R. Bommai case — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Art 356's judicial review</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/President%27s_rule" target="_blank">President's Rule — Wikipedia</a> <span style="color:#64748b;font-size:12px;">State-wise imposition history</span></li>
+    <li><a href="https://legislative.gov.in" target="_blank">Legislative Department — Constitution text</a> <span style="color:#64748b;font-size:12px;">Part XVIII official text</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 46 — Emergency Provisions • Generated 2026-09-10 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'c', q2: 'c', q3: 'b', q4: 'd', q5: 'b',
+  q6: 'a', q7: 'd', q8: 'b', q9: 'a', q10: 'd',
+  q11: 'd', q12: 'c', q13: 'b', q14: 'd', q15: 'a',
+  q16: 'a', q17: 'c', q18: 'a', q19: 'a', q20: 'd',
+  q21: 'b', q22: 'c', q23: 'b', q24: 'a', q25: 'c',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

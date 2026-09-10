@@ -1,0 +1,327 @@
+[
+ {
+  "q": "The Collegium for appointment of Supreme Court judges comprises:",
+  "options": [
+   "CJI + 4 senior-most SC judges",
+   "President + CJI + Leader of Opposition",
+   "CJI + 2 senior-most SC judges",
+   "CJI + Law Minister + 2 judges"
+  ],
+  "answer": 0,
+  "explanation": "Third Judges Case (1998): SC collegium = CJI + 4 senior-most puisne judges. HC collegium = CJI + 2 senior-most + the concerned HC CJ. NJAC (99th Amdt, 2014) tried replacing it — struck down 2015 (4:1).",
+  "difficulty": "pyq",
+  "pyq_ref": "69th collegium Q1-3 | null"
+ },
+ {
+  "q": "The theory of basic structure of the Constitution was propounded in:",
+  "options": [
+   "A.K. Gopalan v. State of Madras",
+   "Golak Nath v. State of Punjab",
+   "Minerva Mills v. Union of India",
+   "Kesavananda Bharati v. State of Kerala"
+  ],
+  "answer": 3,
+  "explanation": "Kesavananda (1973, 7:6): Parliament may amend any part but cannot destroy the basic structure. Golak Nath (1967) held FRs unamendable (later reversed by the 24th Amdt); Minerva Mills (1980) applied basic structure to strike 368(4)(5).",
+  "difficulty": "pyq",
+  "pyq_ref": "69th Q108 | null"
+ },
+ {
+  "q": "Under Article 143, the President can seek the Supreme Court's advisory opinion. The opinion is:",
+  "options": [
+   "Equivalent to a judgment under Art 141",
+   "Binding on all courts",
+   "Binding on the President",
+   "Not binding on the President — and the SC may refuse references except pre-constitutional treaty matters"
+  ],
+  "answer": 3,
+  "explanation": "Art 143(1): advisory, not binding on the President; SC may decline. Exception: 143(2) disputes involving pre-constitutional treaties etc. — SC is bound to report (duty, still not binding on the President).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which writ is issued to quash an order already passed by a lower court or tribunal?",
+  "options": [
+   "Mandamus",
+   "Habeas corpus",
+   "Prohibition",
+   "Certiorari"
+  ],
+  "answer": 3,
+  "explanation": "Certiorari = curative (quashes a passed order); Prohibition = preventive (stops proceedings before completion). Mandamus commands a public duty; habeas produces a detainee.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Statement I: Article 226 is wider than Article 32. Statement II: Art 226 covers fundamental rights and any other legal rights. Choose:",
+  "options": [
+   "I true; II false",
+   "Both true; II does NOT explain I",
+   "Both true; II explains I",
+   "Both false"
+  ],
+  "answer": 2,
+  "explanation": "226 is wider (FRs + legal rights, any cause) — that IS why it is wider; 32 is a guaranteed right (Ambedkar's 'heart and soul'), FRs only. Note: 32 is part of the basic structure; suspension only under 359.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "A Supreme Court judge can be removed on grounds of:",
+  "options": [
+   "Political disagreement with the government",
+   "Proved misbehaviour or incapacity",
+   "Corruption charges by the CBI",
+   "Violation of the code of conduct"
+  ],
+  "answer": 1,
+  "explanation": "Art 124(4): removal = President on an address by both Houses (special majority: majority of total + 2/3 present & voting) for 'proved misbehaviour or incapacity'. Judges (Inquiry) Act 1968: 100-MP motion → Speaker/Chairman → 3-member committee.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The age of retirement of a High Court judge is:",
+  "options": [
+   "62",
+   "65",
+   "60",
+   "58"
+  ],
+  "answer": 0,
+  "explanation": "HC judges retire at 62; SC at 65. The 3-year gap is a deliberate juniority signal (HC→SC elevation gains 3 years).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Public Interest Litigation in India was pioneered by Justices:",
+  "options": [
+   "V. Krishna Iyer and H.M. Kania",
+   "H.R. Khanna and P.N. Bhagwati",
+   "P.N. Bhagwati and V.R. Krishna Iyer",
+   "Chief Justices Chandrachud (pere et fils)"
+  ],
+  "answer": 2,
+  "explanation": "Justices Bhagwati & Krishna Iyer relaxed locus standi (S.P. Gupta 1981; Mumbai Kamgar Sabha 1976 line) — PIL for the poor. Hussainara Khatoon (1979) — from Bihar's prisons — proved the model.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The law declared by the Supreme Court is binding on all courts in India under:",
+  "options": [
+   "Article 141",
+   "Article 143",
+   "Article 142",
+   "Article 140"
+  ],
+  "answer": 0,
+  "explanation": "Art 141: SC's declared law binds all Indian courts (not the SC itself — larger benches may revisit). Art 142 = complete justice; 143 = advisory; 140 = ancillary powers.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Patna High Court was established in:",
+  "options": [
+   "1916",
+   "1935",
+   "1912",
+   "1950"
+  ],
+  "answer": 0,
+  "explanation": "Patna HC established 1916 (Letters Patent, after the 1912 Bihar-Orissa separation created the province; earlier the Calcutta HC's Patna Bench). 2026 = its 110th anniversary year.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Hussainara Khatoon v. State of Bihar (1979) established:",
+  "options": [
+   "Right to vote in local elections",
+   "Right to strike for government employees",
+   "Right to speedy trial as a fundamental right",
+   "Right to property as a fundamental right"
+  ],
+  "answer": 2,
+  "explanation": "Bihar prisoners' PIL: speedy trial = FR (Art 21); free legal aid = right; undertrials' release orders followed. A PIL-landmark with a Bihar anchor — BPSC's dream combo.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Supreme Court's original jurisdiction under Article 131 covers:",
+  "options": [
+   "Company disputes",
+   "Any dispute between citizens",
+   "Disputes between the Centre and states, or among states",
+   "All election disputes"
+  ],
+  "answer": 2,
+  "explanation": "Art 131: Centre↔state, state↔state disputes (federal jurisdiction) — exclusive to the SC, excluding matters with interim pre-constitution remedies or covered elsewhere.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Article 136, the Supreme Court may grant special leave to appeal from any judgment/order of any court/tribunal. This is:",
+  "options": [
+   "A matter of right for the appellant",
+   "Limited to civil matters",
+   "Only for constitutional cases",
+   "Discretionary — a plenary power without parallel in other federations"
+  ],
+  "answer": 3,
+  "explanation": "Art 136 SLP = discretionary, exceptional, any court/tribunal (except military tribunals) — wider than any apex court's cert power elsewhere.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The NJAC Act and the 99th Constitutional Amendment were struck down by the Supreme Court in 2015 because:",
+  "options": [
+   "The President's role was increased",
+   "States were not consulted",
+   "The commission's composition threatened judicial independence — part of the basic structure",
+   "Parliament lacked the power to amend appointment rules"
+  ],
+  "answer": 2,
+  "explanation": "NJAC (CJI + 2 senior judges + Law Minister + 2 eminent persons) was struck down 4:1 (2015): executive voice in appointments compromised judicial independence — part of the basic structure. The Court thereby preserved the collegium.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "District judges in a state are appointed by:",
+  "options": [
+   "The Governor of the state",
+   "The Governor in consultation with the High Court",
+   "The Chief Justice of India",
+   "The state Public Service Commission"
+  ],
+  "answer": 1,
+  "explanation": "Art 233: Governor in consultation with the HC appoints district judges (Shetty 1992 barred executive discretion). Bihar's recent district-judge recruitment litigation (2024-25) tests this.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which Article empowers High Courts to issue writs?",
+  "options": [
+   "Article 32",
+   "Article 227",
+   "Article 226",
+   "Article 131"
+  ],
+  "answer": 2,
+  "explanation": "Art 226: HC writs for FRs + legal rights (territorial + cause-based jurisdiction post-15th Amdt). 227 = superintendence (administrative); 32 = SC's FR writs.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Supreme Court is a court of record under:",
+  "options": [
+   "Article 129",
+   "Article 143",
+   "Article 124",
+   "Article 131"
+  ],
+  "answer": 0,
+  "explanation": "Art 129: SC = court of record (powers to punish contempt — 129(2)); HCs under Art 215. Contempt of Courts Act 1971 (civil + criminal categories).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Statement I: Habeas corpus literally means 'to have the body of'. Statement II: It can be sought against both public and private detention. Choose:",
+  "options": [
+   "Both true; II explains I",
+   "Both true; II does NOT explain I",
+   "I true; II false",
+   "Both false"
+  ],
+  "answer": 1,
+  "explanation": "Habeas = 'you may have the body' (produce the detainee); available against private detention too (the only writ against private parties) — but that availability doesn't explain the literal meaning — II is independent.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The first woman judge of the Supreme Court was:",
+  "options": [
+   "Justice Indu Malhotra",
+   "Justice Ruma Pal",
+   "Justice Ranjana Desai",
+   "Justice Fathima Beevi"
+  ],
+  "answer": 3,
+  "explanation": "Justice M. Fathima Beevi (1989) — first woman SC judge. Ruma Pal (2000) much later; Indu Malhotra (2018) was the first woman lawyer directly elevated from the Bar.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "'Procedure established by law' in Article 21 was transformed into substantive due process in:",
+  "options": [
+   "Maneka Gandhi v. Union of India (1978)",
+   "A.K. Gopalan (1950)",
+   "ADM Jabalpur (1976)",
+   "Kesavananda (1973)"
+  ],
+  "answer": 0,
+  "explanation": "Maneka (1978): procedure must be fair, just, reasonable — importing due-process substance into Art 21. ADM Jabalpur (1976) is the discredited detention case (overruled 2017); Gopalan was the narrow original reading.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The number of Supreme Court judges (including the CJI) currently sanctioned is:",
+  "options": [
+   "28",
+   "34",
+   "25",
+   "31"
+  ],
+  "answer": 1,
+  "explanation": "SC (Number of Judges) Amendment 2019: CJI + 33 = 34 (from 31). Original 1950: CJI + 7; growth over the decades to 34.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Art 227 superintendence of High Courts extends over:",
+  "options": [
+   "Supreme Court appeals",
+   "Only the High Court itself",
+   "Administrative tribunals only",
+   "All courts and tribunals in the state except military courts"
+  ],
+  "answer": 3,
+  "explanation": "Art 227: HC superintendence over all courts/tribunals except military (session courts, family, labour, etc.); L. Chandra Kumar (1997) restored tribunal judicial review through HCs/SC.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "In the Judges (Inquiry) Act 1968 process, the 3-member inquiry committee comprises:",
+  "options": [
+   "CJI + Law Minister + Vice-President",
+   "An SC judge + an HC Chief Justice + a distinguished jurist",
+   "Three SC judges",
+   "Speaker + Chairman + Attorney General"
+  ],
+  "answer": 1,
+  "explanation": "Committee: SC judge + HC CJ + distinguished jurist (1968 Act). Motion: 100 MPs (LS) / 50 (RS) notice → presiding officer's admission → committee report → both Houses' special-majority address → President's order.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The electoral bonds scheme was struck down by the Supreme Court in February 2024 primarily violating:",
+  "options": [
+   "Voters' right to know under Article 19(1)(a) — with Art 14 proportionality failure",
+   "Article 32's jurisdiction",
+   "Article 21 privacy alone",
+   "Article 14 only"
+  ],
+  "answer": 0,
+  "explanation": "Feb 2024: electoral bonds scheme unconstitutional — voters' right to know (Art 19(1)(a)); the scheme's anonymity + unlimited corporate funding also failed Art 14 proportionality. SBI was directed to disclose.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match the PIL case with its domain: Hussainara (1), Olga Tellis (2), Vishaka (3), MC Mehta (4). Domains: (a) environment, (b) workplace harassment, (c) speedy trial, (d) pavement dwellers' rights:",
+  "options": [
+   "1-b, 2-d, 3-a, 4-c",
+   "1-c, 2-d, 3-b, 4-a",
+   "1-a, 2-b, 3-c, 4-d",
+   "1-c, 2-a, 3-d, 4-b"
+  ],
+  "answer": 1,
+  "explanation": "Hussainara = speedy trial (Bihar, 1979); Olga Tellis = pavement dwellers (1985); Vishaka = workplace harassment guidelines (1997); MC Mehta = environment (Ganga/oleum gas series, 1986-).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]

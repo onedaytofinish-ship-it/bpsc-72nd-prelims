@@ -1,0 +1,327 @@
+[
+ {
+  "q": "[70th BPSC] A proclamation of National Emergency under Article 352 can be made only on the written recommendation of:",
+  "options": [
+   "The Parliament",
+   "The Chief Justice of India",
+   "The Union Cabinet",
+   "The Prime Minister alone"
+  ],
+  "answer": 2,
+  "explanation": "44th Amdt: the Union Cabinet's written recommendation is mandatory (1975's oral-advice lesson). The PM alone cannot trigger it — the whole Cabinet must be on record.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th Q28 | null"
+ },
+ {
+  "q": "The grounds for National Emergency after the 44th Amendment include:",
+  "options": [
+   "War, external aggression and internal disturbance",
+   "Breakdown of law and order only",
+   "War, external aggression and armed rebellion",
+   "Financial instability and armed rebellion"
+  ],
+  "answer": 2,
+  "explanation": "44th (1978): 'armed rebellion' replaced 'internal disturbance' (too vague, abused in 1975). War/external aggression/armed rebellion — and the President may act even on imminent danger.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "A proclamation of National Emergency must be approved by Parliament within:",
+  "options": [
+   "Six months",
+   "One month (by special majority)",
+   "One year",
+   "Two months (by simple majority)"
+  ],
+  "answer": 1,
+  "explanation": "44th: 1 month (was 2 months), special majority, both Houses; otherwise it lapses. Extensions: every 6 months indefinitely — each needs fresh approval.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "National Emergency has been proclaimed in India:",
+  "options": [
+   "Once",
+   "Twice",
+   "Five times",
+   "Three times"
+  ],
+  "answer": 3,
+  "explanation": "3 times: 1962 (China war), 1971 (Pak war), 1975 (internal disturbance — the only non-war one; revoked 1977).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Financial Emergency under Article 360:",
+  "options": [
+   "Requires special majority approval",
+   "Has never been imposed; once approved, it continues indefinitely without periodic re-approval",
+   "Lasts a maximum of six months",
+   "Has been imposed twice"
+  ],
+  "answer": 1,
+  "explanation": "Art 360: never imposed; approval within 2 months by simple majority; no maximum duration — continues till revoked. 69th BPSC (Q118-119) tested exactly this never-used status.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th Q118-119 | null"
+ },
+ {
+  "q": "Under Art 358, Article 19 is automatically suspended:",
+  "options": [
+   "Only when the emergency is on the ground of war or external aggression — not armed rebellion",
+   "In every National Emergency",
+   "Only during President's Rule",
+   "During Financial Emergency"
+  ],
+  "answer": 0,
+  "explanation": "Art 358: Art 19 stands suspended only for war/external aggression emergencies — the 44th's refinement (1975-type internal emergencies no longer touch Art 19). Art 359 is the separate order-based route.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which Fundamental Rights can NEVER be suspended even during an Emergency?",
+  "options": [
+   "Arts 14 and 19",
+   "Arts 32 and 226",
+   "Arts 25 and 26",
+   "Arts 20 and 21"
+  ],
+  "answer": 3,
+  "explanation": "44th Amdt: Arts 20-21 non-suspendable under any presidential order (Art 359's bar) — the anti-ADM-Jabalpur codification (that 1976 case was formally overruled in Puttaswamy, 2017).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "President's Rule under Art 356 can last a maximum of:",
+  "options": [
+   "6 months",
+   "3 years",
+   "1 year",
+   "Indefinitely"
+  ],
+  "answer": 1,
+  "explanation": "6 months at a time, extendable to 3 years max; beyond 1 year only if a National Emergency is in force or the EC certifies elections can't be held (44th's brakes).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "S.R. Bommai v. Union of India (1994) established:",
+  "options": [
+   "Art 356 is judicially reviewable; majority must be tested on the floor; no dissolution before parliamentary approval",
+   "Governor's report is final",
+   "Art 356 is beyond judicial review",
+   "President's Rule can be permanent"
+  ],
+  "answer": 0,
+  "explanation": "Bommai (1994): floor test; judicial review; assembly dissolution only after Parliament approves; secularism = basic structure. Bihar's Rameshwar Prasad (2006) applied it to strike the dissolution.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 1975 National Emergency was proclaimed on the ground of:",
+  "options": [
+   "War",
+   "External aggression",
+   "Armed rebellion",
+   "Internal disturbance"
+  ],
+  "answer": 3,
+  "explanation": "June 1975: 'internal disturbance' (the pre-44th term) — triggered amid JP's Bihar-rooted movement; the 44th later renamed the ground 'armed rebellion' precisely to prevent such use.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Lok Sabha may require reconsideration of a National Emergency by a special sitting if:",
+  "options": [
+   "The Speaker agrees",
+   "The President permits",
+   "Half the members demand it",
+   "One-tenth of LS members demand it in writing — the House must sit within 14 days"
+  ],
+  "answer": 3,
+  "explanation": "Art 352(8)-(9) (44th): 1/10 of LS members may demand a special sitting to consider revocation; if passed by simple majority, the Emergency stands revoked — LS's anti-emergency check.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "During a National Emergency, the Lok Sabha's term can be extended:",
+  "options": [
+   "By 2 years at a time",
+   "It cannot be extended",
+   "By 1 year at a time (any number of times while the Emergency lasts)",
+   "By 6 months at a time"
+  ],
+  "answer": 2,
+  "explanation": "LS term: extendable 1 year at a time under a National Emergency (not beyond 6 months after it ends). State assemblies: 6 months at a time (Art 172).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Art 360, during a Financial Emergency, the President may direct:",
+  "options": [
+   "Suspension of the Constitution",
+   "Reduction of salaries of all state and Union employees, including Supreme Court and High Court judges",
+   "Dissolution of state assemblies",
+   "Takeover of private property"
+  ],
+  "answer": 1,
+  "explanation": "Art 360: salary-reduction directions (including judges' salaries per 360(4)(b)); money-bills reservation for the President; financial propriety observance. The judge-salary clause is the classic MCQ point.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th Q118-119 | null"
+ },
+ {
+  "q": "Bihar's Assembly dissolution (2005) was struck down because:",
+  "options": [
+   "Bihar was not a state",
+   "The President refused assent",
+   "Elections were due",
+   "The Governor's report was mala fide; the floor test was bypassed"
+  ],
+  "answer": 3,
+  "explanation": "Rameshwar Prasad (2006): Governor Buta Singh's recommendation was mala fide (no floor test, no chance to form a government) — Bommai principles applied to Bihar's 2005 dissolution.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Art 359, the President may suspend the enforcement of:",
+  "options": [
+   "Named fundamental rights — except Arts 20 and 21",
+   "The Constitution itself",
+   "All fundamental rights",
+   "Only Art 19"
+  ],
+  "answer": 0,
+  "explanation": "Art 359: presidential order suspends enforcement of specified FRs (not the rights themselves); Arts 20-21 exempt (44th). Art 358 is automatic; 359 needs an order naming rights.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Art 365 deals with:",
+  "options": [
+   "Failure to comply with Union directions — deemed failure of constitutional machinery",
+   "War emergency",
+   "Fundamental duties",
+   "Financial Emergency"
+  ],
+  "answer": 0,
+  "explanation": "Art 365: a state's failure to comply with the Union's executive directions = deemed 'failure of constitutional machinery' → Art 356 available — the backdoor trigger.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The proclamation of President's Rule must be approved by Parliament within:",
+  "options": [
+   "2 weeks",
+   "1 month",
+   "2 months (simple majority)",
+   "6 months"
+  ],
+  "answer": 2,
+  "explanation": "Art 356: approval within 2 months by simple majority (both Houses); continues 6 months per approval, max 3 years. Contrast 352's 1-month/special-majority rule.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "During a National Emergency, the Centre's executive power extends to:",
+  "options": [
+   "Any matter on which the Union has power to legislate — including State List directions to states",
+   "Only defence",
+   "Only Union subjects",
+   "Foreign affairs alone"
+  ],
+  "answer": 0,
+  "explanation": "Art 353: the Union may direct states on any matter; Parliament may legislate on State List subjects (Art 250) — the 'unitary conversion' of the federation (Art 353/250/354 combo).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which state experienced President's Rule when Jharkhand was carved out of it (2000)?",
+  "options": [
+   "Bihar",
+   "Odisha",
+   "Uttar Pradesh",
+   "West Bengal"
+  ],
+  "answer": 0,
+  "explanation": "Bihar was under President's Rule (1999-2000, the Rabri Devi dismissal's aftermath) when the Bihar Reorganisation Act 2000 created Jharkhand (Nov 15, 2000) — a rare reorganisation-during-356 episode.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 44th Amendment's emergency-package changes include all EXCEPT:",
+  "options": [
+   "'Armed rebellion' replacing 'internal disturbance'",
+   "One-month approval window with special majority",
+   "Written Cabinet recommendation requirement",
+   "Removal of the LS's power to revoke the Emergency by resolution"
+  ],
+  "answer": 3,
+  "explanation": "The 44th ADDED the LS's 1/10-members special-sitting + simple-majority revocation (Art 352(7)-(8)) — it did not remove it. A/B/C are the 44th's actual signature changes.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "'Samvidhan Hatya Diwas' commemorates:",
+  "options": [
+   "Partition",
+   "The proclamation of the 1975 Emergency (25 June)",
+   "The Jallianwala Bagh massacre",
+   "The Battle of Plassey"
+  ],
+  "answer": 1,
+  "explanation": "June 25 declared Samvidhan Hatya Diwas (2024) marking the 1975 Emergency's proclamation — the 50th anniversary fell in June 2025, keeping the topic exam-fresh.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "During President's Rule in a state, the dissolved/suspended assembly's fate and Parliament's role:",
+  "options": [
+   "The assembly continues normally",
+   "The Governor legislates personally",
+   "The Union Parliament exercises the state legislature's powers; the assembly may be dissolved only after parliamentary approval of the proclamation",
+   "The President legislates directly without Parliament"
+  ],
+  "answer": 2,
+  "explanation": "During 356: Parliament (or the President, when Parliament not in session, subject to approval) exercises the state's legislative powers; Bommai: no dissolution before Parliament approves the proclamation.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who decides whether a National Emergency proclamation deserves revocation?",
+  "options": [
+   "The Supreme Court",
+   "The President anytime; AND the Lok Sabha by simple majority (if 1/10 members demand a sitting)",
+   "The Cabinet unanimously",
+   "Only the President"
+  ],
+  "answer": 1,
+  "explanation": "Dual revocation: the President's revocation anytime (no approval needed) + LS's resolution route (1/10 demand → special sitting within 14 days → simple majority = revoked).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The JP Movement (1974) and the 1975 Emergency are linked because:",
+  "options": [
+   "JP's Total Revolution — launched from Bihar — challenged the Indira government; the Emergency was proclaimed citing internal disturbance amid JP's 'army' call and the Allahabad verdict",
+   "JP supported the Emergency",
+   "Bihar was exempted from the Emergency",
+   "The Emergency helped JP win elections"
+  ],
+  "answer": 0,
+  "explanation": "JP's Bihar-born movement (1974 Gujarat + Bihar agitations → Total Revolution) + the June 1975 Allahabad HC verdict = the Emergency's immediate triggers; JP was arrested — the Bihar-history/polity crossover BPSC loves.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Financial Emergency directions under Art 360(4) include all EXCEPT:",
+  "options": [
+   "Reservation of state money bills for the President",
+   "Salary cuts for Union employees",
+   "Dissolution of the Finance Commission",
+   "Salary cuts for state employees, including SC/HC judges"
+  ],
+  "answer": 2,
+  "explanation": "Art 360(4): salary-reduction directions + money-bill reservation — NOT the FC's dissolution (the FC is a constitutional body under Art 280; no emergency power touches it).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ }
+]

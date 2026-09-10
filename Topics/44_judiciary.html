@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>44 - Judiciary | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #44 • TIER A</div>
+  <div class="topic-title">Judiciary — SC &amp; HCs, Judicial Review, PIL, Collegium</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Indian Polity</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2 Qs</span>
+    <span class="meta-tag">📅 Exam: 26 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">69th BPSC PYQ</span>
+    <strong>Collegium composition (69th, Q1-3 band):</strong> BPSC tested the judges-appointment mechanism: the <strong>Collegium</strong> for SC judges = <strong>CJI + 4 senior-most SC judges</strong> (for HC judges: CJI + 2 senior-most + the HC's Chief Justice). The 99th Amendment/NJAC (2014) sought to replace it but was <strong>struck down (4:1, 2015)</strong> — collegium survives. Also tested: <strong>basic structure (69th Q108)</strong> — Kesavananda Bharati (1973): Parliament cannot amend the Constitution's basic features.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">BPSC Pattern</span>
+    <strong>High-frequency anchors:</strong> writs (Art 32 vs 226 — 226 is "wider", covers legal rights), judicial review's source (Arts 13, 32, 226, 131 etc.), Art 141 binding law, Art 143 advisory, PIL evolution (S.P. Gupta → Bhagwati/Iyer), HC appointments/removal (HC judges removable only by the President on an SC-committee report — Arts 217/218), Patna HC's status (Art 214; the state's HC seat — BPSC loves Bihar's legal milestones).
+  </div>
+
+  <h3>Supreme Court — architecture (Arts 124–147)</h3>
+  <ul>
+    <li><strong>Art 124:</strong> SC = CJI + 33 other judges (Parliament-fixed; original 7, raised over time — <strong>34 total now</strong>).</li>
+    <li><strong>Appointment:</strong> Collegium — CJI + 4 senior-most puisne judges for SC; no veto for the executive (only a one-time return; must re-accept if resent).</li>
+    <li><strong>Qualification:</strong> citizen + HC judge 5 years / HC advocate 10 years / distinguished jurist (Art 124(3)); no minimum age.</li>
+    <li><strong>Tenure:</strong> till 65 (SC) / 62 (HC); removal only by the President on an address by both Houses (special majority) for "proved misbehaviour or incapacity" (Art 124(4)) — <strong>Judges (Inquiry) Act 1968</strong>: motion → Speaker/Chairman admits (motion of 100 MPs) → 3-member committee (SC judge + HC CJ + distinguished jurist).</li>
+    <li><strong>Art 129:</strong> SC = court of record (contempt powers).</li>
+    <li><strong>Art 131:</strong> original jurisdiction — Centre-state, state-state disputes (exclusive, but excludes matters with interim remedies).</li>
+    <li><strong>Art 132-136:</strong> appellate jurisdiction — constitutional (cert from HC), civil (Art 133 — substantial question of law), criminal (Art 134 — death/LC cases), special leave (Art 136 — discretionary, any court/tribunal).</li>
+    <li><strong>Art 141:</strong> SC's law binding on all Indian courts.</li>
+    <li><strong>Art 143:</strong> advisory jurisdiction — President may refer; SC <em>may</em> report (duty if pre-constitutional treaties etc.); not binding on the President.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/supreme_court_india.jpg" alt="Supreme Court of India">
+    <div class="img-caption">Supreme Court of India — Art 124: CJI + 33 judges; the final interpreter and guardian of the Constitution (basic structure since 1973).</div>
+  </div>
+
+  <h3>High Courts &amp; subordinate judiciary (Arts 214–237)</h3>
+  <ul>
+    <li><strong>Art 214:</strong> HC for each state; common HCs for states (Art 231) — e.g., Bombay, Guwahati.</li>
+    <li><strong>HC judges:</strong> appointment by President after collegium consultation; removal same SC-grade process (Art 218 mirrors 124(4)); transfer by President (collegium advice, not "consultation" with the CJ — SC clarified in 2nd/Nevsun).</li>
+    <li><strong>Art 225:</strong> jurisdiction &amp; powers as before the Constitution (predecessor-court continuity).</li>
+    <li><strong>Art 226:</strong> writs for FRs <strong>and any other legal right</strong> — "wider" than Art 32; discretionary; <strong>227</strong> superintendence over subordinate courts/tribunals (not military).</li>
+    <li><strong>Art 233-237:</strong> district judges — appointment by the Governor in consultation with the HC (Art 233) — the <strong>Shetty (1992)</strong> rule: no executive discretion.</li>
+  </ul>
+
+  <h3>Judicial review — the master concept</h3>
+  <table>
+    <tr><th>Aspect</th><th>Rule</th><th>Trap</th></tr>
+    <tr><td>Source</td><td>Arts 13, 32, 226, 131, 143, 145, 246, 251, 254, 372</td><td>"Proceeds from Art 13/32" — both defensible; BPSC expects 13+32 pair</td></tr>
+    <tr><td>Scope</td><td>Laws + executive orders (pre/post-Constitution)</td><td>Not against the Constitution's own text; political questions narrow</td></tr>
+    <tr><td>Classification</td><td>3 tests — substantive (excess of power) vs procedural (breach of natural justice) vs unreasonableness (Art 14 arbitrariness)</td><td>Wednesbury/manifold-review is English doctrine — Indian: proportionality (Puttaswamy)</td></tr>
+    <tr><td>Basic structure</td><td>Kesavananda 1973 — cannot destroy the identity</td><td>Not listed in the Constitution — judicially evolved; 24th/25th Amendment lessons</td></tr>
+  </table>
+
+  <h3>PIL &amp; epistolary jurisdiction</h3>
+  <ul>
+    <li><strong>Origin:</strong> US social-action litigation adapted — <strong>S.P. Gupta v Union of India (1981)</strong> legitimised locus standi relaxation; Justice <strong>P.N. Bhagwati</strong> &amp; <strong>V.R. Krishna Iyer</strong> as architects.</li>
+    <li><strong>Relaxations:</strong> any public-spirited person/petition (even a letter — <em>epistolary</em>); no strict locus standi; court's duty to protect the voiceless.</li>
+    <li><strong>Landmark PILs:</strong> Hussainara Khatoon (speedy trial, Bihar — prisoners!), Sunil Batra (solitary confinement), Olga Tellis (pavement dwellers), MC Mehta (environment — Ganga), Vishaka (harassment guidelines), Puttaswamy (privacy).</li>
+    <li><strong>Criticism:</strong> judicial overreach/activism debates — the balance: PIL is a jurisdictional innovation, not a substitute for governance.</li>
+  </ul>
+
+  <h3>Case-law flow — judicial review milestones</h3>
+  <div class="flowchart">
+    <div class="flow-node">A.K. Gopalan 1950 — narrow FR reading (procedure established by law)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Shankari Prasad 1951 → Sajjan Singh 1965 — Parliament can amend FRs</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node highlight">Golak Nath 1967 — FRs cannot be amended → 24th Amendment reverses</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node green">Kesavananda 1973 — amend yes, but basic structure intact (7:6)</div>
+    <div class="flow-arrow"></div>
+    <div class="flow-node">Minerva Mills 1980 — struck 368(4)(5); balance FR-DPSP</div>
+  </div>
+  <div class="mnemonic-box">
+    <strong>Mnemonic — writs' one-liners:</strong> <strong>H</strong>abeas (<em>"produce the body"</em> — illegal detention), <strong>M</strong>andamus (<em>"we command"</em> — public duty), <strong>P</strong>rohibition (stops a lower court — <em>preventive</em>), <strong>C</strong>ertiorari (quashes after the fact — <em>curative</em>), <strong>Q</strong>uo warranto (<em>"by what authority"</em> — usurped office). "H-M-P-C-Q: Have Many People Chased Queens."
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">⚡</span> Fact Matrix — Quick Revision</div>
+  <table>
+    <tr><th>Fact</th><th>Answer</th><th>Trap</th></tr>
+    <tr><td>SC composition</td><td>CJI + 33 (34 total; Parliament-fixed)</td><td>Original 7 → 34 (Apex Court (Expansion) 2019, in force 2025)</td></tr>
+    <tr><td>SC judge's age</td><td>65</td><td>HC: 62</td></tr>
+    <tr><td>Removal process</td><td>President + both Houses special majority + "proved misbehaviour/incapacity"</td><td>Only 1 SC judge removed ever (Justice V. Ramaswami — motion defeated 1993) — none removed</td></tr>
+    <tr><td>Collegium origin</td><td>First Judges case 1981 (consultation ≠ concurrence) → Second 1993 (collegium, CJI + 2) → Third 1998 (CJI + 4 for SC)</td><td>NJAC (99th Amdt) struck 2015 (4:1)</td></tr>
+    <tr><td>Art 32 vs 226</td><td>32: FRs only, constitutional right (cannot be suspended ordinarily); 226: FRs + legal rights, discretionary</td><td>226 is wider in scope; 32 is narrower but a guaranteed right (part of basic structure)</td></tr>
+    <tr><td>Binding law</td><td>Art 141 — SC law binds all courts; Art 142 complete justice</td><td>141 binds courts, not the SC itself (larger bench can revise)</td></tr>
+    <tr><td>Advisory opinion</td><td>Art 143 — not binding on the President; SC may refuse (discretionary)</td><td>Except pre-constitution treaty references (Art 143(2) — duty)</td></tr>
+    <tr><td>Court of record</td><td>Art 129 (SC); Art 215 (HC)</td><td>Contempt powers inherent; Contempt of Courts Act 1971 (civil + criminal)</td></tr>
+    <tr><td>Patna HC</td><td>Established 1916 (Calcutta HC's Patna Bench era ended)</td><td>Bihar's legal milestone — BPSC favourite</td></tr>
+    <tr><td>First woman SC judge</td><td>Justice Fathima Beevi (1989)</td><td>Meira Kumar is Speaker, not judge — don't mix Bihar leaders</td></tr>
+    <tr><td>Judicial review basis</td><td>"Procedure established by law" (Art 21) post-Maneka widened to due process</td><td>Constitution's text is "procedure" — the due-process reading is judge-made</td></tr>
+    <tr><td>Legal aid</td><td>Art 39A DPSP; NALSA 1995; Hussainara (Bihar) — speedy trial FR</td><td>Free legal aid = DPSP + Art 21 right (post-Hussainara)</td></tr>
+  </table>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION 🔗                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bihar-box">
+  <div class="bihar-box-title">Bihar Connection 🔗</div>
+  <ul>
+    <li><strong>Patna High Court (1916):</strong> one of India's oldest HCs; the 1912 separation-era demand crystallised with the 1916 charter — BPSC's HC-anniversary staple (2026 = 110th year). Its writ jurisdiction (Art 226) serves Bihar's PIL tradition.</li>
+    <li><strong>Hussainara Khatoon (1979):</strong> the landmark speedy-trial + undertrial-rights PIL came from <strong>Bihar prisons</strong> — H.M. Khatoon's habeas petition exposed 1000s of undertrials; SC declared speedy trial an FR (Art 21) and free legal aid a right — the PIL-and-Bihar link that BPSC can frame either way.</li>
+    <li><strong>BPSC's own home HC:</strong> Patna HC hears Bihar service-matter PILs (BPSC appointment litigation is HC-level — a meta-fact).</li>
+    <li><strong>Judicial personalities:</strong> Justice <strong>B.P. Singh</strong> (Patna HC CJ, later SC judge); Bihar's Lal Babu cases on Art 227 superintendence; the state's record in SC appeals (Art 132-136) from Patna HC.</li>
+    <li><strong>Constituent-level link:</strong> Ambedkar's Drafting Committee (Topic 38) framed Arts 124-147; Bihar's Anugrah Narayan Sinha &amp; S.K. Sinha lineage (Topic 38/42) shaped the federal-judicial balance Patna HC administers today.</li>
+    <li><strong>Recent Bihar cases:</strong> liquor-policy PILs (prohibition litigation — Art 226 challenge), caste-survey litigation (2023 — Patna HC &amp; SC), teacher-appointment disputes (2024-25) — live Art 226/227 illustrations.</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/patna_high_court.jpg" alt="Patna High Court building">
+    <div class="img-caption">Patna High Court (est. 1916) — the Bihar pillar of Art 214; its writ jurisdiction (Art 226) heard the Hussainara Khatoon PIL petitions that began the speedy-trial revolution.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC CONNECTIONS                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cross-link">
+  <strong>Cross-Topic Connections:</strong> FRs &amp; writs → <strong>40</strong>; Preamble's "justice" and judicial review → <strong>39</strong>; President's pardon &amp; judges' appointment → <strong>42</strong>; Parliament's privilege vs courts → <strong>43</strong>; Emergency's effect on writs (ADM Jabalpur) → <strong>46</strong>; Governor &amp; HC district-judge appointments → <strong>45</strong>; CAG/tribunals → <strong>47</strong>; Bihar's own polity (Patna HC's cases) → <strong>143</strong>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE 2024–26                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class=" section">
+  <div class="section-header"><span class="section-icon">🆕</span> Current Relevance 2024–26</div>
+  <ul>
+    <li><strong>CJI transition (Nov 2024):</strong> Justice Sanjiv Khanna became the <strong>51st CJI</strong> after Justice D.Y. Chandrachud's retirement — keep the ordinal fresh; 2025-26 brings new seniority transitions and collegium rounds.</li>
+    <li><strong>NJAC memory vs live collegium reform:</strong> the 2015 strike-down's 10th anniversary (2025) revived Kiren Rijiju-era debates — 2026 exam point: collegium + new MoP (Memorandum of Procedure) discussions.</li>
+    <li><strong>Apex Court expansion:</strong> 2025 saw the long-pending SC-judge appointments (34 sanctioned) — the "collegium recommends → government delays → court pushes" cycle in the news.</li>
+    <li><strong>Landmark 2024–25 rulings:</strong> <strong>Electoral bonds struck (Feb 2024)</strong> (Art 19 right to know); <strong>Article 370 verdict (Dec 2023)</strong> (no inner sovereignty); sub-classification of SCs (Aug 2024, 7:0); AMU minority-status case (Nov 2024); Punjab CM-Agniveer tussle (2025) — judicial-federalism live points.</li>
+    <li><strong>Bihar angle:</strong> caste-survey litigation (2023-24 — Patna HC &amp; SC), liquor-prohibition PILs continuing, teacher-recruitment disputes (2024-25) — Art 226's Bihar docket keeps the topic exam-fresh.</li>
+    <li><strong>AI in courts:</strong> SUPACE (SC's AI tool), e-Courts Phase III (2023-24 ₹7,300 crore), Hindi/local-language judgments push 2024-25 — modernisation as a current-affairs MCQ.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">72nd BPSC Top 5 Predictions</span>
+  <strong>Most probable questions:</strong> (1) Collegium — CJI + 4 for SC appointments. (2) Art 32 vs 226 — 226 wider; 32 FR-only but guaranteed. (3) Basic structure — Kesavananda 1973. (4) Patna HC — 1916. (5) Hussainara — Bihar PIL, speedy trial FR.
+</div>
+
+<div class="subpage-box">
+  📖 <strong>Deep dive:</strong> For the complete writs drill, judges-cases trilogy (1981/1993/1998), NJAC analysis, PIL-landmarks table, and 7 exam predictions — see <a href="subpages/44_judiciary_detail.html">Topic 44 Deep Dive</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The Collegium for appointment of Supreme Court judges comprises:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) CJI + 4 senior-most SC judges</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) President + CJI + Leader of Opposition</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) CJI + 2 senior-most SC judges</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) CJI + Law Minister + 2 judges</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Third Judges Case (1998): SC collegium = <strong>CJI + 4 senior-most puisne judges</strong>. HC collegium = CJI + 2 senior-most + the concerned HC CJ. NJAC (99th Amdt, 2014) tried replacing it — struck down 2015 (4:1).</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The theory of basic structure of the Constitution was propounded in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) A.K. Gopalan v. State of Madras</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Golak Nath v. State of Punjab</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) Minerva Mills v. Union of India</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) Kesavananda Bharati v. State of Kerala</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (D)</strong> — <strong>Kesavananda (1973, 7:6)</strong>: Parliament may amend any part but cannot destroy the basic structure. Golak Nath (1967) held FRs unamendable (later reversed by the 24th Amdt); Minerva Mills (1980) applied basic structure to strike 368(4)(5).</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. Under Article 143, the President can seek the Supreme Court's advisory opinion. The opinion is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Equivalent to a judgment under Art 141</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Binding on all courts</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Binding on the President</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Not binding on the President — and the SC may refuse references except pre-constitutional treaty matters</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (D)</strong> — Art 143(1): advisory, <strong>not binding</strong> on the President; SC may decline. Exception: 143(2) disputes involving pre-constitutional treaties etc. — SC is <em>bound to report</em> (duty, still not binding on the President).</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Which writ is issued to quash an order already passed by a lower court or tribunal?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Mandamus</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Habeas corpus</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Prohibition</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Certiorari</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — <strong>Certiorari = curative</strong> (quashes a passed order); <strong>Prohibition = preventive</strong> (stops proceedings before completion). Mandamus commands a public duty; habeas produces a detainee.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Statement I: Article 226 is wider than Article 32. Statement II: Art 226 covers fundamental rights and any other legal rights. Choose:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) I true; II false</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) Both true; II does NOT explain I</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) Both true; II explains I</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) Both false</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — 226 is <strong>wider</strong> (FRs + legal rights, any cause) — that IS why it is wider; 32 is a <strong>guaranteed</strong> right (Ambedkar's "heart and soul"), FRs only. Note: 32 is part of the basic structure; suspension only under 359.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. A Supreme Court judge can be removed on grounds of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Political disagreement with the government</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) Proved misbehaviour or incapacity</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) Corruption charges by the CBI</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Violation of the code of conduct</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (B)</strong> — Art 124(4): removal = President on an address by both Houses (special majority: majority of total + 2/3 present &amp; voting) for <strong>"proved misbehaviour or incapacity"</strong>. Judges (Inquiry) Act 1968: 100-MP motion → Speaker/Chairman → 3-member committee.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. The age of retirement of a High Court judge is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) 62</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) 65</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) 60</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) 58</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (A)</strong> — HC judges retire at <strong>62</strong>; SC at <strong>65</strong>. The 3-year gap is a deliberate juniority signal (HC→SC elevation gains 3 years).</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. Public Interest Litigation in India was pioneered by Justices:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) V. Krishna Iyer and H.M. Kania</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) H.R. Khanna and P.N. Bhagwati</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) P.N. Bhagwati and V.R. Krishna Iyer</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) Chief Justices Chandrachud (pere et fils)</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Justices <strong>Bhagwati &amp; Krishna Iyer</strong> relaxed locus standi (S.P. Gupta 1981; Mumbai Kamgar Sabha 1976 line) — PIL for the poor. Hussainara Khatoon (1979) — from Bihar's prisons — proved the model.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The law declared by the Supreme Court is binding on all courts in India under:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) Article 141</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) Article 143</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) Article 142</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) Article 140</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (A)</strong> — Art 141: SC's declared law binds <strong>all Indian courts</strong> (not the SC itself — larger benches may revisit). Art 142 = complete justice; 143 = advisory; 140 = ancillary powers.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The Patna High Court was established in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) 1916</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) 1935</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) 1912</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) 1950</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (A)</strong> — Patna HC established <strong>1916</strong> (Letters Patent, after the 1912 Bihar-Orissa separation created the province; earlier the Calcutta HC's Patna Bench). 2026 = its 110th anniversary year — a BPSC-friendly hook.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Hussainara Khatoon v. State of Bihar (1979) established:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) Right to vote in local elections</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) Right to strike for government employees</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) Right to speedy trial as a fundamental right</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) Right to property as a fundamental right</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (C)</strong> — <strong>Bihar prisoners' PIL</strong>: speedy trial = FR (Art 21); free legal aid = right; undertrials' release orders followed. A PIL-landmark with a Bihar anchor — BPSC's dream combo.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. The Supreme Court's original jurisdiction under Article 131 covers:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Company disputes</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Any dispute between citizens</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Disputes between the Centre and states, or among states</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) All election disputes</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (C)</strong> — Art 131: Centre↔state, state↔state disputes (federal jurisdiction) — exclusive to the SC, <em>excluding</em> matters where interim relief existed pre-constitution or which are covered elsewhere (e.g., Finance Commission, election petitions).</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Under Article 136, the Supreme Court may grant special leave to appeal from any judgment/order of any court/tribunal. This is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) A matter of right for the appellant</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Limited to civil matters</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Only for constitutional cases</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Discretionary — a plenary power without parallel in other federations</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (D)</strong> — Art 136 SLP = <strong>discretionary</strong>, exceptional, any court/tribunal (except military tribunals) — wider than any apex court's cert power elsewhere.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The NJAC Act and the 99th Constitutional Amendment were struck down by the Supreme Court in 2015 because:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) The President's role was increased</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) States were not consulted</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) The commission's composition threatened judicial independence — part of the basic structure</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) Parliament lacked the power to amend appointment rules</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (C)</strong> — NJAC (CJI + 2 senior judges + Law Minister + 2 eminent persons) was struck down <strong>4:1 (2015)</strong>: executive voice in appointments compromised <strong>judicial independence — part of the basic structure</strong>. The Court thereby preserved the collegium.</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. District judges in a state are appointed by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) The Governor of the state</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) The Governor in consultation with the High Court</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) The Chief Justice of India</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) The state Public Service Commission</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (B)</strong> — Art 233: <strong>Governor in consultation with the HC</strong> appoints district judges (not the PSC for posting/promotion; Shetty 1992 barred executive discretion). Bihar's recent district-judge recruitment litigation (2024-25) tests this.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. Which Article empowers High Courts to issue writs?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) Article 32</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) Article 227</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) Article 226</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Article 131</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (C)</strong> — Art <strong>226</strong>: HC writs for FRs + legal rights (territorial + cause-based jurisdiction post-15th Amdt). 227 = superintendence (administrative); 32 = SC's FR writs.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. The Supreme Court is a court of record under:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Article 129</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) Article 143</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) Article 124</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) Article 131</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (A)</strong> — Art <strong>129</strong>: SC = court of record (powers to punish contempt — Art 129(2)); HCs under Art <strong>215</strong>. Contempt of Courts Act 1971 (civil + criminal categories).</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. Statement I: Habeas corpus literally means 'to have the body of'. Statement II: It can be sought against both public and private detention. Choose:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Both true; II explains I</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Both true; II does NOT explain I</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) I true; II false</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Both false</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (B)</strong> — Habeas = "you may have the body" (produce the detainee); <em>available against private detention too</em> (the only writ against private parties) — but that availability doesn't <em>explain</em> the literal meaning — II is independent.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The first woman judge of the Supreme Court was:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Justice Indu Malhotra</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Justice Ruma Pal</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Justice Ranjana Desai</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Justice Fathima Beevi</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (D)</strong> — Justice <strong>M. Fathima Beevi</strong> (1989) — first woman SC judge. Ruma Pal (2000) much later; Indu Malhotra (2018) was the first woman lawyer directly elevated from the Bar.</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. 'Procedure established by law' in Article 21 was transformed into substantive due process in:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) Maneka Gandhi v. Union of India (1978)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) A.K. Gopalan (1950)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) ADM Jabalpur (1976)</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) Kesavananda (1973)</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — <strong>Maneka (1978)</strong>: procedure must be fair, just, reasonable — importing due-process substance into Art 21. ADM Jabalpur (1976) is the discredited detention case (overruled 2017); Gopalan was the narrow original reading.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. The number of Supreme Court judges (including the CJI) currently sanctioned is:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) 28</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) 34</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) 25</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) 31</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (B)</strong> — SC (Number of Judges) Amendment 2019: CJI + 33 = <strong>34</strong> (from 31). Original 1950: 7 + CJI... 8 total; growth 8→11→14→18→26→31→34.</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. Art 227 superintendence of High Courts extends over:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Supreme Court appeals</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Only the High Court itself</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Administrative tribunals only</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) All courts and tribunals in the state except military courts</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (D)</strong> — Art 227: HC superintendence over <strong>all courts/tribunals except military</strong> (session courts, family, labour, etc.); L. Chandra Kumar (1997) restored tribunal judicial review through HCs/SC.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. In the Judges (Inquiry) Act 1968 process, the 3-member inquiry committee comprises:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) CJI + Law Minister + Vice-President</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) An SC judge + an HC Chief Justice + a distinguished jurist</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) Three SC judges</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) Speaker + Chairman + Attorney General</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (B)</strong> — Committee: <strong>SC judge + HC CJ + distinguished jurist</strong> (1968 Act). Motion: 100 MPs (LS) / 50 (RS) notice → presiding officer's admission → committee report → both Houses' special-majority address → President's order.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. The electoral bonds scheme was struck down by the Supreme Court in February 2024 primarily violating:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Voters' right to know under Article 19(1)(a) — with Art 14 proportionality failure</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) Article 32's jurisdiction</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Article 21 privacy alone</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) Article 14 only</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (A)</strong> — <strong>Feb 2024</strong>: electoral bonds scheme unconstitutional — voters' <strong>right to know (Art 19(1)(a))</strong>; the scheme's anonymity + unlimited corporate funding also failed Art 14 proportionality. SBI was directed to disclose; the scheme stands quashed.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Match the PIL case with its domain: Hussainara (1), Olga Tellis (2), Vishaka (3), MC Mehta (4). Domains: (a) environment, (b) workplace harassment, (c) speedy trial, (d) pavement dwellers' rights:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) 1-b, 2-d, 3-a, 4-c</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) 1-c, 2-d, 3-b, 4-a</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) 1-a, 2-b, 3-c, 4-d</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) 1-c, 2-a, 3-d, 4-b</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (B)</strong> — Hussainara = speedy trial (Bihar, 1979); Olga Tellis = pavement dwellers (1985); Vishaka = workplace harassment guidelines (1997); MC Mehta = environment (Ganga/oleum gas series, 1986-).</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/Supreme_Court_of_India" target="_blank">Supreme Court of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Arts 124-147, collegium history</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/High_Courts_of_India" target="_blank">High Courts of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Arts 214-231</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Kesavananda_Bharati_v._State_of_Kerala" target="_blank">Kesavananda Bharati case — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Basic structure doctrine, 1973</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Public_interest_litigation#India" target="_blank">PIL in India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">S.P. Gupta, Bhagwati-Iyer era</span></li>
+    <li><a href="https://main.sci.gov.in" target="_blank">Supreme Court of India — official</a> <span style="color:#64748b;font-size:12px;">Judgments, collegium resolutions</span></li>
+    <li><a href="http://patnahighcourt.gov.in" target="_blank">Patna High Court — official</a> <span style="color:#64748b;font-size:12px;">Bihar's HC since 1916</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 44 — Judiciary • Generated 2026-09-10 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'd', q3: 'd', q4: 'd', q5: 'c',
+  q6: 'b', q7: 'a', q8: 'c', q9: 'a', q10: 'a',
+  q11: 'c', q12: 'c', q13: 'd', q14: 'c', q15: 'b',
+  q16: 'c', q17: 'a', q18: 'b', q19: 'd', q20: 'a',
+  q21: 'b', q22: 'd', q23: 'b', q24: 'a', q25: 'b',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

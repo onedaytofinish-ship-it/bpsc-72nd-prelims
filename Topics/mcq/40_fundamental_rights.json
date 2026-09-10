@@ -1,0 +1,327 @@
+[
+ {
+  "q": "[69th BPSC] Untouchability is abolished by which Article of the Constitution?",
+  "options": [
+   "Article 15",
+   "Article 22",
+   "Article 14",
+   "Article 17"
+  ],
+  "answer": 3,
+  "explanation": "Article 17 abolishes untouchability and forbids its practice in any form; it is absolute (no reasonable-restrictions clause). Enforcing law: Protection of Civil Rights Act 1955; SC/ST (Prevention of Atrocities) Act 1989. Art 14 is general equality; Art 15 prohibits specific discriminations; Art 22 deals with arrest.",
+  "difficulty": "pyq",
+  "pyq_ref": "69th Q105-class | null"
+ },
+ {
+  "q": "Which Article did Dr. B.R. Ambedkar call the \"heart and soul of the Constitution\"?",
+  "options": [
+   "Article 14",
+   "Article 32",
+   "Article 21",
+   "Article 19"
+  ],
+  "answer": 1,
+  "explanation": "Article 32 (Right to Constitutional Remedies) — 'the heart and soul' per Ambedkar, because without a remedy the rights are meaningless. It is itself a Fundamental Right; SC's jurisdiction is original but not exclusive (HCs under Art 226).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The right to property was removed from the list of Fundamental Rights by:",
+  "options": [
+   "42nd Amendment, 1976",
+   "86th Amendment, 2002",
+   "52nd Amendment, 1985",
+   "44th Amendment, 1978"
+  ],
+  "answer": 3,
+  "explanation": "The 44th Amendment (1978) deleted Art 31; property is now a constitutional/legal right under Art 300A (Part XII). The 42nd had earlier curtailed property rights; 52nd is anti-defection; 86th added Art 21A (education).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Article 21A, making education a fundamental right for children aged 6–14, was added by:",
+  "options": [
+   "93rd Amendment, 2005",
+   "42nd Amendment, 1976",
+   "86th Amendment, 2002",
+   "73rd Amendment, 1992"
+  ],
+  "answer": 2,
+  "explanation": "86th Amendment (2002) inserted Art 21A; operationalised by the RTE Act 2009 (in force 1 Apr 2010). 93rd Amendment (2005) amended Art 15(5) for OBC/SC/ST reservation in private unaided institutions.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following Fundamental Rights are available ONLY to citizens of India? 1. Article 15 2. Article 16 3. Article 19 4. Article 21",
+  "options": [
+   "Only 1, 2 and 3",
+   "Only 1 and 3",
+   "Only 2 and 4",
+   "All four"
+  ],
+  "answer": 0,
+  "explanation": "Arts 15, 16, 19 (also 29, 30) are citizens-only. Art 21 (life & personal liberty) — like Arts 14, 20, 22–28 — extends to all persons including foreigners. BPSC's favourite availability trap.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match the writs with their purposes: (a) Habeas Corpus (b) Mandamus (c) Certiorari (d) Quo Warranto — 1) Command to perform public duty 2) Produce a detained person 3) Test claim to a public office 4) Quash an order without jurisdiction",
+  "options": [
+   "3, 1, 4, 2",
+   "2, 1, 4, 3",
+   "1, 2, 3, 4",
+   "2, 4, 1, 3"
+  ],
+  "answer": 1,
+  "explanation": "Habeas Corpus → produce the detained body; Mandamus → 'we command' performance of duty; Certiorari → quash (post-decision); Quo Warranto → 'by what authority' do you hold office. Prohibition (not listed) stops before the decision.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The \"golden triangle\" of the Constitution refers to Articles:",
+  "options": [
+   "76, 148 and 280",
+   "14, 19 and 21",
+   "245, 246 and 254",
+   "32, 226 and 131"
+  ],
+  "answer": 1,
+  "explanation": "The golden triangle: Arts 14 + 19 + 21 — laws must satisfy all three together (Maneka Gandhi, 1978; K.S. Puttaswamy reaffirmed). The other options are jurisdictional/administrative article sets.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "In Maneka Gandhi v. Union of India (1978), the Supreme Court held that the \"procedure\" under Article 21 must be:",
+  "options": [
+   "Prescribed by the Supreme Court",
+   "Merely enacted by the legislature",
+   "Approved by the President",
+   "Fair, just and reasonable — not arbitrary, fanciful or oppressive"
+  ],
+  "answer": 3,
+  "explanation": "Maneka Gandhi overruled A.K. Gopalan's narrow reading: procedure under Art 21 must be fair, just and reasonable (due-process substance), and Art 21 must be read with Arts 14 & 19. Option A was Gopalan (1950) — the old view.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "In Justice K.S. Puttaswamy v. Union of India (2017), the Supreme Court:",
+  "options": [
+   "Held that ADM Jabalpur (1976) was correctly decided",
+   "Declared privacy a fundamental right intrinsic to Article 21",
+   "Held privacy is a common-law right only",
+   "Struck down the Aadhaar Act entirely"
+  ],
+  "answer": 1,
+  "explanation": "A 9-judge bench unanimously held privacy is intrinsic to Art 21 (and Part III generally), and expressly overruled ADM Jabalpur. Aadhaar Act was later (2018) upheld with modifications — not struck down entirely.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following is NOT a ground for restricting Article 19(1)(a) (free speech)? 1. Contempt of court 2. Friendly relations with foreign states 3. Inadequate traffic infrastructure 4. Incitement to an offence",
+  "options": [
+   "None — all are valid grounds",
+   "Only 3 and 4",
+   "Only 3",
+   "Only 1 and 3"
+  ],
+  "answer": 2,
+  "explanation": "Art 19(2) lists 8 grounds: sovereignty & integrity, security of State, friendly relations, public order, decency/morality, contempt, defamation, incitement. 'Traffic infrastructure' is not a ground — the classic absurd-option trap. 1, 2 and 4 are all valid.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Article 33 of the Constitution empowers which body to restrict Fundamental Rights of members of the armed forces?",
+  "options": [
+   "The Supreme Court",
+   "The President of India",
+   "The Chief of Defence Staff",
+   "Parliament"
+  ],
+  "answer": 3,
+  "explanation": "Art 33: Parliament (by law) may restrict FRs of armed forces, para-military, police etc. to ensure discipline and proper performance of duties. Art 34 (martial law indemnity) is also Parliament's domain.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "During a National Emergency (Art 352), which Fundamental Rights CANNOT be suspended even by Presidential order (after the 44th Amendment)?",
+  "options": [
+   "Articles 20 and 21",
+   "Articles 14 and 15",
+   "Articles 19 and 21",
+   "Articles 25 and 26"
+  ],
+  "answer": 0,
+  "explanation": "The 44th Amendment (1978) made Arts 20 & 21 non-suspendable even during Emergency (Art 359 orders cannot touch them). Art 19 is suspendable only in war/external emergency (Art 358). ADM Jabalpur's premise died with this amendment.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Certiorari and Prohibition differ in that:",
+  "options": [
+   "Prohibition is preventive (issued before); certiorari is curative (issued after the order)",
+   "Prohibition lies against administrative authorities only",
+   "Certiorari is preventive; prohibition is curative",
+   "Both are identical in all respects"
+  ],
+  "answer": 0,
+  "explanation": "Prohibition stops a lower court/tribunal while proceedings are pending; certiorari quashes an order already made. Option A reverses them (classic swap trap). Certiorari can also issue against administrative authorities (post-1991 expansion).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The right to \"propagate\" religion under Article 25 means:",
+  "options": [
+   "A right to convert any person by force",
+   "A right available to citizens only",
+   "A right to transmit/expose one's tenets for others' free choice — not forced conversion",
+   "A right to compulsory religious instruction in State schools"
+  ],
+  "answer": 2,
+  "explanation": "Propagate = transmit tenets; the SC (Rev. Stainislaus, 1977) held it does NOT include a right to convert another forcibly. Art 25 belongs to 'all persons'. Art 28(1) forbids compulsory religious instruction in wholly State-funded institutions.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Article 15, the State CANNOT make special provision for:",
+  "options": [
+   "Any religious community as such (on grounds of religion alone)",
+   "Women and children",
+   "Socially and educationally backward classes",
+   "Economically weaker sections (EWS)"
+  ],
+  "answer": 0,
+  "explanation": "Art 15(1) prohibits discrimination on grounds ONLY of religion etc. — so 'special provisions for a religious community as such' is impermissible. 15(3) women/children, 15(4) SEBC/SC/ST, 15(5) OBC in institutions, 15(6) EWS (103rd Amendment, upheld in Janhit Abhiyan 2022) are all valid exceptions.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Article 18 (abolition of titles) does NOT prohibit:",
+  "options": [
+   "Military and academic distinctions",
+   "Hereditary titles of nobility",
+   "Titles like 'Rai Bahadur' conferred by the State",
+   "Titles conferred by a foreign State on Indian citizens"
+  ],
+  "answer": 0,
+  "explanation": "Art 18(4) bars acceptance of foreign titles by citizens without President's consent; Art 18(1)-(2) bar State titles (Bharat Ratna etc. were held to be awards, not 'titles' — Balaji Raghavan, 1996). Military/academic distinctions are expressly exempt.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the following statements about Article 22: 1. It protects against arrest & detention in criminal cases. 2. Detention beyond 24 hours requires a Magistrate's approval. 3. Preventive detention safeguards are in Art 22(3)–(7). 4. Detention under preventive-detention law can be advisory-board-reviewed beyond 3 months.",
+  "options": [
+   "Only 2 and 4",
+   "Only 1 and 2",
+   "Only 1, 2 and 3",
+   "All 1, 2, 3 and 4"
+  ],
+  "answer": 3,
+  "explanation": "All four correct: Art 22(1)-(2) arrest safeguards (ground communication, counsel, 24-hour production); 22(3)-(7) preventive detention (advisory board report beyond 3 months — Art 22(4)). Note Parliament's preventive-detention law supremacy (Art 22(7)).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The writ jurisdiction of High Courts under Article 226 differs from the Supreme Court's under Article 32 in that:",
+  "options": [
+   "Article 226 covers Fundamental Rights AND \"any other purpose\" — a wider scope",
+   "Article 32 is discretionary while Article 226 is mandatory",
+   "Article 226 is itself a Fundamental Right",
+   "High Courts cannot issue writs for Fundamental Rights"
+  ],
+  "answer": 0,
+  "explanation": "Art 226 extends to FRs and other legal rights ('any other purpose') — wider in scope; but Art 32 is itself an FR. Option D reverses: Art 32 is the FR, not 226.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "In Kesavananda Bharati (1973), the Supreme Court held that Fundamental Rights:",
+  "options": [
+   "Can never be amended",
+   "Are superior to the Directive Principles in all cases",
+   "Can be amended, but not so as to damage the basic structure",
+   "Can be amended only with States' ratification"
+  ],
+  "answer": 2,
+  "explanation": "Kesavananda overruled Golak Nath (1967, which had made FRs unamendable): Parliament can amend FRs but cannot destroy the Constitution's basic structure. Post-Minerva Mills (1980), FRs & DPSPs are complementary, not hierarchical.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which Article deals with the abolition of forced/bonded labour?",
+  "options": [
+   "Article 22",
+   "Article 23",
+   "Article 25",
+   "Article 24"
+  ],
+  "answer": 1,
+  "explanation": "Art 23 prohibits human trafficking and begar/forced labour (Bonded Labour System Abolition Act 1976 implements it). Art 24 prohibits child labour below 14 in hazardous jobs. The State MAY impose compulsory service for public purposes — an express exception.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "\"Equality before the law\" in Article 14 is borrowed from ____ while \"equal protection of the laws\" is from ____.",
+  "options": [
+   "Ireland — Canada",
+   "USA — UK",
+   "France — Ireland",
+   "UK — USA"
+  ],
+  "answer": 3,
+  "explanation": "'Equality before law' (a negative concept — no special privileges; Dicey's Rule of Law) ← UK; 'equal protection of laws' (a positive concept — like treated alike) ← USA (14th Amendment). Together they make Art 14.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following is a correct pair (case — principle)?",
+  "options": [
+   "ADM Jabalpur — FRs enforceable during Emergency",
+   "Maneka Gandhi — procedure must be fair, just, reasonable",
+   "Minerva Mills — FRs can be freely amended",
+   "A.K. Gopalan — privacy intrinsic to Art 21"
+  ],
+  "answer": 1,
+  "explanation": "Maneka Gandhi (1978) = fair-just-reasonable procedure. A: privacy is Puttaswamy (2017); C: ADM Jabalpur held the opposite (suspended — later overruled); D: Minerva Mills (1980) struck the 42nd's attempt to make FRs freely amendable.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Article 30 (right of minorities to establish educational institutions) is available to:",
+  "options": [
+   "Both religious and linguistic minorities — whether based on religion or language",
+   "Only religious minorities",
+   "All communities including the majority",
+   "Only linguistic minorities"
+  ],
+  "answer": 0,
+  "explanation": "Art 30 covers minorities based on religion or language — any section of citizens. 'Minority' is state-level determined (e.g., Sikhs in Bihar are a minority; Hindus in Punjab). Majority-rights claims fail under Art 30.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the statements regarding Art 19(1)(g): 1. It guarantees the right to practise any profession or carry on any occupation, trade or business. 2. The State can impose reasonable restrictions in the interest of the general public. 3. The State may create monopolies in its favour (complete exclusion). 4. Professional/technical qualifications may be prescribed.",
+  "options": [
+   "Only 1 and 2",
+   "Only 2 and 3",
+   "All four",
+   "Only 1, 2 and 4"
+  ],
+  "answer": 2,
+  "explanation": "All four correct: 19(1)(g) guarantee; 19(6) allows (i) general-public interest restrictions, (ii) professional/technical qualifications, and (iii) State monopoly/exclusion from any business — the express 'complete exclusion' clause. Liquor-ban cases (Bihar prohibition) are tested here.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which statement about the 103rd Amendment (2019) is correct?",
+  "options": [
+   "It introduced the 10th Schedule's anti-defection provisions",
+   "It abolished reservations in promotions",
+   "It inserted Article 15(6) & 16(6) enabling 10% reservation for Economically Weaker Sections",
+   "It gave constitutional status to the National Commission for Backward Classes"
+  ],
+  "answer": 2,
+  "explanation": "The 103rd Amendment (Jan 2019) inserted Arts 15(6) & 16(6) for 10% EWS quota — upheld in Janhit Abhiyan (Nov 2022). Option C is the 102nd Amendment (2018, NCBC); B & D are unrelated. EWS excludes OBC/SC/ST/SEBC beneficiaries.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ }
+]

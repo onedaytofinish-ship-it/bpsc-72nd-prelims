@@ -1,0 +1,327 @@
+[
+ {
+  "q": "The President of India is elected by:",
+  "options": [
+   "An electoral college of elected MPs and elected MLAs of states (including Delhi & Puducherry)",
+   "Both Houses of Parliament only",
+   "Direct election by all citizens",
+   "Lok Sabha and Governors"
+  ],
+  "answer": 0,
+  "explanation": "Art 54: elected MPs (LS+RS) + elected MLAs of states; the 70th Amendment (1992) added Delhi & Puducherry MLAs. Nominated members and MLCs are excluded.",
+  "difficulty": "pyq",
+  "pyq_ref": "70th Q17-class | null"
+ },
+ {
+  "q": "The Vice-President of India is elected by:",
+  "options": [
+   "Both Houses of Parliament — elected AND nominated members; MLAs play no role",
+   "Rajya Sabha alone",
+   "The same electoral college as the President",
+   "State legislatures"
+  ],
+  "answer": 0,
+  "explanation": "The VP is elected by all MPs (elected + nominated) of both Houses — the exact opposite of the President's college (no MLAs). This contrast is BPSC's most repeated executive question.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "An ordinance promulgated by the President ceases to operate at the expiry of:",
+  "options": [
+   "Six months from promulgation",
+   "Six months and six weeks from promulgation, if not approved earlier",
+   "Six weeks from the reassembly of Parliament",
+   "Six weeks from the date of promulgation"
+  ],
+  "answer": 1,
+  "explanation": "Art 123: the ordinance lapses 6 weeks from reassembly unless approved — maximum life = 6 months + 6 weeks from promulgation. Option A is only half the rule (misses the 6-month outer limit).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following pardoning powers does the Governor NOT possess (Art 161)?",
+  "options": [
+   "Remission of sentence",
+   "Respite and reprieve",
+   "Commutation of sentence",
+   "Pardon of a death sentence"
+  ],
+  "answer": 3,
+  "explanation": "The Governor can commute/remit/respite/reprieve for state-law offences, but cannot pardon a death sentence — and has no court-martial jurisdiction. The President's Art 72 covers all death sentences + martial law.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Article 75, the total strength of the Council of Ministers (including the PM) cannot exceed:",
+  "options": [
+   "There is no limit",
+   "10% of Lok Sabha strength",
+   "15% of Lok Sabha strength",
+   "20% of Lok Sabha strength"
+  ],
+  "answer": 2,
+  "explanation": "Art 75(1A), added by the 91st Amendment (2003): ≤15% of LS strength. State CoMs have a parallel 15% cap (Art 164(1A)) with a floor of 12 ministers.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "[71st BPSC] The Attorney General of India has the right of audience:",
+  "options": [
+   "Only in the High Courts",
+   "In the Supreme Court and the Delhi High Court only",
+   "In all courts in the territory of India",
+   "Only in the Supreme Court"
+  ],
+  "answer": 2,
+  "explanation": "Art 76(3): the AG enjoys the right of audience in all courts in India (the 71st BPSC statement 'not entitled to audience except the Supreme Court' was FALSE). He may participate in parliamentary proceedings (no vote).",
+  "difficulty": "pyq",
+  "pyq_ref": "71st Q57 | null"
+ },
+ {
+  "q": "When the office of President falls vacant, the Vice-President discharges the functions for a maximum period of:",
+  "options": [
+   "Three months",
+   "Six months",
+   "One year",
+   "Until a new President is elected, with no limit"
+  ],
+  "answer": 1,
+  "explanation": "A presidential election must be held within 6 months of the vacancy (Art 62); the VP acts meanwhile. Historic: V.V. Giri (1969) acted, then resigned to run.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The President can be removed from office on grounds of 'violation of the Constitution' through:",
+  "options": [
+   "A joint sitting of Parliament",
+   "A no-confidence motion in the Lok Sabha",
+   "Impeachment — special majority procedure in both Houses",
+   "The Supreme Court's order"
+  ],
+  "answer": 2,
+  "explanation": "Art 61 impeachment: charge in either House (≥1/4 members' notice, 14 days), passed by 2/3 of total membership; the other House investigates and votes likewise. No President has faced it.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 'suspensive veto' of the President means:",
+  "options": [
+   "The President sends the bill to the Supreme Court",
+   "The bill is dead unless reintroduced",
+   "The President sits on the bill indefinitely",
+   "The President returns the bill once; Parliament can pass it again by simple majority"
+  ],
+  "answer": 3,
+  "explanation": "Suspensive veto: return once (Art 111); overridden by simple majority re-passage — NOT available for Money Bills. Sitting indefinitely = pocket veto; outright refusal = absolute veto.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The value of an MLA's vote in the presidential election is based on the population census of:",
+  "options": [
+   "1951",
+   "1971",
+   "2011",
+   "2001"
+  ],
+  "answer": 1,
+  "explanation": "Art 55 uses the 1971 census for the MLA vote value (frozen via the 42nd Amendment and extended). The freeze is the exam point.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who is the ex-officio Chairman of the Rajya Sabha?",
+  "options": [
+   "The Prime Minister",
+   "The Speaker of the Lok Sabha",
+   "The President",
+   "The Vice-President"
+  ],
+  "answer": 3,
+  "explanation": "Art 64: the VP is ex-officio Chairman of the Rajya Sabha. The President is not a member of either House; the Deputy Chairman presides in the VP's absence.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Article 78, the President has the right to:",
+  "options": [
+   "Withhold assent to any bill indefinitely",
+   "Get information from the PM on administrative affairs and legislative proposals",
+   "Dismiss the Prime Minister at will",
+   "Nominate members to the Council of Ministers without the PM's advice"
+  ],
+  "answer": 1,
+  "explanation": "Art 78 enumerates the PM's duty to communicate Cabinet decisions and provide requested information — the President's right to information. The 44th Amendment added the reconsideration-duty clause.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which one of the following is NOT a pardon-type power?",
+  "options": [
+   "Respite",
+   "Review",
+   "Remission",
+   "Reprieve"
+  ],
+  "answer": 1,
+  "explanation": "The five are pardon, commutation, remission, respite, reprieve — P-C-R-R-R. 'Review' (judicial re-examination) is NOT a pardon power.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 44th Amendment (1978) to Article 74 provided that:",
+  "options": [
+   "The President can dismiss the CoM without advice",
+   "The CoM need not aid and advise the President",
+   "The President may return the CoM's advice once for reconsideration, but must accept the reconsidered advice",
+   "The President's consent is needed for every Cabinet decision"
+  ],
+  "answer": 2,
+  "explanation": "The 42nd made advice binding; the 44th added the one-time reconsideration window — the re-tendered advice must be accepted. This is the modern aid-and-advice doctrine.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Match List-I with List-II: (a) Zail Singh (b) V.V. Giri (c) Rajendra Prasad (d) Droupadi Murmu — 1) First President 2) First tribal President 3) Pocket veto (Indian Post Office Bill) 4) Acting President who resigned to contest (1969)",
+  "options": [
+   "1, 4, 3, 2",
+   "4, 3, 2, 1",
+   "3, 4, 1, 2",
+   "3, 1, 4, 2"
+  ],
+  "answer": 2,
+  "explanation": "Zail Singh = pocket veto (1986); V.V. Giri = 1969 acting President who resigned and won; Rajendra Prasad = first President (from Bihar); Droupadi Murmu = first tribal President (2022–).",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Council of Ministers is collectively responsible to:",
+  "options": [
+   "The Rajya Sabha",
+   "The Lok Sabha",
+   "The President",
+   "Both Houses of Parliament"
+  ],
+  "answer": 1,
+  "explanation": "Art 75(3): collective responsibility to the Lok Sabha — the bedrock of parliamentary government. A no-confidence motion against one minister brings down the whole CoM.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the statements about the Solicitor General of India: 1. The office is created by the Constitution under Article 76. 2. The Solicitor General assists the Attorney General. 3. Only the AG has the right to speak in Parliament.",
+  "options": [
+   "Only 1 and 2",
+   "All three",
+   "Only 2",
+   "Only 2 and 3"
+  ],
+  "answer": 2,
+  "explanation": "Statement 1 is WRONG: only the AG is constitutional (Art 76); the SG/Additional SGs are executive posts. Statement 2 is correct. Statement 3's 'only AG' framing is imprecise — with 1 wrong, only statement 2 stands unambiguously correct.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The President nominates 12 members to the Rajya Sabha on the ground of:",
+  "options": [
+   "Representation of states",
+   "Any criteria determined by the President",
+   "Sports and military service",
+   "Literature, science, art and social service"
+  ],
+  "answer": 3,
+  "explanation": "Art 80(3): special knowledge/practical experience in literature, science, art and social service. 'Sports' is NOT in the constitutional list — a standard trap.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The pocket veto refers to:",
+  "options": [
+   "Keeping a bill pending indefinitely without acting on it",
+   "Withholding assent outright",
+   "Referring a bill back to the originating House",
+   "Returning a bill to Parliament for reconsideration"
+  ],
+  "answer": 0,
+  "explanation": "Pocket veto = inaction on a bill (no constitutional time-limit). India's only instance: Zail Singh's 1986 Indian Post Office (Amendment) Bill. India's pocket veto has no time-limit (unlike the US 10-day rule).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Article 169, a state can abolish its Legislative Council when:",
+  "options": [
+   "The state assembly passes a resolution by simple majority and Parliament enacts a law",
+   "The assembly passes a resolution by special majority alone",
+   "The Supreme Court approves a state's petition",
+   "The Governor orders abolition"
+  ],
+  "answer": 0,
+  "explanation": "Art 169: assembly resolution by special majority followed by a parliamentary law (simple majority). Bihar's assembly resolved to abolish its Council in 2020 — pending parliamentary action.",
+  "difficulty": "bpsc",
+  "pyq_ref": "70th Q17-class | null"
+ },
+ {
+  "q": "Which of the following appointments is NOT made by the President?",
+  "options": [
+   "Chief Justice of India and SC judges",
+   "Comptroller and Auditor General",
+   "Chief Election Commissioner",
+   "Speaker of the Lok Sabha"
+  ],
+  "answer": 3,
+  "explanation": "The Speaker is elected by the Lok Sabha (Art 93), not appointed by the President. The President appoints CJI/judges, CEC, CAG, UPSC chairman, Governors etc.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The impeachment of the President requires that the resolution:",
+  "options": [
+   "Be passed by not less than two-thirds of the total membership of each House",
+   "Receive the President's own assent",
+   "Be passed by a majority of members present and voting in each House",
+   "Be passed by a joint sitting with two-thirds majority"
+  ],
+  "answer": 0,
+  "explanation": "Art 61(2): the charge passes by 2/3 of the total membership of each House (not present-and-voting, no joint sitting). ≥1/4 members' signatures with 14-day notice start the process.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 'kitchen cabinet' refers to:",
+  "options": [
+   "An informal inner circle of advisers with the PM's ear, bypassing the formal Cabinet",
+   "The Governor's advisory council",
+   "The Cabinet Committee on Food",
+   "The parliamentary standing committee system"
+  ],
+  "answer": 0,
+  "explanation": "'Kitchen cabinet' = the PM's informal, trusted inner group influencing decisions outside formal Cabinet channels. 'Shadow cabinet' = the opposition's alternative front-bench (British concept).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "In the event of a conflict between the President's pardon (Art 72) and a court-martial sentence, which is true?",
+  "options": [
+   "Court-martial sentences cannot be pardoned at all",
+   "The CDS can reverse court-martial sentences",
+   "Only the Supreme Court can pardon court-martial sentences",
+   "The President can pardon court-martial sentences; Governors cannot"
+  ],
+  "answer": 3,
+  "explanation": "Art 72 expressly covers all court-martial cases — a President-exclusive domain (Governors have no military jurisdiction).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Consider the statements about the Vice-President's removal: 1. Impeachment procedure mirrors the President's. 2. A Rajya Sabha resolution (with LS agreement) removes the VP. 3. 14 days' notice is required. 4. No VP has been removed so far.",
+  "options": [
+   "Only 2, 3 and 4",
+   "All four",
+   "Only 1 and 2",
+   "Only 2 and 4"
+  ],
+  "answer": 0,
+  "explanation": "Statement 1 is WRONG: the VP is NOT impeached like the President; Art 67(b) = RS resolution (majority present & voting, agreed by LS simple majority), 14-day notice. No VP has been removed to date.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ }
+]

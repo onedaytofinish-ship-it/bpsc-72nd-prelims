@@ -1,0 +1,327 @@
+[
+ {
+  "q": "Under Article 79, the Parliament of India consists of:",
+  "options": [
+   "President, PM and both Houses",
+   "Lok Sabha and Rajya Sabha only",
+   "President, Rajya Sabha and Lok Sabha",
+   "Lok Sabha only"
+  ],
+  "answer": 2,
+  "explanation": "Art 79: Parliament = President + RS + LS. Though the President is not a member of either House, no bill becomes law without presidential assent.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "[71st BPSC] The power to recruit the Secretarial staff of the Lok Sabha is vested in:",
+  "options": [
+   "Union Public Service Commission",
+   "Prime Minister's Office",
+   "The Speaker of the Lok Sabha",
+   "The President"
+  ],
+  "answer": 2,
+  "explanation": "The Speaker controls the Lok Sabha Secretariat (Art 98) — recruitment of LS secretarial staff vests in the Speaker. The 71st BPSC's distractors included the PMO and UPSC — wrong channels for House staff.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st Q56 | null"
+ },
+ {
+  "q": "The Rajya Sabha is a permanent House because:",
+  "options": [
+   "Its term is six years",
+   "Its members are elected for life",
+   "The President cannot summon it",
+   "It is never subject to dissolution — one-third of members retire every two years"
+  ],
+  "answer": 3,
+  "explanation": "RS is permanent (Art 83): no dissolution; members serve 6-year terms, with 1/3 retiring biennially. Option D confuses individual term with the House's continuity.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "A Money Bill can be introduced only:",
+  "options": [
+   "In a joint sitting",
+   "In the Lok Sabha, on the President's recommendation",
+   "In either House",
+   "In the Rajya Sabha, with the President's permission"
+  ],
+  "answer": 1,
+  "explanation": "Art 109/110/117(1): Money Bill only in the Lok Sabha, and only on the President's prior recommendation. RS cannot introduce, amend or reject it — just 14 days of recommendations.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Whose decision on whether a bill is a Money Bill is final?",
+  "options": [
+   "The Prime Minister",
+   "The Supreme Court",
+   "The President",
+   "The Speaker of the Lok Sabha"
+  ],
+  "answer": 3,
+  "explanation": "Art 110(3): the Speaker's certification is final. Courts can examine procedural aspects (Aadhaar ruling 2018 tested but respected the certificate's scope) — the exam answer remains the Speaker.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "A joint sitting of Parliament can be summoned for:",
+  "options": [
+   "Ordinary bills and financial bills — but NOT Money Bills or Constitution Amendment Bills",
+   "Constitution Amendment Bills only",
+   "Any bill deadlocked between the Houses",
+   "Money Bills only"
+  ],
+  "answer": 0,
+  "explanation": "Art 108 joint sitting: ordinary + Financial Bills (I/II) only. Excluded: Money Bills (RS can't deadlock them) and Constitution Amendment Bills (both Houses must pass identically). Only 3 joint sittings ever: 1961, 1978, 2002.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Who presides over a joint sitting of Parliament?",
+  "options": [
+   "The Speaker of the Lok Sabha",
+   "The senior-most member",
+   "The President",
+   "The Vice-President"
+  ],
+  "answer": 0,
+  "explanation": "Art 108(2): the Speaker presides (Deputy Speaker next; then RS Deputy Chairman; never the VP — he's RS Chairman). Called by the President.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "[71st BPSC] Which is correct about a Censure Motion?",
+  "options": [
+   "It requires the President's approval to move",
+   "It is not different from a no-confidence motion",
+   "It is different from the no-confidence motion",
+   "It can only be moved in the Rajya Sabha"
+  ],
+  "answer": 2,
+  "explanation": "71st BPSC answer: censure ≠ no-confidence. Censure targets a specific minister/act (or the CoM); it need not compel resignation (individual-censure), whereas no-confidence is against the whole CoM and forces resignation if passed.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st Q71 | null"
+ },
+ {
+  "q": "The Rajya Sabha can authorise Parliament to legislate on a State List subject (Art 249) by:",
+  "options": [
+   "Simple majority, valid for one year",
+   "Two-thirds majority of members present and voting, valid for one year (renewable)",
+   "Unanimous resolution",
+   "Special majority with half the states' ratification"
+  ],
+  "answer": 1,
+  "explanation": "Art 249: RS resolution by 2/3 present & voting (national interest) → Parliament legislates on State List for 1 year (renewable). Art 312 (all-India services) uses the same 2/3. LS cannot pass these resolutions.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The maximum strength of the Lok Sabha provided by the Constitution (post-104th Amendment) is:",
+  "options": [
+   "543",
+   "550",
+   "552",
+   "545"
+  ],
+  "answer": 1,
+  "explanation": "After the 104th Amendment (2019, effective 2020) ended Anglo-Indian nomination, the ceiling = 530 states + 20 UTs = 550. (552 was the old ceiling with 2 nominated; 543 = current actual seats.)",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Public Accounts Committee of Parliament is chaired (by convention since 1967) by a member of:",
+  "options": [
+   "The opposition",
+   "Nominated members",
+   "The ruling party",
+   "The Rajya Sabha majority party"
+  ],
+  "answer": 0,
+  "explanation": "PAC (22 members: 15 LS + 7 RS) chairmanship goes to an opposition member since 1967; ministers cannot be members. PAC examines CAG reports.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The quorum required to conduct business in either House of Parliament is:",
+  "options": [
+   "One-fourth of the total membership",
+   "One-tenth of the total membership",
+   "One-third of the members present",
+   "100 members"
+  ],
+  "answer": 1,
+  "explanation": "Art 100(3): quorum = 1/10 of total membership (incl. presiding officer). The President can direct adjournment/suspension when quorum fails.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "A no-confidence motion in the Lok Sabha requires the support of at least:",
+  "options": [
+   "100 members",
+   "25 members",
+   "One-third of members",
+   "50 members"
+  ],
+  "answer": 3,
+  "explanation": "Leave for a no-confidence motion needs 50 members' support (Rules of Procedure). Adjournment motions also need 50. If passed, the CoM must resign.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which of the following is NOT a Money Bill matter under Article 110?",
+  "options": [
+   "Appropriate receipts into the Consolidated Fund",
+   "Imposition, abolition or alteration of taxes",
+   "Regulation of state taxes in the public interest",
+   "Borrowing by the Government"
+  ],
+  "answer": 2,
+  "explanation": "Art 110's 7 heads include taxes, borrowing, CF/CAF custody, appropriation, receipts, incidental. Regulation of state taxes in the public interest (Art 274) is NOT an Art 110 head — the classic MCQ fine-print.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Speaker of the Lok Sabha:",
+  "options": [
+   "Does not vote in the first instance but casts a casting vote in case of a tie",
+   "Votes on every bill like other members",
+   "Never votes under any circumstance",
+   "Can vote only on Money Bills"
+  ],
+  "answer": 0,
+  "explanation": "Art 99/100: the Speaker votes only in a tie (casting vote). The RS Chairman (VP) cannot vote at all except an original vote on RS resolutions — a subtle LS/RS contrast.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Deputy Chairman of the Rajya Sabha is elected by:",
+  "options": [
+   "The Rajya Sabha from among its members",
+   "The Vice-President",
+   "The President",
+   "Both Houses jointly"
+  ],
+  "answer": 0,
+  "explanation": "Art 89: RS elects its Deputy Chairman from its members; presides in the Chairman's absence. Deputy Speaker (LS) likewise elected by LS (Art 93).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Leader of the Opposition in the Lok Sabha is recognised provided the largest opposition party has at least:",
+  "options": [
+   "55 seats",
+   "1/4th of the total LS strength",
+   "50 seats",
+   "1/10th of the total LS strength"
+  ],
+  "answer": 3,
+  "explanation": "Leader and Deputy Leader of Opposition (Salary) Act 1977: recognition requires ≥1/10 of total LS seats (~54-55 currently — the statutory test is the fraction, not a fixed number).",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which committee examines the reports of the Comptroller and Auditor General?",
+  "options": [
+   "Public Accounts Committee",
+   "Business Advisory Committee",
+   "Estimates Committee",
+   "Committee on Public Undertakings"
+  ],
+  "answer": 0,
+  "explanation": "The PAC examines CAG audit reports (appropriation accounts + finance accounts). Estimates suggests economies; CoPU examines PSU performance.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Article 312, a new all-India service can be created by:",
+  "options": [
+   "A constitutional amendment",
+   "The President's order",
+   "The Lok Sabha passing a resolution",
+   "The Rajya Sabha passing a resolution (2/3 present & voting) and Parliament enacting a law"
+  ],
+  "answer": 3,
+  "explanation": "Art 312: RS resolution (2/3 present & voting) declares necessity → Parliament enacts. Existing all-India services: IAS, IPS, IFoS — the IFoS was created via this route (1966).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The annual financial statement (Budget) is laid before Parliament under Article:",
+  "options": [
+   "117",
+   "114",
+   "110",
+   "112"
+  ],
+  "answer": 3,
+  "explanation": "Art 112: Annual Financial Statement (Budget). Art 114 = Appropriation Bill; Art 117 = financial bill procedures; Art 110 defines Money Bills. The President causes it to be laid.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The anti-defection law is contained in:",
+  "options": [
+   "11th Schedule",
+   "8th Schedule",
+   "10th Schedule",
+   "9th Schedule"
+  ],
+  "answer": 2,
+  "explanation": "10th Schedule (52nd Amendment, 1985): disqualification on defection; Speaker/Chairman decide — subject to judicial review (Kihoto Hollohan, 1992).",
+  "difficulty": "pyq",
+  "pyq_ref": "70th Q77-class | null"
+ },
+ {
+  "q": "A bill pending in the Lok Sabha lapses on its dissolution, but a bill originating in and passed by the LS, pending in the Rajya Sabha:",
+  "options": [
+   "Does not lapse (RS is permanent), unless passed by LS before dissolution",
+   "Goes to the President for assent",
+   "Is deemed passed",
+   "Also lapses"
+  ],
+  "answer": 0,
+  "explanation": "A bill originating in and passed by LS, pending in RS at LS dissolution, does not lapse (RS continuity) — but a bill originating in RS, pending in LS, lapses on LS dissolution. Lapse rules are a BPSC staple.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Speaker Pro Tem is:",
+  "options": [
+   "The outgoing Speaker",
+   "A Rajya Sabha member nominated by the VP",
+   "The senior-most member of the new Lok Sabha, appointed by the President to administer oaths",
+   "The Deputy Speaker automatically"
+  ],
+  "answer": 2,
+  "explanation": "The President appoints the senior-most member as Speaker Pro Tem to swear in the new LS and preside until the Speaker's election.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Women's Reservation (106th) Amendment, 2023, provides:",
+  "options": [
+   "Reservation within the 10th Schedule's quotas",
+   "33% reservation for women in LS, state assemblies and Delhi — effective after delimitation following a census",
+   "50% reservation in the Rajya Sabha",
+   "Immediate reservation from 2024 elections"
+  ],
+  "answer": 1,
+  "explanation": "Nari Shakti Vandan Adhiniyam (Sept 2023): 1/3 reservation in LS + state assemblies + Delhi, effective after the post-census delimitation — the deferred-implementation clause is the exam point.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which one of the following is a Rajya Sabha-exclusive power (not available to the Lok Sabha)?",
+  "options": [
+   "Removing the Vice-President",
+   "Passing a resolution to create new all-India services (Art 312)",
+   "Passing no-confidence motions",
+   "Passing Money Bills"
+  ],
+  "answer": 1,
+  "explanation": "Art 312 (and 249) resolutions belong to the RS only. VP removal starts in RS but needs LS agreement — not exclusive; Money Bills & no-confidence are LS domains.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ }
+]

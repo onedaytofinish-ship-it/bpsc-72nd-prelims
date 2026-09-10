@@ -1,0 +1,327 @@
+[
+ {
+  "q": "[71st BPSC-style] Which of the following subjects is in the Concurrent List?",
+  "options": [
+   "Foreign affairs",
+   "Public order",
+   "Police",
+   "Education"
+  ],
+  "answer": 3,
+  "explanation": "Education moved State→Concurrent by the 42nd Amendment (1976) (with forests, weights & measures, wildlife protection, administration of justice). Police/public order = State; foreign affairs = Union.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st Q59 | null"
+ },
+ {
+  "q": "India is described as 'quasi-federal' primarily because:",
+  "options": [
+   "It is a confederation",
+   "It has no state governments",
+   "States can secede",
+   "The Constitution tilts toward a strong Centre in emergencies, appointments and amendment processes while retaining dual polity"
+  ],
+  "answer": 3,
+  "explanation": "Wheare's 'quasi-federal': dual polity + single Constitution/citizenship, indestructible union of destructible states, Emergency's unitary conversion, Governor as Centre's agent, Union-dominated amendment. Not a confederation — states can't secede.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Governor of a state is appointed by:",
+  "options": [
+   "The Chief Justice of India",
+   "A collegium of CMs",
+   "The President (Centre's discretion)",
+   "The President on the advice of the state CM"
+  ],
+  "answer": 2,
+  "explanation": "Art 155: the President appoints Governors (in practice the Union Cabinet's choice); tenure 5 years at the President's pleasure (Art 156) — the federal flashpoint Sarkaria/Punchhi sought to soften.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "In the case where the SC struck down the dissolution of the Bihar Legislative Assembly (2005) on the Governor's mala fide recommendation, the case is:",
+  "options": [
+   "Kihoto Hollohan v. Zachillai",
+   "State of Bihar v. Union of India",
+   "Rameshwar Prasad v. Union of India",
+   "S.R. Bommai v. Union of India"
+  ],
+  "answer": 2,
+  "explanation": "Rameshwar Prasad (2006): the Governor's report recommending Bihar's Assembly dissolution was mala fide — dissolution unconstitutional; floor-test principle reiterated (Bommai's child). Bihar's gift to federal jurisprudence.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Allocation of seats in the Rajya Sabha to states is provided in the:",
+  "options": [
+   "2nd Schedule",
+   "4th Schedule",
+   "5th Schedule",
+   "3rd Schedule"
+  ],
+  "answer": 1,
+  "explanation": "4th Schedule = RS seat allocation (Bihar 16) — 71st BPSC Q62 tested this matching. 2nd = salaries/emoluments; 3rd = forms of oath; 5th = scheduled areas.",
+  "difficulty": "pyq",
+  "pyq_ref": "71st Q62 | null"
+ },
+ {
+  "q": "The Finance Commission is constituted under:",
+  "options": [
+   "Article 275, at Parliament's will",
+   "Article 280, every 5 years",
+   "Article 268, every year",
+   "Article 281, every 10 years"
+  ],
+  "answer": 1,
+  "explanation": "Art 280: FC every 5 years (or earlier); 15th FC (N.K. Singh) awarded 41% devolution (2021-26); 16th FC (Arvind Panagariya) from 2025 for 2026-31. Art 281 merely says the President lays FC recommendations before Parliament.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "In the GST Council, the voting weightage of the Centre and states is:",
+  "options": [
+   "Centre 1/2, states 1/2; simple majority",
+   "Equal voice for all members without voting",
+   "Centre 2/3, states 1/3",
+   "Centre 1/3, states 2/3; decisions by 3/4 of weighted votes"
+  ],
+  "answer": 3,
+  "explanation": "Art 279A: Union 1/3 of total votes, states collectively 2/3; decisions need 3/4 weighted votes — the states hold aggregate veto power. SC (Mohit Minerals, 2022): recommendations aren't binding legislation per se.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Residuary powers in India are vested in:",
+  "options": [
+   "The Union (Art 248 + Entry 97 Union List)",
+   "States",
+   "Both jointly",
+   "The Supreme Court"
+  ],
+  "answer": 0,
+  "explanation": "Art 248 + Union List Entry 97: the Union holds residuary powers (unlike USA/Australia where states do). Cyber law's early days exemplified Union reach via Entry 97.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Inter-State Council was established in 1990 on the recommendation of:",
+  "options": [
+   "Rajamannar Committee",
+   "Administrative Reforms Commission",
+   "Punchhi Commission",
+   "Sarkaria Commission"
+  ],
+  "answer": 3,
+  "explanation": "Sarkaria Commission (1988 report) → ISC via Art 263 (Presidential Order 1990). Punchhi (2010) refined Centre-state relations; Rajamannar (1969, Tamil Nadu) wanted ISC-like bodies earlier.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Art 3, a bill reorganising a state requires:",
+  "options": [
+   "A constitutional amendment under Art 368",
+   "A referendum in the state",
+   "Only the President's recommendation and Parliament's simple-majority law; the state's views are not binding",
+   "The state's consent"
+  ],
+  "answer": 2,
+  "explanation": "Art 3: Parliament's law (simple majority) on the President's recommendation; the affected state legislature's views are not binding — 'indestructible union of destructible states' (contrast the USA's indestructible states).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 9th Schedule was added by the 1st Amendment (1951) largely to protect:",
+  "options": [
+   "Land-reform legislation — including Bihar's zamindari-abolition acts",
+   "Fundamental rights",
+   "Anti-defection law",
+   "Languages"
+  ],
+  "answer": 0,
+  "explanation": "Bihar Land Reforms litigation triggered the 1st Amendment's 9th Schedule (land-reform immunity). I.R. Coelho (2007): post-1973 9th-Schedule laws are judicially reviewable against basic structure.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which pair is correctly matched? (Allocation of seats in the councils of states; forms of oath; anti-defection; languages)",
+  "options": [
+   "RS seats — 4th; oath — 2nd; anti-defection — 8th; languages — 10th",
+   "RS seats — 5th; oath — 4th; anti-defection — 12th; languages — 8th",
+   "RS seats — 2nd Schedule; oath — 3rd",
+   "RS seats — 4th Schedule; oath — 3rd; anti-defection — 10th; languages — 8th"
+  ],
+  "answer": 3,
+  "explanation": "71st Q62 tested exactly this: RS allocation = 4th, oath = 3rd, anti-defection = 10th, languages = 8th. (2nd = salaries; 5th/6th = scheduled areas/tribes.)",
+  "difficulty": "pyq",
+  "pyq_ref": "71st Q62 | null"
+ },
+ {
+  "q": "Inter-state river water disputes are resolved by tribunals under:",
+  "options": [
+   "Article 262 — Parliament's law (Inter-State Water Disputes Act 1956); tribunal awards exclude SC jurisdiction",
+   "Article 131 (SC original jurisdiction) exclusively",
+   "The Supreme Court's writ jurisdiction",
+   "The Inter-State Council"
+  ],
+  "answer": 0,
+  "explanation": "Art 262: Parliament may exclude SC/other jurisdiction over inter-state water disputes — the 1956 Act's tribunals (Cauvery, Krishna, Mahadayi); the 2019 amendment creates a single permanent tribunal. Bihar angle: Kosi/Gandak pacts with Nepal are international, not inter-state.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Sarkaria Commission's key recommendation on Governors was:",
+  "options": [
+   "Abolition of the post",
+   "Appointment of an eminent person (not active politician), removal only by impeachment-like process, and non-arbitrariness",
+   "Direct election by voters",
+   "Election by the state legislature"
+  ],
+  "answer": 1,
+  "explanation": "Sarkaria (1988): eminent non-partisan persons, active politicians avoided, fixed tenure conventions, removal via due process. Punchhi added security of tenure recommendations. Neither implemented in practice.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "'Cooperative federalism' as a judicial idiom was most famously invoked in:",
+  "options": [
+   "Golak Nath",
+   "S.R. Bommai v. Union of India",
+   "State of West Bengal v. Union of India",
+   "Kesavananda Bharati"
+  ],
+  "answer": 1,
+  "explanation": "Bommai (1994): federalism = basic structure; Art 356 judicially reviewable; floor tests mandatory; 'cooperative federalism' as the governing spirit — the case that tamed President's rule.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which Schedule distributes powers over 'Forests'?",
+  "options": [
+   "Union List always",
+   "Residuary category",
+   "State List only till 1976; now Concurrent",
+   "Concurrent List originally"
+  ],
+  "answer": 2,
+  "explanation": "Forests: State List → Concurrent (42nd Amdt 1976) (with education, weights & measures, wildlife, justice administration, population control).",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 15th Finance Commission's vertical devolution to states was:",
+  "options": [
+   "41%",
+   "45%",
+   "42%",
+   "32%"
+  ],
+  "answer": 0,
+  "explanation": "15th FC (N.K. Singh): 41% vertical devolution (from 42% after J&K's reorganisation). Horizontal criteria: income distance 45%, population 15%, area 15%, demographic performance 12.5%, forest ecology 10% — Bihar ranks first on income distance, making it a top gainer.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "Zonal Councils were created by:",
+  "options": [
+   "The States Reorganisation Act 1956 (statutory)",
+   "The Constitution (Art 263)",
+   "The GST Council's resolution",
+   "A presidential order under Art 356"
+  ],
+  "answer": 0,
+  "explanation": "Zonal Councils = statutory (States Reorganisation Act 1956): 5 zones; chaired by the Union Home Minister; Bihar sits in the Eastern Zone (with WB, Odisha, Jharkhand + Sikkim's 2017 addition). ISC (Art 263) is constitutional — the classic distinction.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Under Article 200, when a state bill is presented to the Governor, he may:",
+  "options": [
+   "Only assent",
+   "Return it to the state legislature repeatedly",
+   "Assent, withhold, or reserve for the President",
+   "Amend the bill"
+  ],
+  "answer": 2,
+  "explanation": "Art 200: the Governor may assent, withhold, or reserve for the President (and may return a non-Money bill once for reconsideration). Under Art 201, the President may assent, withhold, or direct return. The 2024-25 SC timelines on 'deemed assent' for pending bills stem from here.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ },
+ {
+  "q": "Kerala's suit against the Centre over state borrowing limits (2023) was filed under:",
+  "options": [
+   "Article 32",
+   "Article 131 (SC original jurisdiction)",
+   "Article 356",
+   "Article 226"
+  ],
+  "answer": 1,
+  "explanation": "Kerala's fiscal-autonomy suit (borrowing-limit restrictions; net-borrowing ceiling) invoked Art 131 — the modern Centre-state litigation frontier; SC entertained the dispute — cooperative federalism's stress-test in 2024-25 news.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The phrase 'Union of States' in Article 1 conveys:",
+  "options": [
+   "A dominion status arrangement",
+   "A confederation of sovereign units",
+   "An indestructible union of destructible states — the federation is not the result of an agreement; states cannot secede",
+   "A unitary state without states"
+  ],
+  "answer": 2,
+  "explanation": "Ambedkar: 'Union' chosen over 'Federation' — no agreement, no secession; Art 3 makes states destructible while the Union endures. BPSC's most repeated polity-one-liner.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Which state's Legislative Assembly dissolution case is the landmark on Governors' mala fide reports?",
+  "options": [
+   "Bihar (2005)",
+   "Madhya Pradesh (2020)",
+   "Karnataka (1989)",
+   "Uttar Pradesh (1998)"
+  ],
+  "answer": 0,
+  "explanation": "Bihar 2005 (Rameshwar Prasad): Governor Buta Singh's report mala fide → dissolution unconstitutional. Karnataka 1989 fed Bommai; UP/MP cases are later applications.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The 42nd Amendment (1976) transferred which subjects from the State to the Concurrent List?",
+  "options": [
+   "Health and agriculture",
+   "Police and public order",
+   "Banking and currency",
+   "Education and forests"
+  ],
+  "answer": 3,
+  "explanation": "42nd Amdt: education, forests, weights & measures, protection of wild animals/birds, administration of justice, population control & family planning → Concurrent. Five subjects also moved to Union List.",
+  "difficulty": "pyq",
+  "pyq_ref": null
+ },
+ {
+  "q": "Bihar's share in the central divisible pool under the 15th Finance Commission is approximately:",
+  "options": [
+   "4%",
+   "10%",
+   "16%",
+   "2%"
+  ],
+  "answer": 1,
+  "explanation": "Bihar receives ~10% (10.06%) of the devolution — the largest per the horizontal formula (highest income distance). UP ~18% leads in absolute terms; Bihar's ~10% is second-tier — the 'fiscal federalism favours Bihar' line.",
+  "difficulty": "bpsc",
+  "pyq_ref": null
+ },
+ {
+  "q": "The Punchhi Commission (2010) on Centre-state relations recommended:",
+  "options": [
+   "Fixed tenure for Governors; Art 356 only after a floor test — a deep federal toolkit",
+   "Abolition of the Rajya Sabha",
+   "State autonomy in foreign affairs",
+   "Unitary conversion of the Constitution"
+  ],
+  "answer": 0,
+  "explanation": "Punchhi (2010): Governor's fixed tenure; Art 356 as a last resort after floor test; inter-state commerce reforms; ISC activation — the Sarkaria-plus package.",
+  "difficulty": "tricky",
+  "pyq_ref": null
+ }
+]

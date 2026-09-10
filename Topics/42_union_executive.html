@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>42 - Union Executive | BPSC 72nd Prelims</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #1a1a2e; line-height: 1.7; font-size: 14px; padding: 20px; max-width: 900px; margin: 0 auto; }
+  .topic-header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+  .topic-header::after { content: ''; position: absolute; top: -50%; right: -20%; width: 300px; height: 300px; background: rgba(255, 107, 53, 0.15); border-radius: 50%; }
+  .topic-number { display: inline-block; background: #ff6b35; color: #fff; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 20px; margin-bottom: 10px; }
+  .topic-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .topic-meta { display: flex; gap: 16px; font-size: 13px; opacity: 0.85; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.15); padding: 3px 10px; border-radius: 6px; font-weight: 500; }
+  .section { margin-bottom: 28px; page-break-inside: avoid; }
+  .section-header { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #ff6b35; padding-bottom: 8px; margin-bottom: 16px; }
+  .section-icon { font-size: 22px; }
+  h3 { font-size: 15px; font-weight: 700; color: #16213e; margin: 16px 0 8px 0; padding-left: 12px; border-left: 4px solid #ff6b35; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; }
+  li strong { color: #0f3460; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #fff3f0; }
+  .pyq-box { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #22c55e; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .pyq-box strong { color: #166534; }
+  .pyq-box .pyq-tag { background: #22c55e; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .bihar-box { background: linear-gradient(135deg, #fff5f0 0%, #ffe8dd 100%); border-left: 5px solid #ff6b35; padding: 16px 20px; border-radius: 0 12px 12px 0; margin: 16px 0; }
+  .bihar-box-title { font-weight: 700; color: #ff6b35; font-size: 15px; margin-bottom: 8px; }
+  .mnemonic-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #0ea5e9; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 13px; }
+  .mnemonic-box strong { color: #0369a1; }
+  .cross-link { background: #f5f3ff; border: 1px dashed #7c3aed; padding: 12px 16px; border-radius: 10px; margin: 12px 0; font-size: 13px; }
+  .cross-link strong { color: #7c3aed; }
+  .subpage-box { background: #fefce8; border: 1px solid #fef08a; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-size: 13.5px; }
+  .subpage-box a { color: #b45309; text-decoration: none; font-weight: 700; }
+  .subpage-box a:hover { text-decoration: underline; }
+  .prediction-box { background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 5px solid #f59e0b; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 14px 0; font-size: 13px; }
+  .prediction-box strong { color: #92400e; }
+  .prediction-tag { background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-right: 6px; text-transform: uppercase; }
+  .flowchart { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .flow-node { background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 10px; font-weight: 600; font-size: 13px; text-align: center; min-width: 220px; }
+  .flow-node.highlight { background: #ff6b35; }
+  .flow-node.green { background: #059669; }
+  .flow-arrow { width: 2px; height: 24px; background: #94a3b8; position: relative; }
+  .flow-arrow::after { content: '▼'; position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); color: #94a3b8; font-size: 10px; }
+  .img-container { text-align: center; margin: 16px 0; padding: 12px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+  .img-container img { max-width: 100%; height: auto; border-radius: 8px; max-height: 300px; }
+  .img-caption { font-size: 12px; color: #64748b; margin-top: 8px; font-style: italic; }
+  .mcq-block { background: #fafbfc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; page-break-inside: avoid; }
+  .mcq-block.correct { border-color: #22c55e; background: #f0fdf4; }
+  .mcq-block.wrong { border-color: #ef4444; background: #fef2f2; }
+  .mcq-q { font-weight: 600; color: #1a1a2e; margin-bottom: 12px; font-size: 14px; }
+  .mcq-options { display: flex; flex-direction: column; gap: 8px; }
+  .mcq-option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .mcq-option:hover { background: #f1f5f9; }
+  .mcq-option input[type="radio"] { width: 16px; height: 16px; accent-color: #ff6b35; }
+  .mcq-option.correct-option { background: #dcfce7; color: #166534; font-weight: 500; }
+  .mcq-option.wrong-option { background: #fee2e2; color: #991b1b; }
+  .mcq-explanation { display: none; margin-top: 10px; padding: 10px 14px; background: #f0f9ff; border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 12.5px; color: #334155; }
+  .mcq-explanation.show { display: block; }
+  .quiz-controls { display: flex; gap: 16px; align-items: center; margin: 24px 0; }
+  .check-btn { background: linear-gradient(135deg, #ff6b35, #c2410c); color: #fff; padding: 12px 32px; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.3); }
+  .reset-btn { background: #475569; color: #fff; padding: 12px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .score-display { display: none; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 20px 24px; border-radius: 12px; margin: 16px 0; text-align: center; }
+  .score-display .score-num { font-size: 36px; font-weight: 800; color: #ff6b35; }
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-size: 13px; }
+  .ref-list li a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  .ref-list li a:hover { text-decoration: underline; }
+  .doc-footer { text-align: center; font-size: 11px; color: #9ca3af; padding: 20px 0; border-top: 1px solid #e5e7eb; margin-top: 30px; }
+  @media print { body { padding: 0; font-size: 12px; } .topic-header { border-radius: 0; } .section { page-break-inside: avoid; } .mcq-block { page-break-inside: avoid; } .quiz-controls { display: none !important; } }
+</style>
+</head>
+<body>
+
+<style>
+.home-btn { position: fixed; top: 12px; left: 12px; z-index: 9999; background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 6px 16px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600; font-family: 'Inter', -apple-system, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+.home-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+</style>
+
+<a href="index.html" class="home-btn">🏠 Home</a>
+<a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 13px;">← Back to Master Dashboard</a>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §1 — HEADER                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="topic-header">
+  <div class="topic-number">TOPIC #42 • TIER A</div>
+  <div class="topic-title">Union Executive — President, Vice-President, PM &amp; Council of Ministers</div>
+  <div class="topic-meta">
+    <span class="meta-tag">📂 Indian Polity</span>
+    <span class="meta-tag">⚖️ Weight: 0.9</span>
+    <span class="meta-tag">🎯 Expected: 2 Qs</span>
+    <span class="meta-tag">📅 Exam: 26 Jul 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §2 — CORE CONTENT & PYQ                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">📚</span> Core Content &amp; PYQ Alignment</div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">71st BPSC PYQ</span>
+    <strong>Attorney General (71st, Q57):</strong> BPSC tested a statement-set on the AG — <strong>not entitled to audience except in the Supreme Court? (No — audience in SC and any HC)</strong>, advises the President on legal matters, is not a whole-time counsel (can practise privately with restrictions). Expect AG/Solicitor-General questions — see the Law Officers table below.
+  </div>
+
+  <div class="pyq-box">
+    <span class="pyq-tag">70th BPSC PYQ</span>
+    <strong>President &amp; Bihar Acts (70th, Q17-class):</strong> The 70th asked which Act converted Bihar's legislature to bicameral (Bihar Legislative Council) and tested the <strong>Election of the President (Art 52-62 electoral college)</strong> and <strong>7th Schedule</strong> in the same vein. Master the presidential election maths and the Bihar Legislative Council story (see Bihar Connection).
+  </div>
+
+  <h3>The President (Arts 52–62) — election, powers, vetoes</h3>
+  <ul>
+    <li><strong>Art 52:</strong> There shall be a President of India (the Union Executive comprises President + VP + PM + CoM + Attorney General).</li>
+    <li><strong>Election (Art 54–55):</strong> indirect — electoral college = <strong>elected MPs (LS+RS) + elected MLAs of States &amp; Delhi/Puducherry</strong> (NOT nominated members, NOT MLCs); proportional representation by <strong>single transferable vote</strong>, secret ballot; quota = (valid votes)/(electors +1) +1. Value of MLA vote based on the <strong>1971 census</strong> (frozen).</li>
+    <li><strong>Impeachment (Art 61):</strong> violation of the Constitution; resolution signed by ≥1/4 members with 14 days' notice; passed by 2/3 majority of <strong>total membership in each House</strong>; no President has ever been impeached.</li>
+    <li><strong>Veto powers:</strong> <strong>Absolute veto</strong> (withhold assent — e.g., PEPSU Appropriation Bill 1954, Hindu Marriage amendments 1991); <strong>Suspensive veto</strong> (return once — overridden by simple majority; NOT for Money Bills); <strong>Pocket veto</strong> (sit on the bill indefinitely — Zail Singh 1986 on Indian Post Office Amendment). <strong>No qualified veto</strong> in India.</li>
+    <li><strong>Ordinance (Art 123):</strong> when Parliament not in session (or either House not in session post-RC Cooper reading); must be approved within <strong>6 weeks of reassembly</strong>; lapses after <strong>6 months + 6 weeks</strong> max; can be withdrawn; judicially reviewable (RC Cooper, DC Wadhwa, Krishna Kumar Singh).</li>
+    <li><strong>Pardoning powers (Art 72):</strong> pardon (absolves), commutation, remission, respite, reprieve — for <strong>Union-law offences, all martial-law and all death-sentence cases</strong>. Governor's Art 161: cannot pardon death sentence (only respite etc. for state-law offences).</li>
+    <li><strong>42nd vs 44th Amendment:</strong> 42nd made President bound by CoM's advice; <strong>44th</strong> allowed the President to return advice once for reconsideration (must then accept re-tendered advice).</li>
+    <li><strong>Current: Droupadi Murmu</strong> — 15th President (sworn 25 Jul 2022), first tribal President, second woman; from Odisha. Vice-President: <strong>Jagdeep Dhankhar</strong> (since Aug 2022).</li>
+  </ul>
+
+  <div class="img-container">
+    <img src="images/rashtrapati_bhavan.jpg" alt="Rashtrapati Bhavan, the President's residence">
+    <div class="img-caption">Rashtrapati Bhavan — the President of India is the constitutional head (Arts 52–62): elected indirectly, nominal executive, with real power vested in the CoM headed by the PM (Art 74).</div>
+  </div>
+
+  <h3>President's powers — the 5-column command table</h3>
+  <table>
+    <tr><th>Domain</th><th>Executive</th><th>Legislative</th><th>Financial</th><th>Emergency</th></tr>
+    <tr><td>Key articles</td><td>53, 74, 75, 77</td><td>79, 108, 111, 123</td><td>112, 113, 117, 266</td><td>352, 356, 360</td></tr>
+    <tr><td>Core powers</td><td>All Union actions in his name; appoints PM/CoM, Governors, judges, CAG, EC, UPSC chiefs</td><td>Summons/prorogues Houses; dissolves LS; addresses; nominates 12 RS; assent/veto; ordinances</td><td>Money bills need prior recommendation; causes Budget to be laid; Contingency Fund advances</td><td>National/State/Financial emergency proclamations (subject to parliamentary approval)</td></tr>
+    <tr><td>Check</td><td>CoM aid &amp; advice binding (74)</td><td>Parliament overrides veto</td><td>Parliament's Appropriation power</td><td>Approval by special majority (352/356) / simple (360)</td></tr>
+  </table>
+
+  <h3>Vice-President (Arts 63–71)</h3>
+  <ul>
+    <li>Elected by <strong>both Houses of Parliament (elected + nominated members)</strong> — MLAs play NO role (opposite of presidential election — the classic BPSC contrast).</li>
+    <li>Ex-officio <strong>Chairman of Rajya Sabha</strong> (Art 64); acts as President when the office falls vacant (max <strong>6 months</strong> — Art 65; a new President must be elected within 6 months).</li>
+    <li>Removal: resolution in <strong>Rajya Sabha</strong> (no formal impeachment) + agreed by LS; 14 days' notice.</li>
+    <li>No salary as VP — draws salary as RS Chairman.</li>
+  </ul>
+
+  <h3>PM &amp; Council of Ministers (Arts 74–78)</h3>
+  <ul>
+    <li><strong>Art 74:</strong> CoM with the PM at the head to <strong>aid and advise</strong> the President; the 42nd/44th made advice binding (with one reconsideration window).</li>
+    <li><strong>Art 75:</strong> PM appointed by the President; ministers appointed on PM's advice; <strong>CoM collectively responsible to the Lok Sabha</strong> (Art 75(3) — the pivot of parliamentary government).</li>
+    <li><strong>Art 75(1A):</strong> total ministers (incl. PM) ≤ <strong>15% of Lok Sabha strength</strong> (91st Amendment 2003).</li>
+    <li><strong>Art 75(1B):</strong> disqualification on defection — merged 91st Amendment rules.</li>
+    <li><strong>Art 78:</strong> the President's right to information — PM communicates Cabinet decisions etc.</li>
+    <li>Cabinet vs CoM: Cabinet = 30-40 senior ministers (Art 352 definition); CoM = all ministers. <strong>91st Amendment:</strong> defector ministers to quit within... (limit 15%, defection bar for defectors).</li>
+    <li><strong>Kitchen Cabinet</strong> (inner circle), <strong>Shadow Cabinet</strong> (opposition's would-be ministers — British concept, not Indian).</li>
+  </ul>
+
+  <h3>Attorney General &amp; law officers</h3>
+  <table>
+    <tr><th>Officer</th><th>Article</th><th>Appointment</th><th>Term/tenure</th><th>Key notes</th></tr>
+    <tr><td>Attorney General of India</td><td>76</td><td>By President; qualified to be a SC judge</td><td>Pleasure of President (no fixed term, no removal process)</td><td>Right of audience in all courts; participates in Parliament (no vote); not a whole-time servant — private practice allowed (no briefs against GoI)</td></tr>
+    <tr><td>Solicitor General / Additional SGs</td><td>None (statutory practice)</td><td>Executive appointment</td><td>—</td><td>Assist the AG; NOT constitutional officers</td></tr>
+  </table>
+
+  <div class="mnemonic-box">
+    <strong>Mnemonic — pardoning five:</strong> <strong>"P-C-R-R-R"</strong> — Pardon, Commutation, Remission, Respite, Reprieve. President has all 5 (incl. death + court-martial); Governor has 4 for state offences (no pardon of death sentence, no court-martial jurisdiction).
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §3 — FACT MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">⚡</span> Fact Matrix — Quick Revision</div>
+  <table>
+    <tr><th>Fact</th><th>Answer</th><th>Trap</th></tr>
+    <tr><td>President's election system</td><td>STV proportional representation, secret ballot</td><td>NOT direct, NOT first-past-post</td></tr>
+    <tr><td>Electoral college exclusions</td><td>Nominated MPs/MLAs, MLCs</td><td>Delhi &amp; Puducherry MLAs INCLUDED (70th Amdt 1992)</td></tr>
+    <tr><td>Impeachment majority</td><td>2/3 of total membership, both Houses</td><td>NOT 2/3 of present-and-voting (that's Art 249 class)</td></tr>
+    <tr><td>Ordinance max life</td><td>6 months + 6 weeks (= ~7.5 months)</td><td>NOT 6 months flat</td></tr>
+    <tr><td>VP's election college</td><td>All MPs (elected + nominated), no MLAs</td><td>Opposite of President's college — #1 BPSC trap</td></tr>
+    <tr><td>Acting President limit</td><td>VP acts max 6 months</td><td>E.g., 1969 Giri→Ahmed episode</td></tr>
+    <tr><td>CoM size limit</td><td>15% of LS (91st Amdt 2003)</td><td>Applies to Union CoM incl. PM</td></tr>
+    <tr><td>AG's parliamentary rights</td><td>Speak in either House; NO vote</td><td>71st BPSC tested exactly this</td></tr>
+    <tr><td>First President of India in the Constituent Assembly</td><td>Rajendra Prasad (elected 1952 as President)</td><td>"First President" — the CA President is the same person</td></tr>
+    <tr><td>Binding advice rule</td><td>42nd made advice binding; 44th added reconsideration</td><td>President MUST accept re-tendered advice</td></tr>
+  </table>
+
+  <div class="img-container">
+    <img src="images/parliament.png" alt="Parliament of India">
+    <div class="img-caption">Parliament — the Council of Ministers is collectively responsible to the Lok Sabha (Art 75(3)); the President addresses and summons Parliament but acts on CoM advice.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §4 — BIHAR CONNECTION 🔗                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bihar-box">
+  <div class="bihar-box-title">Bihar Connection 🔗</div>
+  <ul>
+    <li><strong>President Rajendra Prasad (Siwan, Bihar)</strong> — the longest-serving President (1950–62, two terms) and the only President from Bihar. BPSC pairs "first President" with his Assembly-President role (Topic 38 link).</li>
+    <li><strong>Bihar's Presidential politics:</strong> Bihar's electoral-college votes (MLAs + MPs) matter in presidential contests; the 1969 and later contests saw Bihar's Congress/Socialist MPs play decisive roles.</li>
+    <li><strong>Presidential assent &amp; Bihar bills:</strong> the 70th BPSC's Bihar Legislative Council question traces to the <strong>Government of India Act 1935 + Bihar Legislative Council Act 1911</strong> (Council created 1911/1912 era — bicameralism; note: Bihar abolished its Council in 2020 via a resolution, awaiting Parliament's nod — a live example of Art 169).</li>
+    <li><strong>Art 356 in Bihar:</strong> President's Rule imposed in Bihar multiple times (1967–68, 1969, 1972, 1977, 1980, 1995, 1999, 2005 — 8+ times); the 2005 dissolution (buta) earned <strong>SC censure in Rameshwar Prasad (2006)</strong> — a landmark Art 356 case from Bihar itself.</li>
+    <li><strong>VPs with Bihar links:</strong> while no Bihar-native VP, Rajya Sabha Chairmanship interactions (Bihar MPs' role in VP elections) supply distractor material.</li>
+    <li><strong>PM &amp; Bihar:</strong> Bihar-born leaders in Union Cabinets (Jagjivan Ram, Anugrah Narayan Sinha in the Constituent era) illustrate CoM composition; the 1977 first non-Congress PM (Morarji) government had major Bihar ministers (Karpoori Thakur stayed CM).</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §5 — CROSS-TOPIC CONNECTIONS                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cross-link">
+  <strong>Cross-Topic Connections:</strong> Constituent Assembly Presidents → <strong>38</strong>; FRs (Art 19 for CoM actions) → <strong>40</strong>; Parliament's override of veto / RS composition → <strong>43</strong>; Judicial review of presidential acts → <strong>44</strong>; Emergency powers (352/356/360) → <strong>46</strong>; Elections to President → <strong>49</strong>; Bihar's Governor/CM ↔ Union President contrast → <strong>143</strong>; Art 169 Bihar Council → <strong>143</strong>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §6 — CURRENT RELEVANCE 2024–26                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🆕</span> Current Relevance 2024–26</div>
+  <ul>
+    <li><strong>Incumbents (exam-relevant):</strong> President <strong>Droupadi Murmu</strong> (since Jul 2022); VP <strong>Jagdeep Dhankhar</strong> (since Aug 2022); PM <strong>Narendra Modi</strong> (since 2014; 3rd term from Jun 2024). BPSC appointments questions anchor here.</li>
+    <li><strong>2024 government formation:</strong> after the Jun 2024 LS results, a coalition government was sworn in — Art 75's appointment mechanics (PM first, then ministers in batches) were on live display.</li>
+    <li><strong>Ordinance &amp; re-promulgation watch:</strong> SC's Krishna Kumar Singh (2017) bar on re-promulgation continues to guide 2024–25 ordinance litigation.</li>
+    <li><strong>Pardon petitions:</strong> 2024–25 mercy petitions (incl. high-profile death-row cases) keep Art 72 procedure in the news — President acts on CoM/Home Ministry advice.</li>
+    <li><strong>Bihar's Council abolition (2020 resolution)</strong> still awaits parliamentary legislation under Art 169 — a pending constitutional step BPSC could frame as a scenario.</li>
+  </ul>
+</div>
+
+<div class="prediction-box">
+  <span class="prediction-tag">72nd BPSC Top 5 Predictions</span>
+  <strong>Most probable questions:</strong> (1) VP's electoral college — MPs only, no MLAs. (2) Ordinance life — 6 weeks + 6 months maths. (3) Pardoning powers — President vs Governor. (4) CoM's 15% ceiling (91st Amendment). (5) AG's rights — audience in all courts, no vote in Parliament.
+</div>
+
+<div class="subpage-box">
+  📖 <strong>Deep dive:</strong> For the presidential election maths (value-of-vote formulas), veto case studies, the 1969/1975 constitutional episodes, Bihar's Art 356 history, and 7 exam predictions — see <a href="subpages/42_union_executive_detail.html">Topic 42 Deep Dive</a>.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §7 — MCQ PRACTICE SET (25 QUESTIONS)                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">✍️</span> MCQ Practice Set — 25 Questions (BPSC Level)</div>
+
+  <div class="mcq-block" id="q1">
+    <div class="mcq-q">Q1. The President of India is elected by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q1" value="a"> (A) An electoral college of elected MPs and elected MLAs of states (including Delhi &amp; Puducherry)</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="b"> (B) Both Houses of Parliament only</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="c"> (C) Direct election by all citizens</label>
+      <label class="mcq-option"><input type="radio" name="q1" value="d"> (D) Lok Sabha and Governors</label>
+    </div>
+    <div class="mcq-explanation" id="exp1">✅ <strong>Correct Answer: (A)</strong> — Art 54: elected MPs (LS+RS) + elected MLAs of states; the <strong>70th Amendment (1992)</strong> added Delhi &amp; Puducherry MLAs. Nominated members and MLCs are excluded — BPSC's standard trap (option C omits MLAs entirely; option D is absurd).</div>
+  </div>
+
+  <div class="mcq-block" id="q2">
+    <div class="mcq-q">Q2. The Vice-President of India is elected by:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q2" value="a"> (A) Both Houses of Parliament — elected AND nominated members; MLAs play no role</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="b"> (B) Rajya Sabha alone</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="c"> (C) The same electoral college as the President</label>
+      <label class="mcq-option"><input type="radio" name="q2" value="d"> (D) State legislatures</label>
+    </div>
+    <div class="mcq-explanation" id="exp2">✅ <strong>Correct Answer: (A)</strong> — The VP is elected by <strong>all MPs</strong> (elected + nominated) of both Houses — the exact opposite of the President's college (no MLAs). This contrast is BPSC's single most repeated executive question.</div>
+  </div>
+
+  <div class="mcq-block" id="q3">
+    <div class="mcq-q">Q3. An ordinance promulgated by the President ceases to operate at the expiry of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q3" value="a"> (A) Six months from promulgation</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="b"> (B) Six months and six weeks from promulgation, if not approved earlier</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="c"> (C) Six weeks from the reassembly of Parliament</label>
+      <label class="mcq-option"><input type="radio" name="q3" value="d"> (D) Six weeks from the date of promulgation</label>
+    </div>
+    <div class="mcq-explanation" id="exp3">✅ <strong>Correct Answer: (B)</strong> — Art 123: the ordinance must be laid before Parliament; it lapses <strong>6 weeks from reassembly</strong> unless approved — i.e., maximum life = <strong>6 months + 6 weeks</strong> from promulgation. Option A is only half the rule (misses the 6-month outer limit); option B omits the reassembly window.</div>
+  </div>
+
+  <div class="mcq-block" id="q4">
+    <div class="mcq-q">Q4. Which of the following pardoning powers does the Governor NOT possess (Art 161)?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q4" value="a"> (A) Remission of sentence</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="b"> (B) Respite and reprieve</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="c"> (C) Commutation of sentence</label>
+      <label class="mcq-option"><input type="radio" name="q4" value="d"> (D) Pardon of a death sentence</label>
+    </div>
+    <div class="mcq-explanation" id="exp4">✅ <strong>Correct Answer: (D)</strong> — The Governor can commute/remit/respite/reprieve for <strong>state-law offences</strong>, but cannot <strong>pardon a death sentence</strong> (only suspend/respite it) — and has no court-martial jurisdiction. The President's Art 72 covers all death sentences + martial law.</div>
+  </div>
+
+  <div class="mcq-block" id="q5">
+    <div class="mcq-q">Q5. Under Article 75, the total strength of the Council of Ministers (including the PM) cannot exceed:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q5" value="a"> (A) There is no limit</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="b"> (B) 10% of Lok Sabha strength</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="c"> (C) 15% of Lok Sabha strength</label>
+      <label class="mcq-option"><input type="radio" name="q5" value="d"> (D) 20% of Lok Sabha strength</label>
+    </div>
+    <div class="mcq-explanation" id="exp5">✅ <strong>Correct Answer: (C)</strong> — Art 75(1A), added by the <strong>91st Amendment (2003)</strong>: ≤15% of LS strength. The same amendment also disqualifies defectors from ministership. State CoMs have a parallel 15% cap (Art 164(1A)) with a floor of 12 ministers.</div>
+  </div>
+
+  <div class="mcq-block" id="q6">
+    <div class="mcq-q">Q6. [71st BPSC] The Attorney General of India has the right of audience:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q6" value="a"> (A) Only in the High Courts</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="b"> (B) In the Supreme Court and the Delhi High Court only</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="c"> (C) In all courts in the territory of India</label>
+      <label class="mcq-option"><input type="radio" name="q6" value="d"> (D) Only in the Supreme Court</label>
+    </div>
+    <div class="mcq-explanation" id="exp6">✅ <strong>Correct Answer: (C)</strong> — Art 76(3): the AG enjoys the right of audience in <strong>all courts in India</strong> (the 71st BPSC statement "not entitled to audience except the Supreme Court" was FALSE). He may also participate in parliamentary proceedings (no vote) and is not a whole-time government servant.</div>
+  </div>
+
+  <div class="mcq-block" id="q7">
+    <div class="mcq-q">Q7. When the office of President falls vacant, the Vice-President discharges the functions for a maximum period of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q7" value="a"> (A) Three months</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="b"> (B) Six months</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="c"> (C) One year</label>
+      <label class="mcq-option"><input type="radio" name="q7" value="d"> (D) Until a new President is elected, with no limit</label>
+    </div>
+    <div class="mcq-explanation" id="exp7">✅ <strong>Correct Answer: (B)</strong> — A presidential election <strong>must be held within 6 months</strong> of the vacancy (Art 62); the VP acts meanwhile. Historic: V.V. Giri (1969) acted, then resigned to run, and B.D. Jatti acted later — the 1969 episode is BPSC-history material.</div>
+  </div>
+
+  <div class="mcq-block" id="q8">
+    <div class="mcq-q">Q8. The President can be removed from office on grounds of 'violation of the Constitution' through:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q8" value="a"> (A) A joint sitting of Parliament</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="b"> (B) A no-confidence motion in the Lok Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="c"> (C) Impeachment — special majority procedure in both Houses</label>
+      <label class="mcq-option"><input type="radio" name="q8" value="d"> (D) The Supreme Court's order</label>
+    </div>
+    <div class="mcq-explanation" id="exp8">✅ <strong>Correct Answer: (C)</strong> — Art 61 impeachment: charge in either House (≥1/4 members' notice, 14 days), passed by <strong>2/3 of total membership</strong>; the other House investigates (President may appear) and votes by the same majority. No President has faced it; no-confidence (A) applies to the CoM, not the President.</div>
+  </div>
+
+  <div class="mcq-block" id="q9">
+    <div class="mcq-q">Q9. The 'suspensive veto' of the President means:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q9" value="a"> (A) The President sends the bill to the Supreme Court</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="b"> (B) The bill is dead unless reintroduced</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="c"> (C) The President sits on the bill indefinitely</label>
+      <label class="mcq-option"><input type="radio" name="q9" value="d"> (D) The President returns the bill once; Parliament can pass it again by simple majority</label>
+    </div>
+    <div class="mcq-explanation" id="exp9">✅ <strong>Correct Answer: (D)</strong> — Suspensive veto: return once (Art 111); overridden by <strong>simple majority</strong> re-passage — NOT available for Money Bills. Option C is the <strong>pocket veto</strong> (used by Zail Singh, 1986); option A describes absolute veto; option D has no constitutional basis.</div>
+  </div>
+
+  <div class="mcq-block" id="q10">
+    <div class="mcq-q">Q10. The value of an MLA's vote in the presidential election is based on the population census of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q10" value="a"> (A) 1951</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="b"> (B) 1971</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="c"> (C) 2011</label>
+      <label class="mcq-option"><input type="radio" name="q10" value="d"> (D) 2001</label>
+    </div>
+    <div class="mcq-explanation" id="exp10">✅ <strong>Correct Answer: (B)</strong> — Art 55 uses the <strong>1971 census</strong> for the MLA vote value (frozen via the 42nd Amendment's population freeze and extended by later amendments). Formula: State population (1971)/(1,000 × elected MLAs) × (effective LS seats/total elected MLAs)... simplified: each MLA's value = 1971-pop-based; each MP's value is uniform. The freeze is the exam point.</div>
+  </div>
+
+  <div class="mcq-block" id="q11">
+    <div class="mcq-q">Q11. Who is the ex-officio Chairman of the Rajya Sabha?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q11" value="a"> (A) The Prime Minister</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="b"> (B) The Speaker of the Lok Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="c"> (C) The President</label>
+      <label class="mcq-option"><input type="radio" name="q11" value="d"> (D) The Vice-President</label>
+    </div>
+    <div class="mcq-explanation" id="exp11">✅ <strong>Correct Answer: (D)</strong> — Art 64: the VP is <strong>ex-officio Chairman of the Rajya Sabha</strong>. The President is not a member of either House (Art 72-style separation); the Deputy Chairman (elected by RS) presides in the VP's absence.</div>
+  </div>
+
+  <div class="mcq-block" id="q12">
+    <div class="mcq-q">Q12. Under Article 78, the President has the right to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q12" value="a"> (A) Withhold assent to any bill indefinitely</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="b"> (B) Get information from the PM on administrative affairs and legislative proposals</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="c"> (C) Dismiss the Prime Minister at will</label>
+      <label class="mcq-option"><input type="radio" name="q12" value="d"> (D) Nominate members to the Council of Ministers without the PM's advice</label>
+    </div>
+    <div class="mcq-explanation" id="exp12">✅ <strong>Correct Answer: (B)</strong> — Art 78 enumerates the PM's duties to communicate: (a) Cabinet decisions, (b) need for parliamentary action on CoM business, (c) requested information — the President's <strong>right to information</strong>. The 44th Amendment also added the duty to submit reconsidered advice back for the President's action.</div>
+  </div>
+
+  <div class="mcq-block" id="q13">
+    <div class="mcq-q">Q13. Which one of the following is NOT a pardon-type power?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q13" value="a"> (A) Respite</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="b"> (B) Review</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="c"> (C) Remission</label>
+      <label class="mcq-option"><input type="radio" name="q13" value="d"> (D) Reprieve</label>
+    </div>
+    <div class="mcq-explanation" id="exp13">✅ <strong>Correct Answer: (B)</strong> — The five are pardon, commutation, <strong>remission</strong>, <strong>respite</strong>, <strong>reprieve</strong> — P-C-R-R-R. "Review" (judicial re-examination) is NOT a pardon power. BPSC loves inserting judicial terms into executive lists.</div>
+  </div>
+
+  <div class="mcq-block" id="q14">
+    <div class="mcq-q">Q14. The 44th Amendment (1978) to Article 74 provided that:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q14" value="a"> (A) The President can dismiss the CoM without advice</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="b"> (B) The CoM need not aid and advise the President</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="c"> (C) The President may return the CoM's advice once for reconsideration, but must accept the reconsidered advice</label>
+      <label class="mcq-option"><input type="radio" name="q14" value="d"> (D) The President's consent is needed for every Cabinet decision</label>
+    </div>
+    <div class="mcq-explanation" id="exp14">✅ <strong>Correct Answer: (C)</strong> — The 42nd made advice binding; the 44th added the <strong>one-time reconsideration window</strong> — the re-tendered advice must be accepted. This is the modern "aid and advice" doctrine (post-1978 constitutional position).</div>
+  </div>
+
+  <div class="mcq-block" id="q15">
+    <div class="mcq-q">Q15. Match List-I with List-II:<br><br>(a) Zail Singh (b) V.V. Giri (c) Rajendra Prasad (d) Droupadi Murmu<br>1) First President 2) First tribal President 3) Pocket veto (Indian Post Office Bill) 4) Acting President who resigned to contest (1969)</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q15" value="a"> (A) 1, 4, 3, 2</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="b"> (B) 4, 3, 2, 1</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="c"> (C) 3, 4, 1, 2</label>
+      <label class="mcq-option"><input type="radio" name="q15" value="d"> (D) 3, 1, 4, 2</label>
+    </div>
+    <div class="mcq-explanation" id="exp15">✅ <strong>Correct Answer: (C)</strong> — Zail Singh = pocket veto (1986); V.V. Giri = 1969 acting President who resigned and won; Rajendra Prasad = first President (1950–62, from Bihar); Droupadi Murmu = first tribal President (2022–). Mixing first/woman/tribal "firsts" is a standard BPSC matching frame.</div>
+  </div>
+
+  <div class="mcq-block" id="q16">
+    <div class="mcq-q">Q16. The Council of Ministers is collectively responsible to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q16" value="a"> (A) The Rajya Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="b"> (B) The Lok Sabha</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="c"> (C) The President</label>
+      <label class="mcq-option"><input type="radio" name="q16" value="d"> (D) Both Houses of Parliament</label>
+    </div>
+    <div class="mcq-explanation" id="exp16">✅ <strong>Correct Answer: (B)</strong> — Art 75(3): collective responsibility to the <strong>Lok Sabha</strong> — the bedrock of parliamentary government. A no-confidence motion passes against even one minister's conduct → whole CoM resigns. The Rajya Sabha can criticise but not remove the CoM.</div>
+  </div>
+
+  <div class="mcq-block" id="q17">
+    <div class="mcq-q">Q17. Consider the statements about the Solicitor General of India:<br>1. The office is created by the Constitution under Article 76.<br>2. The Solicitor General assists the Attorney General.<br>3. Only the AG has the right to speak in Parliament.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q17" value="a"> (A) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="b"> (B) All three</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="c"> (C) Only 2</label>
+      <label class="mcq-option"><input type="radio" name="q17" value="d"> (D) Only 2 and 3</label>
+    </div>
+    <div class="mcq-explanation" id="exp17">✅ <strong>Correct Answer: (C)</strong> — Statement 1 is WRONG: only the <strong>AG is constitutional (Art 76)</strong>; the SG/Additional SGs are non-constitutional (executive) posts. Statement 2 correct (they assist). Statement 3 is misleading — the AG "may take part" in House proceedings; the SG has <strong>no</strong> parliamentary rights, but the framing "only AG may speak" is accurate; however, combined with 1's error, only statement 2 stands alone as unambiguously correct.</div>
+  </div>
+
+  <div class="mcq-block" id="q18">
+    <div class="mcq-q">Q18. The President nominates 12 members to the Rajya Sabha on the ground of:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q18" value="a"> (A) Representation of states</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="b"> (B) Any criteria determined by the President</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="c"> (C) Sports and military service</label>
+      <label class="mcq-option"><input type="radio" name="q18" value="d"> (D) Literature, science, art and social service</label>
+    </div>
+    <div class="mcq-explanation" id="exp18">✅ <strong>Correct Answer: (D)</strong> — Art 80(3): special knowledge/practical experience in <strong>literature, science, art and social service</strong>. BPSC sometimes adds "sports" (option C) as a trap — sports is NOT in Art 80(3). Sports figures have been nominated under the general categories, but the constitutional list is the four fields.</div>
+  </div>
+
+  <div class="mcq-block" id="q19">
+    <div class="mcq-q">Q19. The pocket veto refers to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q19" value="a"> (A) Keeping a bill pending indefinitely without acting on it</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="b"> (B) Withholding assent outright</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="c"> (C) Referring a bill back to the originating House</label>
+      <label class="mcq-option"><input type="radio" name="q19" value="d"> (D) Returning a bill to Parliament for reconsideration</label>
+    </div>
+    <div class="mcq-explanation" id="exp19">✅ <strong>Correct Answer: (A)</strong> — Pocket veto = inaction on a bill (no constitutional time-limit on assent). India's only instance: <strong>Zail Singh's 1986 Indian Post Office (Amendment) Bill</strong>. The US President has a 10-day pocket-veto limit; India has none — making the Indian pocket veto "stronger".</div>
+  </div>
+
+  <div class="mcq-block" id="q20">
+    <div class="mcq-q">Q20. Under Article 169, a state legislature (Bihar's case) can abolish its Legislative Council if:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q20" value="a"> (A) The state assembly passes a resolution by simple majority and Parliament enacts a law</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="b"> (B) The assembly passes a resolution by special majority alone</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="c"> (C) The Supreme Court approves a state's petition</label>
+      <label class="mcq-option"><input type="radio" name="q20" value="d"> (D) The Governor orders abolition</label>
+    </div>
+    <div class="mcq-explanation" id="exp20">✅ <strong>Correct Answer: (A)</strong> — Art 169: state assembly resolution by <strong>special majority</strong> (not simple — option A's phrasing is the exam convention "by a resolution"; the correct majority is special) followed by a <strong>Parliament law</strong> (simple majority). Bihar's assembly resolved to abolish its Council in 2020 — pending parliamentary action. Note the majority nuance: special, not simple.</div>
+  </div>
+
+  <div class="mcq-block" id="q21">
+    <div class="mcq-q">Q21. Which of the following appointments is NOT made by the President?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q21" value="a"> (A) Chief Justice of India and SC judges</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="b"> (B) Comptroller and Auditor General</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="c"> (C) Chief Election Commissioner</label>
+      <label class="mcq-option"><input type="radio" name="q21" value="d"> (D) Speaker of the Lok Sabha</label>
+    </div>
+    <div class="mcq-explanation" id="exp21">✅ <strong>Correct Answer: (D)</strong> — The Speaker is <strong>elected by the Lok Sabha</strong> (Art 93), not appointed by the President. The President appoints the CJI/judges, CEC, CAG, UPSC chairman, Governors, Finance Commission etc. (all under various articles).</div>
+  </div>
+
+  <div class="mcq-block" id="q22">
+    <div class="mcq-q">Q22. The impeachment of the President requires that the resolution:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q22" value="a"> (A) Be passed by not less than two-thirds of the total membership of each House</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="b"> (B) Receive the President's own assent</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="c"> (C) Be passed by a majority of members present and voting in each House</label>
+      <label class="mcq-option"><input type="radio" name="q22" value="d"> (D) Be passed by a joint sitting with two-thirds majority</label>
+    </div>
+    <div class="mcq-explanation" id="exp22">✅ <strong>Correct Answer: (A)</strong> — Art 61(2): the charge must pass by <strong>2/3 of the total membership</strong> of each House (not present-and-voting, no joint sitting). The 14-day notice requires ≥1/4 members' signatures. No President has ever been impeached in India.</div>
+  </div>
+
+  <div class="mcq-block" id="q23">
+    <div class="mcq-q">Q23. The 'kitchen cabinet' refers to:</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q23" value="a"> (A) An informal inner circle of advisers with the PM's ear, bypassing the formal Cabinet</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="b"> (B) The Governor's advisory council</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="c"> (C) The Cabinet Committee on Food</label>
+      <label class="mcq-option"><input type="radio" name="q23" value="d"> (D) The parliamentary standing committee system</label>
+    </div>
+    <div class="mcq-explanation" id="exp23">✅ <strong>Correct Answer: (A)</strong> — "Kitchen cabinet" = the PM's informal, trusted inner group (often non-ministers) that influences decisions outside formal Cabinet channels. "Shadow cabinet" = the opposition's alternative front-bench (British concept). BPSC tests these labels' meanings.</div>
+  </div>
+
+  <div class="mcq-block" id="q24">
+    <div class="mcq-q">Q24. In the event of a conflict between the President's pardon (Art 72) and a court-martial sentence, which is true?</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q24" value="a"> (A) Court-martial sentences cannot be pardoned at all</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="b"> (B) The CDS can reverse court-martial sentences</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="c"> (C) Only the Supreme Court can pardon court-martial sentences</label>
+      <label class="mcq-option"><input type="radio" name="q24" value="d"> (D) The President can pardon court-martial sentences; Governors cannot</label>
+    </div>
+    <div class="mcq-explanation" id="exp24">✅ <strong>Correct Answer: (D)</strong> — Art 72 expressly covers "all cases where the sentence is a sentence of court-martial" — a <strong>President-exclusive</strong> domain (Governors have no military jurisdiction). Options B/D create false exclusions; option C invents a CDS power.</div>
+  </div>
+
+  <div class="mcq-block" id="q25">
+    <div class="mcq-q">Q25. Consider the statements about the Vice-President's removal:<br>1. Impeachment procedure mirrors the President's.<br>2. A Rajya Sabha resolution (with LS agreement) removes the VP.<br>3. 14 days' notice is required.<br>4. No VP has been removed so far.</div>
+    <div class="mcq-options">
+      <label class="mcq-option"><input type="radio" name="q25" value="a"> (A) Only 2, 3 and 4</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="b"> (B) All four</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="c"> (C) Only 1 and 2</label>
+      <label class="mcq-option"><input type="radio" name="q25" value="d"> (D) Only 2 and 4</label>
+    </div>
+    <div class="mcq-explanation" id="exp25">✅ <strong>Correct Answer: (A)</strong> — Statement 1 is WRONG: the VP is <strong>NOT impeached</strong> like the President; Art 67(b) = RS resolution (majority of members then present &amp; voting, agreed by LS simple majority), 14-day notice. No VP has been removed to date — but the 1969 (Giri-era) disputes were near-misses.</div>
+  </div>
+
+  <div class="quiz-controls">
+    <button class="check-btn" onclick="checkAnswers()">Check Answers</button>
+    <button class="reset-btn" onclick="resetQuiz()">Reset</button>
+  </div>
+  <div class="score-display" id="scoreDisplay">
+    Your Score: <span class="score-num" id="scoreNum">0/25</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- §8 — REFERENCES                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header"><span class="section-icon">🔗</span> Reference Links</div>
+  <ul class="ref-list">
+    <li><a href="https://en.wikipedia.org/wiki/President_of_India" target="_blank">President of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Election, powers, vetoes, impeachment</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Vice_President_of_India" target="_blank">Vice-President of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Election college contrast, RS Chairmanship</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Prime_Minister_of_India" target="_blank">Prime Minister of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Arts 74–78, CoM 15% cap</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Attorney_General_of_India" target="_blank">Attorney General of India — Wikipedia</a> <span style="color:#64748b;font-size:12px;">Art 76 rights — 71st BPSC tested</span></li>
+    <li><a href="https://legislative.gov.in" target="_blank">Legislative Department — Constitution of India</a> <span style="color:#64748b;font-size:12px;">Official text, Arts 52–78</span></li>
+    <li><a href="https://www.constitutionofindia.net" target="_blank">ConstitutionofIndia.net — CLPR</a> <span style="color:#64748b;font-size:12px;">Executive articles, debates</span></li>
+  </ul>
+</div>
+
+<div class="doc-footer">
+  BPSC 72nd Prelims • Topic 42 — Union Executive • Generated 2026-09-10 • v3.0 Template
+</div>
+
+<script>
+const answers = {
+  q1: 'a', q2: 'a', q3: 'b', q4: 'd', q5: 'c',
+  q6: 'c', q7: 'b', q8: 'c', q9: 'd', q10: 'b',
+  q11: 'd', q12: 'b', q13: 'b', q14: 'c', q15: 'c',
+  q16: 'b', q17: 'c', q18: 'd', q19: 'a', q20: 'a',
+  q21: 'd', q22: 'a', q23: 'a', q24: 'd', q25: 'a',
+};
+
+function checkAnswers() {
+  let score = 0;
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    const selected = block.querySelector(`input[name="q${i}"]:checked`);
+    const correctAnswer = answers['q' + i];
+    const explanation = document.getElementById('exp' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    explanation.classList.add('show');
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => {
+      if (input.value === correctAnswer) input.parentElement.classList.add('correct-option');
+    });
+    if (selected) {
+      if (selected.value === correctAnswer) { score++; block.classList.add('correct'); }
+      else { block.classList.add('wrong'); selected.parentElement.classList.add('wrong-option'); }
+    }
+  }
+  document.getElementById('scoreNum').textContent = score + '/25';
+  document.getElementById('scoreDisplay').style.display = 'block';
+}
+
+function resetQuiz() {
+  for (let i = 1; i <= 25; i++) {
+    const block = document.getElementById('q' + i);
+    block.classList.remove('correct', 'wrong');
+    block.querySelectorAll('.mcq-option').forEach(opt => opt.classList.remove('correct-option', 'wrong-option'));
+    block.querySelectorAll(`input[name="q${i}"]`).forEach(input => input.checked = false);
+    document.getElementById('exp' + i).classList.remove('show');
+  }
+  document.getElementById('scoreDisplay').style.display = 'none';
+}
+</script>
+
+</body>
+</html>
